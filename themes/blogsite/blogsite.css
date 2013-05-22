@@ -1,0 +1,58 @@
+/* Yellow blogsite style 0.1.0 */
+
+html, body, div, span { margin:0; padding:0; border:0; vertical-align:baseline; }
+body {
+	background-color:#fff; color:#373737;
+	font-family:"Helvetica Neue",Helvetica,sans-serif; 
+	font-size:1.0em; 
+	font-weight:300; 
+	line-height:1.5;
+}
+h1, h2, h3, h4, h5, h6 { color:#111; font-weight:normal; }
+h1 { font-size:1.75em; }
+hr { height:1px; background:#ddd; border:0; }
+a, img { border:none; text-decoration:none; }
+a { color:#373737; }
+a:hover { color:#07d; }
+.page { margin:0 auto; max-width:1000px; background-color:#fff; }
+.header { padding:0.5em 1.5em; }
+.header h1 { margin:0.4em 0; font-size:2.2em; } 
+.header a { color:#111; }
+.header-banner { 
+	padding-top:23%; 
+	background-image:url(blogsite.jpg); 
+	background-repeat:no-repeat; 
+	background-size:cover; 
+	background-position:center; 
+}
+.navigation { padding:0 0.5em; background-color:#000; line-height:2.5em; }
+.navigation a { color:#bbb; padding:0 1em; display:inline-block; }
+.navigation a:hover { color:#111; background-color:#eee; }
+.navigation li a.active { color:#fff; }
+.navigation li a.active:hover { color:#111; }
+.navigation li { display:inline; }
+.navigation ul { margin:0; padding:0; list-style:none; font-size:0.9em; }
+.content { padding:0.5em 1.5em; }
+.content a { color:#07d; }
+.content a:hover { color:#07d; text-decoration:underline; }
+.footer { margin:0 1.5em; padding:0.5em 0em; border-top:1px solid #ddd; }
+.yellow { margin:0 0.5em; }
+
+/* Responsive and print */
+
+@media screen and (min-width:62em) {
+	body { background-color:#e1e1e1; width:62em; margin:1em auto; }
+	.page { margin:0; max-width:62em; border:1px solid #bbb; }
+	.page { border-radius:4px; box-shadow:0 0 10px rgba(0, 0, 0, 0.2); }
+}
+@media screen and (max-width:30em) {
+	body { font-size:0.9em; }
+	.header h1, h1, h2 { font-size:1.2em; }
+	.header h1, .header, .navigation, .footer, .page { margin:0; padding:0; }
+	.header, .content, .footer { padding:0.5em; }
+}
+@media print {
+	body, h1, h2, h3, h4, h5, h6 { background-color:white; color:black; }
+	.page { border:none !important; }
+	.navigation, .footer { display:none !important; }
+}
