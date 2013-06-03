@@ -1,4 +1,4 @@
-/* Yellow coffeecream style 0.1.0 */
+/* Yellow coffeecream style 0.1.1 */
 
 @import url(http://fonts.googleapis.com/css?family=Norican);
 html, body, div, span { margin:0; padding:0; border:0; vertical-align:baseline; }
@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:400; 
 }
 hr { height:1px; background:#fda; border:0; }
+code { font-size:1.1em; }
 a, img { border:none; text-decoration:none; }
 a { color:#d20; }
 a:hover { color:#373737; }
@@ -40,7 +41,11 @@ a:hover { color:#373737; }
 .content { border:3px solid #fd9; border-top-width:0; }
 .content a { color:#d20; }
 .content a:hover { color:#d20; text-decoration:underline; }
+.content img { max-width:100%; height:auto; }
 .footer { padding:1em; text-align:center; }
+.left { float:left; margin:0 1em 0 0; }
+.center { display:block; margin:0 auto; }
+.right { float:right; margin:0 0 0 1em; }
 
 /* Responsive and print */
 

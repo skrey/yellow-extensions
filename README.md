@@ -1,9 +1,14 @@
 Yellow extensions
 =================
 
-A collection of extensions and documentation for [Yellow](https://github.com/markseu/yellowcms/).
+Yellow extensions and documentation **for people** who make websites.
 
-Have a look at existing extensions and how to install them.  
-For more information please see [Yellow documentation](documentation).
+How do I use extensions?
+------------------------
+Download and copy the extensions you like to your website.  
+[Yellow](https://github.com/markseu/yellowcms/) is open for improvements. Feedback is very welcome!
 
-Yellow is open for improvements. Suggestions? Your feedback is welcome!
+Need help? Have a question?
+---------------------------
+Visit [Yellow on Reddit](http://www.reddit.com/r/yellowcms/), 
+follow [Yellow on Twitter](https://twitter.com/yellowcms).
