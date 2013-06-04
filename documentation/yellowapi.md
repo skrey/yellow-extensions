@@ -97,16 +97,16 @@ Check if configuration exists
 
 $yellow->text
 -------------
-**$yellow->config->get($key)**  
+**$yellow->text->get($key)**  
 Return text string
 
-**$yellow->config->getHtml($key)**  
+**$yellow->text->getHtml($key)**  
 Return text string, HTML encoded
 
-**$yellow->config->getData($language, $filterStart = "")**  
+**$yellow->text->getData($language, $filterStart = "")**  
 Return text strings
 
-**$yellow->config->isExisting($key)**  
+**$yellow->text->isExisting($key)**  
 Check if text string exists
 
 Source code [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms)

@@ -5,7 +5,7 @@ All configuration is located in the **system folder**. You can change your websi
 
 ![Screenshot](picture_system.png?raw=true)
 
-The `config` folder contains configuration files. The `core` folder is for the Yellow software itself, its content changes only with a software update. The `plugins` folder is for Yellow plugins, with plugins it's possible to add new features. Most configuration happens in the `snippets` and `templates` folders, this is where the website layout and functionality is defined.
+The `config` folder contains configuration files. The `core` folder is for the Yellow software itself, its content changes only with a software update. The `plugins` folder is for Yellow plugins, to add new features. Most configuration happens in the `snippets` and `templates` folders, this is where the website layout and functionality is defined.
 
 Changes in system folders affect the entire website.
 
@@ -20,7 +20,7 @@ The main configuration file is `system/config/config.ini`. You can define the de
     template = default
     style = default
 
-Any setting can be overwritten in the meta data of a page (Info). Configuration files are stored in  [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
+Any setting can be overwritten in the meta data of a page (Info). Configuration files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
 
 Error handling
 --------------
