@@ -19,10 +19,10 @@ Here's how to use images. Open the file `content/1-home/page.txt` in your favori
 
 `![Image](about/picture.jpg){.right}` shows the image `http://website/images/about/picture.jpg` with style `right`
 
-All files are served exactly as they are, if you need different resolutions add multiple files to your website.
+All files are served exactly as they are, if you need different resolutions use multiple images.
 
 Style sheets
 ------------
-You can customize your website with [CSS](http://en.wikipedia.org/wiki/CSS). There's an overall style for the entire website. It's possible for a page to use a different style. An individual style can be defined in the meta data of a page (Info), for example `Style:blogsite` uses the file `media/styles/blogsite.css`.
+You can customize your website with [CSS](http://en.wikipedia.org/wiki/CSS). There's an overall style for the entire website. It's possible for a page to use a different style. An individual style can be defined in the meta data of a page (Info), for example `Style: blogsite` uses the file `media/styles/blogsite.css`.
 
 There are [Yellow themes](https://github.com/markseu/yellowcms-extensions/tree/master/themes) you can download.

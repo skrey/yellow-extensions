@@ -1,18 +1,24 @@
 Editing templates
 =================
 
-All templates are located in folder `system/templates` and written in [PHP](https://en.wikipedia.org/wiki/PHP). Here you define functionality and layout of your pages.
+All templates are located in the **system folder**.  You can define website layout and functionality here.
 
-There's a template called `default.php`, that's the default template for all pages. An individual template can be defined in the meta data of a page (Info), for example `Template:sitemap` uses the file `system/templates/sitemap.php`. Feel free to write your own templates, here's an example:
+![Screenshot](picture_templates.png?raw=true)
+
+A template controls the output of a page. The file `system/templates/default.php` is the default template of your website. An individual template can be defined in the meta data of a page (Info), for example `Template: welcome` uses the file `system/templates/welcome.php`. There are little limitations, templates can generate web pages and any other output format. Here's an example:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("navigation") ?>
-    <div class="content">More text on this page.</div>
+    <div class="content">
+    <?php echo $yellow->page->getContent() ?>
+    </div>
     <?php $yellow->snippet("footer") ?>
+
+Basically, write any [PHP](https://en.wikipedia.org/wiki/PHP) code you like.
 
 Snippets
 --------
-Snippets are pieces of PHP located in folder `system/snippets`. They allow to re-use the same code in multiple templates:
+Snippets are pieces of PHP located in the `snippets` folder. They allow to re-use the same code in multiple templates:
 
     <?php $yellow->snippet("navigation") ?>
 
@@ -20,7 +26,7 @@ You can pass arguments to snippets:
 
     <?php $yellow->snippet("pagination", $argument1, $argument2) ?>
 
-It's good to have a look at existing templates and snippets.
+Have a look at existing templates and snippets.
 
 Yellow API
 ----------
