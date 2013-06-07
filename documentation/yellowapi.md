@@ -8,6 +8,12 @@ $yellow main objects
 **$yellow->config** gives access to site configuration  
 **$yellow->text** gives access to site text strings  
 
+**$yellow->snippet($name, $args = NULL)**  
+Execute a template snippet
+
+**$yellow->plugin($name, $args = NULL)**  
+Execute a plugin command
+
 $yellow->page
 -------------
 **$yellow->page->get($key)**  
