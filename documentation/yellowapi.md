@@ -29,10 +29,10 @@ Return page title, HTML encoded
 Return page content, HTML encoded
 
 **$yellow->page->getLocation()**  
-Return absolut page location
+Return absolute page location
 
-**$yellow->page->getModified()**  
-Return page modification time (Unix time UTC)
+**$yellow->page->getModified($httpFormat = false)**  
+Return page modification time, Unix time
 
 **$yellow->page->getChildren($hidden = false)**  
 Return child pages relative to current page
@@ -76,13 +76,16 @@ Return current page number in pagination
 Return highest page number in pagination
 
 **$pages->getLocationPage($pageNumber)**  
-Return absolut location for a page in pagination
+Return absolute location for a page in pagination
 
 **$pages->getLocationPrevious()**  
-Return absolut location for previous page in pagination
+Return absolute location for previous page in pagination
 
 **$pages->getLocationNext()**  
-Return absolut location for next page in pagination
+Return absolute location for next page in pagination
+
+**$pages->getModified($httpFormat = false)**  
+Return last modification time for page collection, Unix time
 
 **$pages->isPagination()**  
 Check if there is an active pagination

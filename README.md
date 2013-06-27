@@ -10,5 +10,6 @@ Download and copy the extensions you like to your website.
 
 Need help? Have a question?
 ---------------------------
+Looking for something, then get in touch with others.  
 Visit [Yellow on Reddit](http://www.reddit.com/r/yellowcms/), 
 follow [Yellow on Twitter](https://twitter.com/yellowcms).

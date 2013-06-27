@@ -24,7 +24,7 @@ Let's have a look at content files. Open the file `content/1-home/page.txt` in y
     More text on this page.  
     Have fun making your website.
 
-Feel free to use multiple languages and international characters. Content files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).  
+Feel free to use multiple languages and international characters. Content files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8), dates in [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601).  
 
 Text formatting
 ---------------
