@@ -35,7 +35,7 @@ Here are the main objects for templates and snippets:
 
 **$yellow->page** is the current page data  
 **$yellow->pages** is the current page tree from file system  
-**$yellow->config** gives access to site configuration  
-**$yellow->text** gives access to site text strings  
+**$yellow->config** gives access to configuration  
+**$yellow->text** gives access to text strings  
 
 For an overview see [Yellow API Cheatsheet](yellowapi.md).

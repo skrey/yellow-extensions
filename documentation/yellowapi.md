@@ -5,8 +5,8 @@ $yellow main objects
 --------------------
 **$yellow->page** is the current page data  
 **$yellow->pages** is the current page tree from file system  
-**$yellow->config** gives access to site configuration  
-**$yellow->text** gives access to site text strings  
+**$yellow->config** gives access to configuration  
+**$yellow->text** gives access to text strings  
 
 **$yellow->snippet($name, $args = NULL)**  
 Execute a template snippet
@@ -34,10 +34,10 @@ Return absolute page location
 **$yellow->page->getModified($httpFormat = false)**  
 Return page modification time, Unix time
 
-**$yellow->page->getChildren($hidden = false)**  
+**$yellow->page->getChildren($showHidden = false)**  
 Return child pages relative to current page
 
-**$yellow->page->getSiblings($hidden = false)**  
+**$yellow->page->getSiblings($showHidden = false)**  
 Return pages on the same level as current page
 
 **$yellow->page->getParent()**  
@@ -46,15 +46,21 @@ Return parent page relative to current page
 **$yellow->page->isExisting($key)**  
 Check if meta data exists
 
+**$yellow->page->isError()**  
+Check if page error happened
+
 **$yellow->page->isActive()**  
 Check if page is within current HTTP request
 
-**$yellow->page->isHidden()**  
-Check if page is hidden in navigation
+**$yellow->page->isVisible()**  
+Check if page is visible in navigation
+
+**$yellow->page->isCacheable()**  
+Check if page is cacheable
 
 $yellow->pages + $pages
 -----------------------
-**$yellow->pages->root($hidden = false)**  
+**$yellow->pages->root($showHidden = false)**  
 Return top-level navigation pages
 
 The following works for any collection of pages,  
