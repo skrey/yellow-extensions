@@ -60,14 +60,23 @@ Check if page is cacheable
 
 $yellow->pages + $pages
 -----------------------
+**$yellow->pages->index($showHidden = false, $levelMax = 0)**  
+Return pages from file system
+
 **$yellow->pages->root($showHidden = false)**  
 Return top-level navigation pages
+
+**$yellow->pages->find($location, $absoluteLocation = false)**  
+Find a specific page
 
 The following works for any collection of pages,  
 e.g methods that return more than one page. 
 
 **$pages->filter($key, $value, $exactMatch = true)**  
 Filter page collection by meta data
+
+**$pages->merge($input)**  
+Merge page collection
 
 **$pages->reverse($entriesMax = 0)**  
 Reverse page collection
@@ -119,7 +128,7 @@ Return text string
 Return text string, HTML encoded
 
 **$yellow->text->getData($language, $filterStart = "")**  
-Return text strings
+Return text strings for specific language
 
 **$yellow->text->isExisting($key)**  
 Check if text string exists
