@@ -14,6 +14,9 @@ Execute a template snippet
 **$yellow->plugin($name, $args = NULL)**  
 Execute a plugin command
 
+**$yellow->header($text)**  
+Set a response header
+
 $yellow->page
 -------------
 **$yellow->page->get($key)**  
@@ -34,6 +37,9 @@ Return absolute page location
 **$yellow->page->getModified($httpFormat = false)**  
 Return page modification time, Unix time
 
+**$yellow->page->getStatusCode($httpFormat = false)**  
+Return page status code
+
 **$yellow->page->getChildren($showHidden = false)**  
 Return child pages relative to current page
 
@@ -45,9 +51,6 @@ Return parent page relative to current page
 
 **$yellow->page->isExisting($key)**  
 Check if meta data exists
-
-**$yellow->page->isError()**  
-Check if page error happened
 
 **$yellow->page->isActive()**  
 Check if page is within current HTTP request
