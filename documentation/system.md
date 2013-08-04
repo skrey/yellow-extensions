@@ -20,10 +20,10 @@ The main configuration file is `system/config/config.ini`. You can define the de
     style = default
     parser = markdown
 
-Any setting can be overwritten in the meta data of a page (Info). Configuration files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
+These settings can be overwritten in the meta data of a page (Info). Configuration files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
 
 Error handling
 --------------
-Yellow will tell when something goes wrong. For example a missing file shows "File not found" with corresponding [HTTP status code](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes). The file `system/config/error404.txt` defines how missing file looks like. You have complete control over what's shown to visitors. 
+Yellow will tell when something goes wrong. For example a missing file shows "File not found" with corresponding [HTTP status code](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes). The file `system/config/error404.txt` defines how a missing file looks like. You have complete control over what's shown to visitors. 
 
 Check the web server logfile for further information.
