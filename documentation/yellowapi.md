@@ -40,14 +40,17 @@ Return page modification time, Unix time
 **$yellow->page->getStatusCode($httpFormat = false)**  
 Return page status code
 
-**$yellow->page->getChildren($showHidden = false)**  
-Return child pages relative to current page
+**$yellow->page->getParent()**  
+Return parent page relative to current page
+
+**$yellow->page->getParentTop()**  
+Return top-level parent page of current page
 
 **$yellow->page->getSiblings($showHidden = false)**  
 Return pages on the same level as current page
 
-**$yellow->page->getParent()**  
-Return parent page relative to current page
+**$yellow->page->getChildren($showHidden = false)**  
+Return child pages relative to current page
 
 **$yellow->page->isExisting($key)**  
 Check if meta data exists
@@ -66,13 +69,13 @@ $yellow->pages + $pages
 **$yellow->pages->index($showHidden = false, $levelMax = 0)**  
 Return pages from file system
 
-**$yellow->pages->root($showHidden = false)**  
-Return top-level navigation pages
+**$yellow->pages->top($showHidden = false)**  
+Return page collection with top-level navigation
 
 **$yellow->pages->find($location, $absoluteLocation = false)**  
-Find a specific page
+Return page collection with a specific page
 
-The following works for any collection of pages,  
+The following works for any page collection,  
 e.g methods that return more than one page. 
 
 **$pages->filter($key, $value, $exactMatch = true)**  
@@ -104,6 +107,12 @@ Return absolute location for next page in pagination
 
 **$pages->getModified($httpFormat = false)**  
 Return last modification time for page collection, Unix time
+
+**$pages->first()**  
+Return first page in page collection
+
+**$pages->last()**  
+Return last page in page collection
 
 **$pages->isPagination()**  
 Check if there is an active pagination
@@ -137,4 +146,3 @@ Return text strings for specific language
 Check if text string exists
 
 Source code [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms)
-
