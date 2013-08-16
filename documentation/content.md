@@ -5,19 +5,21 @@ All content is located in the **content folder**. You can update your website by
 
 ![Screenshot](picture_content.png?raw=true)
 
-The standard installation of Yellow has three content folders. They are just an example to get you started, change them as you like. Folders with a prefix are automatically visible in the navigation. The prefix is removed from the location, for example the folder `content/2-services` is available as `http://website/services/`. Folders without prefix don't show up in the navigation.
+The standard installation of Yellow has three content folders. They are just an example to get you started, change them as you like. All content folders are available on your website. Every folder has a file called `page.txt`, that's the default page for a folder. To create more pages, add more txt-files into a folder.
 
 Basically, the structure you see in the file browser is the website you'll get.
 
 Files and folders
 -----------------
-Every folder has a file called `page.txt`, that's the default page for a folder. To create more pages, add more txt-files into a folder.  For example the file `content/2-services/webdesign.txt` is availabe as `http://website/services/webdesign`. Files and folders can have a prefix with numbers,  hyphen `-`, underscore `_` and  dot `.`. You can use the prefix for ordering pages:
+Files and folders can have a prefix with numbers,  hyphen `-`, underscore `_` and  dot `.`. You can order pages in three ways:
 
-* No prefix means files and folder are alphabetical ordered
-* Numerical prefix can be used for sorting, e.g. folder names`1-home` `2-services` `3-about`
-* Date prefix is also possible, e.g. file name `2013-04-07-blog-entry.txt` with date format `YYYY-MM-DD`
+* no prefix mean pages are in alphabetical order
+* numerical prefix can be used for manual sorting, e.g. folder names`1-home` `2-services` `3-about`
+* date prefix is also possible, e.g. file name `2013-04-07-blog-entry.txt` with date format `YYYY-MM-DD`
 
-The prefix and suffix are removed from the location.
+Prefix and suffix are removed from the location. For example the folder `content/2-services` is available on your website as `http://website/services/`, the file `content/2-services/webdesign.txt` is available as `http://website/services/webdesign`.
+
+A navigation is automatically created from content files and folders. Folders without prefix don't show up in the navigation.
 
 Content files
 -------------
@@ -41,7 +43,7 @@ and [HTML](http://en.wikipedia.org/wiki/HTML). Markdown is a good way to format 
 
 Emphasize text:
 
-`Normal text *italic* **bold**`
+`Normal *italic* **bold**`
 
 Make a link:
 
