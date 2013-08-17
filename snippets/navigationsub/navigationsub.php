@@ -1,5 +1,8 @@
+<?php list($name, $showDefault) = $yellow->getSnippetArgs() ?>
+<?php $pages = array() ?>
 <?php $page = $yellow->page->getParentTop() ?>
-<?php $pages = $page ? $page->getChildren() : array() ?>
+<?php if($page) $pages = (array)$page->getChildren() ?>
+<?php if($page && $showDefault) array_unshift($pages, $page) ?>
 <?php if(count($pages)): ?>
 <div class="navigation">
 <ul>
