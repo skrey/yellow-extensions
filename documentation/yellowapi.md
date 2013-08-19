@@ -81,10 +81,16 @@ e.g methods that return more than one page.
 **$pages->filter($key, $value, $exactMatch = true)**  
 Filter page collection by meta data
 
+**$pages->sort($key, $ascendingOrder = true)**  
+Sort page collection by meta data
+
 **$pages->merge($input)**  
 Merge page collection
 
-**$pages->reverse($entriesMax = 0)**  
+**$pages->limit($pagesMax)**  
+Limit the number of pages in page collection
+
+**$pages->reverse()**  
 Reverse page collection
 
 **$pages->pagination($limit, $reverse = true)**  

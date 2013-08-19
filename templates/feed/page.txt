@@ -1,0 +1,6 @@
+---
+Title: RSS feed
+Template: feed
+Description: Feed with latest updates
+---
+This page is automatically generated.

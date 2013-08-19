@@ -1,7 +1,7 @@
 <?php if($yellow->getRequestHandler() == "webinterface") { require_once("default.php"); return; } ?>
+<?php $pages = $yellow->pages->index(false, 3) ?>
 <?php echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<?php $pages = $yellow->pages->index(false, 3) ?>
 <?php foreach($pages as $page): ?>
 <url><loc><?php echo "http://".$yellow->config->get("serverName").$page->getLocation() ?></loc></url>
 <?php endforeach ?>
