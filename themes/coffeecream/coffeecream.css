@@ -1,7 +1,7 @@
 /* Yellow coffeecream style 0.1.2 */
 
 @import url(http://fonts.googleapis.com/css?family=Crafty+Girls);
-html, body, div, span { margin:0; padding:0; border:0; vertical-align:baseline; }
+html, body, div, pre, span { margin:0; padding:0; border:0; vertical-align:baseline; }
 body {
 	margin:1em 2em;
 	background-color:#feb; color:#d20;

@@ -11,4 +11,4 @@ How do I install this?
 2. Download [coffeecream.css](coffeecream.css?raw=true) and [coffeecream.png](coffeecream.png?raw=true), copy both files into your media/styles folder.  
 3. Use the theme on your website, open file `system/config/config.ini` and change `style = coffeecream`.  
 
-To uninstall simply delete the theme files and set default style.
+To uninstall delete the theme files and set default style.
