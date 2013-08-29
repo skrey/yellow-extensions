@@ -13,6 +13,7 @@ To uninstall delete the snippet and remove it from templates.
 
 Example
 -------
+Template with breadcrumbs below navigation:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("navigation") ?>

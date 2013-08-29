@@ -13,6 +13,7 @@ To uninstall delete the snippet and remove it from templates.
 
 Example
 -------
+Template with top-level navigation and tree:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("navigation") ?>
