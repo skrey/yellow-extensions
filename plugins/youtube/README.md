@@ -10,9 +10,9 @@ How do I install this?
 
 To uninstall delete the plugin.
 
-How to embedd a video?
-----------------------
-Create a shortcut in the format `[youtube ID]`,  you can add optional style, with and height.  
+How to embed a video?
+---------------------
+Create a shortcut in the format `[youtube ID]`,  you can add optional style, width and height.  
 ID is the last part of a link, e.g. `http://www.youtube.com/watch?v=fhs55HEl-Gc`. 
  
 Example

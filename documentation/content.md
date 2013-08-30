@@ -49,4 +49,10 @@ Make a link:
 
 `[Yellow](https://github.com/markseu/yellowcms)`
 
-For the most part, write text like you would do in an email and it becomes a web page.
+Make a list:
+
+    * item one
+    * item two
+    * item three
+
+For the most part, write text like you would do in an email and it becomes a web page. There are [plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins) you can download.
