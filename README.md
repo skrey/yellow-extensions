@@ -5,12 +5,12 @@ The [Yellow](https://github.com/markseu/yellowcms/) extensions are **for web des
 
 Overview
 --------
-Yellow is a CMS (Content Management System) for people who make websites. Change the look of your website with themes. Add videos and presentations to a website with plugins. Custom navigation or sitemap, have a look at snippets and templates. You can download any extension you like, this collection is open-source software.
+Yellow is a CMS (Content Management System) for people who make websites. Change the look of your website with themes. Add videos and presentations with plugins. You can customise a website in great detail with snippets and templates. Download the extensions you like.
 
+[Themes](https://github.com/markseu/yellowcms-extensions/tree/master/themes)  
 [Plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins)  
 [Snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets)  
 [Templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates)  
-[Themes](https://github.com/markseu/yellowcms-extensions/tree/master/themes)
 
 For more information see [Yellow documentation](https://github.com/markseu/yellowcms-extensions/blob/master/documentation/README.md).
 
