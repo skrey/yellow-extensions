@@ -14,20 +14,22 @@ To uninstall delete the plugin files and folder.
 
 How to highlight source code?
 -----------------------------
-Wrap your code blocks in \`\`\`, add an optional language identifier for syntax highlighting. All languages have individual colors and can be defined via style sheets. There's a `syntaxhighlight.css` which you can adjust or use in your own style sheets.
+Wrap your code blocks in \`\`\`, add an optional language identifier for syntax highlighting. For line numbers add a colon separated number to the language. All languages have individual colors and can be defined via style sheets. There's a `syntaxhighlight.css` which you can adjust or use in your own style sheets.
 
-The plugin uses [GeSHi](http://qbnz.com/highlighter/) for syntax highlighting, which supports about 200 markup and programming languages. The following languages are included: [CPP](http://en.wikipedia.org/wiki/C++), [CSS](http://en.wikipedia.org/wiki/CSS), [HTML](http://en.wikipedia.org/wiki/HTML), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [PHP](http://en.wikipedia.org/wiki/PHP).  You can download more languages from the Geshi website.
+The plugin uses [GeSHi](http://qbnz.com/highlighter/) for syntax highlighting, which supports about 200 markup and programming languages. The following languages are included: [CPP](http://en.wikipedia.org/wiki/C++), [CSS](http://en.wikipedia.org/wiki/CSS), [HTML](http://en.wikipedia.org/wiki/HTML), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [PHP](http://en.wikipedia.org/wiki/PHP). You can download more languages from the Geshi website.
 
 Example
 -------
-Syntax highlighting of HTML code:
+Syntax highlighting of HTML code, default and with line numbers:
 
     ```html
-    <!DOCTYPE html>
-    <html>
-    <head><title>Title</title></head>
     <body>
     <p>Hello world!</p>
     </body>
-    </html>
+    ```
+    
+    ```html:1
+    <body>
+    <p>Hello world!</p>
+    </body>
     ```

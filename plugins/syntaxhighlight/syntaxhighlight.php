@@ -5,7 +5,7 @@
 // Syntax highlight parser plugin
 class Yellow_Syntaxhighlight
 {
-	const Version = "0.1.1";
+	const Version = "0.1.2";
 	var $yellow;			//access to API
 	var $statusDone;		//syntax highlighting was done? (boolean)
 	
@@ -15,7 +15,7 @@ class Yellow_Syntaxhighlight
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("syntaxStyle", "syntaxhighlight");
 		$this->yellow->config->setDefault("syntaxStyleDefault", "0");
-		$this->yellow->config->setDefault("syntaxLineNumbers", "0");
+		$this->yellow->config->setDefault("syntaxLineNumber", "0");
 	}
 	
 	// Handle custom type parsing
@@ -25,11 +25,13 @@ class Yellow_Syntaxhighlight
 		if(!empty($name) && !$typeShortcut)
 		{
 			$this->statusDone = true;
+			list($name, $lineNumber) = explode(':', $name);
+			if(is_null($lineNumber)) $lineNumber = $this->yellow->config->get("syntaxLineNumber");
 			$geshi = new GeSHi(trim($text), $name);
 			$geshi->set_language_path($this->yellow->config->get("pluginDir")."/syntaxhighlight/");
 			$geshi->set_header_type(GESHI_HEADER_PRE_TABLE);
-			$geshi->enable_line_numbers($this->yellow->config->get("syntaxLineNumbers") ?
-				GESHI_NORMAL_LINE_NUMBERS : GESHI_NO_LINE_NUMBERS);
+			$geshi->enable_line_numbers($lineNumber ? GESHI_NORMAL_LINE_NUMBERS : GESHI_NO_LINE_NUMBERS);
+			$geshi->start_line_numbers_at($lineNumber);
 			$geshi->enable_classes(true);
 			$geshi->enable_keyword_links(false);
 			$output = "<code>".$geshi->parse_code()."</code>";
