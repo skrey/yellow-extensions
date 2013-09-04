@@ -5,9 +5,8 @@
 // Syntax highlight parser plugin
 class Yellow_Syntaxhighlight
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
-	var $statusDone;		//syntax highlighting was done? (boolean)
 	
 	// Initialise plugin
 	function initPlugin($yellow)
@@ -24,7 +23,6 @@ class Yellow_Syntaxhighlight
 		$output = NULL;
 		if(!empty($name) && !$typeShortcut)
 		{
-			$this->statusDone = true;
 			list($name, $lineNumber) = explode(':', $name);
 			if(is_null($lineNumber)) $lineNumber = $this->yellow->config->get("syntaxLineNumber");
 			$geshi = new GeSHi(trim($text), $name);
@@ -43,25 +41,22 @@ class Yellow_Syntaxhighlight
 	function onHeaderExtra()
 	{
 		$header = "";
-		if($this->statusDone)
+		if(!$this->yellow->config->get("syntaxStyleDefault"))
 		{
-			if(!$this->yellow->config->get("syntaxStyleDefault"))
+			$locationStyle = $this->yellow->config->get("serverBase");
+			$locationStyle .= $this->yellow->config->get("pluginLocation").$this->yellow->config->get("syntaxStyle").".css";
+			$fileNameStyle = $this->yellow->config->get("pluginDir").$this->yellow->config->get("syntaxStyle").".css";
+			if(is_file($fileNameStyle)) $header = "<link rel=\"styleSheet\" type=\"text/css\" media=\"all\" href=\"$locationStyle\" />\n";
+		} else {
+			$geshi = new GeSHi();
+			$geshi->set_language_path($this->yellow->config->get("pluginDir")."/syntaxhighlight/");
+			foreach($geshi->get_supported_languages() as $language)
 			{
-				$locationStyle = $this->yellow->config->get("serverBase");
-				$locationStyle .= $this->yellow->config->get("pluginLocation").$this->yellow->config->get("syntaxStyle").".css";
-				$fileNameStyle = $this->yellow->config->get("pluginDir").$this->yellow->config->get("syntaxStyle").".css";
-				if(is_file($fileNameStyle)) $header = "<link rel=\"styleSheet\" type=\"text/css\" media=\"all\" href=\"$locationStyle\" />\n";
-			} else {
-				$geshi = new GeSHi();
-				$geshi->set_language_path($this->yellow->config->get("pluginDir")."/syntaxhighlight/");
-				foreach($geshi->get_supported_languages() as $language)
-				{
-					if($language == "geshi") continue;
-					$geshi->set_language($language);
-					$output .= $geshi->get_stylesheet(false);
-				}
-				$header = "<style type=\"text/css\">\n$output</style>";
+				if($language == "geshi") continue;
+				$geshi->set_language($language);
+				$output .= $geshi->get_stylesheet(false);
 			}
+			$header = "<style type=\"text/css\">\n$output</style>";
 		}
 		return $header;
 	}
