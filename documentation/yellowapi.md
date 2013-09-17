@@ -25,9 +25,6 @@ Return page meta data
 **$yellow->page->getHtml($key)**  
 Return page meta data, HTML encoded
 
-**$yellow->page->getTitle()**  
-Return page title, HTML encoded
-
 **$yellow->page->getContent()**  
 Return page content, HTML encoded
 
@@ -72,6 +69,9 @@ Return pages from file system
 **$yellow->pages->top($showHidden = false)**  
 Return page collection with top-level navigation
 
+**$yellow->pages->path($location, $absoluteLocation = false)**  
+Return page collection with path ancestry
+
 **$yellow->pages->find($location, $absoluteLocation = false)**  
 Return page collection with a specific page
 
@@ -86,6 +86,12 @@ Sort page collection by meta data
 
 **$pages->merge($input)**  
 Merge page collection
+
+**$pages->append($page)**  
+Append to end of page collection
+
+**$pages->prepend($page)**  
+Prepend to start of page collection
 
 **$pages->limit($pagesMax)**  
 Limit the number of pages in page collection

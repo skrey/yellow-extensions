@@ -1,7 +1,7 @@
 Yellow documentation
 ====================
 
-The [Yellow](https://github.com/markseu/yellowcms) documentation is **for web designers and developers**. It will help you making websites with Yellow.
+The [Yellow](https://github.com/markseu/yellowcms) documentation is **for web designers**. It will help you making websites with Yellow.
 
 Overview
 --------

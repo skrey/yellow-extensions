@@ -1,7 +1,7 @@
 Yellow extensions
 =================
 
-The [Yellow](https://github.com/markseu/yellowcms/) extensions are **for web designers and developers**. They add more features to Yellow.
+The [Yellow](https://github.com/markseu/yellowcms/) extensions are **for web designers**. They add more features to Yellow.
 
 Overview
 --------

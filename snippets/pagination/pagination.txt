@@ -1,0 +1,2 @@
+paginationPrevious			= Previous
+paginationNext				= Next

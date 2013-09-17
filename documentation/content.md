@@ -11,9 +11,9 @@ Basically, the structure you see in the file browser is the website you'll get.
 
 Files and folders
 -----------------
-Files and folders can have a prefix with numbers,  hyphen `-`, underscore `_` and  dot `.`. You can order pages in three ways:
+Files and folders can have a prefix with numbers, hyphen `-`, underscore `_` and dot `.`. 
 
-* no prefix mean pages are in alphabetical order
+* no prefix mean pages are in alphabetical order, exactly as you see them in the file browser
 * numerical prefix can be used for manual sorting, e.g. folder names`1-home` `2-services` `3-about`
 * date prefix is also possible, e.g. file name `2013-04-07-blog-entry.txt` with date format `YYYY-MM-DD`
 
@@ -27,10 +27,9 @@ Let's have a look at content files. Open the file `content/1-home/page.txt` in y
 
     ---
     Title: Home
-    Author: Mark Seu
-    Published: 2013-04-07
+    TitleHeader: Yellow is a CMS for people who make websites
+    Author: Mark
     ---
-    Yes, your Yellow installation works!  
     More text on this page.  
     Have fun making your website.
 
@@ -55,4 +54,4 @@ Make a list:
     * item two
     * item three
 
-For the most part, write text like you would do in an email and it becomes a web page. There are [plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins) you can download.
+For the most part, write text like you would do in an email and it becomes a web page.

@@ -18,5 +18,5 @@ Template with breadcrumbs below navigation:
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("navigation") ?>
     <?php $yellow->snippet("breadcrumbs") ?>
-    <?php $yellow->snippet("content", $yellow->page->getTitle(), $yellow->page->getContent()) ?>
+    <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>

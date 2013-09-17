@@ -5,7 +5,7 @@
 // Syntax highlight parser plugin
 class Yellow_Syntaxhighlight
 {
-	const Version = "0.1.3";
+	const Version = "0.1.4";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
@@ -32,7 +32,8 @@ class Yellow_Syntaxhighlight
 			$geshi->start_line_numbers_at($lineNumber);
 			$geshi->enable_classes(true);
 			$geshi->enable_keyword_links(false);
-			$output = "<code>".$geshi->parse_code()."</code>";
+			$output = $geshi->parse_code();
+			$output = preg_replace("#<pre(.*?)>(.+?)</pre>#s", "<pre$1><code>$2</code></pre>", $output);
 		}
 		return $output;
 	}

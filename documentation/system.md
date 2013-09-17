@@ -20,15 +20,15 @@ The main configuration file is `system/config/config.ini`. You can define the de
     style = default
     parser = markdown
 
-These settings can be overwritten in the meta data of a page. Configuration files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
+These settings can also be overwritten in the meta data of a page. Configuration files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
 
 Templates
 ---------
-The default template is `system/templates/default.php`. A template controls the output of a page. An individual template can be defined in the meta data of a page, for example `Template: welcome` uses the file `system/templates/welcome.php`. There are little limitations, templates can generate web pages and other output formats. Here's an example:
+The default template is `system/templates/default.php`. A template controls the output of a page. An individual template can be defined in the meta data of a page, for example `Template: blog` uses the file `system/templates/blog.php`. There are little limitations, templates can generate web pages and any other output format. Here's an example:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("navigation") ?>
-    <?php $yellow->snippet("content", $yellow->page->getTitle(), $yellow->page->getContent()) ?>
+    <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
 
 Write any [PHP](https://en.wikipedia.org/wiki/PHP) code you like and use the [Yellow API](yellowapi.md) for common functionality.
@@ -41,7 +41,7 @@ Snippets are pieces of PHP located in the `snippets` folder. They allow to re-us
 
 You can pass arguments to snippets:
 
-    <?php $yellow->snippet("content", $argument1, $argument2) ?>
+    <?php $yellow->snippet("example", $argument1, $argument2) ?>
 
 Have a look at some of the existing snippets. There are [snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets)  and [templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates) you can download.
 

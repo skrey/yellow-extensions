@@ -18,5 +18,5 @@ Template with top-level and sub navigation:
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("navigation") ?>
     <?php $yellow->snippet("navigationsub") ?>
-    <?php $yellow->snippet("content", $yellow->page->getTitle(), $yellow->page->getContent()) ?>
+    <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
