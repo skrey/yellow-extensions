@@ -10,7 +10,7 @@ How do I install this?
 3. Download [pagination.php](https://github.com/markseu/yellowcms-extensions/blob/master/snippets/pagination/pagination.php?raw=true) from the pagination snippet, copy into your system/snippets folder. 
 4. Add these [text lines](blog.txt?raw=true) to your system/config/text_english.ini file.
 5. Create a new folder 'blog' in your content folder.
-6. Download [page.txt](page.txt?raw=true) and [2013-04-07-blog-article-example](2013-04-07-blog-article-example?raw=true), copy both files into your content/blog folder.
+6. Download [page.txt](page.txt?raw=true) and [2013-04-07-blog-article-example.txt](2013-04-07-blog-article-example.txt?raw=true), copy both files into your content/blog folder.
 
 To uninstall delete the blog templates and folder.
 
