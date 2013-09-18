@@ -11,15 +11,13 @@ Basically, the structure you see in the file browser is the website you'll get.
 
 Files and folders
 -----------------
-Files and folders can have a prefix with numbers, hyphen `-`, underscore `_` and dot `.`. 
+The website navigation is automatically created from your content folders. Folders without prefix don't show up in the navigation. The prefix for files and folders can contain numbers, hyphen `-`, underscore `_` and dot `.`:
 
 * no prefix mean pages are in alphabetical order, exactly as you see them in the file browser
-* numerical prefix can be used for manual sorting, e.g. folder names`1-home` `2-services` `3-about`
-* date prefix is also possible, e.g. file name `2013-04-07-blog-entry.txt` with date format `YYYY-MM-DD`
+* numerical prefix can be used for sorting, e.g. folder names`1-home` `2-services` `3-about`
+* date prefix is also possible, e.g. file name `2013-04-07-blog-article-example.txt` with date format `YYYY-MM-DD`
 
 Prefix and suffix are removed from the location. For example the folder `content/2-services` is available on your website as `http://website/services/`, the file `content/2-services/webdesign.txt` is available as `http://website/services/webdesign`.
-
-A navigation is automatically created from content files and folders. Folders without prefix don't show up in the navigation.
 
 Content files
 -------------
