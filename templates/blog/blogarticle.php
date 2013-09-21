@@ -7,13 +7,13 @@
 <div class="entry-content"><?php echo $yellow->page->getContent() ?></div>
 <div class="entry-footer">
 <?php if($yellow->page->isExisting("tag")): ?>
-<?php echo $yellow->text->getHtml("blogTag") ?> 
+<p><?php echo $yellow->text->getHtml("blogTag") ?> 
 <?php foreach(preg_split("/,\s*/", $yellow->page->get("tag")) as $tag): ?>
 <a href="<?php echo $yellow->page->getParent()->getLocation()."tag:".rawurlencode(strtoloweru($tag)) ?>"><?php echo htmlspecialchars($tag) ?></a>
 <?php endforeach ?>
+</p>
 <?php endif ?>
 </div>
 </div>
-<!--comments-->
 </div>
 <?php $yellow->snippet("footer") ?>
