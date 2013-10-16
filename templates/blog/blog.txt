@@ -2,5 +2,3 @@ blogBy						= by
 blogFilter					= Blog archive:
 blogTag						= Tags:
 blogMore					= Read more…
-paginationPrevious			= Previous
-paginationNext				= Next

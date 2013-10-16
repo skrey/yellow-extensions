@@ -25,8 +25,8 @@ Return page meta data
 **$yellow->page->getHtml($key)**  
 Return page meta data, HTML encoded
 
-**$yellow->page->getContent()**  
-Return page content, HTML encoded
+**$yellow->page->getContent($rawFormat = false)**  
+Return page content, HTML encoded or raw format
 
 **$yellow->page->getLocation()**  
 Return absolute page location
