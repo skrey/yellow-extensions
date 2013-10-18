@@ -10,7 +10,7 @@ How do I install this?
 3. Create a new folder 'sitemap' in your content folder.
 4. Download [page.txt](page.txt?raw=true), copy into your content/sitemap folder.
 
-To uninstall delete the sitemap template and folder.
+To uninstall delete the template files and folder.
 
 How to use a sitemap?
 ---------------------

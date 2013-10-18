@@ -10,7 +10,7 @@ How do I install this?
 3. Create a new folder 'feed' in your content folder.
 4. Download [page.txt](page.txt?raw=true), copy into your content/feed folder.
 
-To uninstall delete the feed template and folder.
+To uninstall delete the template files and folder.
 
 How to use a feed?
 ------------------

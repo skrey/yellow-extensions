@@ -7,11 +7,11 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
 2. Download [blog.php](blog.php?raw=true) and [blogarticle.php](blogarticle.php?raw=true), copy both files into your system/templates folder.  
-3. Add these [text lines](blog.txt?raw=true) to your system/config/text_english.ini file.
-4. Create a new folder 'blog' in your content folder.
-5. Download [page.txt](page.txt?raw=true) and [2013-04-07-blog-article-example.txt](2013-04-07-blog-article-example.txt?raw=true), copy both files into your content/blog folder.
+3. Create a new folder 'blog' in your content folder.
+4. Download [page.txt](page.txt?raw=true) and [2013-04-07-blog-article-example.txt](2013-04-07-blog-article-example.txt?raw=true), copy both files into your content/blog folder.
+5. Add these [text lines](text.ini?raw=true) to your system/config/text_english.ini file.
 
-To uninstall delete the blog templates and folder.
+To uninstall delete the template files and folder.
 
 How to write a blog?
 --------------------
