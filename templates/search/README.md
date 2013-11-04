@@ -22,12 +22,21 @@ The template does not work with a static website, it needs a Yellow installation
 Example
 -------
 
-Snippet with search form:
+Navigation snippet with search:
 
     ...
     <form action="<?php echo $yellow->pages->serverBase ?>/search/" method="post" class="search-form">
-    <input type="text" name="query" value="" class="search-text" />
-    <input type="submit" value="<?php echo $yellow->text->getHtml("searchButton") ?>" class="search-btn" />
+    <input type="text" name="query" value="" 
+     placeholder="<?php echo $yellow->text->getHtml("searchButton") ?>" class="search-text" />
     <input type="hidden" name="clean-url" />
     </form>
+    ...
+
+Style for search form:
+
+    ...
+    .navigation { position:relative; }
+    .navigation .search-form { position:absolute; top:0; right:0; }
+    .navigation .search-text { font-family:inherit; font-size:inherit; font-weight:inherit; margin:0; }
+    @media screen and (max-width:30em) { .navigation .search-form { display:none } }
     ...
