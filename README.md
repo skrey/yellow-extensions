@@ -16,6 +16,6 @@ For more information see [Yellow documentation](https://github.com/markseu/yello
 
 Need help? Have a question?
 ---------------------------
-Looking for something, then get in touch with others.  
+Looking for something, then get in touch with other users.  
 Visit [Yellow on Reddit](http://www.reddit.com/r/yellowcms/), 
 follow [Yellow on Twitter](https://twitter.com/yellowcms).
