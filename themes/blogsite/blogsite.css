@@ -15,6 +15,7 @@ code { font-size:1.1em; }
 a, img { border:none; text-decoration:none; }
 a { color:#373737; }
 a:hover { color:#07d; }
+.yellow { margin:0 0.5em; }
 .header { padding:0.5em 1.5em; }
 .header h1 { margin:0.4em 0; font-size:2.2em; } 
 .header a { color:#111; }
@@ -43,7 +44,6 @@ a:hover { color:#07d; }
 .left { float:left; margin:0 1em 0 0; }
 .center { display:block; margin:0 auto; }
 .right { float:right; margin:0 0 0 1em; }
-.yellow { margin:0 0.5em; }
 
 /* Responsive and print */
 
