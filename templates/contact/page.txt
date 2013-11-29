@@ -1,0 +1,7 @@
+---
+Title: Contact
+Template: contact
+Description: Contact page
+Email: user@user.com
+---
+This page is automatically generated.
