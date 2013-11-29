@@ -14,20 +14,19 @@ How do I install this?
 To uninstall delete the template files and folder.
 
 How to use a search?
----------------------
+--------------------
 The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. You can add a link or [HTML form](https://en.wikipedia.org/wiki/Form_(HTML)) to your navigation, see example below.
 
-The template does not work with a static website, it needs a Yellow installation. You can build static search result pages, anything else will return error message "Server-side scripting needed".
+The template does not work with static websites, it needs a Yellow installation.
 
 Example
 -------
 
-Navigation snippet with search:
+Navigation snippet with search form:
 
     ...
-    <form action="<?php echo $yellow->pages->serverBase ?>/search/" method="post" class="search-form">
-    <input type="text" name="query" value="" 
-     placeholder="<?php echo $yellow->text->getHtml("searchButton") ?>" class="search-text" />
+    <form class="search-form" action="<?php echo $yellow->pages->serverBase ?>/search/" method="post">
+    <input class="search-text" type="text" name="query" placeholder="<?php echo $yellow->text->getHtml("searchButton") ?>" />
     <input type="hidden" name="clean-url" />
     </form>
     ...

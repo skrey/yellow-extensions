@@ -3,9 +3,9 @@
 <?php $yellow->snippet("navigation") ?>
 <div class="content search">
 <h1><?php echo $yellow->page->getHtml("title") ?></h1>
-<form action="<?php echo $yellow->pages->serverBase ?>/search/" method="post" class="search-form">
-<input type="text" name="query" value="<?php echo htmlspecialchars($_REQUEST["query"]) ?>" class="search-text" />
-<input type="submit" value="<?php echo $yellow->text->getHtml("searchButton") ?>" class="search-btn" />
+<form class="search-form" action="<?php echo $yellow->page->getLocation() ?>" method="post">
+<input class="search-text" type="text" name="query" value="<?php echo htmlspecialchars($_REQUEST["query"]) ?>" />
+<input class="search-btn" type="submit" value="<?php echo $yellow->text->getHtml("searchButton") ?>" />
 <input type="hidden" name="clean-url" />
 </form>
 <?php foreach($pages as $page): ?>
@@ -16,12 +16,12 @@
 </div>
 <?php endforeach ?>
 <?php if(!count($pages)): ?>
-<p><?php echo $yellow->text->get(isset($_REQUEST["query"]) ? "searchResultsNone" : "searchQueryNone") ?></p>
+<p><?php echo $yellow->text->getHtml(isset($_REQUEST["query"]) ? "searchResultsNone" : "searchQueryNone") ?></p>
 <?php endif ?>
 <?php $yellow->snippet("pagination", $pages) ?>
 </div>
 <?php $yellow->snippet("footer") ?>
-<?php if(PHP_SAPI=="cli" && !isset($_REQUEST["query"])) $yellow->page->error(500, "Server-side scripting needed!") ?>
+<?php if(PHP_SAPI=="cli" && !isset($_REQUEST["query"])) $yellow->page->error(500, "Static website not supported!") ?>
 <?php $yellow->header("Last-Modified: ".$pages->getModified(true)) ?>
 <?php function getSearchPages($yellow, $limit, $query)
 {

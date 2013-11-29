@@ -6,13 +6,13 @@
 <channel>
 <title><?php echo $yellow->page->getHtml("titleHeader") ?></title>
 <description><?php echo $yellow->page->getHtml("description") ?></description>
-<link><?php echo "http://".$yellow->config->get("serverName").$yellow->page->getLocation() ?></link>
+<link><?php echo $yellow->page->getUrl() ?></link>
 <language><?php echo $yellow->page->getHtml("language") ?></language>
 <?php foreach($pages as $page): ?>
 <item>
 <title><![CDATA[<?php echo $page->getHtml("titleHeader") ?>]]></title>
-<link><?php echo "http://".$yellow->config->get("serverName").$page->getLocation() ?></link>
-<guid isPermaLink="false"><?php echo "http://".$yellow->config->get("serverName").$page->getLocation()."?".$page->getModified() ?></guid>
+<link><?php echo $page->getUrl() ?></link>
+<guid isPermaLink="false"><?php echo $page->getUrl()."?".$page->getModified() ?></guid>
 <description><![CDATA[<?php echo $yellow->toolbox->createTextDescription($page->getContent(), 350, false) ?>]]></description>
 </item>
 <?php endforeach ?>
