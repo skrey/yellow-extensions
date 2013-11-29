@@ -5,7 +5,7 @@
 // Draft status plugin
 class Yellow_Draft
 {
-	const Version = "0.1.1";
+	const Version = "0.1.2";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
@@ -24,7 +24,7 @@ class Yellow_Draft
 	// Handle page content parsing
 	function onParseContent($page, $text)
 	{
-		if($page->get("status") == "draft") $page->error($this->yellow->config->get("draftStatusCode"));
+		if($page->get("status") == "draft") $page->error($this->yellow->config->get("draftStatusCode"), "Page has 'draft' status!");
 	}
 }
 

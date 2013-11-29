@@ -14,11 +14,17 @@ Execute a template snippet
 **$yellow->plugin($name, $args = NULL)**  
 Execute a plugin command
 
-**$yellow->header($text)**  
+**$yellow->header($responseHeader)**  
 Set a response header
 
 $yellow->page
 -------------
+**$yellow->page->error($statusCode, $pageError = "")**  
+Respond with error page
+
+**$yellow->page->clean($statusCode, $responseHeader = "")**  
+Respond without page content
+
 **$yellow->page->get($key)**  
 Return page meta data
 
@@ -30,6 +36,9 @@ Return page content, HTML encoded or raw format
 
 **$yellow->page->getLocation()**  
 Return absolute page location
+
+**$yellow->page->getUrl()**  
+Return full page URL, with server name
 
 **$yellow->page->getModified($httpFormat = false)**  
 Return page modification time, Unix time
@@ -140,6 +149,9 @@ Return configuration, HTML encoded
 **$yellow->config->getData($filterEnd = "")**  
 Return configuration strings
 
+**$yellow->config->getModified($httpFormat = false)**  
+Return configuration modification time, Unix time
+
 **$yellow->config->isExisting($key)**  
 Check if configuration exists
 
@@ -154,7 +166,10 @@ Return text string, HTML encoded
 **$yellow->text->getData($language, $filterStart = "")**  
 Return text strings for specific language
 
+**$yellow->text->getModified($httpFormat = false)**  
+Return text modification time, Unix time
+
 **$yellow->text->isExisting($key)**  
 Check if text string exists
 
-Source code [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms)
+Source code [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms), License [GPLv2](http://opensource.org/licenses/GPL-2.0)
