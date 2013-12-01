@@ -3,7 +3,7 @@ Coffeecream theme
 
 Coffeecream is a colorful theme. 
 
-![Screenshot](coffeecream_screenshot.jpg?raw=true)
+![Screenshot](coffeecream-screenshot.jpg?raw=true)
 
 How do I install this?
 ----------------------

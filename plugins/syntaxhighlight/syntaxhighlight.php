@@ -3,13 +3,13 @@
 // This file may be used and distributed under the terms of the public license.
 
 // Syntax highlight parser plugin
-class Yellow_Syntaxhighlight
+class YellowSyntaxhighlight
 {
-	const Version = "0.1.4";
+	const Version = "0.1.5";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
-	function initPlugin($yellow)
+	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("syntaxStyle", "syntaxhighlight");
@@ -18,7 +18,7 @@ class Yellow_Syntaxhighlight
 	}
 	
 	// Handle custom type parsing
-	function OnParseType($name, $text, $typeShortcut)
+	function onParseType($name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if(!empty($name) && !$typeShortcut)
@@ -65,5 +65,5 @@ class Yellow_Syntaxhighlight
 	
 require_once("syntaxhighlight/geshi.php");
 
-$yellow->registerPlugin("syntaxhighlight", "Yellow_Syntaxhighlight", Yellow_Syntaxhighlight::Version);
+$yellow->registerPlugin("syntaxhighlight", "YellowSyntaxhighlight", YellowSyntaxhighlight::Version);
 ?>

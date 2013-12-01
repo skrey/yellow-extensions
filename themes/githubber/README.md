@@ -3,7 +3,7 @@ Githubber theme
 
 Githubber is a Github-like theme. 
 
-![Screenshot](githubber_screenshot.jpg?raw=true)
+![Screenshot](githubber-screenshot.jpg?raw=true)
 
 How do I install this?
 ----------------------

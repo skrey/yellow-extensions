@@ -3,20 +3,20 @@
 // This file may be used and distributed under the terms of the public license.
 
 // Soundcloud parser plugin
-class Yellow_Soundcloud
+class YellowSoundcloud
 {
-	const Version = "0.1.1";
+	const Version = "0.1.2";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
-	function initPlugin($yellow)
+	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("soundcloudStyle", "soundcloud");
 	}
 	
 	// Handle custom type parsing
-	function OnParseType($name, $text, $typeShortcut)
+	function onParseType($name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="soundcloud" && $typeShortcut)
@@ -34,5 +34,5 @@ class Yellow_Soundcloud
 	}
 }
 
-$yellow->registerPlugin("soundcloud", "Yellow_Soundcloud", Yellow_Soundcloud::Version);
+$yellow->registerPlugin("soundcloud", "YellowSoundcloud", YellowSoundcloud::Version);
 ?>

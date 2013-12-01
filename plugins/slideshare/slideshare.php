@@ -3,20 +3,20 @@
 // This file may be used and distributed under the terms of the public license.
 
 // Slideshare parser plugin
-class Yellow_Slideshare
+class YellowSlideshare
 {
-	const Version = "0.1.1";
+	const Version = "0.1.2";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
-	function initPlugin($yellow)
+	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("slideshareStyle", "flexible");
 	}
 	
 	// Handle custom type parsing
-	function OnParseType($name, $text, $typeShortcut)
+	function onParseType($name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="slideshare" && $typeShortcut)
@@ -32,5 +32,5 @@ class Yellow_Slideshare
 	}
 }
 
-$yellow->registerPlugin("slideshare", "Yellow_Slideshare", Yellow_Slideshare::Version);
+$yellow->registerPlugin("slideshare", "YellowSlideshare", YellowSlideshare::Version);
 ?>

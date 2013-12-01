@@ -172,4 +172,4 @@ Return text modification time, Unix time
 **$yellow->text->isExisting($key)**  
 Check if text string exists
 
-Source code [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms), License [GPLv2](http://opensource.org/licenses/GPL-2.0)
+Yellow 0.2.1, source [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms), license [GPLv2](http://opensource.org/licenses/GPL-2.0)

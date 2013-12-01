@@ -3,20 +3,20 @@
 // This file may be used and distributed under the terms of the public license.
 
 // Draft status plugin
-class Yellow_Draft
+class YellowDraft
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
-	function initPlugin($yellow)
+	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("draftStatusCode", "404");
 	}
 	
 	// Handle page meta data parsing
-	function OnParseMeta($page, $text)
+	function onParseMeta($page, $text)
 	{
 		if($page->get("status") == "draft") $page->visible = false;
 	}
@@ -28,5 +28,5 @@ class Yellow_Draft
 	}
 }
 
-$yellow->registerPlugin("draft", "Yellow_Draft", Yellow_Draft::Version);
+$yellow->registerPlugin("draft", "YellowDraft", YellowDraft::Version);
 ?>

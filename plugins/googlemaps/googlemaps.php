@@ -3,13 +3,13 @@
 // This file may be used and distributed under the terms of the public license.
 
 // Google map parser plugin
-class Yellow_Googlemaps
+class YellowGooglemaps
 {
-	const Version = "0.1.1";
+	const Version = "0.1.2";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
-	function initPlugin($yellow)
+	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("googlemapsZoom", "15");
@@ -17,7 +17,7 @@ class Yellow_Googlemaps
 	}
 	
 	// Handle custom type parsing
-	function OnParseType($name, $text, $typeShortcut)
+	function onParseType($name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="googlemaps" && $typeShortcut)
@@ -35,5 +35,5 @@ class Yellow_Googlemaps
 	}
 }
 
-$yellow->registerPlugin("googlemaps", "Yellow_Googlemaps", Yellow_Googlemaps::Version);
+$yellow->registerPlugin("googlemaps", "YellowGooglemaps", YellowGooglemaps::Version);
 ?>

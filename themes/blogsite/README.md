@@ -3,7 +3,7 @@ Blogsite theme
 
 Blogsite is a basic blogger theme. 
 
-![Screenshot](blogsite_screenshot.jpg?raw=true)
+![Screenshot](blogsite-screenshot.jpg?raw=true)
 
 How do I install this?
 ----------------------

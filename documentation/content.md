@@ -3,7 +3,7 @@ Adding content
 
 All content is located in the **content folder**. You can update your website by creating folders and editing text files.
 
-![Screenshot](picture_content.png?raw=true)
+![Screenshot](content-screenshot.png?raw=true)
 
 The standard installation of Yellow has three content folders. They are just an example to get you started, change them as you like. All content folders are available on your website. Every folder has a file called `page.txt`, that's the default page for a folder. To create more pages, add more txt-files into a folder.
 
