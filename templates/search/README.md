@@ -9,15 +9,15 @@ How do I install this?
 2. Download [search.php](search.php?raw=true), copy it into your system/templates folder.  
 3. Create a new folder 'search' in your content folder.
 4. Download [page.txt](page.txt?raw=true), copy it into your content/search folder.
-5. Add these [text lines](text.ini?raw=true) to your system/config/text_english.ini file.
+5. Add these [text lines](text.ini?raw=true) to your system/config/textenglish.ini file.
 
 To uninstall delete the template files and folder.
 
 How to use a search?
 --------------------
-The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. You can add a link or [HTML form](https://en.wikipedia.org/wiki/Form_(HTML)) to your navigation, see example below.
+The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. You can add a link or HTML form to your navigation, see example below.
 
-The template does not work with static websites, it needs a Yellow installation.
+This template does not work with static websites, it needs a Yellow installation.
 
 Example
 -------

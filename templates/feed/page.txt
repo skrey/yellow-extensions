@@ -1,6 +1,5 @@
 ---
-Title: RSS feed
+Title: Feed
 Template: feed
-Description: Feed with latest updates
 ---
 This page is automatically generated.

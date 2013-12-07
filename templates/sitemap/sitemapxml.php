@@ -1,0 +1,12 @@
+<?php if($yellow->getRequestHandler() == "webinterface") { require_once("default.php"); return; } ?>
+<?php $pages = $yellow->pages->index(false, 3) ?>
+<?php $home = $yellow->pages->find("/", false)->first() ?>
+<?php if($home && !$home->isVisible()) $pages->prepend($home) ?>
+<?php echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?php foreach($pages as $page): ?>
+<url><loc><?php echo $page->getUrl() ?></loc></url>
+<?php endforeach ?>
+</urlset>
+<?php $yellow->header("Content-Type: text/xml; charset=\"utf-8\"") ?>
+<?php $yellow->header("Last-Modified: ".$pages->getModified(true)) ?>

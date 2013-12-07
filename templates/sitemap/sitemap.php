@@ -1,12 +1,18 @@
-<?php if($yellow->getRequestHandler() == "webinterface") { require_once("default.php"); return; } ?>
 <?php $pages = $yellow->pages->index(false, 3) ?>
-<?php $home = $yellow->pages->find("/", false)->first() ?>
-<?php if($home && !$home->isVisible()) $pages->prepend($home) ?>
-<?php echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?php $pages = $pages->sort("title", false)->pagination(30); ?>
+<?php $yellow->snippet("header") ?>
+<?php $yellow->snippet("navigation") ?>
+<div class="content sitemap">
+<h1><?php echo $yellow->page->getHtml("title") ?></h1>
+<ul>
 <?php foreach($pages as $page): ?>
-<url><loc><?php echo $page->getUrl() ?></loc></url>
+<?php $sectionNew = htmlspecialchars(strtoupperu(substru($page->get("title"),0 ,1))); ?>
+<?php if($section != $sectionNew) { $section = $sectionNew; echo "</ul><h2>$section</h2><ul>\r\n"; } ?>
+<li><a href="<?php echo $page->getLocation() ?>"><?php echo $page->getHtml("title") ?></a></li>
 <?php endforeach ?>
-</urlset>
-<?php $yellow->header("Content-Type: text/xml; charset=\"utf-8\"") ?>
+</ul>
+<?php $yellow->snippet("pagination", $pages) ?>
+</div>
+<?php $yellow->snippet("footer") ?>
+<?php if($pages->getPaginationPage() > $pages->getPaginationCount()) $yellow->page->error(404) ?>
 <?php $yellow->header("Last-Modified: ".$pages->getModified(true)) ?>

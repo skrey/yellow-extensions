@@ -1,22 +1,18 @@
-<?php if($yellow->getRequestHandler() == "webinterface") { require_once("default.php"); return; } ?>
 <?php $pages = $yellow->pages->index(false, 3) ?>
-<?php $pages = $pages->sort("modified", false)->limit(10); ?>
-<?php echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n" ?>
-<rss version="2.0">
-<channel>
-<title><?php echo $yellow->page->getHtml("titleHeader") ?></title>
-<description><?php echo $yellow->page->getHtml("description") ?></description>
-<link><?php echo $yellow->page->getUrl() ?></link>
-<language><?php echo $yellow->page->getHtml("language") ?></language>
+<?php $pages = $pages->sort("modified", false)->pagination(30, false); ?>
+<?php $yellow->snippet("header") ?>
+<?php $yellow->snippet("navigation") ?>
+<div class="content feed">
+<h1><?php echo $yellow->page->getHtml("title") ?></h1>
+<ul>
 <?php foreach($pages as $page): ?>
-<item>
-<title><![CDATA[<?php echo $page->getHtml("titleHeader") ?>]]></title>
-<link><?php echo $page->getUrl() ?></link>
-<guid isPermaLink="false"><?php echo $page->getUrl()."?".$page->getModified() ?></guid>
-<description><![CDATA[<?php echo $yellow->toolbox->createTextDescription($page->getContent(), 350, false) ?>]]></description>
-</item>
+<?php $sectionNew = htmlspecialchars(date("Y-m-d", $page->getModified())); ?>
+<?php if($section != $sectionNew) { $section = $sectionNew; echo "</ul><h2>$section</h2><ul>\r\n"; } ?>
+<li><a href="<?php echo $page->getLocation() ?>"><?php echo $page->getHtml("title") ?></a></li>
 <?php endforeach ?>
-</channel>
-</rss>
-<?php $yellow->header("Content-Type: application/rss+xml; charset=\"utf-8\"") ?>
+</ul>
+<?php $yellow->snippet("pagination", $pages) ?>
+</div>
+<?php $yellow->snippet("footer") ?>
+<?php if($pages->getPaginationPage() > $pages->getPaginationCount()) $yellow->page->error(404) ?>
 <?php $yellow->header("Last-Modified: ".$pages->getModified(true)) ?>
