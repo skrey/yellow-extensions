@@ -9,13 +9,10 @@ $yellow main objects
 **$yellow->text** gives access to text strings  
 
 **$yellow->snippet($name, $args = NULL)**  
-Execute a template snippet
+Execute code snippet
 
 **$yellow->plugin($name, $args = NULL)**  
-Execute a plugin command
-
-**$yellow->header($responseHeader)**  
-Set a response header
+Execute plugin command
 
 $yellow->page
 -------------
@@ -24,6 +21,9 @@ Respond with error page
 
 **$yellow->page->clean($statusCode, $responseHeader = "")**  
 Respond without page content
+
+**$yellow->header($responseHeader)**  
+Add page response header, HTTP format
 
 **$yellow->page->get($key)**  
 Return page meta data
@@ -163,8 +163,8 @@ Return text string
 **$yellow->text->getHtml($key)**  
 Return text string, HTML encoded
 
-**$yellow->text->getData($language, $filterStart = "")**  
-Return text strings for specific language
+**$yellow->text->getData($filterStart = "", $language = "")**  
+Return text strings
 
 **$yellow->text->getModified($httpFormat = false)**  
 Return text modification time, Unix time
@@ -172,4 +172,4 @@ Return text modification time, Unix time
 **$yellow->text->isExisting($key)**  
 Check if text string exists
 
-Yellow 0.2.1, source [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms), license [GPLv2](http://opensource.org/licenses/GPL-2.0)
+Yellow 0.2.2, source [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms), license [GPLv2](http://opensource.org/licenses/GPL-2.0)

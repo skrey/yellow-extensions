@@ -35,7 +35,7 @@ Write any [PHP](https://en.wikipedia.org/wiki/PHP) code you like and use the [Ye
 
 Snippets
 --------
-Snippets are pieces of PHP located in the `snippets` folder. They allow to re-use the same code in multiple templates:
+Snippets are pieces of PHP code located in the `snippets` folder. They allow to re-use the same code in multiple templates:
 
     <?php $yellow->snippet("navigation") ?>
 
@@ -43,7 +43,7 @@ You can pass arguments to snippets:
 
     <?php $yellow->snippet("example", $argument1, $argument2) ?>
 
-Have a look at some of the existing snippets. There are [snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets)  and [templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates) you can download.
+Have a look at some of the existing snippets. There are [snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets) and [templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates) you can download.
 
 Error handling
 --------------

@@ -10,8 +10,7 @@ Yellow is a CMS (Content Management System) for people who make websites. Person
 [Adding content](content.md)  
 [Adding media](media.md)  
 [Configure system](system.md)  
-
-For developers there's the [Yellow API cheat sheet](yellowapi.md).
+[API for developers](yellowapi.md)
 
 Need help? Have a question?
 ---------------------------
