@@ -18,5 +18,5 @@
 <?php endforeach ?>
 </channel>
 </rss>
-<?php $yellow->header("Content-Type: application/rss+xml; charset=\"utf-8\"") ?>
-<?php $yellow->header("Last-Modified: ".$pages->getModified(true)) ?>
+<?php $yellow->page->header("Content-Type: application/rss+xml; charset=\"utf-8\"") ?>
+<?php $yellow->page->header("Last-Modified: ".$pages->getModified(true)) ?>

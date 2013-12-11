@@ -18,7 +18,7 @@
 </div>
 <?php $yellow->snippet("footer") ?>
 <?php if(PHP_SAPI == "cli") $yellow->page->error(500, "Static website not supported!") ?>
-<?php $yellow->header("Last-Modified: ".$yellow->text->getModified(true)) ?>
+<?php $yellow->page->header("Last-Modified: ".$yellow->text->getModified(true)) ?>
 <?php function getContactStatus($yellow, $spamFilter, $status)
 {
 	switch($status)

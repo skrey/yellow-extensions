@@ -8,5 +8,5 @@
 <url><loc><?php echo $page->getUrl() ?></loc></url>
 <?php endforeach ?>
 </urlset>
-<?php $yellow->header("Content-Type: text/xml; charset=\"utf-8\"") ?>
-<?php $yellow->header("Last-Modified: ".$pages->getModified(true)) ?>
+<?php $yellow->page->header("Content-Type: text/xml; charset=\"utf-8\"") ?>
+<?php $yellow->page->header("Last-Modified: ".$pages->getModified(true)) ?>

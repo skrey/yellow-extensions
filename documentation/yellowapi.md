@@ -22,7 +22,7 @@ Respond with error page
 **$yellow->page->clean($statusCode, $responseHeader = "")**  
 Respond without page content
 
-**$yellow->header($responseHeader)**  
+**$yellow->page->header($responseHeader)**  
 Add page response header, HTTP format
 
 **$yellow->page->get($key)**  
@@ -172,4 +172,4 @@ Return text modification time, Unix time
 **$yellow->text->isExisting($key)**  
 Check if text string exists
 
-Yellow 0.2.2, source [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms), license [GPLv2](http://opensource.org/licenses/GPL-2.0)
+Yellow 0.2.3, source [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms), license [GPLv2](http://opensource.org/licenses/GPL-2.0)

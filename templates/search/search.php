@@ -22,7 +22,7 @@
 </div>
 <?php $yellow->snippet("footer") ?>
 <?php if(PHP_SAPI=="cli" && !isset($_REQUEST["query"])) $yellow->page->error(500, "Static website not supported!") ?>
-<?php $yellow->header("Last-Modified: ".$pages->getModified(true)) ?>
+<?php $yellow->page->header("Last-Modified: ".$pages->getModified(true)) ?>
 <?php function getSearchPages($yellow, $limit, $query)
 {
 	$pages = $yellow->pages->create();

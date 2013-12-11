@@ -16,7 +16,7 @@
 </div>
 <?php $yellow->snippet("footer") ?>
 <?php if($pages->getPaginationPage() > $pages->getPaginationCount()) $yellow->page->error(404) ?>
-<?php $yellow->header("Last-Modified: ".$pages->getModified(true)) ?>
+<?php $yellow->page->header("Last-Modified: ".$pages->getModified(true)) ?>
 <?php function getBlogPages($yellow, $limit)
 {
 	$pages = $yellow->page->getChildren();
