@@ -24,7 +24,8 @@
 	switch($status)
 	{
 		case "send":	$status = sendMail($yellow, $spamFilter) ? "done" : "error";
-						$yellow->page->clean(303, "Location: ".$yellow->page->getUrl()."status:$status");
+						$locationSeparator =  $yellow->toolbox->isFileLocation($yellow->page->getLocation()) ? '/' : '';
+						$yellow->page->clean(303, "Location: ".$yellow->page->getUrl().$locationSeparator."status:$status");
 						break;
 		case "done":	$yellow->page->set("contactStatus", $yellow->text->get("contactStatusDone")); break;
 		case "error":	$yellow->page->error(500, $yellow->text->get("contactStatusError")); break;
