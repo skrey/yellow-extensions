@@ -16,7 +16,7 @@ How to highlight source code?
 -----------------------------
 Wrap your code blocks in \`\`\`, add an optional language identifier for syntax highlighting. For line numbers add a colon separated number to the language. All languages have individual colors and can be defined via style sheets. There's a `syntaxhighlight.css` which you can adjust or use in your own style sheets.
 
-The plugin uses [GeSHi](http://qbnz.com/highlighter/) for syntax highlighting, which supports about 200 markup and programming languages. The following languages are included: [CPP](http://en.wikipedia.org/wiki/C++), [CSS](http://en.wikipedia.org/wiki/CSS), [HTML](http://en.wikipedia.org/wiki/HTML), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [PHP](http://en.wikipedia.org/wiki/PHP). You can download more languages from the Geshi website.
+The plugin uses [GeSHi](https://github.com/GeSHi/geshi-1.0) for syntax highlighting, which supports about 200 markup and programming languages. The following languages are included: [CPP](http://en.wikipedia.org/wiki/C++), [CSS](http://en.wikipedia.org/wiki/CSS), [HTML](http://en.wikipedia.org/wiki/HTML), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [PHP](http://en.wikipedia.org/wiki/PHP). You can download more languages from the Geshi website.
 
 Example
 -------

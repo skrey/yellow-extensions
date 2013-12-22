@@ -5,7 +5,7 @@
 // Syntax highlight parser plugin
 class YellowSyntaxhighlight
 {
-	const Version = "0.1.5";
+	const Version = "0.1.6";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
@@ -47,7 +47,7 @@ class YellowSyntaxhighlight
 			$locationStyle = $this->yellow->config->get("serverBase");
 			$locationStyle .= $this->yellow->config->get("pluginLocation").$this->yellow->config->get("syntaxStyle").".css";
 			$fileNameStyle = $this->yellow->config->get("pluginDir").$this->yellow->config->get("syntaxStyle").".css";
-			if(is_file($fileNameStyle)) $header = "<link rel=\"styleSheet\" type=\"text/css\" media=\"all\" href=\"$locationStyle\" />\n";
+			if(is_file($fileNameStyle)) $header = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$locationStyle\" />\n";
 		} else {
 			$geshi = new GeSHi();
 			$geshi->set_language_path($this->yellow->config->get("pluginDir")."/syntaxhighlight/");
