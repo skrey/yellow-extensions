@@ -1,4 +1,14 @@
-<?php $pages = getBlogPages($yellow, 5) ?>
+<?php $pages = $yellow->page->getChildren(); ?>
+<?php $pagesFilter = array(); ?>
+<?php if($_REQUEST["tag"]) { $pages->filter("tag", $_REQUEST["tag"]); array_push($pagesFilter, ucfirst($_REQUEST["tag"])); } ?>
+<?php if($_REQUEST["author"]) { $pages->filter("author", $_REQUEST["author"]); array_push($pagesFilter, ucfirst($_REQUEST["author"])); } ?>
+<?php if($_REQUEST["published"]) { $pages->filter("published", $_REQUEST["published"], false); array_push($pagesFilter, $_REQUEST["published"]); } ?>
+<?php $pages->pagination(5); ?>
+<?php if(!empty($pagesFilter)): ?>
+<?php $title = implode(' ', $pagesFilter); ?>
+<?php $yellow->page->set("titleHeader", $title." - ".$yellow->page->get("sitename")); ?>
+<?php $yellow->page->set("titleBlog", $yellow->text->get("blogFilter")." ".$title); ?>
+<?php endif ?>
 <?php $yellow->snippet("header") ?>
 <?php $yellow->snippet("navigation") ?>
 <div class="content blog">
@@ -17,19 +27,3 @@
 <?php $yellow->snippet("footer") ?>
 <?php if($pages->getPaginationPage() > $pages->getPaginationCount()) $yellow->page->error(404) ?>
 <?php $yellow->page->header("Last-Modified: ".$pages->getModified(true)) ?>
-<?php function getBlogPages($yellow, $limit)
-{
-	$pages = $yellow->page->getChildren();
-	$pagesFilter = array();
-	if($_REQUEST["tag"]) { $pages->filter("tag", $_REQUEST["tag"]); array_push($pagesFilter, ucfirst($_REQUEST["tag"])); }
-	if($_REQUEST["author"]) { $pages->filter("author", $_REQUEST["author"]); array_push($pagesFilter, ucfirst($_REQUEST["author"])); }
-	if($_REQUEST["published"]) { $pages->filter("published", $_REQUEST["published"], false); array_push($pagesFilter, $_REQUEST["published"]); }
-	if(!empty($pagesFilter))
-	{
-		$title = implode(' ', $pagesFilter);
-		$yellow->page->set("titleHeader", $title." - ".$yellow->page->get("sitename"));
-		$yellow->page->set("titleBlog", $yellow->text->get("blogFilter")." ".$title);
-	}	
-	return $pages->pagination($limit);
-}
-?>

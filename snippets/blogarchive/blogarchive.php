@@ -1,5 +1,8 @@
 <?php list($name, $location, $pages) = $yellow->getSnippetArgs() ?>
-<?php $months = getBlogMonths($pages) ?>
+<?php $months = array(); ?>
+<?php foreach($pages as $page) if(preg_match("/^(\d+\-\d+)\-/", $page->get("published"), $matches)) ++$months[$matches[1]]; ?>
+<?php uksort($months, strnatcasecmp); ?>
+<?php $months = array_reverse($months); ?>
 <div class="blogarchive">
 <ul>
 <?php foreach($months as $key=>$value): ?>
@@ -7,14 +10,3 @@
 <?php endforeach ?>
 </ul>
 </div>
-<?php function getBlogMonths($pages)
-{
-	$months = array();
-	foreach($pages as $page)
-	{
-		if(preg_match("/^(\d+\-\d+)\-/", $page->get("published"), $matches)) ++$months[$matches[1]];
-	}
-	uksort($months, strnatcasecmp);
-	return array_reverse($months);
-}
-?>
