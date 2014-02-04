@@ -9,7 +9,7 @@
 <div class="blogtagcloud">
 <ul>
 <?php foreach($tags as $key=>$value): ?>
-<li><a class="<?php echo $value?>" href="<?php echo $location."tag:".rawurlencode(strtoloweru($key)) ?>"><?php echo htmlspecialchars($key) ?></a></li>
+<li><a class="<?php echo $value?>" href="<?php echo $location.$yellow->toolbox->normaliseLocationArgs("tag:$key") ?>"><?php echo htmlspecialchars($key) ?></a></li>
 <?php endforeach ?>
 </ul>
 </div>
