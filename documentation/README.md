@@ -1,11 +1,11 @@
 Yellow documentation
 ====================
 
-The [Yellow](https://github.com/markseu/yellowcms) documentation is **for web designers**. It will help you making websites with Yellow.
+[Yellow](https://github.com/markseu/yellowcms) is a CMS **for people** who make websites. The documentation is here to help you.
 
 Overview
 --------
-Yellow is a CMS (Content Management System) for people who make websites. Personal blog or company website, create anything you like. Yellow is file-based, everything is made of files and folders. You can also edit pages online in a web browser. Once you're done you can build static pages that don't need a CMS anymore.
+Personal blog or company website, create anything you like. Yellow is file-based, everything is made of files and folders. You can edit pages in your text editor or in a web browser. Once you're done you can build static pages that don't need Yellow anymore. 
 
 [Adding content](content.md)  
 [Adding media](media.md)  
