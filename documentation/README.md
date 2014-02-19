@@ -5,12 +5,12 @@ Yellow documentation
 
 Overview
 --------
-Personal blog or company website, create anything you like. Yellow is file-based, everything is made of files and folders. You can edit pages in your text editor or in a web browser. Once you're done you can build static pages that don't need Yellow anymore. 
+Personal blog or company website, create anything you like. Yellow is file-based, everything is made of files and folders. You can edit pages in a web browser or in your text editor. Once you're done you can build static pages that don't need Yellow anymore. 
 
 [Adding content](content.md)  
 [Adding media](media.md)  
 [Configure system](system.md)  
-[API for developers](yellowapi.md)
+[Yellow API for developers](yellowapi.md)
 
 Need help? Have a question?
 ---------------------------

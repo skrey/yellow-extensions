@@ -1,11 +1,11 @@
 Yellow extensions
 =================
 
-[Yellow](https://github.com/markseu/yellowcms) is a CMS **for people** who make websites. Extensions add more features to your website.
+[Yellow](https://github.com/markseu/yellowcms) is a CMS **for people** who make websites. Extensions give you more features.
 
 Overview
 --------
-The standard installation of Yellow comes with the basics, you add the features you need for your website. Add videos and presentations with plugins. Customise your website with snippets and templates. Change the look of a website with themes.
+Yellow comes with the basics, you add the extra stuff you need for your website. Add videos and presentations with plugins. Customise a website with snippets and templates. Change the look of a website with themes.
 
 [Plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins)  
 [Snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets)  

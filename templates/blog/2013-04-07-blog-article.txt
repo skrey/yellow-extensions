@@ -1,5 +1,5 @@
 ---
-Title: Blog article example
+Title: Blog article
 Template: blogarticle
 Published: 2013-04-07
 Tag: Example
