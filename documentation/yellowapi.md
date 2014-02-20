@@ -1,5 +1,5 @@
-Yellow API cheat sheet
-======================
+Yellow API for developers
+=========================
 
 $yellow main objects
 --------------------
@@ -16,15 +16,6 @@ Execute plugin command
 
 $yellow->page
 -------------
-**$yellow->page->error($statusCode, $pageError = "")**  
-Respond with error page
-
-**$yellow->page->clean($statusCode, $responseHeader = "")**  
-Respond without page content
-
-**$yellow->page->header($responseHeader)**  
-Add page response header, HTTP format
-
 **$yellow->page->get($key)**  
 Return page meta data
 
@@ -33,6 +24,18 @@ Return page meta data, HTML encoded
 
 **$yellow->page->getContent($rawFormat = false)**  
 Return page content, HTML encoded or raw format
+
+**$yellow->page->getParent()**  
+Return parent page relative to current page
+
+**$yellow->page->getParentTop()**  
+Return top-level parent page of current page
+
+**$yellow->page->getSiblings($showInvisible = false)**  
+Return pages on the same level as current page
+
+**$yellow->page->getChildren($showInvisible = false)**  
+Return child pages relative to current page
 
 **$yellow->page->getLocation()**  
 Return absolute page location
@@ -46,20 +49,17 @@ Return page modification time, Unix time
 **$yellow->page->getStatusCode($httpFormat = false)**  
 Return page status code
 
-**$yellow->page->getParent()**  
-Return parent page relative to current page
+**$yellow->page->error($statusCode, $pageError = "")**  
+Respond with error page
 
-**$yellow->page->getParentTop()**  
-Return top-level parent page of current page
+**$yellow->page->clean($statusCode, $responseHeader = "")**  
+Respond with status code, no page content
 
-**$yellow->page->getSiblings($showHidden = false)**  
-Return pages on the same level as current page
-
-**$yellow->page->getChildren($showHidden = false)**  
-Return child pages relative to current page
+**$yellow->page->header($responseHeader)**  
+Add page response header, HTTP format
 
 **$yellow->page->isExisting($key)**  
-Check if meta data exists
+Check if page meta data exists
 
 **$yellow->page->isActive()**  
 Check if page is within current HTTP request
@@ -72,10 +72,10 @@ Check if page is cacheable
 
 $yellow->pages + $pages
 -----------------------
-**$yellow->pages->index($showHidden = false, $levelMax = 0)**  
+**$yellow->pages->index($showInvisible = false, $levelMax = 0)**  
 Return pages from file system
 
-**$yellow->pages->top($showHidden = false)**  
+**$yellow->pages->top($showInvisible = false)**  
 Return page collection with top-level navigation
 
 **$yellow->pages->path($location, $absoluteLocation = false)**  
@@ -175,4 +175,4 @@ Return text modification time, Unix time
 **$yellow->text->isExisting($key)**  
 Check if text string exists
 
-Yellow 0.2.9, source [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms), license [GPLv2](http://opensource.org/licenses/GPL-2.0)
+Yellow 0.2.10, source code [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms)
