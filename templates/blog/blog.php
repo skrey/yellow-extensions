@@ -1,4 +1,5 @@
 <?php $pages = $yellow->page->getChildren(); ?>
+<?php $pages->filter("template", "blogarticle"); ?>
 <?php $pagesFilter = array(); ?>
 <?php if($_REQUEST["tag"]) { $pages->filter("tag", $_REQUEST["tag"]); array_push($pagesFilter, $pages->getFilter()); } ?>
 <?php if($_REQUEST["author"]) { $pages->filter("author", $_REQUEST["author"]); array_push($pagesFilter, $pages->getFilter()); } ?>
