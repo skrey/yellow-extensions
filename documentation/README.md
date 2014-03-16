@@ -5,15 +5,14 @@ Yellow documentation
 
 Overview
 --------
-Personal blog or company website, create anything you like. Yellow is file-based, everything is made of files and folders. You can edit pages in a web browser or in your text editor. Once you're done you can build static pages that don't need Yellow anymore. 
+Blog, wiki, static pages, create anything you like. You can use web browser and text editor. No database, no control panel. Everything is made of files and folders. There's Markdown support and a small web interface.
 
-[Adding content](content.md)  
-[Adding media](media.md)  
-[Configure system](system.md)  
-[Yellow API for developers](yellowapi.md)
+* [Adding content](content.md)
+* [Adding media](media.md)
+* [System configuration](system.md)
+* [API for developers](yellowapi.md)
 
-Need help? Have a question?
----------------------------
-Looking for something, then get in touch with other users.  
-Visit [Yellow on Reddit](http://www.reddit.com/r/yellowcms/), 
-follow [Yellow on Twitter](https://twitter.com/yellowcms).
+Support
+-------
+Need help? Get in touch via [Twitter](https://twitter.com/markseu) and [Email](http://datenstrom.se/contact/).  
+Find answers to many questions at [Reddit](http://www.reddit.com/r/yellowcms/).

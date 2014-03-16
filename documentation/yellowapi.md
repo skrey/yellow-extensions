@@ -1,5 +1,6 @@
 Yellow API for developers
 =========================
+Yellow 0.2.11
 
 $yellow main objects
 --------------------
@@ -82,7 +83,7 @@ Return page collection with top-level navigation
 Return page collection with path ancestry
 
 **$yellow->pages->find($location, $absoluteLocation = false)**  
-Return page collection with a specific page
+Return page collection with one specific page
 
 The following works for any page collection,  
 e.g methods that return more than one page. 
@@ -175,4 +176,5 @@ Return text modification time, Unix time
 **$yellow->text->isExisting($key)**  
 Check if text string exists
 
-Yellow 0.2.10, source code [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms)
+Source code: [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms)
+file [system/core/core.php](https://github.com/markseu/yellowcms/blob/master/system/core/core.php)

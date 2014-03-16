@@ -1,5 +1,5 @@
-Configure system
-================
+System configuration
+====================
 
 All configuration is located in the **system folder**. You can change your website settings here.
 
@@ -9,8 +9,8 @@ The `config` folder contains configuration files. The `core` folder is for the Y
 
 Changes in system folders affect the entire website.
 
-Configuration files
--------------------
+Configuration
+-------------
 The main configuration file is `system/config/config.ini`. You can define the default settings of your website here. For a new installation you should set sitename, author and language. Here's an example:
 
     sitename = Anna's Design Company
@@ -24,14 +24,14 @@ These settings can also be overwritten in the meta data of a page. Configuration
 
 Templates
 ---------
-The default template is `system/templates/default.php`. A template controls the output of a page. An individual template can be defined in the meta data of a page, for example `Template: blog` uses the file `system/templates/blog.php`. There are little limitations, templates can generate web pages and any other output format. Here's an example:
+The default template is `system/templates/default.php`. A template controls the output of a page. An individual template can be defined in the meta data of a page, for example `Template: blog` uses the file `system/templates/blog.php`. There are little limitations, templates can generate web pages and other output formats. Here's an example:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("navigation") ?>
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
 
-Write any [PHP](https://en.wikipedia.org/wiki/PHP) code you like and use the [Yellow API](yellowapi.md) for common functionality.
+Write [PHP](https://en.wikipedia.org/wiki/PHP) code and use the [Yellow API](yellowapi.md) for common functionality. There are [templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates) you can download.
 
 Snippets
 --------
@@ -43,7 +43,7 @@ You can pass arguments to snippets:
 
     <?php $yellow->snippet("example", $argument1, $argument2) ?>
 
-Have a look at some of the existing snippets. There are [snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets) and [templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates) you can download.
+Have a look at some of the existing snippets. There are [snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets) you can download.
 
 Error handling
 --------------

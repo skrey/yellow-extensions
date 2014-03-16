@@ -6,7 +6,7 @@
 <div class="blogarchive">
 <ul>
 <?php foreach($months as $key=>$value): ?>
-<li><a href="<?php echo $location.$yellow->toolbox->normaliseLocationArgs("published:$key") ?>"><?php echo strftime("%B %Y", strtotime($key)) ?></a> </li>
+<li><a href="<?php echo $location.$yellow->toolbox->normaliseArgs("published:$key") ?>"><?php echo strftime("%B %Y", strtotime($key)) ?></a> </li>
 <?php endforeach ?>
 </ul>
 </div>
