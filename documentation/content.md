@@ -1,11 +1,11 @@
 Adding content
 ==============
 
-All content is located in the **content folder**. You can update your website by creating folders and editing text files.
+All content is located in the **content folder**. You can update your website by creating files and folders.
 
 ![Screenshot](content-screenshot.png?raw=true)
 
-The standard installation of Yellow has two content folders. They are just an example to get you started, change them as you like. All content folders are available on your website. Every folder has a text file called `page.txt` or with the name of the folder. That's the default page for a folder. To create more pages, add more text files.
+The standard installation of Yellow has two content folders. They are just an example to get you started, change them as you like. All content folders are available on your website. Every folder has a text file called `page.txt` or with the name of the folder. That's the default page for a folder. You can add additional pages to a folder.
 
 Basically, the structure you see in the file manager is the website you'll get.
 
@@ -22,7 +22,7 @@ The website navigation is created from your content folders. Folders with prefix
 
 Text files
 ----------
-Let's have a look at text files. Open the file `content/1-home/page.txt` in your favorite text editor. You'll see the title and text of the page. Additional information can be added to the meta data of a page. Here's an example:
+Let's have a closer look at text files. Open the file `content/1-home/page.txt` in your favorite text editor. You'll see the title and text of the page. Additional information can be added to the meta data of a page. Here's an example:
 
     ---
     Title: Home
@@ -37,7 +37,7 @@ Feel free to use multiple languages and international characters. Content files 
 Text formatting
 ---------------
 You can write pages in [Markdown](http://en.wikipedia.org/wiki/Markdown)
-and [HTML](http://en.wikipedia.org/wiki/HTML). Markdown is a good way to format your text.
+and [HTML](http://en.wikipedia.org/wiki/HTML). Markdown is a good way to format text.
 
 Emphasize text:
 

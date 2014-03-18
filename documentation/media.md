@@ -5,7 +5,7 @@ All media is located in the **media folder**. You can store your images and othe
 
 ![Screenshot](media-screenshot.png?raw=true)
 
-The standard installation of Yellow comes with two media folders. The `images` folder is the place to store your images. For a small website put all inside one folder, otherwise use multiple folders similar to your content. The `styles` folder is the place to store style sheets, there's already a `default.css` that defines how your website looks like. It's a starting point for your own designs.
+The standard installation of Yellow comes with two media folders. The `images` folder is the place to store your images. For a small website put all images inside one folder, otherwise use multiple folders. The `styles` folder is the place to store style sheets, there's already a `default.css` that defines how your website looks like. It's a starting point for your own designs.
 
 Create additional folders and organise media files as you like.
 
@@ -22,6 +22,6 @@ All files are served exactly as they are, if you need different resolutions use 
 
 Style sheets
 ------------
-You can customize your website with [CSS](http://en.wikipedia.org/wiki/CSS). There's an overall style for the entire website. It's possible for a page to use a different style. An individual style can be defined in the meta data of a page, for example `Style: blogsite` uses the file `media/styles/blogsite.css`.
+You can customize your website with [CSS](http://en.wikipedia.org/wiki/CSS). There's an overall style for the entire website. It's possible to use multiple styles. The style of a page is defined in the meta data of a page, for example `Style: blogsite` uses the file `media/styles/blogsite.css`.
 
 There are [Yellow themes](https://github.com/markseu/yellowcms-extensions/tree/master/themes) you can download.

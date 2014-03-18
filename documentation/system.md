@@ -5,7 +5,7 @@ All configuration is located in the **system folder**. You can change your websi
 
 ![Screenshot](system-screenshot.png?raw=true)
 
-The `config` folder contains configuration files. The `core` folder is for the Yellow software itself, its content changes only with a software update. The `plugins` folder is for Yellow plugins, to add new features. Most configuration happens in the `snippets` and `templates` folders, where the website layout and functionality is defined.
+The `config` folder contains configuration files. The `core` folder is for the Yellow software itself, its content changes only with a software update. The `plugins` folder is for Yellow plugins, to add new features. Most configuration happens in the `snippets` and `templates` folders, this is where the website layout and functionality is defined.
 
 Changes in system folders affect the entire website.
 
@@ -24,7 +24,7 @@ These settings can also be overwritten in the meta data of a page. Configuration
 
 Templates
 ---------
-The default template is `system/templates/default.php`. A template controls the output of a page. An individual template can be defined in the meta data of a page, for example `Template: blog` uses the file `system/templates/blog.php`. There are little limitations, templates can generate web pages and other output formats. Here's an example:
+The default template is `system/templates/default.php`. A template controls the output of a page. The template of a page is defined in the meta data of a page, for example `Template: blog` uses the file `system/templates/blog.php`. There are little limitations, templates can generate web pages and other output formats. Here's an example:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("navigation") ?>
