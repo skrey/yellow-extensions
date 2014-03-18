@@ -37,7 +37,7 @@ Feel free to use multiple languages and international characters. Content files 
 Text formatting
 ---------------
 You can write pages in [Markdown](http://en.wikipedia.org/wiki/Markdown)
-and [HTML](http://en.wikipedia.org/wiki/HTML). Markdown is a good way to format text.
+and [HTML](http://en.wikipedia.org/wiki/HTML).
 
 Emphasize text:
 

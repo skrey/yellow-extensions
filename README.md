@@ -5,7 +5,8 @@ Yellow extensions
 
 Downloads
 ---------
-Yellow comes with the basics. You can add more stuff with plugins, snippets and templates. Bright, dark, colorful, use any theme you like. With theses extensions you should have a good collection of building blocks for your website.
+Yellow comes with the basics. You can add more things with plugins, snippets and templates.  
+With theses extensions you should have a good collection of building blocks for your website.
 
 * [Plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins)
 * [Snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets)

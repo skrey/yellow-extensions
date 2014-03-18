@@ -5,7 +5,8 @@ Yellow documentation
 
 Overview
 --------
-Everything is made of files and folders. You can use a browser and your favourite text editor. Blog, wiki, static pages, create anything you like. With this documentation you should get a good understanding of how it works.
+Everything is made of files and folders. Blog, wiki, static pages, create anything you like.  
+With this documentation you should get a good understanding of how it works.
 
 * [Adding content](content.md)
 * [Adding media](media.md)
