@@ -1,11 +1,11 @@
 Yellow API for developers
 =========================
-Yellow 0.2.11
+Yellow 0.2.13
 
-$yellow main objects
---------------------
-**$yellow->page** is the current page data  
-**$yellow->pages** is the current page tree from file system  
+$yellow
+-------
+**$yellow->page** is the current page  
+**$yellow->pages** gives access to pages from file system  
 **$yellow->config** gives access to configuration  
 **$yellow->text** gives access to text strings  
 
@@ -176,5 +176,5 @@ Return text modification time, Unix time
 **$yellow->text->isExisting($key)**  
 Check if text string exists
 
-Source code: [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms)
+Source code: [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms) 
 file [system/core/core.php](https://github.com/markseu/yellowcms/blob/master/system/core/core.php)
