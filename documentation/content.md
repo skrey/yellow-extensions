@@ -22,22 +22,21 @@ The website navigation is created from your content folders. Folders with prefix
 
 Text files
 ----------
-Let's have a closer look at text files. Open the file `content/1-home/page.txt` in your favorite text editor. You'll see the title and text of the page. Additional information can be added to the meta data of a page. Here's an example:
+Let's have a closer look at text files. Open the file `content/1-home/page.txt` in your favorite text editor. You'll see the title and text of the page. Title and more meta data goes to the top, the text is at the bottom. Here's an example:
 
     ---
     Title: Home
-    Description: Anna's new website
     ---
     Your website works!
-    You can now edit this page or use your favorite text editor.  
+    
+    You can now edit this page or use your text editor.  
     Write more text here.
 
 Feel free to use multiple languages and international characters. Content files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8), dates in [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601).  
 
 Text formatting
 ---------------
-You can write pages in [Markdown](http://en.wikipedia.org/wiki/Markdown)
-and [HTML](http://en.wikipedia.org/wiki/HTML).
+You can write pages in [Markdown](http://en.wikipedia.org/wiki/Markdown).
 
 Emphasize text:
 
