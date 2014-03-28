@@ -22,6 +22,4 @@ All files are served exactly as they are, if you need different resolutions use 
 
 Style sheets
 ------------
-You can customize your website with [CSS](http://en.wikipedia.org/wiki/CSS). There's an overall style for the entire website. It's possible to use multiple styles. The style of a page is defined in the meta data of a page, for example `Style: blogsite` uses the file `media/styles/blogsite.css`.
-
-There are [Yellow themes](https://github.com/markseu/yellowcms-extensions/tree/master/themes) you can download.
+You can customize your website with [CSS](http://en.wikipedia.org/wiki/CSS). There's an overall style for the entire website, but you are not limited to using just one. A different style can be defined in the meta data of a page, for example `Style: blog` uses the file `media/styles/blog.css`. There are [Yellow themes](https://github.com/markseu/yellowcms-extensions/tree/master/themes) you can download.

@@ -1,6 +1,6 @@
 Yellow API for developers
 =========================
-Yellow 0.2.13
+Yellow 0.2.15
 
 $yellow
 -------
@@ -10,7 +10,7 @@ $yellow
 **$yellow->text** gives access to text strings  
 
 **$yellow->snippet($name, $args = NULL)**  
-Execute code snippet
+Execute snippet code
 
 **$yellow->plugin($name, $args = NULL)**  
 Execute plugin command
@@ -175,6 +175,20 @@ Return text modification time, Unix time
 
 **$yellow->text->isExisting($key)**  
 Check if text string exists
+
+Command line interface
+----------------------
+**php yellow.php**  
+Show available commands
+
+**php yellow.php build DIRECTORY [LOCATION]**  
+Build static pages
+
+**php yellow.php user EMAIL PASSWORD [NAME LANGUAGE]**  
+Create or update user account
+
+**php yellow.php version**  
+Show software version
 
 Source code: [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms) 
 file [system/core/core.php](https://github.com/markseu/yellowcms/blob/master/system/core/core.php)
