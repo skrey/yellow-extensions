@@ -1,7 +1,7 @@
-/* Yellow coffeecream style 0.1.4 */
+/* Yellow coffeecream style 0.1.5 */
 
 @import url(http://fonts.googleapis.com/css?family=Crafty+Girls);
-html, body, div, pre, span, tr, th, td { margin:0; padding:0; border:0; vertical-align:baseline; }
+html, body, div, form, pre, span, tr, th, td { margin:0; padding:0; border:0; vertical-align:baseline; }
 body {
 	margin:1em 2em;
 	background-color:#feb; color:#d20;
@@ -47,6 +47,7 @@ a:hover { color:#373737; }
 .content a:hover { color:#d20; text-decoration:underline; }
 .content h1, h2, h3, h4, h5, h6 { color:#d20; }
 .content img { max-width:100%; height:auto; }
+.content form { margin:1em 0; }
 .content .flexible { position:relative; padding-bottom:56.25%; padding-top:30px; }
 .content .flexible iframe { position:absolute; top:0; left:0; width:100%; height:100%; }
 .footer { padding:1em; text-align:center; }
