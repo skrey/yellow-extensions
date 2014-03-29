@@ -1,6 +1,6 @@
 <?php if($yellow->getRequestHandler() == "webinterface") { require_once("default.php"); return; } ?>
 <?php $pages = $yellow->pages->index(false, 3) ?>
-<?php $pages = $pages->sort("modified", false)->limit(10); ?>
+<?php $pages = $pages->sort("modified", false)->limit(10) ?>
 <?php echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n" ?>
 <rss version="2.0">
 <channel>

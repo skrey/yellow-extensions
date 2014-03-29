@@ -1,3 +1,4 @@
+<?php if(PHP_SAPI == "cli") $yellow->page->error(500, "Static website not supported!") ?>
 <?php $status = getContactStatus($yellow, "href=|url=", $_REQUEST["status"]) ?>
 <?php $yellow->snippet("header") ?>
 <?php $yellow->snippet("navigation") ?>
@@ -17,7 +18,6 @@
 <?php endif ?>
 </div>
 <?php $yellow->snippet("footer") ?>
-<?php if(PHP_SAPI == "cli") $yellow->page->error(500, "Static website not supported!") ?>
 <?php $yellow->page->header("Last-Modified: ".$yellow->text->getModified(true)) ?>
 <?php function getContactStatus($yellow, $spamFilter, $status)
 {

@@ -1,3 +1,4 @@
+<?php if(PHP_SAPI=="cli" && !isset($_REQUEST["query"])) $yellow->page->error(500, "Static website not supported!") ?>
 <?php $pages = getSearchPages($yellow, 5, $_REQUEST["query"]) ?>
 <?php $yellow->snippet("header") ?>
 <?php $yellow->snippet("navigation") ?>
@@ -21,7 +22,6 @@
 <?php $yellow->snippet("pagination", $pages) ?>
 </div>
 <?php $yellow->snippet("footer") ?>
-<?php if(PHP_SAPI=="cli" && !isset($_REQUEST["query"])) $yellow->page->error(500, "Static website not supported!") ?>
 <?php $yellow->page->header("Last-Modified: ".$pages->getModified(true)) ?>
 <?php function getSearchPages($yellow, $limit, $query)
 {
@@ -52,6 +52,7 @@
 			}
 		}
 		$pages->sort("searchscore")->pagination($limit);
+		if($_REQUEST["page"] && $pages->getPaginationPage()>$pages->getPaginationCount()) $yellow->page->error(404);
 	}
 	return $pages;
 }
