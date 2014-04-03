@@ -1,6 +1,6 @@
 Yellow API for developers
 =========================
-Yellow 0.2.15
+Yellow 0.2.16
 
 $yellow
 -------
@@ -29,7 +29,7 @@ Return page content, HTML encoded or raw format
 **$yellow->page->getParent()**  
 Return parent page relative to current page
 
-**$yellow->page->getParentTop()**  
+**$yellow->page->getParentTop($homeFailback = false)**  
 Return top-level parent page of current page
 
 **$yellow->page->getSiblings($showInvisible = false)**  
