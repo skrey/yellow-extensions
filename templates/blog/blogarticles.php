@@ -1,4 +1,4 @@
-<?php $pages = $yellow->page->getChildren() ?>
+<?php $pages = $yellow->page->getChildren(!$yellow->page->isVisible()) ?>
 <?php $pages->filter("template", "blog") ?>
 <?php $pagesFilter = array() ?>
 <?php if($_REQUEST["tag"]) { $pages->filter("tag", $_REQUEST["tag"]); array_push($pagesFilter, $pages->getFilter()); } ?>

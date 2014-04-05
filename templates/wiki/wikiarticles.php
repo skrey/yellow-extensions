@@ -1,6 +1,7 @@
-<?php $pages = $yellow->pages->create() ?>
+<?php $pages = $yellow->pages->create()->append($yellow->page); ?>
+<?php if($yellow->toolbox->isLocationArgs($this->toolbox->getLocation())): ?>
+<?php $pages = $yellow->page->getChildren(!$yellow->page->isVisible()) ?>
 <?php $pagesFilter = array() ?>
-<?php if($yellow->toolbox->isLocationArgs($this->toolbox->getLocation())) { $pages = $yellow->page->getChildren(); } else { $pages->append($yellow->page); } ?>
 <?php if($_REQUEST["tag"]) { $pages->filter("tag", $_REQUEST["tag"]); array_push($pagesFilter, $pages->getFilter()); } ?>
 <?php if($_REQUEST["title"]) { $pages->filter("title", $_REQUEST["title"], false); array_push($pagesFilter, $pages->getFilter()); } ?>
 <?php if($_REQUEST["modified"]) { $pages->filter("modified", $_REQUEST["modified"], false); array_push($pagesFilter, $pages->getFilter()); } ?>
@@ -10,6 +11,7 @@
 <?php $title = implode(' ', $pagesFilter) ?>
 <?php $yellow->page->set("titleHeader", $title." - ".$yellow->page->get("sitename")) ?>
 <?php $yellow->page->set("titleWiki", $yellow->text->get("wikiFilter")." ".$title) ?>
+<?php endif ?>
 <?php endif ?>
 <?php $yellow->snippet("header") ?>
 <?php $yellow->snippet("navigation") ?>
