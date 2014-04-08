@@ -1,6 +1,6 @@
 Yellow API for developers
 =========================
-Yellow 0.2.16
+Yellow 0.2.17
 
 $yellow
 -------
@@ -73,8 +73,11 @@ Check if page is cacheable
 
 $yellow->pages + $pages
 -----------------------
+**$yellow->pages->create()**  
+Return empty page collection
+
 **$yellow->pages->index($showInvisible = false, $levelMax = 0)**  
-Return pages from file system
+Return page collection with all pages from file system
 
 **$yellow->pages->top($showInvisible = false)**  
 Return page collection with top-level navigation
@@ -184,7 +187,7 @@ Show available commands
 **php yellow.php build DIRECTORY [LOCATION]**  
 Build static pages
 
-**php yellow.php user EMAIL PASSWORD [NAME LANGUAGE]**  
+**php yellow.php user EMAIL PASSWORD [NAME LANGUAGE HOME]**  
 Create or update user account
 
 **php yellow.php version**  
