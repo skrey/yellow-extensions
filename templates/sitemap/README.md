@@ -16,4 +16,4 @@ How to use a sitemap?
 ---------------------
 The sitemap is available on your website as `http://website/sitemap/` and `http://website/sitemap/sitemap.xml`. It's an overview of the entire website, only visible pages are included. You can add a link to your navigation or individual pages. For search engines add the following line to your header snippet:
 
-`<link rel="sitemap" type="text/xml" href="<?php echo $yellow->config->get("serverBase")."/sitemap/sitemap.xml" ?>">`
+`<link rel="sitemap" type="text/xml" href="<?php echo $yellow->config->get("serverBase")."/sitemap/sitemap.xml" ?>" />`
