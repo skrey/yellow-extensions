@@ -1,6 +1,6 @@
 Yellow API for developers
 =========================
-Yellow 0.2.17
+Yellow 0.2.19
 
 $yellow
 -------
@@ -42,7 +42,7 @@ Return child pages relative to current page
 Return absolute page location
 
 **$yellow->page->getUrl()**  
-Return full page URL, with server name
+Return page URL, with server scheme and server name
 
 **$yellow->page->getModified($httpFormat = false)**  
 Return page modification time, Unix time

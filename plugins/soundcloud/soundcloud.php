@@ -5,7 +5,7 @@
 // Soundcloud parser plugin
 class YellowSoundcloud
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
@@ -26,7 +26,7 @@ class YellowSoundcloud
 			if(empty($width)) $width = "100%";
 			if(empty($height)) $height = "166";
 			$output = "<div class=\"$style\">";
-			$output .= "<iframe src=\"http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F$id\" frameborder=\"0\"";
+			$output .= "<iframe src=\"https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F$id\" frameborder=\"0\"";
 			$output .= " width=\"$width\" height=\"$height\"";
 			$output .= "></iframe></div>";
 		}

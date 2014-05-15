@@ -5,7 +5,7 @@
 // Youtube parser plugin
 class YellowYoutube
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
@@ -24,7 +24,7 @@ class YellowYoutube
 			list($id, $style, $width, $height) = explode(' ', $text);
 			if(empty($style)) $style = $this->yellow->config->get("youtubeStyle");
 			$output = "<div class=\"$style\">";
-			$output .= "<iframe src=\"http://www.youtube.com/embed/$id\" frameborder=\"0\" allowfullscreen";
+			$output .= "<iframe src=\"https://www.youtube.com/embed/$id\" frameborder=\"0\" allowfullscreen";
 			if($width && $height) $output .= " width=\"$width\" height=\"$height\"";
 			$output .= "></iframe></div>";
 		}

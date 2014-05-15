@@ -5,7 +5,7 @@
 // Vimeo parser plugin
 class YellowVimeo
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
 	
 	// Initialise plugin
@@ -24,7 +24,7 @@ class YellowVimeo
 			list($id, $style, $width, $height) = explode(' ', $text);
 			if(empty($style)) $style = $this->yellow->config->get("vimeoStyle");
 			$output = "<div class=\"$style\">";
-			$output .= "<iframe src=\"http://player.vimeo.com/video/$id\" frameborder=\"0\" allowfullscreen";
+			$output .= "<iframe src=\"https://player.vimeo.com/video/$id\" frameborder=\"0\" allowfullscreen";
 			if($width && $height) $output .= " width=\"$width\" height=\"$height\"";
 			$output .= "></iframe></div>";
 		}
