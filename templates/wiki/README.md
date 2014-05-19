@@ -9,7 +9,7 @@ How do I install this?
 2. Download [wiki.php](wiki.php?raw=true) and [wikiarticles.php](wikiarticles.php?raw=true), copy both files into your system/templates folder.  
 3. Create a new folder 'wiki' in your content folder.
 4. Download [page.txt](page.txt?raw=true) and [wiki-article.txt](wiki-article.txt?raw=true), copy both files into your content/wiki folder.
-5. Add these [text lines](text.ini?raw=true) to your system/config/textenglish.ini file.
+5. Add these [text lines](text.ini?raw=true) to your system/config/text.ini file.
 
 To uninstall delete the template files and folder.
 

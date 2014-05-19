@@ -15,5 +15,5 @@ With this documentation you should get a good understanding of how your website 
 
 Support
 -------
-Need help? Get in touch via [Twitter](https://twitter.com/markseu) and [Email](http://datenstrom.se/contact/).  
+Need help? Get in touch via [Twitter](https://twitter.com/markseu) or [Email](http://datenstrom.se/contact/).  
 Find answers to many questions at [Reddit](http://www.reddit.com/r/yellowcms/).

@@ -6,7 +6,7 @@ Yellow extensions
 Downloads
 ---------
 Yellow comes with just the basics. You can add content, media and website features.   
-With theses extensions you get a collection of building blocks for your own website.
+With these extensions you get a collection of building blocks for your own website.
 
 * [Plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins)
 * [Snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets)
@@ -15,5 +15,5 @@ With theses extensions you get a collection of building blocks for your own webs
 
 Support
 -------
-Need help? Get in touch via [Twitter](https://twitter.com/markseu) and [Email](http://datenstrom.se/contact/).  
+Need help? Get in touch via [Twitter](https://twitter.com/markseu) or [Email](http://datenstrom.se/contact/).  
 Find answers to many questions at [Reddit](http://www.reddit.com/r/yellowcms/).
