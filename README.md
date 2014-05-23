@@ -10,8 +10,8 @@ With these extensions you get a collection of building blocks for your own websi
 
 * [Plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins)
 * [Snippets](https://github.com/markseu/yellowcms-extensions/tree/master/snippets)
+* [Styles](https://github.com/markseu/yellowcms-extensions/tree/master/styles)
 * [Templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates)
-* [Themes](https://github.com/markseu/yellowcms-extensions/tree/master/themes)
 
 Support
 -------
