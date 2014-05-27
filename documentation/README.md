@@ -1,7 +1,7 @@
 Yellow documentation
 ====================
 
-[Yellow](https://github.com/markseu/yellowcms) is **for people** who make websites. Learn more about it.
+[Yellow](https://github.com/markseu/yellowcms) is for people who make websites. Learn more about it.
 
 Overview
 --------

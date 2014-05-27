@@ -13,7 +13,7 @@ How do I install this?
 
 To uninstall delete the template files and folder.
 
-Hot to use a blog?
+How to use a blog?
 ------------------
 The blog is available on your website as `http://website/blog/`. To make the blog your home page, set `contentHomeDir = blog/` in your system/config/config.ini file. Blog pages can be sorted by date, tag and author. 
 

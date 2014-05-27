@@ -13,7 +13,7 @@ How do I install this?
 
 To uninstall delete the template files and folder.
 
-Hot to use a wiki?
+How to use a wiki?
 ------------------
 The wiki is available on your website as `http://website/wiki/`. To make the wiki  your home page, set `contentHomeDir = wiki/` in your system/config/config.ini file. Wiki pages can be sorted by date, tag and title. 
 
