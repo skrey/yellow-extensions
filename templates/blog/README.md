@@ -13,9 +13,11 @@ How do I install this?
 
 To uninstall delete the template files and folder.
 
-How to write a blog?
---------------------
-The blog is available on your website as `http://website/blog/`. To create a new blog page, add a new file to your blog folder. Set `Published` and more meta data at the top of a page. Dates should be written in the format [YYYY-MM-DD](http://en.wikipedia.org/wiki/ISO_8601). Use `Tag` to group similar pages together. This should get you started, you can improve your blog with more extensions.
+Hot to use a blog?
+------------------
+The blog is available on your website as `http://website/blog/`. To make the blog your home page, set `contentHomeDir = blog/` in your system/config/config.ini file. Blog pages can be sorted by date, tag and author. 
+
+To create a new blog page, add a new file to your blog folder. Set `Published` and more meta data at the top of a page. Dates should be written in the format [YYYY-MM-DD](http://en.wikipedia.org/wiki/ISO_8601). Use `Tag` to group similar pages together.
 
 Example
 -------
