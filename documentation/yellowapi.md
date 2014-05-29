@@ -1,6 +1,6 @@
 Yellow API for developers
 =========================
-Yellow 0.2.19
+Yellow 0.2.21
 
 $yellow
 -------
@@ -25,6 +25,9 @@ Return page meta data, HTML encoded
 
 **$yellow->page->getContent($rawFormat = false)**  
 Return page content, HTML encoded or raw format
+
+**$yellow->page->getHeaderExtra()**  
+Return page extra header, HTML encoded
 
 **$yellow->page->getParent()**  
 Return parent page relative to current page
@@ -178,6 +181,41 @@ Return text modification time, Unix time
 
 **$yellow->text->isExisting($key)**  
 Check if text string exists
+
+Plugin interface
+----------------
+**$yellow->registerPlugin($name, $class, $version)**  
+Register plugin
+
+**function onLoad($yellow)**  
+Handle plugin initialisation
+
+**function onRequest($serverScheme, $serverName, $base, $location, $fileName)**  
+Handle request
+
+**function onParseMeta($page, $text)**  
+Handle page meta data parsing
+
+**function onParseText($page, $text)**  
+Handle page text parsing, raw format
+
+**function onParseContent($page, $text)**  
+Handle page content parsing
+
+**function onParseType($name, $text, $typeShortcut)**  
+Handle custom type parsing
+
+**function onHeaderExtra($page)**  
+Handle page extra header
+
+**function onCheckPermissions($location, $fileName, $users)**  
+Handle permissions for changing page
+
+**function onCommandHelp()**  
+Handle command help
+
+**function onCommand($args)**  
+Handle command
 
 Command line interface
 ----------------------

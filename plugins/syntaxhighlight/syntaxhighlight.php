@@ -1,14 +1,14 @@
 <?php
-// Copyright (c) 2013 Datenstrom, http://datenstrom.se
+// Copyright (c) 2013-2014 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 // Syntax highlight parser plugin
 class YellowSyntaxhighlight
 {
-	const Version = "0.1.6";
+	const Version = "0.1.7";
 	var $yellow;			//access to API
 	
-	// Initialise plugin
+	// Handle plugin initialisation
 	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
@@ -39,7 +39,7 @@ class YellowSyntaxhighlight
 	}
 	
 	// Handle extra HTML header lines
-	function onHeaderExtra()
+	function onHeaderExtra($page)
 	{
 		$header = "";
 		if(!$this->yellow->config->get("syntaxStyleDefault"))

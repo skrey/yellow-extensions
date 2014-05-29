@@ -1,14 +1,14 @@
 <?php
-// Copyright (c) 2013 Datenstrom, http://datenstrom.se
+// Copyright (c) 2013-2014 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 // Draft status plugin
 class YellowDraft
 {
-	const Version = "0.1.3";
+	const Version = "0.1.4";
 	var $yellow;			//access to API
 	
-	// Initialise plugin
+	// Handle plugin initialisation
 	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
