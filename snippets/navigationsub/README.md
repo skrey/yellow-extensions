@@ -1,6 +1,5 @@
 Navigationsub snippet
 =====================
-
 Website navigation with visible pages one level below top-level navigation.
 
 How do I install this?

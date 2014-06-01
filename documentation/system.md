@@ -1,6 +1,5 @@
 System configuration
 ====================
-
 All configuration is located in the **system folder**. You can change your website settings here.
 
 ![Screenshot](system-screenshot.png?raw=true)

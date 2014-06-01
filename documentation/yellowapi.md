@@ -1,6 +1,6 @@
-Yellow API for developers
-=========================
-Yellow 0.2.21
+Yellow API 0.3.1
+================
+Yellow API for developers.
 
 $yellow
 -------
@@ -231,5 +231,4 @@ Create or update user account
 **php yellow.php version**  
 Show software version
 
-Source code: [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms) 
-file [system/core/core.php](https://github.com/markseu/yellowcms/blob/master/system/core/core.php)
+Source code: [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms)

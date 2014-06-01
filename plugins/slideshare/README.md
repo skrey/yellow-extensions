@@ -1,6 +1,5 @@
-Slideshare plugin
-=================
-
+Slideshare plugin 0.1.4
+=======================
 Embed [Slideshare](http://www.slideshare.net/) presentations.
 
 How do I install this?

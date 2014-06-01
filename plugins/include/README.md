@@ -1,6 +1,5 @@
-Include plugin
-==============
-
+Include plugin 0.1.2
+====================
 Server include for content files.
 
 How do I install this?

@@ -1,6 +1,5 @@
 Blogarchive snippet
 ===================
-
 Monthly archive for blog.
 
 How do I install this?

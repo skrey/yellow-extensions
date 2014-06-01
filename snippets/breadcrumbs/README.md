@@ -1,6 +1,5 @@
 Breadcrumbs snippet
 ===================
-
 Website navigation with breadcrumbs.
 
 How do I install this?

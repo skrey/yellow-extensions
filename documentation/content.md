@@ -1,6 +1,5 @@
 Adding content
 ==============
-
 All content is located in the **content folder**. You can update your website by creating files and folders.
 
 ![Screenshot](content-screenshot.png?raw=true)

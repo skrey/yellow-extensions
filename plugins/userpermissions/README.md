@@ -1,6 +1,5 @@
-User permissions plugin
-=======================
-
+User permissions plugin 0.1.2
+=============================
 Restrictions for web interface users.
 
 How do I install this?

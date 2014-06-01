@@ -1,6 +1,5 @@
-Googlemaps plugin
-=================
-
+Googlemaps plugin 0.1.3
+=======================
 Embed [Google maps](https://maps.google.com/).
 
 How do I install this?

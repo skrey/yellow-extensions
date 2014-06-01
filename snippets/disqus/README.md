@@ -1,6 +1,5 @@
 Disqus snippet
 ==============
-
 Add [Disqus](http://disqus.com) comments to website or blog.
 
 How do I install this?

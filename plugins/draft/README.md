@@ -1,6 +1,5 @@
-Draft plugin
-============
-
+Draft plugin 0.1.4
+==================
 Support for draft pages.
 
 How do I install this?

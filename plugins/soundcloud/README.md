@@ -1,6 +1,5 @@
-Soundcloud plugin
-=================
-
+Soundcloud plugin 0.1.4
+=======================
 Embed [Soundcloud](http://www.soundcloud.com/) audio tracks.
 
 How do I install this?

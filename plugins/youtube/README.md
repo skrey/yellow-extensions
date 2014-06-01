@@ -1,6 +1,5 @@
-Youtube plugin
-==============
-
+Youtube plugin 0.1.4
+====================
 Embed [Youtube](http://www.youtube.com) videos.
 
 How do I install this?

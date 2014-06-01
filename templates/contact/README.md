@@ -1,6 +1,5 @@
 Contact template
 ================
-
 Email contact page for website.
 
 How do I install this?

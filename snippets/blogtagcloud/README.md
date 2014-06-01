@@ -1,6 +1,5 @@
 Blogtagcloud snippet
 ====================
-
 Tag cloud for blog.
 
 How do I install this?

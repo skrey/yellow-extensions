@@ -1,6 +1,5 @@
 Adding media
 ============
-
 All media is located in the **media folder**. You can store your images and other files there.
 
 ![Screenshot](media-screenshot.png?raw=true)

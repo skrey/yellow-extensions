@@ -1,6 +1,5 @@
-Vimeo plugin
-============
-
+Vimeo plugin 0.1.4
+==================
 Embed [Vimeo](http://www.vimeo.com) videos.
 
 How do I install this?

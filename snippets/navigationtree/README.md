@@ -1,6 +1,5 @@
 Navigationtree snippet
 ======================
-
 Website navigation with tree of all visible pages.
 
 How do I install this?

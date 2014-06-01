@@ -1,6 +1,5 @@
-Blogsite style
-==============
-
+Blogsite style 0.1.5
+====================
 Blogsite is a basic blogger style. 
 
 ![Screenshot](blogsite-screenshot.jpg?raw=true)

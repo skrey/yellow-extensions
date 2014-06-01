@@ -1,6 +1,5 @@
-Coffeecream style
-=================
-
+Coffeecream style 0.1.6
+=======================
 Coffeecream is a colorful style. 
 
 ![Screenshot](coffeecream-screenshot.jpg?raw=true)

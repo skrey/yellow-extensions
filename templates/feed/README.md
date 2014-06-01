@@ -1,6 +1,5 @@
 Feed template
 =============
-
 Web feed with latest updates.
 
 How do I install this?

@@ -1,6 +1,5 @@
 Wiki template
 =============
-
 Wiki for collaboration.
 
 How do I install this?

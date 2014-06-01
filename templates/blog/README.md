@@ -1,6 +1,5 @@
 Blog template
 =============
-
 Blog for news.
 
 How do I install this?
