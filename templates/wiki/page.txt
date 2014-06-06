@@ -3,3 +3,5 @@ Title: Wiki
 Template: wikiarticles
 ---
 * [Wiki article](wiki-article)
+
+[You can edit this page](@pageedit).
