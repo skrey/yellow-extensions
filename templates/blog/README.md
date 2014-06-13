@@ -6,17 +6,17 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
 2. Download [blog.php](blog.php?raw=true) and [blogarticles.php](blogarticles.php?raw=true), copy both files into your system/templates folder.  
-3. Create a new folder 'blog' in your content folder.
-4. Download [page.txt](page.txt?raw=true) and [2013-04-07-blog-article.txt](2013-04-07-blog-article.txt?raw=true), copy both files into your content/blog folder.
+3. Create a new folder '3-blog' in your content folder.
+4. Download [page.txt](page.txt?raw=true) and [2013-04-07-blog-article.txt](2013-04-07-blog-article.txt?raw=true), copy both files into your /content/3-blog folder.
 5. Add these [text lines](text.ini?raw=true) to your system/config/text.ini file.
 
 To uninstall delete the template files and folder.
 
 How to use a blog?
 ------------------
-The blog is available on your website as `http://website/blog/`. To make the blog your home page, set `contentHomeDir = blog/` in your system/config/config.ini file. Blog pages can be sorted by date, tag and author. 
+The blog is available on your website as `http://website/blog/`. To make the blog your home page, go to your content folder, rename the blog folder to '1-blog' and delete '1-home'. The blog can be sorted by date, tag and author. 
 
-To create a new blog page, add a new file to your blog folder. Set `Published` and more meta data at the top of a page. Dates should be written in the format [YYYY-MM-DD](http://en.wikipedia.org/wiki/ISO_8601). Use `Tag` to group similar pages together.
+To create a new blog page, add a new file to the blog folder. Set `Published` and more meta data at the top of a page. Dates should be written in the format [YYYY-MM-DD](http://en.wikipedia.org/wiki/ISO_8601). Use `Tag` to group similar pages together.
 
 Example
 -------

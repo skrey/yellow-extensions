@@ -1,4 +1,4 @@
-Githubber style 0.1.5
+Githubber style 0.1.6
 =====================
 Githubber is a Github-like style. 
 

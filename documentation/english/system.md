@@ -30,7 +30,7 @@ The output of pages is controlled with templates. There's a default template for
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
 
-Write your own [PHP](https://en.wikipedia.org/wiki/PHP) code with the [Yellow API](https://github.com/markseu/yellowcms-extensions/blob/master/documentation/yellowapi.md). There are [templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates) you can download.
+Write your own [PHP](https://en.wikipedia.org/wiki/PHP) code. There are [templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates) you can download.
 
 Snippets
 --------
@@ -47,3 +47,5 @@ Have a look at some of the existing snippets. There are [snippets](https://githu
 Error handling
 --------------
 Yellow will tell you when something goes wrong. For example a missing file shows "File not found" with corresponding [HTTP status code](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes). The file `system/config/error404.txt` defines how a missing file looks like. You have complete control over what's shown to visitors. Check the web server logfile for further information.
+
+[Next: API for developers →](api.md)

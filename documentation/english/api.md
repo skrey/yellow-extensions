@@ -1,6 +1,6 @@
-Yellow API 0.3.1
-================
-Yellow API for developers.
+API for developers
+==================
+###[Yellow 0.3.2](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -8,12 +8,7 @@ $yellow
 **$yellow->pages** gives access to pages from file system  
 **$yellow->config** gives access to configuration  
 **$yellow->text** gives access to text strings  
-
-**$yellow->snippet($name, $args = NULL)**  
-Execute snippet code
-
-**$yellow->plugin($name, $args = NULL)**  
-Execute plugin command
+**$yellow->toolbox** gives access to toolbox with helpers
 
 $yellow->page
 -------------
@@ -65,6 +60,9 @@ Add page response header, HTTP format
 **$yellow->page->isExisting($key)**  
 Check if page meta data exists
 
+**$yellow->page->isError()**  
+Check if page with error
+
 **$yellow->page->isActive()**  
 Check if page is within current HTTP request
 
@@ -74,8 +72,8 @@ Check if page is visible in navigation
 **$yellow->page->isCacheable()**  
 Check if page is cacheable
 
-$yellow->pages + $pages
------------------------
+$yellow->pages
+--------------
 **$yellow->pages->create()**  
 Return empty page collection
 
@@ -91,8 +89,7 @@ Return page collection with path ancestry
 **$yellow->pages->find($location, $absoluteLocation = false)**  
 Return page collection with one specific page
 
-The following works for any page collection,  
-e.g methods that return more than one page. 
+The following works for any page collection, e.g functions that return more than one page:
 
 **$pages->filter($key, $value, $exactMatch = true)**  
 Filter page collection by meta data
@@ -182,10 +179,56 @@ Return text modification time, Unix time
 **$yellow->text->isExisting($key)**  
 Check if text string exists
 
+$yellow->toolbox
+---------------
+**$yellow->toolbox->normaliseArgs($text, $appendSlash = true, $filterStrict = true)**  
+Normalise location arguments
+
+**$yellow->toolbox->normaliseName($text, $removeExtension = false, $filterStrict = false)**  
+Normalise file/directory/attribute name
+
+**$yellow->toolbox->normaliseLocation($location, $pageBase, $pageLocation)**  
+Normalise location, make absolute location
+
+**$yellow->toolbox->getHttpStatusFormatted($statusCode)**  
+Return human readable HTTP server status
+
+**$yellow->toolbox->getHttpTimeFormatted($timestamp)**  
+Return human readable HTTP time
+
+**$yellow->toolbox->createTextDescription($text, $lengthMax, $removeHtml = true, $endMarker = "", $endMarkerText = "")**  
+Create description from text string
+
+**$yellow->toolbox->createTextKeywords($text, $keywordsMax)**  
+Create keywords from text string
+
+**$yellow->toolbox->createHash($text, $algorithm, $cost = 0)**  
+Create hash with random salt, bcrypt or sha256
+
+**$yellow->toolbox->verifyHash($text, $algorithm, $hash)**  
+Verify that text matches hash
+
+**$yellow->toolbox->detectImageDimensions($fileName)**  
+Detect image dimensions, PNG or JPG
+
+**$yellow->toolbox->isLocationArgs()**  
+Check if location contains location arguments  
+
+**$yellow->toolbox->isFileLocation($location)**  
+Check if location is specifying file or directory
+
+**$yellow->toolbox->isValidLocation($location)**  
+Check if location is valid
+
 Plugin interface
 ----------------
+**$yellow->plugin($name, $args = NULL)**  
+Execute plugin command
+
 **$yellow->registerPlugin($name, $class, $version)**  
 Register plugin
+
+The following are overrides that any plugin can handle:
 
 **function onLoad($yellow)**  
 Handle plugin initialisation
@@ -231,4 +274,24 @@ Create or update user account
 **php yellow.php version**  
 Show software version
 
-Source code: [https://github.com/markseu/yellowcms](https://github.com/markseu/yellowcms)
+Page meta data
+--------------
+`title` = page title  
+`titleContent` = page title shown in content  
+`titleNavigation` = page title shown in navigation  
+`titleHeader` = page title used in header  
+`description` = page description used in header  
+`keywords` = page keyword(s) used in header, comma separated  
+`author` = page author(s), comma separated  
+`language` = page language  
+`template` = page template  
+`style` = page style  
+`parser` = page parser  
+`modified` = page modification time, YYYY-MM-DD format  
+`published` = page publication date, YYYY-MM-DD format  
+`tag` = tag(s) for categorisation, comma separated  
+`status` = status for workflow   
+`sitename` = sitename used in header and footer  
+`pageRead` = URL for reading page  
+`pageEdit` = URL for editing page  
+`pageError` = description of page error  
