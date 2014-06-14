@@ -33,7 +33,7 @@ Let's have a closer look at text files. Open the file `content/1-home/page.txt` 
     You can now edit this page or use your text editor.  
     Write more text here.
 
-Feel free to use multiple languages and international characters. Content files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
+Feel free to use multiple languages and international characters.
 
 Text formatting
 ---------------

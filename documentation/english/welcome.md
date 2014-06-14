@@ -1,6 +1,6 @@
 Welcome to Yellow
 =================
-Yellow is for people who make websites. You can create web pages, blogs and wikis. The focus is on people, a great user experience and that it's useful for your website. It's quick to install and quick to update a website. Yellow adds modern features to make writing web pages more secure and more fun.
+Yellow is for people who make websites. You can create web pages, blogs and wikis. The focus is on people, a great user experience and that it's useful for your website. It's quick to install and free to use. Yellow adds modern features to make writing web pages more secure and more fun.
 
 Yellow is a flat-file content management system. Everything is just files and folders. There's no database, no admin panel, no template engine, no upload manager, no complete framework. Most websites do not need all of these features. Let's focus on the essentials and make tools to work better together. Use all your favourite tools.
 

@@ -19,7 +19,7 @@ The main configuration file is `system/config/config.ini`. You can define the de
     style = default
     parser = markdownextra
 
-These settings can also be overwritten in the individual settings of a page. Configuration files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
+These settings can also be overwritten in the individual settings of a page. All files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
 
 Templates
 ---------

@@ -4,11 +4,13 @@ API for developers
 
 $yellow
 -------
-**$yellow->page** is the current page  
-**$yellow->pages** gives access to pages from file system  
-**$yellow->config** gives access to configuration  
-**$yellow->text** gives access to text strings  
-**$yellow->toolbox** gives access to toolbox with helpers
+**[$yellow->page](api.md#yellow-page)** is the current page  
+**[$yellow->pages](api.md#yellow-pages)** gives access to pages from file system  
+**[$yellow->config](api.md#yellow-config)** gives access to configuration  
+**[$yellow->text](api.md#yellow-text)** gives access to text strings  
+**[$yellow->toolbox](api.md#yellow-toolbox)** gives access to toolbox with helpers
+
+There's a [plugin interface](api.md#plugin-interface) and a [command line interface](api.md#command-line-interface). 
 
 $yellow->page
 -------------
