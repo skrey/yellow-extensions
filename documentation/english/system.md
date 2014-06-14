@@ -19,11 +19,11 @@ The main configuration file is `system/config/config.ini`. You can define the de
     style = default
     parser = markdownextra
 
-These settings can also be overwritten in the meta data of a page. Configuration files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
+These settings can also be overwritten in the individual settings of a page. Configuration files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
 
 Templates
 ---------
-The output of pages is controlled with templates. There's a default template for the entire website. A different template can be defined in the meta data of a page, for example `Template: blog` uses the file `system/templates/blog.php`. Otherwise, the default template or the name of the folder is used. Templates can generate web pages and other formats. Here's an example:
+The output of pages is controlled with templates. There's a default template for the entire website. A different template can be defined in the settings of a page, for example `Template: blog` uses the file `system/templates/blog.php`. Otherwise, the default template or the name of the folder is used. Templates can generate web pages and other formats. Here's an example:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("navigation") ?>

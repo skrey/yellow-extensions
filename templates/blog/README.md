@@ -16,7 +16,7 @@ How to use a blog?
 ------------------
 The blog is available on your website as `http://website/blog/`. To make the blog your home page, go to your content folder, rename the blog folder to '1-blog' and delete '1-home'. The blog can be sorted by date, tag and author. 
 
-To create a new blog page, add a new file to the blog folder. Set `Published` and more meta data at the top of a page. Dates should be written in the format [YYYY-MM-DD](http://en.wikipedia.org/wiki/ISO_8601). Use `Tag` to group similar pages together.
+To create a new blog page, add a new file to the blog folder. Set `Published` and more settings at the top of a page. Dates should be written in the format [YYYY-MM-DD](http://en.wikipedia.org/wiki/ISO_8601). Use `Tag` to group similar pages together.
 
 Example
 -------
