@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.2](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.3](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -74,6 +74,8 @@ Check if page is visible in navigation
 **$yellow->page->isCacheable()**  
 Check if page is cacheable
 
+Example: [content.php](https://github.com/markseu/yellowcms/blob/master/system/snippets/content.php), [header.php](https://github.com/markseu/yellowcms/blob/master/system/snippets/header.php)
+
 $yellow->pages
 --------------
 **$yellow->pages->create()**  
@@ -146,6 +148,9 @@ Return last page in page collection
 
 **$pages->isPagination()**  
 Check if there is an active pagination
+
+Example: [navigation.php](https://github.com/markseu/yellowcms/blob/master/system/snippets/navigation.php),
+[sitemap.php](https://github.com/markseu/yellowcms-extensions/blob/master/templates/sitemap/sitemap.php)
 
 $yellow->config
 ---------------
@@ -262,6 +267,9 @@ Handle command help
 **function onCommand($args)**  
 Handle command
 
+Example: [youtube.php](https://github.com/markseu/yellowcms-extensions/blob/master/plugins/youtube/youtube.php),
+[draft.php](https://github.com/markseu/yellowcms-extensions/blob/master/plugins/draft/draft.php)
+
 Command line interface
 ----------------------
 **php yellow.php**  
@@ -275,6 +283,10 @@ Create or update user account
 
 **php yellow.php version**  
 Show software version
+
+Example:  
+`php yellow.php build latest`  
+`php yellow.php user email@example.com horsebatterystaple`  
 
 Page meta data
 --------------

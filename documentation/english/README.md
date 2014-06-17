@@ -5,7 +5,7 @@ Yellow is for people who make websites.
 Learn more about it
 -------------------
 Everything is made of files and folders. You can create web pages, blogs and wikis.  
-With this documentation you should get a good understanding of how your website works.
+With this documentation you get a good understanding of how your website works.
 
 * [Welcome](welcome.md)
 * [Adding content](content.md)
