@@ -1,4 +1,4 @@
-Syntaxhighlight plugin 0.1.7
+Syntaxhighlight plugin 0.1.8
 ============================
 Syntax highlighting for source code.
 
@@ -13,9 +13,9 @@ To uninstall delete the plugin files and folder.
 
 How to highlight source code?
 -----------------------------
-Wrap your code blocks in \`\`\`, add an optional language identifier for syntax highlighting. For line numbers add a colon separated number to the language. All languages have individual colors and can be defined via style sheets. There's a `syntaxhighlight.css` which you can adjust or use in your own style sheets.
+Wrap your code blocks in \`\`\`, add an optional language identifier for syntax highlighting. For line numbers add a colon separated number to the language. All languages have individual colors and can be defined via style sheet. There's a `syntaxhighlight.css` which you can adjust or use in your own style sheets.
 
-The plugin uses [GeSHi](https://github.com/GeSHi/geshi-1.0) for syntax highlighting, which supports about 200 markup and programming languages. The following languages are included: [CPP](http://en.wikipedia.org/wiki/C++), [CSS](http://en.wikipedia.org/wiki/CSS), [HTML](http://en.wikipedia.org/wiki/HTML), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [PHP](http://en.wikipedia.org/wiki/PHP). You can download more languages from the Geshi website.
+The plugin uses [GeSHi 1.0.8.11](https://github.com/GeSHi/geshi-1.0) by Benny Baumann, which supports about 200 programming languages. It'is licensed under [GPLv2](http://opensource.org/licenses/GPL-2.0). The following languages are included: [CPP](http://en.wikipedia.org/wiki/C++), [CSS](http://en.wikipedia.org/wiki/CSS), [HTML](http://en.wikipedia.org/wiki/HTML), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [PHP](http://en.wikipedia.org/wiki/PHP). You can download more [languages](https://github.com/GeSHi/geshi-1.0/tree/master/src/geshi).
 
 Example
 -------

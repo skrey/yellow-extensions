@@ -9,21 +9,21 @@ How do I install this?
 
 To uninstall delete the plugin.
 
-How to include information in content files?
---------------------------------------------
-For a snippet use the format `[include snippet NAME]`, you can add optional arguments.  
-For a text string use the format `[include text NAME]`, you can add an optional language.
+How to include information?
+---------------------------
+To include a snippet use the format `[include snippet NAME]`, you can add optional arguments.  
+To include a text string use the format `[include text NAME]`, you can add an optional language.
 
-All snippets are located in the system/snippets folder, text strings in the system/config folder.
+Snippets are located in your system/snippets folder, text strings in your system/config folder.
 
 Example
 -------
-Including a snippet, default and optional argument:
+Including a snippet in a content file, default and optional argument:
 
     [include snippet breadcrumbs]
     [include snippet breadcrumbs /]
 
-Including a text string, default and specific language:
+Including a text string in a content file, default and specific language:
 
     [include text languageDescription]
     [include text languageDescription sv]

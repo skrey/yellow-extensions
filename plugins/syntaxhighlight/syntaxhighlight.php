@@ -5,7 +5,7 @@
 // Syntax highlight parser plugin
 class YellowSyntaxhighlight
 {
-	const Version = "0.1.7";
+	const Version = "0.1.8";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -38,7 +38,7 @@ class YellowSyntaxhighlight
 		return $output;
 	}
 	
-	// Handle extra HTML header lines
+	// Handle page extra header
 	function onHeaderExtra($page)
 	{
 		$header = "";

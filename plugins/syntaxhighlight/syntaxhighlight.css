@@ -1,4 +1,4 @@
-/* CSS syntax highlight 0.1.1 */
+/* Syntaxhighlight plugin 0.1.8 */
  
 .css { color:#000; }
 .css td.de1 pre { padding-left:0.3em; }
@@ -6,8 +6,6 @@
 .css .kw1 { color:#c00; }
 .css .co1 { color:#0a0; }
 .css .coMULTI { color:#0a0; }
-
-/* CPP syntax highlight 0.1.1 */
 
 .cpp { color:#000; }
 .cpp td.de1 pre { padding-left:0.3em; }
@@ -25,8 +23,6 @@
 .cpp .co1 { color:#0a0; }
 .cpp .coMULTI { color:#0a0; }
 
-/* HTML syntax highlight 0.1.1 */
- 
 .html { color:#000; }
 .html td.de1 pre { padding-left:0.3em; }
 .html td.ln pre { padding-right:0.3em; text-align:right; border-right:1px solid #bbb; color:#bbb; }
@@ -37,8 +33,6 @@
 .html .sc0 { color:#777; }
 .html .sc-1 { color:#0a0; }
 
-/* JavaScript syntax highlight 0.1.1 */
- 
 .javascript { color:#000; }
 .javascript td.de1 pre { padding-left:0.3em; }
 .javascript td.ln pre { padding-right:0.3em; text-align:right; border-right:1px solid #bbb; color:#bbb; }
@@ -50,8 +44,6 @@
 .javascript .co1 { color:#0a0; }
 .javascript .coMULTI { color:#0a0; }
 
-/* PHP syntax highlight 0.1.1 */
- 
 .php { color:#000; }
 .php td.de1 pre { padding-left:0.3em; }
 .php td.ln pre { padding-right:0.3em; text-align:right; border-right:1px solid #bbb; color:#bbb; }
