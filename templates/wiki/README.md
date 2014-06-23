@@ -16,7 +16,7 @@ How to use a wiki?
 ------------------
 The wiki is available on your website as `http://website/wiki/`. To make the wiki your home page, go to your content folder, rename the wiki folder to '1-wiki' and delete '1-home'.
 
-To create a new wiki page, add a new file to the wiki folder. Set `Title` and more settings at the top of a page. Use `Tag` to group similar pages together. Pages be sorted by date, tag and title.
+To create a new wiki page, add a new file to the wiki folder. Set `Title` and more settings at the top of a page. Use `Tag` to group similar pages together. Pages can be sorted by date, tag and title.
 
 Example
 -------
