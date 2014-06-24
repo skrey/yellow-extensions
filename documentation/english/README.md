@@ -2,6 +2,8 @@ Yellow documentation
 ====================
 Yellow is for people who make websites.
 
+[![Demo](https://github.com/markseu/yellowcms-extensions/raw/master/documentation/english/yellowdemo.png?raw=true)](http://demo.datenstrom.se/)
+
 Learn more about it
 -------------------
 Everything is made of files and folders. You can create web pages, blogs and wikis.  

@@ -4,7 +4,7 @@ Yellow is for people who make websites. You can create web pages, blogs and wiki
 
 Yellow is a flat-file content management system. Everything is just files and folders. There's no database, no admin panel, no template engine, no upload manager, no complete framework. Most websites do not need all of these features. Let's concentrate on the essential aspects and tools that work better together. Use all your favourite tools.
 
-[Online demo](http://demo.datenstrom.se/). [Download Yellow](https://github.com/markseu/yellowcms).
+[Yellow demo](http://demo.datenstrom.se/). [Download Yellow](https://github.com/markseu/yellowcms).
 
 Web browser
 -----------
