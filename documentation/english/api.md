@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.3](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.6](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -203,6 +203,9 @@ Return human readable HTTP server status
 **$yellow->toolbox->getHttpTimeFormatted($timestamp)**  
 Return human readable HTTP time
 
+**$yellow->toolbox->getTextArgs($text, $optional = "-")**  
+Return arguments from text string
+
 **$yellow->toolbox->createTextDescription($text, $lengthMax, $removeHtml = true, $endMarker = "", $endMarkerText = "")**  
 Create description from text string
 
@@ -215,8 +218,8 @@ Create hash with random salt, bcrypt or sha256
 **$yellow->toolbox->verifyHash($text, $algorithm, $hash)**  
 Verify that text matches hash
 
-**$yellow->toolbox->detectImageDimensions($fileName)**  
-Detect image dimensions, PNG or JPG
+**$yellow->toolbox->detectImageInfo($fileName)**  
+Detect image dimensions and type, png or jpg
 
 **$yellow->toolbox->isLocationArgs()**  
 Check if location contains location arguments  
@@ -257,6 +260,9 @@ Handle custom type parsing
 
 **function onHeaderExtra($page)**  
 Handle page extra header
+
+**function onMergeData($textLeft, $textRight, $textMaster)**  
+Handle page data merging
 
 **function onCheckPermissions($location, $fileName, $users)**  
 Handle permissions for changing page
