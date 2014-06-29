@@ -2,7 +2,7 @@
 <?php $yellow->snippet("navigation") ?>
 <div class="content blog">
 <div class="article">
-<div class="entry-header"><h1><?php echo $yellow->page->getHtml("title") ?></h1></div>
+<div class="entry-header"><h1><?php echo $yellow->page->getHtml("titleContent") ?></h1></div>
 <div class="entry-meta"><?php echo $yellow->page->getHtml("published") ?> <?php echo $yellow->text->getHtml("blogBy") ?> <?php $authorCounter = 0; foreach(preg_split("/,\s*/", $yellow->page->get("author")) as $author) { if(++$authorCounter>1) echo ", "; echo "<a href=\"".$yellow->page->getParentTop(true)->getLocation().$yellow->toolbox->normaliseArgs("author:$author")."\">".htmlspecialchars($author)."</a>"; } ?></div>
 <div class="entry-content"><?php echo $yellow->page->getContent() ?></div>
 <div class="entry-footer">
