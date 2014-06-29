@@ -1,4 +1,4 @@
-Youtube plugin 0.1.4
+Youtube plugin 0.1.5
 ====================
 Embed [Youtube](http://www.youtube.com) videos.
 

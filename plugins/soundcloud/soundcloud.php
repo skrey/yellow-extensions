@@ -5,7 +5,7 @@
 // Soundcloud parser plugin
 class YellowSoundcloud
 {
-	const Version = "0.1.4";
+	const Version = "0.1.5";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -21,13 +21,13 @@ class YellowSoundcloud
 		$output = NULL;
 		if($name=="soundcloud" && $typeShortcut)
 		{
-			list($id, $style, $width, $height) = explode(' ', $text);
+			list($id, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
 			if(empty($style)) $style = $this->yellow->config->get("soundcloudStyle");
 			if(empty($width)) $width = "100%";
 			if(empty($height)) $height = "166";
-			$output = "<div class=\"$style\">";
-			$output .= "<iframe src=\"https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F$id\" frameborder=\"0\"";
-			$output .= " width=\"$width\" height=\"$height\"";
+			$output = "<div class=\"".htmlspecialchars($style)."\">";
+			$output .= "<iframe src=\"https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F".rawurlencode($id)."\" frameborder=\"0\"";
+			$output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
 			$output .= "></iframe></div>";
 		}
 		return $output;

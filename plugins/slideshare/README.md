@@ -1,4 +1,4 @@
-Slideshare plugin 0.1.4
+Slideshare plugin 0.1.5
 =======================
 Embed [Slideshare](http://www.slideshare.net/) presentations.
 
@@ -19,4 +19,4 @@ Example
 Embedding a presentation, default and custom style:
 
     [slideshare 16220047]
-    [slideshare 16220047 right 200 112]
+    [slideshare 16220047 right 320 200]

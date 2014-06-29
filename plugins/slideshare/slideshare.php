@@ -5,7 +5,7 @@
 // Slideshare parser plugin
 class YellowSlideshare
 {
-	const Version = "0.1.4";
+	const Version = "0.1.5";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -21,11 +21,11 @@ class YellowSlideshare
 		$output = NULL;
 		if($name=="slideshare" && $typeShortcut)
 		{
-			list($id, $style, $width, $height) = explode(' ', $text);
+			list($id, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
 			if(empty($style)) $style = $this->yellow->config->get("slideshareStyle");
-			$output = "<div class=\"$style\">";
-			$output .= "<iframe src=\"https://www.slideshare.net/slideshow/embed_code/$id\" frameborder=\"0\" allowfullscreen";
-			if($width && $height) $output .= " width=\"$width\" height=\"$height\"";
+			$output = "<div class=\"".htmlspecialchars($style)."\">";
+			$output .= "<iframe src=\"https://www.slideshare.net/slideshow/embed_code/".rawurlencode($id)."\" frameborder=\"0\" allowfullscreen";
+			if($width && $height) $output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
 			$output .= "></iframe></div>";
 		}
 		return $output;
