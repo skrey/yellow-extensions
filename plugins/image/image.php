@@ -2,13 +2,12 @@
 // Copyright (c) 2013-2014 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-// Image plugin
+// Image parser plugin
 class YellowImage
 {
-	const Version = "0.1.1";
-
+	const Version = "0.1.2";
 	var $yellow;			//access to API
-	var $hasGraphicsLibrary;
+	var $graphicsLibrary;	//graphics library support? (boolean)
 
 	// Handle plugin initialisation
 	function onLoad($yellow)
@@ -17,7 +16,7 @@ class YellowImage
 		$this->yellow->config->setDefault("imageThumbnailLocation", "/media/thumbnails/");
 		$this->yellow->config->setDefault("imageThumbnailDir", "media/thumbnails/");
 		$this->yellow->config->setDefault("imageJpegQuality", 80);
-		$this->hasGraphicsLibrary = extension_loaded("gd") && function_exists("gd_info") && ((imagetypes()&(IMG_JPG|IMG_PNG))==(IMG_JPG|IMG_PNG));
+		$this->graphicsLibrary = $this->isGraphicsLibrary();
 	}
 
 	// Handle custom type parsing
@@ -26,114 +25,99 @@ class YellowImage
 		$output = NULL;
 		if($name=="image" && $typeShortcut)
 		{
-			if(!$this->hasGraphicsLibrary)
+			if(!$this->graphicsLibrary)
 			{
 				$this->yellow->page->error(500, "Plugin 'image' requires GD library with JPEG and PNG support!");
 				return $output;
 			}
-			list($fileName, $alternativeText, $classes, $desiredWidth, $desiredHeight, $mode) = $this->yellow->toolbox->getTextArgs($text);
-			if($desiredHeight=="")
-				$desiredHeight = $desiredWidth;
-			list($desiredWidthValue, $desiredWidthUnit) = $this->decodeValueAndUnit($desiredWidth);
-			list($desiredHeightValue, $desiredHeightUnit) = $this->decodeValueAndUnit($desiredHeight);
-
-			$fileLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageLocation").$fileName;
-			$inputFileName = $this->yellow->config->get("imageDir").$fileName;
-			list($inputWidth, $inputHeight, $inputType) = $this->yellow->toolbox->detectImageInfo($inputFileName);
-			$outputWidth = $inputWidth;
-			$outputHeight = $inputHeight;
-
-			if($inputType!="" && $desiredWidthValue!="" && $desiredHeightValue!="")
+			list($name, $alt, $style, $widthOutput, $heightOutput, $mode) = $this->yellow->toolbox->getTextArgs($text);
+			$width = $height = 0;
+			$src = $name;
+			if(!preg_match("/^\w+:/", $src))
 			{
-				if($desiredWidthUnit=="%")
-					$desiredWidthValue = $inputWidth*$desiredWidthValue/100;
-				if($desiredHeightUnit=="%")
-					$desiredHeightValue = $inputHeight*$desiredHeightValue/100;
-				$mode = strtolower($mode);
-				if($mode!="cut")
-					$mode = "fit";
-
-				$thumbFileName = ltrim(str_replace(array("/", "\\", "."), "-", dirname($fileName)."/".pathinfo($fileName, PATHINFO_FILENAME)), "-");
-				$thumbFileName .= "-".intval($desiredWidthValue)."x".intval($desiredHeightValue)."-".$mode.".".pathinfo($fileName, PATHINFO_EXTENSION);
-				$outputFileName = $this->yellow->config->get("imageThumbnailDir").$thumbFileName;
-				if($this->isFileInvalidated($inputFileName, $outputFileName))
+				list($width, $height, $type) = $this->yellow->toolbox->detectImageInfo($this->yellow->config->get("imageDir").$src);
+				$src = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageLocation").$src;
+				if(empty($heightOutput)) $heightOutput = $widthOutput;
+				if($width && $height && $widthOutput && $heightOutput)
 				{
-					$image = $this->loadImage($inputFileName, $inputType);
-					if($image!==false)
-					{
-						$image = $this->resizeImage($image, $inputWidth, $inputHeight, $desiredWidthValue, $desiredHeightValue, $mode);
-						if(!$this->saveImage($outputFileName, $image, $inputType))
-							$this->yellow->page->error(500, "Image '$outputFileName' can't be saved!");
-						$this->yellow->toolbox->modifyFile($outputFileName, filemtime($inputFileName));
-					}
+					list($width, $height, $src) = $this->createThumbnail($name, $width, $height, $widthOutput, $heightOutput, $type, $mode);
 				}
-				$fileLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageThumbnailLocation").$thumbFileName;
-				list($outputWidth, $outputHeight) = $this->yellow->toolbox->detectImageInfo($outputFileName);
 			}
-
-			$output = "<img ";
-			if($classes!="")
-				$output .= "class=\"".htmlspecialchars($classes)."\" ";
-			if($alternativeText!="")
-				$output .= "alt=\"".htmlspecialchars($alternativeText)."\" title=\"".htmlspecialchars($alternativeText)."\" ";
-			if($outputWidth!="")
-				$output .= "width=\"".htmlspecialchars($outputWidth)."\" ";
-			if($outputHeight!="")
-				$output .= "height=\"".htmlspecialchars($outputHeight)."\" ";
-			$output .= "src=\"".htmlspecialchars($fileLocation)."\">";
+			$output = "<img src=\"".htmlspecialchars($src)."\"";
+			if($width && $height) $output .= " width=\"$width\" height=\"$height\"";
+			if(!empty($alt)) $output .= " alt=\"".htmlspecialchars($alt)."\" title=\"".htmlspecialchars($alt)."\"";
+			if(!empty($style)) $output .= " class=\"".htmlspecialchars($style)."\"";
+			$output .= " />";
 		}
 		return $output;
 	}
 
-	// Cleanup generated thumbnails (TODO: handle callback from webinterface and commandline)
-	function cleanup()
+	// Cleanup thumbnails (TODO: handle callback from webinterface and commandline)
+	function cleanThumbnails()
 	{
 		$ok = true;
-		foreach($this->yellow->toolbox->getDirectoryEntries($this->yellow->config->get("imageThumbnailDir"), "/.*/", false, false, true) as $entry)
+		$path = $this->yellow->config->get("imageThumbnailDir");
+		foreach($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", false, false, true) as $entry)
 		{
 			$ok &= $this->yellow->toolbox->deleteFile($entry);
 		}
 		return $ok;
 	}
 
-	// Check cache if file was modified or isn't in cache already
-	function isFileInvalidated($inputFileName, $outputFileName)
+	// Create thumbnail on demand
+	function createThumbnail($fileName, $widthInput, $heightInput, $widthOutput, $heightOutput, $type, $mode)
 	{
-		if(!file_exists($inputFileName))
-			return false;
-		if(!file_exists($outputFileName))
-			return true;
-		if(filemtime($inputFileName)!=filemtime($outputFileName))
-			return true;
-		return false;
+		$widthOutput = $this->convertValueAndUnit($widthOutput, $widthInput);
+		$heightOutput = $this->convertValueAndUnit($heightOutput, $heightInput);
+		$mode = strtolower($mode); if($mode != "cut") $mode = "fit";
+		$fileNameThumb = ltrim(str_replace(array("/", "\\", "."), "-", dirname($fileName)."/".pathinfo($fileName, PATHINFO_FILENAME)), "-");
+		$fileNameThumb .= "-".$widthOutput."x".$heightOutput."-".$mode;
+		$fileNameThumb .= ".".pathinfo($fileName, PATHINFO_EXTENSION);
+		$fileNameInput = $this->yellow->config->get("imageDir").$fileName;
+		$fileNameOutput = $this->yellow->config->get("imageThumbnailDir").$fileNameThumb;
+		if($this->isFileNotUpdated($fileNameInput, $fileNameOutput))
+		{
+			$image = $this->loadImage($fileNameInput, $type);
+			if($image)
+			{
+				$image = $this->resizeImage($image, $widthInput, $heightInput, $widthOutput, $heightOutput, $mode);
+				if(!$this->saveImage($fileNameOutput, $type, $image) ||
+				   !$this->yellow->toolbox->modifyFile($fileNameOutput, filemtime($fileNameInput)))
+				{
+					$this->yellow->page->error(500, "Image '$fileNameOutput' can't be saved!");
+				}
+			}
+		}
+		list($width, $height) = $this->yellow->toolbox->detectImageInfo($fileNameOutput);
+		$src = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageThumbnailLocation").$fileNameThumb;
+		return array($width, $height, $src);
 	}
 
-	// Load image from file according to its file extension
+	// Load image from file
 	function loadImage($fileName, $type)
 	{
 		$image = false;
-		if($type=="jpg")
+		switch($type)
 		{
-			$image = imagecreatefromjpeg($fileName);
-		} else if($type=="png") {
-			$image = imagecreatefrompng($fileName);
- 		}
+			case "jpg":	$image = @imagecreatefromjpeg($fileName); break;
+			case "png":	$image = @imagecreatefrompng($fileName); break;
+		}
 		return $image;
 	}
 
 	// Save image as file
-	function saveImage($fileName, $image, $type)
+	function saveImage($fileName, $type, $image)
 	{
-		if($type=="jpg")
+		$ok = false;
+		switch($type)
 		{
-			return @imagejpeg($image, $fileName, $this->yellow->config->get("imageJpegQuality")); // CHECK: use quality from source file?
-		} else if($type=="png") {
-			return @imagepng($image, $fileName);
+			case "jpg":	$ok = @imagejpeg($image, $fileName, $this->yellow->config->get("imageJpegQuality")); break;
+			case "png":	$ok = @imagepng($image, $fileName); break;
 		}
-		return false;
+		return $ok;
 	}
 
-	// Create target image buffer for thumbnails with correct alpha attributes
+	// Create image
 	function createImage($width, $height)
 	{
 		$image = imagecreatetruecolor($width, $height);
@@ -142,47 +126,61 @@ class YellowImage
 		return $image;
 	}
 
-	// Resize image to specified size with
-	function resizeImage($inputImage, $inputWidth, $inputHeight, $outputWidth, $outputHeight, $mode)
+	// Resize image
+	function resizeImage($imageInput, $widthInput, $heightInput, $widthOutput, $heightOutput, $mode)
 	{
-		$fitWidth = $inputWidth*($outputHeight/$inputHeight);
-		$fitHeight = $inputHeight*($outputWidth/$inputWidth);
-
-		$diffWidth = abs($outputWidth-$fitWidth);
-		$diffHeight = abs($outputHeight-$fitHeight);
-
-		if($mode=="cut")
+		$widthFit = $widthInput * ($heightOutput / $heightInput);
+		$heightFit = $heightInput * ($widthOutput / $widthInput);
+		$widthDiff = abs($widthOutput - $widthFit);
+		$heightDiff = abs($heightOutput - $heightFit);
+		if($mode == "cut")
 		{
-			if($fitWidth<$outputWidth)
+			if($widthFit < $widthOutput)
 			{
-				$targetImage = $this->createImage($fitWidth, $outputHeight);
-				imagecopyresampled($targetImage, $inputImage, 0, 0, 0, 0, $fitWidth, $outputHeight, $inputWidth, $inputHeight);
+				$imageOutput = $this->createImage($widthFit, $heightOutput);
+				imagecopyresampled($imageOutput, $imageInput, 0, 0, 0, 0, $widthFit, $heightOutput, $widthInput, $heightInput);
 			} else {
-				$targetImage = $this->createImage($outputWidth, $fitHeight);
-				imagecopyresampled($targetImage, $inputImage, 0, 0, 0, 0, $outputWidth, $fitHeight, $inputWidth, $inputHeight);
+				$imageOutput = $this->createImage($widthOutput, $heightFit);
+				imagecopyresampled($imageOutput, $imageInput, 0, 0, 0, 0, $widthOutput, $heightFit, $widthInput, $heightInput);
 			}
 		} else {
-			$targetImage = $this->createImage($outputWidth, $outputHeight);
-			if($fitHeight>$outputHeight)
+			$imageOutput = $this->createImage($widthOutput, $heightOutput);
+			if($heightFit > $heightOutput)
 			{
-				imagecopyresampled($targetImage, $inputImage, 0, $diffHeight/-2, 0, 0, $outputWidth, $fitHeight, $inputWidth, $inputHeight);
+				imagecopyresampled($imageOutput, $imageInput, 0, $heightDiff/-2, 0, 0, $widthOutput, $heightFit, $widthInput, $heightInput);
 			} else {
-				imagecopyresampled($targetImage, $inputImage, $diffWidth/-2, 0, 0, 0, $fitWidth, $outputHeight, $inputWidth, $inputHeight);
+				imagecopyresampled($imageOutput, $imageInput, $widthDiff/-2, 0, 0, 0, $widthFit, $heightOutput, $widthInput, $heightInput);
 			}
 		}
-		return $targetImage;
+		return $imageOutput;
 	}
 
-	// Return value and unit symbol
-	function decodeValueAndUnit($text)
+	// Return value according to unit
+	function convertValueAndUnit($text, $valueBase)
 	{
-		if(!preg_match("/([\d\.\,]*)\s*(\S*)/", $text, $matches))
-			return array("0", "px");
-		if($matches[1]===null)
-			$matches[1] = "";
-		if($matches[2]===null || $matches[2]=="")
-			$matches[2] = "px";
-		return array($matches[1], strtolower($matches[2]));
+		$value = $unit = "";
+		if(preg_match("/(\d+)(\S*)/", $text, $matches))
+		{
+			$value = $matches[1];
+			$unit = $matches[2];
+			if($unit == "%") $value = intval($valueBase * $value / 100);
+		}
+		return $value;
+	}
+
+	// Check if file needs to be updated
+	function isFileNotUpdated($fileNameInput, $fileNameOutput)
+	{
+		$fileDateInput = is_file($fileNameInput) ? filemtime($fileNameInput) : 0;
+		$fileDateOutput = is_file($fileNameOutput) ? filemtime($fileNameOutput) : 0;
+		return $fileDateInput != $fileDateOutput;
+	}
+
+	// Check graphics library support
+	function isGraphicsLibrary()
+	{
+		return extension_loaded("gd") && function_exists("gd_info") &&
+			((imagetypes()&(IMG_JPG|IMG_PNG)) == (IMG_JPG|IMG_PNG));
 	}
 }
 
