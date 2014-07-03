@@ -10,14 +10,31 @@ Create additional folders and organise media files as you like.
 
 Image files
 -----------
-Here's how to use images. Open the file `content/1-home/page.txt` in your favorite text editor. Add `![image](icon.png)` to the text of the page. The home page shows now the default website icon. To use more images, add more files to your images folder.
+Here's how to use images. Open the file `content/1-home/page.txt` in your favorite text editor. Add `![image](icon.png)` to the text of the page. The home page shows now the default website icon. 
 
 `![image](icon.png)` shows the image `http://website/images/icon.png`  
-`![image](about/picture.jpg)` shows the image `http://website/images/about/picture.jpg`  
-`![image](about/picture.jpg){.left}` shows the image `http://website/images/about/picture.jpg` with style `left`  
-`![image](about/picture.jpg){.right}` shows the image `http://website/images/about/picture.jpg` with style `right`  
+`![image](picture.jpg)` shows the image `http://website/images/picture.jpg`  
 
-All files are served exactly as they are, if you need different resolutions use multiple images.
+To use more images, add more files to your images folder.
+
+Image resize
+------------
+Yellow has no built-in image resize, but there's the [Image plugin](https://github.com/markseu/yellowcms-extensions/tree/master/plugins/image) for resizable images and thumbnails.
+
+`[image icon.png]` shows the image `http://website/images/icon.png`  
+`[image picture.jpg]` shows the image `http://website/images/picture.jpg `  
+
+Different styles:
+
+    [image picture.jpg Picture left]
+    [image picture.jpg Picture right]
+
+Different sizes:
+
+    [image picture.jpg Picture - 320 200]
+    [image picture.jpg Picture - 50%]
+
+You can use images in any size. There are more [plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins) for videos and presentations.
 
 Style sheets
 ------------

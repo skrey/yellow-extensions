@@ -51,8 +51,8 @@ Make a list:
 
 Make a link:
 
-    https://github.com/markseu/yellowcms
-    [Yellow](https://github.com/markseu/yellowcms)
+	http://datenstrom.se/yellow/
+    [Yellow](http://datenstrom.se/yellow/)
 
 Make a heading:
 
