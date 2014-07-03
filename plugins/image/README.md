@@ -1,4 +1,4 @@
-Image plugin 0.1.2
+Image plugin 0.1.3
 ==================
 Support for resizable images and thumbnails.
 
@@ -34,5 +34,5 @@ Adding an image, different styles:
 Adding an image, different sizes:
 
     [image picture.jpg Picture - 64 64]
-    [image picture.jpg Picture - 128 128]
-    [image picture.jpg Picture - 50% 50%]
+    [image picture.jpg Picture - 320 200]
+    [image picture.jpg Picture - 50%]

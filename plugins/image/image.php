@@ -5,7 +5,7 @@
 // Image parser plugin
 class YellowImage
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
 	var $graphicsLibrary;	//graphics library support? (boolean)
 
@@ -15,6 +15,7 @@ class YellowImage
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("imageThumbnailLocation", "/media/thumbnails/");
 		$this->yellow->config->setDefault("imageThumbnailDir", "media/thumbnails/");
+		$this->yellow->config->setDefault("imageAlt", "Image");
 		$this->yellow->config->setDefault("imageJpegQuality", 80);
 		$this->graphicsLibrary = $this->isGraphicsLibrary();
 	}
@@ -37,6 +38,7 @@ class YellowImage
 			{
 				list($width, $height, $type) = $this->yellow->toolbox->detectImageInfo($this->yellow->config->get("imageDir").$src);
 				$src = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageLocation").$src;
+				if(empty($alt)) $alt = $this->yellow->config->get("imageAlt");
 				if(empty($heightOutput)) $heightOutput = $widthOutput;
 				if($width && $height && $widthOutput && $heightOutput)
 				{
