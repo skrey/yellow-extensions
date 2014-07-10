@@ -5,7 +5,7 @@
 // Fontawesome plugin
 class YellowFontawesome
 {
-	const Version = "0.1.1";
+	const Version = "0.1.2";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -27,5 +27,5 @@ class YellowFontawesome
 	}
 }
 
-$yellow->registerPlugin("fontawesome", "YellowFontawesome", YellowFontawesome::Version);
+$yellow->plugins->register("fontawesome", "YellowFontawesome", YellowFontawesome::Version);
 ?>

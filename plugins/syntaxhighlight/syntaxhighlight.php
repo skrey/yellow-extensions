@@ -5,7 +5,7 @@
 // Syntax highlight parser plugin
 class YellowSyntaxhighlight
 {
-	const Version = "0.1.8";
+	const Version = "0.1.9";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -17,8 +17,8 @@ class YellowSyntaxhighlight
 		$this->yellow->config->setDefault("syntaxLineNumber", "0");
 	}
 	
-	// Handle custom type parsing
-	function onParseType($name, $text, $typeShortcut)
+	// Handle page custom type parsing
+	function onParseType($page, $name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if(!empty($name) && !$typeShortcut)
@@ -65,5 +65,5 @@ class YellowSyntaxhighlight
 	
 require_once("syntaxhighlight/geshi.php");
 
-$yellow->registerPlugin("syntaxhighlight", "YellowSyntaxhighlight", YellowSyntaxhighlight::Version);
+$yellow->plugins->register("syntaxhighlight", "YellowSyntaxhighlight", YellowSyntaxhighlight::Version);
 ?>

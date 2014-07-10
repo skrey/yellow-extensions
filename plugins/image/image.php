@@ -5,7 +5,7 @@
 // Image parser plugin
 class YellowImage
 {
-	const Version = "0.1.3";
+	const Version = "0.1.4";
 	var $yellow;			//access to API
 	var $graphicsLibrary;	//graphics library support? (boolean)
 
@@ -20,8 +20,8 @@ class YellowImage
 		$this->graphicsLibrary = $this->isGraphicsLibrary();
 	}
 
-	// Handle custom type parsing
-	function onParseType($name, $text, $typeShortcut)
+	// Handle page custom type parsing
+	function onParseType($page, $name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="image" && $typeShortcut)
@@ -186,5 +186,5 @@ class YellowImage
 	}
 }
 
-$yellow->registerPlugin("image", "YellowImage", YellowImage::Version);
+$yellow->plugins->register("image", "YellowImage", YellowImage::Version);
 ?>

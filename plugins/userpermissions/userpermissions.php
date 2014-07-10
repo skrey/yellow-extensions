@@ -5,7 +5,7 @@
 // User permissions plugin
 class YellowUserpermissions
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -22,5 +22,5 @@ class YellowUserpermissions
 	}
 }
 
-$yellow->registerPlugin("userpermissions", "YellowUserpermissions", YellowUserpermissions::Version);
+$yellow->plugins->register("userpermissions", "YellowUserpermissions", YellowUserpermissions::Version);
 ?>

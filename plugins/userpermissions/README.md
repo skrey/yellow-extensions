@@ -1,4 +1,4 @@
-User permissions plugin 0.1.2
+User permissions plugin 0.1.3
 =============================
 Restrictions for web interface users.
 

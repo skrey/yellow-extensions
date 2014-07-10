@@ -5,7 +5,7 @@
 // Youtube parser plugin
 class YellowYoutube
 {
-	const Version = "0.1.5";
+	const Version = "0.1.6";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -15,8 +15,8 @@ class YellowYoutube
 		$this->yellow->config->setDefault("youtubeStyle", "flexible");
 	}
 	
-	// Handle custom type parsing
-	function onParseType($name, $text, $typeShortcut)
+	// Handle page custom type parsing
+	function onParseType($page, $name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="youtube" && $typeShortcut)
@@ -32,5 +32,5 @@ class YellowYoutube
 	}
 }
 
-$yellow->registerPlugin("youtube", "YellowYoutube", YellowYoutube::Version);
+$yellow->plugins->register("youtube", "YellowYoutube", YellowYoutube::Version);
 ?>

@@ -51,8 +51,8 @@ Make a list:
 
 Make a link:
 
-	http://datenstrom.se/yellow/
-    [Yellow](http://datenstrom.se/yellow/)
+	http://datenstrom.se/yellow
+    [Yellow](http://datenstrom.se/yellow)
 
 Make a heading:
 

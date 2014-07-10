@@ -1,4 +1,4 @@
-Include plugin 0.1.2
+Include plugin 0.1.3
 ====================
 Server include for content files.
 

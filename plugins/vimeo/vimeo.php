@@ -5,7 +5,7 @@
 // Vimeo parser plugin
 class YellowVimeo
 {
-	const Version = "0.1.5";
+	const Version = "0.1.6";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -15,8 +15,8 @@ class YellowVimeo
 		$this->yellow->config->setDefault("vimeoStyle", "flexible");
 	}
 	
-	// Handle custom type parsing
-	function onParseType($name, $text, $typeShortcut)
+	// Handle page custom type parsing
+	function onParseType($page, $name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="vimeo" && $typeShortcut)
@@ -32,5 +32,5 @@ class YellowVimeo
 	}
 }
 
-$yellow->registerPlugin("vimeo", "YellowVimeo", YellowVimeo::Version);
+$yellow->plugins->register("vimeo", "YellowVimeo", YellowVimeo::Version);
 ?>

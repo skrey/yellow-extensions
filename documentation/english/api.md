@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.6](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.7](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -8,17 +8,16 @@ $yellow
 **[$yellow->pages](api.md#yellow-pages)** gives access to pages from file system  
 **[$yellow->config](api.md#yellow-config)** gives access to configuration  
 **[$yellow->text](api.md#yellow-text)** gives access to text strings  
-**[$yellow->toolbox](api.md#yellow-toolbox)** gives access to toolbox with helpers
-
-There's a [plugin interface](api.md#plugin-interface) and a [command line interface](api.md#command-line-interface). 
+**[$yellow->toolbox](api.md#yellow-toolbox)** gives access to toolbox with helpers  
+**[$yellow->plugins](api.md#yellow-plugins)** gives access to plugins
 
 $yellow->page
 -------------
 **$yellow->page->get($key)**  
-Return page meta data
+Return page [meta data](api.md#page-meta-data)  
 
 **$yellow->page->getHtml($key)**  
-Return page meta data, HTML encoded
+Return page [meta data](api.md#page-meta-data), HTML encoded  
 
 **$yellow->page->getContent($rawFormat = false)**  
 Return page content, HTML encoded or raw format
@@ -60,7 +59,7 @@ Respond with status code, no page content
 Add page response header, HTTP format
 
 **$yellow->page->isExisting($key)**  
-Check if page meta data exists
+Check if page [meta data](api.md#page-meta-data) exists  
 
 **$yellow->page->isError()**  
 Check if page with error
@@ -96,10 +95,10 @@ Return page collection with one specific page
 The following works for any page collection, e.g functions that return more than one page:
 
 **$pages->filter($key, $value, $exactMatch = true)**  
-Filter page collection by meta data
+Filter page collection by [meta data](api.md#page-meta-data)  
 
 **$pages->sort($key, $ascendingOrder = true)**  
-Sort page collection by meta data
+Sort page collection by [meta data](api.md#page-meta-data)  
 
 **$pages->merge($input)**  
 Merge page collection
@@ -230,15 +229,15 @@ Check if location is specifying file or directory
 **$yellow->toolbox->isValidLocation($location)**  
 Check if location is valid
 
-Plugin interface
+$yellow->plugins
 ----------------
-**$yellow->plugin($name, $args = NULL)**  
-Execute plugin command
-
-**$yellow->registerPlugin($name, $class, $version)**  
+**$yellow->plugins->register($name, $class, $version)**  
 Register plugin
 
-The following are overrides that any plugin can handle:
+**$yellow->plugin->isExisting($name)**  
+Check if plugin exists
+
+The following are overrides that plugins can handle:
 
 **function onLoad($yellow)**  
 Handle plugin initialisation
@@ -249,20 +248,20 @@ Handle request
 **function onParseMeta($page, $text)**  
 Handle page meta data parsing
 
-**function onParseText($page, $text)**  
-Handle page text parsing, raw format
+**function onParseContentText($page, $text)**  
+Handle page content parsing of raw format
 
 **function onParseContent($page, $text)**  
 Handle page content parsing
 
-**function onParseType($name, $text, $typeShortcut)**  
-Handle custom type parsing
+**function onParseType($page, $name, $text, $typeShortcut)**  
+Handle page custom type parsing
 
 **function onHeaderExtra($page)**  
 Handle page extra header
 
-**function onMergeData($textLeft, $textRight, $textMaster)**  
-Handle page data merging
+**function onMergeText($location, $textSource, $textLocal, $textRemote)**  
+Handle text merging
 
 **function onCheckPermissions($location, $fileName, $users)**  
 Handle permissions for changing page

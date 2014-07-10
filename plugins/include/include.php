@@ -5,7 +5,7 @@
 // Server include plugin
 class YellowInclude
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -14,8 +14,8 @@ class YellowInclude
 		$this->yellow = $yellow;
 	}
 	
-	// Handle custom type parsing
-	function onParseType($name, $text, $typeShortcut)
+	// Handle page custom type parsing
+	function onParseType($page, $name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="include" && $typeShortcut)
@@ -30,7 +30,7 @@ class YellowInclude
 								ob_end_clean();
 								break;
 				case "text":	list($key, $language) = $args;
-								if(empty($language)) $language = $this->yellow->text->language;
+								if(empty($language)) $language = $page->get("language");
 								$output = htmlspecialchars($this->yellow->text->getText($key, $language));
 								break;
 			}
@@ -39,5 +39,5 @@ class YellowInclude
 	}
 }
 
-$yellow->registerPlugin("include", "YellowInclude", YellowInclude::Version);
+$yellow->plugins->register("include", "YellowInclude", YellowInclude::Version);
 ?>

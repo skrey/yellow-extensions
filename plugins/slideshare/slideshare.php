@@ -5,7 +5,7 @@
 // Slideshare parser plugin
 class YellowSlideshare
 {
-	const Version = "0.1.5";
+	const Version = "0.1.6";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -15,8 +15,8 @@ class YellowSlideshare
 		$this->yellow->config->setDefault("slideshareStyle", "flexible");
 	}
 	
-	// Handle custom type parsing
-	function onParseType($name, $text, $typeShortcut)
+	// Handle page custom type parsing
+	function onParseType($page, $name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="slideshare" && $typeShortcut)
@@ -32,5 +32,5 @@ class YellowSlideshare
 	}
 }
 
-$yellow->registerPlugin("slideshare", "YellowSlideshare", YellowSlideshare::Version);
+$yellow->plugins->register("slideshare", "YellowSlideshare", YellowSlideshare::Version);
 ?>

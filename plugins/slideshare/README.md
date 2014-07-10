@@ -1,4 +1,4 @@
-Slideshare plugin 0.1.5
+Slideshare plugin 0.1.6
 =======================
 Embed [Slideshare](http://www.slideshare.net/) presentations.
 

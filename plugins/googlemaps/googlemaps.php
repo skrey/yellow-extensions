@@ -5,7 +5,7 @@
 // Google map parser plugin
 class YellowGooglemaps
 {
-	const Version = "0.1.5";
+	const Version = "0.1.6";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -16,8 +16,8 @@ class YellowGooglemaps
 		$this->yellow->config->setDefault("googlemapsStyle", "flexible");
 	}
 	
-	// Handle custom type parsing
-	function onParseType($name, $text, $typeShortcut)
+	// Handle page custom type parsing
+	function onParseType($page, $name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="googlemaps" && $typeShortcut)
@@ -25,7 +25,7 @@ class YellowGooglemaps
 			list($address, $zoom, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
 			if(empty($zoom)) $zoom = $this->yellow->config->get("googlemapsZoom");
 			if(empty($style)) $style = $this->yellow->config->get("googlemapsStyle");
-			$language = $this->yellow->page->get("language");
+			$language = $page->get("language");
 			$output = "<div class=\"".htmlspecialchars($style)."\">";
 			$output .= "<iframe src=\"https://maps.google.com/maps?q=".rawurlencode($address)."&amp;ie=UTF8&amp;t=m&amp;z=".rawurlencode($zoom)."&amp;hl=$language&amp;iwloc=near&amp;num=1&amp;output=embed\" frameborder=\"0\"";
 			if($width && $height) $output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
@@ -35,5 +35,5 @@ class YellowGooglemaps
 	}
 }
 
-$yellow->registerPlugin("googlemaps", "YellowGooglemaps", YellowGooglemaps::Version);
+$yellow->plugins->register("googlemaps", "YellowGooglemaps", YellowGooglemaps::Version);
 ?>

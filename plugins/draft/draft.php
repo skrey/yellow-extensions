@@ -5,7 +5,7 @@
 // Draft status plugin
 class YellowDraft
 {
-	const Version = "0.1.4";
+	const Version = "0.1.5";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -28,5 +28,5 @@ class YellowDraft
 	}
 }
 
-$yellow->registerPlugin("draft", "YellowDraft", YellowDraft::Version);
+$yellow->plugins->register("draft", "YellowDraft", YellowDraft::Version);
 ?>
