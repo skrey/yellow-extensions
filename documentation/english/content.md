@@ -18,8 +18,6 @@ Files and folders can have a prefix. The website navigation is automatically cre
 
 Prefix and suffix are removed from the location. For example the folder `content/2-about/` is available on your website as `http://website/about/`. The file `content/2-about/contact.txt` is available as `http://website/about/contact`. 
 
-
-
 Text files
 ----------
 Let's have a closer look at text files. Open the file `content/1-home/page.txt` in your favorite text editor. You'll see settings and text of the page. You can define `Title` and other setting at the top of a page. Here's an example:

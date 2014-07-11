@@ -1,6 +1,6 @@
 Yellow documentation
 ====================
-Yellow is for people who make websites. [Visit website](http://datenstrom.se/yellow/).
+Yellow is for people who make websites. [Visit website](http://datenstrom.se/yellow).
 
 Learn more about it
 -------------------
@@ -20,4 +20,4 @@ Tutorials
 
 Support
 -------
-Need help? Get in touch via [Github](https://github.com/markseu/yellowcms/issues) or [Email](http://datenstrom.se/contact/).
+Need help? Get in touch via [GitHub](https://github.com/markseu/yellowcms/issues) or [Email](http://datenstrom.se/contact/).
