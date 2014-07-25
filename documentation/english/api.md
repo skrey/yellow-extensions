@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.7](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.8](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -77,8 +77,8 @@ Example: [content.php](https://github.com/markseu/yellowcms/blob/master/system/s
 
 $yellow->pages
 --------------
-**$yellow->pages->create()**  
-Return empty page collection
+**$yellow->pages->find($location, $absoluteLocation = false)**  
+Return one page from file system
 
 **$yellow->pages->index($showInvisible = false, $levelMax = 0)**  
 Return page collection with all pages from file system
@@ -89,8 +89,8 @@ Return page collection with top-level navigation
 **$yellow->pages->path($location, $absoluteLocation = false)**  
 Return page collection with path ancestry
 
-**$yellow->pages->find($location, $absoluteLocation = false)**  
-Return page collection with one specific page
+**$yellow->pages->create()**  
+Return empty page collection
 
 The following works for any page collection, e.g functions that return more than one page:
 
@@ -234,7 +234,7 @@ $yellow->plugins
 **$yellow->plugins->register($name, $class, $version)**  
 Register plugin
 
-**$yellow->plugin->isExisting($name)**  
+**$yellow->plugins->isExisting($name)**  
 Check if plugin exists
 
 The following are overrides that plugins can handle:
@@ -260,11 +260,11 @@ Handle page custom type parsing
 **function onHeaderExtra($page)**  
 Handle page extra header
 
+**function onUserPermission($location, $fileName, $users)**  
+Handle permission to modify page
+
 **function onMergeText($location, $textSource, $textLocal, $textRemote)**  
 Handle text merging
-
-**function onCheckPermissions($location, $fileName, $users)**  
-Handle permissions for changing page
 
 **function onCommandHelp()**  
 Handle command help
@@ -283,6 +283,9 @@ Show available commands
 **php yellow.php build DIRECTORY [LOCATION]**  
 Build static pages
 
+**php yellow.php clean DIRECTORY [LOCATION]**  
+Clean static pages
+
 **php yellow.php user EMAIL PASSWORD [NAME LANGUAGE HOME]**  
 Create or update user account
 
@@ -291,7 +294,9 @@ Show software version
 
 Example:  
 `php yellow.php build latest`  
+`php yellow.php clean latest`  
 `php yellow.php user email@example.com horsebatterystaple`  
+`php yellow.php version`  
 
 Page meta data
 --------------

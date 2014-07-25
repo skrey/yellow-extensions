@@ -5,7 +5,7 @@
 // Image parser plugin
 class YellowImage
 {
-	const Version = "0.1.4";
+	const Version = "0.1.5";
 	var $yellow;			//access to API
 	var $graphicsLibrary;	//graphics library support? (boolean)
 
@@ -53,17 +53,30 @@ class YellowImage
 		}
 		return $output;
 	}
-
-	// Cleanup thumbnails (TODO: handle callback from webinterface and commandline)
-	function cleanThumbnails()
+	
+	// Handle command
+	function onCommand($args)
 	{
-		$ok = true;
-		$path = $this->yellow->config->get("imageThumbnailDir");
-		foreach($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", false, false, true) as $entry)
+		list($name, $command) = $args;
+		switch($command)
 		{
-			$ok &= $this->yellow->toolbox->deleteFile($entry);
+			case "clean":	$statusCode = $this->cleanCommand($args); break;
+			default:		$statusCode = 0;
 		}
-		return $ok;
+		return $statusCode;
+	}
+
+	// Clean thumbnails
+	function cleanCommand($args)
+	{
+		$statusCode = 0;
+		$path = $this->yellow->config->get("imageThumbnailDir");
+		foreach($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", false, false) as $entry)
+		{
+			if(!$this->yellow->toolbox->deleteFile($entry)) $statusCode = 500;
+		}
+		if($statusCode == 500) echo "ERROR cleaning thumbnails: Can't delete files in directory '$path'!\n";
+		return $statusCode;
 	}
 
 	// Create thumbnail on demand

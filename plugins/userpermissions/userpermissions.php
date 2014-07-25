@@ -5,7 +5,7 @@
 // User permissions plugin
 class YellowUserpermissions
 {
-	const Version = "0.1.3";
+	const Version = "0.1.4";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -14,8 +14,8 @@ class YellowUserpermissions
 		$this->yellow = $yellow;
 	}
 	
-	// Handle permissions for changing page
-	function onCheckPermissions($location, $fileName, $users)
+	// Handle permission to modify page
+	function onUserPermission($location, $fileName, $users)
 	{
 		$home = $users->getHome();
 		return substru($location, 0, strlenu($home)) == $home;

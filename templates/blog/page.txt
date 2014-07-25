@@ -1,6 +1,5 @@
 ---
 Title: Blog
 Template: blogarticles
-Description: Latest blog articles
 ---
 This page is automatically generated.

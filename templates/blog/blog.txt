@@ -1,0 +1,6 @@
+---
+Title: Blog article
+Published: YYYY-MM-DD
+Tag: Example
+---
+This is a new blog article.

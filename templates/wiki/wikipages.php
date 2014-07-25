@@ -16,7 +16,7 @@
 <?php $yellow->snippet("header") ?>
 <?php $yellow->snippet("navigation") ?>
 <?php if(!empty($pagesFilter)): ?>
-<div class="content wikiarticles">
+<div class="content wikipages">
 <h1><?php echo $yellow->page->getHtml("titleWiki") ?></h1>
 <ul>
 <?php foreach($pages as $page): ?>
@@ -29,7 +29,7 @@
 </div>
 <?php else: ?>
 <div class="content wiki">
-<div class="article">
+<div class="entry">
 <div class="entry-header"><h1><?php echo $yellow->page->getHtml("title") ?></h1></div>
 <div class="entry-content"><?php echo $yellow->page->getContent() ?></div>
 <div class="entry-footer">

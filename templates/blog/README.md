@@ -8,23 +8,22 @@ How do I install this?
 2. Download [blog.php](blog.php?raw=true) and [blogarticles.php](blogarticles.php?raw=true), copy both files into your system/templates folder.  
 3. Create a new folder '3-blog' in your content folder.
 4. Download [page.txt](page.txt?raw=true) and [2013-04-07-blog-article.txt](2013-04-07-blog-article.txt?raw=true), copy both files into your /content/3-blog folder.
-5. Add these [text lines](text.ini?raw=true) to your system/config/text.ini file.
+5. Download [blog.txt](blog.txt?raw=true), copy into your system/config folder.
+6. Add these [text lines](text.ini?raw=true) to your system/config/text.ini file.
 
 To uninstall delete the template files and folder.
 
 How to use a blog?
 ------------------
-The blog is available on your website as `http://website/blog/`. To make the blog your home page, go to your content folder, rename the blog folder to '1-blog' and delete '1-home'.
-
-To create a new blog page, add a new file to the blog folder. Set `Published` and more settings at the top of a page. Dates should be written in the format [YYYY-MM-DD](http://en.wikipedia.org/wiki/ISO_8601). Use `Tag` to group similar pages together. Pages can be sorted by author, date and tag. 
+The blog is available on your website as `http://website/blog/`. To make the blog your home page, rename the blog folder to '1-blog' and delete '1-home'. To create a new blog article, add a new file to the blog folder. Set `Published` and more settings at the top of an article. Dates should be written in the format [YYYY-MM-DD](http://en.wikipedia.org/wiki/ISO_8601). Use `Tag` to group similar articles together.
 
 Example
 -------
-Content file for a new blog page:
+Content file for a new blog article:
 
     ---
-    Title: New blog page
+    Title: Blog article
     Published: YYYY-MM-DD
     Tag: Example
     ---
-    Write text here
+    This is a new blog article.

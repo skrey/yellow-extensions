@@ -1,7 +1,7 @@
 <?php $yellow->snippet("header") ?>
 <?php $yellow->snippet("navigation") ?>
 <div class="content wiki">
-<div class="article">
+<div class="entry">
 <div class="entry-header"><h1><?php echo $yellow->page->getHtml("titleContent") ?></h1></div>
 <div class="entry-content"><?php echo $yellow->page->getContent() ?></div>
 <div class="entry-footer">

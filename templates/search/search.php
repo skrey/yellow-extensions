@@ -10,7 +10,7 @@
 <input type="hidden" name="clean-url" />
 </form>
 <?php foreach($pages as $page): ?>
-<div class="result">
+<div class="entry">
 <div class="entry-header"><h2><a href="<?php echo $page->getLocation() ?>"><?php echo $page->getHtml("title") ?></a></h2></div>
 <div class="entry-content"><?php echo htmlspecialchars($yellow->toolbox->createTextDescription($page->getContent(), 250)) ?></div>
 <div class="entry-location"><a href="<?php echo $page->getLocation() ?>"><?php echo $page->getUrl() ?></a></div>
