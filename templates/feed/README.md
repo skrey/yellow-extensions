@@ -1,6 +1,6 @@
 Feed template
 =============
-Web feed with latest updates.
+Web feed with recent changes.
 
 How do I install this?
 ----------------------
@@ -13,6 +13,6 @@ To uninstall delete the template files and folder.
 
 How to use a feed?
 ------------------
-The feed is available on your website as `http://website/feed/` and `http://website/feed/feed.xml`. It shows the recently updated pages of the website, only visible pages are included. You can add a link to your navigation or individual pages. For feed readers add the following line to your header snippet:
+The feed is available on your website as `http://website/feed/` and `http://website/feed/feed.xml`. It shows the recently changed pages of the website, only visible pages are included. You can add a link to your navigation or individual pages. For feed readers add the following line to your header snippet:
 
 `<link rel="alternate" type="application/rss+xml" href="<?php echo $yellow->config->get("serverBase")."/feed/feed.xml" ?>" />`
