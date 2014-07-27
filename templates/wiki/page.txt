@@ -3,5 +3,6 @@ Title: Wiki
 Template: wikipages
 ---
 * [Wiki article](wiki-page)
+* [Recent changes](/wiki/special:changes/)
 
 [You can edit this page](@pageedit).

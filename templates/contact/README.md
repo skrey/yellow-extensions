@@ -17,28 +17,3 @@ How to use a contact page?
 The contact page is available on your website as `http://website/contact/`. You can add a link to your navigation or individual pages. An email address can be defined in the settings at the top of a contact page, for example `Email: user@user.com`. A global email address (for all contact pages) can be defined in the main configuration. There's a spam filter to block unwanted advertising.
 
 This template does not work with static websites, it needs a Yellow installation.
-
-Example
--------
-Content file with link to contact page:
-
-    ---
-    Title: New page
-    ---
-    Write text here. [Contact](/contact/)
-
-Content file with contact form:
-
-    ---
-    Title: New page
-    ---
-    Write text here.
-    
-    <form class="contact-form" action="/contact/" method="post">
-    <p class="contact-name"><label for="name">Name:</label><br /><input type="text" class="form-control" name="name" id="name"></p>
-    <p class="contact-from"><label for="from">Email:</label><br /><input type="text" class="form-control" name="from" id="from"></p>
-    <p class="contact-message"><label for="message">Message:</label><br />
-    <textarea class="form-control" name="message" id="message" rows="7" cols="70"></textarea></p>
-    <input type="hidden" name="status" value="send" />
-    <input type="submit" value="Send message" class="btn contact-btn" />
-    </form>
