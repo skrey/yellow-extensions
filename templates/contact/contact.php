@@ -18,17 +18,18 @@
 <?php endif ?>
 </div>
 <?php $yellow->snippet("footer") ?>
-<?php $yellow->page->header("Last-Modified: ".$yellow->text->getModified(true)) ?>
 <?php function getContactStatus($yellow, $spamFilter, $status)
 {
-	switch($status)
+	if($status == "send")
 	{
-		case "send":	$status = sendMail($yellow, $spamFilter) ? "done" : "error";
-						$locationSeparator =  $yellow->toolbox->isFileLocation($yellow->page->getLocation()) ? '/' : '';
-						$yellow->page->clean(303, "Location: ".$yellow->page->getUrl().$locationSeparator."status:$status");
-						break;
-		case "done":	$yellow->page->set("contactStatus", $yellow->text->get("contactStatusDone")); break;
-		case "error":	$yellow->page->error(500, $yellow->text->get("contactStatusError")); break;
+		$status = sendMail($yellow, $spamFilter) ? "done" : "error";
+		switch($status)
+		{
+			case "done":	$yellow->page->set("contactStatus", $yellow->text->get("contactStatusDone")); break;
+			case "error":	$yellow->page->error(500, $yellow->text->get("contactStatusError")); break;
+		}
+		$yellow->page->header("Last-Modified: ".$yellow->toolbox->getHttpTimeFormatted(time()));
+		$yellow->page->header("Cache-Control: no-cache, must-revalidate");
 	}
 	return $status;
 }
