@@ -9,5 +9,5 @@
 </div>
 </div>
 <?php $yellow->snippet("footer") ?>
-<?php $pages = $yellow->pages->index(false)->append($yellow->page) ?>
+<?php $pages = $yellow->pages->index()->append($yellow->page) ?>
 <?php $yellow->page->header("Last-Modified: ".$pages->getModified(true)) ?>
