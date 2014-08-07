@@ -12,6 +12,7 @@
 <?php $yellow->page->set("titleBlog", $yellow->text->get("blogFilter")." ".$title) ?>
 <?php endif ?>
 <?php $yellow->snippet("header") ?>
+<?php $yellow->snippet("sitename") ?>
 <?php $yellow->snippet("navigation") ?>
 <div class="content blogarticles">
 <?php if($yellow->page->isExisting("titleBlog")): ?>

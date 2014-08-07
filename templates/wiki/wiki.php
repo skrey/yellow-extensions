@@ -1,4 +1,5 @@
 <?php $yellow->snippet("header") ?>
+<?php $yellow->snippet("sitename") ?>
 <?php $yellow->snippet("navigation") ?>
 <div class="content wiki">
 <div class="entry">

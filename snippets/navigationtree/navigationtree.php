@@ -1,7 +1,7 @@
 <?php list($name, $pages, $level) = $yellow->getSnippetArgs() ?>
 <?php if(!$pages) $pages = $yellow->pages->top() ?>
 <?php if(!$level): ?>
-<div class="navigationtree">
+<div class="navigation">
 <?php endif ?>
 <ul>
 <?php foreach($pages as $page): ?>

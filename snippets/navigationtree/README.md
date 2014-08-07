@@ -15,6 +15,7 @@ Example
 Template with navigation tree:
 
     <?php $yellow->snippet("header") ?>
+    <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigationtree") ?>
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>

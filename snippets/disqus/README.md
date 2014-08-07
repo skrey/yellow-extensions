@@ -20,6 +20,7 @@ Example
 Website template with comments:
 
     <?php $yellow->snippet("header") ?>
+    <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
     <div class="content">
     <h1><?php echo $yellow->page->getHtml("title") ?></h1>
@@ -31,6 +32,7 @@ Website template with comments:
 Blog article template with comments:
 
     <?php $yellow->snippet("header") ?>
+    <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
     <div class="content blogarticle">
     <div class="article">Blog content</div>

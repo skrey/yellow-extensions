@@ -2,6 +2,7 @@
 <?php $pages = $pages->sort("modified")->pagination(30) ?>
 <?php if($pages->getPaginationPage() > $pages->getPaginationCount()) $yellow->page->error(404) ?>
 <?php $yellow->snippet("header") ?>
+<?php $yellow->snippet("sitename") ?>
 <?php $yellow->snippet("navigation") ?>
 <div class="content feed">
 <h1><?php echo $yellow->page->getHtml("title") ?></h1>

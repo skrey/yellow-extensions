@@ -26,6 +26,7 @@ Templates
 The output of pages is controlled with templates. There's a default template for the entire website. A different template can be defined in the settings of a page, for example `Template: blog` uses the file `system/templates/blog.php`. Otherwise, the default template or the name of the folder is used. Templates can generate web pages and other formats. Here's an example:
 
     <?php $yellow->snippet("header") ?>
+    <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>

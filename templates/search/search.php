@@ -1,6 +1,7 @@
 <?php if(PHP_SAPI=="cli" && !isset($_REQUEST["query"])) $yellow->page->error(500, "Static website not supported!") ?>
 <?php $pages = getSearchPages($yellow, 5, $_REQUEST["query"]) ?>
 <?php $yellow->snippet("header") ?>
+<?php $yellow->snippet("sitename") ?>
 <?php $yellow->snippet("navigation") ?>
 <div class="content search">
 <h1><?php echo $yellow->page->getHtml("title") ?></h1>

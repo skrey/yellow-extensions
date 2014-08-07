@@ -1,6 +1,6 @@
-Githubber style 0.1.7
+Githubber style 0.1.8
 =====================
-Githubber is a Github-like style. 
+Githubber is a GitHub-like style. 
 
 ![Screenshot](githubber-screenshot.jpg?raw=true)
 

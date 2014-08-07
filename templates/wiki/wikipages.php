@@ -15,6 +15,7 @@
 <?php endif ?>
 <?php endif ?>
 <?php $yellow->snippet("header") ?>
+<?php $yellow->snippet("sitename") ?>
 <?php $yellow->snippet("navigation") ?>
 <?php if(!empty($pagesFilter)): ?>
 <div class="content wikipages">

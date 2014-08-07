@@ -15,6 +15,7 @@ Example
 Template with breadcrumbs below navigation:
 
     <?php $yellow->snippet("header") ?>
+    <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
     <?php $yellow->snippet("breadcrumbs") ?>
     <?php $yellow->snippet("content") ?>
