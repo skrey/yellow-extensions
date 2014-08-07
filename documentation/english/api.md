@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.8](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.11](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -314,6 +314,7 @@ Page meta data
 `modified` = page modification time, YYYY-MM-DD format  
 `published` = page publication date, YYYY-MM-DD format  
 `tag` = tag(s) for categorisation, comma separated  
+`redirect` = new location or URL  
 `status` = status for workflow   
 `sitename` = sitename used in header and footer  
 `pageRead` = URL for reading page  
