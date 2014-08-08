@@ -1,4 +1,4 @@
-Blogsite style 0.1.7
+Blogsite style 0.1.8
 ====================
 Blogsite is a basic blogger style. 
 

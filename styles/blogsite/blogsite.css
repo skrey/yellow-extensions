@@ -1,4 +1,4 @@
-/* Yellow blogsite style 0.1.7 */
+/* Yellow blogsite style 0.1.8 */
 
 html, body, div, form, pre, span, tr, th, td { margin:0; padding:0; border:0; vertical-align:baseline; }
 body {
@@ -30,7 +30,7 @@ a, img { border:none; text-decoration:none; }
 .navigation { padding:0 0.5em; background-color:#000; line-height:2.5em; }
 .navigation a { color:#bbb; padding:0 1em; display:inline-block; }
 .navigation a:hover { color:#111; background-color:#eee; text-decoration:none; }
-.navigation ul { margin:0; padding:0; list-style:none; font-size:0.9em; }
+.navigation ul { margin:0; padding:0; list-style:none; }
 .navigation li a.active { color:#fff; }
 .navigation li a.active:hover { color:#111; text-decoration:none; }
 .navigation li { display:inline; }
