@@ -59,6 +59,6 @@ Make a heading:
     Level 2 heading
     ---------------
 
-For the most part, write text like an email and it becomes a web page. Text formatting can be done with little effort, just by using plain text. Advanced formatting is possible with [HTML](http://en.wikipedia.org/wiki/HTML) or by adding more features. There are [plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins) you can download.
+For the most part, write text like an email and it becomes a web page. Text formatting can be done with little effort. Advanced formatting is possible with [HTML](http://en.wikipedia.org/wiki/HTML) or by adding more features. There are [plugins](https://github.com/markseu/yellowcms-extensions/tree/master/plugins) you can download.
 
 [Next: Adding media →](media.md)

@@ -20,7 +20,7 @@ Blog template with tag cloud:
     <div class="content blog">Blog content</div>
     <div class="info">
     <h2><?php echo $yellow->text->getHtml("blogTagcloud") ?></h2>
-    <?php $yellow->snippet("blogtagcloud", $yellow->page->getLocation(), $yellow->page->getChildren()) ?>
+    <?php $yellow->snippet("blogtagcloud", $yellow->page->getLocation(), $yellow->page->getChildren(!$yellow->page->isVisible())) ?>
     </div>
     <?php $yellow->snippet("footer") ?>
     ...

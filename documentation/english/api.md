@@ -320,3 +320,5 @@ Page meta data
 `pageRead` = URL for reading page  
 `pageEdit` = URL for editing page  
 `pageError` = description of page error  
+
+[Next: Tutorials →](README.md#tutorials)
