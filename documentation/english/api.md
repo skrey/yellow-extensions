@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.11](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.12](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -190,7 +190,7 @@ $yellow->toolbox
 **$yellow->toolbox->normaliseArgs($text, $appendSlash = true, $filterStrict = true)**  
 Normalise location arguments
 
-**$yellow->toolbox->normaliseName($text, $removeExtension = false, $filterStrict = false)**  
+**$yellow->toolbox->normaliseName($text, $removePrefix = true, $removeExtension = false, $filterStrict = false)**  
 Normalise file/directory/attribute name
 
 **$yellow->toolbox->normaliseLocation($location, $pageBase, $pageLocation)**  
