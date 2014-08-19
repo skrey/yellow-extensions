@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.12](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.14](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -159,7 +159,7 @@ Return configuration
 **$yellow->config->getHtml($key)**  
 Return configuration, HTML encoded
 
-**$yellow->config->getData($filterEnd = "")**  
+**$yellow->config->getData($filterStart = "", $filterEnd = "")**
 Return configuration strings
 
 **$yellow->config->getModified($httpFormat = false)**  
