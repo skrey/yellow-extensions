@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.14](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.17](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -187,14 +187,14 @@ Check if text string exists
 
 $yellow->toolbox
 ---------------
+**$yellow->toolbox->normaliseLocation($location, $pageBase, $pageLocation, $filterStrict = true)**  
+Normalise location, make absolute location
+
 **$yellow->toolbox->normaliseArgs($text, $appendSlash = true, $filterStrict = true)**  
 Normalise location arguments
 
 **$yellow->toolbox->normaliseName($text, $removePrefix = true, $removeExtension = false, $filterStrict = false)**  
 Normalise file/directory/attribute name
-
-**$yellow->toolbox->normaliseLocation($location, $pageBase, $pageLocation)**  
-Normalise location, make absolute location
 
 **$yellow->toolbox->getHttpStatusFormatted($statusCode)**  
 Return human readable HTTP server status

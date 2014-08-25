@@ -1,4 +1,4 @@
-Image plugin 0.1.5
+Image plugin 0.1.6
 ==================
 Support for resizable images and thumbnails.
 

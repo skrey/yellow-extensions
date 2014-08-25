@@ -5,7 +5,7 @@
 // Image parser plugin
 class YellowImage
 {
-	const Version = "0.1.5";
+	const Version = "0.1.6";
 	var $yellow;			//access to API
 	var $graphicsLibrary;	//graphics library support? (boolean)
 
@@ -44,6 +44,8 @@ class YellowImage
 				{
 					list($width, $height, $src) = $this->createThumbnail($name, $width, $height, $widthOutput, $heightOutput, $type, $mode);
 				}
+			} else {
+				$src = $this->yellow->toolbox->normaliseLocation($src, $page->base, $page->location);
 			}
 			$output = "<img src=\"".htmlspecialchars($src)."\"";
 			if($width && $height) $output .= " width=\"$width\" height=\"$height\"";
