@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.17](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.18](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -308,8 +308,8 @@ Page meta data
 `keywords` = page keyword(s) used in header, comma separated  
 `author` = page author(s), comma separated  
 `language` = page language  
-`template` = page template  
 `style` = page style  
+`template` = page template  
 `parser` = page parser  
 `modified` = page modification time, YYYY-MM-DD format  
 `published` = page publication date, YYYY-MM-DD format  

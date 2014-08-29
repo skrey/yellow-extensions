@@ -13,11 +13,10 @@ Configuration
 The main configuration file is `system/config/config.ini`. You can define the default settings of your website here. For a new installation you should set sitename, author and language. Here's an example:
 
     sitename = Anna's Design Company
-    author = Anna's Design Company
+    author = Anna Svensson
     language = en
-    template = default
     style = default
-    parser = markdownextra
+    template = default
 
 These settings can also be overwritten in the individual settings of a page. All files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
 
