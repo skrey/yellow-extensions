@@ -1,6 +1,6 @@
-Include plugin 0.1.3
+Include plugin 0.1.4
 ====================
-Server include for content files.
+Include information in content files.
 
 How do I install this?
 ----------------------
@@ -11,6 +11,7 @@ To uninstall delete the plugin.
 
 How to include information?
 ---------------------------
+Create a shortcut in the format `[include file NAME]`, you can use files from your content folder.  
 To include a snippet use the format `[include snippet NAME]`, you can add optional arguments.  
 To include a text string use the format `[include text NAME]`, you can add an optional language.
 
@@ -18,6 +19,11 @@ Snippets are located in your system/snippets folder, text strings in your system
 
 Example
 -------
+Including a content file:
+
+    [include file content/1-home/page.txt]
+    [include file content/2-about/contact.txt]
+
 Including a snippet in a content file, default and optional argument:
 
     [include snippet breadcrumbs]

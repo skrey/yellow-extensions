@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.18](https://github.com/markseu/yellowcms)
+###[Yellow 0.3.19](https://github.com/markseu/yellowcms)
 
 $yellow
 -------

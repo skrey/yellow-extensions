@@ -1,6 +1,6 @@
-Image plugin 0.1.6
+Image plugin 0.1.7
 ==================
-Support for resizable images and thumbnails.
+Resizable images and thumbnails.
 
 How do I install this?
 ----------------------
@@ -13,7 +13,7 @@ To uninstall delete plugin and thumbnails folder.
 How to add an image?
 --------------------
 Create a shortcut in the format `[image NAME]`, you can add optional text, style, width, height, mode.  
-NAME is the filename in your images folder. The available resize modes are fit and cut, default is fit.
+NAME is the file name in your images folder. The available resize modes are fit and cut, default is fit.
 
 The plugin requires [GD graphics library](http://www.libgd.org/) by Thomas Boutell, for resizing JPEG and PNG images.
 

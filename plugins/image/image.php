@@ -5,7 +5,7 @@
 // Image parser plugin
 class YellowImage
 {
-	const Version = "0.1.6";
+	const Version = "0.1.7";
 	var $yellow;			//access to API
 	var $graphicsLibrary;	//graphics library support? (boolean)
 
@@ -48,7 +48,7 @@ class YellowImage
 				$src = $this->yellow->toolbox->normaliseLocation($src, $page->base, $page->location);
 			}
 			$output = "<img src=\"".htmlspecialchars($src)."\"";
-			if($width && $height) $output .= " width=\"$width\" height=\"$height\"";
+			if($width && $height) $output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
 			if(!empty($alt)) $output .= " alt=\"".htmlspecialchars($alt)."\" title=\"".htmlspecialchars($alt)."\"";
 			if(!empty($style)) $output .= " class=\"".htmlspecialchars($style)."\"";
 			$output .= " />";

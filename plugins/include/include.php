@@ -2,10 +2,10 @@
 // Copyright (c) 2013-2014 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-// Server include plugin
+// Include parser plugin
 class YellowInclude
 {
-	const Version = "0.1.3";
+	const Version = "0.1.4";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -24,6 +24,14 @@ class YellowInclude
 			$type = array_shift($args);
 			switch($type)
 			{
+				case "file":	list($fileName) = $args;
+								$location = $this->yellow->toolbox->findLocationFromFile($fileName,
+									$this->yellow->config->get("contentDir"), $this->yellow->config->get("contentHomeDir"),
+									$this->yellow->config->get("contentDefaultFile"), $this->yellow->config->get("contentExtension"));
+								$content = $this->yellow->pages->find($location);
+								$output = $content ? $content->getContent() : NULL;
+								if(is_null($output)) $page->error(500, "Include '$fileName' does not exist!");
+								break;
 				case "snippet":	ob_start();
 								call_user_func_array(array($this->yellow, $type), $args);
 								$output = ob_get_contents();

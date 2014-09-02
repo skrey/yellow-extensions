@@ -1,10 +1,10 @@
 Welcome to Yellow
 =================
-Yellow is for people who make websites. You can create web pages, blogs and wikis. The focus is on people, a great user experience and that it's useful for your website. There's no database, no admin panel, no template engine, no upload manager, no complete framework. Most websites do not need all of these features. Let's concentrate on the essential aspects and tools that work together.
+Create small web pages, blogs and wikis. The focus is on people, a great user experience and that it's useful for your website. No database, no admin panel, no template engine, no upload manager, no complete framework. Most people don't need all of these features. Let's concentrate on the essential aspects and tools that work together.
 
 ![Yellow](welcome-yellow.jpg?raw=true)
 
-Small, clean and free. [Download Yellow](https://github.com/markseu/yellowcms). [See a demo](http://demo.datenstrom.se/).
+Yellow is for people who make websites. [Download](https://github.com/markseu/yellowcms/archive/master.zip) and [demo](http://demo.datenstrom.se/).
 
 Web browser
 -----------

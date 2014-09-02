@@ -4,9 +4,6 @@ Yellow is for people who make websites. [Visit website](http://datenstrom.se/yel
 
 Learn more about it
 -------------------
-Everything is made of files and folders. You can create web pages, blogs and wikis.  
-With this documentation you get a good understanding of how your website works.
-
 * [Welcome](welcome.md)
 * [Adding content](content.md)
 * [Adding media](media.md)
