@@ -1,8 +1,6 @@
-<?php list($name, $showDefault) = $yellow->getSnippetArgs() ?>
 <?php $pages = $yellow->pages->create() ?>
-<?php $page = $yellow->page->getParentTop() ?>
+<?php $page = $yellow->page->getParentTop(false) ?>
 <?php if($page) $pages = $page->getChildren() ?>
-<?php if($page && $showDefault) $pages->prepend($page) ?>
 <?php if(count($pages)): ?>
 <div class="navigation">
 <ul>

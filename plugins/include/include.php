@@ -5,7 +5,7 @@
 // Include parser plugin
 class YellowInclude
 {
-	const Version = "0.1.4";
+	const Version = "0.1.5";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -25,8 +25,9 @@ class YellowInclude
 			switch($type)
 			{
 				case "file":	list($fileName) = $args;
-								$location = $this->yellow->toolbox->findLocationFromFile($fileName,
-									$this->yellow->config->get("contentDir"), $this->yellow->config->get("contentHomeDir"),
+								$location = $this->yellow->toolbox->findLocationFromFile(
+									$fileName, $this->yellow->config->get("contentDir"),
+									$this->yellow->config->get("contentRootDir"), $this->yellow->config->get("contentHomeDir"),
 									$this->yellow->config->get("contentDefaultFile"), $this->yellow->config->get("contentExtension"));
 								$content = $this->yellow->pages->find($location);
 								$output = $content ? $content->getContent() : NULL;

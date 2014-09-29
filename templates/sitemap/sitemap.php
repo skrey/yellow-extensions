@@ -1,4 +1,4 @@
-<?php $pages = $yellow->pages->index(false, 3) ?>
+<?php $pages = $yellow->pages->index(false, false, 3) ?>
 <?php $pages = $pages->sort("title", false)->pagination(30) ?>
 <?php if($pages->getPaginationPage() > $pages->getPaginationCount()) $yellow->page->error(404) ?>
 <?php $yellow->snippet("header") ?>

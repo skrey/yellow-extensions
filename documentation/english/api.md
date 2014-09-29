@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.3.19](https://github.com/markseu/yellowcms)
+###[Yellow 0.4.1](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -26,10 +26,10 @@ Return page content, HTML encoded or raw format
 Return page extra header, HTML encoded
 
 **$yellow->page->getParent()**  
-Return parent page relative to current page
+Return parent page relative to current page, NULL if none
 
-**$yellow->page->getParentTop($homeFailback = false)**  
-Return top-level parent page of current page
+**$yellow->page->getParentTop($homeFailback = true)**  
+Return top-level page for current page, NULL if none
 
 **$yellow->page->getSiblings($showInvisible = false)**  
 Return pages on the same level as current page
@@ -77,20 +77,17 @@ Example: [content.php](https://github.com/markseu/yellowcms/blob/master/system/s
 
 $yellow->pages
 --------------
-**$yellow->pages->find($location, $absoluteLocation = false)**  
-Return one page from file system
-
-**$yellow->pages->index($showInvisible = false, $levelMax = 0)**  
+**$yellow->pages->index($showInvisible = false, $showLanguages = false, $levelMax = 0)**  
 Return page collection with all pages from file system
 
-**$yellow->pages->top($showInvisible = false)**  
+**$yellow->pages->top($showInvisible = false, $showLanguages = false)**  
 Return page collection with top-level navigation
 
 **$yellow->pages->path($location, $absoluteLocation = false)**  
 Return page collection with path ancestry
 
-**$yellow->pages->create()**  
-Return empty page collection
+**$yellow->pages->find($location, $absoluteLocation = false)**  
+Return one page from file system, NULL if not found
 
 The following works for any page collection, e.g functions that return more than one page:
 
@@ -159,7 +156,7 @@ Return configuration
 **$yellow->config->getHtml($key)**  
 Return configuration, HTML encoded
 
-**$yellow->config->getData($filterStart = "", $filterEnd = "")**
+**$yellow->config->getData($filterStart = "", $filterEnd = "")**  
 Return configuration strings
 
 **$yellow->config->getModified($httpFormat = false)**  
@@ -211,24 +208,6 @@ Create description from text string
 **$yellow->toolbox->createTextKeywords($text, $keywordsMax)**  
 Create keywords from text string
 
-**$yellow->toolbox->createHash($text, $algorithm, $cost = 0)**  
-Create hash with random salt, bcrypt or sha256
-
-**$yellow->toolbox->verifyHash($text, $algorithm, $hash)**  
-Verify that text matches hash
-
-**$yellow->toolbox->detectImageInfo($fileName)**  
-Detect image dimensions and type, png or jpg
-
-**$yellow->toolbox->isLocationArgs()**  
-Check if location contains location arguments  
-
-**$yellow->toolbox->isFileLocation($location)**  
-Check if location is specifying file or directory
-
-**$yellow->toolbox->isValidLocation($location)**  
-Check if location is valid
-
 $yellow->plugins
 ----------------
 **$yellow->plugins->register($name, $class, $version)**  
@@ -237,7 +216,7 @@ Register plugin
 **$yellow->plugins->isExisting($name)**  
 Check if plugin exists
 
-The following are overrides that plugins can handle:
+The following events are available for plugins:
 
 **function onLoad($yellow)**  
 Handle plugin initialisation

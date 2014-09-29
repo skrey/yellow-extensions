@@ -1,6 +1,6 @@
 Welcome to Yellow
 =================
-Create small web pages, blogs and wikis. The focus is on people, a great user experience and that it's useful for your website. No database, no admin panel, no template engine, no upload manager, no complete framework. Most people don't need all of these features. Let's concentrate on the essential aspects and tools that work together.
+Create small web pages, blogs and wikis. The focus is on people and that it's useful for you. No database, no admin panel, no template engine, no upload manager, no complex framework. Most people don't need all of these features. Let's concentrate on the essential aspects and tools that work together.
 
 ![Yellow](welcome-yellow.jpg?raw=true)
 
@@ -16,6 +16,6 @@ Another way to edit your website is the file manager. Everything is just files a
 
 Not much to learn
 -----------------
-Start by editing your website. Just give it a try. If you have to read the whole documentation first, then we have done something wrong. The Yellow documentation gives you more information and a good understanding of how your website works. We can’t wait to see what you create.
+Start by editing your website. Just give it a try. If you have to read the whole documentation first, then we have clearly done something wrong. The Yellow documentation gives you more information and a good understanding of how your website works. We can’t wait to see what you create.
 
 [Next: Adding content →](content.md)

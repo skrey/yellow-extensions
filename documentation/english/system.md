@@ -10,13 +10,13 @@ Changes in system folders affect the entire website.
 
 Configuration
 -------------
-The main configuration file is `system/config/config.ini`. You can define the default settings of your website here. For a new installation you should set sitename, author and language. Here's an example:
+The main configuration file is `system/config/config.ini`. You can define the default settings of your website here. For a new installation you should set sitename and author. Here's an example:
 
     sitename = Anna's Design Company
     author = Anna Svensson
-    language = en
     style = default
     template = default
+    language = en
 
 These settings can also be overwritten in the individual settings of a page. All files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
 
