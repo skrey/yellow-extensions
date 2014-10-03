@@ -23,7 +23,6 @@ Blog template with tag cloud:
     <div class="entry">
     ...
     </div>
-    <div class="information">
     <?php $yellow->snippet("blogtagcloud", $yellow->page->getLocation(), $yellow->page->getChildren(!$yellow->page->isVisible())) ?>
     </div>
     <?php $yellow->snippet("footer") ?>
