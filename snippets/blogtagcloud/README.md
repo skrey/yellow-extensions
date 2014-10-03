@@ -16,15 +16,18 @@ Example
 -------
 Blog template with tag cloud:
 
+    <?php $yellow->snippet("header") ?>
+    <?php $yellow->snippet("sitename") ?>
+    <?php $yellow->snippet("navigation") ?>
+    <div class="content blog">
+    <div class="entry">
     ...
-    <div class="content blog">Blog content</div>
-    <div class="info">
-    <h2><?php echo $yellow->text->getHtml("blogTagcloud") ?></h2>
+    </div>
+    <div class="information">
     <?php $yellow->snippet("blogtagcloud", $yellow->page->getLocation(), $yellow->page->getChildren(!$yellow->page->isVisible())) ?>
     </div>
     <?php $yellow->snippet("footer") ?>
-    ...
-
+ 
 Style for tag cloud:
 
     .blogtagcloud li { display:inline; }

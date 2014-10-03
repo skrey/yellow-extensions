@@ -12,7 +12,7 @@ One way to edit your website is the web browser. Click the edit link on a page. 
 
 File manager
 ------------
-Another way to edit your website is the file manager. Everything is just files and folders. You can edit pages in your favorite text editor. You don't need to learn another editing software. Take one that you already know. Experienced users can use the command line, for example to build static pages and automate things.
+Another way to edit your website is the file manager on your computer. Everything is just files and folders. You can edit pages in your favorite text editor. You don't need to learn another editing software. Take one that you already know. Experienced users can use the command line, for example to build static pages and automate things.
 
 Not much to learn
 -----------------

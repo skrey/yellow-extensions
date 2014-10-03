@@ -23,19 +23,21 @@ Website template with comments:
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
     <div class="content">
-    <h1><?php echo $yellow->page->getHtml("title") ?></h1>
+    <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("disqus", "annasdesign") ?>
     </div>
     <?php $yellow->snippet("footer") ?>
 
-Blog article template with comments:
+Blog template with comments:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
-    <div class="content blogarticle">
-    <div class="article">Blog content</div>
+    <div class="content blog">
+    <div class="entry">
+    ...
+    </div>
     <?php $yellow->snippet("disqus", "annasblog") ?>
     </div>
     <?php $yellow->snippet("footer") ?>
