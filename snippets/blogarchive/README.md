@@ -14,18 +14,6 @@ To uninstall delete the snippet and remove it from templates.
 
 Example
 -------
-Blog articles templates with archive:
-
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
-    <div class="content blogarticles">
-    ...
-    <?php $yellow->snippet("blogarchive", $yellow->page) ?>
-    <?php $yellow->snippet("pagination", $pages) ?>
-    </div>
-    <?php $yellow->snippet("footer") ?>
-
 Blog template with archive:
 
     <?php $yellow->snippet("header") ?>
@@ -34,6 +22,18 @@ Blog template with archive:
     <div class="content blog">
     ...
     <?php $yellow->snippet("blogarchive", $yellow->page->getParentTop()) ?>
+    </div>
+    <?php $yellow->snippet("footer") ?>
+
+Blog articles template with archive:
+
+    <?php $yellow->snippet("header") ?>
+    <?php $yellow->snippet("sitename") ?>
+    <?php $yellow->snippet("navigation") ?>
+    <div class="content blogarticles">
+    ...
+    <?php $yellow->snippet("blogarchive", $yellow->page) ?>
+    <?php $yellow->snippet("pagination", $pages) ?>
     </div>
     <?php $yellow->snippet("footer") ?>
 

@@ -14,6 +14,17 @@ To uninstall delete the snippet and remove it from templates.
 
 Example
 -------
+Blog template with tag cloud:
+
+    <?php $yellow->snippet("header") ?>
+    <?php $yellow->snippet("sitename") ?>
+    <?php $yellow->snippet("navigation") ?>
+    <div class="content blog">
+    ...
+    <?php $yellow->snippet("blogtagcloud", $yellow->page->getParentTop()) ?>
+    </div>
+    <?php $yellow->snippet("footer") ?>
+ 
 Blog articles template with tag cloud:
 
     <?php $yellow->snippet("header") ?>
@@ -26,17 +37,6 @@ Blog articles template with tag cloud:
     </div>
     <?php $yellow->snippet("footer") ?>
 
-Blog template with tag cloud:
-
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
-    <div class="content blog">
-    ...
-    <?php $yellow->snippet("blogtagcloud", $yellow->page->getParentTop()) ?>
-    </div>
-    <?php $yellow->snippet("footer") ?>
- 
 Style for tag cloud:
 
     .blogtagcloud li { display:inline; }
