@@ -35,9 +35,7 @@ Blog template with comments:
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
     <div class="content blog">
-    <div class="entry">
     ...
-    </div>
     <?php $yellow->snippet("disqus", "annasblog") ?>
     </div>
     <?php $yellow->snippet("footer") ?>

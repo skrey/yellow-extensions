@@ -1,4 +1,6 @@
-<?php list($name, $location, $pages) = $yellow->getSnippetArgs() ?>
+<?php list($name, $blog) = $yellow->getSnippetArgs() ?>
+<?php $pages = $blog->getChildren(!$blog->isVisible()) ?>
+<?php $pages->filter("template", "blog") ?>
 <?php $tags = array(); ?>
 <?php foreach($pages as $page) if($page->isExisting("tag")) foreach(preg_split("/,\s*/", $page->get("tag")) as $tag) ++$tags[$tag]; ?>
 <?php if(!empty($tags)): ?>
@@ -11,7 +13,7 @@
 <div class="blogtagcloud">
 <ul>
 <?php foreach($tags as $key=>$value): ?>
-<li><a class="<?php echo $value?>" href="<?php echo $location.$yellow->toolbox->normaliseArgs("tag:$key") ?>"><?php echo htmlspecialchars($key) ?></a></li>
+<li><a class="<?php echo $value?>" href="<?php echo $blog->getLocation().$yellow->toolbox->normaliseArgs("tag:$key") ?>"><?php echo htmlspecialchars($key) ?></a></li>
 <?php endforeach ?>
 </ul>
 </div>

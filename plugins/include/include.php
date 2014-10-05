@@ -5,7 +5,7 @@
 // Include parser plugin
 class YellowInclude
 {
-	const Version = "0.1.5";
+	const Version = "0.1.6";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
@@ -40,7 +40,7 @@ class YellowInclude
 								break;
 				case "text":	list($key, $language) = $args;
 								if(empty($language)) $language = $page->get("language");
-								$output = htmlspecialchars($this->yellow->text->getText($key, $language));
+								$output = $this->yellow->text->getTextHtml($key, $language);
 								break;
 			}
 		}

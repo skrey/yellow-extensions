@@ -1,6 +1,6 @@
 API for developers
 ==================
-###[Yellow 0.4.1](https://github.com/markseu/yellowcms)
+###[Yellow 0.4.3](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -77,17 +77,20 @@ Example: [content.php](https://github.com/markseu/yellowcms/blob/master/system/s
 
 $yellow->pages
 --------------
+**$yellow->pages->find($location, $absoluteLocation = false)**  
+Return one page from file system, NULL if not found
+
 **$yellow->pages->index($showInvisible = false, $showLanguages = false, $levelMax = 0)**  
 Return page collection with all pages from file system
 
-**$yellow->pages->top($showInvisible = false, $showLanguages = false)**  
+**$yellow->pages->top($showInvisible = false)**  
 Return page collection with top-level navigation
 
 **$yellow->pages->path($location, $absoluteLocation = false)**  
 Return page collection with path ancestry
 
-**$yellow->pages->find($location, $absoluteLocation = false)**  
-Return one page from file system, NULL if not found
+**$yellow->pages->translation($location, $absoluteLocation = false, $showInvisible = false)**  
+Return page collection with multiple languages
 
 The following works for any page collection, e.g functions that return more than one page:
 
