@@ -5,24 +5,22 @@
 // Fontawesome plugin
 class YellowFontawesome
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
 	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
-		$this->yellow->config->setDefault("fontawesomeStyle", "fontawesome");
 	}
 	
 	// Handle page extra header
 	function onHeaderExtra($page)
 	{
 		$header = "";
-		$locationStyle = $this->yellow->config->get("serverBase");
-		$locationStyle .= $this->yellow->config->get("pluginLocation").$this->yellow->config->get("fontawesomeStyle").".css";
-		$fileNameStyle = $this->yellow->config->get("pluginDir").$this->yellow->config->get("fontawesomeStyle").".css";
-		if(is_file($fileNameStyle)) $header = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$locationStyle\" />\n";
+		$locationStylesheet = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation")."fontawesome.css";
+		$fileNameStylesheet = $this->yellow->config->get("pluginDir")."fontawesome.css";
+		if(is_file($fileNameStylesheet)) $header = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$locationStylesheet\" />\n";
 		return $header;
 	}
 }

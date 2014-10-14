@@ -4,21 +4,27 @@ All configuration is located in the **system folder**. You can change your websi
 
 ![Screenshot](system-screenshot.png?raw=true)
 
-The `config` folder contains configuration files. The `core` folder is for the Yellow software itself, its content changes only with a software update. The `plugins` folder is for Yellow plugins, to add new features. Most configuration happens in the `snippets` and `templates` folders, this is where the website layout and functionality is defined.
+The `config` folder contains configuration files. The `core` folder is for the Yellow software itself. The `plugins` folder is for additional Yellow features. Most configuration happens in the `snippets` and `templates` folders, this is where the website functionality is defined. The `themes` stores the visual design of your website.
 
 Changes in system folders affect the entire website.
 
 Configuration
 -------------
-The main configuration file is `system/config/config.ini`. You can define the default settings of your website here. For a new installation you should set sitename and author. Here's an example:
+The main configuration file is `system/config/config.ini`. You can define the default settings of your website here. For a new installation you should set sitename, author and language. Here's an example:
 
     sitename = Anna's Design Company
     author = Anna Svensson
-    style = default
-    template = default
     language = en
+    theme = default
+    template = default
 
 These settings can also be overwritten in the individual settings of a page. All files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
+
+Themes
+------
+The visual design of pages is defined with themes. There's a default theme for the entire website. A different theme can be defined in the settings of a page, for example `Theme: popular` uses the style sheet `system/themes/popular.css`. Otherwise, the default theme or the name of the folder is used. 
+
+Start with a theme that you like. There are [themes](https://github.com/markseu/yellowcms-extensions/tree/master/themes) you can download.
 
 Templates
 ---------
@@ -30,11 +36,11 @@ The output of pages is controlled with templates. There's a default template for
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
 
-Write your own [PHP](https://en.wikipedia.org/wiki/PHP) code. There are [templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates) you can download.
+Write your own templates. There are [templates](https://github.com/markseu/yellowcms-extensions/tree/master/templates) you can download.
 
 Snippets
 --------
-Snippets are pieces of PHP code. They allow to re-use the same code in multiple templates:
+Snippets are pieces of code. They allow to re-use the same code in multiple templates:
 
     <?php $yellow->snippet("navigation") ?>
 

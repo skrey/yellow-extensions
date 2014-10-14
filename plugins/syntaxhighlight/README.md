@@ -1,5 +1,5 @@
-Syntaxhighlight plugin 0.1.9
-============================
+Syntaxhighlight plugin 0.1.10
+=============================
 Syntax highlighting for source code.
 
 How do I install this?

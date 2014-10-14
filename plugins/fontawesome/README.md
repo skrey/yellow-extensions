@@ -1,4 +1,4 @@
-Fontawesome plugin 0.0.2
+Fontawesome plugin 0.1.3
 ========================
 Support for scalable icons.
 

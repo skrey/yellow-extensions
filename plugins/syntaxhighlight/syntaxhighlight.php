@@ -5,15 +5,14 @@
 // Syntax highlight parser plugin
 class YellowSyntaxhighlight
 {
-	const Version = "0.1.9";
+	const Version = "0.1.10";
 	var $yellow;			//access to API
 	
 	// Handle plugin initialisation
 	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
-		$this->yellow->config->setDefault("syntaxStyle", "syntaxhighlight");
-		$this->yellow->config->setDefault("syntaxStyleDefault", "0");
+		$this->yellow->config->setDefault("syntaxStylesheetDefault", "0");
 		$this->yellow->config->setDefault("syntaxLineNumber", "0");
 	}
 	
@@ -42,12 +41,11 @@ class YellowSyntaxhighlight
 	function onHeaderExtra($page)
 	{
 		$header = "";
-		if(!$this->yellow->config->get("syntaxStyleDefault"))
+		if(!$this->yellow->config->get("syntaxStylesheetDefault"))
 		{
-			$locationStyle = $this->yellow->config->get("serverBase");
-			$locationStyle .= $this->yellow->config->get("pluginLocation").$this->yellow->config->get("syntaxStyle").".css";
-			$fileNameStyle = $this->yellow->config->get("pluginDir").$this->yellow->config->get("syntaxStyle").".css";
-			if(is_file($fileNameStyle)) $header = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$locationStyle\" />\n";
+			$locationStylesheet = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation")."syntaxhighlight.css";
+			$fileNameStylesheet = $this->yellow->config->get("pluginDir")."syntaxhighlight.css";
+			if(is_file($fileNameStylesheet)) $header = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$locationStylesheet\" />\n";
 		} else {
 			$geshi = new GeSHi();
 			$geshi->set_language_path($this->yellow->config->get("pluginDir")."/syntaxhighlight/");
