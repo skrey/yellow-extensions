@@ -7,7 +7,7 @@ How do I install this?
 1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
 2. Download [language.php](language.php?raw=true), copy into your system/snippets folder.  
 3. Use the snippet on your website, edit templates in your system/templates folder.
-4. Customise style sheets in your media/styles folder.
+4. Customise style sheets in your system/themes folder.
 
 To uninstall delete the snippet and remove it from templates.
 

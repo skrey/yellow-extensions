@@ -4,13 +4,13 @@ All media is located in the **media folder**. You can store your images and othe
 
 ![Screenshot](media-screenshot.png?raw=true)
 
-The standard installation of Yellow comes with one media folder. The `images` folder is the place to store your images. For a small website put all images inside this folder, otherwise use multiple folders. All media files are available on your website, you can use any file type you want.
+The installation of Yellow comes with one media folder. The `images` folder is the place to store your images. For a small website put all images inside this folder, otherwise use multiple folders. All media folders are available on your website, you can use any file type you want.
 
 Create additional folders and organise media files as you like.
 
 Images
 ------
-Here's how to use images and photos on a page. Open the file `content/1-home/page.txt` in your favorite text editor. Add `![image](icon.png)` to the text of the page. The home page shows now the default website icon. 
+Here's how to use images and photos on a page. Open the file `content/1-home/page.txt` in your favorite text editor. Add `![image](icon.png)` to the text of the page. The home page shows now the website icon. 
 
 `![image](icon.png)` shows the image `http://website/images/icon.png`  
 `![image](picture.jpg)` shows the image `http://website/images/picture.jpg`  
@@ -53,4 +53,4 @@ Embed a Vimeo video:
     [vimeo 13387502]
     [vimeo 13387502 right 200 112]
 
-[Next: System configuration →](system.md)
+[Next: Configure system →](system.md)

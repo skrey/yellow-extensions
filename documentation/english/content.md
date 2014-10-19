@@ -4,9 +4,9 @@ All content is located in the **content folder**. You can update your website by
 
 ![Screenshot](content-screenshot.png?raw=true)
 
-The standard installation of Yellow has two content folders. They are just an example to get you started, change them as you like. All content folders are available on your website. Every folder has a text file called `page.txt` or with the name of the folder. That's the default page for a folder. You can add additional text files to a folder.
+The installation of Yellow has two content folders. They are just an example to get you started, change them as you like. All content folders are available on your website. Every folder has a text file called `page.txt` or with the name of the folder. That's the default page for a folder. You can also add additional text files.
 
-Basically, the structure you see in the file manager is the website you'll get.
+Basically, what you see in the file manager is the website you'll get.
 
 Files and folders
 -----------------
@@ -16,11 +16,11 @@ The website navigation is automatically created from your content folders. Only 
 2. Files can have a date prefix for sorting, e.g. `2013-04-07-blog-article.txt`
 3. No prefix means there is no special order, e.g. `wiki-article.txt`
 
-Prefix and suffix are removed from the location. For example the folder `content/2-about/` is available on your website as `http://website/about/`. The file `content/2-about/contact.txt` is available as `http://website/about/contact`. 
+Prefix and suffix are removed from the location. For example the folder `content/2-about/` is available on your website as `http://website/about/`. The file `content/2-about/contact.txt` becomes `http://website/about/contact`. 
 
 Text files
 ----------
-Let's have a closer look at text files. Open the file `content/1-home/page.txt` in your favorite text editor. You'll see settings and text of the page. You can define `Title` and other setting at the top of a page. Here's an example:
+Let's have a closer look at text files. Open the file `content/1-home/page.txt` in your favorite text editor. You'll see settings and text of the page. You can change `Title` and other setting at the top of a page. Here's an example:
 
     ---
     Title: Home

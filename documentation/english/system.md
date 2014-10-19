@@ -1,5 +1,5 @@
-System configuration
-====================
+Configure system
+================
 All configuration is located in the **system folder**. You can change your website settings here.
 
 ![Screenshot](system-screenshot.png?raw=true)
@@ -12,11 +12,11 @@ Configuration
 -------------
 The main configuration file is `system/config/config.ini`. You can define the default settings of your website here. For a new installation you should set sitename, author and language. Here's an example:
 
-    sitename = Anna's Design Company
+    sitename = Anna Svensson Design
     author = Anna Svensson
-    language = en
     theme = default
     template = default
+    language = en
 
 These settings can also be overwritten in the individual settings of a page. All files should be stored in [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
 
@@ -54,4 +54,4 @@ Error handling
 --------------
 Yellow will tell you when something goes wrong. For example a missing file shows "File not found" with corresponding [HTTP status code](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes). The file `system/config/error404.txt` defines how a missing file looks like. You have complete control over what's shown to visitors. Check the web server logfile for further information.
 
-[Next: API for developers →](api.md)
+[Next: Tutorials →](README.md#tutorials)
