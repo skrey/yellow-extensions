@@ -41,8 +41,8 @@ function sendMail($yellow, $spamFilter)
 	if(!empty($_REQUEST["message"]) && preg_match("/$spamFilter/", $_REQUEST["message"])) $ok = false;
 	$mailName = preg_replace("/[^\w\-\.\@ ]/", "-", $_REQUEST["name"]);
 	$mailFrom = preg_replace("/[^\w\-\.\@ ]/", "-", $_REQUEST["from"]);
-	$mailTo = $yellow->page->get("email");
-	if($yellow->config->isExisting("email")) $mailTo = $yellow->config->get("email");
+	$mailTo = $yellow->page->get("contactEmail");
+	if($yellow->config->isExisting("contactEmail")) $mailTo = $yellow->config->get("contactEmail");
 	$mailSubject = $yellow->page->get("title");
 	$mailMessage = $_REQUEST["message"]."\r\n-- \r\n$mailName";
 	$mailHeaders = "From: ".(empty($mailFrom) ? "noreply" : (empty($mailName) ? "$mailFrom" : "$mailFrom ($mailName)"))."\r\n";

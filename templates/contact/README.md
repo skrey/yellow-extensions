@@ -14,6 +14,6 @@ To uninstall delete the template files and folder.
 
 How to use a contact page?
 --------------------------
-The contact page is available on your website as `http://website/contact/`. You can add a link to your navigation or individual pages. An email address can be defined in the settings at the top of a contact page, for example `Email: user@user.com`. A global email address (for all contact pages) can be defined in the main configuration. There's a spam filter to block unwanted advertising.
+The contact page is available on your website as `http://website/contact/`. You can add a link to your navigation or individual pages. An email address can be defined in the settings at the top of a contact page, for example `ContactEmail: user@user.com`. A global email address can be defined in the main configuration. There's a spam filter to block unwanted advertising.
 
 This template does not work with static websites, it needs a Yellow installation.
