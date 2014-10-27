@@ -24,7 +24,7 @@ Template with language selection below navigation:
 
 Style for language selection:
 
-    .language { margin:1em; line-height:2em; float:right; }
-    .language a { padding:0 0.5em; display:inline-block; }
-    .language ul { margin:0; padding:0; list-style:none; }
-    .language li { display:inline; }
+    .languagesite { margin:1em; line-height:2em; float:right; }
+    .languagesite a { padding:0 0.5em; display:inline-block; }
+    .languagesite ul { margin:0; padding:0; list-style:none; }
+    .languagesite li { display:inline; }

@@ -1,4 +1,4 @@
-/* Yellow blogsite theme 0.1.8 */
+/* Yellow blogsite theme 0.1.9 */
 
 html, body, div, form, pre, span, tr, th, td { margin:0; padding:0; border:0; vertical-align:baseline; }
 body {
@@ -18,7 +18,7 @@ a, img { border:none; text-decoration:none; }
 .yellow { margin:0 0.5em; }
 .yellow a:hover { color:#373737; text-decoration:none; }
 .sitename { padding:0.5em 1.5em; }
-.sitename h1 { margin:0.4em 0; font-size:2.2em; }
+.sitename h1 { margin:0.4em 0; font-size:2.5em; }
 .sitename a { color:#111; text-decoration:none; }
 .sitename-banner {
 	padding-top:23%; 
@@ -67,5 +67,5 @@ a, img { border:none; text-decoration:none; }
 @media print {
 	body, h1, h2, h3, h4, h5, h6 { background-color:white; color:black; }
 	.page { border:none !important; }
-	.sitename-banner, .navigation, .footer { display:none !important; }
+	.sitename-banner, .navigation, .navigationsub, .navigationtree, .footer { display:none !important; }
 }

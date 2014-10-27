@@ -1,54 +1,49 @@
-/* Yellow githubber theme 0.1.8 */
+/* Yellow knowhow theme 0.1.1 */
 
 html, body, div, form, pre, span, tr, th, td { margin:0; padding:0; border:0; vertical-align:baseline; }
-body { 
+body {
 	margin:1em;
 	background-color:#fff; color:#333;
 	font-family:"Helvetica Neue",Helvetica,sans-serif;
-	font-size:0.95em;
+	font-size:1em;
 	font-weight:400;
 	line-height:1.6;
 }
-h1, h2, h3, h4, h5, h6 { color:#07d; font-weight:normal; }
+h1, h2, h3, h4, h5, h6 { color:#333; font-weight:normal; }
 hr { height:1px; background:#ddd; border:0; }
-code { font-size:1.1em; } 
-a { color:#07d; }
-a:hover { color:#07d; text-decoration:underline; }
+code { font-size:1.1em; }
+a { color:#4183c4; }
+a:hover { color:#4183c4; text-decoration:underline; }
 a, img { border:none; text-decoration:none; }
 .page { position:relative; }
-.sitename h1 { margin-top:0em; margin-bottom:0em; font-size:2.5em; }
-.sitename a { color:#111; text-decoration:none; }
-.navigation { position:absolute; top:1.4em; right:0em; }
+.sitename h1 { margin:0.5em 0; font-size:2em; }
+.sitename a { color:#333; text-decoration:none; }
+.navigation { position:absolute; top:0.9em; right:0em; }
 .navigation { margin-bottom:1em; line-height:2em; }
-.navigation a { color:#07d; padding:0 0.3em; display:inline-block; }
-.navigation a:hover { color:#07d; }
+.navigation a { color:#4183c4; padding:0 0.3em; display:inline-block; }
+.navigation a:hover { color:#4183c4; text-decoration:underline; }
 .navigation ul { margin:0 -0.3em; padding:0; list-style:none; }
-.navigation li a.active { color:#07d; }
-.navigation li a.active:hover { color:#07d; }
 .navigation li { display:inline; }
+.navigation li a.active { color:#4183c4; }
+.navigationsearch { margin:1.5em 0; }
+.navigationsearch .search-text { font-family:inherit; font-size:inherit; font-weight:inherit; }
+.navigationsearch .search-text { padding:0.5em; border:2px solid #eee; width:100%; box-sizing:border-box; }
 .pagination { margin:1em 0; }
+.content h1 a:hover { text-decoration:none; }
 .content img { max-width:100%; height:auto; }
 .content form { margin:1em 0; }
 .content .flexible { position:relative; padding-bottom:56.25%; padding-top:30px; }
 .content .flexible iframe { position:absolute; top:0; left:0; width:100%; height:100%; }
-.footer a { color:#333; }
-.footer a:hover { color:#07d; text-decoration:underline; }
+.footer { margin-top:1em; padding-top:1em; border-top:1px solid #eee; }
+.footer a { color:#4183c4; }
+.footer a:hover { color:#4183c4; text-decoration:underline; }
 .left { float:left; margin:0 1em 0 0; }
 .center { display:block; margin:0 auto; }
 .right { float:right; margin:0 0 0 1em; }
 
 /* Reengineered from GitHub */
 
-.file { margin:1em 0; padding:30px; }
-.file { border:1px solid #ddd; border-radius:3px; }
-.meta {
-	margin:-30px -30px 30px -30px; height:40px;
-	background-color:#f7f7f7; color:#333;
-	border-bottom:1px solid #ddd;
-}
-.meta-title { float:left; padding:10px 10px; font-weight:bold; }
-.meta-data { float:left; padding:11px 10px; }
-.meta-actions { float:right; padding:6px; }
+.content { margin:1em 0; }
 .content tt, code, pre { font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace; font-size:0.9em; }
 .content h1, h2, h3, h4, h5, h6 { color:#333; }
 .content a { color:#4183c4; }
@@ -57,22 +52,20 @@ a, img { border:none; text-decoration:none; }
 
 /* Responsive and print */
 
-.page { margin:0 auto; max-width:920px; }
+.page { margin:0 auto; max-width:860px; }
 
-@media screen and (min-width:62em) { 
-	body { width:60em; margin:1em auto; }
+@media screen and (min-width:62em) {
+	body { width:62em; margin:1em auto; }
 }
 @media screen and (max-width:30em) { 
-	body { margin:0.5em; font-size:0.9em; }
-	.content h1, .content h2, .content h3 { font-size:1.3em; }
-	.sitename h1, h1, h2 { font-size:1.3em; }
-	.sitename h1, .sitename, .navigation, .footer, .page { margin:0; padding:0; border:0; }
-	.sitename, .navigation { position:static; height:auto; }
-	.file, .footer { margin:0; padding:0.5em 0; border:0; }
-	.meta { display:none; }
+	body { margin:0.5em; background-color:#fff; font-size:0.9em; }
+	.content { margin:0.5em 0; font-size:1.0em; }
+	.sitename h1, .content h1, .content h2, .content h3 { font-size:1.3em; }
+	.sitename h1, .sitename, .navigation, .page { margin:0; padding:0; border:0; }
+	.navigation { position:static; }
 }
 @media print {
 	body, h1, h2, h3, h4, h5, h6 { background-color:white; color:black; }
 	.page { border:none !important; }
-	.navigation, .meta, .footer { display:none !important; }
+	.navigation, .navigationsub, .navigationtree, .footer { display:none !important; }
 }

@@ -21,8 +21,8 @@ Template with navigation tree:
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
 
-Style for testing navigation tree:
+Style for navigation tree:
 
-    .navigation { position:relative; }
-    .navigation ul ul { display:none; position:absolute; top:2em; left:0; }
-    .navigation ul li:hover > ul { display:block; }
+    .navigationtree { position:relative; }
+    .navigationtree ul ul { display:none; position:absolute; top:2em; left:0; }
+    .navigationtree ul li:hover > ul { display:block; }
