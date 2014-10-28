@@ -14,27 +14,6 @@ To uninstall delete the template files and folder.
 
 How to use a search?
 --------------------
-The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. You can add a link or HTML form to your navigation, see example below.
+The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. You can add a link to your navigation or individual pages.
 
 This template does not work with static websites, it needs a Yellow installation.
-
-Example
--------
-
-Navigation snippet with search form:
-
-    ...
-    <form class="search-form" action="<?php echo $yellow->pages->serverBase ?>/search/" method="post">
-    <input class="search-text" type="text" name="query" placeholder="<?php echo $yellow->text->getHtml("searchButton") ?>" />
-    <input type="hidden" name="clean-url" />
-    </form>
-    ...
-
-Style for search form:
-
-    ...
-    .navigation { position:relative; }
-    .navigation .search-form { position:absolute; top:0; right:0; }
-    .navigation .search-text { font-family:inherit; font-size:inherit; font-weight:inherit; margin:0; }
-    @media screen and (max-width:30em) { .navigation .search-form { display:none } }
-    ...

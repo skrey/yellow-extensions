@@ -1,4 +1,4 @@
-Flatsite theme 0.1.1
+Flatsite theme 0.1.2
 ====================
 Flatsite is a clean business theme.
 

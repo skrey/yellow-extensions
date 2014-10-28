@@ -1,5 +1,5 @@
-Blogsite theme 0.1.9
-====================
+Blogsite theme 0.1.10
+=====================
 Blogsite is a basic blogger theme. 
 
 ![Screenshot](blogsite-screenshot.jpg?raw=true)

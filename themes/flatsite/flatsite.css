@@ -1,4 +1,4 @@
-/* Yellow flatsite theme 0.1.1 */
+/* Yellow flatsite theme 0.1.2 */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 html, body, div, form, pre, span, tr, th, td { margin:0; padding:0; border:0; vertical-align:baseline; }
@@ -48,6 +48,7 @@ a, img { border:none; text-decoration:none; }
 	margin:0; padding:2px 4px;
 	display:inline-block;
 	background-color:#fff; color:#555;
+	background-image:linear-gradient(to bottom, #fff, #fff);
 	border:1px solid #bbb;
 	border-radius:4px;
 	font-size:0.9em; font-family:inherit; font-weight:normal; line-height:1;
@@ -57,8 +58,7 @@ a, img { border:none; text-decoration:none; }
 	display:inline-block; min-width:8em;
 	background-color:#eaeaea; color:#333333;
 	background-image:linear-gradient(to bottom, #ffffff, #e1e1e1);
-	background-repeat:repeat-x;
-	border:1px solid #bbb; 
+	border:1px solid #bbb;
 	border-color:#d1d1d1 #d1d1d1 #aaaaaa;
 	border-radius:4px;
 	outline-offset:-2px;
