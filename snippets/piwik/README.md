@@ -18,25 +18,22 @@ SERVERNAME is optional, it's the server name of your Piwik installation.
 
 Example
 -------
-Website template with comments:
+Website template with statistics:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
-    <div class="content">
-    <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $yellow->page->getContent() ?>
+    <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("piwik", "annasdesign") ?>
-    </div>
     <?php $yellow->snippet("footer") ?>
 
-Blog template with comments:
+Blog template with statistics:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
     <div class="content blog">
     ...
-    <?php $yellow->snippet("piwik", "annasdesign") ?>
     </div>
+    <?php $yellow->snippet("piwik", "annasdesign") ?>
     <?php $yellow->snippet("footer") ?>
