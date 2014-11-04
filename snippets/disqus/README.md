@@ -12,7 +12,7 @@ To uninstall delete the snippet and remove it from templates.
 
 How to enable comments?
 ------------------------
-Create a Disqus account, add Disqus snippet to template: `$yellow->snippet("disqus", SHORTNAME)`.  
+Create a Disqus account, add Disqus snippet to templates: `$yellow->snippet("disqus", SHORTNAME)`.  
 SHORTNAME is the name of your website, you can find it in the Disqus dashboard.
 
 Example
@@ -36,6 +36,6 @@ Blog template with comments:
     <?php $yellow->snippet("navigation") ?>
     <div class="content blog">
     ...
-    <?php $yellow->snippet("disqus", "annasblog") ?>
+    <?php $yellow->snippet("disqus", "annasdesign") ?>
     </div>
     <?php $yellow->snippet("footer") ?>
