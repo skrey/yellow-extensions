@@ -1,6 +1,6 @@
 Piwik snippet
 =============
-Add [Piwik](http://piwik.org) statistics to website or blog.
+Add [Piwik](http://piwik.org) statistics to website.
 
 How do I install this?
 ----------------------
@@ -26,5 +26,16 @@ Footer snippet with statistics:
     </div>
     </div>
     <?php $yellow->snippet("piwik", "annasdesign") ?>
+    </body>
+    </html>
+
+Footer snippet with statistics, optional server name:
+
+    <div class="footer">
+    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2014 <?php echo $yellow->page->getHtml("sitename") ?></a>.
+    <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
+    </div>
+    </div>
+    <?php $yellow->snippet("piwik", "annasdesign", "annasdesign.eu/piwik") ?>
     </body>
     </html>
