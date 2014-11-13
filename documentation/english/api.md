@@ -1,6 +1,6 @@
 API for developers
 ==================
-A developer documentation for [Yellow 0.4.5](https://github.com/markseu/yellowcms)
+A developer documentation for [Yellow 0.4.8](https://github.com/markseu/yellowcms)
 
 $yellow
 -------
@@ -244,9 +244,6 @@ Handle page extra header
 
 **function onUserPermission($location, $fileName, $users)**  
 Handle permission to modify page
-
-**function onMergeText($location, $textSource, $textLocal, $textRemote)**  
-Handle text merging
 
 **function onCommandHelp()**  
 Handle command help
