@@ -1,6 +1,6 @@
 Fontawesome plugin 0.1.4
 ========================
-Support for scalable icons.
+Icons and vector graphics.
 
 How do I install this?
 ----------------------
@@ -22,3 +22,15 @@ Adding an icon, Email and Twitter symbol:
 
     <i class="fa fa-envelope-o></i> Email
     <i class="fa fa-twitter"></i> Twitter
+
+Navigation snippet with social media icons:
+
+    <div class="navigation">
+    <ul>
+    <?php foreach($yellow->pages->top() as $page): ?>
+    <li><a<?php echo $page->isActive() ? " class=\"active\"" : "" ?> href="<?php echo $page->getLocation() ?>"><?php echo $page->getHtml("titleNavigation") ?></a></li>
+    <?php endforeach ?>
+    <li><a href="https://twitter.com/username"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://github.com/username"><i class="fa fa-github"></i></a></li>
+    </ul>
+    </div>

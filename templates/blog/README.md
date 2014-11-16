@@ -23,7 +23,7 @@ Content file for a new blog article:
 
     ---
     Title: Blog article
-    Published: YYYY-MM-DD
+    Published: 2013-04-07
     Author: Anna Svensson
     Tag: Example
     ---
