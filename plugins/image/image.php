@@ -5,7 +5,7 @@
 // Image parser plugin
 class YellowImage
 {
-	const Version = "0.1.7";
+	const Version = "0.1.8";
 	var $yellow;			//access to API
 	var $graphicsLibrary;	//graphics library support? (boolean)
 
@@ -31,7 +31,7 @@ class YellowImage
 				$this->yellow->page->error(500, "Plugin 'image' requires GD library with JPEG and PNG support!");
 				return $output;
 			}
-			list($name, $alt, $style, $widthOutput, $heightOutput, $mode) = $this->yellow->toolbox->getTextArgs($text);
+			list($name, $alt, $style, $widthOutput, $heightOutput) = $this->yellow->toolbox->getTextArgs($text);
 			$width = $height = 0;
 			$src = $name;
 			if(!preg_match("/^\w+:/", $src))
@@ -42,7 +42,7 @@ class YellowImage
 				if(empty($heightOutput)) $heightOutput = $widthOutput;
 				if($width && $height && $widthOutput && $heightOutput)
 				{
-					list($width, $height, $src) = $this->createThumbnail($name, $width, $height, $widthOutput, $heightOutput, $type, $mode);
+					list($width, $height, $src) = $this->createThumbnail($name, $width, $height, $widthOutput, $heightOutput, $type);
 				}
 			} else {
 				$src = $this->yellow->toolbox->normaliseLocation($src, $page->base, $page->location);
@@ -82,13 +82,12 @@ class YellowImage
 	}
 
 	// Create thumbnail on demand
-	function createThumbnail($fileName, $widthInput, $heightInput, $widthOutput, $heightOutput, $type, $mode)
+	function createThumbnail($fileName, $widthInput, $heightInput, $widthOutput, $heightOutput, $type)
 	{
 		$widthOutput = $this->convertValueAndUnit($widthOutput, $widthInput);
 		$heightOutput = $this->convertValueAndUnit($heightOutput, $heightInput);
-		$mode = strtolower($mode); if($mode != "cut") $mode = "fit";
 		$fileNameThumb = ltrim(str_replace(array("/", "\\", "."), "-", dirname($fileName)."/".pathinfo($fileName, PATHINFO_FILENAME)), "-");
-		$fileNameThumb .= "-".$widthOutput."x".$heightOutput."-".$mode;
+		$fileNameThumb .= "-".$widthOutput."x".$heightOutput;
 		$fileNameThumb .= ".".pathinfo($fileName, PATHINFO_EXTENSION);
 		$fileNameInput = $this->yellow->config->get("imageDir").$fileName;
 		$fileNameOutput = $this->yellow->config->get("imageThumbnailDir").$fileNameThumb;
@@ -97,7 +96,7 @@ class YellowImage
 			$image = $this->loadImage($fileNameInput, $type);
 			if($image)
 			{
-				$image = $this->resizeImage($image, $widthInput, $heightInput, $widthOutput, $heightOutput, $mode);
+				$image = $this->resizeImage($image, $widthInput, $heightInput, $widthOutput, $heightOutput);
 				if(!$this->saveImage($fileNameOutput, $type, $image) ||
 				   !$this->yellow->toolbox->modifyFile($fileNameOutput, filemtime($fileNameInput)))
 				{
@@ -144,30 +143,18 @@ class YellowImage
 	}
 
 	// Resize image
-	function resizeImage($imageInput, $widthInput, $heightInput, $widthOutput, $heightOutput, $mode)
+	function resizeImage($imageInput, $widthInput, $heightInput, $widthOutput, $heightOutput)
 	{
 		$widthFit = $widthInput * ($heightOutput / $heightInput);
 		$heightFit = $heightInput * ($widthOutput / $widthInput);
 		$widthDiff = abs($widthOutput - $widthFit);
 		$heightDiff = abs($heightOutput - $heightFit);
-		if($mode == "cut")
+		$imageOutput = $this->createImage($widthOutput, $heightOutput);
+		if($heightFit > $heightOutput)
 		{
-			if($widthFit < $widthOutput)
-			{
-				$imageOutput = $this->createImage($widthFit, $heightOutput);
-				imagecopyresampled($imageOutput, $imageInput, 0, 0, 0, 0, $widthFit, $heightOutput, $widthInput, $heightInput);
-			} else {
-				$imageOutput = $this->createImage($widthOutput, $heightFit);
-				imagecopyresampled($imageOutput, $imageInput, 0, 0, 0, 0, $widthOutput, $heightFit, $widthInput, $heightInput);
-			}
+			imagecopyresampled($imageOutput, $imageInput, 0, $heightDiff/-2, 0, 0, $widthOutput, $heightFit, $widthInput, $heightInput);
 		} else {
-			$imageOutput = $this->createImage($widthOutput, $heightOutput);
-			if($heightFit > $heightOutput)
-			{
-				imagecopyresampled($imageOutput, $imageInput, 0, $heightDiff/-2, 0, 0, $widthOutput, $heightFit, $widthInput, $heightInput);
-			} else {
-				imagecopyresampled($imageOutput, $imageInput, $widthDiff/-2, 0, 0, 0, $widthFit, $heightOutput, $widthInput, $heightInput);
-			}
+			imagecopyresampled($imageOutput, $imageInput, $widthDiff/-2, 0, 0, 0, $widthFit, $heightOutput, $widthInput, $heightInput);
 		}
 		return $imageOutput;
 	}
