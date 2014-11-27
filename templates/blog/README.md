@@ -9,7 +9,7 @@ How do I install this?
 3. Create a new folder '3-blog' in your content folder.
 4. Download [page.txt](page.txt?raw=true) and [2013-04-07-blog-article.txt](2013-04-07-blog-article.txt?raw=true), copy both files into your /content/3-blog folder.
 5. Download [newblog.txt](newblog.txt?raw=true), copy into your system/config folder.
-6. Add these [text lines](text.ini?raw=true) to your system/config/text.ini file.
+6. Add these [text lines](blogtext.ini?raw=true) to your system/config/language-en.ini file, there are also [languages](https://github.com/markseu/yellowcms-extensions/tree/master/languages) you can download.
 
 To uninstall delete the template files and folder.
 
