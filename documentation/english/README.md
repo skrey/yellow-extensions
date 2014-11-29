@@ -18,7 +18,6 @@ Tutorials
 
 Advanced
 --------
-* [Command line](cli.md)
 * [API for developers](api.md)
 
 Do you have questions or problems? Get in touch via [GitHub](https://github.com/markseu/yellowcms/issues) or [Email](http://datenstrom.se/contact/).
