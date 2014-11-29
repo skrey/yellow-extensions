@@ -4,7 +4,7 @@ Yellow is for people who make websites. Create small web pages, blogs and wikis.
 
 ![Yellow](welcome-yellow.jpg?raw=true)
 
-[Download Yellow](https://github.com/markseu/yellowcms/archive/master.zip) and [try the demo](http://demo.datenstrom.se/).
+[Download](https://github.com/markseu/yellowcms/archive/master.zip) and [Demo](http://demo.datenstrom.se/).
 
 Web browser
 -----------
