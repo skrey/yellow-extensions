@@ -12,7 +12,7 @@ To uninstall delete the snippet.
 
 How to create a list of images?
 -------------------------------
-Add imagelist to your templates: $yellow->snippet("imagelist", PATTERN).  
+Add imagelist to your templates: `$yellow->snippet("imagelist", PATTERN)`.  
 PATTERN is optional, it's a regular expression to specify media files.
 
 Example

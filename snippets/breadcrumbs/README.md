@@ -12,7 +12,7 @@ To uninstall delete the snippet and remove it from templates.
 
 How to use breadcrumbs?
 -----------------------
-Add breadcrumbs to your templates: $yellow->snippet("breadcrumbs", SEPARATOR).  
+Add breadcrumbs to your templates: `$yellow->snippet("breadcrumbs", SEPARATOR)`.  
 SEPARATOR is optional, it's a text used between pages.
 
 Example
