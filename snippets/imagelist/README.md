@@ -10,9 +10,14 @@ How do I install this?
 
 To uninstall delete the snippet.
 
+How to create a list of images?
+-------------------------------
+Add imagelist to your templates: $yellow->snippet("imagelist", PATTERN).  
+PATTERN is optional, it's a regular expression to specify media files.
+
 Example
 -------
-Imagelist template, creates a list of images from your media/images folder:
+Template with list of images from your media/images folder:
 
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>

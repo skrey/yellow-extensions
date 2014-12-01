@@ -12,9 +12,9 @@ Learn more about it
 Tutorials
 ---------
 * [How to make a blog](https://github.com/markseu/yellowcms/wiki/How%20to%20make%20a%20blog)
+* [How to make a website](https://github.com/markseu/yellowcms/wiki/How%20to%20make%20a%20website)
 * [How to make a wiki](https://github.com/markseu/yellowcms/wiki/How%20to%20make%20a%20wiki)
 * [How to add a user account](https://github.com/markseu/yellowcms/wiki/User%20account%20configuration)
-* [How to use multiple languages](https://github.com/markseu/yellowcms/wiki/Multi%20language%20configuration)
 
 Advanced
 --------

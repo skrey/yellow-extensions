@@ -10,6 +10,11 @@ How do I install this?
 
 To uninstall delete the snippet and remove it from templates.
 
+How to use breadcrumbs?
+-----------------------
+Add breadcrumbs to your templates: $yellow->snippet("breadcrumbs", SEPARATOR).  
+SEPARATOR is optional, it's a text used between pages.
+
 Example
 -------
 Template with breadcrumbs below navigation:
@@ -18,5 +23,14 @@ Template with breadcrumbs below navigation:
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
     <?php $yellow->snippet("breadcrumbs") ?>
+    <?php $yellow->snippet("content") ?>
+    <?php $yellow->snippet("footer") ?>
+
+Template with breadcrumbs below navigation, optional separator:
+
+    <?php $yellow->snippet("header") ?>
+    <?php $yellow->snippet("sitename") ?>
+    <?php $yellow->snippet("navigation") ?>
+    <?php $yellow->snippet("breadcrumbs", ":") ?>
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
