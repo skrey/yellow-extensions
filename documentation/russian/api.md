@@ -5,19 +5,19 @@ API для разработчиков
 $yellow
 -------
 **[$yellow->page](api.md#yellow-page)** текущая страница  
-**[$yellow->pages](api.md#yellow-pages)** предоставляет доступ к страницам из файловой системы
-**[$yellow->config](api.md#yellow-config)** предоставляет доступ к настройкам
-**[$yellow->text](api.md#yellow-text)** предоставляет доступ к текстовым строкам
-**[$yellow->toolbox](api.md#yellow-toolbox)** предоставляет доступ к инструментам с помощниками 
-**[$yellow->plugins](api.md#yellow-plugins)** предоставляет доступ к плагинам
+**[$yellow->pages](api.md#yellow-pages)** предоставляет доступ к страницам из файловой системы  
+**[$yellow->config](api.md#yellow-config)** предоставляет доступ к настройкам  
+**[$yellow->text](api.md#yellow-text)** предоставляет доступ к текстовым строкам  
+**[$yellow->toolbox](api.md#yellow-toolbox)** предоставляет доступ к инструментам с помощниками  
+**[$yellow->plugins](api.md#yellow-plugins)** предоставляет доступ к плагинам  
 
 $yellow->page
 -------------
 **$yellow->page->get($key)**  
-Возвращает [метаданные](api.md#page-meta-data) страницы		
+Возвращает [метаданные](api.md#metadata) страницы		
 
 **$yellow->page->getHtml($key)**  
-Возвращает [метаданные](api.md#page-meta-data) страницы, HTML формат	
+Возвращает [метаданные](api.md#metadata) страницы, HTML формат	
 
 **$yellow->page->getContent($rawFormat = false)**  
 Возвращает содержимое страницы, HTML или raw формат		
@@ -59,7 +59,7 @@ $yellow->page
 Добавить заголовок ответа страницы, HTTP формат
 
 **$yellow->page->isExisting($key)**  
-Проверка, существования [метаданных](api.md#page-meta-data) страницы  
+Проверка, существования [метаданных](api.md#metadata) страницы  
 
 **$yellow->page->isError()**  
 Проверка, если страница с ошибкой
@@ -95,10 +95,10 @@ $yellow->pages
 Следующие функции работают для любых коллекций, например, функции которые возвращают более одной страницы:
 
 **$pages->filter($key, $value, $exactMatch = true)**  
-Фильтр коллекций по [метаданным](api.md#page-meta-data)  
+Фильтр коллекций по [метаданным](api.md#metadata)  
 
 **$pages->sort($key, $ascendingOrder = true)**  
-Сортировка коллекций по [метаданным](api.md#page-meta-data)  
+Сортировка коллекций по [метаданным](api.md#metadata)  
 
 **$pages->merge($input)**  
 Слияние коллекций
@@ -254,22 +254,22 @@ $yellow->plugins
 Пример: [youtube.php](https://github.com/markseu/yellowcms-extensions/blob/master/plugins/youtube/youtube.php),
 [draft.php](https://github.com/markseu/yellowcms-extensions/blob/master/plugins/draft/draft.php)
 
-Метаданные страницы
---------------
+Metadata
+--------
 `title` = заголовок страницы  
-`titleContent` = заголовок страницы показанный в контенте
-`titleNavigation` = заголовок страницы показанный в навигации
+`titleContent` = заголовок страницы показанный в контенте  
+`titleNavigation` = заголовок страницы показанный в навигации  
 `titleHeader` = заголовок страницы используемый в header  
 `description` = описание страницы используемое в header  
-`keywords` = ключевые слова используемые в header, разделенные запятой
-`author` = авторы страницы, разделенные запятой 
+`keywords` = ключевые слова используемые в header, разделенные запятой  
+`author` = авторы страницы, разделенные запятой  
 `language` = язык страницы  
-`theme` = тема страницы 
+`theme` = тема страницы  
 `template` = шаблон страницы  
-`parser` = парсер страницы 
+`parser` = парсер страницы  
 `modified` = время модификации страницы, формат YYYY-MM-DD  
 `published` = дата публикации страницы, формат YYYY-MM-DD  
-`tag` = тэги, разделенные запятой 
+`tag` = тэги, разделенные запятой  
 `redirect` = новый адрес или URL  
 `status` = статус рабочего процесса  
 `sitename` = имя сайта используемое в header и footer  
