@@ -14,10 +14,10 @@ $yellow
 $yellow->page
 -------------
 **$yellow->page->get($key)**  
-Return page [meta data](api.md#page-meta-data)  
+Return page [meta data](api.md#meta-data)  
 
 **$yellow->page->getHtml($key)**  
-Return page [meta data](api.md#page-meta-data), HTML encoded  
+Return page [meta data](api.md#meta-data), HTML encoded  
 
 **$yellow->page->getContent($rawFormat = false)**  
 Return page content, HTML encoded or raw format
@@ -59,7 +59,7 @@ Respond with status code, no page content
 Add page response header, HTTP format
 
 **$yellow->page->isExisting($key)**  
-Check if page [meta data](api.md#page-meta-data) exists  
+Check if page [meta data](api.md#meta-data) exists  
 
 **$yellow->page->isError()**  
 Check if page with error
@@ -95,10 +95,10 @@ Return page collection with multiple languages
 The following works for any page collection, e.g functions that return more than one page:
 
 **$pages->filter($key, $value, $exactMatch = true)**  
-Filter page collection by [meta data](api.md#page-meta-data)  
+Filter page collection by [meta data](api.md#meta-data)  
 
 **$pages->sort($key, $ascendingOrder = true)**  
-Sort page collection by [meta data](api.md#page-meta-data)  
+Sort page collection by [meta data](api.md#meta-data)  
 
 **$pages->merge($input)**  
 Merge page collection
@@ -254,8 +254,8 @@ Handle command
 Example: [youtube.php](https://github.com/markseu/yellowcms-extensions/blob/master/plugins/youtube/youtube.php),
 [draft.php](https://github.com/markseu/yellowcms-extensions/blob/master/plugins/draft/draft.php)
 
-Page meta data
---------------
+Meta data
+---------
 `title` = page title  
 `titleContent` = page title shown in content  
 `titleNavigation` = page title shown in navigation  
