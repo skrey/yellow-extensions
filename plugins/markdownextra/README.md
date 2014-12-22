@@ -11,7 +11,7 @@ To uninstall delete the plugin.
 
 How to format text?
 -------------------
-The plugin uses [Markdown Extra v1.4.1](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. Markdown allows to write text like an email and it becomes a web page. Here's the [Markdown syntax](http://en.wikipedia.org/wiki/Markdown) and a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/).
+The plugin uses [Markdown Extra v1.4.1](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. It's licensed under [BSD license](http://opensource.org/licenses/BSD-3-Clause). Markdown allows to write text like an email and it becomes a web page. Here's the [Markdown syntax](http://en.wikipedia.org/wiki/Markdown) and a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/).
 
 Example
 -------
