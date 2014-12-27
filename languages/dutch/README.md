@@ -1,6 +1,6 @@
 Nederlandse taal
 ================
-Nederlandse tekst voor Yellow en uitbreidingen.
+Nederlandse tekst voor Yellow en extensies.
 
 Hoe te installeren?
 ----------------------
