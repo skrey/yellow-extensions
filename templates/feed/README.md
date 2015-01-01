@@ -21,7 +21,7 @@ Header snippet with feed:
 
     <!DOCTYPE html>
     ...
-    `<link rel="alternate" type="application/rss+xml" href="<?php echo $yellow->config->get("serverBase")."/feed/feed.xml" ?>" />`
+    <link rel="alternate" type="application/rss+xml" href="<?php echo $yellow->config->get("serverBase")."/feed/feed.xml" ?>" />
     <?php echo $yellow->page->getHeaderExtra() ?>
     </head>
     <body>
