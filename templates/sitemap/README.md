@@ -19,6 +19,7 @@ Example
 -------
 Header snippet with sitemap:
 
+    <!DOCTYPE html>
     ...
     <link rel="sitemap" type="text/xml" href="<?php echo $yellow->config->get("serverBase")."/sitemap/sitemap.xml" ?>" />`
     <?php echo $yellow->page->getHeaderExtra() ?>
