@@ -1,11 +1,13 @@
-╪РлЕжпнд
+Г╝─Д╫⌠Д╦╜Ф√┤
 
 ================
-Yellow ╪РлЕжпндю╘у╧нд╠╬║ё
+Yellow Г╝─Д╫⌠Д╦╜Ф√┤Ф┴╘Е╠∙Ф√┤Ф°╛Ц─┌
 
-уБ╦ЖхГ╨н╟╡в╟ё©
+Х©≥Д╦╙Ф─▌Д╧┬Е╝┴Хё┘О╪÷
 ----------------------
-1. обть╡╒╟╡в╟ [Yellow](https://github.com/markseu/yellowcms/)║ё  
-2. обтьсОятнд╪Ч [language-zh-CN.ini](language-zh-CN.ini?raw=true)ё╛╦╢жф╣╫дЦ╣д system/config нд╪Ч╪поб║ё  
+1. Д╦▀Х╫╫Е╧╤Е╝┴Хё┘ [Yellow](https://github.com/markseu/yellowcms/)Ц─┌  
+2. Д╦▀Х╫╫Х╞╜Х╗─Ф√┤Д╩╤ [language-zh-CN.ini](language-zh-CN.ini?raw=true)О╪▄Е╓█Е┬╤Е┬╟Д╫═Г └ system/config Ф√┤Д╩╤Е╓╧Д╦▀Ц─┌  
 
-3. фТсц╦цсОятё╛╢Р©╙ system/config/config.ini еДжцнд╪Ч╡╒пч╦д `language = zh-CN`║ёи╬ЁЩсОятнд╪Ч╡╒╩ж╦╢д╛хоиХжц©имЙЁип╤ть║ё
+3. Е░╞Г■╗Х╞╔Х╞╜Х╗─О╪▄Ф┴⌠Е╪─ system/config/config.ini И┘█Г╫╝Ф√┤Д╩╤Е╧╤Д©╝Ф■╧ `language = zh-CN`Ц─┌
+ 
+ Е┬═И≥╓Х╞╜Х╗─Ф√┤Д╩╤Е╧╤Ф│╒Е╓█И╩≤Х╝╓Х╝╬Г╫╝Е▐╞Е╝▄Ф┬░Е█╦Х╫╫Ц─┌
