@@ -13,6 +13,26 @@ To uninstall delete the template files and folder.
 
 How to use a feed?
 ------------------
-The feed is available on your website as `http://website/feed/` and `http://website/feed/feed.xml`. It shows the recently changed pages of the website, only visible pages are included. You can add a link to your navigation or individual pages. For feed readers add the following line to your header snippet:
+The feed is available on your website as `http://website/feed/` and `http://website/feed/feed.xml`. It shows the recently changed pages of the website, only visible pages are included. For feed readers it's recommended to add a link to the header snippet, see example below.
+ 
+Example
+-------
+Header snippet with feed:
 
-`<link rel="alternate" type="application/rss+xml" href="<?php echo $yellow->config->get("serverBase")."/feed/feed.xml" ?>" />`
+    ...
+    `<link rel="alternate" type="application/rss+xml" href="<?php echo $yellow->config->get("serverBase")."/feed/feed.xml" ?>" />`
+    <?php echo $yellow->page->getHeaderExtra() ?>
+    </head>
+    <body>
+    <div class="page">
+
+Footer snippet with feed:
+
+    <div class="footer">
+    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
+    <a href="<?php echo $yellow->page->base."/feed/" ?>">Feed</a>. 
+    <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
+    </div>
+    </div>
+    </body>
+    </html>
