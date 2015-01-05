@@ -5,11 +5,11 @@ Wiki for collaboration.
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
-2. Download [wiki.php](wiki.php?raw=true) and [wikipages.php](wikipages.php?raw=true), copy both files into your system/templates folder.  
-3. Create a new folder '3-wiki' in your content folder.
-4. Download [page.txt](page.txt?raw=true) and [wiki-page.txt](wiki-page.txt?raw=true), copy both files into your content/3-wiki folder.
-5. Download [newwiki.txt](newwiki.txt?raw=true), copy into your system/config folder.
-6. Add these [text lines](wikitext.ini?raw=true) to your system/config/language-en.ini file, there are also [languages](https://github.com/markseu/yellowcms-extensions/tree/master/languages) you can download.
+2. Download [wiki.php](wiki.php?raw=true) and [wikipages.php](wikipages.php?raw=true), copy both files into your `system/templates` folder.  
+3. Create a new folder '3-wiki' in your `content` folder.
+4. Download [page.txt](page.txt?raw=true) and [wiki-page.txt](wiki-page.txt?raw=true), copy both files into your `content/3-wiki` folder.
+5. Download [newwiki.txt](newwiki.txt?raw=true), copy into your `system/config` folder.
+6. Add these [text lines](wikitext.ini?raw=true) to your `system/config/language-en.ini` file, there are also [languages](https://github.com/markseu/yellowcms-extensions/tree/master/languages) you can download.
 
 To uninstall delete the template files and folder.
 

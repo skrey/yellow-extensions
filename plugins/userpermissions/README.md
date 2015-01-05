@@ -5,7 +5,7 @@ Restrictions for web interface users.
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
-2. Download [userpermissions.php](userpermissions.php?raw=true), copy into your system/plugins folder.  
+2. Download [userpermissions.php](userpermissions.php?raw=true), copy into your `system/plugins` folder.  
 
 To uninstall delete the plugin.
 

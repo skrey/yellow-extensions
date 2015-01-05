@@ -5,7 +5,7 @@ Include information in content files.
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
-2. Download [include.php](include.php?raw=true), copy into your system/plugins folder.  
+2. Download [include.php](include.php?raw=true), copy into your `system/plugins` folder.  
 
 To uninstall delete the plugin.
 
@@ -15,7 +15,7 @@ Create a shortcut in the format `[include file NAME]`, you can use files from yo
 To include a snippet use the format `[include snippet NAME]`, you can add optional arguments.  
 To include a text string use the format `[include text NAME]`, you can add an optional language.
 
-Snippets are located in your system/snippets folder, text strings in your system/config folder.
+Snippets are located in your `system/snippets` folder, text strings in your `system/config` folder.
 
 Example
 -------
