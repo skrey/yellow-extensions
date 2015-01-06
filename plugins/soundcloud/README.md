@@ -12,7 +12,7 @@ To uninstall delete the plugin.
 How to embed an audio track?
 ----------------------------
 Create a shortcut in the format `[soundcloud ID]`, you can add optional style, width and height.    
-ID is the last part of a link, e.g. `http://api.soundcloud.com/tracks/101175715`. Click on Embed/Share to see it.
+`ID` is the last part of a link, e.g. `http://api.soundcloud.com/tracks/101175715`.
 
 Example
 -------

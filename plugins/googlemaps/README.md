@@ -12,7 +12,7 @@ To uninstall delete the plugin.
 How to embed a map?
 -------------------
 Create a shortcut in the format `[googlemaps ADDRESS]`, you can add optional zoom, style, width and height.  
-ADDRESS is the text you enter on Google maps, wrap multiple words into quotes `"`. The default zoom is 15.
+`ADDRESS` is the text you enter on Google maps, wrap multiple words into quotes. The default zoom is 15.
 
 Example
 -------

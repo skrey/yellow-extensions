@@ -14,7 +14,7 @@ To uninstall delete the snippet and remove it from other files.
 How to use multiple languages?
 ------------------------------
 Add multilanguage to your snippets: `$yellow->snippet("multilanguage", PAGE)`.  
-PAGE is optional, it's specifies that you want links to the translated page. 
+`PAGE` specifies which page you want to be linked (optional). 
 
 Example
 -------

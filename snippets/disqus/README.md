@@ -13,7 +13,7 @@ To uninstall delete the snippet and remove it from other files.
 How to enable comments?
 ------------------------
 Create a Disqus account, add Disqus snippet to templates: `$yellow->snippet("disqus", SHORTNAME)`.  
-SHORTNAME is the name of your website, you can find it in the Disqus dashboard.
+`SHORTNAME` is the name of your website, you can find it in the Disqus dashboard.
 
 Example
 -------

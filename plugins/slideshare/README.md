@@ -12,7 +12,7 @@ To uninstall delete the plugin.
 How to embed a presentation?
 ----------------------------
 Create a shortcut in the format `[slideshare ID]`, you can add optional style, width and height.    
-ID is the last part of a link, e.g. `http://www.slideshare.net/slideshow/embed_code/16220047`.
+`ID` is the last part of a link, e.g. `http://www.slideshare.net/slideshow/embed_code/16220047`.
 
 Example
 -------

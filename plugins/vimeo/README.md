@@ -12,7 +12,7 @@ To uninstall delete the plugin.
 How to embed a video?
 ---------------------
 Create a shortcut in the format `[vimeo ID]`, you can add optional style, width and height.  
-ID is the last part of a link, e.g. `http://vimeo.com/13387502`. 
+`ID` is the last part of a link, e.g. `http://vimeo.com/13387502`. 
  
 Example
 -------

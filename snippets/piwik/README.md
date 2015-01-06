@@ -13,8 +13,8 @@ To uninstall delete the snippet and remove it from other files.
 How to enable statistics?
 -------------------------
 Add Piwik to your footer snippet: `$yellow->snippet("piwik", SITEID, SERVERNAME)`.  
-SITEID is the ID of your website, you can find it in the Piwik dashboard.  
-SERVERNAME is optional, it's the server name of your Piwik installation.
+`SITEID` is the ID of your website, you can find it in the Piwik dashboard.  
+`SERVERNAME` is the server name of your Piwik installation (optional).
 
 Example
 -------
