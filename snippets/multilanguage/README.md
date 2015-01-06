@@ -1,5 +1,5 @@
 Multilanguage snippet
-====================
+=====================
 Language selection for website.
 
 How do I install this?
@@ -13,8 +13,8 @@ To uninstall delete the snippet and remove it from other files.
 
 How to use multiple languages?
 ------------------------------
-Add languages to your snippets: `$yellow->snippet("multilanguage", PAGE)`.  
-PAGE is optional, it's specifies that you want a link to the translated page. 
+Add multilanguage to your snippets: `$yellow->snippet("multilanguage", PAGE)`.  
+PAGE is optional, it's specifies that you want links to the translated page. 
 
 Example
 -------
