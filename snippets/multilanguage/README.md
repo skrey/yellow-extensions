@@ -6,26 +6,36 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
 2. Download [multilanguage.php](multilanguage.php?raw=true), copy into your `system/snippets` folder.  
-3. Use the snippet on your website, edit templates in your `system/templates` folder.
-4. Customise style sheets in your `system/themes` folder.
-5. Enable [multi language mode](https://github.com/markseu/yellowcms/wiki/Language-configuration) and translate your website. 
+3. Enable [multi language mode](https://github.com/markseu/yellowcms/wiki/Language-configuration) and translate your website. 
+4. Use the snippet on your website, edit snippets in your `system/snippets` folder.
 
-To uninstall delete the snippet and remove it from templates.
+To uninstall delete the snippet and remove it from other files.
+
+How to use multiple languages?
+------------------------------
+Add languages to your snippets: `$yellow->snippet("multilanguage", PAGE)`.  
+PAGE is optional, it's specifies that you want a link to the translated page. 
 
 Example
 -------
-Template with language selection below navigation:
+Footer with language selection:
 
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
+    <div class="footer">
+    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
+    <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
     <?php $yellow->snippet("multilanguage") ?>
-    <?php $yellow->snippet("content") ?>
-    <?php $yellow->snippet("footer") ?>
+    </div>
+    </div>
+    </body>
+    </html>
 
-Style for language selection:
+Footer with language selection, optional page:
 
-    .multilanguage { margin:1em; line-height:2em; float:right; }
-    .multilanguage a { padding:0 0.5em; display:inline-block; }
-    .multilanguage ul { margin:0; padding:0; list-style:none; }
-    .multilanguage li { display:inline; }
+    <div class="footer">
+    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
+    <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
+    <?php $yellow->snippet("multilanguage", $yellow->page) ?>
+    </div>
+    </div>
+    </body>
+    </html>

@@ -1,7 +1,8 @@
-<div class="multilanguage">
-<ul>
-<?php foreach($yellow->pages->translation("/") as $page): ?>
-<li><a href="<?php echo $page->getLocation() ?>"><?php echo $yellow->text->getTextHtml("languageDescription", $page->get("language")) ?></a></li>
+<?php list($name, $page) = $yellow->getSnippetArgs() ?>
+<?php $locationArgs = $page ? $yellow->toolbox->getLocationArgs() : "" ?>
+<?php $pages = $yellow->pages->multi($page ? $page->location : "/") ?>
+<?php if(count($pages) > 1): ?>
+<?php foreach($pages as $page): ?>
+<a href="<?php echo $page->getLocation().$locationArgs ?>"><?php echo $yellow->text->getTextHtml("languageDescription", $page->get("language")) ?></a>
 <?php endforeach ?>
-</ul>
-</div>
+<?php endif ?>

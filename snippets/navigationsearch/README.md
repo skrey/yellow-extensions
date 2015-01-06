@@ -11,7 +11,7 @@ How do I install this?
 5. Use the snippet on your website, edit templates in your `system/templates` folder.
 6. Customise style sheets in your `system/themes` folder.
 
-To uninstall delete the snippet and remove it from templates.
+To uninstall delete the snippet and remove it from other files.
 
 Example
 -------

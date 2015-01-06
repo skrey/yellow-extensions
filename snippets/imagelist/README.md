@@ -8,7 +8,7 @@ How do I install this?
 2. Download [imagelist.php](imagelist.php?raw=true), copy into your `system/snippets` folder.  
 3. Use the snippet on your website, edit templates in your `system/templates` folder.
 
-To uninstall delete the snippet.
+To uninstall delete the snippet and remove it from other files.
 
 How to create a list of images?
 -------------------------------
