@@ -1,8 +1,8 @@
-Knowhow theme 0.1.2
+Knowhow theme 0.1.3
 ===================
 Knowhow is a theme for a GitHub-like knowledge base.
 
-![Screenshot](knowhow-screenshot.jpg?raw=true)
+![Screenshot](knowhow-theme.jpg?raw=true)
 
 How do I install this?
 ----------------------

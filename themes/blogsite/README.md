@@ -1,8 +1,8 @@
-Blogsite theme 0.1.11
+Blogsite theme 0.1.12
 =====================
 Blogsite is a basic blogger theme. 
 
-![Screenshot](blogsite-screenshot.jpg?raw=true)
+![Screenshot](blogsite-theme.jpg?raw=true)
 
 How do I install this?
 ----------------------

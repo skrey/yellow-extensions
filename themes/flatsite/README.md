@@ -1,8 +1,8 @@
-Flatsite theme 0.1.2
+Flatsite theme 0.1.3
 ====================
 Flatsite is a clean business theme.
 
-![Screenshot](flatsite-screenshot.jpg?raw=true)
+![Screenshot](flatsite-theme.jpg?raw=true)
 
 How do I install this?
 ----------------------

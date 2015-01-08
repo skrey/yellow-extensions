@@ -2,8 +2,8 @@
 <?php if(!$servername) $servername = $yellow->config->get("serverName") ?>
 <script type="text/javascript">
 var _paq = _paq || [];
-(function(){ var u=(("https:" == document.location.protocol) ? "https" : "http") + "://<?php echo $servername ?>/";
- _paq.push(['setSiteId', '<?php echo $siteid ?>']);
+(function(){ var u=(("https:" == document.location.protocol) ? "https" : "http") + "://<?php echo rawurlencode($servername) ?>/";
+ _paq.push(['setSiteId', '<?php echo htmlspecialchars($siteid) ?>']);
  _paq.push(['setTrackerUrl', u+'piwik.php']);
  _paq.push(['trackPageView']);
  _paq.push(['enableLinkTracking']);

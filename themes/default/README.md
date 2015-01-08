@@ -1,8 +1,8 @@
-Default theme 0.4.2
+Default theme 0.4.3
 ===================
 The theme that comes with Yellow.
 
-![Screenshot](default-screenshot.jpg?raw=true)
+![Screenshot](default-theme.jpg?raw=true)
 
 How do I install this?
 ----------------------
