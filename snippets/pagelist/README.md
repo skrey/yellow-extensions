@@ -1,6 +1,6 @@
 Pagelist snippet
 ================
-List of pages and images for website
+List of pages with image preview.
 
 How do I install this?
 ----------------------
@@ -16,6 +16,8 @@ Add pagelist to your templates: `$yellow->snippet("pagelist", PAGES, STYLE, SIZE
 `PAGES` is a collection of pages.  
 `STYLE` is the list style (optional).  
 `SIZE` is the image size (optional).
+
+For every page there has to be an image of similar name in your `media/images` folder.
 
 Example
 -------
@@ -43,7 +45,7 @@ Template with list of pages in current folder, optional size:
     </div>
     <?php $yellow->snippet("footer") ?>
 
-Style for 4 images per row:
+Style for 4 pages per row:
 
     .content .pagelist { margin:0; padding:0; list-style:none; width:100%; }
     .content .pagelist li { padding-bottom:1em; text-align:center; white-space:nowrap; display:inline-block; width:24%; }
