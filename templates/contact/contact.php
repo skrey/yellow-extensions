@@ -29,7 +29,7 @@
 			case "done":	$yellow->page->set("contactStatus", $yellow->text->get("contactStatusDone")); break;
 			case "error":	$yellow->page->error(500, $yellow->text->get("contactStatusError")); break;
 		}
-		$yellow->page->header("Last-Modified: ".$yellow->toolbox->getHttpTimeFormatted(time()));
+		$yellow->page->header("Last-Modified: ".$yellow->toolbox->getHttpDateFormatted(time()));
 		$yellow->page->header("Cache-Control: no-cache, must-revalidate");
 	}
 	return $status;
