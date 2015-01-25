@@ -46,6 +46,7 @@ function sendMail($yellow, $spamFilter)
 	$mailSubject = $yellow->page->get("title");
 	$mailMessage = $_REQUEST["message"]."\r\n-- \r\n$mailName";
 	$mailHeaders = "From: ".(empty($mailFrom) ? "noreply" : (empty($mailName) ? "$mailFrom" : "$mailFrom ($mailName)"))."\r\n";
+	$mailHeaders .= "Content-Type: text/plain; charset=utf-8\r\n";
 	$mailHeaders .= "X-Contact-Url: ".$yellow->page->getUrl()."\r\n";
 	$mailHeaders .= "X-Remote-Addr: ".$_SERVER["REMOTE_ADDR"]."\r\n";
 	if($ok) $ok = mail($mailTo, $mailSubject, $mailMessage, $mailHeaders);
