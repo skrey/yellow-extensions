@@ -1,4 +1,4 @@
-Knowhow theme 0.1.4
+Knowhow theme 0.1.5
 ===================
 Knowhow is a theme for a GitHub-like knowledge base.
 

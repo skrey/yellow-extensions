@@ -1,5 +1,5 @@
-Ariane theme 0.1.1
-===================
+Ariane theme 0.1.2
+==================
 Ariane is a minimalistic theme for artists. 
 
 ![Screenshot](ariane-theme.jpg?raw=true)
