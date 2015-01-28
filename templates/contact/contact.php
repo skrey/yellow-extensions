@@ -39,18 +39,21 @@ function sendMail($yellow, $spamFilter)
 	$ok = true;
 	if(!empty($_REQUEST["from"]) && !filter_var($_REQUEST["from"], FILTER_VALIDATE_EMAIL)) $ok = false;
 	if(!empty($_REQUEST["message"]) && preg_match("/$spamFilter/", $_REQUEST["message"])) $ok = false;
-	$mailName = preg_replace("/[^\w\-\.\@ ]/", "-", $_REQUEST["name"]);
-	$mailFrom = preg_replace("/[^\w\-\.\@ ]/", "-", $_REQUEST["from"]);
-	$mailTo = $yellow->page->get("contactEmail");
-	if($yellow->config->isExisting("contactEmail")) $mailTo = $yellow->config->get("contactEmail");
-	$mailSubject = $yellow->page->get("title");
-	$mailMessage = $_REQUEST["message"]."\r\n-- \r\n$mailName";
-	$mailHeaders = "From: ".(empty($mailFrom) ? "noreply" : (empty($mailName) ? "$mailFrom" : "$mailFrom ($mailName)"))."\r\n";
-	$mailHeaders .= "Content-Type: text/plain; charset=utf-8\r\n";
-	$mailHeaders .= "X-Contact-Url: ".$yellow->page->getUrl()."\r\n";
-	$mailHeaders .= "X-Remote-Addr: ".$_SERVER["REMOTE_ADDR"]."\r\n";
-	if($ok) $ok = mail($mailTo, $mailSubject, $mailMessage, $mailHeaders);
-	if(defined("DEBUG") && DEBUG>=1) echo "Yellow::template name:contact to:$mailTo from:$mailFrom ok:$ok<br/>\n";;
+	$name = preg_replace("/[^\pL\d\-\. ]/u", "-", $_REQUEST["name"]);
+	$from = preg_replace("/[^\w\-\.\@ ]/", "-", $_REQUEST["from"]);
+	if($ok)
+	{
+		$mailMessage = $_REQUEST["message"]."\r\n-- \r\n$name";
+		$mailTo = $yellow->page->get("contactEmail");
+		if($yellow->config->isExisting("contactEmail")) $mailTo = $yellow->config->get("contactEmail");
+		$mailSubject = mb_encode_mimeheader($yellow->page->get("title"));
+		$mailHeaders = empty($from) ? "From: noreply\r\n" : "From: ".mb_encode_mimeheader($name)." <$from>\r\n";
+		$mailHeaders .= "X-Contact-Url: ".mb_encode_mimeheader($yellow->page->getUrl())."\r\n";
+		$mailHeaders .= "X-Remote-Addr: ".mb_encode_mimeheader($_SERVER["REMOTE_ADDR"])."\r\n";
+		$mailHeaders .= "Mime-Version: 1.0\r\n";
+		$mailHeaders .= "Content-Type: text/plain; charset=utf-8\r\n";
+		$ok = mail($mailTo, $mailSubject, $mailMessage, $mailHeaders);
+	}
 	return $ok;
 }
 ?>
