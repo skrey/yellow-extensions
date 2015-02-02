@@ -1,4 +1,4 @@
-Include plugin 0.1.6
+Include plugin 0.1.7
 ====================
 Include information in content files.
 
