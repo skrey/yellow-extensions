@@ -1,6 +1,6 @@
 Ariane theme 0.1.2
 ==================
-Ariane is a minimalistic theme for artists. [Demo](http://demo.datenstrom.se/themes/ariane-theme)
+Ariane is a minimalistic theme for artists. [Demo](http://demo.datenstrom.se/themes/ariane-theme).
 
 ![Screenshot](ariane-theme.jpg?raw=true)
 
