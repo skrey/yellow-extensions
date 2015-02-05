@@ -15,7 +15,7 @@ To uninstall delete the template files and folder.
 
 How to use a blog?
 ------------------
-The blog is available on your website as `http://website/blog/`. To make the blog your home page, rename the blog folder to '1-blog' and delete '1-home'. To create a new blog article, add a new file to the blog folder. Set `Published` and more settings at the top of an article. Dates should be written in the format [YYYY-MM-DD](http://en.wikipedia.org/wiki/ISO_8601). Use `Tag` to group similar articles together.
+The blog is available on your website as `http://website/blog/`. To make the blog your home page, rename the blog folder to '1-blog' and delete '1-home'. To create a new blog article, add a new file to the blog folder. Set `Published` and more settings at the top of an article. Dates should be written in the format [YYYY-MM-DD](https://github.com/markseu/yellowcms/wiki/Yellow-API#date-format). Use `Tag` to group similar articles together.
 
 Example
 -------
