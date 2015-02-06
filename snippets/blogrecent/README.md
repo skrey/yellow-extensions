@@ -26,8 +26,9 @@ Website template with recent 3 blog articles:
     </div>
     <?php $yellow->snippet("footer") ?>
 
-Blog articles template with recent 3 blog articles:
+Blogarticles template with recent 3 blog articles:
 
+    <?php /* Blogarticles template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>

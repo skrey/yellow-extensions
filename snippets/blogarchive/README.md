@@ -16,6 +16,7 @@ Example
 -------
 Blog template with archive:
 
+    <?php /* Blog template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
@@ -25,8 +26,9 @@ Blog template with archive:
     </div>
     <?php $yellow->snippet("footer") ?>
 
-Blog articles template with archive:
+Blogarticles template with archive:
 
+    <?php /* Blogarticles template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>

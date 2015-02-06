@@ -16,6 +16,7 @@ Example
 -------
 Blog template with tag cloud:
 
+    <?php /* Blog template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
@@ -25,8 +26,9 @@ Blog template with tag cloud:
     </div>
     <?php $yellow->snippet("footer") ?>
  
-Blog articles template with tag cloud:
+Blogarticles template with tag cloud:
 
+    <?php /* Blogarticles template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>

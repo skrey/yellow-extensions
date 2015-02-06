@@ -31,6 +31,7 @@ Website template with comments:
 
 Blog template with comments:
 
+    <?php /* Blog template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
