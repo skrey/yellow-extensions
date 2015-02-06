@@ -1,5 +1,5 @@
-Sitemap template
-================
+Sitemap template 0.1.5
+======================
 Sitemap for website.
 
 How do I install this?

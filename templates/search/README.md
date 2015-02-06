@@ -1,5 +1,5 @@
-Search template
-===============
+Search template 0.1.5
+=====================
 Full-text search for website.
 
 How do I install this?

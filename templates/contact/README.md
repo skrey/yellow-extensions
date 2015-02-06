@@ -1,5 +1,5 @@
-Contact template
-================
+Contact template 0.1.5
+======================
 Email contact page for website.
 
 How do I install this?

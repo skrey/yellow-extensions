@@ -1,3 +1,4 @@
+<?php /* Contact template 0.1.5 */ ?>
 <?php if(PHP_SAPI == "cli") $yellow->page->error(500, "Static website not supported!") ?>
 <?php $status = getContactStatus($yellow, "href=|url=", $_REQUEST["status"]) ?>
 <?php $yellow->snippet("header") ?>

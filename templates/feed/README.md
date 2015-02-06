@@ -1,5 +1,5 @@
-Feed template
-=============
+Feed template 0.1.5
+===================
 Web feed with recent changes.
 
 How do I install this?
