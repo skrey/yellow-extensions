@@ -19,6 +19,7 @@ Example
 -------
 Website template with comments:
 
+    <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>

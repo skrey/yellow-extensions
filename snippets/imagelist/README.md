@@ -23,6 +23,7 @@ Example
 -------
 Template with list of images from your `media/images` folder:
 
+    <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
@@ -35,6 +36,7 @@ Template with list of images from your `media/images` folder:
 
 Template with list of images from your `media/images` folder, optional size:
 
+    <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>

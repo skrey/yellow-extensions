@@ -15,6 +15,7 @@ Example
 -------
 Template with navigation and sub navigation:
 
+    <?php /* Default template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>

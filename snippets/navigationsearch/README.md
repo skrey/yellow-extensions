@@ -17,6 +17,7 @@ Example
 -------
 Template with navigation and search bar:
 
+    <?php /* Default template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>

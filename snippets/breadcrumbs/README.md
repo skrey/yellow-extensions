@@ -19,6 +19,7 @@ Example
 -------
 Template with breadcrumbs below navigation:
 
+    <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
@@ -28,6 +29,7 @@ Template with breadcrumbs below navigation:
 
 Template with breadcrumbs below navigation, optional separator:
 
+    <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>

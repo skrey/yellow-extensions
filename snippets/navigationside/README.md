@@ -15,6 +15,7 @@ Example
 -------
 Template with navigation on the side
 
+    <?php /* Default template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigationside") ?>

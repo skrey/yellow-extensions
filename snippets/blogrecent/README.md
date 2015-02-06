@@ -16,6 +16,7 @@ Example
 -------
 Website template with recent 3 blog articles:
 
+    <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
