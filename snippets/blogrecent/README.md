@@ -14,7 +14,7 @@ To uninstall delete the snippet and remove it from other files.
 
 Example
 -------
-Website template with recent 3 blog articles:
+Template with recent 3 blog articles:
 
     <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>

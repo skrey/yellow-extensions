@@ -18,7 +18,7 @@ Add multilanguage to your snippets: `$yellow->snippet("multilanguage", PAGE)`.
 
 Example
 -------
-Footer with language selection:
+Footer snippet with language selection:
 
     <div class="footer">
     <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
@@ -29,7 +29,7 @@ Footer with language selection:
     </body>
     </html>
 
-Footer with language selection, optional page:
+Footer snippet with language selection, optional page:
 
     <div class="footer">
     <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.

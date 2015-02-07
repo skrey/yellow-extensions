@@ -17,7 +17,7 @@ Create a Disqus account, add Disqus snippet to templates: `$yellow->snippet("dis
 
 Example
 -------
-Website template with comments:
+Template with comments:
 
     <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>
