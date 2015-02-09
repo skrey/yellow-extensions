@@ -13,7 +13,7 @@ To uninstall delete the template files and folder.
 
 How to use a sitemap?
 ---------------------
-The sitemap is available on your website as `http://website/sitemap/` and `http://website/sitemap/sitemap.xml`. It's an overview of the entire website, only visible pages are included. For search engines it's recommended to add a link to the header snippet, see example below.
+The sitemap is available as `http://website/sitemap/` and `http://website/sitemap/sitemap.xml`. It's an overview of the entire website, only visible pages are included. For search engines it's recommended to add a link to the header snippet, see example below.
 
 Example
 -------
