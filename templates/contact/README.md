@@ -1,4 +1,4 @@
-Contact template 0.1.5
+Contact template 0.1.6
 ======================
 Email contact page for website.
 
