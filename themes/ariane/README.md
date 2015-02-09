@@ -11,6 +11,6 @@ How do I install this?
 3. Download [ariane.php](ariane.php?raw=true), copy into your `system/templates` folder.  
 4. Download [ariane.jpg](ariane.jpg?raw=true), copy into your `media/images` folder.  
 5. Download [navigationside.php](https://github.com/markseu/yellowcms-extensions/blob/master/snippets/navigationside/navigationside.php?raw=true), copy into your `system/snippets` folder. 
-6. Use the theme, open file `system/config/config.ini`, change `theme = ariane` and `template = ariane`.  
+6. To enable the theme open file `system/config/config.ini`, change `theme = ariane` and `template = ariane`.  
 
 To uninstall delete the theme files and set default settings.
