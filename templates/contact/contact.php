@@ -1,4 +1,4 @@
-<?php /* Contact template 0.1.6 */ ?>
+<?php /* Contact template 0.1.7 */ ?>
 <?php if(PHP_SAPI == "cli") $yellow->page->error(500, "Static website not supported!") ?>
 <?php $status = getContactStatus($yellow, "href=|url=", $_REQUEST["status"]) ?>
 <?php $yellow->snippet("header") ?>
@@ -43,9 +43,9 @@
 function sendMail($yellow, $spamFilter)
 {
 	$status = "send";
-	if(empty(trim($_REQUEST["message"]))) $status = "incomplete";
-	if(!empty($_REQUEST["from"]) && !filter_var($_REQUEST["from"], FILTER_VALIDATE_EMAIL)) $status = "invalid";
-	if(!empty($_REQUEST["message"]) && preg_match("/$spamFilter/", $_REQUEST["message"])) $status = "error";
+	if(strempty(trim($_REQUEST["message"]))) $status = "incomplete";
+	if(!strempty($_REQUEST["from"]) && !filter_var($_REQUEST["from"], FILTER_VALIDATE_EMAIL)) $status = "invalid";
+	if(!strempty($_REQUEST["message"]) && preg_match("/$spamFilter/", $_REQUEST["message"])) $status = "error";
 	$name = preg_replace("/[^\pL\d\-\. ]/u", "-", $_REQUEST["name"]);
 	$from = preg_replace("/[^\w\-\.\@ ]/", "-", $_REQUEST["from"]);
 	if($status == "send")
