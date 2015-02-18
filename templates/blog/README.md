@@ -1,4 +1,4 @@
-Blog template 0.1.5
+Blog template 0.1.6
 ===================
 Blog for news.
 

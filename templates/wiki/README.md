@@ -1,4 +1,4 @@
-Wiki template 0.1.5
+Wiki template 0.1.6
 ===================
 Wiki for collaboration.
 
