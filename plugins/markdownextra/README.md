@@ -1,4 +1,4 @@
-Markdownextra plugin 0.4.4
+Markdownextra plugin 0.1.6
 ==========================
 Text formatting for humans.
 

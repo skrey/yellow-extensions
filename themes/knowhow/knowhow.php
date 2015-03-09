@@ -1,4 +1,4 @@
-<?php /* Knowhow template 0.1.5 */ ?>
+<?php /* Knowhow template 0.1.6 */ ?>
 <?php $yellow->snippet("header") ?>
 <?php $yellow->snippet("sitename") ?>
 <?php $yellow->snippet("navigation") ?>
