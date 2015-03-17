@@ -1,8 +1,10 @@
-Knowhow theme 0.1.6
+Knowhow theme 0.1.7
 ===================
 Knowhow is a theme for a GitHub-like knowledge base. [Demo](http://demo.datenstrom.se/themes/knowhow-theme).
 
 ![Screenshot](knowhow-theme.jpg?raw=true)
+
+Designer: Mark Mayberg
 
 How do I install this?
 ----------------------

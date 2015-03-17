@@ -1,8 +1,10 @@
-Ariane theme 0.1.3
+Ariane theme 0.1.7
 ==================
 Ariane is a minimalistic theme for artists. [Demo](http://demo.datenstrom.se/themes/ariane-theme).
 
 ![Screenshot](ariane-theme.jpg?raw=true)
+
+Designer: Mark Mayberg
 
 How do I install this?
 ----------------------

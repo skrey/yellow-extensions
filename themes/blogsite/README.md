@@ -1,8 +1,10 @@
-Blogsite theme 0.1.15
+Blogsite theme 0.1.16
 =====================
 Blogsite is a basic blogger theme. [Demo](http://demo.datenstrom.se/themes/blogsite-theme).
 
 ![Screenshot](blogsite-theme.jpg?raw=true)
+
+Designer: Mark Mayberg
 
 How do I install this?
 ----------------------
