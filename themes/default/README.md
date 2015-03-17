@@ -2,9 +2,9 @@ Default theme 0.5.2
 ===================
 The theme that comes with Yellow. [Demo](http://demo.datenstrom.se/themes/default-theme).
 
-![Screenshot](default-theme.jpg?raw=true)
-
 Designer: Datenstrom Sweden
+
+![Screenshot](default-theme.jpg?raw=true)
 
 How do I install this?
 ----------------------

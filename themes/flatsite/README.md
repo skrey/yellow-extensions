@@ -2,9 +2,9 @@ Flatsite theme 0.1.7
 ====================
 Flatsite is a clean business theme. [Demo](http://demo.datenstrom.se/themes/flatsite-theme).
 
-![Screenshot](flatsite-theme.jpg?raw=true)
-
 Designer: Mark Mayberg
+
+![Screenshot](flatsite-theme.jpg?raw=true)
 
 How do I install this?
 ----------------------
