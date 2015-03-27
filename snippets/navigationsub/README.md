@@ -4,7 +4,7 @@ Website navigation with visible pages one level below top-level navigation.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [navigationsub.php](navigationsub.php?raw=true), copy into your `system/snippets` folder.  
 3. Use the snippet on your website, edit templates in your `system/templates` folder.
 4. Customise style sheets in your `system/themes` folder.

@@ -4,7 +4,7 @@ Website navigation with tree of all visible pages.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [navigationtree.php](navigationtree.php?raw=true), copy into your `system/snippets` folder.  
 3. Use the snippet on your website, edit templates in your `system/templates` folder.
 4. Customise style sheets in your `system/themes` folder.

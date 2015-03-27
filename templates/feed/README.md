@@ -4,7 +4,7 @@ Web feed with recent changes.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [feed.php](feed.php?raw=true) and [feedxml.php](feedxml.php?raw=true), copy both files into your `system/templates` folder.  
 3. Create a new folder 'feed' in your `content` folder.
 4. Download [page.txt](page.txt?raw=true) and [feed.xml.txt](feed.xml.txt?raw=true), copy both files into your `content/feed` folder.

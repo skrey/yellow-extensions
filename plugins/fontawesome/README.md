@@ -4,7 +4,7 @@ Icons and vector graphics.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [fontawesome.php](fontawesome.php?raw=true), copy into your `system/plugins` folder.  
 3. Download [fontawesome.css](fontawesome.css?raw=true) and [fontawesome.woff](fontawesome.woff?raw=true), copy into your `system/plugins` folder as well.  
 

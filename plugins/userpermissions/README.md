@@ -4,7 +4,7 @@ Restrictions for web interface users.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [userpermissions.php](userpermissions.php?raw=true), copy into your `system/plugins` folder.  
 
 To uninstall delete the plugin.
@@ -18,6 +18,6 @@ All users are stored in file `system/config/user.ini`. The configuration file us
 
 Example
 -------
-Create a user account via [command line](https://github.com/markseu/yellowcms/wiki/Yellow-CLI), restrict edits to `http://website/wiki/`:
+Create a user account via [command line](https://github.com/datenstrom/yellow/wiki/Yellow-CLI), restrict edits to `http://website/wiki/`:
 
     php yellow.php user email@example.com horsebatterystaple Guest en /wiki/

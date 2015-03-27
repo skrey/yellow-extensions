@@ -4,7 +4,7 @@ Syntax highlighting for source code.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [syntaxhighlight.css](syntaxhighlight.css?raw=true) and [syntaxhighlight.php](syntaxhighlight.php?raw=true), copy both files into your `system/plugins` folder.  
 3. Create a new folder 'syntaxhighlight' in your `system/plugins` folder.  
 4. Download [syntaxhighlight](syntaxhighlight) folder, copy all files into your `system/plugins/syntaxhighlight` folder.

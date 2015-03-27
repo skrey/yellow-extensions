@@ -4,7 +4,7 @@ Resizable images and thumbnails.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [image.php](image.php?raw=true), copy into your `system/plugins` folder.
 3. Create a new folder 'thumbnails' in your `media` folder. Make sure it's writable.
 

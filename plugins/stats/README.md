@@ -4,16 +4,16 @@ Create statistics from web server logfiles.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [stats.php](stats.php?raw=true), copy into your `system/plugins` folder.  
 
 To uninstall delete the plugin.
 
 How to create statistics?
 -------------------------
-The statistics are available at the [command line](https://github.com/markseu/yellowcms/wiki/Yellow-CLI). It shows referring sites and popular content. Go to your Yellow installation, where the yellow.php is. Type `php yellow.php stats`, you can add optional days and file name. There's a spam filter to remove unwanted sites.
+The statistics are available at the [command line](https://github.com/datenstrom/yellow/wiki/Yellow-CLI). It shows referring sites and popular content. Go to your Yellow installation, where the yellow.php is. Type `php yellow.php stats`, you can add optional days and file name. There's a spam filter to remove unwanted sites.
 
-This plugins analyses your web server logfiles, use [Piwik](https://github.com/markseu/yellowcms-extensions/tree/master/snippets/piwik) for more detailed statistics.
+This plugins analyses your web server logfiles, use [Piwik](https://github.com/datenstrom/yellow-extensions/tree/master/snippets/piwik) for more detailed statistics.
 
 Example
 -------

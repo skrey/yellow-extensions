@@ -4,8 +4,8 @@ Language selection for website.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
-2. Enable [multi language mode](https://github.com/markseu/yellowcms/wiki/Language-configuration) and translate your website. 
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
+2. Enable [multi language mode](https://github.com/datenstrom/yellow/wiki/Language-configuration) and translate your website. 
 3. Download [multilanguage.php](multilanguage.php?raw=true), copy into your `system/snippets` folder.  
 4. Use the snippet on your website, edit snippets in your `system/snippets` folder.
 

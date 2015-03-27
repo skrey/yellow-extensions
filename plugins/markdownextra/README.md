@@ -4,7 +4,7 @@ Text formatting for humans.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/markseu/yellowcms/).  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [markdownextra.php](markdownextra.php?raw=true), copy into your `system/plugins` folder.  
 
 To uninstall delete the plugin.
