@@ -37,7 +37,7 @@ class YellowImage
 				if(empty($alt)) $alt = $this->yellow->config->get("imageAlt");
 				if(empty($width)) $width = "100%";
 				if(empty($height)) $height = $width;
-				list($src, $width, $height) = $this->getImageInfo($name, $width, $height);
+				list($src, $width, $height) = $this->getImageInfo($this->yellow->config->get("imageDir").$name, $width, $height);
 			} else {
 				$src = $this->yellow->lookup->normaliseLocation($name, $page->base, $page->location);
 				$width = $height = 0;
@@ -76,30 +76,30 @@ class YellowImage
 		return $statusCode;
 	}
 
-	// Return image info, create thumbnail on demand
+	// Return image info, create thumbnail on demand  ###wh
 	function getImageInfo($fileName, $widthOutput, $heightOutput)
 	{
-		$fileNameInput = $this->yellow->config->get("imageDir").$fileName;
-		list($widthInput, $heightInput, $type) = $this->yellow->toolbox->detectImageInfo($fileNameInput);
+		$fileNameShort = substru($fileName, strlenu($this->yellow->config->get("imageDir")));
+		list($widthInput, $heightInput, $type) = $this->yellow->toolbox->detectImageInfo($fileName);
 		$widthOutput = $this->convertValueAndUnit($widthOutput, $widthInput);
 		$heightOutput = $this->convertValueAndUnit($heightOutput, $heightInput);
 		if($widthInput==$widthOutput && $heightInput==$heightOutput)
 		{
-			$src = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageLocation").$fileName;
+			$src = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageLocation").$fileNameShort;
 			$width = $widthInput; $height = $heightInput;
 		} else {
-			$fileNameThumb = ltrim(str_replace(array("/", "\\", "."), "-", dirname($fileName)."/".pathinfo($fileName, PATHINFO_FILENAME)), "-");
+			$fileNameThumb = ltrim(str_replace(array("/", "\\", "."), "-", dirname($fileNameShort)."/".pathinfo($fileName, PATHINFO_FILENAME)), "-");
 			$fileNameThumb .= "-".$widthOutput."x".$heightOutput;
 			$fileNameThumb .= ".".pathinfo($fileName, PATHINFO_EXTENSION);
 			$fileNameOutput = $this->yellow->config->get("imageThumbnailDir").$fileNameThumb;
-			if($this->isFileNotUpdated($fileNameInput, $fileNameOutput))
+			if($this->isFileNotUpdated($fileName, $fileNameOutput))
 			{
-				$image = $this->loadImage($fileNameInput, $type);
+				$image = $this->loadImage($fileName, $type);
 				if($image)
 				{
 					$image = $this->resizeImage($image, $widthInput, $heightInput, $widthOutput, $heightOutput);
 					if(!$this->saveImage($fileNameOutput, $type, $image) ||
-					   !$this->yellow->toolbox->modifyFile($fileNameOutput, filemtime($fileNameInput)))
+					   !$this->yellow->toolbox->modifyFile($fileNameOutput, filemtime($fileName)))
 					{
 						$this->yellow->page->error(500, "Image '$fileNameOutput' can't be saved!");
 					}

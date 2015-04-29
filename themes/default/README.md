@@ -9,7 +9,7 @@ Designer: Datenstrom Sweden
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [default.css](default.css?raw=true), copy into your `system/themes` folder.  
+2. Download [default.css](default.css?raw=true), copy it into your `system/themes` folder.  
 3. To enable the theme open file `system/config/config.ini` and change `theme = default`.  
 
 To uninstall delete the theme files and set default settings.
