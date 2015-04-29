@@ -6,8 +6,8 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Enable [multi language mode](https://github.com/datenstrom/yellow/wiki/Language-configuration) and translate your website. 
-3. Download [multilanguage.php](multilanguage.php?raw=true), copy into your `system/snippets` folder.  
-4. Use the snippet on your website, edit snippets in your `system/snippets` folder.
+3. Download [multilanguage.php](multilanguage.php?raw=true), copy it into your `system/themes/snippets` folder.  
+4. Use the snippet on your website, edit snippets in your `system/themes/snippets` folder.
 
 To uninstall delete the snippet and remove it from other files.
 

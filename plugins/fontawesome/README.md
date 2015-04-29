@@ -1,12 +1,12 @@
-Fontawesome plugin 0.1.4
+Fontawesome plugin 0.5.1
 ========================
-Icons and vector graphics.
+Icons and graphics.
 
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [fontawesome.php](fontawesome.php?raw=true), copy into your `system/plugins` folder.  
-3. Download [fontawesome.css](fontawesome.css?raw=true) and [fontawesome.woff](fontawesome.woff?raw=true), copy into your `system/plugins` folder as well.  
+2. Download [fontawesome.php](fontawesome.php?raw=true), copy it into your `system/plugins` folder.  
+3. Download [fontawesome.css](fontawesome.css?raw=true) and [fontawesome.woff](fontawesome.woff?raw=true), copy them into your `system/plugins` folder as well.  
 
 To uninstall delete the plugin files.
 

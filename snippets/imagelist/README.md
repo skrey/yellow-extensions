@@ -6,8 +6,8 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download and install [image plugin](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/image).  
-3. Download [imagelist.php](imagelist.php?raw=true), copy into your `system/snippets` folder.  
-4. Use the snippet on your website, edit templates in your `system/templates` folder.
+3. Download [imagelist.php](imagelist.php?raw=true), copy it into your `system/themes/snippets` folder.  
+4. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
 5. Customise style sheets in your `system/themes` folder.
 
 To uninstall delete the snippet and remove it from other files.
@@ -23,7 +23,6 @@ Example
 -------
 Template with list of images from your `media/images` folder:
 
-    <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
@@ -36,7 +35,6 @@ Template with list of images from your `media/images` folder:
 
 Template with list of images from your `media/images` folder, optional size:
 
-    <?php /* Example template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>

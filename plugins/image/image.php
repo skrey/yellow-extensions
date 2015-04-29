@@ -1,15 +1,15 @@
 <?php
-// Copyright (c) 2013-2014 Datenstrom, http://datenstrom.se
+// Copyright (c) 2013-2015 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-// Image parser plugin
+// Image plugin
 class YellowImage
 {
-	const Version = "0.1.9";
+	const Version = "0.5.1";
 	var $yellow;			//access to API
 	var $graphicsLibrary;	//graphics library support? (boolean)
 
-	// Handle plugin initialisation
+	// Handle initialisation
 	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
@@ -20,8 +20,8 @@ class YellowImage
 		$this->graphicsLibrary = $this->isGraphicsLibrary();
 	}
 
-	// Handle page custom type parsing
-	function onParseType($page, $name, $text, $typeShortcut)
+	// Handle page content parsing of custom block
+	function onParseContentBlock($page, $name, $text, $typeShortcut)
 	{
 		$output = NULL;
 		if($name=="image" && $typeShortcut)
@@ -39,7 +39,7 @@ class YellowImage
 				if(empty($height)) $height = $width;
 				list($src, $width, $height) = $this->getImageInfo($name, $width, $height);
 			} else {
-				$src = $this->yellow->toolbox->normaliseLocation($name, $page->base, $page->location);
+				$src = $this->yellow->lookup->normaliseLocation($name, $page->base, $page->location);
 				$width = $height = 0;
 			}
 			$output = "<img src=\"".htmlspecialchars($src)."\"";

@@ -1,11 +1,11 @@
-Image plugin 0.1.9
+Image plugin 0.5.1
 ==================
 Resizable images and thumbnails.
 
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [image.php](image.php?raw=true), copy into your `system/plugins` folder.
+2. Download [image.php](image.php?raw=true), copy it into your `system/plugins` folder.
 3. Create a new folder 'thumbnails' in your `media` folder. Make sure it's writable.
 
 To uninstall delete the plugin.

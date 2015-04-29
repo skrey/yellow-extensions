@@ -1,11 +1,11 @@
-Smartypants plugin 0.1.1
+Smartypants plugin 0.5.1
 ========================
 Text formatting and better typography.
 
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [smartypants.php](smartypants.php?raw=true), copy into your `system/plugins` folder.  
+2. Download [smartypants.php](smartypants.php?raw=true), copy it into your `system/plugins` folder.  
 
 To uninstall delete the plugin.
 

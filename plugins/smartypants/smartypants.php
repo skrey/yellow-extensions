@@ -5,7 +5,7 @@
 // Smartypants plugin
 class YellowSmartypants
 {
-	const Version = "0.1.1";
+	const Version = "0.5.1";
 	var $yellow;		//access to API
 	
 	// Handle plugin initialisation
@@ -16,7 +16,7 @@ class YellowSmartypants
 	}
 	
 	// Handle page content parsing
-	function onParseContent($page, $text)
+	function onParseContentText($page, $text)
 	{
 		$smartypants = new SmartyPantsTypographer($this->yellow->config->get("smartypantsOptions"));
 		return $smartypants->transform($text);

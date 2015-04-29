@@ -5,7 +5,7 @@
 <?php $yellow->page->setLastModified($pages->getModified()) ?>
 <ul class="<?php echo htmlspecialchars($style) ?>">
 <?php foreach($pages as $page): ?>
-<?php $fileName = $src = basename($page->location).".jpg" ?>
+<?php $fileName = $yellow->config->get("imageDir").basename($page->location).".jpg" ?>
 <?php if($yellow->plugins->isExisting("image")): ?>
 <?php list($src, $width, $height) = $yellow->plugins->get("image")->getImageInfo($fileName, $size, $size); ?>
 <?php endif ?>

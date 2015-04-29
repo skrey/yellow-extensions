@@ -5,7 +5,7 @@
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.1.1";
+	const Version = "0.5.1";
 	var $yellow;			//access to API
 	var $views;				//detected views
 
@@ -154,7 +154,7 @@ class YellowStats
 		$serverName = $this->yellow->config->get("serverName");
 		$serverBase = $this->yellow->config->get("serverBase");
 		return !empty($serverScheme) && !empty($serverName) &&
-			$this->yellow->toolbox->isValidLocation($serverBase) && $serverBase!="/";
+			$this->yellow->lookup->isValidLocation($serverBase) && $serverBase!="/";
 	}
 	
 	// Return referer, ignore referers to self
@@ -167,7 +167,7 @@ class YellowStats
 	// Return URL, with server scheme and server name
 	function getUrl($location)
 	{
-		return $this->yellow->toolbox->getUrl(
+		return $this->yellow->lookup->normaliseUrl(
 			$this->yellow->config->get("serverScheme"), $this->yellow->config->get("serverName"), "", $location);
 	}
 	
