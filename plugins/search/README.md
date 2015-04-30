@@ -17,4 +17,4 @@ How to use a search?
 --------------------
 The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. You can add a link to your navigation or individual pages.
 
-**Important**: This template does not work with static websites, it needs a Yellow installation.
+**Important**: This plugin does not work with static websites, it needs a Yellow installation.
