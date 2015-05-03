@@ -12,7 +12,7 @@ How do I install this?
 6. Create a new folder '3-blog' in your `content` folder.
 7. Add [page.txt](page.txt?raw=true) and [2013-04-07-blog-example.txt](2013-04-07-blog-example.txt?raw=true) to your `/content/3-blog` folder.
 
-To uninstall delete the plugin files and folder.
+To uninstall delete the plugin files.
 
 How to use a blog?
 ------------------

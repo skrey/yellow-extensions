@@ -5,40 +5,38 @@ Monthly archive for blog.
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download and install [Yellow blog template](https://github.com/datenstrom/yellow-extensions/blob/master/templates/blog/README.md).  
+2. Download and install [Yellow blog plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/blog/README.md).  
 3. Download [blogarchive.php](blogarchive.php?raw=true), copy it into your `system/themes/snippets` folder.  
-4. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
-5. Customise style sheets in your `system/themes` folder.
 
-To uninstall delete the snippet and remove it from other files.
+To uninstall delete the snippet.
+
+How to show an archive?
+-----------------------
+Add a snippet in the format `$yellow->snippet("blogarchive", BLOG)`:  
+
+`BLOG` = start page of your blog
+
+The snippet creates a list of months. To use the snippet on your website, add it to snippets in your `system/themes/snippets` folder. See example below.
 
 Example
 -------
-Blog template with archive:
+Blog snippet with archive:
 
-    <?php /* Blog template */ ?>
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
     <div class="content blog">
+    <div class="entry">
     ...
+    </div>
     <?php $yellow->snippet("blogarchive", $yellow->page->getParentTop()) ?>
     </div>
-    <?php $yellow->snippet("footer") ?>
 
-Blogarticles template with archive:
+Blogpages snippet with archive:
 
-    <?php /* Blogarticles template */ ?>
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
-    <div class="content blogarticles">
+    <div class="content blogpages">
     ...
     <?php $yellow->snippet("blogarchive", $yellow->page) ?>
-    <?php $yellow->snippet("pagination", $pages) ?>
+    <?php $yellow->snippet("pagination", $yellow->page->getPages()) ?>
     </div>
-    <?php $yellow->snippet("footer") ?>
 
-Style for blog archive:
+CSS for blog archive:
 
     .blogarchive ul { margin:0; padding:0; list-style:none; }

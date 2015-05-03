@@ -6,33 +6,31 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [breadcrumbs.php](breadcrumbs.php?raw=true), copy it into your `system/themes/snippets` folder.  
-3. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
 
-To uninstall delete the snippet and remove it from other files.
+To uninstall delete the snippet.
 
-How to use breadcrumbs?
------------------------
-Add breadcrumbs to your templates: `$yellow->snippet("breadcrumbs", SEPARATOR)`.  
-`SEPARATOR` is the text used between pages (optional).
+How to show breadcrumbs?
+------------------------
+Add a snippet in the format `$yellow->snippet("breadcrumbs")`, you can add optional arguments:  
+
+`SEPARATOR` = text used between pages
+
+The snippet shows the path from home page to current page. To use the snippet on your website, add it to snippets in your `system/themes/snippets` folder. See example below.
 
 Example
 -------
-Template with breadcrumbs below navigation:
+Content snippet with breadcrumbs:
 
-    <?php /* Example template */ ?>
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
+    <div class="content">
     <?php $yellow->snippet("breadcrumbs") ?>
-    <?php $yellow->snippet("content") ?>
-    <?php $yellow->snippet("footer") ?>
+    <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
+    <?php echo $yellow->page->getContent() ?>
+    </div>
 
-Template with breadcrumbs below navigation, optional separator:
+Content snippet with breadcrumbs, optional separator:
 
-    <?php /* Example template */ ?>
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
+    <div class="content">
     <?php $yellow->snippet("breadcrumbs", ":") ?>
-    <?php $yellow->snippet("content") ?>
-    <?php $yellow->snippet("footer") ?>
+    <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
+    <?php echo $yellow->page->getContent() ?>
+    </div>

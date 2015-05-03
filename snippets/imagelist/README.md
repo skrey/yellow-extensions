@@ -1,51 +1,44 @@
 Imagelist snippet
 =================
-List of images for website.
+List of images.
 
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download and install [image plugin](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/image).  
 3. Download [imagelist.php](imagelist.php?raw=true), copy it into your `system/themes/snippets` folder.  
-4. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
-5. Customise style sheets in your `system/themes` folder.
 
-To uninstall delete the snippet and remove it from other files.
+To uninstall delete the snippet.
 
-How to create a list of images?
--------------------------------
-Add imagelist to your templates: `$yellow->snippet("imagelist", PATTERN, STYLE, SIZE)`.  
-`PATTERN` is a [regular expression](https://en.wikipedia.org/wiki/Regular_expression) to specify file names of images.  
-`STYLE` is the list style (optional).  
-`SIZE` is the image size (optional).
+How to make a list?
+-------------------
+Add a snippet in the format `$yellow->snippet("imagelist")`, you can add optional arguments:
+  
+`PATTERN` = file name as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+`STYLE` = list style  
+`SIZE` = image size, pixel or percent
+
+The snippet creates a list of images from your `media/images` folder. Images can be be shown unmodified or resized. To use the snippet on your website, add it to snippets in your `system/themes/snippets` folder. See example below.
 
 Example
 -------
-Template with list of images from your `media/images` folder:
+Content snippet with list of images from your `media/images` folder:
 
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
     <div class="content">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("imagelist", ".*screenshot.jpg") ?>
     </div>
-    <?php $yellow->snippet("footer") ?>
 
-Template with list of images from your `media/images` folder, optional size:
+Content snippet with list of images from your `media/images` folder, optional arguments:
 
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
     <div class="content">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("imagelist", ".*screenshot.jpg", "imagelist", "25%") ?>
     </div>
-    <?php $yellow->snippet("footer") ?>
 
-Style for 4 images per row:
+CSS for four images in a row:
 
     .content .imagelist { margin:0; padding:0; list-style:none; width:100%; }
     .content .imagelist li { padding-bottom:1em; text-align:center; white-space:nowrap; display:inline-block; width:24%; }

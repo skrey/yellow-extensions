@@ -6,24 +6,24 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download and install [Piwik](http://piwik.org/).  3. Download [piwik.php](piwik.php?raw=true), copy it into your `system/themes/snippets` folder.  
-4. Use the snippet on your website, edit snippets in your `system/themes/snippets` folder.
 
-To uninstall delete the snippet and remove it from other files.
+To uninstall delete the snippet.
 
 How to enable statistics?
 -------------------------
-Add Piwik to your footer snippet: `$yellow->snippet("piwik", SITEID, SERVERNAME)`.  
-`SITEID` is the ID of your website, you can find it in the Piwik dashboard.  
-`SERVERNAME` is the server name of your Piwik installation (optional).
+Add a snippet in the format `$yellow->snippet("piwik", SITEID)`, you can add optional arguments:
+  
+`SITEID` = ID of your website, you can find it in the Piwik dashboard  
+`SERVERNAME` = server name of your Piwik installation
+
+The snippet enables [Piwik](http://piwik.org/) statistics, which is an open-source web analytics software. To use the snippet on your website, add it to snippets in your `system/themes/snippets` folder. See example below.
 
 Example
 -------
 Footer snippet with statistics:
 
     <div class="footer">
-    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
-    <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
-    </div>
+    ...
     </div>
     <?php $yellow->snippet("piwik", "annasdesign") ?>
     </body>
@@ -32,9 +32,7 @@ Footer snippet with statistics:
 Footer snippet with statistics, optional server name:
 
     <div class="footer">
-    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
-    <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
-    </div>
+    ...
     </div>
     <?php $yellow->snippet("piwik", "annasdesign", "annasdesign.eu/piwik") ?>
     </body>

@@ -12,7 +12,7 @@ How do I install this?
 6. Create a new folder '3-wiki' in your `content` folder.
 7. Add [page.txt](page.txt?raw=true) and [wiki-page.txt](wiki-page.txt?raw=true) to your `/content/3-wiki` folder.
 
-To uninstall delete the plugin files and folder.
+To uninstall delete the plugin files.
 
 How to use a wiki?
 ------------------

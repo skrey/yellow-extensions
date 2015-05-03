@@ -9,7 +9,7 @@ How do I install this?
 3. Create a new folder 'syntaxhighlight' in your `system/plugins` folder.  
 4. Download [syntaxhighlight](syntaxhighlight) folder, copy all files into your `system/plugins/syntaxhighlight` folder.
 
-To uninstall delete the plugin files and folder.
+To uninstall delete the plugin files.
 
 How to highlight source code?
 -----------------------------

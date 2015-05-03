@@ -6,16 +6,19 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [navigationsub.php](navigationsub.php?raw=true), copy it into your `system/themes/snippets` folder.  
-3. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
-4. Customise style sheets in your `system/themes` folder.
 
-To uninstall delete the snippet and remove it from other files.
+To uninstall delete the snippet.
+
+How to change the navigation?
+-----------------------------
+Add a snippet in the format `$yellow->snippet("navigationsub")`.  
+
+The snippet is an addition to the normal navigation. To use the snippet on your website, add it to templates in your `system/themes/templates` folder. See example below.
 
 Example
 -------
 Template with navigation and sub navigation:
 
-    <?php /* Default template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
@@ -23,7 +26,7 @@ Template with navigation and sub navigation:
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
 
-Style for sub navigation:
+CSS for sub navigation:
 
     .page { position:relative; }
     .navigationsub { position:absolute; top:2.9em; right:0em; }

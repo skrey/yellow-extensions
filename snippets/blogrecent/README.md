@@ -1,45 +1,42 @@
 Blogrecent snippet
 ==================
-Recent blog articles.
+Recent blog pages.
 
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download and install [Yellow blog template](https://github.com/datenstrom/yellow-extensions/blob/master/templates/blog/README.md).  
+2. Download and install [Yellow blog plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/blog/README.md).  
 3. Download [blogrecent.php](blogrecent.php?raw=true), copy it into your `system/themes/snippets` folder.  
-4. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
-5. Customise style sheets in your `system/themes` folder.
 
-To uninstall delete the snippet and remove it from other files.
+To uninstall delete the snippet.
+
+How to show recent blog pages?
+------------------------------
+Add a snippet in the format `$yellow->snippet("blogrecent", BLOG, PAGESMAX)`:  
+
+`BLOG` = start page of your blog  
+`PAGESMAX` = number of pages to show  
+
+The snippet creates a list of pages. To use the snippet on your website, add it to snippets in your `system/themes/snippets` folder. See example below.
 
 Example
 -------
-Template with recent 3 blog articles:
+Content snippet with recent 3 blog pages:
 
-    <?php /* Example template */ ?>
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
     <div class="content">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("blogrecent", $yellow->pages->find("/blog/"), 3) ?>
     </div>
-    <?php $yellow->snippet("footer") ?>
 
-Blogarticles template with recent 3 blog articles:
+Blogpages snippet with recent 3 blog pages:
 
-    <?php /* Blogarticles template */ ?>
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
-    <div class="content blogarticles">
+    <div class="content blogpages">
     ...
     <?php $yellow->snippet("blogrecent", $yellow->page, 3) ?>
-    <?php $yellow->snippet("pagination", $pages) ?>
+    <?php $yellow->snippet("pagination", $yellow->page->getPages()) ?>
     </div>
-    <?php $yellow->snippet("footer") ?>
 
-Style for recent blog articles:
+CSS for recent blog pages:
 
     .blogrecent ul { margin:0; padding:0; list-style:none; }

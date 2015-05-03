@@ -11,7 +11,7 @@ How do I install this?
 6. Create a new folder 'sitemap' in your `content` folder.
 7. Add [page.txt](page.txt?raw=true) to your `content/sitemap` folder.
 
-To uninstall delete the plugin files and folder.
+To uninstall delete the plugin files.
 
 How to use a sitemap?
 ---------------------

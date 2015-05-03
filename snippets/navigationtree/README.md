@@ -6,23 +6,26 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [navigationtree.php](navigationtree.php?raw=true), copy it into your `system/themes/snippets` folder.  
-3. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
-4. Customise style sheets in your `system/themes` folder.
 
-To uninstall delete the snippet and remove it from other files.
+To uninstall delete the snippet.
+
+How to change the navigation?
+-----------------------------
+Add a snippet in the format `$yellow->snippet("navigationtree")`.  
+
+The snippet is a replacement for the normal navigation. To use the snippet on your website, add it to templates in your `system/themes/templates` folder. See example below.
 
 Example
 -------
 Template with navigation tree:
 
-    <?php /* Default template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigationtree") ?>
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
 
-Style for navigation tree:
+CSS for navigation tree:
 
     .navigationtree { position:relative; }
     .navigationtree ul ul { display:none; position:absolute; top:2em; left:0; }

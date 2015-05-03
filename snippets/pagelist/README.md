@@ -7,46 +7,38 @@ How do I install this?
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download and install [image plugin](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/image).  
 3. Download [pagelist.php](pagelist.php?raw=true), copy it into your `system/themes/snippets` folder.  
-4. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
-5. Customise style sheets in your `system/themes` folder.
-To uninstall delete the snippet and remove it from other files.
 
-How to create a list of pages?
-------------------------------
-Add pagelist to your templates: `$yellow->snippet("pagelist", PAGES, STYLE, SIZE)`.  
-`PAGES` is a collection of pages.  
-`STYLE` is the list style (optional).  
-`SIZE` is the image size (optional).
+To uninstall delete the snippet.
 
-For every page there has to be an image of similar name in your `media/images` folder.
+How to make a list?
+-------------------
+Add a snippet in the format `$yellow->snippet("pagelist")`, you can add optional arguments:
+
+`PAGES` = collection of pages  
+`STYLE` = list style  
+`SIZE` = image size, pixel or percent  
+
+The snippet creates a list of pages. For every page there should be an image of similar file name in your `media/images` folder. Images can be be shown unmodified or resized. To use the snippet on your website, add it to snippets in your `system/themes/snippets` folder. See example below.
 
 Example
 -------
-Template with list of pages in current folder:
+Content snippet with list of pages in current folder:
 
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
     <div class="content">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
-    <?php $yellow->snippet("pagelist", $yellow->page->getChildren()) ?>
+    <?php $yellow->snippet("pagelist") ?>
     </div>
-    <?php $yellow->snippet("footer") ?>
 
-Template with list of pages in current folder, optional size:
+Content snippet with list of pages in current folder, optional arguments:
 
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
     <div class="content">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("pagelist", $yellow->page->getChildren(), "pagelist", "25%") ?>
     </div>
-    <?php $yellow->snippet("footer") ?>
 
-Style for 4 pages per row:
+CSS for four pages in a row:
 
     .content .pagelist { margin:0; padding:0; list-style:none; width:100%; }
     .content .pagelist li { padding-bottom:1em; text-align:center; white-space:nowrap; display:inline-block; width:24%; }

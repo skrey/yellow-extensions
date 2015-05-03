@@ -6,23 +6,26 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [navigationside.php](navigationside.php?raw=true), copy it into your `system/themes/snippets` folder.  
-3. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
-4. Customise style sheets in your `system/themes/themes` folder.
 
-To uninstall delete the snippet and remove it from other files.
+To uninstall delete the snippet.
+
+How to change the navigation?
+-----------------------------
+Add a snippet in the format `$yellow->snippet("navigationside")`.  
+
+The snippet is a replacement for the normal navigation. To use the snippet on your website, add it to templates in your `system/themes/templates` folder. See example below.
 
 Example
 -------
 Template with navigation on the side
 
-    <?php /* Default template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigationside") ?>
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
 
-Style for search bar:
+CSS for navigation:
 
     .sitename { display:none; }
     .navigationside { float:left; overflow:hidden; padding-right:1em; width:9em; }

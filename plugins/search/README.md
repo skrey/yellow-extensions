@@ -11,7 +11,7 @@ How do I install this?
 5. Create a new folder 'search' in your `content` folder.
 6. Add [page.txt](page.txt?raw=true) to your `content/search` folder.
 
-To uninstall delete the plugin files and folder.
+To uninstall delete the plugin files.
 
 How to use a search?
 --------------------

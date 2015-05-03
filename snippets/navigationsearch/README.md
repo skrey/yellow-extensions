@@ -5,19 +5,22 @@ Website navigation with search bar.
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download and install [Yellow search template](https://github.com/datenstrom/yellow-extensions/blob/master/templates/search/README.md).  
+2. Download and install [Yellow search plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/search/README.md).  
 3. Download and install [Fontawesome icon plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/fontawesome/README.md).  
 4. Download [navigationsearch.php](navigationsearch.php?raw=true), copy it into your `system/themes/snippets` folder.  
-5. Use the snippet on your website, edit templates in your `system/themes/templates` folder.
-6. Customise style sheets in your `system/themes` folder.
 
-To uninstall delete the snippet and remove it from other files.
+To uninstall delete the snippet.
+
+How to change the navigation?
+-----------------------------
+Add a snippet in the format `$yellow->snippet("navigationsearch")`.  
+
+The snippet is an addition to the normal navigation. To use the snippet on your website, add it to templates in your `system/themes/templates` folder. See example below.
 
 Example
 -------
 Template with navigation and search bar:
 
-    <?php /* Default template */ ?>
     <?php $yellow->snippet("header") ?>
     <?php $yellow->snippet("sitename") ?>
     <?php $yellow->snippet("navigation") ?>
@@ -25,7 +28,7 @@ Template with navigation and search bar:
     <?php $yellow->snippet("content") ?>
     <?php $yellow->snippet("footer") ?>
 
-Style for search bar:
+CSS for search bar:
 
     .navigationsearch { margin:1.5em 0; }
     .navigationsearch .search-form { position:relative; }
