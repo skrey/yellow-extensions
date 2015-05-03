@@ -5,8 +5,8 @@ Website navigation with search bar.
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download and install [Yellow search plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/search/README.md).  
-3. Download and install [Fontawesome icon plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/fontawesome/README.md).  
+2. Download and install [search plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/search/README.md).  
+3. Download and install [Fontawesome plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/fontawesome/README.md).  
 4. Download [navigationsearch.php](navigationsearch.php?raw=true), copy it into your `system/themes/snippets` folder.  
 
 To uninstall delete the snippet.

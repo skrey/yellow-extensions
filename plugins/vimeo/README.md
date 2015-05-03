@@ -11,8 +11,12 @@ To uninstall delete the plugin.
 
 How to embed a video?
 ---------------------
-Create a shortcut in the format `[vimeo ID]`, you can add optional style, width and height.  
-`ID` is the last part of a link, e.g. `http://vimeo.com/13387502`. 
+Create a shortcut in the format `[vimeo ID]`, you can add optional arguments:
+ 
+`ID` = last part of a link, e.g. `http://vimeo.com/13387502`  
+`STYLE` = video style, e.g. `left`, `center`, `right`  
+`WIDTH` = video width, pixel or percent  
+`HEIGHT` = video height, pixel or percent   
  
 Example
 -------

@@ -12,8 +12,13 @@ To uninstall delete the plugin.
 
 How to add an image?
 --------------------
-Create a shortcut in the format `[image NAME]`, you can add optional text, style, width, height.  
-`NAME` is the file name of an image. 
+Create a shortcut in the format `[image NAME]`, you can add optional arguments:
+ 
+`NAME` = file name  
+`TEXT` = text description  
+`STYLE` = image style, e.g. `left`, `center`, `right`  
+`WIDTH` = image width, pixel or percent  
+`HEIGHT` = image height, pixel or percent   
 
 The plugin requires [GD graphics library](http://www.libgd.org/) by Thomas Boutell, for resizing JPEG and PNG images.
 

@@ -12,7 +12,7 @@ To uninstall delete the plugin.
 How to include information?
 ---------------------------
 Create a shortcut in the format `[include NAME]`, you can use any file from your content folder.  
-To include a snippet use the format `[snippet NAME]`, you can add optional arguments.  
+For a snippet use the format `[snippet NAME]`, you can add optional arguments.  
 
 Example
 -------

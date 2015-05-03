@@ -9,8 +9,8 @@ Designer: Mark Mayberg
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download and install [Yellow search template](https://github.com/datenstrom/yellow-extensions/blob/master/templates/search/README.md).  
-3. Download and install [Fontawesome icon plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/fontawesome/README.md).  
+2. Download and install [search plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/search/README.md).  
+3. Download and install [Fontawesome plugin](https://github.com/datenstrom/yellow-extensions/blob/master/plugins/fontawesome/README.md).  
 4. Download [knowhow.css](knowhow.css?raw=true) and [knowhow-logo.png](knowhow-logo.png?raw=true), copy them into your `system/themes` folder.  
 5. Download [knowhow.php](knowhow.php?raw=true), copy it into your `system/templates` folder.  
 6. Download [navigationsearch.php](https://github.com/datenstrom/yellow-extensions/blob/master/snippets/navigationsearch/navigationsearch.php?raw=true), copy it into your `system/snippets` folder. 
