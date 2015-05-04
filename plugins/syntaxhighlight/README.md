@@ -1,4 +1,4 @@
-Syntaxhighlight plugin 0.5.1
+Syntaxhighlight plugin 0.5.2
 ============================
 Syntax highlighting for source code.
 
