@@ -24,7 +24,7 @@ Header snippet with sitemap:
     <!DOCTYPE html>
     ...
     <link rel="sitemap" type="text/xml" href="<?php echo $yellow->config->get("serverBase")."/sitemap/page:sitemap.xml" ?>" />
-    <?php echo $yellow->page->getExtra() ?>
+    <?php echo $yellow->page->getExtra("header") ?>
     </head>
     <body>
     <div class="page">
@@ -37,5 +37,6 @@ Footer snippet with sitemap:
     <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
     </div>
     </div>
+    <?php echo $yellow->page->getExtra("footer") ?>
     </body>
     </html>

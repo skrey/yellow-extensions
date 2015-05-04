@@ -27,6 +27,7 @@ Footer snippet with language selection:
     <?php $yellow->snippet("multilanguage") ?>
     </div>
     </div>
+    <?php echo $yellow->page->getExtra("footer") ?>
     </body>
     </html>
 
@@ -37,5 +38,6 @@ Footer snippet with language selection, optional page:
     <?php $yellow->snippet("multilanguage", $yellow->page) ?>
     </div>
     </div>
+    <?php echo $yellow->page->getExtra("footer") ?>
     </body>
     </html>

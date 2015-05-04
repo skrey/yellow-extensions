@@ -9,4 +9,5 @@
 <?php endif ?>
 </div>
 </div>
+<?php echo $yellow->page->getExtra() ?>
 </div>

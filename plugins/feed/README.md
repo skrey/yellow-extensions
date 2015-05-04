@@ -24,7 +24,7 @@ Header snippet with feed:
     <!DOCTYPE html>
     ...
     <link rel="alternate" type="application/rss+xml" href="<?php echo $yellow->config->get("serverBase")."/feed/page:feed.xml" ?>" />
-    <?php echo $yellow->page->getExtra() ?>
+    <?php echo $yellow->page->getExtra("header") ?>
     </head>
     <body>
     <div class="page">
@@ -37,5 +37,6 @@ Footer snippet with feed:
     <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
     </div>
     </div>
+    <?php echo $yellow->page->getExtra("footer") ?>
     </body>
     </html>
