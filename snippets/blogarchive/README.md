@@ -27,6 +27,7 @@ Blog snippet with archive:
     ...
     </div>
     <?php $yellow->snippet("blogarchive", $yellow->page->getParentTop()) ?>
+    <?php echo $yellow->page->getExtra() ?>
     </div>
 
 Blogpages snippet with archive:

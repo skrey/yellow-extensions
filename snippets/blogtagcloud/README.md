@@ -27,6 +27,7 @@ Blog snippet with tag cloud:
     ...
     </div>
     <?php $yellow->snippet("blogtagcloud", $yellow->page->getParentTop()) ?>
+    <?php echo $yellow->page->getExtra() ?>
     </div>
  
 Blogpages snippet with tag cloud:
