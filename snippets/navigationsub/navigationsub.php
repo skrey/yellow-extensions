@@ -1,4 +1,4 @@
-<?php $pages = $yellow->pages->create() ?>
+<?php $pages = $yellow->pages->clean() ?>
 <?php $page = $yellow->page->getParentTop(false) ?>
 <?php if($page) $pages = $page->getChildren() ?>
 <?php $yellow->page->setLastModified($pages->getModified()) ?>
