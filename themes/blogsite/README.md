@@ -2,8 +2,6 @@ Blogsite theme 0.1.16
 =====================
 Blogsite is a basic blogger theme. [Demo](http://demo.datenstrom.se/themes/blogsite-theme).
 
-Designer: Mark Mayberg
-
 ![Screenshot](blogsite-theme.jpg?raw=true)
 
 How do I install this?
@@ -13,3 +11,7 @@ How do I install this?
 3. To enable the theme open file `system/config/config.ini` and change `theme = blogsite`.  
 
 To uninstall delete the theme files and set default settings.
+
+Designer
+--------
+Mark Mayberg
