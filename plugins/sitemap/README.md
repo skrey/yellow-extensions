@@ -1,4 +1,4 @@
-Sitemap plugin 0.5.1
+Sitemap plugin 0.5.2
 ====================
 Sitemap for website.
 
@@ -15,20 +15,10 @@ To uninstall delete the plugin files.
 
 How to use a sitemap?
 ---------------------
-The sitemap is available as `http://website/sitemap/` and `http://website/sitemap/page:sitemap.xml`. It's an overview of the entire website, only visible pages are included. For search engines it's recommended to add a link to the header snippet, see example below.
+The sitemap is available as `http://website/sitemap/` and `http://website/sitemap/page:sitemap.xml`. It's an overview of the entire website, only visible pages are included. You can add a link to the sitemap somewhere on your website. See example below.
  
 Example
 -------
-Header snippet with sitemap:
-
-    <!DOCTYPE html>
-    ...
-    <link rel="sitemap" type="text/xml" href="<?php echo $yellow->config->get("serverBase")."/sitemap/page:sitemap.xml" ?>" />
-    <?php echo $yellow->page->getExtra("header") ?>
-    </head>
-    <body>
-    <div class="page">
-
 Footer snippet with sitemap:
 
     <div class="footer">

@@ -4,5 +4,3 @@ Status: hidden
 ---
 * [Recent changes](/wiki/special:changes/)  
 * [Example](/wiki/tag:example/)  
-
-

@@ -1,4 +1,4 @@
-Feed plugin 0.5.1
+Feed plugin 0.5.2
 =================
 Web feed with recent changes.
 
@@ -15,20 +15,10 @@ To uninstall delete the plugin files.
 
 How to use a feed?
 ------------------
-The feed is available on your website as `http://website/feed/` and `http://website/feed/page:feed.xml`. It shows the recently changed pages of the website, only visible pages are included. For feed readers it's recommended to add a link to the header snippet, see example below.
+The feed is available on your website as `http://website/feed/` and `http://website/feed/page:feed.xml`. It shows the recently changed pages of the website, only visible pages are included. You can add a link to the feed somewhere on your website. See example below.
  
 Example
 -------
-Header snippet with feed:
-
-    <!DOCTYPE html>
-    ...
-    <link rel="alternate" type="application/rss+xml" href="<?php echo $yellow->config->get("serverBase")."/feed/page:feed.xml" ?>" />
-    <?php echo $yellow->page->getExtra("header") ?>
-    </head>
-    <body>
-    <div class="page">
-
 Footer snippet with feed:
 
     <div class="footer">
