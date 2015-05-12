@@ -11,7 +11,7 @@ To uninstall delete the plugin.
 
 How to make a draft page?
 -------------------------
-Set `Status: draft` in the settings of a page. The page will no longer be public accessible. You can continue to edit a draft in a browser and the file system.
+Set `Status: draft` in the settings at the top of a page,. The page will no longer be public accessible. You can continue to edit a draft in a browser and the file system.
 
 Example
 -------

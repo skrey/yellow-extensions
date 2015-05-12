@@ -36,3 +36,4 @@ Navigation snippet with social media icons:
     <li><a href="https://github.com/username"><i class="fa fa-github"></i></a></li>
     </ul>
     </div>
+    <div class="navigation-banner"></div>
