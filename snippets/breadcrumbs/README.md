@@ -21,7 +21,7 @@ Example
 -------
 Content snippet with breadcrumbs:
 
-    <div class="content">
+    <div class="content main">
     <?php $yellow->snippet("breadcrumbs") ?>
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
@@ -29,8 +29,8 @@ Content snippet with breadcrumbs:
 
 Content snippet with breadcrumbs, optional separator:
 
-    <div class="content">
-    <?php $yellow->snippet("breadcrumbs", ":") ?>
+    <div class="content main">
+    <?php $yellow->snippet("breadcrumbs", "/") ?>
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     </div>

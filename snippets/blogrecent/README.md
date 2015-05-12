@@ -23,7 +23,7 @@ Example
 -------
 Content snippet with recent 3 blog pages:
 
-    <div class="content">
+    <div class="content main">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("blogrecent", $yellow->pages->find("/blog/"), 3) ?>
@@ -31,7 +31,7 @@ Content snippet with recent 3 blog pages:
 
 Blogpages snippet with recent 3 blog pages:
 
-    <div class="content blogpages">
+    <div class="content main">
     ...
     <?php $yellow->snippet("blogrecent", $yellow->page, 3) ?>
     <?php $yellow->snippet("pagination", $yellow->page->getPages()) ?>

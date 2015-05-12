@@ -24,7 +24,7 @@ Example
 -------
 Content snippet with list of pages in current folder:
 
-    <div class="content">
+    <div class="content main">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("pagelist") ?>
@@ -32,7 +32,7 @@ Content snippet with list of pages in current folder:
 
 Content snippet with list of pages in current folder, optional arguments:
 
-    <div class="content">
+    <div class="content main">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("pagelist", $yellow->page->getChildren(), "pagelist", "25%") ?>

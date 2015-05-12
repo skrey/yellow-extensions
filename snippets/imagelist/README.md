@@ -24,7 +24,7 @@ Example
 -------
 Content snippet with list of images from your `media/images` folder:
 
-    <div class="content">
+    <div class="content main">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("imagelist", ".*screenshot.jpg") ?>
@@ -32,7 +32,7 @@ Content snippet with list of images from your `media/images` folder:
 
 Content snippet with list of images from your `media/images` folder, optional arguments:
 
-    <div class="content">
+    <div class="content main">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getContent() ?>
     <?php $yellow->snippet("imagelist", ".*screenshot.jpg", "imagelist", "25%") ?>

@@ -10,8 +10,8 @@ How do I install this?
 
 To uninstall delete the snippet.
 
-How to use multiple languages?
-------------------------------
+How to show languages?
+----------------------
 Add a snippet in the format `$yellow->snippet("multilanguage")`, you can add optional arguments:
   
 `PAGE` = page you want to be linked

@@ -1,6 +1,6 @@
 Navigationsub snippet
 =====================
-Website navigation with visible pages one level below top-level navigation.
+Website navigation with one level below top-level navigation.
 
 How do I install this?
 ----------------------
@@ -13,17 +13,16 @@ How to change the navigation?
 -----------------------------
 Add a snippet in the format `$yellow->snippet("navigationsub")`.  
 
-The snippet is an addition to the normal navigation. To use the snippet on your website, add it to templates in your `system/themes/templates` folder. See example below.
+The snippet is a replacement for the normal navigation. To use the snippet on your website, add it to snippets in your `system/themes/snippets` folder. See example below.
 
-**Important:** The snippet needs a theme that supports a sub navigation, otherwise add additional CSS.
+**Important:** The snippet needs a compatible theme, otherwise you have to add CSS.
 
 Example
 -------
-Template with navigation and sub navigation:
+Header snippet with sub navigation:
 
-    <?php $yellow->snippet("header") ?>
-    <?php $yellow->snippet("sitename") ?>
-    <?php $yellow->snippet("navigation") ?>
+    <!DOCTYPE html>
+    ...
+    <div class="sitename-banner"></div>
     <?php $yellow->snippet("navigationsub") ?>
-    <?php $yellow->snippet("content") ?>
-    <?php $yellow->snippet("footer") ?>
+    </div>

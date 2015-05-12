@@ -22,7 +22,7 @@ Example
 -------
 Blog snippet with archive:
 
-    <div class="content blog">
+    <div class="content main">
     <div class="entry">
     ...
     </div>
@@ -32,7 +32,7 @@ Blog snippet with archive:
 
 Blogpages snippet with archive:
 
-    <div class="content blogpages">
+    <div class="content main">
     ...
     <?php $yellow->snippet("blogarchive", $yellow->page) ?>
     <?php $yellow->snippet("pagination", $yellow->page->getPages()) ?>
