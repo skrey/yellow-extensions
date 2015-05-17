@@ -1,4 +1,4 @@
-Stats plugin 0.5.1
+Stats plugin 0.5.2
 ==================
 Create statistics from web server logfiles.
 
@@ -11,7 +11,7 @@ To uninstall delete the plugin.
 
 How to create statistics?
 -------------------------
-The statistics are available at the [command line](https://github.com/datenstrom/yellow/wiki/Yellow-CLI). It shows referring sites and popular content. Go to your Yellow installation, where the yellow.php is. Type `php yellow.php stats`, you can add optional days and file name. There's a spam filter to remove unwanted sites.
+The statistics are available at the [command line](https://github.com/datenstrom/yellow/wiki/Yellow-CLI). It shows referring sites, popular content and error pages. Go to your Yellow installation, where the yellow.php is. Type `php yellow.php stats`, you can add optional days and file name. There's a spam filter to remove unwanted sites.
 
 This plugins analyses your web server logfiles, use [Piwik](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/piwik) for more detailed statistics.
 
@@ -40,6 +40,11 @@ Popular content
 - 305 http://datenstrom.se/yellow
 - 177 http://datenstrom.se/ideas/ideas-for-a-new-flat-file-cms-software
 - 140 http://datenstrom.se/contact/
+
+Error pages
+
+- 20 http://datenstrom.se/index.php - Not found
+- 12 http://datenstrom.se/admin/admin.php - Not found
 
 Yellow stats: 30 days, 2903 views
 ~~~~

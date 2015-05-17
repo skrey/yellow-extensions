@@ -1,11 +1,11 @@
 <?php
-// Copyright (c) 2013-2014 Datenstrom, http://datenstrom.se
+// Copyright (c) 2013-2015 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.5.1";
+	const Version = "0.5.2";
 	var $yellow;			//access to API
 	var $views;				//detected views
 
@@ -14,7 +14,7 @@ class YellowStats
 	{
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("statsDays", 30);
-		$this->yellow->config->setDefault("statsLinesMax", 10);
+		$this->yellow->config->setDefault("statsLinesMax", 8);
 		$this->yellow->config->setDefault("statsLogDir", "/var/log/apache2/");
 		$this->yellow->config->setDefault("statsLogFile", "(.*)access.log");
 		$this->yellow->config->setDefault("statsLocationIgnore", "media|system|edit");
@@ -75,7 +75,7 @@ class YellowStats
 		if(!empty($fileNames))
 		{
 			$statusCode = 200;
-			$content = $sites = $visitors = array();
+			$sites = $content = $errors = $visitors = array();
 			$timeStop = time() - (60 * 60 * 24 * $days);
 			$locationSelf = $this->yellow->config->get("serverBase");
 			$locationIgnore = $this->yellow->config->get("statsLocationIgnore");
@@ -93,6 +93,7 @@ class YellowStats
 						{
 							list($line, $ip, $dummy1, $dummy2, $timestamp, $method, $location, $protocol, $status, $size, $referer, $userAgent) = $matches;
 							if(strtotime($timestamp) < $timeStop) break;
+							$location = rawurldecode(($pos = strposu($location, '?')) ? substru($location, 0, $pos) : $location);
 							$visitorRequestFilter = substru($timestamp, 0, 17).$method.$location;
 							if(preg_match("#$spamFilter#", $line) || $visitors[$ip]==$visitorRequestFilter)
 							{
@@ -105,10 +106,14 @@ class YellowStats
 								if(preg_match("#^$locationSelf(.*)/($locationIgnore)/#", $location)) continue;
 								if(preg_match("#^$locationSelf(.*)/robots.txt$#", $location)) continue;
 								if(preg_match("#(bot|spider)#", $userAgent)) continue;
-								if($status >= 400) continue;
-								++$content[$this->getUrl($location)];
-								++$sites[$this->getReferer($referer)];
-								++$this->views;
+								if($status < 400)
+								{
+									++$content[$this->getUrl($location)];
+									++$sites[$this->getReferer($referer)];
+									++$this->views;
+								} else {
+									++$errors[$this->getUrl($location)." - ".$this->getErrorFormatted($status)];
+								}
 							}
 						}
 					}
@@ -123,6 +128,7 @@ class YellowStats
 				unset($sites["-"]);
 				$this->showRequests($sites, "Referring sites");
 				$this->showRequests($content, "Popular content");
+				$this->showRequests($errors, "Error pages");
 			}
 		} else {
 			$statusCode = 500;
@@ -169,6 +175,21 @@ class YellowStats
 	{
 		return $this->yellow->lookup->normaliseUrl(
 			$this->yellow->config->get("serverScheme"), $this->yellow->config->get("serverName"), "", $location);
+	}
+	
+	// Return human readable error
+	function getErrorFormatted($statusCode)
+	{
+		switch($statusCode)
+		{
+			case 400:	$text = "Bad request"; break;
+			case 401:	$text = "Unauthorised"; break;
+			case 404:	$text = "Not found"; break;
+			case 424:	$text = "Not existing"; break;
+			case 500:	$text = "Server error"; break;
+			default:	$text = "Error $statusCode";
+		}
+		return $text;
 	}
 	
 	// Return previous text line from file, false if not found
