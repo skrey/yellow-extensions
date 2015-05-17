@@ -1,4 +1,4 @@
-Sitemap plugin 0.5.2
+Sitemap plugin 0.5.3
 ====================
 Sitemap for website.
 
@@ -24,6 +24,7 @@ Footer snippet with sitemap:
     <div class="footer">
     <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
     <a href="<?php echo $yellow->page->base."/sitemap/" ?>">Sitemap</a>. 
+    <a href="<?php echo $yellow->page->get("pageEdit") ?>">Edit</a>.
     <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
     </div>
     </div>

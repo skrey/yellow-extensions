@@ -1,4 +1,4 @@
-Wiki plugin 0.5.2
+Wiki plugin 0.5.3
 =================
 Wiki for collaboration.
 
