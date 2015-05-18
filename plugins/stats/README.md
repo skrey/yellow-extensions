@@ -1,4 +1,4 @@
-Stats plugin 0.5.2
+Stats plugin 0.5.3
 ==================
 Create statistics from web server logfiles.
 
@@ -37,9 +37,9 @@ Popular content
 
 - 980 http://datenstrom.se/yellow/
 - 442 http://datenstrom.se/
-- 305 http://datenstrom.se/yellow
+- 305 http://datenstrom.se/ideas/
 - 177 http://datenstrom.se/ideas/ideas-for-a-new-flat-file-cms-software
-- 140 http://datenstrom.se/contact/
+- 101 http://datenstrom.se/contact/
 
 Error pages
 

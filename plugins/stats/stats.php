@@ -5,7 +5,7 @@
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.5.2";
+	const Version = "0.5.3";
 	var $yellow;			//access to API
 	var $views;				//detected views
 
@@ -106,6 +106,7 @@ class YellowStats
 								if(preg_match("#^$locationSelf(.*)/($locationIgnore)/#", $location)) continue;
 								if(preg_match("#^$locationSelf(.*)/robots.txt$#", $location)) continue;
 								if(preg_match("#(bot|spider)#", $userAgent)) continue;
+								if($status>=301 && $status<=303) continue;
 								if($status < 400)
 								{
 									++$content[$this->getUrl($location)];
