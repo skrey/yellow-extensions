@@ -1,6 +1,6 @@
-Include plugin 0.5.1
+Include plugin 0.5.2
 ====================
-Include information in content files.
+Include text in content files.
 
 How do I install this?
 ----------------------
@@ -9,10 +9,9 @@ How do I install this?
 
 To uninstall delete the plugin.
 
-How to include information?
----------------------------
-Create a shortcut in the format `[include NAME]`, you can use any file from your content folder.  
-For a snippet use the format `[snippet NAME]`, you can add optional arguments.  
+How to include text?
+--------------------
+Create a shortcut in the format `[include NAME]`, you can use any text file from your content folder.  
 
 Example
 -------
@@ -20,8 +19,3 @@ Including a content file:
 
     [include content/1-home/page.txt]
     [include content/2-about/contact.txt]
-
-Including a snippet in a content file, default and optional argument:
-
-    [snippet breadcrumbs]
-    [snippet breadcrumbs /]
