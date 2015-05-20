@@ -1,4 +1,4 @@
-File plugin 0.5.1
+File plugin 0.5.2
 =================
 Embed text files.
 
