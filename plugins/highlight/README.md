@@ -15,7 +15,7 @@ How to highlight source code?
 -----------------------------
 Wrap your code blocks in \`\`\`, add an optional language identifier for highlighting. For line numbers add a colon separated number to the language. All languages have individual colors and can be defined via style sheet. There's a `highlight.css` which you can adjust or use in your own style sheets.
 
-The plugin uses [GeSHi 1.0.8.11](https://github.com/GeSHi/geshi-1.0) by Benny Baumann, which supports about 200 programming languages. It's licensed under [GPLv2](http://opensource.org/licenses/GPL-2.0). The following languages are included: [CPP](http://en.wikipedia.org/wiki/C++), [CSS](http://en.wikipedia.org/wiki/CSS), [HTML](http://en.wikipedia.org/wiki/HTML), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [PHP](http://en.wikipedia.org/wiki/PHP). You can download more [languages](https://github.com/GeSHi/geshi-1.0/tree/master/src/geshi).
+The plugin uses [GeSHi 1.0.8.12](https://github.com/GeSHi/geshi-1.0) by Benny Baumann, which supports about 200 programming languages. It's licensed under [GPLv2](http://opensource.org/licenses/GPL-2.0). The following languages are included: [CPP](http://en.wikipedia.org/wiki/C++), [CSS](http://en.wikipedia.org/wiki/CSS), [HTML](http://en.wikipedia.org/wiki/HTML), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [PHP](http://en.wikipedia.org/wiki/PHP). You can download more [languages](https://github.com/GeSHi/geshi-1.0/tree/master/src/geshi).
 
 Example
 -------
