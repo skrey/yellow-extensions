@@ -2,8 +2,8 @@
 // Copyright (c) 2013-2015 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-// Include plugin
-class YellowInclude
+// File plugin
+class YellowFile
 {
 	const Version = "0.5.2";
 	var $yellow;			//access to API
@@ -18,7 +18,7 @@ class YellowInclude
 	function onParseContentBlock($page, $name, $text, $typeShortcut)
 	{
 		$output = NULL;
-		if($name=="include" && $typeShortcut)
+		if($name=="file" && $typeShortcut)
 		{
 			list($fileName) = $this->yellow->toolbox->getTextArgs($text);
 			$location = $this->yellow->lookup->findLocationFromFile($fileName);
@@ -28,12 +28,12 @@ class YellowInclude
 				$page->setLastModified($content->getModified());
 				$output = $content->getContent();
 			} else {
-				$page->error(500, "Include '$fileName' does not exist!");
+				$page->error(500, "File '$fileName' does not exist!");
 			}
 		}
 		return $output;
 	}
 }
 
-$yellow->plugins->register("include", "YellowInclude", YellowInclude::Version);
+$yellow->plugins->register("file", "YellowFile", YellowFile::Version);
 ?>
