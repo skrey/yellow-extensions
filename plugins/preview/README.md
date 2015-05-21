@@ -1,4 +1,4 @@
-Preview plugin 0.5.1
+Preview plugin 0.5.2
 ====================
 Embed pages with image preview.
 

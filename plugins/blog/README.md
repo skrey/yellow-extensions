@@ -1,4 +1,4 @@
-Blog plugin 0.5.4
+Blog plugin 0.5.5
 =================
 Blog for news.
 

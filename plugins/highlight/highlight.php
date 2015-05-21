@@ -41,7 +41,7 @@ class YellowHighlight
 	// Handle page extra HTML data
 	function onExtra($name)
 	{
-		$output = "";
+		$output = NULL;
 		if($name == "header")
 		{
 			if(!$this->yellow->config->get("highlightStylesheetDefault"))

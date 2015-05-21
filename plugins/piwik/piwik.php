@@ -5,7 +5,7 @@
 // Piwik plugin
 class YellowPiwik
 {
-	const Version = "0.5.2";
+	const Version = "0.5.3";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -19,7 +19,7 @@ class YellowPiwik
 	// Handle page extra HTML data
 	function onExtra($name)
 	{
-		$output = "";
+		$output = NULL;
 		if($name == "footer")
 		{
 			$serverName = $this->yellow->config->get("piwikServerName");

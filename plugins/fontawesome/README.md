@@ -1,4 +1,4 @@
-Fontawesome plugin 0.5.2
+Fontawesome plugin 0.5.3
 ========================
 Icons and graphics.
 

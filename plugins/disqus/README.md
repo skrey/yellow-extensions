@@ -1,4 +1,4 @@
-Disqus plugin 0.5.1
+Disqus plugin 0.5.2
 ===================
 Add [Disqus](http://disqus.com) comments to blog.
 
