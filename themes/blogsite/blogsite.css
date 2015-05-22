@@ -69,7 +69,7 @@ a, img { border:none; text-decoration:none; }
 .navigationtree li { display:inline; }
 .navigationtree ul li { display:inline-block; position:relative; cursor:pointer; margin:0; }
 .navigationtree ul li:hover {}
-.navigationtree ul li ul { padding:0; position:absolute; width:15em; background:#eee; display:none; }
+.navigationtree ul li ul { padding:0; position:absolute; width:15em; background:#eee; z-index:100; display:none; }
 .navigationtree ul li ul { border:1px solid #bbb; box-shadow:2px 4px 10px rgba(0, 0, 0, 0.2); }
 .navigationtree ul li ul li { display:block; text-align:left; }
 .navigationtree ul li ul li a { color:#111; width:13em; }

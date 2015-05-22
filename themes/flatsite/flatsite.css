@@ -63,7 +63,7 @@ a, img { border:none; text-decoration:none; }
 .navigationtree li { display:inline; }
 .navigationtree ul li { display:inline-block; position:relative; cursor:pointer; margin:0; }
 .navigationtree ul li:hover {}
-.navigationtree ul li ul { padding:0.3em; position:absolute; width:13em; background:#fff; display:none; }
+.navigationtree ul li ul { padding:0.3em; position:absolute; width:13em; background:#fff; z-index:100; display:none; }
 .navigationtree ul li ul { border:1px solid #bbb; border-radius:4px; box-shadow:2px 4px 10px rgba(0, 0, 0, 0.2); }
 .navigationtree ul li ul li { display:block; }
 .navigationtree ul li:hover ul { display:block; }
