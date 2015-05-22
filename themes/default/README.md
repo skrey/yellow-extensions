@@ -14,5 +14,5 @@ To uninstall delete the theme files and set default settings.
 
 Designer
 --------
-Datenstrom Sweden
+Mark Mayberg
 
