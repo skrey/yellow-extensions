@@ -1,5 +1,5 @@
-Český jazyk
-===========
+Český jazyk 0.5.1
+=================
 Český překlad pro Yellow a jeho rozšíření.
 
 Jak nainstalovat tento překlad?

@@ -5,7 +5,7 @@
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.5.3";
+	const Version = "0.5.4";
 	var $yellow;			//access to API
 	var $views;				//detected views
 
@@ -95,7 +95,7 @@ class YellowStats
 							if(strtotime($timestamp) < $timeStop) break;
 							$location = rawurldecode(($pos = strposu($location, '?')) ? substru($location, 0, $pos) : $location);
 							$visitorRequestFilter = substru($timestamp, 0, 17).$method.$location;
-							if(preg_match("#$spamFilter#", $line) || $visitors[$ip]==$visitorRequestFilter)
+							if(preg_match("#$spamFilter#", $line) || $visitors[$ip]==$visitorRequestFilter || $location[0]!='/')
 							{
 								if(defined("DEBUG") && DEBUG>=2) echo "YellowStats::analyseRequests spam:\"$method $location $protocol\" referer:$referer\n";
 								continue;

@@ -1,5 +1,5 @@
-Deutsche Sprache
-================
+Deutsche Sprache 0.5.1
+======================
 Deutsche Texte für Yellow und Erweiterungen.
 
 Wie installiere ich das?

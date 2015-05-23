@@ -1,5 +1,5 @@
-Língua Portuguesa
-=================
+Língua Portuguesa 0.5.1
+=======================
 Texto Português para o Yellow e as suas extensões.
 
 Como faço a instalação disto?

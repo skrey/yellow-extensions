@@ -1,5 +1,5 @@
-Lenguaje Español
-================
+Lenguaje Español 0.5.1
+======================
 Texto español para Yellow y sus extensiones.
 
 ¿Cómo instalo esto?

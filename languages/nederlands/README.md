@@ -1,5 +1,5 @@
-Nederlandse taal
-================
+Nederlandse taal 0.5.1
+======================
 Nederlandse tekst voor Yellow en extensies.
 
 Hoe te installeren?

@@ -1,11 +1,11 @@
-User permissions plugin 0.5.1
-=============================
+User permission plugin 0.5.2
+============================
 Restrictions for web interface users.
 
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [userpermissions.php](userpermissions.php?raw=true), copy it into your `system/plugins` folder.  
+2. Download [userpermission.php](userpermission.php?raw=true), copy it into your `system/plugins` folder.  
 
 To uninstall delete the plugin.
 

@@ -1,5 +1,5 @@
-Langue Française
-================
+Langue Française 0.5.1
+======================
 Textes en français pour Yellow et ses extensions.
 
 Comment puis-je l'installer ?

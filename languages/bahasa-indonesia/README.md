@@ -1,5 +1,5 @@
-Bahasa Indonesia
-================
+Bahasa Indonesia 0.5.1
+======================
 Teks Bahasa Indonesia untuk Yellow dan ekstensi-ekstensinya.
 
 Bagaimana saya memasang ini?

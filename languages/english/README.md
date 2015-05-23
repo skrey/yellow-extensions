@@ -1,5 +1,5 @@
-English language
-================
+English language 0.5.1
+======================
 English text for Yellow and extensions.
 
 How do I install this?
