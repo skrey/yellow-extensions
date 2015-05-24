@@ -1,4 +1,4 @@
-Língua Portuguesa 0.5.1
+Língua Portuguesa 0.5.2
 =======================
 Texto Português para o Yellow e as suas extensões.
 

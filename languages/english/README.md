@@ -1,4 +1,4 @@
-English language 0.5.1
+English language 0.5.2
 ======================
 English text for Yellow and extensions.
 
