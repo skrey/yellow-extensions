@@ -1,4 +1,4 @@
-Search plugin 0.5.1
+Search plugin 0.5.2
 ===================
 Full-text search for website.
 

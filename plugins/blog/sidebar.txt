@@ -4,7 +4,7 @@ Status: hidden
 ---
 Recent
 
-[blogrecent /blog/ 9]
+[blogrecent /blog/]
 
 Archive
 
