@@ -16,7 +16,7 @@ To uninstall delete the plugin files.
 
 How to use a blog?
 ------------------
-The blog is available on your website as `http://website/blog/`. To make the blog your home page, rename the blog folder to '1-blog' and delete '1-home'. To create a new blog page, add a new file to the blog folder. Set `Published` and more settings at the top of an page. Dates should be written in the format [YYYY-MM-DD](https://github.com/datenstrom/yellow/wiki/Yellow-API#dates). Use `Tag` to group similar pages together.
+The blog is available on your website as `http://website/blog/`. To make the blog your home page, rename the blog folder to '1-blog' and delete '1-home'. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://github.com/datenstrom/yellow/wiki/Yellow-API#meta-data) at the top of an page. Dates should be written in the format [YYYY-MM-DD](https://github.com/datenstrom/yellow/wiki/Yellow-API#dates). Use `Tag` to group similar pages together.
 
 The blog supports the following shortcuts:
 
