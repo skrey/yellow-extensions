@@ -18,6 +18,17 @@ How to use a wiki?
 ------------------
 The wiki is available on your website as `http://website/wiki/`. To make the wiki your home page, rename the wiki folder to '1-wiki' and delete '1-home'. To create a new wiki page, add a new file to the wiki folder. Set `Title` and more settings at the top of a page. Use `Tag` to group similar pages together.
 
+The wiki supports the following shortcuts:
+
+`[wikirecent LOCATION PAGESMAX]` for recently changed pages  
+`[wikirelated LOCATION PAGESMAX]` for related pages to current page  
+`[wikitags LOCATION]` for a list of tags  
+
+The following arguments are available, all but the first argument are optional:
+
+`LOCATION` = wiki location  
+`PAGESMAX` = number of pages  
+
 Example
 -------
 Content file for a new wiki page:
@@ -27,3 +38,13 @@ Content file for a new wiki page:
     Tag: Example
     ---
     This is a new wiki page.
+
+Showing recent pages, wiki at `http://website/wiki/`:
+
+    [wikirecent /wiki/]
+    [wikirecent /wiki/ 10]
+
+Showing recent pages, wiki at `http://website/`:
+
+    [wikirecent /]
+    [wikirecent / 10]

@@ -11,7 +11,9 @@ To uninstall delete the plugin.
 
 How to embed a video?
 ---------------------
-Create a shortcut in the format `[youtube ID]`, you can add optional arguments:
+Create a `[youtube]` shortcut. 
+
+The following arguments are available, all but the first argument are optional:
  
 `ID` = last part of a link, e.g. `http://www.youtube.com/watch?v=fhs55HEl-Gc`  
 `STYLE` = video style, e.g. `left`, `center`, `right`  
@@ -20,7 +22,7 @@ Create a shortcut in the format `[youtube ID]`, you can add optional arguments:
  
 Example
 -------
-Embedding a video, default and custom style:
+Embedding a video:
 
     [youtube fhs55HEl-Gc]
     [youtube fhs55HEl-Gc right 200 112]
