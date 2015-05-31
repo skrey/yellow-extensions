@@ -12,7 +12,9 @@ To uninstall delete the plugin.
 
 How to add an image?
 --------------------
-Create a shortcut in the format `[image NAME]`, you can add optional arguments:
+Create an `[image]` shortcut.
+
+The following arguments are available, all but the first argument are optional:
  
 `NAME` = file name  
 `TEXT` = text description  
@@ -24,7 +26,7 @@ The plugin requires [GD graphics library](http://www.libgd.org/) by Thomas Boute
 
 Example
 -------
-Adding an image, default and optional text:
+Adding an image:
 
     [image icon.png]
     [image icon.png Image]

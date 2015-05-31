@@ -11,8 +11,10 @@ To uninstall delete the plugin.
 
 How to embed an audio track?
 ----------------------------
-Create a shortcut in the format `[soundcloud ID]`, you can add optional arguments:
+Create a `[soundcloud]` shortcut.
  
+The following arguments are available, all but the first argument are optional:
+
 `ID` = last part of a link, e.g. `http://api.soundcloud.com/tracks/101175715`  
 `STYLE` = audio track style, e.g. `left`, `center`, `right`  
 `WIDTH` = audio track width, pixel or percent  
@@ -20,7 +22,7 @@ Create a shortcut in the format `[soundcloud ID]`, you can add optional argument
 
 Example
 -------
-Embedding an audio track, default and custom style:
+Embedding an audio track:
 
     [soundcloud 101175715]
     [soundcloud 101175715 right 200 166]

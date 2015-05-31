@@ -11,8 +11,10 @@ To uninstall delete the plugin.
 
 How to embed a map?
 -------------------
-Create a shortcut in the format `[googlemaps ADDRESS]`, you can add optional arguments:
- 
+Create a `[googlemaps]` shortcut.
+
+The following arguments are available, all but the first argument are optional:
+
 `ADDRESS` = text you enter on Google maps, wrap multiple words into quotes  
 `ZOOM` = zoom value, the default zoom is 15  
 `STYLE` = map style, e.g. `left`, `center`, `right`  
@@ -21,7 +23,7 @@ Create a shortcut in the format `[googlemaps ADDRESS]`, you can add optional arg
 
 Example
 -------
-Embedding a map, different addresses and styles:
+Embedding a map:
 
     [googlemaps Stockholm]
     [googlemaps "Bredgatan 1, Lund, Sweden" 9 right 320 200]

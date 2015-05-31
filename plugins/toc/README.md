@@ -11,7 +11,7 @@ To uninstall delete the plugin.
 
 How to make a table of contents?
 --------------------------------
-Create a shortcut `[toc]` anywhere in a page, separated by blank lines.  
+Create a `[toc]` shortcut separated by blank lines.  
 
 Example
 -------

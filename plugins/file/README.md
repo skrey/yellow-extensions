@@ -11,7 +11,9 @@ To uninstall delete the plugin.
 
 How to embed a text file?
 -------------------------
-Create a shortcut in the format `[file FILENAME]`, you can use any file from your `content` folder.  
+Create a `[file]` shortcut with the following argument:
+
+`FILENAME` = file from your `content` folder 
 
 Example
 -------

@@ -12,7 +12,9 @@ To uninstall delete the plugin.
 
 How to add a gallery?
 ---------------------
-Create a shortcut in the format `[imagegallery PATTERN]`, you can add optional arguments:
+Create an `[imagegallery]` shortcut.
+
+The following arguments are available, all but the first argument are optional:
   
 `PATTERN` = file name as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
 `STYLE` = gallery style  
@@ -25,7 +27,7 @@ You can help make it better. Please let us know about bugs, ideas and improvemen
 
 Example
 -------
-Adding an image gallery, default and optional arguments:
+Adding an image gallery:
 
     [imagegallery .*screenshot.jpg]
     [imagegallery .*screenshot.jpg themes 25%]

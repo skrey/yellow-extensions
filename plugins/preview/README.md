@@ -12,7 +12,9 @@ To uninstall delete the plugin.
 
 How to add a preview?
 ---------------------
-Create a shortcut in the format `[preview LOCATION]`, you can add optional arguments:
+Create a `[preview]` shortcut.
+
+The following arguments are available, all but the first argument are optional:
 
 `LOCATION ` = location of parent page  
 `STYLE` = preview list style  
@@ -22,7 +24,7 @@ For every page there should be an image of similar file name in your `media/imag
 
 Example
 -------
-Adding a preview, default and optional arguments:
+Adding a preview:
 
     [preview /themes/]
     [preview /themes/ fourpages 25%]

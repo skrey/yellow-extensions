@@ -11,8 +11,10 @@ To uninstall delete the plugin.
 
 How to embed a presentation?
 ----------------------------
-Create a shortcut in the format `[slideshare ID]`, you can add optional arguments:
- 
+Create a `[slideshare]` shortcut.
+
+The following arguments are available, all but the first argument are optional:
+
 `ID` = last part of a link, e.g. `http://www.slideshare.net/slideshow/embed_code/16220047`  
 `STYLE` = presentation style, e.g. `left`, `center`, `right`  
 `WIDTH` = presentation width, pixel or percent  
@@ -20,7 +22,7 @@ Create a shortcut in the format `[slideshare ID]`, you can add optional argument
 
 Example
 -------
-Embedding a presentation, default and custom style:
+Embedding a presentation:
 
     [slideshare 16220047]
     [slideshare 16220047 right 320 200]

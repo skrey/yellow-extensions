@@ -11,14 +11,16 @@ To uninstall delete the plugin.
 
 How to add breadcrumbs?
 -----------------------
-Create a shortcut in the format `[breadcrumbs SEPARATOR]`, you can add optional arguments:
+Create a `[breadcrumbs]` shortcut. 
+
+The following arguments are available, all but the first argument are optional:
  
 `SEPARATOR ` = text used between pages  
 `STYLE` = breadcrumbs style  
  
 Example
 -------
-Adding breadcrumbs, default and optional arguments:
+Adding breadcrumbs:
 
     [breadcrumbs >]
     [breadcrumbs / crumbs]
