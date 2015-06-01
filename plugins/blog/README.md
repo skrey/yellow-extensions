@@ -10,7 +10,7 @@ How do I install this?
 4. Download [content-blog.php](content-blog.php?raw=true) and [content-blogpages.php](content-blogpages.php?raw=true), copy them into your `system/themes/snippets` folder.  
 5. Download latest [language-en.ini](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/language-en.ini?raw=true) and [page-new-blog.txt](page-new-blog.txt?raw=true), copy them into your `system/config` folder.
 6. Create a new folder '3-blog' in your `content` folder.
-7. Add [page.txt](page.txt?raw=true), [sidebar.txt](sidebar.txt?raw=true) and [2013-04-07-blog-example.txt](2013-04-07-blog-example.txt?raw=true) to your `/content/3-blog` folder.
+7. Add [page.txt](page.txt?raw=true) and [2013-04-07-blog-example.txt](2013-04-07-blog-example.txt?raw=true) to your `/content/3-blog` folder.
 
 To uninstall delete the plugin files.
 
