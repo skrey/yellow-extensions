@@ -18,7 +18,7 @@ How to use a wiki?
 ------------------
 The wiki is available on your website as `http://website/wiki/`. To make the wiki your home page, rename the wiki folder to '1-wiki' and delete '1-home'. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](https://github.com/datenstrom/yellow/wiki/Yellow-API#meta-data) at the top of a page. Use `Tag` to group similar pages together.
 
-The wiki supports the following shortcuts:
+You can use these shortcuts:
 
 `[wikirecent LOCATION PAGESMAX]` for recently changed pages  
 `[wikirelated LOCATION PAGESMAX]` for related pages to current page  
