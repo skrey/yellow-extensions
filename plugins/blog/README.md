@@ -1,6 +1,6 @@
 Blog plugin 0.5.6
 =================
-Blog for news.
+Blog for news. [Demo](http://demo.datenstrom.se/blog/).
 
 How do I install this?
 ----------------------

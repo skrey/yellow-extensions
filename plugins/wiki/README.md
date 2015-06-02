@@ -1,6 +1,6 @@
 Wiki plugin 0.5.6
 =================
-Wiki for collaboration.
+Wiki for collaboration. [Demo](http://demo.datenstrom.se/wiki/).
 
 How do I install this?
 ----------------------
