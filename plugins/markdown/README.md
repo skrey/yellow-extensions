@@ -1,4 +1,4 @@
-Markdown plugin 0.5.4
+Markdown plugin 0.5.5
 =====================
 Text formatting for humans.
 
@@ -15,11 +15,11 @@ The plugin uses [Markdown Extra v1.5.0](https://github.com/michelf/php-markdown)
 
 Example
 -------
-Emphasize text:
+Emphasizing text:
 
     Normal *italic* **bold** `code`
 
-Make a list:
+Making a list:
 
     * item one
     * item two
