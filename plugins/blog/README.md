@@ -2,7 +2,7 @@ Blog plugin 0.5.6
 =================
 Blog for your website. [Demo](http://demo.datenstrom.se/blog/).
 
-![Screenshot](blog-plugin.jpg?raw=true)
+[![Screenshot](blog-plugin.jpg?raw=true)](http://demo.datenstrom.se/blog/)
 
 How do I install this?
 ----------------------
@@ -18,9 +18,11 @@ To uninstall delete the plugin files.
 
 How to use a blog?
 ------------------
-The blog is available on your website as `http://website/blog/`. To make the blog your home page, rename the blog folder to '1-blog' and delete '1-home'. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://github.com/datenstrom/yellow/wiki/Yellow-API#meta-data) at the top of an page. Dates should be written in the format [YYYY-MM-DD](https://github.com/datenstrom/yellow/wiki/Yellow-API#dates). Use `Tag` to group similar pages together.
+The blog is available on your website as `http://website/blog/`. To make the blog your home page, rename the blog folder to '1-blog' and delete '1-home'. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://github.com/datenstrom/yellow/wiki/Yellow-API#meta-data) at the top of an page. Dates should be written in the format [YYYY-MM-DD](https://github.com/datenstrom/yellow/wiki/Yellow-API#dates). Use `Tag` to group similar pages together. [Learn more](https://github.com/datenstrom/yellow/blog/How-to-make-a-blog).
 
-You can use these shortcuts:
+How to configure a blog?
+------------------------
+You can use shortcuts to show information about the blog:
 
 `[blogarchive LOCATION]` for a list of months  
 `[blogrecent LOCATION PAGESMAX]` for recently published pages  

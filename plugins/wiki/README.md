@@ -2,7 +2,7 @@ Wiki plugin 0.5.6
 =================
 Wiki for your website. [Demo](http://demo.datenstrom.se/wiki/).
 
-![Screenshot](wiki-plugin.jpg?raw=true)
+[![Screenshot](wiki-plugin.jpg?raw=true)](http://demo.datenstrom.se/wiki/)
 
 How do I install this?
 ----------------------
@@ -18,9 +18,11 @@ To uninstall delete the plugin files.
 
 How to use a wiki?
 ------------------
-The wiki is available on your website as `http://website/wiki/`. To make the wiki your home page, rename the wiki folder to '1-wiki' and delete '1-home'. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](https://github.com/datenstrom/yellow/wiki/Yellow-API#meta-data) at the top of a page. Use `Tag` to group similar pages together.
+The wiki is available on your website as `http://website/wiki/`. To make the wiki your home page, rename the wiki folder to '1-wiki' and delete '1-home'. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](https://github.com/datenstrom/yellow/wiki/Yellow-API#meta-data) at the top of a page. Use `Tag` to group similar pages together. [Learn more](https://github.com/datenstrom/yellow/wiki/How-to-make-a-wiki).
 
-You can use these shortcuts:
+How to configure a wiki?
+------------------------
+You can use shortcuts to show information about the wiki:
 
 `[wikirecent LOCATION PAGESMAX]` for recently changed pages  
 `[wikirelated LOCATION PAGESMAX]` for related pages to current page  
