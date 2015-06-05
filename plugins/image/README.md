@@ -1,6 +1,8 @@
 Image plugin 0.5.1
 ==================
-Resizable images and thumbnails.
+Resizable images and thumbnails. [Demo](http://demo.datenstrom.se/wiki/image-example).
+
+![Screenshot](image-plugin.jpg?raw=true)
 
 How do I install this?
 ----------------------
