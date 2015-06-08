@@ -5,7 +5,7 @@
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.5.4";
+	const Version = "0.5.5";
 	var $yellow;			//access to API
 	var $views;				//detected views
 
@@ -168,7 +168,7 @@ class YellowStats
 	function getReferer($referer)
 	{
 		$refererSelf = $this->yellow->config->get("serverName").$this->yellow->config->get("serverBase");
-		return preg_match("#$refererSelf#", $referer) ? "-" : $referer;
+		return preg_match("#$refererSelf#i", $referer) ? "-" : $referer;
 	}
 	
 	// Return URL, with server scheme and server name
