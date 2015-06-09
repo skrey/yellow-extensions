@@ -1,4 +1,4 @@
-Preview plugin 0.5.2
+Preview plugin 0.5.3
 ====================
 Embed pages with image preview.
 
@@ -20,7 +20,7 @@ The following arguments are available, all but the first argument are optional:
 `STYLE` = preview list style  
 `SIZE` = image size, pixel or percent  
 
-For every page there should be an image of similar file name in your `media/images` folder.
+For every page there should be an jpg-image of similar file name in your `media/images` folder.
 
 Example
 -------
