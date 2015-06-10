@@ -16,10 +16,10 @@ class YellowPreview
 	}
 	
 	// Handle page content parsing of custom block
-	function onParseContentBlock($page, $name, $text, $typeShortcut)
+	function onParseContentBlock($page, $name, $text, $shortcut)
 	{
 		$output = NULL;
-		if($name=="preview" && $typeShortcut)
+		if($name=="preview" && $shortcut)
 		{
 			list($location, $style, $size) = $this->yellow->toolbox->getTextArgs($text);
 			if(empty($location)) $location = $page->location;

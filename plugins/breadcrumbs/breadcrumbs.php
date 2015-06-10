@@ -17,10 +17,10 @@ class YellowBreadcrumbs
 	}
 	
 	// Handle page content parsing of custom block
-	function onParseContentBlock($page, $name, $text, $typeShortcut)
+	function onParseContentBlock($page, $name, $text, $shortcut)
 	{
 		$output = NULL;
-		if($name=="breadcrumbs" && $typeShortcut)
+		if($name=="breadcrumbs" && $shortcut)
 		{
 			list($separator, $style) = $this->yellow->toolbox->getTextArgs($text);
 			if(empty($separator)) $separator = $this->yellow->config->get("breadcrumbsSeparator");
