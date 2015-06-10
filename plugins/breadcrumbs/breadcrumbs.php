@@ -5,7 +5,7 @@
 // Breadcrumbs plugin
 class YellowBreadcrumbs
 {
-	const Version = "0.5.1";
+	const Version = "0.5.2";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -13,7 +13,7 @@ class YellowBreadcrumbs
 	{
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("breadcrumbsSeparator", ">");
-		$this->yellow->config->setDefault("breadcrumbsStyle", "entry-breadcrumbs");
+		$this->yellow->config->setDefault("breadcrumbsStyle", "breadcrumbs");
 	}
 	
 	// Handle page content parsing of custom block
@@ -22,7 +22,7 @@ class YellowBreadcrumbs
 		$output = NULL;
 		if($name=="breadcrumbs" && $typeShortcut)
 		{
-			list($separaror, $style) = $this->yellow->toolbox->getTextArgs($text);
+			list($separator, $style) = $this->yellow->toolbox->getTextArgs($text);
 			if(empty($separator)) $separator = $this->yellow->config->get("breadcrumbsSeparator");
 			if(empty($style)) $style = $this->yellow->config->get("breadcrumbsStyle");
 			$pages = $this->yellow->pages->path($page->getLocation(), true);

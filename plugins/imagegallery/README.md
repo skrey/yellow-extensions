@@ -14,7 +14,7 @@ How to add a gallery?
 ---------------------
 Create an `[imagegallery]` shortcut.
 
-The following arguments are available, all but the first argument are optional:
+The following arguments are available:
   
 `PATTERN` = file name as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
 `STYLE` = gallery style  
@@ -29,5 +29,6 @@ Example
 -------
 Adding an image gallery:
 
+    [imagegallery]
     [imagegallery .*screenshot.jpg]
     [imagegallery .*screenshot.jpg themes 25%]

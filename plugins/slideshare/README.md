@@ -13,7 +13,7 @@ How to embed a presentation?
 ----------------------------
 Create a `[slideshare]` shortcut.
 
-The following arguments are available, all but the first argument are optional:
+The following arguments are available:
 
 `ID` = last part of a link, e.g. `http://www.slideshare.net/slideshow/embed_code/16220047`  
 `STYLE` = presentation style, e.g. `left`, `center`, `right`  
@@ -25,4 +25,5 @@ Example
 Embedding a presentation:
 
     [slideshare 16220047]
+    [slideshare 16220047 left 320 200]
     [slideshare 16220047 right 320 200]

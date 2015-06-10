@@ -15,7 +15,7 @@ How to embed a video?
 ---------------------
 Create a `[youtube]` shortcut. 
 
-The following arguments are available, all but the first argument are optional:
+The following arguments are available:
  
 `ID` = last part of a link, e.g. `http://www.youtube.com/watch?v=fhs55HEl-Gc`  
 `STYLE` = video style, e.g. `left`, `center`, `right`  
@@ -27,4 +27,5 @@ Example
 Embedding a video:
 
     [youtube fhs55HEl-Gc]
+    [youtube fhs55HEl-Gc left 200 112]
     [youtube fhs55HEl-Gc right 200 112]

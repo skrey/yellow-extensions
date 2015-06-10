@@ -13,7 +13,7 @@ How to embed a map?
 -------------------
 Create a `[googlemaps]` shortcut.
 
-The following arguments are available, all but the first argument are optional:
+The following arguments are available:
 
 `ADDRESS` = text you enter on Google maps, wrap multiple words into quotes  
 `ZOOM` = zoom value, the default zoom is 15  
@@ -26,4 +26,5 @@ Example
 Embedding a map:
 
     [googlemaps Stockholm]
+    [googlemaps "Bredgatan 1, Lund, Sweden"]
     [googlemaps "Bredgatan 1, Lund, Sweden" 9 right 320 200]

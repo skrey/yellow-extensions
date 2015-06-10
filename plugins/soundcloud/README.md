@@ -13,7 +13,7 @@ How to embed an audio track?
 ----------------------------
 Create a `[soundcloud]` shortcut.
  
-The following arguments are available, all but the first argument are optional:
+The following arguments are available:
 
 `ID` = last part of a link, e.g. `http://api.soundcloud.com/tracks/101175715`  
 `STYLE` = audio track style, e.g. `left`, `center`, `right`  
@@ -25,4 +25,5 @@ Example
 Embedding an audio track:
 
     [soundcloud 101175715]
+    [soundcloud 101175715 left 200 166]
     [soundcloud 101175715 right 200 166]

@@ -1,4 +1,4 @@
-Breadcrumbs plugin 0.5.1
+Breadcrumbs plugin 0.5.2
 ========================
 Breadcrumbs navigation for website.
 
@@ -13,7 +13,7 @@ How to add breadcrumbs?
 -----------------------
 Create a `[breadcrumbs]` shortcut. 
 
-The following arguments are available, all but the first argument are optional:
+The following arguments are available:
  
 `SEPARATOR ` = text used between pages  
 `STYLE` = breadcrumbs style  
@@ -22,7 +22,8 @@ Example
 -------
 Adding breadcrumbs:
 
-    [breadcrumbs >]
+    [breadcrumbs]
+    [breadcrumbs /]
     [breadcrumbs / crumbs]
 
 Adding breadcrumbs to a content snippet:

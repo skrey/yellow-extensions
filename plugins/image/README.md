@@ -16,7 +16,7 @@ How to add an image?
 --------------------
 Create an `[image]` shortcut.
 
-The following arguments are available, all but the first argument are optional:
+The following arguments are available:
  
 `NAME` = file name  
 `TEXT` = text description  

@@ -13,7 +13,7 @@ How to embed a video?
 ---------------------
 Create a `[vimeo]` shortcut.
  
-The following arguments are available, all but the first argument are optional:
+The following arguments are available:
 
 `ID` = last part of a link, e.g. `http://vimeo.com/13387502`  
 `STYLE` = video style, e.g. `left`, `center`, `right`  
@@ -25,4 +25,5 @@ Example
 Embedding a video:
 
     [vimeo 13387502]
+    [vimeo 13387502 left 200 112]
     [vimeo 13387502 right 200 112]

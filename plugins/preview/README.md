@@ -14,7 +14,7 @@ How to add a preview?
 ---------------------
 Create a `[preview]` shortcut.
 
-The following arguments are available, all but the first argument are optional:
+The following arguments are available:
 
 `LOCATION ` = location of parent page  
 `STYLE` = preview list style  
@@ -26,6 +26,7 @@ Example
 -------
 Adding a preview:
 
+    [preview]
     [preview /themes/]
     [preview /themes/ fourpages 25%]
 
