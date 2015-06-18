@@ -5,7 +5,7 @@
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.5.5";
+	const Version = "0.5.6";
 	var $yellow;			//access to API
 	var $views;				//detected views
 
@@ -94,18 +94,16 @@ class YellowStats
 							list($line, $ip, $dummy1, $dummy2, $timestamp, $method, $location, $protocol, $status, $size, $referer, $userAgent) = $matches;
 							if(strtotime($timestamp) < $timeStop) break;
 							$location = rawurldecode(($pos = strposu($location, '?')) ? substru($location, 0, $pos) : $location);
-							$visitorRequestFilter = substru($timestamp, 0, 17).$method.$location;
-							if(preg_match("#$spamFilter#", $line) || $visitors[$ip]==$visitorRequestFilter || $location[0]!='/')
+							$visitorRequestThrottle = substru($timestamp, 0, 17).$method.$location;
+							if($visitors[$ip] == $visitorRequestThrottle) continue;
+							$visitors[$ip] = $visitorRequestThrottle;
+							if($this->checkRequestArguments($location, $referer))
 							{
-								if(defined("DEBUG") && DEBUG>=2) echo "YellowStats::analyseRequests spam:\"$method $location $protocol\" referer:$referer\n";
-								continue;
-							}
-							$visitors[$ip] = $visitorRequestFilter;
-							if(preg_match("#^$locationSelf#", $location))
-							{
+								if(!preg_match("#^$locationSelf#", $location)) continue;
 								if(preg_match("#^$locationSelf(.*)/($locationIgnore)/#", $location)) continue;
 								if(preg_match("#^$locationSelf(.*)/robots.txt$#", $location)) continue;
 								if(preg_match("#(bot|spider)#", $userAgent)) continue;
+								if(preg_match("#$spamFilter#", $line)) continue;
 								if($status>=301 && $status<=303) continue;
 								if($status < 400)
 								{
@@ -162,6 +160,12 @@ class YellowStats
 		$serverBase = $this->yellow->config->get("serverBase");
 		return !empty($serverScheme) && !empty($serverName) &&
 			$this->yellow->lookup->isValidLocation($serverBase) && $serverBase!="/";
+	}
+	
+	// Check request arguments
+	function checkRequestArguments($location, $referer)
+	{
+		return $location[0]=='/' && ($referer=="-" || substru($referer, 0, 4)=="http");
 	}
 	
 	// Return referer, ignore referers to self
