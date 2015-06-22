@@ -8,8 +8,9 @@ How do I install this?
 2. Download [search.php](search.php?raw=true), copy it into your `system/plugins` folder.  
 3. Download [search.html](search.html?raw=true), copy it into your `system/themes/templates` folder.  
 4. Download [content-search.php](content-search.php?raw=true) and [navigation-search.php](navigation-search.php?raw=true), copy them into your `system/themes/snippets` folder.  
-5. Create a new folder 'search' in your `content` folder.
-6. Add [page.txt](page.txt?raw=true) to your `content/search` folder.
+5. Download latest [language-en.ini](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/language-en.ini?raw=true), copy it into your `system/config` folder.
+6. Create a new folder 'search' in your `content` folder.
+7. Add [page.txt](page.txt?raw=true) to your `content/search` folder.
 
 To uninstall delete the plugin files.
 
