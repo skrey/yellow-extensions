@@ -1,5 +1,5 @@
-Contact plugin 0.5.1
-======================
+Contact plugin 0.5.2
+====================
 Email contact page for website.
 
 How do I install this?

@@ -1,5 +1,5 @@
 <div class="content main">
-<h1><?php echo $yellow->page->getHtml("title") ?></h1>
+<h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
 <?php if($yellow->page->get("status") != "done"): ?>
 <p class="<?php echo $yellow->page->getHtml("status") ?>"><?php echo $yellow->page->getHtml("contactStatus") ?></p>
 <form class="contact-form" action="<?php echo $yellow->page->getLocation() ?>" method="post">
