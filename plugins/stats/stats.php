@@ -5,7 +5,7 @@
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.5.6";
+	const Version = "0.5.7";
 	var $yellow;			//access to API
 	var $views;				//detected views
 
@@ -18,7 +18,7 @@ class YellowStats
 		$this->yellow->config->setDefault("statsLogDir", "/var/log/apache2/");
 		$this->yellow->config->setDefault("statsLogFile", "(.*)access.log");
 		$this->yellow->config->setDefault("statsLocationIgnore", "media|system|edit");
-		$this->yellow->config->setDefault("statsSpamFilter", "website.com");
+		$this->yellow->config->setDefault("statsSpamFilter", "bot|crawler|spider");
 	}
 
 	// Handle command help
@@ -102,8 +102,7 @@ class YellowStats
 								if(!preg_match("#^$locationSelf#", $location)) continue;
 								if(preg_match("#^$locationSelf(.*)/($locationIgnore)/#", $location)) continue;
 								if(preg_match("#^$locationSelf(.*)/robots.txt$#", $location)) continue;
-								if(preg_match("#(bot|spider)#", $userAgent)) continue;
-								if(preg_match("#$spamFilter#", $line)) continue;
+								if(preg_match("#$spamFilter#i", $userAgent)) continue;
 								if($status>=301 && $status<=303) continue;
 								if($status < 400)
 								{

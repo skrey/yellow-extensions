@@ -5,7 +5,7 @@
 // Contact plugin
 class YellowContact
 {
-	const Version = "0.5.1";
+	const Version = "0.5.2";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -49,7 +49,7 @@ class YellowContact
 		$spamFilter = $this->yellow->config->get("contactSpamFilter");
 		if(strempty(trim($_REQUEST["message"]))) $status = "incomplete";
 		if(!strempty($_REQUEST["from"]) && !filter_var($_REQUEST["from"], FILTER_VALIDATE_EMAIL)) $status = "invalid";
-		if(!strempty($_REQUEST["message"]) && preg_match("/$spamFilter/", $_REQUEST["message"])) $status = "error";
+		if(!strempty($_REQUEST["message"]) && preg_match("/$spamFilter/i", $_REQUEST["message"])) $status = "error";
 		$name = preg_replace("/[^\pL\d\-\. ]/u", "-", $_REQUEST["name"]);
 		$from = preg_replace("/[^\w\-\.\@ ]/", "-", $_REQUEST["from"]);
 		if($status == "send")
