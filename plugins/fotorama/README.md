@@ -1,4 +1,4 @@
-Fotorama plugin 0.1.0
+Fotorama plugin 0.1.1
 ========================
 A simple, stunning, powerful jQuery gallery.
 __Currently Experimental__
@@ -7,9 +7,9 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [fotorama.php](fotorama.php?raw=true), copy it into your `system/plugins` folder.  
-3. Download [fotorama.css](fotorama.css?raw=true) and [fotorama.js](fotorama.js?raw=true), copy them into your `system/plugins` folder as well.  
+plugins` folder as well.  
 
-To uninstall delete the plugin files.
+To uninstall delete the plugin.
 
 How to add fotorama to an image?
 --------------------------------
@@ -20,6 +20,7 @@ It's licensed under [MIT](http://opensource.org/licenses/MIT). For full Fotorama
 
 Future Road Map
 ---------------
-1. Conduct Further Testing
+1. Conduct further testing
 2. Add examples to documentation
 3. More integrated control and features
+4. Improve thumbnail performance?
