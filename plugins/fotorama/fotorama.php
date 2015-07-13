@@ -1,5 +1,5 @@
 <?php
-// Copyright (c) 2015 Jef Lippiatt, http://nogginfuel.co
+// Copyright (c) 2015 Jef Lippiatt, http://nogginfuel.com
 // This file may be used and distributed under the terms of the public license.
 
 // Fotorama plugin
