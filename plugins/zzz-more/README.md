@@ -10,3 +10,5 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 
 * [videojs](https://github.com/varakh/yellowcms-extensions-videojs)  
   Yellow plugin to have videojs/html5 video support.
+
+Created a new plugin? Awesome, add it to the list.
