@@ -1,4 +1,4 @@
-Markdown plugin 0.5.7
+Markdown plugin 0.5.8
 =====================
 Text formatting for humans.
 
