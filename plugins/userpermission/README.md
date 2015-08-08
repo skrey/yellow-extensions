@@ -18,6 +18,6 @@ All users are stored in file `system/config/user.ini`. The configuration file us
 
 Example
 -------
-Create a user account via [command line](https://github.com/datenstrom/yellow/wiki/Yellow-CLI), restrict edits to `http://website/wiki/`:
+Create a user account via [command line](https://github.com/datenstrom/yellow/wiki/Yellow-API#command-line), restrict edits to `http://website/wiki/`:
 
     php yellow.php user email@example.com horsebatterystaple Guest en /wiki/
