@@ -5,7 +5,7 @@ Yellow extensions
 Yellow is for people who make websites. [Visit the Yellow website](http://datenstrom.se/yellow).
 
 1. [Download Yellow extensions and unzip them](https://github.com/datenstrom/yellow-extensions/archive/master.zip).  
-2. Copy relevant files to your web hosting.  
-3. See individual extension for more information.
+2. Copy relevant files to your web hosting, see individual extension.  
+3. Open your website in a web browser. [Learn more](https://github.com/datenstrom/yellow/wiki).
 
 All files are licensed under [GPLv2](http://opensource.org/licenses/GPL-2.0) unless stated otherwise.
