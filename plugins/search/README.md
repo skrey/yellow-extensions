@@ -16,7 +16,7 @@ To uninstall delete the plugin files.
 
 How to use a search?
 --------------------
-The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. To show a [custom navigation](https://github.com/datenstrom/yellow/wiki/Yellow-customisation#custom-navigation) with search open file `system/config/config.ini` and change `navigation = navigation-search`. You can also add a link to the search somewhere on your website. See example below.
+The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. You can use a [custom navigation](https://github.com/datenstrom/yellow/wiki/Yellow-customisation#custom-navigation), open file `system/config/config.ini` and change `navigation = navigation-search`. You can also add a link to the search somewhere on your website. See example below.
 
 Example
 -------
