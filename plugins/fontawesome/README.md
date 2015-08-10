@@ -18,7 +18,7 @@ The plugin uses [Font Awesome v4.2.0](https://github.com/FortAwesome/Font-Awesom
 
 Example
 -------
-Adding an icon, Email and Twitter symbol:
+Adding an icon:
 
     <i class="fa fa-envelope-o></i> Email
     <i class="fa fa-twitter"></i> Twitter
