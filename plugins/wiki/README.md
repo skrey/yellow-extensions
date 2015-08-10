@@ -43,12 +43,8 @@ Content file for a new wiki page:
     ---
     This is a new wiki page.
 
-Showing recent pages, wiki at `http://website/wiki/`:
+Showing recently changed pages:
 
-    [wikirecent /wiki/]
-    [wikirecent /wiki/ 10]
-
-Showing recent pages, wiki at `http://website/`:
-
-    [wikirecent /]
+    [wikirecent]
     [wikirecent / 10]
+    [wikirecent /wiki/ 10]

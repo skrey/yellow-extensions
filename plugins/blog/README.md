@@ -46,12 +46,8 @@ Content file for a new blog page:
     ---
     This is a new blog page.
 
-Showing recent pages, blog at `http://website/blog/`:
+Showing recently changed pages:
 
-    [blogrecent /blog/]
-    [blogrecent /blog/ 10]
-
-Showing recent pages, blog at `http://website/`:
-
-    [blogrecent /]
+    [blogrecent]
     [blogrecent / 10]
+    [blogrecent /blog/ 10]
