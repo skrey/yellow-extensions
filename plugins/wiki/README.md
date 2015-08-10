@@ -35,16 +35,8 @@ The following arguments are available, all but the first argument are optional:
 
 Example
 -------
-Content file for a new wiki page:
-
-    ---
-    Title: Wiki page
-    Tag: Example
-    ---
-    This is a new wiki page.
-
 Showing recently changed pages:
 
     [wikirecent]
-    [wikirecent / 10]
     [wikirecent /wiki/ 10]
+    [wikirecent / 10]

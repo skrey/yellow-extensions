@@ -36,18 +36,8 @@ The following arguments are available:
 
 Example
 -------
-Content file for a new blog page:
-
-    ---
-    Title: Blog page
-    Published: 2013-04-07
-    Author: Anna Svensson
-    Tag: Example
-    ---
-    This is a new blog page.
-
 Showing recently changed pages:
 
     [blogrecent]
-    [blogrecent / 10]
     [blogrecent /blog/ 10]
+    [blogrecent / 10]
