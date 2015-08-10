@@ -16,6 +16,19 @@ To uninstall delete the plugin files.
 
 How to use a search?
 --------------------
-The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. To show a navigation with search open file `system/config/config.ini` and change `navigation = navigation-search`. You can also add a link to the search somewhere on your website.
+The search is available on your website as `http://website/search/`. It searches trough content and meta data of the entire website, only visible pages are included. To show a [custom navigation](https://github.com/datenstrom/yellow/wiki/Yellow-customisation#custom-navigation) with search open file `system/config/config.ini` and change `navigation = navigation-search`. You can also add a link to the search somewhere on your website. See example below.
 
-**Important**: This plugin does not work with static websites, it needs a Yellow installation.
+Example
+-------
+Footer snippet with search page:
+
+    <div class="footer">
+    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
+    <a href="<?php echo $yellow->page->base."/search/" ?>">Search</a>.
+    <a href="<?php echo $yellow->page->get("pageEdit") ?>">Edit</a>.
+    <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
+    </div>
+    </div>
+    <?php echo $yellow->page->getExtra("footer") ?>
+    </body>
+    </html>

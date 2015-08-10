@@ -18,8 +18,6 @@ How to use a contact page?
 --------------------------
 The contact page is available on your website as `http://website/contact/`. Your email address can be defined in the settings at the top of a page, for example `ContactEmail: user@user.com`. A global email address can be defined in the main configuration file. There's a spam filter to block unwanted advertising. You can add a link to the contact page somewhere on your website. See example below.
 
-**Important**: This plugin does not work with static websites, it needs a Yellow installation.
-
 Example
 -------
 Footer snippet with contact page:
