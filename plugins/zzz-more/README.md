@@ -2,6 +2,9 @@ More plugins
 ============
 Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yellow-community).
 
+* [cheet](https://github.com/nogginfuel/YellowCheet)  
+  Yellow plugin for easter eggs via key binds.
+
 * [musiclist](https://github.com/nibreh/yellowcms-musiclist)  
   Yellow snippet for music.
 
