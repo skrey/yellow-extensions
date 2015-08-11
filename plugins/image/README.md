@@ -24,7 +24,7 @@ The following arguments are available:
 `WIDTH` = image width, pixel or percent  
 `HEIGHT` = image height, pixel or percent   
 
-The plugin requires [GD graphics library](http://www.libgd.org/) by Thomas Boutell, for resizing JPEG and PNG images.
+The plugin uses [GD graphics library](http://www.libgd.org/) by Thomas Boutell for resizing JPEG and PNG images.
 
 Example
 -------
