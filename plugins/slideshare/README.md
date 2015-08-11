@@ -1,6 +1,6 @@
 Slideshare plugin 0.5.1
 =======================
-Embed [Slideshare](http://www.slideshare.net/) presentations.
+Embed Slideshare presentations.
 
 How do I install this?
 ----------------------
@@ -15,7 +15,7 @@ Create a `[slideshare]` shortcut.
 
 The following arguments are available:
 
-`ID` = last part of a link, e.g. `http://www.slideshare.net/slideshow/embed_code/16220047`  
+`ID` = last part of a [Slideshare](http://www.slideshare.net/) link, e.g. `http://www.slideshare.net/slideshow/embed_code/16220047`  
 `STYLE` = presentation style, e.g. `left`, `center`, `right`  
 `WIDTH` = presentation width, pixel or percent  
 `HEIGHT` = presentation height, pixel or percent   

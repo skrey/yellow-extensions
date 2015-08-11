@@ -1,6 +1,6 @@
 Soundcloud plugin 0.5.1
 =======================
-Embed [Soundcloud](http://www.soundcloud.com/) audio tracks.
+Embed Soundcloud audio tracks.
 
 How do I install this?
 ----------------------
@@ -15,7 +15,7 @@ Create a `[soundcloud]` shortcut.
  
 The following arguments are available:
 
-`ID` = last part of a link, e.g. `http://api.soundcloud.com/tracks/101175715`  
+`ID` = last part of a [Soundcloud](http://www.soundcloud.com/) link, e.g. `http://api.soundcloud.com/tracks/101175715`  
 `STYLE` = audio track style, e.g. `left`, `center`, `right`  
 `WIDTH` = audio track width, pixel or percent  
 `HEIGHT` = audio track height, pixel or percent   

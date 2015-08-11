@@ -1,6 +1,6 @@
 Piwik plugin 0.5.3
 ==================
-Add [Piwik](http://piwik.org) statistics to website.
+Add Piwik statistics to website.
 
 How do I install this?
 ----------------------

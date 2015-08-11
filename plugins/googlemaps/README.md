@@ -1,6 +1,6 @@
 Googlemaps plugin 0.5.1
 =======================
-Embed [Google maps](https://maps.google.com/).
+Embed Google maps.
 
 How do I install this?
 ----------------------
@@ -15,7 +15,7 @@ Create a `[googlemaps]` shortcut.
 
 The following arguments are available:
 
-`ADDRESS` = text you enter on Google maps, wrap multiple words into quotes  
+`ADDRESS` = text you enter on [Google maps](https://maps.google.com/), wrap multiple words into quotes  
 `ZOOM` = zoom value, the default zoom is 15  
 `STYLE` = map style, e.g. `left`, `center`, `right`  
 `WIDTH` = map width, pixel or percent  
