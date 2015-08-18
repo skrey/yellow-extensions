@@ -5,7 +5,7 @@ Image gallery with slider.
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [fotorama.php](gallery.php?raw=true), copy it into your `system/plugins` folder.  
+2. Download [fotorama.php](fotorama.php?raw=true), copy it into your `system/plugins` folder.  
 
 To uninstall delete the plugin.
 
