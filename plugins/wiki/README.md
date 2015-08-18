@@ -1,6 +1,6 @@
 Wiki plugin 0.5.6
 =================
-Wiki for your website. [Demo](http://demo.datenstrom.se/wiki/).
+Wiki for your website. [See demo](http://demo.datenstrom.se/wiki/).
 
 [![Screenshot](wiki-plugin.jpg?raw=true)](http://demo.datenstrom.se/wiki/)
 

@@ -1,6 +1,6 @@
 Knowhow theme 0.5.5
 ===================
-Knowhow is a theme for a GitHub-like knowledge base. [Demo](http://demo.datenstrom.se/themes/knowhow-theme).
+Knowhow is a theme for a GitHub-like knowledge base. [See demo](http://demo.datenstrom.se/themes/knowhow-theme).
 
 [![Screenshot](knowhow-theme.jpg?raw=true)](http://demo.datenstrom.se/themes/knowhow-theme)
 

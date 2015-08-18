@@ -1,6 +1,6 @@
 Youtube plugin 0.5.1
 ====================
-Embed Youtube videos. [Demo](http://demo.datenstrom.se/wiki/video-example).
+Embed Youtube videos. [See demo](http://demo.datenstrom.se/wiki/video-example).
 
 [![Screenshot](youtube-plugin.jpg?raw=true)](http://demo.datenstrom.se/wiki/video-example)
 

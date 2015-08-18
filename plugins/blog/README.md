@@ -1,6 +1,6 @@
 Blog plugin 0.5.6
 =================
-Blog for your website. [Demo](http://demo.datenstrom.se/blog/).
+Blog for your website. [See demo](http://demo.datenstrom.se/blog/).
 
 [![Screenshot](blog-plugin.jpg?raw=true)](http://demo.datenstrom.se/blog/)
 

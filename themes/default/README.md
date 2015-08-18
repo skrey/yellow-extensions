@@ -1,6 +1,6 @@
 Default theme 0.5.5
 ===================
-The theme that comes with Yellow. [Demo](http://demo.datenstrom.se/themes/default-theme).
+The theme that comes with Yellow. [See demo](http://demo.datenstrom.se/themes/default-theme).
 
 [![Screenshot](default-theme.jpg?raw=true)](http://demo.datenstrom.se/themes/default-theme)
 
