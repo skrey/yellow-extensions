@@ -1,26 +1,30 @@
-Fotorama plugin 0.1.1
-========================
-A simple, stunning, powerful jQuery gallery.
-__Currently Experimental__
+Fotorama plugin 0.5.1 
+=====================
+Image gallery with slider.
 
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [fotorama.php](fotorama.php?raw=true), copy it into your `system/plugins` folder.  
-plugins` folder as well.  
 
 To uninstall delete the plugin.
 
-How to add fotorama to an image?
---------------------------------
-Create an element in the format `<div class="fotorama"></div>`, you can add additional styles to the class. 
+How to add a gallery?
+---------------------
+Create a `[fotorama]` shortcut.
 
-The plugin uses [Fotorama v4.6.4](https://github.com/artpolikarpov/fotorama) by Artem Polikarpov.
-It's licensed under [MIT](http://opensource.org/licenses/MIT). For full Fotorama documentation please visit its [website](http://fotorama.io/)
+The following arguments are available:
+  
+`PATTERN` = file name as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+`STYLE` = gallery style  
+`NAV` = navigation style: dots, thumbs, false
 
-Future Road Map
----------------
-1. Conduct further testing
-2. Add examples to documentation
-3. More integrated control and features
-4. Improve thumbnail performance?
+The plugin uses [Fotorama v4.6.4](http://fotorama.io/) by Artem Polikarpov, which is based on jQuery. It's licensed under [MIT license](http://opensource.org/licenses/MIT). Fotorama supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
+
+Example
+-------
+Adding an image gallery:
+
+    [fotorama]
+    [fotorama photo.*jpg]
+    [fotorama photo.*jpg - thumbs]
