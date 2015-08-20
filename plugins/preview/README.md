@@ -33,4 +33,4 @@ Adding a preview:
 CSS for four pages in a row:
 
     .content .fourpages { margin:0; padding:0; list-style:none; width:100%; }
-    .content .fourpages li { padding-bottom:1em; text-align:center; white-space:nowrap; display:inline-block; width:24%; }
+    .content .fourpages li { padding-bottom:1em; text-align:center; vertical-align:top; display:inline-block; width:24%; }
