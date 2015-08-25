@@ -5,7 +5,7 @@
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.5.7";
+	const Version = "0.5.8";
 	var $yellow;			//access to API
 	var $views;				//detected views
 
@@ -75,10 +75,11 @@ class YellowStats
 		if(!empty($fileNames))
 		{
 			$statusCode = 200;
-			$sites = $content = $errors = $visitors = array();
+			$sites = $content = $errors = $clients = array();
 			$timeStop = time() - (60 * 60 * 24 * $days);
 			$locationSelf = $this->yellow->config->get("serverBase");
 			$locationIgnore = $this->yellow->config->get("statsLocationIgnore");
+			$refererSelf = $this->yellow->config->get("serverName").$this->yellow->config->get("serverBase");
 			$spamFilter = $this->yellow->config->get("statsSpamFilter");
 			foreach($fileNames as $fileName)
 			{
@@ -94,20 +95,21 @@ class YellowStats
 							list($line, $ip, $dummy1, $dummy2, $timestamp, $method, $location, $protocol, $status, $size, $referer, $userAgent) = $matches;
 							if(strtotime($timestamp) < $timeStop) break;
 							$location = rawurldecode(($pos = strposu($location, '?')) ? substru($location, 0, $pos) : $location);
-							$visitorRequestThrottle = substru($timestamp, 0, 17).$method.$location;
-							if($visitors[$ip] == $visitorRequestThrottle) continue;
-							$visitors[$ip] = $visitorRequestThrottle;
-							if($this->checkRequestArguments($location, $referer))
+							$referer = $this->getReferer($referer, $refererSelf);
+							$clientsRequestThrottle = substru($timestamp, 0, 17).$method.$location;
+							if($clients[$ip] == $clientsRequestThrottle) { --$sites[$referer]; continue; }
+							$clients[$ip] = $clientsRequestThrottle;
+							if($this->checkRequestArguments($method, $location, $referer))
 							{
 								if(!preg_match("#^$locationSelf#", $location)) continue;
 								if(preg_match("#^$locationSelf(.*)/($locationIgnore)/#", $location)) continue;
 								if(preg_match("#^$locationSelf(.*)/robots.txt$#", $location)) continue;
-								if(preg_match("#$spamFilter#i", $userAgent)) continue;
+								if(preg_match("#$spamFilter#i", $referer.$userAgent)) continue;
 								if($status>=301 && $status<=303) continue;
 								if($status < 400)
 								{
 									++$content[$this->getUrl($location)];
-									++$sites[$this->getReferer($referer)];
+									++$sites[$referer];
 									++$this->views;
 								} else {
 									++$errors[$this->getUrl($location)." - ".$this->getErrorFormatted($status)];
@@ -144,7 +146,7 @@ class YellowStats
 		{
 			echo "$text\n\n";
 			uasort($array, strnatcasecmp);
-			$array = array_reverse($array);
+			$array = array_reverse(array_filter($array, function($value) { return $value>0; }));
 			$array = array_slice($array, 0, $this->yellow->config->get("statsLinesMax"));
 			foreach($array as $key=>$value) echo "- $value $key\n";
 			echo "\n";
@@ -162,15 +164,15 @@ class YellowStats
 	}
 	
 	// Check request arguments
-	function checkRequestArguments($location, $referer)
+	function checkRequestArguments($method, $location, $referer)
 	{
-		return $location[0]=='/' && ($referer=="-" || substru($referer, 0, 4)=="http");
+		return (($method=="GET" || $method=="POST") && $location[0]=='/' && ($referer=="-" || substru($referer, 0, 4)=="http"));
 	}
 	
 	// Return referer, ignore referers to self
-	function getReferer($referer)
+	function getReferer($referer, $refererSelf)
 	{
-		$refererSelf = $this->yellow->config->get("serverName").$this->yellow->config->get("serverBase");
+		if(preg_match("#^(\w+:\/\/[^/]+)$#", $referer)) $referer .= '/';
 		return preg_match("#$refererSelf#i", $referer) ? "-" : $referer;
 	}
 	
