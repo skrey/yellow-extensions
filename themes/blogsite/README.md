@@ -1,4 +1,4 @@
-Blogsite theme 0.5.5
+Blogsite theme 0.5.7
 ====================
 Blogsite is a basic blogger theme. [See demo](http://demo.datenstrom.se/themes/blogsite-theme).
 
