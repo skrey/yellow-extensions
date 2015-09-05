@@ -5,4 +5,4 @@ Themes by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yello
 * [envisioned](https://github.com/nogginfuel/YellowCMS-Envisioned-Theme)  
   Envisioned is a minimalistic theme inspired by Edward Tufte.
 
-Created a new plugin? Awesome, add it to the list.
+Created a new theme? Awesome, add it to the list.
