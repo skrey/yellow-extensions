@@ -9,12 +9,15 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
   Yellow plugin with a WYSIWYG style toolbar for editing a page. 
 
 * [medialist](https://github.com/nibreh/yellowcms-medialist)  
-  Yellow plugin for listing files (audio, pdf, etc).
+  Yellow plugin for listing MP3/OGG/PDF media files.
 
 * [replacetext](https://github.com/varakh/yellowcms-extensions-replacetext)  
   Yellow plugin to have emoji support.
 
 * [videojs](https://github.com/varakh/yellowcms-extensions-videojs)  
-  Yellow plugin to have videojs/html5 video support.
+  Yellow plugin to have VideoJS/HTML5 video support.
+
+* [ycssg](https://github.com/dieli/yellow-extension-ycssg)  
+  Yellow plugin for image gallery in CSS only.
 
 Created a new plugin? Awesome, add it to the list.
