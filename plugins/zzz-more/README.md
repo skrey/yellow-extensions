@@ -5,6 +5,9 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [cheet](https://github.com/nogginfuel/YellowCheet)  
   Yellow plugin for easter eggs via key binds.
 
+* [markbar](https://github.com/nibreh/yellowcms-markbar)  
+  Yellow plugin with a WYSIWYG style toolbar for editing a page. 
+
 * [medialist](https://github.com/nibreh/yellowcms-medialist)  
   Yellow plugin for listing files (audio, pdf, etc).
 
