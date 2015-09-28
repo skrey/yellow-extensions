@@ -2,6 +2,7 @@
     "name": "datenstrom/yellow-extensions",
     "description": "Yellow extensions with languages, plugins and themes.",
     "keywords": ["yellow", "flat-file", "cms"],
+    "license": "GPL-2.0",
     "extra": {
         "YellowBlog": "0.5.7",
         "YellowBreadcrumbs": "0.5.2",
