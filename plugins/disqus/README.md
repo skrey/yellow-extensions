@@ -12,4 +12,4 @@ To uninstall delete the plugin.
 
 How to show comments?
 ---------------------
-The comments are shown with [Disqus](http://disqus.com), which is a comment service for websites. To use the plugin open file `system/config/config.ini` and add `disqusShortname`. You can find the name of your website in the Disqus dashboard.
+The comments are shown with [Disqus](http://disqus.com), which is a comment service for websites. To use the plugin open file `system/config/config.ini` and add `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard.
