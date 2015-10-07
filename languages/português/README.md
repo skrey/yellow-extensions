@@ -6,6 +6,6 @@ Como faço a instalação disto?
 -----------------------------
 1. Faça o download e a instalação do [Yellow](https://github.com/datenstrom/yellow/).  
 2. Faça o download do ficheiro [language-pt.ini](language-pt.ini?raw=true) e copie para a sua pasta `system/config`.  
-3. Use a linguaguem abrindo o ficheiro `system/config/config.ini` e alterando `language = pt`.
+3. Use a linguaguem abrindo o ficheiro `system/config/config.ini` e alterando `Language: pt`.
 
 Para desinstalar, apague o ficheiro da linguagem e reverta para as definições padrão.
