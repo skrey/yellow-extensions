@@ -1,4 +1,4 @@
-Bahasa Indonesia 0.5.2
+Bahasa Indonesia 0.6.1
 ======================
 Teks Bahasa Indonesia untuk Yellow dan ekstensi-ekstensinya.
 

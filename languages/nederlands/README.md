@@ -1,4 +1,4 @@
-Nederlandse taal 0.5.2
+Nederlandse taal 0.6.1
 ======================
 Nederlandse tekst voor Yellow en extensies.
 

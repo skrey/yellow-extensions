@@ -1,4 +1,4 @@
-Dansk sprog 0.5.2
+Dansk sprog 0.6.1
 =================
 Dansk tekst for Yellow og dets udvidelser
 

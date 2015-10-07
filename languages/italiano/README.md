@@ -1,4 +1,4 @@
-Lingua Italiano 0.5.2
+Lingua Italiano 0.6.1
 =====================
 Testo Italiano per Yellow e le sue estensioni.
 

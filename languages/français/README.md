@@ -1,4 +1,4 @@
-Langue Française 0.5.2
+Langue Française 0.6.1
 ======================
 Textes en français pour Yellow et ses extensions.
 

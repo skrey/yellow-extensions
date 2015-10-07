@@ -1,4 +1,4 @@
-Deutsche Sprache 0.5.2
+Deutsche Sprache 0.6.1
 ======================
 Deutsche Texte für Yellow und Erweiterungen.
 

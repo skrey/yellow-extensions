@@ -1,4 +1,4 @@
-Lenguaje Español 0.5.2
+Lenguaje Español 0.6.1
 ======================
 Texto español para Yellow y sus extensiones.
 

@@ -1,4 +1,4 @@
-Český jazyk 0.5.2
+Český jazyk 0.6.1
 =================
 Český překlad pro Yellow a jeho rozšíření.
 
