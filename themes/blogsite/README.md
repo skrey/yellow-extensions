@@ -8,7 +8,7 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [blogsite.css](blogsite.css?raw=true) and [blogsite-banner.jpg](blogsite-banner.jpg?raw=true), copy them into your `system/themes` folder.  
-3. To enable the theme open file `system/config/config.ini` and change `theme = blogsite`.  
+3. To enable the theme open file `system/config/config.ini` and change `Theme: blogsite`.  
 
 To uninstall delete the theme files and set default settings.
 
