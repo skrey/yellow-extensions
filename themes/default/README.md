@@ -1,4 +1,4 @@
-Default theme 0.5.7
+Default theme 0.6.1
 ===================
 The theme that comes with Yellow. [See demo](http://demo.datenstrom.se/themes/default-theme).
 
