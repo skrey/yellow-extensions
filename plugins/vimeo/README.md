@@ -1,4 +1,4 @@
-Vimeo plugin 0.5.1
+Vimeo plugin 0.6.1
 ==================
 Embed Vimeo videos.
 

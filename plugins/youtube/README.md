@@ -1,4 +1,4 @@
-Youtube plugin 0.5.1
+Youtube plugin 0.6.1
 ====================
 Embed Youtube videos. [See demo](http://demo.datenstrom.se/wiki/video-example).
 
