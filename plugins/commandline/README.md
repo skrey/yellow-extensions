@@ -1,6 +1,6 @@
 Commandline plugin 0.6.1
 ========================
-Command line interface for Yellow.
+Execute commands in a terminal window.
 
 How do I install this?
 ----------------------
@@ -12,14 +12,6 @@ To uninstall delete the plugin.
 How to execute commands?
 ------------------------
 Go to your Yellow installation, where the yellow.php is. The following commands are available:
-
-```
-php yellow.php build [DIRECTORY LOCATION]
-php yellow.php clean [DIRECTORY LOCATION]
-php yellow.php stats [DAYS FILENAME]
-php yellow.php user [EMAIL PASSWORD NAME LANGUAGE STATUS HOME]
-php yellow.php version
-```
 
 **php yellow.php**  
 Show available commands
@@ -43,13 +35,14 @@ Example
 -------
 Showing software version:
 
-`php yellow.php version`
+`php yellow.php`
 
 Here's an example output:
 ~~~~
 Yellow 0.6.1
-YellowCommandline 0.6.1
-YellowCore 0.6.1
-YellowMarkdown 0.6.1
-YellowWebinterface 0.6.1
+Syntax: yellow.php build [DIRECTORY LOCATION]
+        yellow.php clean [DIRECTORY LOCATION]
+        yellow.php stats [DAYS FILENAME]
+        yellow.php user [EMAIL PASSWORD NAME LANGUAGE STATUS HOME]
+        yellow.php version
 ~~~~
