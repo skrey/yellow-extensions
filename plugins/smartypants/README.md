@@ -1,4 +1,4 @@
-Smartypants plugin 0.5.1
+Smartypants plugin 0.6.1
 ========================
 Better text formatting for humans.
 

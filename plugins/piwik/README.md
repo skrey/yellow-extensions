@@ -1,4 +1,4 @@
-Piwik plugin 0.5.3
+Piwik plugin 0.6.1
 ==================
 Add Piwik statistics to website.
 

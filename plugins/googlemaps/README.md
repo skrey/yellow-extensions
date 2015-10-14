@@ -1,4 +1,4 @@
-Googlemaps plugin 0.5.1
+Googlemaps plugin 0.6.1
 =======================
 Embed Google maps.
 

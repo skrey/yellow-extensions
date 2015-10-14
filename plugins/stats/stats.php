@@ -5,7 +5,7 @@
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.5.8";
+	const Version = "0.6.1";
 	var $yellow;			//access to API
 	var $views;				//detected views
 

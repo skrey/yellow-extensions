@@ -5,7 +5,7 @@
 // Smartypants plugin
 class YellowSmartypants
 {
-	const Version = "0.5.1";
+	const Version = "0.6.1";
 	var $yellow;		//access to API
 	
 	// Handle plugin initialisation

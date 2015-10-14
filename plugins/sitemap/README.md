@@ -1,4 +1,4 @@
-Sitemap plugin 0.5.4
+Sitemap plugin 0.6.1
 ====================
 Sitemap for website.
 

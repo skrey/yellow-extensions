@@ -33,7 +33,7 @@ Show software version
 
 Example
 -------
-Showing software version:
+Showing available commands:
 
 `php yellow.php`
 

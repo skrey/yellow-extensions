@@ -1,4 +1,4 @@
-Soundcloud plugin 0.5.1
+Soundcloud plugin 0.6.1
 =======================
 Embed Soundcloud audio tracks.
 

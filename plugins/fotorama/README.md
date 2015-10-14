@@ -1,4 +1,4 @@
-Fotorama plugin 0.5.2
+Fotorama plugin 0.6.1
 =====================
 Image gallery with slider.
 

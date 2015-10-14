@@ -1,4 +1,4 @@
-TOC plugin 0.5.2
+TOC plugin 0.6.1
 ================
 Table of contents.
 
