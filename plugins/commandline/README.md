@@ -11,7 +11,7 @@ To uninstall delete the plugin.
 
 How to execute commands?
 ------------------------
-The following commands are available:
+Open a terminal window. The following commands are available:
 
 **php yellow.php**  
 Show available commands
