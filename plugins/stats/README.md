@@ -23,7 +23,6 @@ Creating statistics, different duration and file name:
 `php yellow.php stats 1`  
 `php yellow.php stats 30 /var/log/apache2/website_access.log` 
 
-Here's an example output:
 ~~~~
 Referring sites
 

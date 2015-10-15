@@ -11,7 +11,7 @@ To uninstall delete the plugin.
 
 How to execute commands?
 ------------------------
-Open a terminal window. The following commands are available:
+Open a terminal window. Go to your Yellow installation. The following commands are available:
 
 **php yellow.php**  
 Show available commands
@@ -29,7 +29,7 @@ Create [statistics with the stats plugin](https://github.com/datenstrom/yellow-e
 Update [user account](https://github.com/datenstrom/yellow/wiki/How-to-add-a-user-account#adding-user-via-command-line)
 
 **php yellow.php version**  
-Show software version and updates
+Show [software version and updates](https://github.com/datenstrom/yellow/wiki/Yellow-API#information)
 
 The plugin uses the [cURL library](https://github.com/bagder/curl) by Daniel Stenberg for software updates.
 
@@ -39,7 +39,6 @@ Showing available commands:
 
 `php yellow.php`
 
-Here's an example output:
 ~~~~
 Yellow 0.6.1
 Syntax: yellow.php build [DIRECTORY LOCATION]
