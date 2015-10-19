@@ -14,6 +14,9 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [replacetext](https://github.com/varakh/yellowcms-extensions-replacetext)  
   Yellow plugin to have emoji support.
 
+* [sublime](https://github.com/nashv/YellowBlogExtensions)  
+  Yellow blog extensions for Sublime Text.
+
 * [videojs](https://github.com/varakh/yellowcms-extensions-videojs)  
   Yellow plugin to have VideoJS/HTML5 video support.
 
