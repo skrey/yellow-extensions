@@ -28,7 +28,7 @@ Referring sites
 
 - 181 http://www.queness.com/post/16142/11-lightning-fast-flat-file-cms
 - 159 http://www.datamation.com/open-source/50-noteworthy-new-open-source-projects-1.html
-- 48 http://upload-magazin.de/blog/9199-keep-it-simple-vom-one-pager-zum-flat-file-cms/
+- 52 http://www.hongkiat.com/blog/flat-cms/
 - 27 http://trendschau.net/blog/uebersicht-flat-file-cms
 - 24 http://www.sunarlim.com/2014/03/flat-file-cms-comparison/
 
@@ -37,7 +37,6 @@ Popular content
 - 980 http://datenstrom.se/yellow/
 - 442 http://datenstrom.se/
 - 305 http://datenstrom.se/ideas/
-- 177 http://datenstrom.se/ideas/ideas-for-a-new-flat-file-cms-software
 - 101 http://datenstrom.se/contact/
 
 Error pages

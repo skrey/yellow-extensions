@@ -60,7 +60,7 @@ class YellowStats
 			$statusCode = 500;
 			$this->views = 0;
 			$fileName = $this->yellow->config->get("configDir").$this->yellow->config->get("configFile");
-			echo "ERROR checking configuration: Please set serverScheme, serverName and serverBase in file '$fileName'!\n";
+			echo "ERROR creating statistics: Please configure ServerScheme, ServerName,  ServerBase, ServerTime in file '$fileName'!\n";
 		}
 		echo "Yellow $command: $days day".($days!=1 ? 's' : '').", ";
 		echo "$this->views view".($this->views!=1 ? 's' : '')."\n";
@@ -92,9 +92,9 @@ class YellowStats
 					{
 						if(preg_match("/^(\S+) (\S+) (\S+) \[(.+)\] \"(\S+) (.*?) (\S+)\" (\S+) (\S+) \"(.*?)\" \"(.*?)\"$/", $line, $matches))
 						{
-							list($line, $ip, $dummy1, $dummy2, $timestamp, $method, $location, $protocol, $status, $size, $referer, $userAgent) = $matches;
+							list($line, $ip, $dummy1, $dummy2, $timestamp, $method, $uri, $protocol, $status, $size, $referer, $userAgent) = $matches;
 							if(strtotime($timestamp) < $timeStop) break;
-							$location = rawurldecode(($pos = strposu($location, '?')) ? substru($location, 0, $pos) : $location);
+							$location = $this->getLocation($uri);
 							$referer = $this->getReferer($referer, $refererSelf);
 							$clientsRequestThrottle = substru($timestamp, 0, 17).$method.$location;
 							if($clients[$ip] == $clientsRequestThrottle) { --$sites[$referer]; continue; }
@@ -167,6 +167,13 @@ class YellowStats
 	function checkRequestArguments($method, $location, $referer)
 	{
 		return (($method=="GET" || $method=="POST") && $location[0]=='/' && ($referer=="-" || substru($referer, 0, 4)=="http"));
+	}
+	
+	// Return location, decode logfile-encoding and URL-encoding
+	function getLocation($uri)
+	{
+		$uri = preg_replace_callback("#(\\\x[0-9a-f]{2})#", function($matches) { return chr(hexdec($matches[1])); }, $uri);
+		return rawurldecode(($pos = strposu($uri, '?')) ? substru($uri, 0, $pos) : $uri);
 	}
 	
 	// Return referer, ignore referers to self
