@@ -1,4 +1,4 @@
-Gallery plugin 0.6.1
+Gallery plugin 0.6.2
 ====================
 Image gallery with popup. [See demo](http://demo.datenstrom.se/wiki/gallery-example).
 
@@ -31,3 +31,9 @@ Adding an image gallery:
     [gallery]
     [gallery photo.*jpg - 20%]
     [gallery photo.*jpg simple 20%]
+
+Adding an image gallery, square thumbnails:
+
+    [gallery photo.*jpg - 64]
+    [gallery photo.*jpg - 150]
+    [gallery photo.*jpg simple 150]
