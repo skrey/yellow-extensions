@@ -36,7 +36,7 @@ The following arguments are available:
 
 Example
 -------
-Showing recently changed pages:
+Showing recently published pages:
 
     [blogrecent]
     [blogrecent /blog/ 10]
