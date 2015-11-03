@@ -1,6 +1,6 @@
-English language 0.6.1
+Hungarian language 0.0.1
 ======================
-English text for Yellow and extensions.
+Hungarian text for Yellow and extensions.
 
 How do I install this?
 ----------------------
