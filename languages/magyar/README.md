@@ -1,11 +1,11 @@
-Hungarian language 0.0.1
+Magyar nyelv V 0.0.2
 ======================
-Hungarian text for Yellow and extensions.
+Yellow magyar fordítása.
 
-How do I install this?
+Hogyan kell telepíteni?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [language-en.ini](language-en.ini?raw=true), copy it into your `system/config` folder.  
-3. To enable the language open file `system/config/config.ini` and change `Language: en`.
+1. Töltsd le [Yellow](https://github.com/datenstrom/yellow/).  
+2. Töltsd le [language-hu.ini](language-hu.ini?raw=true), másold a `system/config` mappába.  
+3. A nyelv használatához módosítanod kell a konfigurációs fájlt `system/config/config.ini`, Változtasd meg  `Language: hu`.
 
-To uninstall delete the language file and set default settings.
+A nyelv törléséhez töröld ki a nyelv fájlt és állítsd vissza az alapértelmezett beállítást.
