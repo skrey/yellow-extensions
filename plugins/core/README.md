@@ -11,4 +11,4 @@ Do not delete this plugin, it's always required.
 
 How to use the core?
 --------------------
-The core contains the most important functionality for your website. The installation of Yellow doesn't come with a lot of features. You get the most important things to build a website and can add more. You can use the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/commandline) to show software version and updates. 
+The installation of Yellow doesn't come with a lot of features. You get the most important things to build a website and can add more. This plugin provides the core functionality for your website. You can use the [Yellow API](http://local.datenstrom.se/user/mark-doc/Yellow-API) to create plugins with additional features. You can use the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/commandline) to show software version and updates. 

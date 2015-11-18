@@ -1,6 +1,6 @@
 Commandline plugin 0.6.1
 ========================
-Execute commands in a terminal window.
+Run commands in a terminal window.
 
 How do I install this?
 ----------------------
@@ -9,18 +9,20 @@ How do I install this?
 
 To uninstall delete the plugin.
 
-How to execute commands?
-------------------------
-Open a terminal window. Go to your Yellow installation. The following commands are available:
+How to run a command?
+---------------------
+Yellow offers commands that you run from within a folder containing the Yellow installation. Open a terminal window.  Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php` to show available commands. The plugin uses the [cURL library](https://github.com/bagder/curl) by Daniel Stenberg for software updates.
+
+The following commands are available:
 
 **php yellow.php**  
 Show available commands
 
 **php yellow.php build [DIRECTORY LOCATION]**  
-Build [static pages](https://github.com/datenstrom/yellow/wiki/Web-server-configuration#static-pages)
+Build [static files](https://github.com/datenstrom/yellow/wiki/Web-server-configuration#static-website)
 
 **php yellow.php clean [DIRECTORY LOCATION]**  
-Clean [static pages](https://github.com/datenstrom/yellow/wiki/Web-server-configuration#static-pages)
+Clean [static files](https://github.com/datenstrom/yellow/wiki/Web-server-configuration#static-website)
 
 **php yellow.php stats [DAYS FILENAME]**  
 Create [statistics with the stats plugin](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/stats)
@@ -29,9 +31,7 @@ Create [statistics with the stats plugin](https://github.com/datenstrom/yellow-e
 Update [user account](https://github.com/datenstrom/yellow/wiki/How-to-add-a-user-account#adding-user-via-command-line)
 
 **php yellow.php version**  
-Show [software version and updates](https://github.com/datenstrom/yellow/wiki/Yellow-API#information)
-
-The plugin uses the [cURL library](https://github.com/bagder/curl) by Daniel Stenberg for software updates.
+Show software version and updates
 
 Example
 -------
