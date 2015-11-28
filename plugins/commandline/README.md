@@ -11,7 +11,7 @@ To uninstall delete the plugin.
 
 How to run a command?
 ---------------------
-Yellow offers commands that you run from within a folder containing the Yellow installation. Open a terminal window.  Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php` to show available commands. The plugin uses the [cURL library](https://github.com/bagder/curl) by Daniel Stenberg for software updates.
+Yellow offers commands that you run from within a folder containing the Yellow installation. Open a terminal window.  Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php` to show a list of the available commands. The plugin uses the [cURL library](https://github.com/bagder/curl) by Daniel Stenberg for software updates.
 
 The following commands are available:
 
@@ -28,7 +28,7 @@ Clean [static files](https://github.com/datenstrom/yellow/wiki/Web-server-config
 Create [statistics with the stats plugin](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/stats)
 
 **php yellow.php user [EMAIL PASSWORD NAME LANGUAGE STATUS HOME]**  
-Update [user account](https://github.com/datenstrom/yellow/wiki/How-to-add-a-user-account#adding-user-via-command-line)
+Update [user account with the webinterface plugin](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/webinterface)
 
 **php yellow.php version**  
 Show software version and updates

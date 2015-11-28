@@ -17,7 +17,7 @@ This plugins analyses your web server logfiles, use [Piwik](https://github.com/d
 
 Example
 -------
-Creating statistics, different duration and file name:
+Creating statistics at the command line:
 
 `php yellow.php stats`  
 `php yellow.php stats 1`  
