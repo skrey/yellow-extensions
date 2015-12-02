@@ -11,4 +11,14 @@ Do not delete this plugin, it's always required.
 
 How to use the core?
 --------------------
-The plugin provides the core features for your website. It takes care of requests, access to the file system, loading configurations and text strings. You can use the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/commandline) to show software version and updates. You can customise your website in many ways. [Learn more](https://github.com/datenstrom/yellow/wiki/Yellow-customisation).
+The plugin provides the core features for your website. It takes care of requests, access to the file system, loading configurations and text strings. To show information about your website create a `[debug]` shortcut. You can use the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/commandline) to show software version and updates.  You can customise your website in many ways. [Learn more](https://github.com/datenstrom/yellow/wiki/Yellow-customisation).
+
+Example
+-------
+Showing debug information:
+
+```
+[debug]
+[debug version]
+[debug server]
+```
