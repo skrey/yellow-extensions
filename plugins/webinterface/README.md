@@ -15,7 +15,7 @@ The fist option is to create a user account [online](https://demo.datenstrom.se/
 
 How to edit a website?
 ----------------------
-Click the edit link on a page. You can browse your website, use the normal navigation, make some changes and see the result. You can write text like an email and it becomes a web page, see [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/markdown) for more information. To show an edit link add an `[edit]` shortcut to a page. Please enable secure connection, if your web server supports it. [Learn more](https://github.com/datenstrom/yellow/wiki/Security-configuration).
+Click the edit link on a page. You can browse your website, use the normal navigation, make some changes and see the result. You can write text like an email and it becomes a web page, see [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/plugins/markdown) for more information. To show an edit link add an `[edit]` shortcut to a page.
 
 Example
 -------
