@@ -5,11 +5,17 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [cheet](https://github.com/nogginfuel/YellowCheet)  
   Yellow plugin for easter eggs via key binds.
 
+* [dynamiccss](https://github.com/richi/yellowcms-dynamiccss)  
+  Yellow plugin with a small preprocessor for your CSS files.
+
 * [markbar](https://github.com/nibreh/yellowcms-markbar)  
   Yellow plugin with a WYSIWYG style toolbar for editing a page. 
 
 * [medialist](https://github.com/nibreh/yellowcms-medialist)  
   Yellow plugin for listing MP3/OGG/PDF media files.
+
+* [pagetxt](https://github.com/richi/yellowcms-pagetxt)  
+  Yellow plugin for overwriting language entries in a page.
 
 * [replacetext](https://github.com/varakh/yellowcms-extensions-replacetext)  
   Yellow plugin to have emoji support.
@@ -20,16 +26,10 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [videojs](https://github.com/varakh/yellowcms-extensions-videojs)  
   Yellow plugin to have VideoJS/HTML5 video support.
 
+* [webcli](https://github.com/richi/yellowcms-cli)  
+  Using the command line interface without shell access.
+
 * [ycssg](https://github.com/dieli/yellow-extension-ycssg)  
   Yellow plugin for image gallery in CSS only.
-
-* [PageTxt](https://github.com/richi/yellowcms-pagetxt)  
-  Yellow plugin for overwriting language.ini entries in pages.txt.
-
-* [DynamicCss](https://github.com/richi/yellowcms-dynamiccss)  
-  A tiny CSS preprocessor. It implements SCSS style variables for your css files.
-
-* [CLI](https://github.com/richi/yellowcms-cli)  
-  Using the yellow command line interface without shell access.
 
 Created a new plugin? Awesome, add it to the list.
