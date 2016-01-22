@@ -23,4 +23,13 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [ycssg](https://github.com/dieli/yellow-extension-ycssg)  
   Yellow plugin for image gallery in CSS only.
 
+* [PageTxt](https://github.com/richi/yellowcms-pagetxt)  
+  Yellow plugin for overwriting language.ini entries in pages.txt.
+
+* [DynamicCss](https://github.com/richi/yellowcms-dynamiccss)  
+  A tiny CSS preprocessor. It implements SCSS style variables for your css files.
+
+* [CLI](https://github.com/richi/yellowcms-cli)  
+  Using the yellow command line interface without shell access.
+
 Created a new plugin? Awesome, add it to the list.
