@@ -11,6 +11,9 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [dynamiccss](https://github.com/richi/yellowcms-dynamiccss)  
   Yellow plugin with a small preprocessor for your CSS files.
 
+* [faq](https://github.com/richi/yellowcms-faq)  
+  Yellow plugin for easy FAQ handling.
+
 * [markbar](https://github.com/nibreh/yellowcms-markbar)  
   Yellow plugin with a WYSIWYG style toolbar for editing a page. 
 
