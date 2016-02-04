@@ -1,11 +1,11 @@
 <?php
-// Copyright (c) 2013-2015 Datenstrom, http://datenstrom.se
+// Copyright (c) 2013-2016 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 // Piwik plugin
 class YellowPiwik
 {
-	const Version = "0.6.1";
+	const Version = "0.6.2";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -26,8 +26,8 @@ class YellowPiwik
 			$siteId = $this->yellow->config->get("piwikSiteId");
 			$output = "<script type=\"text/javascript\">\n";
 			$output .= "var _paq = _paq || [];\n";
-			$output .= "(function(){ var u=((\"https:\" == document.location.protocol) ? \"https\" : \"http\") + \"://".rawurlencode($serverName)."/\";\n";
-			$output .= "_paq.push(['setSiteId', '".htmlspecialchars($siteId)."']);\n";
+			$output .= "(function(){ var u=((\"https:\" == document.location.protocol) ? \"https\" : \"http\") + \"://".strencode($serverName)."/\";\n";
+			$output .= "_paq.push(['setSiteId', '".strencode($siteId)."']);\n";
 			$output .= "_paq.push(['setTrackerUrl', u+'piwik.php']);\n";
 			$output .= "_paq.push(['trackPageView']);\n";
 			$output .= "_paq.push(['enableLinkTracking']);\n";
