@@ -19,7 +19,7 @@ Example
 -------
 Adding an icon:
 
-    <i class="fa fa-envelope-o></i> Email
+    <i class="fa fa-envelope-o"></i> Email
     <i class="fa fa-twitter"></i> Twitter
     <i class="fa fa-github"></i> GitHub
 
