@@ -1,4 +1,4 @@
-Webinterface plugin 0.6.2
+Webinterface plugin 0.6.3
 =========================
 Edit your website in a web browser. [See demo](http://demo.datenstrom.se/).
 
