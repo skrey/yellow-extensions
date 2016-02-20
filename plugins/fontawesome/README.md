@@ -1,4 +1,4 @@
-Fontawesome plugin 0.6.1
+Fontawesome plugin 0.6.2
 ========================
 Icons and graphics.
 
@@ -13,7 +13,7 @@ How to add an icon?
 -------------------
 Create an element in the format `<i class="fa NAME"></i>`, you can add additional styles to the class. `NAME` is the icon's name. All icons can be customized via style sheet. There's a `fontawesome.css` which you can adjust or use in your own style sheets.
 
-The plugin uses [Font Awesome v4.2.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy, which supports about 400 pictographic icons. It's licensed under [OFL 1.1](http://opensource.org/licenses/OFL-1.1). There are icons for web applications, buttons and forms. Here's a [complete list of icons](http://fortawesome.github.io/Font-Awesome/icons/).
+The plugin uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy, which supports about 600 pictographic icons. It's licensed under [OFL 1.1](http://opensource.org/licenses/OFL-1.1). There are icons for web applications, buttons and forms. Here's a [complete list of icons](http://fortawesome.github.io/Font-Awesome/icons/).
 
 Example
 -------
