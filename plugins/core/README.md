@@ -1,4 +1,4 @@
-Core plugin 0.6.2
+Core plugin 0.6.3
 =================
 Core features for your website.
 
