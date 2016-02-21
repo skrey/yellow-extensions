@@ -5,7 +5,7 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [cheet](https://github.com/nogginfuel/YellowCheet)  
   Yellow plugin for easter eggs via key binds.
 
-* [comments](https://github.com/nasendackel/YellowComments)  
+* [comments](https://github.com/nasendackel/yellow-comments)  
   Get in touch with users of your website directly.
 
 * [dynamiccss](https://github.com/richi/yellowcms-dynamiccss)  
