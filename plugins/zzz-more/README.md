@@ -14,10 +14,10 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [faq](https://github.com/richi/yellowcms-faq)  
   Yellow plugin for easy FAQ handling.
 
-* [markbar](https://github.com/nibreh/yellowcms-markbar)  
+* [markbar](https://github.com/nibreh/yellow-markbar)  
   Yellow plugin with a WYSIWYG style toolbar for editing a page. 
 
-* [medialist](https://github.com/nibreh/yellowcms-medialist)  
+* [medialist](https://github.com/nibreh/yellow-medialist)  
   Yellow plugin for listing MP3/OGG/PDF media files.
 
 * [pagetxt](https://github.com/richi/yellowcms-pagetxt)  
