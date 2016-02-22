@@ -2,7 +2,7 @@ More plugins
 ============
 Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yellow-community).
 
-* [cheet](https://github.com/nogginfuel/YellowCheet)  
+* [cheetjs](https://github.com/nogginfuel/yellow-plugin-cheetjs)  
   Yellow plugin for easter eggs via key binds.
 
 * [comments](https://github.com/nasendackel/yellow-comments)  
