@@ -8,10 +8,10 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [comments](https://github.com/nasendackel/yellow-comments)  
   Get in touch with users of your website directly.
 
-* [dynamiccss](https://github.com/richi/yellowcms-dynamiccss)  
+* [dynamiccss](hhttps://github.com/richi/yellow-plugin-dynamiccss)  
   Yellow plugin with a small preprocessor for your CSS files.
 
-* [faq](https://github.com/richi/yellowcms-faq)  
+* [faq](https://github.com/richi/yellow-plugin-faq)  
   Yellow plugin for easy FAQ handling.
 
 * [markbar](https://github.com/nibreh/yellow-markbar)  
@@ -20,7 +20,7 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [medialist](https://github.com/nibreh/yellow-medialist)  
   Yellow plugin for listing MP3/OGG/PDF media files.
 
-* [pagetxt](https://github.com/richi/yellowcms-pagetxt)  
+* [pagetxt](https://github.com/richi/yellow-plugin-pagetxt)  
   Yellow plugin for overwriting language entries in a page.
 
 * [replacetext](https://github.com/varakh/yellowcms-extensions-replacetext)  
@@ -32,7 +32,7 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [videojs](https://github.com/varakh/yellowcms-extensions-videojs)  
   Yellow plugin to have VideoJS/HTML5 video support.
 
-* [webcli](https://github.com/richi/yellowcms-cli)  
+* [webcli](https://github.com/richi/yellow-plugin-cli)  
   Using the command line interface without shell access.
 
 * [ycssg](https://github.com/dieli/yellow-extension-ycssg)  
