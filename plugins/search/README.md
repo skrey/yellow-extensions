@@ -1,4 +1,4 @@
-Search plugin 0.6.1
+Search plugin 0.6.2
 ===================
 Full-text search for website.
 
@@ -22,7 +22,7 @@ Example
 Footer snippet with search page:
 
     <div class="footer">
-    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
+    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2016 <?php echo $yellow->page->getHtml("sitename") ?></a>.
     <a href="<?php echo $yellow->page->base."/search/" ?>">Search</a>.
     <a href="<?php echo $yellow->page->get("pageEdit") ?>">Edit</a>.
     <a href="http://datenstrom.se/yellow">Made with Yellow</a>.
