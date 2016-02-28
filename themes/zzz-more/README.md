@@ -1,8 +1,8 @@
 More themes
 ===========
-Themes by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yellow-community).
+Themes made by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yellow-community):
 
-* [envisioned](https://github.com/nogginfuel/YellowCMS-Envisioned-Theme)  
-  Envisioned is a minimalistic theme inspired by Edward Tufte.
+* [Envisioned](https://github.com/nogginfuel/yellow-theme-envisioned):
+  Envisioned is a minimalistic theme inspired by Edward Tufte
 
 Created a new theme? Awesome, add it to the list.
