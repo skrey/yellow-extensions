@@ -10,9 +10,9 @@ How do I install this?
 
 To uninstall delete the plugin files.
 
-How to add languages?
----------------------
-The following languages are included: English, German, French. You can download more [language files](language), copy them into your `system/plugins` folder. To enable a language open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of a page, for example `Language: en`. [Learn more](https://github.com/datenstrom/yellow/wiki/Language-configuration).
+How to add a language?
+----------------------
+The following languages are included: English, German, French. You can download more [language files](language), copy them into your `system/plugins` folder. To enable a language open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of each page, for example `Language: en`.
 
 The following languages are available:
 

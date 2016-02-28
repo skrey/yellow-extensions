@@ -8,11 +8,14 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [comments](https://github.com/nasendackel/yellow-comments)  
   Get in touch with users of your website directly.
 
-* [dynamiccss](hhttps://github.com/richi/yellow-plugin-dynamiccss)  
+* [dynamiccss](https://github.com/richi/yellow-plugin-dynamiccss)  
   Yellow plugin with a small preprocessor for your CSS files.
 
 * [faq](https://github.com/richi/yellow-plugin-faq)  
   Yellow plugin for easy FAQ handling.
+
+* [jquery](https://github.com/nogginfuel/yellow-plugin-jquery)
+  Add the power of jQuery to Yellow
 
 * [markbar](https://github.com/nibreh/yellow-markbar)  
   Yellow plugin with a WYSIWYG style toolbar for editing a page. 
@@ -26,7 +29,7 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [replacetext](https://github.com/varakh/yellowcms-extensions-replacetext)  
   Yellow plugin to have emoji support.
 
-* [Shariff](https://github.com/schulle4u/yellow-plugin-shariff)  
+* [shariff](https://github.com/schulle4u/yellow-plugin-shariff)  
   Privacy-friendly social sharing buttons for Yellow.
 
 * [sublime](https://github.com/nashv/YellowBlogExtensions)  
