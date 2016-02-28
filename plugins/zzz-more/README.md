@@ -26,6 +26,9 @@ Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yell
 * [replacetext](https://github.com/varakh/yellowcms-extensions-replacetext)  
   Yellow plugin to have emoji support.
 
+* [Shariff](https://github.com/schulle4u/yellow-plugin-shariff)  
+  Privacy-friendly social sharing buttons for Yellow.
+
 * [sublime](https://github.com/nashv/YellowBlogExtensions)  
   Yellow blog extensions for Sublime Text.
 
