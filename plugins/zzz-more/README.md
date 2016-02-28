@@ -1,8 +1,8 @@
 More plugins
 ============
-Plugins by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yellow-community).
+Plugins made by the [Yellow community](https://github.com/datenstrom/yellow/wiki/Yellow-community):
 
-* [Cheetjs](https://github.com/nogginfuel/yellow-plugin-cheetjs): 
+* [CheetJS](https://github.com/nogginfuel/yellow-plugin-cheetjs): 
   Yellow plugin for easter eggs via key binds
 * [Comments](https://github.com/nasendackel/yellow-comments):
   Get in touch with users of your website directly
