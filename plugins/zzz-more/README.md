@@ -30,5 +30,7 @@ Plugins made by the [Yellow community](https://github.com/datenstrom/yellow/wiki
   Using the command line interface without shell access
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Yellow plugin for image gallery in CSS only
+* [Maintenance](https://github.com/nogginfuel/yellow-plugin-maintenance):
+  Yellow plugin to add maintenance mode to single page or entire site
 
 Created a new plugin? Awesome, add it to the list.
