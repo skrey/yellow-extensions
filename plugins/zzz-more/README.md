@@ -12,6 +12,8 @@ Plugins made by the [Yellow community](https://github.com/datenstrom/yellow/wiki
   Yellow plugin for easy FAQ handling
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
   Add the power of jQuery to Yellow
+* [Maintenance](https://github.com/nogginfuel/yellow-plugin-maintenance):
+  Yellow plugin to add maintenance mode to single page or entire site
 * [Markbar](https://github.com/nibreh/yellow-markbar):
   Yellow plugin with a WYSIWYG style toolbar for editing a page.
 * [Medialist](https://github.com/nibreh/yellow-medialist):
@@ -30,7 +32,5 @@ Plugins made by the [Yellow community](https://github.com/datenstrom/yellow/wiki
   Using the command line interface without shell access
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Yellow plugin for image gallery in CSS only
-* [Maintenance](https://github.com/nogginfuel/yellow-plugin-maintenance):
-  Yellow plugin to add maintenance mode to single page or entire site
 
 Created a new plugin? Awesome, add it to the list.
