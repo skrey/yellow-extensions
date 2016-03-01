@@ -1,4 +1,4 @@
-Preview plugin 0.6.1
+Preview plugin 0.6.2
 ====================
 Embed pages with image preview.
 
@@ -20,7 +20,7 @@ The following arguments are available:
 `STYLE` = preview list style  
 `SIZE` = image size, pixel or percent  
 
-For every page there should be an jpg-image of similar file name in your `media/images` folder.
+For every page there hast to be an jpg-image of similar file name in your `media/images` folder.
 
 Example
 -------
@@ -28,9 +28,9 @@ Adding a preview:
 
     [preview]
     [preview /themes/]
-    [preview /themes/ fourpages 25%]
+    [preview /themes/ threepages 33%]
 
-CSS for four pages in a row:
+CSS for three pages in a row:
 
-    .content .fourpages { margin:0; padding:0; list-style:none; width:100%; }
-    .content .fourpages li { padding-bottom:1em; text-align:center; vertical-align:top; display:inline-block; width:24%; }
+    .content .threepages { margin:0; padding:0; list-style:none; width:100%; }
+    .content .threepages li { padding-bottom:1em; text-align:center; vertical-align:top; display:inline-block; width:32%; }
