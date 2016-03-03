@@ -27,7 +27,8 @@ class YellowPreview
 			if(empty($size)) $size = "100%";
 			$content = $this->yellow->pages->find($location);
 			$pages = $content ? $content->getChildren() : $this->yellow->pages->clean();
-			if($content && $this->yellow->plugins->isExisting("image"))
+			$pages->sort("title");
+			if(count($pages) && $this->yellow->plugins->isExisting("image"))
 			{
 				$page->setLastModified($pages->getModified());
 				$output = "<ul class=\"".htmlspecialchars($style)."\">\n";
