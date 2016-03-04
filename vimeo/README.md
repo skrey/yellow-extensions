@@ -1,6 +1,8 @@
 Vimeo plugin 0.6.1
 ==================
-Embed Vimeo videos.
+Embed Vimeo videos. [See demo](http://developers.datenstrom.se/plugins/vimeo-plugin).
+
+[![Screenshot](vimeo-plugin.jpg?raw=true)](http://developers.datenstrom.se/plugins/vimeo-plugin)
 
 How do I install this?
 ----------------------

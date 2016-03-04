@@ -1,6 +1,8 @@
 Googlemaps plugin 0.6.1
 =======================
-Embed Google maps.
+Embed Google maps. [See demo](http://developers.datenstrom.se/plugins/googlemaps-plugin).
+
+[![Screenshot](googlemaps-plugin.jpg?raw=true)](http://developers.datenstrom.se/plugins/googlemaps-plugin)
 
 How do I install this?
 ----------------------
