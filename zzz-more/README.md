@@ -20,14 +20,10 @@ Plugins made by the [Yellow community](http://developers.datenstrom.se/help/):
   Yellow plugin for listing MP3/OGG/PDF media files
 * [PageTxt](https://github.com/richi/yellow-plugin-pagetxt):
   Yellow plugin for overwriting language entries in a page
-* [ReplaceText](https://github.com/varakh/yellowcms-extensions-replacetext):
-  Yellow plugin to have emoji support
 * [Shariff](https://github.com/schulle4u/yellow-plugin-shariff):
   Privacy-friendly social sharing buttons for Yellow
 * [Sublime](https://github.com/nashv/YellowBlogExtensions):
   Yellow blog extensions for Sublime Text
-* [VideoJS](https://github.com/varakh/yellowcms-extensions-videojs):
-  Yellow plugin to have VideoJS/HTML5 video support
 * [WebCLI](https://github.com/richi/yellow-plugin-cli):
   Using the command line interface without shell access
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
