@@ -20,7 +20,7 @@ The following arguments are available:
 `STYLE` = preview list style  
 `SIZE` = image size, pixel or percent  
 
-For every page there hast to be an jpg-image of similar file name in your `media/images` folder.
+For every page there has to be an jpg-image of similar file name in your `media/images` folder.
 
 Example
 -------
