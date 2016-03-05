@@ -1,6 +1,6 @@
 Preview plugin 0.6.2
 ====================
-Embed pages with image preview.
+Link pages with image preview.
 
 How do I install this?
 ----------------------

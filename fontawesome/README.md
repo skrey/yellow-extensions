@@ -1,6 +1,6 @@
 Fontawesome plugin 0.6.2
 ========================
-Icons and graphics.
+Icons and symbols.
 
 How do I install this?
 ----------------------
