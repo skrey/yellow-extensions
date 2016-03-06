@@ -1,11 +1,11 @@
 <?php
-// Copyright (c) 2013-2015 Datenstrom, http://datenstrom.se
+// Copyright (c) 2013-2016 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 // Statistics command plugin
 class YellowStats
 {
-	const Version = "0.6.1";
+	const Version = "0.6.2";
 	var $yellow;			//access to API
 	var $views;				//detected views
 
@@ -17,6 +17,7 @@ class YellowStats
 		$this->yellow->config->setDefault("statsLinesMax", 8);
 		$this->yellow->config->setDefault("statsLogDir", "/var/log/apache2/");
 		$this->yellow->config->setDefault("statsLogFile", "(.*)access.log");
+		$this->yellow->config->setDefault("statsLocationSearch", "/search/");
 		$this->yellow->config->setDefault("statsLocationIgnore", "media|system|edit");
 		$this->yellow->config->setDefault("statsSpamFilter", "bot|crawler|spider");
 	}
@@ -75,7 +76,7 @@ class YellowStats
 		if(!empty($fileNames))
 		{
 			$statusCode = 200;
-			$sites = $content = $errors = $clients = array();
+			$sites = $content = $search = $errors = $clients = array();
 			$timeStop = time() - (60 * 60 * 24 * $days);
 			$locationSelf = $this->yellow->config->get("serverBase");
 			$locationIgnore = $this->yellow->config->get("statsLocationIgnore");
@@ -110,6 +111,7 @@ class YellowStats
 								{
 									++$content[$this->getUrl($location)];
 									++$sites[$referer];
+									++$search[$this->getSearchUrl($location)];
 									++$this->views;
 								} else {
 									++$errors[$this->getUrl($location)." - ".$this->getErrorFormatted($status)];
@@ -125,9 +127,10 @@ class YellowStats
 			}
 			if($statusCode == 200)
 			{
-				unset($sites["-"]);
+				unset($sites["-"]); unset($search["-"]);
 				$this->showRequests($sites, "Referring sites");
 				$this->showRequests($content, "Popular content");
+				$this->showRequests($search, "Search queries");
 				$this->showRequests($errors, "Error pages");
 			}
 		} else {
@@ -179,6 +182,8 @@ class YellowStats
 	// Return referer, ignore referers to self
 	function getReferer($referer, $refererSelf)
 	{
+		$referer = preg_replace_callback("#(\\\x[0-9a-f]{2})#", function($matches) { return chr(hexdec($matches[1])); }, $referer);
+		$referer = rawurldecode($referer);
 		if(preg_match("#^(\w+:\/\/[^/]+)$#", $referer)) $referer .= '/';
 		return preg_match("#$refererSelf#i", $referer) ? "-" : $referer;
 	}
@@ -188,6 +193,13 @@ class YellowStats
 	{
 		return $this->yellow->lookup->normaliseUrl(
 			$this->yellow->config->get("serverScheme"), $this->yellow->config->get("serverName"), "", $location);
+	}
+
+	// Return search URL, if available
+	function getSearchUrl($location)
+	{
+		$locationSearch = $this->yellow->config->get("statsLocationSearch")."query".$this->yellow->toolbox->getLocationArgsSeparator();
+		return preg_match("#^$locationSearch([^/]+)/$#", $location) ? $this->getUrl(strtoloweru($location)) : "-";
 	}
 	
 	// Return human readable error
@@ -200,6 +212,7 @@ class YellowStats
 			case 404:	$text = "Not found"; break;
 			case 424:	$text = "Not existing"; break;
 			case 500:	$text = "Server error"; break;
+			case 503:	$text = "Service unavailable"; break;
 			default:	$text = "Error $statusCode";
 		}
 		return $text;

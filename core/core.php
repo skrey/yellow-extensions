@@ -55,7 +55,7 @@ class YellowCore
 		$this->config->setDefault("contentExtension", ".txt");
 		$this->config->setDefault("configExtension", ".ini");
 		$this->config->setDefault("configFile", "config.ini");
-		$this->config->setDefault("textFile", "language-(.*).ini");
+		$this->config->setDefault("textFile", "language-(.*).txt");
 		$this->config->setDefault("errorFile", "page-error-(.*).txt");
 		$this->config->setDefault("robotsFile", "robots.txt");
 		$this->config->setDefault("iconFile", "icon.png");
@@ -77,7 +77,7 @@ class YellowCore
 			echo "Yellow ".YellowCore::Version.", PHP ".PHP_VERSION.", $serverSoftware<br>\n";
 		}
 		$this->config->load($this->config->get("configDir").$this->config->get("configFile"));
-		$this->text->load($this->config->get("configDir").$this->config->get("textFile"));
+		$this->text->load($this->config->get("pluginDir").$this->config->get("textFile"));
 		date_default_timezone_set($this->config->get("serverTime"));
 		list($pathRoot, $pathHome) = $this->lookup->getContentInformation();
 		$this->config->set("contentRootDir", $pathRoot);
@@ -2486,6 +2486,7 @@ class YellowToolbox
 			case 424:	$text = "$serverProtocol $statusCode Not existing"; break;
 			case 444:	$text = "$serverProtocol $statusCode No response"; break;
 			case 500:	$text = "$serverProtocol $statusCode Server error"; break;
+			case 503:	$text = "$serverProtocol $statusCode Service unavailable"; break;
 			default:	$text = "$serverProtocol $statusCode Unknown status";
 		}
 		return $text;
