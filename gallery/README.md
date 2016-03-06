@@ -22,7 +22,7 @@ The following arguments are available:
 `STYLE` = gallery style  
 `SIZE` = image size, pixel or percent
 
-The plugins uses [PhotoSwipe v4.1.0](http://photoswipe.com) by Dmitry Semenov. It's licensed under [MIT license](http://opensource.org/licenses/MIT). PhotoSwipe supports most web browsers, including Chrome, Firefox, Safari, Opera and IE. Scripts are served from [cdnjs](https://cdnjs.com).
+The plugins uses [PhotoSwipe v4.1.0](http://photoswipe.com) by Dmitry Semenov. It's licensed under [MIT license](http://opensource.org/licenses/MIT). PhotoSwipe supports most web browsers, including Chrome, Firefox, Safari, Opera and IE. Files are served from [cdnjs](https://cdnjs.com), you can configure a different CDN or your own server.
 
 Example
 -------
