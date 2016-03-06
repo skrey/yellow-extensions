@@ -1,4 +1,4 @@
-Fontawesome plugin 0.6.2
+Fontawesome plugin 0.6.3
 ========================
 Icons and symbols.
 
@@ -11,17 +11,26 @@ To uninstall delete the plugin files.
 
 How to add an icon?
 -------------------
-Create an element in the format `<i class="fa NAME"></i>`, you can add additional styles to the class. `NAME` is the icon's name. All icons can be customized via style sheet. There's a `fontawesome.css` which you can adjust or use in your own style sheets.
+Create a `[fa NAME]` shortcut or use HTML `<i class="fa NAME"></i>`.
 
-The plugin uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy, which supports about 600 pictographic icons. It's licensed under [OFL 1.1](http://opensource.org/licenses/OFL-1.1). There are icons for web applications, buttons and forms. Here's a [complete list of icons](http://fortawesome.github.io/Font-Awesome/icons/).
+You can add an additional style to the name, for example `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` and `fa-5x`.
+
+Here's a [complete list of icons](http://fortawesome.github.io/Font-Awesome/icons/). The plugin uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy, which supports about 600 pictographic icons. It's licensed under [OFL 1.1](http://opensource.org/licenses/OFL-1.1). Font Awesome has icons for web applications, buttons and forms. There's a `fontawesome.css` which you can adjust or use in your own style sheets.
 
 Example
 -------
 Adding an icon:
 
-    <i class="fa fa-envelope-o"></i> Email
-    <i class="fa fa-twitter"></i> Twitter
-    <i class="fa fa-github"></i> GitHub
+    [fa fa-envelope-o] Email
+    [fa fa-twitter] Twitter
+    [fa fa-github] GitHub
+
+Adding an icon, double size:
+
+    [fa fa-envelope-o fa-2x] Email
+    [fa fa-twitter fa-2x] Twitter
+    [fa fa-github fa-2x] GitHub
+
 
 Navigation snippet with social media icons:
 
