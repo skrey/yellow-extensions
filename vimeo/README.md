@@ -26,6 +26,6 @@ Example
 -------
 Embedding a video:
 
-    [vimeo 13387502]
-    [vimeo 13387502 left 200 112]
-    [vimeo 13387502 right 200 112]
+    [vimeo 5606758]
+    [vimeo 5606758 left 200 112]
+    [vimeo 5606758 right 200 112]
