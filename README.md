@@ -24,6 +24,8 @@ The following plugins are available:
   Add Disqus comments to blog.
 * [Draft](https://github.com/datenstrom/yellow-plugins/tree/master/draft): 
   Support for draft pages.
+* [Emojiawesome](https://github.com/datenstrom/yellow-plugins/tree/master/emojiawesome): 
+  Lots and lots of emoji.
 * [Feed](https://github.com/datenstrom/yellow-plugins/tree/master/feed): 
   Web feed with recent changes.
 * [Fontawesome](https://github.com/datenstrom/yellow-plugins/tree/master/fontawesome): 
