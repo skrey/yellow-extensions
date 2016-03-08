@@ -18,7 +18,7 @@ Create a `:shortcode:` in your text. Here's an [emoji cheatsheet](http://www.emo
 It's also possible to create an `[ea NAME]` shortcut or use HTML `<i class="ea NAME"></i>`.  
 You can add an additional style to the name, for example `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` and `ea-5x`.
 
-The plugin uses [Twemoji v2.0.0](https://github.com/twitter/twemoji) by Twitter, which supports about 800 colorful images. Images are licensed under [CC-BY](http://creativecommons.org/licenses/by/4.0/). Emoji Awesome has images for people, animals, food and flags. There's a `emojiawesome.css` which you can adjust or use in your own style sheets. Files are served from [cdnjs](https://cdnjs.com), you can configure a different CDN or your own server.
+The plugin uses [Twemoji v2.0.0](https://github.com/twitter/twemoji) by Twitter, which supports about 1600 colorful images. Images are licensed under [CC-BY](http://creativecommons.org/licenses/by/4.0/). Emoji Awesome has images for people, animals, food and flags. There's an `emojiawesome.css` which you can adjust or use in your own style sheets. Files are served from [cdnjs](https://cdnjs.com), you can configure a different CDN or your own server.
 
 Example
 -------
