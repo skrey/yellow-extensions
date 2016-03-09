@@ -13,7 +13,7 @@ To uninstall delete the plugin files.
 
 How to add an emoji?
 --------------------
-Create a `:shortcode:` in your text. Here's an [emoji cheatsheet](http://www.emoji-cheat-sheet.com). 
+Add `:shortcode:` to the text of a page. Here's an [emoji cheatsheet](http://www.emoji-cheat-sheet.com). 
 
 It's also possible to create an `[ea NAME]` shortcut or use HTML `<i class="ea NAME"></i>`.  
 You can add an additional style to the name, for example `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` and `ea-5x`.
