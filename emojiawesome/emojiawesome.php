@@ -5,7 +5,7 @@
 // Emojiawesome plugin
 class YellowEmojiawesome
 {
-	const Version = "0.6.2";
+	const Version = "0.6.3";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -14,7 +14,7 @@ class YellowEmojiawesome
 		$this->yellow = $yellow;
 		$this->yellow->config->setDefault("emojiawesomeCdn", "https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.0.0/");
 		$this->yellow->config->setDefault("emojiawesomeStylesheetGenerate", "0");
-		$this->yellow->config->setDefault("emojiawesomeNormaliseUnicode", "0");
+		$this->yellow->config->setDefault("emojiawesomeNormaliseText", "0");
 	}
 	
 	// Handle page content parsing of custom block
@@ -39,7 +39,7 @@ class YellowEmojiawesome
 	// Handle page content parsing
 	function onParseContentText($page, $text)
 	{
-		if($this->yellow->config->get("emojiawesomeNormaliseUnicode")) $text = $this->normaliseUnicode($text);
+		if($this->yellow->config->get("emojiawesomeNormaliseText")) $text = $this->normaliseText($text, true, false);
 		return $text;
 	}
 
@@ -75,10 +75,27 @@ class YellowEmojiawesome
 		return strreplaceu(array("+1", "-1", "_"), array("plus1", "minus1", "-"), $text);
 	}
 	
-	// Normalise emoji UTF-8 into shortname
-	function normaliseUnicode($text)
+	// Normalise text with emoji, convert UTF8 and shortcode
+	function normaliseText($text, $convertUtf8 = true, $convertShortcode = true)
 	{
-		//TODO: raw Unicode should be converted too, wunderfeyd wunderfeyd wunderfeyd
+		if($convertUtf8)
+		{
+			$lookup = array();
+			foreach($this->getLookupData() as $entry) $lookup[$entry["utf8"]] = ":".$entry["shortname"].":";
+			krsort($lookup);
+			$text = str_replace(array_keys($lookup), array_values($lookup), $text);
+		}
+		if($convertShortcode)
+		{
+			$thisCompatible = $this;
+			$callback = function($matches) use ($thisCompatible)
+			{
+				$output = $thisCompatible->onParseContentBlock(null, "", $matches[1], true);
+				if(is_null($output)) $output = $matches[0];
+				return $output;
+			};
+			$text = preg_replace_callback("/\:([\w\+\-\_]+)\:/", $callback, $text);
+		}
 		return $text;
 	}
 	
