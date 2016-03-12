@@ -24,7 +24,7 @@ Build [static files](http://developers.datenstrom.se/help/web-server-configurati
 **php yellow.php clean [DIRECTORY LOCATION]**  
 Clean [static files](http://developers.datenstrom.se/help/web-server-configuration#static-website)
 
-**php yellow.php stats [DAYS FILENAME]**  
+**php yellow.php stats [DAYS LOCATION FILENAME]**  
 Create [statistics with the stats plugin](https://github.com/datenstrom/yellow-plugins/tree/master/stats)
 
 **php yellow.php user [EMAIL PASSWORD NAME LANGUAGE STATUS HOME]**  
