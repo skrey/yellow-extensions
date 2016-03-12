@@ -1,4 +1,4 @@
-Wiki plugin 0.6.3
+Wiki plugin 0.6.4
 =================
 Wiki for your website. [See demo](http://developers.datenstrom.se/plugins/wiki-plugin/).
 
@@ -26,6 +26,7 @@ You can use shortcuts to show information about the wiki:
 
 `[wikirecent LOCATION PAGESMAX]` for recently changed pages  
 `[wikirelated LOCATION PAGESMAX]` for related pages to current page  
+`[wikipages LOCATION PAGESMAX]` for a list of pages  
 `[wikitags LOCATION]` for a list of tags  
 
 The following arguments are available, all but the first argument are optional:
