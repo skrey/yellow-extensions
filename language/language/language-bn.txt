@@ -1,0 +1,51 @@
+# Yellow text strings
+
+Language: bn
+LanguageDescription: Bangali (Bangladesh)
+LanguageAuthor: Mohammed Nazmul Ferdous
+LanguageVersion: 0.0.1
+
+BlogBy: লিখেছেন
+BlogFilter: ব্লগ:
+BlogTag: ট্যাগ সমূহ:
+BlogMore: আরো পড়ুন…
+ContactName: নাম:
+ContactEmail: ইমেইল:
+ContactMessage: বার্তা:
+ContactButton: বার্তা পাঠান
+ContactStatusNone: স্বাগতম! আপনার মতামত খুবই গুরুত্বপূর্ণ। 
+ContactStatusIncomplete: অনুগ্রহ করে সকল ঘর পূরণ করুন। 
+ContactStatusInvalid: অনুগ্রহ করে একটি বিদ্যমান ইমেইল দিন। 
+ContactStatusDone: আপনি সফলভাবে ইমেইলটি প্রেরণ করেছেন। ধন্যবাদ! 
+ContactStatusError: ইমেলটি পাঠানো সম্ভব হয়নি, অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন!
+DateMonths: জানুয়ারী, ফেব্রুয়ারি, মার্চ, এপ্রিল, মে, জুন, জুলাই, অগাস্ট, সেপ্টেম্বর, অক্টোবর, নভেম্বর, ডিসেম্বর
+DateWeekdays: সোমবার, মঙ্গলবার, বুধবার, বৃহস্পতিবার, শুক্রবার, শনিবার, রবিবার
+DateFormatShort: F Y
+DateFormatMedium: Y-m-d
+DateFormatLong: Y-m-d H:i
+PaginationPrevious: ← পূর্ববর্তী
+PaginationNext: পরবর্তী →
+SearchQuery: অনুসন্ধান ফলাফল:
+SearchResultsNone: একটি অনুসন্ধান শব্দ লিখুন।
+SearchResultsEmpty: কোন ফলাফল পাওয়া যায়নি।
+SearchButton: খোঁজ করুন
+WebinterfaceLoginText: ইয়লো লগইন
+WebinterfaceLoginEmail: ইমেল:
+WebinterfaceLoginPassword: পাসওয়ার্ড:
+WebinterfaceLoginButton: প্রবেশ করুন
+WebinterfaceCreateButton: তৈরি করুন
+WebinterfaceEditButton: সংরক্ষণ করুন
+WebinterfaceDeleteButton: মুছে ফেলুন
+WebinterfaceCancelButton: বাতিল
+WebinterfaceEdit: সম্পাদনা পাতা
+WebinterfaceCreate: +
+WebinterfaceDelete: -
+WebinterfaceCreateTitle: নতুন পাতা
+WebinterfaceDeleteTitle: পাতা মুছে ফেলুন
+WebinterfaceUserHelp: সাহায্য
+WebinterfaceUserHelpUrl: http://developers.datenstrom.se/help/
+WebinterfaceUserAccountUrl: http://developers.datenstrom.se/help/how-to-add-a-user-account
+WebinterfaceUserLogout: প্রস্থান
+WikiFilter: Wiki:
+WikiTag: Tags:
+WikiSpecialChanges: সাম্প্রতিক পরিবর্তন
