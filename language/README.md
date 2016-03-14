@@ -17,6 +17,7 @@ The following languages are included: English, German, French. You can download 
 The following languages are available:
 
 * [Bahasa Indonesia](language/language-id.txt?raw=true), `Language: id`
+* [Bengali](language/language-bn.txt?raw=true), `Language: bn`
 * [Čeština](language/language-cs.txt?raw=true), `Language: cs`
 * [Chinese Simplified](language/language-zh-CN.txt?raw=true), `Language: zh-CN`
 * [Dansk](language/language-da.txt?raw=true), `Language: da`
