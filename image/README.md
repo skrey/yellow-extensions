@@ -30,9 +30,9 @@ Example
 -------
 Adding an image:
 
-    [image icon.png]
-    [image icon.png Image]
-    [image icon.png "This is an example image"]
+    [image picture.jpg]
+    [image picture.jpg Image]
+    [image picture.jpg "This is an example image"]
 
 Adding an image, different styles:
 
