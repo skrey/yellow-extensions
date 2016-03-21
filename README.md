@@ -30,8 +30,6 @@ The following plugins are available:
   Web feed with recent changes.
 * [Fontawesome](https://github.com/datenstrom/yellow-plugins/tree/master/fontawesome): 
   Icons and symbols.
-* [Fotorama](https://github.com/datenstrom/yellow-plugins/tree/master/fotorama): 
-  Image gallery with slider.
 * [Gallery](https://github.com/datenstrom/yellow-plugins/tree/master/gallery): 
   Image gallery with popup.
 * [Googlemaps](https://github.com/datenstrom/yellow-plugins/tree/master/googlemaps): 
@@ -81,6 +79,8 @@ More plugins by Yellow developers:
   A (very) small CSS preprocessor.
 * [FAQ](https://github.com/richi/yellow-plugin-faq):
   Yellow plugin for easy FAQ handling.
+* [Fotorama](https://github.com/nogginfuel/yellow-plugin-fotorama): 
+  A jQuery image gallery with carousel.
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
   Add the power of jQuery to Yellow.
 * [Maintenance](https://github.com/nogginfuel/yellow-plugin-maintenance):
