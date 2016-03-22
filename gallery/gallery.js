@@ -91,9 +91,6 @@ var initPhotoSwipeFromDOM = function() {
 			}
 			params[pair[0]] = pair[1];
 		}
-		if(params.gid) {
-			params.gid = parseInt(params.gid, 10);
-		}
 		return params;
 	};
 	
@@ -229,11 +226,11 @@ var initPhotoSwipeFromDOM = function() {
 		galleryElements[i].onclick = onClickGallery;
 	}
 	
-	// Check if URL contains gid and pid
+	// Check if URL contains gallery and picture index
 	if(galleryElements.length)
 	{
 		var params = parseHash();
-		if(params.pid && params.gid) {
+		if(params.gid>0 && params.gid<=galleryElements.length && params.pid>0) {
 			openPhotoSwipe( params.pid,  galleryElements[ params.gid - 1 ], true, true );
 		}
 	}
