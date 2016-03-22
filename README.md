@@ -50,6 +50,8 @@ The following plugins are available:
   Full-text search for website.
 * [Sitemap](https://github.com/datenstrom/yellow-plugins/tree/master/sitemap): 
   Sitemap for website.
+* [Slider](https://github.com/datenstrom/yellow-plugins/tree/master/slider): 
+  Image gallery with slider.
 * [Slideshare](https://github.com/datenstrom/yellow-plugins/tree/master/slideshare): 
   Embed Slideshare presentations.
 * [Smartypants](https://github.com/datenstrom/yellow-plugins/tree/master/smartypants): 
