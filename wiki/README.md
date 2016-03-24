@@ -18,7 +18,7 @@ To uninstall delete the plugin files.
 
 How to use a wiki?
 ------------------
-The wiki is available on your website as `http://website/wiki/`. To make the wiki your home page, rename the wiki folder to '1-wiki' and delete '1-home'. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](http://developers.datenstrom.se/help/yellow-api#meta-data) at the top of a page. Use `Tag` to group similar pages together. [Learn more](http://developers.datenstrom.se/help/how-to-make-a-wiki).
+The wiki is available on your website as `http://website/wiki/`. To make the wiki your home page, rename the wiki folder to '1-wiki' and delete '1-home'. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](http://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. Use `Tag` to group similar pages together. [Learn more](http://developers.datenstrom.se/help/how-to-make-a-wiki).
 
 How to configure a wiki?
 ------------------------
