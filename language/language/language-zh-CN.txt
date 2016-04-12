@@ -1,9 +1,9 @@
-# Yellow text strings
+# Yellow language file
 
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageAuthor: Hyson Lee
-LanguageVersion: 0.6.2
+LanguageVersion: 0.6.4
 
 BlogBy: 作者
 BlogFilter: Blog:
@@ -29,23 +29,67 @@ SearchQuery: 搜索:
 SearchResultsNone: 请输入搜索关键字
 SearchResultsEmpty: 本次搜索查无结果
 SearchButton: 查找
-WebinterfaceLoginText: 登入Yellow
-WebinterfaceLoginEmail: E-mail：
-WebinterfaceLoginPassword: 密码：
-WebinterfaceLoginButton: 登入
+WebinterfaceInstallationTitle: Welcome
+WebinterfaceInstallationSitename: Website:
+WebinterfaceInstallationAuthor: Name:
+WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nYour website works!\n\nYou can now [edit this page] or use your text editor.
+WebinterfaceLoginTitle: Yellow
+WebinterfaceLoginEmail: Email:
+WebinterfaceLoginPassword: Password:
+WebinterfaceLoginRecover: Forgot your password?
+WebinterfaceLoginSignup: Create user account?
+WebinterfaceLoginButton: Log in
+WebinterfaceSignupTitle: Create user account
+WebinterfaceSignupName: Name:
+WebinterfaceSignupEmail: Email:
+WebinterfaceSignupPassword: Password:
+WebinterfaceSignupButton: Create
+WebinterfaceSignupStatusNone: Here you can create a new user account.
+WebinterfaceSignupStatusIncomplete: Please fill out all fields.
+WebinterfaceSignupStatusInvalid: Please enter a valid email.
+WebinterfaceSignupStatusWeak: Please enter a different password.
+WebinterfaceSignupStatusNext: User account will be created, please check your emails.
+WebinterfaceRecoverTitle: Forgot your password
+WebinterfaceRecoverEmail: Email:
+WebinterfaceRecoverPassword: Password:
+WebinterfaceRecoverButton: Send
+WebinterfaceRecoverStatusNone: No problem, you can create a new password.
+WebinterfaceRecoverStatusInvalid: Please enter a valid email.
+WebinterfaceRecoverStatusPassword: Please enter a new password.
+WebinterfaceRecoverStatusWeak: Please enter a different password.
+WebinterfaceRecoverStatusNext: User account will be recovered, please check your emails.
+WebinterfaceConfirmSubject: Confirm user account
+WebinterfaceConfirmMessage: Hi @usershort, please confirm your user account. Click the following link.
+WebinterfaceConfirmStatusDone: User account confirmed. Thank you!
+WebinterfaceConfirmStatusExpire: User account can not be confirmed. Link has expired!
+WebinterfaceApproveSubject: Approve user account
+WebinterfaceApproveMessage: Hi @usershort, please approve a new user account for @useraccount. Click the following link.
+WebinterfaceApproveStatusDone: User account approved. Thank you!
+WebinterfaceApproveStatusExpire: User account can not be approved. Link has expired!
+WebinterfaceRecoverSubject: Recover user account
+WebinterfaceRecoverMessage: Hi @usershort, please confirm that you forgot your password. Click the following link.
+WebinterfaceRecoverStatusDone: User account recovered. Thank you!
+WebinterfaceRecoverStatusExpire: User account can not be recovered. Link has expired!
+WebinterfaceWelcomeSubject: Welcome
+WebinterfaceWelcomeMessage: Hi @usershort, your user account has been created. Have fun editing the website.
+WebinterfaceInformationSubject: Welcome back
+WebinterfaceInformationMessage: Hi @usershort, your user account has been recovered. Have fun editing the website.
+WebinterfaceOkButton: Ok
+WebinterfaceCancelButton: 取消
 WebinterfaceCreateButton: 创建
 WebinterfaceEditButton: 保存
 WebinterfaceDeleteButton: 删除
-WebinterfaceCancelButton: 取消
 WebinterfaceEdit: 编辑页面
 WebinterfaceCreate: +
 WebinterfaceDelete: -
 WebinterfaceCreateTitle: 新页面
 WebinterfaceDeleteTitle: 删除页面
+WebinterfaceMarkdownHelp: Markdown
 WebinterfaceUserHelp: 帮助
-WebinterfaceUserHelpUrl: http://developers.datenstrom.se/help/
-WebinterfaceUserAccountUrl: http://developers.datenstrom.se/help/how-to-add-a-user-account
 WebinterfaceUserLogout: 登出
 WikiFilter: Wiki:
 WikiTag: 标签:
 WikiSpecialChanges: 最近更改
+YellowUrl: http://datenstrom.se/yellow
+YellowUserHelpUrl: http://developers.datenstrom.se/help/
+YellowMarkdownHelpUrl: http://developers.datenstrom.se/help/markdown-cheat-sheet
