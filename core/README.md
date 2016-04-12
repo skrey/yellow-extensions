@@ -24,21 +24,6 @@ Title: Home
 Your website works! 
 
 You can now [edit this page] or use your text editor.  
-For more information see [Yellow documentation](http://developers.datenstrom.se/help/).
 
 [yellow]
-```
-
-Content file with current server settings:
-
-```
----
-Title: Home
----
-Your website works! 
-
-You can now [edit this page] or use your text editor.  
-For more information see [Yellow documentation](http://developers.datenstrom.se/help/).
-
-[yellow server]
 ```

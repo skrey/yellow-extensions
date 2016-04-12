@@ -11,7 +11,7 @@ To uninstall delete the plugin files.
 
 How to add a user account?
 -------------------------
-The fist option is to create a user account [online](https://developers.datenstrom.se/tests/new-user). The second option is to add it at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add  optional name, language, status and home page. Users can not change pages outside their home page. [Learn more](http://developers.datenstrom.se/help/how-to-add-a-user-account).
+The fist option is to create a user account in a web browser. The second option is to add it at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add  optional name, language, status and home page.
 
 How to edit a website?
 ----------------------
