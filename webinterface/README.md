@@ -11,7 +11,7 @@ To uninstall delete the plugin files.
 
 How to create a user account?
 -----------------------------
-The fist option is to create a user account in a web browser. Users can create user accounts and change forgotten passwords. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`.
+The fist option is to create a user account in a web browser. Users can create user accounts and change passwords. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`.
 
 The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add  optional name, language, status and home page. See example below.
 
