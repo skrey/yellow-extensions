@@ -9,9 +9,11 @@ How do I install this?
 
 To uninstall delete the plugin files.
 
-How to add a user account?
--------------------------
-The fist option is to create a user account in a web browser. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`. The second option is to add a user account at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add  optional name, language, status and home page. See example below.
+How to create a user account?
+-----------------------------
+The fist option is to create a user account in a web browser. Users can create user accounts and change forgotten passwords. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`.
+
+The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add  optional name, language, status and home page. See example below.
 
 How to edit a website?
 ----------------------
@@ -19,7 +21,7 @@ Click the edit link on a page. You can browse your website, use the normal navig
 
 Example
 -------
-Adding a user account at the command line:
+Creating a user account at the command line:
  
 `php yellow.php user`  
 `php yellow.php user email@example.com horsebattery`  
