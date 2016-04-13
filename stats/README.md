@@ -11,7 +11,7 @@ To uninstall delete the plugin.
 
 How to create statistics?
 -------------------------
-The statistics are available at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). It shows referring sites, popular content, search queries and error pages. Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php stats`, you can add optional days, location and file name. There's a spam filter to remove unwanted entries.
+The statistics are available at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). It shows referring sites, popular content, search queries and error pages. Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php stats`, you can add optional days, location and file name. There's a spam filter to remove bots. See example below.
 
 This plugins analyses your web server logfiles, use [Piwik](https://github.com/datenstrom/yellow-plugins/tree/master/piwik) for more detailed statistics.
 
