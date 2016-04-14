@@ -22,7 +22,7 @@ Example
 Footer snippet with sitemap:
 
     <div class="footer">
-    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2015 <?php echo $yellow->page->getHtml("sitename") ?></a>.
+    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2016 <?php echo $yellow->page->getHtml("sitename") ?></a>.
     <a href="<?php echo $yellow->page->base."/sitemap/" ?>">Sitemap</a>. 
     <a href="<?php echo $yellow->page->get("pageEdit") ?>">Edit</a>.
     <a href="<?php echo $yellow->text->get("yellowUrl") ?>">Made with Yellow</a>.
