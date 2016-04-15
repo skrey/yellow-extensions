@@ -1,7 +1,7 @@
 <div class="content main">
 <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
 <?php if($yellow->page->get("status") != "done"): ?>
-<p class="<?php echo $yellow->page->getHtml("status") ?>"><?php echo $yellow->page->getHtml("contactStatus") ?></p>
+<p class="<?php echo $yellow->page->getHtml("status") ?>"><?php echo $yellow->text->getHtml("contactStatus".ucfirst($yellow->page->get("status"))) ?></p>
 <form class="contact-form" action="<?php echo $yellow->page->getLocation() ?>" method="post">
 <p class="contact-name"><label for="name"><?php echo $yellow->text->getHtml("contactName") ?></label><br /><input type="text" class="form-control" name="name" id="name" value="<?php echo htmlspecialchars($_REQUEST["name"]) ?>" /></p>
 <p class="contact-from"><label for="from"><?php echo $yellow->text->getHtml("contactEmail") ?></label><br /><input type="text" class="form-control" name="from" id="from" value="<?php echo htmlspecialchars($_REQUEST["from"]) ?>" /></p>
@@ -10,6 +10,6 @@
 <input type="submit" value="<?php echo $yellow->text->getHtml("contactButton") ?>" class="btn contact-btn" />
 </form>
 <?php else: ?>
-<p><?php echo $yellow->page->getHtml("contactStatus") ?><p>
+<p><?php echo $yellow->text->getHtml("contactStatusDone") ?><p>
 <?php endif ?>
 </div>

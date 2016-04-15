@@ -2,6 +2,5 @@
 Title: Contact
 Template: contact
 Description: Contact page
-ContactEmail: user@user.com
 ---
 This page is automatically generated.
