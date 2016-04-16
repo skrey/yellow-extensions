@@ -29,51 +29,51 @@ SearchQuery: Zoek:
 SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
 SearchButton: Zoek
-WebinterfaceInstallationTitle: Welcome
+WebinterfaceInstallationTitle: Welkom
 WebinterfaceInstallationSitename: Website:
-WebinterfaceInstallationAuthor: Name:
-WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nYour website works!\n\nYou can now [edit this page] or use your text editor.
+WebinterfaceInstallationAuthor: Naam:
+WebinterfaceInstallationHomePage: ---\nTitel: Startpagina\n---\nJe website werkt!\n\nJe kan nu [deze pagina bewerken] of gebruik maken van de teksteditor.
 WebinterfaceLoginTitle: Yellow
-WebinterfaceLoginEmail: Email:
-WebinterfaceLoginPassword: Password:
-WebinterfaceLoginRecover: Forgot your password?
-WebinterfaceLoginSignup: Create user account?
-WebinterfaceLoginButton: Log in
-WebinterfaceSignupTitle: Create user account
-WebinterfaceSignupName: Name:
-WebinterfaceSignupEmail: Email:
-WebinterfaceSignupPassword: Password:
-WebinterfaceSignupButton: Create
-WebinterfaceSignupStatusNone: Here you can create a new user account.
-WebinterfaceSignupStatusIncomplete: Please fill out all fields.
-WebinterfaceSignupStatusInvalid: Please enter a valid email.
-WebinterfaceSignupStatusWeak: Please enter a different password.
-WebinterfaceSignupStatusNext: User account will be created, please check your emails.
-WebinterfaceRecoverTitle: Forgot your password
-WebinterfaceRecoverEmail: Email:
-WebinterfaceRecoverPassword: Password:
-WebinterfaceRecoverButton: Send
-WebinterfaceRecoverStatusNone: No problem, you can create a new password.
-WebinterfaceRecoverStatusInvalid: Please enter a valid email.
-WebinterfaceRecoverStatusPassword: Please enter a new password.
-WebinterfaceRecoverStatusWeak: Please enter a different password.
-WebinterfaceRecoverStatusNext: User account will be recovered, please check your emails.
-WebinterfaceConfirmSubject: Confirm user account
-WebinterfaceConfirmMessage: Hi @usershort, please confirm your user account. Click the following link.
-WebinterfaceConfirmStatusDone: User account confirmed. Thank you!
-WebinterfaceConfirmStatusExpire: User account can not be confirmed. Link has expired!
-WebinterfaceApproveSubject: Approve user account
-WebinterfaceApproveMessage: Hi @usershort, please approve a new user account for @useraccount. Click the following link.
-WebinterfaceApproveStatusDone: User account approved. Thank you!
-WebinterfaceApproveStatusExpire: User account can not be approved. Link has expired!
-WebinterfaceRecoverSubject: Recover user account
-WebinterfaceRecoverMessage: Hi @usershort, please confirm that you forgot your password. Click the following link.
-WebinterfaceRecoverStatusDone: User account recovered. Thank you!
-WebinterfaceRecoverStatusExpire: User account can not be recovered. Link has expired!
-WebinterfaceWelcomeSubject: Welcome
-WebinterfaceWelcomeMessage: Hi @usershort, your user account has been created. Have fun editing the website.
-WebinterfaceInformationSubject: Welcome back
-WebinterfaceInformationMessage: Hi @usershort, your user account has been recovered. Have fun editing the website.
+WebinterfaceLoginEmail: E-mail:
+WebinterfaceLoginPassword: Wachtwoord:
+WebinterfaceLoginRecover: Wachtwoord vergeten?
+WebinterfaceLoginSignup: Gebruikersaccount aanmaken?
+WebinterfaceLoginButton: Aanmelden
+WebinterfaceSignupTitle: Gebruikersaccount aanmaken
+WebinterfaceSignupName: Naam:
+WebinterfaceSignupEmail: E-mail:
+WebinterfaceSignupPassword: Wachtwoord:
+WebinterfaceSignupButton: Aanmaken
+WebinterfaceSignupStatusNone: Hier kan je een nieuw gebruikersaccount aanmaken.
+WebinterfaceSignupStatusIncomplete: Gelieve alle velden in te vullen.
+WebinterfaceSignupStatusInvalid: Gelieve een geldig e-mailadres in te vullen.
+WebinterfaceSignupStatusWeak: Gelieve een ander wachtwoord in te vullen.
+WebinterfaceSignupStatusNext: Gebruikersaccount zal worden aangemaakt, gelieve je mail te bekijken.
+WebinterfaceRecoverTitle: Wachtwoord vergeten
+WebinterfaceRecoverEmail: E-mail:
+WebinterfaceRecoverPassword: Wachtwoord:
+WebinterfaceRecoverButton: Versturen
+WebinterfaceRecoverStatusNone: Geen probleem, je kan een nieuw wachtwoord aanmaken.
+WebinterfaceRecoverStatusInvalid: Gelieve een geldig e-mailadres in te vullen.
+WebinterfaceRecoverStatusPassword: Gelieve een nieuw e-mailadres in te vullen.
+WebinterfaceRecoverStatusWeak: Gelieve een ander wachtwoord in te vullen.
+WebinterfaceRecoverStatusNext: Gebruikersaccount zal worden herstelt, gelieve je mail te bekijken.
+WebinterfaceConfirmSubject: Gebruikersaccount bevestigen
+WebinterfaceConfirmMessage: Hallo @usershort, gelieve je gebruikersaccount te bevestigen. Klik op volgende link.
+WebinterfaceConfirmStatusDone: Gebruikersaccount bevestigd. Bedankt!
+WebinterfaceConfirmStatusExpire: Gebruikersaccount kan niet worden bevestigd. Link is verlopen!
+WebinterfaceApproveSubject: Gebruikersaccount toestaan
+WebinterfaceApproveMessage: Hallo @usershort, gelieve de aanmaak van een nieuw gebruikersaccount voor @useraccount te bevestigen. Klik op volgende link.
+WebinterfaceApproveStatusDone: Gebruikersaccount toegestaan. Bedankt!
+WebinterfaceApproveStatusExpire: Gebruikersaccount kan niet worden toegestaan. Link is verlopen!
+WebinterfaceRecoverSubject: Gebruikersaccount herstellen
+WebinterfaceRecoverMessage: Hallo @usershort, gelieve te bevestigen dat je het wachtwoord vergeten bent. Klik op volgende link.
+WebinterfaceRecoverStatusDone: Gebruikersaccount herstelt. Bedankt!
+WebinterfaceRecoverStatusExpire: Gebruikersaccount kan niet worden herstelt. Link is verlopen!
+WebinterfaceWelcomeSubject: Welkom
+WebinterfaceWelcomeMessage: Hallo @usershort, je gebruikersaccount is aangemaakt. Veel plezier met het aanpassen van je website.
+WebinterfaceInformationSubject: Welkom terug
+WebinterfaceInformationMessage: Hallo @usershort, je gebruikersaccount is herstelt. Veel plezier met het aanpassen van je website.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Annuleren
 WebinterfaceCreateButton: Nieuw
