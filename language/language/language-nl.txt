@@ -32,7 +32,7 @@ SearchButton: Zoek
 WebinterfaceInstallationTitle: Welkom
 WebinterfaceInstallationSitename: Website:
 WebinterfaceInstallationAuthor: Naam:
-WebinterfaceInstallationHomePage: ---\nTitel: Startpagina\n---\nJe website werkt!\n\nJe kan nu [deze pagina bewerken] of gebruik maken van de teksteditor.
+WebinterfaceInstallationHomePage: ---\nTitle: Startpagina\n---\nJe website werkt!\n\nJe kan nu [edit - deze pagina bewerken] of gebruik maken van de teksteditor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: E-mail:
 WebinterfaceLoginPassword: Wachtwoord:
