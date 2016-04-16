@@ -32,7 +32,7 @@ SearchButton: Искать
 WebinterfaceInstallationTitle: Добро пожаловать
 WebinterfaceInstallationSitename: Сайт:
 WebinterfaceInstallationAuthor: Имя:
-WebinterfaceInstallationHomePage: ---\nЗаголовок: Главная\n---\nВаш сайт работает!\n\nТеперь вы можете [отредактировать эту страницу] или использовать ваш текстовый редактор.
+WebinterfaceInstallationHomePage: ---\nTitle: Главная\n---\nВаш сайт работает!\n\nТеперь вы можете [edit - отредактировать эту страницу] или использовать ваш текстовый редактор.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Пароль:
