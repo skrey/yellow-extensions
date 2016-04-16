@@ -5,7 +5,7 @@ LanguageDescription: Русский
 LanguageAuthor: Сергей Ворон
 LanguageVersion: 0.6.4
 
-BlogBy: by
+BlogBy: автор
 BlogFilter: Блог:
 BlogTag: Тэги:
 BlogMore: Читать далее…
@@ -29,51 +29,51 @@ SearchQuery: Поиск:
 SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
 SearchButton: Искать
-WebinterfaceInstallationTitle: Welcome
-WebinterfaceInstallationSitename: Website:
-WebinterfaceInstallationAuthor: Name:
-WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nYour website works!\n\nYou can now [edit this page] or use your text editor.
+WebinterfaceInstallationTitle: Добро пожаловать
+WebinterfaceInstallationSitename: Сайт:
+WebinterfaceInstallationAuthor: Имя:
+WebinterfaceInstallationHomePage: ---\nЗаголовок: Главная\n---\nВаш сайт работает!\n\nТеперь вы можете [отредактировать эту страницу] или использовать ваш текстовый редактор.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
-WebinterfaceLoginPassword: Password:
-WebinterfaceLoginRecover: Forgot your password?
-WebinterfaceLoginSignup: Create user account?
-WebinterfaceLoginButton: Log in
-WebinterfaceSignupTitle: Create user account
-WebinterfaceSignupName: Name:
+WebinterfaceLoginPassword: Пароль:
+WebinterfaceLoginRecover: Забыли пароль?
+WebinterfaceLoginSignup: Создать учетную запись?
+WebinterfaceLoginButton: Войти
+WebinterfaceSignupTitle: Создать учетную запись
+WebinterfaceSignupName: Имя:
 WebinterfaceSignupEmail: Email:
-WebinterfaceSignupPassword: Password:
-WebinterfaceSignupButton: Create
-WebinterfaceSignupStatusNone: Here you can create a new user account.
-WebinterfaceSignupStatusIncomplete: Please fill out all fields.
-WebinterfaceSignupStatusInvalid: Please enter a valid email.
-WebinterfaceSignupStatusWeak: Please enter a different password.
-WebinterfaceSignupStatusNext: User account will be created, please check your emails.
-WebinterfaceRecoverTitle: Forgot your password
+WebinterfaceSignupPassword: Пароль:
+WebinterfaceSignupButton: Создать
+WebinterfaceSignupStatusNone: Здесь вы можете создать новую учетную запись.
+WebinterfaceSignupStatusIncomplete: Пожалуйста, заполните все поля.
+WebinterfaceSignupStatusInvalid: Пожалуйста, введите действительный адрес Email.
+WebinterfaceSignupStatusWeak: Пожалуйста, введите другой пароль.
+WebinterfaceSignupStatusNext: Учетная запись создана, пожалуйста, проверьте ваш Email.
+WebinterfaceRecoverTitle: Забыли пароль
 WebinterfaceRecoverEmail: Email:
-WebinterfaceRecoverPassword: Password:
-WebinterfaceRecoverButton: Send
-WebinterfaceRecoverStatusNone: No problem, you can create a new password.
-WebinterfaceRecoverStatusInvalid: Please enter a valid email.
-WebinterfaceRecoverStatusPassword: Please enter a new password.
-WebinterfaceRecoverStatusWeak: Please enter a different password.
-WebinterfaceRecoverStatusNext: User account will be recovered, please check your emails.
-WebinterfaceConfirmSubject: Confirm user account
-WebinterfaceConfirmMessage: Hi @usershort, please confirm your user account. Click the following link.
-WebinterfaceConfirmStatusDone: User account confirmed. Thank you!
-WebinterfaceConfirmStatusExpire: User account can not be confirmed. Link has expired!
-WebinterfaceApproveSubject: Approve user account
-WebinterfaceApproveMessage: Hi @usershort, please approve a new user account for @useraccount. Click the following link.
-WebinterfaceApproveStatusDone: User account approved. Thank you!
-WebinterfaceApproveStatusExpire: User account can not be approved. Link has expired!
-WebinterfaceRecoverSubject: Recover user account
-WebinterfaceRecoverMessage: Hi @usershort, please confirm that you forgot your password. Click the following link.
-WebinterfaceRecoverStatusDone: User account recovered. Thank you!
-WebinterfaceRecoverStatusExpire: User account can not be recovered. Link has expired!
-WebinterfaceWelcomeSubject: Welcome
-WebinterfaceWelcomeMessage: Hi @usershort, your user account has been created. Have fun editing the website.
-WebinterfaceInformationSubject: Welcome back
-WebinterfaceInformationMessage: Hi @usershort, your user account has been recovered. Have fun editing the website.
+WebinterfaceRecoverPassword: Пароль:
+WebinterfaceRecoverButton: Отправить
+WebinterfaceRecoverStatusNone: Нет проблем, вы можете создать новый пароль.
+WebinterfaceRecoverStatusInvalid: Пожалуйста, введите действительный адрес Email.
+WebinterfaceRecoverStatusPassword: Пожалуйста, введите новый пароль.
+WebinterfaceRecoverStatusWeak: Пожалуйста, введите другой пароль.
+WebinterfaceRecoverStatusNext: Учетная запись восстановлена, пожалуйста, проверьте ваш Email.
+WebinterfaceConfirmSubject: Подтверждение учетной записи
+WebinterfaceConfirmMessage: Привет @usershort, пожалуйста, подтвердите свою учетную запись. Нажмите на ссылку.
+WebinterfaceConfirmStatusDone: Учетная запись подтверждена. Спасибо!
+WebinterfaceConfirmStatusExpire: Учетная запись не может быть подтверждена. Ссылка устарела!
+WebinterfaceApproveSubject: Утвердить учетную запись
+WebinterfaceApproveMessage: Привет @usershort, пожалуйста, утвердите новую учетную запись для @useraccount. Нажмите на ссылку.
+WebinterfaceApproveStatusDone: Учетная запись утверждена. Спасибо!
+WebinterfaceApproveStatusExpire: Учетная запись не может быть утверждена. Ссылка устарела!
+WebinterfaceRecoverSubject: Восстановление учетной записи
+WebinterfaceRecoverMessage: Привет @usershort, пожалуйста, подтвердите, что вы забыли свой пароль. Нажмите на ссылку.
+WebinterfaceRecoverStatusDone: Учетная запись восстановлена. Спасибо!
+WebinterfaceRecoverStatusExpire: Учетная запись не может быть восстановлена. Ссылка устарела!
+WebinterfaceWelcomeSubject: Добро пожаловать
+WebinterfaceWelcomeMessage: Привет @usershort, ваша учетная запись создана. Получайте удовольствие редактируя сайт.
+WebinterfaceInformationSubject: С возвращением
+WebinterfaceInformationMessage: Привет @usershort, ваша учетная запись восстановлена. Получайте удовольствие редактируя сайт.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Отмена
 WebinterfaceCreateButton: Создать
