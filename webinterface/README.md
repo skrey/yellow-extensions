@@ -2,6 +2,8 @@ Webinterface plugin 0.6.6
 =========================
 Edit your website in a web browser. [See demo](http://developers.datenstrom.se).
 
+[![Screenshot](webinterface-plugin.jpg?raw=true)](http://developers.datenstrom.se)
+
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
