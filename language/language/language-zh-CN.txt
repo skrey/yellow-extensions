@@ -32,7 +32,7 @@ SearchButton: 查找
 WebinterfaceInstallationTitle: 欢迎
 WebinterfaceInstallationSitename: 网站名:
 WebinterfaceInstallationAuthor: 站长:
-WebinterfaceInstallationHomePage: ---\nTitle: 首页\n---\n你的网站已正常运行！\n\n现在你可以[编辑]本页或用你喜欢的文本编辑器修改。
+WebinterfaceInstallationHomePage: ---\nTitle: 首页\n---\n你的网站已正常运行！\n\n现在你可以[edit - 编辑本页]或用你喜欢的文本编辑器修改。
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: 邮箱:
 WebinterfaceLoginPassword: 密码:
