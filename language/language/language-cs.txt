@@ -29,51 +29,51 @@ SearchQuery: Hledej:
 SearchResultsNone: Vlož hledaný text.
 SearchResultsEmpty: Požadovaný text nenalezen.
 SearchButton: Hledej
-WebinterfaceInstallationTitle: Welcome
-WebinterfaceInstallationSitename: Website:
-WebinterfaceInstallationAuthor: Name:
-WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nYour website works!\n\nYou can now [edit this page] or use your text editor.
+WebinterfaceInstallationTitle: Vítejte
+WebinterfaceInstallationSitename: Jméno webové stránky:
+WebinterfaceInstallationAuthor: Jméno:
+WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nStránka funguje!\n\nNyní můžete [editovat tuto stránku] nebo použít textový editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
-WebinterfaceLoginPassword: Password:
-WebinterfaceLoginRecover: Forgot your password?
-WebinterfaceLoginSignup: Create user account?
-WebinterfaceLoginButton: Log in
-WebinterfaceSignupTitle: Create user account
-WebinterfaceSignupName: Name:
+WebinterfaceLoginPassword: Heslo:
+WebinterfaceLoginRecover: Zapomněli jste své heslo?
+WebinterfaceLoginSignup: Chcete vytvořit účet?
+WebinterfaceLoginButton: Přihlásit se
+WebinterfaceSignupTitle: Vytvořit účet
+WebinterfaceSignupName: Jméno:
 WebinterfaceSignupEmail: Email:
-WebinterfaceSignupPassword: Password:
-WebinterfaceSignupButton: Create
-WebinterfaceSignupStatusNone: Here you can create a new user account.
-WebinterfaceSignupStatusIncomplete: Please fill out all fields.
-WebinterfaceSignupStatusInvalid: Please enter a valid email.
-WebinterfaceSignupStatusWeak: Please enter a different password.
-WebinterfaceSignupStatusNext: User account will be created, please check your emails.
-WebinterfaceRecoverTitle: Forgot your password
+WebinterfaceSignupPassword: Heslo:
+WebinterfaceSignupButton: Vytvořit
+WebinterfaceSignupStatusNone: Nyní můžete vytvořit nový účet.
+WebinterfaceSignupStatusIncomplete: Prosím vyplňte všechny položky.
+WebinterfaceSignupStatusInvalid: Vložte email ve správném formátu.
+WebinterfaceSignupStatusWeak: Vložte jiné heslo.
+WebinterfaceSignupStatusNext: Účet byl vytvořen, podívejte se do mailové schránky.
+WebinterfaceRecoverTitle: Zapomenuté heslo
 WebinterfaceRecoverEmail: Email:
-WebinterfaceRecoverPassword: Password:
-WebinterfaceRecoverButton: Send
-WebinterfaceRecoverStatusNone: No problem, you can create a new password.
-WebinterfaceRecoverStatusInvalid: Please enter a valid email.
-WebinterfaceRecoverStatusPassword: Please enter a new password.
-WebinterfaceRecoverStatusWeak: Please enter a different password.
-WebinterfaceRecoverStatusNext: User account will be recovered, please check your emails.
-WebinterfaceConfirmSubject: Confirm user account
-WebinterfaceConfirmMessage: Hi @usershort, please confirm your user account. Click the following link.
-WebinterfaceConfirmStatusDone: User account confirmed. Thank you!
-WebinterfaceConfirmStatusExpire: User account can not be confirmed. Link has expired!
-WebinterfaceApproveSubject: Approve user account
-WebinterfaceApproveMessage: Hi @usershort, please approve a new user account for @useraccount. Click the following link.
-WebinterfaceApproveStatusDone: User account approved. Thank you!
-WebinterfaceApproveStatusExpire: User account can not be approved. Link has expired!
-WebinterfaceRecoverSubject: Recover user account
-WebinterfaceRecoverMessage: Hi @usershort, please confirm that you forgot your password. Click the following link.
-WebinterfaceRecoverStatusDone: User account recovered. Thank you!
-WebinterfaceRecoverStatusExpire: User account can not be recovered. Link has expired!
-WebinterfaceWelcomeSubject: Welcome
-WebinterfaceWelcomeMessage: Hi @usershort, your user account has been created. Have fun editing the website.
-WebinterfaceInformationSubject: Welcome back
-WebinterfaceInformationMessage: Hi @usershort, your user account has been recovered. Have fun editing the website.
+WebinterfaceRecoverPassword: Heslo:
+WebinterfaceRecoverButton: Odeslat
+WebinterfaceRecoverStatusNone: Vytvořit nové heslo.
+WebinterfaceRecoverStatusInvalid: Vložte email ve správném formátu.
+WebinterfaceRecoverStatusPassword: Vložte nové heslo.
+WebinterfaceRecoverStatusWeak: Vložte jiné heslo.
+WebinterfaceRecoverStatusNext: Uživatelský účet byl obnoven, podívejte se do mailové schránky.
+WebinterfaceConfirmSubject: Potvrzení uživatelského účtu
+WebinterfaceConfirmMessage: Ahoj @usershort, nyní je čas potvrdit nový účet. Klikněte na následující odkaz.
+WebinterfaceConfirmStatusDone: Účet potvrzen. Díky!
+WebinterfaceConfirmStatusExpire: Účet nemůže být potvrzen. Platnost odkazu vypršela!
+WebinterfaceApproveSubject: Potvrzení nového uživatelského účtu
+WebinterfaceApproveMessage: Ahoj @usershort, potvrď nový účet pro @useraccount. Klikněte na následující odkaz.
+WebinterfaceApproveStatusDone: Uživatelský účet potvrzen. Díky!
+WebinterfaceApproveStatusExpire: Uživatelský účet nemůže být potvrzen. Platnost odkazu vypršela!
+WebinterfaceRecoverSubject: Obnovení uživatelského účtu
+WebinterfaceRecoverMessage: Ahoj @usershort, potvrď obnovení hesla. Klikni na následující odkaz.
+WebinterfaceRecoverStatusDone: Heslo obnoveno. Díky!
+WebinterfaceRecoverStatusExpire: Heslo nemůže být obnoveno. Platnost odkazu vypršela!
+WebinterfaceWelcomeSubject: Vítej nový uživateli
+WebinterfaceWelcomeMessage: Ahoj @usershort, tvůj nový účet byl vytvořen. Hodně zábavy s webovem!
+WebinterfaceInformationSubject: Vítej zpět
+WebinterfaceInformationMessage: Ahoj @usershort, účet byl opraven. Hodně zábavy v další práci.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Zrušit
 WebinterfaceCreateButton: Vytvořit
