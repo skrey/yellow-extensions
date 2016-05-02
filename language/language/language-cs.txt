@@ -32,7 +32,7 @@ SearchButton: Hledej
 WebinterfaceInstallationTitle: Vítejte
 WebinterfaceInstallationSitename: Jméno webové stránky:
 WebinterfaceInstallationAuthor: Jméno:
-WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nStránka funguje!\n\nNyní můžete [editovat tuto stránku] nebo použít textový editor.
+WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nStránka funguje!\n\nNyní můžete [edit - editovat tuto stránku] nebo použít textový editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Heslo:
