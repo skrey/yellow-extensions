@@ -3,7 +3,7 @@
 Language: sk
 LanguageDescription: Slovenčina
 LanguageAuthor: Ádám Tuba
-LanguageVersion: 0.6.4
+LanguageVersion: 0.6.5
 
 BlogBy: od
 BlogFilter: Blog:
@@ -29,10 +29,8 @@ SearchQuery: Vyhľadávanie :
 SearchResultsNone: Hľadaný výraz.
 SearchResultsEmpty: Židne výsledky.
 SearchButton: Hľadať
-WebinterfaceInstallationTitle: Welcome
-WebinterfaceInstallationSitename: Website:
-WebinterfaceInstallationAuthor: Name:
-WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nYour website works!\n\nYou can now [edit this page] or use your text editor.
+WebinterfaceInstallationTitle: Hello
+WebinterfaceInstallationHomePage: Your website works!\n\nYou can now [edit this page] or use your text editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:
@@ -73,7 +71,7 @@ WebinterfaceRecoverStatusExpire: User account can not be recovered. Link has exp
 WebinterfaceWelcomeSubject: Welcome
 WebinterfaceWelcomeMessage: Hi @usershort, your user account has been created. Have fun editing the website.
 WebinterfaceInformationSubject: Welcome back
-WebinterfaceInformationMessage: Hi @usershort, your user account has been recovered. Have fun editing the website.
+WebinterfaceInformationMessage: Hi @usershort, your user account has been changed. Have fun editing the website.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Zrušiť
 WebinterfaceCreateButton: Vytvoriť
@@ -85,6 +83,9 @@ WebinterfaceDelete: -
 WebinterfaceCreateTitle: Nová stránka
 WebinterfaceDeleteTitle: Zmazať stránku
 WebinterfaceMarkdownHelp: Markdown
+WebinterfaceSettingsTitle: Settings
+WebinterfaceSettingsChangeEmail: Change your email
+WebinterfaceSettingsChangePassword: Change your password
 WebinterfaceUserHelp: Pomoc
 WebinterfaceUserLogout: Odhlásiť sa
 WikiFilter: Wiki:

@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageAuthor: Сергей Ворон
-LanguageVersion: 0.6.4
+LanguageVersion: 0.6.5
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -29,10 +29,8 @@ SearchQuery: Поиск:
 SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
 SearchButton: Искать
-WebinterfaceInstallationTitle: Добро пожаловать
-WebinterfaceInstallationSitename: Сайт:
-WebinterfaceInstallationAuthor: Имя:
-WebinterfaceInstallationHomePage: ---\nTitle: Главная\n---\nВаш сайт работает!\n\nТеперь вы можете [edit - отредактировать эту страницу] или использовать ваш текстовый редактор.
+WebinterfaceInstallationTitle: Здравствуйте
+WebinterfaceInstallationHomePage: Ваш сайт работает!\n\nТеперь вы можете [edit - отредактировать эту страницу] или использовать ваш текстовый редактор.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Пароль:
@@ -73,7 +71,7 @@ WebinterfaceRecoverStatusExpire: Учетная запись не может б�
 WebinterfaceWelcomeSubject: Добро пожаловать
 WebinterfaceWelcomeMessage: Привет @usershort, ваша учетная запись создана. Получайте удовольствие редактируя сайт.
 WebinterfaceInformationSubject: С возвращением
-WebinterfaceInformationMessage: Привет @usershort, ваша учетная запись восстановлена. Получайте удовольствие редактируя сайт.
+WebinterfaceInformationMessage: Привет @usershort, ваша учетная запись пользователя была изменена. Получайте удовольствие редактируя сайт.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Отмена
 WebinterfaceCreateButton: Создать
@@ -85,6 +83,9 @@ WebinterfaceDelete: -
 WebinterfaceCreateTitle: Новая страница
 WebinterfaceDeleteTitle: Удалить страницу
 WebinterfaceMarkdownHelp: Markdown
+WebinterfaceSettingsTitle: Настройки
+WebinterfaceSettingsChangeEmail: Измените свою электронную почту
+WebinterfaceSettingsChangePassword: Измените свой пароль
 WebinterfaceUserHelp: Помощь
 WebinterfaceUserLogout: Выход
 WikiFilter: Вики:

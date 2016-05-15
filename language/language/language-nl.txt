@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageAuthor: Robin Vannieuwenhuijse
-LanguageVersion: 0.6.4
+LanguageVersion: 0.6.5
 
 BlogBy: door
 BlogFilter: Blog:
@@ -29,10 +29,8 @@ SearchQuery: Zoek:
 SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
 SearchButton: Zoek
-WebinterfaceInstallationTitle: Welkom
-WebinterfaceInstallationSitename: Website:
-WebinterfaceInstallationAuthor: Naam:
-WebinterfaceInstallationHomePage: ---\nTitle: Startpagina\n---\nJe website werkt!\n\nJe kan nu [edit - deze pagina bewerken] of gebruik maken van de teksteditor.
+WebinterfaceInstallationTitle: Hallo
+WebinterfaceInstallationHomePage: Je website werkt!\n\nJe kan nu [edit - deze pagina bewerken] of gebruik maken van de teksteditor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: E-mail:
 WebinterfaceLoginPassword: Wachtwoord:
@@ -73,7 +71,7 @@ WebinterfaceRecoverStatusExpire: Gebruikersaccount kan niet worden herstelt. Lin
 WebinterfaceWelcomeSubject: Welkom
 WebinterfaceWelcomeMessage: Hallo @usershort, je gebruikersaccount is aangemaakt. Veel plezier met het aanpassen van je website.
 WebinterfaceInformationSubject: Welkom terug
-WebinterfaceInformationMessage: Hallo @usershort, je gebruikersaccount is herstelt. Veel plezier met het aanpassen van je website.
+WebinterfaceInformationMessage: Hallo @usershort, je gebruikersaccount is gewijzigd. Veel plezier met het aanpassen van je website.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Annuleren
 WebinterfaceCreateButton: Nieuw
@@ -85,6 +83,9 @@ WebinterfaceDelete: -
 WebinterfaceCreateTitle: Nieuwe pagina
 WebinterfaceDeleteTitle: Pagina verwijderen
 WebinterfaceMarkdownHelp: Markdown
+WebinterfaceSettingsTitle: Instellingen
+WebinterfaceSettingsChangeEmail: Wijzig uw e-mail
+WebinterfaceSettingsChangePassword: Wijzig uw wachtwoord
 WebinterfaceUserHelp: Help
 WebinterfaceUserLogout: Afmelden
 WikiFilter: Wiki:

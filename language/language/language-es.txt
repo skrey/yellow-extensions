@@ -3,7 +3,7 @@
 Language: es
 LanguageDescription: Español
 LanguageAuthor: David Garcia
-LanguageVersion: 0.6.4
+LanguageVersion: 0.6.5
 
 BlogBy: por
 BlogFilter: Blog:
@@ -29,10 +29,8 @@ SearchQuery: Buscar:
 SearchResultsNone: Introduce el término a buscar.
 SearchResultsEmpty: No se han encontrado resultados.
 SearchButton: Buscar
-WebinterfaceInstallationTitle: Welcome
-WebinterfaceInstallationSitename: Website:
-WebinterfaceInstallationAuthor: Name:
-WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nYour website works!\n\nYou can now [edit this page] or use your text editor.
+WebinterfaceInstallationTitle: Hola
+WebinterfaceInstallationHomePage: Your website works!\n\nYou can now [edit this page] or use your text editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:
@@ -73,7 +71,7 @@ WebinterfaceRecoverStatusExpire: User account can not be recovered. Link has exp
 WebinterfaceWelcomeSubject: Welcome
 WebinterfaceWelcomeMessage: Hi @usershort, your user account has been created. Have fun editing the website.
 WebinterfaceInformationSubject: Welcome back
-WebinterfaceInformationMessage: Hi @usershort, your user account has been recovered. Have fun editing the website.
+WebinterfaceInformationMessage: Hi @usershort, your user account has been changed. Have fun editing the website.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Cancelar
 WebinterfaceCreateButton: Crear
@@ -85,6 +83,9 @@ WebinterfaceDelete: -
 WebinterfaceCreateTitle: Página nueva
 WebinterfaceDeleteTitle: Eliminar página
 WebinterfaceMarkdownHelp: Markdown
+WebinterfaceSettingsTitle: Settings
+WebinterfaceSettingsChangeEmail: Change your email
+WebinterfaceSettingsChangePassword: Change your password
 WebinterfaceUserHelp: Ayuda
 WebinterfaceUserLogout: Salir
 WikiFilter: Wiki:

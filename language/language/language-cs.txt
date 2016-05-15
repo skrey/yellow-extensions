@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageAuthor: Ufo Vyhuleny
-LanguageVersion: 0.6.4
+LanguageVersion: 0.6.5
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -29,10 +29,8 @@ SearchQuery: Hledej:
 SearchResultsNone: Vlož hledaný text.
 SearchResultsEmpty: Požadovaný text nenalezen.
 SearchButton: Hledej
-WebinterfaceInstallationTitle: Vítejte
-WebinterfaceInstallationSitename: Jméno webové stránky:
-WebinterfaceInstallationAuthor: Jméno:
-WebinterfaceInstallationHomePage: ---\nTitle: Home\n---\nStránka funguje!\n\nNyní můžete [edit - editovat tuto stránku] nebo použít textový editor.
+WebinterfaceInstallationTitle: Ahoj
+WebinterfaceInstallationHomePage: Stránka funguje!\n\nNyní můžete [edit - editovat tuto stránku] nebo použít textový editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Heslo:
@@ -73,7 +71,7 @@ WebinterfaceRecoverStatusExpire: Heslo nemůže být obnoveno. Platnost odkazu v
 WebinterfaceWelcomeSubject: Vítej nový uživateli
 WebinterfaceWelcomeMessage: Ahoj @usershort, tvůj nový účet byl vytvořen. Hodně zábavy s webovem!
 WebinterfaceInformationSubject: Vítej zpět
-WebinterfaceInformationMessage: Ahoj @usershort, účet byl opraven. Hodně zábavy v další práci.
+WebinterfaceInformationMessage: Ahoj @usershort, účet byl změněn. Hodně zábavy v další práci.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Zrušit
 WebinterfaceCreateButton: Vytvořit
@@ -85,6 +83,9 @@ WebinterfaceDelete: -
 WebinterfaceCreateTitle: Nová stránka
 WebinterfaceDeleteTitle: Smazat stránku
 WebinterfaceMarkdownHelp: Markdown
+WebinterfaceSettingsTitle: Nastavení
+WebinterfaceSettingsChangeEmail: Změňte svůj email
+WebinterfaceSettingsChangePassword: Změňte si své heslo
 WebinterfaceUserHelp: Nápověda
 WebinterfaceUserLogout: Odhlásit
 WikiFilter: Wiki:
