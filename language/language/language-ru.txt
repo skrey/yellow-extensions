@@ -30,7 +30,7 @@ SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
 SearchButton: Искать
 WebinterfaceInstallationTitle: Здравствуйте
-WebinterfaceInstallationHomePage: Ваш сайт работает!\n\nТеперь вы можете [edit - отредактировать эту страницу] или использовать ваш текстовый редактор.
+WebinterfaceInstallationHomePage: Ваш сайт работает!\n\nВы можете [edit - отредактировать эту страницу] или использовать ваш текстовый редактор.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Пароль:

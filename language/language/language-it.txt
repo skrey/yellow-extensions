@@ -30,7 +30,7 @@ SearchResultsNone: Inserisci il termine da cercare.
 SearchResultsEmpty: Nessun risultato trovato.
 SearchButton: Cerca
 WebinterfaceInstallationTitle: Ciao
-WebinterfaceInstallationHomePage: Your website works!\n\nYou can now [edit this page] or use your text editor.
+WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:

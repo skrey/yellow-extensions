@@ -30,7 +30,7 @@ SearchResultsNone: Skriv ett sökord.
 SearchResultsEmpty: Inga resultat funna.
 SearchButton: Sök
 WebinterfaceInstallationTitle: Hej
-WebinterfaceInstallationHomePage: Your website works!\n\nYou can now [edit this page] or use your text editor.
+WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Lösenord:

@@ -30,7 +30,7 @@ SearchResultsNone: 검색어를 입력해주세요.
 SearchResultsEmpty: 검색결과가 없습니다.
 SearchButton: 검색
 WebinterfaceInstallationTitle: Hello
-WebinterfaceInstallationHomePage: Your website works!\n\nYou can now [edit this page] or use your text editor.
+WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:
