@@ -1,5 +1,5 @@
-Commandline plugin 0.6.9
-========================
+Commandline plugin 0.6.10
+=========================
 Run commands in a terminal window.
 
 How do I install this?
