@@ -6,8 +6,9 @@ Embed Youtube videos. [See demo](http://developers.datenstrom.se/plugins/youtube
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [youtube.php](youtube.php?raw=true), copy it into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [Youtube plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/youtube.zip).
+3. Copy `youtube.php` into your `system/plugins` folder.
 
 To uninstall delete the plugin.
 

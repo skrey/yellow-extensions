@@ -4,12 +4,13 @@ Full-text search for website.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [search.php](search.php?raw=true), copy it into your `system/plugins` folder.  
-3. Download [search.html](search.html?raw=true), copy it into your `system/themes/templates` folder.  
-4. Download [content-search.php](content-search.php?raw=true) and [navigation-search.php](navigation-search.php?raw=true), copy them into your `system/themes/snippets` folder.  
-5. Create a new folder 'search' in your `content` folder.
-6. Add [page.txt](page.txt?raw=true) to your `content/search` folder.
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [search plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/search.zip).
+3. Copy `search.php` into your `system/plugins` folder.
+4. Copy `search.html` into your `system/themes/templates` folder.
+5. Copy `content-search.php` and `navigation-search.php` into your `system/themes/snippets` folder.
+6. Create a new folder 'search' in your `content` folder.
+7. Copy `page.txt` into your `content/search` folder.
 
 To uninstall delete the plugin files.
 

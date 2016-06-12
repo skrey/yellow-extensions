@@ -4,8 +4,9 @@ Run commands in a terminal window.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [commandline.php](commandline.php?raw=true), copy it into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [commandline plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/commandline.zip).
+3. Copy `commandline.php` into your `system/plugins` folder.
 
 To uninstall delete the plugin.
 

@@ -4,8 +4,9 @@ Create statistics from web server logfiles.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [stats.php](stats.php?raw=true), copy it into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [stats plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/stats.zip).
+3. Copy `stats.php` into your `system/plugins` folder.
 
 To uninstall delete the plugin.
 

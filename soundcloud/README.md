@@ -6,8 +6,8 @@ Embed Soundcloud audio tracks. [See demo](http://developers.datenstrom.se/plugin
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [soundcloud.php](soundcloud.php?raw=true), copy it into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [Soundcloud plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/soundcloud.zip).3. Copy `soundcloud.php` into your `system/plugins` folder.
 
 To uninstall delete the plugin.
 

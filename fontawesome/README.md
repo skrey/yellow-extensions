@@ -6,8 +6,9 @@ Icons and symbols.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [fontawesome.php](fontawesome.php?raw=true), [fontawesome.css](fontawesome.css?raw=true) and [fontawesome.woff](fontawesome.woff?raw=true), copy them into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [fontawesome plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/fontawesome.zip).
+3. Copy `fontawesome.php`, `fontawesome.css` and `fontawesome.woff` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 

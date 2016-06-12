@@ -4,8 +4,9 @@ Breadcrumbs navigation for website.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [breadcrumbs.php](breadcrumbs.php?raw=true), copy it into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [breadcrumbs plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/breadcrumbs.zip).
+3. Copy `breadcrumbs.php` into your `system/plugins` folder.
 
 To uninstall delete the plugin.
 

@@ -6,8 +6,9 @@ Embed Google maps. [See demo](http://developers.datenstrom.se/plugins/googlemaps
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [googlemaps.php](googlemaps.php?raw=true), copy it into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [Googlemaps plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/googlemaps.zip).
+3. Copy `googlemaps.php` into your `system/plugins` folder.
 
 To uninstall delete the plugin.
 

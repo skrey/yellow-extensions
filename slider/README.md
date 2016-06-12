@@ -6,9 +6,10 @@ Image gallery with slider. [See demo](http://developers.datenstrom.se/plugins/sl
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download and install [image plugin](https://github.com/datenstrom/yellow-plugins/tree/master/image).  
-3. Download [slider.php](slider.php?raw=true), [slider.js](slider.js?raw=true) and [slider.css](slider.css?raw=true), copy them into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and install [image plugin](https://github.com/datenstrom/yellow-plugins/tree/master/image).
+3. Download and unzip [slider plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/slider.zip).
+4. Copy `slider.php`, `slider.js` and `slider.css` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 

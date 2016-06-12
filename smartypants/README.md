@@ -4,8 +4,9 @@ Better text formatting for humans.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [smartypants.php](smartypants.php?raw=true), copy it into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [smartypants plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/smartypants.zip).
+3. Copy `smartypants.php` into your `system/plugins` folder.
 
 To uninstall delete the plugin.
 

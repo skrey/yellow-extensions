@@ -4,9 +4,10 @@ Add Disqus comments to blog.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download and install [Yellow blog plugin](https://github.com/datenstrom/yellow-plugins/tree/master/blog).
-3. Download [disqus.php](disqus.php?raw=true), copy it into your `system/plugins` folder.  
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and install [blog plugin](https://github.com/datenstrom/yellow-plugins/tree/master/blog).
+3. Download and unzip [diqus plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/disqus.zip).
+4. Copy `disqus.php` into your `system/plugins` folder.
 
 To uninstall delete the plugin.
 

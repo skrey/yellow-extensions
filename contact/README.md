@@ -4,12 +4,13 @@ Email contact page for website.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [contact.php](contact.php?raw=true), copy it into your `system/plugins` folder.  
-3. Download [contact.html](contact.html?raw=true), copy it into your `system/themes/templates` folder.  
-4. Download [content-contact.php](content-contact.php?raw=true), copy it into your `system/themes/snippets` folder.  
-5. Create a new folder 'contact' in your `content` folder.
-6. Add [page.txt](page.txt?raw=true) to your `content/contact` folder.
+1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
+2. Download and unzip [contact plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/contact.zip).
+3. Copy `contact.php` into your `system/plugins` folder.
+4. Copy `contact.html` into your `system/themes/templates` folder.
+5. Copy `content-contact.php` into your `system/themes/snippets` folder.
+6. Create a new folder 'contact' in your `content` folder.
+7. Copy `page.txt` into your `content/contact` folder.
 
 To uninstall delete the plugin files.
 
