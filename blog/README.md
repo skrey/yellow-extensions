@@ -7,12 +7,13 @@ Blog for your website. [See demo](http://developers.datenstrom.se/plugins/blog-p
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [blog.php](blog.php?raw=true), copy it into your `system/plugins` folder.  
-3. Download [blog.html](blog.html?raw=true) and [blogpages.html](blogpages.html?raw=true), copy them into your `system/themes/templates` folder.  
-4. Download [content-blog.php](content-blog.php?raw=true) and [content-blogpages.php](content-blogpages.php?raw=true), copy them into your `system/themes/snippets` folder.  
-5. Download [page-new-blog.txt](page-new-blog.txt?raw=true), copy it into your `system/config` folder.
-6. Create a new folder '3-blog' in your `content` folder.
-7. Add [page.txt](page.txt?raw=true) and [2013-04-07-blog-example.txt](2013-04-07-blog-example.txt?raw=true) to your `/content/3-blog` folder.
+2. Download and unzip [blog plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/blog.zip).
+3. Copy `blog.php` into your `system/plugins` folder.  
+4. Copy `blog.html` and `blogpages.html` into your `system/themes/templates` folder.  
+5. Copy `content-blog.php` and `content-blogpages.php` into your `system/themes/snippets` folder.  
+6. Copy `page-new-blog.txt` into your `system/config` folder.
+7. Create a new folder '3-blog' in your `content` folder.
+8. Copy `page.txt` and `2013-04-07-blog-example.txt` into your `/content/3-blog` folder.
 
 To uninstall delete the plugin files.
 

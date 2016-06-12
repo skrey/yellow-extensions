@@ -102,4 +102,4 @@ More plugins by Yellow developers:
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Image gallery in CSS only.
 
-Created a new plugin? Awesome, add it to the list.
+All files are licensed under [GPLv2](http://opensource.org/licenses/GPL-2.0) unless stated otherwise.
