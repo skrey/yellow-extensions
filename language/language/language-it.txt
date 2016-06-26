@@ -76,7 +76,7 @@ WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Annulla
 WebinterfaceCreateButton: Crea
 WebinterfaceEditButton: Salva
-WebinterfaceDeleteButton: Cancella
+WebinterfaceDeleteButton: Elimina
 WebinterfaceEdit: Modifica la pagina
 WebinterfaceCreate: +
 WebinterfaceDelete: -
@@ -90,7 +90,7 @@ WebinterfaceUserHelp: Aiuto
 WebinterfaceUserLogout: Esci
 WikiFilter: Wiki:
 WikiTag: Tag:
-WikiSpecialChanges: Cambi recenti
+WikiSpecialChanges: Modifiche recenti
 YellowUrl: http://datenstrom.se/yellow
 YellowUserHelpUrl: http://developers.datenstrom.se/help/
 YellowMarkdownHelpUrl: http://developers.datenstrom.se/help/markdown-cheat-sheet
