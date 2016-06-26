@@ -2,7 +2,7 @@
 
 Language: it
 LanguageDescription: Italiano
-LanguageAuthor: Luca Lischetti
+LanguageAuthor: Luca Lischetti, Andrea Zanellato
 LanguageVersion: 0.6.5
 
 BlogBy: per
@@ -30,48 +30,48 @@ SearchResultsNone: Inserisci il termine da cercare.
 SearchResultsEmpty: Nessun risultato trovato.
 SearchButton: Cerca
 WebinterfaceInstallationTitle: Ciao
-WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
+WebinterfaceInstallationHomePage: Il tuo sito è attivo!\n\nPuoi [modificare questa pagina] o usare il tuo editor di testo.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:
-WebinterfaceLoginRecover: Forgot your password?
-WebinterfaceLoginSignup: Create user account?
-WebinterfaceLoginButton: Log in
-WebinterfaceSignupTitle: Create user account
-WebinterfaceSignupName: Name:
+WebinterfaceLoginRecover: Recupera la tua password
+WebinterfaceLoginSignup: Crea un nuovo account utente
+WebinterfaceLoginButton: Entra
+WebinterfaceSignupTitle: Crea un nuovo account utente
+WebinterfaceSignupName: Nome:
 WebinterfaceSignupEmail: Email:
 WebinterfaceSignupPassword: Password:
-WebinterfaceSignupButton: Create
-WebinterfaceSignupStatusNone: Here you can create a new user account.
-WebinterfaceSignupStatusIncomplete: Please fill out all fields.
-WebinterfaceSignupStatusInvalid: Please enter a valid email.
-WebinterfaceSignupStatusWeak: Please enter a different password.
-WebinterfaceSignupStatusNext: User account will be created, please check your emails.
-WebinterfaceRecoverTitle: Forgot your password
+WebinterfaceSignupButton: Crea
+WebinterfaceSignupStatusNone: Qui puoi impostare le credenziali di accesso.
+WebinterfaceSignupStatusIncomplete: Per favore, compila tutti i campi.
+WebinterfaceSignupStatusInvalid: Per favore, inserisci un'email valida.
+WebinterfaceSignupStatusWeak: Per favore, inserisci una password diversa.
+WebinterfaceSignupStatusNext: Verrà creato un nuovo account utente, un'email per la verifica verrà inviata al relativo indirizzo.
+WebinterfaceRecoverTitle: Recupero password
 WebinterfaceRecoverEmail: Email:
 WebinterfaceRecoverPassword: Password:
-WebinterfaceRecoverButton: Send
-WebinterfaceRecoverStatusNone: No problem, you can create a new password.
-WebinterfaceRecoverStatusInvalid: Please enter a valid email.
-WebinterfaceRecoverStatusPassword: Please enter a new password.
-WebinterfaceRecoverStatusWeak: Please enter a different password.
-WebinterfaceRecoverStatusNext: User account will be recovered, please check your emails.
-WebinterfaceConfirmSubject: Confirm user account
-WebinterfaceConfirmMessage: Hi @usershort, please confirm your user account. Click the following link.
-WebinterfaceConfirmStatusDone: User account confirmed. Thank you!
-WebinterfaceConfirmStatusExpire: User account can not be confirmed. Link has expired!
-WebinterfaceApproveSubject: Approve user account
-WebinterfaceApproveMessage: Hi @usershort, please approve a new user account for @useraccount. Click the following link.
-WebinterfaceApproveStatusDone: User account approved. Thank you!
-WebinterfaceApproveStatusExpire: User account can not be approved. Link has expired!
-WebinterfaceRecoverSubject: Recover user account
-WebinterfaceRecoverMessage: Hi @usershort, please confirm that you forgot your password. Click the following link.
-WebinterfaceRecoverStatusDone: User account recovered. Thank you!
-WebinterfaceRecoverStatusExpire: User account can not be recovered. Link has expired!
-WebinterfaceWelcomeSubject: Welcome
-WebinterfaceWelcomeMessage: Hi @usershort, your user account has been created. Have fun editing the website.
-WebinterfaceInformationSubject: Welcome back
-WebinterfaceInformationMessage: Hi @usershort, your user account has been changed. Have fun editing the website.
+WebinterfaceRecoverButton: Invia
+WebinterfaceRecoverStatusNone: Nessun problema, puoi creare una nuova password.
+WebinterfaceRecoverStatusInvalid: Per favore, inserisci un'email valida.
+WebinterfaceRecoverStatusPassword: Per favore, inserisci una nuova password.
+WebinterfaceRecoverStatusWeak: Per favore, inserisci una password diversa.
+WebinterfaceRecoverStatusNext: L'account utente verrà recuperato, un'email per il recupero verrà inviata al relativo indirizzo.
+WebinterfaceConfirmSubject: Conferma account utente
+WebinterfaceConfirmMessage: Ciao @usershort, per favore conferma il tuo account utente cliccando il link di seguito.
+WebinterfaceConfirmStatusDone: Account utente confermato. Grazie!
+WebinterfaceConfirmStatusExpire: Impossibile confermare l'account utente: link scaduto!
+WebinterfaceApproveSubject: Approva account utente
+WebinterfaceApproveMessage: Ciao @usershort, per favore approva un nuovo account per l'utente @useraccount cliccando il link di seguito.
+WebinterfaceApproveStatusDone: Account approvato. Grazie!
+WebinterfaceApproveStatusExpire: Impossibile approvare l'account utente: link scaduto!
+WebinterfaceRecoverSubject: Recupera account utente
+WebinterfaceRecoverMessage: Ciao @usershort, per favore conferma di aver perso la password cliccando il link di seguito.
+WebinterfaceRecoverStatusDone: Account utente recuperato. Grazie!
+WebinterfaceRecoverStatusExpire: Impossibile recuperare l'account utente: link scaduto!
+WebinterfaceWelcomeSubject: Benvenuto
+WebinterfaceWelcomeMessage: Ciao @usershort, il tuo account utente è stato creato. Buon lavoro!.
+WebinterfaceInformationSubject: Ben tornato
+WebinterfaceInformationMessage: Ciao @usershort, il tuo account utente è stato modificato. Buon lavoro!.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Annulla
 WebinterfaceCreateButton: Crea
@@ -83,9 +83,9 @@ WebinterfaceDelete: -
 WebinterfaceCreateTitle: Nuova pagina
 WebinterfaceDeleteTitle: Elimina pagina
 WebinterfaceMarkdownHelp: Markdown
-WebinterfaceSettingsTitle: Settings
-WebinterfaceSettingsChangeEmail: Change your email
-WebinterfaceSettingsChangePassword: Change your password
+WebinterfaceSettingsTitle: Impostazioni
+WebinterfaceSettingsChangeEmail: Cambia il tuo indirizzo email
+WebinterfaceSettingsChangePassword: Cambia la tua password
 WebinterfaceUserHelp: Aiuto
 WebinterfaceUserLogout: Esci
 WikiFilter: Wiki:
