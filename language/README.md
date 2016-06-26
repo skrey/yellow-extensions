@@ -13,26 +13,26 @@ To uninstall delete the plugin files.
 
 How to add a language?
 ----------------------
-The following languages are included: English, German, French. You can add more language files, copy them into your `system/plugins` folder. To enable a language open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of each page, for example `Language: en`.
+You can add more language files. Copy them into your `system/plugins` folder. To define a default language open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of each page, for example `Language: en`.
 
 The following languages are available:
 
-* [Bahasa Indonesia](language/language-id.txt?raw=true), `Language: id`
-* [Bengali](language/language-bn.txt?raw=true), `Language: bn`
-* [Čeština](language/language-cs.txt?raw=true), `Language: cs`
-* [Chinese Simplified](language/language-zh-CN.txt?raw=true), `Language: zh-CN`
-* [Dansk](language/language-da.txt?raw=true), `Language: da`
-* [Deutsch](language/language-de.txt?raw=true), `Language: de`
-* [English](language/language-en.txt?raw=true), `Language: en`
-* [Español](language/language-es.txt?raw=true), `Language: es`
-* [Français](language/language-fr.txt?raw=true), `Language: fr`
-* [Italiano](language/language-it.txt?raw=true), `Language: it`
-* [Korean](language/language-ko.txt?raw=true), `Language: ko`
-* [Magyar](language/language-hu.txt?raw=true), `Language: hu`
-* [Nederlands](language/language-nl.txt?raw=true), `Language: nl`
-* [Português](language/language-pt.txt?raw=true), `Language: pt`
-* [Русский](language/language-ru.txt?raw=true), `Language: ru`
-* [Slovenčina](language/language-sk.txt?raw=true), `Language: sk`
-* [Svenska](language/language-sv.txt?raw=true), `Language: sv`
+* [Bahasa Indonésia](language-id.txt?raw=true), `Language: id`
+* [Bangali](language-bn.txt?raw=true), `Language: bn`
+* [Čeština](language-cs.txt?raw=true), `Language: cs`
+* [Dansk](language-da.txt?raw=true), `Language: da`
+* [Deutsch](language-de.txt?raw=true), `Language: de`
+* [English](language-en.txt?raw=true), `Language: en`
+* [Español](language-es.txt?raw=true), `Language: es`
+* [Français](language-fr.txt?raw=true), `Language: fr`
+* [Italiano](language-it.txt?raw=true), `Language: it`
+* [Magyar](language-hu.txt?raw=true), `Language: hu`
+* [Nederlands](language-nl.txt?raw=true), `Language: nl`
+* [Português](language-pt.txt?raw=true), `Language: pt`
+* [Русский](language-ru.txt?raw=true), `Language: ru`
+* [Slovenčina](language-sk.txt?raw=true), `Language: sk`
+* [Svenska](language-sv.txt?raw=true), `Language: sv`
+* [한국어](language-ko.txt?raw=true), `Language: ko`
+* [简体中文](language-zh-CN.txt?raw=true), `Language: zh-CN`
 
 Made a new translation? Awesome, add it to the list.
