@@ -1,4 +1,4 @@
-Stats plugin 0.6.7
+Stats plugin 0.6.8
 ==================
 Create statistics from web server logfiles.
 

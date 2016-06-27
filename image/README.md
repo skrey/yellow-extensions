@@ -1,4 +1,4 @@
-Image plugin 0.6.1
+Image plugin 0.6.2
 ==================
 Resizable images and thumbnails. [See demo](http://developers.datenstrom.se/plugins/image-plugin).
 
