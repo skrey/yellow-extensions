@@ -1,5 +1,5 @@
-Slider plugin 0.6.1
-====================
+Slider plugin 0.6.2
+===================
 Image gallery with slider. [See demo](http://developers.datenstrom.se/plugins/slider-plugin).
 
 [![Screenshot](slider-plugin.jpg?raw=true)](http://developers.datenstrom.se/plugins/slider-plugin)

@@ -20,7 +20,7 @@ How to create a user account?
 -----------------------------
 The fist option is to create a user account in a web browser. Click the edit link on a page. You can create a user account and change your password. The webmaster needs to approve new user accounts. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`.
 
-The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add  optional name, language and status. All users are stored in file `system/config/user.ini`. See example below.
+The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add  optional name, language and status. All user accounts are stored in file `system/config/user.ini`. See example below.
 
 Example
 -------
