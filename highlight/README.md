@@ -1,4 +1,4 @@
-Highlight plugin 0.6.2
+Highlight plugin 0.6.3
 ======================
 Highlighting for source code.
 
@@ -7,7 +7,7 @@ How do I install this?
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
 2. Download and unzip [highlight plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/highlight.zip).
 3. Copy `highlight.php` and `highlight.css` into your `system/plugins` folder.
-4. Copy `highlight` folder into your `system/plugins` folder.
+4. Copy `highlight-c.php` and other language files into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 
