@@ -56,10 +56,10 @@ The following plugins are available:
   Embed Slideshare presentations.
 * [Soundcloud](https://github.com/datenstrom/yellow-plugins/tree/master/soundcloud): 
   Embed Soundcloud audio tracks.
-* [Stats](https://github.com/datenstrom/yellow-plugins/tree/master/stats): 
-  Create statistics from web server logfiles.
 * [Toc](https://github.com/datenstrom/yellow-plugins/tree/master/toc): 
   Table of contents.
+* [Traffic](https://github.com/datenstrom/yellow-plugins/tree/master/traffic): 
+  Create traffic analytics from web server logfiles.
 * [Vimeo](https://github.com/datenstrom/yellow-plugins/tree/master/vimeo): 
   Embed Vimeo videos.
 * [Webinterface](https://github.com/datenstrom/yellow-plugins/tree/master/webinterface): 

@@ -25,8 +25,8 @@ Build [static files](http://developers.datenstrom.se/help/web-server-configurati
 **php yellow.php clean [DIRECTORY LOCATION]**  
 Clean [static files](http://developers.datenstrom.se/help/web-server-configuration#static-website)
 
-**php yellow.php stats [DAYS LOCATION FILENAME]**  
-Create [statistics with the stats plugin](https://github.com/datenstrom/yellow-plugins/tree/master/stats)
+**php yellow.php traffic [DAYS LOCATION FILENAME]**  
+Create [traffic analytics with the traffic plugin](https://github.com/datenstrom/yellow-plugins/tree/master/traffic)
 
 **php yellow.php user [EMAIL PASSWORD NAME LANGUAGE]**  
 Update [user account with the webinterface plugin](https://github.com/datenstrom/yellow-plugins/tree/master/webinterface)
@@ -44,7 +44,7 @@ Showing available commands:
 Yellow 0.6.1
 Syntax: yellow.php build [DIRECTORY LOCATION]
         yellow.php clean [DIRECTORY LOCATION]
-        yellow.php stats [DAYS LOCATION FILENAME]
+        yellow.php traffic [DAYS LOCATION FILENAME]
         yellow.php user [EMAIL PASSWORD NAME LANGUAGE]
         yellow.php version
 ~~~~
