@@ -28,7 +28,7 @@ Clean [static files](http://developers.datenstrom.se/help/web-server-configurati
 **php yellow.php stats [DAYS LOCATION FILENAME]**  
 Create [statistics with the stats plugin](https://github.com/datenstrom/yellow-plugins/tree/master/stats)
 
-**php yellow.php user [EMAIL PASSWORD NAME LANGUAGE STATUS]**  
+**php yellow.php user [EMAIL PASSWORD NAME LANGUAGE]**  
 Update [user account with the webinterface plugin](https://github.com/datenstrom/yellow-plugins/tree/master/webinterface)
 
 **php yellow.php version**  
