@@ -45,6 +45,6 @@ Yellow 0.6.1
 Syntax: yellow.php build [DIRECTORY LOCATION]
         yellow.php clean [DIRECTORY LOCATION]
         yellow.php stats [DAYS LOCATION FILENAME]
-        yellow.php user [EMAIL PASSWORD NAME LANGUAGE STATUS]
+        yellow.php user [EMAIL PASSWORD NAME LANGUAGE]
         yellow.php version
 ~~~~
