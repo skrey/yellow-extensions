@@ -43,7 +43,7 @@ The following plugins are available:
 * [Markdown](https://github.com/datenstrom/yellow-plugins/tree/master/markdown): 
   Text formatting for humans.
 * [Piwik](https://github.com/datenstrom/yellow-plugins/tree/master/piwik): 
-  Add Piwik statistics to website.
+  Add Piwik web analytics to website.
 * [Preview](https://github.com/datenstrom/yellow-plugins/tree/master/preview): 
   Link pages with image preview.
 * [Search](https://github.com/datenstrom/yellow-plugins/tree/master/search): 

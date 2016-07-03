@@ -1,6 +1,6 @@
 Piwik plugin 0.6.2
 ==================
-Add Piwik analytics to website.
+Add Piwik web analytics to website.
 
 How do I install this?
 ----------------------
