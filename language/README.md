@@ -13,9 +13,9 @@ To uninstall delete the plugin files.
 
 How to add a language?
 ----------------------
-You can add more language files. Copy them into your `system/plugins` folder. To define a default language open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of each page, for example `Language: en`.
+Download and copy language file into your `system/plugins` folder. To use the language open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of each page, for example `Language: en`.
 
-The following languages are available:
+Available languages:
 
 * [Bahasa Indonésia](language-id.txt?raw=true), `Language: id`
 * [Bangali](language-bn.txt?raw=true), `Language: bn`

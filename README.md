@@ -5,10 +5,10 @@ Yellow plugins
 Yellow is for people who make websites. [Get support](http://developers.datenstrom.se/help/support).
 
 1. [Download all plugins and unzip them](https://github.com/datenstrom/yellow-plugins/archive/master.zip).  
-2. Copy relevant files to your web hosting, see individual plugin.  
+2. Copy relevant files to your web hosting.  
 3. Open your website in a web browser.
 
-The following plugins are available:
+Available plugins:
 
 * [Blog](https://github.com/datenstrom/yellow-plugins/tree/master/blog): 
   Blog for your website.
@@ -69,7 +69,7 @@ The following plugins are available:
 * [Youtube](https://github.com/datenstrom/yellow-plugins/tree/master/youtube): 
   Embed Youtube videos.
 
-More plugins by Yellow developers:
+More plugins by developers:
 
 * [CheetJS](https://github.com/nogginfuel/yellow-plugin-cheetjs): 
   Add easter eggs via key binds.
