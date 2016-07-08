@@ -21,10 +21,10 @@ Available languages:
 * [Bangali](language-bn.txt?raw=true), `Language: bn`
 * [Čeština](language-cs.txt?raw=true), `Language: cs`
 * [Dansk](language-da.txt?raw=true), `Language: da`
-* [Deutsch](language-de.txt?raw=true), `Language: de`
-* [English](language-en.txt?raw=true), `Language: en`
-* [Español](language-es.txt?raw=true), `Language: es`
-* [Français](language-fr.txt?raw=true), `Language: fr`
+* 🇩🇪 [Deutsch](language-de.txt?raw=true), `Language: de`
+* 🇬🇧 [English](language-en.txt?raw=true), `Language: en`
+* 🇪🇸 [Español](language-es.txt?raw=true), `Language: es`
+* 🇫🇷 [Français](language-fr.txt?raw=true), `Language: fr`
 * [Italiano](language-it.txt?raw=true), `Language: it`
 * [Magyar](language-hu.txt?raw=true), `Language: hu`
 * [Nederlands](language-nl.txt?raw=true), `Language: nl`
