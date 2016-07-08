@@ -71,6 +71,8 @@ Available plugins:
 
 More plugins by developers:
 
+* [Audio](https://github.com/schulle4u/yellow-plugin-audio):
+  HTML5 audio player.
 * [CheetJS](https://github.com/nogginfuel/yellow-plugin-cheetjs): 
   Add easter eggs via key binds.
 * [Comments](https://github.com/nasendackel/yellow-comments):
