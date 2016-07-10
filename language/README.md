@@ -17,22 +17,22 @@ Copy language file into your `system/plugins` folder. To use the language open f
 
 Available languages:
 
-* 🇮🇩 [Bahasa Indonésia](language-id.txt?raw=true), `Language: id`
-* 🇧🇩 [Bangali](language-bn.txt?raw=true), `Language: bn`
-* 🇨🇿 [Čeština](language-cs.txt?raw=true), `Language: cs`
-* 🇩🇰 [Dansk](language-da.txt?raw=true), `Language: da`
-* 🇩🇪 [Deutsch](language-de.txt?raw=true), `Language: de`
-* 🇬🇧 [English](language-en.txt?raw=true), `Language: en`
-* 🇪🇸 [Español](language-es.txt?raw=true), `Language: es`
-* 🇫🇷 [Français](language-fr.txt?raw=true), `Language: fr`
-* 🇮🇹 [Italiano](language-it.txt?raw=true), `Language: it`
-* 🇭🇺 [Magyar](language-hu.txt?raw=true), `Language: hu`
-* 🇳🇱 [Nederlands](language-nl.txt?raw=true), `Language: nl`
-* 🇵🇹 [Português](language-pt.txt?raw=true), `Language: pt`
-* 🇷🇺 [Русский](language-ru.txt?raw=true), `Language: ru`
-* 🇸🇮 [Slovenčina](language-sk.txt?raw=true), `Language: sk`
-* 🇸🇪 [Svenska](language-sv.txt?raw=true), `Language: sv`
-* 🇰🇷 [한국어](language-ko.txt?raw=true), `Language: ko`
-* 🇨🇳 [简体中文](language-zh-CN.txt?raw=true), `Language: zh-CN`
+* [Bahasa Indonésia](language-id.txt?raw=true), `Language: id`
+* [Bangali](language-bn.txt?raw=true), `Language: bn`
+* [Čeština](language-cs.txt?raw=true), `Language: cs`
+* [Dansk](language-da.txt?raw=true), `Language: da`
+* [Deutsch](language-de.txt?raw=true), `Language: de`
+* [English](language-en.txt?raw=true), `Language: en`
+* [Español](language-es.txt?raw=true), `Language: es`
+* [Français](language-fr.txt?raw=true), `Language: fr`
+* [Italiano](language-it.txt?raw=true), `Language: it`
+* [Magyar](language-hu.txt?raw=true), `Language: hu`
+* [Nederlands](language-nl.txt?raw=true), `Language: nl`
+* [Português](language-pt.txt?raw=true), `Language: pt`
+* [Русский](language-ru.txt?raw=true), `Language: ru`
+* [Slovenčina](language-sk.txt?raw=true), `Language: sk`
+* [Svenska](language-sv.txt?raw=true), `Language: sv`
+* [한국어](language-ko.txt?raw=true), `Language: ko`
+* [简体中文](language-zh-CN.txt?raw=true), `Language: zh-CN`
 
 Made a new translation? Awesome, add it to the list.
