@@ -5,7 +5,7 @@
 // Contact plugin
 class YellowContact
 {
-	const Version = "0.6.4";
+	const VERSION = "0.6.4";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -18,13 +18,13 @@ class YellowContact
 	// Handle page parsing
 	function onParsePage()
 	{
-		if($this->yellow->page->get("template") == "contact")
+		if($this->yellow->page->get("template")=="contact")
 		{
-			if(PHP_SAPI == "cli") $this->yellow->page->error(500, "Static website not supported!");
-			if($_REQUEST["status"] == "send")
+			if(PHP_SAPI=="cli") $this->yellow->page->error(500, "Static website not supported!");
+			if($_REQUEST["status"]=="send")
 			{
 				$status = $this->sendMail();
-				if($status == "error") $this->yellow->page->error(500, $this->yellow->text->get("contactStatusError"));
+				if($status=="error") $this->yellow->page->error(500, $this->yellow->text->get("contactStatusError"));
 				$this->yellow->page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
 				$this->yellow->page->setHeader("Cache-Control", "no-cache, must-revalidate");
 				$this->yellow->page->set("status", $status);
@@ -45,7 +45,7 @@ class YellowContact
 		if(empty($name) || empty($from) || empty($message)) $status = "incomplete";
 		if(!empty($from) && !filter_var($from, FILTER_VALIDATE_EMAIL)) $status = "invalid";
 		if(!empty($message) && preg_match("/$spamFilter/i", $message)) $status = "error";
-		if($status == "send")
+		if($status=="send")
 		{
 			$author = $this->yellow->config->get("author");
 			$email = $this->yellow->config->get("email");
@@ -64,5 +64,5 @@ class YellowContact
 	}
 }
 
-$yellow->plugins->register("contact", "YellowContact", YellowContact::Version);
+$yellow->plugins->register("contact", "YellowContact", YellowContact::VERSION);
 ?>

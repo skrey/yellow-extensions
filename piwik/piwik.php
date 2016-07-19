@@ -5,7 +5,7 @@
 // Piwik plugin
 class YellowPiwik
 {
-	const Version = "0.6.2";
+	const VERSION = "0.6.2";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -20,13 +20,13 @@ class YellowPiwik
 	function onExtra($name)
 	{
 		$output = NULL;
-		if($name == "footer")
+		if($name=="footer")
 		{
 			$serverName = $this->yellow->config->get("piwikServerName");
 			$siteId = $this->yellow->config->get("piwikSiteId");
 			$output = "<script type=\"text/javascript\">\n";
 			$output .= "var _paq = _paq || [];\n";
-			$output .= "(function(){ var u=((\"https:\" == document.location.protocol) ? \"https\" : \"http\") + \"://".strencode($serverName)."/\";\n";
+			$output .= "(function(){ var u=((\"https:\"==document.location.protocol) ? \"https\" : \"http\") + \"://".strencode($serverName)."/\";\n";
 			$output .= "_paq.push(['setSiteId', '".strencode($siteId)."']);\n";
 			$output .= "_paq.push(['setTrackerUrl', u+'piwik.php']);\n";
 			$output .= "_paq.push(['trackPageView']);\n";
@@ -39,5 +39,5 @@ class YellowPiwik
 	}
 }
 
-$yellow->plugins->register("piwik", "YellowPiwik", YellowPiwik::Version);
+$yellow->plugins->register("piwik", "YellowPiwik", YellowPiwik::VERSION);
 ?>

@@ -5,7 +5,7 @@
 // Feed plugin
 class YellowFeed
 {
-	const Version = "0.6.4";
+	const VERSION = "0.6.4";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -22,12 +22,12 @@ class YellowFeed
 	// Handle page parsing
 	function onParsePage()
 	{
-		if($this->yellow->page->get("template") == "feed")
+		if($this->yellow->page->get("template")=="feed")
 		{
 			$feedFilter = $this->yellow->config->get("feedFilter");
-			$chronologicalOrder = ($this->yellow->config->get("feedFilter") != "blog");
+			$chronologicalOrder = ($this->yellow->config->get("feedFilter")!="blog");
 			$pagination = $this->yellow->config->get("contentPagination");
-			if($_REQUEST[$pagination] == $this->yellow->config->get("feedFileXml"))
+			if($_REQUEST[$pagination]==$this->yellow->config->get("feedFileXml"))
 			{
 				$pages = $this->yellow->pages->index(false, false);
 				if(!empty($feedFilter)) $pages->filter("template", $feedFilter);
@@ -74,7 +74,7 @@ class YellowFeed
 	function onExtra($name)
 	{
 		$output = NULL;
-		if($name == "header")
+		if($name=="header")
 		{
 			$pagination = $this->yellow->config->get("contentPagination");			
 			$locationFeed = $this->yellow->config->get("serverBase").$this->yellow->config->get("feedLocation");
@@ -85,5 +85,5 @@ class YellowFeed
 	}
 }
 
-$yellow->plugins->register("feed", "YellowFeed", YellowFeed::Version);
+$yellow->plugins->register("feed", "YellowFeed", YellowFeed::VERSION);
 ?>
