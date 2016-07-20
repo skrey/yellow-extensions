@@ -6,16 +6,11 @@ Wiki for your website. [See demo](http://developers.datenstrom.se/plugins/wiki-p
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [wiki plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/wiki.zip).
-3. Copy `wiki.php` into your `system/plugins` folder.
-4. Copy `wiki.html` and `wikipages.html` into your `system/themes/templates` folder.
-5. Copy `content-wiki.php` and `content-wikipages.php` into your `system/themes/snippets` folder.
-6. Copy `page-new-wiki.txt` into your `system/config` folder.
-7. Create a new folder '3-wiki' in your `content` folder.
-8. Copy `page.txt`, `wiki-page.txt` and `sidebar.txt` into your `/content/3-wiki` folder.
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download wiki plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/wiki.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `wiki.zip` into your `system/plugins` folder.
 
-To uninstall delete the plugin files.
+To uninstall delete the plugin.
 
 How to use a wiki?
 ------------------

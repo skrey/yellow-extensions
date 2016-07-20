@@ -6,16 +6,11 @@ Blog for your website. [See demo](http://developers.datenstrom.se/plugins/blog-p
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [blog plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/blog.zip).
-3. Copy `blog.php` into your `system/plugins` folder.
-4. Copy `blog.html` and `blogpages.html` into your `system/themes/templates` folder.
-5. Copy `content-blog.php` and `content-blogpages.php` into your `system/themes/snippets` folder.
-6. Copy `page-new-blog.txt` into your `system/config` folder.
-7. Create a new folder '3-blog' in your `content` folder.
-8. Copy `page.txt` and `2013-04-07-blog-example.txt` into your `/content/3-blog` folder.
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download blog plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/blog.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `blog.zip` into your `system/plugins` folder.
 
-To uninstall delete the plugin files.
+To uninstall delete the plugin.
 
 How to use a blog?
 ------------------
