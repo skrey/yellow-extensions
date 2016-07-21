@@ -7,11 +7,10 @@ Resizable images and thumbnails. [See demo](http://developers.datenstrom.se/plug
 How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [image plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/image.zip).
-3. Copy `image.php` into your `system/plugins` folder.
-4. Create a new folder 'thumbnails' in your `media` folder. Make sure it's writable.
+2. [Download image plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/image.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `image.zip` into your `system/plugins` folder.
 
-To uninstall delete the plugin.
+To uninstall delete the plugin files.
 
 How to add an image?
 --------------------

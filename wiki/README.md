@@ -10,7 +10,7 @@ How do I install this?
 2. [Download wiki plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/wiki.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `wiki.zip` into your `system/plugins` folder.
 
-To uninstall delete the plugin.
+To uninstall delete the plugin files.
 
 How to use a wiki?
 ------------------
