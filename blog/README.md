@@ -7,7 +7,7 @@ Blog for your website. [See demo](http://developers.datenstrom.se/plugins/blog-p
 How do I install this?
 ----------------------
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
-2. [Download blog plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/blog.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/blog.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `blog.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
