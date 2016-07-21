@@ -6,11 +6,11 @@ Embed Slideshare presentations. [See demo](http://developers.datenstrom.se/plugi
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [slideshare plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/slideshare.zip).
-3. Copy `slideshare.php` into your `system/plugins` folder.
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/slideshare.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `slideshare.zip` into your `system/plugins` folder.
 
-To uninstall delete the plugin.
+To uninstall delete the plugin files.
 
 How to embed a presentation?
 ----------------------------

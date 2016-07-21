@@ -4,11 +4,11 @@ Table of contents.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [TOC plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/toc.zip).
-3. Copy `toc.php` into your `system/plugins` folder.
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/toc.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `toc.zip` into your `system/plugins` folder.
 
-To uninstall delete the plugin.
+To uninstall delete the plugin files.
 
 How to make a table of contents?
 --------------------------------
