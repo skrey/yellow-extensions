@@ -6,9 +6,9 @@ Edit your website in a web browser. [See demo](http://developers.datenstrom.se).
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [webinterface plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/webinterface.zip).
-3. Download `webinterface.php`, `webinterface.css` and `webinterface.js` into your `system/plugins` folder.
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download webinterface plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/webinterface.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `webinterface.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 

@@ -4,10 +4,9 @@ Internationalisation for your website.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [language plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/language.zip).
-3. Copy `language.php` into your `system/plugins` folder.
-4. Copy `language-en.txt`, `language-de.txt` and `language-fr.txt` into your `system/plugins` folder.
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download language plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/language.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `language.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 
