@@ -4,13 +4,9 @@ Web feed with recent changes.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [feed plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/feed.zip).
-3. Copy `feed.php` into your `system/plugins` folder.
-4. Copy `feed.html` into your `system/themes/templates` folder.
-5. Copy `content-feed.php` into your `system/themes/snippets` folder.
-6. Create a new folder 'feed' in your `content` folder.
-7. Copy `page.txt` into your `content/feed` folder.
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/feed.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `feed.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 

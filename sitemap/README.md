@@ -4,13 +4,9 @@ Sitemap for website.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [sitemap plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/sitemap.zip).
-3. Copy `sitemap.php` into your `system/plugins` folder.
-4. Copy `sitemap.html` into your `system/themes/templates` folder.
-5. Copy `content-sitemap.php` into your `system/themes/snippets` folder.
-6. Create a new folder 'sitemap' in your `content` folder.
-7. Copy `page.txt` into your `content/sitemap` folder.
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/sitemap.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `sitemap.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 
