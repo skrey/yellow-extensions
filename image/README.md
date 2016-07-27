@@ -1,8 +1,8 @@
 Image plugin 0.6.3
 ==================
-Resizable images and thumbnails. [See demo](http://developers.datenstrom.se/plugins/image-plugin).
+Resizable images and thumbnails. [See demo](https://developers.datenstrom.se/plugins/image-plugin).
 
-[![Screenshot](image-plugin.jpg?raw=true)](http://developers.datenstrom.se/plugins/image-plugin)
+[![Screenshot](image-plugin.jpg?raw=true)](https://developers.datenstrom.se/plugins/image-plugin)
 
 How do I install this?
 ----------------------

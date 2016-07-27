@@ -45,7 +45,7 @@ Footer snippet with heart emoji:
     <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2016 <?php echo $yellow->page->getHtml("sitename") ?></a>.
     <a href="<?php echo $yellow->page->get("pageEdit") ?>">Edit</a>.
     <a href="<?php echo $yellow->text->get("yellowUrl") ?>">Made with Yellow</a>.
-    <a href="http://developers.datenstrom.se/">We <i class="ea ea-heart"></i> developers</a>.
+    <a href="https://developers.datenstrom.se/">We <i class="ea ea-heart"></i> developers</a>.
     </div>
     </div>
     <?php echo $yellow->page->getExtra("footer") ?>

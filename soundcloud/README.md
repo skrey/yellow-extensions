@@ -1,8 +1,8 @@
 Soundcloud plugin 0.6.1
 =======================
-Embed Soundcloud audio tracks. [See demo](http://developers.datenstrom.se/plugins/soundcloud-plugin).
+Embed Soundcloud audio tracks. [See demo](https://developers.datenstrom.se/plugins/soundcloud-plugin).
 
-[![Screenshot](soundcloud-plugin.jpg?raw=true)](http://developers.datenstrom.se/plugins/soundcloud-plugin)
+[![Screenshot](soundcloud-plugin.jpg?raw=true)](https://developers.datenstrom.se/plugins/soundcloud-plugin)
 
 How do I install this?
 ----------------------

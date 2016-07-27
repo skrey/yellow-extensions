@@ -35,15 +35,15 @@ Referring sites
 
 Popular content
 
-- 980 http://datenstrom.se/yellow/
-- 442 http://datenstrom.se/
-- 305 http://datenstrom.se/ideas/
-- 101 http://datenstrom.se/contact/
+- 980 https://datenstrom.se/yellow/
+- 442 https://datenstrom.se/
+- 305 https://datenstrom.se/ideas/
+- 101 https://datenstrom.se/contact/
 
 Error pages
 
-- 20 http://datenstrom.se/index.php - Not found
-- 12 http://datenstrom.se/admin/admin.php - Not found
+- 20 https://datenstrom.se/index.php - Not found
+- 12 https://datenstrom.se/admin/admin.php - Not found
 
 Yellow traffic: 30 days, 2903 views
 ~~~~

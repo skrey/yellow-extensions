@@ -1,8 +1,8 @@
 Slideshare plugin 0.6.1
 =======================
-Embed Slideshare presentations. [See demo](http://developers.datenstrom.se/plugins/slideshare-plugin).
+Embed Slideshare presentations. [See demo](https://developers.datenstrom.se/plugins/slideshare-plugin).
 
-[![Screenshot](slideshare-plugin.jpg?raw=true)](http://developers.datenstrom.se/plugins/slideshare-plugin)
+[![Screenshot](slideshare-plugin.jpg?raw=true)](https://developers.datenstrom.se/plugins/slideshare-plugin)
 
 How do I install this?
 ----------------------

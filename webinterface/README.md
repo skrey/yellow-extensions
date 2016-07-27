@@ -1,8 +1,8 @@
 Webinterface plugin 0.6.9
 =========================
-Edit your website in a web browser. [See demo](http://developers.datenstrom.se).
+Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
-[![Screenshot](webinterface-plugin.jpg?raw=true)](http://developers.datenstrom.se)
+[![Screenshot](webinterface-plugin.jpg?raw=true)](https://developers.datenstrom.se)
 
 How do I install this?
 ----------------------
