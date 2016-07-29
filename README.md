@@ -100,6 +100,8 @@ More plugins by developers:
   Overwrite language entries in a page.
 * [Shariff](https://github.com/schulle4u/yellow-plugin-shariff):
   Privacy-friendly social sharing buttons for your Yellow website.
+* [Skipto](https://github.com/schulle4u/yellow-plugin-skipto):
+  Plugin that enhances keyboard navigation
 * [Splice](https://github.com/SAMY2K/yellow-plugin-splice): 
   Embed Splice projects.
 * [Streamlist](https://github.com/nibreh/yellow-plugin-streamlist): Stream your favorite radios in a playlist with HTML5 audio
