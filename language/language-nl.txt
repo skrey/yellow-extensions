@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageAuthor: Robin Vannieuwenhuijse
-LanguageVersion: 0.6.5
+LanguageVersion: 0.6.6
 
 BlogBy: door
 BlogFilter: Blog:
@@ -91,6 +91,6 @@ WebinterfaceUserLogout: Afmelden
 WikiFilter: Wiki:
 WikiTag: Labels:
 WikiSpecialChanges: Recente wijzigingen
-YellowUrl: http://datenstrom.se/yellow
-YellowUserHelpUrl: http://developers.datenstrom.se/help/
-YellowMarkdownHelpUrl: http://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowUrl: https://datenstrom.se/yellow
+YellowUserHelpUrl: https://developers.datenstrom.se/help/
+YellowMarkdownHelpUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

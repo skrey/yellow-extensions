@@ -3,7 +3,7 @@
 Language: es
 LanguageDescription: Español
 LanguageAuthor: David Garcia
-LanguageVersion: 0.6.5
+LanguageVersion: 0.6.6
 
 BlogBy: por
 BlogFilter: Blog:
@@ -91,6 +91,6 @@ WebinterfaceUserLogout: Salir
 WikiFilter: Wiki:
 WikiTag: Etiquetas:
 WikiSpecialChanges: Cambios recientes
-YellowUrl: http://datenstrom.se/yellow
-YellowUserHelpUrl: http://developers.datenstrom.se/help/
-YellowMarkdownHelpUrl: http://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowUrl: https://datenstrom.se/yellow
+YellowUserHelpUrl: https://developers.datenstrom.se/help/
+YellowMarkdownHelpUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

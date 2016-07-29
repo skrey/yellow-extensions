@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageAuthor: Hyson Lee
-LanguageVersion: 0.6.5
+LanguageVersion: 0.6.6
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -91,6 +91,6 @@ WebinterfaceUserLogout: 登出
 WikiFilter: Wiki归档:
 WikiTag: 标签:
 WikiSpecialChanges: 最近更改
-YellowUrl: http://datenstrom.se/yellow
-YellowUserHelpUrl: http://developers.datenstrom.se/help/
-YellowMarkdownHelpUrl: http://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowUrl: https://datenstrom.se/yellow
+YellowUserHelpUrl: https://developers.datenstrom.se/help/
+YellowMarkdownHelpUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

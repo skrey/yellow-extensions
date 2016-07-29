@@ -3,7 +3,7 @@
 Language: id
 LanguageDescription: Bahasa Indonesia
 LanguageAuthor: Jimmy Ofisia
-LanguageVersion: 0.6.5
+LanguageVersion: 0.6.6
 
 BlogBy: oleh
 BlogFilter: Blog:
@@ -91,6 +91,6 @@ WebinterfaceUserLogout: Keluar
 WikiFilter: Wiki:
 WikiTag: Label:
 WikiSpecialChanges: Perubahan belakangan ini
-YellowUrl: http://datenstrom.se/yellow
-YellowUserHelpUrl: http://developers.datenstrom.se/help/
-YellowMarkdownHelpUrl: http://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowUrl: https://datenstrom.se/yellow
+YellowUserHelpUrl: https://developers.datenstrom.se/help/
+YellowMarkdownHelpUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
