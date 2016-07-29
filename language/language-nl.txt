@@ -30,6 +30,7 @@ SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
 SearchButton: Zoek
 WebinterfaceInstallationTitle: Hallo
+WebinterfaceInstallationFeature: Wat wil je doen?
 WebinterfaceInstallationHomePage: Je website werkt!\n\nJe kan [edit - deze pagina bewerken] of gebruik maken van de teksteditor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: E-mail:

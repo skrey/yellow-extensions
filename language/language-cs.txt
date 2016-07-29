@@ -30,6 +30,7 @@ SearchResultsNone: Vlož hledaný text.
 SearchResultsEmpty: Požadovaný text nenalezen.
 SearchButton: Hledej
 WebinterfaceInstallationTitle: Ahoj
+WebinterfaceInstallationFeature: Co chcete udělat?
 WebinterfaceInstallationHomePage: Stránka funguje!\n\nMůžete [edit - editovat tuto stránku] nebo použít textový editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:

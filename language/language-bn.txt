@@ -30,6 +30,7 @@ SearchResultsNone: একটি অনুসন্ধান শব্দ লি�
 SearchResultsEmpty: কোন ফলাফল পাওয়া যায়নি।
 SearchButton: খোঁজ করুন
 WebinterfaceInstallationTitle: Hello
+WebinterfaceInstallationFeature: What do you want to make?
 WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:

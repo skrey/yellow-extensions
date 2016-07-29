@@ -30,6 +30,7 @@ SearchResultsNone: Inserisci il termine da cercare.
 SearchResultsEmpty: Nessun risultato trovato.
 SearchButton: Cerca
 WebinterfaceInstallationTitle: Ciao
+WebinterfaceInstallationFeature: Cosa si vuole fare?
 WebinterfaceInstallationHomePage: Il tuo sito è attivo!\n\nPuoi [edit - modificare questa pagina] o usare il tuo editor di testo.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:

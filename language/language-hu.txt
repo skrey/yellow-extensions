@@ -30,6 +30,7 @@ SearchResultsNone: Keresett kifejezés
 SearchResultsEmpty: Nincs találat.
 SearchButton: Keresés
 WebinterfaceInstallationTitle: Helló
+WebinterfaceInstallationFeature: What do you want to make?
 WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:

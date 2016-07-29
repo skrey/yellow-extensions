@@ -30,6 +30,7 @@ SearchResultsNone: Indtast ny søgning.
 SearchResultsEmpty: Ingen resultater fundet.
 SearchButton: Søg
 WebinterfaceInstallationTitle: Hej
+WebinterfaceInstallationFeature: What do you want to make?
 WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:

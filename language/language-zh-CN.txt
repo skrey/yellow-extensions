@@ -30,6 +30,7 @@ SearchResultsNone: 请输入搜索关键字
 SearchResultsEmpty: 搜索查无结果
 SearchButton: 查找
 WebinterfaceInstallationTitle: 你好
+WebinterfaceInstallationFeature: 你想做什么做什么呢？
 WebinterfaceInstallationHomePage: 你的网站已正常运行！\n\n现在你可以[edit - 编辑本页]或用你喜欢的文本编辑器修改。
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: 邮箱:
