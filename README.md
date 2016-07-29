@@ -87,6 +87,7 @@ More plugins by developers:
   A jQuery image gallery with carousel.
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
   Add the power of jQuery to Yellow.
+* [Leaflet](https://github.com/nibreh/yellow-plugin-leaflet): Embed maps and add markers with Leaflet & OpenStreetMap
 * [Maintenance](https://github.com/nogginfuel/yellow-plugin-maintenance):
   Maintenance status for entire site or single page.
 * [Markbar](https://github.com/nibreh/yellow-plugin-markbar):
@@ -101,6 +102,7 @@ More plugins by developers:
   Privacy-friendly social sharing buttons for your Yellow website.
 * [Splice](https://github.com/SAMY2K/yellow-plugin-splice): 
   Embed Splice projects.
+* [Streamlist](https://github.com/nibreh/yellow-plugin-streamlist): Stream your favorite radios in a playlist with HTML5 audio
 * [Sublime](https://github.com/nashv/YellowBlogExtensions):
   Sublime Text 3 Extensions for blogs based on Yellow.
 * [WebCLI](https://github.com/richi/yellow-plugin-cli):
