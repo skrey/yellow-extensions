@@ -2,7 +2,7 @@
 
 Language: es
 LanguageDescription: Español
-LanguageAuthor: Al Garcia
+LanguageAuthor: Al Garcia, David Garcia
 LanguageVersion: 0.6.6
 
 BlogBy: por
@@ -31,7 +31,7 @@ SearchResultsEmpty: No se encontraron resultados.
 SearchButton: Buscar
 WebinterfaceInstallationTitle: Hola
 WebinterfaceInstallationFeature: ¿Qué quieres hacer?
-WebinterfaceInstallationHomePage: Tu sitio web funciona!\n\nPuedes [editar esta página] o utilizar tu editor de texto.
+WebinterfaceInstallationHomePage: Tu sitio web funciona!\n\nPuedes [edit - editar esta página] o utilizar tu editor de texto.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Contraseña:
