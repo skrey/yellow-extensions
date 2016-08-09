@@ -2,7 +2,7 @@
 
 Language: es
 LanguageDescription: Español
-LanguageAuthor: David Garcia
+LanguageAuthor: Al Garcia
 LanguageVersion: 0.6.6
 
 BlogBy: por
@@ -13,66 +13,66 @@ ContactName: Nombre:
 ContactEmail: Email:
 ContactMessage: Mensaje:
 ContactButton: Enviar mensaje
-ContactStatusNone: Di hola. Tus comentarios son bienvenidos
-ContactStatusIncomplete: Por favor, rellene todos los campos.
-ContactStatusInvalid: Por favor introduzca una dirección de email válida.
-ContactStatusDone: Tu mensaje se ha enviado con éxito. ¡Gracias!
-ContactStatusError: No se ha podido enviar tu mensaje. Por favor, inténtalo de nuevo más tarde
-DateMonths: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre
-DateWeekdays: lunes, martes, miércoles, jueves, viernes, sábado, domingo
+ContactStatusNone: Di hola. Tus comentarios son bien recibidos.
+ContactStatusIncomplete: Por favor llena todos los campos.
+ContactStatusInvalid: Por favor introduce una dirección de email válida.
+ContactStatusDone: Enviaste un email. ¡Gracias!
+ContactStatusError: El email no pudo ser enviado, por favor intenta más tarde.
+DateMonths: Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre
+DateWeekdays: Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo
 DateFormatShort: F Y
-DateFormatMedium: d/m/Y
-DateFormatLong: d/m/Y H:i
+DateFormatMedium: d-m-Y
+DateFormatLong: d-m-Y H:i
 PaginationPrevious: ← Anterior
 PaginationNext: Siguiente →
 SearchQuery: Buscar:
-SearchResultsNone: Introduce el término a buscar.
-SearchResultsEmpty: No se han encontrado resultados.
+SearchResultsNone: Introduce un término de búsqueda.
+SearchResultsEmpty: No se encontraron resultados.
 SearchButton: Buscar
 WebinterfaceInstallationTitle: Hola
-WebinterfaceInstallationFeature: What do you want to make?
-WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
+WebinterfaceInstallationFeature: ¿Qué quieres hacer?
+WebinterfaceInstallationHomePage: Tu sitio web funciona!\n\nPuedes [editar esta página] o utilizar tu editor de texto.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
-WebinterfaceLoginPassword: Password:
-WebinterfaceLoginRecover: Forgot your password?
-WebinterfaceLoginSignup: Create user account?
-WebinterfaceLoginButton: Log in
-WebinterfaceSignupTitle: Create user account
-WebinterfaceSignupName: Name:
+WebinterfaceLoginPassword: Contraseña:
+WebinterfaceLoginRecover: ¿Olvidaste tu contraseña?
+WebinterfaceLoginSignup: ¿Crear una cuenta de usuario?
+WebinterfaceLoginButton: Acceder
+WebinterfaceSignupTitle: Crear una cuenta de usuario
+WebinterfaceSignupName: Nombre:
 WebinterfaceSignupEmail: Email:
-WebinterfaceSignupPassword: Password:
-WebinterfaceSignupButton: Create
-WebinterfaceSignupStatusNone: Here you can create a new user account.
-WebinterfaceSignupStatusIncomplete: Please fill out all fields.
-WebinterfaceSignupStatusInvalid: Please enter a valid email.
-WebinterfaceSignupStatusWeak: Please enter a different password.
-WebinterfaceSignupStatusNext: User account will be created, please check your emails.
-WebinterfaceRecoverTitle: Forgot your password
+WebinterfaceSignupPassword: Contraseña:
+WebinterfaceSignupButton: Crear
+WebinterfaceSignupStatusNone: Aquí podrás crear una nueva cuenta de usuario.
+WebinterfaceSignupStatusIncomplete: Por favor llena todos los campos.
+WebinterfaceSignupStatusInvalid: Por favor introduce una dirección de email válida.
+WebinterfaceSignupStatusWeak: Por favor introduce otra contraseña.
+WebinterfaceSignupStatusNext: La cuenta de usuario será creada, por favor revisa tu email.
+WebinterfaceRecoverTitle: Olvidaste tu contraseña
 WebinterfaceRecoverEmail: Email:
-WebinterfaceRecoverPassword: Password:
-WebinterfaceRecoverButton: Send
-WebinterfaceRecoverStatusNone: No problem, you can create a new password.
-WebinterfaceRecoverStatusInvalid: Please enter a valid email.
-WebinterfaceRecoverStatusPassword: Please enter a new password.
-WebinterfaceRecoverStatusWeak: Please enter a different password.
-WebinterfaceRecoverStatusNext: User account will be recovered, please check your emails.
-WebinterfaceConfirmSubject: Confirm user account
-WebinterfaceConfirmMessage: Hi @usershort, please confirm your user account. Click the following link.
-WebinterfaceConfirmStatusDone: User account confirmed. Thank you!
-WebinterfaceConfirmStatusExpire: User account can not be confirmed. Link has expired!
-WebinterfaceApproveSubject: Approve user account
-WebinterfaceApproveMessage: Hi @usershort, please approve a new user account for @useraccount. Click the following link.
-WebinterfaceApproveStatusDone: User account approved. Thank you!
-WebinterfaceApproveStatusExpire: User account can not be approved. Link has expired!
-WebinterfaceRecoverSubject: Recover user account
-WebinterfaceRecoverMessage: Hi @usershort, please confirm that you forgot your password. Click the following link.
-WebinterfaceRecoverStatusDone: User account recovered. Thank you!
-WebinterfaceRecoverStatusExpire: User account can not be recovered. Link has expired!
-WebinterfaceWelcomeSubject: Welcome
-WebinterfaceWelcomeMessage: Hi @usershort, your user account has been created. Have fun editing the website.
-WebinterfaceInformationSubject: Welcome back
-WebinterfaceInformationMessage: Hi @usershort, your user account has been changed. Have fun editing the website.
+WebinterfaceRecoverPassword: Contraseña:
+WebinterfaceRecoverButton: Enviar
+WebinterfaceRecoverStatusNone: No hay problema, puedes crear una nueva contraseña.
+WebinterfaceRecoverStatusInvalid: Por favor introduce una dirección de email válida.
+WebinterfaceRecoverStatusPassword: Por favor introduce una nueva contraseña.
+WebinterfaceRecoverStatusWeak: Por favor introduce una contraseña distinta.
+WebinterfaceRecoverStatusNext: La cuenta de usuario será recuperada, por favor revisa tu email.
+WebinterfaceConfirmSubject: Confirmar cuenta de usuario
+WebinterfaceConfirmMessage: Hola @usershort, por favor confirma tu cuenta. Haz click en el siguiente enlace.
+WebinterfaceConfirmStatusDone: Cuenta de usuario confirmada. ¡Gracias!
+WebinterfaceConfirmStatusExpire: La cuenta de usuario no puede ser confirmada. El vínculo se ha vencido.
+WebinterfaceApproveSubject: Aprobar cuenta de usuario
+WebinterfaceApproveMessage: Hola @usershort, por favor aprueba la nueva cuenta para @useraccount. Haz click en el siguiente enlace.
+WebinterfaceApproveStatusDone: Cuenta de usuario aprobada. ¡Gracias!
+WebinterfaceApproveStatusExpire: La cuenta de usuario no puede ser aprobada. El vínculo se ha vencido.
+WebinterfaceRecoverSubject: Recuperar cuenta de usuario
+WebinterfaceRecoverMessage: Hola @usershort, por favor confirma que olvidaste tu contrasenna. Haz click en el siguiente enlace.
+WebinterfaceRecoverStatusDone: Cuenta de usuario recuperada. ¡Gracias!
+WebinterfaceRecoverStatusExpire: La cuenta de usuario no puede ser recuperada. ¡El enlace ha expirado!
+WebinterfaceWelcomeSubject: Bienvenido
+WebinterfaceWelcomeMessage: Hola @usershort, tu cuenta de usuario ha sido creada. Diviértete editando el sitio web.
+WebinterfaceInformationSubject: Bienvenido
+WebinterfaceInformationMessage: Hola @usershort, tu cuenta de usuario ha sido modificada. Diviértete editando el sitio web.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Cancelar
 WebinterfaceCreateButton: Crear
@@ -81,12 +81,12 @@ WebinterfaceDeleteButton: Borrar
 WebinterfaceEdit: Editar página
 WebinterfaceCreate: +
 WebinterfaceDelete: -
-WebinterfaceCreateTitle: Página nueva
-WebinterfaceDeleteTitle: Eliminar página
+WebinterfaceCreateTitle: Nueva página
+WebinterfaceDeleteTitle: Borrar página
 WebinterfaceMarkdownHelp: Markdown
-WebinterfaceSettingsTitle: Settings
-WebinterfaceSettingsChangeEmail: Change your email
-WebinterfaceSettingsChangePassword: Change your password
+WebinterfaceSettingsTitle: Configuraciones
+WebinterfaceSettingsChangeEmail: Cambiar tu email
+WebinterfaceSettingsChangePassword: Cambiar tu contraseña
 WebinterfaceUserHelp: Ayuda
 WebinterfaceUserLogout: Salir
 WikiFilter: Wiki:
