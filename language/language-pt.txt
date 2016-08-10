@@ -31,7 +31,7 @@ SearchResultsEmpty: Não foram encontrados resultados.
 SearchButton: Pesquisa
 WebinterfaceInstallationTitle: Olá
 WebinterfaceInstallationFeature: O que você quer fazer?
-WebinterfaceInstallationHomePage: Seu site funciona!\n\nVocê pode [editar esta página] ou usar o seu editor de texto.
+WebinterfaceInstallationHomePage: Seu site funciona!\n\nVocê pode [edit - editar esta página] ou usar o seu editor de texto.
 WebinterfaceLoginTitle: Yellow
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Senha:
