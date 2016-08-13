@@ -12,7 +12,7 @@ To uninstall delete the plugin files.
 
 How to update your website?
 ---------------------------
-**Coming this summer**: The first option is to update your website in a web browser. Click the edit link on a page. Go to your settings and check for updates. Yellow will show when software updates are available. Only the webmaster can update your website. The webmaster's email is defined in `file system/config/config.ini`, for example Email: email@example.com.
+**Coming this summer**: The first option is to update your website in a web browser. Click the edit link on a page. Go to your settings and check for updates. Yellow will show when updates are available. Only the webmaster can update the website. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`.
 
 The second option is to update your website at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php update`, you can add an optional feature name. Deleted files can be found in the `system/trash` folder. See example below.
 
