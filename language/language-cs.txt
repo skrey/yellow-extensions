@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageAuthor: Ufo Vyhuleny
-LanguageVersion: 0.6.6
+LanguageVersion: 0.6.7
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -51,28 +51,45 @@ WebinterfaceSignupStatusNext: Účet byl vytvořen, podívejte se do mailové sc
 WebinterfaceRecoverTitle: Zapomenuté heslo
 WebinterfaceRecoverEmail: Email:
 WebinterfaceRecoverPassword: Heslo:
-WebinterfaceRecoverButton: Odeslat
 WebinterfaceRecoverStatusNone: Vytvořit nové heslo.
 WebinterfaceRecoverStatusInvalid: Vložte email ve správném formátu.
 WebinterfaceRecoverStatusPassword: Vložte nové heslo.
 WebinterfaceRecoverStatusWeak: Vložte jiné heslo.
 WebinterfaceRecoverStatusNext: Uživatelský účet byl obnoven, podívejte se do mailové schránky.
+WebinterfaceSettingsTitle: Nastavení
+WebinterfaceSettingsStatusInvalid: Please enter a valid email.
+WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusWeak: Please enter a different password.
+WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: Potvrzení uživatelského účtu
 WebinterfaceConfirmMessage: Ahoj @usershort, nyní je čas potvrdit nový účet. Klikněte na následující odkaz.
-WebinterfaceConfirmStatusDone: Účet potvrzen. Díky!
-WebinterfaceConfirmStatusExpire: Účet nemůže být potvrzen. Platnost odkazu vypršela!
+WebinterfaceConfirmStatusDone: Účet potvrzen a čeká na schválení. Díky!
+WebinterfaceConfirmStatusExpired: Účet nemůže být potvrzen. Platnost odkazu vypršela!
 WebinterfaceApproveSubject: Potvrzení nového uživatelského účtu
 WebinterfaceApproveMessage: Ahoj @usershort, potvrď nový účet pro @useraccount. Klikněte na následující odkaz.
 WebinterfaceApproveStatusDone: Uživatelský účet potvrzen. Díky!
-WebinterfaceApproveStatusExpire: Uživatelský účet nemůže být potvrzen. Platnost odkazu vypršela!
+WebinterfaceApproveStatusExpired: Uživatelský účet nemůže být potvrzen. Platnost odkazu vypršela!
 WebinterfaceRecoverSubject: Obnovení uživatelského účtu
 WebinterfaceRecoverMessage: Ahoj @usershort, potvrď obnovení hesla. Klikni na následující odkaz.
 WebinterfaceRecoverStatusDone: Heslo obnoveno. Díky!
-WebinterfaceRecoverStatusExpire: Heslo nemůže být obnoveno. Platnost odkazu vypršela!
+WebinterfaceRecoverStatusExpired: Heslo nemůže být obnoveno. Platnost odkazu vypršela!
+WebinterfaceReconfirmSubject: Change user account
+WebinterfaceReconfirmMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
+WebinterfaceReconfirmStatusDone: User account confirmed. Thank you!
+WebinterfaceReconfirmStatusExpired: User account can not be confirmed. Link has expired!
+WebinterfaceChangeSubject: Change user account
+WebinterfaceChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
+WebinterfaceChangeStatusDone: User account changed. Thank you!
+WebinterfaceChangeStatusExpired: User account can not be changed. Link has expired!
 WebinterfaceWelcomeSubject: Vítej nový uživateli
 WebinterfaceWelcomeMessage: Ahoj @usershort, tvůj nový účet byl vytvořen. Hodně zábavy s webovem!
 WebinterfaceInformationSubject: Vítej zpět
-WebinterfaceInformationMessage: Ahoj @usershort, účet byl změněn. Hodně zábavy v další práci.
+WebinterfaceInformationMessage: Ahoj @usershort, účet byl změněn. Nyní se můžete přihlásit.
+WebinterfaceUpdateTitle: Updates
+WebinterfaceUpdateCheck: Check for updates
+WebinterfaceUpdateStatusNone: Checking for updates…
+WebinterfaceUpdateStatusEmpty: No updates available.
+WebinterfaceUpdateButton: Update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Zrušit
 WebinterfaceCreateButton: Vytvořit
@@ -81,12 +98,9 @@ WebinterfaceDeleteButton: Smazat
 WebinterfaceEdit: Editovat stránku
 WebinterfaceCreate: +
 WebinterfaceDelete: -
-WebinterfaceCreateTitle: Nová stránka
+WebinterfaceCreateTitle: Vytvořit stránku
 WebinterfaceDeleteTitle: Smazat stránku
 WebinterfaceMarkdownHelp: Markdown
-WebinterfaceSettingsTitle: Nastavení
-WebinterfaceSettingsChangeEmail: Změňte svůj email
-WebinterfaceSettingsChangePassword: Změňte si své heslo
 WebinterfaceUserHelp: Nápověda
 WebinterfaceUserLogout: Odhlásit
 WikiFilter: Wiki:

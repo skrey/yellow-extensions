@@ -3,7 +3,7 @@
 Language: es
 LanguageDescription: Español
 LanguageAuthor: Al Garcia, David Garcia
-LanguageVersion: 0.6.6
+LanguageVersion: 0.6.7
 
 BlogBy: por
 BlogFilter: Blog:
@@ -51,28 +51,45 @@ WebinterfaceSignupStatusNext: La cuenta de usuario será creada, por favor revis
 WebinterfaceRecoverTitle: Olvidaste tu contraseña
 WebinterfaceRecoverEmail: Email:
 WebinterfaceRecoverPassword: Contraseña:
-WebinterfaceRecoverButton: Enviar
 WebinterfaceRecoverStatusNone: No hay problema, puedes crear una nueva contraseña.
 WebinterfaceRecoverStatusInvalid: Por favor introduce una dirección de email válida.
 WebinterfaceRecoverStatusPassword: Por favor introduce una nueva contraseña.
 WebinterfaceRecoverStatusWeak: Por favor introduce una contraseña distinta.
 WebinterfaceRecoverStatusNext: La cuenta de usuario será recuperada, por favor revisa tu email.
+WebinterfaceSettingsTitle: Configuraciones
+WebinterfaceSettingsStatusInvalid: Please enter a valid email.
+WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusWeak: Please enter a different password.
+WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: Confirmar cuenta de usuario
 WebinterfaceConfirmMessage: Hola @usershort, por favor confirma tu cuenta. Haz click en el siguiente enlace.
-WebinterfaceConfirmStatusDone: Cuenta de usuario confirmada. ¡Gracias!
-WebinterfaceConfirmStatusExpire: La cuenta de usuario no puede ser confirmada. El vínculo se ha vencido.
+WebinterfaceConfirmStatusDone: Cuenta de usuario confirmada y espera la aprobación. ¡Gracias!
+WebinterfaceConfirmStatusExpired: La cuenta de usuario no puede ser confirmada. El vínculo se ha vencido.
 WebinterfaceApproveSubject: Aprobar cuenta de usuario
 WebinterfaceApproveMessage: Hola @usershort, por favor aprueba la nueva cuenta para @useraccount. Haz click en el siguiente enlace.
 WebinterfaceApproveStatusDone: Cuenta de usuario aprobada. ¡Gracias!
-WebinterfaceApproveStatusExpire: La cuenta de usuario no puede ser aprobada. El vínculo se ha vencido.
+WebinterfaceApproveStatusExpired: La cuenta de usuario no puede ser aprobada. El vínculo se ha vencido.
 WebinterfaceRecoverSubject: Recuperar cuenta de usuario
 WebinterfaceRecoverMessage: Hola @usershort, por favor confirma que olvidaste tu contrasenna. Haz click en el siguiente enlace.
 WebinterfaceRecoverStatusDone: Cuenta de usuario recuperada. ¡Gracias!
-WebinterfaceRecoverStatusExpire: La cuenta de usuario no puede ser recuperada. ¡El enlace ha expirado!
+WebinterfaceRecoverStatusExpired: La cuenta de usuario no puede ser recuperada. ¡El enlace ha expirado!
+WebinterfaceReconfirmSubject: Change user account
+WebinterfaceReconfirmMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
+WebinterfaceReconfirmStatusDone: User account confirmed. Thank you!
+WebinterfaceReconfirmStatusExpired: User account can not be confirmed. Link has expired!
+WebinterfaceChangeSubject: Change user account
+WebinterfaceChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
+WebinterfaceChangeStatusDone: User account changed. Thank you!
+WebinterfaceChangeStatusExpired: User account can not be changed. Link has expired!
 WebinterfaceWelcomeSubject: Bienvenido
 WebinterfaceWelcomeMessage: Hola @usershort, tu cuenta de usuario ha sido creada. Diviértete editando el sitio web.
 WebinterfaceInformationSubject: Bienvenido
-WebinterfaceInformationMessage: Hola @usershort, tu cuenta de usuario ha sido modificada. Diviértete editando el sitio web.
+WebinterfaceInformationMessage: Hola @usershort, tu cuenta de usuario ha sido modificada. Ahora puede iniciar sesión.
+WebinterfaceUpdateTitle: Updates
+WebinterfaceUpdateCheck: Check for updates
+WebinterfaceUpdateStatusNone: Checking for updates…
+WebinterfaceUpdateStatusEmpty: No updates available.
+WebinterfaceUpdateButton: Update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Cancelar
 WebinterfaceCreateButton: Crear
@@ -81,12 +98,9 @@ WebinterfaceDeleteButton: Borrar
 WebinterfaceEdit: Editar página
 WebinterfaceCreate: +
 WebinterfaceDelete: -
-WebinterfaceCreateTitle: Nueva página
+WebinterfaceCreateTitle: Crear página
 WebinterfaceDeleteTitle: Borrar página
 WebinterfaceMarkdownHelp: Markdown
-WebinterfaceSettingsTitle: Configuraciones
-WebinterfaceSettingsChangeEmail: Cambiar tu email
-WebinterfaceSettingsChangePassword: Cambiar tu contraseña
 WebinterfaceUserHelp: Ayuda
 WebinterfaceUserLogout: Salir
 WikiFilter: Wiki:

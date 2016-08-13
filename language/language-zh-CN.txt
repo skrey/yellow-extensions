@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageAuthor: Hyson Lee
-LanguageVersion: 0.6.6
+LanguageVersion: 0.6.7
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -51,28 +51,45 @@ WebinterfaceSignupStatusNext: 新帐号即将创建完成，请查收确认邮�
 WebinterfaceRecoverTitle: 忘了密码
 WebinterfaceRecoverEmail: 邮箱:
 WebinterfaceRecoverPassword: 密码:
-WebinterfaceRecoverButton: 发送
 WebinterfaceRecoverStatusNone: 没关系，你可以创建一个新密码
 WebinterfaceRecoverStatusInvalid: 请输入一个有效的e-mail地址
 WebinterfaceRecoverStatusPassword: 请输入一个新密码
 WebinterfaceRecoverStatusWeak: 请输入一个不同的密码
 WebinterfaceRecoverStatusNext: 用户帐号即将重置，请查收确认邮件
+WebinterfaceSettingsTitle: Settings
+WebinterfaceSettingsStatusInvalid: Please enter a valid email.
+WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusWeak: Please enter a different password.
+WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: 确认用户帐号
 WebinterfaceConfirmMessage: 你好 @usershort,请验证你的帐号，点击以下链接。
 WebinterfaceConfirmStatusDone: 你的帐号已验证，谢谢！
-WebinterfaceConfirmStatusExpire: 帐号验证失败，链接已失效！
+WebinterfaceConfirmStatusExpired: 帐号验证失败，链接已失效！
 WebinterfaceApproveSubject: 审批用户帐号
 WebinterfaceApproveMessage: 你好 @usershort, 请为 @useraccount批准一个新帐号。点击以下链接。
 WebinterfaceApproveStatusDone: 用户帐号已批准，谢谢！
-WebinterfaceApproveStatusExpire: 帐号批准失败，链接已失效！
+WebinterfaceApproveStatusExpired: 帐号批准失败，链接已失效！
 WebinterfaceRecoverSubject: 重置用户帐号
 WebinterfaceRecoverMessage: 你好 @usershort,确定忘了密码请点击以下链接。
 WebinterfaceRecoverStatusDone: 用户帐号已重置，谢谢！
-WebinterfaceRecoverStatusExpire: 帐号重置失败，链接已失效！
+WebinterfaceRecoverStatusExpired: 帐号重置失败，链接已失效！
+WebinterfaceReconfirmSubject: Change user account
+WebinterfaceReconfirmMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
+WebinterfaceReconfirmStatusDone: User account confirmed. Thank you!
+WebinterfaceReconfirmStatusExpired: User account can not be confirmed. Link has expired!
+WebinterfaceChangeSubject: Change user account
+WebinterfaceChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
+WebinterfaceChangeStatusDone: User account changed. Thank you!
+WebinterfaceChangeStatusExpired: User account can not be changed. Link has expired!
 WebinterfaceWelcomeSubject: 欢迎
 WebinterfaceWelcomeMessage: 你好 @usershort,你的帐号已创建完毕，建站愉快。
 WebinterfaceInformationSubject: 欢迎回来
 WebinterfaceInformationMessage: 你好 @usershort,你的帐号你重置完毕，建站愉快。
+WebinterfaceUpdateTitle: Updates
+WebinterfaceUpdateCheck: Check for updates
+WebinterfaceUpdateStatusNone: Checking for updates…
+WebinterfaceUpdateStatusEmpty: No updates available.
+WebinterfaceUpdateButton: Update
 WebinterfaceOkButton: 确定
 WebinterfaceCancelButton: 取消
 WebinterfaceCreateButton: 创建
@@ -84,9 +101,6 @@ WebinterfaceDelete: - 删除
 WebinterfaceCreateTitle: 新页面
 WebinterfaceDeleteTitle: 删除页面
 WebinterfaceMarkdownHelp: Markdown
-WebinterfaceSettingsTitle: Settings
-WebinterfaceSettingsChangeEmail: Change your email
-WebinterfaceSettingsChangePassword: Change your password
 WebinterfaceUserHelp: 帮助
 WebinterfaceUserLogout: 登出
 WikiFilter: Wiki归档:

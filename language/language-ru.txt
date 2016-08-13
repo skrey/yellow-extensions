@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageAuthor: Сергей Ворон
-LanguageVersion: 0.6.6
+LanguageVersion: 0.6.7
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -51,28 +51,45 @@ WebinterfaceSignupStatusNext: Учетная запись создана, пож
 WebinterfaceRecoverTitle: Забыли пароль
 WebinterfaceRecoverEmail: Email:
 WebinterfaceRecoverPassword: Пароль:
-WebinterfaceRecoverButton: Отправить
 WebinterfaceRecoverStatusNone: Нет проблем, вы можете создать новый пароль.
 WebinterfaceRecoverStatusInvalid: Пожалуйста, введите действительный адрес Email.
 WebinterfaceRecoverStatusPassword: Пожалуйста, введите новый пароль.
 WebinterfaceRecoverStatusWeak: Пожалуйста, введите другой пароль.
 WebinterfaceRecoverStatusNext: Учетная запись восстановлена, пожалуйста, проверьте ваш Email.
+WebinterfaceSettingsTitle: Настройки
+WebinterfaceSettingsStatusInvalid: Please enter a valid email.
+WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusWeak: Please enter a different password.
+WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: Подтверждение учетной записи
 WebinterfaceConfirmMessage: Привет @usershort, пожалуйста, подтвердите свою учетную запись. Нажмите на ссылку.
-WebinterfaceConfirmStatusDone: Учетная запись подтверждена. Спасибо!
-WebinterfaceConfirmStatusExpire: Учетная запись не может быть подтверждена. Ссылка устарела!
+WebinterfaceConfirmStatusDone: Учетная запись подтверждена и ждет одобрения. Спасибо!
+WebinterfaceConfirmStatusExpired: Учетная запись не может быть подтверждена. Ссылка устарела!
 WebinterfaceApproveSubject: Утвердить учетную запись
 WebinterfaceApproveMessage: Привет @usershort, пожалуйста, утвердите новую учетную запись для @useraccount. Нажмите на ссылку.
 WebinterfaceApproveStatusDone: Учетная запись утверждена. Спасибо!
-WebinterfaceApproveStatusExpire: Учетная запись не может быть утверждена. Ссылка устарела!
+WebinterfaceApproveStatusExpired: Учетная запись не может быть утверждена. Ссылка устарела!
 WebinterfaceRecoverSubject: Восстановление учетной записи
 WebinterfaceRecoverMessage: Привет @usershort, пожалуйста, подтвердите, что вы забыли свой пароль. Нажмите на ссылку.
 WebinterfaceRecoverStatusDone: Учетная запись восстановлена. Спасибо!
-WebinterfaceRecoverStatusExpire: Учетная запись не может быть восстановлена. Ссылка устарела!
+WebinterfaceRecoverStatusExpired: Учетная запись не может быть восстановлена. Ссылка устарела!
+WebinterfaceReconfirmSubject: Change user account
+WebinterfaceReconfirmMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
+WebinterfaceReconfirmStatusDone: User account confirmed. Thank you!
+WebinterfaceReconfirmStatusExpired: User account can not be confirmed. Link has expired!
+WebinterfaceChangeSubject: Change user account
+WebinterfaceChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
+WebinterfaceChangeStatusDone: User account changed. Thank you!
+WebinterfaceChangeStatusExpired: User account can not be changed. Link has expired!
 WebinterfaceWelcomeSubject: Добро пожаловать
 WebinterfaceWelcomeMessage: Привет @usershort, ваша учетная запись создана. Получайте удовольствие редактируя сайт.
 WebinterfaceInformationSubject: С возвращением
-WebinterfaceInformationMessage: Привет @usershort, ваша учетная запись пользователя была изменена. Получайте удовольствие редактируя сайт.
+WebinterfaceInformationMessage: Привет @usershort, ваша учетная запись пользователя была изменена. Теперь вы можете войти.
+WebinterfaceUpdateTitle: Updates
+WebinterfaceUpdateCheck: Check for updates
+WebinterfaceUpdateStatusNone: Checking for updates…
+WebinterfaceUpdateStatusEmpty: No updates available.
+WebinterfaceUpdateButton: Update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Отмена
 WebinterfaceCreateButton: Создать
@@ -81,12 +98,9 @@ WebinterfaceDeleteButton: Удалить
 WebinterfaceEdit: Редактировать
 WebinterfaceCreate: +
 WebinterfaceDelete: -
-WebinterfaceCreateTitle: Новая страница
+WebinterfaceCreateTitle: Создать страницу
 WebinterfaceDeleteTitle: Удалить страницу
 WebinterfaceMarkdownHelp: Markdown
-WebinterfaceSettingsTitle: Настройки
-WebinterfaceSettingsChangeEmail: Измените свою электронную почту
-WebinterfaceSettingsChangePassword: Измените свой пароль
 WebinterfaceUserHelp: Помощь
 WebinterfaceUserLogout: Выход
 WikiFilter: Вики:
