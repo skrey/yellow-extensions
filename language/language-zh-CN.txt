@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageAuthor: Hyson Lee
-LanguageVersion: 0.6.7
+LanguageVersion: 0.6.8
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -58,7 +58,7 @@ WebinterfaceRecoverStatusWeak: 请输入一个不同的密码
 WebinterfaceRecoverStatusNext: 用户帐号即将重置，请查收确认邮件
 WebinterfaceSettingsTitle: Settings
 WebinterfaceSettingsStatusInvalid: Please enter a valid email.
-WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusTaken: Please enter a different email.
 WebinterfaceSettingsStatusWeak: Please enter a different password.
 WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: 确认用户帐号
@@ -85,11 +85,11 @@ WebinterfaceWelcomeSubject: 欢迎
 WebinterfaceWelcomeMessage: 你好 @usershort,你的帐号已创建完毕，建站愉快。
 WebinterfaceInformationSubject: 欢迎回来
 WebinterfaceInformationMessage: 你好 @usershort,你的帐号你重置完毕，建站愉快。
-WebinterfaceUpdateTitle: Updates
-WebinterfaceUpdateCheck: Check for updates
-WebinterfaceUpdateStatusNone: Checking for updates…
-WebinterfaceUpdateStatusEmpty: No updates available.
-WebinterfaceUpdateButton: Update
+WebinterfaceVersionTitle: About this website
+WebinterfaceVersionStatusNone: Checking for updates…
+WebinterfaceVersionStatusLatest: No updates available.
+WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
+WebinterfaceVersionUpdate: Update
 WebinterfaceOkButton: 确定
 WebinterfaceCancelButton: 取消
 WebinterfaceCreateButton: 创建

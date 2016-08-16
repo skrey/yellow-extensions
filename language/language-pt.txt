@@ -3,7 +3,7 @@
 Language: pt
 LanguageDescription: Português
 LanguageAuthor: Al Garcia
-LanguageVersion: 0.6.7
+LanguageVersion: 0.6.8
 
 BlogBy: por
 BlogFilter: Blog:
@@ -58,7 +58,7 @@ WebinterfaceRecoverStatusWeak: Por favor insira uma senha diferente.
 WebinterfaceRecoverStatusNext: A conta de usuário será recuperada, por favor, verifique seus e-mails.
 WebinterfaceSettingsTitle: Configurações
 WebinterfaceSettingsStatusInvalid: Please enter a valid email.
-WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusTaken: Please enter a different email.
 WebinterfaceSettingsStatusWeak: Please enter a different password.
 WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: Confirmar conta de usuário
@@ -85,11 +85,11 @@ WebinterfaceWelcomeSubject: Bem vindo
 WebinterfaceWelcomeMessage: Oi @usershort, sua conta de usuário foi criada. Divirta-se na edição do site.
 WebinterfaceInformationSubject: Bem vindo de volta
 WebinterfaceInformationMessage: Oi @usershort, sua conta de usuário foi alterada. Agora você pode logar.
-WebinterfaceUpdateTitle: Updates
-WebinterfaceUpdateCheck: Check for updates
-WebinterfaceUpdateStatusNone: Checking for updates…
-WebinterfaceUpdateStatusEmpty: No updates available.
-WebinterfaceUpdateButton: Update
+WebinterfaceVersionTitle: About this website
+WebinterfaceVersionStatusNone: Checking for updates…
+WebinterfaceVersionStatusLatest: No updates available.
+WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
+WebinterfaceVersionUpdate: Update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Cancelar
 WebinterfaceCreateButton: Criar

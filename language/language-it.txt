@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageAuthor: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.6.7
+LanguageVersion: 0.6.8
 
 BlogBy: per
 BlogFilter: Blog:
@@ -58,7 +58,7 @@ WebinterfaceRecoverStatusWeak: Per favore, inserisci una password diversa.
 WebinterfaceRecoverStatusNext: L'account utente verrà recuperato, un'email per il recupero verrà inviata al relativo indirizzo.
 WebinterfaceSettingsTitle: Impostazioni
 WebinterfaceSettingsStatusInvalid: Please enter a valid email.
-WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusTaken: Please enter a different email.
 WebinterfaceSettingsStatusWeak: Please enter a different password.
 WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: Conferma account utente
@@ -85,11 +85,11 @@ WebinterfaceWelcomeSubject: Benvenuto
 WebinterfaceWelcomeMessage: Ciao @usershort, il tuo account utente è stato creato. Buon lavoro!
 WebinterfaceInformationSubject: Ben tornato
 WebinterfaceInformationMessage: Ciao @usershort, il tuo account utente è stato modificato. A questo punto è possibile eseguire il login.
-WebinterfaceUpdateTitle: Updates
-WebinterfaceUpdateCheck: Check for updates
-WebinterfaceUpdateStatusNone: Checking for updates…
-WebinterfaceUpdateStatusEmpty: No updates available.
-WebinterfaceUpdateButton: Update
+WebinterfaceVersionTitle: About this website
+WebinterfaceVersionStatusNone: Checking for updates…
+WebinterfaceVersionStatusLatest: No updates available.
+WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
+WebinterfaceVersionUpdate: Update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Annulla
 WebinterfaceCreateButton: Crea

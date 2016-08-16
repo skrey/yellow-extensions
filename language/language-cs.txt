@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageAuthor: Ufo Vyhuleny
-LanguageVersion: 0.6.7
+LanguageVersion: 0.6.8
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -58,7 +58,7 @@ WebinterfaceRecoverStatusWeak: Vložte jiné heslo.
 WebinterfaceRecoverStatusNext: Uživatelský účet byl obnoven, podívejte se do mailové schránky.
 WebinterfaceSettingsTitle: Nastavení
 WebinterfaceSettingsStatusInvalid: Please enter a valid email.
-WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusTaken: Please enter a different email.
 WebinterfaceSettingsStatusWeak: Please enter a different password.
 WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: Potvrzení uživatelského účtu
@@ -85,11 +85,11 @@ WebinterfaceWelcomeSubject: Vítej nový uživateli
 WebinterfaceWelcomeMessage: Ahoj @usershort, tvůj nový účet byl vytvořen. Hodně zábavy s webovem!
 WebinterfaceInformationSubject: Vítej zpět
 WebinterfaceInformationMessage: Ahoj @usershort, účet byl změněn. Nyní se můžete přihlásit.
-WebinterfaceUpdateTitle: Updates
-WebinterfaceUpdateCheck: Check for updates
-WebinterfaceUpdateStatusNone: Checking for updates…
-WebinterfaceUpdateStatusEmpty: No updates available.
-WebinterfaceUpdateButton: Update
+WebinterfaceVersionTitle: About this website
+WebinterfaceVersionStatusNone: Checking for updates…
+WebinterfaceVersionStatusLatest: No updates available.
+WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
+WebinterfaceVersionUpdate: Update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Zrušit
 WebinterfaceCreateButton: Vytvořit

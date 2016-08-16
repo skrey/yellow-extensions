@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageAuthor: Сергей Ворон
-LanguageVersion: 0.6.7
+LanguageVersion: 0.6.8
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -58,7 +58,7 @@ WebinterfaceRecoverStatusWeak: Пожалуйста, введите другой
 WebinterfaceRecoverStatusNext: Учетная запись восстановлена, пожалуйста, проверьте ваш Email.
 WebinterfaceSettingsTitle: Настройки
 WebinterfaceSettingsStatusInvalid: Please enter a valid email.
-WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusTaken: Please enter a different email.
 WebinterfaceSettingsStatusWeak: Please enter a different password.
 WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: Подтверждение учетной записи
@@ -85,11 +85,11 @@ WebinterfaceWelcomeSubject: Добро пожаловать
 WebinterfaceWelcomeMessage: Привет @usershort, ваша учетная запись создана. Получайте удовольствие редактируя сайт.
 WebinterfaceInformationSubject: С возвращением
 WebinterfaceInformationMessage: Привет @usershort, ваша учетная запись пользователя была изменена. Теперь вы можете войти.
-WebinterfaceUpdateTitle: Updates
-WebinterfaceUpdateCheck: Check for updates
-WebinterfaceUpdateStatusNone: Checking for updates…
-WebinterfaceUpdateStatusEmpty: No updates available.
-WebinterfaceUpdateButton: Update
+WebinterfaceVersionTitle: About this website
+WebinterfaceVersionStatusNone: Checking for updates…
+WebinterfaceVersionStatusLatest: No updates available.
+WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
+WebinterfaceVersionUpdate: Update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Отмена
 WebinterfaceCreateButton: Создать

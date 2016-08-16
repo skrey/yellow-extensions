@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageAuthor: Robin Vannieuwenhuijse
-LanguageVersion: 0.6.7
+LanguageVersion: 0.6.8
 
 BlogBy: door
 BlogFilter: Blog:
@@ -58,7 +58,7 @@ WebinterfaceRecoverStatusWeak: Gelieve een ander wachtwoord in te vullen.
 WebinterfaceRecoverStatusNext: Gebruikersaccount zal worden herstelt, gelieve je mail te bekijken.
 WebinterfaceSettingsTitle: Instellingen
 WebinterfaceSettingsStatusInvalid: Please enter a valid email.
-WebinterfaceSettingsStatusExists: Please enter a different email.
+WebinterfaceSettingsStatusTaken: Please enter a different email.
 WebinterfaceSettingsStatusWeak: Please enter a different password.
 WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
 WebinterfaceConfirmSubject: Gebruikersaccount bevestigen
@@ -85,11 +85,11 @@ WebinterfaceWelcomeSubject: Welkom
 WebinterfaceWelcomeMessage: Hallo @usershort, je gebruikersaccount is aangemaakt. Veel plezier met het aanpassen van je website.
 WebinterfaceInformationSubject: Welkom terug
 WebinterfaceInformationMessage: Hallo @usershort, je gebruikersaccount is gewijzigd. U kunt zich nu aanmelden.
-WebinterfaceUpdateTitle: Updates
-WebinterfaceUpdateCheck: Check for updates
-WebinterfaceUpdateStatusNone: Checking for updates…
-WebinterfaceUpdateStatusEmpty: No updates available.
-WebinterfaceUpdateButton: Update
+WebinterfaceVersionTitle: About this website
+WebinterfaceVersionStatusNone: Checking for updates…
+WebinterfaceVersionStatusLatest: No updates available.
+WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
+WebinterfaceVersionUpdate: Update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Annuleren
 WebinterfaceCreateButton: Nieuw
