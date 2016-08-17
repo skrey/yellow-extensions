@@ -1,4 +1,4 @@
-Gallery plugin 0.6.4
+Gallery plugin 0.6.5
 ====================
 Image gallery with popup. [See demo](https://developers.datenstrom.se/plugins/gallery-plugin).
 
@@ -23,7 +23,7 @@ The following arguments are available:
 `STYLE` = gallery style  
 `SIZE` = image size, pixel or percent
 
-The plugins uses [PhotoSwipe v4.1.0](http://photoswipe.com) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT). PhotoSwipe supports most web browsers, including Chrome, Firefox, Safari, Opera and IE. Files are served from [cdnjs](https://cdnjs.com), you can configure a different CDN or your own server.
+The plugins uses [PhotoSwipe v4.1.1](http://photoswipe.com) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT). PhotoSwipe supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
 
 Example
 -------
