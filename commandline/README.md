@@ -29,7 +29,7 @@ Clean [static files](https://developers.datenstrom.se/help/web-server-configurat
 Create [traffic analytics with the traffic plugin](https://github.com/datenstrom/yellow-plugins/tree/master/traffic)
 
 **php yellow.php update [FEATURE]**  
-Update [software with the update plugin](https://github.com/datenstrom/yellow-plugins/tree/master/update)
+Update [website with the update plugin](https://github.com/datenstrom/yellow-plugins/tree/master/update)
 
 **php yellow.php user [EMAIL PASSWORD NAME LANGUAGE]**  
 Update [user account with the webinterface plugin](https://github.com/datenstrom/yellow-plugins/tree/master/webinterface)
