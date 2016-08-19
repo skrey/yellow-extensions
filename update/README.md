@@ -1,4 +1,4 @@
-Update plugin 0.6.8
+Update plugin 0.6.9
 ===================
 Update your website.
 
@@ -23,5 +23,5 @@ Example
 Updating website at the command line:
  
 `php yellow.php update`  
-`php yellow.php update blog`  
+`php yellow.php update core`  
 `php yellow.php update theme`  
