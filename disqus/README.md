@@ -15,4 +15,4 @@ How to show comments?
 ---------------------
 The comments are shown with [Disqus](http://disqus.com), which is a comment service for websites. To use the plugin open file `system/config/config.ini` and add `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard.
 
-This plugin uses an online service, use the [comments plugin](https://github.com/nasendackel/yellow-comments) as a selfhosted alternative.
+This plugin uses an online service, use [comments](https://github.com/nasendackel/yellow-comments) as an alternative.

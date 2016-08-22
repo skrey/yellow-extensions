@@ -1,4 +1,4 @@
-Update plugin 0.6.9
+Update plugin 0.6.10
 ===================
 Update your website.
 
