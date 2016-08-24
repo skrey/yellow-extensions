@@ -71,7 +71,7 @@ Available plugins:
 * [Youtube](https://github.com/datenstrom/yellow-plugins/tree/master/youtube): 
   Embed Youtube videos.
 
-More plugins by developers:
+Experimental plugins:
 
 * [Audio](https://github.com/schulle4u/yellow-plugin-audio):
   HTML5 audio player.
