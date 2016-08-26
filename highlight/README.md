@@ -2,6 +2,8 @@ Highlight plugin 0.6.3
 ======================
 Highlighting for source code.
 
+<p align="center"><img src="highlight-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
@@ -31,3 +33,7 @@ Highlighting of HTML code, default and with line numbers:
     <p>Hello world!</p>
     </body>
     ```
+
+## Developer
+
+Datenstrom

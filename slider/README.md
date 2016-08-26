@@ -33,3 +33,7 @@ Adding an image gallery:
     [slider]
     [slider photo.*jpg]
     [slider photo.*jpg - 20%]
+
+## Developer
+
+Datenstrom

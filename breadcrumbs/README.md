@@ -34,3 +34,7 @@ Adding breadcrumbs to a content snippet:
     <?php echo $yellow->page->getExtra("breadcrumbs") ?>
     <?php echo $yellow->page->getContent() ?>
     </div>
+
+## Developer
+
+Datenstrom

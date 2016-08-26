@@ -1,6 +1,8 @@
 Markdown plugin 0.6.3
 =====================
-Text formatting for humans.
+Text formatting for humans. [See demo](https://developers.datenstrom.se/help/markdown-cheat-sheet).
+
+<p align="center"><img src="markdown-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How do I install this?
 
@@ -25,3 +27,7 @@ Making a list:
     * item one
     * item two
     * item three
+
+## Developer
+
+Datenstrom

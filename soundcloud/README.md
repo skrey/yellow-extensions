@@ -30,3 +30,7 @@ Embedding an audio track:
     [soundcloud 101175715]
     [soundcloud 101175715 left 200 166]
     [soundcloud 101175715 right 200 166]
+
+## Developer
+
+Datenstrom

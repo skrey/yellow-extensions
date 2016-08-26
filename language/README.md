@@ -35,3 +35,7 @@ Available languages:
 * [简体中文](language-zh-CN.txt?raw=true), `Language: zh-CN`
 
 Made a new translation? Awesome, add it to the list.
+
+## Developer
+
+David Fehrmann, Juh Nibreh, Mark Seuffert and translators

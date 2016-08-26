@@ -2,7 +2,7 @@ Webinterface plugin 0.6.12
 =========================
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
-![Screenshot](webinterface-screenshot.jpg?raw=true)
+<p align="center"><img src="webinterface-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How do I install this?
 
@@ -40,3 +40,7 @@ Creating a user account at the command line:
 `php yellow.php user`  
 `php yellow.php user email@example.com example`  
 `php yellow.php user email@example.com example Yellow en`  
+
+## Developer
+
+Datenstrom

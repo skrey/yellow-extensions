@@ -2,6 +2,8 @@ Preview plugin 0.6.8
 ====================
 Link pages with image preview.
 
+<p align="center"><img src="preview-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
@@ -21,17 +23,22 @@ The following arguments are available:
 `STYLE` = preview list style  
 `SIZE` = image size, pixel or percent  
 
-For every page there has to be an jpg-image of similar file name in your `media/images` folder.
+For every page there has to be an image of similar file name in your `media/images` folder.
 
 ## Example
 
 Adding a preview:
 
     [preview]
-    [preview /themes/]
-    [preview /themes/ threepages 33%]
+    [preview /plugins/ - 30%]
+    [preview /plugins/ simple 30%]
 
-CSS for three pages in a row:
+Adding a preview, square thumbnails:
 
-    .content .threepages { margin:0; padding:0; list-style:none; width:100%; }
-    .content .threepages li { padding-bottom:1em; text-align:center; vertical-align:top; display:inline-block; width:32%; }
+    [preview /plugins/ - 64]
+    [preview /plugins/ - 128]
+    [preview /plugins/ simple 150]
+
+## Developer
+
+Datenstrom

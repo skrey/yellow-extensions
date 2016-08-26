@@ -38,3 +38,7 @@ Adding an image gallery, square thumbnails:
     [gallery photo.*jpg - 64]
     [gallery photo.*jpg - 150]
     [gallery photo.*jpg simple 150]
+
+## Developer
+
+Datenstrom

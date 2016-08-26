@@ -37,3 +37,7 @@ Showing recently changed pages:
     [wikirecent]
     [wikirecent /wiki/ 10]
     [wikirecent / 10]
+
+## Developer
+
+Datenstrom

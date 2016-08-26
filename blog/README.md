@@ -37,3 +37,7 @@ Showing recently published pages:
     [blogrecent]
     [blogrecent /blog/ 10]
     [blogrecent / 10]
+
+## Developer
+
+Datenstrom

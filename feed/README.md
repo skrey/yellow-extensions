@@ -2,6 +2,8 @@ Feed plugin 0.6.4
 =================
 Web feed with recent changes.
 
+<p align="center"><img src="feed-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
@@ -28,3 +30,7 @@ Footer snippet with RSS feed:
     <?php echo $yellow->page->getExtra("footer") ?>
     </body>
     </html>
+
+## Developer
+
+Datenstrom

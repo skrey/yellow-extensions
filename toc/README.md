@@ -42,3 +42,7 @@ Content file with table of contents:
     ## Summary
     
     This is an example page.
+
+## Developer
+
+Datenstrom

@@ -23,3 +23,7 @@ Content file with draft status:
     Status: draft
     ---
     Write text here
+
+## Developer
+
+Datenstrom

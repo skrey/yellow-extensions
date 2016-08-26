@@ -28,3 +28,7 @@ You can now [edit this page] or use your text editor.
 
 [yellow]
 ```
+
+## Developer
+
+David Fehrmann, Mark Seuffert

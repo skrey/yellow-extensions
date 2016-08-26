@@ -2,6 +2,8 @@ Update plugin 0.6.10
 ===================
 Update your website.
 
+<p align="center"><img src="update-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
@@ -25,3 +27,7 @@ Updating website at the command line:
 `php yellow.php update`  
 `php yellow.php update core`  
 `php yellow.php update theme`  
+
+## Developer
+
+Datenstrom

@@ -45,3 +45,7 @@ Adding an image, different sizes:
     [image picture.jpg Picture - 64 64]
     [image picture.jpg Picture - 320 200]
     [image picture.jpg Picture - 50%]
+
+## Developer
+
+Datenstrom

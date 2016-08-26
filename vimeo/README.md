@@ -30,3 +30,7 @@ Embedding a video:
     [vimeo 5606758]
     [vimeo 5606758 left 200 112]
     [vimeo 5606758 right 200 112]
+
+## Developer
+
+Datenstrom

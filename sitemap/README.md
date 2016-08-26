@@ -2,6 +2,8 @@ Sitemap plugin 0.6.3
 ====================
 Sitemap for website.
 
+<p align="center"><img src="sitemap-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
@@ -28,3 +30,7 @@ Footer snippet with sitemap:
     <?php echo $yellow->page->getExtra("footer") ?>
     </body>
     </html>
+
+## Developer
+
+Datenstrom

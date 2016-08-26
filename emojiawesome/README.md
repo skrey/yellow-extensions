@@ -51,3 +51,7 @@ Footer snippet with heart emoji:
     <?php echo $yellow->page->getExtra("footer") ?>
     </body>
     </html>
+
+## Developer
+
+Datenstrom

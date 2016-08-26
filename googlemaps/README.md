@@ -31,3 +31,7 @@ Embedding a map:
     [googlemaps Stockholm]
     [googlemaps "Bredgatan 1, Lund, Sweden"]
     [googlemaps "Bredgatan 1, Lund, Sweden" 9 right 320 200]
+
+## Developer
+
+Datenstrom

@@ -2,6 +2,8 @@ Contact plugin 0.6.4
 ====================
 Email contact page for website.
 
+<p align="center"><img src="contact-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
@@ -28,3 +30,7 @@ Footer snippet with contact page:
     <?php echo $yellow->page->getExtra("footer") ?>
     </body>
     </html>
+
+## Developer
+
+Datenstrom
