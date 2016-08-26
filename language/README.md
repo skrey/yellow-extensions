@@ -2,16 +2,16 @@ Language plugin 0.6.8
 =====================
 Internationalisation for your website.
 
-How do I install this?
-----------------------
+## How do I install this?
+
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
 2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/language.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `language.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 
-How to add a language?
-----------------------
+## How to add a language?
+
 Copy language file into your `system/plugins` folder. To use the language open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of each page, for example `Language: en`.
 
 Available languages:

@@ -2,10 +2,10 @@ Gallery plugin 0.6.5
 ====================
 Image gallery with popup. [See demo](https://developers.datenstrom.se/plugins/gallery-plugin).
 
-[![Screenshot](gallery-plugin.jpg?raw=true)](https://developers.datenstrom.se/plugins/gallery-plugin)
+<p align="center"><img src="gallery-screenshot.png?raw=true" alt="Screenshot"></p>
 
-How do I install this?
-----------------------
+## How do I install this?
+
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
 2. [Download and install image plugin](https://github.com/datenstrom/yellow-plugins/tree/master/image).
 3. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/gallery.zip). If you are using Safari, right click and select 'Download file as'.
@@ -13,8 +13,8 @@ How do I install this?
 
 To uninstall delete the plugin files.
 
-How to add a gallery?
----------------------
+## How to add a gallery?
+
 Create a `[gallery]` shortcut.
 
 The following arguments are available:
@@ -25,8 +25,8 @@ The following arguments are available:
 
 The plugins uses [PhotoSwipe v4.1.1](http://photoswipe.com) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT). PhotoSwipe supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
 
-Example
--------
+## Example
+
 Adding an image gallery:
 
     [gallery]

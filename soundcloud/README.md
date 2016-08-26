@@ -2,18 +2,18 @@ Soundcloud plugin 0.6.1
 =======================
 Embed Soundcloud audio tracks. [See demo](https://developers.datenstrom.se/plugins/soundcloud-plugin).
 
-[![Screenshot](soundcloud-plugin.jpg?raw=true)](https://developers.datenstrom.se/plugins/soundcloud-plugin)
+<p align="center"><img src="soundcloud-screenshot.png?raw=true" alt="Screenshot"></p>
 
-How do I install this?
-----------------------
+## How do I install this?
+
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
 2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/soundcloud.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `soundcloud.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 
-How to embed an audio track?
-----------------------------
+## How to embed an audio track?
+
 Create a `[soundcloud]` shortcut.
  
 The following arguments are available:
@@ -23,8 +23,8 @@ The following arguments are available:
 `WIDTH` = audio track width, pixel or percent  
 `HEIGHT` = audio track height, pixel or percent   
 
-Example
--------
+## Example
+
 Embedding an audio track:
 
     [soundcloud 101175715]

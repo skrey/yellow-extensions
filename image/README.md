@@ -1,19 +1,19 @@
-Image plugin 0.6.6
+Image plugin 0.6.7
 ==================
 Resizable images and thumbnails. [See demo](https://developers.datenstrom.se/plugins/image-plugin).
 
-[![Screenshot](image-plugin.jpg?raw=true)](https://developers.datenstrom.se/plugins/image-plugin)
+<p align="center"><img src="image-screenshot.png?raw=true" alt="Screenshot"></p>
 
-How do I install this?
-----------------------
+## How do I install this?
+
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
 2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/image.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `image.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 
-How to add an image?
---------------------
+## How to add an image?
+
 Create an `[image]` shortcut.
 
 The following arguments are available:
@@ -26,8 +26,8 @@ The following arguments are available:
 
 The plugin uses [GD graphics library](http://www.libgd.org/) by Thomas Boutell for resizing JPEG and PNG images.
 
-Example
--------
+## Example
+
 Adding an image:
 
     [image picture.jpg]

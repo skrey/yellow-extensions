@@ -1,9 +1,9 @@
-Preview plugin 0.6.3
+Preview plugin 0.6.8
 ====================
 Link pages with image preview.
 
-How do I install this?
-----------------------
+## How do I install this?
+
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
 2. [Download and install image plugin](https://github.com/datenstrom/yellow-plugins/tree/master/image).
 2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/preview.zip). If you are using Safari, right click and select 'Download file as'.
@@ -11,8 +11,8 @@ How do I install this?
 
 To uninstall delete the plugin files.
 
-How to add a preview?
----------------------
+## How to add a preview?
+
 Create a `[preview]` shortcut.
 
 The following arguments are available:
@@ -23,8 +23,8 @@ The following arguments are available:
 
 For every page there has to be an jpg-image of similar file name in your `media/images` folder.
 
-Example
--------
+## Example
+
 Adding a preview:
 
     [preview]

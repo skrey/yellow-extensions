@@ -2,16 +2,18 @@ Vimeo plugin 0.6.1
 ==================
 Embed Vimeo videos.
 
-How do I install this?
-----------------------
+<p align="center"><img src="vimeo-screenshot.png?raw=true" alt="Screenshot"></p>
+
+## How do I install this?
+
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
 2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/vimeo.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `vimeo.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 
-How to embed a video?
----------------------
+## How to embed a video?
+
 Create a `[vimeo]` shortcut.
  
 The following arguments are available:
@@ -21,8 +23,8 @@ The following arguments are available:
 `WIDTH` = video width, pixel or percent  
 `HEIGHT` = video height, pixel or percent   
  
-Example
--------
+## Example
+
 Embedding a video:
 
     [vimeo 5606758]
