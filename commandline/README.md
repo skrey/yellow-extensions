@@ -46,7 +46,7 @@ Showing available commands:
 `php yellow.php`
 
 ~~~~
-Yellow 0.6.4
+Yellow 0.6.5
 Syntax: yellow.php build [DIRECTORY LOCATION]
         yellow.php clean [DIRECTORY LOCATION]
         yellow.php traffic [DAYS LOCATION FILENAME]
