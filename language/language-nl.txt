@@ -2,7 +2,7 @@
 
 Language: nl
 LanguageDescription: Nederlands (België)
-LanguageAuthor: Robin Vannieuwenhuijse
+LanguageTranslator: Robin Vannieuwenhuijse
 LanguageVersion: 0.6.8
 
 BlogBy: door

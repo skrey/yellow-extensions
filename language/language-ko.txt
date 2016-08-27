@@ -2,7 +2,7 @@
 
 Language: ko
 LanguageDescription: 한국어
-LanguageAuthor: Ludens
+LanguageTranslator: Ludens
 LanguageVersion: 0.6.8
 
 BlogBy: by

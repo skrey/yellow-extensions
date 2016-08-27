@@ -2,7 +2,7 @@
 
 Language: sv
 LanguageDescription: Svenska
-LanguageAuthor: Adam Engel
+LanguageTranslator: Adam Engel
 LanguageVersion: 0.6.8
 
 BlogBy: av

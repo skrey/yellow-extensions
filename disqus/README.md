@@ -2,6 +2,8 @@ Disqus plugin 0.6.2
 ===================
 Add Disqus comments to blog.
 
+<p align="center"><img src="disqus-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).

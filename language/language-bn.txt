@@ -2,7 +2,7 @@
 
 Language: bn
 LanguageDescription: Bangali (Bangladesh)
-LanguageAuthor: Mohammed Nazmul Ferdous
+LanguageTranslator: Mohammed Nazmul Ferdous
 LanguageVersion: 0.6.8
 
 BlogBy: লিখেছেন

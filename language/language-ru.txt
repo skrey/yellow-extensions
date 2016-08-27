@@ -2,7 +2,7 @@
 
 Language: ru
 LanguageDescription: Русский
-LanguageAuthor: Сергей Ворон
+LanguageTranslator: Сергей Ворон
 LanguageVersion: 0.6.8
 
 BlogBy: автор

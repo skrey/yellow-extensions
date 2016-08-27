@@ -2,7 +2,7 @@
 
 Language: cs
 LanguageDescription: Čeština
-LanguageAuthor: Ufo Vyhuleny
+LanguageTranslator: Ufo Vyhuleny
 LanguageVersion: 0.6.8
 
 BlogBy: Vytvořil

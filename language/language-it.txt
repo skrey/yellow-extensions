@@ -2,7 +2,7 @@
 
 Language: it
 LanguageDescription: Italiano
-LanguageAuthor: Luca Lischetti, Andrea Zanellato
+LanguageTranslator: Luca Lischetti, Andrea Zanellato
 LanguageVersion: 0.6.8
 
 BlogBy: per

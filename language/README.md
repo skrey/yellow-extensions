@@ -38,4 +38,4 @@ Made a new translation? Awesome, add it to the list.
 
 ## Developer
 
-David Fehrmann, Juh Nibreh, Mark Seuffert and translators
+Datentstrom and translators

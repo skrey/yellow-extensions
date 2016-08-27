@@ -2,7 +2,7 @@
 
 Language: da
 LanguageDescription: Dansk
-LanguageAuthor: David Garcia
+LanguageTranslator: David Garcia
 LanguageVersion: 0.6.8
 
 BlogBy: af

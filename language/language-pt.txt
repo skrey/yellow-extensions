@@ -2,7 +2,7 @@
 
 Language: pt
 LanguageDescription: Português
-LanguageAuthor: Al Garcia
+LanguageTranslator: Al Garcia
 LanguageVersion: 0.6.8
 
 BlogBy: por

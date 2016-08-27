@@ -2,6 +2,8 @@ Commandline plugin 0.6.16
 =========================
 Run commands in a terminal window.
 
+<p align="center"><img src="commandline-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
