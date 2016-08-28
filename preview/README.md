@@ -1,4 +1,4 @@
-Preview plugin 0.6.8
+Preview plugin 0.6.9
 ====================
 Link pages with image preview.
 
