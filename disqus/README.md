@@ -1,6 +1,6 @@
 Disqus plugin 0.6.2
 ===================
-Add Disqus comments to blog.
+Add Disqus comments to blog. [See demo](https://developers.datenstrom.se/plugins/blog-plugin/made-for-people).
 
 <p align="center"><img src="disqus-screenshot.png?raw=true" alt="Screenshot"></p>
 

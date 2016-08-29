@@ -20,15 +20,31 @@ The plugin uses [GeSHi 1.0.8.12](https://github.com/GeSHi/geshi-1.0) by Benny Ba
 
 ## Example
 
-Highlighting of HTML code, default and with line numbers:
 
-    ```html
+Highlighting of JavaScript code:
+
+    ``` javascript
+    var ready = function() 
+    {
+        console.log("Hello world");
+        // Add more JavaScript code here
+    }
+    if(window.addEventListener) {
+        window.addEventListener('load', ready, false);
+    } else {
+        window.attachEvent('onload', ready);
+    }
+    ```
+
+Highlighting of HTML code, with and without line numbers:
+    
+    ``` html:1
     <body>
     <p>Hello world!</p>
     </body>
     ```
-    
-    ```html:1
+
+    ``` html
     <body>
     <p>Hello world!</p>
     </body>

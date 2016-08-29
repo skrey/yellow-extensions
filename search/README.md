@@ -1,6 +1,6 @@
 Search plugin 0.6.5
 ===================
-Full-text search for website.
+Full-text search for website. [See demo](https://developers.datenstrom.se/search/).
 
 <p align="center"><img src="search-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -17,12 +17,6 @@ To uninstall delete the plugin files.
 The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. You can use a [custom navigation](https://developers.datenstrom.se/help/yellow-templates#custom-navigation), open file `system/config/config.ini` and change `Navigation: navigation-search`. To show a search field add a `[search]` shortcut to a page. You can also add a link to the search somewhere on your website. See example below.
 
 ## Example
-
-Adding a search shortcut:
-
-    [search]
-    [search /search/]
-    [search /research/]
 
 Footer snippet with search page:
 

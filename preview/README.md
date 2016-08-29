@@ -1,6 +1,6 @@
 Preview plugin 0.6.9
 ====================
-Link pages with image preview.
+Link pages with image preview. [See demo](https://developers.datenstrom.se/plugins/).
 
 <p align="center"><img src="preview-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -19,7 +19,7 @@ Create a `[preview]` shortcut.
 
 The following arguments are available:
 
-`LOCATION ` = location of parent page  
+`LOCATION ` = preview location  
 `STYLE` = preview list style  
 `SIZE` = image size, pixel or percent  
 

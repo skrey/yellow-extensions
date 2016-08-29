@@ -20,7 +20,7 @@ Create a `[slider]` shortcut.
 The following arguments are available:
   
 `PATTERN` = file name as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
-`STYLE` = gallery style  
+`STYLE` = gallery style, e.g. `flickity`  
 `SIZE` = image size, pixel or percent  
 `AUTOPLAY` = play images automatically, delay time in milliseconds
 
@@ -33,6 +33,12 @@ Adding an image gallery:
     [slider]
     [slider photo.*jpg]
     [slider photo.*jpg - 20%]
+
+Adding an image gallery, play automatically:
+
+    [slider photo.*jpg - - 1000]
+    [slider photo.*jpg - - 5000]
+    [slider photo.*jpg - 20% 5000]
 
 ## Developer
 

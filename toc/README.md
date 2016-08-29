@@ -2,6 +2,8 @@ TOC plugin 0.6.1
 ================
 Table of contents.
 
+<p align="center"><img src="toc-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
