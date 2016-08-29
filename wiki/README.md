@@ -1,4 +1,4 @@
-Wiki plugin 0.6.7
+Wiki plugin 0.6.8
 =================
 Wiki for your website. [See demo](https://developers.datenstrom.se/plugins/wiki-plugin/).
 
@@ -20,10 +20,10 @@ The wiki is available on your website as `http://website/wiki/`. To show the wik
 
 You can use shortcuts to show information about the wiki:
 
+`[wikipages LOCATION PAGESMAX]` for a list of pages  
 `[wikirecent LOCATION PAGESMAX]` for recently changed pages  
 `[wikirelated LOCATION PAGESMAX]` for related pages to current page  
-`[wikipages LOCATION PAGESMAX]` for a list of pages  
-`[wikitags LOCATION]` for a list of tags  
+`[wikitags LOCATION PAGESMAX]` for a list of tags  
 
 The following arguments are available, all but the first argument are optional:
 
@@ -34,9 +34,19 @@ The following arguments are available, all but the first argument are optional:
 
 Showing recently changed pages:
 
-    [wikirecent]
-    [wikirecent /wiki/ 10]
-    [wikirecent / 10]
+    [wikirecent /wiki/]
+    [wikirecent /wiki/ 5]
+    [wikirecent /wiki/ 20]
+
+Showing list of tags:
+
+    [wikitags /wiki/]
+    [wikitags /wiki/ 5]
+    [wikitags /wiki/ 20]
+
+Showing list of pages:
+
+    [wikipages /wiki/]
 
 ## Developer
 
