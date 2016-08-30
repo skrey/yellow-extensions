@@ -2,6 +2,8 @@ Language plugin 0.6.8
 =====================
 Internationalisation for your website.
 
+![Screenshot](language-screenshot.png?raw=true)
+
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
