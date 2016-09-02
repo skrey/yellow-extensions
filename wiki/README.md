@@ -30,7 +30,7 @@ The following arguments are available, all but the first argument are optional:
 `LOCATION` = wiki location  
 `PAGESMAX` = number of pages  
 
-The following setting can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/config/config.ini`:
 
 `WikiLocation` = wiki location  
 `WikiPaginationLimit` = number of entries to show per page  

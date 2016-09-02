@@ -18,13 +18,13 @@ This plugins analyses your web server logfiles, use [Piwik](https://github.com/d
 
 ## How to configure traffic analytics?
 
-The following setting can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/config/config.ini`:
 
 `TrafficDays` = number of days  
 `TrafficLinesMax` = number of lines to show per category  
-`TrafficLogDir` = log files directory  
+`TrafficLogDir` = log file directory  
 `TrafficLogFile` = log file name as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
-`TrafficLocationIgnore` = locations to ignoreas [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+`TrafficLocationIgnore` = location to ignore as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
 `TrafficSpamFilter` = spam filter as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
 
 ## Example

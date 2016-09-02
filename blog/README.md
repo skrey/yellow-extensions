@@ -31,7 +31,7 @@ The following arguments are available:
 `LOCATION` = blog location  
 `PAGESMAX` = number of pages  
 
-The following setting can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/config/config.ini`:
 
 `BlogLocation` = blog location  
 `BlogPaginationLimit` = number of entries to show per page  
