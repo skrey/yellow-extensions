@@ -14,7 +14,7 @@ To uninstall delete the plugin files.
 
 ## How to use a contact page?
 
-The contact page is available on your website as `http://website/contact/`. The contact email is send to the webmaster's email, which is defined in file `system/config/config.ini`. You can set a different `Email` and other [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. You can add a link to the contact page somewhere on your website. See example below.
+The contact page is available on your website as `http://website/contact/`. The contact email is send to the webmaster, which is defined in file `system/config/config.ini`. You can set a different `Author` and `Email` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. You can also add a link to the contact page somewhere on your website. See example below.
 
 ## How to configure a contact page?
 
