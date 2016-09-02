@@ -5,7 +5,7 @@
 // Contact plugin
 class YellowContact
 {
-	const VERSION = "0.6.4";
+	const VERSION = "0.6.5";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -49,6 +49,7 @@ class YellowContact
 		{
 			$author = $this->yellow->config->get("author");
 			$email = $this->yellow->config->get("email");
+			if($this->yellow->page->isExisting("author") && !$this->yellow->page->parserSafeMode) $author = $this->yellow->page->get("author");
 			if($this->yellow->page->isExisting("email") && !$this->yellow->page->parserSafeMode) $email = $this->yellow->page->get("email");
 			$mailTo = mb_encode_mimeheader("$author <$email>");
 			$mailSubject = mb_encode_mimeheader($this->yellow->page->get("title"));
