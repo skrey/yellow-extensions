@@ -14,7 +14,14 @@ To uninstall delete the plugin files.
 
 ## How to use a contact page?
 
-The contact page is available on your website as `http://website/contact/`. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`. A different email can be defined in the settings at the top of a page. There's a spam filter to block advertising. You can add a link to the contact page somewhere on your website. See example below.
+The contact page is available on your website as `http://website/contact/`. The contact email is send to the webmaster's email, which is defined in file `system/config/config.ini`. A different email can be defined in the settings at the top of a page. You can add a link to the contact page somewhere on your website. See example below.
+
+## How to configure a contact page?
+
+The following settings can be configured in file `system/config/config.ini`:
+
+`Email` = webmaster's email  
+`ContactSpamFilter` = spam filter as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
 
 ## Example
 
