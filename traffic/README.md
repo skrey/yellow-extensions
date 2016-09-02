@@ -16,6 +16,17 @@ The traffic analytics are available at the [command line](https://github.com/dat
 
 This plugins analyses your web server logfiles, use [Piwik](https://github.com/datenstrom/yellow-plugins/tree/master/piwik) for more detailed web analytics.
 
+## How to configure traffic analytics?
+
+The following setting can be configured in file `system/config/config.ini`:
+
+`TrafficDays` = number of days  
+`TrafficLinesMax` = number of lines to show per category  
+`TrafficLogDir` = log files directory  
+`TrafficLogFile` = log file name as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+`TrafficLocationIgnore` = locations to ignoreas [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+`TrafficSpamFilter` = spam filter as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+
 ## Example
 
 Creating traffic analytics at the command line:
