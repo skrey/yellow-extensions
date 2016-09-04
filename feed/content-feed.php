@@ -3,9 +3,9 @@
 <ul>
 <?php foreach($yellow->page->getPages() as $page): ?>
 <?php if($yellow->page->get("feedChronologicalOrder")): ?>
-<?php $sectionNew = htmlspecialchars($page->getDate("modified")) ?>
+<?php $sectionNew = $page->getDateHtml("modified") ?>
 <?php else: ?>
-<?php $sectionNew = htmlspecialchars($page->getDate("published")) ?>
+<?php $sectionNew = $page->getDateHtml("published") ?>
 <?php endif ?>
 <?php if($section!=$sectionNew) { $section = $sectionNew; echo "</ul><h2>$section</h2><ul>\n"; } ?>
 <li><a href="<?php echo $page->getLocation(true) ?>"><?php echo $page->getHtml("title") ?></a></li>
