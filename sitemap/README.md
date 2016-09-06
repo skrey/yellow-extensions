@@ -1,6 +1,6 @@
 Sitemap plugin 0.6.3
 ====================
-Sitemap for website.
+Sitemap for your website.
 
 <p align="center"><img src="sitemap-screenshot.png?raw=true" alt="Screenshot"></p>
 

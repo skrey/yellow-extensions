@@ -1,6 +1,6 @@
 Breadcrumbs plugin 0.6.2
 ========================
-Breadcrumbs navigation for website.
+Breadcrumbs navigation.
 
 <p align="center"><img src="breadcrumbs-screenshot.png?raw=true" alt="Screenshot"></p>
 

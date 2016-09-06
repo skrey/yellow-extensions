@@ -1,6 +1,6 @@
 Search plugin 0.6.5
 ===================
-Full-text search for website. [See demo](https://developers.datenstrom.se/search/).
+Full-text search. [See demo](https://developers.datenstrom.se/search/).
 
 <p align="center"><img src="search-screenshot.png?raw=true" alt="Screenshot"></p>
 
