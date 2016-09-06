@@ -14,6 +14,22 @@ Do not delete this plugin, it's always required.
 
 The plugin provides the core functionality for your website. It takes care of requests from the web browser and access to the file system. You can use the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline) to show software version and updates. To show information about your website add a `[yellow]` shortcut to a page. See example below.
 
+## How to configure the core?
+
+The following settings can be configured in file `system/config/config.ini`:
+
+`Sitename` = name of the website  
+`Author` = webmaster's name  
+`Email` = webmaster's email  
+`Language` = default language   
+`Theme` = default theme  
+`ServerScheme` = server scheme, e.g. `http` or `https`  
+`ServerName` = serve name, e.g. `datenstrom.se`  
+`ServerBase` = server base, e.g. name of subfolder or leave empty  
+`ServerTime` = server time zone, e.g. `Europe/Stockholm`  
+
+These are the most important settings. For a complete list see configuration file.
+
 ## Example
 
 Content file with Yellow version:
