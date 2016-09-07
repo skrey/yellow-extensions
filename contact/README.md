@@ -1,4 +1,4 @@
-Contact plugin 0.6.5
+Contact plugin 0.6.6
 ====================
 Email contact page for your website. [See demo](https://developers.datenstrom.se/plugins/contact-plugin).
 

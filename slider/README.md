@@ -40,6 +40,12 @@ Adding an image gallery, play automatically:
     [slider photo.*jpg - - 5000]
     [slider photo.*jpg - 20% 5000]
 
+Adding an image gallery from a subfolder, play automatically:
+
+    [slider photo-album/ - - 1000]
+    [slider photo-album/ - - 5000]
+    [slider photo-album/ - 20% 5000]
+
 ## Developer
 
 Datenstrom

@@ -39,6 +39,12 @@ Adding an image gallery, square thumbnails:
     [gallery photo.*jpg - 150]
     [gallery photo.*jpg simple 150]
 
+Adding an image gallery from a subfolder, square thumbnails:
+
+    [gallery photo-album/ - 64]
+    [gallery photo-album/ - 150]
+    [gallery photo-album/ simple 150]
+
 ## Developer
 
 Datenstrom
