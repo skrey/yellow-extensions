@@ -45,6 +45,7 @@ Navigation snippet with social media icons:
     <?php endforeach ?>
     <li><a href="https://twitter.com/username"><i class="fa fa-twitter"></i></a></li>
     <li><a href="https://github.com/username"><i class="fa fa-github"></i></a></li>
+    <li><a href="https://instagram.com/username"><i class="fa fa-instagram"></i></a></li>
     </ul>
     </div>
     <div class="navigation-banner"></div>
