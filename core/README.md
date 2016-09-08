@@ -57,4 +57,4 @@ This page shows server information.
 
 ## Developer
 
-David Fehrmann, Mark Seuffert
+David Fehrmann and Mark Seuffert

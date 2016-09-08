@@ -47,4 +47,4 @@ Adding an image gallery from a subfolder, square thumbnails:
 
 ## Developer
 
-Datenstrom
+Datenstrom featuring Dmitry Semenov

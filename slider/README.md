@@ -48,4 +48,4 @@ Adding an image gallery from a subfolder, play automatically:
 
 ## Developer
 
-Datenstrom
+Datenstrom featuring David DeSandro

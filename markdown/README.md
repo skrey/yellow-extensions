@@ -18,4 +18,4 @@ The plugin uses [Markdown Extra v1.6.0](https://github.com/michelf/php-markdown)
 
 ## Developer
 
-Datenstrom
+Datenstrom featuring Michel Fortin
