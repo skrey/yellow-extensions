@@ -20,8 +20,8 @@ The contact page is available on your website as `http://website/contact/`. The 
 
 The following settings can be configured in file `system/config/config.ini`:
 
-`Author` = webmaster's name, e.g. `Anna Svensson`  
-`Email` = webmaster's email, e.g. `email@example.com`  
+`Author` = name of the webmaster  
+`Email` = email of the webmaster  
 `ContactLocation` = contact page location  
 `ContactSpamFilter` = spam filter as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
 
