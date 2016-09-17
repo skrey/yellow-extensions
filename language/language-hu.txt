@@ -3,7 +3,7 @@
 Language: hu
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.6.8
+LanguageVersion: 0.6.9
 
 BlogBy: by
 BlogFilter: Blog:
@@ -20,9 +20,11 @@ ContactStatusDone: Sikeresen elküldted az üzenetet.
 ContactStatusError: A küldés sikertelen volt. Kérlek próbáld meg később.
 DateMonths: Január, Február, Március, Április, Május, Június, Július, Augusztus, Szeptember, Október, November, December
 DateWeekdays: Hétfő, Kedd, Szerda, Csütörtök, Péntek, Szombat, Vasárnap
+DateWeekstart: Hétfő
 DateFormatShort: Y F
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
+DateFormatTime: H:i
 PaginationPrevious: ← Előző
 PaginationNext: Tovább →
 SearchQuery: Keresés:

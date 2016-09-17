@@ -3,7 +3,7 @@
 Language: sk
 LanguageDescription: Slovenčina
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.6.8
+LanguageVersion: 0.6.9
 
 BlogBy: od
 BlogFilter: Blog:
@@ -20,9 +20,11 @@ ContactStatusDone: Správa odoslaná. Ďakujem.
 ContactStatusError: Nepodarilo sa poslať správu. Skús to neskôr!
 DateMonths: Január, Február, Marec, Apríl, Máj, Jún, Júl, August, September, Octóber, November, December
 DateWeekdays: Pondelok, Utorok, Streda, Štvrtok, Piatok, Sobota, Nedeľa
+DateWeekstart: Pondelok
 DateFormatShort: F Y
 DateFormatMedium: d-m-Y
 DateFormatLong: d-m-Y H:i
+DateFormatTime: H:i
 PaginationPrevious: ← Predchádzajúci
 PaginationNext: Nasledujúci →
 SearchQuery: Vyhľadávanie :

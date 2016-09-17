@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.6.8
+LanguageVersion: 0.6.9
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -20,9 +20,11 @@ ContactStatusDone: 您的信息已发送。非常感谢！
 ContactStatusError: 信息无法发送，请稍后再试！
 DateMonths: 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月
 DateWeekdays: 星期一, 星期二, 星期三, 星期四, 星期五, 星期六, 星期日
+DateWeekstart: 星期一
 DateFormatShort: F Y
 DateFormatMedium: Y年n月j日
 DateFormatLong: Y-m-d H:i
+DateFormatTime: H:i
 PaginationPrevious: ← 上一页
 PaginationNext: 下一页 →
 SearchQuery: 搜索:

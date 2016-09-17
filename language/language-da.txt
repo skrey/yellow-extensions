@@ -3,7 +3,7 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.6.8
+LanguageVersion: 0.6.9
 
 BlogBy: af
 BlogFilter: Blog:
@@ -20,9 +20,11 @@ ContactStatusDone: Din email er blevet sendt. Mange tak!
 ContactStatusError: Din email er desværre ikke blevet sendt. Venligst forsøg igen senere!
 DateMonths: januar, februar, marts, april, maj, juni, juli, august, september, oktober, november, december
 DateWeekdays: mandag, tirsdag, onsdag, torsdag, fredag, lørdag, søndag
+DateWeekstart: mandag
 DateFormatShort: F Y
 DateFormatMedium: d.m.Y
 DateFormatLong: d.m.Y H:i
+DateFormatTime: H:i
 PaginationPrevious: ← Forrige
 PaginationNext: Næste →
 SearchQuery: Søg:

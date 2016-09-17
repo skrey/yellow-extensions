@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.6.8
+LanguageVersion: 0.6.9
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -20,9 +20,11 @@ ContactStatusDone: Email úspěšně odeslán. Děkuji!
 ContactStatusError: Email nemůže být odeslán, zkuste to prosím později!
 DateMonths: leden, únor, březen, duben, květen, červen, červenec, srpen, září, říjen, listopad, prosinec
 DateWeekdays: pondělí, úterý, středa, čtvrtek, pátek, sobota, neděle
+DateWeekstart: pondělí
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
+DateFormatTime: H:i
 PaginationPrevious: ← Předchozí
 PaginationNext: Následující →
 SearchQuery: Hledej:

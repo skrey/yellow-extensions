@@ -1,4 +1,4 @@
-Language plugin 0.6.8
+Language plugin 0.6.9
 =====================
 Internationalisation for your website.
 

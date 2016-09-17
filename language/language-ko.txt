@@ -3,7 +3,7 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.6.8
+LanguageVersion: 0.6.9
 
 BlogBy: by
 BlogFilter: 글:
@@ -20,9 +20,11 @@ ContactStatusDone: 이메일을 성공적으로 보냈습니다. 감사합니다
 ContactStatusError: 이메일이 보내지지 않습니다. 다시 시도해주세요.
 DateMonths: 1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월, 10월, 11월, 12월
 DateWeekdays: 월요일, 화요일, 수요일, 목요일, 금요일, 토요일, 일요일
+DateWeekstart: 월요일
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
+DateFormatTime: H:i
 PaginationPrevious: ← 이전 글
 PaginationNext: 다음 글 →
 SearchQuery: 검색:

@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.6.8
+LanguageVersion: 0.6.9
 
 BlogBy: av
 BlogFilter: Blogg:
@@ -20,9 +20,11 @@ ContactStatusDone: Ditt mail har nu skickats. Tack!
 ContactStatusError: Mailet kunde inte skickas, vänligen försök igen senare!
 DateMonths: Januari, Februari, Mars, April, Maj, Juni, Juli, Augusti, September, Oktober, November, December
 DateWeekdays: Måndag, Tisdag, Onsdag, Torsdag, Fredag, Lördag, Söndag
+DateWeekstart: Måndag
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
+DateFormatTime: H:i
 PaginationPrevious: ← Tidigare
 PaginationNext: Nästa →
 SearchQuery: Sök:

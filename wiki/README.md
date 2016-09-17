@@ -1,4 +1,4 @@
-Wiki plugin 0.6.8
+Wiki plugin 0.6.9
 =================
 Wiki for your website. [See demo](https://developers.datenstrom.se/plugins/wiki-plugin/).
 
@@ -33,6 +33,7 @@ The following arguments are available, all but the first argument are optional:
 The following settings can be configured in file `system/config/config.ini`:
 
 `WikiLocation` = wiki location  
+`WikiPagesMax` = number of pages  
 `WikiPaginationLimit` = number of entries to show per page  
 
 ## Example

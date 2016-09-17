@@ -3,7 +3,7 @@
 Language: id
 LanguageDescription: Bahasa Indonesia
 LanguageTranslator: Jimmy Ofisia
-LanguageVersion: 0.6.8
+LanguageVersion: 0.6.9
 
 BlogBy: oleh
 BlogFilter: Blog:
@@ -20,9 +20,11 @@ ContactStatusDone: Anda telah sukses mengirim surel. Terima kasih!
 ContactStatusError: Surel tak dapat dikirim, mohon coba lagi nanti!
 DateMonths: Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, Desember
 DateWeekdays: Senin, Selasa, Rabu, Kamis, Jumat, Sabtu, Minggu
+DateWeekstart: Senin
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
+DateFormatTime: H:i
 PaginationPrevious: ← Sebelumnya
 PaginationNext: Selanjutnya →
 SearchQuery: Pencarian:
