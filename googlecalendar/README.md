@@ -28,11 +28,11 @@ The following arguments are available:
 
 The following settings can be configured in file `system/config/config.ini`:
 
-`googlecalendarMode` = calendar mode  
-`googlecalendarEntriesMax` = number of events  
-`googlecalendarApiKey` = your Google API key  
+`GooglecalendarMode` = calendar mode  
+`GooglecalendarEntriesMax` = number of events  
+`GooglecalendarApiKey` = your Google API key  
 
-The visual design of events and agendas can be adjusted in your theme.
+The visual design of events and agenda can be adjusted in your theme.
 
 ## Example
 
