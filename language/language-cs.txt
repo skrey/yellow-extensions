@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Nápověda
 WebinterfaceUserLogout: Odhlásit
 WikiFilter: Wiki:
 WikiTag: Tags:
+WikiSpecialPages: Všechny stránky
 WikiSpecialChanges: Poslední změny
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

@@ -3,7 +3,7 @@
 Language: es
 LanguageDescription: Español
 LanguageTranslator: Al Garcia, David Garcia
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: por
 BlogFilter: Blog:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Ayuda
 WebinterfaceUserLogout: Salir
 WikiFilter: Wiki:
 WikiTag: Etiquetas:
+WikiSpecialPages: Todas las páginas
 WikiSpecialChanges: Cambios recientes
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Помощь
 WebinterfaceUserLogout: Выход
 WikiFilter: Вики:
 WikiTag: Тэги:
+WikiSpecialPages: Все страницы
 WikiSpecialChanges: Последние изменения
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

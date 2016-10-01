@@ -3,7 +3,7 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: af
 BlogFilter: Blog:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Hjælp
 WebinterfaceUserLogout: Log ud
 WikiFilter: Wiki:
 WikiTag: Tags:
+WikiSpecialPages: Alle sider
 WikiSpecialChanges: Ny ændringer
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

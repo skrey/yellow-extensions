@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: per
 BlogFilter: Blog:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Aiuto
 WebinterfaceUserLogout: Esci
 WikiFilter: Wiki:
 WikiTag: Tag:
+WikiSpecialPages: Tutte le pagine
 WikiSpecialChanges: Modifiche recenti
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

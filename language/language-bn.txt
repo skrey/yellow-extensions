@@ -3,7 +3,7 @@
 Language: bn
 LanguageDescription: Bangali (Bangladesh)
 LanguageTranslator: Mohammed Nazmul Ferdous
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: লিখেছেন
 BlogFilter: ব্লগ:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: সাহায্য
 WebinterfaceUserLogout: প্রস্থান
 WikiFilter: Wiki:
 WikiTag: Tags:
+WikiSpecialPages: সমস্ত পৃষ্ঠা
 WikiSpecialChanges: সাম্প্রতিক পরিবর্তন
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

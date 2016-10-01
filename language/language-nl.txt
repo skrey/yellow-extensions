@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: door
 BlogFilter: Blog:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Help
 WebinterfaceUserLogout: Afmelden
 WikiFilter: Wiki:
 WikiTag: Labels:
+WikiSpecialPages: Alle pagina's
 WikiSpecialChanges: Recente wijzigingen
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

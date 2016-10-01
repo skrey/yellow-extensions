@@ -3,7 +3,7 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: by
 BlogFilter: 글:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: 도움말
 WebinterfaceUserLogout: 로그아웃
 WikiFilter: 위키:
 WikiTag: 태그:
+WikiSpecialPages: 모든 페이지
 WikiSpecialChanges: 최근 바뀜
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

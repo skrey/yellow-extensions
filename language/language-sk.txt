@@ -3,7 +3,7 @@
 Language: sk
 LanguageDescription: Slovenčina
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: od
 BlogFilter: Blog:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Pomoc
 WebinterfaceUserLogout: Odhlásiť sa
 WikiFilter: Wiki:
 WikiTag: Štítky:
+WikiSpecialPages: Vse strani
 WikiSpecialChanges: Posledné zmeny
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

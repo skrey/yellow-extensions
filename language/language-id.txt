@@ -3,7 +3,7 @@
 Language: id
 LanguageDescription: Bahasa Indonesia
 LanguageTranslator: Jimmy Ofisia
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: oleh
 BlogFilter: Blog:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Bantuan
 WebinterfaceUserLogout: Keluar
 WikiFilter: Wiki:
 WikiTag: Label:
+WikiSpecialPages: Semua halaman
 WikiSpecialChanges: Perubahan belakangan ini
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

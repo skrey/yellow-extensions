@@ -3,7 +3,7 @@
 Language: hu
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: by
 BlogFilter: Blog:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Súgó
 WebinterfaceUserLogout: Kijelentkezés
 WikiFilter: Wiki:
 WikiTag: Címke:
+WikiSpecialPages: Az összes oldal
 WikiSpecialChanges: Legutóbbi változások
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/

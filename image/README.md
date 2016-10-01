@@ -31,7 +31,7 @@ The plugin uses [GD graphics library](http://www.libgd.org/) by Thomas Boutell f
 Adding an image:
 
     [image picture.jpg]
-    [image picture.jpg Image]
+    [image picture.jpg Picture]
     [image picture.jpg "This is an example image"]
 
 Adding an image, different styles:

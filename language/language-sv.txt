@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.6.9
+LanguageVersion: 0.6.10
 
 BlogBy: av
 BlogFilter: Blogg:
@@ -107,6 +107,7 @@ WebinterfaceUserHelp: Hjälp
 WebinterfaceUserLogout: Logga ut
 WikiFilter: Wiki:
 WikiTag: Taggar:
+WikiSpecialPages: Alla sidor
 WikiSpecialChanges: Senaste ändringarna
 YellowUrl: https://datenstrom.se/yellow
 YellowUserHelpUrl: https://developers.datenstrom.se/help/
