@@ -3,7 +3,7 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.6.10
+LanguageVersion: 0.6.11
 
 BlogBy: by
 BlogFilter: 글:
@@ -91,7 +91,7 @@ WebinterfaceVersionTitle: About this website
 WebinterfaceVersionStatusNone: Checking for updates…
 WebinterfaceVersionStatusLatest: No updates available.
 WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
-WebinterfaceVersionUpdate: Update
+WebinterfaceVersionStatusRequest: Updates available, update now.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: 취소
 WebinterfaceCreateButton: 등록

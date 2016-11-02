@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.6.10
+LanguageVersion: 0.6.11
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -91,7 +91,7 @@ WebinterfaceVersionTitle: About this website
 WebinterfaceVersionStatusNone: Checking for updates…
 WebinterfaceVersionStatusLatest: No updates available.
 WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
-WebinterfaceVersionUpdate: Update
+WebinterfaceVersionStatusRequest: Updates available, update now.
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Отмена
 WebinterfaceCreateButton: Создать
