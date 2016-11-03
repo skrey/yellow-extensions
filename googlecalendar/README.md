@@ -42,7 +42,7 @@ Embedding a calendar:
     [googlecalendar en.swedish#holiday week]
     [googlecalendar en.swedish#holiday month - right 240 240]
 
-Embedding a calendars, multiple calendars together:
+Embedding a calendar, multiple calendars together:
 
     [googlecalendar "sv.swedish#holiday, de.german#holiday, fr.french#holiday"]
     [googlecalendar "sv.swedish#holiday, de.german#holiday, fr.french#holiday" week 2016-01-01]
