@@ -3,7 +3,7 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.6.11
+LanguageVersion: 0.6.12
 
 BlogBy: by
 BlogFilter: 글:
@@ -27,6 +27,8 @@ DateFormatLong: Y-m-d H:i
 DateFormatTime: H:i
 PaginationPrevious: ← 이전 글
 PaginationNext: 다음 글 →
+PagePrevious: ← @title
+PageNext: @title →
 SearchQuery: 검색:
 SearchResultsNone: 검색어를 입력해주세요.
 SearchResultsEmpty: 검색결과가 없습니다.

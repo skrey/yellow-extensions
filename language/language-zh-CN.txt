@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.6.11
+LanguageVersion: 0.6.12
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -27,6 +27,8 @@ DateFormatLong: Y-m-d H:i
 DateFormatTime: H:i
 PaginationPrevious: ← 上一页
 PaginationNext: 下一页 →
+PagePrevious: ← @title
+PageNext: @title →
 SearchQuery: 搜索:
 SearchResultsNone: 请输入搜索关键字
 SearchResultsEmpty: 搜索查无结果

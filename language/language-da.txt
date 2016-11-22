@@ -3,7 +3,7 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.6.11
+LanguageVersion: 0.6.12
 
 BlogBy: af
 BlogFilter: Blog:
@@ -27,6 +27,8 @@ DateFormatLong: d.m.Y H:i
 DateFormatTime: H:i
 PaginationPrevious: ← Forrige
 PaginationNext: Næste →
+PagePrevious: ← @title
+PageNext: @title →
 SearchQuery: Søg:
 SearchResultsNone: Indtast ny søgning.
 SearchResultsEmpty: Ingen resultater fundet.
