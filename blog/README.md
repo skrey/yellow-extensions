@@ -1,4 +1,4 @@
-Blog plugin 0.6.9
+Blog plugin 0.6.10
 =================
 Blog for your website. [See demo](https://developers.datenstrom.se/plugins/blog-plugin/).
 
