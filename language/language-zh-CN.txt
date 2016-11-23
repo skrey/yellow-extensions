@@ -25,10 +25,10 @@ DateFormatShort: F Y
 DateFormatMedium: Y年n月j日
 DateFormatLong: Y-m-d H:i
 DateFormatTime: H:i
+PagePrevious: ← 上一页 @title
+PageNext: 下一页 @title →
 PaginationPrevious: ← 上一页
 PaginationNext: 下一页 →
-PagePrevious: ← @title
-PageNext: @title →
 SearchQuery: 搜索:
 SearchResultsNone: 请输入搜索关键字
 SearchResultsEmpty: 搜索查无结果

@@ -25,10 +25,10 @@ DateFormatShort: F Y
 DateFormatMedium: d-m-Y
 DateFormatLong: d-m-Y H:i
 DateFormatTime: H:i
+PagePrevious: ← Predchádzajúci: @title
+PageNext: Nasledujúci: @title →
 PaginationPrevious: ← Predchádzajúci
 PaginationNext: Nasledujúci →
-PagePrevious: ← @title
-PageNext: @title →
 SearchQuery: Vyhľadávanie :
 SearchResultsNone: Hľadaný výraz.
 SearchResultsEmpty: Židne výsledky.

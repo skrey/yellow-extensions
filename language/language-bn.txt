@@ -25,10 +25,10 @@ DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 DateFormatTime: H:i
+PagePrevious: ← পূর্ববর্তী: @title
+PageNext: পরবর্তী: @title →
 PaginationPrevious: ← পূর্ববর্তী
 PaginationNext: পরবর্তী →
-PagePrevious: ← @title
-PageNext: @title →
 SearchQuery: অনুসন্ধান ফলাফল:
 SearchResultsNone: একটি অনুসন্ধান শব্দ লিখুন।
 SearchResultsEmpty: কোন ফলাফল পাওয়া যায়নি।

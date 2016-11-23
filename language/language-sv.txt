@@ -25,10 +25,10 @@ DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 DateFormatTime: H:i
+PagePrevious: ← Tidigare: @title
+PageNext: Nästa: @title →
 PaginationPrevious: ← Tidigare
 PaginationNext: Nästa →
-PagePrevious: ← @title
-PageNext: @title →
 SearchQuery: Sök:
 SearchResultsNone: Skriv ett sökord.
 SearchResultsEmpty: Inga resultat funna.

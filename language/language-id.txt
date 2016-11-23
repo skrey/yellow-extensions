@@ -25,10 +25,10 @@ DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 DateFormatTime: H:i
+PagePrevious: ← Sebelumnya: @title
+PageNext: Selanjutnya: @title →
 PaginationPrevious: ← Sebelumnya
 PaginationNext: Selanjutnya →
-PagePrevious: ← @title
-PageNext: @title →
 SearchQuery: Pencarian:
 SearchResultsNone: Masukkan kata pencarian.
 SearchResultsEmpty: Tak ada hasil ditemukan.

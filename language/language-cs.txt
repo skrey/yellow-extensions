@@ -25,10 +25,10 @@ DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 DateFormatTime: H:i
+PagePrevious: ← Předchozí: @title
+PageNext: Následující: @title →
 PaginationPrevious: ← Předchozí
 PaginationNext: Následující →
-PagePrevious: ← @title
-PageNext: @title →
 SearchQuery: Hledej:
 SearchResultsNone: Vlož hledaný text.
 SearchResultsEmpty: Požadovaný text nenalezen.

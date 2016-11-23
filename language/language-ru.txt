@@ -25,10 +25,10 @@ DateFormatShort: F Y
 DateFormatMedium: d.m.Y
 DateFormatLong: d.m.Y H:i
 DateFormatTime: H:i
+PagePrevious: ← Назад: @title
+PageNext: Далее: @title →
 PaginationPrevious: ← Назад
 PaginationNext: Далее →
-PagePrevious: ← @title
-PageNext: @title →
 SearchQuery: Поиск:
 SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.

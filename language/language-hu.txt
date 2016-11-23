@@ -25,10 +25,10 @@ DateFormatShort: Y F
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 DateFormatTime: H:i
+PagePrevious: ← Előző: @title
+PageNext: Tovább: @title →
 PaginationPrevious: ← Előző
 PaginationNext: Tovább →
-PagePrevious: ← @title
-PageNext: @title →
 SearchQuery: Keresés:
 SearchResultsNone: Keresett kifejezés
 SearchResultsEmpty: Nincs találat.
