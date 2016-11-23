@@ -1,6 +1,6 @@
 Sitemap plugin 0.6.3
 ====================
-Sitemap for your website.
+Sitemap for your website. [See demo](https://developers.datenstrom.se/sitemap/).
 
 <p align="center"><img src="sitemap-screenshot.png?raw=true" alt="Screenshot"></p>
 
