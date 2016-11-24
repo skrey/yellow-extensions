@@ -42,6 +42,8 @@ Available plugins:
   Resizable images and thumbnails.
 * [Language](https://github.com/datenstrom/yellow-plugins/tree/master/language): 
   Internationalisation for your website.
+* [Links](https://github.com/datenstrom/yellow-plugins/tree/master/links): 
+  Show links to previous/next page in blog.
 * [Markdown](https://github.com/datenstrom/yellow-plugins/tree/master/markdown): 
   Text formatting for humans.
 * [Piwik](https://github.com/datenstrom/yellow-plugins/tree/master/piwik): 
