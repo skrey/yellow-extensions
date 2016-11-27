@@ -1,6 +1,6 @@
 Preview plugin 0.6.9
 ====================
-Link pages with image preview. [See demo](https://developers.datenstrom.se/plugins/).
+Show pages with image preview. [See demo](https://developers.datenstrom.se/plugins/).
 
 <p align="center"><img src="preview-screenshot.png?raw=true" alt="Screenshot"></p>
 

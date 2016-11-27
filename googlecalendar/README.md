@@ -26,6 +26,8 @@ The following arguments are available:
 `WIDTH` = calendar width, pixel or percent  
 `HEIGHT` = calendar height, pixel or percent  
 
+## How to configure a calendar?
+
 The following settings can be configured in file `system/config/config.ini`:
 
 `GooglecalendarMode` = calendar mode  

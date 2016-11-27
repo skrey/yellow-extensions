@@ -43,13 +43,13 @@ Available plugins:
 * [Language](https://github.com/datenstrom/yellow-plugins/tree/master/language): 
   Internationalisation for your website.
 * [Links](https://github.com/datenstrom/yellow-plugins/tree/master/links): 
-  Show links to previous/next page in blog.
+  Show links to previous/next page.
 * [Markdown](https://github.com/datenstrom/yellow-plugins/tree/master/markdown): 
   Text formatting for humans.
 * [Piwik](https://github.com/datenstrom/yellow-plugins/tree/master/piwik): 
   Add Piwik web analytics to website.
 * [Preview](https://github.com/datenstrom/yellow-plugins/tree/master/preview): 
-  Link pages with image preview.
+  Show pages with image preview.
 * [Search](https://github.com/datenstrom/yellow-plugins/tree/master/search): 
   Full-text search.
 * [Sitemap](https://github.com/datenstrom/yellow-plugins/tree/master/sitemap): 
