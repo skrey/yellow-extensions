@@ -12,27 +12,27 @@ Show pages with image preview. [See demo](https://developers.datenstrom.se/plugi
 
 To uninstall delete the plugin files.
 
-## How to add a preview?
+## How to show a preview?
 
 Create a `[preview]` shortcut.
 
 The following arguments are available:
 
 `LOCATION ` = preview location  
-`STYLE` = preview list style  
+`STYLE` = preview style, e.g. `stretchable`, `simple`  
 `SIZE` = image size, pixel or percent  
 
 For every page there has to be an image of similar file name in your `media/images` folder.
 
 ## Example
 
-Adding a preview:
+Showing a preview:
 
     [preview]
     [preview /plugins/ - 30%]
     [preview /plugins/ simple 30%]
 
-Adding a preview, square thumbnails:
+Showing a preview, square thumbnails:
 
     [preview /plugins/ - 64]
     [preview /plugins/ - 128]

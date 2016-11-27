@@ -12,7 +12,6 @@ Embed Google calendar. [See demo](https://developers.datenstrom.se/plugins/googl
 
 To uninstall delete the plugin files.
 
-
 ## How to embed a calendar?
 
 Create a `[googlecalendar]` shortcut.
