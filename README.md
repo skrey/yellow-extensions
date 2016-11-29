@@ -43,7 +43,7 @@ Available plugins:
 * [Language](https://github.com/datenstrom/yellow-plugins/tree/master/language): 
   Internationalisation for your website.
 * [Links](https://github.com/datenstrom/yellow-plugins/tree/master/links): 
-  Show links to previous/next page.
+  Add previous/next page to blog.
 * [Markdown](https://github.com/datenstrom/yellow-plugins/tree/master/markdown): 
   Text formatting for humans.
 * [Piwik](https://github.com/datenstrom/yellow-plugins/tree/master/piwik): 
