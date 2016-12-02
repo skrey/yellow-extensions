@@ -89,6 +89,8 @@ Experimental plugins:
   Yellow plugin for easy FAQ handling.
 * [Fotorama](https://github.com/nogginfuel/yellow-plugin-fotorama): 
   A jQuery image gallery with carousel.
+* [Inline Attachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
+  Drag and Drop Image Upload
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
   Add the power of jQuery to Yellow.
 * [Leaflet](https://github.com/nibreh/yellow-plugin-leaflet): 
