@@ -1,4 +1,4 @@
-Links plugin 0.6.2
+Links plugin 0.6.3
 ==================
 Add previous/next page to blog. [See demo](https://developers.datenstrom.se/plugins/blog-plugin/blog-example).
 
@@ -15,7 +15,7 @@ To uninstall delete the plugin files.
 
 ## How to show links?
 
-The plugin adds links to previous/next page, which allows users to navigate between pages in a folder. Links are shown on blog pages. To show links on other pages add a `[links]` shortcut to a page.
+The plugin adds links to previous/next page, which allows users to navigate between pages. Links are shown on blog pages. To show links on other pages add a `[links]` shortcut to a page.
 
 ## How to configure links?
 
