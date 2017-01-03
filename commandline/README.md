@@ -1,4 +1,4 @@
-Commandline plugin 0.6.16
+Commandline plugin 0.6.17
 =========================
 Run commands in a terminal window.
 

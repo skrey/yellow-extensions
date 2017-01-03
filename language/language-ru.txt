@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.6.12
+LanguageVersion: 0.6.13
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -90,10 +90,12 @@ WebinterfaceWelcomeMessage: Привет @usershort, ваша учетная з�
 WebinterfaceInformationSubject: С возвращением
 WebinterfaceInformationMessage: Привет @usershort, ваша учетная запись пользователя была изменена. Теперь вы можете войти.
 WebinterfaceVersionTitle: About this website
-WebinterfaceVersionStatusNone: Checking for updates…
-WebinterfaceVersionStatusLatest: No updates available.
+WebinterfaceVersionStatusNone: Yellow is for people who make websites.
+WebinterfaceVersionStatusCheck: Checking for updates…
+WebinterfaceVersionStatusDone: Your website is up to date.
 WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
-WebinterfaceVersionStatusRequest: Updates available, update now.
+WebinterfaceVersionUpdateNormal: Updates available, update now.
+WebinterfaceVersionUpdateForce: Force update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Отмена
 WebinterfaceCreateButton: Создать

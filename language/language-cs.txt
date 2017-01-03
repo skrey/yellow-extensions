@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.6.12
+LanguageVersion: 0.6.13
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -90,10 +90,12 @@ WebinterfaceWelcomeMessage: Ahoj @usershort, tvůj nový účet byl vytvořen. H
 WebinterfaceInformationSubject: Vítej zpět
 WebinterfaceInformationMessage: Ahoj @usershort, účet byl změněn. Nyní se můžete přihlásit.
 WebinterfaceVersionTitle: About this website
-WebinterfaceVersionStatusNone: Checking for updates…
-WebinterfaceVersionStatusLatest: No updates available.
+WebinterfaceVersionStatusNone: Yellow is for people who make websites.
+WebinterfaceVersionStatusCheck: Checking for updates…
+WebinterfaceVersionStatusDone: Your website is up to date.
 WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
-WebinterfaceVersionStatusRequest: Updates available, update now.
+WebinterfaceVersionUpdateNormal: Updates available, update now.
+WebinterfaceVersionUpdateForce: Force update
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Zrušit
 WebinterfaceCreateButton: Vytvořit

@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.6.12
+LanguageVersion: 0.6.13
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -90,10 +90,12 @@ WebinterfaceWelcomeMessage: 你好 @usershort,你的帐号已创建完毕，建�
 WebinterfaceInformationSubject: 欢迎回来
 WebinterfaceInformationMessage: 你好 @usershort,你的帐号你重置完毕，建站愉快。
 WebinterfaceVersionTitle: About this website
-WebinterfaceVersionStatusNone: Checking for updates…
-WebinterfaceVersionStatusLatest: No updates available.
+WebinterfaceVersionStatusNone: Yellow is for people who make websites.
+WebinterfaceVersionStatusCheck: Checking for updates…
+WebinterfaceVersionStatusDone: Your website is up to date.
 WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
-WebinterfaceVersionStatusRequest: Updates available, update now.
+WebinterfaceVersionUpdateNormal: Updates available, update now.
+WebinterfaceVersionUpdateForce: Force update
 WebinterfaceOkButton: 确定
 WebinterfaceCancelButton: 取消
 WebinterfaceCreateButton: 创建
