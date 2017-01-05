@@ -122,4 +122,4 @@ Experimental plugins:
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Image gallery in CSS only.
 
-All files are licensed under [GPLv2](https://opensource.org/licenses/GPL-2.0) unless stated otherwise.
+Licensed under [GPLv2](https://github.com/datenstrom/yellow-plugins/blob/master/LICENSE.md) unless stated otherwise.
