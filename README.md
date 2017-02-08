@@ -2,7 +2,7 @@ Yellow plugins
 ==============
 [![Yellow](https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/yellow-photo.jpg)](https://datenstrom.se/yellow)
 
-Yellow is for people who make websites. [Get support](https://developers.datenstrom.se/help/support).
+Yellow is for people who make websites.
 
 1. [Download all plugins and unzip them](https://github.com/datenstrom/yellow-plugins/archive/master.zip).  
 2. Copy relevant files to your web hosting.  
@@ -122,4 +122,4 @@ Experimental plugins:
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Image gallery in CSS only.
 
-Licensed under [GPLv2](https://github.com/datenstrom/yellow-plugins/blob/master/LICENSE.md) unless stated otherwise.
+Licensed under [GPLv2](https://github.com/datenstrom/yellow-plugins/blob/master/LICENSE.md) unless stated otherwise. [Learn more](https://developers.datenstrom.se/help/).
