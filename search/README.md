@@ -14,7 +14,7 @@ To uninstall delete the plugin files.
 
 ## How to use a search?
 
-The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. You can use a [custom navigation](https://developers.datenstrom.se/help/yellow-templates#custom-navigation), open file `system/config/config.ini` and change `Navigation: navigation-search`. To show a search field add a `[search]` shortcut to a page. You can also add a link to the search somewhere on your website. See example below.
+The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. You can use a [custom navigation](https://developers.datenstrom.se/help/yellow-templates#custom-navigation), open file `system/config/config.ini` and change `Navigation: navigation-search`. To show a search field add a `[search]` shortcut with optional location. You can also add a link to the search somewhere on your website. See example below.
 
 ## How to configure a search?
 
@@ -25,6 +25,25 @@ The following settings can be configured in file `system/config/config.ini`:
 `SearchPageLength` = maximum page length to show  
 
 ## Example
+
+Adding a search field:
+
+    [search]
+    [search /en/search/]
+    [search /de/search/]
+
+Content file with search field:
+
+    ---
+    Title: Example page
+    ---        
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+    in culpa qui officia deserunt mollit anim id est laborum.
+
+    [search]
 
 Footer snippet with search page:
 
