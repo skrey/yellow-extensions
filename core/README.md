@@ -21,7 +21,8 @@ The following settings can be configured in file `system/config/config.ini`:
 `Sitename` = name of the website  
 `Author` = webmaster's name  
 `Email` = webmaster's email  
-`Language` = default language   
+`Language` = default language  
+`Timezone` = default timezone  
 `Theme` = default theme  
 
 These are the most important settings. For a complete list see [configuration file](https://github.com/datenstrom/yellow/blob/master/system/config/config.ini).
