@@ -1,8 +1,8 @@
 <?php
-// Copyright (c) 2013-2017 Datenstrom, http://datenstrom.se
+// Feed plugin, https://github.com/datenstrom/yellow-plugins/tree/master/feed
+// Copyright (c) 2013-2017 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-// Feed plugin
 class YellowFeed
 {
 	const VERSION = "0.6.5";
