@@ -1,4 +1,4 @@
-Links plugin 0.6.4
+Links plugin 0.6.5
 ==================
 Add previous/next page to blog. [See demo](https://developers.datenstrom.se/plugins/blog-plugin/blog-example).
 
