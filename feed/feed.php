@@ -35,7 +35,7 @@ class YellowFeed
 				$this->yellow->page->setLastModified($pages->getModified());
 				$this->yellow->page->setHeader("Content-Type", "application/rss+xml; charset=utf-8");
 				$output = "<?xml version=\"1.0\" encoding=\"utf-8\"\077>\r\n";
-				$output .= "<rss version=\"2.0\">\r\n";
+				$output .= "<rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n";
 				$output .= "<channel>\r\n";
 				$output .= "<title>".$this->yellow->page->getHtml("sitename")."</title>\r\n";
 				$output .= "<link>".$this->yellow->page->serverScheme."://".$this->yellow->page->serverName.$this->yellow->page->base."/"."</link>\r\n";
@@ -44,13 +44,15 @@ class YellowFeed
 				foreach($pages as $page)
 				{
 					$timestamp = strtotime($page->get($chronologicalOrder ? "modified" : "published"));
-					$description = $this->yellow->toolbox->createTextDescription($page->getContent(), strlenu($page->getContent()), false, "<!--more-->", " <a href=\"".$page->getLocation(true)."\">".$this->yellow->text->getHtml("blogMore")."</a>");
+					$content = $this->yellow->toolbox->createTextDescription($page->getContent(), strlenu($page->getContent()), false, "<!--more-->", " <a href=\"".$page->getUrl()."\">".$this->yellow->text->getHtml("blogMore")."</a>");
 					$output .= "<item>\r\n";
 					$output .= "<title>".$page->getHtml("title")."</title>\r\n";
 					$output .= "<link>".$page->getUrl()."</link>\r\n";
 					$output .= "<pubDate>".date(DATE_RSS, $timestamp)."</pubDate>\r\n";
 					$output .= "<guid isPermaLink=\"false\">".$page->getUrl()."?".$timestamp."</guid>\r\n";
-					$output .= "<description><![CDATA[".$description."]]></description>\r\n";
+					$output .= "<dc:creator>".$page->getHtml("author")."</dc:creator>\r\n";
+					$output .= "<description>".$page->getHtml("description")."</description>\r\n";
+					$output .= "<content:encoded><![CDATA[".$content."]]></content:encoded>\r\n";
 					$output .= "</item>\r\n";
 				}
 				$output .= "</channel>\r\n";
