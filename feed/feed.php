@@ -5,7 +5,7 @@
 
 class YellowFeed
 {
-	const VERSION = "0.6.5";
+	const VERSION = "0.6.6";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -38,13 +38,13 @@ class YellowFeed
 				$output .= "<rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n";
 				$output .= "<channel>\r\n";
 				$output .= "<title>".$this->yellow->page->getHtml("sitename")."</title>\r\n";
-				$output .= "<link>".$this->yellow->page->serverScheme."://".$this->yellow->page->serverName.$this->yellow->page->base."/"."</link>\r\n";
+				$output .= "<link>".$this->yellow->page->scheme."://".$this->yellow->page->address.$this->yellow->page->base."/"."</link>\r\n";
 				$output .= "<description>".$this->yellow->page->getHtml("tagline")."</description>\r\n";
 				$output .= "<language>".$this->yellow->page->getHtml("language")."</language>\r\n";
 				foreach($pages as $page)
 				{
 					$timestamp = strtotime($page->get($chronologicalOrder ? "modified" : "published"));
-					$content = $this->yellow->toolbox->createTextDescription($page->getContent(), strlenu($page->getContent()), false, "<!--more-->", " <a href=\"".$page->getUrl()."\">".$this->yellow->text->getHtml("blogMore")."</a>");
+					$content = $this->yellow->toolbox->createTextDescription($page->getContent(), 0, false, "<!--more-->", " <a href=\"".$page->getUrl()."\">".$this->yellow->text->getHtml("blogMore")."</a>");
 					$output .= "<item>\r\n";
 					$output .= "<title>".$page->getHtml("title")."</title>\r\n";
 					$output .= "<link>".$page->getUrl()."</link>\r\n";
