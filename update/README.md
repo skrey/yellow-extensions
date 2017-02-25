@@ -1,6 +1,6 @@
 Update plugin 0.6.14
 ===================
-Update your website.
+Keep your website up to date.
 
 <p align="center"><img src="update-screenshot.png?raw=true" alt="Screenshot"></p>
 
