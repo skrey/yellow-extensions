@@ -25,6 +25,7 @@ You can use shortcuts to show information about the blog:
 `[blogrecent LOCATION PAGESMAX]` for recently published pages  
 `[blogrelated LOCATION PAGESMAX]` for related pages to current page  
 `[blogtags LOCATION PAGESMAX]` for a list of tags  
+`[--more--]` for a page break  
 
 The following arguments are available:
 
