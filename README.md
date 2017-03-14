@@ -39,7 +39,7 @@ Available plugins:
 * [Highlight](https://github.com/datenstrom/yellow-plugins/tree/master/highlight): 
   Highlighting for source code.
 * [Image](https://github.com/datenstrom/yellow-plugins/tree/master/image): 
-  Resizable images and thumbnails.
+  Images and thumbnails.
 * [Language](https://github.com/datenstrom/yellow-plugins/tree/master/language): 
   Internationalisation for your website.
 * [Links](https://github.com/datenstrom/yellow-plugins/tree/master/links): 
