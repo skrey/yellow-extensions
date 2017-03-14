@@ -6,7 +6,7 @@ Run commands in a terminal window.
 
 ## How do I install this?
 
-1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/commandline.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `commandline.zip` into your `system/plugins` folder.
 
@@ -14,7 +14,7 @@ To uninstall delete the plugin files.
 
 ## How to run a command?
 
-Yellow offers commands that you run from within a folder containing the Yellow installation. Open a terminal window.  Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php` to show a list of the available commands.
+Datenstrom Yellow offers commands that you run from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show a list of the available commands.
 
 The following commands are available:
 

@@ -6,7 +6,7 @@ Add previous/next page to blog. [See demo](https://developers.datenstrom.se/plug
 
 ## How do I install this?
 
-1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download and install blog plugin](https://github.com/datenstrom/yellow-plugins/tree/master/blog).
 3. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/links.zip). If you are using Safari, right click and select 'Download file as'.
 4. Copy `links.zip` into your `system/plugins` folder.

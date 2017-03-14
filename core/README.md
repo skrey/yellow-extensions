@@ -4,7 +4,7 @@ Core functionality for your website.
 
 ## How do I install this?
 
-1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/core.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `core.zip` into your `system/plugins` folder.
 
@@ -29,7 +29,7 @@ These are the most important settings. For a complete list see [configuration fi
 
 ## Example
 
-Content file with Yellow version:
+Content file with software version:
 
 ```
 ---
@@ -38,7 +38,7 @@ Title: Example page
 This website is made with [yellow].
 ```
 
-Content file with Yellow version, including plugins and themes:
+Content file with software version, including plugins and themes:
 
 ```
 ---

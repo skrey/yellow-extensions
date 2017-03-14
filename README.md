@@ -1,5 +1,5 @@
-Yellow plugins
-==============
+Datenstrom Yellow plugins
+=========================
 [![Yellow](https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/yellow-photo.jpg)](https://datenstrom.se/yellow/)
 
 Yellow is for people who make websites.
