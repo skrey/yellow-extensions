@@ -23,7 +23,7 @@ The following settings can be configured in file `system/config/config.ini`:
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
 `ContactLocation` = contact page location  
-`ContactSpamFilter` = spam filter as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+`ContactSpamFilter` = spam filter as regular expression  
 
 ## Example
 

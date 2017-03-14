@@ -18,7 +18,7 @@ Create a `[gallery]` shortcut.
 
 The following arguments are available:
   
-`PATTERN` = file name as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+`PATTERN` = file name as regular expression  
 `STYLE` = gallery style, e.g. `photoswipe`, `simple`  
 `SIZE` = image size, pixel or percent
 

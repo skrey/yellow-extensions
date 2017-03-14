@@ -18,7 +18,7 @@ Create a `[slider]` shortcut.
 
 The following arguments are available:
   
-`PATTERN` = file name as [regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+`PATTERN` = file name as regular expression  
 `STYLE` = gallery style, e.g. `flickity`  
 `SIZE` = image size, pixel or percent  
 `AUTOPLAY` = play images automatically, delay time in milliseconds
