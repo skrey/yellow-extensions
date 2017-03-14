@@ -4,7 +4,7 @@ Create traffic analytics from web server logfiles.
 
 ## How do I install this?
 
-1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/traffic.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `traffic.zip` into your `system/plugins` folder.
 
@@ -12,7 +12,7 @@ To uninstall delete the plugin files.
 
 ## How to create traffic analytics?
 
-The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). It shows referring sites, popular content, search queries and error pages. Open a terminal window. Go to your Yellow installation, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days, location and file name. See example below.
+The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/commandline). It shows referring sites, popular content, search queries and error pages. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days, location and file name. See example below.
 
 This plugins analyses your web server logfiles, use [Piwik](https://github.com/datenstrom/yellow-plugins/tree/master/piwik) for more detailed web analytics.
 

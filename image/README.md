@@ -4,7 +4,7 @@ Images and thumbnails. [See demo](https://developers.datenstrom.se/plugins/image
 
 <p align="center"><img src="image-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How do I install this?
+## How do I install this?
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/image.zip). If you are using Safari, right click and select 'Download file as'.
@@ -12,7 +12,7 @@ Images and thumbnails. [See demo](https://developers.datenstrom.se/plugins/image
 
 To uninstall delete the plugin files.
 
-## How to add an image?
+## How to add an image?
 
 Create an `[image]` shortcut.
 
@@ -26,7 +26,7 @@ The following arguments are available:
 
 The plugin uses [GD graphics library](http://www.libgd.org/) by Thomas Boutell for resizing JPEG and PNG images.
 
-## Example
+## Example
 
 Adding an image:
 
