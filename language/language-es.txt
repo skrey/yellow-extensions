@@ -1,4 +1,4 @@
-# Yellow language file
+# Datenstrom Yellow language
 
 Language: es
 LanguageDescription: Español
