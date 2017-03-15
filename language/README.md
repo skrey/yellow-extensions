@@ -29,6 +29,7 @@ Available language files:
 * [Italiano](language-it.txt?raw=true), `Language: it`
 * [Magyar](language-hu.txt?raw=true), `Language: hu`
 * [Nederlands](language-nl.txt?raw=true), `Language: nl`
+* [Polski](language-pl.txt?raw=true), `Language: pl`
 * [Português](language-pt.txt?raw=true), `Language: pt`
 * [Русский](language-ru.txt?raw=true), `Language: ru`
 * [Slovenčina](language-sk.txt?raw=true), `Language: sk`

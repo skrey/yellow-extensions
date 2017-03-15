@@ -1,0 +1,119 @@
+# Yellow language file
+
+Language: pl
+LanguageDescription: Polski
+LanguageTranslator: Paweł Klockiewicz
+LanguageVersion: 0.6.15
+
+BlogBy: przez
+BlogFilter: Blog:
+BlogTag: Tagi:
+BlogMore: Czytaj dalej…
+ContactName: Nazwa:
+ContactEmail: Email:
+ContactMessage: Wiadomość:
+ContactButton: Wyślij wiadomość
+ContactStatusNone: Przywitaj się. Twoja opinia jest mile widziana.
+ContactStatusIncomplete: Prosimy wypełnić wszystkie pola.
+ContactStatusInvalid: Prosimy wprowadzić poprawny email.
+ContactStatusDone: Wiadomość została wysłana. Dziękujemy!
+ContactStatusError: Wiadomość nie mogła zostać wysłana. Prosimy spróbować ponownie później!
+DateMonths: styczeń, luty, marzec, kwiecień, maj, czerwiec, lipiec, sierpień, wrzesień, październik, listopad, grudzień
+DateWeekdays: poniedziałek, wtorek, środa, czwartek, piątek, sobota, niedziela
+DateWeekstart: poniedziałek
+DateFormatShort: F Y
+DateFormatMedium: Y-m-d
+DateFormatLong: Y-m-d H:i
+DateFormatTime: H:i
+PagePrevious: ← Poprzednia: @title
+PageNext: Następna: @title →
+PaginationPrevious: ← Poprzednie
+PaginationNext: Następne →
+SearchQuery: Szukaj:
+SearchResultsNone: Wpisz szukaną frazę.
+SearchResultsEmpty: Nie znaleziono wyników.
+SearchButton: Szukaj
+WebinterfaceInstallationTitle: Cześć
+WebinterfaceInstallationFeature: Co chcesz stworzyć?
+WebinterfaceInstallationHomePage: Twoja strona działa!\n\nMożesz [edit - edytować tę stronę] lub użyć własnego edytora.
+WebinterfaceLoginTitle: Witaj
+WebinterfaceLoginEmail: Email:
+WebinterfaceLoginPassword: Hasło:
+WebinterfaceLoginRecover: Zapomniane hasło?
+WebinterfaceLoginSignup: Brak konta użytkownika?
+WebinterfaceLoginButton: Zaloguj się
+WebinterfaceSignupTitle: Tworzenie konta użytkownika
+WebinterfaceSignupName: Nazwa:
+WebinterfaceSignupEmail: Email:
+WebinterfaceSignupPassword: Hasło:
+WebinterfaceSignupButton: Utwórz
+WebinterfaceSignupStatusNone: Tutaj możesz stworzyć nowe konto użytkownika.
+WebinterfaceSignupStatusIncomplete: Proszę wypełnić wszystkie pola.
+WebinterfaceSignupStatusInvalid: Proszę podać poprawny adres email.
+WebinterfaceSignupStatusWeak: Proszę podać inne hasło.
+WebinterfaceSignupStatusNext: Konto użytkownika zostanie utworzone, proszę sprawdzić pocztę.
+WebinterfaceRecoverTitle: Zapomniane hasło
+WebinterfaceRecoverEmail: Email:
+WebinterfaceRecoverPassword: Hasło:
+WebinterfaceRecoverStatusNone: Nie ma problemu, możesz utworzyć nowe hasło.
+WebinterfaceRecoverStatusInvalid: Proszę podać poprawny adres email.
+WebinterfaceRecoverStatusPassword: Prosze podać nowe hasło.
+WebinterfaceRecoverStatusWeak: Proszę podać inne hasło.
+WebinterfaceRecoverStatusNext: Konto użytkownika zostanie przywrócone, proszę sprawdzić pocztę.
+WebinterfaceSettingsTitle: Ustawienia
+WebinterfaceSettingsStatusInvalid: Proszę podać poprawny adres email.
+WebinterfaceSettingsStatusTaken: Proszę podać inny email.
+WebinterfaceSettingsStatusWeak: Proszę podać inne hasło.
+WebinterfaceSettingsStatusNext: Konto użytkownika zostanie zmienione, proszę sprawdzić pocztę.
+WebinterfaceConfirmSubject: Potwierdzenie konta użytkownika
+WebinterfaceConfirmMessage: Hej @usershort! Prosimy potwierdzić swoje konto. Kliknij w poniższy link.
+WebinterfaceConfirmStatusDone: Konto użytkownika zostało potwierdzone i czeka na aktywację. Dziękujemy!
+WebinterfaceConfirmStatusExpired: Konto użytkownika nie może zostać potwierdzone. Link wygasł!
+WebinterfaceApproveSubject: Zatwierdzenie konta użytkownika
+WebinterfaceApproveMessage: Hej @usershort! Prosimy zatwierdzić konto użytkownika @useraccount. Kliknij w poniższy link.
+WebinterfaceApproveStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
+WebinterfaceApproveStatusExpired: Konto użytkownika nie może zostać zatwierdzone. Link wygasł!
+WebinterfaceRecoverSubject: Odzyskiwanie konta użytkownika
+WebinterfaceRecoverMessage: Hej @usershort! Prosimy o potwierdzenie, że zapomniałeś/aś hasła. Kliknij w poniższy link.
+WebinterfaceRecoverStatusDone: Konto użytkownika zostało przywrócone. Dziękujemy!
+WebinterfaceRecoverStatusExpired: Konto użytkownika nie może zostać przywrócone. Link wygasł!
+WebinterfaceReconfirmSubject: Zmiana konta użytkownika
+WebinterfaceReconfirmMessage: Hej @usershort! Prosimy o potwierdzenie nowego maila dla Twojego konta. Kliknij w poniższy link.
+WebinterfaceReconfirmStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
+WebinterfaceReconfirmStatusExpired: Konto użytkownika nie może zostać zatwierdzone. Link wygasł!
+WebinterfaceChangeSubject: Zmiana konta użytkownika
+WebinterfaceChangeMessage: Hej @usershort! Prosimy o potwierdzenie, że chcesz dokonać zmian w Twoim koncie. Kliknij w poniższy link.
+WebinterfaceChangeStatusDone: Konto użytkownika zostało zmienione. Dziękujemy!
+WebinterfaceChangeStatusExpired: Konto użytkownika nie może zostać zmienione. Link wygasł!
+WebinterfaceWelcomeSubject: Powitanie
+WebinterfaceWelcomeMessage: Hej @usershort! Twoje konto użytkownika zostało utworzone. Miłej edycji strony.
+WebinterfaceInformationSubject: Witamy spowrotem
+WebinterfaceInformationMessage: Hej @usershort! Twoje konto użytkownika uległo zmianie. Możesz się teraz zalogować.
+WebinterfaceVersionTitle: O tej stronie
+WebinterfaceVersionStatusNone: Yellow jest dla ludzi, którzy tworzą strony internetowe.
+WebinterfaceVersionStatusCheck: Sprawdzanie aktualizacji…
+WebinterfaceVersionStatusDone: Twoja strona jest aktualna.
+WebinterfaceVersionStatusUpdates: Aktualizacje są dostępne. Skontaktuj się z webmasterem.
+WebinterfaceVersionUpdateNormal: Aktualizacje są dostępne. Zaktualizuj stronę teraz.
+WebinterfaceVersionUpdateForce: Wymuś aktualizację
+WebinterfaceVersionUpdateModified: @software został zmodyfikowany
+WebinterfaceOkButton: Ok
+WebinterfaceCancelButton: Anuluj
+WebinterfaceCreateButton: Utwórz
+WebinterfaceEditButton: Zapisz
+WebinterfaceDeleteButton: Usuń
+WebinterfaceEdit: Edytuj stronę
+WebinterfaceCreate: +
+WebinterfaceDelete: -
+WebinterfaceCreateTitle: Utwórz page
+WebinterfaceDeleteTitle: Usuń page
+WebinterfaceMarkdownHelp: Markdown
+WebinterfaceUserHelp: Pomoc
+WebinterfaceUserLogout: Wyloguj
+WikiFilter: Wiki:
+WikiTag: Tagi:
+WikiSpecialPages: Wszystkie strony
+WikiSpecialChanges: Ostatnie zmiany
+YellowUrl: https://datenstrom.se/yellow/
+YellowUserHelpUrl: https://developers.datenstrom.se/help/
+YellowMarkdownHelpUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
