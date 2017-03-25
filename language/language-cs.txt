@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Následující →
 SearchQuery: Hledej:
 SearchResultsNone: Vlož hledaný text.
 SearchResultsEmpty: Požadovaný text nenalezen.
+SearchSpecialChanges: Poslední změny
 SearchButton: Hledej
 WebinterfaceInstallationTitle: Ahoj
 WebinterfaceInstallationFeature: Co chcete udělat?
 WebinterfaceInstallationHomePage: Stránka funguje!\n\nMůžete [edit - editovat tuto stránku] nebo použít textový editor.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Vítejte
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Heslo:

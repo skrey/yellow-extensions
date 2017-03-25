@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: przez
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Następne →
 SearchQuery: Szukaj:
 SearchResultsNone: Wpisz szukaną frazę.
 SearchResultsEmpty: Nie znaleziono wyników.
+SearchSpecialChanges: Ostatnie zmiany
 SearchButton: Szukaj
 WebinterfaceInstallationTitle: Cześć
 WebinterfaceInstallationFeature: Co chcesz stworzyć?
 WebinterfaceInstallationHomePage: Twoja strona działa!\n\nMożesz [edit - edytować tę stronę] lub użyć własnego edytora.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Witaj
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Hasło:

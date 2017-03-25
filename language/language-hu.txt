@@ -3,7 +3,7 @@
 Language: hu
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: by
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Tovább →
 SearchQuery: Keresés:
 SearchResultsNone: Keresett kifejezés
 SearchResultsEmpty: Nincs találat.
+SearchSpecialChanges: Legutóbbi változások
 SearchButton: Keresés
 WebinterfaceInstallationTitle: Helló
 WebinterfaceInstallationFeature: What do you want to make?
 WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Üdvözöljük
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:

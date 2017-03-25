@@ -3,7 +3,7 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: by
 BlogFilter: 글:
@@ -32,10 +32,12 @@ PaginationNext: 다음 글 →
 SearchQuery: 검색:
 SearchResultsNone: 검색어를 입력해주세요.
 SearchResultsEmpty: 검색결과가 없습니다.
+SearchSpecialChanges: 최근 바뀜
 SearchButton: 검색
 WebinterfaceInstallationTitle: Hello
 WebinterfaceInstallationFeature: What do you want to make?
 WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: 환영
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:

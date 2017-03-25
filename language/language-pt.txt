@@ -3,7 +3,7 @@
 Language: pt
 LanguageDescription: Português
 LanguageTranslator: Al Garcia
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: por
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Seguinte →
 SearchQuery: Pesquisar:
 SearchResultsNone: Introduza um termo de pesquisa.
 SearchResultsEmpty: Não foram encontrados resultados.
+SearchSpecialChanges: Alterações recentes
 SearchButton: Pesquisa
 WebinterfaceInstallationTitle: Olá
 WebinterfaceInstallationFeature: O que você quer fazer?
 WebinterfaceInstallationHomePage: Seu site funciona!\n\nVocê pode [edit - editar esta página] ou usar o seu editor de texto.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Bem vinda
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Senha:

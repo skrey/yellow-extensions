@@ -3,7 +3,7 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: af
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Næste →
 SearchQuery: Søg:
 SearchResultsNone: Indtast ny søgning.
 SearchResultsEmpty: Ingen resultater fundet.
+SearchSpecialChanges: Ny ændringer
 SearchButton: Søg
 WebinterfaceInstallationTitle: Hej
 WebinterfaceInstallationFeature: What do you want to make?
 WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Velkommen
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:

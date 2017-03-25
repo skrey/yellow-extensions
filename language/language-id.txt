@@ -3,7 +3,7 @@
 Language: id
 LanguageDescription: Bahasa Indonesia
 LanguageTranslator: Jimmy Ofisia
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: oleh
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Selanjutnya →
 SearchQuery: Pencarian:
 SearchResultsNone: Masukkan kata pencarian.
 SearchResultsEmpty: Tak ada hasil ditemukan.
+SearchSpecialChanges: Perubahan belakangan ini
 SearchButton: Cari
 WebinterfaceInstallationTitle: Hello
 WebinterfaceInstallationFeature: What do you want to make?
 WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Selamat datang
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:

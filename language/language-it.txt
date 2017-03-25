@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: per
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Successivo →
 SearchQuery: Cerca:
 SearchResultsNone: Inserisci il termine da cercare.
 SearchResultsEmpty: Nessun risultato trovato.
+SearchSpecialChanges: Modifiche recenti
 SearchButton: Cerca
 WebinterfaceInstallationTitle: Ciao
 WebinterfaceInstallationFeature: Cosa si vuole fare?
 WebinterfaceInstallationHomePage: Il tuo sito è attivo!\n\nPuoi [edit - modificare questa pagina] o usare il tuo editor di testo.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Benvenuto
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:

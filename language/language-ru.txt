@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -32,10 +32,12 @@ PaginationNext: Далее →
 SearchQuery: Поиск:
 SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
+SearchSpecialChanges: Последние изменения
 SearchButton: Искать
 WebinterfaceInstallationTitle: Здравствуйте
 WebinterfaceInstallationFeature: Что вы хотите сделать?
 WebinterfaceInstallationHomePage: Ваш сайт работает!\n\nВы можете [edit - отредактировать эту страницу] или использовать ваш текстовый редактор.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: добро пожаловать
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Пароль:

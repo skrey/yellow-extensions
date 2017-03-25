@@ -3,7 +3,7 @@
 Language: es
 LanguageDescription: Español
 LanguageTranslator: Al Garcia, David Garcia
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: por
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Siguiente →
 SearchQuery: Buscar:
 SearchResultsNone: Introduce un término de búsqueda.
 SearchResultsEmpty: No se encontraron resultados.
+SearchSpecialChanges: Cambios recientes
 SearchButton: Buscar
 WebinterfaceInstallationTitle: Hola
 WebinterfaceInstallationFeature: ¿Qué quieres hacer?
 WebinterfaceInstallationHomePage: Tu sitio web funciona!\n\nPuedes [edit - editar esta página] o utilizar tu editor de texto.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Bienvenido
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Contraseña:

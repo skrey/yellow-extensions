@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: av
 BlogFilter: Blogg:
@@ -32,10 +32,12 @@ PaginationNext: Nästa →
 SearchQuery: Sök:
 SearchResultsNone: Skriv ett sökord.
 SearchResultsEmpty: Inga resultat funna.
+SearchSpecialChanges: Senaste ändringarna
 SearchButton: Sök
 WebinterfaceInstallationTitle: Hej
 WebinterfaceInstallationFeature: What do you want to make?
 WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Välkommen
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Lösenord:

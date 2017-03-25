@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: door
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Volgende →
 SearchQuery: Zoek:
 SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
+SearchSpecialChanges: Recente wijzigingen
 SearchButton: Zoek
 WebinterfaceInstallationTitle: Hallo
 WebinterfaceInstallationFeature: Wat wil je doen?
 WebinterfaceInstallationHomePage: Je website werkt!\n\nJe kan [edit - deze pagina bewerken] of gebruik maken van de teksteditor.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Welkom
 WebinterfaceLoginEmail: E-mail:
 WebinterfaceLoginPassword: Wachtwoord:

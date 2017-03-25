@@ -3,7 +3,7 @@
 Language: sk
 LanguageDescription: Slovenčina
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.6.15
+LanguageVersion: 0.6.16
 
 BlogBy: od
 BlogFilter: Blog:
@@ -32,10 +32,12 @@ PaginationNext: Nasledujúci →
 SearchQuery: Vyhľadávanie :
 SearchResultsNone: Hľadaný výraz.
 SearchResultsEmpty: Židne výsledky.
+SearchSpecialChanges: Posledné zmeny
 SearchButton: Hľadať
 WebinterfaceInstallationTitle: Hello
 WebinterfaceInstallationFeature: What do you want to make?
 WebinterfaceInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
+WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Vitajte
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Password:
