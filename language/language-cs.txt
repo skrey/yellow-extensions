@@ -13,9 +13,9 @@ ContactName: Jméno:
 ContactEmail: Email:
 ContactMessage: Zpráva:
 ContactButton: Odeslat zprávu
-ContactStatusNone: Napiš vzkaz. Tvůj příspěvek je vítán.
-ContactStatusIncomplete: Vyplňte prosím všechna pole.
-ContactStatusInvalid: Zadejte prosím platný email.
+ContactStatusNone: Zde můžete napsat svoje postřehy.
+ContactStatusIncomplete: Prosím, vyplňte všechna pole.
+ContactStatusInvalid: Zadejte platný email.
 ContactStatusDone: Email úspěšně odeslán. Děkuji!
 ContactStatusError: Email nemůže být odeslán, zkuste to prosím později!
 DateMonths: leden, únor, březen, duben, květen, červen, červenec, srpen, září, říjen, listopad, prosinec
@@ -36,12 +36,12 @@ SearchSpecialChanges: Poslední změny
 SearchButton: Hledej
 WebinterfaceInstallationTitle: Ahoj
 WebinterfaceInstallationFeature: Co chcete udělat?
-WebinterfaceInstallationHomePage: Stránka funguje!\n\nMůžete [edit - editovat tuto stránku] nebo použít textový editor.
-WebinterfaceInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
+WebinterfaceInstallationHomePage: Stránka funguje!\n\n Nyní můžete [edit - upravit tuto stránku] nebo použít textový editor.
+WebinterfaceInstallationAboutPage: Webová prezentace vytvořena v [yellow]. [Více informací](https://developers.datenstrom.se/help/).
 WebinterfaceLoginTitle: Vítejte
 WebinterfaceLoginEmail: Email:
 WebinterfaceLoginPassword: Heslo:
-WebinterfaceLoginRecover: Zapomněli jste své heslo?
+WebinterfaceLoginRecover: Zapomenuté heslo?
 WebinterfaceLoginSignup: Chcete vytvořit účet?
 WebinterfaceLoginButton: Přihlásit se
 WebinterfaceSignupTitle: Vytvořit účet
@@ -49,11 +49,11 @@ WebinterfaceSignupName: Jméno:
 WebinterfaceSignupEmail: Email:
 WebinterfaceSignupPassword: Heslo:
 WebinterfaceSignupButton: Vytvořit
-WebinterfaceSignupStatusNone: Nyní můžete vytvořit nový účet.
-WebinterfaceSignupStatusIncomplete: Prosím vyplňte všechny položky.
+WebinterfaceSignupStatusNone: Zde můžete založit nový uživatelský účet.
+WebinterfaceSignupStatusIncomplete: Prosím, vyplňte všechny položky.
 WebinterfaceSignupStatusInvalid: Vložte email ve správném formátu.
 WebinterfaceSignupStatusWeak: Vložte jiné heslo.
-WebinterfaceSignupStatusNext: Účet byl vytvořen, podívejte se do mailové schránky.
+WebinterfaceSignupStatusNext: Účet byl vytvořen, podívejte se do emailové schránky.
 WebinterfaceRecoverTitle: Zapomenuté heslo
 WebinterfaceRecoverEmail: Email:
 WebinterfaceRecoverPassword: Heslo:
@@ -61,44 +61,44 @@ WebinterfaceRecoverStatusNone: Vytvořit nové heslo.
 WebinterfaceRecoverStatusInvalid: Vložte email ve správném formátu.
 WebinterfaceRecoverStatusPassword: Vložte nové heslo.
 WebinterfaceRecoverStatusWeak: Vložte jiné heslo.
-WebinterfaceRecoverStatusNext: Uživatelský účet byl obnoven, podívejte se do mailové schránky.
+WebinterfaceRecoverStatusNext: Uživatelský účet byl obnoven, podívejte se do emailové schránky.
 WebinterfaceSettingsTitle: Nastavení
-WebinterfaceSettingsStatusInvalid: Please enter a valid email.
-WebinterfaceSettingsStatusTaken: Please enter a different email.
-WebinterfaceSettingsStatusWeak: Please enter a different password.
-WebinterfaceSettingsStatusNext: User account will be changed, please check your emails.
+WebinterfaceSettingsStatusInvalid: Vložte email ve správném formátu.
+WebinterfaceSettingsStatusTaken: Vložte jiný email.
+WebinterfaceSettingsStatusWeak: Vložte jiné heslo.
+WebinterfaceSettingsStatusNext: Nastavení uživatelského účtu změněno, podívejte se do emailové schránky.
 WebinterfaceConfirmSubject: Potvrzení uživatelského účtu
-WebinterfaceConfirmMessage: Ahoj @usershort, nyní je čas potvrdit nový účet. Klikněte na následující odkaz.
+WebinterfaceConfirmMessage: Ahoj @usershort, nyní nastal čas potvrdit nový účet. Klikněte na následující odkaz.
 WebinterfaceConfirmStatusDone: Účet potvrzen a čeká na schválení. Díky!
-WebinterfaceConfirmStatusExpired: Účet nemůže být potvrzen. Platnost odkazu vypršela!
+WebinterfaceConfirmStatusExpired: Změna uživatelského účtu nemůže být schválena. Platnost odkazu vypršela!
 WebinterfaceApproveSubject: Potvrzení nového uživatelského účtu
-WebinterfaceApproveMessage: Ahoj @usershort, potvrď nový účet pro @useraccount. Klikněte na následující odkaz.
-WebinterfaceApproveStatusDone: Uživatelský účet potvrzen. Díky!
-WebinterfaceApproveStatusExpired: Uživatelský účet nemůže být potvrzen. Platnost odkazu vypršela!
-WebinterfaceRecoverSubject: Obnovení uživatelského účtu
-WebinterfaceRecoverMessage: Ahoj @usershort, potvrď obnovení hesla. Klikni na následující odkaz.
+WebinterfaceApproveMessage: Ahoj @usershort, je potřeba schválit nový účet pro @useraccount. Klikněte na následující odkaz.
+WebinterfaceApproveStatusDone: Uživatelský účet schválen. Díky!
+WebinterfaceApproveStatusExpired: Změna uživatelského účtu nemůže být schválena. Platnost odkazu vypršela!
+WebinterfaceRecoverSubject: Obnovení uživatelského hesla
+WebinterfaceRecoverMessage: Ahoj @usershort, je potřeba schválit obnovení hesla. Klikněte na následující odkaz.
 WebinterfaceRecoverStatusDone: Heslo obnoveno. Díky!
 WebinterfaceRecoverStatusExpired: Heslo nemůže být obnoveno. Platnost odkazu vypršela!
-WebinterfaceReconfirmSubject: Change user account
-WebinterfaceReconfirmMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
-WebinterfaceReconfirmStatusDone: User account confirmed. Thank you!
-WebinterfaceReconfirmStatusExpired: User account can not be confirmed. Link has expired!
-WebinterfaceChangeSubject: Change user account
-WebinterfaceChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
-WebinterfaceChangeStatusDone: User account changed. Thank you!
-WebinterfaceChangeStatusExpired: User account can not be changed. Link has expired!
-WebinterfaceWelcomeSubject: Vítej nový uživateli
-WebinterfaceWelcomeMessage: Ahoj @usershort, tvůj nový účet byl vytvořen. Hodně zábavy s webovem!
+WebinterfaceReconfirmSubject: Změna uživatelského e-mailu
+WebinterfaceReconfirmMessage: Ahoj @usershort, je potřeba potvrdit změnu e-mailové adresy. Klikněte na následující odkaz.
+WebinterfaceReconfirmStatusDone: Elektronická adresa změněna. Díky!
+WebinterfaceReconfirmStatusExpired: Změna uživatelského účtu nemůže být schválena. Platnost odkazu vypršela!
+WebinterfaceChangeSubject: Změna uživatelského účtu
+WebinterfaceChangeMessage: Ahoj @usershort, je potřeba potvrdit změny uživatelského účtu. Klikněte na následující odkaz.
+WebinterfaceChangeStatusDone: Uživatelský účet změněn. Díky!
+WebinterfaceChangeStatusExpired: Uživatelský účet nemůže být změněn. Platnost odkazu vypršela!
+WebinterfaceWelcomeSubject: Vítej uživateli
+WebinterfaceWelcomeMessage: Ahoj @usershort, váš uživatelský účet byl vytvořen. Bavte se dobře.
 WebinterfaceInformationSubject: Vítej zpět
-WebinterfaceInformationMessage: Ahoj @usershort, účet byl změněn. Nyní se můžete přihlásit.
-WebinterfaceVersionTitle: About this website
-WebinterfaceVersionStatusNone: Yellow is for people who make websites.
-WebinterfaceVersionStatusCheck: Checking for updates…
-WebinterfaceVersionStatusDone: Your website is up to date.
-WebinterfaceVersionStatusUpdates: Updates available, please contact the webmaster.
-WebinterfaceVersionUpdateNormal: Updates available, update now.
-WebinterfaceVersionUpdateForce: Force update
-WebinterfaceVersionUpdateModified: @software has been modified
+WebinterfaceInformationMessage: Ahoj @usershort, váš uživatelský účet byl změněn. Nyní se můžete přihlásit.
+WebinterfaceVersionTitle: O těchto stránkách
+WebinterfaceVersionStatusNone: Yellow je pro lidi, kteří vytváří webové stránky.
+WebinterfaceVersionStatusCheck: Zjišťuji nové aktualizace…
+WebinterfaceVersionStatusDone: Tento web je aktuální.
+WebinterfaceVersionStatusUpdates: Dostupné nové aktualizace, kontaktujte správce.
+WebinterfaceVersionUpdateNormal: Dostupné nové aktualizace, aktualizovat nyní.
+WebinterfaceVersionUpdateForce: 'Tvrdá' aktualizace
+WebinterfaceVersionUpdateModified: @software byl aktualizován
 WebinterfaceOkButton: Ok
 WebinterfaceCancelButton: Zrušit
 WebinterfaceCreateButton: Vytvořit
