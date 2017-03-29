@@ -34,6 +34,7 @@ Available language files:
 * [Русский](language-ru.txt?raw=true), `Language: ru`
 * [Slovenčina](language-sk.txt?raw=true), `Language: sk`
 * [Svenska](language-sv.txt?raw=true), `Language: sv`
+* [日本語](language-ja.txt?raw=true), `Language: ja`
 * [한국어](language-ko.txt?raw=true), `Language: ko`
 * [简体中文](language-zh-CN.txt?raw=true), `Language: zh-CN`
 
