@@ -1,6 +1,6 @@
 Feed plugin 0.6.6
 =================
-Web feed with recent changes.
+Web feed with recent changes. [See demo](https://developers.datenstrom.se/feed/).
 
 <p align="center"><img src="feed-screenshot.png?raw=true" alt="Screenshot"></p>
 
