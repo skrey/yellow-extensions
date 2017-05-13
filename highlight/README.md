@@ -1,4 +1,4 @@
-Highlight plugin 0.6.5
+Highlight plugin 0.6.6
 ======================
 Highlighting for source code.
 
@@ -16,7 +16,7 @@ To uninstall delete the plugin files.
 
 Wrap your code blocks in \`\`\`, add an optional language identifier for highlighting. For line numbers add a colon separated number to the language. The visual design of programming languages can be adjusted in your theme.
 
-The plugin uses [GeSHi 1.0.8.12](https://github.com/GeSHi/geshi-1.0) by Benny Baumann and Nigel McNie, which supports about 200 programming languages. It's licensed under [GPLv2](https://opensource.org/licenses/GPL-2.0). The following languages are included: C, CPP, CSS, HTML, JavaScript, PHP, Python, Ruby. You can download more [language files](https://github.com/GeSHi/geshi-1.0/tree/master/src/geshi), copy them into your `system/plugins` folder.
+The plugin uses [GeSHi 1.0.8.13](https://github.com/GeSHi/geshi-1.0) by Benny Baumann and Nigel McNie, which supports about 200 programming languages. It's licensed under [GPLv2](https://opensource.org/licenses/GPL-2.0). The following languages are included: C, CPP, CSS, HTML, JavaScript, PHP, Python, Ruby. You can download more [language files](https://github.com/GeSHi/geshi-1.0/tree/master/src/geshi), copy them into your `system/plugins` folder.
 
 ## Example
 
