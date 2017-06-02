@@ -1,4 +1,4 @@
-Wiki plugin 0.6.13
+Wiki plugin 0.6.14
 =================
 Wiki for your website. [See demo](https://developers.datenstrom.se/plugins/wiki-plugin/).
 
