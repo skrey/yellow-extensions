@@ -120,7 +120,7 @@ Experimental plugins:
 * [Ticker](https://github.com/schulle4u/yellow-plugin-ticker): 
   Feed parser using SimpleXML or SimplePie.
 * [Twitter](https://github.com/schulle4u/yellow-plugin-twitter): 
-  Embed [Twitter widgets](https://twitter.com).
+  Embed Twitter timeline.
 * [Video](https://github.com/nibreh/yellow-plugin-video): 
   HTML5 video player.
 * [WebCLI](https://github.com/richi/yellow-plugin-cli):
