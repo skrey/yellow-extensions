@@ -211,7 +211,7 @@ class YellowEdit
 				case "reconfirm":	$statusCode = $this->processRequestReconfirm($scheme, $address, $base, $location, $fileName); break;
 				case "change":		$statusCode = $this->processRequestChange($scheme, $address, $base, $location, $fileName); break;
 			}
-			if($this->response->action=="fail") $this->yellow->page->error(500, "Login failed, [please log in](javascript:yellow.action('login');)!");
+			if($this->response->action=="fail") $this->yellow->page->error(500, "Login failed, <a href=\"javascript:yellow.action('login');\">please log in</a>!");
 		}
 		return $statusCode;
 	}
@@ -607,11 +607,11 @@ class YellowEdit
 		{
 			$this->response->rawDataSource = rawurldecode($_POST["rawdatasource"]);
 			$this->response->rawDataEdit = rawurldecode($_POST["rawdataedit"]);
-			$page = $this->response->getPageUpdate($scheme, $address, $base, $location, $fileName,
+			$page = $this->response->getPageEdit($scheme, $address, $base, $location, $fileName,
 				$this->response->rawDataSource, $this->response->rawDataEdit, $this->yellow->toolbox->readFile($fileName));
 			if(!$page->isError())
 			{
-				if($this->yellow->toolbox->renameFile($fileName, $page->fileName) &&
+				if($this->yellow->toolbox->renameFile($fileName, $page->fileName, true) &&
 				   $this->yellow->toolbox->createFile($page->fileName, $page->rawData))
 				{
 					$statusCode = 303;
@@ -815,12 +815,12 @@ class YellowResponse
 	}
 	
 	// Return modified page
-	function getPageUpdate($scheme, $address, $base, $location, $fileName, $rawDataSource, $rawDataEdit, $rawDataFile)
+	function getPageEdit($scheme, $address, $base, $location, $fileName, $rawDataSource, $rawDataEdit, $rawDataFile)
 	{
 		$page = new YellowPage($this->yellow);
 		$page->setRequestInformation($scheme, $address, $base, $location, $fileName);
 		$page->parseData($this->plugin->merge->merge($rawDataSource, $rawDataEdit, $rawDataFile), false, 0);
-		$this->editContentFile($page, "update");
+		$this->editContentFile($page, "edit");
 		if(empty($page->rawData)) $page->error(500, "Page has been modified by someone else!");
 		if($this->yellow->lookup->isFileLocation($location) && !$page->isError())
 		{
