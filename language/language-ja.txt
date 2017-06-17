@@ -3,7 +3,7 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.6.16
+LanguageVersion: 0.7.1
 
 BlogBy: by
 BlogFilter: Blog:
@@ -25,6 +25,84 @@ DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 DateFormatTime: H:i
+EditInstallationTitle: こんにちは
+EditInstallationFeature: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
+EditInstallationHomePage: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
+EditInstallationAboutPage: このウェブサイトは [yellow] で作成されています。[詳しくは](https://developers.datenstrom.se/help/)。
+EditLoginTitle: ようこそ
+EditLoginEmail: メールアドレス:
+EditLoginPassword: パスワード:
+EditLoginRecover: パスワードをお忘れですか？
+EditLoginSignup: ユーザーアカウントを作成しますか？
+EditLoginButton: ログイン
+EditSignupTitle: ユーザーアカウントの作成
+EditSignupName: サイト名:
+EditSignupEmail: メールアドレス:
+EditSignupPassword: パスワード:
+EditSignupButton: 作成
+EditSignupStatusNone: 新しいユーザーアカウントを作成出来ます。
+EditSignupStatusIncomplete: 全ての項目にご入力下さい。
+EditSignupStatusInvalid: 正しいメールアドレスをご入力下さい。
+EditSignupStatusWeak: 別のパスワードをご入力下さい。
+EditSignupStatusNext: ユーザーアカウントの有効化の為、メールをご確認下さい。
+EditRecoverTitle: パスワード忘失申請
+EditRecoverEmail: メールアドレス:
+EditRecoverPassword: パスワード:
+EditRecoverStatusNone: 新しいパスワードを作成する事が出来ます。
+EditRecoverStatusInvalid: 正しいメールアドレスをご入力下さい。
+EditRecoverStatusPassword: 新しいパスワードをご入力下さい。
+EditRecoverStatusWeak: 別のパスワードをご入力下さい。
+EditRecoverStatusNext: ユーザーアカウントを回復する為にメールをご確認下さい。
+EditSettingsTitle: 設定
+EditSettingsStatusInvalid: 正しいメールアドレスをご入力下さい。
+EditSettingsStatusTaken: 別のメールアドレスをご入力下さい。
+EditSettingsStatusWeak: 別のパスワードをご入力下さい。
+EditSettingsStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
+EditConfirmSubject: ユーザーアカウントの確認
+EditConfirmMessage: こんにちは @usershort さん。ユーザーアカウントについてのご確認です。宜しければ次のリンクをクリックして下さい。
+EditConfirmStatusDone: ユーザーアカウントが登録され、承認待ちです。有難うございました！
+EditConfirmStatusExpired: ユーザーアカウントを確認できません。リンクの有効期限が切れています！
+EditApproveSubject: ユーザーアカウントの登録承認
+EditApproveMessage: こんにちは @usershort さん。新しいユーザーアカウント登録承認についてのご確認です。 @useraccount。 宜しければ次のリンクをクリックして下さい。
+EditApproveStatusDone: ユーザーアカウントが承認されました。有難うございました！
+EditApproveStatusExpired: ユーザーアカウントを承認する事はできません。リンクの有効期限が切れています！
+EditRecoverSubject: ユーザーアカウントを復元
+EditRecoverMessage: こんにちは @usershort さん。パスワード忘失のご確認です。宜しければ次のリンクをクリックして下さい。
+EditRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！
+EditRecoverStatusExpired: ユーザーアカウントは回復できません。リンクの有効期限が切れています！
+EditReconfirmSubject: ユーザーアカウント情報の変更
+EditReconfirmMessage: こんにちは @usershort さん。ユーザーアカウント情報の変更のご確認です。宜しければ次のリンクをクリックして下さい。
+EditReconfirmStatusDone: ユーザーアカウントが確認されました。有難うございました！
+EditReconfirmStatusExpired: ユーザーアカウントを確認できません。リンクの有効期限が切れています！
+EditChangeSubject: ユーザーアカウントの変更
+EditChangeMessage: こんにちは @usershort さん。ユーザーアカウントを変更する為に、次のリンクをクリックして下さい。
+EditChangeStatusDone: ユーザーアカウントが変更されました。有難うございました！
+EditChangeStatusExpired: ユーザーアカウントは変更できません。リンクの有効期限が切れています！
+EditWelcomeSubject: ようこそ！
+EditWelcomeMessage: こんにちは @usershort さん。あなたのユーザーアカウントが作成されています。ログインしてウェブサイトを完成させて下さい。
+EditInformationSubject: お帰りなさい！
+EditInformationMessage: こんにちは @usershort さん。あなたのユーザーアカウントが変更されました。今直ぐログイン出来ます。
+EditVersionTitle: 最新バージョンの確認
+EditVersionStatusNone: Yellow でウェブサイトを作る
+EditVersionStatusCheck: アップデートの確認中…
+EditVersionStatusDone: 最新のバージョンです。
+EditVersionStatusUpdates: 利用可能なアップデート, ウェブマスターにお問合せ下さい。
+EditVersionUpdateNormal: 利用可能なアップデート有ります。今直ぐアップデートする！
+EditVersionUpdateForce: アップデートする！
+EditVersionUpdateModified: @software が変更されました
+EditOkButton: Ok
+EditCancelButton: キャンセル
+EditCreateButton: 作成
+EditEditButton: 保存
+EditDeleteButton: 削除
+EditEdit: ページの編集
+EditCreate: +
+EditDelete: -
+EditCreateTitle: ページ作成
+EditDeleteTitle: ページ削除
+EditMarkdownHelp: マークダウン記法
+EditUserHelp: ヘルプ
+EditUserLogout: ログアウト
 PagePrevious: ← 前のページへ : @title
 PageNext: 次のページへ : @title →
 PaginationPrevious: ← 戻る
@@ -34,84 +112,6 @@ SearchResultsNone: 検索キーワードをご入力下さい。
 SearchResultsEmpty: 検索結果が見つかりません。
 SearchSpecialChanges: 最近の更新
 SearchButton: 検索
-WebinterfaceInstallationTitle: こんにちは
-WebinterfaceInstallationFeature: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
-WebinterfaceInstallationHomePage: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
-WebinterfaceInstallationAboutPage: このウェブサイトは [yellow] で作成されています。[詳しくは](https://developers.datenstrom.se/help/)。
-WebinterfaceLoginTitle: ようこそ
-WebinterfaceLoginEmail: メールアドレス:
-WebinterfaceLoginPassword: パスワード:
-WebinterfaceLoginRecover: パスワードをお忘れですか？
-WebinterfaceLoginSignup: ユーザーアカウントを作成しますか？
-WebinterfaceLoginButton: ログイン
-WebinterfaceSignupTitle: ユーザーアカウントの作成
-WebinterfaceSignupName: サイト名:
-WebinterfaceSignupEmail: メールアドレス:
-WebinterfaceSignupPassword: パスワード:
-WebinterfaceSignupButton: 作成
-WebinterfaceSignupStatusNone: 新しいユーザーアカウントを作成出来ます。
-WebinterfaceSignupStatusIncomplete: 全ての項目にご入力下さい。
-WebinterfaceSignupStatusInvalid: 正しいメールアドレスをご入力下さい。
-WebinterfaceSignupStatusWeak: 別のパスワードをご入力下さい。
-WebinterfaceSignupStatusNext: ユーザーアカウントの有効化の為、メールをご確認下さい。
-WebinterfaceRecoverTitle: パスワード忘失申請
-WebinterfaceRecoverEmail: メールアドレス:
-WebinterfaceRecoverPassword: パスワード:
-WebinterfaceRecoverStatusNone: 新しいパスワードを作成する事が出来ます。
-WebinterfaceRecoverStatusInvalid: 正しいメールアドレスをご入力下さい。
-WebinterfaceRecoverStatusPassword: 新しいパスワードをご入力下さい。
-WebinterfaceRecoverStatusWeak: 別のパスワードをご入力下さい。
-WebinterfaceRecoverStatusNext: ユーザーアカウントを回復する為にメールをご確認下さい。
-WebinterfaceSettingsTitle: 設定
-WebinterfaceSettingsStatusInvalid: 正しいメールアドレスをご入力下さい。
-WebinterfaceSettingsStatusTaken: 別のメールアドレスをご入力下さい。
-WebinterfaceSettingsStatusWeak: 別のパスワードをご入力下さい。
-WebinterfaceSettingsStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
-WebinterfaceConfirmSubject: ユーザーアカウントの確認
-WebinterfaceConfirmMessage: こんにちは @usershort さん。ユーザーアカウントについてのご確認です。宜しければ次のリンクをクリックして下さい。
-WebinterfaceConfirmStatusDone: ユーザーアカウントが登録され、承認待ちです。有難うございました！
-WebinterfaceConfirmStatusExpired: ユーザーアカウントを確認できません。リンクの有効期限が切れています！
-WebinterfaceApproveSubject: ユーザーアカウントの登録承認
-WebinterfaceApproveMessage: こんにちは @usershort さん。新しいユーザーアカウント登録承認についてのご確認です。 @useraccount。 宜しければ次のリンクをクリックして下さい。
-WebinterfaceApproveStatusDone: ユーザーアカウントが承認されました。有難うございました！
-WebinterfaceApproveStatusExpired: ユーザーアカウントを承認する事はできません。リンクの有効期限が切れています！
-WebinterfaceRecoverSubject: ユーザーアカウントを復元
-WebinterfaceRecoverMessage: こんにちは @usershort さん。パスワード忘失のご確認です。宜しければ次のリンクをクリックして下さい。
-WebinterfaceRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！
-WebinterfaceRecoverStatusExpired: ユーザーアカウントは回復できません。リンクの有効期限が切れています！
-WebinterfaceReconfirmSubject: ユーザーアカウント情報の変更
-WebinterfaceReconfirmMessage: こんにちは @usershort さん。ユーザーアカウント情報の変更のご確認です。宜しければ次のリンクをクリックして下さい。
-WebinterfaceReconfirmStatusDone: ユーザーアカウントが確認されました。有難うございました！
-WebinterfaceReconfirmStatusExpired: ユーザーアカウントを確認できません。リンクの有効期限が切れています！
-WebinterfaceChangeSubject: ユーザーアカウントの変更
-WebinterfaceChangeMessage: こんにちは @usershort さん。ユーザーアカウントを変更する為に、次のリンクをクリックして下さい。
-WebinterfaceChangeStatusDone: ユーザーアカウントが変更されました。有難うございました！
-WebinterfaceChangeStatusExpired: ユーザーアカウントは変更できません。リンクの有効期限が切れています！
-WebinterfaceWelcomeSubject: ようこそ！
-WebinterfaceWelcomeMessage: こんにちは @usershort さん。あなたのユーザーアカウントが作成されています。ログインしてウェブサイトを完成させて下さい。
-WebinterfaceInformationSubject: お帰りなさい！
-WebinterfaceInformationMessage: こんにちは @usershort さん。あなたのユーザーアカウントが変更されました。今直ぐログイン出来ます。
-WebinterfaceVersionTitle: 最新バージョンの確認
-WebinterfaceVersionStatusNone: Yellow でウェブサイトを作る
-WebinterfaceVersionStatusCheck: アップデートの確認中…
-WebinterfaceVersionStatusDone: 最新のバージョンです。
-WebinterfaceVersionStatusUpdates: 利用可能なアップデート, ウェブマスターにお問合せ下さい。
-WebinterfaceVersionUpdateNormal: 利用可能なアップデート有ります。今直ぐアップデートする！
-WebinterfaceVersionUpdateForce: アップデートする！
-WebinterfaceVersionUpdateModified: @software が変更されました
-WebinterfaceOkButton: Ok
-WebinterfaceCancelButton: キャンセル
-WebinterfaceCreateButton: 作成
-WebinterfaceEditButton: 保存
-WebinterfaceDeleteButton: 削除
-WebinterfaceEdit: ページの編集
-WebinterfaceCreate: +
-WebinterfaceDelete: -
-WebinterfaceCreateTitle: ページ作成
-WebinterfaceDeleteTitle: ページ削除
-WebinterfaceMarkdownHelp: マークダウン記法
-WebinterfaceUserHelp: ヘルプ
-WebinterfaceUserLogout: ログアウト
 WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: 全てのページ

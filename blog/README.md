@@ -1,4 +1,4 @@
-Blog plugin 0.6.13
+Blog plugin 0.7.1
 =================
 Blog for your website. [See demo](https://developers.datenstrom.se/plugins/blog-plugin/).
 
@@ -35,6 +35,7 @@ The following arguments are available:
 The following settings can be configured in file `system/config/config.ini`:
 
 `BlogLocation` = blog location  
+`BlogNewLocation` = blog location for new page  
 `BlogPagesMax` = number of pages  
 `BlogPaginationLimit` = number of entries to show per page  
 

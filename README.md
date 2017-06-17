@@ -14,7 +14,7 @@ Available plugins:
   Blog for your website.
 * [Breadcrumbs](https://github.com/datenstrom/yellow-plugins/tree/master/breadcrumbs): 
   Breadcrumbs navigation.
-* [Commandline](https://github.com/datenstrom/yellow-plugins/tree/master/commandline): 
+* [Command](https://github.com/datenstrom/yellow-plugins/tree/master/command): 
   Run commands in a terminal window.
 * [Contact](https://github.com/datenstrom/yellow-plugins/tree/master/contact): 
   Email contact page for your website.
@@ -24,6 +24,8 @@ Available plugins:
   Add Disqus comments to blog.
 * [Draft](https://github.com/datenstrom/yellow-plugins/tree/master/draft): 
   Support for draft pages.
+* [Edit](https://github.com/datenstrom/yellow-plugins/tree/master/edit): 
+  Edit your website in a web browser.
 * [Emojiawesome](https://github.com/datenstrom/yellow-plugins/tree/master/emojiawesome): 
   Lots and lots of emoji.
 * [Feed](https://github.com/datenstrom/yellow-plugins/tree/master/feed): 
@@ -68,8 +70,6 @@ Available plugins:
   Keep your website up to date.
 * [Vimeo](https://github.com/datenstrom/yellow-plugins/tree/master/vimeo): 
   Embed Vimeo videos.
-* [Webinterface](https://github.com/datenstrom/yellow-plugins/tree/master/webinterface): 
-  Edit your website in a web browser.
 * [Wiki](https://github.com/datenstrom/yellow-plugins/tree/master/wiki): 
   Wiki for your website.
 * [Youtube](https://github.com/datenstrom/yellow-plugins/tree/master/youtube): 
