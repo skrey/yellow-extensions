@@ -27,7 +27,7 @@ class YellowUpdate
 		{
 			$update = true;
 			$fileData = $this->yellow->toolbox->readFile("yellow.php");
-			$fileData = preg_replace("#Yellow requires#", "#Datenstrom Yellow requires#", $fileData);
+			$fileData = preg_replace("#Yellow requires#", "Datenstrom Yellow requires", $fileData);
 			$fileData = preg_replace("#yellow->plugins->load\(\)#", "yellow->load()", $fileData);
 			$this->yellow->toolbox->createFile("yellow.php", $fileData);
 		}
