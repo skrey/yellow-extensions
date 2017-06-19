@@ -31,8 +31,7 @@ class YellowUpdate
 			$fileData = preg_replace("#yellow->plugins->load\(\)#", "yellow->load()", $fileData);
 			$this->yellow->toolbox->createFile("yellow.php", $fileData);
 		}
-		
-		if($update) //TODO: remove later, converts old config file
+		if($update) //TODO: remove later, converts old config
 		{
 			$fileNameConfig = $this->yellow->config->get("configDir").$this->yellow->config->get("configFile");
 			$fileData = $this->yellow->toolbox->readFile($fileNameConfig);
@@ -47,7 +46,27 @@ class YellowUpdate
 					$fileDataNew .= $line;
 				}
 			}
-			if($fileData!=$fileDataNew) $this->yellow->toolbox->createFile($fileNameConfig, $fileDataNew);
+			if($fileData!=$fileDataNew)
+			{
+				$this->yellow->toolbox->createFile($fileNameConfig, $fileDataNew);
+				$_GET["clean-url"] = "config-has-been-updated";
+			}
+		}
+		if($update)	//TODO: remove later, converts old theme
+		{
+			$path = $this->yellow->config->get("themeDir");
+			foreach($this->yellow->toolbox->getDirectoryEntries($path, "/^.*\.css$/", true, false) as $entry)
+			{
+				$fileNameAsset = $this->yellow->config->get("assetDir").basename($entry);
+				if(!is_file($fileNameAsset))
+				{
+					$fileData = $this->yellow->toolbox->readFile($entry);
+					$fileData = preg_replace("#url\(assets/(.*?)\)#", "url($1)", $fileData);
+					$this->yellow->toolbox->createFile($fileNameAsset, $fileData);
+				}
+				$this->yellow->toolbox->deleteFile($entry, $this->yellow->config->get("trashDir"));
+				$_GET["clean-url"] = "theme-has-been-updated";
+			}
 		}
 		if($update)	//TODO: remove later, converts old error page
 		{
@@ -105,22 +124,6 @@ class YellowUpdate
 				if($page->rawData!=$rawDataNew) $this->yellow->toolbox->createFile($page->fileName, $rawDataNew);
 			}
 			$this->yellow->pages = new YellowPages($this->yellow);
-		}
-		if($update)	//TODO: remove later, converts theme files
-		{
-			$path = $this->yellow->config->get("themeDir");
-			foreach($this->yellow->toolbox->getDirectoryEntries($path, "/^.*\.css$/", true, false) as $entry)
-			{
-				$fileNameAsset = $this->yellow->config->get("assetDir").basename($entry);
-				if(!is_file($fileNameAsset))
-				{
-					$fileData = $this->yellow->toolbox->readFile($entry);
-					$fileData = preg_replace("#url\(assets/(.*?)\)#", "url($1)", $fileData);
-					$this->yellow->toolbox->createFile($fileNameAsset, $fileData);
-				}
-				$this->yellow->toolbox->deleteFile($entry, $this->yellow->config->get("trashDir"));
-				$_GET["clean-url"] = "software-has-been-updated";
-			}
 		}
 	}
 	
