@@ -49,7 +49,7 @@ class YellowUpdate
 			if($fileData!=$fileDataNew)
 			{
 				$this->yellow->toolbox->createFile($fileNameConfig, $fileDataNew);
-				$_GET["clean-url"] = "config-has-been-updated";
+				$this->yellow->config->load($fileNameConfig);
 			}
 		}
 		if($update)	//TODO: remove later, converts old theme
