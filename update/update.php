@@ -39,18 +39,15 @@ class YellowUpdate
 			{
 				$line = preg_replace("/^Webinterface/i", "Edit", $line);
 				preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
-				if(!empty($matches[1]) && is_null($this->yellow->config->configDefaults[$matches[1]]))
+				if(substru($matches[1], 0, 4)=="Edit" && !strempty($matches[2])) $this->yellow->config->set($matches[1], $matches[2]);
+				if(!empty($matches[1]) && $matches[1][0]!='#' && is_null($this->yellow->config->configDefaults[$matches[1]]))
 				{
 					$fileDataNew .= "# $line";
 				} else {
 					$fileDataNew .= $line;
 				}
 			}
-			if($fileData!=$fileDataNew)
-			{
-				$this->yellow->toolbox->createFile($fileNameConfig, $fileDataNew);
-				$this->yellow->config->load($fileNameConfig);
-			}
+			if($fileData!=$fileDataNew) $this->yellow->toolbox->createFile($fileNameConfig, $fileDataNew);
 		}
 		if($update)	//TODO: remove later, converts old theme
 		{
