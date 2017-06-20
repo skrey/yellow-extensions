@@ -26,6 +26,8 @@ class YellowUpdate
 		if(!$this->yellow->config->isExisting("startupUpdateNotification")) //TODO: remove later, detects old version
 		{
 			$update = true;
+			$fileNameConfig = $this->yellow->config->get("configDir").$this->yellow->config->get("configFile");
+			$this->yellow->config->update($fileNameConfig, array("startupUpdateNotification" => "none"));
 			$fileData = $this->yellow->toolbox->readFile("yellow.php");
 			$fileData = preg_replace("#yellow->plugins->load\(\)#", "yellow->load()", $fileData);
 			$this->yellow->toolbox->createFile("yellow.php", $fileData);
