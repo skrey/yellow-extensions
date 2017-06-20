@@ -27,8 +27,8 @@ class YellowUpdate
 		{
 			$update = true;
 			$fileData = $this->yellow->toolbox->readFile("yellow.php");
-			$fileDataNew = preg_replace("#yellow->plugins->load\(\)#", "yellow->load()", $fileData);
-			if($fileData!=$fileDataNew) $this->yellow->toolbox->createFile("yellow.php", $fileDataNew);
+			$fileData = preg_replace("#yellow->plugins->load\(\)#", "yellow->load()", $fileData);
+			$this->yellow->toolbox->createFile("yellow.php", $fileData);
 		}
 		if($update) //TODO: remove later, converts old config
 		{
