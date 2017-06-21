@@ -307,6 +307,7 @@ class YellowUpdate
 				$this->yellow->page->error($statusCode, "Can't delete file '$entry'!");
 			}
 		}
+		$statusCode = max($statusCode, $this->updateSoftwareNotification("YellowUpdate"));
 		return $statusCode;
 	}
 
