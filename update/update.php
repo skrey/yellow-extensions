@@ -287,6 +287,7 @@ class YellowUpdate
 	function updateSoftware($force = false)
 	{
 		$statusCode = 200;
+		opcache_reset();
 		$path = $this->yellow->config->get("pluginDir");
 		foreach($this->yellow->toolbox->getDirectoryEntries($path, "/^.*\.zip$/", true, false) as $entry)
 		{
@@ -307,7 +308,6 @@ class YellowUpdate
 				$this->yellow->page->error($statusCode, "Can't delete file '$entry'!");
 			}
 		}
-		$statusCode = max($statusCode, $this->updateSoftwareNotification("YellowUpdate"));
 		return $statusCode;
 	}
 
