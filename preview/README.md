@@ -1,4 +1,4 @@
-Preview plugin 0.6.9
+Preview plugin 0.7.1
 ====================
 Show pages with image preview. [See demo](https://developers.datenstrom.se/plugins/).
 

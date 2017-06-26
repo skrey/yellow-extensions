@@ -1,4 +1,4 @@
-Image plugin 0.6.8
+Image plugin 0.7.1
 ==================
 Images and thumbnails. [See demo](https://developers.datenstrom.se/plugins/image-plugin).
 
@@ -24,7 +24,7 @@ The following arguments are available:
 `WIDTH` = image width, pixel or percent  
 `HEIGHT` = image height, pixel or percent   
 
-The plugin uses [GD graphics library](http://www.libgd.org/) by Thomas Boutell for resizing JPEG and PNG images.
+The plugin uses [GD graphics library](http://www.libgd.org/) by Thomas Boutell for resizing images.
 
 ## Example
 
