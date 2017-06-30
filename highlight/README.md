@@ -1,4 +1,4 @@
-Highlight plugin 0.6.6
+Highlight plugin 0.7.1
 ======================
 Highlighting for source code.
 
