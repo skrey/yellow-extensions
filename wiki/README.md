@@ -20,7 +20,7 @@ The wiki is available on your website as `http://website/wiki/`. To show the wik
 
 You can use shortcuts to show information about the wiki:
 
-`[blogauthors LOCATION PAGESMAX]` for a list of authors  
+`[wikiauthors LOCATION PAGESMAX]` for a list of authors  
 `[wikipages LOCATION PAGESMAX]` for a list of pages  
 `[wikirecent LOCATION PAGESMAX]` for recently changed pages  
 `[wikirelated LOCATION PAGESMAX]` for related pages to current page  
