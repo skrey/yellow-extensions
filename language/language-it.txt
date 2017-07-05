@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.7.1
+LanguageVersion: 0.7.2
 
 BlogBy: per
 BlogFilter: Blog:
@@ -66,6 +66,10 @@ EditApproveSubject: Approva account utente
 EditApproveMessage: Ciao @usershort, per favore approva un nuovo account per l'utente @useraccount cliccando il link di seguito.
 EditApproveStatusDone: Account approvato. Grazie!
 EditApproveStatusExpired: Impossibile approvare l'account utente: link scaduto!
+EditReactivateSubject: Reactivate user account
+EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateStatusDone: User account reactivated. Thank you!
+EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: Recupera account utente
 EditRecoverMessage: Ciao @usershort, per favore conferma di aver perso la password cliccando il link di seguito.
 EditRecoverStatusDone: Account utente recuperato. Grazie!

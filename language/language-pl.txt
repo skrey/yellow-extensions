@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.1
+LanguageVersion: 0.7.2
 
 BlogBy: przez
 BlogFilter: Blog:
@@ -66,6 +66,10 @@ EditApproveSubject: Zatwierdzenie konta użytkownika
 EditApproveMessage: Hej @usershort! Prosimy zatwierdzić konto użytkownika @useraccount. Kliknij w poniższy link.
 EditApproveStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
 EditApproveStatusExpired: Konto użytkownika nie może zostać zatwierdzone. Link wygasł!
+EditReactivateSubject: Reactivate user account
+EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateStatusDone: User account reactivated. Thank you!
+EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: Odzyskiwanie konta użytkownika
 EditRecoverMessage: Hej @usershort! Prosimy o potwierdzenie, że zapomniałeś/aś hasła. Kliknij w poniższy link.
 EditRecoverStatusDone: Konto użytkownika zostało przywrócone. Dziękujemy!

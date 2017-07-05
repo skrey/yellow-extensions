@@ -3,7 +3,7 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.7.1
+LanguageVersion: 0.7.2
 
 BlogBy: by
 BlogFilter: Blog:
@@ -66,6 +66,10 @@ EditApproveSubject: ユーザーアカウントの登録承認
 EditApproveMessage: こんにちは @usershort さん。新しいユーザーアカウント登録承認についてのご確認です。 @useraccount。 宜しければ次のリンクをクリックして下さい。
 EditApproveStatusDone: ユーザーアカウントが承認されました。有難うございました！
 EditApproveStatusExpired: ユーザーアカウントを承認する事はできません。リンクの有効期限が切れています！
+EditReactivateSubject: Reactivate user account
+EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateStatusDone: User account reactivated. Thank you!
+EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: ユーザーアカウントを復元
 EditRecoverMessage: こんにちは @usershort さん。パスワード忘失のご確認です。宜しければ次のリンクをクリックして下さい。
 EditRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！

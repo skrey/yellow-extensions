@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.1
+LanguageVersion: 0.7.2
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -66,6 +66,10 @@ EditApproveSubject: Утвердить учетную запись
 EditApproveMessage: Привет @usershort, пожалуйста, утвердите новую учетную запись для @useraccount. Нажмите на ссылку.
 EditApproveStatusDone: Учетная запись утверждена. Спасибо!
 EditApproveStatusExpired: Учетная запись не может быть утверждена. Ссылка устарела!
+EditReactivateSubject: Reactivate user account
+EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateStatusDone: User account reactivated. Thank you!
+EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: Восстановление учетной записи
 EditRecoverMessage: Привет @usershort, пожалуйста, подтвердите, что вы забыли свой пароль. Нажмите на ссылку.
 EditRecoverStatusDone: Учетная запись восстановлена. Спасибо!

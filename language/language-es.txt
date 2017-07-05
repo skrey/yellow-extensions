@@ -3,7 +3,7 @@
 Language: es
 LanguageDescription: Español
 LanguageTranslator: Al Garcia, David Garcia
-LanguageVersion: 0.7.1
+LanguageVersion: 0.7.2
 
 BlogBy: por
 BlogFilter: Blog:
@@ -66,6 +66,10 @@ EditApproveSubject: Aprobar cuenta de usuario
 EditApproveMessage: Hola @usershort, por favor aprueba la nueva cuenta para @useraccount. Haz click en el siguiente enlace.
 EditApproveStatusDone: Cuenta de usuario aprobada. ¡Gracias!
 EditApproveStatusExpired: La cuenta de usuario no puede ser aprobada. El vínculo se ha vencido.
+EditReactivateSubject: Reactivate user account
+EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateStatusDone: User account reactivated. Thank you!
+EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: Recuperar cuenta de usuario
 EditRecoverMessage: Hola @usershort, por favor confirma que olvidaste tu contrasenna. Haz click en el siguiente enlace.
 EditRecoverStatusDone: Cuenta de usuario recuperada. ¡Gracias!
