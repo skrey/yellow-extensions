@@ -1,4 +1,4 @@
-Blog plugin 0.7.1
+Blog plugin 0.7.2
 =================
 Blog for your website. [See demo](https://developers.datenstrom.se/plugins/blog-plugin/).
 
@@ -20,7 +20,7 @@ The blog is available on your website as `http://website/blog/`. To show the blo
 
 You can use shortcuts to show information about the blog:
 
-`[blogarchive LOCATION]` for a list of months  
+`[blogarchive LOCATION PAGESMAX]` for a list of months  
 `[blogauthors LOCATION PAGESMAX]` for a list of authors  
 `[blogrecent LOCATION PAGESMAX]` for recently published pages  
 `[blogrelated LOCATION PAGESMAX]` for related pages to current page  
@@ -30,7 +30,7 @@ You can use shortcuts to show information about the blog:
 The following arguments are available:
 
 `LOCATION` = blog location  
-`PAGESMAX` = number of pages  
+`PAGESMAX` = number of pages, 0 for unlimited  
 
 The following settings can be configured in file `system/config/config.ini`:
 
@@ -55,7 +55,9 @@ Showing list of tags:
 
 Showing archive of months:
 
-    [blogarchive /blog/]
+    [blogarchive /blog/ 0]
+    [blogarchive /blog/ 12]
+    [blogarchive /blog/ 24]
 
 ## Developer
 

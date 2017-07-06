@@ -1,4 +1,4 @@
-Wiki plugin 0.7.1
+Wiki plugin 0.7.2
 =================
 Wiki for your website. [See demo](https://developers.datenstrom.se/plugins/wiki-plugin/).
 
@@ -29,7 +29,7 @@ You can use shortcuts to show information about the wiki:
 The following arguments are available, all but the first argument are optional:
 
 `LOCATION` = wiki location  
-`PAGESMAX` = number of pages  
+`PAGESMAX` = number of pages, 0 for unlimited  
 
 The following settings can be configured in file `system/config/config.ini`:
 
@@ -54,7 +54,9 @@ Showing list of tags:
 
 Showing list of pages:
 
-    [wikipages /wiki/]
+    [wikipages /wiki/ 0]
+    [wikipages /wiki/ 25]
+    [wikipages /wiki/ 50]
 
 ## Developer
 
