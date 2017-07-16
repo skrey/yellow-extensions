@@ -43,7 +43,7 @@ Available plugins:
 * [Image](https://github.com/datenstrom/yellow-plugins/tree/master/image): 
   Images and thumbnails.
 * [Language](https://github.com/datenstrom/yellow-plugins/tree/master/language): 
-  Internationalisation for your website.
+  Languages and regions.
 * [Links](https://github.com/datenstrom/yellow-plugins/tree/master/links): 
   Add links to previous/next page.
 * [Markdown](https://github.com/datenstrom/yellow-plugins/tree/master/markdown): 

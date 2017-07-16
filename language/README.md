@@ -1,6 +1,6 @@
 Language plugin 0.7.2
 =====================
-Internationalisation for your website.
+Languages and regions.
 
 ![Screenshot](language-screenshot.png?raw=true)
 
