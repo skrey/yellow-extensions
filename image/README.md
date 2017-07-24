@@ -36,15 +36,15 @@ Adding an image:
 
 Adding an image, different styles:
 
-    [image picture.jpg Picture left]
-    [image picture.jpg Picture centre]
-    [image picture.jpg Picture right]
+    [image picture.jpg Example left]
+    [image picture.jpg Example centre]
+    [image picture.jpg Example right]
 
 Adding an image, different sizes:
 
-    [image picture.jpg Picture - 64 64]
-    [image picture.jpg Picture - 320 200]
-    [image picture.jpg Picture - 50%]
+    [image picture.jpg Example - 64 64]
+    [image picture.jpg Example - 320 200]
+    [image picture.jpg Example - 50%]
 
 ## Developer
 
