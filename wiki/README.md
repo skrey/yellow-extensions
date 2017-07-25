@@ -1,6 +1,6 @@
 Wiki plugin 0.7.2
 =================
-Wiki for your website. [See demo](https://developers.datenstrom.se/plugins/wiki-plugin/).
+Wiki for your website. [See demo](https://developers.datenstrom.se/plugins/wiki/).
 
 <p align="center"><img src="wiki-screenshot.png?raw=true" alt="Screenshot"></p>
 

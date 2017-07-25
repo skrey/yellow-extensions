@@ -1,6 +1,6 @@
 Links plugin 0.7.1
 ==================
-Add links to previous/next page. [See demo](https://developers.datenstrom.se/plugins/blog-plugin/blog-example).
+Add links to previous/next page. [See demo](https://developers.datenstrom.se/plugins/blog/blog-example).
 
 <p align="center"><img src="links-screenshot.png?raw=true" alt="Screenshot"></p>
 

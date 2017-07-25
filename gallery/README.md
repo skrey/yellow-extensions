@@ -1,6 +1,6 @@
 Gallery plugin 0.6.7
 ====================
-Image gallery with popup. [See demo](https://developers.datenstrom.se/plugins/gallery-plugin).
+Image gallery with popup. [See demo](https://developers.datenstrom.se/plugins/gallery).
 
 <p align="center"><img src="gallery-screenshot.png?raw=true" alt="Screenshot"></p>
 

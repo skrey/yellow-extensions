@@ -1,6 +1,6 @@
 Googlecalendar plugin 0.6.3
 ===========================
-Embed Google calendar. [See demo](https://developers.datenstrom.se/plugins/googlecalendar-plugin).
+Embed Google calendar. [See demo](https://developers.datenstrom.se/plugins/googlecalendar).
 
 <p align="center"><img src="googlecalendar-screenshot.png?raw=true" alt="Screenshot"></p>
 

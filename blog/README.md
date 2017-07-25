@@ -1,6 +1,6 @@
 Blog plugin 0.7.2
 =================
-Blog for your website. [See demo](https://developers.datenstrom.se/plugins/blog-plugin/).
+Blog for your website. [See demo](https://developers.datenstrom.se/plugins/blog/).
 
 <p align="center"><img src="blog-screenshot.png?raw=true" alt="Screenshot"></p>
 

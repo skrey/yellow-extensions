@@ -1,6 +1,6 @@
 Contact plugin 0.6.9
 ====================
-Email contact page for your website. [See demo](https://developers.datenstrom.se/plugins/contact-plugin).
+Email contact page for your website.
 
 <p align="center"><img src="contact-screenshot.png?raw=true" alt="Screenshot"></p>
 

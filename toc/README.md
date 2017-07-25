@@ -1,6 +1,6 @@
 TOC plugin 0.6.1
 ================
-Table of contents.
+Table of contents. [See demo](https://developers.datenstrom.se/plugins/toc).
 
 <p align="center"><img src="toc-screenshot.png?raw=true" alt="Screenshot"></p>
 

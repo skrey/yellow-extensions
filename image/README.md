@@ -1,6 +1,6 @@
 Image plugin 0.7.3
 ==================
-Images and thumbnails. [See demo](https://developers.datenstrom.se/plugins/image-plugin).
+Images and thumbnails. [See demo](https://developers.datenstrom.se/plugins/image).
 
 <p align="center"><img src="image-screenshot.png?raw=true" alt="Screenshot"></p>
 
