@@ -24,7 +24,6 @@ DateWeekstart: Lunedì
 DateFormatShort: F Y
 DateFormatMedium: d/m/Y
 DateFormatLong: d/m/Y H:i
-DateFormatTime: H:i
 EditInstallationTitle: Ciao
 EditInstallationFeature: Cosa si vuole fare?
 EditInstallationHomePage: Il tuo sito è attivo!\n\nPuoi [edit - modificare questa pagina] o usare il tuo editor di testo.
@@ -116,6 +115,9 @@ SearchResultsNone: Inserisci il termine da cercare.
 SearchResultsEmpty: Nessun risultato trovato.
 SearchSpecialChanges: Modifiche recenti
 SearchButton: Cerca
+TimeFormatShort: H:i
+TimeFormatMedium: H:i:s
+TimeFormatLong: H:i:s T
 WikiFilter: Wiki:
 WikiTag: Tag:
 WikiSpecialPages: Tutte le pagine

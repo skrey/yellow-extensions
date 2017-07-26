@@ -24,7 +24,6 @@ DateWeekstart: понедельник
 DateFormatShort: F Y
 DateFormatMedium: d.m.Y
 DateFormatLong: d.m.Y H:i
-DateFormatTime: H:i
 EditInstallationTitle: Здравствуйте
 EditInstallationFeature: Что вы хотите сделать?
 EditInstallationHomePage: Ваш сайт работает!\n\nВы можете [edit - отредактировать эту страницу] или использовать ваш текстовый редактор.
@@ -116,6 +115,9 @@ SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
 SearchSpecialChanges: Последние изменения
 SearchButton: Искать
+TimeFormatShort: H:i
+TimeFormatMedium: H:i:s
+TimeFormatLong: H:i:s T
 WikiFilter: Вики:
 WikiTag: Тэги:
 WikiSpecialPages: Все страницы

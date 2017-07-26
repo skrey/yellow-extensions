@@ -24,7 +24,6 @@ DateWeekstart: 星期一
 DateFormatShort: F Y
 DateFormatMedium: Y年n月j日
 DateFormatLong: Y-m-d H:i
-DateFormatTime: H:i
 EditInstallationTitle: 你好
 EditInstallationFeature: 你想做什么做什么呢？
 EditInstallationHomePage: 你的网站已正常运行！\n\n现在你可以[edit - 编辑本页]或用你喜欢的文本编辑器修改。
@@ -116,6 +115,9 @@ SearchResultsNone: 请输入搜索关键字
 SearchResultsEmpty: 搜索查无结果
 SearchSpecialChanges: 最近更改
 SearchButton: 查找
+TimeFormatShort: H:i
+TimeFormatMedium: H:i:s
+TimeFormatLong: H:i:s T
 WikiFilter: Wiki归档:
 WikiTag: 标签:
 WikiSpecialPages: 所有页面

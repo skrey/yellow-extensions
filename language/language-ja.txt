@@ -24,7 +24,6 @@ DateWeekstart: 月曜日
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-DateFormatTime: H:i
 EditInstallationTitle: こんにちは
 EditInstallationFeature: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
 EditInstallationHomePage: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
@@ -116,6 +115,9 @@ SearchResultsNone: 検索キーワードをご入力下さい。
 SearchResultsEmpty: 検索結果が見つかりません。
 SearchSpecialChanges: 最近の更新
 SearchButton: 検索
+TimeFormatShort: H:i
+TimeFormatMedium: H:i:s
+TimeFormatLong: H:i:s T
 WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: 全てのページ

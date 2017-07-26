@@ -24,7 +24,6 @@ DateWeekstart: Hétfő
 DateFormatShort: Y F
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-DateFormatTime: H:i
 EditInstallationTitle: Helló
 EditInstallationFeature: What do you want to make?
 EditInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
@@ -116,6 +115,9 @@ SearchResultsNone: Keresett kifejezés
 SearchResultsEmpty: Nincs találat.
 SearchSpecialChanges: Legutóbbi változások
 SearchButton: Keresés
+TimeFormatShort: H:i
+TimeFormatMedium: H:i:s
+TimeFormatLong: H:i:s T
 WikiFilter: Wiki:
 WikiTag: Címke:
 WikiSpecialPages: Az összes oldal

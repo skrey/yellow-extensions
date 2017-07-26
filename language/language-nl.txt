@@ -24,7 +24,6 @@ DateWeekstart: maandag
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-DateFormatTime: H:i
 EditInstallationTitle: Hallo
 EditInstallationFeature: Wat wil je doen?
 EditInstallationHomePage: Je website werkt!\n\nJe kan [edit - deze pagina bewerken] of gebruik maken van de teksteditor.
@@ -116,6 +115,9 @@ SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
 SearchSpecialChanges: Recente wijzigingen
 SearchButton: Zoek
+TimeFormatShort: H:i
+TimeFormatMedium: H:i:s
+TimeFormatLong: H:i:s T
 WikiFilter: Wiki:
 WikiTag: Labels:
 WikiSpecialPages: Alle pagina's

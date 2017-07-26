@@ -24,7 +24,6 @@ DateWeekstart: pondělí
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-DateFormatTime: H:i
 EditInstallationTitle: Ahoj
 EditInstallationFeature: Co chcete udělat?
 EditInstallationHomePage: Stránka funguje!\n\n Nyní můžete [edit - upravit tuto stránku] nebo použít textový editor.
@@ -116,6 +115,9 @@ SearchResultsNone: Vlož hledaný text.
 SearchResultsEmpty: Požadovaný text nenalezen.
 SearchSpecialChanges: Poslední změny
 SearchButton: Hledej
+TimeFormatShort: H:i
+TimeFormatMedium: H:i:s
+TimeFormatLong: H:i:s T
 WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: Všechny stránky

@@ -24,7 +24,6 @@ DateWeekstart: সোমবার
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-DateFormatTime: H:i
 EditInstallationTitle: Hello
 EditInstallationFeature: What do you want to make?
 EditInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
@@ -116,6 +115,9 @@ SearchResultsNone: একটি অনুসন্ধান শব্দ লি�
 SearchResultsEmpty: কোন ফলাফল পাওয়া যায়নি।
 SearchSpecialChanges: সাম্প্রতিক পরিবর্তন
 SearchButton: খোঁজ করুন
+TimeFormatShort: H:i
+TimeFormatMedium: H:i:s
+TimeFormatLong: H:i:s T
 WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: সমস্ত পৃষ্ঠা

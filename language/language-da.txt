@@ -24,7 +24,6 @@ DateWeekstart: mandag
 DateFormatShort: F Y
 DateFormatMedium: d.m.Y
 DateFormatLong: d.m.Y H:i
-DateFormatTime: H:i
 EditInstallationTitle: Hej
 EditInstallationFeature: What do you want to make?
 EditInstallationHomePage: Your website works!\n\nYou can [edit this page] or use your text editor.
@@ -116,6 +115,9 @@ SearchResultsNone: Indtast ny søgning.
 SearchResultsEmpty: Ingen resultater fundet.
 SearchSpecialChanges: Ny ændringer
 SearchButton: Søg
+TimeFormatShort: H:i
+TimeFormatMedium: H:i:s
+TimeFormatLong: H:i:s T
 WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: Alle sider
