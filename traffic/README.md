@@ -1,6 +1,8 @@
-Traffic plugin 0.7.1
+Traffic plugin 0.7.2
 ====================
 Create traffic analytics from web server logfiles.
+
+<p align="center"><img src="traffic-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How do I install this?
 
@@ -38,25 +40,25 @@ Creating traffic analytics at the command line:
 ~~~~
 Referring sites
 
-- 181 http://www.queness.com/post/16142/11-lightning-fast-flat-file-cms
-- 159 http://www.datamation.com/open-source/50-noteworthy-new-open-source-projects-1.html
-- 52 http://www.hongkiat.com/blog/flat-cms/
-- 27 http://trendschau.net/blog/uebersicht-flat-file-cms
-- 24 http://www.flatphile.co/yellow
+- 97 http://www.hongkiat.com/blog/flat-cms/
+- 38 http://alternativeto.net/software/yellow-1/
+- 37 http://trendschau.net/blog/uebersicht-flat-file-cms
+- 18 https://blog.mrwebmaster.it/2016/11/21/7-cms-flat-file-da-considerare.html
 
 Popular content
 
-- 980 https://datenstrom.se/yellow/
-- 442 https://datenstrom.se/
-- 305 https://datenstrom.se/ideas/
-- 101 https://datenstrom.se/contact/
+- 4514 https://datenstrom.se/
+- 1144 https://datenstrom.se/yellow/
+- 198 https://datenstrom.se/ideas/
+- 166 https://datenstrom.se/de/yellow/
 
 Error pages
 
+- 85 https://datenstrom.se/media/images/icon.png - Not found
 - 20 https://datenstrom.se/index.php - Not found
 - 12 https://datenstrom.se/admin/admin.php - Not found
 
-Yellow traffic: 30 days, 2903 views
+Yellow traffic: 30 days, 6502 views
 ~~~~
 
 ## Developer
