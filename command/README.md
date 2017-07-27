@@ -22,10 +22,10 @@ The following commands are available:
 Show available commands
 
 **php yellow.php build [DIRECTORY LOCATION]**  
-Build [static files](https://developers.datenstrom.se/help/web-server-configuration#static-website)
+Build [static files](https://developers.datenstrom.se/help/server-configuration#static-website)
 
 **php yellow.php clean [DIRECTORY LOCATION]**  
-Clean [static files](https://developers.datenstrom.se/help/web-server-configuration#static-website)
+Clean [static files](https://developers.datenstrom.se/help/server-configuration#static-website)
 
 **php yellow.php traffic [DAYS LOCATION FILENAME]**  
 Create [traffic analytics with the traffic plugin](https://github.com/datenstrom/yellow-plugins/tree/master/traffic)
