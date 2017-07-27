@@ -2,6 +2,8 @@ Core plugin 0.7.1
 =================
 Core functionality for your website.
 
+<p align="center"><img src="core-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How do I install this?
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
