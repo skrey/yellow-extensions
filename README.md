@@ -58,8 +58,6 @@ Available plugins:
   Sitemap for your website.
 * [Slider](https://github.com/datenstrom/yellow-plugins/tree/master/slider): 
   Image gallery with slider.
-* [Slideshare](https://github.com/datenstrom/yellow-plugins/tree/master/slideshare): 
-  Embed Slideshare presentations.
 * [Soundcloud](https://github.com/datenstrom/yellow-plugins/tree/master/soundcloud): 
   Embed Soundcloud audio tracks.
 * [Toc](https://github.com/datenstrom/yellow-plugins/tree/master/toc): 
