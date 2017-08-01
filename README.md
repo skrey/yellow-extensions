@@ -66,6 +66,8 @@ Available plugins:
   Table of contents.
 * [Traffic](https://github.com/datenstrom/yellow-plugins/tree/master/traffic): 
   Create traffic analytics from web server logfiles.
+* [Twitter](https://github.com/datenstrom/yellow-plugins/tree/master/twitter): 
+  Embed Twitter messages.
 * [Update](https://github.com/datenstrom/yellow-plugins/tree/master/update): 
   Keep your website up to date.
 * [Vimeo](https://github.com/datenstrom/yellow-plugins/tree/master/vimeo): 
@@ -119,8 +121,6 @@ Experimental plugins:
   Sublime Text 3 Extensions for blogs based on Yellow.
 * [Ticker](https://github.com/schulle4u/yellow-plugin-ticker): 
   Feed parser using SimpleXML or SimplePie.
-* [Twitter](https://github.com/schulle4u/yellow-plugin-twitter): 
-  Embed Twitter timeline.
 * [Video](https://github.com/nibreh/yellow-plugin-video): 
   HTML5 video player.
 * [WebCLI](https://github.com/richi/yellow-plugin-cli):
