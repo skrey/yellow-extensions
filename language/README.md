@@ -42,4 +42,4 @@ Made a new translation? Awesome, add it to the list.
 
 ## Developer
 
-Datentstrom and translators
+Datenstrom and translators
