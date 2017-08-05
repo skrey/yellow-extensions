@@ -1,4 +1,4 @@
-Twitter plugin 0.7.1
+Twitter plugin 0.7.2
 ====================
 Embed Twitter messages. [See demo](https://developers.datenstrom.se/plugins/twitter).
 
@@ -12,26 +12,39 @@ Embed Twitter messages. [See demo](https://developers.datenstrom.se/plugins/twit
 
 To uninstall delete the plugin files.
 
-## How to embed a timeline?
+## How to embed a message?
 
 Create a `[twitter]` shortcut. 
 
 The following arguments are available:
  
-`ID` = public Twitter account  
-`WIDTH` = timeline width, pixel or percent  
-`HEIGHT` = timeline height, pixel or percent  
-`THEME` = timeline theme, e.g. `light` or `dark`  
+`ID` = last part of a [Twitter](https://www.twitter.com) link, e.g. `https://twitter.com/datenstromse/status/581449759493398528`  
+`THEME` = message theme, e.g. `light`, `dark`  
+`STYLE` = message style, e.g. `left`, `center`, `right`  
+`WIDTH` = message width, pixel or percent  
+`HEIGHT` = message height, pixel or percent  
+
+## How to configure a message?
+
+The following settings can be configured in file `system/config/config.ini`:
+
+`TwitterTheme` = message theme  
 
 ## Example
+
+Embedding a tweet:
+
+    [twitter 581449759493398528]
+    [twitter 581449759493398528 dark]
+    [twitter 581449759493398528 light right]
 
 Embedding a timeline:
 
     [twitter datenstromse]
-    [twitter datenstromse 200 220]
-    [twitter datenstromse - - dark]
+    [twitter datenstromse/likes]
+    [twitter datenstromse/likes light - 250 250]
 
-Embedding a button:
+Embedding a follow button:
 
     [twitterfollow datenstromse]
 
