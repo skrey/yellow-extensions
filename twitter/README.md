@@ -24,12 +24,6 @@ The following arguments are available:
 `WIDTH` = message width, pixel or percent  
 `HEIGHT` = message height, pixel or percent  
 
-## How to configure a message?
-
-The following settings can be configured in file `system/config/config.ini`:
-
-`TwitterTheme` = message theme  
-
 ## Example
 
 Embedding a tweet:
