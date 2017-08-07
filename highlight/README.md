@@ -28,11 +28,7 @@ Highlighting of JavaScript code:
         console.log("Hello world");
         // Add more JavaScript code here
     }
-    if(window.addEventListener) {
-        window.addEventListener('load', ready, false);
-    } else {
-        window.attachEvent('onload', ready);
-    }
+    window.addEventListener('load', ready, false);
     ```
 
 Highlighting of HTML code, with and without line numbers:
