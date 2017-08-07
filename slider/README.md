@@ -1,4 +1,4 @@
-Slider plugin 0.6.7
+Slider plugin 0.7.1
 ===================
 Image gallery with slider. [See demo](https://developers.datenstrom.se/plugins/slider).
 
@@ -23,7 +23,7 @@ The following arguments are available:
 `SIZE` = image size, pixel or percent  
 `AUTOPLAY` = play images automatically, delay time in milliseconds
 
-The plugins uses [Flickity v1.2.1](http://flickity.metafizzy.co) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0). Flickity supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
+The plugins uses [Flickity v2.0.9](http://flickity.metafizzy.co) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0). Flickity supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
 
 ## Example
 

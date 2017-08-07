@@ -1,4 +1,4 @@
-Googlecalendar plugin 0.6.4
+Googlecalendar plugin 0.7.1
 ===========================
 Embed Google calendar. [See demo](https://developers.datenstrom.se/plugins/googlecalendar).
 
