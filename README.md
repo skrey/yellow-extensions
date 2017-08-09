@@ -42,6 +42,8 @@ Available plugins:
   Highlight source code.
 * [Image](https://github.com/datenstrom/yellow-plugins/tree/master/image): 
   Images and thumbnails.
+* [Instagram](https://github.com/datenstrom/yellow-plugins/tree/master/instagram): 
+  Embed Instagram photos.
 * [Language](https://github.com/datenstrom/yellow-plugins/tree/master/language): 
   Languages and regions.
 * [Links](https://github.com/datenstrom/yellow-plugins/tree/master/links): 
