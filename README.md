@@ -17,7 +17,7 @@ Available plugins:
 * [Command](https://github.com/datenstrom/yellow-plugins/tree/master/command): 
   Run commands in a terminal window.
 * [Contact](https://github.com/datenstrom/yellow-plugins/tree/master/contact): 
-  Email contact page for your website.
+  Email contact page.
 * [Core](https://github.com/datenstrom/yellow-plugins/tree/master/core): 
   Core functionality for your website.
 * [Disqus](https://github.com/datenstrom/yellow-plugins/tree/master/disqus): 
@@ -39,7 +39,7 @@ Available plugins:
 * [Googlemaps](https://github.com/datenstrom/yellow-plugins/tree/master/googlemaps): 
   Embed Google maps.
 * [Highlight](https://github.com/datenstrom/yellow-plugins/tree/master/highlight): 
-  Highlighting for source code.
+  Highlight source code.
 * [Image](https://github.com/datenstrom/yellow-plugins/tree/master/image): 
   Images and thumbnails.
 * [Language](https://github.com/datenstrom/yellow-plugins/tree/master/language): 

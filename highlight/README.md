@@ -1,6 +1,6 @@
 Highlight plugin 0.7.1
 ======================
-Highlighting for source code.
+Highlight source code.
 
 <p align="center"><img src="highlight-screenshot.png?raw=true" alt="Screenshot"></p>
 
