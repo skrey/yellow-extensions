@@ -1,4 +1,4 @@
-Instagram plugin 0.7.1
+Instagram plugin 0.7.2
 ======================
 Embed Instagram photos. [See demo](https://developers.datenstrom.se/plugins/instagram).
 
@@ -18,7 +18,8 @@ Create an `[instagram]` shortcut.
 
 The following arguments are available:
  
-`ID` = middle part of an [Instagram](https://www.instagram.com) link, e.g. `https://www.instagram.com/p/BISN9ngjV2-/?taken-by=rick_ande`  
+`ID` = middle part of an [Instagram](https://www.instagram.com) link, e.g. `https://www.instagram.com/p/BISN9ngjV2-/?taken-by=rick_ande`
+`THEME` = photo theme, currently `light` only  
 `STYLE` = photo style, e.g. `left`, `center`, `right`  
 `WIDTH` = photo width, pixel or percent  
 `HEIGHT` = photo height, pixel or percent  
@@ -28,8 +29,8 @@ The following arguments are available:
 Embedding a photo:
 
     [instagram BISN9ngjV2-]
-    [instagram BISN9ngjV2- left 400]
-    [instagram BISN9ngjV2- right 400]
+    [instagram BISN9ngjV2- light - 500]
+    [instagram BISN9ngjV2- light right 500]
 
 ## Developer
 
