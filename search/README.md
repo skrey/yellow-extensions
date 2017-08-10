@@ -1,4 +1,4 @@
-Search plugin 0.6.12
+Search plugin 0.7.1
 ===================
 Full-text search. [See demo](https://developers.datenstrom.se/search/).
 
