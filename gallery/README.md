@@ -1,4 +1,4 @@
-Gallery plugin 0.7.1
+Gallery plugin 0.7.2
 ====================
 Image gallery with popup. [See demo](https://developers.datenstrom.se/plugins/gallery).
 
@@ -28,7 +28,7 @@ The plugins uses [PhotoSwipe v4.1.2](http://photoswipe.com) by Dmitry Semenov. I
 
 Adding an image gallery:
 
-    [gallery]
+    [gallery photo.*jpg]
     [gallery photo.*jpg - 20%]
     [gallery photo.*jpg simple 20%]
 

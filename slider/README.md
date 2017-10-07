@@ -1,4 +1,4 @@
-Slider plugin 0.7.2
+Slider plugin 0.7.4
 ===================
 Image gallery with slider. [See demo](https://developers.datenstrom.se/plugins/slider).
 
@@ -29,9 +29,9 @@ The plugins uses [Flickity v2.0.9](http://flickity.metafizzy.co) by David DeSand
 
 Adding an image gallery:
 
-    [slider]
     [slider photo.*jpg]
     [slider photo.*jpg - 20%]
+    [slider photo.*jpg simple 20%]
 
 Adding an image gallery, play automatically:
 
