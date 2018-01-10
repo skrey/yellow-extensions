@@ -16,7 +16,7 @@ To uninstall delete the [plugin files](update.ini).
 
 The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). It shows referring sites, popular content, search queries and error pages. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days, location and file name. See example below.
 
-This plugins analyses your web server logfiles, use [Piwik](https://github.com/datenstrom/yellow-plugins/tree/master/piwik) for more detailed web analytics.
+This plugins analyses your web server logfiles, use [Matomo](https://github.com/datenstrom/yellow-plugins/tree/master/matomo) for more detailed web analytics.
 
 ## How to configure traffic analytics?
 
