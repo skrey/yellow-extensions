@@ -50,8 +50,8 @@ Available plugins:
   Add links to previous/next page.
 * [Markdown](https://github.com/datenstrom/yellow-plugins/tree/master/markdown): 
   Text formatting for humans.
-* [Piwik](https://github.com/datenstrom/yellow-plugins/tree/master/piwik): 
-  Add Piwik web analytics to website.
+* [Matomo](https://github.com/datenstrom/yellow-plugins/tree/master/matomo): 
+  Add Matomo web analytics to website.
 * [Preview](https://github.com/datenstrom/yellow-plugins/tree/master/preview): 
   Show pages with image preview.
 * [Search](https://github.com/datenstrom/yellow-plugins/tree/master/search): 
@@ -133,4 +133,3 @@ Experimental plugins:
   Image gallery in CSS only.
 
 We have a developer kit and an [API for developers](https://developers.datenstrom.se/help/api).
-
