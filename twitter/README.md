@@ -1,4 +1,4 @@
-Twitter plugin 0.7.4
+Twitter plugin 0.7.5
 ====================
 Embed Twitter messages. [See demo](https://developers.datenstrom.se/plugins/twitter).
 
