@@ -2,7 +2,7 @@ Datenstrom Yellow plugins
 =========================
 [![Datenstrom Yellow](https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/datenstrom-yellow-en.jpg)](https://datenstrom.se/yellow/)
 
-Yellow is for people who make websites. [See demo](https://developers.datenstrom.se/plugins/).
+Datenstrom Yellow is for people who make websites. [See demo](https://developers.datenstrom.se/plugins/).
 
 1. [Download all plugins and unzip them](https://github.com/datenstrom/yellow-plugins/archive/master.zip).  
 2. Copy relevant files to your web hosting.  
