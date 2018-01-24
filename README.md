@@ -89,6 +89,8 @@ Experimental plugins:
   Get in touch with users of your website directly.
 * [DynamicCss](https://github.com/richi/yellow-plugin-dynamiccss):
   A (very) small CSS preprocessor.
+* [Events](https://github.com/Xrizzy/yellow-plugin-events)
+  Yellow plugin for events that you have organised.
 * [FAQ](https://github.com/richi/yellow-plugin-faq):
   Yellow plugin for easy FAQ handling.
 * [Fotorama](https://github.com/nogginfuel/yellow-plugin-fotorama): 
