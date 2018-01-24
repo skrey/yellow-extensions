@@ -46,11 +46,11 @@ Content file with software version, including plugins and themes:
 ---
 Title: Example page
 ---
-This website is made with Yellow:
+This website is made with Datenstrom Yellow:
 
 [yellow version]
 ```
 
 ## Developer
 
-David Fehrmann and Mark Seuffert
+Datenstrom
