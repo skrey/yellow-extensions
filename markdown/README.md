@@ -20,7 +20,7 @@ The plugin uses [Markdown Extra v1.8.0](https://github.com/michelf/php-markdown)
 
 Formatting text:
 
-    Normal *italic* **bold** `code`
+    Normal **bold** *italic* `code`
 
 ## Developer
 
