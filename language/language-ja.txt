@@ -86,7 +86,7 @@ EditWelcomeMessage: こんにちは @usershort さん。あなたのユーザー
 EditInformationSubject: お帰りなさい！
 EditInformationMessage: こんにちは @usershort さん。あなたのユーザーアカウントが変更されました。今直ぐログイン出来ます。
 EditVersionTitle: 最新バージョンの確認
-EditVersionStatusNone: Yellow でウェブサイトを作る
+EditVersionStatusNone: Datenstrom Yellow でウェブサイトを作る
 EditVersionStatusCheck: アップデートの確認中…
 EditVersionStatusDone: 最新のバージョンです。
 EditVersionStatusUpdates: 利用可能なアップデート, ウェブマスターにお問合せ下さい。

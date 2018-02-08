@@ -86,7 +86,7 @@ EditWelcomeMessage: Hej @usershort! Twoje konto użytkownika zostało utworzone.
 EditInformationSubject: Witamy spowrotem
 EditInformationMessage: Hej @usershort! Twoje konto użytkownika uległo zmianie. Możesz się teraz zalogować.
 EditVersionTitle: O tej stronie
-EditVersionStatusNone: Yellow jest dla ludzi, którzy tworzą strony internetowe.
+EditVersionStatusNone: Datenstrom Yellow jest dla ludzi, którzy tworzą strony internetowe.
 EditVersionStatusCheck: Sprawdzanie aktualizacji…
 EditVersionStatusDone: Twoja strona jest aktualna.
 EditVersionStatusUpdates: Aktualizacje są dostępne. Skontaktuj się z webmasterem.

@@ -86,7 +86,7 @@ EditWelcomeMessage: Ciao @usershort, il tuo account utente è stato creato. Buon
 EditInformationSubject: Ben tornato
 EditInformationMessage: Ciao @usershort, il tuo account utente è stato modificato. A questo punto è possibile eseguire il login.
 EditVersionTitle: About this website
-EditVersionStatusNone: Yellow is for people who make websites.
+EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: Checking for updates…
 EditVersionStatusDone: Your website is up to date.
 EditVersionStatusUpdates: Updates available, please contact the webmaster.

@@ -86,7 +86,7 @@ EditWelcomeMessage: Привет @usershort, ваша учетная запис�
 EditInformationSubject: С возвращением
 EditInformationMessage: Привет @usershort, ваша учетная запись пользователя была изменена. Теперь вы можете войти.
 EditVersionTitle: About this website
-EditVersionStatusNone: Yellow is for people who make websites.
+EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: Checking for updates…
 EditVersionStatusDone: Your website is up to date.
 EditVersionStatusUpdates: Updates available, please contact the webmaster.

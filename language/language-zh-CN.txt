@@ -86,7 +86,7 @@ EditWelcomeMessage: 你好 @usershort,你的帐号已创建完毕，建站愉快
 EditInformationSubject: 欢迎回来
 EditInformationMessage: 你好 @usershort,你的帐号你重置完毕，建站愉快。
 EditVersionTitle: 关于本站
-EditVersionStatusNone: Yellow is for people who make websites.
+EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: 正在检查更新…
 EditVersionStatusDone: 已是最新版
 EditVersionStatusUpdates: 有更新可用，请联系网站管理员

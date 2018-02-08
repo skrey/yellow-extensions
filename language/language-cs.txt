@@ -86,7 +86,7 @@ EditWelcomeMessage: Ahoj @usershort, váš uživatelský účet byl vytvořen. B
 EditInformationSubject: Vítej zpět
 EditInformationMessage: Ahoj @usershort, váš uživatelský účet byl změněn. Nyní se můžete přihlásit.
 EditVersionTitle: O těchto stránkách
-EditVersionStatusNone: Yellow je pro lidi, kteří vytváří webové stránky.
+EditVersionStatusNone: Datenstrom Yellow je pro lidi, kteří vytváří webové stránky.
 EditVersionStatusCheck: Zjišťuji nové aktualizace…
 EditVersionStatusDone: Tento web je aktuální.
 EditVersionStatusUpdates: Dostupné nové aktualizace, kontaktujte správce.
