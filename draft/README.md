@@ -1,4 +1,4 @@
-Draft plugin 0.6.1
+Draft plugin 0.7.1
 ==================
 Support for draft pages.
 
@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to make a draft page?
 
-Set `Status: draft` in the settings at the top of a page. The page will no longer be public accessible. You can continue to edit a draft in a browser and the file system.
+Set `Status: draft` in the settings at the top of a page. The page will no longer be public visible. You can continue to edit a draft page in the web browser and the file system.
 
 ## Example
 
