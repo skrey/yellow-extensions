@@ -21,10 +21,32 @@ Set `Status: draft` in the settings at the top of a page. The page will no longe
 Content file with draft status:
 
     ---
-    Title: New page
+    Title: Example page
     Status: draft
     ---
-    Write text here
+    This is an example page.
+
+Content file with draft status for blog:
+
+    ---
+    Title: Wiki page
+    Template: wiki
+    Tag: Example
+    Status: draft
+    ---
+    This is an example wiki page. 
+
+Content file with draft status for blog:
+
+    ---
+    Title: Blog example
+    Published: 2013-04-07
+    Author: Datenstrom
+    Template: blog
+    Tag: Example
+    Status: draft
+    ---
+    This is an example blog page. 
 
 ## Developer
 
