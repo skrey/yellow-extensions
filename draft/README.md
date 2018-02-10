@@ -29,16 +29,6 @@ Content file with draft status:
 Content file with draft status for blog:
 
     ---
-    Title: Wiki page
-    Template: wiki
-    Tag: Example
-    Status: draft
-    ---
-    This is an example wiki page. 
-
-Content file with draft status for blog:
-
-    ---
     Title: Blog example
     Published: 2013-04-07
     Author: Datenstrom
@@ -46,7 +36,17 @@ Content file with draft status for blog:
     Tag: Example
     Status: draft
     ---
-    This is an example blog page. 
+    This is an example blog page.
+ 
+Content file with draft status for wiki:
+
+    ---
+    Title: Wiki page
+    Template: wiki
+    Tag: Example
+    Status: draft
+    ---
+    This is an example wiki page.
 
 ## Developer
 
