@@ -3,7 +3,7 @@
 Language: pt
 LanguageDescription: Português
 LanguageTranslator: Al Garcia
-LanguageVersion: 0.7.2
+LanguageVersion: 0.7.3
 
 BlogBy: por
 BlogFilter: Blog:
@@ -26,7 +26,7 @@ DateFormatMedium: d-m-Y
 DateFormatLong: d-m-Y H:i
 EditInstallationTitle: Olá
 EditInstallationFeature: O que você quer fazer?
-EditInstallationHomePage: Seu site funciona!\n\nVocê pode [edit - editar esta página] ou usar o seu editor de texto.
+EditInstallationHomePage: Seu site funciona!\n\n[edit - Você pode editar esta página] ou usar o seu editor de texto.
 EditInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
 EditLoginTitle: Bem vinda
 EditLoginEmail: Email:

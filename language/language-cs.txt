@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.7.2
+LanguageVersion: 0.7.3
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -26,7 +26,7 @@ DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 EditInstallationTitle: Ahoj
 EditInstallationFeature: Co chcete udělat?
-EditInstallationHomePage: Stránka funguje!\n\n Nyní můžete [edit - upravit tuto stránku] nebo použít textový editor.
+EditInstallationHomePage: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.
 EditInstallationAboutPage: Webová prezentace vytvořena v [yellow]. [Více informací](https://developers.datenstrom.se/help/).
 EditLoginTitle: Vítejte
 EditLoginEmail: Email:

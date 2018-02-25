@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.7.2
+LanguageVersion: 0.7.3
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -26,7 +26,7 @@ DateFormatMedium: Y年n月j日
 DateFormatLong: Y-m-d H:i
 EditInstallationTitle: 你好
 EditInstallationFeature: 你想做什么做什么呢？
-EditInstallationHomePage: 你的网站已正常运行！\n\n现在你可以[edit - 编辑本页]或用你喜欢的文本编辑器修改。
+EditInstallationHomePage: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。
 EditInstallationAboutPage: 本站由 [yellow]强力驱动. [了解更多](https://developers.datenstrom.se/help/).
 EditLoginTitle: 欢迎
 EditLoginEmail: 邮箱:
