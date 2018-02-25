@@ -1,4 +1,4 @@
-Blog plugin 0.7.3
+Blog plugin 0.7.4
 =================
 Blog for your website. [See demo](https://developers.datenstrom.se/plugins/blog/).
 
@@ -20,17 +20,20 @@ The blog is available on your website as `http://website/blog/`. To show the blo
 
 You can use shortcuts to show information about the blog:
 
-`[blogarchive LOCATION PAGESMAX]` for a list of months  
 `[blogauthors LOCATION PAGESMAX]` for a list of authors  
-`[blogrecent LOCATION PAGESMAX]` for recently published pages  
-`[blogrelated LOCATION PAGESMAX]` for related pages to current page  
 `[blogtags LOCATION PAGESMAX]` for a list of tags  
+`[blogarchive LOCATION PAGESMAX]` for a list of months  
+`[blogpages LOCATION PAGESMAX AUTHOR TAG]` for a list of pages, alphabetic order  
+`[blogchanges LOCATION PAGESMAX AUTHOR TAG]` for a list of pages, published order  
+`[blogrelated LOCATION PAGESMAX]` for a list of pages related to the current page  
 `[--more--]` for a page break  
 
-The following arguments are available:
+The following arguments are available, all but the first argument are optional:
 
 `LOCATION` = blog location  
 `PAGESMAX` = number of pages, 0 for unlimited  
+`AUTHOR` = show pages by a specific author  
+`TAG` = show pages with a specific tag  
 
 The following settings can be configured in file `system/config/config.ini`:
 
@@ -41,11 +44,11 @@ The following settings can be configured in file `system/config/config.ini`:
 
 ## Example
 
-Showing recently published pages:
+Showing latest blog pages:
 
-    [blogrecent /blog/]
-    [blogrecent /blog/ 5]
-    [blogrecent /blog/ 20]
+    [blogchanges /blog/]
+    [blogchanges /blog/ 5]
+    [blogchanges /blog/ 20]
 
 Showing list of tags:
 
@@ -53,7 +56,7 @@ Showing list of tags:
     [blogtags /blog/ 5]
     [blogtags /blog/ 20]
 
-Showing archive of months:
+Showing list of months:
 
     [blogarchive /blog/ 0]
     [blogarchive /blog/ 12]
