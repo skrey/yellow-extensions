@@ -53,9 +53,9 @@ Showing list of tags:
 
 Showing list of pages:
 
-    [wikipages /wiki/ 0]
+    [wikipages /wiki/]
     [wikipages /wiki/ 5]
-    [wikipages /wiki/ 20]
+    [wikipages /wiki/ 20 - example]
 
 ## Developer
 

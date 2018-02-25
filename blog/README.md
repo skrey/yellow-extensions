@@ -56,11 +56,11 @@ Showing list of tags:
     [blogtags /blog/ 5]
     [blogtags /blog/ 20]
 
-Showing list of months:
+Showing list of pages:
 
-    [blogarchive /blog/ 0]
-    [blogarchive /blog/ 12]
-    [blogarchive /blog/ 24]
+    [blogpages /blog/]
+    [blogpages /blog/ 5 ]
+    [blogpages /blog/ 20 - example]
 
 ## Developer
 
