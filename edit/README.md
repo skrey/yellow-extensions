@@ -32,7 +32,7 @@ Title: Home
 ---
 Your website works! 
 
-You can [edit this page] or use your text editor.  
+[edit - You can edit this page] or use your text editor.  
 ```
 
 Creating a user account at the command line:
