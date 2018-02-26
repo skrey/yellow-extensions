@@ -45,7 +45,7 @@ Navigation snippet with social media icons:
     <?php endforeach ?>
     <li><a href="https://twitter.com/datenstromse"><i class="fa fa-twitter fa-lg"></i></a></li>
     <li><a href="https://github.com/datenstrom"><i class="fa fa-github fa-lg"></i></a></li>
-    <li><a href="https://instagram.com/datenstromse"><i class="fa fa-instagram fa-lg"></i></a></li>
+    <li><a href="https://datenstrom.se"><i class="fa fa-heart fa-lg"></i></a></li>
     </ul>
     </div>
     <div class="navigation-banner"></div>
