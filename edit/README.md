@@ -1,4 +1,4 @@
-Edit plugin 0.7.6
+Edit plugin 0.7.7
 ==================
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
