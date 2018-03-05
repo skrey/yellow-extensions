@@ -38,7 +38,7 @@ Available language files:
 * [한국어](language-ko.txt?raw=true), `Language: ko`
 * [简体中文](language-zh-CN.txt?raw=true), `Language: zh-CN`
 
-Made a new translation? Awesome, add it to the list.
+Want to make a new language? [Translate language file](language-en.txt?raw=true).
 
 ## Developer
 
