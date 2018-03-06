@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.3
+LanguageVersion: 0.7.4
 
 BlogBy: przez
 BlogFilter: Blog:
@@ -27,7 +27,7 @@ DateFormatLong: Y-m-d H:i
 EditInstallationTitle: Cześć
 EditInstallationFeature: Co chcesz stworzyć?
 EditInstallationHomePage: Twoja strona działa!\n\n[edit - Możesz edytować tę stronę] lub użyć własnego edytora.
-EditInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
+EditInstallationAboutPage: Ta strona zawiera [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Zaloguj się].
 EditLoginTitle: Witaj
 EditLoginEmail: Email:
 EditLoginPassword: Hasło:

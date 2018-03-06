@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.3
+LanguageVersion: 0.7.4
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -27,7 +27,7 @@ DateFormatLong: d.m.Y H:i
 EditInstallationTitle: Здравствуйте
 EditInstallationFeature: Что вы хотите сделать?
 EditInstallationHomePage: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.
-EditInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
+EditInstallationAboutPage: Этот сайт создан с помощью [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Войти].
 EditLoginTitle: добро пожаловать
 EditLoginEmail: Email:
 EditLoginPassword: Пароль:

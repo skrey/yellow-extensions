@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.7.3
+LanguageVersion: 0.7.4
 
 BlogBy: per
 BlogFilter: Blog:
@@ -27,7 +27,7 @@ DateFormatLong: d/m/Y H:i
 EditInstallationTitle: Ciao
 EditInstallationFeature: Cosa si vuole fare?
 EditInstallationHomePage: Il tuo sito è attivo!\n\n[edit - Puoi modificare questa pagina] o usare il tuo editor di testo.
-EditInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
+EditInstallationAboutPage: Questo sito è realizzato con [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Entra].
 EditLoginTitle: Benvenuto
 EditLoginEmail: Email:
 EditLoginPassword: Password:

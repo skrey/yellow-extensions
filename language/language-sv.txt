@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.7.3
+LanguageVersion: 0.7.4
 
 BlogBy: av
 BlogFilter: Blogg:
@@ -25,9 +25,9 @@ DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 EditInstallationTitle: Hej
-EditInstallationFeature: What do you want to make?
-EditInstallationHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
-EditInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
+EditInstallationFeature: Vad vill du göra?
+EditInstallationHomePage: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.
+EditInstallationAboutPage: Denna webbplats är gjord med [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Logga in].
 EditLoginTitle: Välkommen
 EditLoginEmail: Email:
 EditLoginPassword: Lösenord:

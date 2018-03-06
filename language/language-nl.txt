@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.7.3
+LanguageVersion: 0.7.4
 
 BlogBy: door
 BlogFilter: Blog:
@@ -27,7 +27,7 @@ DateFormatLong: Y-m-d H:i
 EditInstallationTitle: Hallo
 EditInstallationFeature: Wat wil je doen?
 EditInstallationHomePage: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.
-EditInstallationAboutPage: This website is made with [yellow]. [Learn more](https://developers.datenstrom.se/help/).
+EditInstallationAboutPage: Deze website is gemaakt met [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Aanmelden].
 EditLoginTitle: Welkom
 EditLoginEmail: E-mail:
 EditLoginPassword: Wachtwoord:
