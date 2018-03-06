@@ -14,11 +14,11 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to edit a website?
 
-Click the edit link on a page. You can browse your website, use the normal navigation, make some changes and see the result. You can write text like an email and it becomes a web page. To show an edit link add an `[edit]` shortcut to a page. See example below.
+The login page is available on your website as `http://website/edit/`. You can browse your website, use the normal navigation, make some changes and see the result. You can write text like an email and it becomes a web page. To show an edit link add an `[edit]` shortcut to a page. See example below.
 
 ## How to create a user account?
 
-The first option is to create a user account in a web browser. Click the edit link on a page. You can create a user account and change your password. The webmaster needs to approve new user accounts. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`.
+The first option is to create a user account in a web browser. Go to the login page. You can create a user account and change your password. The webmaster needs to approve new user accounts. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`.
 
 The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add optional name and language. All user accounts are stored in file `system/config/user.ini`. See example below.
 
