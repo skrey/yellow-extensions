@@ -44,9 +44,7 @@ Footer snippet with heart emoji:
     <div class="footer">
     <div class="siteinfo">
     <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2018 <?php echo $yellow->page->getHtml("sitename") ?></a>.
-    <a href="<?php echo $yellow->page->get("pageEdit") ?>">Edit</a>.
-    <a href="<?php echo $yellow->text->get("yellowUrl") ?>">Made with Datenstrom Yellow</a>.
-    <a href="https://developers.datenstrom.se/">We <i class="ea ea-heart"></i> developers</a>.
+    <a href="<?php echo $yellow->text->get("yellowUrl") ?>">Made with <i class="ea ea-heart"></i> and Datenstrom Yellow</a>.
     </div>
     </div>
     </div>
