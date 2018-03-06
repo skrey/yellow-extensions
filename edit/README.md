@@ -18,9 +18,18 @@ The login page is available on your website as `http://website/edit/`. You can b
 
 ## How to create a user account?
 
-The first option is to create a user account in a web browser. Go to the login page. You can create a user account and change your password. The webmaster needs to approve new user accounts. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`.
+The first option is to create a user account in a web browser. Go to the login page. You can create a user account and change your password. The webmaster needs to approve new user accounts. The webmaster's email is defined in file `system/config/config.ini`.
 
 The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add optional name and language. All user accounts are stored in file `system/config/user.ini`. See example below.
+
+## How to configure a website editor?
+
+The following settings can be configured in file `system/config/config.ini`:
+
+`Author` = name of the webmaster  
+`Email` = email of the webmaster  
+`EditLocation` = edit location  
+`EditLoginRestrictions` = login with restrictions, 1 or 0  
 
 ## Example
 
