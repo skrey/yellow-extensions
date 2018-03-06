@@ -14,7 +14,7 @@ Do not delete the [plugin files](update.ini), they are always required.
 
 ## How to update a website?
 
-The first option is to update your website in a web browser. Go to the login page. Open your settings and check for updates. Your website will show when updates are available. Only the webmaster can update the website. The webmaster's email is defined in file `system/config/config.ini`, for example `Email: email@example.com`.
+The first option is to update your website in a web browser. The login page is available on your website as http://website/edit/. Go to your settings and check for updates. Your website will show when updates are available. Only the webmaster can update the website. The webmaster's email is defined in file `system/config/config.ini`.
 
 The second option is to update your website at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php update`, you can add an optional option and feature. Deleted files can be found in the `system/trash` folder. See example below.
 
