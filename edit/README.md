@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to edit a website?
 
-The login page is available on your website as `http://website/edit/`. You can browse your website, use the normal navigation, make some changes and see the result. You can write text like an email and it becomes a web page. To show an edit link add an `[edit]` shortcut to a page. See example below.
+The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, use the normal navigation, make some changes and see the result immediately. To show an edit link add an `[edit]` shortcut to a page. See example below.
 
 ## How to create a user account?
 
@@ -28,7 +28,7 @@ The following settings can be configured in file `system/config/config.ini`:
 
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
-`EditLocation` = edit location  
+`EditLocation` = login page location  
 `EditLoginRestrictions` = login with restrictions, 1 or 0  
 
 ## Example
