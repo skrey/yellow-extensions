@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to edit a website?
 
-The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, use the normal navigation, make some changes and see the result immediately. To show an edit link add an `[edit]` shortcut to a page. See example below.
+The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. To show an edit link add an `[edit]` shortcut to a page. See example below.
 
 ## How to create a user account?
 
