@@ -17,7 +17,7 @@ To uninstall delete the [plugin files](update.ini).
 
 [Disqus](http://disqus.com) is a comment service for websites. To use the plugin open file `system/config/config.ini` and change `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard. Comments are shown on blog pages. To show comments on other pages add a `[disqus]` shortcut to a page.
 
-This plugin uses an online service, use the [comments plugin](https://github.com/nasendackel/yellow-comments) as an alternative.
+This plugin uses an online service, use the [comments plugin](https://github.com/wunderfeyd/yellow-comments) as an alternative.
 
 ## Developer
 
