@@ -54,4 +54,4 @@ Footer snippet with heart emoji:
 
 ## Developer
 
-Datenstrom
+Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).

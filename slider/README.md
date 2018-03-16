@@ -47,4 +47,4 @@ Adding an image gallery from a subfolder, play automatically:
 
 ## Developer
 
-Datenstrom featuring David DeSandro
+Datenstrom featuring David DeSandro. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).

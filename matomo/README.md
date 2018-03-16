@@ -17,4 +17,4 @@ To uninstall delete the [plugin files](update.ini).
 
 ## Developer
 
-Datenstrom
+Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).

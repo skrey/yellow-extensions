@@ -48,4 +48,4 @@ Adding an image, different sizes:
 
 ## Developer
 
-Datenstrom
+Datenstrom featuring Thomas Boutell. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).

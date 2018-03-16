@@ -57,4 +57,4 @@ Embedding a calendar, events and agenda:
 
 ## Developer
 
-Datenstrom
+Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).

@@ -40,4 +40,4 @@ Showing a preview, square thumbnails:
 
 ## Developer
 
-Datenstrom
+Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).

@@ -42,4 +42,4 @@ Want to make a new language? [Translate a language file](language-en.txt?raw=tru
 
 ## Developer
 
-Datenstrom and translators
+Datenstrom and translators. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).

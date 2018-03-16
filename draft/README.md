@@ -50,4 +50,4 @@ Content file with draft status for wiki:
 
 ## Developer
 
-Datenstrom
+Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).

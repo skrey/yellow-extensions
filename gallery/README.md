@@ -46,4 +46,4 @@ Adding an image gallery from a subfolder, square thumbnails:
 
 ## Developer
 
-Datenstrom featuring Dmitry Semenov
+Datenstrom featuring Dmitry Semenov. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).

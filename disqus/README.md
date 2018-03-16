@@ -21,5 +21,5 @@ This plugin uses an online service, use the [comments plugin](https://github.com
 
 ## Developer
 
-Datenstrom
+Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).
 

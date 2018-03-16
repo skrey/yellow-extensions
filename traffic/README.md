@@ -63,4 +63,4 @@ Yellow traffic: 30 days, 6502 views
 
 ## Developer
 
-Datenstrom
+Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).
