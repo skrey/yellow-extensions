@@ -136,4 +136,4 @@ Experimental plugins:
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Image gallery in CSS only.
 
-We have a developer kit and an API for developers. [Read more](https://developers.datenstrom.se/help/).
+We have a developer kit and an API for developers. [Learn more](https://developers.datenstrom.se/help/).
