@@ -54,4 +54,4 @@ Creating a user account at the command line:
 
 ## Developer
 
-Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).
+Datenstrom. [Get support](https://developers.datenstrom.se/help/support).

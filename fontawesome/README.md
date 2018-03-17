@@ -52,4 +52,4 @@ Navigation snippet with social media icons:
 
 ## Developer
 
-Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).
+Datenstrom. [Get support](https://developers.datenstrom.se/help/support).

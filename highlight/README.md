@@ -47,4 +47,4 @@ Highlighting of HTML code, with and without line numbers:
 
 ## Developer
 
-Datenstrom featuring Benny Baumann and Nigel McNie. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).
+Datenstrom featuring Benny Baumann and Nigel McNie. [Get support](https://developers.datenstrom.se/help/support).

@@ -24,4 +24,4 @@ Formatting text:
 
 ## Developer
 
-Datenstrom featuring Michel Fortin. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).
+Datenstrom featuring Michel Fortin. [Get support](https://developers.datenstrom.se/help/support).

@@ -27,4 +27,4 @@ The following settings can be configured in file `system/config/config.ini`:
 
 ## Developer
 
-Datenstrom. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).
+Datenstrom. [Get support](https://developers.datenstrom.se/help/support).

@@ -44,4 +44,4 @@ Embedding a follow button:
 
 ## Developer
 
-Datenstrom and Steffen Schultz. [Ask questions and discuss problems](https://github.com/datenstrom/yellow/issues).
+Datenstrom and Steffen Schultz. [Get support](https://developers.datenstrom.se/help/support).
