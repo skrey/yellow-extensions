@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to run a command?
 
-Datenstrom Yellow offers commands that you run from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show a list of the available commands.
+Datenstrom Yellow offers commands that you run from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show a list of the available commands. You can create a static website from the command line. [Learn more](https://developers.datenstrom.se/help/server-configuration#static-website).
 
 The following commands are available:
 
@@ -22,19 +22,19 @@ The following commands are available:
 Show available commands
 
 **php yellow.php build [DIRECTORY LOCATION]**  
-Build [static files](https://developers.datenstrom.se/help/server-configuration#static-website)
+Build static files
 
 **php yellow.php clean [DIRECTORY LOCATION]**  
-Clean [static files](https://developers.datenstrom.se/help/server-configuration#static-website)
+Clean static files
 
 **php yellow.php traffic [DAYS LOCATION FILENAME]**  
-Create [traffic analytics with the traffic plugin](https://github.com/datenstrom/yellow-plugins/tree/master/traffic)
+Create traffic analytics with the [traffic plugin](https://github.com/datenstrom/yellow-plugins/tree/master/traffic)
 
 **php yellow.php update [OPTION FEATURE]**  
-Update [website with the update plugin](https://github.com/datenstrom/yellow-plugins/tree/master/update)
+Update website with the [update plugin](https://github.com/datenstrom/yellow-plugins/tree/master/update)
 
 **php yellow.php user [EMAIL PASSWORD NAME LANGUAGE]**  
-Update [user account with the edit plugin](https://github.com/datenstrom/yellow-plugins/tree/master/edit)
+Update user account with the [edit plugin](https://github.com/datenstrom/yellow-plugins/tree/master/edit)
 
 **php yellow.php version**  
 Show software version and updates
