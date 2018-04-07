@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to run a command?
 
-Datenstrom Yellow offers commands that you run from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show a list of the available commands. You can create a static website from the command line. [Learn more](https://developers.datenstrom.se/help/server-configuration#static-website).
+Datenstrom Yellow offers commands that you run from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show a list of the available commands. You can use the built-in web server and create a static website from the command line. [Learn more](https://developers.datenstrom.se/help/server-configuration#dynamic-website).
 
 The following commands are available:
 
