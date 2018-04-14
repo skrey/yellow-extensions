@@ -32,13 +32,13 @@ Adding an icon:
 
 Adding an icon, normal and double size:
 
-    [fa fa-envelope-o] Email
-    [fa fa-twitter] Twitter
-    [fa fa-github] GitHub
+    [fa fa-envelope-o]
+    [fa fa-twitter]
+    [fa fa-github]
     
-    [fa fa-envelope-o fa-2x] Email
-    [fa fa-twitter fa-2x] Twitter
-    [fa fa-github fa-2x] GitHub
+    [fa fa-envelope-o fa-2x]
+    [fa fa-twitter fa-2x]
+    [fa fa-github fa-2x]
 
 Navigation snippet with social media icons:
 
