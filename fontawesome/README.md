@@ -1,4 +1,4 @@
-Fontawesome plugin 0.6.4
+Fontawesome plugin 0.7.2
 ========================
 Icons and symbols.
 
@@ -14,7 +14,9 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to add an icon?
 
-Create a `[fa NAME]` shortcut or use HTML `<i class="fa NAME"></i>`. Here's a [complete list of icons](http://fortawesome.github.io/Font-Awesome/icons/).
+Add `:shortcode:` to the text of a page. Here's a [complete list of icons](https://fontawesome.com/icons).
+
+It's also possible to create a `[fa NAME]` shortcut or use HTML `<i class="fa NAME"></i>`. 
 
 You can add an additional style to the name, for example `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` and `fa-5x`.
 
@@ -24,12 +26,16 @@ The plugin uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesom
 
 Adding an icon:
 
+    :fa-envelope-o:
+    :fa-twitter:
+    :fa-github:
+
+Adding an icon, normal and double size:
+
     [fa fa-envelope-o] Email
     [fa fa-twitter] Twitter
     [fa fa-github] GitHub
-
-Adding an icon, double size:
-
+    
     [fa fa-envelope-o fa-2x] Email
     [fa fa-twitter fa-2x] Twitter
     [fa fa-github fa-2x] GitHub
