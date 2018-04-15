@@ -3,7 +3,7 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.7.4
+LanguageVersion: 0.7.5
 
 BlogBy: by
 BlogFilter: 글:
@@ -101,9 +101,32 @@ EditDeleteButton: 삭제
 EditEdit: 페이지 수정
 EditCreate: +
 EditDelete: -
-EditCreateTitle: 새 페이지
-EditDeleteTitle: 페이지 삭제
-EditMarkdownHelp: Markdown
+EditToolbarPreview: 미리보기
+EditToolbarFormat: Format
+EditToolbarHeading: Heading
+EditToolbarH1: Heading 1
+EditToolbarH2: Heading 2
+EditToolbarH3: Heading 3
+EditToolbarParagraph: Normal text
+EditToolbarPre: Source code
+EditToolbarQuote: Quote
+EditToolbarBold: Bold
+EditToolbarItalic: Italic
+EditToolbarStrikethrough: Strikethrough
+EditToolbarCode: Code
+EditToolbarList: List
+EditToolbarUl: • Unordered list
+EditToolbarOl: 1. Ordered list
+EditToolbarTl: ✓ Task list
+EditToolbarLink: Link
+EditToolbarFile: File
+EditToolbarEmojiawesome: Emoji
+EditToolbarFontawesome: Icon
+EditToolbarDraft: Draft
+EditToolbarUndo: Undo
+EditToolbarRedo: Redo
+EditToolbarMarkdown: Markdown
+EditToolbarHelp: 도움말
 EditUserHelp: 도움말
 EditUserLogout: 로그아웃
 PagePrevious: ← 이전 글: @title
@@ -123,5 +146,5 @@ WikiTag: 태그:
 WikiSpecialPages: 모든 페이지
 WikiSpecialChanges: 최근 바뀜
 YellowUrl: https://datenstrom.se/yellow/
-YellowUserHelpUrl: https://developers.datenstrom.se/help/
-YellowMarkdownHelpUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowUserUrl: https://developers.datenstrom.se/help/
+YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

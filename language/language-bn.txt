@@ -3,7 +3,7 @@
 Language: bn
 LanguageDescription: Bangali (Bangladesh)
 LanguageTranslator: Mohammed Nazmul Ferdous
-LanguageVersion: 0.7.4
+LanguageVersion: 0.7.5
 
 BlogBy: লিখেছেন
 BlogFilter: ব্লগ:
@@ -101,9 +101,32 @@ EditDeleteButton: মুছে ফেলুন
 EditEdit: সম্পাদনা পাতা
 EditCreate: +
 EditDelete: -
-EditCreateTitle: নতুন পাতা
-EditDeleteTitle: পাতা মুছে ফেলুন
-EditMarkdownHelp: Markdown
+EditToolbarPreview: পূর্বরূপ
+EditToolbarFormat: Format
+EditToolbarHeading: Heading
+EditToolbarH1: Heading 1
+EditToolbarH2: Heading 2
+EditToolbarH3: Heading 3
+EditToolbarParagraph: Normal text
+EditToolbarPre: Source code
+EditToolbarQuote: Quote
+EditToolbarBold: Bold
+EditToolbarItalic: Italic
+EditToolbarStrikethrough: Strikethrough
+EditToolbarCode: Code
+EditToolbarList: List
+EditToolbarUl: • Unordered list
+EditToolbarOl: 1. Ordered list
+EditToolbarTl: ✓ Task list
+EditToolbarLink: Link
+EditToolbarFile: File
+EditToolbarEmojiawesome: Emoji
+EditToolbarFontawesome: Icon
+EditToolbarDraft: Draft
+EditToolbarUndo: Undo
+EditToolbarRedo: Redo
+EditToolbarMarkdown: Markdown
+EditToolbarHelp: সাহায্য
 EditUserHelp: সাহায্য
 EditUserLogout: প্রস্থান
 PagePrevious: ← পূর্ববর্তী: @title
@@ -123,5 +146,5 @@ WikiTag: Tags:
 WikiSpecialPages: সমস্ত পৃষ্ঠা
 WikiSpecialChanges: সাম্প্রতিক পরিবর্তন
 YellowUrl: https://datenstrom.se/yellow/
-YellowUserHelpUrl: https://developers.datenstrom.se/help/
-YellowMarkdownHelpUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowUserUrl: https://developers.datenstrom.se/help/
+YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

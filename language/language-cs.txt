@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.7.4
+LanguageVersion: 0.7.5
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -101,9 +101,32 @@ EditDeleteButton: Smazat
 EditEdit: Editovat stránku
 EditCreate: +
 EditDelete: -
-EditCreateTitle: Vytvořit stránku
-EditDeleteTitle: Smazat stránku
-EditMarkdownHelp: Markdown
+EditToolbarPreview: Náhled
+EditToolbarFormat: Format
+EditToolbarHeading: Heading
+EditToolbarH1: Heading 1
+EditToolbarH2: Heading 2
+EditToolbarH3: Heading 3
+EditToolbarParagraph: Normal text
+EditToolbarPre: Source code
+EditToolbarQuote: Quote
+EditToolbarBold: Bold
+EditToolbarItalic: Italic
+EditToolbarStrikethrough: Strikethrough
+EditToolbarCode: Code
+EditToolbarList: List
+EditToolbarUl: • Unordered list
+EditToolbarOl: 1. Ordered list
+EditToolbarTl: ✓ Task list
+EditToolbarLink: Link
+EditToolbarFile: File
+EditToolbarEmojiawesome: Emoji
+EditToolbarFontawesome: Icon
+EditToolbarDraft: Draft
+EditToolbarUndo: Undo
+EditToolbarRedo: Redo
+EditToolbarMarkdown: Markdown
+EditToolbarHelp: Nápověda
 EditUserHelp: Nápověda
 EditUserLogout: Odhlásit
 PagePrevious: ← Předchozí: @title
@@ -123,5 +146,5 @@ WikiTag: Tags:
 WikiSpecialPages: Všechny stránky
 WikiSpecialChanges: Poslední změny
 YellowUrl: https://datenstrom.se/yellow/
-YellowUserHelpUrl: https://developers.datenstrom.se/help/
-YellowMarkdownHelpUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowUserUrl: https://developers.datenstrom.se/help/
+YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.7.4
+LanguageVersion: 0.7.5
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -101,9 +101,32 @@ EditDeleteButton: 删除
 EditEdit: 编辑页面
 EditCreate: + 新建
 EditDelete: - 删除
-EditCreateTitle: 新页面
-EditDeleteTitle: 删除页面
-EditMarkdownHelp: Markdown
+EditToolbarPreview: 预览
+EditToolbarFormat: Format
+EditToolbarHeading: Heading
+EditToolbarH1: Heading 1
+EditToolbarH2: Heading 2
+EditToolbarH3: Heading 3
+EditToolbarParagraph: Normal text
+EditToolbarPre: Source code
+EditToolbarQuote: Quote
+EditToolbarBold: Bold
+EditToolbarItalic: Italic
+EditToolbarStrikethrough: Strikethrough
+EditToolbarCode: Code
+EditToolbarList: List
+EditToolbarUl: • Unordered list
+EditToolbarOl: 1. Ordered list
+EditToolbarTl: ✓ Task list
+EditToolbarLink: Link
+EditToolbarFile: File
+EditToolbarEmojiawesome: Emoji
+EditToolbarFontawesome: Icon
+EditToolbarDraft: Draft
+EditToolbarUndo: Undo
+EditToolbarRedo: Redo
+EditToolbarMarkdown: Markdown
+EditToolbarHelp: 帮助
 EditUserHelp: 帮助
 EditUserLogout: 登出
 PagePrevious: ← 上一页 @title
@@ -123,5 +146,5 @@ WikiTag: 标签:
 WikiSpecialPages: 所有页面
 WikiSpecialChanges: 最近更改
 YellowUrl: https://datenstrom.se/yellow/
-YellowUserHelpUrl: https://developers.datenstrom.se/help/
-YellowMarkdownHelpUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowUserUrl: https://developers.datenstrom.se/help/
+YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

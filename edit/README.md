@@ -1,4 +1,4 @@
-Edit plugin 0.7.9
+Edit plugin 0.7.10
 ==================
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
@@ -29,6 +29,7 @@ The following settings can be configured in file `system/config/config.ini`:
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
 `EditLocation` = login page location  
+`EditToolbarButtons` = toolbar buttons, `none` to disable  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
 `EditLoginRestrictions` = login with restrictions, 1 or 0  
 `EditLoginSessionTimeout` = login session in seconds, 0 for unlimited  
@@ -51,6 +52,13 @@ Creating a user account at the command line:
 `php yellow.php user`  
 `php yellow.php user email@example.com example`  
 `php yellow.php user email@example.com example Yellow en`  
+
+Configuring different toolbar buttons:
+
+`EditToolbarButtons: auto`  
+`EditToolbarButtons: preview, format, bold, italic, code, list, link, file, undo, redo, markdown`  
+`EditToolbarButtons: preview, bold, italic, h1, h2, h3, code, quote, ul, ol, link, file, markdown`  
+`EditToolbarButtons: preview, format, bold, italic, separator, quote, code, link, file, separator, emojiawesome`  
 
 ## Developer
 
