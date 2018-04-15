@@ -55,10 +55,12 @@ Creating a user account at the command line:
 
 Configuring different toolbar buttons:
 
-`EditToolbarButtons: auto`  
-`EditToolbarButtons: preview, format, bold, italic, code, list, link, file, undo, redo, markdown`  
-`EditToolbarButtons: preview, bold, italic, h1, h2, h3, code, quote, ul, ol, link, file, markdown`  
-`EditToolbarButtons: preview, format, bold, italic, separator, quote, code, link, file, separator, emojiawesome`  
+```
+EditToolbarButtons: auto 
+EditToolbarButtons: preview, format, bold, italic, code, list, link, file, undo, redo, markdown
+EditToolbarButtons: preview, bold, italic, h1, h2, h3, code, quote, ul, ol, link, file, markdown
+EditToolbarButtons: preview, format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
+```
 
 ## Developer
 
