@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to add a language?
 
-Download [language file](https://github.com/datenstrom/yellow-plugins/tree/master/language) and copy it into your `system/plugins` folder. To change the language of your website, open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of each page, for example `Language: en`. [Learn more](https://developers.datenstrom.se/help/language-configuration).
+Download a [language file](https://github.com/datenstrom/yellow-plugins/tree/master/language) and copy it into your `system/plugins` folder. To change the language of your website, open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of each page, for example `Language: en`. [Learn more](https://developers.datenstrom.se/help/language-configuration).
 
 ## How to configure a language?
 
