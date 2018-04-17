@@ -16,7 +16,13 @@ To uninstall delete the [plugin files](update.ini).
 
 Download language file and copy it into your `system/plugins` folder. To change the language of your website, open file `system/config/config.ini` and change the `Language` setting. A different language can be defined in the settings at the top of each page, for example `Language: en`. [Learn more](https://developers.datenstrom.se/help/language-configuration).
 
-Available language files:
+## How to configure a language?
+
+The text settings can be configured in file `system/config/text.ini`. The default text settings are defined in the language files in your `system/plugins` folder. A different text can be defined in the text settings. For example text that is displayed on your website and the date format. [Learn more](https://developers.datenstrom.se/help/adjusting-system#text-settings).
+
+## Which languages are available?
+
+The following languages are available:
 
 * [Bahasa Indonésia](language-id.txt?raw=true), `Language: id`
 * [Bangali](language-bn.txt?raw=true), `Language: bn`
