@@ -18,7 +18,7 @@ Download [language file](https://github.com/datenstrom/yellow-plugins/tree/maste
 
 ## How to configure a language?
 
-The text settings can be configured in file `system/config/text.ini`. The default text settings are defined in the language files in your `system/plugins` folder. A different text can be defined in the text settings. For example text that is displayed on your website and the date format. [Learn more](https://developers.datenstrom.se/help/adjusting-system#text-settings).
+The text settings can be configured in file `system/config/text.ini`. For example text that is displayed on your website and the date format. The default text is defined by the corresponding language file. A different text can be defined in the configuration file. [Learn more](https://developers.datenstrom.se/help/adjusting-system#text-settings).
 
 ## Which languages are available?
 
