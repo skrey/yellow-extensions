@@ -48,12 +48,6 @@ Your website works!
 [edit - You can edit this page] or use your text editor.  
 ```
 
-Creating a user account at the command line:
- 
-`php yellow.php user`  
-`php yellow.php user email@example.com example`  
-`php yellow.php user email@example.com example Yellow en`  
-
 Configuring different toolbar buttons:
 
 ```
@@ -62,6 +56,12 @@ EditToolbarButtons: preview, format, bold, italic, code, list, link, file, undo,
 EditToolbarButtons: preview, bold, italic, h1, h2, h3, code, quote, ul, ol, link, file, markdown
 EditToolbarButtons: preview, format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
+
+Creating a user account at the command line:
+ 
+`php yellow.php user`  
+`php yellow.php user email@example.com example`  
+`php yellow.php user email@example.com example Yellow en`  
 
 ## Developer
 
