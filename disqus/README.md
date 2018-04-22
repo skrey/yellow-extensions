@@ -1,4 +1,4 @@
-Disqus plugin 0.7.2
+Disqus plugin 0.7.3
 ===================
 Add Disqus comments to blog. [See demo](https://developers.datenstrom.se/plugins/blog/made-for-people).
 
