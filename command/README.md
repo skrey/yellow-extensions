@@ -1,4 +1,4 @@
-Command plugin 0.7.3
+Command plugin 0.7.4
 =====================
 Run commands in a terminal window.
 
@@ -16,6 +16,8 @@ To uninstall delete the [plugin files](update.ini).
 
 Datenstrom Yellow offers commands that you run from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` followed by more arguments. You can test your website and do much more from the command line. [Learn more](https://developers.datenstrom.se/help/server-configuration#dynamic-website).
 
+The plugin uses the [cURL library](https://github.com/bagder/curl) by Daniel Stenberg to check links.
+
 ## Which commands are available?
 
 The following commands are available:
@@ -25,6 +27,9 @@ Show available commands
 
 **php yellow.php build [DIRECTORY LOCATION]**  
 Build static website
+
+**php yellow.php check [DIRECTORY LOCATION]**  
+Check static files for broken links
 
 **php yellow.php clean [DIRECTORY LOCATION]**  
 Clean static files
@@ -48,8 +53,9 @@ Showing available commands:
 `php yellow.php`
 
 ~~~~
-Datenstrom Yellow 0.7.2
+Datenstrom Yellow 0.7.3
 Syntax: yellow.php build [DIRECTORY LOCATION]
+        yellow.php check [DIRECTORY LOCATION]
         yellow.php clean [DIRECTORY LOCATION]
         yellow.php traffic [DAYS LOCATION FILENAME]
         yellow.php update [OPTION FEATURE]
