@@ -1,4 +1,4 @@
-Traffic plugin 0.7.4
+Traffic plugin 0.7.5
 ====================
 Create traffic analytics from web server logfiles.
 
@@ -26,7 +26,6 @@ The following settings can be configured in file `system/config/config.ini`:
 `TrafficLinesMax` = number of lines to show per category  
 `TrafficLogDir` = log file directory  
 `TrafficLogFile` = log file name as regular expression  
-`TrafficLocationIgnore` = location to ignore as regular expression  
 `TrafficSpamFilter` = spam filter as regular expression  
 
 ## Example
