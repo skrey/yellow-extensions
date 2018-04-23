@@ -18,7 +18,7 @@ The first option is to update your website in a [web browser](https://github.com
 
 The second option is to update your website at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php update`, you can add an optional option and feature. Deleted files can be found in the `system/trash` folder. See example below.
 
-The plugin uses the [cURL library](https://github.com/bagder/curl) by Daniel Stenberg to download files.
+The plugin uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to download files.
 
 ## Example
 
