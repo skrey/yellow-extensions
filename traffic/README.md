@@ -39,7 +39,7 @@ Creating traffic analytics at the command line:
 ~~~~
 Referring sites
 
-- 97 http://www.hongkiat.com/blog/flat-cms/
+- 97 https://github.com/myles/awesome-static-generators
 - 38 http://alternativeto.net/software/yellow-1/
 - 37 http://trendschau.net/blog/uebersicht-flat-file-cms
 - 18 https://blog.mrwebmaster.it/2016/11/21/7-cms-flat-file-da-considerare.html
