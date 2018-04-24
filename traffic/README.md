@@ -1,4 +1,4 @@
-Traffic plugin 0.7.5
+Traffic plugin 0.7.6
 ====================
 Create traffic analytics from web server logfiles.
 
@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to create traffic analytics?
 
-The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). It shows referring sites, popular content, search queries and error pages. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days, location and file name. See example below.
+The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). It shows referring sites, popular content, files and search queries. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days, location and file name. See example below.
 
 This plugins analyses your web server logfiles, use [Matomo](https://github.com/datenstrom/yellow-plugins/tree/master/matomo) for more detailed web analytics.
 
