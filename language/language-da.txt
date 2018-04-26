@@ -3,7 +3,7 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.7.5
+LanguageVersion: 0.7.6
 
 BlogBy: af
 BlogFilter: Blog:
@@ -18,6 +18,8 @@ ContactStatusIncomplete: Udfyld venligst alle felter.
 ContactStatusInvalid: Indtast en gyldig email.
 ContactStatusDone: Din email er blevet sendt. Mange tak!
 ContactStatusError: Din email er desværre ikke blevet sendt. Venligst forsøg igen senere!
+DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago
+DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years
 DateMonths: januar, februar, marts, april, maj, juni, juli, august, september, oktober, november, december
 DateWeekdays: mandag, tirsdag, onsdag, torsdag, fredag, lørdag, søndag
 DateWeekstart: mandag
@@ -93,6 +95,7 @@ EditVersionStatusUpdates: Updates available, please contact the webmaster.
 EditVersionUpdateNormal: Updates available, update now.
 EditVersionUpdateForce: Force update
 EditVersionUpdateModified: @software has been modified
+EditUploadProgress: [Uploading file…]
 EditOkButton: Ok
 EditCancelButton: Fortryd
 EditCreateButton: Ny

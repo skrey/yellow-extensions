@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.7.5
+LanguageVersion: 0.7.6
 
 BlogBy: av
 BlogFilter: Blogg:
@@ -18,6 +18,8 @@ ContactStatusIncomplete: Vänligen fyll i alla fält.
 ContactStatusInvalid: Vänligen ange en giltig emailadress.
 ContactStatusDone: Ditt mail har nu skickats. Tack!
 ContactStatusError: Mailet kunde inte skickas, vänligen försök igen senare!
+DatePast: idag, igår, @x dagar sedan, en månad sedan, @x månader sedan, ett år sedan, @x år sedan
+DateFuture: snart, imorgon, om @x dagar, om 1 månad, om @x månader, om 1 år, om @x år
 DateMonths: Januari, Februari, Mars, April, Maj, Juni, Juli, Augusti, September, Oktober, November, December
 DateWeekdays: Måndag, Tisdag, Onsdag, Torsdag, Fredag, Lördag, Söndag
 DateWeekstart: Måndag
@@ -93,6 +95,7 @@ EditVersionStatusUpdates: Updates available, please contact the webmaster.
 EditVersionUpdateNormal: Updates available, update now.
 EditVersionUpdateForce: Force update
 EditVersionUpdateModified: @software has been modified
+EditUploadProgress: [Laddar upp fil…]
 EditOkButton: Ok
 EditCancelButton: Avbryt
 EditCreateButton: Skapa
