@@ -29,7 +29,7 @@ The following settings can be configured in file `system/config/config.ini`:
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
 `EditLocation` = login page location  
-`EditUploadNewLocation` = location for new file  
+`EditUploadNewLocation` = location for new media file  
 `EditUploadExtensions` = file extensions for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands  
 `EditToolbarButtons` = toolbar buttons, `none` to disable  
