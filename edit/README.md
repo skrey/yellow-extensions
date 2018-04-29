@@ -1,4 +1,4 @@
-Edit plugin 0.7.11
+Edit plugin 0.7.12
 ==================
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
@@ -29,6 +29,8 @@ The following settings can be configured in file `system/config/config.ini`:
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
 `EditLocation` = login page location  
+`EditUploadNewLocation` = location for new file  
+`EditUploadExtensions` = file extensions for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands  
 `EditToolbarButtons` = toolbar buttons, `none` to disable  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
