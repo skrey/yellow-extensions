@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to use a blog?
 
-The blog is available on your website as `http://website/blog/`. To show the blog on the home page, go to your `content` folder and delete the `1-home` folder. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. Use `Tag` to group similar pages together. [Learn more](https://developers.datenstrom.se/help/how-to-make-a-blog).
+The blog is available on your website as `http://website/blog/`. To show the blog on the home page, go to your `content` folder and delete the `1-home` folder. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. Use `Tag` to group similar pages together. Use `[--more--]` to add a page break. [Learn more](https://developers.datenstrom.se/help/how-to-make-a-blog).
 
 ## How to show blog information?
 
@@ -26,7 +26,6 @@ You can use shortcuts to show information about the blog:
 `[blogpages LOCATION PAGESMAX AUTHOR TAG]` for a list of pages, alphabetic order  
 `[blogchanges LOCATION PAGESMAX AUTHOR TAG]` for a list of pages, published order  
 `[blogrelated LOCATION PAGESMAX]` for a list of pages related to the current page  
-`[--more--]` for a page break  
 
 The following arguments are available, all but the first argument are optional:
 
