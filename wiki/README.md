@@ -41,6 +41,12 @@ The following settings can be configured in file `system/config/config.ini`:
 `WikiPagesMain` = include wiki main page in pages, 1 or 0  
 `WikiPaginationLimit` = number of entries to show per page  
 
+The following files can be configured:
+
+`system/config/page-new-wiki.txt` = content file for new wiki page  
+`system/themes/snippets/content-wiki.php` = source code for wiki page  
+`system/themes/snippets/content-wikipages.php` = source code for main page  
+
 ## Example
 
 Showing latest wiki pages:

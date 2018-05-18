@@ -42,6 +42,12 @@ The following settings can be configured in file `system/config/config.ini`:
 `BlogPagesMax` = number of pages  
 `BlogPaginationLimit` = number of entries to show per page  
 
+The following files can be configured:
+
+`system/config/page-new-blog.txt` = content file for new blog page  
+`system/themes/snippets/content-blog.php` = source code for blog page  
+`system/themes/snippets/content-blogpages.php` = source code for main page  
+
 ## Example
 
 Showing latest blog pages:
