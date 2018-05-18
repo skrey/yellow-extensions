@@ -16,7 +16,7 @@ To uninstall delete the [plugin files](update.ini).
 
 The wiki is available on your website as `http://website/wiki/`. To show the wiki on the home page, go to your `content` folder and delete the `1-home` folder. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. Use `Tag` to group similar pages together. [Learn more](https://developers.datenstrom.se/help/how-to-make-a-wiki).
 
-## How to configure a wiki?
+## How to show wiki information?
 
 You can use shortcuts to show information about the wiki:
 
@@ -32,6 +32,8 @@ The following arguments are available, all but the first argument are optional:
 `PAGESMAX` = number of pages, 0 for unlimited  
 `AUTHOR` = show pages by a specific author  
 `TAG` = show pages with a specific tag  
+
+## How to configure a wiki?
 
 The following settings can be configured in file `system/config/config.ini`:
 
