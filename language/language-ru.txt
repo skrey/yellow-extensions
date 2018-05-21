@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.6
+LanguageVersion: 0.7.7
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -33,7 +33,7 @@ EditInstallationAboutPage: Этот сайт создан с помощью [Dat
 EditLoginTitle: добро пожаловать
 EditLoginEmail: Email:
 EditLoginPassword: Пароль:
-EditLoginRecover: Забыли пароль?
+EditLoginForgot: Забыли пароль?
 EditLoginSignup: Создать учетную запись?
 EditLoginButton: Войти
 EditSignupTitle: Создать учетную запись
@@ -46,14 +46,15 @@ EditSignupStatusIncomplete: Пожалуйста, заполните все по
 EditSignupStatusInvalid: Пожалуйста, введите действительный адрес Email.
 EditSignupStatusWeak: Пожалуйста, введите другой пароль.
 EditSignupStatusNext: Учетная запись создана, пожалуйста, проверьте ваш Email.
+EditForgotTitle: Забыли пароль
+EditForgotEmail: Email:
+EditForgotStatusNone: Нет проблем, вы можете создать новый пароль.
+EditForgotStatusInvalid: Пожалуйста, введите действительный адрес Email.
+EditForgotStatusNext: Учетная запись восстановлена, пожалуйста, проверьте ваш Email.
 EditRecoverTitle: Забыли пароль
-EditRecoverEmail: Email:
 EditRecoverPassword: Пароль:
-EditRecoverStatusNone: Нет проблем, вы можете создать новый пароль.
-EditRecoverStatusInvalid: Пожалуйста, введите действительный адрес Email.
 EditRecoverStatusPassword: Пожалуйста, введите новый пароль.
 EditRecoverStatusWeak: Пожалуйста, введите другой пароль.
-EditRecoverStatusNext: Учетная запись восстановлена, пожалуйста, проверьте ваш Email.
 EditSettingsTitle: Настройки
 EditSettingsStatusInvalid: Please enter a valid email.
 EditSettingsStatusTaken: Please enter a different email.
@@ -62,27 +63,21 @@ EditSettingsStatusNext: User account will be changed, please check your emails.
 EditConfirmSubject: Подтверждение учетной записи
 EditConfirmMessage: Привет @usershort, пожалуйста, подтвердите свою учетную запись. Нажмите на ссылку.
 EditConfirmStatusDone: Учетная запись подтверждена и ждет одобрения. Спасибо!
-EditConfirmStatusExpired: Учетная запись не может быть подтверждена. Ссылка устарела!
 EditApproveSubject: Утвердить учетную запись
 EditApproveMessage: Привет @usershort, пожалуйста, утвердите новую учетную запись для @useraccount. Нажмите на ссылку.
 EditApproveStatusDone: Учетная запись утверждена. Спасибо!
-EditApproveStatusExpired: Учетная запись не может быть утверждена. Ссылка устарела!
 EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: Восстановление учетной записи
 EditRecoverMessage: Привет @usershort, пожалуйста, подтвердите, что вы забыли свой пароль. Нажмите на ссылку.
 EditRecoverStatusDone: Учетная запись восстановлена. Спасибо!
-EditRecoverStatusExpired: Учетная запись не может быть восстановлена. Ссылка устарела!
-EditReconfirmSubject: Change user account
-EditReconfirmMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
-EditReconfirmStatusDone: User account confirmed. Thank you!
-EditReconfirmStatusExpired: User account can not be confirmed. Link has expired!
+EditVerifySubject: Confirm user account
+EditVerifyMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
+EditVerifyStatusDone: User account confirmed. Thank you!
 EditChangeSubject: Change user account
 EditChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
 EditChangeStatusDone: User account changed. Thank you!
-EditChangeStatusExpired: User account can not be changed. Link has expired!
 EditWelcomeSubject: Добро пожаловать
 EditWelcomeMessage: Привет @usershort, ваша учетная запись создана. Получайте удовольствие редактируя сайт.
 EditInformationSubject: С возвращением
@@ -149,5 +144,5 @@ WikiTag: Тэги:
 WikiSpecialPages: Все страницы
 WikiSpecialChanges: Последние изменения
 YellowUrl: https://datenstrom.se/yellow/
-YellowUserUrl: https://developers.datenstrom.se/help/
+YellowHelpUrl: https://developers.datenstrom.se/help/
 YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

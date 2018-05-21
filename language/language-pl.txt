@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.6
+LanguageVersion: 0.7.7
 
 BlogBy: przez
 BlogFilter: Blog:
@@ -33,7 +33,7 @@ EditInstallationAboutPage: Ta strona zawiera [Datenstrom Yellow](https://datenst
 EditLoginTitle: Witaj
 EditLoginEmail: Email:
 EditLoginPassword: Hasło:
-EditLoginRecover: Zapomniane hasło?
+EditLoginForgot: Zapomniane hasło?
 EditLoginSignup: Brak konta użytkownika?
 EditLoginButton: Zaloguj się
 EditSignupTitle: Tworzenie konta użytkownika
@@ -46,14 +46,15 @@ EditSignupStatusIncomplete: Proszę wypełnić wszystkie pola.
 EditSignupStatusInvalid: Proszę podać poprawny adres email.
 EditSignupStatusWeak: Proszę podać inne hasło.
 EditSignupStatusNext: Konto użytkownika zostanie utworzone, proszę sprawdzić pocztę.
+EditForgotTitle: Zapomniane hasło
+EditForgotEmail: Email:
+EditForgotStatusNone: Nie ma problemu, możesz utworzyć nowe hasło.
+EditForgotStatusInvalid: Proszę podać poprawny adres email.
+EditForgotStatusNext:  Konto użytkownika zostanie przywrócone, proszę sprawdzić pocztę.
 EditRecoverTitle: Zapomniane hasło
-EditRecoverEmail: Email:
 EditRecoverPassword: Hasło:
-EditRecoverStatusNone: Nie ma problemu, możesz utworzyć nowe hasło.
-EditRecoverStatusInvalid: Proszę podać poprawny adres email.
 EditRecoverStatusPassword: Prosze podać nowe hasło.
 EditRecoverStatusWeak: Proszę podać inne hasło.
-EditRecoverStatusNext: Konto użytkownika zostanie przywrócone, proszę sprawdzić pocztę.
 EditSettingsTitle: Ustawienia
 EditSettingsStatusInvalid: Proszę podać poprawny adres email.
 EditSettingsStatusTaken: Proszę podać inny email.
@@ -62,27 +63,21 @@ EditSettingsStatusNext: Konto użytkownika zostanie zmienione, proszę sprawdzi�
 EditConfirmSubject: Potwierdzenie konta użytkownika
 EditConfirmMessage: Hej @usershort! Prosimy potwierdzić swoje konto. Kliknij w poniższy link.
 EditConfirmStatusDone: Konto użytkownika zostało potwierdzone i czeka na aktywację. Dziękujemy!
-EditConfirmStatusExpired: Konto użytkownika nie może zostać potwierdzone. Link wygasł!
 EditApproveSubject: Zatwierdzenie konta użytkownika
 EditApproveMessage: Hej @usershort! Prosimy zatwierdzić konto użytkownika @useraccount. Kliknij w poniższy link.
 EditApproveStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
-EditApproveStatusExpired: Konto użytkownika nie może zostać zatwierdzone. Link wygasł!
 EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: Odzyskiwanie konta użytkownika
 EditRecoverMessage: Hej @usershort! Prosimy o potwierdzenie, że zapomniałeś/aś hasła. Kliknij w poniższy link.
 EditRecoverStatusDone: Konto użytkownika zostało przywrócone. Dziękujemy!
-EditRecoverStatusExpired: Konto użytkownika nie może zostać przywrócone. Link wygasł!
-EditReconfirmSubject: Zmiana konta użytkownika
-EditReconfirmMessage: Hej @usershort! Prosimy o potwierdzenie nowego maila dla Twojego konta. Kliknij w poniższy link.
-EditReconfirmStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
-EditReconfirmStatusExpired: Konto użytkownika nie może zostać zatwierdzone. Link wygasł!
+EditVerifySubject: Potwierdzenie konta użytkownika
+EditVerifyMessage: Hej @usershort! Prosimy o potwierdzenie nowego maila dla Twojego konta. Kliknij w poniższy link.
+EditVerifyStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
 EditChangeSubject: Zmiana konta użytkownika
 EditChangeMessage: Hej @usershort! Prosimy o potwierdzenie, że chcesz dokonać zmian w Twoim koncie. Kliknij w poniższy link.
 EditChangeStatusDone: Konto użytkownika zostało zmienione. Dziękujemy!
-EditChangeStatusExpired: Konto użytkownika nie może zostać zmienione. Link wygasł!
 EditWelcomeSubject: Powitanie
 EditWelcomeMessage: Hej @usershort! Twoje konto użytkownika zostało utworzone. Miłej edycji strony.
 EditInformationSubject: Witamy spowrotem
@@ -149,5 +144,5 @@ WikiTag: Tagi:
 WikiSpecialPages: Wszystkie strony
 WikiSpecialChanges: Ostatnie zmiany
 YellowUrl: https://datenstrom.se/yellow/
-YellowUserUrl: https://developers.datenstrom.se/help/
+YellowHelpUrl: https://developers.datenstrom.se/help/
 YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

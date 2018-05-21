@@ -1,4 +1,4 @@
-Edit plugin 0.7.15
+Edit plugin 0.7.16
 ==================
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
@@ -35,7 +35,8 @@ The following settings can be configured in file `system/config/config.ini`:
 `EditToolbarButtons` = toolbar buttons, `none` to disable  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
 `EditLoginRestrictions` = login with restrictions, 1 or 0  
-`EditLoginSessionTimeout` = login session in seconds, 0 for unlimited  
+`EditLoginSessionTimeout` = login session in seconds  
+`EditBruteForceProtection` = number of failed login attempts  
 
 ## Example
 

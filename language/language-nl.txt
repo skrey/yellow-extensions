@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.7.6
+LanguageVersion: 0.7.7
 
 BlogBy: door
 BlogFilter: Blog:
@@ -33,7 +33,7 @@ EditInstallationAboutPage: Deze website is gemaakt met [Datenstrom Yellow](https
 EditLoginTitle: Welkom
 EditLoginEmail: E-mail:
 EditLoginPassword: Wachtwoord:
-EditLoginRecover: Wachtwoord vergeten?
+EditLoginForgot: Wachtwoord vergeten?
 EditLoginSignup: Gebruikersaccount aanmaken?
 EditLoginButton: Aanmelden
 EditSignupTitle: Gebruikersaccount aanmaken
@@ -46,14 +46,15 @@ EditSignupStatusIncomplete: Gelieve alle velden in te vullen.
 EditSignupStatusInvalid: Gelieve een geldig e-mailadres in te vullen.
 EditSignupStatusWeak: Gelieve een ander wachtwoord in te vullen.
 EditSignupStatusNext: Gebruikersaccount zal worden aangemaakt, gelieve je mail te bekijken.
+EditForgotTitle: Wachtwoord vergeten
+EditForgotEmail: E-mail:
+EditForgotStatusNone: Geen probleem, je kan een nieuw wachtwoord aanmaken.
+EditForgotStatusInvalid: Gelieve een geldig e-mailadres in te vullen.
+EditForgotStatusNext: Gebruikersaccount zal worden herstelt, gelieve je mail te bekijken.
 EditRecoverTitle: Wachtwoord vergeten
-EditRecoverEmail: E-mail:
 EditRecoverPassword: Wachtwoord:
-EditRecoverStatusNone: Geen probleem, je kan een nieuw wachtwoord aanmaken.
-EditRecoverStatusInvalid: Gelieve een geldig e-mailadres in te vullen.
-EditRecoverStatusPassword: Gelieve een nieuw e-mailadres in te vullen.
+EditRecoverStatusPassword: Gelieve een nieuw wachtwoord in te vullen.
 EditRecoverStatusWeak: Gelieve een ander wachtwoord in te vullen.
-EditRecoverStatusNext: Gebruikersaccount zal worden herstelt, gelieve je mail te bekijken.
 EditSettingsTitle: Instellingen
 EditSettingsStatusInvalid: Please enter a valid email.
 EditSettingsStatusTaken: Please enter a different email.
@@ -62,27 +63,21 @@ EditSettingsStatusNext: User account will be changed, please check your emails.
 EditConfirmSubject: Gebruikersaccount bevestigen
 EditConfirmMessage: Hallo @usershort, gelieve je gebruikersaccount te bevestigen. Klik op volgende link.
 EditConfirmStatusDone: Gebruikersaccount bevestigd en wachten op goedkeuring. Bedankt!
-EditConfirmStatusExpired: Gebruikersaccount kan niet worden bevestigd. Link is verlopen!
 EditApproveSubject: Gebruikersaccount toestaan
 EditApproveMessage: Hallo @usershort, gelieve de aanmaak van een nieuw gebruikersaccount voor @useraccount te bevestigen. Klik op volgende link.
 EditApproveStatusDone: Gebruikersaccount toegestaan. Bedankt!
-EditApproveStatusExpired: Gebruikersaccount kan niet worden toegestaan. Link is verlopen!
 EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: Gebruikersaccount herstellen
 EditRecoverMessage: Hallo @usershort, gelieve te bevestigen dat je het wachtwoord vergeten bent. Klik op volgende link.
 EditRecoverStatusDone: Gebruikersaccount herstelt. Bedankt!
-EditRecoverStatusExpired: Gebruikersaccount kan niet worden herstelt. Link is verlopen!
-EditReconfirmSubject: Change user account
-EditReconfirmMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
-EditReconfirmStatusDone: User account confirmed. Thank you!
-EditReconfirmStatusExpired: User account can not be confirmed. Link has expired!
+EditVerifySubject: Confirm user account
+EditVerifyMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
+EditVerifyStatusDone: User account confirmed. Thank you!
 EditChangeSubject: Change user account
 EditChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
 EditChangeStatusDone: User account changed. Thank you!
-EditChangeStatusExpired: User account can not be changed. Link has expired!
 EditWelcomeSubject: Welkom
 EditWelcomeMessage: Hallo @usershort, je gebruikersaccount is aangemaakt. Veel plezier met het aanpassen van je website.
 EditInformationSubject: Welkom terug
@@ -149,5 +144,5 @@ WikiTag: Labels:
 WikiSpecialPages: Alle pagina's
 WikiSpecialChanges: Recente wijzigingen
 YellowUrl: https://datenstrom.se/yellow/
-YellowUserUrl: https://developers.datenstrom.se/help/
+YellowHelpUrl: https://developers.datenstrom.se/help/
 YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

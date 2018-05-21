@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.7.6
+LanguageVersion: 0.7.7
 
 BlogBy: per
 BlogFilter: Blog:
@@ -33,7 +33,7 @@ EditInstallationAboutPage: Questo sito è realizzato con [Datenstrom Yellow](htt
 EditLoginTitle: Benvenuto
 EditLoginEmail: Email:
 EditLoginPassword: Password:
-EditLoginRecover: Recupera la tua password
+EditLoginForgot: Recupera la tua password
 EditLoginSignup: Crea un nuovo account utente
 EditLoginButton: Entra
 EditSignupTitle: Crea un nuovo account utente
@@ -46,14 +46,15 @@ EditSignupStatusIncomplete: Per favore, compila tutti i campi.
 EditSignupStatusInvalid: Per favore, inserisci un'email valida.
 EditSignupStatusWeak: Per favore, inserisci una password diversa.
 EditSignupStatusNext: Verrà creato un nuovo account utente, un'email per la verifica verrà inviata al relativo indirizzo.
+EditForgotTitle: Recupero password
+EditForgotEmail: Email:
+EditForgotStatusNone: Nessun problema, puoi creare una nuova password.
+EditForgotStatusInvalid: Per favore, inserisci un'email valida.
+EditForgotStatusNext: L'account utente verrà recuperato, un'email per il recupero verrà inviata al relativo indirizzo.
 EditRecoverTitle: Recupero password
-EditRecoverEmail: Email:
 EditRecoverPassword: Password:
-EditRecoverStatusNone: Nessun problema, puoi creare una nuova password.
-EditRecoverStatusInvalid: Per favore, inserisci un'email valida.
 EditRecoverStatusPassword: Per favore, inserisci una nuova password.
 EditRecoverStatusWeak: Per favore, inserisci una password diversa.
-EditRecoverStatusNext: L'account utente verrà recuperato, un'email per il recupero verrà inviata al relativo indirizzo.
 EditSettingsTitle: Impostazioni
 EditSettingsStatusInvalid: Please enter a valid email.
 EditSettingsStatusTaken: Please enter a different email.
@@ -62,27 +63,21 @@ EditSettingsStatusNext: User account will be changed, please check your emails.
 EditConfirmSubject: Conferma account utente
 EditConfirmMessage: Ciao @usershort, per favore conferma il tuo account utente cliccando il link di seguito.
 EditConfirmStatusDone: Account utente confermato e in attesa di approvazione. Grazie!
-EditConfirmStatusExpired: Impossibile confermare l'account utente: link scaduto!
 EditApproveSubject: Approva account utente
 EditApproveMessage: Ciao @usershort, per favore approva un nuovo account per l'utente @useraccount cliccando il link di seguito.
 EditApproveStatusDone: Account approvato. Grazie!
-EditApproveStatusExpired: Impossibile approvare l'account utente: link scaduto!
 EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: Recupera account utente
 EditRecoverMessage: Ciao @usershort, per favore conferma di aver perso la password cliccando il link di seguito.
 EditRecoverStatusDone: Account utente recuperato. Grazie!
-EditRecoverStatusExpired: Impossibile recuperare l'account utente: link scaduto!
-EditReconfirmSubject: Change user account
-EditReconfirmMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
-EditReconfirmStatusDone: User account confirmed. Thank you!
-EditReconfirmStatusExpired: User account can not be confirmed. Link has expired!
+EditVerifySubject: Confirm user account
+EditVerifyMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
+EditVerifyStatusDone: User account confirmed. Thank you!
 EditChangeSubject: Change user account
 EditChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
 EditChangeStatusDone: User account changed. Thank you!
-EditChangeStatusExpired: User account can not be changed. Link has expired!
 EditWelcomeSubject: Benvenuto
 EditWelcomeMessage: Ciao @usershort, il tuo account utente è stato creato. Buon lavoro!
 EditInformationSubject: Ben tornato
@@ -149,5 +144,5 @@ WikiTag: Tag:
 WikiSpecialPages: Tutte le pagine
 WikiSpecialChanges: Modifiche recenti
 YellowUrl: https://datenstrom.se/yellow/
-YellowUserUrl: https://developers.datenstrom.se/help/
+YellowHelpUrl: https://developers.datenstrom.se/help/
 YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet

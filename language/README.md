@@ -1,4 +1,4 @@
-Language plugin 0.7.6
+Language plugin 0.7.7
 =====================
 Languages and regions.
 

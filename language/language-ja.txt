@@ -3,7 +3,7 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.7.6
+LanguageVersion: 0.7.7
 
 BlogBy: by
 BlogFilter: Blog:
@@ -33,7 +33,7 @@ EditInstallationAboutPage: このウェブサイトは [Datenstrom Yellow](https
 EditLoginTitle: ようこそ
 EditLoginEmail: メールアドレス:
 EditLoginPassword: パスワード:
-EditLoginRecover: パスワードをお忘れですか？
+EditLoginForgot: パスワードをお忘れですか？
 EditLoginSignup: ユーザーアカウントを作成しますか？
 EditLoginButton: ログイン
 EditSignupTitle: ユーザーアカウントの作成
@@ -46,14 +46,15 @@ EditSignupStatusIncomplete: 全ての項目にご入力下さい。
 EditSignupStatusInvalid: 正しいメールアドレスをご入力下さい。
 EditSignupStatusWeak: 別のパスワードをご入力下さい。
 EditSignupStatusNext: ユーザーアカウントの有効化の為、メールをご確認下さい。
+EditForgotTitle: パスワード忘失申請
+EditForgotEmail: メールアドレス:
+EditForgotStatusNone: 新しいパスワードを作成する事が出来ます。
+EditForgotStatusInvalid: 正しいメールアドレスをご入力下さい。
+EditForgotStatusNext: ユーザーアカウントを回復する為にメールをご確認下さい。
 EditRecoverTitle: パスワード忘失申請
-EditRecoverEmail: メールアドレス:
 EditRecoverPassword: パスワード:
-EditRecoverStatusNone: 新しいパスワードを作成する事が出来ます。
-EditRecoverStatusInvalid: 正しいメールアドレスをご入力下さい。
 EditRecoverStatusPassword: 新しいパスワードをご入力下さい。
 EditRecoverStatusWeak: 別のパスワードをご入力下さい。
-EditRecoverStatusNext: ユーザーアカウントを回復する為にメールをご確認下さい。
 EditSettingsTitle: 設定
 EditSettingsStatusInvalid: 正しいメールアドレスをご入力下さい。
 EditSettingsStatusTaken: 別のメールアドレスをご入力下さい。
@@ -62,27 +63,21 @@ EditSettingsStatusNext: ユーザーアカウントを変更する為にメー�
 EditConfirmSubject: ユーザーアカウントの確認
 EditConfirmMessage: こんにちは @usershort さん。ユーザーアカウントについてのご確認です。宜しければ次のリンクをクリックして下さい。
 EditConfirmStatusDone: ユーザーアカウントが登録され、承認待ちです。有難うございました！
-EditConfirmStatusExpired: ユーザーアカウントを確認できません。リンクの有効期限が切れています！
 EditApproveSubject: ユーザーアカウントの登録承認
 EditApproveMessage: こんにちは @usershort さん。新しいユーザーアカウント登録承認についてのご確認です。 @useraccount。 宜しければ次のリンクをクリックして下さい。
 EditApproveStatusDone: ユーザーアカウントが承認されました。有難うございました！
-EditApproveStatusExpired: ユーザーアカウントを承認する事はできません。リンクの有効期限が切れています！
 EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditReactivateStatusExpired: User account can not be reactivated. Link has expired!
 EditRecoverSubject: ユーザーアカウントを復元
 EditRecoverMessage: こんにちは @usershort さん。パスワード忘失のご確認です。宜しければ次のリンクをクリックして下さい。
 EditRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！
-EditRecoverStatusExpired: ユーザーアカウントは回復できません。リンクの有効期限が切れています！
-EditReconfirmSubject: ユーザーアカウント情報の変更
-EditReconfirmMessage: こんにちは @usershort さん。ユーザーアカウント情報の変更のご確認です。宜しければ次のリンクをクリックして下さい。
-EditReconfirmStatusDone: ユーザーアカウントが確認されました。有難うございました！
-EditReconfirmStatusExpired: ユーザーアカウントを確認できません。リンクの有効期限が切れています！
+EditVerifySubject: ユーザーアカウントの確認
+EditVerifyMessage: こんにちは @usershort さん。ユーザーアカウント情報の変更のご確認です。宜しければ次のリンクをクリックして下さい。
+EditVerifyStatusDone: ユーザーアカウントが確認されました。有難うございました！
 EditChangeSubject: ユーザーアカウントの変更
 EditChangeMessage: こんにちは @usershort さん。ユーザーアカウントを変更する為に、次のリンクをクリックして下さい。
 EditChangeStatusDone: ユーザーアカウントが変更されました。有難うございました！
-EditChangeStatusExpired: ユーザーアカウントは変更できません。リンクの有効期限が切れています！
 EditWelcomeSubject: ようこそ！
 EditWelcomeMessage: こんにちは @usershort さん。あなたのユーザーアカウントが作成されています。ログインしてウェブサイトを完成させて下さい。
 EditInformationSubject: お帰りなさい！
@@ -149,5 +144,5 @@ WikiTag: Tags:
 WikiSpecialPages: 全てのページ
 WikiSpecialChanges: 最近の更新状況
 YellowUrl: https://datenstrom.se/yellow/
-YellowUserUrl: https://developers.datenstrom.se/help/
+YellowHelpUrl: https://developers.datenstrom.se/help/
 YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
