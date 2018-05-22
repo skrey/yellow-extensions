@@ -3,7 +3,7 @@
 Language: bn
 LanguageDescription: Bangali (Bangladesh)
 LanguageTranslator: Mohammed Nazmul Ferdous
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: লিখেছেন
 BlogFilter: ব্লগ:
@@ -12,6 +12,7 @@ BlogMore: আরো পড়ুন…
 ContactName: নাম:
 ContactEmail: ইমেইল:
 ContactMessage: বার্তা:
+ContactConsent: আমি সম্মত যে এই ওয়েবসাইট আমার ব্যক্তিগত তথ্য সঞ্চয় করে এবং এটি আমার সাথে যোগাযোগ করতে ব্যবহার করে।
 ContactButton: বার্তা পাঠান
 ContactStatusNone: স্বাগতম! আপনার মতামত খুবই গুরুত্বপূর্ণ। 
 ContactStatusIncomplete: অনুগ্রহ করে সকল ঘর পূরণ করুন। 
@@ -40,6 +41,7 @@ EditSignupTitle: Create user account
 EditSignupName: Name:
 EditSignupEmail: Email:
 EditSignupPassword: Password:
+EditSignupConsent: I consent that this website stores my personal data.
 EditSignupButton: Create
 EditSignupStatusNone: Here you can create a new user account.
 EditSignupStatusIncomplete: Please fill out all fields.

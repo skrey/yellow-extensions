@@ -3,7 +3,7 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: af
 BlogFilter: Blog:
@@ -12,6 +12,7 @@ BlogMore: Læs mere…
 ContactName: Navn:
 ContactEmail: Email:
 ContactMessage: Besked:
+ContactConsent: Jeg accepterer, at denne hjemmeside gemmer mine personlige data og bruger den til at kontakte mig.
 ContactButton: Send besked
 ContactStatusNone: Sig hej. Vi er glad for dine kommentarer.
 ContactStatusIncomplete: Udfyld venligst alle felter.
@@ -40,6 +41,7 @@ EditSignupTitle: Create user account
 EditSignupName: Name:
 EditSignupEmail: Email:
 EditSignupPassword: Password:
+EditSignupConsent: I consent that this website stores my personal data.
 EditSignupButton: Create
 EditSignupStatusNone: Here you can create a new user account.
 EditSignupStatusIncomplete: Please fill out all fields.

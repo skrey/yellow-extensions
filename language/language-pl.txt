@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: przez
 BlogFilter: Blog:
@@ -12,6 +12,7 @@ BlogMore: Czytaj dalej…
 ContactName: Nazwa:
 ContactEmail: Email:
 ContactMessage: Wiadomość:
+ContactConsent: Wyrażam zgodę na przechowywanie moich danych osobowych przez tę stronę internetową i wykorzystywanie jej do kontaktowania się ze mną.
 ContactButton: Wyślij wiadomość
 ContactStatusNone: Przywitaj się. Twoja opinia jest mile widziana.
 ContactStatusIncomplete: Prosimy wypełnić wszystkie pola.
@@ -40,6 +41,7 @@ EditSignupTitle: Tworzenie konta użytkownika
 EditSignupName: Nazwa:
 EditSignupEmail: Email:
 EditSignupPassword: Hasło:
+EditSignupConsent: Wyrażam zgodę na przechowywanie moich danych osobowych na tej stronie.
 EditSignupButton: Utwórz
 EditSignupStatusNone: Tutaj możesz stworzyć nowe konto użytkownika.
 EditSignupStatusIncomplete: Proszę wypełnić wszystkie pola.

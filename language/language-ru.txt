@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -12,6 +12,7 @@ BlogMore: Читать далее…
 ContactName: Имя:
 ContactEmail: Email:
 ContactMessage: Сообщение:
+ContactConsent: Я согласен, что этот сайт хранит мои личные данные и использует его для связи со мной.
 ContactButton: Отправить сообщение
 ContactStatusNone: Привет. Ваше мнение очень приветствуются.
 ContactStatusIncomplete: Пожалуйста, заполните все поля.
@@ -40,6 +41,7 @@ EditSignupTitle: Создать учетную запись
 EditSignupName: Имя:
 EditSignupEmail: Email:
 EditSignupPassword: Пароль:
+EditSignupConsent: Я согласен, что этот сайт хранит мои личные данные.
 EditSignupButton: Создать
 EditSignupStatusNone: Здесь вы можете создать новую учетную запись.
 EditSignupStatusIncomplete: Пожалуйста, заполните все поля.

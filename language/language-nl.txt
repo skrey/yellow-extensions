@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: door
 BlogFilter: Blog:
@@ -12,6 +12,7 @@ BlogMore: Lees meer…
 ContactName: Naam:
 ContactEmail: Email:
 ContactMessage: Bericht:
+ContactConsent: Ik ga ermee akkoord dat deze website mijn persoonlijke gegevens opslaat en gebruikt om contact met mij op te nemen.
 ContactButton: Verstuur bericht
 ContactStatusNone: Zeg hallo. Uw feedback is zeer welkom.
 ContactStatusIncomplete: Vul alle velden in.
@@ -40,6 +41,7 @@ EditSignupTitle: Gebruikersaccount aanmaken
 EditSignupName: Naam:
 EditSignupEmail: E-mail:
 EditSignupPassword: Wachtwoord:
+EditSignupConsent: Ik ga ermee akkoord dat deze website mijn persoonlijke gegevens opslaat.
 EditSignupButton: Aanmaken
 EditSignupStatusNone: Hier kan je een nieuw gebruikersaccount aanmaken.
 EditSignupStatusIncomplete: Gelieve alle velden in te vullen.

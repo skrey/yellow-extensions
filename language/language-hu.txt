@@ -3,7 +3,7 @@
 Language: hu
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: by
 BlogFilter: Blog:
@@ -12,6 +12,7 @@ BlogMore: Bővebben…
 ContactName: Név:
 ContactEmail: E-mail:
 ContactMessage: Üzenet:
+ContactConsent: Hozzájárulok, hogy ez a weboldal tárolja személyes adataimat, és felveszi velem a kapcsolatot.
 ContactButton: Üzenet küldése
 ContactStatusNone: Szólj hozzánk. Fontos a véleményed.
 ContactStatusIncomplete: Kérlek töltsd ki a mezőket.
@@ -40,6 +41,7 @@ EditSignupTitle: Create user account
 EditSignupName: Name:
 EditSignupEmail: Email:
 EditSignupPassword: Password:
+EditSignupConsent: I consent that this website stores my personal data.
 EditSignupButton: Create
 EditSignupStatusNone: Here you can create a new user account.
 EditSignupStatusIncomplete: Please fill out all fields.

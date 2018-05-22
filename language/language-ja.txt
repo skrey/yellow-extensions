@@ -3,7 +3,7 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: by
 BlogFilter: Blog:
@@ -12,6 +12,7 @@ BlogMore: 全文を表示して見る…
 ContactName: 氏名:
 ContactEmail: 氏名:
 ContactMessage: 送信内容:
+ContactConsent: 私はこのウェブサイトが私の個人情報を保管し、それを使って私に連絡することに同意します。
 ContactButton: 送信
 ContactStatusNone: ご意見・ご指摘・ご提案・ご要望・ご質問・お問合せ・等お寄せ下さい。
 ContactStatusIncomplete: 全ての項目にご入力下さい。
@@ -40,6 +41,7 @@ EditSignupTitle: ユーザーアカウントの作成
 EditSignupName: サイト名:
 EditSignupEmail: メールアドレス:
 EditSignupPassword: パスワード:
+EditSignupConsent: 私はこのウェブサイトが私の個人データを保存することに同意します。
 EditSignupButton: 作成
 EditSignupStatusNone: 新しいユーザーアカウントを作成出来ます。
 EditSignupStatusIncomplete: 全ての項目にご入力下さい。

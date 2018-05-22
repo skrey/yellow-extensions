@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -12,6 +12,7 @@ BlogMore: Čti dále…
 ContactName: Jméno:
 ContactEmail: Email:
 ContactMessage: Zpráva:
+ContactConsent: Souhlasím s tím, aby tyto webové stránky ukládaly mé osobní údaje a používají je ke kontaktování.
 ContactButton: Odeslat zprávu
 ContactStatusNone: Zde můžete napsat svoje postřehy.
 ContactStatusIncomplete: Prosím, vyplňte všechna pole.
@@ -40,6 +41,7 @@ EditSignupTitle: Vytvořit účet
 EditSignupName: Jméno:
 EditSignupEmail: Email:
 EditSignupPassword: Heslo:
+EditSignupConsent: Souhlasím s tím, aby tyto webové stránky uchovávaly mé osobní údaje.
 EditSignupButton: Vytvořit
 EditSignupStatusNone: Zde můžete založit nový uživatelský účet.
 EditSignupStatusIncomplete: Prosím, vyplňte všechny položky.

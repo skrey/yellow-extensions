@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: per
 BlogFilter: Blog:
@@ -12,6 +12,7 @@ BlogMore: Leggi di più…
 ContactName: Nome:
 ContactEmail: Email:
 ContactMessage: Messaggio:
+ContactConsent: Acconsento che questo sito memorizzi i miei dati personali e li usi per contattarmi.
 ContactButton: Invia messaggio
 ContactStatusNone: Di la tua. La tua opinione è importante.
 ContactStatusIncomplete: Per favore, compila tutti i campi.
@@ -40,6 +41,7 @@ EditSignupTitle: Crea un nuovo account utente
 EditSignupName: Nome:
 EditSignupEmail: Email:
 EditSignupPassword: Password:
+EditSignupConsent: Acconsento che questo sito memorizzi i miei dati personali.
 EditSignupButton: Crea
 EditSignupStatusNone: Qui puoi impostare le credenziali di accesso.
 EditSignupStatusIncomplete: Per favore, compila tutti i campi.

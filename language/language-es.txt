@@ -3,7 +3,7 @@
 Language: es
 LanguageDescription: Español
 LanguageTranslator: Al Garcia, David Garcia
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: por
 BlogFilter: Blog:
@@ -12,6 +12,7 @@ BlogMore: Leer más…
 ContactName: Nombre:
 ContactEmail: Email:
 ContactMessage: Mensaje:
+ContactConsent: Doy mi consentimiento para que este sitio web almacene mis datos personales y los utilice para contactarme.
 ContactButton: Enviar mensaje
 ContactStatusNone: Di hola. Tus comentarios son bien recibidos.
 ContactStatusIncomplete: Por favor llena todos los campos.
@@ -40,6 +41,7 @@ EditSignupTitle: Crear una cuenta de usuario
 EditSignupName: Nombre:
 EditSignupEmail: Email:
 EditSignupPassword: Contraseña:
+EditSignupConsent: Doy mi consentimiento para que este sitio web almacene mis datos personales.
 EditSignupButton: Crear
 EditSignupStatusNone: Aquí podrás crear una nueva cuenta de usuario.
 EditSignupStatusIncomplete: Por favor llena todos los campos.

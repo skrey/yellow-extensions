@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.7.7
+LanguageVersion: 0.7.8
 
 BlogBy: av
 BlogFilter: Blogg:
@@ -12,6 +12,7 @@ BlogMore: Läs mer…
 ContactName: Namn:
 ContactEmail: Email:
 ContactMessage: Meddelande:
+ContactConsent: Jag godkänner att denna webbplats lagrar mina personuppgifter och använder den för att kontakta mig.
 ContactButton: Skicka meddelande
 ContactStatusNone: Säg hej. Din feedback är väldigt välkommen.
 ContactStatusIncomplete: Vänligen fyll i alla fält.
@@ -40,6 +41,7 @@ EditSignupTitle: Create user account
 EditSignupName: Name:
 EditSignupEmail: Email:
 EditSignupPassword: Password:
+EditSignupConsent: I consent that this website stores my personal data.
 EditSignupButton: Create
 EditSignupStatusNone: Here you can create a new user account.
 EditSignupStatusIncomplete: Please fill out all fields.
