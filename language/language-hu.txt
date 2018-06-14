@@ -3,7 +3,7 @@
 Language: hu
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.7.8
+LanguageVersion: 0.7.9
 
 BlogBy: by
 BlogFilter: Blog:
@@ -12,7 +12,7 @@ BlogMore: Bővebben…
 ContactName: Név:
 ContactEmail: E-mail:
 ContactMessage: Üzenet:
-ContactConsent: Hozzájárulok, hogy ez a weboldal tárolja személyes adataimat, és felveszi velem a kapcsolatot.
+ContactConsent: Elfogadom, hogy ez a weboldal tárolja személyes adataimat.
 ContactButton: Üzenet küldése
 ContactStatusNone: Szólj hozzánk. Fontos a véleményed.
 ContactStatusIncomplete: Kérlek töltsd ki a mezőket.
@@ -58,10 +58,16 @@ EditRecoverPassword: Password:
 EditRecoverStatusPassword: Please enter a new password.
 EditRecoverStatusWeak: Please enter a different password.
 EditSettingsTitle: Settings
+EditSettingsQuit: You can delete your user account anytime.
+EditSettingsMore: More…
 EditSettingsStatusInvalid: Please enter a valid email.
 EditSettingsStatusTaken: Please enter a different email.
 EditSettingsStatusWeak: Please enter a different password.
 EditSettingsStatusNext: User account will be changed, please check your emails.
+EditQuitTitle: Delete user account
+EditQuitStatusNone: Please enter your name to confirm.
+EditQuitStatusMismatch: Please enter a different name.
+EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Confirm user account
 EditConfirmMessage: Hi @usershort, please confirm your user account. Click the following link.
 EditConfirmStatusDone: User account confirmed and waiting for approval. Thank you!
@@ -80,10 +86,13 @@ EditVerifyStatusDone: User account confirmed. Thank you!
 EditChangeSubject: Change user account
 EditChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
 EditChangeStatusDone: User account changed. Thank you!
+EditRemoveSubject: Delete user account
+EditRemoveMessage: Hi @usershort, please confirm that you want to delete your user account. Click the following link.
+EditRemoveStatusDone: User account deleted. Thank you!
 EditWelcomeSubject: Welcome
 EditWelcomeMessage: Hi @usershort, your user account has been created. Have fun editing the website.
-EditInformationSubject: Welcome back
-EditInformationMessage: Hi @usershort, your user account has been changed. You can now log in.
+EditGoodbyeSubject: Goodbye
+EditGoodbyeMessage: Hi @usershort, your user account has been deleted. Take care.
 EditVersionTitle: About this website
 EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: Checking for updates…

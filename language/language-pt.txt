@@ -3,7 +3,7 @@
 Language: pt
 LanguageDescription: Português
 LanguageTranslator: Al Garcia
-LanguageVersion: 0.7.8
+LanguageVersion: 0.7.9
 
 BlogBy: por
 BlogFilter: Blog:
@@ -12,7 +12,7 @@ BlogMore: Ler mais…
 ContactName: Nome:
 ContactEmail: Email:
 ContactMessage: Mensagem:
-ContactConsent: Eu concordo que este site armazena meus dados pessoais e os usa para entrar em contato comigo.
+ContactConsent: Eu concordo que este site armazena meus dados pessoais.
 ContactButton: Enviar mensagem
 ContactStatusNone: Diga olá. O seu feedback é bastante apreciado.
 ContactStatusIncomplete: Por favor, preencha todos os campos.
@@ -58,10 +58,16 @@ EditRecoverPassword: Senha:
 EditRecoverStatusPassword: Por favor digite uma senha válida.
 EditRecoverStatusWeak: Por favor insira uma senha diferente.
 EditSettingsTitle: Configurações
+EditSettingsQuit: You can delete your user account anytime.
+EditSettingsMore: More…
 EditSettingsStatusInvalid: Please enter a valid email.
 EditSettingsStatusTaken: Please enter a different email.
 EditSettingsStatusWeak: Please enter a different password.
 EditSettingsStatusNext: User account will be changed, please check your emails.
+EditQuitTitle: Delete user account
+EditQuitStatusNone: Please enter your name to confirm.
+EditQuitStatusMismatch: Please enter a different name.
+EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Confirmar conta de usuário
 EditConfirmMessage: Olá @usershort, por favor confirmar a sua conta de usuário. Clique no link abaixo.
 EditConfirmStatusDone: Conta de usuário confirmada e à espera de aprovação. Obrigado!
@@ -80,10 +86,13 @@ EditVerifyStatusDone: User account confirmed. Thank you!
 EditChangeSubject: Change user account
 EditChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
 EditChangeStatusDone: User account changed. Thank you!
+EditRemoveSubject: Delete user account
+EditRemoveMessage: Hi @usershort, please confirm that you want to delete your user account. Click the following link.
+EditRemoveStatusDone: User account deleted. Thank you!
 EditWelcomeSubject: Bem vindo
 EditWelcomeMessage: Oi @usershort, sua conta de usuário foi criada. Divirta-se na edição do site.
-EditInformationSubject: Bem vindo de volta
-EditInformationMessage: Oi @usershort, sua conta de usuário foi alterada. Agora você pode logar.
+EditGoodbyeSubject: Goodbye
+EditGoodbyeMessage: Hi @usershort, your user account has been deleted. Take care.
 EditVersionTitle: About this website
 EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: Checking for updates…

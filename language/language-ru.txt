@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.8
+LanguageVersion: 0.7.9
 
 BlogBy: автор
 BlogFilter: Блог:
@@ -12,7 +12,7 @@ BlogMore: Читать далее…
 ContactName: Имя:
 ContactEmail: Email:
 ContactMessage: Сообщение:
-ContactConsent: Я согласен, что этот сайт хранит мои личные данные и использует его для связи со мной.
+ContactConsent: Я согласен, что этот сайт хранит мои личные данные.
 ContactButton: Отправить сообщение
 ContactStatusNone: Привет. Ваше мнение очень приветствуются.
 ContactStatusIncomplete: Пожалуйста, заполните все поля.
@@ -58,10 +58,16 @@ EditRecoverPassword: Пароль:
 EditRecoverStatusPassword: Пожалуйста, введите новый пароль.
 EditRecoverStatusWeak: Пожалуйста, введите другой пароль.
 EditSettingsTitle: Настройки
+EditSettingsQuit: You can delete your user account anytime.
+EditSettingsMore: More…
 EditSettingsStatusInvalid: Please enter a valid email.
 EditSettingsStatusTaken: Please enter a different email.
 EditSettingsStatusWeak: Please enter a different password.
 EditSettingsStatusNext: User account will be changed, please check your emails.
+EditQuitTitle: Delete user account
+EditQuitStatusNone: Please enter your name to confirm.
+EditQuitStatusMismatch: Please enter a different name.
+EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Подтверждение учетной записи
 EditConfirmMessage: Привет @usershort, пожалуйста, подтвердите свою учетную запись. Нажмите на ссылку.
 EditConfirmStatusDone: Учетная запись подтверждена и ждет одобрения. Спасибо!
@@ -80,10 +86,13 @@ EditVerifyStatusDone: User account confirmed. Thank you!
 EditChangeSubject: Change user account
 EditChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
 EditChangeStatusDone: User account changed. Thank you!
+EditRemoveSubject: Delete user account
+EditRemoveMessage: Hi @usershort, please confirm that you want to delete your user account. Click the following link.
+EditRemoveStatusDone: User account deleted. Thank you!
 EditWelcomeSubject: Добро пожаловать
 EditWelcomeMessage: Привет @usershort, ваша учетная запись создана. Получайте удовольствие редактируя сайт.
-EditInformationSubject: С возвращением
-EditInformationMessage: Привет @usershort, ваша учетная запись пользователя была изменена. Теперь вы можете войти.
+EditGoodbyeSubject: Goodbye
+EditGoodbyeMessage: Hi @usershort, your user account has been deleted. Take care.
 EditVersionTitle: About this website
 EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: Checking for updates…

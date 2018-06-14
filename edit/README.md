@@ -1,4 +1,4 @@
-Edit plugin 0.7.18
+Edit plugin 0.7.19
 ==================
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
@@ -20,7 +20,7 @@ The login page is available on your website as `http://website/edit/`. Log in wi
 
 The first option is to create a user account in a web browser. Go to the login page. You can create a user account and change your password. The webmaster needs to approve new user accounts. The webmaster's email is defined in file `system/config/config.ini`.
 
-The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user` followed by email and password. You can add optional name and language. All user accounts are stored in file `system/config/user.ini`. See example below.
+The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user add` followed by email, password and an optional name. All user accounts are stored in file `system/config/user.ini`. See example below.
 
 ## How to configure a website?
 
@@ -63,8 +63,8 @@ EditToolbarButtons: preview, format, bold, italic, separator, quote, code, link,
 Creating a user account at the command line:
  
 `php yellow.php user`  
-`php yellow.php user email@example.com example`  
-`php yellow.php user email@example.com example Yellow en`  
+`php yellow.php user add email@example.com password`  
+`php yellow.php user remove email@example.com`  
 
 ## Developer
 

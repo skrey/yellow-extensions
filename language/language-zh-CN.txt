@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.7.8
+LanguageVersion: 0.7.9
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -12,7 +12,7 @@ BlogMore: 阅读全文…
 ContactName: 姓名:
 ContactEmail: E-mail:
 ContactMessage: 信息:
-ContactConsent: 我同意这个网站存储我的个人信息并用它与我联系。
+ContactConsent: 我同意这个网站存储我的个人资料。
 ContactButton: 发送
 ContactStatusNone: 您好！非常感谢您的反馈
 ContactStatusIncomplete: 请填写完所有栏位
@@ -58,10 +58,16 @@ EditRecoverPassword: 密码:
 EditRecoverStatusPassword: 请输入一个新密码
 EditRecoverStatusWeak: 请输入一个不同的密码
 EditSettingsTitle: 设置
+EditSettingsQuit: You can delete your user account anytime.
+EditSettingsMore: More…
 EditSettingsStatusInvalid: 请输入一个有效的e-mail地址
 EditSettingsStatusTaken: 请输入不同的e-mail地址
 EditSettingsStatusWeak: 请输入不同的密码
 EditSettingsStatusNext: 用户帐号将被更改，请查看您的电子邮件
+EditQuitTitle: Delete user account
+EditQuitStatusNone: Please enter your name to confirm.
+EditQuitStatusMismatch: Please enter a different name.
+EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: 确认用户帐号
 EditConfirmMessage: 你好 @usershort,请验证你的帐号，点击以下链接。
 EditConfirmStatusDone: 你的帐号已验证，谢谢！
@@ -80,10 +86,13 @@ EditVerifyStatusDone: 用户帐号已确认，谢谢！
 EditChangeSubject: 更改用户帐号
 EditChangeMessage: 你好 @usershort, 确定要更改您的用户帐号，请点击以下的链接。
 EditChangeStatusDone: 用户帐号已更改，谢谢！
+EditRemoveSubject: Delete user account
+EditRemoveMessage: Hi @usershort, please confirm that you want to delete your user account. Click the following link.
+EditRemoveStatusDone: User account deleted. Thank you!
 EditWelcomeSubject: 欢迎
 EditWelcomeMessage: 你好 @usershort,你的帐号已创建完毕，建站愉快。
-EditInformationSubject: 欢迎回来
-EditInformationMessage: 你好 @usershort,你的帐号你重置完毕，建站愉快。
+EditGoodbyeSubject: Goodbye
+EditGoodbyeMessage: Hi @usershort, your user account has been deleted. Take care.
 EditVersionTitle: 关于本站
 EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: 正在检查更新…

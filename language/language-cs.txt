@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.7.8
+LanguageVersion: 0.7.9
 
 BlogBy: Vytvořil
 BlogFilter: Blog:
@@ -12,7 +12,7 @@ BlogMore: Čti dále…
 ContactName: Jméno:
 ContactEmail: Email:
 ContactMessage: Zpráva:
-ContactConsent: Souhlasím s tím, aby tyto webové stránky ukládaly mé osobní údaje a používají je ke kontaktování.
+ContactConsent: Souhlasím s tím, aby tyto webové stránky uchovávaly mé osobní údaje.
 ContactButton: Odeslat zprávu
 ContactStatusNone: Zde můžete napsat svoje postřehy.
 ContactStatusIncomplete: Prosím, vyplňte všechna pole.
@@ -58,10 +58,16 @@ EditRecoverPassword: Heslo:
 EditRecoverStatusPassword: Vložte nové heslo.
 EditRecoverStatusWeak: Vložte jiné heslo.
 EditSettingsTitle: Nastavení
+EditSettingsQuit: You can delete your user account anytime.
+EditSettingsMore: More…
 EditSettingsStatusInvalid: Vložte email ve správném formátu.
 EditSettingsStatusTaken: Vložte jiný email.
 EditSettingsStatusWeak: Vložte jiné heslo.
 EditSettingsStatusNext: Nastavení uživatelského účtu změněno, podívejte se do emailové schránky.
+EditQuitTitle: Delete user account
+EditQuitStatusNone: Please enter your name to confirm.
+EditQuitStatusMismatch: Please enter a different name.
+EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Potvrzení uživatelského účtu
 EditConfirmMessage: Ahoj @usershort, nyní nastal čas potvrdit nový účet. Klikněte na následující odkaz.
 EditConfirmStatusDone: Účet potvrzen a čeká na schválení. Díky!
@@ -80,10 +86,13 @@ EditVerifyStatusDone: Elektronická adresa změněna. Díky!
 EditChangeSubject: Změna uživatelského účtu
 EditChangeMessage: Ahoj @usershort, je potřeba potvrdit změny uživatelského účtu. Klikněte na následující odkaz.
 EditChangeStatusDone: Uživatelský účet změněn. Díky!
+EditRemoveSubject: Delete user account
+EditRemoveMessage: Hi @usershort, please confirm that you want to delete your user account. Click the following link.
+EditRemoveStatusDone: User account deleted. Thank you!
 EditWelcomeSubject: Vítej uživateli
 EditWelcomeMessage: Ahoj @usershort, váš uživatelský účet byl vytvořen. Bavte se dobře.
-EditInformationSubject: Vítej zpět
-EditInformationMessage: Ahoj @usershort, váš uživatelský účet byl změněn. Nyní se můžete přihlásit.
+EditGoodbyeSubject: Goodbye
+EditGoodbyeMessage: Hi @usershort, your user account has been deleted. Take care.
 EditVersionTitle: O těchto stránkách
 EditVersionStatusNone: Datenstrom Yellow je pro lidi, kteří vytváří webové stránky.
 EditVersionStatusCheck: Zjišťuji nové aktualizace…

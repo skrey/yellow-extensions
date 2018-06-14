@@ -59,7 +59,7 @@ Syntax: yellow.php build [DIRECTORY LOCATION]
         yellow.php clean [DIRECTORY LOCATION]
         yellow.php traffic [DAYS LOCATION FILENAME]
         yellow.php update [OPTION FEATURE]
-        yellow.php user [EMAIL PASSWORD NAME LANGUAGE]
+        yellow.php user [OPTION EMAIL PASSWORD NAME]
         yellow.php version
 ~~~~
 
