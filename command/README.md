@@ -40,7 +40,7 @@ Create traffic analytics with the [traffic plugin](https://github.com/datenstrom
 **php yellow.php update [OPTION FEATURE]**  
 Update website with the [update plugin](https://github.com/datenstrom/yellow-plugins/tree/master/update)
 
-**php yellow.php user [EMAIL PASSWORD NAME LANGUAGE]**  
+**php yellow.php user [OPTION EMAIL PASSWORD NAME]**  
 Update user account with the [edit plugin](https://github.com/datenstrom/yellow-plugins/tree/master/edit)
 
 **php yellow.php version**  
