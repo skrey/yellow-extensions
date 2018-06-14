@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.7.9
+LanguageVersion: 0.7.10
 
 BlogBy: per
 BlogFilter: Blog:
@@ -69,30 +69,30 @@ EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
 EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Conferma account utente
-EditConfirmMessage: Ciao @usershort, per favore conferma il tuo account utente cliccando il link di seguito.
+EditConfirmMessage: Ciao @usershort,\n\nper favore conferma il tuo account utente cliccando il link di seguito.
 EditConfirmStatusDone: Account utente confermato e in attesa di approvazione. Grazie!
 EditApproveSubject: Approva account utente
-EditApproveMessage: Ciao @usershort, per favore approva un nuovo account per l'utente @useraccount cliccando il link di seguito.
+EditApproveMessage: Ciao @usershort,\n\nper favore approva un nuovo account per l'utente @useraccount cliccando il link di seguito.
 EditApproveStatusDone: Account approvato. Grazie!
 EditReactivateSubject: Reactivate user account
-EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateStatusDone: User account reactivated. Thank you!
 EditRecoverSubject: Recupera account utente
-EditRecoverMessage: Ciao @usershort, per favore conferma di aver perso la password cliccando il link di seguito.
+EditRecoverMessage: Ciao @usershort,\n\nper favore conferma di aver perso la password cliccando il link di seguito.
 EditRecoverStatusDone: Account utente recuperato. Grazie!
 EditVerifySubject: Confirm user account
-EditVerifyMessage: Hi @usershort, please confirm a new email for your user account. Click the following link.
+EditVerifyMessage: Hi @usershort,\n\nplease confirm a new email for your user account. Click the following link.
 EditVerifyStatusDone: User account confirmed. Thank you!
 EditChangeSubject: Change user account
-EditChangeMessage: Hi @usershort, please confirm that you want to change your user account. Click the following link.
+EditChangeMessage: Hi @usershort,\n\nplease confirm that you want to change your user account. Click the following link.
 EditChangeStatusDone: User account changed. Thank you!
 EditRemoveSubject: Delete user account
-EditRemoveMessage: Hi @usershort, please confirm that you want to delete your user account. Click the following link.
+EditRemoveMessage: Hi @usershort,\n\nplease confirm that you want to delete your user account. Click the following link.
 EditRemoveStatusDone: User account deleted. Thank you!
 EditWelcomeSubject: Benvenuto
-EditWelcomeMessage: Ciao @usershort, il tuo account utente è stato creato. Buon lavoro!
+EditWelcomeMessage: Ciao @usershort,\n\nil tuo account utente è stato creato. Buon lavoro!
 EditGoodbyeSubject: Goodbye
-EditGoodbyeMessage: Hi @usershort, your user account has been deleted. Take care.
+EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
 EditVersionTitle: About this website
 EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: Checking for updates…

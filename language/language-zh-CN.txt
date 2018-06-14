@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.7.9
+LanguageVersion: 0.7.10
 
 BlogBy: 作者:
 BlogFilter: 博客归档:
@@ -69,30 +69,30 @@ EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
 EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: 确认用户帐号
-EditConfirmMessage: 你好 @usershort,请验证你的帐号，点击以下链接。
+EditConfirmMessage: 你好 @usershort,\n\n请验证你的帐号，点击以下链接。
 EditConfirmStatusDone: 你的帐号已验证，谢谢！
 EditApproveSubject: 审批用户帐号
-EditApproveMessage: 你好 @usershort, 请为 @useraccount 批准一个新帐号。点击以下链接。
+EditApproveMessage: 你好 @usershort,\n\n请为 @useraccount 批准一个新帐号。点击以下链接。
 EditApproveStatusDone: 用户帐号已批准，谢谢！
 EditReactivateSubject: 激活用户帐号
-EditReactivateMessage: 你好 @usershort, 登录尝试失败太多。请点击以下的链接激活您的帐号。
+EditReactivateMessage: 你好 @usershort,\n\n登录尝试失败太多。请点击以下的链接激活您的帐号。
 EditReactivateStatusDone: 用户帐号重新激活，谢谢！
 EditRecoverSubject: 重置用户帐号
-EditRecoverMessage: 你好 @usershort,确定忘了密码请点击以下链接。
+EditRecoverMessage: 你好 @usershort,\n\n确定忘了密码请点击以下链接。
 EditRecoverStatusDone: 用户帐号已重置，谢谢！
 EditVerifySubject: 确认用户帐号
-EditVerifyMessage: 你好 @usershort, 确定要更改您的用户帐号，请点击以下的链接。
+EditVerifyMessage: 你好 @usershort,\n\n确定要更改您的用户帐号，请点击以下的链接。
 EditVerifyStatusDone: 用户帐号已确认，谢谢！
 EditChangeSubject: 更改用户帐号
-EditChangeMessage: 你好 @usershort, 确定要更改您的用户帐号，请点击以下的链接。
+EditChangeMessage: 你好 @usershort,\n\n确定要更改您的用户帐号，请点击以下的链接。
 EditChangeStatusDone: 用户帐号已更改，谢谢！
 EditRemoveSubject: Delete user account
-EditRemoveMessage: Hi @usershort, please confirm that you want to delete your user account. Click the following link.
+EditRemoveMessage: Hi @usershort,\n\nplease confirm that you want to delete your user account. Click the following link.
 EditRemoveStatusDone: User account deleted. Thank you!
 EditWelcomeSubject: 欢迎
-EditWelcomeMessage: 你好 @usershort,你的帐号已创建完毕，建站愉快。
+EditWelcomeMessage: 你好 @usershort,\n\n你的帐号已创建完毕，建站愉快。
 EditGoodbyeSubject: Goodbye
-EditGoodbyeMessage: Hi @usershort, your user account has been deleted. Take care.
+EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
 EditVersionTitle: 关于本站
 EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: 正在检查更新…

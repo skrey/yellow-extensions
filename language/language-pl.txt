@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.9
+LanguageVersion: 0.7.10
 
 BlogBy: przez
 BlogFilter: Blog:
@@ -69,30 +69,30 @@ EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
 EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Potwierdzenie konta użytkownika
-EditConfirmMessage: Hej @usershort! Prosimy potwierdzić swoje konto. Kliknij w poniższy link.
+EditConfirmMessage: Hej @usershort!\n\nProsimy potwierdzić swoje konto. Kliknij w poniższy link.
 EditConfirmStatusDone: Konto użytkownika zostało potwierdzone i czeka na aktywację. Dziękujemy!
 EditApproveSubject: Zatwierdzenie konta użytkownika
-EditApproveMessage: Hej @usershort! Prosimy zatwierdzić konto użytkownika @useraccount. Kliknij w poniższy link.
+EditApproveMessage: Hej @usershort!\n\nProsimy zatwierdzić konto użytkownika @useraccount. Kliknij w poniższy link.
 EditApproveStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
 EditReactivateSubject: Reactivate user account
-EditReactivateMessage: Hi @usershort, please reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateStatusDone: User account reactivated. Thank you!
 EditRecoverSubject: Odzyskiwanie konta użytkownika
-EditRecoverMessage: Hej @usershort! Prosimy o potwierdzenie, że zapomniałeś/aś hasła. Kliknij w poniższy link.
+EditRecoverMessage: Hej @usershort!\n\nProsimy o potwierdzenie, że zapomniałeś/aś hasła. Kliknij w poniższy link.
 EditRecoverStatusDone: Konto użytkownika zostało przywrócone. Dziękujemy!
 EditVerifySubject: Potwierdzenie konta użytkownika
-EditVerifyMessage: Hej @usershort! Prosimy o potwierdzenie nowego maila dla Twojego konta. Kliknij w poniższy link.
+EditVerifyMessage: Hej @usershort!\n\nProsimy o potwierdzenie nowego maila dla Twojego konta. Kliknij w poniższy link.
 EditVerifyStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
 EditChangeSubject: Zmiana konta użytkownika
-EditChangeMessage: Hej @usershort! Prosimy o potwierdzenie, że chcesz dokonać zmian w Twoim koncie. Kliknij w poniższy link.
+EditChangeMessage: Hej @usershort!\n\nProsimy o potwierdzenie, że chcesz dokonać zmian w Twoim koncie. Kliknij w poniższy link.
 EditChangeStatusDone: Konto użytkownika zostało zmienione. Dziękujemy!
 EditRemoveSubject: Delete user account
-EditRemoveMessage: Hi @usershort, please confirm that you want to delete your user account. Click the following link.
+EditRemoveMessage: Hi @usershort,\n\nplease confirm that you want to delete your user account. Click the following link.
 EditRemoveStatusDone: User account deleted. Thank you!
 EditWelcomeSubject: Powitanie
-EditWelcomeMessage: Hej @usershort! Twoje konto użytkownika zostało utworzone. Miłej edycji strony.
+EditWelcomeMessage: Hej @usershort!\n\nTwoje konto użytkownika zostało utworzone. Miłej edycji strony.
 EditGoodbyeSubject: Goodbye
-EditGoodbyeMessage: Hi @usershort, your user account has been deleted. Take care.
+EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
 EditVersionTitle: O tej stronie
 EditVersionStatusNone: Datenstrom Yellow jest dla ludzi, którzy tworzą strony internetowe.
 EditVersionStatusCheck: Sprawdzanie aktualizacji…
