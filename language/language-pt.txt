@@ -3,10 +3,9 @@
 Language: pt
 LanguageDescription: Português
 LanguageTranslator: Al Garcia
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: por
-BlogFilter: Blog:
 BlogTag: Tags:
 BlogMore: Ler mais…
 ContactName: Nome:
@@ -142,7 +141,6 @@ PagePrevious: ← Anterior: @title
 PageNext: Seguinte: @title →
 PaginationPrevious: ← Anterior
 PaginationNext: Seguinte →
-SearchQuery: Pesquisar:
 SearchResultsNone: Introduza um termo de pesquisa.
 SearchResultsEmpty: Não foram encontrados resultados.
 SearchSpecialChanges: Alterações recentes
@@ -150,7 +148,6 @@ SearchButton: Pesquisa
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: Todas as páginas
 WikiSpecialChanges: Alterações recentes

@@ -3,10 +3,9 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: af
-BlogFilter: Blog:
 BlogTag: Tags:
 BlogMore: Læs mere…
 ContactName: Navn:
@@ -142,7 +141,6 @@ PagePrevious: ← Forrige: @title
 PageNext: Næste: @title →
 PaginationPrevious: ← Forrige
 PaginationNext: Næste →
-SearchQuery: Søg:
 SearchResultsNone: Indtast ny søgning.
 SearchResultsEmpty: Ingen resultater fundet.
 SearchSpecialChanges: Ny ændringer
@@ -150,7 +148,6 @@ SearchButton: Søg
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: Alle sider
 WikiSpecialChanges: Ny ændringer

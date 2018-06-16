@@ -3,10 +3,9 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: Vytvořil
-BlogFilter: Blog:
 BlogTag: Tags:
 BlogMore: Čti dále…
 ContactName: Jméno:
@@ -142,7 +141,6 @@ PagePrevious: ← Předchozí: @title
 PageNext: Následující: @title →
 PaginationPrevious: ← Předchozí
 PaginationNext: Následující →
-SearchQuery: Hledej:
 SearchResultsNone: Vlož hledaný text.
 SearchResultsEmpty: Požadovaný text nenalezen.
 SearchSpecialChanges: Poslední změny
@@ -150,7 +148,6 @@ SearchButton: Hledej
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: Všechny stránky
 WikiSpecialChanges: Poslední změny

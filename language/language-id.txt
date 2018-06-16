@@ -3,10 +3,9 @@
 Language: id
 LanguageDescription: Bahasa Indonesia
 LanguageTranslator: Jimmy Ofisia
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: oleh
-BlogFilter: Blog:
 BlogTag: Label:
 BlogMore: Selengkapnya…
 ContactName: Nama:
@@ -142,7 +141,6 @@ PagePrevious: ← Sebelumnya: @title
 PageNext: Selanjutnya: @title →
 PaginationPrevious: ← Sebelumnya
 PaginationNext: Selanjutnya →
-SearchQuery: Pencarian:
 SearchResultsNone: Masukkan kata pencarian.
 SearchResultsEmpty: Tak ada hasil ditemukan.
 SearchSpecialChanges: Perubahan belakangan ini
@@ -150,7 +148,6 @@ SearchButton: Cari
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Label:
 WikiSpecialPages: Semua halaman
 WikiSpecialChanges: Perubahan belakangan ini

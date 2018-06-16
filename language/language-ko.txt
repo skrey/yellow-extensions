@@ -3,10 +3,9 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: by
-BlogFilter: 글:
 BlogTag: 태그:
 BlogMore: 더 읽기…
 ContactName: 이름:
@@ -142,7 +141,6 @@ PagePrevious: ← 이전 글: @title
 PageNext: 다음 글: @title →
 PaginationPrevious: ← 이전 글
 PaginationNext: 다음 글 →
-SearchQuery: 검색:
 SearchResultsNone: 검색어를 입력해주세요.
 SearchResultsEmpty: 검색결과가 없습니다.
 SearchSpecialChanges: 최근 바뀜
@@ -150,7 +148,6 @@ SearchButton: 검색
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: 위키:
 WikiTag: 태그:
 WikiSpecialPages: 모든 페이지
 WikiSpecialChanges: 최근 바뀜

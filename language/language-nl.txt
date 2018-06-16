@@ -3,10 +3,9 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: door
-BlogFilter: Blog:
 BlogTag: Labels:
 BlogMore: Lees meer…
 ContactName: Naam:
@@ -142,7 +141,6 @@ PagePrevious: ← Vorige: @title
 PageNext: Volgende: @title →
 PaginationPrevious: ← Vorige
 PaginationNext: Volgende →
-SearchQuery: Zoek:
 SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
 SearchSpecialChanges: Recente wijzigingen
@@ -150,7 +148,6 @@ SearchButton: Zoek
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Labels:
 WikiSpecialPages: Alle pagina's
 WikiSpecialChanges: Recente wijzigingen

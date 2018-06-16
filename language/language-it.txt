@@ -3,10 +3,9 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: per
-BlogFilter: Blog:
 BlogTag: Tag:
 BlogMore: Leggi di più…
 ContactName: Nome:
@@ -142,7 +141,6 @@ PagePrevious: ← Precedente: @title
 PageNext: Successivo: @title →
 PaginationPrevious: ← Precedente
 PaginationNext: Successivo →
-SearchQuery: Cerca:
 SearchResultsNone: Inserisci il termine da cercare.
 SearchResultsEmpty: Nessun risultato trovato.
 SearchSpecialChanges: Modifiche recenti
@@ -150,7 +148,6 @@ SearchButton: Cerca
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Tag:
 WikiSpecialPages: Tutte le pagine
 WikiSpecialChanges: Modifiche recenti

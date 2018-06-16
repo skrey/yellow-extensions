@@ -3,10 +3,9 @@
 Language: hu
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: by
-BlogFilter: Blog:
 BlogTag: Címke:
 BlogMore: Bővebben…
 ContactName: Név:
@@ -142,7 +141,6 @@ PagePrevious: ← Előző: @title
 PageNext: Tovább: @title →
 PaginationPrevious: ← Előző
 PaginationNext: Tovább →
-SearchQuery: Keresés:
 SearchResultsNone: Keresett kifejezés
 SearchResultsEmpty: Nincs találat.
 SearchSpecialChanges: Legutóbbi változások
@@ -150,7 +148,6 @@ SearchButton: Keresés
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Címke:
 WikiSpecialPages: Az összes oldal
 WikiSpecialChanges: Legutóbbi változások

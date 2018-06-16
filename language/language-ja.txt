@@ -3,10 +3,9 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: by
-BlogFilter: Blog:
 BlogTag: Tags:
 BlogMore: 全文を表示して見る…
 ContactName: 氏名:
@@ -142,7 +141,6 @@ PagePrevious: ← 前のページへ : @title
 PageNext: 次のページへ : @title →
 PaginationPrevious: ← 戻る
 PaginationNext: 次へ →
-SearchQuery: 検索:
 SearchResultsNone: 検索キーワードをご入力下さい。
 SearchResultsEmpty: 検索結果が見つかりません。
 SearchSpecialChanges: 最近の更新
@@ -150,7 +148,6 @@ SearchButton: 検索
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: 全てのページ
 WikiSpecialChanges: 最近の更新状況

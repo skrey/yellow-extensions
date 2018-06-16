@@ -3,10 +3,9 @@
 Language: sk
 LanguageDescription: Slovenčina
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: od
-BlogFilter: Blog:
 BlogTag: Štítky:
 BlogMore: Čítať ďalej…
 ContactName: Meno:
@@ -142,7 +141,6 @@ PagePrevious: ← Predchádzajúci: @title
 PageNext: Nasledujúci: @title →
 PaginationPrevious: ← Predchádzajúci
 PaginationNext: Nasledujúci →
-SearchQuery: Vyhľadávanie :
 SearchResultsNone: Hľadaný výraz.
 SearchResultsEmpty: Židne výsledky.
 SearchSpecialChanges: Posledné zmeny
@@ -150,7 +148,6 @@ SearchButton: Hľadať
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Štítky:
 WikiSpecialPages: Vse strani
 WikiSpecialChanges: Posledné zmeny

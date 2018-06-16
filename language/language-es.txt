@@ -3,10 +3,9 @@
 Language: es
 LanguageDescription: Español
 LanguageTranslator: Al Garcia, David Garcia
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: por
-BlogFilter: Blog:
 BlogTag: Etiquetas:
 BlogMore: Leer más…
 ContactName: Nombre:
@@ -142,7 +141,6 @@ PagePrevious: ← Anterior: @title
 PageNext: Siguiente: @title →
 PaginationPrevious: ← Anterior
 PaginationNext: Siguiente →
-SearchQuery: Buscar:
 SearchResultsNone: Introduce un término de búsqueda.
 SearchResultsEmpty: No se encontraron resultados.
 SearchSpecialChanges: Cambios recientes
@@ -150,7 +148,6 @@ SearchButton: Buscar
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Etiquetas:
 WikiSpecialPages: Todas las páginas
 WikiSpecialChanges: Cambios recientes

@@ -3,10 +3,9 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: автор
-BlogFilter: Блог:
 BlogTag: Тэги:
 BlogMore: Читать далее…
 ContactName: Имя:
@@ -142,7 +141,6 @@ PagePrevious: ← Назад: @title
 PageNext: Далее: @title →
 PaginationPrevious: ← Назад
 PaginationNext: Далее →
-SearchQuery: Поиск:
 SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
 SearchSpecialChanges: Последние изменения
@@ -150,7 +148,6 @@ SearchButton: Искать
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Вики:
 WikiTag: Тэги:
 WikiSpecialPages: Все страницы
 WikiSpecialChanges: Последние изменения

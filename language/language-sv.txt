@@ -3,10 +3,9 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: av
-BlogFilter: Blogg:
 BlogTag: Taggar:
 BlogMore: Läs mer…
 ContactName: Namn:
@@ -142,7 +141,6 @@ PagePrevious: ← Tidigare: @title
 PageNext: Nästa: @title →
 PaginationPrevious: ← Tidigare
 PaginationNext: Nästa →
-SearchQuery: Sök:
 SearchResultsNone: Skriv ett sökord.
 SearchResultsEmpty: Inga resultat funna.
 SearchSpecialChanges: Senaste ändringarna
@@ -150,7 +148,6 @@ SearchButton: Sök
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Taggar:
 WikiSpecialPages: Alla sidor
 WikiSpecialChanges: Senaste ändringarna

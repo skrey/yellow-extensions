@@ -3,10 +3,9 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: 作者:
-BlogFilter: 博客归档:
 BlogTag: 标签:
 BlogMore: 阅读全文…
 ContactName: 姓名:
@@ -142,7 +141,6 @@ PagePrevious: ← 上一页 @title
 PageNext: 下一页 @title →
 PaginationPrevious: ← 上一页
 PaginationNext: 下一页 →
-SearchQuery: 搜索:
 SearchResultsNone: 请输入搜索关键字
 SearchResultsEmpty: 搜索查无结果
 SearchSpecialChanges: 最近更改
@@ -150,7 +148,6 @@ SearchButton: 查找
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki归档:
 WikiTag: 标签:
 WikiSpecialPages: 所有页面
 WikiSpecialChanges: 最近更改

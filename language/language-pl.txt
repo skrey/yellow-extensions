@@ -3,10 +3,9 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: przez
-BlogFilter: Blog:
 BlogTag: Tagi:
 BlogMore: Czytaj dalej…
 ContactName: Nazwa:
@@ -142,7 +141,6 @@ PagePrevious: ← Poprzednia: @title
 PageNext: Następna: @title →
 PaginationPrevious: ← Poprzednie
 PaginationNext: Następne →
-SearchQuery: Szukaj:
 SearchResultsNone: Wpisz szukaną frazę.
 SearchResultsEmpty: Nie znaleziono wyników.
 SearchSpecialChanges: Ostatnie zmiany
@@ -150,7 +148,6 @@ SearchButton: Szukaj
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Tagi:
 WikiSpecialPages: Wszystkie strony
 WikiSpecialChanges: Ostatnie zmiany

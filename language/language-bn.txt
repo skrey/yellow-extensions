@@ -3,10 +3,9 @@
 Language: bn
 LanguageDescription: Bangali (Bangladesh)
 LanguageTranslator: Mohammed Nazmul Ferdous
-LanguageVersion: 0.7.10
+LanguageVersion: 0.7.11
 
 BlogBy: লিখেছেন
-BlogFilter: ব্লগ:
 BlogTag: ট্যাগ সমূহ:
 BlogMore: আরো পড়ুন…
 ContactName: নাম:
@@ -142,7 +141,6 @@ PagePrevious: ← পূর্ববর্তী: @title
 PageNext: পরবর্তী: @title →
 PaginationPrevious: ← পূর্ববর্তী
 PaginationNext: পরবর্তী →
-SearchQuery: অনুসন্ধান ফলাফল:
 SearchResultsNone: একটি অনুসন্ধান শব্দ লিখুন।
 SearchResultsEmpty: কোন ফলাফল পাওয়া যায়নি।
 SearchSpecialChanges: সাম্প্রতিক পরিবর্তন
@@ -150,7 +148,6 @@ SearchButton: খোঁজ করুন
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiFilter: Wiki:
 WikiTag: Tags:
 WikiSpecialPages: সমস্ত পৃষ্ঠা
 WikiSpecialChanges: সাম্প্রতিক পরিবর্তন
