@@ -1,4 +1,4 @@
-Feed plugin 0.7.2
+Feed plugin 0.7.3
 =================
 Web feed with recent changes. [See demo](https://developers.datenstrom.se/feed/).
 
