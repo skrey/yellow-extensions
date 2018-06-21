@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: per
 BlogTag: Tag:
@@ -11,7 +11,7 @@ BlogMore: Leggi di più…
 ContactName: Nome:
 ContactEmail: Email:
 ContactMessage: Messaggio:
-ContactConsent: Acconsento che questo sito memorizzi i miei dati personali.
+ContactConsent: Acconsento che questo sito Web memorizzi il mio messaggio.
 ContactButton: Invia messaggio
 ContactStatusNone: Di la tua. La tua opinione è importante.
 ContactStatusIncomplete: Per favore, compila tutti i campi.

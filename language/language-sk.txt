@@ -3,7 +3,7 @@
 Language: sk
 LanguageDescription: Slovenčina
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: od
 BlogTag: Štítky:
@@ -11,7 +11,7 @@ BlogMore: Čítať ďalej…
 ContactName: Meno:
 ContactEmail: Email:
 ContactMessage: Správa:
-ContactConsent: Soglašam, da ta spletna stran shrani moje osebne podatke.
+ContactConsent: Soglašam, da ta spletna stran shrani moje sporočilo.
 ContactButton: Poslať správu
 ContactStatusNone: Napíš pár slov. Ceníme tvoj názor.
 ContactStatusIncomplete: Prosím vyplň všetky pole.

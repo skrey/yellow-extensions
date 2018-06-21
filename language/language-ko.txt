@@ -3,7 +3,7 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: by
 BlogTag: 태그:
@@ -11,7 +11,7 @@ BlogMore: 더 읽기…
 ContactName: 이름:
 ContactEmail: E-mail:
 ContactMessage: 메시지:
-ContactConsent: 나는이 웹 사이트가 나의 개인 데이터를 저장하는 것에 동의한다.
+ContactConsent: 이 웹 사이트에 내 메시지가 저장된다는 것에 동의합니다.
 ContactButton: 메시지 보내기
 ContactStatusNone: 안녕하세요. 피드백은 항상 환영합니다.
 ContactStatusIncomplete: 모든 칸을 채워주세요.

@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: Vytvořil
 BlogTag: Tags:
@@ -11,7 +11,7 @@ BlogMore: Čti dále…
 ContactName: Jméno:
 ContactEmail: Email:
 ContactMessage: Zpráva:
-ContactConsent: Souhlasím s tím, aby tyto webové stránky uchovávaly mé osobní údaje.
+ContactConsent: Souhlasím s tím, aby tato webová stránka uchovala mou zprávu.
 ContactButton: Odeslat zprávu
 ContactStatusNone: Zde můžete napsat svoje postřehy.
 ContactStatusIncomplete: Prosím, vyplňte všechna pole.

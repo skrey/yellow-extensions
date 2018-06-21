@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: Автор
 BlogTag: Тэги:
@@ -11,7 +11,7 @@ BlogMore: Читать далее…
 ContactName: Имя:
 ContactEmail: Email:
 ContactMessage: Сообщение:
-ContactConsent: Я согласен, что этот сайт хранит мои личные данные.
+ContactConsent: Я согласен, что этот сайт хранит мое сообщение.
 ContactButton: Отправить сообщение
 ContactStatusNone: Привет. Ваши отзывы очень приветствуются.
 ContactStatusIncomplete: Пожалуйста, заполните все поля.

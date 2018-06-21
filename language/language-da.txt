@@ -3,7 +3,7 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: af
 BlogTag: Tags:
@@ -11,7 +11,7 @@ BlogMore: Læs mere…
 ContactName: Navn:
 ContactEmail: Email:
 ContactMessage: Besked:
-ContactConsent: Jeg accepterer, at denne hjemmeside gemmer mine personlige data.
+ContactConsent: Jeg accepterer, at denne hjemmeside gemmer min besked.
 ContactButton: Send besked
 ContactStatusNone: Sig hej. Vi er glad for dine kommentarer.
 ContactStatusIncomplete: Udfyld venligst alle felter.

@@ -3,7 +3,7 @@
 Language: es
 LanguageDescription: Español
 LanguageTranslator: Al Garcia, David Garcia
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: por
 BlogTag: Etiquetas:
@@ -11,7 +11,7 @@ BlogMore: Leer más…
 ContactName: Nombre:
 ContactEmail: Email:
 ContactMessage: Mensaje:
-ContactConsent: Doy mi consentimiento para que este sitio web almacene mis datos personales.
+ContactConsent: Doy mi consentimiento para que este sitio web almacene mi mensaje.
 ContactButton: Enviar mensaje
 ContactStatusNone: Di hola. Tus comentarios son bien recibidos.
 ContactStatusIncomplete: Por favor llena todos los campos.

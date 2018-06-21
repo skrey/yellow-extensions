@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: av
 BlogTag: Taggar:
@@ -11,7 +11,7 @@ BlogMore: Läs mer…
 ContactName: Namn:
 ContactEmail: Email:
 ContactMessage: Meddelande:
-ContactConsent: Jag godkänner att denna webbplats lagrar mina personuppgifter.
+ContactConsent: Jag godkänner att denna webbplats lagrar mitt meddelande.
 ContactButton: Skicka meddelande
 ContactStatusNone: Säg hej. Din feedback är väldigt välkommen.
 ContactStatusIncomplete: Vänligen fyll i alla fält.

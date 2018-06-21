@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: door
 BlogTag: Labels:
@@ -11,7 +11,7 @@ BlogMore: Lees meer…
 ContactName: Naam:
 ContactEmail: Email:
 ContactMessage: Bericht:
-ContactConsent: Ik ga ermee akkoord dat deze website mijn persoonlijke gegevens opslaat.
+ContactConsent: Ik ga ermee akkoord dat deze website mijn bericht opslaat.
 ContactButton: Verstuur bericht
 ContactStatusNone: Zeg hallo. Uw feedback is zeer welkom.
 ContactStatusIncomplete: Vul alle velden in.

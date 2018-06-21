@@ -3,7 +3,7 @@
 Language: id
 LanguageDescription: Bahasa Indonesia
 LanguageTranslator: Jimmy Ofisia
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: oleh
 BlogTag: Label:
@@ -11,7 +11,7 @@ BlogMore: Selengkapnya…
 ContactName: Nama:
 ContactEmail: Surel:
 ContactMessage: Pesan:
-ContactConsent: Saya setuju bahwa situs web ini menyimpan data pribadi saya.
+ContactConsent: Saya setuju bahwa situs web ini menyimpan pesan saya.
 ContactButton: Kirim pesan
 ContactStatusNone: Ucapkan halo. Umpan balik anda sangat diharapkan.
 ContactStatusIncomplete: Silahkan mengisi semua bidang.

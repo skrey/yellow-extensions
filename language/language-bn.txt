@@ -3,7 +3,7 @@
 Language: bn
 LanguageDescription: Bangali (Bangladesh)
 LanguageTranslator: Mohammed Nazmul Ferdous
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: লিখেছেন
 BlogTag: ট্যাগ সমূহ:
@@ -11,7 +11,7 @@ BlogMore: আরো পড়ুন…
 ContactName: নাম:
 ContactEmail: ইমেইল:
 ContactMessage: বার্তা:
-ContactConsent: আমি সম্মত যে এই ওয়েবসাইটটি আমার ব্যক্তিগত ডেটা সঞ্চয় করে।
+ContactConsent: আমি সম্মত যে এই ওয়েবসাইটটি আমার বার্তাটি সংরক্ষণ করে।
 ContactButton: বার্তা পাঠান
 ContactStatusNone: স্বাগতম! আপনার মতামত খুবই গুরুত্বপূর্ণ। 
 ContactStatusIncomplete: অনুগ্রহ করে সকল ঘর পূরণ করুন। 

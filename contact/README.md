@@ -1,4 +1,4 @@
-Contact plugin 0.7.1
+Contact plugin 0.7.2
 ====================
 Email contact page.
 

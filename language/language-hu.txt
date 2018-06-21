@@ -3,7 +3,7 @@
 Language: hu
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.7.11
+LanguageVersion: 0.7.12
 
 BlogBy: by
 BlogTag: Címke:
@@ -11,7 +11,7 @@ BlogMore: Bővebben…
 ContactName: Név:
 ContactEmail: E-mail:
 ContactMessage: Üzenet:
-ContactConsent: Elfogadom, hogy ez a weboldal tárolja személyes adataimat.
+ContactConsent: Hozzájárulok, hogy ez a weboldal tárolja az üzenetet.
 ContactButton: Üzenet küldése
 ContactStatusNone: Szólj hozzánk. Fontos a véleményed.
 ContactStatusIncomplete: Kérlek töltsd ki a mezőket.
