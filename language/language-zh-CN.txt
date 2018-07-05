@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.7.12
+LanguageVersion: 0.7.13
 
 BlogBy: 作者:
 BlogTag: 标签:
@@ -96,8 +96,8 @@ EditVersionTitle: 关于本站
 EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
 EditVersionStatusCheck: 正在检查更新…
 EditVersionStatusDone: 已是最新版
-EditVersionStatusUpdates: 有更新可用，请联系网站管理员
-EditVersionUpdateNormal: 有更新可用，现在更新
+EditVersionStatusWarning：有更新可用，请更新您的网站。
+EditVersionStatusUpdates：有更新可用，现在更新。
 EditVersionUpdateForce: 强制更新
 EditVersionUpdateModified: @software 已被更改
 EditUploadProgress: [上传文件…]

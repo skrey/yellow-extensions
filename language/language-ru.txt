@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.12
+LanguageVersion: 0.7.13
 
 BlogBy: Автор
 BlogTag: Тэги:
@@ -96,8 +96,8 @@ EditVersionTitle: Об этом сайте
 EditVersionStatusNone: Datenstrom Yellow предназначен для людей, создающих веб-сайты.
 EditVersionStatusCheck: Проверка обновлений…
 EditVersionStatusDone: Ваш сайт обновлен.
-EditVersionStatusUpdates: Доступны обновления, пожалуйста, свяжитесь с веб-мастером.
-EditVersionUpdateNormal: Доступны обновления, обновить сейчас.
+EditVersionStatusWarning: Доступны обновления, пожалуйста, обновите свой сайт.
+EditVersionStatusUpdates: Доступны обновления, обновите сейчас.
 EditVersionUpdateForce: Принудительно обновить
 EditVersionUpdateModified: @software был изменен
 EditUploadProgress: [Загрузка файла ...]

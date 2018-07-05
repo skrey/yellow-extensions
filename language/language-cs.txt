@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.7.12
+LanguageVersion: 0.7.13
 
 BlogBy: Vytvořil
 BlogTag: Tags:
@@ -96,8 +96,8 @@ EditVersionTitle: O těchto stránkách
 EditVersionStatusNone: Datenstrom Yellow je pro lidi, kteří vytváří webové stránky.
 EditVersionStatusCheck: Zjišťuji nové aktualizace…
 EditVersionStatusDone: Tento web je aktuální.
-EditVersionStatusUpdates: Dostupné nové aktualizace, kontaktujte správce.
-EditVersionUpdateNormal: Dostupné nové aktualizace, aktualizovat nyní.
+EditVersionStatusWarning: Dostupné nové aktualizace, aktualizujte prosím vaše webové stránky.
+EditVersionStatusUpdates: Dostupné nové aktualizace, aktualizace nyní.
 EditVersionUpdateForce: 'Tvrdá' aktualizace
 EditVersionUpdateModified: @software byl aktualizován
 EditUploadProgress: [Uploading file…]

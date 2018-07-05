@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.12
+LanguageVersion: 0.7.13
 
 BlogBy: przez
 BlogTag: Tagi:
@@ -96,8 +96,8 @@ EditVersionTitle: O tej stronie
 EditVersionStatusNone: Datenstrom Yellow jest dla ludzi, którzy tworzą strony internetowe.
 EditVersionStatusCheck: Sprawdzanie aktualizacji…
 EditVersionStatusDone: Twoja strona jest aktualna.
-EditVersionStatusUpdates: Aktualizacje są dostępne. Skontaktuj się z webmasterem.
-EditVersionUpdateNormal: Aktualizacje są dostępne. Zaktualizuj stronę teraz.
+EditVersionStatusWarning: Aktualizacje są dostępne, zaktualizuj swoją witrynę.
+EditVersionStatusUpdates: Aktualizacje są dostępne, aktualizuj teraz.
 EditVersionUpdateForce: Wymuś aktualizację
 EditVersionUpdateModified: @software został zmodyfikowany
 EditUploadProgress: [Przesyłanie pliku…]
