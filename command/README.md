@@ -35,7 +35,7 @@ Check static files for broken links
 Clean static files
 
 **php yellow.php release [DIRECTORY]**  
-Create software release with the [release plugin](https://github.com/datenstrom/yellow-plugins/tree/master/release)
+Create new software release with the [release plugin](https://github.com/datenstrom/yellow-plugins/tree/master/release)
 
 **php yellow.php traffic [DAYS LOCATION FILENAME]**  
 Create traffic analytics with the [traffic plugin](https://github.com/datenstrom/yellow-plugins/tree/master/traffic)

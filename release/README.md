@@ -1,6 +1,6 @@
 Release plugin 0.7.2
 ====================
-Create software release for plugins and themes.
+Create new software release.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
 
