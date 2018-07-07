@@ -34,6 +34,9 @@ Check static files for broken links
 **php yellow.php clean [DIRECTORY LOCATION]**  
 Clean static files
 
+**php yellow.php release [DIRECTORY]**  
+Create software release with the [release plugin](https://github.com/datenstrom/yellow-plugins/tree/master/release)
+
 **php yellow.php traffic [DAYS LOCATION FILENAME]**  
 Create traffic analytics with the [traffic plugin](https://github.com/datenstrom/yellow-plugins/tree/master/traffic)
 
@@ -57,6 +60,7 @@ Datenstrom Yellow 0.7.4
 Syntax: yellow.php build [DIRECTORY LOCATION]
         yellow.php check [DIRECTORY LOCATION]
         yellow.php clean [DIRECTORY LOCATION]
+        yellow.php release [DIRECTORY]
         yellow.php traffic [DAYS LOCATION FILENAME]
         yellow.php update [OPTION FEATURE]
         yellow.php user [OPTION EMAIL PASSWORD NAME]
