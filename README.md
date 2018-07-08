@@ -87,7 +87,7 @@ Experimental plugins:
   A hamburger menu button.
 * [CheetJS](https://github.com/nogginfuel/yellow-plugin-cheetjs): 
   Add easter eggs via key binds.
-* [Comments](https://github.com/nasendackel/yellow-comments):
+* [Comments](https://github.com/wunderfeyd/yellow-comments):
   Get in touch with users of your website directly.
 * [DynamicCss](https://github.com/richi/yellow-plugin-dynamiccss):
   A (very) small CSS preprocessor.
@@ -101,16 +101,12 @@ Experimental plugins:
   Includes page content into another page.
 * [Imgpop](https://github.com/bsnosi/yellow-plugin-imgpop):
   CSS only image popup with dimmed background and subtitle.
-* [InlineAttachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
-  Drag and Drop Image Upload
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
   Add the power of jQuery to Yellow.
 * [Leaflet](https://github.com/nibreh/yellow-plugin-leaflet): 
   Embed maps and add markers with Leaflet & OpenStreetMap.
 * [Maintenance](https://github.com/nogginfuel/yellow-plugin-maintenance):
   Maintenance status for entire site or single page.
-* [Markbar](https://github.com/nibreh/yellow-plugin-markbar):
-  WYSIWYG style toolbar for editing a page.
 * [Medialist](https://github.com/nibreh/yellow-plugin-medialist):
   Create a list of MP3/OGG/PDF media files.
 * [PageTxt](https://github.com/richi/yellow-plugin-pagetxt):
@@ -139,5 +135,12 @@ Experimental plugins:
   Use the command line interface without shell access.
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Image gallery in CSS only.
+
+Obsolete plugins:
+
+* [InlineAttachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
+  Drag and Drop Image Upload
+* [Markbar](https://github.com/nibreh/yellow-plugin-markbar):
+  WYSIWYG style toolbar for editing a page.
 
 We have a developer kit and an API for developers. [Learn more](https://developers.datenstrom.se/help/).
