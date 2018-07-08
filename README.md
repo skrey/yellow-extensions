@@ -139,7 +139,7 @@ Experimental plugins:
 Obsolete plugins:
 
 * [InlineAttachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
-  Drag and Drop Image Upload
+  Drag and drop image upload for editing a page.
 * [Markbar](https://github.com/nibreh/yellow-plugin-markbar):
   WYSIWYG style toolbar for editing a page.
 
