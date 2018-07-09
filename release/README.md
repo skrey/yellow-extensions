@@ -14,11 +14,11 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to create a plugin or theme?
 
-Create a repository for each new plugin/theme. The name of your repository should be `yellow-plugin-xyz` or `yellow-theme-xyz`. Your code doesn't have to be perfect, but it should be working in the [developer kit](https://github.com/datenstrom/yellow-developers). The idea is to keep experimental software separate from stable software. Fork the official repositories `yellow-plugins` and `yellow-themes`, add a link and send a pull request. 
+Create a repository for each plugin/theme. The name of your repository should be `yellow-plugin-xyz` or `yellow-theme-xyz`. Your code doesn't have to be perfect, but it should be working in the [developer kit](https://github.com/datenstrom/yellow-developers). Fork the official repositories `yellow-plugins` or `yellow-themes`. Add a link to your repository and send a pull request. 
 
 ## How to create a software release?
 
-You can create a new software release at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by the directory of your repository. This will update the necessary files in the official repositories `yellow-plugins` and `yellow-themes`. Finally send a pull request.
+You can create a new software release at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by the directory of your repository. This will update the necessary files in the official repositories `yellow-plugins` or `yellow-themes`. Upload and send a pull request.
 
 ## How to configure a software update?
 
