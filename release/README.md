@@ -1,6 +1,6 @@
 Release plugin 0.7.2
 ====================
-Create new software releases.
+Create software releases.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -18,7 +18,7 @@ Create a repository for each plugin/theme. The name of your repository should be
 
 ## How to create a software release?
 
-You can create a new software release at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by the directory of your repository. This will update the necessary files in the official repository `yellow-plugins` or `yellow-themes`. Upload and send a pull request.
+You can create a software release at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by the directory of your repository. This will update the necessary files in the official repository `yellow-plugins` or `yellow-themes`. Upload and send a pull request.
 
 ## How to configure updates?
 
@@ -40,7 +40,7 @@ The following file operations are supported:
 
 ## Example
 
-Creating new software release at the command line:
+Creating software release at the command line:
 
 `php yellow.php release`  
 `php yellow.php release /Users/steffen/Documents/GitHub/yellow-plugin-example/`  
