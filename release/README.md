@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to create a plugin or theme?
 
-Create a repository for each plugin/theme. The name of your repository should be `yellow-plugin-xyz` or `yellow-theme-xyz`. Your code doesn't have to be perfect, but make sure it's working in the [developer kit](https://github.com/datenstrom/yellow-developers). Fork the official repository `yellow-plugins` or `yellow-themes`. Add your repository to the README and send a pull request. 
+Create a repository for each plugin/theme. The name of your repository should be `yellow-plugin-xyz` or `yellow-theme-xyz`. Your code doesn't have to be perfect, but make sure it works in the [developer kit](https://github.com/datenstrom/yellow-developers). Fork the official repository `yellow-plugins` or `yellow-themes`. Add your repository to the README and send a pull request. 
 
 ## How to create a software release?
 
@@ -40,7 +40,7 @@ The following file operations are supported:
 
 ## Example
 
-Creating software release at the command line:
+Creating a software release at the command line:
 
 `php yellow.php release`  
 `php yellow.php release /Users/steffen/Documents/GitHub/yellow-plugin-example/`  
