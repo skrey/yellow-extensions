@@ -55,7 +55,7 @@ Available plugins:
 * [Preview](https://github.com/datenstrom/yellow-plugins/tree/master/preview): 
   Show pages with image preview.
 * [Release](https://github.com/datenstrom/yellow-plugins/tree/master/release): 
-  Create new software release.
+  Create new software releases.
 * [Search](https://github.com/datenstrom/yellow-plugins/tree/master/search): 
   Full-text search.
 * [Sitemap](https://github.com/datenstrom/yellow-plugins/tree/master/sitemap): 
