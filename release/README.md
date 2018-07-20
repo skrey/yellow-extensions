@@ -1,4 +1,4 @@
-Release plugin 0.7.2
+Release plugin 0.7.3
 ====================
 Create software releases.
 
@@ -21,6 +21,11 @@ Create a repository for each plugin/theme. The name of your repository should be
 Increase the version number in your code. Then create a software release at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by the directory of your repository. This will update all necessary files. Upload the changes and send a pull request.
 
 ## How to configure a software release?
+
+The following settings can be configured in file `system/config/config.ini`:
+
+`ReleasePluginsDir` = directory containing the official plugins repository  
+`ReleaseThemesDir` = directory containing the official themes repository  
 
 The following settings can be configured in file `update.ini`:
 
