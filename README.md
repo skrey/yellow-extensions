@@ -8,7 +8,7 @@ Datenstrom Yellow is for people who make websites. [See demo](https://developers
 2. Copy relevant files to your web hosting.  
 3. Open your website in a web browser.
 
-Available plugins:
+Official plugins:
 
 * [Blog](https://github.com/datenstrom/yellow-plugins/tree/master/blog): 
   Blog for your website.
