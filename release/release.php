@@ -5,7 +5,7 @@
 
 class YellowRelease
 {
-	const VERSION = "0.7.4";
+	const VERSION = "0.7.5";
 
 	// Handle plugin initialisation
 	function onLoad($yellow)
@@ -151,7 +151,7 @@ class YellowRelease
 			$fileData = $this->yellow->toolbox->readFile($fileName);
 			foreach($this->yellow->toolbox->getTextLines($fileData) as $line)
 			{
-				preg_match("/^(.*?)([0-9\.]+)$/", $line, $matches);
+				preg_match("/^(.*?)([0-9\.]+)\s*$/", $line, $matches);
 				if(!empty($matches[1]) && !empty($matches[2]) && !$found)
 				{
 					$fileDataNew .= "$matches[1]$version\n";
