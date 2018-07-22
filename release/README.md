@@ -1,4 +1,4 @@
-Release plugin 0.7.5
+Release plugin 0.7.6
 ====================
 Create software releases.
 
@@ -12,13 +12,9 @@ Create software releases.
 
 To uninstall delete the [plugin files](update.ini).
 
-## How to create a plugin or theme?
-
-Create a repository for each plugin/theme. The name of your repository should be `yellow-plugin-xyz` or `yellow-theme-xyz`. Your code doesn't have to be perfect, but make sure it works in the [developer kit](https://github.com/datenstrom/yellow-developers). Then fork the official repository `yellow-plugins` or `yellow-themes`. Add your repository to the file `README.md` and send a pull request. 
-
 ## How to release a plugin or theme?
 
-Increase the version number in your code. Then create a software release at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by the directory of your repository. This will update all necessary files. Upload the changes and send a pull request.
+First increase the version number in your code. Then create a software release at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by the directory of your repository. This will update all necessary files. Upload the changes and send a pull request.
 
 ## How to configure a software release?
 
@@ -45,11 +41,17 @@ The following file operations are supported:
 
 ## Example
 
-Creating a software release at the command line:
+Releasing a plugin at the command line:
+
+`php yellow.php release /Users/steffen/Documents/GitHub/yellow-plugin-example/`  
+
+Releasing a theme at the command line:
+
+`php yellow.php release /Users/steffen/Documents/GitHub/yellow-theme-example/`  
+
+Releasing official plugins and themes:
 
 `php yellow.php release`  
-`php yellow.php release /Users/steffen/Documents/GitHub/yellow-plugin-example/`  
-`php yellow.php release /Users/steffen/Documents/GitHub/yellow-theme-example/`  
 
 Settings for a plugin:
 
