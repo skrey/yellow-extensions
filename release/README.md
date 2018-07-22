@@ -41,17 +41,14 @@ The following file operations are supported:
 
 ## Example
 
-Releasing a plugin at the command line:
+Releasing a plugin or theme at the command line:
 
 `php yellow.php release /Users/steffen/Documents/GitHub/yellow-plugin-example/`  
-
-Releasing a theme at the command line:
-
 `php yellow.php release /Users/steffen/Documents/GitHub/yellow-theme-example/`  
 
-Releasing official plugins and themes:
+Releasing the official plugins and themes repository:
 
-`php yellow.php release`  
+`php yellow.php release`   
 
 Settings for a plugin:
 
