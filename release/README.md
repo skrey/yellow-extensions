@@ -1,4 +1,4 @@
-Release plugin 0.7.6
+Release plugin 0.7.7
 ====================
 Create software releases.
 
@@ -14,16 +14,17 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to release a plugin or theme?
 
-First increase the version number in your code. Then create a software release at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by the directory of your repository. This will update all necessary files. Upload the changes and send a pull request.
+First increase the version number in your code. Then create a software release at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload the changes and send a pull request. See example below.
 
 ## How to configure a software release?
 
 The following settings can be configured in file `system/config/config.ini`:
 
+`ReleaseSoftwareDir` = directory containing your repositories   
 `ReleasePluginsDir` = directory containing the official plugins repository  
 `ReleaseThemesDir` = directory containing the official themes repository  
 
-The following settings can be configured in file `update.ini`:
+The following settings can be configured in file `update.ini` for each plugin/theme:
 
 `Plugin` or `Theme` = software name  
 `Version` = software version number  
@@ -41,14 +42,11 @@ The following file operations are supported:
 
 ## Example
 
-Releasing a plugin or theme at the command line:
-
-`php yellow.php release /Users/steffen/Documents/GitHub/yellow-plugin-example/`  
-`php yellow.php release /Users/steffen/Documents/GitHub/yellow-theme-example/`  
-
-Releasing the official plugins and themes repository:
+Creating software releases at the command line:
 
 `php yellow.php release`   
+`php yellow.php release /Users/steffen/Documents/GitHub/yellow-plugin-example/`  
+`php yellow.php release /Users/anna/Documents/GitHub/yellow-theme-example/`  
 
 Settings for a plugin:
 
@@ -61,8 +59,21 @@ Published: 2018-07-09 19:42:13
 Developer: Datenstrom
 
 YellowExample/example.php: system/plugins/example.php,create,update
-YellowExample/example.js: system/plugins/example.js,create,update
-YellowExample/example.css: system/plugins/example.css,create,update
+~~~
+
+Settings for a theme:
+
+~~~
+# Datenstrom Yellow update
+
+Theme: YellowThemeExample
+Version: 0.7.1
+Published: 2018-07-09 19:42:13
+Designer: Anna Svensson
+
+YellowThemeExample/example.php: system/themes/assets/example.php,create,update
+YellowThemeExample/example.css: system/themes/assets/example.css,create,update,careful
+YellowThemeExample/example-logo.png: system/themes/assets/example-logo.png,create
 ~~~
 
 ## Developer
