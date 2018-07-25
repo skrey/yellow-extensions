@@ -1,4 +1,4 @@
-Release plugin 0.7.7
+Release plugin 0.7.8
 ====================
 Create software releases.
 
@@ -45,8 +45,8 @@ The following file operations are supported:
 Creating software releases at the command line:
 
 `php yellow.php release`   
-`php yellow.php release /Users/steffen/Documents/GitHub/yellow-plugin-example/`  
-`php yellow.php release /Users/anna/Documents/GitHub/yellow-theme-example/`  
+`php yellow.php release yellow-plugin-example`  
+`php yellow.php release yellow-theme-example`  
 
 Settings for a plugin:
 
