@@ -56,7 +56,7 @@ Showing available commands:
 `php yellow.php`
 
 ~~~~
-Datenstrom Yellow 0.7.4
+Datenstrom Yellow 0.7.5
 Syntax: yellow.php build [DIRECTORY LOCATION]
         yellow.php check [DIRECTORY LOCATION]
         yellow.php clean [DIRECTORY LOCATION]
