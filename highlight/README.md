@@ -1,7 +1,3 @@
----
-Title: Readme zzz
-Theme: knowhow
----
 Highlight plugin 0.7.3
 ======================
 Highlight source code.
