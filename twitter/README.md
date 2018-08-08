@@ -18,11 +18,11 @@ Create a `[twitter]` shortcut.
 
 The following arguments are available, all but the first argument are optional:
  
-`id` = last part of a [Twitter](https://www.twitter.com) link, e.g. `https://twitter.com/datenstromse/status/581449759493398528`  
-`theme` = message theme, e.g. `light`, `dark`  
-`style` = message style, e.g. `left`, `center`, `right`  
-`width` = message width, pixel or percent  
-`height` = message height, pixel or percent  
+`Id` = last part of a [Twitter](https://www.twitter.com) link, e.g. `https://twitter.com/datenstromse/status/581449759493398528`  
+`Theme` = message theme, e.g. `light`, `dark`  
+`Style` = message style, e.g. `left`, `center`, `right`  
+`Width` = message width, pixel or percent  
+`Height` = message height, pixel or percent  
 
 ## Example
 

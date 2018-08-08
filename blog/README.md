@@ -31,8 +31,8 @@ The following arguments are available, all but the first argument are optional:
 
 `Location` = blog location  
 `PagesMax` = number of pages, 0 for unlimited  
-`Author` = show pages by a specific author, `[blogpages]`/`[blogchanges]` only  
-`Tag` = show pages with a specific tag, `[blogpages]`/`[blogchanges]` only  
+`Author` = show pages by a specific author, `[blogpages]` or `[blogchanges]` only  
+`Tag` = show pages with a specific tag, `[blogpages]` or `[blogchanges]` only  
 
 ## How to configure a blog
 

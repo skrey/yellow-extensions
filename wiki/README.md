@@ -30,8 +30,8 @@ The following arguments are available, all but the first argument are optional:
 
 `Location` = wiki location  
 `PagesMax` = number of pages, 0 for unlimited  
-`Author` = show pages by a specific author, `[wikipages]`/`[wikichanges]` only  
-`Tag` = show pages with a specific tag, `[wikipages]`/`[wikichanges`] only  
+`Author` = show pages by a specific author, `[wikipages]` or `[wikichanges]` only  
+`Tag` = show pages with a specific tag, `[wikipages]` or `[wikichanges`] only  
 
 ## How to configure a wiki?
 

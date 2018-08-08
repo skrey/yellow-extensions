@@ -18,12 +18,12 @@ Create a `[googlecalendar]` shortcut.
 
 The following arguments are available, all but the first argument are optional:
 
-`id` = [public Google calendar](https://calendar.google.com/), wrap multiple calendars into quotes  
-`mode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
-`date` = start date or number of events, YYYY-MM-DD format  
-`style` = calendar style, e.g. `left`, `center`, `right`  
-`width` = calendar width, pixel or percent  
-`height` = calendar height, pixel or percent  
+`Id` = [public Google calendar](https://calendar.google.com/), wrap multiple calendars into quotes  
+`Mode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
+`Date` = start date or number of events, YYYY-MM-DD format  
+`Style` = calendar style, e.g. `left`, `center`, `right`  
+`Width` = calendar width, pixel or percent  
+`Height` = calendar height, pixel or percent  
 
 ## How to configure a calendar
 

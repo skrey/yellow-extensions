@@ -18,9 +18,9 @@ Create a `[preview]` shortcut.
 
 The following arguments are available, all arguments are optional:
 
-`location ` = preview location  
-`style` = preview style, e.g. `stretchable`, `simple`  
-`size` = image size, pixel or percent  
+`Location ` = preview location  
+`Style` = preview style, e.g. `stretchable`, `simple`  
+`Size` = image size, pixel or percent  
 
 For every page there has to be an image of similar file name in your `media/images` folder.
 
