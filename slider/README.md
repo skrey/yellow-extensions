@@ -23,7 +23,7 @@ The following arguments are available, all but the first argument are optional:
 `Size` = image size, pixel or percent  
 `Autoplay` = play images automatically, delay time in milliseconds
 
-The plugins uses [Flickity v2.0.9](http://flickity.metafizzy.co) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0). Flickity supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
+The plugins uses [Flickity v2.0.9](https://github.com/metafizzy/flickity) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0). Flickity supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
 
 ## Example
 
