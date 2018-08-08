@@ -18,11 +18,11 @@ Create an `[image]` shortcut.
 
 The following arguments are available, all but the first argument are optional:
  
-`NAME` = file name  
-`TEXT` = text description  
-`STYLE` = image style, e.g. `left`, `center`, `right`  
-`WIDTH` = image width, pixel or percent  
-`HEIGHT` = image height, pixel or percent   
+`name` = file name  
+`text` = text description  
+`style` = image style, e.g. `left`, `center`, `right`  
+`width` = image width, pixel or percent  
+`height` = image height, pixel or percent   
 
 The plugin uses [GD graphics library](http://www.libgd.org/) by Thomas Boutell for resizing images.
 

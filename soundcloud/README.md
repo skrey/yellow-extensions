@@ -18,10 +18,10 @@ Create a `[soundcloud]` shortcut.
  
 The following arguments are available, all but the first argument are optional:
 
-`ID` = last part of a [Soundcloud](http://www.soundcloud.com/) link, e.g. `http://api.soundcloud.com/tracks/101175715`  
-`STYLE` = audio track style, e.g. `left`, `center`, `right`  
-`WIDTH` = audio track width, pixel or percent  
-`HEIGHT` = audio track height, pixel or percent   
+`id` = last part of a [Soundcloud](http://www.soundcloud.com/) link, e.g. `http://api.soundcloud.com/tracks/101175715`  
+`style` = audio track style, e.g. `left`, `center`, `right`  
+`width` = audio track width, pixel or percent  
+`height` = audio track height, pixel or percent   
 
 ## Example
 

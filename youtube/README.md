@@ -18,10 +18,10 @@ Create a `[youtube]` shortcut.
 
 The following arguments are available, all but the first argument are optional:
  
-`ID` = last part of a [Youtube](https://www.youtube.com) link, e.g. `https://www.youtube.com/watch?v=fhs55HEl-Gc`  
-`STYLE` = video style, e.g. `left`, `center`, `right`  
-`WIDTH` = video width, pixel or percent  
-`HEIGHT` = video height, pixel or percent   
+`id` = last part of a [Youtube](https://www.youtube.com) link, e.g. `https://www.youtube.com/watch?v=fhs55HEl-Gc`  
+`style` = video style, e.g. `left`, `center`, `right`  
+`width` = video width, pixel or percent  
+`height` = video height, pixel or percent   
  
 ## Example
 

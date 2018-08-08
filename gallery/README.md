@@ -18,9 +18,9 @@ Create a `[gallery]` shortcut.
 
 The following arguments are available, all but the first argument are optional:
   
-`PATTERN` = file name as regular expression  
-`STYLE` = gallery style, e.g. `photoswipe`, `simple`  
-`SIZE` = image size, pixel or percent
+`pattern` = file name as regular expression  
+`style` = gallery style, e.g. `photoswipe`, `simple`  
+`size` = image size, pixel or percent
 
 The plugins uses [PhotoSwipe v4.1.2](http://photoswipe.com) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT). PhotoSwipe supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
 
