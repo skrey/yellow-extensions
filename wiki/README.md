@@ -28,10 +28,10 @@ You can use shortcuts to show information about the wiki:
 
 The following arguments are available, all but the first argument are optional:
 
-`location` = wiki location  
-`pagesmax` = number of pages, 0 for unlimited  
-`author` = show pages by a specific author, wikipages/wikichanges only  
-`tag` = show pages with a specific tag, wikipages/wikichanges only  
+`Location` = wiki location  
+`PagesMax` = number of pages, 0 for unlimited  
+`Author` = show pages by a specific author, `[wikipages]`/`[wikichanges]` only  
+`Tag` = show pages with a specific tag, `[wikipages]`/`[wikichanges`] only  
 
 ## How to configure a wiki?
 

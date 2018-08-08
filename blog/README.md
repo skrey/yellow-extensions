@@ -29,10 +29,10 @@ You can use shortcuts to show information about the blog:
 
 The following arguments are available, all but the first argument are optional:
 
-`location` = blog location  
-`pagesmax` = number of pages, 0 for unlimited  
-`author` = show pages by a specific author, blogpages/blogchanges only  
-`tag` = show pages with a specific tag, blogpages/blogchanges only  
+`Location` = blog location  
+`PagesMax` = number of pages, 0 for unlimited  
+`Author` = show pages by a specific author, `[blogpages]`/`[blogchanges]` only  
+`Tag` = show pages with a specific tag, `[blogpages]`/`[blogchanges]` only  
 
 ## How to configure a blog
 
