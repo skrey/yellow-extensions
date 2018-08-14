@@ -24,6 +24,10 @@ The following arguments are available, all but the first argument are optional:
 
 The plugins uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT). PhotoSwipe supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
 
+## How to configure image captions
+
+The image captions can be configured in file `system/config/text.ini`. You can define the text setting here, for example a short text that is displayed below the image. See example below.
+
 ## Example
 
 Adding an image gallery:
@@ -43,6 +47,12 @@ Adding an image gallery from a subfolder, square thumbnails:
     [gallery photo-album/ - 64]
     [gallery photo-album/ - 150]
     [gallery photo-album/ simple 150]
+
+Defining image captions in your text settings:
+
+    photo-1314380.jpg: This is an example caption.
+    photo-1425315.jpg: Sunset at the beach. Time to make a photo.
+    photo-2387365-fika-time.jpg: Fika is an important part of life in Sweden.
 
 ## Developer
 
