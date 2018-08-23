@@ -4,18 +4,18 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMatomo {
-    const VERSION = "0.6.4";
-    var $yellow;            //access to API
+    const VERSION = "0.7.1";
+    public $yellow;            //access to API
     
     // Handle initialisation
-    function onLoad($yellow) {
+    public function onLoad($yellow) {
         $this->yellow = $yellow;
         $this->yellow->config->setDefault("matomoUrl", "");
         $this->yellow->config->setDefault("matomoSiteId", "yellow");
     }
     
-    // Handle page extra HTML data
-    function onExtra($name) {
+    // Handle page extra data
+    public function onParsePageExtra($page, $name) {
         $output = NULL;
         if ($name=="footer") {
             $url = $this->yellow->config->get("matomoUrl");

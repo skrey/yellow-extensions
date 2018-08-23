@@ -1,4 +1,4 @@
-Sitemap plugin 0.7.3
+Sitemap plugin 0.7.4
 ====================
 Sitemap for your website. [See demo](https://developers.datenstrom.se/sitemap/).
 

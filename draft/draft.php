@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowDraft {
-    const VERSION = "0.7.1";
+    const VERSION = "0.7.2";
     public $yellow;         //access to API
     
     // Handle initialisation
@@ -13,13 +13,13 @@ class YellowDraft {
         $this->yellow->config->setDefault("draftStatusCode", "500");
     }
     
-    // Handle page meta data parsing
+    // Handle page meta data
     public function onParseMeta($page) {
         if ($page->get("status")=="draft") $page->visible = false;
     }
     
-    // Handle page parsing
-    public function onParsePage() {
+    // Handle page template
+    public function onParsePageTemplate($page, $name) {
         if ($this->yellow->page->get("status")=="draft" && $this->yellow->getRequestHandler()=="core") {
             $pageError = "Can't show draft page!";
             if ($this->yellow->plugins->isExisting("edit")) {

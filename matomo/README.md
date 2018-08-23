@@ -1,4 +1,4 @@
-Matomo plugin 0.6.4
+Matomo plugin 0.7.1
 ===================
 Add Matomo web analytics to website.
 

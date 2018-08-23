@@ -1,4 +1,4 @@
-Draft plugin 0.7.1
+Draft plugin 0.7.2
 ==================
 Support for draft pages.
 

@@ -1,4 +1,4 @@
-Googlecalendar plugin 0.7.3
+Googlecalendar plugin 0.7.4
 ===========================
 Embed Google calendar.
 

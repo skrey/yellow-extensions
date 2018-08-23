@@ -1,4 +1,4 @@
-Fontawesome plugin 0.7.2
+Fontawesome plugin 0.7.3
 ========================
 Icons and symbols.
 

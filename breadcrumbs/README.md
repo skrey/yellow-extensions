@@ -1,4 +1,4 @@
-Breadcrumbs plugin 0.6.2
+Breadcrumbs plugin 0.6.3
 ========================
 Breadcrumbs navigation.
 
