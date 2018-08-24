@@ -47,8 +47,8 @@ Website with bundled CSS and JavaScript files:
 <html>
 <head>
 <title>Example page</title>
-<link rel="stylesheet" type="text/css" media="all" href="/media/themes/assets/bundle-d6328d4369.min.css" />
-<script type="text/javascript" defer="defer" src="/media/themes/assets/bundle-6b9f775e17.min.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/media/themes/assets/bundle-04a833a199.min.css" />
+<script type="text/javascript" defer="defer" src="/media/themes/assets/bundle-efe3f521b6.min.js"></script>
 </head>
 <body>
 <h1>Hello world</h1>

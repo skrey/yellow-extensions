@@ -22,7 +22,7 @@ The following arguments are available, all but the first argument are optional:
 `Style` = gallery style, e.g. `photoswipe`, `simple`  
 `Size` = image size, pixel or percent
 
-The plugins uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT). PhotoSwipe supports most web browsers, including Chrome, Firefox, Safari, Opera and IE.
+The plugins uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
 
 ## How to configure image captions
 
