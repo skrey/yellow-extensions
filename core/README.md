@@ -46,7 +46,7 @@ Content file with software version, including plugins and themes:
 ---
 Title: Example page
 ---
-This website is made with Datenstrom Yellow:
+This website is made with [yellow].
 
 [yellow version]
 ```
