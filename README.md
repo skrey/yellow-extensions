@@ -113,7 +113,7 @@ Experimental plugins:
   Maintenance status for entire site or single page.
 * [Medialist](https://github.com/nibreh/yellow-plugin-medialist):
   Create a list of MP3/OGG/PDF media files.
-* [PageTxt](https://github.com/richi/yellow-plugin-pagetxt):
+* [Pagetxt](https://github.com/richi/yellow-plugin-pagetxt):
   Overwrite language entries in a page.
 * [Podcast](https://github.com/schulle4u/yellow-plugin-podcast): 
   A fork of the original feed plugin optimized for podcast publishing.
