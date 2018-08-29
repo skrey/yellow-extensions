@@ -1,4 +1,4 @@
-Image plugin 0.7.4
+Image plugin 0.7.5
 ==================
 Images and thumbnails. [See demo](https://developers.datenstrom.se/plugins/image).
 
@@ -19,12 +19,26 @@ Create an `[image]` shortcut.
 The following arguments are available, all but the first argument are optional:
  
 `Name` = file name  
-`Text` = text description  
+`Alt` = alternative text  
 `Style` = image style, e.g. `left`, `center`, `right`  
 `Width` = image width, pixel or percent  
 `Height` = image height, pixel or percent   
 
 The plugin uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell for resizing images.
+
+## How to configure an image
+
+The following settings can be configured in file `system/config/config.ini`:
+
+`ImageLocation` = location for images  
+`ImageDir` = directory for images  
+`ImageAlt` = alternative text  
+`ImageUploadWidthMax` = maximum width for upload, larger images are resized  
+`ImageUploadHeightMax` = maximum height for upload, larger images are resized  
+`ImageUploadJpgQuality` = JPG quality for uploaded images  
+`ImageThumbnailLocation` = location for thumbnails  
+`ImageThumbnailDir` = directory for thumbnails  
+`ImageThumbnailJpgQuality` = JPG quality for thumbnails  
 
 ## Example
 
