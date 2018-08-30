@@ -29,7 +29,7 @@ The following settings can be configured in file `system/config/config.ini`:
 
 Footer snippet with RSS feed:
 
-    <div class="footer">
+    <div class="footer" role="contentinfo">
     <div class="siteinfo">
     <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2018 <?php echo $yellow->page->getHtml("sitename") ?></a>.
     <a href="<?php echo $yellow->page->base."/feed/page:feed.xml" ?>">Feed</a>. 

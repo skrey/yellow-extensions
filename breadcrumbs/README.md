@@ -47,7 +47,7 @@ Content snippet with breadcrumbs:
 
     <div class="content">
     <?php $yellow->snippet("sidebar") ?>
-    <div class="main">
+    <div class="main" role="main">
     <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $yellow->page->getExtra("breadcrumbs") ?>
     <?php echo $yellow->page->getContent() ?>
