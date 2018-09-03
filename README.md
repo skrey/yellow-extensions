@@ -97,6 +97,8 @@ Experimental plugins:
   A (very) small CSS preprocessor.
 * [Events](https://github.com/Xrizzy/yellow-plugin-events):
   Yellow plugin for events that you have organised.
+* [Example](https://github.com/schulle4u/yellow-plugin-example):
+  Example with documentation and code.
 * [FAQ](https://github.com/richi/yellow-plugin-faq):
   Yellow plugin for easy FAQ handling.
 * [Fotorama](https://github.com/nogginfuel/yellow-plugin-fotorama): 
