@@ -98,7 +98,7 @@ Experimental plugins:
 * [Events](https://github.com/Xrizzy/yellow-plugin-events):
   Yellow plugin for events that you have organised.
 * [Example](https://github.com/schulle4u/yellow-plugin-example):
-  Example with documentation and code.
+  Example plugin for developers.
 * [FAQ](https://github.com/richi/yellow-plugin-faq):
   Yellow plugin for easy FAQ handling.
 * [Fotorama](https://github.com/nogginfuel/yellow-plugin-fotorama): 
