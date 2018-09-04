@@ -56,6 +56,7 @@ Update settings for a plugin:
 
 Plugin: YellowExample
 Version: 0.7.1
+Description: Example plugin for developers.
 Published: 2018-07-09 19:42:13
 Developer: Datenstrom
 
@@ -69,6 +70,7 @@ Update settings for a theme:
 
 Theme: YellowThemeExample
 Version: 0.7.1
+Description: Example theme for designers.
 Published: 2018-07-09 19:42:13
 Designer: Anna Svensson
 
