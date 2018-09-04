@@ -20,7 +20,7 @@ The second option is to update your website at the [command line](https://github
 
 ## How to add more features
 
-You can download [plugins](https://developers.datenstrom.se/plugins/) and [themes](https://developers.datenstrom.se/themes/), copy files to your web hosting. You can also add plugins and themes at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php install` followed by a feature. Multiple features can be installed at once. See example below.
+You can download [plugins](https://developers.datenstrom.se/plugins/) and [themes](https://developers.datenstrom.se/themes/), copy files to your web hosting. You can also add more features at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php install` followed by a feature. Multiple features can be installed at once. See example below.
 
 The plugin uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to download files.
 
