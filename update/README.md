@@ -1,4 +1,4 @@
-Update plugin 0.7.18
+Update plugin 0.7.19
 ===================
 Keep your website up to date.
 
