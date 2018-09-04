@@ -1,4 +1,4 @@
-Command plugin 0.7.9
+Command plugin 0.7.10
 =====================
 Run commands in a terminal window.
 
@@ -34,13 +34,19 @@ Check static files for broken links
 **php yellow.php clean [directory location]**  
 Clean static files
 
+**yellow.php install [feature]**  
+Add website features with the [update plugin](https://github.com/datenstrom/yellow-plugins/tree/master/update)
+
 **php yellow.php release [directory]**  
 Create software releases with the [release plugin](https://github.com/datenstrom/yellow-plugins/tree/master/release)
 
 **php yellow.php traffic [days location filename]**  
 Create traffic analytics with the [traffic plugin](https://github.com/datenstrom/yellow-plugins/tree/master/traffic)
 
-**php yellow.php update [option feature]**  
+**yellow.php uninstall [feature]**  
+Remove website features with the [update plugin](https://github.com/datenstrom/yellow-plugins/tree/master/update)
+
+**php yellow.php update [feature]**  
 Update website with the [update plugin](https://github.com/datenstrom/yellow-plugins/tree/master/update)
 
 **php yellow.php user [option email password name]**  
@@ -60,9 +66,11 @@ Datenstrom Yellow 0.7.6
 Syntax: yellow.php build [directory location]
         yellow.php check [directory location]
         yellow.php clean [directory location]
+        yellow.php install [feature]
         yellow.php release [directory]
         yellow.php traffic [days location filename]
-        yellow.php update [option feature]
+        yellow.php uninstall [feature]
+        yellow.php update [feature]
         yellow.php user [option email password name]
         yellow.php version
 ~~~~
