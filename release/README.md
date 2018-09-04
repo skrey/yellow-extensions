@@ -28,6 +28,7 @@ The following settings can be configured in file `update.ini` for each plugin/th
 
 `Plugin` or `Theme` = software name  
 `Version` = software version number  
+`Description` = software description  
 `Published` = software publication date  
 `Developer` = plugin developer  
 `Designer` = theme designer  
