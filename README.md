@@ -104,7 +104,7 @@ Experimental plugins:
 * [Fotorama](https://github.com/nogginfuel/yellow-plugin-fotorama): 
   A jQuery image gallery with carousel.
 * [Global](https://github.com/schulle4u/yellow-plugin-global): 
-  Includes page content into another page.
+  Include page content into another page.
 * [Imgpop](https://github.com/bsnosi/yellow-plugin-imgpop):
   CSS only image popup with dimmed background and subtitle.
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
@@ -115,6 +115,8 @@ Experimental plugins:
   Maintenance status for entire site or single page.
 * [Medialist](https://github.com/nibreh/yellow-plugin-medialist):
   Create a list of MP3/OGG/PDF media files.
+* [MOTD](https://github.com/schulle4u/yellow-plugin-motd):
+  Message of the day.
 * [Pagetxt](https://github.com/richi/yellow-plugin-pagetxt):
   Overwrite language entries in a page.
 * [Podcast](https://github.com/schulle4u/yellow-plugin-podcast): 
