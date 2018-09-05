@@ -26,7 +26,7 @@ The following commands are available:
 Show available commands
 
 **php yellow.php build [directory location]**  
-Build static website
+Build [static website](https://developers.datenstrom.se/help/server-configuration#static-website)
 
 **php yellow.php check [directory location]**  
 Check static files for broken links
