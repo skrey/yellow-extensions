@@ -1,4 +1,4 @@
-Bundle plugin 0.7.3
+Bundle plugin 0.7.4
 ===================
 Bundle CSS and JavaScript.
 

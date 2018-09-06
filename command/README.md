@@ -1,4 +1,4 @@
-Command plugin 0.7.10
+Command plugin 0.7.11
 =====================
 Run commands in a terminal window.
 
