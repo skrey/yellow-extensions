@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.7.13
+LanguageVersion: 0.7.14
 
 BlogBy: Vytvořil
 BlogTag: Tags:
@@ -28,7 +28,9 @@ DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 EditInstallationTitle: Ahoj
 EditInstallationFeature: Co chcete udělat?
+EditInstallationHomeTitle: Domů
 EditInstallationHomePage: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.
+EditInstallationAboutTitle: O nás
 EditInstallationAboutPage: Webová prezentace vytvořena v [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Přihlásit se].
 EditLoginTitle: Vítejte
 EditLoginEmail: Email:

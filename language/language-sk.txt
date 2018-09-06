@@ -3,7 +3,7 @@
 Language: sk
 LanguageDescription: Slovenčina
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.7.13
+LanguageVersion: 0.7.14
 
 BlogBy: od
 BlogTag: Štítky:
@@ -28,7 +28,9 @@ DateFormatMedium: d-m-Y
 DateFormatLong: d-m-Y H:i
 EditInstallationTitle: Hello
 EditInstallationFeature: What do you want to make?
+EditInstallationHomeTitle: Home
 EditInstallationHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+EditInstallationAboutTitle: About
 EditInstallationAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 EditLoginTitle: Vitajte
 EditLoginEmail: Email:

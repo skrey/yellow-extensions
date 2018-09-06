@@ -3,7 +3,7 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.7.13
+LanguageVersion: 0.7.14
 
 BlogBy: by
 BlogTag: Tags:
@@ -28,7 +28,9 @@ DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 EditInstallationTitle: こんにちは
 EditInstallationFeature: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
+EditInstallationHomeTitle: ホーム
 EditInstallationHomePage: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
+EditInstallationAboutTitle: について
 EditInstallationAboutPage: このウェブサイトは [Datenstrom Yellow](https://datenstrom.se/yellow/) で作成されています。[edit - ログイン]。
 EditLoginTitle: ようこそ
 EditLoginEmail: メールアドレス:

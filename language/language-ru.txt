@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.13
+LanguageVersion: 0.7.14
 
 BlogBy: Автор
 BlogTag: Тэги:
@@ -28,7 +28,9 @@ DateFormatMedium: d.m.Y
 DateFormatLong: d.m.Y H:i
 EditInstallationTitle: Здравствуйте
 EditInstallationFeature: Что вы хотите сделать?
+EditInstallationHomeTitle: Главная
 EditInstallationHomePage: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.
+EditInstallationAboutTitle: О компании
 EditInstallationAboutPage: Этот сайт создан с помощью [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Войти].
 EditLoginTitle: Добро пожаловать
 EditLoginEmail: Email:

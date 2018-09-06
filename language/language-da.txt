@@ -3,7 +3,7 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.7.13
+LanguageVersion: 0.7.14
 
 BlogBy: af
 BlogTag: Tags:
@@ -28,7 +28,9 @@ DateFormatMedium: d.m.Y
 DateFormatLong: d.m.Y H:i
 EditInstallationTitle: Hej
 EditInstallationFeature: What do you want to make?
+EditInstallationHomeTitle: Home
 EditInstallationHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+EditInstallationAboutTitle: About
 EditInstallationAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 EditLoginTitle: Velkommen
 EditLoginEmail: Email:

@@ -3,7 +3,7 @@
 Language: pt
 LanguageDescription: Português
 LanguageTranslator: Al Garcia
-LanguageVersion: 0.7.13
+LanguageVersion: 0.7.14
 
 BlogBy: por
 BlogTag: Tags:
@@ -28,7 +28,9 @@ DateFormatMedium: d-m-Y
 DateFormatLong: d-m-Y H:i
 EditInstallationTitle: Olá
 EditInstallationFeature: O que você quer fazer?
+EditInstallationHomeTitle: Home
 EditInstallationHomePage: Seu site funciona!\n\n[edit - Você pode editar esta página] ou usar o seu editor de texto.
+EditInstallationAboutTitle: Sobre
 EditInstallationAboutPage: Este site é feito com [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Entrar].
 EditLoginTitle: Bem vinda
 EditLoginEmail: Email:
