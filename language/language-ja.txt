@@ -3,7 +3,7 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: by
 BlogTag: Tags:
@@ -26,12 +26,6 @@ DateWeekstart: 月曜日
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-EditInstallationTitle: こんにちは
-EditInstallationFeature: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
-EditInstallationHomeTitle: ホーム
-EditInstallationHomePage: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
-EditInstallationAboutTitle: について
-EditInstallationAboutPage: このウェブサイトは [Datenstrom Yellow](https://datenstrom.se/yellow/) で作成されています。[edit - ログイン]。
 EditLoginTitle: ようこそ
 EditLoginEmail: メールアドレス:
 EditLoginPassword: パスワード:
@@ -147,6 +141,12 @@ SearchResultsNone: 検索キーワードをご入力下さい。
 SearchResultsEmpty: 検索結果が見つかりません。
 SearchSpecialChanges: 最近の更新
 SearchButton: 検索
+SetupTitle: こんにちは
+SetupFeature: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
+SetupHomeTitle: ホーム
+SetupHomePage: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
+SetupAboutTitle: について
+SetupAboutPage: このウェブサイトは [Datenstrom Yellow](https://datenstrom.se/yellow/) で作成されています。[edit - ログイン]。
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

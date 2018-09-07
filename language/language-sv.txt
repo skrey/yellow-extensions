@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: av
 BlogTag: Taggar:
@@ -26,12 +26,6 @@ DateWeekstart: Måndag
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-EditInstallationTitle: Hej
-EditInstallationFeature: Vad vill du göra?
-EditInstallationHomeTitle: Hem
-EditInstallationHomePage: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.
-EditInstallationAboutTitle: Om
-EditInstallationAboutPage: Denna webbplats är gjord med [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Logga in].
 EditLoginTitle: Välkommen
 EditLoginEmail: Email:
 EditLoginPassword: Lösenord:
@@ -147,6 +141,12 @@ SearchResultsNone: Skriv ett sökord.
 SearchResultsEmpty: Inga resultat funna.
 SearchSpecialChanges: Senaste ändringarna
 SearchButton: Sök
+SetupTitle: Hej
+SetupFeature: Vad vill du göra?
+SetupHomeTitle: Hem
+SetupHomePage: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.
+SetupAboutTitle: Om
+SetupAboutPage: Denna webbplats är gjord med [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Logga in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

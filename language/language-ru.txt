@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: Автор
 BlogTag: Тэги:
@@ -26,12 +26,6 @@ DateWeekstart: понедельник
 DateFormatShort: F Y
 DateFormatMedium: d.m.Y
 DateFormatLong: d.m.Y H:i
-EditInstallationTitle: Здравствуйте
-EditInstallationFeature: Что вы хотите сделать?
-EditInstallationHomeTitle: Главная
-EditInstallationHomePage: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.
-EditInstallationAboutTitle: О компании
-EditInstallationAboutPage: Этот сайт создан с помощью [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Войти].
 EditLoginTitle: Добро пожаловать
 EditLoginEmail: Email:
 EditLoginPassword: Пароль:
@@ -147,6 +141,12 @@ SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
 SearchSpecialChanges: Последние изменения
 SearchButton: Искать
+SetupTitle: Здравствуйте
+SetupFeature: Что вы хотите сделать?
+SetupHomeTitle: Главная
+SetupHomePage: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.
+SetupAboutTitle: О компании
+SetupAboutPage: Этот сайт создан с помощью [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Войти].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

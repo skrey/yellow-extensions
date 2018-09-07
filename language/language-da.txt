@@ -3,7 +3,7 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: af
 BlogTag: Tags:
@@ -26,12 +26,6 @@ DateWeekstart: mandag
 DateFormatShort: F Y
 DateFormatMedium: d.m.Y
 DateFormatLong: d.m.Y H:i
-EditInstallationTitle: Hej
-EditInstallationFeature: What do you want to make?
-EditInstallationHomeTitle: Home
-EditInstallationHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
-EditInstallationAboutTitle: About
-EditInstallationAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 EditLoginTitle: Velkommen
 EditLoginEmail: Email:
 EditLoginPassword: Password:
@@ -147,6 +141,12 @@ SearchResultsNone: Indtast ny søgning.
 SearchResultsEmpty: Ingen resultater fundet.
 SearchSpecialChanges: Ny ændringer
 SearchButton: Søg
+SetupTitle: Hej
+SetupFeature: What do you want to make?
+SetupHomeTitle: Home
+SetupHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+SetupAboutTitle: About
+SetupAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

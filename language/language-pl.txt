@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: przez
 BlogTag: Tagi:
@@ -26,12 +26,6 @@ DateWeekstart: poniedziałek
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-EditInstallationTitle: Cześć
-EditInstallationFeature: Co chcesz stworzyć?
-EditInstallationHomeTitle: Home
-EditInstallationHomePage: Twoja strona działa!\n\n[edit - Możesz edytować tę stronę] lub użyć własnego edytora.
-EditInstallationAboutTitle: Informacje
-EditInstallationAboutPage: Ta strona zawiera [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Zaloguj się].
 EditLoginTitle: Witaj
 EditLoginEmail: Email:
 EditLoginPassword: Hasło:
@@ -147,6 +141,12 @@ SearchResultsNone: Wpisz szukaną frazę.
 SearchResultsEmpty: Nie znaleziono wyników.
 SearchSpecialChanges: Ostatnie zmiany
 SearchButton: Szukaj
+SetupTitle: Cześć
+SetupFeature: Co chcesz stworzyć?
+SetupHomeTitle: Home
+SetupHomePage: Twoja strona działa!\n\n[edit - Możesz edytować tę stronę] lub użyć własnego edytora.
+SetupAboutTitle: Informacje
+SetupAboutPage: Ta strona zawiera [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Zaloguj się].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

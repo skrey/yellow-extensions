@@ -3,7 +3,7 @@
 Language: pt
 LanguageDescription: Português
 LanguageTranslator: Al Garcia
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: por
 BlogTag: Tags:
@@ -26,12 +26,6 @@ DateWeekstart: segunda-feira
 DateFormatShort: F Y
 DateFormatMedium: d-m-Y
 DateFormatLong: d-m-Y H:i
-EditInstallationTitle: Olá
-EditInstallationFeature: O que você quer fazer?
-EditInstallationHomeTitle: Home
-EditInstallationHomePage: Seu site funciona!\n\n[edit - Você pode editar esta página] ou usar o seu editor de texto.
-EditInstallationAboutTitle: Sobre
-EditInstallationAboutPage: Este site é feito com [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Entrar].
 EditLoginTitle: Bem vinda
 EditLoginEmail: Email:
 EditLoginPassword: Senha:
@@ -147,6 +141,12 @@ SearchResultsNone: Introduza um termo de pesquisa.
 SearchResultsEmpty: Não foram encontrados resultados.
 SearchSpecialChanges: Alterações recentes
 SearchButton: Pesquisa
+SetupTitle: Olá
+SetupFeature: O que você quer fazer?
+SetupHomeTitle: Home
+SetupHomePage: Seu site funciona!\n\n[edit - Você pode editar esta página] ou usar o seu editor de texto.
+SetupAboutTitle: Sobre
+SetupAboutPage: Este site é feito com [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Entrar].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

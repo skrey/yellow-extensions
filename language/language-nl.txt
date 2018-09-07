@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: door
 BlogTag: Labels:
@@ -26,12 +26,6 @@ DateWeekstart: maandag
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-EditInstallationTitle: Hallo
-EditInstallationFeature: Wat wil je doen?
-EditInstallationHomeTitle: Home
-EditInstallationHomePage: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.
-EditInstallationAboutTitle: Over
-EditInstallationAboutPage: Deze website is gemaakt met [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Aanmelden].
 EditLoginTitle: Welkom
 EditLoginEmail: E-mail:
 EditLoginPassword: Wachtwoord:
@@ -147,6 +141,12 @@ SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
 SearchSpecialChanges: Recente wijzigingen
 SearchButton: Zoek
+SetupTitle: Hallo
+SetupFeature: Wat wil je doen?
+SetupHomeTitle: Home
+SetupHomePage: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.
+SetupAboutTitle: Over
+SetupAboutPage: Deze website is gemaakt met [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Aanmelden].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

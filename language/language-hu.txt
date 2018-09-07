@@ -3,7 +3,7 @@
 Language: hu
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: by
 BlogTag: Címke:
@@ -26,12 +26,6 @@ DateWeekstart: Hétfő
 DateFormatShort: Y F
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-EditInstallationTitle: Helló
-EditInstallationFeature: What do you want to make?
-EditInstallationHomeTitle: Home
-EditInstallationHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
-EditInstallationAboutTitle: About
-EditInstallationAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 EditLoginTitle: Üdvözöljük
 EditLoginEmail: Email:
 EditLoginPassword: Password:
@@ -147,6 +141,12 @@ SearchResultsNone: Keresett kifejezés
 SearchResultsEmpty: Nincs találat.
 SearchSpecialChanges: Legutóbbi változások
 SearchButton: Keresés
+SetupTitle: Helló
+SetupFeature: What do you want to make?
+SetupHomeTitle: Home
+SetupHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+SetupAboutTitle: About
+SetupAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

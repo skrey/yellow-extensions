@@ -3,7 +3,7 @@
 Language: bn
 LanguageDescription: Bangali (Bangladesh)
 LanguageTranslator: Mohammed Nazmul Ferdous
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: লিখেছেন
 BlogTag: ট্যাগ সমূহ:
@@ -26,12 +26,6 @@ DateWeekstart: সোমবার
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-EditInstallationTitle: Hello
-EditInstallationFeature: What do you want to make?
-EditInstallationHomeTitle: Home
-EditInstallationHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
-EditInstallationAboutTitle: About
-EditInstallationAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 EditLoginTitle: স্বাগত
 EditLoginEmail: Email:
 EditLoginPassword: Password:
@@ -147,6 +141,12 @@ SearchResultsNone: একটি অনুসন্ধান শব্দ লি�
 SearchResultsEmpty: কোন ফলাফল পাওয়া যায়নি।
 SearchSpecialChanges: সাম্প্রতিক পরিবর্তন
 SearchButton: খোঁজ করুন
+SetupTitle: হ্যালো
+SetupFeature: What do you want to make?
+SetupHomeTitle: Home
+SetupHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+SetupAboutTitle: About
+SetupAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

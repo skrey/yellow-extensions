@@ -3,7 +3,7 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.7.14
+LanguageVersion: 0.7.15
 
 BlogBy: by
 BlogTag: 태그:
@@ -26,12 +26,6 @@ DateWeekstart: 월요일
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
-EditInstallationTitle: Hello
-EditInstallationFeature: What do you want to make?
-EditInstallationHomeTitle: Home
-EditInstallationHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
-EditInstallationAboutTitle: About
-EditInstallationAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 EditLoginTitle: 환영
 EditLoginEmail: Email:
 EditLoginPassword: Password:
@@ -147,6 +141,12 @@ SearchResultsNone: 검색어를 입력해주세요.
 SearchResultsEmpty: 검색결과가 없습니다.
 SearchSpecialChanges: 최근 바뀜
 SearchButton: 검색
+SetupTitle: 여보세요
+SetupFeature: What do you want to make?
+SetupHomeTitle: Home
+SetupHomePage: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+SetupAboutTitle: About
+SetupAboutPage: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
