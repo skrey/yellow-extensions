@@ -144,9 +144,9 @@ SearchButton: Искать
 SetupTitle: Здравствуйте
 SetupFeature: Что вы хотите сделать?
 SetupHomeTitle: Главная
-SetupHomePage: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.
+SetupHomeText: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.
 SetupAboutTitle: О компании
-SetupAboutPage: Этот сайт создан с помощью [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Войти].
+SetupAboutText: Этот сайт создан с помощью [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Войти].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

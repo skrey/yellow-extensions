@@ -144,9 +144,9 @@ SearchButton: 查找
 SetupTitle: 你好
 SetupFeature: 你想做什么做什么呢？
 SetupHomeTitle: 首页
-SetupHomePage: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。
+SetupHomeText: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。
 SetupAboutTitle: 关于
-SetupAboutPage: 本站由 [Datenstrom Yellow](https://datenstrom.se/yellow/) 强力驱动. [edit - 登入].
+SetupAboutText: 本站由 [Datenstrom Yellow](https://datenstrom.se/yellow/) 强力驱动. [edit - 登入].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

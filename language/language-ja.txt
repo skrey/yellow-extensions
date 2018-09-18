@@ -144,9 +144,9 @@ SearchButton: 検索
 SetupTitle: こんにちは
 SetupFeature: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
 SetupHomeTitle: ホーム
-SetupHomePage: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
+SetupHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
 SetupAboutTitle: について
-SetupAboutPage: このウェブサイトは [Datenstrom Yellow](https://datenstrom.se/yellow/) で作成されています。[edit - ログイン]。
+SetupAboutText: このウェブサイトは [Datenstrom Yellow](https://datenstrom.se/yellow/) で作成されています。[edit - ログイン]。
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

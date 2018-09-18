@@ -144,9 +144,9 @@ SearchButton: Hledej
 SetupTitle: Ahoj
 SetupFeature: Co chcete udělat?
 SetupHomeTitle: Domů
-SetupHomePage: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.
+SetupHomeText: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.
 SetupAboutTitle: O nás
-SetupAboutPage: Webová prezentace vytvořena v [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Přihlásit se].
+SetupAboutText: Webová prezentace vytvořena v [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Přihlásit se].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

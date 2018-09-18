@@ -144,9 +144,9 @@ SearchButton: Zoek
 SetupTitle: Hallo
 SetupFeature: Wat wil je doen?
 SetupHomeTitle: Home
-SetupHomePage: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.
+SetupHomeText: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.
 SetupAboutTitle: Over
-SetupAboutPage: Deze website is gemaakt met [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Aanmelden].
+SetupAboutText: Deze website is gemaakt met [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Aanmelden].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
