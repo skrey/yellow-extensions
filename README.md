@@ -91,7 +91,7 @@ Experimental plugins:
   A hamburger menu button.
 * [Cheetjs](https://github.com/nogginfuel/yellow-plugin-cheetjs): 
   Add easter eggs via key binds.
-* [Comments](https://github.com/wunderfeyd/yellow-comments):
+* [Comments](https://github.com/GiovanniSalmeri/yellow-comments):
   Get in touch with users of your website directly.
 * [Dynamiccss](https://github.com/richi/yellow-plugin-dynamiccss):
   A (very) small CSS preprocessor.
