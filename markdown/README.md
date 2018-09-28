@@ -1,4 +1,4 @@
-Markdown plugin 0.7.1
+Markdown plugin 0.7.2
 =====================
 Text formatting for humans. [See demo](https://developers.datenstrom.se/help/markdown-cheat-sheet).
 

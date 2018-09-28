@@ -1,4 +1,4 @@
-Core plugin 0.7.6
+Core plugin 0.7.7
 =================
 Core functionality for your website.
 
@@ -26,8 +26,8 @@ The following settings can be configured in file `system/config/config.ini`:
 `Language` = default language  
 `Timezone` = default timezone  
 `Theme` = default theme  
-`ParserSafeMode` = enable [content restrictions](https://developers.datenstrom.se/help/security-configuration#content-restrictions), 0 or 1  
 `MultiLanguageMode` = enable [multi language mode](https://developers.datenstrom.se/help/language-configuration#multi-language-mode), 0 or 1
+`SafeMode` = enable [content restrictions](https://developers.datenstrom.se/help/security-configuration#content-restrictions), 0 or 1  
 
 These are the most important settings. For a complete list see [configuration file](https://github.com/datenstrom/yellow/blob/master/system/config/config.ini).
 
