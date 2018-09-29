@@ -35,7 +35,7 @@ The following settings can be configured in file `system/config/config.ini`:
 `EditKeyboardShortcuts` = keyboard shortcuts and commands  
 `EditToolbarButtons` = toolbar buttons, `none` to disable  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
-`EditLoginRestrictions` = login with restrictions, 1 or 0  
+`EditLoginRestrictions` = enable [login restrictions](https://developers.datenstrom.se/help/security-configuration#login-restrictions), 1 or 0  
 `EditLoginSessionTimeout` = login session in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
 
