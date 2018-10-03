@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Nápověda
 EditUserHelp: Nápověda
 EditUserLogout: Odhlásit
+InstallTitle: Ahoj
+InstallFeature: Co chcete udělat?
+InstallHomeTitle: Domů
+InstallHomeText: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.
+InstallAboutTitle: O nás
+InstallAboutText: Webová prezentace vytvořena v [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Přihlásit se].
 PagePrevious: ← Předchozí: @title
 PageNext: Následující: @title →
 PaginationPrevious: ← Předchozí
@@ -141,12 +147,6 @@ SearchResultsNone: Vlož hledaný text.
 SearchResultsEmpty: Požadovaný text nenalezen.
 SearchSpecialChanges: Poslední změny
 SearchButton: Hledej
-SetupTitle: Ahoj
-SetupFeature: Co chcete udělat?
-SetupHomeTitle: Domů
-SetupHomeText: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.
-SetupAboutTitle: O nás
-SetupAboutText: Webová prezentace vytvořena v [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Přihlásit se].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

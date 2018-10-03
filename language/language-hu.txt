@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Súgó
 EditUserHelp: Súgó
 EditUserLogout: Kijelentkezés
+InstallTitle: Helló
+InstallFeature: What do you want to make?
+InstallHomeTitle: Home
+InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+InstallAboutTitle: About
+InstallAboutText: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 PagePrevious: ← Előző: @title
 PageNext: Tovább: @title →
 PaginationPrevious: ← Előző
@@ -141,12 +147,6 @@ SearchResultsNone: Keresett kifejezés
 SearchResultsEmpty: Nincs találat.
 SearchSpecialChanges: Legutóbbi változások
 SearchButton: Keresés
-SetupTitle: Helló
-SetupFeature: What do you want to make?
-SetupHomeTitle: Home
-SetupHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
-SetupAboutTitle: About
-SetupAboutText: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

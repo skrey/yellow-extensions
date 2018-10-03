@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hjælp
 EditUserHelp: Hjælp
 EditUserLogout: Log ud
+InstallTitle: Hej
+InstallFeature: What do you want to make?
+InstallHomeTitle: Home
+InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+InstallAboutTitle: About
+InstallAboutText: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 PagePrevious: ← Forrige: @title
 PageNext: Næste: @title →
 PaginationPrevious: ← Forrige
@@ -141,12 +147,6 @@ SearchResultsNone: Indtast ny søgning.
 SearchResultsEmpty: Ingen resultater fundet.
 SearchSpecialChanges: Ny ændringer
 SearchButton: Søg
-SetupTitle: Hej
-SetupFeature: What do you want to make?
-SetupHomeTitle: Home
-SetupHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
-SetupAboutTitle: About
-SetupAboutText: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

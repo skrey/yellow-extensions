@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: 도움말
 EditUserHelp: 도움말
 EditUserLogout: 로그아웃
+InstallTitle: 여보세요
+InstallFeature: What do you want to make?
+InstallHomeTitle: Home
+InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+InstallAboutTitle: About
+InstallAboutText: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 PagePrevious: ← 이전 글: @title
 PageNext: 다음 글: @title →
 PaginationPrevious: ← 이전 글
@@ -141,12 +147,6 @@ SearchResultsNone: 검색어를 입력해주세요.
 SearchResultsEmpty: 검색결과가 없습니다.
 SearchSpecialChanges: 최근 바뀜
 SearchButton: 검색
-SetupTitle: 여보세요
-SetupFeature: What do you want to make?
-SetupHomeTitle: Home
-SetupHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
-SetupAboutTitle: About
-SetupAboutText: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

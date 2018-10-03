@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: 帮助
 EditUserHelp: 帮助
 EditUserLogout: 登出
+InstallTitle: 你好
+InstallFeature: 你想做什么做什么呢？
+InstallHomeTitle: 首页
+InstallHomeText: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。
+InstallAboutTitle: 关于
+InstallAboutText: 本站由 [Datenstrom Yellow](https://datenstrom.se/yellow/) 强力驱动. [edit - 登入].
 PagePrevious: ← 上一页 @title
 PageNext: 下一页 @title →
 PaginationPrevious: ← 上一页
@@ -141,12 +147,6 @@ SearchResultsNone: 请输入搜索关键字
 SearchResultsEmpty: 搜索查无结果
 SearchSpecialChanges: 最近更改
 SearchButton: 查找
-SetupTitle: 你好
-SetupFeature: 你想做什么做什么呢？
-SetupHomeTitle: 首页
-SetupHomeText: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。
-SetupAboutTitle: 关于
-SetupAboutText: 本站由 [Datenstrom Yellow](https://datenstrom.se/yellow/) 强力驱动. [edit - 登入].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

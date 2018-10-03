@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: সাহায্য
 EditUserHelp: সাহায্য
 EditUserLogout: প্রস্থান
+InstallTitle: হ্যালো
+InstallFeature: What do you want to make?
+InstallHomeTitle: Home
+InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+InstallAboutTitle: About
+InstallAboutText: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 PagePrevious: ← পূর্ববর্তী: @title
 PageNext: পরবর্তী: @title →
 PaginationPrevious: ← পূর্ববর্তী
@@ -141,12 +147,6 @@ SearchResultsNone: একটি অনুসন্ধান শব্দ লি�
 SearchResultsEmpty: কোন ফলাফল পাওয়া যায়নি।
 SearchSpecialChanges: সাম্প্রতিক পরিবর্তন
 SearchButton: খোঁজ করুন
-SetupTitle: হ্যালো
-SetupFeature: What do you want to make?
-SetupHomeTitle: Home
-SetupHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
-SetupAboutTitle: About
-SetupAboutText: This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Log in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

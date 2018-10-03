@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Помощь
 EditUserHelp: Помощь
 EditUserLogout: Выход
+InstallTitle: Здравствуйте
+InstallFeature: Что вы хотите сделать?
+InstallHomeTitle: Главная
+InstallHomeText: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.
+InstallAboutTitle: О компании
+InstallAboutText: Этот сайт создан с помощью [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Войти].
 PagePrevious: ← Назад: @title
 PageNext: Далее: @title →
 PaginationPrevious: ← Назад
@@ -141,12 +147,6 @@ SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
 SearchSpecialChanges: Последние изменения
 SearchButton: Искать
-SetupTitle: Здравствуйте
-SetupFeature: Что вы хотите сделать?
-SetupHomeTitle: Главная
-SetupHomeText: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.
-SetupAboutTitle: О компании
-SetupAboutText: Этот сайт создан с помощью [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Войти].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

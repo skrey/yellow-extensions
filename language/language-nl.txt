@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Help
 EditUserHelp: Help
 EditUserLogout: Afmelden
+InstallTitle: Hallo
+InstallFeature: Wat wil je doen?
+InstallHomeTitle: Home
+InstallHomeText: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.
+InstallAboutTitle: Over
+InstallAboutText: Deze website is gemaakt met [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Aanmelden].
 PagePrevious: ← Vorige: @title
 PageNext: Volgende: @title →
 PaginationPrevious: ← Vorige
@@ -141,12 +147,6 @@ SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
 SearchSpecialChanges: Recente wijzigingen
 SearchButton: Zoek
-SetupTitle: Hallo
-SetupFeature: Wat wil je doen?
-SetupHomeTitle: Home
-SetupHomeText: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.
-SetupAboutTitle: Over
-SetupAboutText: Deze website is gemaakt met [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Aanmelden].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

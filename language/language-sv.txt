@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hjälp
 EditUserHelp: Hjälp
 EditUserLogout: Logga ut
+InstallTitle: Hej
+InstallFeature: Vad vill du göra?
+InstallHomeTitle: Hem
+InstallHomeText: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.
+InstallAboutTitle: Om
+InstallAboutText: Denna webbplats är gjord med [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Logga in].
 PagePrevious: ← Tidigare: @title
 PageNext: Nästa: @title →
 PaginationPrevious: ← Tidigare
@@ -141,12 +147,6 @@ SearchResultsNone: Skriv ett sökord.
 SearchResultsEmpty: Inga resultat funna.
 SearchSpecialChanges: Senaste ändringarna
 SearchButton: Sök
-SetupTitle: Hej
-SetupFeature: Vad vill du göra?
-SetupHomeTitle: Hem
-SetupHomeText: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.
-SetupAboutTitle: Om
-SetupAboutText: Denna webbplats är gjord med [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Logga in].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T

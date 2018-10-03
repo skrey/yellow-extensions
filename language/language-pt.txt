@@ -133,6 +133,12 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Ajuda
 EditUserHelp: Ajuda
 EditUserLogout: Sair
+InstallTitle: Olá
+InstallFeature: O que você quer fazer?
+InstallHomeTitle: Home
+InstallHomeText: Seu site funciona!\n\n[edit - Você pode editar esta página] ou usar o seu editor de texto.
+InstallAboutTitle: Sobre
+InstallAboutText: Este site é feito com [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Entrar].
 PagePrevious: ← Anterior: @title
 PageNext: Seguinte: @title →
 PaginationPrevious: ← Anterior
@@ -141,12 +147,6 @@ SearchResultsNone: Introduza um termo de pesquisa.
 SearchResultsEmpty: Não foram encontrados resultados.
 SearchSpecialChanges: Alterações recentes
 SearchButton: Pesquisa
-SetupTitle: Olá
-SetupFeature: O que você quer fazer?
-SetupHomeTitle: Home
-SetupHomeText: Seu site funciona!\n\n[edit - Você pode editar esta página] ou usar o seu editor de texto.
-SetupAboutTitle: Sobre
-SetupAboutText: Este site é feito com [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Entrar].
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
