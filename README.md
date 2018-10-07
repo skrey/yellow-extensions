@@ -109,6 +109,8 @@ Experimental plugins:
   CSS only image popup with dimmed background and subtitle.
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
   Add the power of jQuery to Yellow.
+* [Justified Gallery](https://github.com/nibreh/yellow-plugin-justified-gallery):
+  Add Justified Gallery by Miro to Yellow.
 * [Leaflet](https://github.com/nibreh/yellow-plugin-leaflet): 
   Embed maps and add markers with Leaflet & OpenStreetMap.
 * [Maintenance](https://github.com/nogginfuel/yellow-plugin-maintenance):
