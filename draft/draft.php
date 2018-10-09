@@ -29,5 +29,3 @@ class YellowDraft {
         }
     }
 }
-
-$yellow->plugins->register("draft", "YellowDraft", YellowDraft::VERSION);

@@ -35,5 +35,3 @@ class YellowMatomo {
         return $output;
     }
 }
-
-$yellow->plugins->register("matomo", "YellowMatomo", YellowMatomo::VERSION);
