@@ -1,4 +1,4 @@
-Highlight plugin 0.7.6
+Highlight plugin 0.7.7
 ======================
 Highlight source code.
 
@@ -16,7 +16,7 @@ To uninstall delete the [plugin files](update.ini).
 
 Wrap your code blocks in \`\`\` and add a language identifier. The appearance of highlighted source code can be adjusted in your theme.
 
-The plugin uses [highlight.php 9.12.0](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman, which supports about 170 programming languages. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). The following languages are included: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. You can download more [language files](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages), rename and copy them into your `system/plugins` folder.
+The plugin uses [highlight.php 9.13.1](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman, which supports about 170 programming languages. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). The following languages are included: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. You can download more [language files](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages), rename and copy them into your `system/plugins` folder.
 
 ## Example
 
