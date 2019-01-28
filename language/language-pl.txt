@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.15
+LanguageVersion: 0.7.16
 
 BlogBy: przez
 BlogTag: Tagi:
@@ -133,6 +133,14 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Pomoc
 EditUserHelp: Pomoc
 EditUserLogout: Wyloguj
+Error404Title: Nie znaleziono pliku
+Error404Text: Żądany plik nie został znaleziony. O nie...
+Error430Title: Login failed
+Error430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+Error434Title: File not found
+Error434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+Error500Title: Server error
+Error500Text: Something went wrong. [yellow error]
 InstallTitle: Cześć
 InstallFeature: Co chcesz stworzyć?
 InstallHomeTitle: Home

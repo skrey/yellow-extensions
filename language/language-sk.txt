@@ -3,7 +3,7 @@
 Language: sk
 LanguageDescription: Slovenčina
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.7.15
+LanguageVersion: 0.7.16
 
 BlogBy: od
 BlogTag: Štítky:
@@ -133,6 +133,14 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Pomoc
 EditUserHelp: Pomoc
 EditUserLogout: Odhlásiť sa
+Error404Title: Datoteka ni najdena
+Error404Text: Zahtevane datoteke ni bilo mogoče najti. Oh ne ...
+Error430Title: Login failed
+Error430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+Error434Title: File not found
+Error434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+Error500Title: Server error
+Error500Text: Something went wrong. [yellow error]
 InstallTitle: Zdravo
 InstallFeature: What do you want to make?
 InstallHomeTitle: Home

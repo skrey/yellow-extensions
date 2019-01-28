@@ -3,7 +3,7 @@
 Language: id
 LanguageDescription: Bahasa Indonesia
 LanguageTranslator: Jimmy Ofisia
-LanguageVersion: 0.7.15
+LanguageVersion: 0.7.16
 
 BlogBy: oleh
 BlogTag: Label:
@@ -133,6 +133,14 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Bantuan
 EditUserHelp: Bantuan
 EditUserLogout: Keluar
+Error404Title: Berkas tidak ditemukan
+Error404Text: File yang diminta tidak ditemukan. Oh tidak...
+Error430Title: Login failed
+Error430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+Error434Title: File not found
+Error434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+Error500Title: Server error
+Error500Text: Something went wrong. [yellow error]
 InstallTitle: Hai
 InstallFeature: What do you want to make?
 InstallHomeTitle: Home

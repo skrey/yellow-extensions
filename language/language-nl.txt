@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.7.15
+LanguageVersion: 0.7.16
 
 BlogBy: door
 BlogTag: Labels:
@@ -133,6 +133,14 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Help
 EditUserHelp: Help
 EditUserLogout: Afmelden
+Error404Title: Bestand niet gevonden
+Error404Text: Het gevraagde bestand is niet gevonden. Oh nee...
+Error430Title: Login failed
+Error430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+Error434Title: File not found
+Error434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+Error500Title: Server error
+Error500Text: Something went wrong. [yellow error]
 InstallTitle: Hallo
 InstallFeature: Wat wil je doen?
 InstallHomeTitle: Home

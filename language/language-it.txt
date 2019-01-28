@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.7.15
+LanguageVersion: 0.7.16
 
 BlogBy: per
 BlogTag: Tag:
@@ -133,6 +133,14 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Aiuto
 EditUserHelp: Aiuto
 EditUserLogout: Esci
+Error404Title: File non trovato
+Error404Text: Il file richiesto non è stato trovato. Oh no ...
+Error430Title: Login failed
+Error430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+Error434Title: File not found
+Error434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+Error500Title: Server error
+Error500Text: Something went wrong. [yellow error]
 InstallTitle: Ciao
 InstallFeature: Cosa si vuole fare?
 InstallHomeTitle: Home

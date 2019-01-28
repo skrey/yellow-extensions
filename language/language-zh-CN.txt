@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.7.15
+LanguageVersion: 0.7.16
 
 BlogBy: 作者:
 BlogTag: 标签:
@@ -133,6 +133,14 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: 帮助
 EditUserHelp: 帮助
 EditUserLogout: 登出
+Error404Title: 文件未找到
+Error404Text: 找不到请求的文件。 不好了...
+Error430Title: Login failed
+Error430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+Error434Title: File not found
+Error434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+Error500Title: Server error
+Error500Text: Something went wrong. [yellow error]
 InstallTitle: 你好
 InstallFeature: 你想做什么做什么呢？
 InstallHomeTitle: 首页

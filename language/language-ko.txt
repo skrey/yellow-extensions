@@ -3,7 +3,7 @@
 Language: ko
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
-LanguageVersion: 0.7.15
+LanguageVersion: 0.7.16
 
 BlogBy: by
 BlogTag: 태그:
@@ -133,6 +133,14 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: 도움말
 EditUserHelp: 도움말
 EditUserLogout: 로그아웃
+Error404Title: 파일을 찾을 수 없음
+Error404Text: 요청한 파일을 찾을 수 없습니다. 오, 안돼 ...
+Error430Title: Login failed
+Error430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+Error434Title: File not found
+Error434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+Error500Title: Server error
+Error500Text: Something went wrong. [yellow error]
 InstallTitle: 여보세요
 InstallFeature: What do you want to make?
 InstallHomeTitle: Home
