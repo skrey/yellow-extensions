@@ -1,4 +1,4 @@
-Wiki plugin 0.7.8
+Wiki plugin 0.7.9
 =================
 Wiki for your website. [See demo](https://developers.datenstrom.se/plugins/wiki/).
 
@@ -46,8 +46,8 @@ The following settings can be configured in file `system/config/config.ini`:
 The following files can be configured:
 
 `content/shared/page-new-wiki.md` = content file for new wiki page  
-`system/themes/snippets/content-wiki.php` = source code for wiki page  
-`system/themes/snippets/content-wikipages.php` = source code for wiki main page  
+`system/themes/templates/wiki.html` = source code for wiki page  
+`system/themes/templates/wikipages.html` = source code for wiki main page  
 
 ## Example
 

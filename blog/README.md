@@ -1,4 +1,4 @@
-Blog plugin 0.7.8
+Blog plugin 0.7.9
 =================
 Blog for your website. [See demo](https://developers.datenstrom.se/plugins/blog/).
 
@@ -46,8 +46,8 @@ The following settings can be configured in file `system/config/config.ini`:
 The following files can be configured:
 
 `content/shared/page-new-blog.md` = content file for new blog page  
-`system/themes/snippets/content-blog.php` = source code for blog page  
-`system/themes/snippets/content-blogpages.php` = source code for blog main page  
+`system/themes/templates/blog.html` = source code for blog page  
+`system/themes/templates/blogpages.html` = source code for blog main page  
 
 ## Example
 
