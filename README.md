@@ -105,10 +105,10 @@ Experimental plugins:
   Yellow plugin for easy FAQ handling.
 * [Fotorama](https://github.com/nogginfuel/yellow-plugin-fotorama): 
   A jQuery image gallery with carousel.
-* [Include](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/include): 
-  Include page content into another page.
 * [Imgpop](https://github.com/bsnosi/yellow-plugin-imgpop):
   CSS only image popup with dimmed background and subtitle.
+* [Include](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/include): 
+  Include page content into another page.
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
   Add the power of jQuery to Yellow.
 * [Justified Gallery](https://github.com/nibreh/yellow-plugin-justified-gallery):
