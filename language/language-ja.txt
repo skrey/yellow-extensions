@@ -3,7 +3,7 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.7.16
+LanguageVersion: 0.8.1
 
 BlogBy: by
 BlogTag: Tags:
@@ -146,7 +146,9 @@ InstallFeature: どのサイト（ウェブ・ブログ・ウィキ）を作成�
 InstallHomeTitle: ホーム
 InstallHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
 InstallAboutTitle: について
-InstallAboutText: このウェブサイトは [Datenstrom Yellow](https://datenstrom.se/yellow/) で作成されています。[edit - ログイン]。
+InstallAboutText: ウェブサイトを作る人のために。[edit - ログイン]。
+InstallFooterTitle: Footer
+InstallFooterText: [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 PagePrevious: ← 前のページへ : @title
 PageNext: 次のページへ : @title →
 PaginationPrevious: ← 戻る

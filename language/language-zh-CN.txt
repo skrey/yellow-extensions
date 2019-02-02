@@ -3,7 +3,7 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.7.16
+LanguageVersion: 0.8.1
 
 BlogBy: 作者:
 BlogTag: 标签:
@@ -146,7 +146,9 @@ InstallFeature: 你想做什么做什么呢？
 InstallHomeTitle: 首页
 InstallHomeText: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。
 InstallAboutTitle: 关于
-InstallAboutText: 本站由 [Datenstrom Yellow](https://datenstrom.se/yellow/) 强力驱动. [edit - 登入].
+InstallAboutText: 对于制作网站的人. [edit - 登入].
+InstallFooterTitle: Footer
+InstallFooterText: [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 PagePrevious: ← 上一页 @title
 PageNext: 下一页 @title →
 PaginationPrevious: ← 上一页

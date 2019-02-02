@@ -3,7 +3,7 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.7.16
+LanguageVersion: 0.8.1
 
 BlogBy: per
 BlogTag: Tag:
@@ -146,7 +146,9 @@ InstallFeature: Cosa si vuole fare?
 InstallHomeTitle: Home
 InstallHomeText: Il tuo sito è attivo!\n\n[edit - Puoi modificare questa pagina] o usare il tuo editor di testo.
 InstallAboutTitle: Informazioni
-InstallAboutText: Questo sito è realizzato con [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Entra].
+InstallAboutText: Per le persone che creano siti web. [edit - Entra].
+InstallFooterTitle: Footer
+InstallFooterText: [Fatto con Datenstrom Yellow](https://datenstrom.se/yellow/)
 PagePrevious: ← Precedente: @title
 PageNext: Successivo: @title →
 PaginationPrevious: ← Precedente

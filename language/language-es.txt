@@ -3,7 +3,7 @@
 Language: es
 LanguageDescription: Español
 LanguageTranslator: Al Garcia, David Garcia
-LanguageVersion: 0.7.16
+LanguageVersion: 0.8.1
 
 BlogBy: por
 BlogTag: Etiquetas:
@@ -146,7 +146,9 @@ InstallFeature: ¿Qué quieres hacer?
 InstallHomeTitle: Inicio
 InstallHomeText: Tu sitio web funciona!\n\n[edit - Puedes editar esta página] o utilizar tu editor de texto.
 InstallAboutTitle: Acerca de
-InstallAboutText: Este sitio web está hecho con [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Acceder].
+InstallAboutText: Para las personas que hacen sitios web. [edit - Acceder].
+InstallFooterTitle: Footer
+InstallFooterText: [Hecho con Datenstrom Yellow](https://datenstrom.se/yellow/)
 PagePrevious: ← Anterior: @title
 PageNext: Siguiente: @title →
 PaginationPrevious: ← Anterior

@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.7.16
+LanguageVersion: 0.8.1
 
 BlogBy: av
 BlogTag: Taggar:
@@ -146,7 +146,9 @@ InstallFeature: Vad vill du göra?
 InstallHomeTitle: Hem
 InstallHomeText: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.
 InstallAboutTitle: Om
-InstallAboutText: Denna webbplats är gjord med [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Logga in].
+InstallAboutText: För personer som gör webbplatser. [edit - Logga in].
+InstallFooterTitle: Footer
+InstallFooterText: [Gjord med Datenstrom Yellow](https://datenstrom.se/yellow/)
 PagePrevious: ← Tidigare: @title
 PageNext: Nästa: @title →
 PaginationPrevious: ← Tidigare

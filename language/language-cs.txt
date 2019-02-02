@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.7.16
+LanguageVersion: 0.8.1
 
 BlogBy: Vytvořil
 BlogTag: Tags:
@@ -146,7 +146,9 @@ InstallFeature: Co chcete udělat?
 InstallHomeTitle: Domů
 InstallHomeText: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.
 InstallAboutTitle: O nás
-InstallAboutText: Webová prezentace vytvořena v [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Přihlásit se].
+InstallAboutText: Pro lidi kteří vytvářejí webové stránky. [edit - Přihlásit se].
+InstallFooterTitle: Footer
+InstallFooterText: [Vyrobeno z Datenstrom Yellow](https://datenstrom.se/yellow/)
 PagePrevious: ← Předchozí: @title
 PageNext: Následující: @title →
 PaginationPrevious: ← Předchozí

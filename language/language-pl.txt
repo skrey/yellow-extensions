@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.7.16
+LanguageVersion: 0.8.1
 
 BlogBy: przez
 BlogTag: Tagi:
@@ -146,7 +146,9 @@ InstallFeature: Co chcesz stworzyć?
 InstallHomeTitle: Home
 InstallHomeText: Twoja strona działa!\n\n[edit - Możesz edytować tę stronę] lub użyć własnego edytora.
 InstallAboutTitle: Informacje
-InstallAboutText: Ta strona zawiera [Datenstrom Yellow](https://datenstrom.se/yellow/). [edit - Zaloguj się].
+InstallAboutText: Dla osób które tworzą strony internetowe. [edit - Zaloguj się].
+InstallFooterTitle: Footer
+InstallFooterText: [Wykonane z Datenstrom Yellow](https://datenstrom.se/yellow/)
 PagePrevious: ← Poprzednia: @title
 PageNext: Następna: @title →
 PaginationPrevious: ← Poprzednie
