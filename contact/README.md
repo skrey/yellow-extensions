@@ -46,19 +46,14 @@ Content file with contact form:
 
     [contact]
 
-Footer snippet with contact page:
+Footer file with contact page:
 
-    <div class="footer" role="contentinfo">
-    <div class="siteinfo">
-    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2019 <?php echo $yellow->page->getHtml("sitename") ?></a>.
-    <a href="<?php echo $yellow->page->base."/contact/" ?>">Contact</a>.
-    <a href="<?php echo $yellow->text->get("yellowUrl") ?>">Made with Datenstrom Yellow</a>.
-    </div>
-    </div>
-    </div>
-    <?php echo $yellow->page->getExtra("footer") ?>
-    </body>
-    </html>
+    ---
+    Title: Footer
+    Status: hidden
+    ---
+    [Contact](/contact/) &nbsp; 
+    [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 
 ## Developer
 

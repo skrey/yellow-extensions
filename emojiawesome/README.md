@@ -39,18 +39,13 @@ Adding an emoji with shortcut, normal and double size:
     [ea ea-heart ea-2x]
     [ea ea-coffee ea-2x]
 
-Footer snippet with heart emoji:
+Footer file with heart emoji:
 
-    <div class="footer" role="contentinfo">
-    <div class="siteinfo">
-    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2019 <?php echo $yellow->page->getHtml("sitename") ?></a>.
-    <a href="<?php echo $yellow->text->get("yellowUrl") ?>">Made with <i class="ea ea-heart"></i> and Datenstrom Yellow</a>.
-    </div>
-    </div>
-    </div>
-    <?php echo $yellow->page->getExtra("footer") ?>
-    </body>
-    </html>
+    ---
+    Title: Footer
+    Status: hidden
+    ---
+    [Made with [ea ea-heart] and Datenstrom Yellow](https://datenstrom.se/yellow/)
 
 ## Developer
 

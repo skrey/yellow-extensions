@@ -27,19 +27,14 @@ The following settings can be configured in file `system/config/config.ini`:
 
 ## Example
 
-Footer snippet with RSS feed:
+Footer file with RSS feed:
 
-    <div class="footer" role="contentinfo">
-    <div class="siteinfo">
-    <a href="<?php echo $yellow->page->base."/" ?>">&copy; 2019 <?php echo $yellow->page->getHtml("sitename") ?></a>.
-    <a href="<?php echo $yellow->page->base."/feed/page:feed.xml" ?>">Feed</a>. 
-    <a href="<?php echo $yellow->text->get("yellowUrl") ?>">Made with Datenstrom Yellow</a>.
-    </div>
-    </div>
-    </div>
-    <?php echo $yellow->page->getExtra("footer") ?>
-    </body>
-    </html>
+    ---
+    Title: Footer
+    Status: hidden
+    ---
+    [Feed](/feed/page:feed.xml) &nbsp; 
+    [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 
 ## Developer
 

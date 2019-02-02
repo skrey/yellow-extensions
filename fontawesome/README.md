@@ -40,21 +40,15 @@ Adding an icon, normal and double size:
     [fa fa-twitter fa-2x]
     [fa fa-github fa-2x]
 
-Navigation snippet with social media icons:
+Footer file with social media icons:
 
-    <?php $pages = $yellow->pages->top() ?>
-    <?php $yellow->page->setLastModified($pages->getModified()) ?>
-    <div class="navigation" role="navigation">
-    <ul>
-    <?php foreach($pages as $page): ?>
-    <li><a<?php echo $page->isActive() ? " class=\"active\"" : "" ?> href="<?php echo $page->getLocation(true) ?>"><?php echo $page->getHtml("titleNavigation") ?></a></li>
-    <?php endforeach ?>
-    <li><a href="https://twitter.com/datenstromse"><i class="fa fa-twitter fa-lg"></i></a></li>
-    <li><a href="https://github.com/datenstrom"><i class="fa fa-github fa-lg"></i></a></li>
-    <li><a href="https://datenstrom.se"><i class="fa fa-heart fa-lg"></i></a></li>
-    </ul>
-    </div>
-    <div class="navigation-banner"></div>
+    ---
+    Title: Footer
+    Status: hidden
+    ---
+    [[fa fa-twitter]](https://twitter.com/datenstromse) &nbsp; 
+    [[fa fa-github]](https://github.com/datenstrom) &nbsp;
+    [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 
 ## Developer
 

@@ -29,7 +29,6 @@ Adding breadcrumbs:
     [breadcrumbs > breadcrumbs]
     [breadcrumbs / breadcrumbs]
 
-
 Content file with breadcrumbs:
 
     ---
@@ -43,8 +42,9 @@ Content file with breadcrumbs:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Content snippet with breadcrumbs:
+Template file with breadcrumbs:
 
+    <?php $yellow->snippet("header") ?>
     <div class="content">
     <?php $yellow->snippet("sidebar") ?>
     <div class="main" role="main">
@@ -53,6 +53,7 @@ Content snippet with breadcrumbs:
     <?php echo $yellow->page->getContent() ?>
     </div>
     </div>
+    <?php $yellow->snippet("footer") ?>
 
 ## Developer
 
