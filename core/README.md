@@ -53,15 +53,6 @@ This website is made with [yellow].
 [yellow version]
 ```
 
-Content file with error message:
-
-```
----
-Title: Server error
----
-Something went wrong. [yellow error]
-```
-
 ## Developer
 
 Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
