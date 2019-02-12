@@ -1,5 +1,5 @@
-Sitemap plugin 0.7.4
-====================
+Sitemap 0.7.4
+=============
 Sitemap for your website. [See demo](https://developers.datenstrom.se/sitemap/).
 
 <p align="center"><img src="sitemap-screenshot.png?raw=true" alt="Screenshot"></p>
@@ -7,7 +7,7 @@ Sitemap for your website. [See demo](https://developers.datenstrom.se/sitemap/).
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/sitemap.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/sitemap.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `sitemap.zip` into your `system/plugins` folder.
 
 To uninstall delete the [plugin files](update.ini).

@@ -1,13 +1,13 @@
-Slider plugin 0.7.7
-===================
-Image gallery with slider. [See demo](https://developers.datenstrom.se/plugins/slider).
+Slider 0.7.7
+============
+Image gallery with slider. [See demo](https://developers.datenstrom.se/features/slider).
 
 <p align="center"><img src="slider-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/slider.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/slider.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `slider.zip` into your `system/plugins` folder.
 
 To uninstall delete the [plugin files](update.ini).
@@ -23,7 +23,7 @@ The following arguments are available, all but the first argument are optional:
 `Size` = image size, pixel or percent  
 `Autoplay` = play images automatically, delay time in milliseconds
 
-The plugins uses [Flickity v2.0.9](https://github.com/metafizzy/flickity) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0).
+The extension uses [Flickity v2.0.9](https://github.com/metafizzy/flickity) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0).
 
 ## Example
 

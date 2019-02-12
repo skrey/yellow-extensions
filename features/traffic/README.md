@@ -1,5 +1,5 @@
-Traffic plugin 0.7.9
-====================
+Traffic 0.7.9
+=============
 Create traffic analytics from web server logfiles.
 
 <p align="center"><img src="traffic-screenshot.png?raw=true" alt="Screenshot"></p>
@@ -7,16 +7,16 @@ Create traffic analytics from web server logfiles.
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/traffic.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/traffic.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `traffic.zip` into your `system/plugins` folder.
 
 To uninstall delete the [plugin files](update.ini).
 
 ## How to create traffic analytics
 
-The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command). It shows referring sites, popular content, files and search queries. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days, location and file name. See example below.
+The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). It shows referring sites, popular content, files and search queries. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days, location and file name. See example below.
 
-This plugins analyses your web server logfiles, use [Matomo](https://github.com/datenstrom/yellow-plugins/tree/master/matomo) for more detailed web analytics.
+The extension analyses your web server logfiles, use [Matomo](https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo) for more detailed web analytics.
 
 ## How to configure traffic analytics
 

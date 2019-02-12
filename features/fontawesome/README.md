@@ -1,5 +1,5 @@
-Fontawesome plugin 0.7.4
-========================
+Fontawesome 0.7.4
+=================
 Icons and symbols.
 
 ![Screenshot](fontawesome-screenshot.jpg?raw=true)
@@ -7,7 +7,7 @@ Icons and symbols.
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/fontawesome.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/fontawesome.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `fontawesome.zip` into your `system/plugins` folder.
 
 To uninstall delete the [plugin files](update.ini).
@@ -20,7 +20,7 @@ It's also possible to create a `[fa]` shortcut or use HTML `<i class="fa fa-name
 
 You can add an additional style to the name, for example `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` and `fa-5x`.
 
-The plugin uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy, which supports about 600 pictographic icons. It's licensed under [OFL 1.1](https://opensource.org/licenses/OFL-1.1). Font Awesome has icons for web applications, buttons and forms. There's a `fontawesome.css` which you can adjust or use in your own style sheets.
+The extension uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy, which supports about 600 pictographic icons. It's licensed under [OFL 1.1](https://opensource.org/licenses/OFL-1.1). Font Awesome has icons for web applications, buttons and forms. There's a `fontawesome.css` which you can adjust or use in your own style sheets.
 
 ## Example
 

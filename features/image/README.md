@@ -1,13 +1,13 @@
-Image plugin 0.8.1
-==================
-Images and thumbnails. [See demo](https://developers.datenstrom.se/plugins/image).
+Image 0.8.1
+===========
+Images and thumbnails. [See demo](https://developers.datenstrom.se/features/image).
 
 <p align="center"><img src="image-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/image.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/image.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `image.zip` into your `system/plugins` folder.
 
 To uninstall delete the [plugin files](update.ini).
@@ -24,7 +24,7 @@ The following arguments are available, all but the first argument are optional:
 `Width` = image width, pixel or percent  
 `Height` = image height, pixel or percent   
 
-The plugin uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell for resizing images.
+The extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell for resizing images.
 
 ## How to configure an image
 

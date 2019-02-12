@@ -1,5 +1,5 @@
-Language plugin 0.8.1
-=====================
+Language 0.8.1
+==============
 Languages and regions.
 
 ![Screenshot](language-screenshot.png?raw=true)
@@ -7,7 +7,7 @@ Languages and regions.
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/language.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/language.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `language.zip` into your `system/plugins` folder.
 
 To uninstall delete the [plugin files](update.ini).

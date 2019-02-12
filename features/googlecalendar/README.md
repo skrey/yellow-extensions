@@ -1,5 +1,5 @@
-Googlecalendar plugin 0.7.5
-===========================
+Googlecalendar 0.7.5
+====================
 Embed Google calendar.
 
 <p align="center"><img src="googlecalendar-screenshot.png?raw=true" alt="Screenshot"></p>
@@ -7,7 +7,7 @@ Embed Google calendar.
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/googlecalendar.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/googlecalendar.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `googlecalendar.zip` into your `system/plugins` folder.
 
 To uninstall delete the [plugin files](update.ini).

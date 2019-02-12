@@ -1,13 +1,13 @@
-Gallery plugin 0.7.8
-====================
-Image gallery with popup. [See demo](https://developers.datenstrom.se/plugins/gallery).
+Gallery 0.7.8
+=============
+Image gallery with popup. [See demo](https://developers.datenstrom.se/features/gallery).
 
 <p align="center"><img src="gallery-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/gallery.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/gallery.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `gallery.zip` into your `system/plugins` folder.
 
 To uninstall delete the [plugin files](update.ini).
@@ -22,7 +22,7 @@ The following arguments are available, all but the first argument are optional:
 `Style` = gallery style, e.g. `photoswipe`, `simple`  
 `Size` = image size, pixel or percent
 
-The plugins uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
+The extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
 
 ## How to configure image captions
 

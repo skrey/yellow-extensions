@@ -1,5 +1,5 @@
-Vimeo plugin 0.7.2
-==================
+Vimeo 0.7.2
+===========
 Embed Vimeo videos.
 
 <p align="center"><img src="vimeo-screenshot.png?raw=true" alt="Screenshot"></p>
@@ -7,7 +7,7 @@ Embed Vimeo videos.
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/vimeo.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/vimeo.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `vimeo.zip` into your `system/plugins` folder.
 
 To uninstall delete the [plugin files](update.ini).

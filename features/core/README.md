@@ -1,5 +1,5 @@
-Core plugin 0.8.1
-=================
+Core 0.8.1
+==========
 Core functionality for your website.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Screenshot"></p>
@@ -7,14 +7,14 @@ Core functionality for your website.
 ## How to install plugin
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-plugins/raw/master/zip/core.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/core.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `core.zip` into your `system/plugins` folder.
 
 Do not delete the [plugin files](update.ini), they are always required.
 
 ## How to use the core
 
-The plugin provides the core functionality for your website. It takes care of requests from the web browser and access to the file system. You can use the [web browser](https://github.com/datenstrom/yellow-plugins/tree/master/edit) or the [command line](https://github.com/datenstrom/yellow-plugins/tree/master/command) to show software version and updates. To show more information about your website add a `[yellow]` shortcut to a page. See example below.
+The extension provides the core functionality for your website. It takes care of requests from the web browser and access to the file system. You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show software version and updates. To show more information about your website add a `[yellow]` shortcut to a page. See example below.
 
 ## How to configure the core
 
@@ -42,7 +42,7 @@ Title: Example page
 This website is made with [yellow].
 ```
 
-Content file with software version, including plugins and themes:
+Content file with software version, including features and themes:
 
 ```
 ---
