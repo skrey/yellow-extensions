@@ -1,7 +1,7 @@
 Themes to download
 ==================
 
-## Official extensions:
+The following are official extensions:
 
 * [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/themes/berlin): 
   Berlin is a simple and beautiful theme inspired by Dieter Rams.
@@ -16,7 +16,7 @@ Themes to download
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/themes/stockholm): 
   Stockholm is a modern business theme.
 
-## Experimental extensions:
+The following are experimental extensions:
 
 * [Buoa](https://github.com/bsnosi/yellow-theme-buoa):
   Buoa is a theme for a technical oriented blog/wiki.
@@ -25,4 +25,6 @@ Themes to download
 * [Lateral](https://github.com/nibreh/yellow-theme-lateral):
   Lateral is a clean theme with fixed sidebar, inspired by Indexhibit.
 
-We have a developer kit and an API for developers. [Learn more](https://developers.datenstrom.se/help/).
+## Developer
+
+Datenstrom and contributors. [Get support](https://developers.datenstrom.se/help/support).

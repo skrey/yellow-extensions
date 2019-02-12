@@ -1,7 +1,7 @@
 Features to download
 ====================
 
-## Official extensions:
+The following are official extensions:
 
 * [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog): 
   Blog for your website.
@@ -74,7 +74,7 @@ Features to download
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube): 
   Embed Youtube videos.
 
-## Experimental extensions:
+The following are experimental extensions:
 
 * [About](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/about):
   Author profile for blog pages.
@@ -145,7 +145,7 @@ Features to download
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Image gallery in CSS only.
 
-## Archived extensions:
+The following are archived extensions:
 
 * [InlineAttachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
   Drag and drop image upload for editing a page.
@@ -154,4 +154,6 @@ Features to download
 * [Skipto](https://github.com/schulle4u/yellow-plugin-skipto):
   Enhance keyboard navigation.
 
-We have a developer kit and an API for developers. [Learn more](https://developers.datenstrom.se/help/).
+## Developer
+
+Datenstrom and contributors. [Get support](https://developers.datenstrom.se/help/support).
