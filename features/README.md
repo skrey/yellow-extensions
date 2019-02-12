@@ -1,77 +1,77 @@
-Feature
-=======
+Features to download
+====================
 
 ## Official extensions:
 
-* [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/feature/blog): 
+* [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog): 
   Blog for your website.
-* [Breadcrumbs](https://github.com/datenstrom/yellow-extensions/tree/master/feature/breadcrumbs): 
+* [Breadcrumbs](https://github.com/datenstrom/yellow-extensions/tree/master/features/breadcrumbs): 
   Breadcrumbs navigation.
-* [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/feature/bundle): 
+* [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/features/bundle): 
   Bundle CSS and JavaScript.
-* [Command](https://github.com/datenstrom/yellow-extensions/tree/master/feature/command): 
+* [Command](https://github.com/datenstrom/yellow-extensions/tree/master/features/command): 
   Run commands in a terminal window.
-* [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/feature/contact): 
+* [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact): 
   Email contact page.
-* [Core](https://github.com/datenstrom/yellow-extensions/tree/master/feature/core): 
+* [Core](https://github.com/datenstrom/yellow-extensions/tree/master/features/core): 
   Core functionality for your website.
-* [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/feature/disqus): 
+* [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus): 
   Add Disqus comments to blog.
-* [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/feature/draft): 
+* [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft): 
   Support for draft pages.
-* [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/feature/edit): 
+* [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit): 
   Edit your website in a web browser.
-* [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/feature/emojiawesome): 
+* [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome): 
   Lots and lots of emoji.
-* [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/feature/feed): 
+* [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed): 
   Web feed with recent changes.
-* [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/feature/fontawesome): 
+* [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome): 
   Icons and symbols.
-* [Gallery](https://github.com/datenstrom/yellow-extensions/tree/master/feature/gallery): 
+* [Gallery](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery): 
   Image gallery with popup.
-* [Googlecalendar](https://github.com/datenstrom/yellow-extensions/tree/master/feature/googlecalendar): 
+* [Googlecalendar](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlecalendar): 
   Embed Google calendar.
-* [Googlemaps](https://github.com/datenstrom/yellow-extensions/tree/master/feature/googlemaps): 
+* [Googlemaps](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemaps): 
   Embed Google maps.
-* [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/feature/highlight): 
+* [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight): 
   Highlight source code.
-* [Image](https://github.com/datenstrom/yellow-extensions/tree/master/feature/image): 
+* [Image](https://github.com/datenstrom/yellow-extensions/tree/master/features/image): 
   Images and thumbnails.
-* [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/feature/instagram): 
+* [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/features/instagram): 
   Embed Instagram photos.
-* [Language](https://github.com/datenstrom/yellow-extensions/tree/master/feature/language): 
+* [Language](https://github.com/datenstrom/yellow-extensions/tree/master/features/language): 
   Languages and regions.
-* [Links](https://github.com/datenstrom/yellow-extensions/tree/master/feature/links): 
+* [Links](https://github.com/datenstrom/yellow-extensions/tree/master/features/links): 
   Add links to previous/next page.
-* [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/feature/markdown): 
+* [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown): 
   Text formatting for humans.
-* [Matomo](https://github.com/datenstrom/yellow-extensions/tree/master/feature/matomo): 
+* [Matomo](https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo): 
   Add Matomo web analytics to website.
-* [Preview](https://github.com/datenstrom/yellow-extensions/tree/master/feature/preview): 
+* [Preview](https://github.com/datenstrom/yellow-extensions/tree/master/features/preview): 
   Show pages with image preview.
-* [Release](https://github.com/datenstrom/yellow-extensions/tree/master/feature/release): 
+* [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
   Create software releases.
-* [Search](https://github.com/datenstrom/yellow-extensions/tree/master/feature/search): 
+* [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Full-text search.
-* [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/feature/sitemap): 
+* [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap): 
   Sitemap for your website.
-* [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/feature/slider): 
+* [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider): 
   Image gallery with slider.
-* [Soundcloud](https://github.com/datenstrom/yellow-extensions/tree/master/feature/soundcloud): 
+* [Soundcloud](https://github.com/datenstrom/yellow-extensions/tree/master/features/soundcloud): 
   Embed Soundcloud audio tracks.
-* [Toc](https://github.com/datenstrom/yellow-extensions/tree/master/feature/toc): 
+* [Toc](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc): 
   Table of contents.
-* [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/feature/traffic): 
+* [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic): 
   Create traffic analytics from web server logfiles.
-* [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/feature/twitter): 
+* [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter): 
   Embed Twitter messages.
-* [Update](https://github.com/datenstrom/yellow-extensions/tree/master/feature/update): 
+* [Update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update): 
   Keep your website up to date.
-* [Vimeo](https://github.com/datenstrom/yellow-extensions/tree/master/feature/vimeo): 
+* [Vimeo](https://github.com/datenstrom/yellow-extensions/tree/master/features/vimeo): 
   Embed Vimeo videos.
-* [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/feature/wiki): 
+* [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki): 
   Wiki for your website.
-* [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/feature/youtube): 
+* [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube): 
   Embed Youtube videos.
 
 ## Experimental extensions:
