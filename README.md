@@ -1,93 +1,93 @@
-Datenstrom Yellow plugins
-=========================
+Datenstrom Yellow extensions
+============================
 [![Datenstrom Yellow](https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/datenstrom-yellow-en.jpg)](https://datenstrom.se/yellow/)
 
-Datenstrom Yellow is for people who make websites. [See demo](https://developers.datenstrom.se/plugins/).
+Datenstrom Yellow is for people who make websites. [See demo](https://developers.datenstrom.se/).
 
-1. [Download all plugins and unzip them](https://github.com/datenstrom/yellow-plugins/archive/master.zip).  
+1. [Download all extensions and unzip them](https://github.com/datenstrom/yellow-extensions/archive/master.zip).  
 2. Copy relevant files to your web server.  
 3. Open your website in a web browser.
 
-Official plugins:
+Official extensions:
 
-* [Blog](https://github.com/datenstrom/yellow-plugins/tree/master/blog): 
+* [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/blog): 
   Blog for your website.
-* [Breadcrumbs](https://github.com/datenstrom/yellow-plugins/tree/master/breadcrumbs): 
+* [Breadcrumbs](https://github.com/datenstrom/yellow-extensions/tree/master/breadcrumbs): 
   Breadcrumbs navigation.
-* [Bundle](https://github.com/datenstrom/yellow-plugins/tree/master/bundle): 
+* [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/bundle): 
   Bundle CSS and JavaScript.
-* [Command](https://github.com/datenstrom/yellow-plugins/tree/master/command): 
+* [Command](https://github.com/datenstrom/yellow-extensions/tree/master/command): 
   Run commands in a terminal window.
-* [Contact](https://github.com/datenstrom/yellow-plugins/tree/master/contact): 
+* [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/contact): 
   Email contact page.
-* [Core](https://github.com/datenstrom/yellow-plugins/tree/master/core): 
+* [Core](https://github.com/datenstrom/yellow-extensions/tree/master/core): 
   Core functionality for your website.
-* [Disqus](https://github.com/datenstrom/yellow-plugins/tree/master/disqus): 
+* [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/disqus): 
   Add Disqus comments to blog.
-* [Draft](https://github.com/datenstrom/yellow-plugins/tree/master/draft): 
+* [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/draft): 
   Support for draft pages.
-* [Edit](https://github.com/datenstrom/yellow-plugins/tree/master/edit): 
+* [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/edit): 
   Edit your website in a web browser.
-* [Emojiawesome](https://github.com/datenstrom/yellow-plugins/tree/master/emojiawesome): 
+* [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/emojiawesome): 
   Lots and lots of emoji.
-* [Feed](https://github.com/datenstrom/yellow-plugins/tree/master/feed): 
+* [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/feed): 
   Web feed with recent changes.
-* [Fontawesome](https://github.com/datenstrom/yellow-plugins/tree/master/fontawesome): 
+* [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/fontawesome): 
   Icons and symbols.
-* [Gallery](https://github.com/datenstrom/yellow-plugins/tree/master/gallery): 
+* [Gallery](https://github.com/datenstrom/yellow-extensions/tree/master/gallery): 
   Image gallery with popup.
-* [Googlecalendar](https://github.com/datenstrom/yellow-plugins/tree/master/googlecalendar): 
+* [Googlecalendar](https://github.com/datenstrom/yellow-extensions/tree/master/googlecalendar): 
   Embed Google calendar.
-* [Googlemaps](https://github.com/datenstrom/yellow-plugins/tree/master/googlemaps): 
+* [Googlemaps](https://github.com/datenstrom/yellow-extensions/tree/master/googlemaps): 
   Embed Google maps.
-* [Highlight](https://github.com/datenstrom/yellow-plugins/tree/master/highlight): 
+* [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/highlight): 
   Highlight source code.
-* [Image](https://github.com/datenstrom/yellow-plugins/tree/master/image): 
+* [Image](https://github.com/datenstrom/yellow-extensions/tree/master/image): 
   Images and thumbnails.
-* [Instagram](https://github.com/datenstrom/yellow-plugins/tree/master/instagram): 
+* [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/instagram): 
   Embed Instagram photos.
-* [Language](https://github.com/datenstrom/yellow-plugins/tree/master/language): 
+* [Language](https://github.com/datenstrom/yellow-extensions/tree/master/language): 
   Languages and regions.
-* [Links](https://github.com/datenstrom/yellow-plugins/tree/master/links): 
+* [Links](https://github.com/datenstrom/yellow-extensions/tree/master/links): 
   Add links to previous/next page.
-* [Markdown](https://github.com/datenstrom/yellow-plugins/tree/master/markdown): 
+* [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/markdown): 
   Text formatting for humans.
-* [Matomo](https://github.com/datenstrom/yellow-plugins/tree/master/matomo): 
+* [Matomo](https://github.com/datenstrom/yellow-extensions/tree/master/matomo): 
   Add Matomo web analytics to website.
-* [Preview](https://github.com/datenstrom/yellow-plugins/tree/master/preview): 
+* [Preview](https://github.com/datenstrom/yellow-extensions/tree/master/preview): 
   Show pages with image preview.
-* [Release](https://github.com/datenstrom/yellow-plugins/tree/master/release): 
+* [Release](https://github.com/datenstrom/yellow-extensions/tree/master/release): 
   Create software releases.
-* [Search](https://github.com/datenstrom/yellow-plugins/tree/master/search): 
+* [Search](https://github.com/datenstrom/yellow-extensions/tree/master/search): 
   Full-text search.
-* [Sitemap](https://github.com/datenstrom/yellow-plugins/tree/master/sitemap): 
+* [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/sitemap): 
   Sitemap for your website.
-* [Slider](https://github.com/datenstrom/yellow-plugins/tree/master/slider): 
+* [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/slider): 
   Image gallery with slider.
-* [Soundcloud](https://github.com/datenstrom/yellow-plugins/tree/master/soundcloud): 
+* [Soundcloud](https://github.com/datenstrom/yellow-extensions/tree/master/soundcloud): 
   Embed Soundcloud audio tracks.
-* [Toc](https://github.com/datenstrom/yellow-plugins/tree/master/toc): 
+* [Toc](https://github.com/datenstrom/yellow-extensions/tree/master/toc): 
   Table of contents.
-* [Traffic](https://github.com/datenstrom/yellow-plugins/tree/master/traffic): 
+* [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/traffic): 
   Create traffic analytics from web server logfiles.
-* [Twitter](https://github.com/datenstrom/yellow-plugins/tree/master/twitter): 
+* [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/twitter): 
   Embed Twitter messages.
-* [Update](https://github.com/datenstrom/yellow-plugins/tree/master/update): 
+* [Update](https://github.com/datenstrom/yellow-extensions/tree/master/update): 
   Keep your website up to date.
-* [Vimeo](https://github.com/datenstrom/yellow-plugins/tree/master/vimeo): 
+* [Vimeo](https://github.com/datenstrom/yellow-extensions/tree/master/vimeo): 
   Embed Vimeo videos.
-* [Wiki](https://github.com/datenstrom/yellow-plugins/tree/master/wiki): 
+* [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/wiki): 
   Wiki for your website.
-* [Youtube](https://github.com/datenstrom/yellow-plugins/tree/master/youtube): 
+* [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/youtube): 
   Embed Youtube videos.
 
-Experimental plugins:
+Experimental extensions:
 
-* [About](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/about):
+* [About](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/about):
   Author profile for blog pages.
-* [Antispam](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/antispam):
+* [Antispam](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/antispam):
   Email address obfuscator using ROT13 and CSS.
-* [Audio](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/audio):
+* [Audio](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio):
   HTML5 audio player.
 * [Burgermenu](https://github.com/richi/yellow-plugin-burger-menu): 
   A hamburger menu button.
@@ -107,7 +107,7 @@ Experimental plugins:
   A jQuery image gallery with carousel.
 * [Imgpop](https://github.com/bsnosi/yellow-plugin-imgpop):
   CSS only image popup with dimmed background and subtitle.
-* [Include](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/include): 
+* [Include](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/include): 
   Include page content into another page.
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
   Add the power of jQuery to Yellow.
@@ -121,29 +121,29 @@ Experimental plugins:
   Create a list of MP3/OGG/PDF media files.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
   Light and accessible social-sharing links.
-* [MOTD](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/motd):
+* [MOTD](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
   Message of the day.
 * [Pagetxt](https://github.com/richi/yellow-plugin-pagetxt):
   Overwrite language entries in a page.
-* [Podcast](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/podcast): 
+* [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
   A fork of the original feed plugin optimized for podcast publishing.
-* [Private](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/private): 
+* [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
   Create password-protected pages.
-* [Random](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/random): 
+* [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
   Display random pages from specified location.
-* [Shariff](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/shariff):
+* [Shariff](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/shariff):
   Privacy-friendly social sharing buttons.
-* [Socialtags](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/socialtags):
+* [Socialtags](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/socialtags):
   Adds Twitter and Open Graph meta tags.
-* [Spoiler](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/spoiler):
+* [Spoiler](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/spoiler):
   Hide certain page elements.
 * [Streamlist](https://github.com/nibreh/yellow-plugin-streamlist):
   Stream your favorite radios in a playlist with HTML5 audio.
 * [Sublime](https://github.com/nashv/YellowBlogExtensions):
   Sublime Text 3 Extensions for blogs based on Yellow.
-* [Ticker](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/ticker): 
+* [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker): 
   Feed parser using SimpleXML or SimplePie.
-* [TuneIn](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/tunein): 
+* [TuneIn](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
   Embed radio stations from TuneIn.
 * [Video](https://github.com/nibreh/yellow-plugin-video): 
   HTML5 video player.
@@ -152,7 +152,7 @@ Experimental plugins:
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Image gallery in CSS only.
 
-Archived plugins:
+Archived extensions:
 
 * [InlineAttachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
   Drag and drop image upload for editing a page.
