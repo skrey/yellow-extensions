@@ -1,5 +1,5 @@
-Features to download
-====================
+Features
+========
 
 The following are official extensions:
 

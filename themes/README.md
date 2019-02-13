@@ -1,5 +1,5 @@
-Themes to download
-==================
+Themes
+======
 
 The following are official extensions:
 
