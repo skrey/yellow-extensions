@@ -14,7 +14,7 @@ Do not delete the [plugin files](update.ini), they are always required.
 
 ## How to use the core
 
-The extension provides the core functionality for your website. It takes care of requests from the web browser and access to the file system. You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show software version and updates. To show more information about your website add a `[yellow]` shortcut to a page. See example below.
+The extension provides the core functionality for your website. It takes care of requests from the web browser and access to the file system. You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version and updates. To show information about your website add a `[yellow]` shortcut to a page. See example below.
 
 ## How to configure the core
 
@@ -25,7 +25,6 @@ The following settings can be configured in file `system/config/config.ini`:
 `Email` = webmaster's email  
 `Language` = default language  
 `Timezone` = default timezone  
-`Theme` = default theme  
 `MultiLanguageMode` = enable [multi language mode](https://developers.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
 `SafeMode` = enable [safe mode](https://developers.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 
@@ -33,7 +32,7 @@ These are the most important settings. For a complete list see [configuration fi
 
 ## Example
 
-Content file with software version:
+Content file with website version:
 
 ```
 ---
@@ -42,7 +41,7 @@ Title: Example page
 This website is made with [yellow].
 ```
 
-Content file with software version, including features and themes:
+Content file with website version, including extensions:
 
 ```
 ---

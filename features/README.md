@@ -50,7 +50,7 @@ The following are official extensions:
 * [Preview](https://github.com/datenstrom/yellow-extensions/tree/master/features/preview): 
   Show pages with image preview.
 * [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
-  Create software releases.
+  Create releases.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Full-text search.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap): 

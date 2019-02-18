@@ -8,7 +8,7 @@ The following are official extensions:
 * [Blogsite](https://github.com/datenstrom/yellow-extensions/tree/master/themes/blogsite): 
   Blogsite is a basic blogger theme.
 * [Flatsite](https://github.com/datenstrom/yellow-extensions/tree/master/themes/flatsite): 
-  Flatsite is a clean business theme.
+  Flatsite is a clean website theme.
 * [Knowhow](https://github.com/datenstrom/yellow-extensions/tree/master/themes/knowhow): 
   Knowhow is a theme for a GitHub-like knowledge base.
 * [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/themes/paris): 

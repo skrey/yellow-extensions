@@ -1,6 +1,6 @@
 Release 0.7.17
 ==============
-Create software releases.
+Create releases.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -12,11 +12,11 @@ Create software releases.
 
 To uninstall delete the [plugin files](update.ini).
 
-## How to create a software release
+## How to create a release
 
-First increase the version number in your code. Then create a software release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload the changes and send a pull request. See example below.
+First increase the version number in your code. Then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload the changes and send a pull request. See example below.
 
-## How to configure a software release
+## How to configure a release
 
 The following settings can be configured in file `system/config/config.ini`:
 
@@ -26,11 +26,11 @@ The following settings can be configured in file `system/config/config.ini`:
 
 The following settings can be configured in file `update.ini` for each plugin/theme:
 
-`Plugin` or `Theme` = software name  
-`Version` = software version number  
-`Description` = software description  
-`Published` = software publication date  
-`Developer` = plugin developer  
+`Plugin` or `Theme` = name of extension  
+`Version` = version number of extension  
+`Description` = description of extension  
+`Published` = publication date of extension 
+`Developer` = feature developer  
 `Designer` = theme designer  
 
 The following file operations are supported:
@@ -39,11 +39,11 @@ The following file operations are supported:
 `update` = overwrite if exists  
 `delete` = delete if exists  
 `careful` = only if not modified  
-`optional` = only if new software installation  
+`optional` = only if new installation  
 
 ## Example
 
-Creating software releases at the command line:
+Creating releases at the command line:
 
 `php yellow.php release`   
 `php yellow.php release yellow-plugin-example`  
