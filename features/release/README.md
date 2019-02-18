@@ -29,7 +29,7 @@ The following settings can be configured in file `update.ini` for each plugin/th
 `Plugin` or `Theme` = name of extension  
 `Version` = version number of extension  
 `Description` = description of extension  
-`Published` = publication date of extension 
+`Published` = publication date of extension  
 `Developer` = feature developer  
 `Designer` = theme designer  
 

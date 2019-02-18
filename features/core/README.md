@@ -14,7 +14,7 @@ Do not delete the [plugin files](update.ini), they are always required.
 
 ## How to use the core
 
-The extension provides the core functionality for your website. It takes care of requests from the web browser and access to the file system. You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version and updates. To show information about your website add a `[yellow]` shortcut to a page. See example below.
+The extension provides the core functionality for your website. It takes care of requests from the web browser and access to the file system. You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version and updates. You can also show the current version directly on your website. See example below.
 
 ## How to configure the core
 
