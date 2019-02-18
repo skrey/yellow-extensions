@@ -24,7 +24,7 @@ The following settings can be configured in file `system/config/config.ini`:
 `ReleasePluginsDir` = directory containing the official plugins repository  
 `ReleaseThemesDir` = directory containing the official themes repository  
 
-The following settings can be configured in file `update.ini` for each plugin/theme:
+The following settings can be configured in file `update.ini` for each extension:
 
 `Plugin` or `Theme` = name of extension  
 `Version` = version number of extension  

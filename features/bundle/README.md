@@ -14,13 +14,13 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to bundle CSS and JavaScript
 
-The extension bundles and minifies files for a better loading time. Your website may contain multiple CSS and JavaScript files. Usually these files will be cached in the browser, but nevertheless each file has to be loaded and updated. This is where a file bundler comes in. It looks for included files and replaces them with one single bundle for CSS and one for JavaScript.
+The extension bundles and minifies files for a better loading time. Your website may contain multiple CSS and JavaScript. Usually these files will be cached in the browser, but nevertheless each file has to be checked. This is where a file bundler comes in. It looks for included files and replaces them with one single bundle for CSS and one for JavaScript.
 
 The extension uses [Minify v1.3.60](https://github.com/matthiasmullie/minify) by Matthias Mullie. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
 
 ## Example
 
-Website with multiple CSS and JavaScript files:
+Website with unbundled CSS and JavaScript files:
 
 ```
 <!DOCTYPE html>

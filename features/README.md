@@ -1,7 +1,7 @@
 Features
 ========
 
-The following are official extensions:
+The following features are official:
 
 * [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog): 
   Blog for your website.
@@ -74,7 +74,7 @@ The following are official extensions:
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube): 
   Embed Youtube videos.
 
-The following are experimental extensions:
+The following features are experimental:
 
 * [About](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/about):
   Author profile for blog pages.
@@ -145,7 +145,7 @@ The following are experimental extensions:
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Image gallery in CSS only.
 
-The following are archived extensions:
+The following features are archived:
 
 * [InlineAttachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
   Drag and drop image upload for editing a page.
@@ -154,6 +154,4 @@ The following are archived extensions:
 * [Skipto](https://github.com/schulle4u/yellow-plugin-skipto):
   Enhance keyboard navigation.
 
-## Developer
-
-Datenstrom and contributors. [Get support](https://developers.datenstrom.se/help/support).
+Want to make a new feature? [Use the example extension](https://github.com/schulle4u/yellow-plugin-example).
