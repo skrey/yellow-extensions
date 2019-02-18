@@ -45,12 +45,12 @@ Datenstrom Yellow is for people who make websites.
 Syntax: php yellow.php build [directory location]
         php yellow.php check [directory location]
         php yellow.php clean [directory location]
-        php yellow.php install [feature]
+        php yellow.php install [extension]
         php yellow.php release [directory]
         php yellow.php serve [url]
         php yellow.php traffic [days location filename]
-        php yellow.php uninstall [feature]
-        php yellow.php update [feature]
+        php yellow.php uninstall [extension]
+        php yellow.php update [extension]
         php yellow.php user [option email password name]
         php yellow.php version
 ~~~~
