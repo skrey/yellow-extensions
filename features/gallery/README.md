@@ -4,13 +4,13 @@ Image gallery with popup. [See demo](https://developers.datenstrom.se/features/g
 
 <p align="center"><img src="gallery-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install plugin
+## How to install
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/gallery.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/gallery.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `gallery.zip` into your `system/plugins` folder.
 
-To uninstall delete the [plugin files](update.ini).
+To uninstall delete the [extension files](update.ini).
 
 ## How to add a gallery
 

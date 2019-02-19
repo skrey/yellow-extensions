@@ -4,13 +4,13 @@ Create releases.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install plugin
+## How to install
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/release.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/release.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `release.zip` into your `system/plugins` folder.
 
-To uninstall delete the [plugin files](update.ini).
+To uninstall delete the [extension files](update.ini).
 
 ## How to create a release
 
@@ -46,7 +46,7 @@ The following file operations are supported:
 Creating releases at the command line:
 
 `php yellow.php release`   
-`php yellow.php release yellow-plugin-example`  
+`php yellow.php release yellow-feature-example`  
 `php yellow.php release yellow-theme-example`  
 
 Update settings for a plugin:

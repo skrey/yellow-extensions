@@ -4,13 +4,13 @@ Show pages with image preview. [See demo](https://developers.datenstrom.se/featu
 
 <p align="center"><img src="preview-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install plugin
+## How to install
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/preview.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/preview.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `preview.zip` into your `system/plugins` folder.
 
-To uninstall delete the [plugin files](update.ini).
+To uninstall delete the [extension files](update.ini).
 
 ## How to show a preview
 

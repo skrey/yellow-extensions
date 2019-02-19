@@ -4,13 +4,13 @@ Lots and lots of emoji.
 
 ![Screenshot](emojiawesome-screenshot.jpg?raw=true)
 
-## How to install plugin
+## How to install
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/emojiawesome.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/emojiawesome.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `emojiawesome.zip` into your `system/plugins` folder.
 
-To uninstall delete the [plugin files](update.ini).
+To uninstall delete the [extension files](update.ini).
 
 ## How to add an emoji
 

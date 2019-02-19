@@ -2,14 +2,14 @@ Matomo 0.7.1
 ============
 Add Matomo web analytics to website.
 
-## How to install plugin
+## How to install
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download and install Matomo](http://matomo.org/).
-3. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/matomo.zip). If you are using Safari, right click and select 'Download file as'.
+3. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/matomo.zip). If you are using Safari, right click and select 'Download file as'.
 4. Copy `matomo.zip` into your `system/plugins` folder.
 
-To uninstall delete the [plugin files](update.ini).
+To uninstall delete the [extension files](update.ini).
 
 ## How to create web analytics
 

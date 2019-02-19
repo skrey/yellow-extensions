@@ -4,13 +4,13 @@ Wiki for your website. [See demo](https://developers.datenstrom.se/features/wiki
 
 <p align="center"><img src="wiki-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install plugin
+## How to install
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/datenstrom/yellow-extensions/raw/master/zip/wiki.zip). If you are using Safari, right click and select 'Download file as'.
+2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/wiki.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `wiki.zip` into your `system/plugins` folder.
 
-To uninstall delete the [plugin files](update.ini).
+To uninstall delete the [extension files](update.ini).
 
 ## How to use a wiki
 
