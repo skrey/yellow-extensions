@@ -10,7 +10,7 @@ Run commands in a terminal window.
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `command.zip` into your `system/plugins` folder.
 
-To uninstall delete the [extension files](update.ini).
+Do not delete the [extension files](update.ini), they are always required.
 
 ## How to use commands
 
