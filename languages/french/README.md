@@ -1,5 +1,5 @@
 French 0.8.2
-=============
+============
 French/Français.
 
 ## How to install extension

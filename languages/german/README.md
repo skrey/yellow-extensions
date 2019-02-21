@@ -1,5 +1,5 @@
 German 0.8.2
-=============
+============
 German/Deutsch.
 
 ## How to install extension
