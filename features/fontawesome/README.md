@@ -4,7 +4,7 @@ Icons and symbols.
 
 ![Screenshot](fontawesome-screenshot.jpg?raw=true)
 
-## How to install
+## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/fontawesome.zip). If you are using Safari, right click and select 'Download file as'.

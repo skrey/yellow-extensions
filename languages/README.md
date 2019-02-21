@@ -8,4 +8,4 @@ The following languages are available:
 * [German/Deutsch](https://github.com/datenstrom/yellow-extensions/tree/master/languages/german).
 * More to come, please standby....
 
-Want to make a new language? [Use the English language](https://github.com/datenstrom/yellow-extensions/tree/master/languages/english).
+Want to make a new language? [Use the English extension](https://github.com/datenstrom/yellow-extensions/tree/master/languages/english).

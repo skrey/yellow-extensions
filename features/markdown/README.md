@@ -4,7 +4,7 @@ Text formatting for humans. [See demo](https://developers.datenstrom.se/help/mar
 
 <p align="center"><img src="markdown-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install
+## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/markdown.zip). If you are using Safari, right click and select 'Download file as'.

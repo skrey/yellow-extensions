@@ -4,7 +4,7 @@ Add Disqus comments to blog. [See demo](https://developers.datenstrom.se/feature
 
 <p align="center"><img src="disqus-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install
+## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download and install blog extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog).

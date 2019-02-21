@@ -4,7 +4,7 @@ Support for draft pages.
 
 <p align="center"><img src="draft-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install
+## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/draft.zip). If you are using Safari, right click and select 'Download file as'.

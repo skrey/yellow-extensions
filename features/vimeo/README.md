@@ -4,7 +4,7 @@ Embed Vimeo videos.
 
 <p align="center"><img src="vimeo-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install
+## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/vimeo.zip). If you are using Safari, right click and select 'Download file as'.
