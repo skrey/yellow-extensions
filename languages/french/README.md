@@ -10,7 +10,7 @@ French/Français.
 
 To uninstall delete the [extension files](update.ini).
 
-## How to change the language
+## How to change language
 
 To change the language of your website, open file `system/settings/system.ini` and change `Language: fr`. A different language can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
 

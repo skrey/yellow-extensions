@@ -1,4 +1,4 @@
-# Datenstrom Yellow language
+# Datenstrom Yellow language file
 
 Language: zh-CN
 LanguageDescription: 简体中文

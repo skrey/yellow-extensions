@@ -1,4 +1,4 @@
-# Datenstrom Yellow language
+# Datenstrom Yellow language file
 
 Language: da
 LanguageDescription: Dansk
