@@ -12,7 +12,7 @@ Flatsite is a clean website theme. [See demo](https://developers.datenstrom.se/t
 
 To uninstall delete the [extension files](update.ini).
 
-## How to change the theme
+## How to change theme
 
 To change the theme of your website, open file `system/config/config.ini` and change `Theme: flatsite`. A different theme can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
 
@@ -20,4 +20,4 @@ The extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's 
 
 ## Designer
 
-Datenstrom and Mark Mayberg. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://developers.datenstrom.se/help/support).

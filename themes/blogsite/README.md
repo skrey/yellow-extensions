@@ -12,10 +12,10 @@ Blogsite is a basic blogger theme. [See demo](https://developers.datenstrom.se/t
 
 To uninstall delete the [extension files](update.ini).
 
-## How to change the theme
+## How to change theme
 
 To change the theme of your website, open file `system/config/config.ini` and change `Theme: blogsite`. A different theme can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
 
 ## Designer
 
-Datenstrom and Mark Mayberg. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
