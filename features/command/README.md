@@ -8,7 +8,7 @@ Run commands in a terminal window.
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `command.zip` into your `system/plugins` folder.
+3. Copy `command.zip` into your `system/extensions` folder.
 
 Do not delete the [extension files](update.ini), they are always required.
 
@@ -22,6 +22,7 @@ The extension uses the [cURL library](https://github.com/curl/curl) by Daniel St
 
 The following commands are available:
 
+`php yellow.php about` = Show website version and updates  
 `php yellow.php build` = Build [static website](https://developers.datenstrom.se/help/server-configuration#static-website)  
 `php yellow.php check` = Check [static website](https://developers.datenstrom.se/help/server-configuration#static-website) for broken links  
 `php yellow.php clean` = Clean [static website](https://developers.datenstrom.se/help/server-configuration#static-website)  
@@ -32,7 +33,6 @@ The following commands are available:
 `php yellow.php uninstall` = Remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php update` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php user` = Update user account with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
-`php yellow.php version` = Show website version and updates  
 
 ## Example
 
@@ -42,7 +42,8 @@ Showing available commands:
 
 ~~~~
 Datenstrom Yellow is for people who make websites.
-Syntax: php yellow.php build [directory location]
+Syntax: php yellow.php about
+        php yellow.php build [directory location]
         php yellow.php check [directory location]
         php yellow.php clean [directory location]
         php yellow.php install [extension]
@@ -52,7 +53,6 @@ Syntax: php yellow.php build [directory location]
         php yellow.php uninstall [extension]
         php yellow.php update [extension]
         php yellow.php user [option email password name]
-        php yellow.php version
 ~~~~
 
 ## Developer

@@ -8,7 +8,7 @@ Core functionality for your website.
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/core.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `core.zip` into your `system/plugins` folder.
+3. Copy `core.zip` into your `system/extensions` folder.
 
 Do not delete the [extension files](update.ini), they are always required.
 
@@ -18,7 +18,7 @@ The extension provides the core functionality for your website. It takes care of
 
 ## How to configure the core
 
-The following settings can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/settings/system.ini`:
 
 `Sitename` = name of the website  
 `Author` = webmaster's name  
@@ -28,7 +28,7 @@ The following settings can be configured in file `system/config/config.ini`:
 `MultiLanguageMode` = enable [multi language mode](https://developers.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
 `SafeMode` = enable [safe mode](https://developers.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 
-These are the most important settings. For a complete list see [configuration file](https://github.com/datenstrom/yellow/blob/master/system/config/config.ini).
+These are the most important settings. For a complete list see [configuration file](https://github.com/datenstrom/yellow/blob/master/system/settings/system.ini).
 
 ## Example
 
@@ -49,7 +49,7 @@ Title: Example page
 ---
 This website is made with [yellow].
 
-[yellow version]
+[yellow about]
 ```
 
 ## Developer

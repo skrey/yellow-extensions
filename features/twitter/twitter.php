@@ -1,16 +1,17 @@
 <?php
-// Twitter plugin, https://github.com/datenstrom/yellow-plugins/tree/master/twitter
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Twitter extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowTwitter {
-    const VERSION = "0.7.9";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("twitterTheme", "light");
+        $this->yellow->system->setDefault("twitterTheme", "light");
     }
     
     // Handle page content of shortcut
@@ -18,7 +19,7 @@ class YellowTwitter {
         $output = null;
         if ($name=="twitter" && ($type=="block" || $type=="inline")) {
             list($id, $theme, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
-            if (empty($theme)) $theme = $this->yellow->config->get("twitterTheme");
+            if (empty($theme)) $theme = $this->yellow->system->get("twitterTheme");
             $language = $page->get("language");
             if (is_numeric($id)) {
                 $output = "<div class=\"twitter\" data-mode=\"tweet\" data-id=\"".htmlspecialchars($id)."\" data-conversation=\"none\"";
@@ -49,8 +50,8 @@ class YellowTwitter {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $pluginLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation");
-            $output = "<script type=\"text/javascript\" defer=\"defer\" src=\"{$pluginLocation}twitter.js\"></script>\n";
+            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $output = "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}twitter.js\"></script>\n";
         }
         return $output;
     }

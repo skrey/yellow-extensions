@@ -1,17 +1,18 @@
 <?php
-// Preview plugin, https://github.com/datenstrom/yellow-plugins/tree/master/preview
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Preview extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/preview
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowPreview {
-    const VERSION = "0.7.5";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
 
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("previewStyle", "stretchable");
-        $this->yellow->config->setDefault("previewDefaultFile", "preview-image.png");
+        $this->yellow->system->setDefault("previewStyle", "stretchable");
+        $this->yellow->system->setDefault("previewDefaultFile", "preview-image.png");
     }
     
     // Handle page content of shortcut
@@ -20,11 +21,11 @@ class YellowPreview {
         if ($name=="preview" && ($type=="block" || $type=="inline")) {
             list($location, $style, $size) = $this->yellow->toolbox->getTextArgs($text);
             if (empty($location)) $location = $page->location;
-            if (empty($style)) $style = $this->yellow->config->get("previewStyle");
+            if (empty($style)) $style = $this->yellow->system->get("previewStyle");
             if (empty($size)) $size = "100%";
-            $content = $this->yellow->pages->find($location);
-            $pages = $content ? $content->getChildren() : $this->yellow->pages->clean();
-            if ($this->yellow->plugins->isExisting("image")) {
+            $content = $this->yellow->content->find($location);
+            $pages = $content ? $content->getChildren() : $this->yellow->content->clean();
+            if ($this->yellow->extensions->isExisting("image")) {
                 if (count($pages)) {
                     $page->setLastModified($pages->getModified());
                     $output = "<div class=\"".htmlspecialchars($style)."\">\n";
@@ -33,18 +34,18 @@ class YellowPreview {
                         $image = $page->get("imagePreview");
                         if (empty($image)) $image = $page->get("image");
                         if (!empty($image)) {
-                            $fileName = $this->yellow->config->get("imageDir").$image;
-                            list($src, $width, $height) = $this->yellow->plugins->get("image")->getImageInformation($fileName, $size, $size);
+                            $fileName = $this->yellow->system->get("imageDir").$image;
+                            list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
                         } else {
                             foreach (array("gif", "jpg", "png", "svg") as $fileExtension) {
-                                $fileName = $this->yellow->config->get("imageDir").basename($page->location).".".$fileExtension;
-                                list($src, $width, $height) = $this->yellow->plugins->get("image")->getImageInformation($fileName, $size, $size);
+                                $fileName = $this->yellow->system->get("imageDir").basename($page->location).".".$fileExtension;
+                                list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
                                 if ($width && $height) break;
                             }
                         }
                         if (!is_readable($fileName)) {
-                            $fileName = $this->yellow->config->get("imageDir").$this->yellow->config->get("previewDefaultFile");
-                            list($src, $width, $height) = $this->yellow->plugins->get("image")->getImageInformation($fileName, $size, $size);
+                            $fileName = $this->yellow->system->get("imageDir").$this->yellow->system->get("previewDefaultFile");
+                            list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
                         }
                         $title = $page->get("titlePreview");
                         if (empty($title)) $title = $page->get("title");
@@ -63,7 +64,7 @@ class YellowPreview {
                     $page->error(500, "Preview '$location' does not exist!");
                 }
             } else {
-                $page->error(500, "Preview requires 'image' plugin!");
+                $page->error(500, "Preview requires 'image' extension!");
             }
         }
         return $output;

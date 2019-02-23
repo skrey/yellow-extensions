@@ -1,16 +1,17 @@
 <?php
-// Fontawesome plugin, https://github.com/datenstrom/yellow-plugins/tree/master/fontawesome
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Fontawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowFontawesome {
-    const VERSION = "0.7.4";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("fontawesomeToolbarButtons", ":fa-star: :fa-heart: :fa-exclamation-triangle: :fa-tag: :fa-comment: :fa-file-o: :fa-file-text-o: :fa-file-picture-o: :fa-envelope-o: :fa-phone: :fa-twitter: :fa-github: :fa-calendar: :fa-clock-o: :fa-map-marker: :fa-check:");
+        $this->yellow->system->setDefault("fontawesomeToolbarButtons", ":fa-star: :fa-heart: :fa-exclamation-triangle: :fa-tag: :fa-comment: :fa-file-o: :fa-file-text-o: :fa-file-picture-o: :fa-envelope-o: :fa-phone: :fa-twitter: :fa-github: :fa-calendar: :fa-clock-o: :fa-map-marker: :fa-check:");
     }
 
     // Handle page content of shortcut
@@ -31,11 +32,8 @@ class YellowFontawesome {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $locationStylesheet = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation")."fontawesome.css";
-            $fileNameStylesheet = $this->yellow->config->get("pluginDir")."fontawesome.css";
-            if (is_file($fileNameStylesheet)) {
-                $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$locationStylesheet\" />\n";
-            }
+            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}fontawesome.css\" />\n";
         }
         return $output;
     }

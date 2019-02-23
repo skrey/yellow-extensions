@@ -1,4 +1,4 @@
-Wiki 0.8.1
+Wiki 0.8.2
 ==========
 Wiki for your website. [See demo](https://developers.datenstrom.se/features/wiki/).
 
@@ -8,7 +8,7 @@ Wiki for your website. [See demo](https://developers.datenstrom.se/features/wiki
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/wiki.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `wiki.zip` into your `system/plugins` folder.
+3. Copy `wiki.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
@@ -35,7 +35,7 @@ The following arguments are available, all but the first argument are optional:
 
 ## How to configure a wiki
 
-The following settings can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/settings/system.ini`:
 
 `WikiLocation` = wiki location  
 `WikiNewLocation` = wiki location for new page  
@@ -46,8 +46,8 @@ The following settings can be configured in file `system/config/config.ini`:
 The following files can be configured:
 
 `content/shared/page-new-wiki.md` = content file for new wiki page  
-`system/themes/templates/wiki.html` = source code for wiki page  
-`system/themes/templates/wikipages.html` = source code for wiki main page  
+`system/layouts/wiki.html` = layout file for wiki page  
+`system/layouts/wikipages.html` = layout file for wiki main page  
 
 ## Example
 

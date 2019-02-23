@@ -8,7 +8,7 @@ Bundle CSS and JavaScript.
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `bundle.zip` into your `system/plugins` folder.
+3. Copy `bundle.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
@@ -27,12 +27,12 @@ Website with unbundled CSS and JavaScript files:
 <html>
 <head>
 <title>Example page</title>
-<link rel="stylesheet" type="text/css" media="all" href="/user/mark/media/plugins/gallery.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/user/mark/media/plugins/twitter.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/user/mark/media/themes/assets/flatsite.css" />
-<script type="text/javascript" defer="defer" src="/user/mark/media/plugins/gallery-photoswipe.min.js"></script>
-<script type="text/javascript" defer="defer" src="/user/mark/media/plugins/gallery.js"></script>
-<script type="text/javascript" defer="defer" src="/user/mark/media/plugins/twitter.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/user/mark/media/extensions/gallery.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/user/mark/media/extensions/twitter.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/user/mark/media/resources/flatsite.css" />
+<script type="text/javascript" defer="defer" src="/user/mark/media/extensions/gallery-photoswipe.min.js"></script>
+<script type="text/javascript" defer="defer" src="/user/mark/media/extensions/gallery.js"></script>
+<script type="text/javascript" defer="defer" src="/user/mark/media/extensions/twitter.js"></script>
 </head>
 <body>
 <h1>Hello world</h1>
@@ -47,8 +47,8 @@ Website with bundled CSS and JavaScript files:
 <html>
 <head>
 <title>Example page</title>
-<link rel="stylesheet" type="text/css" media="all" href="/media/themes/assets/bundle-04a833a199.min.css" />
-<script type="text/javascript" defer="defer" src="/media/themes/assets/bundle-efe3f521b6.min.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/media/resources/bundle-04a833a199.min.css" />
+<script type="text/javascript" defer="defer" src="/media/resources/bundle-efe3f521b6.min.js"></script>
 </head>
 <body>
 <h1>Hello world</h1>

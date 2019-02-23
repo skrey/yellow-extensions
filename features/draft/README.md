@@ -8,7 +8,7 @@ Support for draft pages.
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/draft.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `draft.zip` into your `system/plugins` folder.
+3. Copy `draft.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
@@ -32,7 +32,7 @@ Content file with draft status for blog:
     Title: Blog example
     Published: 2013-04-07
     Author: Datenstrom
-    Template: blog
+    Layout: blog
     Tag: Example
     Status: draft
     ---
@@ -42,7 +42,7 @@ Content file with draft status for wiki:
 
     ---
     Title: Wiki page
-    Template: wiki
+    Layout: wiki
     Tag: Example
     Status: draft
     ---

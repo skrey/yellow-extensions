@@ -1,23 +1,24 @@
 <?php
-// Disqus plugin, https://github.com/datenstrom/yellow-plugins/tree/master/disqus
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Disqus extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowDisqus {
-    const VERSION = "0.7.5";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("disqusShortname", "yellow");
+        $this->yellow->system->setDefault("disqusShortname", "yellow");
     }
     
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="disqus" && ($type=="block" || $type=="inline")) {
-            $shortname = $this->yellow->config->get("disqusShortname");
+            $shortname = $this->yellow->system->get("disqusShortname");
             $url = $this->yellow->page->get("pageRead");
             $language = $this->yellow->page->get("language");
             $output = "<div id=\"disqus_thread\"></div>\n";

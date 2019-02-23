@@ -1,4 +1,4 @@
-Gallery 0.7.8
+Gallery 0.8.2
 =============
 Image gallery with popup. [See demo](https://developers.datenstrom.se/features/gallery).
 
@@ -8,7 +8,7 @@ Image gallery with popup. [See demo](https://developers.datenstrom.se/features/g
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/gallery.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `gallery.zip` into your `system/plugins` folder.
+3. Copy `gallery.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
@@ -26,7 +26,7 @@ The extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe)
 
 ## How to configure image captions
 
-The image captions can be configured in file `system/config/text.ini`. You can define the text setting here, for example a short text that is displayed below the image. See example below.
+The image captions can be configured in file `system/settings/text.ini`. You can define the text setting here, for example a short text that is displayed below the image. See example below.
 
 ## Example
 

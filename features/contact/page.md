@@ -2,6 +2,6 @@
 Title: Contact
 TitleSlug: Contact
 Description: Contact
-Template: contact
+Layout: contact
 ---
 This page is automatically generated.

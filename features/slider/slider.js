@@ -1,5 +1,5 @@
-// Slider plugin, https://github.com/datenstrom/yellow-plugins/tree/master/slider
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/slider
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 var initFlickityFromDOM = function() {

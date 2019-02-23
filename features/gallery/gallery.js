@@ -1,5 +1,5 @@
-// Gallery plugin, https://github.com/datenstrom/yellow-plugins/tree/master/gallery
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 var initPhotoSwipeFromDOM = function() {

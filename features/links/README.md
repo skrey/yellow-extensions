@@ -1,4 +1,4 @@
-Links 0.7.3
+Links 0.8.2
 ===========
 Add links to previous/next page. [See demo](https://developers.datenstrom.se/features/blog/blog-example).
 
@@ -9,7 +9,7 @@ Add links to previous/next page. [See demo](https://developers.datenstrom.se/fea
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download and install blog extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog).
 3. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/links.zip). If you are using Safari, right click and select 'Download file as'.
-4. Copy `links.zip` into your `system/plugins` folder.
+4. Copy `links.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
@@ -19,7 +19,7 @@ The extension adds links to previous/next page, which allows users to navigate b
 
 ## How to configure links
 
-The following settings can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/settings/system.ini`:
 
 `LinksPagePrevious` = show link to previous page, 1 or 0  
 `LinksPageNext` = show link to next page, 1 or 0  

@@ -1,4 +1,4 @@
-Preview 0.7.5
+Preview 0.8.2
 =============
 Show pages with image preview. [See demo](https://developers.datenstrom.se/features/).
 
@@ -8,7 +8,7 @@ Show pages with image preview. [See demo](https://developers.datenstrom.se/featu
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/preview.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `preview.zip` into your `system/plugins` folder.
+3. Copy `preview.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 

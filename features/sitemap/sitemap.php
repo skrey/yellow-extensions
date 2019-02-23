@@ -1,24 +1,25 @@
 <?php
-// Sitemap plugin, https://github.com/datenstrom/yellow-plugins/tree/master/sitemap
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Sitemap extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSitemap {
-    const VERSION = "0.7.4";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("sitemapLocation", "/sitemap/");
-        $this->yellow->config->setDefault("sitemapFileXml", "sitemap.xml");
-        $this->yellow->config->setDefault("sitemapPaginationLimit", "30");
+        $this->yellow->system->setDefault("sitemapLocation", "/sitemap/");
+        $this->yellow->system->setDefault("sitemapFileXml", "sitemap.xml");
+        $this->yellow->system->setDefault("sitemapPaginationLimit", "30");
     }
 
-    // Handle page template
-    public function onParsePageTemplate($page, $name) {
+    // Handle page layout
+    public function onParsePageLayout($page, $name) {
         if ($name=="sitemap") {
-            $pages = $this->yellow->pages->index(false, false);
+            $pages = $this->yellow->content->index(false, false);
             if ($this->isRequestXml()) {
                 $this->yellow->page->setLastModified($pages->getModified());
                 $this->yellow->page->setHeader("Content-Type", "text/xml; charset=utf-8");
@@ -31,7 +32,7 @@ class YellowSitemap {
                 $this->yellow->page->setOutput($output);
             } else {
                 $pages->sort("title", false);
-                $pages->pagination($this->yellow->config->get("sitemapPaginationLimit"));
+                $pages->pagination($this->yellow->system->get("sitemapPaginationLimit"));
                 if (!$pages->getPaginationNumber()) $this->yellow->page->error(404);
                 $this->yellow->page->setPages($pages);
                 $this->yellow->page->setLastModified($pages->getModified());
@@ -43,9 +44,9 @@ class YellowSitemap {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $pagination = $this->yellow->config->get("contentPagination");
-            $locationSitemap = $this->yellow->config->get("serverBase").$this->yellow->config->get("sitemapLocation");
-            $locationSitemap .= $this->yellow->toolbox->normaliseArgs("$pagination:".$this->yellow->config->get("sitemapFileXml"), false);
+            $pagination = $this->yellow->system->get("contentPagination");
+            $locationSitemap = $this->yellow->system->get("serverBase").$this->yellow->system->get("sitemapLocation");
+            $locationSitemap .= $this->yellow->toolbox->normaliseArgs("$pagination:".$this->yellow->system->get("sitemapFileXml"), false);
             $output = "<link rel=\"sitemap\" type=\"text/xml\" href=\"$locationSitemap\" />\n";
         }
         return $output;
@@ -53,7 +54,7 @@ class YellowSitemap {
     
     // Check if XML requested
     public function isRequestXml() {
-        $pagination = $this->yellow->config->get("contentPagination");
-        return $_REQUEST[$pagination]==$this->yellow->config->get("sitemapFileXml");
+        $pagination = $this->yellow->system->get("contentPagination");
+        return $_REQUEST[$pagination]==$this->yellow->system->get("sitemapFileXml");
     }
 }

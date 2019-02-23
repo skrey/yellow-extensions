@@ -1,4 +1,4 @@
-Sitemap 0.7.4
+Sitemap 0.8.2
 =============
 Sitemap for your website. [See demo](https://developers.datenstrom.se/sitemap/).
 
@@ -8,7 +8,7 @@ Sitemap for your website. [See demo](https://developers.datenstrom.se/sitemap/).
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/sitemap.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `sitemap.zip` into your `system/plugins` folder.
+3. Copy `sitemap.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
@@ -18,7 +18,7 @@ The sitemap is available as `http://website/sitemap/` and `http://website/sitema
 
 ## How to configure a sitemap
 
-The following settings can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/settings/system.ini`:
 
 `SitemapLocation` = sitemap location  
 `SitemapFileXml` = sitemap file name with XML information  

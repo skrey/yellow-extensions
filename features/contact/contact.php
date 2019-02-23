@@ -1,17 +1,18 @@
 <?php
-// Contact plugin, https://github.com/datenstrom/yellow-plugins/tree/master/contact
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Contact extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/contact
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.7.5";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("contactLocation", "/contact/");
-        $this->yellow->config->setDefault("contactSpamFilter", "href=|url=");
+        $this->yellow->system->setDefault("contactLocation", "/contact/");
+        $this->yellow->system->setDefault("contactSpamFilter", "href=|url=");
     }
     
     // Handle page content of shortcut
@@ -19,7 +20,7 @@ class YellowContact {
         $output = null;
         if ($name=="contact" && ($type=="block" || $type=="inline")) {
             list($location) = $this->yellow->toolbox->getTextArgs($text);
-            if (empty($location)) $location = $this->yellow->config->get("contactLocation");
+            if (empty($location)) $location = $this->yellow->system->get("contactLocation");
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<form class=\"contact-form\" action=\"".$this->yellow->page->base.$location."\" method=\"post\">\n";
             $output .= "<p class=\"contact-name\"><label for=\"name\">".$this->yellow->text->getHtml("contactName")."</label><br /><input type=\"text\" class=\"form-control\" name=\"name\" id=\"name\" value=\"\" /></p>\n";
@@ -35,8 +36,8 @@ class YellowContact {
         return $output;
     }
     
-    // Handle page template
-    public function onParsePageTemplate($page, $name) {
+    // Handle page layout
+    public function onParsePageLayout($page, $name) {
         if ($name=="contact") {
             if ($this->yellow->isCommandLine()) $this->yellow->page->error(500, "Static website not supported!");
             if (empty($_REQUEST["referer"])) {
@@ -46,7 +47,7 @@ class YellowContact {
             }
             if ($_REQUEST["status"]=="send") {
                 $status = $this->sendMail();
-                if ($status=="config") $this->yellow->page->error(500, "Webmaster configuration not valid!");
+                if ($status=="settings") $this->yellow->page->error(500, "Webmaster settings not valid!");
                 if ($status=="error") $this->yellow->page->error(500, $this->yellow->text->get("contactStatusError"));
                 $this->yellow->page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
                 $this->yellow->page->setHeader("Cache-Control", "no-cache, must-revalidate");
@@ -65,9 +66,9 @@ class YellowContact {
         $message = trim($_REQUEST["message"]);
         $consent = trim($_REQUEST["consent"]);
         $referer = trim($_REQUEST["referer"]);
-        $spamFilter = $this->yellow->config->get("contactSpamFilter");
-        $author = $this->yellow->config->get("author");
-        $email = $this->yellow->config->get("email");
+        $spamFilter = $this->yellow->system->get("contactSpamFilter");
+        $author = $this->yellow->system->get("author");
+        $email = $this->yellow->system->get("email");
         if ($this->yellow->page->isExisting("author") && !$this->yellow->page->safeMode) {
             $author = $this->yellow->page->get("author");
         }
@@ -75,7 +76,7 @@ class YellowContact {
             $email = $this->yellow->page->get("email");
         }
         if (empty($name) || empty($from) || empty($message) || empty($consent)) $status = "incomplete";
-        if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) $status = "config";
+        if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) $status = "settings";
         if (!empty($from) && !filter_var($from, FILTER_VALIDATE_EMAIL)) $status = "invalid";
         if (!empty($message) && preg_match("/$spamFilter/i", $message)) $status = "error";
         if ($status=="send") {

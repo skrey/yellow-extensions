@@ -1,19 +1,20 @@
 <?php
-// Blog plugin, https://github.com/datenstrom/yellow-plugins/tree/master/blog
+// Blog extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/blog
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowBlog {
-    const VERSION = "0.8.1";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("blogLocation", "");
-        $this->yellow->config->setDefault("blogNewLocation", "@title");
-        $this->yellow->config->setDefault("blogPagesMax", "10");
-        $this->yellow->config->setDefault("blogPaginationLimit", "5");
+        $this->yellow->system->setDefault("blogLocation", "");
+        $this->yellow->system->setDefault("blogNewLocation", "@title");
+        $this->yellow->system->setDefault("blogPagesMax", "10");
+        $this->yellow->system->setDefault("blogPaginationLimit", "5");
     }
     
     // Handle page content of shortcut
@@ -36,9 +37,9 @@ class YellowBlog {
     public function getShorcutBlogarchive($page, $name, $text) {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("blogLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("blogPagesMax");
-        $blog = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
+        $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
         $page->setLastModified($pages->getModified());
         $months = $this->getMonths($pages, "published");
@@ -64,9 +65,9 @@ class YellowBlog {
     public function getShorcutBlogauthors($page, $name, $text) {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("blogLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("blogPagesMax");
-        $blog = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
+        $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
         $page->setLastModified($pages->getModified());
         $authors = $this->getMeta($pages, "author");
@@ -95,9 +96,9 @@ class YellowBlog {
     public function getShorcutBlogpages($page, $name, $text) {
         $output = null;
         list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("blogLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("blogPagesMax");
-        $blog = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
+        $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
         if (!empty($author)) $pages->filter("author", $author);
         if (!empty($tag)) $pages->filter("tag", $tag);
@@ -123,9 +124,9 @@ class YellowBlog {
     public function getShorcutBlogchanges($page, $name, $text) {
         $output = null;
         list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("blogLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("blogPagesMax");
-        $blog = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
+        $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
         if (!empty($author)) $pages->filter("author", $author);
         if (!empty($tag)) $pages->filter("tag", $tag);
@@ -151,9 +152,9 @@ class YellowBlog {
     public function getShorcutBlogrelated($page, $name, $text) {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("blogLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("blogPagesMax");
-        $blog = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
+        $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
         $pages->similar($page->getPage("main"));
         $page->setLastModified($pages->getModified());
@@ -177,9 +178,9 @@ class YellowBlog {
     public function getShorcutBlogtags($page, $name, $text) {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("blogLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("blogPagesMax");
-        $blog = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
+        $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
         $page->setLastModified($pages->getModified());
         $tags = $this->getMeta($pages, "tag");
@@ -204,8 +205,8 @@ class YellowBlog {
         return $output;
     }
     
-    // Handle page template
-    public function onParsePageTemplate($page, $name) {
+    // Handle page layout
+    public function onParsePageLayout($page, $name) {
         if ($name=="blogpages") {
             $pages = $this->getBlogPages($this->yellow->page->location);
             $pagesFilter = array();
@@ -222,7 +223,7 @@ class YellowBlog {
                 array_push($pagesFilter, $this->yellow->text->normaliseDate($pages->getFilter()));
             }
             $pages->sort("published");
-            $pages->pagination($this->yellow->config->get("blogPaginationLimit"));
+            $pages->pagination($this->yellow->system->get("blogPaginationLimit"));
             if (!$pages->getPaginationNumber()) $this->yellow->page->error(404);
             if (!empty($pagesFilter)) {
                 $title = implode(" ", $pagesFilter);
@@ -234,29 +235,29 @@ class YellowBlog {
             $this->yellow->page->setHeader("Cache-Control", "max-age=60");
         }
         if ($name=="blog") {
-            $location = $this->yellow->config->get("blogLocation");
+            $location = $this->yellow->system->get("blogLocation");
             if (empty($location)) $location = $this->yellow->lookup->getDirectoryLocation($this->yellow->page->location);
-            $blog = $this->yellow->pages->find($location);
+            $blog = $this->yellow->content->find($location);
             $this->yellow->page->setPage("blog", $blog);
         }
     }
     
     // Handle content file editing
     public function onEditContentFile($page, $action) {
-        if ($page->get("template")=="blog") $page->set("pageNewLocation", $this->yellow->config->get("blogNewLocation"));
+        if ($page->get("layout")=="blog") $page->set("pageNewLocation", $this->yellow->system->get("blogNewLocation"));
     }
 
     // Return blog pages
     public function getBlogPages($location) {
-        $pages = $this->yellow->pages->clean();
-        $blog = $this->yellow->pages->find($location);
+        $pages = $this->yellow->content->clean();
+        $blog = $this->yellow->content->find($location);
         if ($blog) {
-            if ($location==$this->yellow->config->get("blogLocation")) {
-                $pages = $this->yellow->pages->index(!$blog->isVisible());
+            if ($location==$this->yellow->system->get("blogLocation")) {
+                $pages = $this->yellow->content->index(!$blog->isVisible());
             } else {
                 $pages = $blog->getChildren(!$blog->isVisible());
             }
-            $pages->filter("template", "blog");
+            $pages->filter("layout", "blog");
         }
         return $pages;
     }

@@ -1,27 +1,28 @@
 <?php
-// Wiki plugin, https://github.com/datenstrom/yellow-plugins/tree/master/wiki
+// Wiki extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowWiki {
-    const VERSION = "0.8.1";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("wikiLocation", "");
-        $this->yellow->config->setDefault("wikiNewLocation", "@title");
-        $this->yellow->config->setDefault("wikiPagesMax", "10");
-        $this->yellow->config->setDefault("wikiPagesMain", "1");
-        $this->yellow->config->setDefault("wikiPaginationLimit", "30");
+        $this->yellow->system->setDefault("wikiLocation", "");
+        $this->yellow->system->setDefault("wikiNewLocation", "@title");
+        $this->yellow->system->setDefault("wikiPagesMax", "10");
+        $this->yellow->system->setDefault("wikiPagesMain", "1");
+        $this->yellow->system->setDefault("wikiPaginationLimit", "30");
     }
 
     // Handle page meta data
     public function onParseMeta($page) {
         if ($page==$this->yellow->page) {
-            if ($page->get("template")=="wikipages" && !$this->yellow->toolbox->isLocationArgs()) {
-                $page->set("template", "wiki");
+            if ($page->get("layout")=="wikipages" && !$this->yellow->toolbox->isLocationArgs()) {
+                $page->set("layout", "wiki");
             }
         }
     }
@@ -45,9 +46,9 @@ class YellowWiki {
     public function getShorcutWikiauthors($page, $name, $text) {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("wikiLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("wikiPagesMax");
-        $wiki = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
+        $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);
         $page->setLastModified($pages->getModified());
         $authors = $this->getMeta($pages, "author");
@@ -76,9 +77,9 @@ class YellowWiki {
     public function getShorcutWikipages($page, $name, $text) {
         $output = null;
         list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("wikiLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("wikiPagesMax");
-        $wiki = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
+        $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);
         if (!empty($author)) $pages->filter("author", $author);
         if (!empty($tag)) $pages->filter("tag", $tag);
@@ -104,9 +105,9 @@ class YellowWiki {
     public function getShorcutWikichanges($page, $name, $text) {
         $output = null;
         list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("wikiLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("wikiPagesMax");
-        $wiki = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
+        $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);
         if (!empty($author)) $pages->filter("author", $author);
         if (!empty($tag)) $pages->filter("tag", $tag);
@@ -132,9 +133,9 @@ class YellowWiki {
     public function getShorcutWikirelated($page, $name, $text) {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("wikiLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("wikiPagesMax");
-        $wiki = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
+        $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);
         $pages->similar($page->getPage("main"));
         $page->setLastModified($pages->getModified());
@@ -158,9 +159,9 @@ class YellowWiki {
     public function getShorcutWikitags($page, $name, $text) {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
-        if (empty($location)) $location = $this->yellow->config->get("wikiLocation");
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->config->get("wikiPagesMax");
-        $wiki = $this->yellow->pages->find($location);
+        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
+        $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);
         $page->setLastModified($pages->getModified());
         $tags = $this->getMeta($pages, "tag");
@@ -185,8 +186,8 @@ class YellowWiki {
         return $output;
     }
     
-    // Handle page template
-    public function onParsePageTemplate($page, $name) {
+    // Handle page layout
+    public function onParsePageLayout($page, $name) {
         if ($name=="wikipages") {
             $pages = $this->getWikiPages($this->yellow->page->location);
             $pagesFilter = array();
@@ -210,7 +211,7 @@ class YellowWiki {
                 array_push($pagesFilter, $this->yellow->text->normaliseDate($pages->getFilter()));
             }
             $pages->sort($chronologicalOrder ? "modified" : "title", $chronologicalOrder);
-            $pages->pagination($this->yellow->config->get("wikiPaginationLimit"));
+            $pages->pagination($this->yellow->system->get("wikiPaginationLimit"));
             if (!$pages->getPaginationNumber()) $this->yellow->page->error(404);
             if (!empty($pagesFilter)) {
                 $title = implode(" ", $pagesFilter);
@@ -223,30 +224,30 @@ class YellowWiki {
             $this->yellow->page->setHeader("Cache-Control", "max-age=60");
         }
         if ($name=="wiki") {
-            $location = $this->yellow->config->get("wikiLocation");
+            $location = $this->yellow->system->get("wikiLocation");
             if (empty($location)) $location = $this->yellow->lookup->getDirectoryLocation($this->yellow->page->location);
-            $wiki = $this->yellow->pages->find($location);
+            $wiki = $this->yellow->content->find($location);
             $this->yellow->page->setPage("wiki", $wiki);
         }
     }
     
     // Handle content file editing
     public function onEditContentFile($page, $action) {
-        if ($page->get("template")=="wiki") $page->set("pageNewLocation", $this->yellow->config->get("wikiNewLocation"));
+        if ($page->get("layout")=="wiki") $page->set("pageNewLocation", $this->yellow->system->get("wikiNewLocation"));
     }
     
     // Return wiki pages
     public function getWikiPages($location) {
-        $pages = $this->yellow->pages->clean();
-        $wiki = $this->yellow->pages->find($location);
+        $pages = $this->yellow->content->clean();
+        $wiki = $this->yellow->content->find($location);
         if ($wiki) {
-            if ($location==$this->yellow->config->get("wikiLocation")) {
-                $pages = $this->yellow->pages->index(!$wiki->isVisible());
+            if ($location==$this->yellow->system->get("wikiLocation")) {
+                $pages = $this->yellow->content->index(!$wiki->isVisible());
             } else {
                 $pages = $wiki->getChildren(!$wiki->isVisible());
             }
-            $pages->filter("template", "wiki");
-            if ($this->yellow->config->get("wikiPagesMain")) $pages->append($wiki);
+            $pages->filter("layout", "wiki");
+            if ($this->yellow->system->get("wikiPagesMain")) $pages->append($wiki);
         }
         return $pages;
     }

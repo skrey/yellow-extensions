@@ -1,4 +1,4 @@
-Breadcrumbs 0.7.1
+Breadcrumbs 0.8.2
 =================
 Breadcrumbs navigation.
 
@@ -8,7 +8,7 @@ Breadcrumbs navigation.
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/breadcrumbs.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `breadcrumbs.zip` into your `system/plugins` folder.
+3. Copy `breadcrumbs.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 

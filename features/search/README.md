@@ -1,4 +1,4 @@
-Search 0.7.7
+Search 0.8.2
 ============
 Full-text search. [See demo](https://developers.datenstrom.se/features/search).
 
@@ -8,17 +8,17 @@ Full-text search. [See demo](https://developers.datenstrom.se/features/search).
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/search.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `search.zip` into your `system/plugins` folder.
+3. Copy `search.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
 ## How to use a search
 
-The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. You can use a [custom navigation](https://developers.datenstrom.se/help/customising-templates#custom-navigation), open file `system/config/config.ini` and change `Navigation: navigation-search`. To show a search field add a `[search]` shortcut with optional location. You can also add a link to the search somewhere on your website. See example below.
+The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. You can use a [custom navigation](https://developers.datenstrom.se/help/customising-templates#custom-navigation), open file `system/settings/system.ini` and change `Navigation: navigation-search`. To show a search field add a `[search]` shortcut with optional location. You can also add a link to the search somewhere on your website. See example below.
 
 ## How to configure a search
 
-The following settings can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/settings/system.ini`:
 
 `SearchLocation` = search location  
 `SearchPaginationLimit` = number of entries to show per page  

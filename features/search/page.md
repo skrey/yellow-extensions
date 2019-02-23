@@ -2,6 +2,6 @@
 Title: Search
 TitleSlug: Search
 Description: Search
-Template: search
+Layout: search
 ---
 This page is automatically generated.

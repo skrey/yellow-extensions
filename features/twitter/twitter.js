@@ -1,5 +1,5 @@
-// Twitter plugin, https://github.com/datenstrom/yellow-plugins/tree/master/twitter
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Twitter extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 function TwitterMessage(element, options) {

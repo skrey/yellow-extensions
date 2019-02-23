@@ -8,7 +8,7 @@ Images and thumbnails. [See demo](https://developers.datenstrom.se/features/imag
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/image.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `image.zip` into your `system/plugins` folder.
+3. Copy `image.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
@@ -28,7 +28,7 @@ The extension uses [GD graphics library](https://github.com/libgd/libgd) by Thom
 
 ## How to configure an image
 
-The following settings can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/settings/system.ini`:
 
 `ImageLocation` = location for images  
 `ImageDir` = directory for images  

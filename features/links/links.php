@@ -1,29 +1,30 @@
 <?php
-// Links plugin, https://github.com/datenstrom/yellow-plugins/tree/master/links
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Links extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/links
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowLinks {
-    const VERSION = "0.7.3";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("linksPagePrevious", "0");
-        $this->yellow->config->setDefault("linksPageNext", "1");
-        $this->yellow->config->setDefault("linksStyle", "entry-links");
+        $this->yellow->system->setDefault("linksPagePrevious", "0");
+        $this->yellow->system->setDefault("linksPageNext", "1");
+        $this->yellow->system->setDefault("linksStyle", "entry-links");
     }
     
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="links" && ($type=="block" || $type=="inline")) {
-            $style = $this->yellow->config->get("linksStyle");
+            $style = $this->yellow->system->get("linksStyle");
             $pages = $this->getLinkPages($page);
             $page->setLastModified($pages->getModified());
-            if ($this->yellow->config->get("linksPagePrevious")) $pagePrevious = $pages->getPagePrevious($page);
-            if ($this->yellow->config->get("linksPageNext")) $pageNext = $pages->getPageNext($page);
+            if ($this->yellow->system->get("linksPagePrevious")) $pagePrevious = $pages->getPagePrevious($page);
+            if ($this->yellow->system->get("linksPageNext")) $pageNext = $pages->getPageNext($page);
             if ($pagePrevious || $pageNext) {
                 $output = "<div class=\"".htmlspecialchars($style)."\">\n";
                 $output .= "<p>";
@@ -50,25 +51,25 @@ class YellowLinks {
     
     // Return link pages
     public function getLinkPages($page) {
-        switch ($page->get("template")) {
-            case "blog":        $blogLocation = $this->yellow->config->get("blogLocation");
+        switch ($page->get("layout")) {
+            case "blog":        $blogLocation = $this->yellow->system->get("blogLocation");
                                 if (!empty($blogLocation)) {
-                                    $pages = $this->yellow->pages->index(!$page->isVisible());
+                                    $pages = $this->yellow->content->index(!$page->isVisible());
                                 } else {
                                     $pages = $page->getSiblings(!$page->isVisible());
                                 }
-                                $pages->filter("template", "blog")->sort("published", true);
+                                $pages->filter("layout", "blog")->sort("published", true);
                                 break;
-            case "blogpages":   $pages = $this->yellow->pages->clean(); break;
-            case "wiki":        $wikiLocation = $this->yellow->config->get("wikiLocation");
+            case "blogpages":   $pages = $this->yellow->content->clean(); break;
+            case "wiki":        $wikiLocation = $this->yellow->system->get("wikiLocation");
                                 if (!empty($wikiLocation)) {
-                                    $pages = $this->yellow->pages->index(!$page->isVisible());
+                                    $pages = $this->yellow->content->index(!$page->isVisible());
                                 } else {
                                     $pages = $page->getSiblings(!$page->isVisible());
                                 }
-                                $pages->filter("template", "wiki")->sort("title", true);
+                                $pages->filter("layout", "wiki")->sort("title", true);
                                 break;
-            case "wikipages":   $pages = $this->yellow->pages->clean(); break;
+            case "wikipages":   $pages = $this->yellow->content->clean(); break;
             default:            $pages = $page->getSiblings(!$page->isVisible());
         }
         return $pages;

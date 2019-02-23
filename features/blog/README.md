@@ -1,4 +1,4 @@
-Blog 0.8.1
+Blog 0.8.2
 ==========
 Blog for your website. [See demo](https://developers.datenstrom.se/features/blog/).
 
@@ -8,7 +8,7 @@ Blog for your website. [See demo](https://developers.datenstrom.se/features/blog
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/blog.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `blog.zip` into your `system/plugins` folder.
+3. Copy `blog.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
@@ -36,7 +36,7 @@ The following arguments are available, all but the first argument are optional:
 
 ## How to configure a blog
 
-The following settings can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/settings/system.ini`:
 
 `BlogLocation` = blog location  
 `BlogNewLocation` = blog location for new page  
@@ -46,8 +46,8 @@ The following settings can be configured in file `system/config/config.ini`:
 The following files can be configured:
 
 `content/shared/page-new-blog.md` = content file for new blog page  
-`system/themes/templates/blog.html` = source code for blog page  
-`system/themes/templates/blogpages.html` = source code for blog main page  
+`system/layouts/blog.html` = layout file for blog page  
+`system/layouts/blogpages.html` = layout file for blog main page  
 
 ## Example
 

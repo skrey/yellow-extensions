@@ -1,4 +1,4 @@
-Contact 0.7.5
+Contact 0.8.2
 =============
 Email contact page.
 
@@ -8,17 +8,17 @@ Email contact page.
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/contact.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `contact.zip` into your `system/plugins` folder.
+3. Copy `contact.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
 ## How to use a contact page
 
-The contact page is available on your website as `http://website/contact/`. The contact email is send to the webmaster, which is defined in file `system/config/config.ini`. You can set a different `Author` and `Email` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. To show a contact form add a `[contact]` shortcut with an optional location. You can also add a link to the contact page somewhere on your website. See example below.
+The contact page is available on your website as `http://website/contact/`. The contact email is send to the webmaster, which is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. To show a contact form add a `[contact]` shortcut with an optional location. You can also add a link to the contact page somewhere on your website. See example below.
 
 ## How to configure a contact page
 
-The following settings can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/settings/system`:
 
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  

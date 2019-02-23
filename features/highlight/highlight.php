@@ -1,18 +1,19 @@
 <?php
-// Highlight plugin, https://github.com/datenstrom/yellow-plugins/tree/master/highlight
+// Highlight extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowHighlight {
-    const VERSION = "0.7.8";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("highlightClass", "highlight");
-        $this->yellow->config->setDefault("highlightLineNumber", "0");
-        $this->yellow->config->setDefault("highlightAutodetectLanguages", "html, css, javascript, php");
+        $this->yellow->system->setDefault("highlightClass", "highlight");
+        $this->yellow->system->setDefault("highlightLineNumber", "0");
+        $this->yellow->system->setDefault("highlightAutodetectLanguages", "html, css, javascript, php");
     }
     
     // Handle page content of shortcut
@@ -45,11 +46,8 @@ class YellowHighlight {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $locationStylesheet = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation")."highlight.css";
-            $fileNameStylesheet = $this->yellow->config->get("pluginDir")."highlight.css";
-            if (is_file($fileNameStylesheet)) {
-                $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$locationStylesheet\" />\n";
-            }
+            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}highlight.css\" />\n";
         }
         return $output;
     }
@@ -57,7 +55,7 @@ class YellowHighlight {
     // Highlight
     public function highlight($language, $text) {
         $highlighter = new Highlighter();
-        $autodetectLanguages = preg_split("/\s*,\s*/", $this->yellow->config->get("highlightAutodetectLanguages"));
+        $autodetectLanguages = preg_split("/\s*,\s*/", $this->yellow->system->get("highlightAutodetectLanguages"));
         if (!in_array($language, $autodetectLanguages)) array_push($autodetectLanguages, $language);
         foreach ($autodetectLanguages as $autodetectLanguage) {
             list($languageId, $fileName) = $this->getLanguageInformation($autodetectLanguage);
@@ -76,8 +74,8 @@ class YellowHighlight {
     
     // Return highlight information
     public function getHighlightInformation($name) {
-        $class = $this->yellow->config->get("highlightClass");
-        $lineNumber = intval($this->yellow->config->get("highlightLineNumber"));
+        $class = $this->yellow->system->get("highlightClass");
+        $lineNumber = intval($this->yellow->system->get("highlightLineNumber"));
         foreach (explode(" ", $name) as $token) {
             if (preg_match("/^[\w]+$/", $token) && empty($language)) $language = $token;
             if ($token[0]==".") $class = $class." ".substru($token, 1);
@@ -92,7 +90,7 @@ class YellowHighlight {
     public function getLanguageInformation($language) {
         $aliases = array("c" => "cpp", "html" => "xml");
         $language = isset($aliases[$language]) ? $aliases[$language] : $language;
-        $fileName = $this->yellow->config->get("pluginDir")."highlight-$language.json";
+        $fileName = $this->yellow->system->get("extensionDir")."highlight-$language.json";
         return array($language, $fileName);
     }
 }

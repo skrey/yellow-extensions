@@ -1,19 +1,20 @@
 <?php
-// Googlecalendar plugin, https://github.com/datenstrom/yellow-plugins/tree/master/googlecalendar
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Googlecalendar extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/googlecalendar
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowGooglecalendar {
-    const VERSION = "0.7.5";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("googlecalendarMode", "month");
-        $this->yellow->config->setDefault("googlecalendarEntriesMax", "10");
-        $this->yellow->config->setDefault("googlecalendarStyle", "flexible");
-        $this->yellow->config->setDefault("googlecalendarApiKey", "AIzaSyBC0iK5aceH8C5EguUsS98btnsDoA1PVSo");
+        $this->yellow->system->setDefault("googlecalendarMode", "month");
+        $this->yellow->system->setDefault("googlecalendarEntriesMax", "10");
+        $this->yellow->system->setDefault("googlecalendarStyle", "flexible");
+        $this->yellow->system->setDefault("googlecalendarApiKey", "AIzaSyBC0iK5aceH8C5EguUsS98btnsDoA1PVSo");
     }
     
     // Handle page content of shortcut
@@ -22,11 +23,11 @@ class YellowGooglecalendar {
         if ($name=="googlecalendar" && ($type=="block" || $type=="inline")) {
             list($id, $mode, $date, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
             list($timestamp, $entriesMax) = $this->getTimestampAndEntries($date);
-            if (empty($mode)) $mode = $this->yellow->config->get("googlecalendarMode");
-            if (empty($entriesMax)) $entriesMax = $this->yellow->config->get("googlecalendarEntriesMax");
-            if (empty($style)) $style = $this->yellow->config->get("googlecalendarStyle");
+            if (empty($mode)) $mode = $this->yellow->system->get("googlecalendarMode");
+            if (empty($entriesMax)) $entriesMax = $this->yellow->system->get("googlecalendarEntriesMax");
+            if (empty($style)) $style = $this->yellow->system->get("googlecalendarStyle");
             $language = $page->get("language");
-            $timeZone = $this->yellow->config->get("timezone");
+            $timeZone = $this->yellow->system->get("timezone");
             $timeZoneHelper = new DateTime(null, new DateTimeZone($timeZone));
             $timeZoneOffset = $timeZoneHelper->getOffset();
             $dateMonths = $this->yellow->text->getText("dateMonths", $language);
@@ -38,7 +39,7 @@ class YellowGooglecalendar {
             $timeFormatShort = $this->yellow->text->getText("timeFormatShort", $language);
             $timeFormatMedium = $this->yellow->text->getText("timeFormatMedium", $language);
             $timeFormatLong = $this->yellow->text->getText("timeFormatLong", $language);
-            $apiKey = $this->yellow->config->get("googlecalendarApiKey");
+            $apiKey = $this->yellow->system->get("googlecalendarApiKey");
             if ($mode=="week" || $mode=="month") {
                 $output = "<div class=\"".htmlspecialchars($style)."\">";
                 $output .= "<iframe src=\"https://calendar.google.com/calendar/embed?mode=".rawurlencode($mode)."&amp;dates=".rawurlencode($this->getCalendarDate($timestamp, false))."&amp;ctz=".rawurlencode($timeZone)."&amp;wkst=".rawurlencode($this->getCalendarStart($dateWeekdays, $dateWeekstart))."&amp;hl=".rawurlencode($language)."&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showDate=1";
@@ -65,9 +66,9 @@ class YellowGooglecalendar {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $pluginLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation");
-            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$pluginLocation}googlecalendar.css\" />\n";
-            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$pluginLocation}googlecalendar.js\"></script>\n";
+            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}googlecalendar.css\" />\n";
+            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}googlecalendar.js\"></script>\n";
         }
         return $output;
     }

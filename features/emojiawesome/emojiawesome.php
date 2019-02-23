@@ -1,17 +1,18 @@
 <?php
-// Emojiawesome plugin, https://github.com/datenstrom/yellow-plugins/tree/master/emojiawesome
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Emojiawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowEmojiawesome {
-    const VERSION = "0.7.4";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("emojiawesomeCdn", "https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.0.0/");
-        $this->yellow->config->setDefault("emojiawesomeToolbarButtons", ":grinning: :smile: :angry: :frowning: :heart_eyes: :kissing_heart: :stuck_out_tongue_winking_eye: :joy: :heart: :fire: :sunny: :coffee: :ok_hand: :hand: :+1: :-1:");
+        $this->yellow->system->setDefault("emojiawesomeCdn", "https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.0.0/");
+        $this->yellow->system->setDefault("emojiawesomeToolbarButtons", ":grinning: :smile: :angry: :frowning: :heart_eyes: :kissing_heart: :stuck_out_tongue_winking_eye: :joy: :heart: :fire: :sunny: :coffee: :ok_hand: :hand: :+1: :-1:");
     }
     
     // Handle page content of shortcut
@@ -40,13 +41,10 @@ class YellowEmojiawesome {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $locationStylesheet = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation")."emojiawesome.css";
-            $fileNameStylesheet = $this->yellow->config->get("pluginDir")."emojiawesome.css";
-            if (is_file($fileNameStylesheet)) {
-                $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$locationStylesheet\" />\n";
-            }
+            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}emojiawesome.css\" />\n";
             if (defined("DEBUG") && DEBUG>=3) {
-                $cdn = $this->yellow->config->get("emojiawesomeCdn");
+                $cdn = $this->yellow->system->get("emojiawesomeCdn");
                 foreach ($this->getLookupData() as $entry) {
                     $class = $this->normaliseClass("ea-$entry[shortname]");
                     $image = $entry["image"];

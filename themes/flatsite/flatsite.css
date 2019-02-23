@@ -1,4 +1,4 @@
-/* Flatsite theme, https://github.com/datenstrom/yellow-themes/tree/master/flatsite */
+/* Flatsite extension, https://github.com/datenstrom/yellow-extensions/tree/master/themes/flatsite */
 /* Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se */
 /* This file may be used and distributed under the terms of the public license. */
 
@@ -438,19 +438,19 @@ a:hover {
 
 /* Misc */
 
-.template-default .content img.screenshot {
+.layout-default .content img.screenshot {
     margin: 0 -0.5em;
 }
-.template-language .content div.language {
+.layout-language .content div.language {
     font-size: 1.2em;
     text-align: left;
     width: 9em;
     margin: 0 auto;
 }
-.template-language .content div.language p {
+.layout-language .content div.language p {
     margin: 1.5em 0em;
 }
-.template-language .content div.language img {
+.layout-language .content div.language img {
     vertical-align: middle;
     margin-top: -5px;
     margin-right: 1.5em;

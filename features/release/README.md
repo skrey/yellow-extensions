@@ -1,4 +1,4 @@
-Release 0.7.17
+Release 0.8.2
 ==============
 Create releases.
 
@@ -8,7 +8,7 @@ Create releases.
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/release.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `release.zip` into your `system/plugins` folder.
+3. Copy `release.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](update.ini).
 
@@ -18,19 +18,19 @@ First increase the version number in your code. Then create a release at the [co
 
 ## How to configure a release
 
-The following settings can be configured in file `system/config/config.ini`:
+The following settings can be configured in file `system/settings/system.ini`:
 
-`ReleaseSoftwareDir` = directory containing your repositories   
-`ReleasePluginsDir` = directory containing the official plugins repository  
-`ReleaseThemesDir` = directory containing the official themes repository  
+`ReleaseExtensionDir` = directory containing the official extensions repository  
+`ReleaseRepositoryDir` = directory containing your repositories   
 
 The following settings can be configured in file `update.ini` for each extension:
 
-`Plugin` or `Theme` = name of extension  
+`Extension` = name of extension  
 `Version` = version number of extension  
 `Description` = description of extension  
 `Published` = publication date of extension  
 `Developer` = feature developer  
+`Translator` = language translator  
 `Designer` = theme designer  
 
 The following file operations are supported:
@@ -46,21 +46,21 @@ The following file operations are supported:
 Creating releases at the command line:
 
 `php yellow.php release`   
-`php yellow.php release yellow-feature-example`  
-`php yellow.php release yellow-theme-example`  
+`php yellow.php release yellow-extension-example`  
+`php yellow.php release yellow-extension-mytheme`  
 
-Update settings for a plugin:
+Update settings for a feature:
 
 ~~~
 # Datenstrom Yellow update
 
-Plugin: YellowExample
+Extension: Example
 Version: 0.7.1
-Description: Example plugin for developers.
+Description: Example feature for developers.
 Published: 2018-07-09 19:42:13
-Developer: Datenstrom
+Developer: Anna Svensson
 
-YellowExample/example.php: system/plugins/example.php,create,update
+Example/example.php: system/extensions/example.php,create,update
 ~~~
 
 Update settings for a theme:
@@ -68,15 +68,15 @@ Update settings for a theme:
 ~~~
 # Datenstrom Yellow update
 
-Theme: YellowThemeExample
+Extension: Mytheme
 Version: 0.7.1
 Description: Example theme for designers.
 Published: 2018-07-09 19:42:13
 Designer: Anna Svensson
 
-YellowThemeExample/example.php: system/themes/assets/example.php,create,update
-YellowThemeExample/example.css: system/themes/assets/example.css,create,update,careful
-YellowThemeExample/example-logo.png: system/themes/assets/example-logo.png,create
+Mytheme/example.php: system/extensions/example.php,create,update
+Mytheme/example.css: system/resources/example.css,create,update,careful
+Mytheme/example-logo.png: system/resources/example-logo.png,create
 ~~~
 
 ## Developer

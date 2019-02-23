@@ -1,18 +1,19 @@
 <?php
-// Search plugin, https://github.com/datenstrom/yellow-plugins/tree/master/search
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/search
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSearch {
-    const VERSION = "0.7.7";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("searchLocation", "/search/");
-        $this->yellow->config->setDefault("searchPaginationLimit", "5");
-        $this->yellow->config->setDefault("searchPageLength", "240");
+        $this->yellow->system->setDefault("searchLocation", "/search/");
+        $this->yellow->system->setDefault("searchPaginationLimit", "5");
+        $this->yellow->system->setDefault("searchPageLength", "240");
     }
     
     // Handle page content of shortcut
@@ -20,7 +21,7 @@ class YellowSearch {
         $output = null;
         if ($name=="search" && ($type=="block" || $type=="inline")) {
             list($location) = $this->yellow->toolbox->getTextArgs($text);
-            if (empty($location)) $location = $this->yellow->config->get("searchLocation");
+            if (empty($location)) $location = $this->yellow->system->get("searchLocation");
             $output = "<div class=\"".htmlspecialchars($name)."\" role=\"search\">\n";
             $output .= "<form class=\"search-form\" action=\"".$this->yellow->page->base.$location."\" method=\"post\">\n";
             $output .= "<input class=\"form-control\" type=\"text\" name=\"query\" placeholder=\"".$this->yellow->text->getHtml("searchButton")."\" />\n";
@@ -31,15 +32,15 @@ class YellowSearch {
         return $output;
     }
     
-    // Handle page template
-    public function onParsePageTemplate($page, $name) {
+    // Handle page layout
+    public function onParsePageLayout($page, $name) {
         if ($name=="search") {
             $query = trim($_REQUEST["query"]);
             list($tokens, $filters) = $this->getSearchInformation($query, 10);
             if (!empty($tokens) || !empty($filters)) {
-                $pages = $this->yellow->pages->clean();
+                $pages = $this->yellow->content->clean();
                 $showInvisible = $filters["status"]=="draft" && $this->yellow->getRequestHandler()!="core";
-                foreach ($this->yellow->pages->index($showInvisible, false) as $page) {
+                foreach ($this->yellow->content->index($showInvisible, false) as $page) {
                     $searchScore = 0;
                     $searchTokens = array();
                     foreach ($tokens as $token) {
@@ -77,7 +78,7 @@ class YellowSearch {
                     if ($filters["status"]) $pages->filter("status", $filters["status"]);
                 }
                 $pages->sort("modified")->sort("searchscore");
-                $pages->pagination($this->yellow->config->get("searchPaginationLimit"));
+                $pages->pagination($this->yellow->system->get("searchPaginationLimit"));
                 if ($_REQUEST["page"] && !$pages->getPaginationNumber()) $this->yellow->page->error(404);
                 $title = empty($query) ? $this->yellow->text->get("searchSpecialChanges") : $query;
                 $this->yellow->page->set("titleHeader", $title." - ".$this->yellow->page->get("sitename"));

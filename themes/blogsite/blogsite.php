@@ -1,8 +1,9 @@
 <?php
-// Blogsite theme, https://github.com/datenstrom/yellow-themes/tree/master/blogsite
+// Blogsite extension, https://github.com/datenstrom/yellow-extensions/tree/master/themes/blogsite
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-class YellowThemeBlogsite {
-    const VERSION = "0.8.1";
+class YellowBlogsite {
+    const VERSION = "0.8.2";
+    const TYPE = "theme";
 }

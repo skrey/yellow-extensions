@@ -1,16 +1,17 @@
 <?php
-// Soundcloud plugin, https://github.com/datenstrom/yellow-plugins/tree/master/soundcloud
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Soundcloud extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/soundcloud
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSoundcloud {
-    const VERSION = "0.7.1";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("soundcloudStyle", "soundcloud");
+        $this->yellow->system->setDefault("soundcloudStyle", "soundcloud");
     }
     
     // Handle page content of shortcut
@@ -18,7 +19,7 @@ class YellowSoundcloud {
         $output = null;
         if ($name=="soundcloud" && ($type=="block" || $type=="inline")) {
             list($id, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
-            if (empty($style)) $style = $this->yellow->config->get("soundcloudStyle");
+            if (empty($style)) $style = $this->yellow->system->get("soundcloudStyle");
             if (empty($width)) $width = "100%";
             if (empty($height)) $height = "166";
             $output = "<div class=\"".htmlspecialchars($style)."\">";
