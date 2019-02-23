@@ -3,7 +3,7 @@
 Language: de
 LanguageDescription: Deutsch
 LanguageTranslator: David Fehrmann
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: von
 BlogTag: Tags:
@@ -95,7 +95,7 @@ EditVersionStatusDone: Deine Webseite ist auf dem neusten Stand.
 EditVersionStatusWarning: Aktualisierung verfügbar, bitte aktualisiere deine Webseite.
 EditVersionStatusUpdates: Aktualisierung verfügbar, jetzt aktualisieren.
 EditVersionUpdateForce: Aktualisierung erzwingen
-EditVersionUpdateModified: @software wurde modifiziert
+EditVersionUpdateModified: @extension wurde modifiziert
 EditUploadProgress: [Datei hochladen…]
 EditOkButton: Ok
 EditCancelButton: Abbruch

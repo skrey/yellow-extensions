@@ -3,7 +3,7 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: by
 BlogTag: Tags:
@@ -95,7 +95,7 @@ EditVersionStatusDone: 最新のバージョンです。
 EditVersionStatusWarning：利用可能なアップデート, あなたのウェブサイトを更新してください。
 EditVersionStatusUpdates： 利用可能なアップデート,今直ぐアップデートする。
 EditVersionUpdateForce: アップデートする！
-EditVersionUpdateModified: @software が変更されました
+EditVersionUpdateModified: @extension が変更されました
 EditUploadProgress: [ファイルをアップロード中…]
 EditOkButton: Ok
 EditCancelButton: キャンセル

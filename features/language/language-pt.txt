@@ -3,7 +3,7 @@
 Language: pt
 LanguageDescription: Português
 LanguageTranslator: Al Garcia
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: por
 BlogTag: Tags:
@@ -95,7 +95,7 @@ EditVersionStatusDone: Your website is up to date.
 EditVersionStatusWarning: Updates available, please update your website.
 EditVersionStatusUpdates: Updates available, update now.
 EditVersionUpdateForce: Force update
-EditVersionUpdateModified: @software has been modified
+EditVersionUpdateModified: @extension has been modified
 EditUploadProgress: [Uploading file…]
 EditOkButton: Ok
 EditCancelButton: Cancelar

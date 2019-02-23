@@ -1,10 +1,11 @@
 <?php
-// Markdown plugin, https://github.com/datenstrom/yellow-plugins/tree/master/markdown
+// Markdown extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMarkdownX {
-    const VERSION = "0.8.1";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
@@ -2673,7 +2674,7 @@ class ParsedownExtra extends Parsedown
     protected $regexAttribute = '(?:[#.][-\w]+[ ]*)';
 }
 
-// Yellow Markdown extra
+// Yellow Markdown extra extension
 // Copyright (c) 2013-2019 Datenstrom
 
 class YellowMarkdownExtraX extends ParsedownExtra {
@@ -2822,7 +2823,7 @@ class YellowMarkdownExtraX extends ParsedownExtra {
         if ($Link) {
             $href = $Link["element"]["attributes"]["href"];
             if ($Excerpt["context"][0]=="!" && !preg_match("/^\w+:/", $href)) {
-                $href = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageLocation").$href;
+                $href = $this->yellow->system->get("serverBase").$this->yellow->system->get("imageLocation").$href;
             }
             $href = $this->yellow->lookup->normaliseLocation($href,
                 $this->page->location, $this->page->safeMode && $this->page->statusCode==200);

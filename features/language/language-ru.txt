@@ -3,7 +3,7 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: Автор
 BlogTag: Тэги:
@@ -95,7 +95,7 @@ EditVersionStatusDone: Ваш сайт обновлен.
 EditVersionStatusWarning: Доступны обновления, пожалуйста, обновите свой сайт.
 EditVersionStatusUpdates: Доступны обновления, обновите сейчас.
 EditVersionUpdateForce: Принудительно обновить
-EditVersionUpdateModified: @software был изменен
+EditVersionUpdateModified: @extension был изменен
 EditUploadProgress: [Загрузка файла ...]
 EditOkButton: Ok
 EditCancelButton: Отмена

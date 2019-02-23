@@ -3,7 +3,7 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: door
 BlogTag: Labels:
@@ -95,7 +95,7 @@ EditVersionStatusDone: Je website is up to date.
 EditVersionStatusWarning: Updates beschikbaar, gelieve je website te updaten.
 EditVersionStatusUpdates: Updates beschikbaar, nu installeren.
 EditVersionUpdateForce: Update forceren
-EditVersionUpdateModified: @software is aangepast.
+EditVersionUpdateModified: @extension is aangepast.
 EditUploadProgress: [Uploading file…]
 EditOkButton: Ok
 EditCancelButton: Annuleren

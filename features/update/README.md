@@ -1,4 +1,4 @@
-Update 0.8.1
+Update 0.8.2
 ============
 Keep your website up to date.
 

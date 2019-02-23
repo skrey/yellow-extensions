@@ -1,4 +1,4 @@
-Bundle 0.8.1
+Bundle 0.8.2
 ============
 Bundle CSS and JavaScript.
 

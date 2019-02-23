@@ -3,7 +3,7 @@
 Language: fr
 LanguageDescription: Français
 LanguageTranslator: Juh Nibreh
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: par
 BlogTag: Tags:
@@ -95,7 +95,7 @@ EditVersionStatusDone: Votre site web est à jour.
 EditVersionStatusWarning: Mises à jour disponibles, veuillez mettre à jour votre site web.
 EditVersionStatusUpdates: Mises à jour disponibles, mettre à jour maintenant.
 EditVersionUpdateForce: Forcer mise à jour
-EditVersionUpdateModified: @software a été modifié
+EditVersionUpdateModified: @extension a été modifié
 EditUploadProgress: [Téléchargement du fichier…]
 EditOkButton: Ok
 EditCancelButton: Annuler

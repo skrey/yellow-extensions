@@ -1,4 +1,4 @@
-Language 0.8.1
+Language 0.8.2
 ==============
 Languages and regions.
 

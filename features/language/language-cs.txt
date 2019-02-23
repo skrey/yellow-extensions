@@ -3,7 +3,7 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: Vytvořil
 BlogTag: Tags:
@@ -95,7 +95,7 @@ EditVersionStatusDone: Tento web je aktuální.
 EditVersionStatusWarning: Dostupné nové aktualizace, aktualizujte prosím vaše webové stránky.
 EditVersionStatusUpdates: Dostupné nové aktualizace, aktualizace nyní.
 EditVersionUpdateForce: 'Tvrdá' aktualizace
-EditVersionUpdateModified: @software byl aktualizován
+EditVersionUpdateModified: @extension byl aktualizován
 EditUploadProgress: [Uploading file…]
 EditOkButton: Ok
 EditCancelButton: Zrušit

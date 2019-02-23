@@ -3,7 +3,7 @@
 Language: id
 LanguageDescription: Bahasa Indonesia
 LanguageTranslator: Jimmy Ofisia
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: oleh
 BlogTag: Label:
@@ -95,7 +95,7 @@ EditVersionStatusDone: Your website is up to date.
 EditVersionStatusWarning: Updates available, please update your website.
 EditVersionStatusUpdates: Updates available, update now.
 EditVersionUpdateForce: Force update
-EditVersionUpdateModified: @software has been modified
+EditVersionUpdateModified: @extension has been modified
 EditUploadProgress: [Uploading file…]
 EditOkButton: Ok
 EditCancelButton: Batal

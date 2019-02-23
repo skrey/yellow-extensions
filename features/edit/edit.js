@@ -1,5 +1,5 @@
-// Edit plugin, https://github.com/datenstrom/yellow-plugins/tree/master/edit
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Edit extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/edit
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 var yellow = {
@@ -106,7 +106,7 @@ yellow.edit = {
     
     // Create bar
     createBar: function(barId) {
-        if (yellow.config.debug) console.log("yellow.edit.createBar id:"+barId);
+        if (yellow.system.debug) console.log("yellow.edit.createBar id:"+barId);
         var elementBar = document.createElement("div");
         elementBar.className = "yellow-bar";
         elementBar.setAttribute("id", barId);
@@ -117,7 +117,7 @@ yellow.edit = {
         }
         var elementDiv = document.createElement("div");
         elementDiv.setAttribute("id", barId+"-content");
-        if (yellow.config.userName) {
+        if (yellow.system.userName) {
             elementDiv.innerHTML =
                 "<div class=\"yellow-bar-left\">"+
                 "<a href=\"#\" id=\"yellow-pane-edit-link\" data-action=\"edit\">"+this.getText("Edit")+"</a>"+
@@ -125,7 +125,7 @@ yellow.edit = {
                 "<div class=\"yellow-bar-right\">"+
                 "<a href=\"#\" id=\"yellow-pane-create-link\" data-action=\"create\">"+this.getText("Create")+"</a>"+
                 "<a href=\"#\" id=\"yellow-pane-delete-link\" data-action=\"delete\">"+this.getText("Delete")+"</a>"+
-                "<a href=\"#\" id=\"yellow-pane-user-link\" data-action=\"user\">"+yellow.toolbox.encodeHtml(yellow.config.userName)+"</a>"+
+                "<a href=\"#\" id=\"yellow-pane-user-link\" data-action=\"user\">"+yellow.toolbox.encodeHtml(yellow.system.userName)+"</a>"+
                 "</div>"+
                 "<div class=\"yellow-bar-banner\"></div>";
         }
@@ -136,7 +136,7 @@ yellow.edit = {
     
     // Create pane
     createPane: function(paneId, paneAction, paneStatus) {
-        if (yellow.config.debug) console.log("yellow.edit.createPane id:"+paneId);
+        if (yellow.system.debug) console.log("yellow.edit.createPane id:"+paneId);
         var elementPane = document.createElement("div");
         elementPane.className = "yellow-pane";
         elementPane.setAttribute("id", paneId);
@@ -164,8 +164,8 @@ yellow.edit = {
                 "<div class=\"yellow-title\"><h1>"+this.getText("LoginTitle")+"</h1></div>"+
                 "<div class=\"yellow-fields\" id=\"yellow-pane-login-fields\">"+
                 "<input type=\"hidden\" name=\"action\" value=\"login\" />"+
-                "<p><label for=\"yellow-pane-login-email\">"+this.getText("LoginEmail")+"</label><br /><input class=\"yellow-form-control\" name=\"email\" id=\"yellow-pane-login-email\" maxlength=\"64\" value=\""+yellow.toolbox.encodeHtml(yellow.config.editLoginEmail)+"\" /></p>"+
-                "<p><label for=\"yellow-pane-login-password\">"+this.getText("LoginPassword")+"</label><br /><input class=\"yellow-form-control\" type=\"password\" name=\"password\" id=\"yellow-pane-login-password\" maxlength=\"64\" value=\""+yellow.toolbox.encodeHtml(yellow.config.editLoginPassword)+"\" /></p>"+
+                "<p><label for=\"yellow-pane-login-email\">"+this.getText("LoginEmail")+"</label><br /><input class=\"yellow-form-control\" name=\"email\" id=\"yellow-pane-login-email\" maxlength=\"64\" value=\""+yellow.toolbox.encodeHtml(yellow.system.editLoginEmail)+"\" /></p>"+
+                "<p><label for=\"yellow-pane-login-password\">"+this.getText("LoginPassword")+"</label><br /><input class=\"yellow-form-control\" type=\"password\" name=\"password\" id=\"yellow-pane-login-password\" maxlength=\"64\" value=\""+yellow.toolbox.encodeHtml(yellow.system.editLoginPassword)+"\" /></p>"+
                 "<p><input class=\"yellow-btn\" type=\"submit\" value=\""+this.getText("LoginButton")+"\" /></p>"+
                 "</div>"+
                 "<div class=\"yellow-actions\" id=\"yellow-pane-login-actions\">"+
@@ -225,11 +225,11 @@ yellow.edit = {
                 break;
             case "yellow-pane-settings":
                 var rawDataLanguages = "";
-                if (yellow.config.serverLanguages && Object.keys(yellow.config.serverLanguages).length>1) {
+                if (yellow.system.serverLanguages && Object.keys(yellow.system.serverLanguages).length>1) {
                     rawDataLanguages += "<p>";
-                    for (var language in yellow.config.serverLanguages) {
+                    for (var language in yellow.system.serverLanguages) {
                         var checked = language==this.getRequest("language") ? " checked=\"checked\"" : "";
-                        rawDataLanguages += "<label for=\"yellow-pane-settings-"+language+"\"><input type=\"radio\" name=\"language\" id=\"yellow-pane-settings-"+language+"\" value=\""+language+"\""+checked+"> "+yellow.toolbox.encodeHtml(yellow.config.serverLanguages[language])+"</label><br />";
+                        rawDataLanguages += "<label for=\"yellow-pane-settings-"+language+"\"><input type=\"radio\" name=\"language\" id=\"yellow-pane-settings-"+language+"\" value=\""+language+"\""+checked+"> "+yellow.toolbox.encodeHtml(yellow.system.serverLanguages[language])+"</label><br />";
                     }
                     rawDataLanguages += "</p>";
                 }
@@ -256,7 +256,7 @@ yellow.edit = {
                 elementDiv.innerHTML =
                 "<form method=\"post\">"+
                 "<a href=\"#\" class=\"yellow-close\" data-action=\"close\"><i class=\"yellow-icon yellow-icon-close\"></i></a>"+
-                "<div class=\"yellow-title\"><h1 id=\"yellow-pane-version-title\">"+yellow.toolbox.encodeHtml(yellow.config.serverVersion)+"</h1></div>"+
+                "<div class=\"yellow-title\"><h1 id=\"yellow-pane-version-title\">"+yellow.toolbox.encodeHtml(yellow.system.serverVersion)+"</h1></div>"+
                 "<div class=\"yellow-status\"><p id=\"yellow-pane-version-status\" class=\""+paneStatus+"\">"+this.getText("VersionStatus", "", paneStatus)+"</p></div>"+
                 "<div class=\"yellow-output\" id=\"yellow-pane-version-output\">"+yellow.page.rawDataOutput+"</div>"+
                 "<div class=\"yellow-buttons\" id=\"yellow-pane-version-buttons\">"+
@@ -283,8 +283,8 @@ yellow.edit = {
                 break;
             case "yellow-pane-edit":
                 var rawDataButtons = "";
-                if (yellow.config.editToolbarButtons && yellow.config.editToolbarButtons!="none") {
-                    var tokens = yellow.config.editToolbarButtons.split(",");
+                if (yellow.system.editToolbarButtons && yellow.system.editToolbarButtons!="none") {
+                    var tokens = yellow.system.editToolbarButtons.split(",");
                     for (var i=0; i<tokens.length; i++) {
                         var token = tokens[i].trim();
                         if (token!="separator") {
@@ -293,7 +293,7 @@ yellow.edit = {
                             rawDataButtons += "<li><a href=\"#\" class=\"yellow-toolbar-btn-separator\"></a></li>";
                         }
                     }
-                    if (yellow.config.debug) console.log("yellow.edit.createPane buttons:"+yellow.config.editToolbarButtons);
+                    if (yellow.system.debug) console.log("yellow.edit.createPane buttons:"+yellow.system.editToolbarButtons);
                 }
                 elementDiv.innerHTML =
                 "<form method=\"post\">"+
@@ -313,7 +313,7 @@ yellow.edit = {
             case "yellow-pane-user":
                 elementDiv.innerHTML =
                 "<ul class=\"yellow-dropdown\">"+
-                "<li><span>"+yellow.toolbox.encodeHtml(yellow.config.userEmail)+"</span></li>"+
+                "<li><span>"+yellow.toolbox.encodeHtml(yellow.system.userEmail)+"</span></li>"+
                 "<li><a href=\"#\" data-action=\"settings\">"+this.getText("SettingsTitle")+"</a></li>" +
                 "<li><a href=\"#\" data-action=\"help\">"+this.getText("UserHelp")+"</a></li>" +
                 "<li><a href=\"#\" data-action=\"logout\">"+this.getText("UserLogout")+"</a></li>"+
@@ -327,11 +327,11 @@ yellow.edit = {
 
     // Update pane
     updatePane: function(paneId, paneAction, paneStatus, init) {
-        if (yellow.config.debug) console.log("yellow.edit.updatePane id:"+paneId);
+        if (yellow.system.debug) console.log("yellow.edit.updatePane id:"+paneId);
         var showFields = paneStatus!="next" && paneStatus!="done";
         switch (paneId) {
             case "yellow-pane-login":
-                if (yellow.config.editLoginRestrictions) {
+                if (yellow.system.editLoginRestrictions) {
                     yellow.toolbox.setVisible(document.getElementById("yellow-pane-login-signup"), false);
                 }
                 break;
@@ -352,18 +352,18 @@ yellow.edit = {
                 yellow.toolbox.setVisible(document.getElementById("yellow-pane-settings-buttons"), !showFields);
                 if (paneStatus=="none") {
                     document.getElementById("yellow-pane-settings-status").innerHTML = "<a href=\"#\" data-action=\"version\">"+this.getText("VersionTitle")+"</a>";
-                    document.getElementById("yellow-pane-settings-name").value = yellow.config.userName;
-                    document.getElementById("yellow-pane-settings-email").value = yellow.config.userEmail;
-                    document.getElementById("yellow-pane-settings-"+yellow.config.userLanguage).checked = true;
+                    document.getElementById("yellow-pane-settings-name").value = yellow.system.userName;
+                    document.getElementById("yellow-pane-settings-email").value = yellow.system.userEmail;
+                    document.getElementById("yellow-pane-settings-"+yellow.system.userLanguage).checked = true;
                 }
                 break;
             case "yellow-pane-version":
-                if (paneStatus=="none" && this.isPlugin("update")) {
+                if (paneStatus=="none" && this.isExtension("update")) {
                     document.getElementById("yellow-pane-version-status").innerHTML = this.getText("VersionStatusCheck");
                     document.getElementById("yellow-pane-version-output").innerHTML = "";
                     setTimeout("yellow.action('send');", 500);
                 }
-                if (paneStatus=="updates" && this.isPlugin("update")) {
+                if (paneStatus=="updates" && this.isExtension("update")) {
                     document.getElementById("yellow-pane-version-status").innerHTML = "<a href=\"#\" data-action=\"update\">"+this.getText("VersionStatusUpdates")+"</a>";
                 }
                 break;
@@ -385,16 +385,16 @@ yellow.edit = {
                     var matches = document.getElementById("yellow-pane-edit-text").value.match(/^(\xEF\xBB\xBF)?\-\-\-[\r\n]+/);
                     var position = document.getElementById("yellow-pane-edit-text").value.indexOf("\n", matches ? matches[0].length : 0);
                     document.getElementById("yellow-pane-edit-text").setSelectionRange(position, position);
-                    if (yellow.config.editToolbarButtons!="none") {
+                    if (yellow.system.editToolbarButtons!="none") {
                         yellow.toolbox.setVisible(document.getElementById("yellow-pane-edit-toolbar-title"), false);
                         this.updateToolbar(0, "yellow-toolbar-checked");
                     }
-                    if (yellow.config.userRestrictions) {
+                    if (yellow.system.userRestrictions) {
                         yellow.toolbox.setVisible(document.getElementById("yellow-pane-edit-send"), false);
                         document.getElementById("yellow-pane-edit-text").readOnly = true;
                     }
                 }
-                if (!yellow.config.userRestrictions) {
+                if (!yellow.system.userRestrictions) {
                     var key, className;
                     switch (this.getAction(paneId, paneAction)) {
                         case "create":    key = "CreateButton"; className = "yellow-toolbar-btn yellow-toolbar-btn-create"; break;
@@ -476,7 +476,7 @@ yellow.edit = {
             if (!document.getElementById(paneId)) this.createPane(paneId, paneAction, paneStatus);
             var element = document.getElementById(paneId);
             if (!yellow.toolbox.isVisible(element)) {
-                if (yellow.config.debug) console.log("yellow.edit.showPane id:"+paneId);
+                if (yellow.system.debug) console.log("yellow.edit.showPane id:"+paneId);
                 yellow.toolbox.setVisible(element, true);
                 if (modal) {
                     yellow.toolbox.addClass(document.body, "yellow-body-modal-open");
@@ -510,7 +510,7 @@ yellow.edit = {
 
     // Send pane
     sendPane: function(paneId, paneAction, paneStatus, paneArgs) {
-        if (yellow.config.debug) console.log("yellow.edit.sendPane id:"+paneId);
+        if (yellow.system.debug) console.log("yellow.edit.sendPane id:"+paneId);
         var args = { "action":paneAction, "csrftoken":this.getCookie("csrftoken") };
         if (paneId=="yellow-pane-edit") {
             args.action = this.getAction(paneId, paneAction);
@@ -539,7 +539,7 @@ yellow.edit = {
     processShortcut: function(e) {
         var shortcut = yellow.toolbox.getEventShortcut(e);
         if (shortcut) {
-            var tokens = yellow.config.editKeyboardShortcuts.split(",");
+            var tokens = yellow.system.editKeyboardShortcuts.split(",");
             for (var i=0; i<tokens.length; i++) {
                 var pair = tokens[i].trim().split(" ");
                 if (shortcut==pair[0] || shortcut.replace("meta+", "ctrl+")==pair[0]) {
@@ -553,10 +553,10 @@ yellow.edit = {
     
     // Process toolbar
     processToolbar: function(status, args) {
-        if (yellow.config.debug) console.log("yellow.edit.processToolbar status:"+status);
+        if (yellow.system.debug) console.log("yellow.edit.processToolbar status:"+status);
         var elementText = document.getElementById("yellow-pane-edit-text");
         var elementPreview = document.getElementById("yellow-pane-edit-preview");
-        if (!yellow.config.userRestrictions && this.paneAction!="delete" && !yellow.toolbox.isVisible(elementPreview)) {
+        if (!yellow.system.userRestrictions && this.paneAction!="delete" && !yellow.toolbox.isVisible(elementPreview)) {
             switch (status) {
                 case "h1":              yellow.editor.setMarkdown(elementText, "# ", "insert-multiline-block", true); break;
                 case "h2":              yellow.editor.setMarkdown(elementText, "## ", "insert-multiline-block", true); break;
@@ -581,7 +581,7 @@ yellow.edit = {
             }
         }
         if (status=="preview") this.showPreview(elementText, elementPreview);
-        if (status=="save" && !yellow.config.userRestrictions && this.paneAction!="delete") this.action("send");
+        if (status=="save" && !yellow.system.userRestrictions && this.paneAction!="delete") this.action("send");
         if (status=="help") window.open(this.getText("HelpUrl", "yellow"), "_blank");
         if (status=="markdown") window.open(this.getText("MarkdownUrl", "yellow"), "_blank");
         if (status=="format" || status=="heading" || status=="list" || status=="emojiawesome" || status=="fontawesome") {
@@ -606,7 +606,7 @@ yellow.edit = {
     
     // Create popup
     createPopup: function(popupId) {
-        if (yellow.config.debug) console.log("yellow.edit.createPopup id:"+popupId);
+        if (yellow.system.debug) console.log("yellow.edit.createPopup id:"+popupId);
         var elementPopup = document.createElement("div");
         elementPopup.className = "yellow-popup";
         elementPopup.setAttribute("id", popupId);
@@ -642,8 +642,8 @@ yellow.edit = {
                 break;
             case "yellow-popup-emojiawesome":
                 var rawDataEmojis = "";
-                if (yellow.config.emojiawesomeToolbarButtons && yellow.config.emojiawesomeToolbarButtons!="none") {
-                    var tokens = yellow.config.emojiawesomeToolbarButtons.split(" ");
+                if (yellow.system.emojiawesomeToolbarButtons && yellow.system.emojiawesomeToolbarButtons!="none") {
+                    var tokens = yellow.system.emojiawesomeToolbarButtons.split(" ");
                     for (var i=0; i<tokens.length; i++) {
                         var token = tokens[i].replace(/[\:]/g,"");
                         var className = token.replace("+1", "plus1").replace("-1", "minus1").replace(/_/g, "-");
@@ -654,8 +654,8 @@ yellow.edit = {
                 break;
             case "yellow-popup-fontawesome":
                 var rawDataIcons = "";
-                if (yellow.config.fontawesomeToolbarButtons && yellow.config.fontawesomeToolbarButtons!="none") {
-                    var tokens = yellow.config.fontawesomeToolbarButtons.split(" ");
+                if (yellow.system.fontawesomeToolbarButtons && yellow.system.fontawesomeToolbarButtons!="none") {
+                    var tokens = yellow.system.fontawesomeToolbarButtons.split(" ");
                     for (var i=0; i<tokens.length; i++) {
                         var token = tokens[i].replace(/[\:]/g,"");
                         rawDataIcons += "<li><a href=\"#\" id=\"yellow-popup-list-"+yellow.toolbox.encodeHtml(token)+"\" data-action=\"toolbar\" data-status=\"text\" data-args=\":"+yellow.toolbox.encodeHtml(token)+":\"><i class=\"fa "+yellow.toolbox.encodeHtml(token)+"\"></i></a></li>";
@@ -675,7 +675,7 @@ yellow.edit = {
             this.hidePopup(this.popupId);
             if (!document.getElementById(popupId)) this.createPopup(popupId);
             var element = document.getElementById(popupId);
-            if (yellow.config.debug) console.log("yellow.edit.showPopup id:"+popupId);
+            if (yellow.system.debug) console.log("yellow.edit.showPopup id:"+popupId);
             yellow.toolbox.setVisible(element, true);
             this.popupId = popupId;
             this.updateToolbar(status, "yellow-toolbar-selected");
@@ -737,7 +737,7 @@ yellow.edit = {
         var element = document.createElement("input");
         element.setAttribute("id", "yellow-file-dialog");
         element.setAttribute("type", "file");
-        element.setAttribute("accept", yellow.config.editUploadExtensions);
+        element.setAttribute("accept", yellow.system.editUploadExtensions);
         element.setAttribute("multiple", "multiple");
         yellow.toolbox.addEvent(element, "change", yellow.onDrop);
         element.click();
@@ -746,8 +746,8 @@ yellow.edit = {
     // Upload file
     uploadFile: function(elementText, file) {
         var extension = (file.name.lastIndexOf(".")!=-1 ? file.name.substring(file.name.lastIndexOf("."), file.name.length) : "").toLowerCase();
-        var extensions = yellow.config.editUploadExtensions.split(/\s*,\s*/);
-        if (file.size<=yellow.config.serverFileSizeMax && extensions.indexOf(extension)!=-1) {
+        var extensions = yellow.system.editUploadExtensions.split(/\s*,\s*/);
+        if (file.size<=yellow.system.serverFileSizeMax && extensions.indexOf(extension)!=-1) {
             var text = this.getText("UploadProgress")+"\u200b";
             yellow.editor.setMarkdown(elementText, text, "insert");
             var thisObject = this;
@@ -768,8 +768,8 @@ yellow.edit = {
         if (result) {
             var textOld = this.getText("UploadProgress")+"\u200b";
             var textNew;
-            if (result.location.substring(0, yellow.config.imageLocation.length)==yellow.config.imageLocation) {
-                textNew = "[image "+result.location.substring(yellow.config.imageLocation.length)+"]";
+            if (result.location.substring(0, yellow.system.imageLocation.length)==yellow.system.imageLocation) {
+                textNew = "[image "+result.location.substring(yellow.system.imageLocation.length)+"]";
             } else {
                 textNew = "[link]("+result.location+")";
             }
@@ -830,9 +830,9 @@ yellow.edit = {
         return yellow.toolbox.getCookie(name);
     },
 
-    // Check if plugin exists
-    isPlugin: function(name) {
-        return name in yellow.config.serverPlugins;
+    // Check if extension exists
+    isExtension: function(name) {
+        return name in yellow.system.serverExtensions;
     }
 };
 
@@ -899,7 +899,7 @@ yellow.editor = {
             element.value = textSelectionBefore + textSelectionNew + textSelectionAfter;
             element.setSelectionRange(selectionStartNew, selectionEndNew);
         }
-        if (yellow.config.debug) console.log("yellow.editor.setMarkdown type:"+information.type);
+        if (yellow.system.debug) console.log("yellow.editor.setMarkdown type:"+information.type);
     },
     
     // Return Markdown formatting information
@@ -1027,7 +1027,7 @@ yellow.editor = {
             element.value = textSelectionBefore + textSelectionNew + textSelectionAfter;
             element.setSelectionRange(selectionStartNew, selectionEndNew);
             element.scrollTop = 0;
-            if (yellow.config.debug) console.log("yellow.editor.setMetaData key:"+key);
+            if (yellow.system.debug) console.log("yellow.editor.setMetaData key:"+key);
         }
     },
     

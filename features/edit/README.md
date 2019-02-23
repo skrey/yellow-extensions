@@ -1,4 +1,4 @@
-Edit 0.8.1
+Edit 0.8.2
 ==========
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 

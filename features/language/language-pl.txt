@@ -3,7 +3,7 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: przez
 BlogTag: Tagi:
@@ -95,7 +95,7 @@ EditVersionStatusDone: Twoja strona jest aktualna.
 EditVersionStatusWarning: Aktualizacje są dostępne, zaktualizuj swoją witrynę.
 EditVersionStatusUpdates: Aktualizacje są dostępne, aktualizuj teraz.
 EditVersionUpdateForce: Wymuś aktualizację
-EditVersionUpdateModified: @software został zmodyfikowany
+EditVersionUpdateModified: @extension został zmodyfikowany
 EditUploadProgress: [Przesyłanie pliku…]
 EditOkButton: Ok
 EditCancelButton: Anuluj

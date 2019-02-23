@@ -1,10 +1,11 @@
 <?php
-// Markdown plugin, https://github.com/datenstrom/yellow-plugins/tree/master/markdown
+// Markdown extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMarkdown {
-    const VERSION = "0.8.1";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
@@ -3732,7 +3733,7 @@ class MarkdownExtraParser extends MarkdownParser {
 	}
 }
 
-// Markdown extra parser extensions
+// Yellow Markdown extra extension
 // Copyright (c) 2013-2019 Datenstrom
 
 class YellowMarkdownExtraParser extends MarkdownExtraParser {
@@ -3840,8 +3841,8 @@ class YellowMarkdownExtraParser extends MarkdownExtraParser {
         $width = $height = 0;
         $src = $matches[3]=="" ? $matches[4] : $matches[3];
         if (!preg_match("/^\w+:/", $src)) {
-            list($width, $height) = $this->yellow->toolbox->detectImageInformation($this->yellow->config->get("imageDir").$src);
-            $src = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageLocation").$src;
+            list($width, $height) = $this->yellow->toolbox->detectImageInformation($this->yellow->system->get("imageDir").$src);
+            $src = $this->yellow->system->get("serverBase").$this->yellow->system->get("imageLocation").$src;
         }
         $alt = $matches[2];
         $title = $matches[7]=="" ? $matches[2] : $matches[7];

@@ -1,4 +1,4 @@
-Image 0.8.1
+Image 0.8.2
 ===========
 Images and thumbnails. [See demo](https://developers.datenstrom.se/features/image).
 

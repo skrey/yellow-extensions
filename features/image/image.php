@@ -1,23 +1,24 @@
 <?php
-// Image plugin, https://github.com/datenstrom/yellow-plugins/tree/master/image
+// Image extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/image
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowImage {
-    const VERSION = "0.8.1";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;             //access to API
     public $graphicsLibrary;    //graphics library support? (boolean)
 
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("imageAlt", "Image");
-        $this->yellow->config->setDefault("imageUploadWidthMax", "1280");
-        $this->yellow->config->setDefault("imageUploadHeightMax", "1280");
-        $this->yellow->config->setDefault("imageUploadJpgQuality", "80");
-        $this->yellow->config->setDefault("imageThumbnailLocation", "/media/thumbnails/");
-        $this->yellow->config->setDefault("imageThumbnailDir", "media/thumbnails/");
-        $this->yellow->config->setDefault("imageThumbnailJpgQuality", "80");
+        $this->yellow->system->setDefault("imageAlt", "Image");
+        $this->yellow->system->setDefault("imageUploadWidthMax", "1280");
+        $this->yellow->system->setDefault("imageUploadHeightMax", "1280");
+        $this->yellow->system->setDefault("imageUploadJpgQuality", "80");
+        $this->yellow->system->setDefault("imageThumbnailLocation", "/media/thumbnails/");
+        $this->yellow->system->setDefault("imageThumbnailDir", "media/thumbnails/");
+        $this->yellow->system->setDefault("imageThumbnailJpgQuality", "80");
         $this->graphicsLibrary = $this->isGraphicsLibrary();
     }
 
@@ -26,17 +27,17 @@ class YellowImage {
         $output = null;
         if ($name=="image" && $type=="inline") {
             if (!$this->graphicsLibrary) {
-                $this->yellow->page->error(500, "Plugin 'image' requires GD library with gif/jpg/png support!");
+                $this->yellow->page->error(500, "Image extension requires GD library with gif/jpg/png support!");
                 return $output;
             }
             list($name, $alt, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
             if (!preg_match("/^\w+:/", $name)) {
-                if (empty($alt)) $alt = $this->yellow->config->get("imageAlt");
+                if (empty($alt)) $alt = $this->yellow->system->get("imageAlt");
                 if (empty($width)) $width = "100%";
                 if (empty($height)) $height = $width;
-                list($src, $width, $height) = $this->getImageInformation($this->yellow->config->get("imageDir").$name, $width, $height);
+                list($src, $width, $height) = $this->getImageInformation($this->yellow->system->get("imageDir").$name, $width, $height);
             } else {
-                if (empty($alt)) $alt = $this->yellow->config->get("imageAlt");
+                if (empty($alt)) $alt = $this->yellow->system->get("imageAlt");
                 $src = $this->yellow->lookup->normaliseUrl("", "", "", $name);
                 $width = $height = 0;
             }
@@ -55,17 +56,17 @@ class YellowImage {
             $fileName = $file->fileName;
             $fileType = $this->yellow->toolbox->getFileType($file->get("fileNameShort"));
             list($widthInput, $heightInput, $type) = $this->yellow->toolbox->detectImageInformation($fileName, $fileType);
-            $widthMax = $this->yellow->config->get("imageUploadWidthMax");
-            $heightMax = $this->yellow->config->get("imageUploadHeightMax");
+            $widthMax = $this->yellow->system->get("imageUploadWidthMax");
+            $heightMax = $this->yellow->system->get("imageUploadHeightMax");
             if (($widthInput>$widthMax || $heightInput>$heightMax) && ($type=="gif" || $type=="jpg" || $type=="png")) {
                 list($widthOutput, $heightOutput) = $this->getImageDimensionsFit($widthInput, $heightInput, $widthMax, $heightMax);
                 $image = $this->loadImage($fileName, $type);
                 $image = $this->resizeImage($image, $widthInput, $heightInput, $widthOutput, $heightOutput);
-                if (!$this->saveImage($image, $fileName, $type, $this->yellow->config->get("imageUploadJpgQuality"))) {
+                if (!$this->saveImage($image, $fileName, $type, $this->yellow->system->get("imageUploadJpgQuality"))) {
                     $file->error(500, "Can't write file '$fileName'!");
                 }
             }
-            if ($this->yellow->config->get("safeMode") && $fileType=="svg") {
+            if ($this->yellow->system->get("safeMode") && $fileType=="svg") {
                 $output = $this->sanitiseXmlData($this->yellow->toolbox->readFile($fileName));
                 if (empty($output) || !$this->yellow->toolbox->createFile($fileName, $output)) {
                      $file->error(500, "Can't write file '$fileName'!");
@@ -89,7 +90,7 @@ class YellowImage {
         $statusCode = 0;
         list($command, $path) = $args;
         if ($path=="all") {
-            $path = $this->yellow->config->get("imageThumbnailDir");
+            $path = $this->yellow->system->get("imageThumbnailDir");
             foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", false, false) as $entry) {
                 if (!$this->yellow->toolbox->deleteFile($entry)) $statusCode = 500;
             }
@@ -100,29 +101,29 @@ class YellowImage {
 
     // Return image info, create thumbnail on demand
     public function getImageInformation($fileName, $widthOutput, $heightOutput) {
-        $fileNameShort = substru($fileName, strlenu($this->yellow->config->get("imageDir")));
+        $fileNameShort = substru($fileName, strlenu($this->yellow->system->get("imageDir")));
         list($widthInput, $heightInput, $type) = $this->yellow->toolbox->detectImageInformation($fileName);
         $widthOutput = $this->convertValueAndUnit($widthOutput, $widthInput);
         $heightOutput = $this->convertValueAndUnit($heightOutput, $heightInput);
         if (($widthInput==$widthOutput && $heightInput==$heightOutput) || $type=="svg") {
-            $src = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageLocation").$fileNameShort;
+            $src = $this->yellow->system->get("serverBase").$this->yellow->system->get("imageLocation").$fileNameShort;
             $width = $widthOutput;
             $height = $heightOutput;
         } else {
             $fileNameThumb = ltrim(str_replace(array("/", "\\", "."), "-", dirname($fileNameShort)."/".pathinfo($fileName, PATHINFO_FILENAME)), "-");
             $fileNameThumb .= "-".$widthOutput."x".$heightOutput;
             $fileNameThumb .= ".".pathinfo($fileName, PATHINFO_EXTENSION);
-            $fileNameOutput = $this->yellow->config->get("imageThumbnailDir").$fileNameThumb;
+            $fileNameOutput = $this->yellow->system->get("imageThumbnailDir").$fileNameThumb;
             if ($this->isFileNotUpdated($fileName, $fileNameOutput)) {
                 $image = $this->loadImage($fileName, $type);
                 $image = $this->resizeImage($image, $widthInput, $heightInput, $widthOutput, $heightOutput);
                 if (is_file($fileNameOutput)) $this->yellow->toolbox->deleteFile($fileNameOutput);
-                if (!$this->saveImage($image, $fileNameOutput, $type, $this->yellow->config->get("imageThumbnailJpgQuality")) ||
+                if (!$this->saveImage($image, $fileNameOutput, $type, $this->yellow->system->get("imageThumbnailJpgQuality")) ||
                     !$this->yellow->toolbox->modifyFile($fileNameOutput, $this->yellow->toolbox->getFileModified($fileName))) {
                     $this->yellow->page->error(500, "Can't write file '$fileNameOutput'!");
                 }
             }
-            $src = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageThumbnailLocation").$fileNameThumb;
+            $src = $this->yellow->system->get("serverBase").$this->yellow->system->get("imageThumbnailLocation").$fileNameThumb;
             list($width, $height) = $this->yellow->toolbox->detectImageInformation($fileNameOutput);
         }
         return array($src, $width, $height);

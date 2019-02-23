@@ -1,16 +1,17 @@
 <?php
-// Bundle plugin, https://github.com/datenstrom/yellow-plugins/tree/master/bundle
+// Bundle extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/bundle
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowBundle {
-    const VERSION = "0.8.1";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;         //access to API
 
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("bundleAndMinify", "1");
+        $this->yellow->system->setDefault("bundleAndMinify", "1");
     }
     
     // Handle page output data
@@ -37,7 +38,7 @@ class YellowBundle {
         $statusCode = 0;
         list($command, $path) = $args;
         if ($path=="all") {
-            $path = $this->yellow->config->get("assetDir");
+            $path = $this->yellow->system->get("resourceDir");
             foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/bundle-.*/", false, false) as $entry) {
                 if (!$this->yellow->toolbox->deleteFile($entry)) $statusCode = 500;
             }
@@ -56,7 +57,7 @@ class YellowBundle {
                 if (preg_match("/\"stylesheet\"/i", $line)) {
                     if (is_null($dataCss[$matches[2]])) $dataCss[$matches[2]] = $line;
                 } else {
-                    if (is_null($dataLink[$matches[2]])) $dataLink[$matches[2]] = $line;
+                    array_push($dataLink, $line);
                 }
             } elseif (preg_match("/^<script (.*?)src=\"([^\"]+)\"(.*?)><\/script>$/i", $line, $matches)) {
                 if (preg_match("/\"defer\"/i", $line)) {
@@ -68,7 +69,7 @@ class YellowBundle {
                 array_push($dataOther, $line);
             }
         }
-        if ($this->yellow->config->get("bundleAndMinify")) {
+        if ($this->yellow->system->get("bundleAndMinify")) {
             $dataCss = $this->processBundle($dataCss, "css");
             $dataScript = $this->processBundle($dataScript, "js");
         }
@@ -79,9 +80,9 @@ class YellowBundle {
     // Process bundle, create file on demand
     public function processBundle($data, $type) {
         $fileNames = array();
-        $scheme = $this->yellow->config->get("serverScheme");
-        $address = $this->yellow->config->get("serverAddress");
-        $base = $this->yellow->config->get("serverBase");
+        $scheme = $this->yellow->system->get("serverScheme");
+        $address = $this->yellow->system->get("serverAddress");
+        $base = $this->yellow->system->get("serverBase");
         foreach ($data as $key=>$value) {
             if (preg_match("/^\w+:/", $key)) continue;
             if (preg_match("/data-bundle=\"none\"/i", $value)) continue;
@@ -97,8 +98,8 @@ class YellowBundle {
         if (!empty($fileNames)) {
             $this->yellow->toolbox->timerStart($time);
             $id = substru(md5(implode($fileNames).$base), 0, 10);
-            $fileNameBundle = $this->yellow->config->get("assetDir")."bundle-$id.min.$type";;
-            $locationBundle = $base.$this->yellow->config->get("assetLocation")."bundle-$id.min.$type";
+            $fileNameBundle = $this->yellow->system->get("resourceDir")."bundle-$id.min.$type";;
+            $locationBundle = $base.$this->yellow->system->get("resourceLocation")."bundle-$id.min.$type";
             if ($type=="css") {
                 $data[$locationBundle] = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"".htmlspecialchars($locationBundle)."\" />\n";
             } else {
@@ -134,11 +135,11 @@ class YellowBundle {
     // Process bundle, convert URLs
     public function processBundleConvert($scheme, $address, $base, $fileData, $fileName, $type) {
         if ($type=="css") {
-            $pluginDirLength = strlenu($this->yellow->config->get("pluginDir"));
-            if (substru($fileName, 0, $pluginDirLength) == $this->yellow->config->get("pluginDir")) {
-                $base .= $this->yellow->config->get("pluginLocation");
+            $extensionDirLength = strlenu($this->yellow->system->get("extensionDir"));
+            if (substru($fileName, 0, $extensionDirLength) == $this->yellow->system->get("extensionDir")) {
+                $base .= $this->yellow->system->get("extensionLocation");
             } else {
-                $base .= $this->yellow->config->get("assetLocation");
+                $base .= $this->yellow->system->get("resourceLocation");
             }
             $thisCompatible = $this;
             $callback = function ($matches) use ($thisCompatible, $scheme, $address, $base) {
@@ -1903,7 +1904,7 @@ class Converter implements ConverterInterface {
 }
 
 // Minify extensions
-// Copyright (c) 2013-2018 Datenstrom
+// Copyright (c) 2013-2019 Datenstrom
 
 class MinifyCss extends CSS { }
 

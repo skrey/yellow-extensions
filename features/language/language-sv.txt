@@ -3,7 +3,7 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.8.1
+LanguageVersion: 0.8.2
 
 BlogBy: av
 BlogTag: Taggar:
@@ -95,7 +95,7 @@ EditVersionStatusDone: Your website is up to date.
 EditVersionStatusWarning: Updates available, please update your website.
 EditVersionStatusUpdates: Updates available, update now.
 EditVersionUpdateForce: Force update
-EditVersionUpdateModified: @software has been modified
+EditVersionUpdateModified: @extension has been modified
 EditUploadProgress: [Laddar upp fil…]
 EditOkButton: Ok
 EditCancelButton: Avbryt
