@@ -372,6 +372,7 @@ class YellowCore {
                 if (preg_match("/^core\.php$/", basename($entry))) continue;
                 if ($fileData!=$fileDataNew) $this->toolbox->createFile($entry, $fileDataNew);
             }
+            $this->system->save("system/settings/system.ini", array("startupUpdate" => "update"));
             if (!empty($fileDataError)) $this->toolbox->createFile($fileNameError, $fileDataError);
             @header($this->toolbox->getHttpStatusFormatted(empty($fileDataError) ? 200 : 500));
             die(empty($fileDataError) ? "System folder has been updated. Please try again.\n" :
