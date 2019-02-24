@@ -9,7 +9,8 @@ php:
 before_script: 
   - git init
   - git remote add yellow https://github.com/datenstrom/yellow.git
-  - git fetch yellow master
+  - git fetch 
+  - git checkout -t yellow/master
   - ls -a
   - echo "StaticUrl:http://website/" >> system/settings/system.ini
   - php yellow.php about
