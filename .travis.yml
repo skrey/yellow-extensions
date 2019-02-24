@@ -8,6 +8,7 @@ php:
   - 5.5
 before_script: 
   - git clone https://github.com/datenstrom/yellow.git yellow; cd yellow
+  - cp $TRAVIS_BUILD_DIR/zip/* system/extensions/
   - echo "StaticUrl:http://website/" >> system/settings/system.ini
   - php yellow.php about
 script: 
