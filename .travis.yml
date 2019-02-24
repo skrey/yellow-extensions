@@ -8,8 +8,8 @@ php:
   - 5.5
 before_script: 
   - git init
-  - git remote add origin https://github.com/datenstrom/yellow.git
-  - git pull origin master
+  - git remote add yellow https://github.com/datenstrom/yellow.git
+  - git pull yellow master
   - ls -a
   - echo "StaticUrl:http://website/" >> system/settings/system.ini
   - php yellow.php about
