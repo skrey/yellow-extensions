@@ -22,7 +22,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `FeedLocation` = feed location  
 `FeedFileXml` = feed file name for RSS feed  
-`FeedFilter` = feed filter for layouts  
+`FeedFilter` = feed filter for a specific layout  
 `FeedPaginationLimit` = number of entries to show per page  
 
 ## Example

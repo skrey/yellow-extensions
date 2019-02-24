@@ -20,7 +20,7 @@ The second option is to update your website at the [command line](https://github
 
 ## How to add more extensions
 
-You can download [features](https://developers.datenstrom.se/features/) and [themes](https://developers.datenstrom.se/themes/), copy files to your web hosting. You can also add more extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php install` followed by optional extensions. See example below.
+You can download extensions and copy files to your web server. You can also add extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php install` followed by optional extensions. See example below.
 
 The extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to download files.
 
@@ -36,7 +36,13 @@ Adding extensions at the command line:
 
 `php yellow.php install`  
 `php yellow.php install gallery`  
+`php yellow.php install english german french`  
+
+Removing extensions at the command line:
+
+`php yellow.php uninstall `  
 `php yellow.php uninstall gallery`  
+`php yellow.php uninstall english german french`  
 
 ## Developer
 

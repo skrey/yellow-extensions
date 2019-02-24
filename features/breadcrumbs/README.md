@@ -18,7 +18,7 @@ Create a `[breadcrumbs]` shortcut.
 
 The following arguments are available, all arguments are optional:
  
-`Separator ` = text used between pages  
+`Separator ` = text shown between breadcrumbs  
 `Style` = breadcrumbs style, e.g. `breadcrumbs`  
  
 ## Example
@@ -42,18 +42,18 @@ Content file with breadcrumbs:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Template file with breadcrumbs:
+Layout file with breadcrumbs:
 
-    <?php $yellow->snippet("header") ?>
+    <?php $this->yellow->layout("header") ?>
     <div class="content">
-    <?php $yellow->snippet("sidebar") ?>
+    <?php $this->yellow->layout("sidebar") ?>
     <div class="main" role="main">
-    <h1><?php echo $yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $yellow->page->getExtra("breadcrumbs") ?>
-    <?php echo $yellow->page->getContent() ?>
+    <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
+    <?php echo $this->yellow->page->getExtra("breadcrumbs") ?>
+    <?php echo $this->yellow->page->getContent() ?>
     </div>
     </div>
-    <?php $yellow->snippet("footer") ?>
+    <?php $this->yellow->layout("footer") ?>
 
 ## Developer
 

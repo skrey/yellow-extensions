@@ -57,7 +57,7 @@ Update settings for a feature:
 Extension: Example
 Version: 0.7.1
 Description: Example feature for developers.
-Published: 2018-07-09 19:42:13
+Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 
 Example/example.php: system/extensions/example.php,create,update
@@ -71,12 +71,12 @@ Update settings for a theme:
 Extension: Mytheme
 Version: 0.7.1
 Description: Example theme for designers.
-Published: 2018-07-09 19:42:13
+Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 
-Mytheme/example.php: system/extensions/example.php,create,update
-Mytheme/example.css: system/resources/example.css,create,update,careful
-Mytheme/example-logo.png: system/resources/example-logo.png,create
+Mytheme/mytheme.php: system/extensions/mytheme.php,create,update
+Mytheme/mytheme.css: system/resources/mytheme.css,create,update,careful
+Mytheme/mytheme-logo.png: system/resources/mytheme-logo.png,create
 ~~~
 
 ## Developer

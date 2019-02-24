@@ -29,7 +29,7 @@ You can use shortcuts to show information about the wiki:
 The following arguments are available, all but the first argument are optional:
 
 `Location` = wiki location  
-`PagesMax` = number of pages, 0 for unlimited  
+`PagesMax` = number of pages to show per shortcut, 0 for unlimited  
 `Author` = show pages by a specific author, `[wikipages]` or `[wikichanges]` only  
 `Tag` = show pages with a specific tag, `[wikipages]` or `[wikichanges`] only  
 
@@ -39,15 +39,15 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `WikiLocation` = wiki location  
 `WikiNewLocation` = wiki location for new page  
-`WikiPagesMax` = number of pages  
-`WikiPagesMain` = include wiki main page in pages, 1 or 0  
+`WikiPagesMax` = number of pages to show per shortcut  
+`WikiPagesMain` = include main wiki page in pages, 1 or 0  
 `WikiPaginationLimit` = number of entries to show per page  
 
 The following files can be configured:
 
 `content/shared/page-new-wiki.md` = content file for new wiki page  
-`system/layouts/wiki.html` = layout file for wiki page  
-`system/layouts/wikipages.html` = layout file for wiki main page  
+`system/layouts/wikipages.html` = layout file for main wiki page  
+`system/layouts/wiki.html` = layout file for individual wiki page  
 
 ## Example
 

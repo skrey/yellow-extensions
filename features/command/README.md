@@ -22,7 +22,7 @@ The extension uses the [cURL library](https://github.com/curl/curl) by Daniel St
 
 The following commands are available:
 
-`php yellow.php about` = Show website version and updates  
+`php yellow.php about` = Show [website version](https://github.com/datenstrom/yellow-extensions/tree/master/features/core)  
 `php yellow.php build` = Build [static website](https://developers.datenstrom.se/help/server-configuration#static-website)  
 `php yellow.php check` = Check [static website](https://developers.datenstrom.se/help/server-configuration#static-website) for broken links  
 `php yellow.php clean` = Clean [static website](https://developers.datenstrom.se/help/server-configuration#static-website)  

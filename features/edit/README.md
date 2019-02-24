@@ -63,8 +63,8 @@ EditToolbarButtons: preview, format, bold, italic, separator, quote, code, link,
 
 Creating a user account at the command line:
  
-`php yellow.php user`  
 `php yellow.php user add email@example.com password`  
+`php yellow.php user change email@example.com password`  
 `php yellow.php user remove email@example.com`  
 
 ## Developer

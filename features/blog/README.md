@@ -30,7 +30,7 @@ You can use shortcuts to show information about the blog:
 The following arguments are available, all but the first argument are optional:
 
 `Location` = blog location  
-`PagesMax` = number of pages, 0 for unlimited  
+`PagesMax` = number of pages to show per shortcut, 0 for unlimited  
 `Author` = show pages by a specific author, `[blogpages]` or `[blogchanges]` only  
 `Tag` = show pages with a specific tag, `[blogpages]` or `[blogchanges]` only  
 
@@ -40,14 +40,14 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `BlogLocation` = blog location  
 `BlogNewLocation` = blog location for new page  
-`BlogPagesMax` = number of pages  
+`BlogPagesMax` = number of pages to show per shortcut  
 `BlogPaginationLimit` = number of entries to show per page  
 
 The following files can be configured:
 
 `content/shared/page-new-blog.md` = content file for new blog page  
-`system/layouts/blog.html` = layout file for blog page  
-`system/layouts/blogpages.html` = layout file for blog main page  
+`system/layouts/blogpages.html` = layout file for main blog page  
+`system/layouts/blog.html` = layout file for individual blog page  
 
 ## Example
 
