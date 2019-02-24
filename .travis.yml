@@ -7,8 +7,8 @@ php:
   - 5.6
   - 5.5
 before_script: 
-  - git clone https://github.com/datenstrom/yellow.git test
-  - echo "StaticUrl:http://website/" >> test/system/settings/system.ini
-  - php test/yellow.php about
+  - git clone https://github.com/datenstrom/yellow.git yellow; cd yellow
+  - echo "StaticUrl:http://website/" >> system/settings/system.ini
+  - php yellow.php about
 script: 
-  - php test/yellow.php build
+  - php yellow.php build test
