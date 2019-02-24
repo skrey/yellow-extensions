@@ -7,9 +7,9 @@ php:
   - 5.6
   - 5.5
 before_script: 
+  - ls -a
   - git clone https://github.com/datenstrom/yellow.git .
   - echo "StaticUrl:http://website/" >> system/settings/system.ini
-  - cp zip/swedish.zip system/extensions/
   - php yellow.php about
 script: 
   - php yellow.php build test
