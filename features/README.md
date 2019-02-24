@@ -1,7 +1,7 @@
 Features
 ========
 
-The following features are official:
+The following features are available:
 
 * [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog): 
   Blog for your website.
