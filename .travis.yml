@@ -7,12 +7,8 @@ php:
   - 5.6
   - 5.5
 before_script: 
-  - git init
-  - git remote add yellow https://github.com/datenstrom/yellow.git
-  - git fetch 
-  - git checkout -t yellow/master
-  - ls -a
-  - echo "StaticUrl:http://website/" >> system/settings/system.ini
-  - php yellow.php about
+  - git clone https://github.com/datenstrom/yellow.git test
+  - echo "StaticUrl:http://website/" >> test/system/settings/system.ini
+  - php test/yellow.php about
 script: 
-  - php yellow.php build test
+  - php test/yellow.php build
