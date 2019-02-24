@@ -1,25 +1,26 @@
 <?php
-// Matomo plugin, https://github.com/datenstrom/yellow-plugins/tree/master/matomo
-// Copyright (c) 2013-2018 Datenstrom, https://datenstrom.se
+// Matomo extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo
+// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMatomo {
-    const VERSION = "0.7.1";
+    const VERSION = "0.8.2";
+    const TYPE = "feature";
     public $yellow;            //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->config->setDefault("matomoUrl", "");
-        $this->yellow->config->setDefault("matomoSiteId", "yellow");
+        $this->yellow->system->setDefault("matomoUrl", "");
+        $this->yellow->system->setDefault("matomoSiteId", "yellow");
     }
     
     // Handle page extra data
     public function onParsePageExtra($page, $name) {
         $output = NULL;
         if ($name=="footer") {
-            $url = $this->yellow->config->get("matomoUrl");
-            $siteId = $this->yellow->config->get("matomoSiteId");
+            $url = $this->yellow->system->get("matomoUrl");
+            $siteId = $this->yellow->system->get("matomoSiteId");
             if (empty($url)) $url = $this->yellow->toolbox->getServerUrl();
             $output = "<script type=\"text/javascript\">\n";
             $output .= "var _paq = _paq || [];\n";

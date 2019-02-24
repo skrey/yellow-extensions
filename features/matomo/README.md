@@ -1,4 +1,4 @@
-Matomo 0.7.1
+Matomo 0.8.2
 ============
 Add Matomo web analytics to website.
 
