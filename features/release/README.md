@@ -46,8 +46,8 @@ The following file operations are supported:
 Creating releases at the command line:
 
 `php yellow.php release`   
-`php yellow.php release yellow-extension-example`  
-`php yellow.php release yellow-extension-mytheme`  
+`php yellow.php release yellow-example`  
+`php yellow.php release yellow-mytheme`  
 
 Update settings for a feature:
 
