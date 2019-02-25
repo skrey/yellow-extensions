@@ -3,7 +3,6 @@
 Language: zh-CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-LanguageVersion: 0.8.2
 
 BlogBy: 作者:
 BlogTag: 标签:

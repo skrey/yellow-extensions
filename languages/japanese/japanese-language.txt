@@ -3,7 +3,6 @@
 Language: ja
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-LanguageVersion: 0.8.2
 
 BlogBy: by
 BlogTag: Tags:

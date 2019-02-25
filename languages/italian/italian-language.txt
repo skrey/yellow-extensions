@@ -3,7 +3,6 @@
 Language: it
 LanguageDescription: Italiano
 LanguageTranslator: Luca Lischetti, Andrea Zanellato
-LanguageVersion: 0.8.2
 
 BlogBy: per
 BlogTag: Tag:

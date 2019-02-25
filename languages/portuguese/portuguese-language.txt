@@ -3,7 +3,6 @@
 Language: pt
 LanguageDescription: Português
 LanguageTranslator: Al Garcia
-LanguageVersion: 0.8.2
 
 BlogBy: por
 BlogTag: Tags:

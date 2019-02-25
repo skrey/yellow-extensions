@@ -3,7 +3,6 @@
 Language: pl
 LanguageDescription: Polski
 LanguageTranslator: Paweł Klockiewicz
-LanguageVersion: 0.8.2
 
 BlogBy: przez
 BlogTag: Tagi:

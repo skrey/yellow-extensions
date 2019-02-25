@@ -3,7 +3,6 @@
 Language: sk
 LanguageDescription: Slovenčina
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.8.2
 
 BlogBy: od
 BlogTag: Štítky:

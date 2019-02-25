@@ -3,7 +3,6 @@
 Language: id
 LanguageDescription: Bahasa Indonesia
 LanguageTranslator: Jimmy Ofisia
-LanguageVersion: 0.8.2
 
 BlogBy: oleh
 BlogTag: Label:

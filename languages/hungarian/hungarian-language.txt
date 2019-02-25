@@ -3,7 +3,6 @@
 Language: hu
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-LanguageVersion: 0.8.2
 
 BlogBy: by
 BlogTag: Címke:

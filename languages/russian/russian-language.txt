@@ -3,7 +3,6 @@
 Language: ru
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-LanguageVersion: 0.8.2
 
 BlogBy: Автор
 BlogTag: Тэги:

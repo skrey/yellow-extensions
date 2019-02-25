@@ -3,7 +3,6 @@
 Language: sv
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-LanguageVersion: 0.8.2
 
 BlogBy: av
 BlogTag: Taggar:

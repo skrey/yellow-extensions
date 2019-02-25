@@ -3,7 +3,6 @@
 Language: cs
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-LanguageVersion: 0.8.2
 
 BlogBy: Vytvořil
 BlogTag: Tags:

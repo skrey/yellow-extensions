@@ -3,7 +3,6 @@
 Language: nl
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-LanguageVersion: 0.8.2
 
 BlogBy: door
 BlogTag: Labels:

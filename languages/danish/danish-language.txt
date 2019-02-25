@@ -3,7 +3,6 @@
 Language: da
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-LanguageVersion: 0.8.2
 
 BlogBy: af
 BlogTag: Tags:
