@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -62,8 +62,13 @@ class YellowRelease {
     // Update release directory
     public function updateReleaseDirectory($path, $pathExtension) {
         $statusCode = 200;
-        $fileNameInformation = $path.$this->yellow->system->get("updateInformationFile");
-        if (is_file($fileNameInformation)) {
+        $fileNameInformation = $path.$this->yellow->system->get("updateInformationFile"); //TODO: remove later, converts old format
+        $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
+        if (is_file($fileNameInformation) && !$this->yellow->toolbox->renameFile($fileNameInformation, $fileNameExtension)) {
+            $statusCode = 500;
+            echo "ERROR updating files: Can't rename file '$fileNameInformation'!\n";
+        }
+        if (is_file($fileNameExtension)) {
             list($statusCode, $extension, $version) = $this->getReleaseInformation($path);
             $statusCode = max($statusCode, $this->updateReleaseInformation($path, $extension, $version));
             $statusCode = max($statusCode, $this->updateReleaseDocumentation($path, $extension, $version));
@@ -80,9 +85,9 @@ class YellowRelease {
     // Update release information file
     public function updateReleaseInformation($path, $extension, $version) {
         $statusCode = 200;
-        $fileNameInformation = $path.$this->yellow->system->get("updateInformationFile");
-        if (is_file($fileNameInformation) && !empty($extension) && !empty($version)) {
-            $fileData = $this->yellow->toolbox->readFile($fileNameInformation);
+        $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
+        if (is_file($fileNameExtension) && !empty($extension) && !empty($version)) {
+            $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
                 if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
@@ -110,12 +115,12 @@ class YellowRelease {
                 $fileDataNew .= $line;
             }
             if ($fileData!=$fileDataNew) {
-                if (!$this->yellow->toolbox->createFile($fileNameInformation, $fileDataNew)) {
+                if (!$this->yellow->toolbox->createFile($fileNameExtension, $fileDataNew)) {
                     $statusCode = 500;
-                    echo "ERROR updating files: Can't write file '$fileNameInformation'!\n";
+                    echo "ERROR updating files: Can't write file '$fileNameExtension'!\n";
                 }
             }
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowRelease::updateReleaseInformation file:$fileNameInformation<br/>\n";
+            if (defined("DEBUG") && DEBUG>=2) echo "YellowRelease::updateReleaseInformation file:$fileNameExtension<br/>\n";
         }
         return $statusCode;
     }
@@ -146,11 +151,11 @@ class YellowRelease {
         return $statusCode;
     }
     
-    // Update release archive
+    // Update release ZIP archive
     public function updateReleaseArchive($pathSource, $pathExtension, $extension) {
         $statusCode = 200;
-        $fileNameInformation = $pathSource.$this->yellow->system->get("updateInformationFile");
-        if (is_file($fileNameInformation) && !empty($extension)) {
+        $fileNameExtension = $pathSource.$this->yellow->system->get("updateExtensionFile");
+        if (is_file($fileNameExtension) && !empty($extension)) {
             $zip = new ZipArchive();
             $fileNameZipArchive = $pathExtension."zip/".strtoloweru("$extension.zip");
             if (is_file($fileNameZipArchive)) $this->yellow->toolbox->deleteFile($fileNameZipArchive);
@@ -283,8 +288,8 @@ class YellowRelease {
     // Return extension information
     public function getExtensionInformation($path) {
         $extension = $version = $description = $status = "";
-        $fileNameInformation = $path.$this->yellow->system->get("updateInformationFile");
-        $fileData = $this->yellow->toolbox->readFile($fileNameInformation);
+        $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
+        $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
             if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
@@ -298,8 +303,8 @@ class YellowRelease {
     // Return extension file names
     public function getExtensionFileNames($path) {
         $entries = array();
-        $fileNameInformation = $path.$this->yellow->system->get("updateInformationFile");
-        $fileData = $this->yellow->toolbox->readFile($fileNameInformation);
+        $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
+        $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
             if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
@@ -308,15 +313,15 @@ class YellowRelease {
                 if (!preg_match("/delete/i", $flags)) array_push($entries, "$path$entry");
             }
         }
-        array_push($entries, $fileNameInformation);
+        array_push($entries, $fileNameExtension);
         return $entries;
     }
     
     // Return extension waffle
     public function getExtensionWaffle($path) {
         $waffle = "";
-        $fileNameInformation = $path.$this->yellow->system->get("updateInformationFile");
-        $fileData = $this->yellow->toolbox->readFile($fileNameInformation);
+        $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
+        $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
             if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {

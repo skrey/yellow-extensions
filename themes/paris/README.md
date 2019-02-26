@@ -10,7 +10,7 @@ Paris is an elegant theme for writers. [See demo](https://developers.datenstrom.
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/paris.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `paris.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to change theme
 

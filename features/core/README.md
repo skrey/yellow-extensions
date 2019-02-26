@@ -10,7 +10,7 @@ Core functionality for your website.
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/core.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `core.zip` into your `system/extensions` folder.
 
-Do not delete the [extension files](update.ini), they are always required.
+Do not delete the [extension files](extension.ini), they are always required.
 
 ## How to show website version
 

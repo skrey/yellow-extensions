@@ -10,7 +10,7 @@ Berlin is a simple and beautiful theme inspired by Dieter Rams. [See demo](https
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/berlin.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `berlin.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to change theme
 

@@ -10,7 +10,7 @@ Table of contents. [See demo](https://developers.datenstrom.se/features/toc).
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/toc.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `toc.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to make a table of contents
 

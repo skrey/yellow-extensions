@@ -10,7 +10,7 @@ Highlight source code.
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/highlight.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `highlight.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to highlight source code
 

@@ -10,7 +10,7 @@ Wiki for your website. [See demo](https://developers.datenstrom.se/features/wiki
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/wiki.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `wiki.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to use a wiki
 

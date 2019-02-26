@@ -10,7 +10,7 @@ Edit your website in a web browser. [See demo](https://developers.datenstrom.se)
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/edit.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `edit.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to edit a website
 

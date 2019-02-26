@@ -10,7 +10,7 @@ Embed Google calendar.
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/googlecalendar.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `googlecalendar.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to embed a calendar
 

@@ -10,7 +10,7 @@ Keep your website up to date.
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/update.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `update.zip` into your `system/extensions` folder.
 
-Do not delete the [extension files](update.ini), they are always required.
+Do not delete the [extension files](extension.ini), they are always required.
 
 ## How to update a website
 

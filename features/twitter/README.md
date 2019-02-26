@@ -10,7 +10,7 @@ Embed Twitter messages. [See demo](https://developers.datenstrom.se/features/twi
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/twitter.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `twitter.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to embed a message
 

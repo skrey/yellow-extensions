@@ -11,7 +11,7 @@ Add links to previous/next page. [See demo](https://developers.datenstrom.se/fea
 3. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/links.zip). If you are using Safari, right click and select 'Download file as'.
 4. Copy `links.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to show links
 

@@ -11,7 +11,7 @@ Add Disqus comments to blog. [See demo](https://developers.datenstrom.se/feature
 3. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/disqus.zip). If you are using Safari, right click and select 'Download file as'.
 4. Copy `disqus.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to show comments
 

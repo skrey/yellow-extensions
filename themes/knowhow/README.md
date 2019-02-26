@@ -10,7 +10,7 @@ Knowhow is a theme for a GitHub-like knowledge base. [See demo](https://develope
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/knowhow.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `knowhow.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to change theme
 

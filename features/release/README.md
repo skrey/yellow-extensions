@@ -1,5 +1,5 @@
-Release 0.8.2
-==============
+Release 0.8.3
+=============
 Create releases.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
@@ -10,7 +10,7 @@ Create releases.
 2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/release.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `release.zip` into your `system/extensions` folder.
 
-To uninstall delete the [extension files](update.ini).
+To uninstall delete the [extension files](extension.ini).
 
 ## How to create a release
 
@@ -23,7 +23,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `ReleaseExtensionDir` = directory containing the official extensions repository  
 `ReleaseRepositoryDir` = directory containing your repositories   
 
-The following settings can be configured in file `update.ini` for each extension:
+The following settings can be configured in file `extension.ini` for each extension:
 
 `Extension` = name of extension  
 `Version` = version number of extension  
@@ -52,7 +52,7 @@ Creating releases at the command line:
 Update settings for a feature:
 
 ~~~
-# Datenstrom Yellow update
+# Datenstrom Yellow extension
 
 Extension: Example
 Version: 0.7.1
@@ -66,7 +66,7 @@ Example/example.php: system/extensions/example.php,create,update
 Update settings for a theme:
 
 ~~~
-# Datenstrom Yellow update
+# Datenstrom Yellow extension
 
 Extension: Mytheme
 Version: 0.7.1
