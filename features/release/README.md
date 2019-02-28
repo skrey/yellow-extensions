@@ -47,7 +47,7 @@ Creating releases at the command line:
 
 `php yellow.php release`   
 `php yellow.php release yellow-example`  
-`php yellow.php release yellow-mytheme`  
+`php yellow.php release yellow-city`  
 
 Update settings for a feature:
 
@@ -68,15 +68,15 @@ Update settings for a theme:
 ~~~
 # Datenstrom Yellow extension
 
-Extension: Mytheme
+Extension: City
 Version: 0.7.1
 Description: Example theme for designers.
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 
-Mytheme/mytheme.php: system/extensions/mytheme.php,create,update
-Mytheme/mytheme.css: system/resources/mytheme.css,create,update,careful
-Mytheme/mytheme-logo.png: system/resources/mytheme-logo.png,create
+City/city.php: system/extensions/city.php,create,update
+City/city.css: system/resources/city.css,create,update,careful
+City/city-logo.png: system/resources/city-logo.png,create
 ~~~
 
 ## Developer

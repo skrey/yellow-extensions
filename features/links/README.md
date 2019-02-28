@@ -1,6 +1,6 @@
 Links 0.8.2
 ===========
-Add links to previous/next page. [See demo](https://developers.datenstrom.se/features/blog/blog-example).
+Show links to previous/next page. [See demo](https://developers.datenstrom.se/features/blog/blog-example).
 
 <p align="center"><img src="links-screenshot.png?raw=true" alt="Screenshot"></p>
 

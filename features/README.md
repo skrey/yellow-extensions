@@ -16,7 +16,7 @@ The following features are available:
 * [Core](https://github.com/datenstrom/yellow-extensions/tree/master/features/core): 
   Core functionality for your website.
 * [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus): 
-  Add Disqus comments to blog.
+  Show Disqus comments on blog.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft): 
   Support for draft pages.
 * [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit): 
@@ -40,11 +40,11 @@ The following features are available:
 * [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/features/instagram): 
   Embed Instagram photos.
 * [Links](https://github.com/datenstrom/yellow-extensions/tree/master/features/links): 
-  Add links to previous/next page.
+  Show links to previous/next page.
 * [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown): 
   Text formatting for humans.
 * [Matomo](https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo): 
-  Add Matomo web analytics to website.
+  Matomo web analytics.
 * [Preview](https://github.com/datenstrom/yellow-extensions/tree/master/features/preview): 
   Show pages with image preview.
 * [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
@@ -152,4 +152,4 @@ The following features are archived:
 * [Skipto](https://github.com/schulle4u/yellow-plugin-skipto):
   Enhance keyboard navigation.
 
-Want to make a new feature? [Use the example extension](https://github.com/schulle4u/yellow-plugin-example).
+Want to make a new feature? [Use the example extension](https://github.com/schulle4u/yellow-extension-example).

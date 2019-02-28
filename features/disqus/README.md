@@ -1,6 +1,6 @@
 Disqus 0.8.2
 ============
-Add Disqus comments to blog. [See demo](https://developers.datenstrom.se/features/blog/made-for-people).
+Show Disqus comments on blog. [See demo](https://developers.datenstrom.se/features/blog/made-for-people).
 
 <p align="center"><img src="disqus-screenshot.png?raw=true" alt="Screenshot"></p>
 

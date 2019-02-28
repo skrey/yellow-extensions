@@ -1,6 +1,6 @@
 Matomo 0.8.2
 ============
-Add Matomo web analytics to website.
+Matomo web analytics.
 
 ## How to install extension
 
