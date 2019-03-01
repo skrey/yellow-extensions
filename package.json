@@ -1,13 +1,8 @@
 {
     "name": "yellow-extensions",
     "dependencies": {
-        "minify": "matthiasmullie/minify",
-        "php-markdown": "michelf/php-markdown",
-        "parsedown": "erusev/parsedown",
-        "photoswipe": "dimsemenov/photoswipe",
-        "highlight.php": "scrivo/highlight.php",
-        "flickity": "metafizzy/flickity",
-        "twemoji": "twitter/twemoji",
-        "Font-Awesome": "FortAwesome/Font-Awesome"
+        "minify": "matthiasmullie/minify#1.3.60",
+        "php-markdown": "michelf/php-markdown#1.8.0",
+        "photoswipe": "dimsemenov/photoswipe#v4.1.3"
     }
 }
