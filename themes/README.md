@@ -16,7 +16,7 @@ The following themes are available:
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/themes/stockholm): 
   Stockholm is a modern business theme.
 
-The following themes are experimental:
+The following themes are obsolete:
 
 * [Buoa](https://github.com/bsnosi/yellow-theme-buoa):
   Buoa is a theme for a technical oriented blog/wiki.

@@ -18,6 +18,12 @@ The extension bundles and minifies files for a better loading time. Your website
 
 The extension uses [Minify v1.3.60](https://github.com/matthiasmullie/minify) by Matthias Mullie. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
 
+## How to configure a bundle
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`BundleAndMinify` = create bundle for CSS and JavaScript, 1 or 0  
+
 ## Example
 
 Website with unbundled CSS and JavaScript files:

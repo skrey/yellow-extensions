@@ -40,7 +40,7 @@ Adding extensions at the command line:
 
 Removing extensions at the command line:
 
-`php yellow.php uninstall `  
+`php yellow.php uninstall`  
 `php yellow.php uninstall gallery`  
 `php yellow.php uninstall english german french`  
 

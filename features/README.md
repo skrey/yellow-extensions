@@ -74,12 +74,37 @@ The following features are available:
 
 The following features are experimental:
 
-* [About](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/about):
+* [About](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/about):
   Author profile for blog pages.
-* [Antispam](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/antispam):
+* [Antispam](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/antispam):
   Email address obfuscator using ROT13 and CSS.
-* [Audio](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/audio):
+* [Audio](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio):
   HTML5 audio player.
+* [Example](https://github.com/schulle4u/yellow-plugin-example):
+  Example plugin for developers.
+* [Include](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/include): 
+  Include page content into another page.
+* [MOTD](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
+  Message of the day.
+* [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
+  A fork of the original feed plugin optimized for podcast publishing.
+* [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
+  Create password-protected pages.
+* [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
+  Display random pages from specified location.
+* [Shariff](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/shariff):
+  Privacy-friendly social sharing buttons.
+* [Socialtags](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/socialtags):
+  Adds Twitter and Open Graph meta tags.
+* [Spoiler](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/spoiler):
+  Hide certain page elements.
+* [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker): 
+  Feed parser using SimpleXML or SimplePie.
+* [TuneIn](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
+  Embed radio stations from TuneIn.
+
+The following features are obsolete:
+
 * [Burgermenu](https://github.com/richi/yellow-plugin-burger-menu): 
   A hamburger menu button.
 * [Cheetjs](https://github.com/nogginfuel/yellow-plugin-cheetjs): 
@@ -90,16 +115,14 @@ The following features are experimental:
   A (very) small CSS preprocessor.
 * [Events](https://github.com/Xrizzy/yellow-plugin-events):
   Yellow plugin for events that you have organised.
-* [Example](https://github.com/schulle4u/yellow-plugin-example):
-  Example plugin for developers.
 * [FAQ](https://github.com/richi/yellow-plugin-faq):
   Yellow plugin for easy FAQ handling.
 * [Fotorama](https://github.com/nogginfuel/yellow-plugin-fotorama): 
   A jQuery image gallery with carousel.
 * [Imgpop](https://github.com/bsnosi/yellow-plugin-imgpop):
   CSS only image popup with dimmed background and subtitle.
-* [Include](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/include): 
-  Include page content into another page.
+* [InlineAttachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
+  Drag and drop image upload for editing a page.
 * [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
   Add the power of jQuery to Yellow.
 * [Justified Gallery](https://github.com/nibreh/yellow-plugin-justified-gallery):
@@ -108,48 +131,25 @@ The following features are experimental:
   Embed maps and add markers with Leaflet & OpenStreetMap.
 * [Maintenance](https://github.com/nogginfuel/yellow-plugin-maintenance):
   Maintenance status for entire site or single page.
+* [Markbar](https://github.com/nibreh/yellow-plugin-markbar):
+  WYSIWYG style toolbar for editing a page.
 * [Medialist](https://github.com/nibreh/yellow-plugin-medialist):
   Create a list of MP3/OGG/PDF media files.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
   Light and accessible social-sharing links.
-* [MOTD](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/motd):
-  Message of the day.
 * [Pagetxt](https://github.com/richi/yellow-plugin-pagetxt):
   Overwrite language entries in a page.
-* [Podcast](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/podcast): 
-  A fork of the original feed plugin optimized for podcast publishing.
-* [Private](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/private): 
-  Create password-protected pages.
-* [Random](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/random): 
-  Display random pages from specified location.
-* [Shariff](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/shariff):
-  Privacy-friendly social sharing buttons.
-* [Socialtags](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/socialtags):
-  Adds Twitter and Open Graph meta tags.
-* [Spoiler](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/spoiler):
-  Hide certain page elements.
+* [Skipto](https://github.com/schulle4u/yellow-plugin-skipto):
+  Enhance keyboard navigation.
 * [Streamlist](https://github.com/nibreh/yellow-plugin-streamlist):
   Stream your favorite radios in a playlist with HTML5 audio.
 * [Sublime](https://github.com/nashv/YellowBlogExtensions):
   Sublime Text 3 Extensions for blogs based on Yellow.
-* [Ticker](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/ticker): 
-  Feed parser using SimpleXML or SimplePie.
-* [TuneIn](https://github.com/schulle4u/yellow-plugins-schulle4u/tree/master/tunein): 
-  Embed radio stations from TuneIn.
 * [Video](https://github.com/nibreh/yellow-plugin-video): 
   HTML5 video player.
 * [Webcli](https://github.com/richi/yellow-plugin-cli):
   Use the command line interface without shell access.
 * [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
   Image gallery in CSS only.
-
-The following features are archived:
-
-* [InlineAttachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
-  Drag and drop image upload for editing a page.
-* [Markbar](https://github.com/nibreh/yellow-plugin-markbar):
-  WYSIWYG style toolbar for editing a page.
-* [Skipto](https://github.com/schulle4u/yellow-plugin-skipto):
-  Enhance keyboard navigation.
 
 Want to make a new feature? [Use the example extension](https://github.com/schulle4u/yellow-extension-example).

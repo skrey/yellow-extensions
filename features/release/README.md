@@ -76,7 +76,7 @@ Designer: Anna Svensson
 
 City/city.php: system/extensions/city.php,create,update
 City/city.css: system/resources/city.css,create,update,careful
-City/city-logo.png: system/resources/city-logo.png,create
+City/city-icon.png: system/resources/city-icon.png,create
 ~~~
 
 ## Developer
