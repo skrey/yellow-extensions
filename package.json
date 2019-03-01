@@ -1,8 +1,8 @@
 {
     "name": "yellow-extensions",
     "dependencies": {
-        "minify": "matthiasmullie/minify#1.3.60",
-        "php-markdown": "michelf/php-markdown#1.8.0",
-        "photoswipe": "dimsemenov/photoswipe#v4.1.3"
+        "minify": "matthiasmullie/minify",
+        "php-markdown": "michelf/php-markdown",
+        "photoswipe": "dimsemenov/photoswipe"
     }
 }
