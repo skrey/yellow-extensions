@@ -81,17 +81,17 @@ The following features are experimental:
 * [Audio](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio):
   HTML5 audio player.
 * [Comments](https://github.com/GiovanniSalmeri/yellow-comments):
-  Get in touch with users of your website directly.
-* [Example](https://github.com/schulle4u/yellow-plugin-example):
-  Example plugin for developers.
+  Simple commenting system.
+* [Example](https://github.com/schulle4u/yellow-extension-example):
+  Example extension for developers.
 * [Include](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/include): 
-  Include page content into another page.
+  Include page content from other pages.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
-  Light and accessible social-sharing links.
-* [MOTD](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
+  Light and accessible social sharing links.
+* [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
   Message of the day.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
-  A fork of the original feed plugin optimized for podcast publishing.
+  Web feed optimized for podcast publishing.
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
   Create password-protected pages.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
@@ -105,9 +105,9 @@ The following features are experimental:
 * [Spoiler](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/spoiler):
   Hide certain page elements.
 * [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker): 
-  Feed parser using SimpleXML or SimplePie.
+  RSS feed parser using SimpleXML or SimplePie.
 * [TuneIn](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
-  Embed radio stations from TuneIn.
+  Embed TuneIn Radio player.
 
 The following features are obsolete:
 
