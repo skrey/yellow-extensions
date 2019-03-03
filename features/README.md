@@ -106,7 +106,7 @@ The following features are experimental:
   Hide certain page elements.
 * [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker): 
   RSS feed parser using SimpleXML or SimplePie.
-* [TuneIn](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
+* [Tunein](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
   Embed TuneIn Radio player.
 
 The following features are obsolete:
