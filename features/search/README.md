@@ -14,23 +14,30 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a search
 
-The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. You can use a custom navigation, open file `system/settings/system.ini` and change `Navigation: navigation-search`. To show a search field add a `[search]` shortcut with optional location. You can also add a link to the search somewhere on your website. See example below.
+The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. To show a search field add a `[search]` shortcut with optional location. You can also add a link to the search somewhere on your website. See example below.
 
 ## How to configure a search
 
 The following settings can be configured in file `system/settings/system.ini`:
 
+`Navigation` = navigation of the website, e.g. `navigation-search` shows a search field  
 `SearchLocation` = search location  
 `SearchPaginationLimit` = number of entries to show per page  
 `SearchPageLength` = maximum page length to show  
 
 ## Example
 
-Adding a search field:
+Searching a website:
 
-    [search]
-    [search /en/search/]
-    [search /de/search/]
+    coffee
+    milk sugar
+    "milk and sugar"
+
+Searching a website, different filters:
+
+    coffee author:datenstrom
+    coffee language:en
+    coffee tag:example
 
 Content file with search field:
 

@@ -30,12 +30,14 @@ Adding an icon:
     :fa-twitter:
     :fa-github:
 
-Adding an icon, normal and double size:
+Adding an icon, normal size:
 
     [fa fa-envelope-o]
     [fa fa-twitter]
     [fa fa-github]
     
+Adding an icon, double size:
+
     [fa fa-envelope-o fa-2x]
     [fa fa-twitter fa-2x]
     [fa fa-github fa-2x]
