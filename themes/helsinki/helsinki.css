@@ -1,4 +1,4 @@
-/* Knowhow extension, https://github.com/datenstrom/yellow-extensions/tree/master/themes/knowhow */
+/* Helsinki extension, https://github.com/datenstrom/yellow-extensions/tree/master/themes/helsinki */
 /* Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se */
 /* This file may be used and distributed under the terms of the public license. */
 
@@ -161,7 +161,7 @@ a:hover {
 }
 .header .sitename-logo {
     display: inline-block;
-    background-image: url(knowhow-logo.png);
+    background-image: url(helsinki-logo.png);
     background-size: cover;
     width: 32px;
     height: 32px;

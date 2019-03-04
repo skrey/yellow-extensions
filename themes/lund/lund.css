@@ -1,4 +1,4 @@
-/* Blogsite extension, https://github.com/datenstrom/yellow-extensions/tree/master/themes/blogsite */
+/* Lund extension, https://github.com/datenstrom/yellow-extensions/tree/master/themes/lund */
 /* Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se */
 /* This file may be used and distributed under the terms of the public license. */
 
@@ -198,7 +198,7 @@ a:hover {
 }
 .header .sitename-banner {
     padding-top: 23%;
-    background-image: url(blogsite-banner.jpg);
+    background-image: url(lund-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

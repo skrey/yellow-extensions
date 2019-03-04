@@ -1,9 +1,9 @@
 <?php
-// Knowhow extension, https://github.com/datenstrom/yellow-extensions/tree/master/themes/knowhow
+// Lund extension, https://github.com/datenstrom/yellow-extensions/tree/master/themes/lund
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-class YellowKnowhow {
+class YellowLund {
     const VERSION = "0.8.2";
     const TYPE = "theme";
 }

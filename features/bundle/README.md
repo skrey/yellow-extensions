@@ -1,6 +1,6 @@
 Bundle 0.8.2
 ============
-Bundle CSS and JavaScript.
+Bundle website files.
 
 <p align="center"><img src="bundle-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -12,7 +12,7 @@ Bundle CSS and JavaScript.
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to bundle CSS and JavaScript
+## How to bundle website files
 
 The extension bundles and minifies files for a better loading time. Your website may contain multiple CSS and JavaScript. Usually these files will be cached in the browser, but nevertheless each file has to be checked. This is where a file bundler comes in. It looks for included files and replaces them with one single bundle for CSS and one for JavaScript.
 

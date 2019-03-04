@@ -1,6 +1,6 @@
 Stockholm 0.8.2
 ===============
-Stockholm is a modern business theme. [See demo](https://developers.datenstrom.se/themes/stockholm).
+Stockholm is a clean website theme. [See demo](https://developers.datenstrom.se/themes/stockholm).
 
 <p align="center"><img src="stockholm-screenshot.png?raw=true" alt="Screenshot"></p>
 

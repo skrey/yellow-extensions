@@ -1,30 +1,30 @@
 <?php
-// Links extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/links
+// Previousnext extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/previousnext
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-class YellowLinks {
-    const VERSION = "0.8.2";
+class YellowPreviousnext {
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("linksPagePrevious", "0");
-        $this->yellow->system->setDefault("linksPageNext", "1");
-        $this->yellow->system->setDefault("linksStyle", "entry-links");
+        $this->yellow->system->setDefault("previousnextPagePrevious", "0");
+        $this->yellow->system->setDefault("previousnextPageNext", "1");
+        $this->yellow->system->setDefault("previousnextStyle", "entry-links");
     }
     
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
-        if ($name=="links" && ($type=="block" || $type=="inline")) {
-            $style = $this->yellow->system->get("linksStyle");
-            $pages = $this->getLinkPages($page);
+        if ($name=="previousnext" && ($type=="block" || $type=="inline")) {
+            $style = $this->yellow->system->get("previousnextStyle");
+            $pages = $this->getRelatedPages($page);
             $page->setLastModified($pages->getModified());
-            if ($this->yellow->system->get("linksPagePrevious")) $pagePrevious = $pages->getPagePrevious($page);
-            if ($this->yellow->system->get("linksPageNext")) $pageNext = $pages->getPageNext($page);
+            if ($this->yellow->system->get("previousnextPagePrevious")) $pagePrevious = $pages->getPagePrevious($page);
+            if ($this->yellow->system->get("previousnextPageNext")) $pageNext = $pages->getPageNext($page);
             if ($pagePrevious || $pageNext) {
                 $output = "<div class=\"".htmlspecialchars($style)."\">\n";
                 $output .= "<p>";
@@ -46,11 +46,15 @@ class YellowLinks {
     
     // Handle page extra data
     public function onParsePageExtra($page, $name) {
-        return $this->onParseContentShortcut($page, $name, "", "block");
+        $output = null;
+        if ($name=="previousnext" || $name=="links") {
+            $output = $this->onParseContentShortcut($page, "previousnext", "", "block");
+        }
+        return $output;
     }
     
-    // Return link pages
-    public function getLinkPages($page) {
+    // Return related pages
+    public function getRelatedPages($page) {
         switch ($page->get("layout")) {
             case "blog":        $blogLocation = $this->yellow->system->get("blogLocation");
                                 if (!empty($blogLocation)) {
