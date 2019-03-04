@@ -16,7 +16,7 @@ Do not delete the [extension files](extension.ini), they are always required.
 
 You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show the current version of your website. You can also use shortcuts to show information about the website. See example below.
 
-## How to configure the core
+## How to configure system settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
@@ -25,6 +25,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Email` = webmaster's email  
 `Language` = default language  
 `Timezone` = default timezone  
+`Layout` = default layout  
+`Theme` = default theme  
 `SafeMode` = enable [safe mode](https://developers.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 `MultiLanguageMode` = enable [multi language mode](https://developers.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
 
