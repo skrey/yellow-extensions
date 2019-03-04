@@ -29,13 +29,13 @@ Adding an emoji:
     :heart: 
     :coffee:
 
-Adding an emoji with shortcut, normal size:
+Adding an emoji, normal size:
 
     [ea ea-smile]
     [ea ea-heart]
     [ea ea-coffee]
 
-Adding an emoji with shortcut, double size:
+Adding an emoji, double size:
     
     [ea ea-smile ea-2x]
     [ea ea-heart ea-2x]
