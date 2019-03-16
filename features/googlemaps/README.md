@@ -32,6 +32,12 @@ Embedding a map:
     [googlemaps "Bredgatan 1, Lund, Sweden"]
     [googlemaps "Bredgatan 1, Lund, Sweden" 9 right 320 200]
 
+Embedding a map, GPS coordinates:
+
+    [googlemaps "59.32820, 18.07007"]
+    [googlemaps "59.32820, 18.07007" 16]
+    [googlemaps "59.32820, 18.07007" 16 right 320 200]
+
 ## Developer
 
 Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
