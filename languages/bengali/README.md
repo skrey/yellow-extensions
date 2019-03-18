@@ -1,6 +1,6 @@
-Bengali 0.8.2
+Bengali 0.8.3
 =============
-Bengali/Bangali (Bangladesh).
+Bengali/Bangali (Bangladesh) with language 'bn'.
 
 ## How to install extension
 
@@ -9,10 +9,6 @@ Bengali/Bangali (Bangladesh).
 3. Copy `bengali.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](extension.ini).
-
-## How to change language
-
-To change the language of your website, open file `system/settings/system.ini` and change `Language: bn`. A different language can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
 
 ## Translator
 

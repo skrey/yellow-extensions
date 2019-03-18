@@ -1,6 +1,6 @@
-Danish 0.8.2
+Danish 0.8.3
 ============
-Danish/Dansk.
+Danish/Dansk with language 'da'.
 
 ## How to install extension
 
@@ -9,10 +9,6 @@ Danish/Dansk.
 3. Copy `danish.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](extension.ini).
-
-## How to change language
-
-To change the language of your website, open file `system/settings/system.ini` and change `Language: da`. A different language can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
 
 ## Translator
 

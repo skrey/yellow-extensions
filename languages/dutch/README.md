@@ -1,6 +1,6 @@
-Dutch 0.8.2
+Dutch 0.8.3
 ===========
-Dutch/Nederlands (België).
+Dutch/Nederlands (België) with language 'nl'.
 
 ## How to install extension
 
@@ -9,10 +9,6 @@ Dutch/Nederlands (België).
 3. Copy `dutch.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](extension.ini).
-
-## How to change language
-
-To change the language of your website, open file `system/settings/system.ini` and change `Language: nl`. A different language can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
 
 ## Translator
 

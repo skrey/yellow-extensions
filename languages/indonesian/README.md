@@ -1,6 +1,6 @@
-Indonesian 0.8.2
+Indonesian 0.8.3
 ================
-Indonesian/Bahasa Indonesia.
+Indonesian/Bahasa Indonesia with language 'id'.
 
 ## How to install extension
 
@@ -9,10 +9,6 @@ Indonesian/Bahasa Indonesia.
 3. Copy `indonesian.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](extension.ini).
-
-## How to change language
-
-To change the language of your website, open file `system/settings/system.ini` and change `Language: id`. A different language can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
 
 ## Translator
 

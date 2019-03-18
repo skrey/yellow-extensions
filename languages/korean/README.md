@@ -1,6 +1,6 @@
-Korean 0.8.2
+Korean 0.8.3
 ============
-Korean/한국어.
+Korean/한국어 with language 'ko'.
 
 ## How to install extension
 
@@ -9,10 +9,6 @@ Korean/한국어.
 3. Copy `korean.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](extension.ini).
-
-## How to change language
-
-To change the language of your website, open file `system/settings/system.ini` and change `Language: ko`. A different language can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
 
 ## Translator
 
