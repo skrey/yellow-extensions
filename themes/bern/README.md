@@ -1,4 +1,4 @@
-Bern 0.8.2
+Bern 0.8.3
 ==========
 Bern is a modern business theme. [See demo](https://developers.datenstrom.se/themes/bern).
 
@@ -12,9 +12,7 @@ Bern is a modern business theme. [See demo](https://developers.datenstrom.se/the
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to change theme
-
-To change the theme of your website, open file `system/settings/system.ini` and change `Theme: bern`. A different theme can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
+## Information
 
 The extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's licensed under [Apache license](https://opensource.org/licenses/Apache-2.0).
 

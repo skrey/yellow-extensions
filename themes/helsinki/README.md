@@ -1,4 +1,4 @@
-Helsinki 0.8.2
+Helsinki 0.8.3
 ==============
 Helsinki is a theme for a GitHub-like knowledge base. [See demo](https://developers.datenstrom.se/themes/helsinki).
 
@@ -11,10 +11,6 @@ Helsinki is a theme for a GitHub-like knowledge base. [See demo](https://develop
 3. Copy `helsinki.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](extension.ini).
-
-## How to change theme
-
-To change the theme of your website, open file `system/settings/system.ini` and change `Theme: helsinki`. A different theme can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
 
 ## Designer
 

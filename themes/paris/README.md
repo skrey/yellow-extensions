@@ -1,4 +1,4 @@
-Paris 0.8.2
+Paris 0.8.3
 ===========
 Paris is an elegant theme for writers. [See demo](https://developers.datenstrom.se/themes/paris).
 
@@ -12,9 +12,7 @@ Paris is an elegant theme for writers. [See demo](https://developers.datenstrom.
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to change theme
-
-To change the theme of your website, open file `system/settings/system.ini` and change `Theme: paris`. A different theme can be defined in the settings at the top of each page. [Read more](https://developers.datenstrom.se/help/adjusting-system#system-settings).
+## Information
 
 The extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's licensed under [Apache license](https://opensource.org/licenses/Apache-2.0).
 
