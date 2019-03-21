@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to create a release
 
-First increase the version number in your code. Then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload the changes and send a pull request. See example below.
+First increase the version number in your code. Then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload changes to GitHub and send a pull request. See example below.
 
 ## How to configure a release
 
@@ -49,7 +49,7 @@ Creating releases at the command line:
 `php yellow.php release yellow-example`  
 `php yellow.php release yellow-city`  
 
-Update settings for a feature:
+Extension settings for a feature:
 
 ~~~
 # Datenstrom Yellow extension
@@ -63,7 +63,7 @@ Developer: Anna Svensson
 system/extensions/example.php: Example,example.php,create,update
 ~~~
 
-Update settings for a theme:
+Extension settings for a theme:
 
 ~~~
 # Datenstrom Yellow extension
