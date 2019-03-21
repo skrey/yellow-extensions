@@ -1,4 +1,4 @@
-Markdown 0.8.2
+Markdown 0.8.4
 ==============
 Text formatting for humans. [See demo](https://developers.datenstrom.se/help/markdown-cheat-sheet).
 
@@ -14,13 +14,13 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to format text
 
-The extension uses [Markdown Extra v1.8.0](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). Markdown allows to write text like an email and it becomes a web page. Here's the [Markdown syntax](http://commonmark.org/help/) and a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/).
+The extension uses [Markdown Extra v1.8.0](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). Markdown allows to write text like an email and it becomes a web page. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
 
 ## Example
 
 Formatting text:
 
-    Normal **bold** *italic* `code`
+    Normal **bold** *italic* ~~strikethrough~~ `code`
 
 ## Developer
 

@@ -3,8 +3,8 @@
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-class YellowMarkdownX {
-    const VERSION = "0.8.2";
+class YellowMarkdownx {
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -15,7 +15,7 @@ class YellowMarkdownX {
     
     // Handle page content in raw format
     public function onParseContentRaw($page, $text) {
-        $markdown = new YellowMarkdownExtraX($this->yellow, $page);
+        $markdown = new YellowMarkdownxExtra($this->yellow, $page);
         return $markdown->text($text);
     }
 }
@@ -2677,7 +2677,7 @@ class ParsedownExtra extends Parsedown
 // Yellow Markdown extra extension
 // Copyright (c) 2013-2019 Datenstrom
 
-class YellowMarkdownExtraX extends ParsedownExtra {
+class YellowMarkdownxExtra extends ParsedownExtra {
     public $yellow;             //access to API
     public $page;               //access to page
     public $idAttributes;       //id attributes
@@ -2773,7 +2773,6 @@ class YellowMarkdownExtraX extends ParsedownExtra {
     protected function blockListComplete(array $Block) {
         $Block = parent::blockListComplete($Block);
         if ($Block["element"]["name"]=="ul") {
-            $containsTaskList = false;
             foreach ($Block["element"]["elements"] as &$element) {
                 $token = substr($element["handler"]["argument"][0], 0, 4);
                 if ($token=='[ ] ' || $token=='[x] ') {
@@ -2787,10 +2786,8 @@ class YellowMarkdownExtraX extends ParsedownExtra {
                     );
                     $element["attributes"] = array("class" => "task-list-item");
                     unset($element["handler"]);
-                    $containsTaskList = true;
                 }
             }
-            if ($containsTaskList) $Block["element"]["attributes"] = array("class" => "contains-task-list");
         }
         return $Block;
     }
@@ -2822,7 +2819,8 @@ class YellowMarkdownExtraX extends ParsedownExtra {
         $Link = parent::inlineLink($Excerpt);
         if ($Link) {
             $href = $Link["element"]["attributes"]["href"];
-            if ($Excerpt["context"][0]=="!" && !preg_match("/^\w+:/", $href)) {
+            $text = ltrim($Excerpt["context"]);
+            if ($text[0]=="!" && !preg_match("/^\w+:/", $href)) {
                 $href = $this->yellow->system->get("serverBase").$this->yellow->system->get("imageLocation").$href;
             }
             $href = $this->yellow->lookup->normaliseLocation($href,

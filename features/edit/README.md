@@ -1,4 +1,4 @@
-Edit 0.8.3
+Edit 0.8.4
 ==========
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
@@ -56,8 +56,8 @@ Configuring different toolbar buttons:
 
 ```
 EditToolbarButtons: auto 
-EditToolbarButtons: preview, format, bold, italic, code, list, link, file, undo, redo, markdown
-EditToolbarButtons: preview, bold, italic, h1, h2, h3, code, quote, ul, ol, link, file, markdown
+EditToolbarButtons: preview, format, bold, italic, strikethrough, code, list, link, file, undo, redo, markdown
+EditToolbarButtons: preview, bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, markdown
 EditToolbarButtons: preview, format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
