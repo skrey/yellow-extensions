@@ -38,8 +38,8 @@ The following file operations are supported:
 `create` = create if not exists  
 `update` = overwrite if exists  
 `delete` = delete if exists  
-`careful` = only if not modified  
-`optional` = only if new installation  
+`careful` = only if not modified, e.g. for resource and layout files  
+`optional` = only if new installation, e.g. for content files  
 
 ## Example
 
