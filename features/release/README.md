@@ -1,6 +1,6 @@
-Release 0.8.5
+Release 0.8.6
 =============
-Create releases.
+Create releases for website update.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
 

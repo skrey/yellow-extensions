@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -44,9 +44,12 @@ class YellowRelease {
         if (is_dir($path) && is_dir($pathExtension)) {
             $this->extensions = $this->errors = 0;
             $statusCode = max($statusCode, $this->updateReleaseDirectory($path, $pathExtension));
-            foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/.*/", true, true) as $entry) {
+            $entries = $this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/.*/", true, true);
+            foreach ($entries as $entry) {
+                echo "\rCreating release ".$this->getProgressPercent($this->extensions, count($entries), 10, 95)."%... ";
                 $statusCode = max($statusCode, $this->updateReleaseDirectory("$entry/", $pathExtension));
             }
+             echo "\rCreating release 100%... done\n";
         } else {
             $statusCode = 500;
             $this->extensions = 0;
@@ -252,6 +255,14 @@ class YellowRelease {
             if (defined("DEBUG") && DEBUG>=2) echo "YellowRelease::updateReleaseWaffle file:$fileNameWaffle<br/>\n";
         }
         return $statusCode;
+    }
+    
+    // Return progress in percent
+    public function getProgressPercent($now, $total, $increments, $max)
+    {
+        $percent = intval(($max / $total) * $now);
+        if ($increments>1) $percent = intval($percent / $increments) * $increments;
+        return min($max, $percent);
     }
     
     // Return release information from source code

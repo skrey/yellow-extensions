@@ -48,7 +48,7 @@ The following features are available:
 * [Previousnext](https://github.com/datenstrom/yellow-extensions/tree/master/features/previousnext): 
   Show links to previous/next page.
 * [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
-  Create releases.
+  Create releases for website update.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Full-text search.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap): 
