@@ -12,7 +12,7 @@ Image gallery with popup. [See demo](https://developers.datenstrom.se/features/g
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to add a gallery
+## How to add an image gallery
 
 Create a `[gallery]` shortcut.
 
