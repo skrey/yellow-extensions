@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 The feed is available on your website as `http://website/feed/` and `http://website/feed/page:feed.xml`. It's a feed for the entire website, only visible pages are included. To make a blog feed open file `system/settings/system.ini` and change `FeedFilter: blog`. You can add a link to the feed somewhere on your website. See example below.
 
-## How to configure a feed
+## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 

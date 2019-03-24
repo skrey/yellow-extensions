@@ -17,7 +17,7 @@ To uninstall delete the [extension files](extension.ini).
 
 The extension adds links to previous/next page, which allows users to navigate between pages. Links are shown on blog and wiki pages. To show links on other pages add a `[previousnext]` shortcut to a page.
 
-## How to configure links
+## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 

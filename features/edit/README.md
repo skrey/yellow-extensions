@@ -22,7 +22,7 @@ The first option is to create a user account in a web browser. Go to the login p
 
 The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user add` followed by email, password and an optional name. All user accounts are stored in file `system/settings/user.ini`. See example below.
 
-## How to configure a website
+## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 

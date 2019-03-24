@@ -25,7 +25,7 @@ The following arguments are available, all but the first argument are optional:
 `Width` = calendar width, pixel or percent  
 `Height` = calendar height, pixel or percent  
 
-## How to configure a calendar
+## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 

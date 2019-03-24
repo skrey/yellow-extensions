@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 The contact page is available on your website as `http://website/contact/`. The contact email is send to the webmaster, which is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. To show a contact form add a `[contact]` shortcut with an optional location. You can also add a link to the contact page somewhere on your website. See example below.
 
-## How to configure a contact page
+## Settings
 
 The following settings can be configured in file `system/settings/system`:
 

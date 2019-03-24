@@ -34,7 +34,7 @@ The following arguments are available, all but the first argument are optional:
 `Author` = show pages by a specific author, `[blogpages]` or `[blogchanges]` only  
 `Tag` = show pages with a specific tag, `[blogpages]` or `[blogchanges]` only  
 
-## How to configure a blog
+## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 

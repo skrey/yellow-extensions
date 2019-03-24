@@ -26,7 +26,7 @@ The following arguments are available, all but the first argument are optional:
 
 The extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell for resizing images.
 
-## How to configure an image
+## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 

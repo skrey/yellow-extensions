@@ -18,7 +18,7 @@ The extension bundles and minifies files for a better loading time. Your website
 
 The extension uses [Minify v1.3.60](https://github.com/matthiasmullie/minify) by Matthias Mullie. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
 
-## How to configure a bundle
+## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 

@@ -18,7 +18,7 @@ The traffic analytics are available at the [command line](https://github.com/dat
 
 The extension analyses your web server logfiles, use [Matomo](https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo) for more detailed web analytics.
 
-## How to configure traffic analytics
+## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 

@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. To show a search field add a `[search]` shortcut with optional location. You can also add a link to the search somewhere on your website. See example below.
 
-## How to configure a search
+## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
