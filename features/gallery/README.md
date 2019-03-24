@@ -24,9 +24,9 @@ The following arguments are available, all but the first argument are optional:
 
 The extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
 
-## How to add image captions
+## How to show image captions
 
-Image captions can be added to file `system/settings/text.ini`. You can define the text settings here, for example a text that is displayed below images. [Learn more](https://developers.datenstrom.se/help/adjusting-system#text-settings).
+Image captions can be configured in file `system/settings/text.ini`. You can define the text settings here, for example text that is displayed below images. [Learn more](https://developers.datenstrom.se/help/adjusting-system#text-settings).
 
 ## Examples
 
@@ -48,7 +48,7 @@ Adding an image gallery from a subfolder, square thumbnails:
     [gallery photo-album/ - 150]
     [gallery photo-album/ simple 150]
 
-Adding image captions to your text settings:
+Text settings for image captions:
 
     photo-1314380.jpg: This is an example caption.
     photo-2387365-fika-time.jpg: Fika is an important part of life in Sweden. Photo: Taylor Franz
