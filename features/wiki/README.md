@@ -49,7 +49,7 @@ The following files can be configured:
 `system/layouts/wikipages.html` = layout file for main wiki page  
 `system/layouts/wiki.html` = layout file for individual wiki page  
 
-## Example
+## Examples
 
 Showing latest wiki pages:
 

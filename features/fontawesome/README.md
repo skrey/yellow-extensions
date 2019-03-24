@@ -22,7 +22,7 @@ You can add an additional style to the name, for example `fa-lg`, `fa-2x`, `fa-3
 
 The extension uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy, which supports about 600 pictographic icons. It's licensed under [OFL 1.1](https://opensource.org/licenses/OFL-1.1). Font Awesome has icons for web applications, buttons and forms.
 
-## Example
+## Examples
 
 Adding an icon:
 

@@ -39,7 +39,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditLoginSessionTimeout` = login session in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
 
-## Example
+## Examples
 
 Content file with edit link:
 

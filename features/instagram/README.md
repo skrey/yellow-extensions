@@ -24,7 +24,7 @@ The following arguments are available, all but the first argument are optional:
 `Width` = photo width, pixel or percent  
 `Height` = photo height, pixel or percent  
 
-## Example
+## Examples
 
 Embedding a photo:
 

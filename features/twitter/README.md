@@ -24,7 +24,7 @@ The following arguments are available, all but the first argument are optional:
 `Width` = message width, pixel or percent  
 `Height` = message height, pixel or percent  
 
-## Example
+## Examples
 
 Embedding a tweet:
 

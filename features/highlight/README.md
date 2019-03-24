@@ -18,7 +18,7 @@ Wrap your code blocks in \`\`\` and add a language identifier. The appearance of
 
 The extension uses [highlight.php 9.13.1](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman, which supports about 170 programming languages. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). The following languages are included: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. You can download more [language files](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages), rename and copy them into your `system/extensions` folder.
 
-## Example
+## Examples
 
 Highlighting of JavaScript code:
 

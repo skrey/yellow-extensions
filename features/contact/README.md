@@ -25,7 +25,7 @@ The following settings can be configured in file `system/settings/system`:
 `ContactLocation` = contact page location  
 `ContactSpamFilter` = spam filter as regular expression  
 
-## Example
+## Examples
 
 Adding a contact form:
 

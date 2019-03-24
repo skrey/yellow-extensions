@@ -23,7 +23,7 @@ The following arguments are available, all but the first argument are optional:
 `Width` = audio track width, pixel or percent  
 `Height` = audio track height, pixel or percent   
 
-## Example
+## Examples
 
 Embedding an audio track:
 

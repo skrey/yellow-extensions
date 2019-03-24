@@ -16,11 +16,17 @@ To uninstall delete the [extension files](extension.ini).
 
 The extension uses [Markdown Extra v1.8.0](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). Markdown allows to write text like an email and it becomes a web page. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
 
-## Example
+## Examples
 
 Formatting text:
 
     Normal **bold** *italic* ~~strikethrough~~ `code`
+
+Making a list:
+
+    * item one
+    * item two
+    * item three
 
 ## Developer
 

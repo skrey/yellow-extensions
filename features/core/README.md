@@ -32,7 +32,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 These are the most important settings. For a complete list see [configuration file](https://github.com/datenstrom/yellow/blob/master/system/settings/system.ini).
 
-## Example
+## Examples
 
 Content file with website version:
 

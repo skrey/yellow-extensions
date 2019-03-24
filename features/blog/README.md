@@ -49,7 +49,7 @@ The following files can be configured:
 `system/layouts/blogpages.html` = layout file for main blog page  
 `system/layouts/blog.html` = layout file for individual blog page  
 
-## Example
+## Examples
 
 Showing latest blog pages:
 

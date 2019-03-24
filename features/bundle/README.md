@@ -24,7 +24,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `BundleAndMinify` = create bundle for CSS and JavaScript, 1 or 0  
 
-## Example
+## Examples
 
 Website with unbundled CSS and JavaScript files:
 

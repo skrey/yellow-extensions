@@ -40,7 +40,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `ImageThumbnailDir` = directory for thumbnails  
 `ImageThumbnailJpgQuality` = JPG quality for thumbnails  
 
-## Example
+## Examples
 
 Adding an image:
 

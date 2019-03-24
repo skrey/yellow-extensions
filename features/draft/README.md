@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 Set `Status: draft` in the settings at the top of a page. The page will no longer be public visible. You can continue to edit a draft page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
-## Example
+## Examples
 
 Content file with draft status:
 

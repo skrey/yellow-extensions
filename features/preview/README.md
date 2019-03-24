@@ -24,7 +24,7 @@ The following arguments are available, all arguments are optional:
 
 For every page there has to be an image of similar file name in your `media/images` folder.
 
-## Example
+## Examples
 
 Showing a preview:
 

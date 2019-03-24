@@ -23,7 +23,7 @@ The following arguments are available, all but the first argument are optional:
 `Width` = video width, pixel or percent  
 `Height` = video height, pixel or percent   
  
-## Example
+## Examples
 
 Embedding a video:
 

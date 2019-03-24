@@ -28,7 +28,7 @@ The extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe)
 
 Image captions can be added to file `system/settings/text.ini`. You can define the text setting here, for example a short text that is displayed below the image. [Learn more](https://developers.datenstrom.se/help/adjusting-system#text-settings).
 
-## Example
+## Examples
 
 Adding an image gallery:
 

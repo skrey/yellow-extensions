@@ -24,7 +24,7 @@ You can add and remove extensions in the file manager. You can also add extensio
 
 The extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to download files.
 
-## Example
+## Examples
 
 Updating website at the command line:
  

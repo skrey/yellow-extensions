@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 Create a `[toc]` shortcut separated by blank lines.  
 
-## Example
+## Examples
 
 Content file with table of contents:
 
@@ -44,6 +44,14 @@ Content file with table of contents:
     ## Summary
     
     This is an example page.
+
+Sidebar file with table of contents:
+
+    ---
+    Title: Sidebar
+    Status: hidden
+    ---
+    [toc]
 
 ## Developer
 

@@ -21,7 +21,7 @@ The following arguments are available, all arguments are optional:
 `Separator` = text shown between breadcrumbs  
 `Style` = breadcrumbs style, e.g. `breadcrumbs`  
  
-## Example
+## Examples
 
 Adding breadcrumbs:
 

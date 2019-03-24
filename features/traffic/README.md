@@ -28,7 +28,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `TrafficLogFile` = log file name as regular expression  
 `TrafficSpamFilter` = spam filter as regular expression  
 
-## Example
+## Examples
 
 Creating traffic analytics at the command line:
 

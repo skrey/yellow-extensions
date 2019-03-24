@@ -24,7 +24,7 @@ The following arguments are available, all but the first argument are optional:
 `Width` = map width, pixel or percent  
 `Height` = map height, pixel or percent  
 
-## Example
+## Examples
 
 Embedding a map:
 

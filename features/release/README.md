@@ -41,7 +41,7 @@ The following file operations are supported:
 `careful` = only if not modified, e.g. for resource and layout files  
 `optional` = only if new installation, e.g. for content files  
 
-## Example
+## Examples
 
 Creating releases at the command line:
 

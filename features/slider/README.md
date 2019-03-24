@@ -25,7 +25,7 @@ The following arguments are available, all but the first argument are optional:
 
 The extension uses [Flickity v2.0.9](https://github.com/metafizzy/flickity) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0).
 
-## Example
+## Examples
 
 Adding an image gallery:
 

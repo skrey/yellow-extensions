@@ -35,7 +35,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 The visual design of events and agenda can be adjusted in your theme.
 
-## Example
+## Examples
 
 Embedding a calendar:
 
