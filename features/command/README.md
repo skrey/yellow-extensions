@@ -34,7 +34,7 @@ The following commands are available:
 `php yellow.php update` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php user` = Update user account with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
 
-## Example
+## Examples
 
 Showing available commands:
 
@@ -54,6 +54,18 @@ Syntax: php yellow.php about
         php yellow.php update [extension]
         php yellow.php user [option email password name]
 ~~~~
+
+Building static website at the command line:
+
+`php yellow.php build`  
+`php yellow.php build public /blog/`  
+`php yellow.php build public /wiki/`  
+
+Checking static website at the command line:
+
+`php yellow.php check`  
+`php yellow.php check public /blog/`  
+`php yellow.php check public /wiki/`  
 
 ## Developer
 
