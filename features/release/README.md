@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to create a release
 
-First increase the version number in your code. Then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload changes to GitHub and send a pull request. See example below.
+First increase the version number in your code. Then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload changes to GitHub and send a pull request. See examples below.
 
 ## Settings
 

@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a sitemap
 
-The sitemap is available as `http://website/sitemap/` and `http://website/sitemap/page:sitemap.xml`. It's an overview of the entire website, only visible pages are included. You can add a link to the sitemap somewhere on your website. See example below.
+The sitemap is available as `http://website/sitemap/` and `http://website/sitemap/page:sitemap.xml`. It's an overview of the entire website, only visible pages are included. You can add a link to the sitemap somewhere on your website. See examples below.
 
 ## Settings
 
