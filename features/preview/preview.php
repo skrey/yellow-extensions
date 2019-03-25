@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowPreview {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
 
@@ -31,8 +31,7 @@ class YellowPreview {
                     $output = "<div class=\"".htmlspecialchars($style)."\">\n";
                     $output .= "<ul>\n";
                     foreach ($pages as $page) {
-                        $image = $page->get("imagePreview");
-                        if (empty($image)) $image = $page->get("image");
+                        $image = $page->get("image");
                         if (!empty($image)) {
                             $fileName = $this->yellow->system->get("imageDir").$image;
                             list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
@@ -47,10 +46,8 @@ class YellowPreview {
                             $fileName = $this->yellow->system->get("imageDir").$this->yellow->system->get("previewDefaultFile");
                             list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
                         }
-                        $title = $page->get("titlePreview");
-                        if (empty($title)) $title = $page->get("title");
-                        $description = $page->get("descriptionPreview");
-                        if (empty($description)) $description = $page->get("description");
+                        $title = $page->get("title");
+                        $description = $page->get("description");
                         $output .= "<li><a href=\"".$page->getLocation(true)."\">";
                         $output .= "<span class=\"preview-image\"><img src=\"".htmlspecialchars($src)."\" width=\"".
                             htmlspecialchars($width)."\" height=\"".
