@@ -36,23 +36,27 @@ These are the most important settings. For a complete list see [configuration fi
 
 Content file with website version:
 
-```
----
-Title: Example page
----
-This website is made with [yellow].
-```
+    ---
+    Title: Example page
+    ---
+    This website is made with [yellow].
 
 Content file with website version, including extensions:
 
-```
----
-Title: Example page
----
-This website is made with [yellow].
+    ---
+    Title: Example page
+    ---
+    This website is made with [yellow].
+    
+    [yellow about]
 
-[yellow about]
-```
+Footer file with link:
+
+    ---
+    Title: Footer
+    Status: hidden
+    ---
+    [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 
 ## Developer
 
