@@ -2,6 +2,8 @@ German 0.8.3
 ============
 German/Deutsch with language 'de'.
 
+<p align="center"><img src="german-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).

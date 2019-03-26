@@ -2,6 +2,8 @@ French 0.8.3
 ============
 French/Français with language 'fr'.
 
+<p align="center"><img src="french-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
