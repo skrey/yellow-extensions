@@ -26,7 +26,7 @@ The extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe)
 
 ## How to show image captions
 
-Image captions can be configured in file `system/settings/text.ini`. You can define the text settings here, for example text that is displayed below images. [Learn more](https://developers.datenstrom.se/help/adjusting-system#text-settings).
+Image captions can be configured in file `system/settings/text.ini`. [Learn more](https://developers.datenstrom.se/help/adjusting-system#text-settings).
 
 ## Examples
 
