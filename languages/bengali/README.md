@@ -1,6 +1,6 @@
 Bengali 0.8.4
 =============
-Bengali/Bangali (Bangladesh) with language 'bn'.
+Bengali/বাঙালি with language 'bn'.
 
 ## How to install extension
 

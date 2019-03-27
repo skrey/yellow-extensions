@@ -3,7 +3,7 @@ Languages
 
 The following languages are available:
 
-* [Bengali](https://github.com/datenstrom/yellow-extensions/tree/master/languages/bengali): Bengali/বাঙালি (Bangladesh) with language 'bn'.
+* [Bengali](https://github.com/datenstrom/yellow-extensions/tree/master/languages/bengali): Bengali/বাঙালি with language 'bn'.
 * [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/chinese): Chinese/简体中文 with language 'zh-CN'.
 * [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/languages/czech): Czech/Čeština with language 'cs'.
 * [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/danish): Danish/Dansk with language 'da'.

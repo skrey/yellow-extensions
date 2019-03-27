@@ -1,7 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: bn
-LanguageDescription: বাঙালি (Bangladesh).
+LanguageDescription: বাঙালি
 LanguageTranslator: Mohammed Nazmul Ferdous
 
 BlogBy: লিখেছেন
