@@ -17,8 +17,8 @@ ContactStatusIncomplete: Compila per favore tutti i campi.
 ContactStatusInvalid: Inserisci per favore un indirizzo email valido.
 ContactStatusDone: Il tuo messaggio è stato inviato con successo. Grazie!
 ContactStatusError: C'è stato un problema nell'invio del messaggio. Riprova per favore più tardi.
-DatePast: oggi, ieri, @x giorni fa, un mese fa, @x mesi fa, un anno fa, @x anni fa
-DateFuture: presto, domani, tra @x giorni, tra un mese, tra @x mesi, tra un anno, tra @x anni
+DatePast: oggi, ieri, @x giorni fa, un mese fa, @x mesi fa, un anno fa, @x anni fa, il @x
+DateFuture: presto, domani, tra @x giorni, tra un mese, tra @x mesi, tra un anno, tra @x anni, il @x
 DateMonths: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
 DateWeekdays: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica
 DateWeekstart: lunedì
@@ -104,7 +104,6 @@ EditDeleteButton: Elimina
 EditEdit: Modifica la pagina
 EditCreate: +
 EditDelete: -
-EditToolbarPreview: Anteprima
 EditToolbarFormat: Formato
 EditToolbarHeading: Titolo
 EditToolbarH1: Titolo 1
@@ -128,6 +127,7 @@ EditToolbarFontawesome: Icona
 EditToolbarDraft: Bozza
 EditToolbarUndo: Annulla
 EditToolbarRedo: Ripeti
+EditToolbarPreview: Anteprima
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Aiuto
 EditUserHelp: Aiuto
@@ -139,14 +139,17 @@ Error430Text: L'indirizzo email o la password non è corretto. [Per favore ripro
 Error434Title: Pagina non trovata
 Error434Text: La pagina richiesta non è stata trovata. [Puoi creare ora questa pagina](javascript:yellow.action('edit');).
 Error500Title: Errore del server
-Error500Text: Qualcosa non ha funzionato... [yellow error]
+Error500Text: Qualcosa non ha funzionato. [yellow error]
 InstallTitle: Ciao
 InstallExtension: Che cosa vuoi fare?
+InstallExtensionWebsite: Sito web
+InstallExtensionBlog: Blog
+InstallExtensionWiki: Wiki
 InstallHomeTitle: Inizio
 InstallHomeText: Il tuo sito è attivo!\n\n[edit - Puoi modificare questa pagina] o usare il tuo editor di testo.
 InstallAboutTitle: Informazioni
 InstallAboutText: Per le persone che creano siti web. [edit - Entra].
-InstallFooterTitle: Piè di pagina
+InstallFooterTitle: Footer
 InstallFooterText: [Creato con Datenstrom Yellow](https://datenstrom.se/yellow/)
 PagePrevious: ← Precedente: @title
 PageNext: Successivo: @title →
@@ -159,6 +162,7 @@ SearchButton: Cerca
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
+WikiModified: Ultimo aggiornamento il
 WikiTag: Tag:
 WikiSpecialPages: Tutte le pagine
 WikiSpecialChanges: Modifiche recenti

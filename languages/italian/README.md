@@ -12,4 +12,4 @@ To uninstall delete the [extension files](extension.ini).
 
 ## Translator
 
-Luca Lischetti, Andrea Zanellato. [Get support](https://developers.datenstrom.se/help/support).
+Luca Lischetti, Andrea Zanellato, Giovanni Salmeri. [Get support](https://developers.datenstrom.se/help/support).
