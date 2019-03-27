@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowWiki {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -13,8 +13,8 @@ class YellowWiki {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("wikiLocation", "");
         $this->yellow->system->setDefault("wikiNewLocation", "@title");
+        $this->yellow->system->setDefault("wikiDefaultLayout", "wiki");
         $this->yellow->system->setDefault("wikiPagesMax", "10");
-        $this->yellow->system->setDefault("wikiPagesMain", "1");
         $this->yellow->system->setDefault("wikiPaginationLimit", "30");
     }
 
@@ -22,7 +22,7 @@ class YellowWiki {
     public function onParseMeta($page) {
         if ($page==$this->yellow->page) {
             if ($page->get("layout")=="wikipages" && !$this->yellow->toolbox->isLocationArgs()) {
-                $page->set("layout", "wiki");
+                $page->set("layout", $this->yellow->system->get("wikiDefaultLayout"));
             }
         }
     }
@@ -246,8 +246,8 @@ class YellowWiki {
             } else {
                 $pages = $wiki->getChildren(!$wiki->isVisible());
             }
-            $pages->filter("layout", "wiki");
-            if ($this->yellow->system->get("wikiPagesMain")) $pages->append($wiki);
+            $wiki->set("layout", $this->yellow->system->get("wikiDefaultLayout"));
+            $pages->append($wiki)->filter("layout", "wiki");
         }
         return $pages;
     }

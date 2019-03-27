@@ -1,7 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: bn
-LanguageDescription: Bangali (Bangladesh).
+LanguageDescription: বাঙালি (Bangladesh).
 LanguageTranslator: Mohammed Nazmul Ferdous
 
 BlogBy: লিখেছেন
@@ -17,8 +17,8 @@ ContactStatusIncomplete: অনুগ্রহ করে সকল ঘর পূ
 ContactStatusInvalid: অনুগ্রহ করে একটি বিদ্যমান ইমেইল দিন। 
 ContactStatusDone: আপনি সফলভাবে ইমেইলটি প্রেরণ করেছেন। ধন্যবাদ! 
 ContactStatusError: ইমেলটি পাঠানো সম্ভব হয়নি, অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন!
-DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago
-DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years
+DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
+DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years, on @x
 DateMonths: জানুয়ারী, ফেব্রুয়ারি, মার্চ, এপ্রিল, মে, জুন, জুলাই, অগাস্ট, সেপ্টেম্বর, অক্টোবর, নভেম্বর, ডিসেম্বর
 DateWeekdays: সোমবার, মঙ্গলবার, বুধবার, বৃহস্পতিবার, শুক্রবার, শনিবার, রবিবার
 DateWeekstart: সোমবার
@@ -32,9 +32,9 @@ EditLoginForgot: Forgot your password?
 EditLoginSignup: Create user account?
 EditLoginButton: Log in
 EditSignupTitle: Create user account
-EditSignupName: Name:
-EditSignupEmail: Email:
-EditSignupPassword: Password:
+EditSignupName: নাম:
+EditSignupEmail: ইমেইল:
+EditSignupPassword: পাসওয়ার্ড:
 EditSignupConsent: I consent that this website stores my personal data.
 EditSignupButton: Create
 EditSignupStatusNone: Here you can create a new user account.
@@ -104,7 +104,6 @@ EditDeleteButton: মুছে ফেলুন
 EditEdit: সম্পাদনা পাতা
 EditCreate: +
 EditDelete: -
-EditToolbarPreview: পূর্বরূপ
 EditToolbarFormat: Format
 EditToolbarHeading: Heading
 EditToolbarH1: Heading 1
@@ -128,6 +127,7 @@ EditToolbarFontawesome: Icon
 EditToolbarDraft: Draft
 EditToolbarUndo: Undo
 EditToolbarRedo: Redo
+EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: সাহায্য
 EditUserHelp: সাহায্য
@@ -141,7 +141,10 @@ Error434Text: The requested file was not found. [You can create this page](javas
 Error500Title: Server error
 Error500Text: Something went wrong. [yellow error]
 InstallTitle: হ্যালো
-InstallExtension: What do you want to make?
+InstallExtension: আপনি কি করতে চান?
+InstallExtensionWebsite: ওয়েবসাইট
+InstallExtensionBlog: ব্লগ
+InstallExtensionWiki: উইকি
 InstallHomeTitle: Home
 InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
 InstallAboutTitle: About
@@ -159,7 +162,8 @@ SearchButton: খোঁজ করুন
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
-WikiTag: Tags:
+WikiModified: সর্বশেষ আপডেট
+WikiTag: ট্যাগ সমূহ:
 WikiSpecialPages: সমস্ত পৃষ্ঠা
 WikiSpecialChanges: সাম্প্রতিক পরিবর্তন
 YellowUrl: https://datenstrom.se/yellow/

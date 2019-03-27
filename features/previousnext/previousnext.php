@@ -4,14 +4,14 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowPreviousnext {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("previousnextPagePrevious", "0");
+        $this->yellow->system->setDefault("previousnextPagePrevious", "1");
         $this->yellow->system->setDefault("previousnextPageNext", "1");
         $this->yellow->system->setDefault("previousnextStyle", "entry-links");
     }
@@ -58,20 +58,25 @@ class YellowPreviousnext {
         switch ($page->get("layout")) {
             case "blog":        $blogLocation = $this->yellow->system->get("blogLocation");
                                 if (!empty($blogLocation)) {
-                                    $pages = $this->yellow->content->index(!$page->isVisible());
+                                    $blog = $this->yellow->content->find($blogLocation);
+                                    $pages = $this->yellow->content->index(!$blog->isVisible());
                                 } else {
-                                    $pages = $page->getSiblings(!$page->isVisible());
+                                    $blog = $page->getParent();
+                                    $pages = $blog->getChildren(!$blog->isVisible());
                                 }
                                 $pages->filter("layout", "blog")->sort("published", true);
                                 break;
             case "blogpages":   $pages = $this->yellow->content->clean(); break;
             case "wiki":        $wikiLocation = $this->yellow->system->get("wikiLocation");
                                 if (!empty($wikiLocation)) {
-                                    $pages = $this->yellow->content->index(!$page->isVisible());
+                                    $wiki = $this->yellow->content->find($wikiLocation);
+                                    $pages = $this->yellow->content->index(!$wiki->isVisible());
                                 } else {
-                                    $pages = $page->getSiblings(!$page->isVisible());
+                                    $wiki = $this->yellow->lookup->isFileLocation($page->location) ? $page->getParent() : $page;
+                                    $pages = $wiki->getChildren(!$wiki->isVisible());
                                 }
-                                $pages->filter("layout", "wiki")->sort("title", true);
+                                $wiki->set("layout", $this->yellow->system->get("wikiDefaultLayout"));
+                                $pages->append($wiki)->filter("layout", "wiki")->sort("title", true);
                                 break;
             case "wikipages":   $pages = $this->yellow->content->clean(); break;
             default:            $pages = $page->getSiblings(!$page->isVisible());

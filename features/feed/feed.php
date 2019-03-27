@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowFeed {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -13,7 +13,7 @@ class YellowFeed {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("feedLocation", "/feed/");
         $this->yellow->system->setDefault("feedFileXml", "feed.xml");
-        $this->yellow->system->setDefault("feedFilter", "");
+        $this->yellow->system->setDefault("feedFilterLayout", "");
         $this->yellow->system->setDefault("feedPaginationLimit", "30");
     }
 
@@ -30,9 +30,9 @@ class YellowFeed {
                 $pages->filter("author", $_REQUEST["author"]);
                 array_push($pagesFilter, $pages->getFilter());
             }
-            $feedFilter = $this->yellow->system->get("feedFilter");
-            if (!empty($feedFilter)) $pages->filter("layout", $feedFilter);
-            $chronologicalOrder = ($this->yellow->system->get("feedFilter")!="blog");
+            $feedFilterLayout = $this->yellow->system->get("feedFilterLayout");
+            if (!empty($feedFilterLayout)) $pages->filter("layout", $feedFilterLayout);
+            $chronologicalOrder = ($this->yellow->system->get("feedFilterLayout")!="blog");
             if ($this->isRequestXml()) {
                 $pages->sort($chronologicalOrder ? "modified" : "published", false);
                 $pages->limit($this->yellow->system->get("feedPaginationLimit"));

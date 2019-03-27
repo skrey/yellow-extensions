@@ -60,7 +60,7 @@ The following features are available:
 * [Toc](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc): 
   Table of contents.
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic): 
-  Create traffic analytics from web server logfiles.
+  Create traffic analytics from web server log files.
 * [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter): 
   Embed Twitter messages.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update): 

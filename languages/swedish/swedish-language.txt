@@ -17,8 +17,8 @@ ContactStatusIncomplete: Vänligen fyll i alla fält.
 ContactStatusInvalid: Vänligen ange en giltig emailadress.
 ContactStatusDone: Ditt mail har nu skickats. Tack!
 ContactStatusError: Mailet kunde inte skickas, vänligen försök igen senare!
-DatePast: idag, igår, @x dagar sedan, en månad sedan, @x månader sedan, ett år sedan, @x år sedan
-DateFuture: snart, imorgon, om @x dagar, om 1 månad, om @x månader, om 1 år, om @x år
+DatePast: idag, igår, @x dagar sedan, en månad sedan, @x månader sedan, ett år sedan, @x år sedan, den @x
+DateFuture: snart, imorgon, om @x dagar, om 1 månad, om @x månader, om 1 år, om @x år, den @x
 DateMonths: Januari, Februari, Mars, April, Maj, Juni, Juli, Augusti, September, Oktober, November, December
 DateWeekdays: Måndag, Tisdag, Onsdag, Torsdag, Fredag, Lördag, Söndag
 DateWeekstart: Måndag
@@ -32,9 +32,9 @@ EditLoginForgot: Glömt lösenordet?
 EditLoginSignup: Skapa användarkonto?
 EditLoginButton: Logga in
 EditSignupTitle: Create user account
-EditSignupName: Name:
+EditSignupName: Namn:
 EditSignupEmail: Email:
-EditSignupPassword: Password:
+EditSignupPassword: Lösenord:
 EditSignupConsent: I consent that this website stores my personal data.
 EditSignupButton: Create
 EditSignupStatusNone: Here you can create a new user account.
@@ -104,7 +104,6 @@ EditDeleteButton: Ta bort
 EditEdit: Redigera sida
 EditCreate: +
 EditDelete: -
-EditToolbarPreview: Förhandsgranskning
 EditToolbarFormat: Format
 EditToolbarHeading: Heading
 EditToolbarH1: Heading 1
@@ -128,6 +127,7 @@ EditToolbarFontawesome: Icon
 EditToolbarDraft: Draft
 EditToolbarUndo: Undo
 EditToolbarRedo: Redo
+EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hjälp
 EditUserHelp: Hjälp
@@ -142,6 +142,9 @@ Error500Title: Server error
 Error500Text: Something went wrong. [yellow error]
 InstallTitle: Hej
 InstallExtension: Vad vill du göra?
+InstallExtensionWebsite: Webbsida
+InstallExtensionBlog: Blogg
+InstallExtensionWiki: Wiki
 InstallHomeTitle: Hem
 InstallHomeText: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.
 InstallAboutTitle: Om
@@ -159,6 +162,7 @@ SearchButton: Sök
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
+WikiModified: Senast uppdaterad den
 WikiTag: Taggar:
 WikiSpecialPages: Alla sidor
 WikiSpecialChanges: Senaste ändringarna

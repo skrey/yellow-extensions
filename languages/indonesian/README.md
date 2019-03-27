@@ -1,4 +1,4 @@
-Indonesian 0.8.3
+Indonesian 0.8.4
 ================
 Indonesian/Bahasa Indonesia with language 'id'.
 

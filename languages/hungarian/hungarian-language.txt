@@ -17,8 +17,8 @@ ContactStatusIncomplete: Kérlek töltsd ki a mezőket.
 ContactStatusInvalid: Kérlek érvényes e-mail címet adj meg.
 ContactStatusDone: Sikeresen elküldted az üzenetet.
 ContactStatusError: A küldés sikertelen volt. Kérlek próbáld meg később.
-DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago
-DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years
+DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
+DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years, on @x
 DateMonths: Január, Február, Március, Április, Május, Június, Július, Augusztus, Szeptember, Október, November, December
 DateWeekdays: Hétfő, Kedd, Szerda, Csütörtök, Péntek, Szombat, Vasárnap
 DateWeekstart: Hétfő
@@ -26,15 +26,15 @@ DateFormatShort: Y F
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 EditLoginTitle: Üdvözöljük
-EditLoginEmail: Email:
-EditLoginPassword: Password:
+EditLoginEmail: E-mail:
+EditLoginPassword: Jelszó:
 EditLoginForgot: Forgot your password?
 EditLoginSignup: Create user account?
 EditLoginButton: Log in
 EditSignupTitle: Create user account
-EditSignupName: Name:
-EditSignupEmail: Email:
-EditSignupPassword: Password:
+EditSignupName: Név:
+EditSignupEmail: E-mail:
+EditSignupPassword: Jelszó:
 EditSignupConsent: I consent that this website stores my personal data.
 EditSignupButton: Create
 EditSignupStatusNone: Here you can create a new user account.
@@ -104,7 +104,6 @@ EditDeleteButton: Tötlés
 EditEdit: Szerkesztés
 EditCreate: +
 EditDelete: -
-EditToolbarPreview: Előnézet
 EditToolbarFormat: Format
 EditToolbarHeading: Heading
 EditToolbarH1: Heading 1
@@ -128,6 +127,7 @@ EditToolbarFontawesome: Icon
 EditToolbarDraft: Draft
 EditToolbarUndo: Undo
 EditToolbarRedo: Redo
+EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Súgó
 EditUserHelp: Súgó
@@ -141,7 +141,10 @@ Error434Text: The requested file was not found. [You can create this page](javas
 Error500Title: Server error
 Error500Text: Something went wrong. [yellow error]
 InstallTitle: Helló
-InstallExtension: What do you want to make?
+InstallExtension: Mit akarsz tenni?
+InstallExtensionWebsite: Weboldal
+InstallExtensionBlog: Blog
+InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
 InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
 InstallAboutTitle: About
@@ -159,6 +162,7 @@ SearchButton: Keresés
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
+WikiModified: Utolsó frissítés
 WikiTag: Címke:
 WikiSpecialPages: Az összes oldal
 WikiSpecialChanges: Legutóbbi változások

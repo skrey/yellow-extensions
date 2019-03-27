@@ -1,4 +1,4 @@
-Previousnext 0.8.3
+Previousnext 0.8.4
 ==================
 Show links to previous/next page. [See demo](https://developers.datenstrom.se/features/blog/blog-example).
 

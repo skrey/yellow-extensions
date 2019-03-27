@@ -8,7 +8,7 @@ BlogBy: by
 BlogTag: 태그:
 BlogMore: 더 읽기…
 ContactName: 이름:
-ContactEmail: E-mail:
+ContactEmail: 이메일:
 ContactMessage: 메시지:
 ContactConsent: 이 웹 사이트에 내 메시지가 저장된다는 것에 동의합니다.
 ContactButton: 메시지 보내기
@@ -17,8 +17,8 @@ ContactStatusIncomplete: 모든 칸을 채워주세요.
 ContactStatusInvalid: 유효한 이메일을 적어주세요.
 ContactStatusDone: 이메일을 성공적으로 보냈습니다. 감사합니다!
 ContactStatusError: 이메일이 보내지지 않습니다. 다시 시도해주세요.
-DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago
-DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years
+DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
+DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years, on @x
 DateMonths: 1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월, 10월, 11월, 12월
 DateWeekdays: 월요일, 화요일, 수요일, 목요일, 금요일, 토요일, 일요일
 DateWeekstart: 월요일
@@ -26,15 +26,15 @@ DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
 EditLoginTitle: 환영
-EditLoginEmail: Email:
-EditLoginPassword: Password:
+EditLoginEmail: 이메일:
+EditLoginPassword: 암호:
 EditLoginForgot: Forgot your password?
 EditLoginSignup: Create user account?
 EditLoginButton: Log in
 EditSignupTitle: Create user account
-EditSignupName: Name:
-EditSignupEmail: Email:
-EditSignupPassword: Password:
+EditSignupName: 이름:
+EditSignupEmail: 이메일:
+EditSignupPassword: 암호:
 EditSignupConsent: I consent that this website stores my personal data.
 EditSignupButton: Create
 EditSignupStatusNone: Here you can create a new user account.
@@ -104,7 +104,6 @@ EditDeleteButton: 삭제
 EditEdit: 페이지 수정
 EditCreate: +
 EditDelete: -
-EditToolbarPreview: 미리보기
 EditToolbarFormat: Format
 EditToolbarHeading: Heading
 EditToolbarH1: Heading 1
@@ -128,6 +127,7 @@ EditToolbarFontawesome: Icon
 EditToolbarDraft: Draft
 EditToolbarUndo: Undo
 EditToolbarRedo: Redo
+EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: 도움말
 EditUserHelp: 도움말
@@ -141,7 +141,10 @@ Error434Text: The requested file was not found. [You can create this page](javas
 Error500Title: Server error
 Error500Text: Something went wrong. [yellow error]
 InstallTitle: 여보세요
-InstallExtension: What do you want to make?
+InstallExtension: 너는 무엇을 만들고 싶어?
+InstallExtensionWebsite: 웹 사이트
+InstallExtensionBlog: 블로그
+InstallExtensionWiki: 위키
 InstallHomeTitle: Home
 InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
 InstallAboutTitle: About
@@ -159,6 +162,7 @@ SearchButton: 검색
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
+WikiModified: 최종 업데이트
 WikiTag: 태그:
 WikiSpecialPages: 모든 페이지
 WikiSpecialChanges: 최근 바뀜

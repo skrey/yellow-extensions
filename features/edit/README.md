@@ -1,4 +1,4 @@
-Edit 0.8.4
+Edit 0.8.5
 ==========
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
@@ -56,9 +56,9 @@ Configuring different toolbar buttons:
 
 ```
 EditToolbarButtons: auto 
-EditToolbarButtons: preview, format, bold, italic, strikethrough, code, list, link, file, undo, redo, markdown
-EditToolbarButtons: preview, bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, markdown
-EditToolbarButtons: preview, format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
+EditToolbarButtons: format, bold, italic, strikethrough, code, list, link, file, undo, redo, preview, markdown
+EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, markdown
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
 Creating a user account at the command line:

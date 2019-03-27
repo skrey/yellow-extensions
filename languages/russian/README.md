@@ -1,4 +1,4 @@
-Russian 0.8.3
+Russian 0.8.4
 =============
 Russian/Русский with language 'ru'.
 

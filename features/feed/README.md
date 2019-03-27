@@ -1,4 +1,4 @@
-Feed 0.8.2
+Feed 0.8.3
 ==========
 Web feed with recent changes. [See demo](https://developers.datenstrom.se/feed/).
 
@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a feed
 
-The feed is available on your website as `http://website/feed/` and `http://website/feed/page:feed.xml`. It's a feed for the entire website, only visible pages are included. To make a blog feed open file `system/settings/system.ini` and change `FeedFilter: blog`. You can add a link to the feed somewhere on your website. See examples below.
+The feed is available on your website as `http://website/feed/` and `http://website/feed/page:feed.xml`. It's a feed for the entire website, only visible pages are included. To make a blog feed open file `system/settings/system.ini` and change `FeedFilterLayout: blog`. You can add a link to the feed somewhere on your website. See examples below.
 
 ## Settings
 
@@ -22,7 +22,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `FeedLocation` = feed location  
 `FeedFileXml` = feed file name for RSS feed  
-`FeedFilter` = feed filter for a specific layout  
+`FeedFilterLayout` = feed filter for a specific layout  
 `FeedPaginationLimit` = number of entries to show per page  
 
 ## Examples

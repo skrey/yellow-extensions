@@ -17,8 +17,8 @@ ContactStatusIncomplete: S'il vous plaît, veuillez remplir tous les champs.
 ContactStatusInvalid: S'il vous plaît, veuillez entrer une adresse email valide.
 ContactStatusDone: Votre message a bien été envoyé. Merci !
 ContactStatusError: Votre message n'a pas pu être envoyé, réessayez plus tard s'il vous plaît !
-DatePast: aujourd'hui, hier, il y a @x jours, il ya 1 mois, il y a @x mois, il y a 1 an, il y a @x ans
-DateFuture: bientôt, demain, dans @x jours, en 1 mois, dans @x mois, en 1 an, dans @x ans
+DatePast: aujourd'hui, hier, il y a @x jours, il ya 1 mois, il y a @x mois, il y a 1 an, il y a @x ans, le @x
+DateFuture: bientôt, demain, dans @x jours, en 1 mois, dans @x mois, en 1 an, dans @x ans, le @x
 DateMonths: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre
 DateWeekdays: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche
 DateWeekstart: lundi
@@ -104,7 +104,6 @@ EditDeleteButton: Supprimer
 EditEdit: Éditer page
 EditCreate: +
 EditDelete: -
-EditToolbarPreview: Aperçu
 EditToolbarFormat: Format
 EditToolbarHeading: Titre
 EditToolbarH1: Titre 1
@@ -128,6 +127,7 @@ EditToolbarFontawesome: Icone
 EditToolbarDraft: Brouillon
 EditToolbarUndo: Annuler
 EditToolbarRedo: Refaire
+EditToolbarPreview: Aperçu
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Aide
 EditUserHelp: Aide
@@ -142,6 +142,9 @@ Error500Title: Erreur du serveur
 Error500Text: Une erreur s'est produite. [yellow error]
 InstallTitle: Bonjour
 InstallExtension: Que voulez-vous faire ?
+InstallExtensionWebsite: Site web
+InstallExtensionBlog: Blog
+InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
 InstallHomeText: Votre site web fonctionne !\n\n[edit - Vous pouvez modifier cette page] ou utiliser un éditeur de texte.
 InstallAboutTitle: À propos
@@ -159,6 +162,7 @@ SearchButton: Rechercher
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
+WikiModified: Dernière mise à jour le
 WikiTag: Tags:
 WikiSpecialPages: Toutes les pages
 WikiSpecialChanges: Changements récents

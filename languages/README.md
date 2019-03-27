@@ -3,7 +3,7 @@ Languages
 
 The following languages are available:
 
-* [Bengali](https://github.com/datenstrom/yellow-extensions/tree/master/languages/bengali): Bengali/Bangali (Bangladesh) with language 'bn'.
+* [Bengali](https://github.com/datenstrom/yellow-extensions/tree/master/languages/bengali): Bengali/বাঙালি (Bangladesh) with language 'bn'.
 * [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/chinese): Chinese/简体中文 with language 'zh-CN'.
 * [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/languages/czech): Czech/Čeština with language 'cs'.
 * [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/danish): Danish/Dansk with language 'da'.
@@ -19,7 +19,7 @@ The following languages are available:
 * [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/polish): Polish/Polski with language 'pl'.
 * [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/portuguese): Portuguese/Português with language 'pt'.
 * [Russian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/russian): Russian/Русский with language 'ru'.
-* [Slovenian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/slovenian): Slovenian/Slovenčina with language 'sk'.
+* [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/languages/slovak): Slovak/Slovenčina with language 'sk'.
 * [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/spanish): Spanish/Español with language 'es'.
 * [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/swedish): Swedish/Svenska with language 'sv'.
 

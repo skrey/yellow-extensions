@@ -17,8 +17,8 @@ ContactStatusIncomplete: Bitte alle Felder ausfüllen.
 ContactStatusInvalid: Bitte eine gültige E-Mail angeben.
 ContactStatusDone: Nachricht wurde versandt. Vielen Dank!
 ContactStatusError: Nachricht konnte nicht versandt werden, versuche es später erneut!
-DatePast: heute, gestern, vor @x Tagen, vor 1 Monat, vor @x Monaten, vor 1 Jahr, vor @x Jahren
-DateFuture: bald, morgen, in @x Tagen, in 1 Monat, in @x Monaten, in 1 Jahr, in @x Jahren
+DatePast: heute, gestern, vor @x Tagen, vor 1 Monat, vor @x Monaten, vor 1 Jahr, vor @x Jahren, am @x
+DateFuture: bald, morgen, in @x Tagen, in 1 Monat, in @x Monaten, in 1 Jahr, in @x Jahren, am @x
 DateMonths: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember
 DateWeekdays: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag
 DateWeekstart: Montag
@@ -104,7 +104,6 @@ EditDeleteButton: Löschen
 EditEdit: Seite bearbeiten
 EditCreate: +
 EditDelete: -
-EditToolbarPreview: Vorschau
 EditToolbarFormat: Format
 EditToolbarHeading: Überschrift
 EditToolbarH1: Überschrift 1
@@ -128,6 +127,7 @@ EditToolbarFontawesome: Symbol
 EditToolbarDraft: Entwurf
 EditToolbarUndo: Rückgängig
 EditToolbarRedo: Wiederholen
+EditToolbarPreview: Vorschau
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hilfe
 EditUserHelp: Hilfe
@@ -142,6 +142,9 @@ Error500Title: Serverfehler
 Error500Text: Etwas ist schief gelaufen. [yellow error]
 InstallTitle: Hallo
 InstallExtension: Was willst du machen?
+InstallExtensionWebsite: Webseite
+InstallExtensionBlog: Blog
+InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
 InstallHomeText: Deine Webseite funktioniert!\n\n[edit - Du kannst diese Seite bearbeiten] oder einen Texteditor benutzen.
 InstallAboutTitle: Über
@@ -159,6 +162,7 @@ SearchButton: Suchen
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
+WikiModified: Zuletzt aktualisiert am
 WikiTag: Tags:
 WikiSpecialPages: Alle Seiten
 WikiSpecialChanges: Letzte Änderungen

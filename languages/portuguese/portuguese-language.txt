@@ -17,8 +17,8 @@ ContactStatusIncomplete: Por favor, preencha todos os campos.
 ContactStatusInvalid: Por favor insira um email válido.
 ContactStatusDone: O seu email foi enviado com sucesso. Obrigado!
 ContactStatusError: O sem email não pôde ser enviado, por favor tente mais tarde!
-DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago
-DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years
+DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
+DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years, on @x
 DateMonths: Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro
 DateWeekdays: segunda-feira, terça-feira, quarta-feira, quinta-feira, sexta-feira, sábado, domingo
 DateWeekstart: segunda-feira
@@ -104,7 +104,6 @@ EditDeleteButton: Apagar
 EditEdit: Editar página
 EditCreate: +
 EditDelete: -
-EditToolbarPreview: Pré-visualização
 EditToolbarFormat: Format
 EditToolbarHeading: Heading
 EditToolbarH1: Heading 1
@@ -128,6 +127,7 @@ EditToolbarFontawesome: Icon
 EditToolbarDraft: Draft
 EditToolbarUndo: Undo
 EditToolbarRedo: Redo
+EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Ajuda
 EditUserHelp: Ajuda
@@ -142,6 +142,9 @@ Error500Title: Server error
 Error500Text: Something went wrong. [yellow error]
 InstallTitle: Olá
 InstallExtension: O que você quer fazer?
+InstallExtensionWebsite: Website
+InstallExtensionBlog: Blog
+InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
 InstallHomeText: Seu site funciona!\n\n[edit - Você pode editar esta página] ou usar o seu editor de texto.
 InstallAboutTitle: Sobre
@@ -159,6 +162,7 @@ SearchButton: Pesquisa
 TimeFormatShort: H:i
 TimeFormatMedium: H:i:s
 TimeFormatLong: H:i:s T
+WikiModified: Última atualização em
 WikiTag: Tags:
 WikiSpecialPages: Todas as páginas
 WikiSpecialChanges: Alterações recentes

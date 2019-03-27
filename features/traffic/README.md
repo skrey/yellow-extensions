@@ -1,6 +1,6 @@
 Traffic 0.8.2
 =============
-Create traffic analytics from web server logfiles.
+Create traffic analytics from web server log files.
 
 <p align="center"><img src="traffic-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). It shows referring sites, popular content, files and search queries. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days, location and file name. See examples below.
 
-The extension analyses your web server logfiles, use the [Matomo extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo) for more detailed web analytics.
+The extension analyses your web server log files, use the [Matomo extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo) for more detailed web analytics.
 
 ## Settings
 

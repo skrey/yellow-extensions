@@ -1,10 +1,10 @@
 <?php
-// Slovenian extension, https://github.com/datenstrom/yellow-extensions/tree/master/languages/slovenian
+// Slovak extension, https://github.com/datenstrom/yellow-extensions/tree/master/languages/slovak
 // Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-class YellowSlovenian {
-    const VERSION = "0.8.3";
+class YellowSlovak {
+    const VERSION = "0.8.4";
     const TYPE = "language";
     public $yellow;         //access to API
     
