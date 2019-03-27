@@ -2,6 +2,8 @@ Hungarian 0.8.4
 ===============
 Hungarian/Magyar with language 'hu'.
 
+<p align="center"><img src="hungarian-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).

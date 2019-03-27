@@ -2,6 +2,8 @@ Chinese 0.8.4
 =============
 Chinese/简体中文 with language 'zh-CN'.
 
+<p align="center"><img src="chinese-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).

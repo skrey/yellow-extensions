@@ -2,6 +2,8 @@ Indonesian 0.8.4
 ================
 Indonesian/Bahasa Indonesia with language 'id'.
 
+<p align="center"><img src="indonesian-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).

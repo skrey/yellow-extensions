@@ -2,6 +2,8 @@ Polish 0.8.4
 ============
 Polish/Polski with language 'pl'.
 
+<p align="center"><img src="polish-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).

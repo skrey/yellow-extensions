@@ -2,6 +2,8 @@ Swedish 0.8.4
 =============
 Swedish/Svenska with language 'sv'.
 
+<p align="center"><img src="swedish-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).

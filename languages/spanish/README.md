@@ -2,6 +2,8 @@ Spanish 0.8.4
 =============
 Spanish/Español with language 'es'.
 
+<p align="center"><img src="spanish-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).

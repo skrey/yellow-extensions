@@ -2,6 +2,8 @@ Slovak 0.8.4
 ===============
 Slovak/Slovenčina with language 'sk'.
 
+<p align="center"><img src="slovak-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).

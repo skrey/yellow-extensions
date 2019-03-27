@@ -2,6 +2,8 @@ Portuguese 0.8.4
 ================
 Portuguese/Português with language 'pt'.
 
+<p align="center"><img src="portuguese-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).

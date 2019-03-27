@@ -2,6 +2,8 @@ Czech 0.8.4
 ===========
 Czech/Čeština with language 'cs'.
 
+<p align="center"><img src="czech-screenshot.png?raw=true" alt="Screenshot"></p>
+
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
