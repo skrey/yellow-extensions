@@ -1,4 +1,4 @@
-German 0.8.4
+German 0.8.5
 ============
 German/Deutsch with language 'de'.
 

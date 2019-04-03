@@ -51,50 +51,57 @@ EditRecoverTitle: Kennwort vergessen
 EditRecoverPassword: Kennwort:
 EditRecoverStatusPassword: Bitte ein neues Kennwort angeben.
 EditRecoverStatusWeak: Bitte ein anderes Kennwort angeben.
+EditRecoverStatusDone: Benutzerkonto wurde wiederhergestellt. Vielen Dank!
 EditSettingsTitle: Einstellungen
-EditSettingsQuit: Du kannst dein Benutzerkonto jederzeit löschen.
-EditSettingsMore: Mehr…
-EditSettingsStatusInvalid: Bitte eine gültige E-Mail angeben.
-EditSettingsStatusTaken: Bitte eine andere E-Mail angeben.
-EditSettingsStatusWeak: Bitte ein anderes Kennwort angeben.
-EditSettingsStatusNext: Benutzerkonto wird geändert, bitte überprüfe deine E-Mails.
+EditAccountTitle: Benutzerkonto
+EditAccountQuit: Du kannst dein Benutzerkonto jederzeit löschen.
+EditAccountMore: Mehr…
+EditAccountStatusInvalid: Bitte eine gültige E-Mail angeben.
+EditAccountStatusTaken: Bitte eine andere E-Mail angeben.
+EditAccountStatusWeak: Bitte ein anderes Kennwort angeben.
+EditAccountStatusNext: Benutzerkonto wird geändert, bitte überprüfe deine E-Mails.
 EditQuitTitle: Benutzerkonto löschen
 EditQuitStatusNone: Bitte gib deinen Namen zur Bestätigung ein.
 EditQuitStatusMismatch: Bitte gib einen anderen Namen ein.
 EditQuitStatusNext: Benutzerkonto wird gelöscht, bitte überprüfe deine E-Mails.
 EditConfirmSubject: Benutzerkonto bestätigen
 EditConfirmMessage: Hallo @usershort,\n\nbitte bestätige dein Benutzerkonto. Klicke auf den folgenden Link.
+EditConfirmTitle: Benutzerkonto
 EditConfirmStatusDone: Benutzerkonto wurde bestätigt und wartet auf Genehmigung. Vielen Dank!
 EditApproveSubject: Benutzerkonto genehmigen
 EditApproveMessage: Hallo @usershort,\n\nbitte genehmige ein neues Benutzerkonto für @useraccount. Klicke auf den folgenden Link.
+EditApproveTitle: Benutzerkonto
 EditApproveStatusDone: Benutzerkonto wurde genehmigt. Vielen Dank!
 EditReactivateSubject: Benutzerkonto reaktivieren
 EditReactivateMessage: Hallo @usershort,\n\nbitte reaktiviere dein Benutzerkonto. Es gab zu viele fehlgeschlagene Anmeldeversuche. Klicke auf den folgenden Link.
+EditReactivateTitle: Benutzerkonto
 EditReactivateStatusDone: Benutzerkonto wurde reaktiviert. Vielen Dank!
-EditRecoverSubject: Benutzerkonto wiederherstellen
-EditRecoverMessage: Hallo @usershort,\n\nbitte bestätige, dass du dein Kennwort vergessen hast. Klicke auf den folgenden Link.
-EditRecoverStatusDone: Benutzerkonto wurde wiederhergestellt. Vielen Dank!
 EditVerifySubject: Benutzerkonto bestätigen
 EditVerifyMessage: Hallo @usershort,\n\nbitte bestätige eine neue E-Mail für dein Benutzerkonto. Klicke auf den folgenden Link.
+EditVerifyTitle: Benutzerkonto
 EditVerifyStatusDone: Benutzerkonto wurde bestätigt. Vielen Dank!
 EditChangeSubject: Benutzerkonto ändern
 EditChangeMessage: Hallo @usershort,\n\nbitte bestätige, dass du dein Benutzerkonto ändern möchtest. Klicke auf den folgenden Link.
+EditChangeTitle: Benutzerkonto
 EditChangeStatusDone: Benutzerkonto wurde geändert. Vielen Dank!
 EditRemoveSubject: Benutzerkonto löschen
 EditRemoveMessage: Hallo @usershort,\n\nbitte bestätige, dass du dein Benutzerkonto löschen möchtest. Klicke auf den folgenden Link.
+EditRemoveTitle: Benutzerkonto
 EditRemoveStatusDone: Benutzerkonto wurde gelöscht. Vielen Dank!
+EditRecoverSubject: Benutzerkonto wiederherstellen
+EditRecoverMessage: Hallo @usershort,\n\nbitte bestätige, dass du dein Kennwort vergessen hast. Klicke auf den folgenden Link.
 EditWelcomeSubject: Willkommen
 EditWelcomeMessage: Hallo @usershort,\n\ndein Benutzerkonto wurde erstellt. Viel Spass beim Bearbeiten der Webseite.
 EditGoodbyeSubject: Auf Wiedersehen
 EditGoodbyeMessage: Hallo @usershort,\n\ndein Benutzerkonto wurde gelöscht. Mach's gut.
-EditVersionTitle: Über diese Webseite
-EditVersionStatusNone: Datenstrom Yellow ist für Menschen die Webseiten machen.
-EditVersionStatusCheck: Nach Aktualisierung suchen…
-EditVersionStatusDone: Deine Webseite ist auf dem neusten Stand.
-EditVersionStatusWarning: Aktualisierung verfügbar, bitte aktualisiere deine Webseite.
-EditVersionStatusUpdates: Aktualisierung verfügbar, jetzt aktualisieren.
-EditVersionUpdateForce: Aktualisierung erzwingen
-EditVersionUpdateModified: @extension wurde modifiziert
+EditAboutTitle: Über diese Webseite
+EditAboutStatusNone: Datenstrom Yellow ist für Menschen die Webseiten machen.
+EditAboutStatusCheck: Nach Aktualisierung suchen…
+EditAboutStatusDone: Deine Webseite ist auf dem neusten Stand.
+EditAboutStatusWarning: Aktualisierung verfügbar, bitte aktualisiere deine Webseite.
+EditAboutStatusUpdates: Aktualisierung verfügbar, jetzt aktualisieren.
+EditAboutUpdateForce: Aktualisierung erzwingen
+EditAboutUpdateModified: @extension wurde modifiziert
 EditUploadProgress: [Datei hochladen…]
 EditOkButton: Ok
 EditCancelButton: Abbruch
@@ -104,6 +111,7 @@ EditDeleteButton: Löschen
 EditEdit: Seite bearbeiten
 EditCreate: +
 EditDelete: -
+EditKeyboardLabels: Strg+, Alt+, Umschalt+, ⌘, ⌥, ⇧
 EditToolbarFormat: Format
 EditToolbarHeading: Überschrift
 EditToolbarH1: Überschrift 1
@@ -130,8 +138,8 @@ EditToolbarRedo: Wiederholen
 EditToolbarPreview: Vorschau
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hilfe
-EditUserHelp: Hilfe
-EditUserLogout: Abmelden
+EditMenuHelp: Hilfe
+EditMenuLogout: Abmelden
 Error404Title: Datei nicht gefunden
 Error404Text: Die angeforderte Datei wurde nicht gefunden. Oh nein...
 Error430Title: Anmeldung fehlgeschlagen

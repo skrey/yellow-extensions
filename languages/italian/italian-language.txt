@@ -51,50 +51,57 @@ EditRecoverTitle: Recupera la password
 EditRecoverPassword: Password:
 EditRecoverStatusPassword: Inserisci per favore una nuova password.
 EditRecoverStatusWeak: Inserisci per favore una password diversa.
+EditRecoverStatusDone: Account utente recuperato. Grazie!
 EditSettingsTitle: Impostazioni
-EditSettingsQuit: Puoi cancellare il tuo account utente in qualsiasi momento.
-EditSettingsMore: Altro…
-EditSettingsStatusInvalid: Inserisci per favore un indirizzo email valido.
-EditSettingsStatusTaken: Inserisci per favore un indirizzo email diverso.
-EditSettingsStatusWeak: Inserisci per favore una password diversa.
-EditSettingsStatusNext: L'account utente sarà modificato, controlla per favore la tua posta elettronica.
+EditAccountTitle: Account utente
+EditAccountQuit: Puoi cancellare il tuo account utente in qualsiasi momento.
+EditAccountMore: Altro…
+EditAccountStatusInvalid: Inserisci per favore un indirizzo email valido.
+EditAccountStatusTaken: Inserisci per favore un indirizzo email diverso.
+EditAccountStatusWeak: Inserisci per favore una password diversa.
+EditAccountStatusNext: L'account utente sarà modificato, controlla per favore la tua posta elettronica.
 EditQuitTitle: Cancella l'account utente
 EditQuitStatusNone: Inserisci per favore il tuo nome per conferma.
 EditQuitStatusMismatch: Inserisci per favore un nome diverso.
 EditQuitStatusNext: L'account utente sarà cancellato, controlla per favore la tua posta elettronica.
 EditConfirmSubject: Conferma l'account utente
 EditConfirmMessage: Ciao @usershort,\n\nper favore conferma il tuo account utente selezionando il seguente link.
+EditConfirmTitle: Account utente
 EditConfirmStatusDone: L'account utente è confermato ed è in attesa di approvazione. Grazie!
 EditApproveSubject: Approva l'account utente
 EditApproveMessage: Ciao @usershort,\n\nper favore approva un nuovo account per l'utente @useraccount selezionando il seguente link.
+EditApproveTitle: Account utente
 EditApproveStatusDone: Account approvato. Grazie!
 EditReactivateSubject: Riattiva l'account utente.
 EditReactivateMessage: Ciao @usershort,\n\nper favore riattiva il tuo account utente. Vi sono stati troppi tentativi di accesso non riusciti. Segui il seguente link.
+EditReactivateTitle: Account utente
 EditReactivateStatusDone: Account utente riattivato. Grazie!
-EditRecoverSubject: Recupera l'account utente
-EditRecoverMessage: Ciao @usershort,\n\nper favore conferma di aver perso la password selezionando il seguente link.
-EditRecoverStatusDone: Account utente recuperato. Grazie!
 EditVerifySubject: Conferma l'account utente
 EditVerifyMessage: Ciao @usershort,\n\per favore conferma un nuovo indirizzo email per il tuo account utente. Seleziona il seguente link.
+EditVerifyTitle: Account utente
 EditVerifyStatusDone: Account utente confermato. Grazie!
 EditChangeSubject: Modifica l'account utente
 EditChangeMessage: Ciao @usershort,\n\nper favore conferma che vuoi modificare il tuo account utente. Segui il seguente link.
+EditChangeTitle: Account utente
 EditChangeStatusDone: Account utente modificato. Grazie!
 EditRemoveSubject: Cancella l'account utente
 EditRemoveMessage: Ciao @usershort,\n\nper favore conferma che vuoi cancellare il tuo account utente. Seleziona il link seguente.
+EditRemoveTitle: Account utente
 EditRemoveStatusDone: Account utente cancellato. Grazie!
+EditRecoverSubject: Recupera l'account utente
+EditRecoverMessage: Ciao @usershort,\n\nper favore conferma di aver perso la password selezionando il seguente link.
 EditWelcomeSubject: Benvenuto
 EditWelcomeMessage: Ciao @usershort,\n\nil tuo account utente è stato creato. Buon lavoro!
 EditGoodbyeSubject: Arrivederci!
 EditGoodbyeMessage: Ciao @usershort,\n\nil tuo account utente è stato cancellato. Arrivederci!
-EditVersionTitle: Informazioni su questo sito
-EditVersionStatusNone: Datenstrom Yellow è per le persone che creano siti web.
-EditVersionStatusCheck: Controllo degli aggiornamenti in corso…
-EditVersionStatusDone: Il tuo sito è aggiornato.
-EditVersionStatusWarning: Ci sono aggiornamenti disponibili, per favore aggiorna il tuo sito.
-EditVersionStatusUpdates: Ci sono aggiornamenti disponibili, aggiorna adesso.
-EditVersionUpdateForce: Forza l'aggiornamento
-EditVersionUpdateModified: @extension è stato modificato
+EditAboutTitle: Informazioni su questo sito
+EditAboutStatusNone: Datenstrom Yellow è per le persone che creano siti web.
+EditAboutStatusCheck: Controllo degli aggiornamenti in corso…
+EditAboutStatusDone: Il tuo sito è aggiornato.
+EditAboutStatusWarning: Ci sono aggiornamenti disponibili, per favore aggiorna il tuo sito.
+EditAboutStatusUpdates: Ci sono aggiornamenti disponibili, aggiorna adesso.
+EditAboutUpdateForce: Forza l'aggiornamento
+EditAboutUpdateModified: @extension è stato modificato
 EditUploadProgress: [Caricamento del file in corso…]
 EditOkButton: Ok
 EditCancelButton: Annulla
@@ -104,6 +111,7 @@ EditDeleteButton: Elimina
 EditEdit: Modifica la pagina
 EditCreate: +
 EditDelete: -
+EditKeyboardLabels: Ctrl+, Alt+, Shift+, ⌘, ⌥, ⇧
 EditToolbarFormat: Formato
 EditToolbarHeading: Titolo
 EditToolbarH1: Titolo 1
@@ -130,8 +138,8 @@ EditToolbarRedo: Ripeti
 EditToolbarPreview: Anteprima
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Aiuto
-EditUserHelp: Aiuto
-EditUserLogout: Esci
+EditMenuHelp: Aiuto
+EditMenuLogout: Esci
 Error404Title: Pagina non trovata
 Error404Text: La pagina richiesta non è stata trovata. Oh no...
 Error430Title: Accesso non riuscito

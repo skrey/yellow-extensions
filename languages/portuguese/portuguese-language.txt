@@ -51,50 +51,57 @@ EditRecoverTitle: Esqueceu sua senha
 EditRecoverPassword: Senha:
 EditRecoverStatusPassword: Por favor digite uma senha válida.
 EditRecoverStatusWeak: Por favor insira uma senha diferente.
+EditRecoverStatusDone: Conta de usuário recuperada. Obrigado!
 EditSettingsTitle: Configurações
-EditSettingsQuit: You can delete your user account anytime.
-EditSettingsMore: More…
-EditSettingsStatusInvalid: Please enter a valid email.
-EditSettingsStatusTaken: Please enter a different email.
-EditSettingsStatusWeak: Please enter a different password.
-EditSettingsStatusNext: User account will be changed, please check your emails.
+EditAccountTitle: Conta de usuário
+EditAccountQuit: You can delete your user account anytime.
+EditAccountMore: More…
+EditAccountStatusInvalid: Please enter a valid email.
+EditAccountStatusTaken: Please enter a different email.
+EditAccountStatusWeak: Please enter a different password.
+EditAccountStatusNext: User account will be changed, please check your emails.
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
 EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Confirmar conta de usuário
 EditConfirmMessage: Olá @usershort,\n\npor favor confirmar a sua conta de usuário. Clique no link abaixo.
+EditConfirmTitle: Conta de usuário
 EditConfirmStatusDone: Conta de usuário confirmada e à espera de aprovação. Obrigado!
 EditApproveSubject: Aprovar conta de usuário
 EditApproveMessage: Olá @usershort,\n\npor favor, aprovar uma nova conta de usuário para @useraccount. Faça click no link abaixo.
+EditApproveTitle: Conta de usuário
 EditApproveStatusDone: Conta de usuário aprovado. Obrigado!
 EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateTitle: Conta de usuário
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditRecoverSubject: Recuperar conta de usuário
-EditRecoverMessage: Oi @usershort,\n\npor favor confirme que você esqueceu a sua senha. Clique no seguinte link.
-EditRecoverStatusDone: Conta de usuário recuperada. Obrigado!
 EditVerifySubject: Confirm user account
 EditVerifyMessage: Hi @usershort,\n\nplease confirm a new email for your user account. Click the following link.
+EditVerifyTitle: Conta de usuário
 EditVerifyStatusDone: User account confirmed. Thank you!
 EditChangeSubject: Change user account
 EditChangeMessage: Hi @usershort,\n\nplease confirm that you want to change your user account. Click the following link.
+EditChangeTitle: Conta de usuário
 EditChangeStatusDone: User account changed. Thank you!
 EditRemoveSubject: Delete user account
 EditRemoveMessage: Hi @usershort,\n\nplease confirm that you want to delete your user account. Click the following link.
+EditRemoveTitle: Conta de usuário
 EditRemoveStatusDone: User account deleted. Thank you!
+EditRecoverSubject: Recuperar conta de usuário
+EditRecoverMessage: Oi @usershort,\n\npor favor confirme que você esqueceu a sua senha. Clique no seguinte link.
 EditWelcomeSubject: Bem vindo
 EditWelcomeMessage: Oi @usershort,\n\nsua conta de usuário foi criada. Divirta-se na edição do site.
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
-EditVersionTitle: About this website
-EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
-EditVersionStatusCheck: Checking for updates…
-EditVersionStatusDone: Your website is up to date.
-EditVersionStatusWarning: Updates available, please update your website.
-EditVersionStatusUpdates: Updates available, update now.
-EditVersionUpdateForce: Force update
-EditVersionUpdateModified: @extension has been modified
+EditAboutTitle: About this website
+EditAboutStatusNone: Datenstrom Yellow is for people who make websites.
+EditAboutStatusCheck: Checking for updates…
+EditAboutStatusDone: Your website is up to date.
+EditAboutStatusWarning: Updates available, please update your website.
+EditAboutStatusUpdates: Updates available, update now.
+EditAboutUpdateForce: Force update
+EditAboutUpdateModified: @extension has been modified
 EditUploadProgress: [Uploading file…]
 EditOkButton: Ok
 EditCancelButton: Cancelar
@@ -104,6 +111,7 @@ EditDeleteButton: Apagar
 EditEdit: Editar página
 EditCreate: +
 EditDelete: -
+EditKeyboardLabels: Ctrl+, Alt+, Shift+, ⌘, ⌥, ⇧
 EditToolbarFormat: Format
 EditToolbarHeading: Heading
 EditToolbarH1: Heading 1
@@ -130,8 +138,8 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Ajuda
-EditUserHelp: Ajuda
-EditUserLogout: Sair
+EditMenuHelp: Ajuda
+EditMenuLogout: Sair
 Error404Title: Arquivo não encontrado
 Error404Text: O arquivo solicitado não foi encontrado. Ah não...
 Error430Title: Login failed

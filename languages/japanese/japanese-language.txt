@@ -51,50 +51,57 @@ EditRecoverTitle: パスワード忘失申請
 EditRecoverPassword: パスワード:
 EditRecoverStatusPassword: 新しいパスワードをご入力下さい。
 EditRecoverStatusWeak: 別のパスワードをご入力下さい。
+EditRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！
 EditSettingsTitle: 設定
-EditSettingsQuit: You can delete your user account anytime.
-EditSettingsMore: More…
-EditSettingsStatusInvalid: 正しいメールアドレスをご入力下さい。
-EditSettingsStatusTaken: 別のメールアドレスをご入力下さい。
-EditSettingsStatusWeak: 別のパスワードをご入力下さい。
-EditSettingsStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
+EditAccountTitle: ユーザーアカウント
+EditAccountQuit: You can delete your user account anytime.
+EditAccountMore: More…
+EditAccountStatusInvalid: 正しいメールアドレスをご入力下さい。
+EditAccountStatusTaken: 別のメールアドレスをご入力下さい。
+EditAccountStatusWeak: 別のパスワードをご入力下さい。
+EditAccountStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
 EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: ユーザーアカウントの確認
 EditConfirmMessage: こんにちは @usershort さん。\n\nユーザーアカウントについてのご確認です。宜しければ次のリンクをクリックして下さい。
+EditConfirmTitle: ユーザーアカウント
 EditConfirmStatusDone: ユーザーアカウントが登録され、承認待ちです。有難うございました！
 EditApproveSubject: ユーザーアカウントの登録承認
 EditApproveMessage: こんにちは @usershort さん。\n\n新しいユーザーアカウント登録承認についてのご確認です。 @useraccount。 宜しければ次のリンクをクリックして下さい。
+EditApproveTitle: ユーザーアカウント
 EditApproveStatusDone: ユーザーアカウントが承認されました。有難うございました！
 EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateTitle: ユーザーアカウント
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditRecoverSubject: ユーザーアカウントを復元
-EditRecoverMessage: こんにちは @usershort さん。\n\nパスワード忘失のご確認です。宜しければ次のリンクをクリックして下さい。
-EditRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！
 EditVerifySubject: ユーザーアカウントの確認
 EditVerifyMessage: こんにちは @usershort さん。\n\nユーザーアカウント情報の変更のご確認です。宜しければ次のリンクをクリックして下さい。
+EditVerifyTitle: ユーザーアカウント
 EditVerifyStatusDone: ユーザーアカウントが確認されました。有難うございました！
 EditChangeSubject: ユーザーアカウントの変更
 EditChangeMessage: こんにちは @usershort さん。\n\nユーザーアカウントを変更する為に、次のリンクをクリックして下さい。
+EditChangeTitle: ユーザーアカウント
 EditChangeStatusDone: ユーザーアカウントが変更されました。有難うございました！
 EditRemoveSubject: Delete user account
 EditRemoveMessage: Hi @usershort,\n\nplease confirm that you want to delete your user account. Click the following link.
+EditRemoveTitle: ユーザーアカウント
 EditRemoveStatusDone: User account deleted. Thank you!
+EditRecoverSubject: ユーザーアカウントを復元
+EditRecoverMessage: こんにちは @usershort さん。\n\nパスワード忘失のご確認です。宜しければ次のリンクをクリックして下さい。
 EditWelcomeSubject: ようこそ！
 EditWelcomeMessage: こんにちは @usershort さん。\n\nあなたのユーザーアカウントが作成されています。ログインしてウェブサイトを完成させて下さい。
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
-EditVersionTitle: 最新バージョンの確認
-EditVersionStatusNone: Datenstrom Yellow でウェブサイトを作る
-EditVersionStatusCheck: アップデートの確認中…
-EditVersionStatusDone: 最新のバージョンです。
-EditVersionStatusWarning：利用可能なアップデート, あなたのウェブサイトを更新してください。
-EditVersionStatusUpdates： 利用可能なアップデート,今直ぐアップデートする。
-EditVersionUpdateForce: アップデートする！
-EditVersionUpdateModified: @extension が変更されました
+EditAboutTitle: 最新バージョンの確認
+EditAboutStatusNone: Datenstrom Yellow でウェブサイトを作る
+EditAboutStatusCheck: アップデートの確認中…
+EditAboutStatusDone: 最新のバージョンです。
+EditAboutStatusWarning：利用可能なアップデート, あなたのウェブサイトを更新してください。
+EditAboutStatusUpdates： 利用可能なアップデート,今直ぐアップデートする。
+EditAboutUpdateForce: アップデートする！
+EditAboutUpdateModified: @extension が変更されました
 EditUploadProgress: [ファイルをアップロード中…]
 EditOkButton: Ok
 EditCancelButton: キャンセル
@@ -104,6 +111,7 @@ EditDeleteButton: 削除
 EditEdit: ページの編集
 EditCreate: +
 EditDelete: -
+EditKeyboardLabels: Ctrl+, Alt+, Shift+, ⌘, ⌥, ⇧
 EditToolbarFormat: Format
 EditToolbarHeading: Heading
 EditToolbarH1: Heading 1
@@ -130,8 +138,8 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: ヘルプ
-EditUserHelp: ヘルプ
-EditUserLogout: ログアウト
+EditMenuHelp: ヘルプ
+EditMenuLogout: ログアウト
 Error404Title: ファイルが見つかりません
 Error404Text: 要求されたファイルが見つかりませんでした。 あらいやだ...
 Error430Title: Login failed

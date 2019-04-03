@@ -51,50 +51,57 @@ EditRecoverTitle: Zapomniane hasło
 EditRecoverPassword: Hasło:
 EditRecoverStatusPassword: Prosze podać nowe hasło.
 EditRecoverStatusWeak: Proszę podać inne hasło.
+EditRecoverStatusDone: Konto użytkownika zostało przywrócone. Dziękujemy!
 EditSettingsTitle: Ustawienia
-EditSettingsQuit: You can delete your user account anytime.
-EditSettingsMore: More…
-EditSettingsStatusInvalid: Proszę podać poprawny adres email.
-EditSettingsStatusTaken: Proszę podać inny email.
-EditSettingsStatusWeak: Proszę podać inne hasło.
-EditSettingsStatusNext: Konto użytkownika zostanie zmienione, proszę sprawdzić pocztę.
+EditAccountTitle: Konto użytkownika
+EditAccountQuit: You can delete your user account anytime.
+EditAccountMore: More…
+EditAccountStatusInvalid: Proszę podać poprawny adres email.
+EditAccountStatusTaken: Proszę podać inny email.
+EditAccountStatusWeak: Proszę podać inne hasło.
+EditAccountStatusNext: Konto użytkownika zostanie zmienione, proszę sprawdzić pocztę.
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
 EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Potwierdzenie konta użytkownika
 EditConfirmMessage: Hej @usershort!\n\nProsimy potwierdzić swoje konto. Kliknij w poniższy link.
+EditConfirmTitle: Konto użytkownika
 EditConfirmStatusDone: Konto użytkownika zostało potwierdzone i czeka na aktywację. Dziękujemy!
 EditApproveSubject: Zatwierdzenie konta użytkownika
 EditApproveMessage: Hej @usershort!\n\nProsimy zatwierdzić konto użytkownika @useraccount. Kliknij w poniższy link.
+EditApproveTitle: Konto użytkownika
 EditApproveStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
 EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
+EditReactivateTitle: Konto użytkownika
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditRecoverSubject: Odzyskiwanie konta użytkownika
-EditRecoverMessage: Hej @usershort!\n\nProsimy o potwierdzenie, że zapomniałeś/aś hasła. Kliknij w poniższy link.
-EditRecoverStatusDone: Konto użytkownika zostało przywrócone. Dziękujemy!
 EditVerifySubject: Potwierdzenie konta użytkownika
 EditVerifyMessage: Hej @usershort!\n\nProsimy o potwierdzenie nowego maila dla Twojego konta. Kliknij w poniższy link.
+EditVerifyTitle: Konto użytkownika
 EditVerifyStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
 EditChangeSubject: Zmiana konta użytkownika
 EditChangeMessage: Hej @usershort!\n\nProsimy o potwierdzenie, że chcesz dokonać zmian w Twoim koncie. Kliknij w poniższy link.
+EditChangeTitle: Konto użytkownika
 EditChangeStatusDone: Konto użytkownika zostało zmienione. Dziękujemy!
 EditRemoveSubject: Delete user account
 EditRemoveMessage: Hi @usershort,\n\nplease confirm that you want to delete your user account. Click the following link.
+EditRemoveTitle: Konto użytkownika
 EditRemoveStatusDone: User account deleted. Thank you!
+EditRecoverSubject: Odzyskiwanie konta użytkownika
+EditRecoverMessage: Hej @usershort!\n\nProsimy o potwierdzenie, że zapomniałeś/aś hasła. Kliknij w poniższy link.
 EditWelcomeSubject: Powitanie
 EditWelcomeMessage: Hej @usershort!\n\nTwoje konto użytkownika zostało utworzone. Miłej edycji strony.
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
-EditVersionTitle: O tej stronie
-EditVersionStatusNone: Datenstrom Yellow jest dla ludzi, którzy tworzą strony internetowe.
-EditVersionStatusCheck: Sprawdzanie aktualizacji…
-EditVersionStatusDone: Twoja strona jest aktualna.
-EditVersionStatusWarning: Aktualizacje są dostępne, zaktualizuj swoją witrynę.
-EditVersionStatusUpdates: Aktualizacje są dostępne, aktualizuj teraz.
-EditVersionUpdateForce: Wymuś aktualizację
-EditVersionUpdateModified: @extension został zmodyfikowany
+EditAboutTitle: O tej stronie
+EditAboutStatusNone: Datenstrom Yellow jest dla ludzi, którzy tworzą strony internetowe.
+EditAboutStatusCheck: Sprawdzanie aktualizacji…
+EditAboutStatusDone: Twoja strona jest aktualna.
+EditAboutStatusWarning: Aktualizacje są dostępne, zaktualizuj swoją witrynę.
+EditAboutStatusUpdates: Aktualizacje są dostępne, aktualizuj teraz.
+EditAboutUpdateForce: Wymuś aktualizację
+EditAboutUpdateModified: @extension został zmodyfikowany
 EditUploadProgress: [Przesyłanie pliku…]
 EditOkButton: Ok
 EditCancelButton: Anuluj
@@ -104,6 +111,7 @@ EditDeleteButton: Usuń
 EditEdit: Edytuj stronę
 EditCreate: +
 EditDelete: -
+EditKeyboardLabels: Ctrl+, Alt+, Shift+, ⌘, ⌥, ⇧
 EditToolbarFormat: Format
 EditToolbarHeading: Heading
 EditToolbarH1: Heading 1
@@ -130,8 +138,8 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Pomoc
-EditUserHelp: Pomoc
-EditUserLogout: Wyloguj
+EditMenuHelp: Pomoc
+EditMenuLogout: Wyloguj
 Error404Title: Nie znaleziono pliku
 Error404Text: Żądany plik nie został znaleziony. O nie...
 Error430Title: Login failed

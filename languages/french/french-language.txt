@@ -51,50 +51,57 @@ EditRecoverTitle: Mot de passe oublié
 EditRecoverPassword: Mot de passe:
 EditRecoverStatusPassword: S'il vous plaît, choisissez un nouveau mot de passe.
 EditRecoverStatusWeak: S'il vous plaît, choisissez un mot de passe différent.
+EditRecoverStatusDone: Compte utilisateur restauré. Merci !
 EditSettingsTitle: Paramètres
-EditSettingsQuit: Vous pouvez supprimer votre compte d'utilisateur.
-EditSettingsMore: Plus…
-EditSettingsStatusInvalid: S'il vous plaît, veuillez entrer une adresse email valide.
-EditSettingsStatusTaken: S'il vous plaît, veuillez entrer une adresse email différent.
-EditSettingsStatusWeak: S'il vous plaît, choisissez un mot de passe différent.
-EditSettingsStatusNext: Votre compte a été changé, vérifiez vos emails.
+EditAccountTitle: Compte d'utilisateur
+EditAccountQuit: Vous pouvez supprimer votre compte d'utilisateur.
+EditAccountMore: Plus…
+EditAccountStatusInvalid: S'il vous plaît, veuillez entrer une adresse email valide.
+EditAccountStatusTaken: S'il vous plaît, veuillez entrer une adresse email différent.
+EditAccountStatusWeak: S'il vous plaît, choisissez un mot de passe différent.
+EditAccountStatusNext: Votre compte a été changé, vérifiez vos emails.
 EditQuitTitle: Supprimer le compte d'utilisateur
 EditQuitStatusNone: S'il vous plaît entrez votre nom pour confirmer.
 EditQuitStatusMismatch: S'il vous plaît entrer un nom différent.
 EditQuitStatusNext: Votre compte sera supprimé, vérifier vos emails.
 EditConfirmSubject: Confirmation d'un compte utilisateur
 EditConfirmMessage: Bonjour @usershort,\n\nveuillez confirmer votre compte utilisateur. Cliquez sur le lien suivant.
+EditConfirmTitle: Compte d'utilisateur
 EditConfirmStatusDone: Votre compte utilisateur est confirmé et en attente d'approbation. Merci !
 EditApproveSubject: Approuver un nouvel utilisateur
 EditApproveMessage: Bonjour @usershort,\n\nveuillez approuver la création d'un nouveau compte utilisateur pour @useraccount. Cliquez sur le lien suivant.
+EditApproveTitle: Compte d'utilisateur
 EditApproveStatusDone: Compte utilisateur approuvé. Merci !
 EditReactivateSubject: Réactivation d'un compte utilisateur
 EditReactivateMessage: Bonjour @usershort,\n\nveuillez réactivér votre compte utilisateur. Il y a eu trop de tentatives de connexion échouées. Cliquez sur le lien suivant.
+EditReactivateTitle: Compte d'utilisateur
 EditReactivateStatusDone: Compte d'utilisateur réactivé. Merci !
-EditRecoverSubject: Restauration d'un compte utilisateur
-EditRecoverMessage: Bonjour @usershort,\n\nveuillez confirmer que vous avez oublié votre mot de passe. Cliquez sur le lien suivant.
-EditRecoverStatusDone: Compte utilisateur restauré. Merci !
 EditVerifySubject: Confirmation d'un compte utilisateur
 EditVerifyMessage: Bonjour @usershort,\n\nveuillez confirmer une nouvelle adresse email pour votre compte utilisateur. Cliquez sur le lien suivant.
+EditVerifyTitle: Compte d'utilisateur
 EditVerifyStatusDone: Votre compte utilisateur est confirmé. Merci !
 EditChangeSubject: Changement d'un compte utilisateur
 EditChangeMessage: Bonjour @usershort,\n\nveuillez confirmer que vous souhaitez modifier votre compte utilisateur. Cliquez sur le lien suivant.
+EditChangeTitle: Compte d'utilisateur
 EditChangeStatusDone: Compte utilisateur changé. Merci !
 EditRemoveSubject: Supprimer le compte d'utilisateur
 EditRemoveMessage: Bonjour @usershort,\n\nveuillez confirmer que vous souhaitez supprimer votre compte d'utilisateur. Cliquez sur le lien suivant.
+EditRemoveTitle: Compte d'utilisateur
 EditRemoveStatusDone: Compte d'utilisateur supprimé. Merci !
+EditRecoverSubject: Restauration d'un compte utilisateur
+EditRecoverMessage: Bonjour @usershort,\n\nveuillez confirmer que vous avez oublié votre mot de passe. Cliquez sur le lien suivant.
 EditWelcomeSubject: Bienvenue
 EditWelcomeMessage: Bonjour @usershort,\n\nvotre compte utilisateur a bien été créé. Amusez-vous bien en éditant le site web.
 EditGoodbyeSubject: Au revoir
 EditGoodbyeMessage: Bonjour @usershort,\n\nvotre compte utilisateur a bien été supprimé. Prends soin.
-EditVersionTitle: A propos de ce site
-EditVersionStatusNone: Datenstrom Yellow est fait pour les gens qui font des sites web.
-EditVersionStatusCheck: Vérification des mises à jour…
-EditVersionStatusDone: Votre site web est à jour.
-EditVersionStatusWarning: Mises à jour disponibles, veuillez mettre à jour votre site web.
-EditVersionStatusUpdates: Mises à jour disponibles, mettre à jour maintenant.
-EditVersionUpdateForce: Forcer mise à jour
-EditVersionUpdateModified: @extension a été modifié
+EditAboutTitle: A propos de ce site
+EditAboutStatusNone: Datenstrom Yellow est fait pour les gens qui font des sites web.
+EditAboutStatusCheck: Vérification des mises à jour…
+EditAboutStatusDone: Votre site web est à jour.
+EditAboutStatusWarning: Mises à jour disponibles, veuillez mettre à jour votre site web.
+EditAboutStatusUpdates: Mises à jour disponibles, mettre à jour maintenant.
+EditAboutUpdateForce: Forcer mise à jour
+EditAboutUpdateModified: @extension a été modifié
 EditUploadProgress: [Téléchargement du fichier…]
 EditOkButton: Ok
 EditCancelButton: Annuler
@@ -104,6 +111,7 @@ EditDeleteButton: Supprimer
 EditEdit: Éditer page
 EditCreate: +
 EditDelete: -
+EditKeyboardLabels: Ctrl+, Alt+, Maj+, ⌘, ⌥, ⇧
 EditToolbarFormat: Format
 EditToolbarHeading: Titre
 EditToolbarH1: Titre 1
@@ -130,8 +138,8 @@ EditToolbarRedo: Refaire
 EditToolbarPreview: Aperçu
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Aide
-EditUserHelp: Aide
-EditUserLogout: Déconnexion
+EditMenuHelp: Aide
+EditMenuLogout: Déconnexion
 Error404Title: Fichier non trouvé
 Error404Text: Le fichier demandé n'a pas été trouvé. Oh non...
 Error430Title: La connexion a échoué

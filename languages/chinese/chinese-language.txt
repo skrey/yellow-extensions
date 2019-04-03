@@ -51,50 +51,57 @@ EditRecoverTitle: 忘了密码
 EditRecoverPassword: 密码:
 EditRecoverStatusPassword: 请输入一个新密码
 EditRecoverStatusWeak: 请输入一个不同的密码
+EditRecoverStatusDone: 用户帐号已重置，谢谢！
 EditSettingsTitle: 设置
-EditSettingsQuit: You can delete your user account anytime.
-EditSettingsMore: More…
-EditSettingsStatusInvalid: 请输入一个有效的e-mail地址
-EditSettingsStatusTaken: 请输入不同的e-mail地址
-EditSettingsStatusWeak: 请输入不同的密码
-EditSettingsStatusNext: 用户帐号将被更改，请查看您的电子邮件
+EditAccountTitle: User account
+EditAccountQuit: You can delete your user account anytime.
+EditAccountMore: More…
+EditAccountStatusInvalid: 请输入一个有效的e-mail地址
+EditAccountStatusTaken: 请输入不同的e-mail地址
+EditAccountStatusWeak: 请输入不同的密码
+EditAccountStatusNext: 用户帐号将被更改，请查看您的电子邮件
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
 EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: 确认用户帐号
 EditConfirmMessage: 你好 @usershort,\n\n请验证你的帐号，点击以下链接。
+EditConfirmTitle: 用户帐号
 EditConfirmStatusDone: 你的帐号已验证，谢谢！
 EditApproveSubject: 审批用户帐号
 EditApproveMessage: 你好 @usershort,\n\n请为 @useraccount 批准一个新帐号。点击以下链接。
+EditApproveTitle: 用户帐号
 EditApproveStatusDone: 用户帐号已批准，谢谢！
 EditReactivateSubject: 激活用户帐号
 EditReactivateMessage: 你好 @usershort,\n\n登录尝试失败太多。请点击以下的链接激活您的帐号。
+EditReactivateTitle: 用户帐号
 EditReactivateStatusDone: 用户帐号重新激活，谢谢！
-EditRecoverSubject: 重置用户帐号
-EditRecoverMessage: 你好 @usershort,\n\n确定忘了密码请点击以下链接。
-EditRecoverStatusDone: 用户帐号已重置，谢谢！
 EditVerifySubject: 确认用户帐号
 EditVerifyMessage: 你好 @usershort,\n\n确定要更改您的用户帐号，请点击以下的链接。
+EditVerifyTitle: 用户帐号
 EditVerifyStatusDone: 用户帐号已确认，谢谢！
 EditChangeSubject: 更改用户帐号
 EditChangeMessage: 你好 @usershort,\n\n确定要更改您的用户帐号，请点击以下的链接。
+EditChangeTitle: 用户帐号
 EditChangeStatusDone: 用户帐号已更改，谢谢！
 EditRemoveSubject: Delete user account
 EditRemoveMessage: Hi @usershort,\n\nplease confirm that you want to delete your user account. Click the following link.
+EditRemoveTitle: 用户帐号
 EditRemoveStatusDone: User account deleted. Thank you!
+EditRecoverSubject: 重置用户帐号
+EditRecoverMessage: 你好 @usershort,\n\n确定忘了密码请点击以下链接。
 EditWelcomeSubject: 欢迎
 EditWelcomeMessage: 你好 @usershort,\n\n你的帐号已创建完毕，建站愉快。
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
-EditVersionTitle: 关于本站
-EditVersionStatusNone: Datenstrom Yellow is for people who make websites.
-EditVersionStatusCheck: 正在检查更新…
-EditVersionStatusDone: 已是最新版
-EditVersionStatusWarning：有更新可用，请更新您的网站。
-EditVersionStatusUpdates：有更新可用，现在更新。
-EditVersionUpdateForce: 强制更新
-EditVersionUpdateModified: @extension 已被更改
+EditAboutTitle: 关于本站
+EditAboutStatusNone: Datenstrom Yellow is for people who make websites.
+EditAboutStatusCheck: 正在检查更新…
+EditAboutStatusDone: 已是最新版
+EditAboutStatusWarning：有更新可用，请更新您的网站。
+EditAboutStatusUpdates：有更新可用，现在更新。
+EditAboutUpdateForce: 强制更新
+EditAboutUpdateModified: @extension 已被更改
 EditUploadProgress: [上传文件…]
 EditOkButton: 确定
 EditCancelButton: 取消
@@ -104,6 +111,7 @@ EditDeleteButton: 删除
 EditEdit: 编辑页面
 EditCreate: + 新建
 EditDelete: - 删除
+EditKeyboardLabels: Ctrl+, Alt+, Shift+, ⌘, ⌥, ⇧
 EditToolbarFormat: Format
 EditToolbarHeading: Heading
 EditToolbarH1: Heading 1
@@ -130,8 +138,8 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: 帮助
-EditUserHelp: 帮助
-EditUserLogout: 登出
+EditMenuHelp: 帮助
+EditMenuLogout: 登出
 Error404Title: 文件未找到
 Error404Text: 找不到请求的文件。 不好了...
 Error430Title: Login failed
