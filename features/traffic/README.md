@@ -1,4 +1,4 @@
-Traffic 0.8.2
+Traffic 0.8.3
 =============
 Create traffic analytics from web server log files.
 

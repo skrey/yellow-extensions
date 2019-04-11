@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowTraffic {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $days;           //number of days
@@ -64,7 +64,7 @@ class YellowTraffic {
         if (empty($fileName)) {
             $path = $this->yellow->system->get("trafficLogDir");
             $regex = "/^".basename($this->yellow->system->get("trafficLogFile"))."$/";
-            $fileNames = $this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false);
+            $fileNames = array_reverse($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false));
             list($statusCode, $sites, $content, $files, $search, $errors) = $this->analyseRequests($days, $location, $fileNames);
         } else {
             list($statusCode, $sites, $content, $files, $search, $errors) = $this->analyseRequests($days, $location, array($fileName));
@@ -86,7 +86,8 @@ class YellowTraffic {
         if (!empty($fileNames)) {
             $statusCode = 200;
             $timeStart = $timeFound = time();
-            $timeStop = time() - (60 * 60 * 24 * $days);
+            $timeStop = time() - (60*60*24*$days);
+            $percentShown = -1;
             $staticUrl = $this->yellow->system->get("staticUrl");
             list($scheme, $address, $base) = $this->yellow->lookup->getUrlInformation($staticUrl);
             $locationSearch = $this->yellow->system->get("searchLocation");
@@ -104,6 +105,11 @@ class YellowTraffic {
                             list($line, $ip, $dummy1, $dummy2, $timestamp, $method, $uri, $protocol, $status, $size, $referer, $userAgent) = $matches;
                             $timeFound = strtotime($timestamp);
                             if ($timeFound<$timeStop) break;
+                            $percent = $this->getProgressPercent(($timeStart-$timeFound)/3600, 24*$days, 5, 95);
+                            if ($percentShown!=$percent) {
+                                $percentShown = $percent;
+                                echo "\rCreating traffic analytics $percent%... ";
+                            }
                             $location = $this->getLocation($uri);
                             $referer = $this->getReferer($referer, "$address$base/");
                             if ($status<400) {
@@ -143,6 +149,7 @@ class YellowTraffic {
             unset($search["-"]);
             if ($locationFilter!="/") $search = array();
             $this->days = $timeStart!=$timeFound ? $days : 0;
+            echo "\rCreating traffic analytics 100%... done\n";
         } else {
             $statusCode = 500;
             $path = $this->yellow->system->get("trafficLogDir");
@@ -210,6 +217,14 @@ class YellowTraffic {
     // Return human readable status
     public function getStatusFormatted($statusCode) {
         return $this->yellow->toolbox->getHttpStatusFormatted($statusCode, true);
+    }
+    
+    // Return progress in percent
+    public function getProgressPercent($now, $total, $increments, $max)
+    {
+        $percent = intval(($max / $total) * $now);
+        if ($increments>1) $percent = intval($percent / $increments) * $increments;
+        return min($max, $percent);
     }
     
     // Return previous text line from file, false if not found

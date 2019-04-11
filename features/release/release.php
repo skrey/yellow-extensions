@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -46,10 +46,10 @@ class YellowRelease {
             $statusCode = max($statusCode, $this->updateReleaseDirectory($path, $pathExtension));
             $entries = $this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/.*/", true, true);
             foreach ($entries as $entry) {
-                echo "\rCreating release ".$this->getProgressPercent($this->extensions, count($entries), 10, 95)."%... ";
+                echo "\rCreating release files ".$this->getProgressPercent($this->extensions, count($entries), 10, 95)."%... ";
                 $statusCode = max($statusCode, $this->updateReleaseDirectory("$entry/", $pathExtension));
             }
-             echo "\rCreating release 100%... done\n";
+            echo "\rCreating release files 100%... done\n";
         } else {
             $statusCode = 500;
             $this->extensions = 0;

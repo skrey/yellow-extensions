@@ -1,4 +1,4 @@
-Edit 0.8.6
+Edit 0.8.7
 ==========
 Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
 
@@ -34,6 +34,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditUploadExtensions` = file extensions for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands  
 `EditToolbarButtons` = toolbar buttons, `none` to disable  
+`EditNewFile` = content file for new page  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
 `EditLoginRestriction` = enable [login restriction](https://developers.datenstrom.se/help/security-configuration#login-restriction), 1 or 0  
 `EditLoginSessionTimeout` = login session in seconds  
@@ -56,7 +57,7 @@ Configuring different toolbar buttons:
 
 ```
 EditToolbarButtons: auto 
-EditToolbarButtons: format, bold, italic, strikethrough, code, list, link, file, undo, redo, preview, markdown
+EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
 EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, markdown
 EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
