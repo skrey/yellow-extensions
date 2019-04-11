@@ -21,7 +21,7 @@ class YellowGooglemap {
             $path = $this->yellow->system->get("contentDir");
             foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.md$/", true, false) as $entry) {
                 $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
-                $fileDataNew = preg_replace("/[googlemaps\s/", "[googlemap ", $fileDataNew);
+                $fileDataNew = preg_replace("/\[googlemaps\s/", "[googlemap ", $fileData);
                 if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
                     $this->yellow->log("error", "Can't write file '$entry'!");
                 }
