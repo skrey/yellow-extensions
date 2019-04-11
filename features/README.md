@@ -31,8 +31,8 @@ The following features are available:
   Image gallery with popup.
 * [Googlecalendar](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlecalendar): 
   Embed Google calendar.
-* [Googlemaps](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemaps): 
-  Embed Google maps.
+* [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap): 
+  Embed Google map.
 * [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight): 
   Highlight source code.
 * [Image](https://github.com/datenstrom/yellow-extensions/tree/master/features/image): 
