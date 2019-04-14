@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/datenstrom-logo.png" width="26" height="26"> Datenstrom Yellow extensions
+# <img src="https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/datenstrom-logo.png" width="26" height="26">&nbsp; Datenstrom Yellow extensions
 
 [![Datenstrom Yellow](https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/datenstrom-yellow-en.jpg)](https://datenstrom.se/yellow/)
 
