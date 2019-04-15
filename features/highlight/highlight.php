@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowHighlight {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -68,6 +68,7 @@ class YellowHighlight {
             $text = $result->value;
         } catch (DomainException $e) {
             $language = "unknown";
+            $text = htmlspecialchars($text, ENT_NOQUOTES);
         }
         return array($language, $text);
     }

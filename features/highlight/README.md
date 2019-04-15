@@ -1,4 +1,4 @@
-Highlight 0.8.2
+Highlight 0.8.3
 ===============
 Highlight source code.
 
