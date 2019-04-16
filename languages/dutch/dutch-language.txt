@@ -154,11 +154,17 @@ InstallExtensionWebsite: Website
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
-InstallHomeText: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.
+InstallHomeText: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.\n\nYou can install extensions and useful features.\n[Learn more](https://developers.datenstrom.se/help/).
 InstallAboutTitle: Over
 InstallAboutText: Voor mensen die websites maken. [edit - Aanmelden].
 InstallFooterTitle: Footer
 InstallFooterText: [Gemaakt met Datenstrom Yellow](https://datenstrom.se/yellow/)
+InstallDefaultTitle: Page
+InstallDefaultText: This is a new page.
+InstallBlogTitle: Blog page
+InstallBlogText: This is a new blog page.
+InstallWikiTitle: Wiki page
+InstallWikiText: This is a new wiki page.
 PagePrevious: ← Vorige: @title
 PageNext: Volgende: @title →
 PaginationPrevious: ← Vorige

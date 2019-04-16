@@ -154,11 +154,17 @@ InstallExtensionWebsite: Webová stránka
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Domů
-InstallHomeText: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.
+InstallHomeText: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.\n\nYou can install extensions and useful features.\n[Learn more](https://developers.datenstrom.se/help/).
 InstallAboutTitle: O nás
 InstallAboutText: Pro lidi kteří vytvářejí webové stránky. [edit - Přihlásit se].
 InstallFooterTitle: Footer
 InstallFooterText: [Vyrobeno z Datenstrom Yellow](https://datenstrom.se/yellow/)
+InstallDefaultTitle: Page
+InstallDefaultText: This is a new page.
+InstallBlogTitle: Blog page
+InstallBlogText: This is a new blog page.
+InstallWikiTitle: Wiki page
+InstallWikiText: This is a new wiki page.
 PagePrevious: ← Předchozí: @title
 PageNext: Následující: @title →
 PaginationPrevious: ← Předchozí

@@ -154,11 +154,17 @@ InstallExtensionWebsite: Веб-сайт
 InstallExtensionBlog: Блог
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Главная
-InstallHomeText: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.
+InstallHomeText: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.\n\nYou can install extensions and useful features.\n[Learn more](https://developers.datenstrom.se/help/).
 InstallAboutTitle: О компании
 InstallAboutText: Для людей которые делают сайты. [edit - Войти].
 InstallFooterTitle: Footer
 InstallFooterText: [Сделано с Datenstrom Yellow](https://datenstrom.se/yellow/)
+InstallDefaultTitle: Page
+InstallDefaultText: This is a new page.
+InstallBlogTitle: Blog page
+InstallBlogText: This is a new blog page.
+InstallWikiTitle: Wiki page
+InstallWikiText: This is a new wiki page.
 PagePrevious: ← Назад: @title
 PageNext: Далее: @title →
 PaginationPrevious: ← Назад

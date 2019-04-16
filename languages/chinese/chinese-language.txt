@@ -154,11 +154,17 @@ InstallExtensionWebsite: 网站
 InstallExtensionBlog: 博客
 InstallExtensionWiki: 维基
 InstallHomeTitle: 首页
-InstallHomeText: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。
+InstallHomeText: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。\n\n您可以安装扩展和有用的功能。\n[了解更多](https://developers.datenstrom.se/help/).
 InstallAboutTitle: 关于
 InstallAboutText: 对于制作网站的人. [edit - 登入].
 InstallFooterTitle: Footer
 InstallFooterText: [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+InstallDefaultTitle: Page
+InstallDefaultText: This is a new page.
+InstallBlogTitle: Blog page
+InstallBlogText: This is a new blog page.
+InstallWikiTitle: Wiki page
+InstallWikiText: This is a new wiki page.
 PagePrevious: ← 上一页 @title
 PageNext: 下一页 @title →
 PaginationPrevious: ← 上一页

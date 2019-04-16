@@ -1,4 +1,4 @@
-Hungarian 0.8.4
+Hungarian 0.8.6
 ===============
 Hungarian/Magyar with language 'hu'.
 

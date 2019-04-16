@@ -154,11 +154,17 @@ InstallExtensionWebsite: ウェブ
 InstallExtensionBlog: ブログ
 InstallExtensionWiki: ウィキ
 InstallHomeTitle: ホーム
-InstallHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。
+InstallHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。\n\n拡張機能や便利な機能をインストールすることができます。\n[もっと詳しく](https://developers.datenstrom.se/help/).
 InstallAboutTitle: について
 InstallAboutText: ウェブサイトを作る人のために。[edit - ログイン]。
 InstallFooterTitle: Footer
 InstallFooterText: [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+InstallDefaultTitle: Page
+InstallDefaultText: This is a new page.
+InstallBlogTitle: Blog page
+InstallBlogText: This is a new blog page.
+InstallWikiTitle: Wiki page
+InstallWikiText: This is a new wiki page.
 PagePrevious: ← 前のページへ : @title
 PageNext: 次のページへ : @title →
 PaginationPrevious: ← 戻る

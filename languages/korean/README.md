@@ -1,4 +1,4 @@
-Korean 0.8.4
+Korean 0.8.6
 ============
 Korean/한국어 with language 'ko'.
 

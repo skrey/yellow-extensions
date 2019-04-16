@@ -154,11 +154,17 @@ InstallExtensionWebsite: Sitio web
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Inicio
-InstallHomeText: Tu sitio web funciona!\n\n[edit - Puedes editar esta página] o utilizar tu editor de texto.
+InstallHomeText: Tu sitio web funciona!\n\n[edit - Puedes editar esta página] o utilizar tu editor de texto.\n\nPuede instalar extensiones y características útiles.\n[Aprender mas](https://developers.datenstrom.se/help/).
 InstallAboutTitle: Acerca de
 InstallAboutText: Para las personas que hacen sitios web. [edit - Acceder].
 InstallFooterTitle: Footer
 InstallFooterText: [Hecho con Datenstrom Yellow](https://datenstrom.se/yellow/)
+InstallDefaultTitle: Page
+InstallDefaultText: This is a new page.
+InstallBlogTitle: Blog page
+InstallBlogText: This is a new blog page.
+InstallWikiTitle: Wiki page
+InstallWikiText: This is a new wiki page.
 PagePrevious: ← Anterior: @title
 PageNext: Siguiente: @title →
 PaginationPrevious: ← Anterior

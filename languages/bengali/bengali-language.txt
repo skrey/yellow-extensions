@@ -154,11 +154,17 @@ InstallExtensionWebsite: ওয়েবসাইট
 InstallExtensionBlog: ব্লগ
 InstallExtensionWiki: উইকি
 InstallHomeTitle: Home
-InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.
+InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install extensions and useful features.\n[Learn more](https://developers.datenstrom.se/help/).
 InstallAboutTitle: About
 InstallAboutText: For people who make websites. [edit - Log in].
 InstallFooterTitle: Footer
 InstallFooterText: [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+InstallDefaultTitle: Page
+InstallDefaultText: This is a new page.
+InstallBlogTitle: Blog page
+InstallBlogText: This is a new blog page.
+InstallWikiTitle: Wiki page
+InstallWikiText: This is a new wiki page.
 PagePrevious: ← পূর্ববর্তী: @title
 PageNext: পরবর্তী: @title →
 PaginationPrevious: ← পূর্ববর্তী

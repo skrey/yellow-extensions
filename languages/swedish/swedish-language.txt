@@ -154,11 +154,17 @@ InstallExtensionWebsite: Webbsida
 InstallExtensionBlog: Blogg
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Hem
-InstallHomeText: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.
+InstallHomeText: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.\n\nDu kan installera tillägg och praktiska funktioner.\n[Läs mer](https://developers.datenstrom.se/help/).
 InstallAboutTitle: Om
 InstallAboutText: För personer som gör webbplatser. [edit - Logga in].
 InstallFooterTitle: Footer
 InstallFooterText: [Gjord med Datenstrom Yellow](https://datenstrom.se/yellow/)
+InstallDefaultTitle: Sida
+InstallDefaultText: Detta är en ny sida.
+InstallBlogTitle: Bloggsida
+InstallBlogText: Detta är en ny bloggsida.
+InstallWikiTitle: Wikisida
+InstallWikiText: Detta är en ny wikisida.
 PagePrevious: ← Tidigare: @title
 PageNext: Nästa: @title →
 PaginationPrevious: ← Tidigare

@@ -1,4 +1,4 @@
-Chinese 0.8.5
+Chinese 0.8.6
 =============
 Chinese/简体中文 with language 'zh-CN'.
 
