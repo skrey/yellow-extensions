@@ -1,4 +1,4 @@
-Googlecalendar 0.8.2
+Googlecalendar 0.8.3
 ====================
 Embed Google calendar.
 
@@ -52,8 +52,8 @@ Embedding a calendar, multiple calendars together:
 Embedding a calendar, events and agenda:
 
     [googlecalendar de.german#holiday events]
-    [googlecalendar de.german#holiday events 5]
-    [googlecalendar de.german#holiday agenda 5]
+    [googlecalendar de.german#holiday events 10]
+    [googlecalendar de.german#holiday agenda 10]
 
 ## Developer
 

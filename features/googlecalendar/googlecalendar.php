@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowGooglecalendar {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -12,7 +12,7 @@ class YellowGooglecalendar {
     public function onLoad($yellow) {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("googlecalendarMode", "month");
-        $this->yellow->system->setDefault("googlecalendarEntriesMax", "10");
+        $this->yellow->system->setDefault("googlecalendarEntriesMax", "5");
         $this->yellow->system->setDefault("googlecalendarStyle", "flexible");
         $this->yellow->system->setDefault("googlecalendarApiKey", "AIzaSyBC0iK5aceH8C5EguUsS98btnsDoA1PVSo");
     }

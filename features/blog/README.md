@@ -1,4 +1,4 @@
-Blog 0.8.2
+Blog 0.8.3
 ==========
 Blog for your website. [See demo](https://developers.datenstrom.se/features/blog/).
 
@@ -71,20 +71,20 @@ Content file with blog page:
 Showing latest blog pages:
 
     [blogchanges /blog/]
-    [blogchanges /blog/ 5]
-    [blogchanges /blog/ 20]
+    [blogchanges /blog/ 3]
+    [blogchanges /blog/ 10]
 
 Showing list of tags:
 
     [blogtags /blog/]
-    [blogtags /blog/ 5]
-    [blogtags /blog/ 20]
+    [blogtags /blog/ 3]
+    [blogtags /blog/ 10]
 
 Showing list of pages:
 
     [blogpages /blog/]
-    [blogpages /blog/ 5 ]
-    [blogpages /blog/ 20 - example]
+    [blogpages /blog/ 3]
+    [blogpages /blog/ 10 - example]
 
 ## Developer
 

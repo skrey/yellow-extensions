@@ -1,4 +1,4 @@
-Wiki 0.8.3
+Wiki 0.8.4
 ==========
 Wiki for your website. [See demo](https://developers.datenstrom.se/features/wiki/).
 
@@ -69,20 +69,20 @@ Content file with wiki page:
 Showing latest wiki pages:
 
     [wikichanges /wiki/]
-    [wikichanges /wiki/ 5]
-    [wikichanges /wiki/ 20]
+    [wikichanges /wiki/ 3]
+    [wikichanges /wiki/ 10]
 
 Showing list of tags:
 
     [wikitags /wiki/]
-    [wikitags /wiki/ 5]
-    [wikitags /wiki/ 20]
+    [wikitags /wiki/ 3]
+    [wikitags /wiki/ 10]
 
 Showing list of pages:
 
     [wikipages /wiki/]
-    [wikipages /wiki/ 5]
-    [wikipages /wiki/ 20 - example]
+    [wikipages /wiki/ 3]
+    [wikipages /wiki/ 10 - example]
 
 ## Developer
 

@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowBlog {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -13,7 +13,7 @@ class YellowBlog {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("blogLocation", "");
         $this->yellow->system->setDefault("blogNewLocation", "@title");
-        $this->yellow->system->setDefault("blogPagesMax", "10");
+        $this->yellow->system->setDefault("blogPagesMax", "5");
         $this->yellow->system->setDefault("blogPaginationLimit", "5");
     }
     

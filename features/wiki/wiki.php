@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowWiki {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -14,7 +14,7 @@ class YellowWiki {
         $this->yellow->system->setDefault("wikiLocation", "");
         $this->yellow->system->setDefault("wikiNewLocation", "@title");
         $this->yellow->system->setDefault("wikiDefaultLayout", "wiki");
-        $this->yellow->system->setDefault("wikiPagesMax", "10");
+        $this->yellow->system->setDefault("wikiPagesMax", "5");
         $this->yellow->system->setDefault("wikiPaginationLimit", "30");
     }
 
