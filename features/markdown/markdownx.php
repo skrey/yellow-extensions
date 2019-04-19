@@ -44,7 +44,7 @@ class Parsedown
 {
     # ~
 
-    const version = '1.8.0-beta-5';
+    const version = '1.8.0-beta-7';
 
     # ~
 
@@ -134,6 +134,7 @@ class Parsedown
         'ftp://',
         'ftps://',
         'mailto:',
+        'tel:',
         'data:image/png;base64,',
         'data:image/gif;base64,',
         'data:image/jpeg;base64,',
@@ -496,7 +497,21 @@ class Parsedown
 
         if ($infostring !== '')
         {
-            $Element['attributes'] = array('class' => "language-$infostring");
+            /**
+             * https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#classes
+             * Every HTML element may have a class attribute specified.
+             * The attribute, if specified, must have a value that is a set
+             * of space-separated tokens representing the various classes
+             * that the element belongs to.
+             * [...]
+             * The space characters, for the purposes of this specification,
+             * are U+0020 SPACE, U+0009 CHARACTER TABULATION (tab),
+             * U+000A LINE FEED (LF), U+000C FORM FEED (FF), and
+             * U+000D CARRIAGE RETURN (CR).
+             */
+            $language = substr($infostring, 0, strcspn($infostring, " \t\n\f\r"));
+
+            $Element['attributes'] = array('class' => "language-$language");
         }
 
         $Block = array(
@@ -568,7 +583,7 @@ class Parsedown
 
         $Block = array(
             'element' => array(
-                'name' => 'h' . min(6, $level),
+                'name' => 'h' . $level,
                 'handler' => array(
                     'function' => 'lineElements',
                     'argument' => $text,
@@ -1146,6 +1161,9 @@ class Parsedown
 
     protected function lineElements($text, $nonNestables = array())
     {
+        # standardize line breaks
+        $text = str_replace(array("\r\n", "\r"), "\n", $text);
+
         $Elements = array();
 
         $nonNestables = (empty($nonNestables)
@@ -1503,7 +1521,7 @@ class Parsedown
 
     protected function inlineSpecialCharacter($Excerpt)
     {
-        if ($Excerpt['text'][1] !== ' ' and strpos($Excerpt['text'], ';') !== false
+        if (substr($Excerpt['text'], 1, 1) !== ' ' and strpos($Excerpt['text'], ';') !== false
             and preg_match('/^&(#?+[0-9a-zA-Z]++);/', $Excerpt['text'], $matches)
         ) {
             return array(
