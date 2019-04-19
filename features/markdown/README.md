@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 The extension uses [Markdown Extra v1.8.0](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). Markdown allows to write text like an email and it becomes a web page. Here's the basic [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
 
-There's an [experimental Markdown parser](https://github.com/datenstrom/yellow/issues/354) based on Parsedown Extra v1.8.0-beta. You can [download and copy it](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) into your `system/extensions` folder. Now you can select the Markdown parser with `Parser: markdown` = Markdown Extra and `Parser: markdownx` = Parsedown Extra, x stands for experimental.
+There's also an [experimental Markdown parser](https://github.com/datenstrom/yellow/issues/354) based on Parsedown Extra v1.8.0-beta-5. You can [download and copy it](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) into your `system/extensions` folder. Now you can select the Markdown parser with `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra, x stands for experimental.
 
 ## Examples
 
