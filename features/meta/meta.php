@@ -22,7 +22,7 @@ class YellowMeta {
             // Twitter
             if ($this->yellow->system->get("metaTwitterUser")) {
                 $output = "<meta name=\"twitter:card\" content=\"summary\" />\n";
-                $output .= "<meta name=\"twitter:site\" content=\"".$this->yellow->system->get("metaTwitterUser")."\" />\n";
+                $output .= "<meta name=\"twitter:site\" content=\"".$this->yellow->system->getHtml("metaTwitterUser")."\" />\n";
                 if ($this->yellow->page->getHtml("metaTwitterUser")) $output .= "<meta name=\"twitter:creator\" content=\"".$this->yellow->page->getHtml("metaTwitterUser")."\" />\n";
                 $output .= "<meta name=\"twitter:title\" content=\"".$this->yellow->page->getHtml("title")."\" />\n";
                 $output .= "<meta name=\"twitter:description\" content=\"".$this->yellow->page->getHtml("description")."\" />\n";
@@ -45,7 +45,7 @@ class YellowMeta {
             $output .= "<meta property=\"og:description\" content=\"".$this->yellow->page->getHtml("description")."\" />\n";
             if ($this->yellow->page->getHtml("metaImage")) $output .= "<meta property=\"og:image\" content=\"".$this->yellow->page->getHtml("metaImage")."\" />\n";
             if ($this->yellow->page->getHtml("metaImageAlt")) $output .= "<meta property=\"og:image:alt\" content=\"".$this->yellow->page->getHtml("metaImageAlt")."\" />\n";
-            $output .= "<meta property=\"og:site_name\" content=\"".$this->yellow->system->get("sitename")."\" />\n";
+            $output .= "<meta property=\"og:site_name\" content=\"".$this->yellow->system->getHtml("sitename")."\" />\n";
         }
         return $output;
     }

@@ -44,7 +44,7 @@ The following features are available:
 * [Matomo](https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo): 
   Matomo web analytics.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/features/meta):
-  Adds Twitter and Open Graph meta tags.
+  Meta data for social media sites.
 * [Preview](https://github.com/datenstrom/yellow-extensions/tree/master/features/preview): 
   Show pages with image preview.
 * [Previousnext](https://github.com/datenstrom/yellow-extensions/tree/master/features/previousnext): 

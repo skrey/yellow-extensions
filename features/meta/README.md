@@ -1,6 +1,6 @@
 Meta 0.8.3
 ==========
-Adds Twitter and Open Graph meta tags.
+Meta data for social media sites.
 
 ## How to install extension
 
@@ -10,14 +10,13 @@ Adds Twitter and Open Graph meta tags.
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to use social meta tag
+## How to add meta data
 
-The extension uses data from your page settings and converts them to appropriate meta tags for [Twitter cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards) as well as for the [Open Graph protocol](http://ogp.me/) which is used by Facebook. 
+The extension adds meta data for [Twitter cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards) and the [Open Graph protocol](http://ogp.me/), which is used by Facebook. 
 
-*Note*: For correct page validation the Open Graph protocol requires some additional namespace elements in the opening `<html` element. Replace the first line of your `system/layouts/header.html` with the following line: 
+*Note*: For correct page validation the Open Graph protocol requires additional namespace elements in the opening `<html` element. This will be done automatically in a later version. At the moment you have to replace the first line of your `system/layouts/header.html` with the following line: 
 
     <!DOCTYPE html><html <?php if ($yellow->extensions->isExisting("socialtags")): ?>prefix="og: http://ogp.me/ns# <?php if ($yellow->page->getHtml("layout") == "blog"): ?>article: http://ogp.me/ns/article#<?php endif ?>" <?php endif ?>lang="<?php echo $yellow->page->getHtml("language") ?>">
-
 
 ## Settings
 
