@@ -1,4 +1,4 @@
-Bundle 0.8.4
+Bundle 0.8.5
 ============
 Bundle website files.
 
