@@ -28,7 +28,7 @@ You can set `Title`, `Description` and `Image` in the [settings](https://develop
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`PreviewDefaultImage` = Default preview image, e.g. `preview-image.png`
+`PreviewDefaultImage` = Default preview image
 
 ## Examples
 
