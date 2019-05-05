@@ -143,8 +143,6 @@ The following features are obsolete:
   Overwrite language entries in a page.
 * [Skipto](https://github.com/schulle4u/yellow-plugin-skipto):
   Enhance keyboard navigation.
-* [Socialtags](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/socialtags):
-  Adds Twitter and Open Graph meta tags.
 * [Streamlist](https://github.com/nibreh/yellow-plugin-streamlist):
   Stream your favorite radios in a playlist with HTML5 audio.
 * [Sublime](https://github.com/nashv/YellowBlogExtensions):

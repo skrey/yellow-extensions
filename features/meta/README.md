@@ -1,4 +1,4 @@
-Meta 0.8.3
+Meta 0.8.4
 ==========
 Meta data for social media sites.
 
@@ -12,23 +12,30 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to add meta data
 
-The extension adds meta data for [Twitter cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards) and the [Open Graph protocol](http://ogp.me/), which is used by Facebook. 
+The extension adds meta data for [Twitter cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards) and the [Open Graph protocol](http://ogp.me/) by Facebook. 
 
-*Note*: For correct page validation the Open Graph protocol requires additional namespace elements in the opening `<html` element. This will be done automatically in a later version. At the moment you have to replace the first line of your `system/layouts/header.html` with the following line: 
-
-    <!DOCTYPE html><html <?php if ($yellow->extensions->isExisting("socialtags")): ?>prefix="og: http://ogp.me/ns# <?php if ($yellow->page->getHtml("layout") == "blog"): ?>article: http://ogp.me/ns/article#<?php endif ?>" <?php endif ?>lang="<?php echo $yellow->page->getHtml("language") ?>">
+You can set `Title`, `Description` and `Image` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. If a page has no image, then the icon of the website is used instead.
 
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`MetaTwitterUser` = Your site's Twitter `@username`, mandatory for Twitter cards display. 
+`MetaTwitterUser` = Twitter username for your website, e.g. `@datenstromse`. 
 
-The following settings can be configured in your `page.txt`: 
+## Example
 
-`MetaTwitterUser` = an optional Twitter `@username` for individual pages, e.g. as author for blog articles. Will be displayed as `twitter:creator` in the Twitter card.  
-`MetaImage` = URL to an image file used for social media. Use this to avoid fetching wrong images by social media sites.  
-`MetaImageAlt` = a short description for your social media image, helps users with disabilities. 
+Content file with meta settings:
+
+    ---
+    Title: Example page
+    Description: Example for your website
+    Image: example.png
+    ---
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+    in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Developer
 
