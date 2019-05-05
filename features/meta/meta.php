@@ -11,7 +11,7 @@ class YellowMeta {
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("metaTwitterUser", "@datenstromse");
+        $this->yellow->system->setDefault("metaTwitterUsername", "datenstromse");
     }
     
     // Handle page extra data
@@ -36,7 +36,7 @@ class YellowMeta {
     // Return meta data for Twitter
     public function getMetaTwitter($page) {
         $output .= "<meta name=\"twitter:card\" content=\"summary\" />\n";
-        $output .= "<meta name=\"twitter:site\" content=\"".$this->yellow->system->getHtml("metaTwitterUser")."\" />\n";
+        $output .= "<meta name=\"twitter:site\" content=\"@".$this->yellow->system->getHtml("metaTwitterUsername")."\" />\n";
         $output .= "<meta name=\"twitter:title\" content=\"".$page->getHtml("title")."\" />\n";
         $output .= "<meta name=\"twitter:description\" content=\"".$page->getHtml("description")."\" />\n";
         $output .= "<meta name=\"twitter:image\" content=\"".$this->getImageUrl($page)."\" />\n";
