@@ -31,9 +31,8 @@ class YellowPreview {
                     $output = "<div class=\"".htmlspecialchars($style)."\">\n";
                     $output .= "<ul>\n";
                     foreach ($pages as $page) {
-                        $image = $page->get("image");
-                        if (!empty($image)) {
-                            $fileName = $this->yellow->system->get("imageDir").$image;
+                        if ($page->isExisting("image")) {
+                            $fileName = $this->yellow->system->get("imageDir").$page->get("image");
                             list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
                         } else {
                             foreach (array("gif", "jpg", "png", "svg") as $fileExtension) {

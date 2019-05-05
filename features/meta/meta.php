@@ -56,18 +56,14 @@ class YellowMeta {
     
     // Return image URL
     public function getImageUrl($page) {
-        $image = $page->get("image");
-        if (!empty($image)) {
-            $imageFileName = $this->yellow->system->get("imageDir").$image;
-            $imageLocation = $this->yellow->system->get("imageLocation").$image;
-        } else {
-            if (preg_match("/\[image(\s.*?)\]/", $page->getContent(true), $matches)) {
-                list($name) = $this->yellow->toolbox->getTextArgs(trim($matches[1]));
-                if (!preg_match("/^\w+:/", $name)) {
-                    $imageFileName = $this->yellow->system->get("imageDir").$name;
-                    $imageLocation = $this->yellow->system->get("imageLocation").$name;
-                }
-            }
+        if ($page->isExisting("image")) {
+            $name = $page->get("image");
+            $imageFileName = $this->yellow->system->get("imageDir").$name;
+            $imageLocation = $this->yellow->system->get("imageLocation").$name;
+        } elseif (preg_match("/\[image(\s.*?)\]/", $page->getContent(true), $matches)) {
+            list($name) = $this->yellow->toolbox->getTextArgs(trim($matches[1]));
+            $imageFileName = $this->yellow->system->get("imageDir").$name;
+            $imageLocation = $this->yellow->system->get("imageLocation").$name;
         }
         if (!is_readable($imageFileName)) {
             $imageLocation = $this->yellow->system->get("resourceLocation").$page->get("theme")."-icon.png";
