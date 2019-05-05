@@ -20,11 +20,11 @@ You can set `Title`, `Description` and `Image` in the [settings](https://develop
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`MetaTwitterUser` = Twitter username for your website  
+`MetaTwitterUser` = your Twitter username of your website  
 
 ## Example
 
-Content file with meta settings:
+Content file with meta data:
 
     ---
     Title: Example page
@@ -37,7 +37,7 @@ Content file with meta settings:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Content file with inline image:
+Content file with meta data from first image:
 
     ---
     Title: Example page
