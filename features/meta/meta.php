@@ -17,7 +17,7 @@ class YellowMeta {
     // Handle page extra data
     public function onParsePageExtra($page, $name) {
         $output = null;
-        if ($name=="header") {
+        if ($name=="header" && !$page->isError()) {
             $output .= $this->getMetaTwitter($page);
             $output .= $this->getMetaOpenGraph($page);
         }
@@ -61,10 +61,12 @@ class YellowMeta {
             $imageFileName = $this->yellow->system->get("imageDir").$image;
             $imageLocation = $this->yellow->system->get("imageLocation").$image;
         } else {
-            foreach (array("gif", "jpg", "png", "svg") as $fileExtension) {
-                $imageFileName = $this->yellow->system->get("imageDir").basename($page->location).".".$fileExtension;
-                $imageLocation = $this->yellow->system->get("imageLocation").basename($page->location).".".$fileExtension;
-                if (is_readable($imageFileName)) break;
+            if (preg_match("/\[image(\s.*?)\]/", $page->getContent(true), $matches)) {
+                list($name) = $this->yellow->toolbox->getTextArgs(trim($matches[1]));
+                if (!preg_match("/^\w+:/", $name)) {
+                    $imageFileName = $this->yellow->system->get("imageDir").$name;
+                    $imageLocation = $this->yellow->system->get("imageLocation").$name;
+                }
             }
         }
         if (!is_readable($imageFileName)) {

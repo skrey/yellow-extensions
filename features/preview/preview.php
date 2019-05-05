@@ -4,15 +4,15 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowPreview {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
 
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
+        $this->yellow->system->setDefault("previewDefaultImage", "preview-image.png");
         $this->yellow->system->setDefault("previewStyle", "stretchable");
-        $this->yellow->system->setDefault("previewDefaultFile", "preview-image.png");
     }
     
     // Handle page content of shortcut
@@ -43,7 +43,7 @@ class YellowPreview {
                             }
                         }
                         if (!is_readable($fileName)) {
-                            $fileName = $this->yellow->system->get("imageDir").$this->yellow->system->get("previewDefaultFile");
+                            $fileName = $this->yellow->system->get("imageDir").$this->yellow->system->get("previewDefaultImage");
                             list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
                         }
                         $title = $page->get("title");

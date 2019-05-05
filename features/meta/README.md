@@ -14,13 +14,13 @@ To uninstall delete the [extension files](extension.ini).
 
 The extension adds meta data for [Twitter cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards) and the [Open Graph protocol](http://ogp.me/) by Facebook. 
 
-You can set `Title`, `Description` and `Image` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. If a page has no image, then the icon of the website is used instead.
+You can set `Title`, `Description` and `Image` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page.
 
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`MetaTwitterUser` = Twitter username for your website, e.g. `@datenstromse`. 
+`MetaTwitterUser` = Twitter username for your website, e.g. `@datenstromse`
 
 ## Example
 

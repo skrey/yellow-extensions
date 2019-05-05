@@ -1,4 +1,4 @@
-Preview 0.8.3
+Preview 0.8.4
 =============
 Show pages with image preview. [See demo](https://developers.datenstrom.se/features/).
 
@@ -23,6 +23,12 @@ The following arguments are available, all arguments are optional:
 `Size` = image size, pixel or percent  
 
 You can set `Title`, `Description` and `Image` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page.
+
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`PreviewDefaultImage` = Default preview image, e.g. `preview-image.png`
 
 ## Examples
 
