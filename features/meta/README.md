@@ -12,7 +12,7 @@ Meta data for social media sites.
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to add meta data
+## How to add meta data for social media sites
 
 The extension generates meta data for the [Open Graph protocol](http://ogp.me/). 
 
@@ -22,7 +22,7 @@ You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](htt
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`MetaDefaultImage` = default image, `icon` to use the website icon  
+`MetaDefaultImage` = page image, `icon` to use the website icon  
 
 The following files can be configured:
 
