@@ -4,14 +4,34 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMeta {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("metaTwitterCard", "summary");
+        $this->yellow->system->setDefault("metaDefaultImage", "icon");
+    }
+    
+    // Handle update
+    public function onUpdate($action) {
+        if ($action=="update") {        //TODO: remove later, converts old settings
+            $path = $this->yellow->system->get("contentDir");
+            foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.md$/", true, false) as $entry) {
+                $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
+                $fileDataNew = preg_replace("/SocialtagsImage:/i", "Image:", $fileDataNew);
+                $fileDataNew = preg_replace("/SocialtagsImageAlt:/i", "ImageAlt:", $fileDataNew);
+                if ($fileData!=$fileDataNew) {
+                    $modified = $this->yellow->toolbox->getFileModified($entry);
+                    if (!$this->yellow->toolbox->deleteFile($entry) ||
+                        !$this->yellow->toolbox->createFile($entry, $fileDataNew) ||
+                        !$this->yellow->toolbox->modifyFile($entry, $modified)) {
+                        $this->yellow->log("error", "Can't write file '$entry'!");
+                    }
+                }
+            }
+        }
     }
     
     // Handle page extra data
@@ -19,7 +39,6 @@ class YellowMeta {
         $output = null;
         if ($name=="header" && !$page->isError()) {
             list($imageUrl, $imageAlt) = $this->getImageInformation($page);
-            $output .= "<meta name=\"twitter:card\" content=\"".$this->yellow->system->getHtml("metaTwitterCard")."\" />\n";
             $output .= "<meta property=\"og:url\" content=\"".htmlspecialchars($page->getUrl().$this->yellow->toolbox->getLocationArgs())."\" />\n";
             $output .= "<meta property=\"og:type\" content=\"website\" />\n";
             $output .= "<meta property=\"og:title\" content=\"".$page->getHtml("title")."\" />\n";
@@ -45,17 +64,16 @@ class YellowMeta {
         if ($page->isExisting("image")) {
             $name = $page->get("image");
             $alt = $page->isExisting("imageAlt") ? $page->get("imageAlt") : $page->get("title");
-            $location = $this->yellow->system->get("imageLocation").$name;
         } elseif (preg_match("/\[image(\s.*?)\]/", $page->getContent(true), $matches)) {
             list($name, $alt) = $this->yellow->toolbox->getTextArgs(trim($matches[1]));
             if (empty($alt)) $alt = $page->get("title");
-            $location = $this->yellow->system->get("imageLocation").$name;
         } else {
-            $name = $page->get("theme")."-icon.png";
-            $alt = $page->get("title");
-            $location = $this->yellow->system->get("resourceLocation").$name;
+            $name = $this->yellow->system->get("metaDefaultImage");
+            $alt = $page->isExisting("imageAlt") ? $page->get("imageAlt") : $page->get("title");
         }
         if (!preg_match("/^\w+:/", $name)) {
+            $location = $name!="icon" ? $this->yellow->system->get("imageLocation").$name :
+                $this->yellow->system->get("resourceLocation").$page->get("theme")."-icon.png";
             $url = $this->yellow->lookup->normaliseUrl(
                 $this->yellow->system->get("serverScheme"),
                 $this->yellow->system->get("serverAddress"),

@@ -1,6 +1,8 @@
-Meta 0.8.6
+Meta 0.8.7
 ==========
 Meta data for social media sites.
+
+<p align="center"><img src="meta-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to install extension
 
@@ -12,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to add meta data
 
-The extension adds meta data for [Open Graph protocol](http://ogp.me/) and [Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards). 
+The extension generates meta data for the [Open Graph protocol](http://ogp.me/). 
 
 You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page.
 
@@ -20,7 +22,11 @@ You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](htt
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`MetaTwitterCard` = type of Twitter card, e.g. `summary`, `summary_large_image`  
+`MetaDefaultImage` = default image, `icon` to use the website icon  
+
+The following files can be configured:
+
+`system/layouts/header.html` = layout file with other meta data
 
 ## Example
 
