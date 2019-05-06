@@ -1,4 +1,4 @@
-Meta 0.8.5
+Meta 0.8.6
 ==========
 Meta data for social media sites.
 
@@ -12,15 +12,15 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to add meta data
 
-The extension adds meta data for [Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards) and the [Open Graph protocol](http://ogp.me/) by Facebook. 
+The extension adds meta data for [Open Graph protocol](http://ogp.me/) and [Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards). 
 
-You can set `Title`, `Description` and `Image` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page.
+You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page.
 
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`MetaTwitterUsername` = your Twitter username  
+`MetaTwitterCard` = type of Twitter card, e.g. `summary`, `summary_large_image`  
 
 ## Example
 

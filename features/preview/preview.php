@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowPreview {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
 
@@ -31,28 +31,12 @@ class YellowPreview {
                     $output = "<div class=\"".htmlspecialchars($style)."\">\n";
                     $output .= "<ul>\n";
                     foreach ($pages as $page) {
-                        if ($page->isExisting("image")) {
-                            $fileName = $this->yellow->system->get("imageDir").$page->get("image");
-                            list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
-                        } else {
-                            foreach (array("gif", "jpg", "png", "svg") as $fileExtension) {
-                                $fileName = $this->yellow->system->get("imageDir").basename($page->location).".".$fileExtension;
-                                list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
-                                if ($width && $height) break;
-                            }
-                        }
-                        if (!is_readable($fileName)) {
-                            $fileName = $this->yellow->system->get("imageDir").$this->yellow->system->get("previewDefaultImage");
-                            list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
-                        }
-                        $title = $page->get("title");
-                        $description = $page->get("description");
+                        list($src, $width, $height, $alt) = $this->getImageInformation($page, $size);
                         $output .= "<li><a href=\"".$page->getLocation(true)."\">";
-                        $output .= "<span class=\"preview-image\"><img src=\"".htmlspecialchars($src)."\" width=\"".
-                            htmlspecialchars($width)."\" height=\"".
-                            htmlspecialchars($height)."\" alt=\"".htmlspecialchars($title)."\" title=\"".
-                            htmlspecialchars($title)."\" /></span><br />";
-                        $output .= "<span class=\"preview-description\">".htmlspecialchars($description)."</span></a></li>\n";
+                        $output .= "<span class=\"preview-image\"><img src=\"".htmlspecialchars($src)."\"";
+                        if ($width && $height) $output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
+                        $output .= " alt=\"".htmlspecialchars($alt)."\" title=\"".htmlspecialchars($alt)."\" /></span><br />";
+                        $output .= "<span class=\"preview-description\">".$page->getHtml("description")."</span></a></li>\n";
                     }
                     $output .= "</ul>\n";
                     $output .= "</div>\n";
@@ -69,5 +53,19 @@ class YellowPreview {
     // Handle page extra data
     public function onParsePageExtra($page, $name) {
         return $this->onParseContentShortcut($page, $name, "", "block");
+    }
+    
+    // Return image information for page
+    public function getImageInformation($page, $size) {
+        $name = $page->isExisting("image") ? $page->get("image") : $this->yellow->system->get("previewDefaultImage");
+        if (!preg_match("/^\w+:/", $name)) {
+            $fileName = $this->yellow->system->get("imageDir").$name;
+            list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($fileName, $size, $size);
+        } else {
+            $src = $this->yellow->lookup->normaliseUrl("", "", "", $name);
+            $width = $height = 0;
+        }
+        $alt = $page->isExisting("imageAlt") ? $page->get("imageAlt") : $page->get("title");
+        return array($src, $width, $height, $alt);
     }
 }

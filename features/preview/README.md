@@ -1,4 +1,4 @@
-Preview 0.8.4
+Preview 0.8.6
 =============
 Show pages with image preview. [See demo](https://developers.datenstrom.se/features/).
 
@@ -22,7 +22,7 @@ The following arguments are available, all arguments are optional:
 `Style` = preview style, e.g. `stretchable`, `simple`  
 `Size` = image size, pixel or percent  
 
-You can set `Title`, `Description` and `Image` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page.
+You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page.
 
 ## Settings
 
