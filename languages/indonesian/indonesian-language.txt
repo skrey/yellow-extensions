@@ -1,7 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: id
-LanguageLocale: 
+LanguageLocale: id_ID
 LanguageDescription: Bahasa Indonesia
 LanguageTranslator: Jimmy Ofisia
 
