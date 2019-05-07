@@ -1,6 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: hu
+LanguageLocale: hu_HU
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
 
@@ -154,7 +155,7 @@ InstallExtensionWebsite: Weboldal
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
-InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install extensions and useful features.\n[Learn more](https://developers.datenstrom.se/help/).
+InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install more features and themes.\n[Learn more](https://developers.datenstrom.se/help/).
 InstallAboutTitle: About
 InstallAboutText: For people who make websites. [edit - Log in].
 InstallFooterTitle: Footer

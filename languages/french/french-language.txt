@@ -1,6 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: fr
+LanguageLocale: fr_FR
 LanguageDescription: Français
 LanguageTranslator: Juh Nibreh
 
@@ -154,7 +155,7 @@ InstallExtensionWebsite: Site web
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Accueil
-InstallHomeText: Votre site web fonctionne !\n\n[edit - Vous pouvez modifier cette page] ou utiliser un éditeur de texte.\n\nVous pouvez installer des extensions et des fonctionnalités utiles.\n[Apprenez-en plus](https://developers.datenstrom.se/fr/help/).
+InstallHomeText: Votre site web fonctionne !\n\n[edit - Vous pouvez modifier cette page] ou utiliser un éditeur de texte.\n\nVous pouvez installer plus de fonctionnalités et de thèmes.\n[Apprenez-en plus](https://developers.datenstrom.se/fr/help/).
 InstallAboutTitle: À propos
 InstallAboutText: Pour les gens qui font des sites web. [edit - Se connecter].
 InstallFooterTitle: Footer

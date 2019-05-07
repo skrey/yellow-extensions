@@ -1,6 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: bn
+LanguageLocale: bn_BD
 LanguageDescription: বাঙালি
 LanguageTranslator: Mohammed Nazmul Ferdous
 
@@ -154,7 +155,7 @@ InstallExtensionWebsite: ওয়েবসাইট
 InstallExtensionBlog: ব্লগ
 InstallExtensionWiki: উইকি
 InstallHomeTitle: Home
-InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install extensions and useful features.\n[Learn more](https://developers.datenstrom.se/help/).
+InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install more features and themes.\n[Learn more](https://developers.datenstrom.se/help/).
 InstallAboutTitle: About
 InstallAboutText: For people who make websites. [edit - Log in].
 InstallFooterTitle: Footer

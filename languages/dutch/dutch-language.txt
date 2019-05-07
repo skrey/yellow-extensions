@@ -1,6 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: nl
+LanguageLocale: nl_BE
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
 
@@ -154,7 +155,7 @@ InstallExtensionWebsite: Website
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
-InstallHomeText: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.\n\nYou can install extensions and useful features.\n[Learn more](https://developers.datenstrom.se/help/).
+InstallHomeText: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.\n\nYou can install more features and themes.\n[Learn more](https://developers.datenstrom.se/help/).
 InstallAboutTitle: Over
 InstallAboutText: Voor mensen die websites maken. [edit - Aanmelden].
 InstallFooterTitle: Footer

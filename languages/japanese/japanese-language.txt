@@ -1,6 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: ja
+LanguageLocale: ja_JP
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
 
@@ -154,7 +155,7 @@ InstallExtensionWebsite: ウェブ
 InstallExtensionBlog: ブログ
 InstallExtensionWiki: ウィキ
 InstallHomeTitle: ホーム
-InstallHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。\n\n拡張機能や便利な機能をインストールすることができます。\n[もっと詳しく](https://developers.datenstrom.se/help/).
+InstallHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。\n\nもっと多くの機能やテーマをインストールすることができます。\n[もっと詳しく](https://developers.datenstrom.se/help/)。
 InstallAboutTitle: について
 InstallAboutText: ウェブサイトを作る人のために。[edit - ログイン]。
 InstallFooterTitle: Footer

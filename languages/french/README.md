@@ -1,4 +1,4 @@
-French 0.8.6
+French 0.8.7
 ============
 French/Français with language 'fr'.
 

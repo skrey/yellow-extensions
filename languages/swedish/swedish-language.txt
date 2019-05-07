@@ -1,6 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: sv
+LanguageLocale: sv_SE
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
 
@@ -154,7 +155,7 @@ InstallExtensionWebsite: Webbsida
 InstallExtensionBlog: Blogg
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Hem
-InstallHomeText: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.\n\nDu kan installera tillägg och praktiska funktioner.\n[Läs mer](https://developers.datenstrom.se/help/).
+InstallHomeText: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.\n\nDu kan installera fler funktioner och teman.\n[Läs mer](https://developers.datenstrom.se/help/).
 InstallAboutTitle: Om
 InstallAboutText: För personer som gör webbplatser. [edit - Logga in].
 InstallFooterTitle: Footer

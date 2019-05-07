@@ -1,4 +1,4 @@
-English 0.8.6
+English 0.8.7
 =============
 English/English with language 'en'.
 

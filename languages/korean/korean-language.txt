@@ -1,6 +1,7 @@
 # Datenstrom Yellow language file
 
 Language: ko
+LanguageLocale: ko_KR
 LanguageDescription: 한국어
 LanguageTranslator: Ludens
 
@@ -154,7 +155,7 @@ InstallExtensionWebsite: 웹 사이트
 InstallExtensionBlog: 블로그
 InstallExtensionWiki: 위키
 InstallHomeTitle: Home
-InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install extensions and useful features.\n[Learn more](https://developers.datenstrom.se/help/).
+InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install more features and themes.\n[Learn more](https://developers.datenstrom.se/help/).
 InstallAboutTitle: About
 InstallAboutText: For people who make websites. [edit - Log in].
 InstallFooterTitle: Footer
