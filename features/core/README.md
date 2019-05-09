@@ -21,8 +21,8 @@ You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tr
 The following settings can be configured in file `system/settings/system.ini`:
 
 `Sitename` = name of the website  
-`Author` = webmaster's name  
-`Email` = webmaster's email  
+`Author` = name of the webmaster  
+`Email` = email of the webmaster  
 `Timezone` = default timezone  
 `Language` = default language  
 `Layout` = default layout  
