@@ -36,6 +36,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditToolbarButtons` = toolbar buttons, `none` to disable  
 `EditNewFile` = content file for new page  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
+`EditUserHome` = default home page for new user account  
 `EditLoginRestriction` = enable [login restriction](https://developers.datenstrom.se/help/security-configuration#login-restriction), 1 or 0  
 `EditLoginSessionTimeout` = login session in seconds  
 `EditBruteForceProtection` = number of failed login attempts  

@@ -23,8 +23,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Sitename` = name of the website  
 `Author` = webmaster's name  
 `Email` = webmaster's email  
-`Language` = default language  
 `Timezone` = default timezone  
+`Language` = default language  
 `Layout` = default layout  
 `Theme` = default theme  
 `SafeMode` = enable [safe mode](https://developers.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
