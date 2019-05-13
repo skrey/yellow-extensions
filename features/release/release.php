@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.8";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -90,9 +90,6 @@ class YellowRelease {
                 preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
                 if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
                     list($dummy, $entry) = explode(",", $matches[2], 3);
-                    if (ctype_upper($matches[1][0])) {  //TODO: remove later, converts old format
-                        list($dummy, $entry) = explode("/", $matches[1], 2);
-                    }
                     if (is_file($path.$entry)) {
                         $published = filemtime($path.$entry);
                         break;
@@ -104,13 +101,6 @@ class YellowRelease {
                 if (lcfirst($matches[1])=="extension") $line = "Extension: ".ucfirst($extension)."\n";
                 if (lcfirst($matches[1])=="version") $line = "Version: $version\n";
                 if (lcfirst($matches[1])=="published") $line = "Published: ".date("Y-m-d H:i:s", $published)."\n";
-                if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/") && $extension!="update" && $extension!="core") {
-                    if (ctype_upper($matches[1][0])) {  //TODO: remove later, converts old format
-                        list($dummy, $entry) = explode("/", $matches[1], 2);
-                        list($fileName, $flags) = explode(",", $matches[2], 2);
-                        $line = "$fileName: $dummy,$entry,$flags\n";
-                    }
-                }
                 $fileDataNew .= $line;
             }
             if ($fileData!=$fileDataNew) {
@@ -316,10 +306,6 @@ class YellowRelease {
             preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
             if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
                 list($dummy, $entry, $flags) = explode(",", $matches[2], 3);
-                if (ctype_upper($matches[1][0])) {  //TODO: remove later, converts old format
-                    list($dummy, $entry) = explode("/", $matches[1], 2);
-                    list($fileName, $flags) = explode(",", $matches[2], 2);
-                }
                 if (!preg_match("/delete/i", $flags)) array_push($entries, "$path$entry");
             }
         }
@@ -335,12 +321,6 @@ class YellowRelease {
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
             if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
-                if (ctype_upper($matches[1][0])) {  //TODO: remove later, converts old format
-                    list($dummy, $entry) = explode("/", $matches[1], 2);
-                    list($fileName, $flags) = explode(",", $matches[2], 2);
-                    $matches[1] = $fileName;
-                    $matches[2] = "$dummy,$entry,$flags";
-                }
                 $waffle .= "$matches[1]: $matches[2]\n";
             }
         }

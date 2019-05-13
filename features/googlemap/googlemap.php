@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowGooglemap {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -15,26 +15,9 @@ class YellowGooglemap {
         $this->yellow->system->setDefault("googlemapStyle", "flexible");
     }
     
-    // Handle update
-    public function onUpdate($action) {
-        if ($action=="update") {        //TODO: remove later, converts old shortcut
-            $path = $this->yellow->system->get("contentDir");
-            foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.md$/", true, false) as $entry) {
-                $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
-                $fileDataNew = preg_replace("/\[googlemaps\s/", "[googlemap ", $fileData);
-                if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
-                    $this->yellow->log("error", "Can't write file '$entry'!");
-                }
-            }
-        }
-    }
-    
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
-        if ($name=="googlemaps" && ($type=="block" || $type=="inline")) {   //TODO: remove later
-            $page->error(500, "Shortcut 'googlemaps' has been renamed to 'googlemap'!");
-        }
         if ($name=="googlemap" && ($type=="block" || $type=="inline")) {
             list($address, $zoom, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
             if (empty($zoom)) $zoom = $this->yellow->system->get("googlemapZoom");

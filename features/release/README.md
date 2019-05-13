@@ -1,4 +1,4 @@
-Release 0.8.7
+Release 0.8.8
 =============
 Create releases for website update.
 

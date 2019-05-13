@@ -1,4 +1,4 @@
-Googlemap 0.8.3
+Googlemap 0.8.4
 ===============
 Embed Google map. [See demo](https://developers.datenstrom.se/features/googlemap).
 
