@@ -111,49 +111,4 @@ The following features are experimental:
 * [Tunein](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
   Embed TuneIn Radio player.
 
-The following features are obsolete:
-
-* [Burgermenu](https://github.com/richi/yellow-plugin-burger-menu): 
-  A hamburger menu button.
-* [Cheetjs](https://github.com/nogginfuel/yellow-plugin-cheetjs): 
-  Add easter eggs via key binds.
-* [Dynamiccss](https://github.com/richi/yellow-plugin-dynamiccss):
-  A (very) small CSS preprocessor.
-* [Events](https://github.com/Xrizzy/yellow-plugin-events):
-  Yellow plugin for events that you have organised.
-* [FAQ](https://github.com/richi/yellow-plugin-faq):
-  Yellow plugin for easy FAQ handling.
-* [Fotorama](https://github.com/nogginfuel/yellow-plugin-fotorama): 
-  A jQuery image gallery with carousel.
-* [Imgpop](https://github.com/bsnosi/yellow-plugin-imgpop):
-  CSS only image popup with dimmed background and subtitle.
-* [InlineAttachment](https://github.com/nibreh/yellow-plugin-inline-attachment): 
-  Drag and drop image upload for editing a page.
-* [jQuery](https://github.com/nogginfuel/yellow-plugin-jquery):
-  Add the power of jQuery to Yellow.
-* [Justified Gallery](https://github.com/nibreh/yellow-plugin-justified-gallery):
-  Add Justified Gallery by Miro to Yellow.
-* [Leaflet](https://github.com/nibreh/yellow-plugin-leaflet): 
-  Embed maps and add markers with Leaflet & OpenStreetMap.
-* [Maintenance](https://github.com/nogginfuel/yellow-plugin-maintenance):
-  Maintenance status for entire site or single page.
-* [Markbar](https://github.com/nibreh/yellow-plugin-markbar):
-  WYSIWYG style toolbar for editing a page.
-* [Medialist](https://github.com/nibreh/yellow-plugin-medialist):
-  Create a list of MP3/OGG/PDF media files.
-* [Pagetxt](https://github.com/richi/yellow-plugin-pagetxt):
-  Overwrite language entries in a page.
-* [Skipto](https://github.com/schulle4u/yellow-plugin-skipto):
-  Enhance keyboard navigation.
-* [Streamlist](https://github.com/nibreh/yellow-plugin-streamlist):
-  Stream your favorite radios in a playlist with HTML5 audio.
-* [Sublime](https://github.com/nashv/YellowBlogExtensions):
-  Sublime Text 3 Extensions for blogs based on Yellow.
-* [Video](https://github.com/nibreh/yellow-plugin-video): 
-  HTML5 video player.
-* [Webcli](https://github.com/richi/yellow-plugin-cli):
-  Use the command line interface without shell access.
-* [YCSSG](https://github.com/dieli/yellow-extension-ycssg):
-  Image gallery in CSS only.
-
 Want to make a new feature? [Use the example extension](https://github.com/schulle4u/yellow-extension-example).
