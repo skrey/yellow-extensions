@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to edit a website
 
-The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. To show an edit link add an `[edit]` shortcut to a page. See examples below.
+The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. To show an edit link add an `[edit]` shortcut to a page. [Learn more](https://developers.datenstrom.se/help/how-to-make-a-website).
 
 ## How to create a user account
 
