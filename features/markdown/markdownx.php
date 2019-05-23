@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMarkdownx {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.5";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -2706,6 +2706,7 @@ class YellowMarkdownxExtra extends ParsedownExtra {
         $this->page = $page;
         $this->idAttributes = array();
         $this->setSafeMode($page->safeMode);
+        $this->BlockTypes["!"][] = "Notice";
         $this->BlockTypes["["][] = "ShortcutText";
         $this->InlineTypes["["][]= "ShortcutText";
         $this->inlineMarkerList .= "[";
@@ -2750,8 +2751,8 @@ class YellowMarkdownxExtra extends ParsedownExtra {
         } elseif (preg_match("/\[\-\-(.*?)\-\-\]/", $Excerpt["text"], $matches)) {
             $output = "<!--".htmlspecialchars($matches[1], ENT_NOQUOTES)."-->";
             $Block = array(
-                 "element" => array("rawHtml" => $output, "allowRawHtmlInSafeMode" => true),
-                 "extent" => strlen($matches[0]),
+                "element" => array("rawHtml" => $output, "allowRawHtmlInSafeMode" => true),
+                "extent" => strlen($matches[0]),
             );
         }
         return $Block;
@@ -2765,7 +2766,7 @@ class YellowMarkdownxExtra extends ParsedownExtra {
             if (!is_null($output)) {
                 $Block = array(
                     "element" => array("rawHtml" => $output, "allowRawHtmlInSafeMode" => true),
-                     "extent" => strlen($matches[0]),
+                    "extent" => strlen($matches[0]),
                 );
             }
         }
@@ -2808,6 +2809,33 @@ class YellowMarkdownxExtra extends ParsedownExtra {
             }
         }
         return $Block;
+    }
+    
+    // Handle notice blocks
+    protected function blockNotice($Line, $Block) {
+        $Block = null;
+        if (preg_match("/^(!{1,6})([\w\-]*)[ ]?(.*)$/", $Line["text"], $matches)) {
+            $class = empty($matches[2]) ? "notice-".strlen($matches[1]) : $matches[2];
+            $Block = array(
+                "element" => array(
+                    "name" => "div",
+                    "attributes" => array("class" => $class),
+                    "handler" => array("function" => "linesElements", "argument" => (array)$matches[3], "destination" => "elements"),
+                ),
+            );
+        }
+        return $Block;
+    }
+    
+    // Handle notice blocks over multiple lines
+    protected function blockNoticeContinue($Line, $Block) {
+        if ($Line["text"][0]=="!" && preg_match("/^(!{1,6})([\w\-]*)[ ]?(.*)$/", $Line["text"], $matches)) {
+            $class = empty($matches[2]) ? "notice-".strlen($matches[1]) : $matches[2];
+            if ($class==$Block["element"]["attributes"]["class"] && !isset($Block["interrupted"])) {
+                $Block["element"]["handler"]["argument"][] = $matches[3];
+                return $Block;
+            }
+        }
     }
     
     // Handle headers, atx style
