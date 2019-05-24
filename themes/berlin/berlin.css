@@ -103,18 +103,6 @@ a:hover {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
-.content blockquote {
-    margin-left: 0;
-    padding-left: 1em;
-    border-left: 0.5em solid #0a0;
-}
-.content blockquote blockquote {
-    margin-left: -1.5em;
-    border-left: 0.5em solid #fb0;
-}
-.content blockquote blockquote blockquote {
-    border-color: #d00;
-}
 .content code,
 .content pre {
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -139,6 +127,35 @@ a:hover {
     overflow: auto;
     line-height: 1.45;
     background-color: #f2f2f2;
+    border-radius: 3px;
+}
+.content blockquote {
+    margin-left: 0;
+    padding-left: 1em;
+    border-left: 1px solid #ddd;
+}
+.content .notice1 {
+    margin: 1em 0;
+    padding: 10px 1em;
+    background-color: #fffbf0;
+    color: #e90;
+    border-radius: 3px;
+}
+.content .notice2 {
+    margin: 1em 0;
+    padding: 10px 1em;
+    background-color: #fdf0f0;
+    color: #c00;
+    border-radius: 3px;
+}
+.content .notice3,
+.content .notice4,
+.content .notice5,
+.content .notice6 {
+    margin: 1em 0;
+    padding: 10px 1em;
+    background-color: #f0f8fe;
+    color: #07d;
     border-radius: 3px;
 }
 .content .flexible {

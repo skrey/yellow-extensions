@@ -107,13 +107,6 @@ a:hover {
     border-top: 1px solid #bbb;
     border-bottom: 1px solid #bbb;
 }
-.content blockquote {
-    background-image: url(paris-quote.png);
-    background-position: top left;
-    background-repeat: no-repeat;
-    text-indent: 30px;
-    color: #777;
-}
 .content code,
 .content pre {
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -139,6 +132,37 @@ a:hover {
     line-height: 1.45;
     background-color: #f7f7f7;
     border-radius: 3px;
+}
+.content blockquote {
+    background-image: url(paris-quote.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-indent: 30px;
+    color: #777;
+}
+.content .notice1 {
+    margin: 1em 0;
+    padding: 10px 1em;
+    background-color: #fffbf0;
+    color: #e90;
+    border-left: 10px solid #fb0;
+}
+.content .notice2 {
+    margin: 1em 0;
+    padding: 10px 1em;
+    background-color: #fdf3f2;
+    color: #c21;
+    border-left: 10px solid #d32;
+}
+.content .notice3,
+.content .notice4,
+.content .notice5,
+.content .notice6 {
+    margin: 1em 0;
+    padding: 10px 1em;
+    background-color: #f7f7f7;
+    color: #666;
+    border-left: 10px solid #777;
 }
 .content .flexible {
     position: relative;

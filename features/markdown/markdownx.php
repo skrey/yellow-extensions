@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMarkdownx {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -2814,25 +2814,30 @@ class YellowMarkdownxExtra extends ParsedownExtra {
     // Handle notice blocks
     protected function blockNotice($Line, $Block) {
         $Block = null;
-        if (preg_match("/^(!{1,6})([\w\-]*)[ ]?(.*)$/", $Line["text"], $matches)) {
-            $class = empty($matches[2]) ? "notice-".strlen($matches[1]) : $matches[2];
+        if (preg_match("/^(!{1,6})[ ]?(.*)$/", $Line["text"], $matches)) {
+            $openerLength = strlen($matches[1]);
             $Block = array(
+                "openerLength" => $openerLength,
                 "element" => array(
                     "name" => "div",
-                    "attributes" => array("class" => $class),
-                    "handler" => array("function" => "linesElements", "argument" => (array)$matches[3], "destination" => "elements"),
+                    "attributes" => array("class" => "notice$openerLength"),
+                    "handler" => array("function" => "linesElements", "argument" => (array)$matches[2], "destination" => "elements"),
                 ),
             );
+            if (preg_match("/^[ ]*{(".$this->regexAttribute."+)}[ ]*$/", $matches[2], $matches)) {
+                $Block["element"]["attributes"] = $this->parseAttributeData($matches[1]);
+                $Block["element"]["handler"]["argument"] = array();
+            }
         }
         return $Block;
     }
     
     // Handle notice blocks over multiple lines
     protected function blockNoticeContinue($Line, $Block) {
-        if ($Line["text"][0]=="!" && preg_match("/^(!{1,6})([\w\-]*)[ ]?(.*)$/", $Line["text"], $matches)) {
-            $class = empty($matches[2]) ? "notice-".strlen($matches[1]) : $matches[2];
-            if ($class==$Block["element"]["attributes"]["class"] && !isset($Block["interrupted"])) {
-                $Block["element"]["handler"]["argument"][] = $matches[3];
+        if ($Line["text"][0]=="!" && preg_match("/^(!{1,6})[ ]?(.*)$/", $Line["text"], $matches)) {
+            $openerLength = strlen($matches[1]);
+            if ($openerLength==$Block["openerLength"] && !isset($Block["interrupted"])) {
+                $Block["element"]["handler"]["argument"][] = $matches[2];
                 return $Block;
             }
         }
