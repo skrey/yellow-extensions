@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMarkdownx {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -2813,33 +2813,34 @@ class YellowMarkdownxExtra extends ParsedownExtra {
     
     // Handle notice blocks
     protected function blockNotice($Line, $Block) {
-        $Block = null;
-        if (preg_match("/^(!{1,6})[ ]?(.*)$/", $Line["text"], $matches)) {
-            $openerLength = strlen($matches[1]);
+        if (preg_match("/^!(?!\[)[ ]?+(.*+)/", $Line["text"], $matches)) {
+            $recursive = is_null($Block);
             $Block = array(
-                "openerLength" => $openerLength,
                 "element" => array(
                     "name" => "div",
-                    "attributes" => array("class" => "notice$openerLength"),
-                    "handler" => array("function" => "linesElements", "argument" => (array)$matches[2], "destination" => "elements"),
+                    "handler" => array("function" => "linesElements", "argument" => (array)$matches[1], "destination" => "elements"),
                 ),
             );
-            if (preg_match("/^[ ]*{(".$this->regexAttribute."+)}[ ]*$/", $matches[2], $matches)) {
+            if (preg_match("/^[ ]*{(".$this->regexAttribute."+)}[ ]*$/", $matches[1], $matches)) {
                 $Block["element"]["attributes"] = $this->parseAttributeData($matches[1]);
                 $Block["element"]["handler"]["argument"] = array();
+            } elseif (!$recursive) {
+                $level = strspn(str_replace(array(" ", "!["), "", $Line["text"]), "!");
+                $Block["element"]["attributes"] = array("class" => "notice$level");
             }
+            return $Block;
         }
-        return $Block;
     }
     
     // Handle notice blocks over multiple lines
     protected function blockNoticeContinue($Line, $Block) {
-        if ($Line["text"][0]=="!" && preg_match("/^(!{1,6})[ ]?(.*)$/", $Line["text"], $matches)) {
-            $openerLength = strlen($matches[1]);
-            if ($openerLength==$Block["openerLength"] && !isset($Block["interrupted"])) {
-                $Block["element"]["handler"]["argument"][] = $matches[2];
-                return $Block;
-            }
+        if (preg_match("/^!(?!\[)[ ]?+(.*+)/", $Line["text"], $matches) && !isset($Block["interrupted"])) {
+            $Block["element"]["handler"]["argument"][] = $matches[1];
+            return $Block;
+        }
+        if (!isset($Block["interrupted"])) {
+            $Block["element"]["handler"]["argument"][] = $Line["text"];
+            return $Block;
         }
     }
     
@@ -2849,7 +2850,9 @@ class YellowMarkdownxExtra extends ParsedownExtra {
         if ($Block) {
             $level = strspn($Line["text"], "#");
             $text = trim($Line["text"], "#");
-            $Block["element"]["attributes"] = array("id" => $this->getIdAttribute($text, $level));
+            if (!isset($Block["element"]["attributes"]) && $level>=2 && $level<=3) {
+                $Block["element"]["attributes"] = array("id" => $this->getIdAttribute($text));
+            }
         }
         return $Block;
     }
@@ -2860,7 +2863,9 @@ class YellowMarkdownxExtra extends ParsedownExtra {
         if ($Block) {
             $text = $Block["element"]["handler"]["argument"];
             $level = $Line["text"][0]=="=" ? 1 : 2;
-            $Block["element"]["attributes"] = array("id" => $this->getIdAttribute($text, $level));
+            if (!isset($Block["element"]["attributes"]) && $level>=2 && $level<=3) {
+                $Block["element"]["attributes"] = array("id" => $this->getIdAttribute($text));
+            }
         }
         return $Block;
     }
@@ -2897,10 +2902,10 @@ class YellowMarkdownxExtra extends ParsedownExtra {
     }
     
     // Return unique id attribute
-    protected function getIdAttribute($text, $level) {
+    protected function getIdAttribute($text) {
         $text = $this->yellow->lookup->normaliseName($text, true, false, true);
         $text = trim(preg_replace("/-+/", "-", $text), "-");
-        if (is_null($this->idAttributes[$text]) && $level>=2 && $level<=3) {
+        if (is_null($this->idAttributes[$text])) {
             $this->idAttributes[$text] = $text;
         } else {
             $text = null;
