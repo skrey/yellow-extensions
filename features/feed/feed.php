@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowFeed {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -67,9 +67,10 @@ class YellowFeed {
                 $pages->pagination($this->yellow->system->get("feedPaginationLimit"));
                 if (!$pages->getPaginationNumber()) $this->yellow->page->error(404);
                 if (!empty($pagesFilter)) {
-                    $title = implode(" ", $pagesFilter);
-                    $this->yellow->page->set("titleHeader", $title." - ".$this->yellow->page->get("sitename"));
-                    $this->yellow->page->set("titleContent", $this->yellow->page->get("title").": ".$title);
+                    $text = implode(" ", $pagesFilter);
+                    $this->yellow->page->set("titleHeader", $text." - ".$this->yellow->page->get("sitename"));
+                    $this->yellow->page->set("titleContent", $this->yellow->page->get("title").": ".$text);
+                    $this->yellow->page->set("title", $this->yellow->page->get("title").": ".$text);
                 }
                 $this->yellow->page->set("feedChronologicalOrder", $chronologicalOrder);
                 $this->yellow->page->setPages($pages);

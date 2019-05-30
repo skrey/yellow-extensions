@@ -1,4 +1,4 @@
-Blog 0.8.3
+Blog 0.8.4
 ==========
 Blog for your website. [See demo](https://developers.datenstrom.se/features/blog/).
 

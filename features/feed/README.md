@@ -1,4 +1,4 @@
-Feed 0.8.3
+Feed 0.8.4
 ==========
 Web feed with recent changes. [See demo](https://developers.datenstrom.se/feed/).
 

@@ -1,4 +1,4 @@
-Search 0.8.2
+Search 0.8.4
 ============
 Full-text search. [See demo](https://developers.datenstrom.se/features/search).
 
