@@ -53,14 +53,6 @@ EditRecoverPassword: 密码:
 EditRecoverStatusPassword: 请输入一个新密码
 EditRecoverStatusWeak: 请输入一个不同的密码
 EditRecoverStatusDone: 用户帐号已重置，谢谢！
-EditSettingsTitle: 设置
-EditAccountTitle: User account
-EditAccountQuit: You can delete your user account anytime.
-EditAccountMore: More…
-EditAccountStatusInvalid: 请输入一个有效的e-mail地址
-EditAccountStatusTaken: 请输入不同的e-mail地址
-EditAccountStatusWeak: 请输入不同的密码
-EditAccountStatusNext: 用户帐号将被更改，请查看您的电子邮件
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
@@ -95,17 +87,25 @@ EditWelcomeSubject: 欢迎
 EditWelcomeMessage: 你好 @usershort,\n\n你的帐号已创建完毕，建站愉快。
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
-EditAboutTitle: 关于本站
-EditAboutStatusNone: Datenstrom Yellow is for people who make websites.
-EditAboutStatusCheck: 正在检查更新…
-EditAboutStatusDone: 已是最新版
-EditAboutStatusWarning：有更新可用，请更新您的网站。
-EditAboutStatusUpdates：有更新可用，现在更新。
-EditAboutUpdateForce: 强制更新
-EditAboutUpdateModified: @extension 已被更改
-EditUploadProgress: [上传文件…]
+EditAccountTitle: 用户设置
+EditAccountQuit: 删除用户帐户？
+EditAccountUpdate: 检查更新？
+EditAccountStatusNone: 您可以在此处更改您的用户帐户。
+EditAccountStatusInvalid: 请输入一个有效的e-mail地址
+EditAccountStatusTaken: 请输入不同的e-mail地址
+EditAccountStatusWeak: 请输入不同的密码
+EditAccountStatusNext: 用户帐号将被更改，请查看您的电子邮件
+EditUpdateTitle: 更新
+EditUpdateStatusNone: Datenstrom Yellow is for people who make websites.
+EditUpdateStatusCheck: 正在检查更新…
+EditUpdateStatusWarning：有更新可用，请更新您的网站。
+EditUpdateStatusUpdates：有更新可用，现在更新。
+EditUpdateStatusOk: 已是最新版
+EditUpdateForce: 强制更新
+EditUpdateModified: @extension 已被更改
 EditOkButton: 确定
 EditCancelButton: 取消
+EditChangeButton: 更改
 EditCreateButton: 创建
 EditEditButton: 保存
 EditDeleteButton: 删除
@@ -139,6 +139,9 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: 帮助
+EditDataGenerated: 此页面自动生成。
+EditUploadProgress: [上传文件…]
+EditMenuSettings: 设置
 EditMenuHelp: 帮助
 EditMenuLogout: 登出
 Error404Title: 文件未找到

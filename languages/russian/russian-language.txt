@@ -52,14 +52,6 @@ EditRecoverTitle: Забыли пароль
 EditRecoverPassword: Пароль:
 EditRecoverStatusPassword: Пожалуйста, введите новый пароль.
 EditRecoverStatusWeak: Пожалуйста, введите другой пароль.
-EditSettingsTitle: Настройки
-EditAccountTitle: Учетная запись пользователя
-EditAccountQuit: Вы можете удалить свою учетную запись в любое время.
-EditAccountMore: Больше…
-EditAccountStatusInvalid: Пожалуйста, введите действительный адрес Email.
-EditAccountStatusTaken: Введите другой адрес электронной почты.
-EditAccountStatusWeak: Введите другой пароль.
-EditAccountStatusNext: Учетная запись пользователя будет изменена, проверьте электронную почту.
 EditRecoverStatusDone: Учетная запись восстановлена. Спасибо!
 EditQuitTitle: Удалить учетную запись пользователя
 EditQuitStatusNone: Введите свое имя для подтверждения.
@@ -95,17 +87,25 @@ EditWelcomeSubject: Добро пожаловать
 EditWelcomeMessage: Привет @usershort,\n\nваша учетная запись создана. Получайте удовольствие редактируя сайт.
 EditGoodbyeSubject: До свидания
 EditGoodbyeMessage: Привет @usershort,\n\nваша учетная запись была удалена. Берегите себя.
-EditAboutTitle: Об этом сайте
-EditAboutStatusNone: Datenstrom Yellow предназначен для людей, создающих веб-сайты.
-EditAboutStatusCheck: Проверка обновлений…
-EditAboutStatusDone: Ваш сайт обновлен.
-EditAboutStatusWarning: Доступны обновления, пожалуйста, обновите свой сайт.
-EditAboutStatusUpdates: Доступны обновления, обновите сейчас.
-EditAboutUpdateForce: Принудительно обновить
-EditAboutUpdateModified: @extension был изменен
-EditUploadProgress: [Загрузка файла...]
+EditAccountTitle: Пользовательские настройки
+EditAccountQuit: Удалить пользователя?
+EditAccountUpdate: Проверить наличие обновлений?
+EditAccountStatusNone: Здесь вы можете изменить свою учетную запись.
+EditAccountStatusInvalid: Пожалуйста, введите действительный адрес Email.
+EditAccountStatusTaken: Введите другой адрес электронной почты.
+EditAccountStatusWeak: Введите другой пароль.
+EditAccountStatusNext: Учетная запись пользователя будет изменена, проверьте электронную почту.
+EditUpdateTitle: Обновления
+EditUpdateStatusNone: Datenstrom Yellow предназначен для людей, создающих веб-сайты.
+EditUpdateStatusCheck: Проверка обновлений…
+EditUpdateStatusWarning: Доступны обновления, пожалуйста, обновите свой сайт.
+EditUpdateStatusUpdates: Доступны обновления, обновите сейчас.
+EditUpdateStatusOk: Ваш сайт обновлен.
+EditUpdateForce: Принудительно обновить
+EditUpdateModified: @extension был изменен
 EditOkButton: Ok
 EditCancelButton: Отмена
+EditChangeButton: Изменить
 EditCreateButton: Создать
 EditEditButton: Сохранить
 EditDeleteButton: Удалить
@@ -139,6 +139,9 @@ EditToolbarRedo: Повторить
 EditToolbarPreview: Просмотр
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Помощь
+EditDataGenerated: Эта страница генерируется автоматически.
+EditUploadProgress: [Загрузка файла...]
+EditMenuSettings: Настройки
 EditMenuHelp: Помощь
 EditMenuLogout: Выход
 Error404Title: Файл не найден

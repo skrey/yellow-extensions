@@ -53,14 +53,6 @@ EditRecoverPassword: Contraseña:
 EditRecoverStatusPassword: Por favor introduce una nueva contraseña.
 EditRecoverStatusWeak: Por favor introduce una contraseña distinta.
 EditRecoverStatusDone: Cuenta de usuario recuperada. ¡Gracias!
-EditSettingsTitle: Configuraciones
-EditAccountTitle: Cuenta de usuario
-EditAccountQuit: You can delete your user account anytime.
-EditAccountMore: More…
-EditAccountStatusInvalid: Please enter a valid email.
-EditAccountStatusTaken: Please enter a different email.
-EditAccountStatusWeak: Please enter a different password.
-EditAccountStatusNext: User account will be changed, please check your emails.
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
@@ -95,17 +87,25 @@ EditWelcomeSubject: Bienvenido
 EditWelcomeMessage: Hola @usershort,\n\ntu cuenta de usuario ha sido creada. Diviértete editando el sitio web.
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
-EditAboutTitle: About this website
-EditAboutStatusNone: Datenstrom Yellow is for people who make websites.
-EditAboutStatusCheck: Checking for updates…
-EditAboutStatusDone: Your website is up to date.
-EditAboutStatusWarning: Updates available, please update your website.
-EditAboutStatusUpdates: Updates available, update now.
-EditAboutUpdateForce: Force update
-EditAboutUpdateModified: @extension has been modified
-EditUploadProgress: [Subir archivo…]
+EditAccountTitle: User settings
+EditAccountQuit: Delete user account?
+EditAccountUpdate: Check for updates?
+EditAccountStatusNone: Here you can change your user account.
+EditAccountStatusInvalid: Please enter a valid email.
+EditAccountStatusTaken: Please enter a different email.
+EditAccountStatusWeak: Please enter a different password.
+EditAccountStatusNext: User account will be changed, please check your emails.
+EditUpdateTitle: Updates
+EditUpdateStatusNone: Datenstrom Yellow is for people who make websites.
+EditUpdateStatusCheck: Checking for updates…
+EditUpdateStatusWarning: Updates available, please update your website.
+EditUpdateStatusUpdates: Updates available, update now.
+EditUpdateStatusOk: Your website is up to date.
+EditUpdateForce: Force update
+EditUpdateModified: @extension has been modified
 EditOkButton: Ok
 EditCancelButton: Cancelar
+EditChangeButton: Cambiar
 EditCreateButton: Crear
 EditEditButton: Guardar
 EditDeleteButton: Borrar
@@ -139,6 +139,9 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Ayuda
+EditDataGenerated: Esta página se genera automáticamente.
+EditUploadProgress: [Subir archivo…]
+EditMenuSettings: Configuraciones
 EditMenuHelp: Ayuda
 EditMenuLogout: Salir
 Error404Title: Archivo no encontrado

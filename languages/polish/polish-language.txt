@@ -53,14 +53,6 @@ EditRecoverPassword: Hasło:
 EditRecoverStatusPassword: Prosze podać nowe hasło.
 EditRecoverStatusWeak: Proszę podać inne hasło.
 EditRecoverStatusDone: Konto użytkownika zostało przywrócone. Dziękujemy!
-EditSettingsTitle: Ustawienia
-EditAccountTitle: Konto użytkownika
-EditAccountQuit: You can delete your user account anytime.
-EditAccountMore: More…
-EditAccountStatusInvalid: Proszę podać poprawny adres email.
-EditAccountStatusTaken: Proszę podać inny email.
-EditAccountStatusWeak: Proszę podać inne hasło.
-EditAccountStatusNext: Konto użytkownika zostanie zmienione, proszę sprawdzić pocztę.
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
@@ -95,17 +87,25 @@ EditWelcomeSubject: Powitanie
 EditWelcomeMessage: Hej @usershort!\n\nTwoje konto użytkownika zostało utworzone. Miłej edycji strony.
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
-EditAboutTitle: O tej stronie
-EditAboutStatusNone: Datenstrom Yellow jest dla ludzi, którzy tworzą strony internetowe.
-EditAboutStatusCheck: Sprawdzanie aktualizacji…
-EditAboutStatusDone: Twoja strona jest aktualna.
-EditAboutStatusWarning: Aktualizacje są dostępne, zaktualizuj swoją witrynę.
-EditAboutStatusUpdates: Aktualizacje są dostępne, aktualizuj teraz.
-EditAboutUpdateForce: Wymuś aktualizację
-EditAboutUpdateModified: @extension został zmodyfikowany
-EditUploadProgress: [Przesyłanie pliku…]
+EditAccountTitle: Ustawienia użytkownika
+EditAccountQuit: Usunąć konto użytkownika?
+EditAccountUpdate: Sprawdź aktualizacje?
+EditAccountStatusNone: Tutaj możesz zmienić swoje konto użytkownika.
+EditAccountStatusInvalid: Proszę podać poprawny adres email.
+EditAccountStatusTaken: Proszę podać inny email.
+EditAccountStatusWeak: Proszę podać inne hasło.
+EditAccountStatusNext: Konto użytkownika zostanie zmienione, proszę sprawdzić pocztę.
+EditUpdateTitle: Aktualizacje
+EditUpdateStatusNone: Datenstrom Yellow jest dla ludzi, którzy tworzą strony internetowe.
+EditUpdateStatusCheck: Sprawdzanie aktualizacji…
+EditUpdateStatusWarning: Aktualizacje są dostępne, zaktualizuj swoją witrynę.
+EditUpdateStatusUpdates: Aktualizacje są dostępne, aktualizuj teraz.
+EditUpdateStatusOk: Twoja strona jest aktualna.
+EditUpdateForce: Wymuś aktualizację
+EditUpdateModified: @extension został zmodyfikowany
 EditOkButton: Ok
 EditCancelButton: Anuluj
+EditChangeButton: Zmień
 EditCreateButton: Utwórz
 EditEditButton: Zapisz
 EditDeleteButton: Usuń
@@ -139,6 +139,9 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Pomoc
+EditDataGenerated: Ta strona jest generowana automatycznie.
+EditUploadProgress: [Przesyłanie pliku…]
+EditMenuSettings: Ustawienia
 EditMenuHelp: Pomoc
 EditMenuLogout: Wyloguj
 Error404Title: Nie znaleziono pliku

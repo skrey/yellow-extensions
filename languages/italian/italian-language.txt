@@ -53,14 +53,6 @@ EditRecoverPassword: Password:
 EditRecoverStatusPassword: Inserisci per favore una nuova password.
 EditRecoverStatusWeak: Inserisci per favore una password diversa.
 EditRecoverStatusDone: Account utente recuperato. Grazie!
-EditSettingsTitle: Impostazioni
-EditAccountTitle: Account utente
-EditAccountQuit: Puoi cancellare il tuo account utente in qualsiasi momento.
-EditAccountMore: Altro…
-EditAccountStatusInvalid: Inserisci per favore un indirizzo email valido.
-EditAccountStatusTaken: Inserisci per favore un indirizzo email diverso.
-EditAccountStatusWeak: Inserisci per favore una password diversa.
-EditAccountStatusNext: L'account utente sarà modificato, controlla per favore la tua posta elettronica.
 EditQuitTitle: Cancella l'account utente
 EditQuitStatusNone: Inserisci per favore il tuo nome per conferma.
 EditQuitStatusMismatch: Inserisci per favore un nome diverso.
@@ -95,17 +87,25 @@ EditWelcomeSubject: Benvenuto
 EditWelcomeMessage: Ciao @usershort,\n\nil tuo account utente è stato creato. Buon lavoro!
 EditGoodbyeSubject: Arrivederci!
 EditGoodbyeMessage: Ciao @usershort,\n\nil tuo account utente è stato cancellato. Arrivederci!
-EditAboutTitle: Informazioni su questo sito
-EditAboutStatusNone: Datenstrom Yellow è per le persone che creano siti web.
-EditAboutStatusCheck: Controllo degli aggiornamenti in corso…
-EditAboutStatusDone: Il tuo sito è aggiornato.
-EditAboutStatusWarning: Ci sono aggiornamenti disponibili, per favore aggiorna il tuo sito.
-EditAboutStatusUpdates: Ci sono aggiornamenti disponibili, aggiorna adesso.
-EditAboutUpdateForce: Forza l'aggiornamento
-EditAboutUpdateModified: @extension è stato modificato
-EditUploadProgress: [Caricamento del file in corso…]
+EditAccountTitle: Impostazioni utente
+EditAccountQuit: Elimina l'account utente?
+EditAccountUpdate: Controlla gli aggiornamenti?
+EditAccountStatusNone: Qui puoi cambiare il tuo account utente.
+EditAccountStatusInvalid: Inserisci per favore un indirizzo email valido.
+EditAccountStatusTaken: Inserisci per favore un indirizzo email diverso.
+EditAccountStatusWeak: Inserisci per favore una password diversa.
+EditAccountStatusNext: L'account utente sarà modificato, controlla per favore la tua posta elettronica.
+EditUpdateTitle: Aggiornamenti
+EditUpdateStatusNone: Datenstrom Yellow è per le persone che creano siti web.
+EditUpdateStatusCheck: Controllo degli aggiornamenti in corso…
+EditUpdateStatusWarning: Ci sono aggiornamenti disponibili, per favore aggiorna il tuo sito.
+EditUpdateStatusUpdates: Ci sono aggiornamenti disponibili, aggiorna adesso.
+EditUpdateStatusOk: Il tuo sito è aggiornato.
+EditUpdateForce: Forza l'aggiornamento
+EditUpdateModified: @extension è stato modificato
 EditOkButton: Ok
 EditCancelButton: Annulla
+EditChangeButton: Cambia
 EditCreateButton: Crea
 EditEditButton: Salva
 EditDeleteButton: Elimina
@@ -139,6 +139,9 @@ EditToolbarRedo: Ripeti
 EditToolbarPreview: Anteprima
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Aiuto
+EditDataGenerated: Questa pagina è generata automaticamente.
+EditUploadProgress: [Caricamento del file in corso…]
+EditMenuSettings: Impostazioni
 EditMenuHelp: Aiuto
 EditMenuLogout: Esci
 Error404Title: Pagina non trovata

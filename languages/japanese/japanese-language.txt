@@ -53,14 +53,6 @@ EditRecoverPassword: パスワード:
 EditRecoverStatusPassword: 新しいパスワードをご入力下さい。
 EditRecoverStatusWeak: 別のパスワードをご入力下さい。
 EditRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！
-EditSettingsTitle: 設定
-EditAccountTitle: ユーザーアカウント
-EditAccountQuit: You can delete your user account anytime.
-EditAccountMore: More…
-EditAccountStatusInvalid: 正しいメールアドレスをご入力下さい。
-EditAccountStatusTaken: 別のメールアドレスをご入力下さい。
-EditAccountStatusWeak: 別のパスワードをご入力下さい。
-EditAccountStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
 EditQuitStatusMismatch: Please enter a different name.
@@ -95,17 +87,25 @@ EditWelcomeSubject: ようこそ！
 EditWelcomeMessage: こんにちは @usershort さん。\n\nあなたのユーザーアカウントが作成されています。ログインしてウェブサイトを完成させて下さい。
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
-EditAboutTitle: 最新バージョンの確認
-EditAboutStatusNone: Datenstrom Yellow でウェブサイトを作る
-EditAboutStatusCheck: アップデートの確認中…
-EditAboutStatusDone: 最新のバージョンです。
-EditAboutStatusWarning：利用可能なアップデート, あなたのウェブサイトを更新してください。
-EditAboutStatusUpdates： 利用可能なアップデート,今直ぐアップデートする。
-EditAboutUpdateForce: アップデートする！
-EditAboutUpdateModified: @extension が変更されました
-EditUploadProgress: [ファイルをアップロード中…]
+EditAccountTitle: ユーザー設定
+EditAccountQuit: ユーザーを削除しますか？
+EditAccountUpdate: アップデートを確認？
+EditAccountStatusNone: ここでユーザーアカウントを変更できます。
+EditAccountStatusInvalid: 正しいメールアドレスをご入力下さい。
+EditAccountStatusTaken: 別のメールアドレスをご入力下さい。
+EditAccountStatusWeak: 別のパスワードをご入力下さい。
+EditAccountStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
+EditUpdateTitle: 更新情報
+EditUpdateStatusNone: Datenstrom Yellow でウェブサイトを作る
+EditUpdateStatusCheck: アップデートの確認中…
+EditUpdateStatusWarning：利用可能なアップデート, あなたのウェブサイトを更新してください。
+EditUpdateStatusUpdates： 利用可能なアップデート,今直ぐアップデートする。
+EditUpdateStatusOk: 最新のバージョンです。
+EditUpdateForce: アップデートする！
+EditUpdateModified: @extension が変更されました
 EditOkButton: Ok
 EditCancelButton: キャンセル
+EditChangeButton: 変更
 EditCreateButton: 作成
 EditEditButton: 保存
 EditDeleteButton: 削除
@@ -139,6 +139,9 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: ヘルプ
+EditDataGenerated: このページは自動的に生成されます。
+EditUploadProgress: [ファイルをアップロード中…]
+EditMenuSettings: 設定
 EditMenuHelp: ヘルプ
 EditMenuLogout: ログアウト
 Error404Title: ファイルが見つかりません

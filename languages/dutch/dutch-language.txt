@@ -53,14 +53,6 @@ EditRecoverPassword: Wachtwoord:
 EditRecoverStatusPassword: Gelieve een nieuw wachtwoord in te vullen.
 EditRecoverStatusWeak: Gelieve een ander wachtwoord in te vullen.
 EditRecoverStatusDone: Gebruikersaccount herstelt. Bedankt!
-EditSettingsTitle: Instellingen
-EditAccountTitle: Gebruikersaccount
-EditAccountQuit: Je kan je gebruikersaccount op eender welk moment verwijderen.
-EditAccountMore: Meer…
-EditAccountStatusInvalid: Gelieve een geldig e-mailadres in te voeren.
-EditAccountStatusTaken: Gelieve een ander e-mailadres in te voeren.
-EditAccountStatusWeak: Gelieve een ander wachtwoord in te voeren.
-EditAccountStatusNext: Gebruikersaccount zal worden gewijzigd, hou je mailbox in de gaten.
 EditQuitTitle: Gebruikersaccount verwijderen
 EditQuitStatusNone: Gelieve je naam op te geven ter verificatie.
 EditQuitStatusMismatch: Gelieve een andere naam op te geven.
@@ -95,17 +87,25 @@ EditWelcomeSubject: Welkom
 EditWelcomeMessage: Hallo @usershort,\n\nje gebruikersaccount is aangemaakt. Veel plezier met het aanpassen van je website.
 EditGoodbyeSubject: Tot ziens
 EditGoodbyeMessage: Hallo @usershort,\n\nJouw gebruikersaccount is verwijderd. Hou je goed.
-EditAboutTitle: Over deze website
-EditAboutStatusNone: Datenstrom Yellow is ontwikkeld voor websitebouwers.
-EditAboutStatusCheck: Updates aan het zoeken…
-EditAboutStatusDone: Je website is up to date.
-EditAboutStatusWarning: Updates beschikbaar, gelieve je website te updaten.
-EditAboutStatusUpdates: Updates beschikbaar, nu installeren.
-EditAboutUpdateForce: Update forceren
-EditAboutUpdateModified: @extension is aangepast.
-EditUploadProgress: [Uploading file…]
+EditAccountTitle: User settings
+EditAccountQuit: Delete user account?
+EditAccountUpdate: Check for updates?
+EditAccountStatusNone: Here you can change your user account.
+EditAccountStatusInvalid: Gelieve een geldig e-mailadres in te voeren.
+EditAccountStatusTaken: Gelieve een ander e-mailadres in te voeren.
+EditAccountStatusWeak: Gelieve een ander wachtwoord in te voeren.
+EditAccountStatusNext: Gebruikersaccount zal worden gewijzigd, hou je mailbox in de gaten.
+EditUpdateTitle: Updates
+EditUpdateStatusNone: Datenstrom Yellow is ontwikkeld voor websitebouwers.
+EditUpdateStatusCheck: Updates aan het zoeken…
+EditUpdateStatusWarning: Updates beschikbaar, gelieve je website te updaten.
+EditUpdateStatusUpdates: Updates beschikbaar, nu installeren.
+EditUpdateStatusOk: Je website is up to date.
+EditUpdateForce: Update forceren
+EditUpdateModified: @extension is aangepast.
 EditOkButton: Ok
 EditCancelButton: Annuleren
+EditChangeButton: Veranderen
 EditCreateButton: Nieuw
 EditEditButton: Opslaan
 EditDeleteButton: Verwijderen
@@ -139,6 +139,9 @@ EditToolbarRedo: Opnieuw
 EditToolbarPreview: Voorbeeld
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Help
+EditDataGenerated: This page is generated automatically.
+EditUploadProgress: [Uploading file…]
+EditMenuSettings: Instellingen
 EditMenuHelp: Help
 EditMenuLogout: Afmelden
 Error404Title: Bestand niet gevonden

@@ -1,4 +1,4 @@
-Slovak 0.8.7
+Slovak 0.8.8
 ===============
 Slovak/Slovenčina with language 'sk'.
 

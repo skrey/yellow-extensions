@@ -53,14 +53,6 @@ EditRecoverPassword: Kennwort:
 EditRecoverStatusPassword: Bitte ein neues Kennwort angeben.
 EditRecoverStatusWeak: Bitte ein anderes Kennwort angeben.
 EditRecoverStatusDone: Benutzerkonto wurde wiederhergestellt. Vielen Dank!
-EditSettingsTitle: Einstellungen
-EditAccountTitle: Benutzerkonto
-EditAccountQuit: Du kannst dein Benutzerkonto jederzeit löschen.
-EditAccountMore: Mehr…
-EditAccountStatusInvalid: Bitte eine gültige E-Mail angeben.
-EditAccountStatusTaken: Bitte eine andere E-Mail angeben.
-EditAccountStatusWeak: Bitte ein anderes Kennwort angeben.
-EditAccountStatusNext: Benutzerkonto wird geändert, bitte überprüfe deine E-Mails.
 EditQuitTitle: Benutzerkonto löschen
 EditQuitStatusNone: Bitte gib deinen Namen zur Bestätigung ein.
 EditQuitStatusMismatch: Bitte gib einen anderen Namen ein.
@@ -95,17 +87,25 @@ EditWelcomeSubject: Willkommen
 EditWelcomeMessage: Hallo @usershort,\n\ndein Benutzerkonto wurde erstellt. Viel Spass beim Bearbeiten der Webseite.
 EditGoodbyeSubject: Auf Wiedersehen
 EditGoodbyeMessage: Hallo @usershort,\n\ndein Benutzerkonto wurde gelöscht. Mach's gut.
-EditAboutTitle: Über diese Webseite
-EditAboutStatusNone: Datenstrom Yellow ist für Menschen die Webseiten machen.
-EditAboutStatusCheck: Nach Aktualisierung suchen…
-EditAboutStatusDone: Deine Webseite ist auf dem neusten Stand.
-EditAboutStatusWarning: Aktualisierung verfügbar, bitte aktualisiere deine Webseite.
-EditAboutStatusUpdates: Aktualisierung verfügbar, jetzt aktualisieren.
-EditAboutUpdateForce: Aktualisierung erzwingen
-EditAboutUpdateModified: @extension wurde modifiziert
-EditUploadProgress: [Datei hochladen…]
+EditAccountTitle: Benutzereinstellungen
+EditAccountQuit: Benutzerkonto löschen?
+EditAccountUpdate: Nach Aktualisierung suchen?
+EditAccountStatusNone: Hier kannst du dein Benutzerkonto ändern.
+EditAccountStatusInvalid: Bitte eine gültige E-Mail angeben.
+EditAccountStatusTaken: Bitte eine andere E-Mail angeben.
+EditAccountStatusWeak: Bitte ein anderes Kennwort angeben.
+EditAccountStatusNext: Benutzerkonto wird geändert, bitte überprüfe deine E-Mails.
+EditUpdateTitle: Aktualisierungen
+EditUpdateStatusNone: Datenstrom Yellow ist für Menschen die Webseiten machen.
+EditUpdateStatusCheck: Nach Aktualisierung suchen…
+EditUpdateStatusWarning: Aktualisierung verfügbar, bitte aktualisiere deine Webseite.
+EditUpdateStatusUpdates: Aktualisierung verfügbar, jetzt aktualisieren.
+EditUpdateStatusOk: Deine Webseite ist auf dem neusten Stand.
+EditUpdateForce: Aktualisierung erzwingen
+EditUpdateModified: @extension wurde modifiziert
 EditOkButton: Ok
 EditCancelButton: Abbruch
+EditChangeButton: Ändern
 EditCreateButton: Erzeugen
 EditEditButton: Speichern
 EditDeleteButton: Löschen
@@ -139,6 +139,9 @@ EditToolbarRedo: Wiederholen
 EditToolbarPreview: Vorschau
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hilfe
+EditDataGenerated: Diese Seite ist automatisch erstellt.
+EditUploadProgress: [Datei hochladen…]
+EditMenuSettings: Einstellungen
 EditMenuHelp: Hilfe
 EditMenuLogout: Abmelden
 Error404Title: Datei nicht gefunden
