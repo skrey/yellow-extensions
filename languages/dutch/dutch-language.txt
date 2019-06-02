@@ -120,6 +120,7 @@ EditToolbarH2: Hoofding 2
 EditToolbarH3: Hoofding 3
 EditToolbarParagraph: Normale tekst
 EditToolbarPre: Broncode
+EditToolbarNotice: Kennisgeving
 EditToolbarQuote: Citaat
 EditToolbarBold: Vet
 EditToolbarItalic: Cursief

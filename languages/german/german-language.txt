@@ -120,6 +120,7 @@ EditToolbarH2: Überschrift 2
 EditToolbarH3: Überschrift 3
 EditToolbarParagraph: Normaler Text
 EditToolbarPre: Quellcode
+EditToolbarNotice: Hinweis
 EditToolbarQuote: Zitat
 EditToolbarBold: Fettschrift
 EditToolbarItalic: Kursiv

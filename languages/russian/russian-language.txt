@@ -120,6 +120,7 @@ EditToolbarH2: Заголовок 2
 EditToolbarH3: Заголовок 3
 EditToolbarParagraph: Обычный текст
 EditToolbarPre: Исходный код
+EditToolbarNotice: Уведомление
 EditToolbarQuote: Цитата
 EditToolbarBold: Жирный
 EditToolbarItalic: Курсивный

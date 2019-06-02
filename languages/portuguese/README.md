@@ -1,4 +1,4 @@
-Portuguese 0.8.8
+Portuguese 0.8.9
 ================
 Portuguese/Português with language 'pt'.
 

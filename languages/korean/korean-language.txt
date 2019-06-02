@@ -120,6 +120,7 @@ EditToolbarH2: Heading 2
 EditToolbarH3: Heading 3
 EditToolbarParagraph: Normal text
 EditToolbarPre: Source code
+EditToolbarNotice: Notice
 EditToolbarQuote: Quote
 EditToolbarBold: Bold
 EditToolbarItalic: Italic

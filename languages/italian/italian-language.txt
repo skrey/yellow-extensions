@@ -120,6 +120,7 @@ EditToolbarH2: Titolo 2
 EditToolbarH3: Titolo 3
 EditToolbarParagraph: Testo normale
 EditToolbarPre: Codice sorgente
+EditToolbarNotice: Avviso
 EditToolbarQuote: Citazione
 EditToolbarBold: Neretto
 EditToolbarItalic: Corsivo
