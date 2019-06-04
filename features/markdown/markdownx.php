@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMarkdownx {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.8";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -2825,7 +2825,7 @@ class YellowMarkdownxExtra extends ParsedownExtra {
                 $Block["element"]["attributes"] = $this->parseAttributeData($matches[1]);
                 $Block["element"]["handler"]["argument"] = array();
             } elseif (!$recursive) {
-                $level = strspn(str_replace(array(" ", "!["), "", $Line["text"]), "!");
+                $level = strspn(str_replace(array("![", " "), "", $Line["text"]), "!");
                 $Block["element"]["attributes"] = array("class" => "notice$level");
             }
             return $Block;

@@ -1,4 +1,4 @@
-Markdown 0.8.7
+Markdown 0.8.8
 ==============
 Text formatting for humans. [See demo](https://developers.datenstrom.se/help/markdown-cheat-sheet).
 
