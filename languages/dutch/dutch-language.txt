@@ -42,6 +42,7 @@ EditSignupStatusNone: Hier kan je een nieuw gebruikersaccount aanmaken.
 EditSignupStatusIncomplete: Gelieve alle velden in te vullen.
 EditSignupStatusInvalid: Gelieve een geldig e-mailadres in te vullen.
 EditSignupStatusWeak: Gelieve een ander wachtwoord in te vullen.
+EditSignupStatusShort: Gelieve een langer wachtwoord in te vullen.
 EditSignupStatusNext: Gebruikersaccount zal worden aangemaakt, gelieve je mail te bekijken.
 EditForgotTitle: Wachtwoord vergeten
 EditForgotEmail: E-mail:
@@ -52,6 +53,7 @@ EditRecoverTitle: Wachtwoord vergeten
 EditRecoverPassword: Wachtwoord:
 EditRecoverStatusPassword: Gelieve een nieuw wachtwoord in te vullen.
 EditRecoverStatusWeak: Gelieve een ander wachtwoord in te vullen.
+EditRecoverStatusShort: Gelieve een langer wachtwoord in te vullen.
 EditRecoverStatusDone: Gebruikersaccount herstelt. Bedankt!
 EditQuitTitle: Gebruikersaccount verwijderen
 EditQuitStatusNone: Gelieve je naam op te geven ter verificatie.
@@ -94,6 +96,7 @@ EditAccountStatusNone: Here you can change your user account.
 EditAccountStatusInvalid: Gelieve een geldig e-mailadres in te voeren.
 EditAccountStatusTaken: Gelieve een ander e-mailadres in te voeren.
 EditAccountStatusWeak: Gelieve een ander wachtwoord in te voeren.
+EditAccountStatusShort: Gelieve een langer wachtwoord in te vullen.
 EditAccountStatusNext: Gebruikersaccount zal worden gewijzigd, hou je mailbox in de gaten.
 EditUpdateTitle: Updates
 EditUpdateStatusNone: Datenstrom Yellow is ontwikkeld voor websitebouwers.

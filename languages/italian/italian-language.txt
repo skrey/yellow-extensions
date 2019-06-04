@@ -42,6 +42,7 @@ EditSignupStatusNone: Qui puoi impostare le credenziali di accesso.
 EditSignupStatusIncomplete: Compila per favore tutti i campi.
 EditSignupStatusInvalid: Inserisci per favore un indirizzo email valido.
 EditSignupStatusWeak: Inserisci per favore una password diversa.
+EditSignupStatusShort: Inserisci per favore una password più lunga.
 EditSignupStatusNext: Verrà creato un nuovo account utente, un'email per la verifica verrà inviata al relativo indirizzo.
 EditForgotTitle: Recupera la password
 EditForgotEmail: Email:
@@ -52,6 +53,7 @@ EditRecoverTitle: Recupera la password
 EditRecoverPassword: Password:
 EditRecoverStatusPassword: Inserisci per favore una nuova password.
 EditRecoverStatusWeak: Inserisci per favore una password diversa.
+EditRecoverStatusShort: Inserisci per favore una password più lunga.
 EditRecoverStatusDone: Account utente recuperato. Grazie!
 EditQuitTitle: Cancella l'account utente
 EditQuitStatusNone: Inserisci per favore il tuo nome per conferma.
@@ -94,6 +96,7 @@ EditAccountStatusNone: Qui puoi cambiare il tuo account utente.
 EditAccountStatusInvalid: Inserisci per favore un indirizzo email valido.
 EditAccountStatusTaken: Inserisci per favore un indirizzo email diverso.
 EditAccountStatusWeak: Inserisci per favore una password diversa.
+EditAccountStatusShort: Inserisci per favore una password più lunga.
 EditAccountStatusNext: L'account utente sarà modificato, controlla per favore la tua posta elettronica.
 EditUpdateTitle: Aggiornamenti
 EditUpdateStatusNone: Datenstrom Yellow è per le persone che creano siti web.

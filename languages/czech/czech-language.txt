@@ -42,6 +42,7 @@ EditSignupStatusNone: Zde můžete založit nový uživatelský účet.
 EditSignupStatusIncomplete: Prosím, vyplňte všechny položky.
 EditSignupStatusInvalid: Vložte email ve správném formátu.
 EditSignupStatusWeak: Vložte jiné heslo.
+EditSignupStatusShort: Zadejte delší heslo.
 EditSignupStatusNext: Účet byl vytvořen, podívejte se do emailové schránky.
 EditForgotTitle: Zapomenuté heslo
 EditForgotEmail: Email:
@@ -52,6 +53,7 @@ EditRecoverTitle: Zapomenuté heslo
 EditRecoverPassword: Heslo:
 EditRecoverStatusPassword: Vložte nové heslo.
 EditRecoverStatusWeak: Vložte jiné heslo.
+EditRecoverStatusShort: Zadejte delší heslo.
 EditRecoverStatusDone: Heslo obnoveno. Díky!
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
@@ -94,6 +96,7 @@ EditAccountStatusNone: Here you can change your user account.
 EditAccountStatusInvalid: Vložte email ve správném formátu.
 EditAccountStatusTaken: Vložte jiný email.
 EditAccountStatusWeak: Vložte jiné heslo.
+EditAccountStatusShort: Zadejte delší heslo.
 EditAccountStatusNext: Nastavení uživatelského účtu změněno, podívejte se do emailové schránky.
 EditUpdateTitle: O těchto stránkách
 EditUpdateStatusNone: Datenstrom Yellow je pro lidi, kteří vytváří webové stránky.

@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSpanish {
-    const VERSION = "0.8.9";
+    const VERSION = "0.8.10";
     const TYPE = "language";
     public $yellow;         //access to API
     

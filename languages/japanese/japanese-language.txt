@@ -42,6 +42,7 @@ EditSignupStatusNone: 新しいユーザーアカウントを作成出来ます�
 EditSignupStatusIncomplete: 全ての項目にご入力下さい。
 EditSignupStatusInvalid: 正しいメールアドレスをご入力下さい。
 EditSignupStatusWeak: 別のパスワードをご入力下さい。
+EditSignupStatusShort: もっと長いパスワードをご入力下さい。
 EditSignupStatusNext: ユーザーアカウントの有効化の為、メールをご確認下さい。
 EditForgotTitle: パスワード忘失申請
 EditForgotEmail: メールアドレス:
@@ -52,6 +53,7 @@ EditRecoverTitle: パスワード忘失申請
 EditRecoverPassword: パスワード:
 EditRecoverStatusPassword: 新しいパスワードをご入力下さい。
 EditRecoverStatusWeak: 別のパスワードをご入力下さい。
+EditRecoverStatusShort: もっと長いパスワードをご入力下さい。
 EditRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
@@ -94,6 +96,7 @@ EditAccountStatusNone: ここでユーザーアカウントを変更できます
 EditAccountStatusInvalid: 正しいメールアドレスをご入力下さい。
 EditAccountStatusTaken: 別のメールアドレスをご入力下さい。
 EditAccountStatusWeak: 別のパスワードをご入力下さい。
+EditAccountStatusShort: もっと長いパスワードをご入力下さい。
 EditAccountStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
 EditUpdateTitle: 更新情報
 EditUpdateStatusNone: Datenstrom Yellow でウェブサイトを作る

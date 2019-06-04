@@ -42,6 +42,7 @@ EditSignupStatusNone: Hier kannst du ein neues Benutzerkonto erstellen.
 EditSignupStatusIncomplete: Bitte alle Felder ausfüllen.
 EditSignupStatusInvalid: Bitte eine gültige E-Mail angeben.
 EditSignupStatusWeak: Bitte ein anderes Kennwort angeben.
+EditSignupStatusShort: Bitte ein längeres Kennwort angeben.
 EditSignupStatusNext: Benutzerkonto wird erstellt, bitte überprüfe deine E-Mails.
 EditForgotTitle: Kennwort vergessen
 EditForgotEmail: E-Mail:
@@ -52,6 +53,7 @@ EditRecoverTitle: Kennwort vergessen
 EditRecoverPassword: Kennwort:
 EditRecoverStatusPassword: Bitte ein neues Kennwort angeben.
 EditRecoverStatusWeak: Bitte ein anderes Kennwort angeben.
+EditRecoverStatusShort: Bitte ein längeres Kennwort angeben.
 EditRecoverStatusDone: Benutzerkonto wurde wiederhergestellt. Vielen Dank!
 EditQuitTitle: Benutzerkonto löschen
 EditQuitStatusNone: Bitte gib deinen Namen zur Bestätigung ein.
@@ -94,6 +96,7 @@ EditAccountStatusNone: Hier kannst du dein Benutzerkonto ändern.
 EditAccountStatusInvalid: Bitte eine gültige E-Mail angeben.
 EditAccountStatusTaken: Bitte eine andere E-Mail angeben.
 EditAccountStatusWeak: Bitte ein anderes Kennwort angeben.
+EditAccountStatusShort: Bitte ein längeres Kennwort angeben.
 EditAccountStatusNext: Benutzerkonto wird geändert, bitte überprüfe deine E-Mails.
 EditUpdateTitle: Aktualisierungen
 EditUpdateStatusNone: Datenstrom Yellow ist für Menschen die Webseiten machen.

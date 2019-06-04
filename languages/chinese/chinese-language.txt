@@ -42,6 +42,7 @@ EditSignupStatusNone: 可以创建一个新帐号
 EditSignupStatusIncomplete: 请填写完所有栏位
 EditSignupStatusInvalid: 请输入一个有效的e-mail地址
 EditSignupStatusWeak: 请输入一个不同的密码
+EditSignupStatusShort: 请输入一更长的密码
 EditSignupStatusNext: 新帐号即将创建完成，请查收确认邮件
 EditForgotTitle: 忘了密码
 EditForgotEmail: 邮箱:
@@ -52,6 +53,7 @@ EditRecoverTitle: 忘了密码
 EditRecoverPassword: 密码:
 EditRecoverStatusPassword: 请输入一个新密码
 EditRecoverStatusWeak: 请输入一个不同的密码
+EditRecoverStatusShort: 请输入一更长的密码
 EditRecoverStatusDone: 用户帐号已重置，谢谢！
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
@@ -92,8 +94,9 @@ EditAccountQuit: 删除用户帐户？
 EditAccountUpdate: 检查更新？
 EditAccountStatusNone: 您可以在此处更改您的用户帐户。
 EditAccountStatusInvalid: 请输入一个有效的e-mail地址
-EditAccountStatusTaken: 请输入不同的e-mail地址
-EditAccountStatusWeak: 请输入不同的密码
+EditAccountStatusTaken: 请输入一不同的e-mail地址
+EditAccountStatusWeak: 请输入一个不同的密码
+EditAccountStatusShort: 请输入一更长的密码
 EditAccountStatusNext: 用户帐号将被更改，请查看您的电子邮件
 EditUpdateTitle: 更新
 EditUpdateStatusNone: Datenstrom Yellow is for people who make websites.

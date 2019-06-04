@@ -42,6 +42,7 @@ EditSignupStatusNone: Aqui você pode criar uma nova conta de usuário.
 EditSignupStatusIncomplete: Por favor, preencha todos os campos.
 EditSignupStatusInvalid: Por favor digite um email válido.
 EditSignupStatusWeak: Por favor insira uma senha diferente.
+EditSignupStatusShort: Por favor insira uma senha mais longa.
 EditSignupStatusNext: A conta de usuário será criada, por favor, verifique seus e-mails.
 EditForgotTitle: Esqueceu sua senha
 EditForgotEmail: Email:
@@ -52,6 +53,7 @@ EditRecoverTitle: Esqueceu sua senha
 EditRecoverPassword: Senha:
 EditRecoverStatusPassword: Por favor digite uma senha válida.
 EditRecoverStatusWeak: Por favor insira uma senha diferente.
+EditRecoverStatusShort: Por favor insira uma senha mais longa.
 EditRecoverStatusDone: Conta de usuário recuperada. Obrigado!
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
@@ -94,6 +96,7 @@ EditAccountStatusNone: Here you can change your user account.
 EditAccountStatusInvalid: Please enter a valid email.
 EditAccountStatusTaken: Please enter a different email.
 EditAccountStatusWeak: Please enter a different password.
+EditAccountStatusShort: Por favor insira uma senha mais longa.
 EditAccountStatusNext: User account will be changed, please check your emails.
 EditUpdateTitle: Updates
 EditUpdateStatusNone: Datenstrom Yellow is for people who make websites.

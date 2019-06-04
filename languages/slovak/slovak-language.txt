@@ -42,6 +42,7 @@ EditSignupStatusNone: Here you can create a new user account.
 EditSignupStatusIncomplete: Please fill out all fields.
 EditSignupStatusInvalid: Please enter a valid email.
 EditSignupStatusWeak: Please enter a different password.
+EditSignupStatusShort: Please enter a longer password.
 EditSignupStatusNext: User account will be created, please check your emails.
 EditForgotTitle: Forgot your password
 EditForgotEmail: Email:
@@ -52,6 +53,7 @@ EditRecoverTitle: Forgot your password
 EditRecoverPassword: Password:
 EditRecoverStatusPassword: Please enter a new password.
 EditRecoverStatusWeak: Please enter a different password.
+EditRecoverStatusShort: Please enter a longer password.
 EditRecoverStatusDone: User account recovered. Thank you!
 EditQuitTitle: Delete user account
 EditQuitStatusNone: Please enter your name to confirm.
@@ -94,6 +96,7 @@ EditAccountStatusNone: Here you can change your user account.
 EditAccountStatusInvalid: Please enter a valid email.
 EditAccountStatusTaken: Please enter a different email.
 EditAccountStatusWeak: Please enter a different password.
+EditAccountStatusShort: Please enter a longer password.
 EditAccountStatusNext: User account will be changed, please check your emails.
 EditUpdateTitle: Updates
 EditUpdateStatusNone: Datenstrom Yellow is for people who make websites.
