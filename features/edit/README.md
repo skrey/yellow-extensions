@@ -36,7 +36,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditToolbarButtons` = toolbar buttons, `none` to disable  
 `EditNewFile` = content file for new page  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
-`EditUserPasswordMinLength` = minimum length of passwords  
+`EditUserPasswordMinLength` = minimum length of password  
+`EditUserGroup` = default group for new user account  
 `EditUserHome` = default home page for new user account  
 `EditLoginSessionTimeout` = login session in seconds  
 `EditLoginRestriction` = enable [login restriction](https://developers.datenstrom.se/help/security-configuration#login-restriction), 1 or 0  
