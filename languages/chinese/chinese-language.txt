@@ -90,22 +90,28 @@ EditWelcomeMessage: 你好 @usershort,\n\n你的帐号已创建完毕，建站�
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
 EditAccountTitle: 用户设置
-EditAccountQuit: 删除用户帐户？
-EditAccountUpdate: 检查更新？
+EditAccountInformation: You can delete your user account anytime.
+EditAccountMore: Read more…
 EditAccountStatusNone: 您可以在此处更改您的用户帐户。
 EditAccountStatusInvalid: 请输入一个有效的e-mail地址
 EditAccountStatusTaken: 请输入一不同的e-mail地址
 EditAccountStatusWeak: 请输入一个不同的密码
 EditAccountStatusShort: 请输入一更长的密码
 EditAccountStatusNext: 用户帐号将被更改，请查看您的电子邮件
+EditSystemTitle: System settings
+EditSystemSitename: Name of the website:
+EditSystemAuthor: Name of the webmaster:
+EditSystemEmail: Email of the webmaster:
+EditSystemInformation: The webmaster is the contact person and can approve new user accounts.
+EditSystemStatusNone: Here you can change system settings.
+EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: 更新
 EditUpdateStatusNone: Datenstrom Yellow is for people who make websites.
 EditUpdateStatusCheck: 正在检查更新…
-EditUpdateStatusWarning：有更新可用，请更新您的网站。
 EditUpdateStatusUpdates：有更新可用，现在更新。
 EditUpdateStatusOk: 已是最新版
-EditUpdateForce: 强制更新
 EditUpdateModified: @extension 已被更改
+EditUpdateForce: 强制更新
 EditOkButton: 确定
 EditCancelButton: 取消
 EditChangeButton: 更改

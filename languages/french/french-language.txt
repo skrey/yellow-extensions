@@ -90,22 +90,28 @@ EditWelcomeMessage: Bonjour @usershort,\n\nvotre compte utilisateur a bien été
 EditGoodbyeSubject: Au revoir
 EditGoodbyeMessage: Bonjour @usershort,\n\nvotre compte utilisateur a bien été supprimé. Prends soin.
 EditAccountTitle: Paramètres utilisateur
-EditAccountQuit: Supprimer l'utilisateur ?
-EditAccountUpdate: Vérifier les mises à jour ?
+EditAccountInformation: Vous pouvez supprimer votre compte d'utilisateur.
+EditAccountMore: Lire la suite…
 EditAccountStatusNone: Ici, vous pouvez changer votre compte utilisateur.
 EditAccountStatusInvalid: S'il vous plaît, veuillez entrer une adresse email valide.
 EditAccountStatusTaken: S'il vous plaît, veuillez entrer une adresse email différent.
 EditAccountStatusWeak: S'il vous plaît, choisissez un mot de passe différent.
 EditAccountStatusShort: S'il vous plaît, choisissez un mot de passe plus long.
 EditAccountStatusNext: Votre compte a été changé, vérifiez vos emails.
+EditSystemTitle: Paramètres du système
+EditSystemSitename: Nom du site:
+EditSystemAuthor: Nom du webmaster:
+EditSystemEmail: Email du webmaster:
+EditSystemInformation: Le webmaster est la personne de contact et peut approuver les nouveaux comptes d'utilisateurs.
+EditSystemStatusNone: Ici, vous pouvez changer les paramètres du système.
+EditSystemStatusInvalid: S'il vous plaît, veuillez entrer une adresse email valide.
 EditUpdateTitle: Mises à jour
 EditUpdateStatusNone: Datenstrom Yellow est fait pour les gens qui font des sites web.
 EditUpdateStatusCheck: Vérification des mises à jour…
-EditUpdateStatusWarning: Mises à jour disponibles, veuillez mettre à jour votre site web.
 EditUpdateStatusUpdates: Mises à jour disponibles, mettre à jour maintenant.
 EditUpdateStatusOk: Votre site web est à jour.
-EditUpdateForce: Forcer mise à jour
 EditUpdateModified: @extension a été modifié
+EditUpdateForce: Forcer mise à jour
 EditOkButton: Ok
 EditCancelButton: Annuler
 EditChangeButton: Modifier

@@ -90,22 +90,28 @@ EditWelcomeMessage: Ahoj @usershort,\n\nváš uživatelský účet byl vytvořen
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
 EditAccountTitle: User settings
-EditAccountQuit: Delete user account?
-EditAccountUpdate: Check for updates?
+EditAccountInformation: You can delete your user account anytime.
+EditAccountMore: Read more…
 EditAccountStatusNone: Here you can change your user account.
 EditAccountStatusInvalid: Vložte email ve správném formátu.
 EditAccountStatusTaken: Vložte jiný email.
 EditAccountStatusWeak: Vložte jiné heslo.
 EditAccountStatusShort: Zadejte delší heslo.
 EditAccountStatusNext: Nastavení uživatelského účtu změněno, podívejte se do emailové schránky.
+EditSystemTitle: System settings
+EditSystemSitename: Name of the website:
+EditSystemAuthor: Name of the webmaster:
+EditSystemEmail: Email of the webmaster:
+EditSystemInformation: The webmaster is the contact person and can approve new user accounts.
+EditSystemStatusNone: Here you can change system settings.
+EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: O těchto stránkách
 EditUpdateStatusNone: Datenstrom Yellow je pro lidi, kteří vytváří webové stránky.
 EditUpdateStatusCheck: Zjišťuji nové aktualizace…
-EditUpdateStatusWarning: Dostupné nové aktualizace, aktualizujte prosím vaše webové stránky.
 EditUpdateStatusUpdates: Dostupné nové aktualizace, aktualizace nyní.
 EditUpdateStatusOk: Tento web je aktuální.
-EditUpdateForce: 'Tvrdá' aktualizace
 EditUpdateModified: @extension byl aktualizován
+EditUpdateForce: 'Tvrdá' aktualizace
 EditOkButton: Ok
 EditCancelButton: Zrušit
 EditChangeButton: Změnit

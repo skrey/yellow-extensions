@@ -90,22 +90,28 @@ EditWelcomeMessage: Привет @usershort,\n\nваша учетная запи
 EditGoodbyeSubject: До свидания
 EditGoodbyeMessage: Привет @usershort,\n\nваша учетная запись была удалена. Берегите себя.
 EditAccountTitle: Пользовательские настройки
-EditAccountQuit: Удалить пользователя?
-EditAccountUpdate: Проверить наличие обновлений?
+EditAccountInformation: Вы можете удалить свою учетную запись в любое время.
+EditAccountMore: Читать далее…
 EditAccountStatusNone: Здесь вы можете изменить свою учетную запись.
 EditAccountStatusInvalid: Пожалуйста, введите действительный адрес Email.
 EditAccountStatusTaken: Пожалуйста, введите другой адрес электронной почты.
 EditAccountStatusWeak: Пожалуйста, введите другой пароль.
 EditAccountStatusShort: Пожалуйста, введите более длинный пароль.
 EditAccountStatusNext: Учетная запись пользователя будет изменена, проверьте электронную почту.
+EditSystemTitle: System settings
+EditSystemSitename: Name of the website:
+EditSystemAuthor: Name of the webmaster:
+EditSystemEmail: Email of the webmaster:
+EditSystemInformation: The webmaster is the contact person and can approve new user accounts.
+EditSystemStatusNone: Here you can change system settings.
+EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: Обновления
 EditUpdateStatusNone: Datenstrom Yellow предназначен для людей, создающих веб-сайты.
 EditUpdateStatusCheck: Проверка обновлений…
-EditUpdateStatusWarning: Доступны обновления, пожалуйста, обновите свой сайт.
 EditUpdateStatusUpdates: Доступны обновления, обновите сейчас.
 EditUpdateStatusOk: Ваш сайт обновлен.
-EditUpdateForce: Принудительно обновить
 EditUpdateModified: @extension был изменен
+EditUpdateForce: Принудительно обновить
 EditOkButton: Ok
 EditCancelButton: Отмена
 EditChangeButton: Изменить

@@ -1,4 +1,4 @@
-Polish 0.8.10
+Polish 0.8.11
 ============
 Polish/Polski with language 'pl'.
 

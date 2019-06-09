@@ -90,22 +90,28 @@ EditWelcomeMessage: Hej @usershort!\n\nTwoje konto użytkownika zostało utworzo
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
 EditAccountTitle: Ustawienia użytkownika
-EditAccountQuit: Usunąć konto użytkownika?
-EditAccountUpdate: Sprawdź aktualizacje?
+EditAccountInformation: You can delete your user account anytime.
+EditAccountMore: Read more…
 EditAccountStatusNone: Tutaj możesz zmienić swoje konto użytkownika.
 EditAccountStatusInvalid: Proszę podać poprawny adres email.
 EditAccountStatusTaken: Proszę podać inny email.
 EditAccountStatusWeak: Proszę podać inne hasło.
 EditAccountStatusShort: Proszę podać dłuższe hasło.
 EditAccountStatusNext: Konto użytkownika zostanie zmienione, proszę sprawdzić pocztę.
+EditSystemTitle: System settings
+EditSystemSitename: Name of the website:
+EditSystemAuthor: Name of the webmaster:
+EditSystemEmail: Email of the webmaster:
+EditSystemInformation: The webmaster is the contact person and can approve new user accounts.
+EditSystemStatusNone: Here you can change system settings.
+EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: Aktualizacje
 EditUpdateStatusNone: Datenstrom Yellow jest dla ludzi, którzy tworzą strony internetowe.
 EditUpdateStatusCheck: Sprawdzanie aktualizacji…
-EditUpdateStatusWarning: Aktualizacje są dostępne, zaktualizuj swoją witrynę.
 EditUpdateStatusUpdates: Aktualizacje są dostępne, aktualizuj teraz.
 EditUpdateStatusOk: Twoja strona jest aktualna.
-EditUpdateForce: Wymuś aktualizację
 EditUpdateModified: @extension został zmodyfikowany
+EditUpdateForce: Wymuś aktualizację
 EditOkButton: Ok
 EditCancelButton: Anuluj
 EditChangeButton: Zmień

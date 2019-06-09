@@ -90,22 +90,28 @@ EditWelcomeMessage: Hallo @usershort,\n\nje gebruikersaccount is aangemaakt. Vee
 EditGoodbyeSubject: Tot ziens
 EditGoodbyeMessage: Hallo @usershort,\n\nJouw gebruikersaccount is verwijderd. Hou je goed.
 EditAccountTitle: User settings
-EditAccountQuit: Delete user account?
-EditAccountUpdate: Check for updates?
+EditAccountInformation: You can delete your user account anytime.
+EditAccountMore: Read more…
 EditAccountStatusNone: Here you can change your user account.
 EditAccountStatusInvalid: Gelieve een geldig e-mailadres in te voeren.
 EditAccountStatusTaken: Gelieve een ander e-mailadres in te voeren.
 EditAccountStatusWeak: Gelieve een ander wachtwoord in te voeren.
 EditAccountStatusShort: Gelieve een langer wachtwoord in te vullen.
 EditAccountStatusNext: Gebruikersaccount zal worden gewijzigd, hou je mailbox in de gaten.
+EditSystemTitle: System settings
+EditSystemSitename: Name of the website:
+EditSystemAuthor: Name of the webmaster:
+EditSystemEmail: Email of the webmaster:
+EditSystemInformation: The webmaster is the contact person and can approve new user accounts.
+EditSystemStatusNone: Here you can change system settings.
+EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: Updates
 EditUpdateStatusNone: Datenstrom Yellow is ontwikkeld voor websitebouwers.
 EditUpdateStatusCheck: Updates aan het zoeken…
-EditUpdateStatusWarning: Updates beschikbaar, gelieve je website te updaten.
 EditUpdateStatusUpdates: Updates beschikbaar, nu installeren.
 EditUpdateStatusOk: Je website is up to date.
-EditUpdateForce: Update forceren
 EditUpdateModified: @extension is aangepast.
+EditUpdateForce: Update forceren
 EditOkButton: Ok
 EditCancelButton: Annuleren
 EditChangeButton: Veranderen

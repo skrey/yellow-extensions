@@ -90,22 +90,28 @@ EditWelcomeMessage: Hallo @usershort,\n\ndein Benutzerkonto wurde erstellt. Viel
 EditGoodbyeSubject: Auf Wiedersehen
 EditGoodbyeMessage: Hallo @usershort,\n\ndein Benutzerkonto wurde gelöscht. Mach's gut.
 EditAccountTitle: Benutzereinstellungen
-EditAccountQuit: Benutzerkonto löschen?
-EditAccountUpdate: Nach Aktualisierung suchen?
+EditAccountInformation: Du kannst dein Benutzerkonto jederzeit löschen.
+EditAccountMore: Lies mehr…
 EditAccountStatusNone: Hier kannst du dein Benutzerkonto ändern.
 EditAccountStatusInvalid: Bitte eine gültige E-Mail angeben.
 EditAccountStatusTaken: Bitte eine andere E-Mail angeben.
 EditAccountStatusWeak: Bitte ein anderes Kennwort angeben.
 EditAccountStatusShort: Bitte ein längeres Kennwort angeben.
 EditAccountStatusNext: Benutzerkonto wird geändert, bitte überprüfe deine E-Mails.
+EditSystemTitle: Systemeinstellungen
+EditSystemSitename: Name der Webseite:
+EditSystemAuthor: Name des Webmasters:
+EditSystemEmail: E-Mail des Webmasters:
+EditSystemInformation: Der Webmaster ist die Kontaktperson und kann neue Benutzerkonten genehmigen.
+EditSystemStatusNone: Hier kannst du Systemeinstellungen ändern.
+EditSystemStatusInvalid: Bitte eine gültige E-Mail angeben.
 EditUpdateTitle: Aktualisierungen
 EditUpdateStatusNone: Datenstrom Yellow ist für Menschen die Webseiten machen.
 EditUpdateStatusCheck: Nach Aktualisierung suchen…
-EditUpdateStatusWarning: Aktualisierung verfügbar, bitte aktualisiere deine Webseite.
 EditUpdateStatusUpdates: Aktualisierung verfügbar, jetzt aktualisieren.
 EditUpdateStatusOk: Deine Webseite ist auf dem neusten Stand.
-EditUpdateForce: Aktualisierung erzwingen
 EditUpdateModified: @extension wurde modifiziert
+EditUpdateForce: Aktualisierung erzwingen
 EditOkButton: Ok
 EditCancelButton: Abbruch
 EditChangeButton: Ändern
