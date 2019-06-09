@@ -18,7 +18,7 @@ The contact page is available on your website as `http://website/contact/`. The 
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system`:
+The following settings can be configured in file `system/settings/system.ini`:
 
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
