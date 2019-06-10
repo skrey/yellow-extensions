@@ -1,4 +1,4 @@
-Lund 0.8.4
+Lund 0.8.5
 ==========
 Lund is a basic blogger theme. [See demo](https://developers.datenstrom.se/themes/lund).
 

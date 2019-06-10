@@ -81,14 +81,12 @@ a:hover {
     margin: 1em 0;
     padding: 10px 1em;
     background-color: #fffbf0;
-    color: #e90;
     border-left: 4px solid #fb0;
 }
 .content .notice2 {
     margin: 1em 0;
     padding: 10px 1em;
     background-color: #fdf0f0;
-    color: #c00;
     border-left: 4px solid #d00;
 }
 .content .notice3,
@@ -98,7 +96,6 @@ a:hover {
     margin: 1em 0;
     padding: 10px 1em;
     background-color: #f0f8fe;
-    color: #07d;
     border-left: 4px solid #08e;
 }
 .content .flexible {

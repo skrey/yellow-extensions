@@ -1,4 +1,4 @@
-Bern 0.8.4
+Bern 0.8.5
 ==========
 Bern is a modern business theme. [See demo](https://developers.datenstrom.se/themes/bern).
 

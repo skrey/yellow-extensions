@@ -1,4 +1,4 @@
-Helsinki 0.8.4
+Helsinki 0.8.5
 ==============
 Helsinki is a theme for a GitHub-like knowledge base. [See demo](https://developers.datenstrom.se/themes/helsinki).
 
