@@ -1,4 +1,4 @@
-# [![Datenstrom](https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/datenstrom-logo-small.png)](https://github.com/datenstrom)&nbsp; Datenstrom Yellow Erweiterungen
+# [![Datenstrom](https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/datenstrom-logo-small.png)](https://github.com/datenstrom)&nbsp; Datenstrom Yellow extensions
 
 [![Datenstrom Yellow](https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/datenstrom-yellow-fr.jpg)](https://datenstrom.se/fr/yellow/)
 
@@ -8,7 +8,7 @@ Datenstrom Yellow est fait pour les gens qui font des sites web. [Voir la démo]
 2. Copiez des fichiers zip individuels sur votre serveur web.  
 3. Ouvrez votre site dans un navigateur web.
 
-Nous avons un kit de développement et une API pour les développeurs. [Mehr erfahren](https://developers.datenstrom.se/fr/help/).
+Nous avons un kit de développement et une API pour les développeurs. [Apprenez-en plus](https://developers.datenstrom.se/fr/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-developers/master/media/images/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
