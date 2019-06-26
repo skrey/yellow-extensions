@@ -13,7 +13,7 @@ Apprenez à faire un propre blog. [Voir la démo](/fr/features/blog/).
 
 Votre blog est immédiatement accessible. L'installation est fournie avec plusieurs pages, 'Accueil', 'Blog' et 'À propos'. Elles sont juste un exemple pour commencer, vous pouvez les modifier. Vous pouvez supprimer la page d'accueil, si vous souhaitez faire de votre blog la page d'accueil.
 
-S'il y a des problèmes, vérifiez la [configuration du serveur](server-configuration) ou demandez le [support](support).
+S'il y a des problèmes, vérifiez la [configuration du serveur](server-configuration) ou demandez le [support](/fr/help/).
 
 ## Écrire une page de blog
 

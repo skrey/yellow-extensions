@@ -3,7 +3,7 @@ Title: Configuration du serveur
 ---
 Comment configurer différents serveurs web.
 
-!! [Vous pouvez nous aider à traduire cette page.](https://github.com/datenstrom/yellow-developers/blob/master/content/3-fr/4-help/server-configuration.md)
+!! [Vous pouvez nous aider à traduire cette page.](https://github.com/datenstrom/yellow-extensions/blob/master/website/content/3-fr/4-help/server-configuration.md)
 
 ## Apache
 

@@ -13,7 +13,7 @@ Apprenez à faire un propre site web. [Voir la démo](/fr/).
 
 Votre site web est immédiatement accessible. L'installation est fournie avec deux pages, 'Accueil' et 'À propos'. Elles sont juste un exemple pour commencer, vous pouvez les modifier comme il vous convient. Vous pouvez créer votre site web en ajoutant des fichiers et des dossiers.
 
-S'il y a des problèmes, vérifiez la [configuration du serveur](server-configuration) ou demandez le [support](support).
+S'il y a des problèmes, vérifiez la [configuration du serveur](server-configuration) ou demandez le [support](/fr/help/).
 
 ## Écrire une page web
 
@@ -28,7 +28,7 @@ Votre site web fonctionne!
 [edit - Vous pouvez modifier cette page] ou utiliser un éditeur de texte.
 
 Vous pouvez installer plus de fonctionnalités et de thèmes.
-[Apprenez-en plus](https://developers.datenstrom.se/fr/help/).
+[Apprenez-en plus](https://extensions.datenstrom.se/fr/help/).
 ```
 
 Pour créer une nouvelle page, ajoutez un nouveau fichier dans le dossier `1-home` ou dans tout autre dossier du dossier `content`. Le menu de [navigation](adjusting-content) est automatiquement créée à partir de vos dossiers présents dans le dossier content. Voici un autre exemple:
@@ -39,7 +39,7 @@ Title: Demo
 ---
 [edit - Vous pouvez modifier cette page]. L'aide montre comment 
 créer de petites pages web, blogs et wikis. 
-[Apprenez-en plus](https://developers.datenstrom.se/fr/help/).
+[Apprenez-en plus](https://extensions.datenstrom.se/fr/help/).
 ```
 
 Maintenant ajoutons une image:
@@ -52,7 +52,7 @@ Title: Demo
 
 [edit - Vous pouvez modifier cette page]. L'aide montre comment 
 créer de petites pages web, blogs et wikis. 
-[Apprenez-en plus](https://developers.datenstrom.se/fr/help/).
+[Apprenez-en plus](https://extensions.datenstrom.se/fr/help/).
 ```
 
 ## Ajuster l'en-tête

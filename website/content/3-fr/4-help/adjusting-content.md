@@ -32,7 +32,7 @@ Vous pouvez utiliser [Markdown](markdown-cheat-sheet) pour éditer des pages web
     [edit - Vous pouvez modifier cette page] ou utiliser un éditeur de texte.
     
     Vous pouvez installer plus de fonctionnalités et de thèmes.
-    [Apprenez-en plus](https://developers.datenstrom.se/fr/help/).
+    [Apprenez-en plus](https://extensions.datenstrom.se/fr/help/).
 
 Formatage du texte:
 

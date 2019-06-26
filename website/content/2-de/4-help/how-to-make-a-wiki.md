@@ -13,7 +13,7 @@ Lerne wie man ein eigenes Wiki erstellt. [Demo anschauen](/de/features/wiki/).
 
 Dein Wiki ist sofort erreichbar. Die Installation kommt mit mehreren Seiten, "Startseite", "Wiki" und "Über". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Du kannst die Startseite löschen, wenn du das Wiki auf der Startseite anzeigen willst.
 
-Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](support).
+Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](/de/help/).
 
 ## Wikiseiten schreiben
 

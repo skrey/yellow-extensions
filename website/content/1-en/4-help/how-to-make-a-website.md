@@ -13,7 +13,7 @@ Learn how to make your own website. [See demo](/).
 
 Your website is immediately available. The installation comes with two pages, 'Home' and 'About'. This is just an example to get you started, change everything as you like. You can make a website by adding more files and folders.
 
-When there are problems, please check the [server configuration](server-configuration) or ask the [support](support).
+When there are problems, please check the [server configuration](server-configuration) or ask the [support](/help/).
 
 ## Writing web pages
 
@@ -28,7 +28,7 @@ Your website works!
 [edit - You can edit this page] or use your text editor.
 
 You can install more features and themes.
-[Learn more](https://developers.datenstrom.se/help/).
+[Learn more](https://extensions.datenstrom.se/help/).
 ```
 
 To create a new page, add a new file to the home folder or another `content` folder. The [navigation](adjusting-content) is automatically created from your `content` folders. Here's another example:
@@ -39,7 +39,7 @@ Title: Demo
 ---
 [edit - You can edit this page]. The help gives you more information 
 about how to create small web pages, blogs and wikis. 
-[Learn more](https://developers.datenstrom.se/help/).
+[Learn more](https://extensions.datenstrom.se/help/).
 ```
 
 Now let's add an image:
@@ -52,7 +52,7 @@ Title: Demo
 
 [edit - You can edit this page]. The help gives you more information 
 about how to create small web pages, blogs and wikis. 
-[Learn more](https://developers.datenstrom.se/help/).
+[Learn more](https://extensions.datenstrom.se/help/).
 ```
 
 ## Adjusting header

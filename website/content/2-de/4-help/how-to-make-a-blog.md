@@ -13,7 +13,7 @@ Lerne wie man ein eigenes Blog erstellt. [Demo anschauen](/de/features/blog/).
 
 Dein Blog ist sofort erreichbar. Die Installation kommt mit mehreren Seiten, "Startseite", "Blog" und "Über". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Du kannst die Startseite löschen, wenn du das Blog auf der Startseite anzeigen willst.
 
-Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](support).
+Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [/de/help/](support).
  
 ## Blogeinträge schreiben
 

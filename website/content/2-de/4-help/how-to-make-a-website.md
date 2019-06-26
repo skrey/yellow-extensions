@@ -13,7 +13,7 @@ Lerne wie man eine eigene Webseite erstellt. [Demo anschauen](/de/).
 
 Deine Webseite ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Über". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Man kann eine Webseite erstellen, indem man weitere Dateien und Verzeichnisse hinzufügt.
 
-Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](support).
+Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](/de/help/).
 
 ## Webseiten schreiben
 
@@ -28,7 +28,7 @@ Deine Webseite funktioniert!
 [edit - Du kannst diese Seite bearbeiten] oder einen Texteditor benutzen.
 
 Du kannst weitere Funktionen und Themen installieren.
-[Mehr erfahren](https://developers.datenstrom.se/de/help/).
+[Mehr erfahren](https://extensions.datenstrom.se/de/help/).
 ```
 
 Um eine neue Seite hinzuzufügen, erstellst du eine neue Datei im Home-Verzeichnis oder einem anderen `content`-Verzeichnis. Die [Navigation](adjusting-content) wird automatisch aus deinen `content`-Verzeichnissen erstellt. Hier ist ein weiteres Beispiel:
@@ -39,7 +39,7 @@ Title: Demo
 ---
 [edit - Du kannst diese Seite bearbeiten]. Die Hilfe zeigt dir 
 wie man kleine Webseiten, Blogs und Wikis erstellt.
-[Mehr erfahren](https://developers.datenstrom.se/de/help/).
+[Mehr erfahren](https://extensions.datenstrom.se/de/help/).
 ```
 
 Ein Bild hinzufügen:
@@ -52,7 +52,7 @@ Title: Demo
 
 [edit - Du kannst diese Seite bearbeiten]. Die Hilfe zeigt dir 
 wie man kleine Webseiten, Blogs und Wikis erstellt.
-[Mehr erfahren](https://developers.datenstrom.se/de/help/).
+[Mehr erfahren](https://extensions.datenstrom.se/de/help/).
 ```
 
 ## Kopfzeile anpassen

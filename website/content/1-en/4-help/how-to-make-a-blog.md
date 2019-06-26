@@ -13,7 +13,7 @@ Learn how to make your own blog. [See demo](/features/blog/).
 
 Your blog is immediately available. The installation comes with several pages, 'Home', 'Blog' and 'About'. This is just an example to get you started, change everything as you like. You can delete the home page, if you want to show the blog on the home page.
 
-When there are problems, please check the [server configuration](server-configuration) or ask the [support](support).
+When there are problems, please check the [server configuration](server-configuration) or ask the [support](/help/).
  
 ## Writing blog pages
 

@@ -4,15 +4,9 @@ TitleContent: API
 ---
 API pour les développeurs. Nous :heart: les développeurs.
 
-!! [Vous pouvez nous aider à traduire cette page.](https://github.com/datenstrom/yellow-developers/blob/master/content/3-fr/4-help/api.md)
+!! [Vous pouvez nous aider à traduire cette page.](https://github.com/datenstrom/yellow-extensions/blob/master/website/content/3-fr/4-help/api.md)
 
 [toc]
-
-## Developer kit
-
-[Install the developer kit](https://github.com/datenstrom/yellow-developers). The developer kit for Datenstrom Yellow includes [examples](/search/query:example/) and [tests](/tests/). You can try out how to make small web pages, blogs and wikis. You can learn how to customise your website. It's a great place to get started.
-
-When there are problems, please check the [server configuration](server-configuration) or ask the [support](support).
 
 ## Folder structure
 

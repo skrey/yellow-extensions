@@ -3,7 +3,7 @@ Title: Fichiers HTML
 ---
 Voici comment ajuster la mise en page de votre site web.
 
-!! [Vous pouvez nous aider à traduire cette page.](https://github.com/datenstrom/yellow-developers/blob/master/content/3-fr/4-help/html-files.md)
+!! [Vous pouvez nous aider à traduire cette page.](https://github.com/datenstrom/yellow-extensions/blob/master/website/content/3-fr/4-help/html-files.md)
 
 ## Customising HTML
 

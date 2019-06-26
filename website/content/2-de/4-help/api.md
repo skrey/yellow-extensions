@@ -6,12 +6,6 @@ API für Entwickler. Wir :heart: Entwickler.
 
 [toc]
 
-## Entwickler-Kit
-
-[Installiere das Entwickler-Kit](https://github.com/datenstrom/yellow-developers). Das Entwickler-Kit für Datenstrom Yellow enthält [Beispiele](/de/search/query:Beispiel/) und [Tests](/de/tests/). Du kannst ausprobieren wie man kleine Webseiten, Blogs und Wikis macht. Du kannst lernen wie du deine Webseite anpasst. Es ist eine grossartige Art um loszulegen.
-
-Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](support).
-
 ## Verzeichnisstruktur
 
 Die folgenden Verzeichnisse sind vorhanden:
