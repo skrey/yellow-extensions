@@ -1,6 +1,6 @@
 Slider 0.8.2
 ============
-Image gallery with slider. [See demo](https://developers.datenstrom.se/features/slider).
+Image gallery with slider. [See demo](https://extensions.datenstrom.se/features/slider).
 
 <p align="center"><img src="slider-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -47,4 +47,4 @@ Adding an image gallery from a subfolder, play automatically:
 
 ## Developer
 
-Datenstrom featuring David DeSandro. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom featuring David DeSandro. [Get support](https://extensions.datenstrom.se/help/).

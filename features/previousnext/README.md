@@ -1,6 +1,6 @@
 Previousnext 0.8.4
 ==================
-Show links to previous/next page. [See demo](https://developers.datenstrom.se/features/blog/blog-example).
+Show links to previous/next page. [See demo](https://extensions.datenstrom.se/features/blog/blog-example).
 
 <p align="center"><img src="previousnext-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -27,4 +27,4 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

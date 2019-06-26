@@ -1,6 +1,6 @@
 Markdown 0.8.8
 ==============
-Text formatting for humans. [See demo](https://developers.datenstrom.se/help/markdown-cheat-sheet).
+Text formatting for humans. [See demo](https://extensions.datenstrom.se/help/markdown-cheat-sheet).
 
 <p align="center"><img src="markdown-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -32,4 +32,4 @@ Making a list:
 
 ## Developer
 
-Datenstrom featuring Michel Fortin. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom featuring Michel Fortin. [Get support](https://extensions.datenstrom.se/help/).

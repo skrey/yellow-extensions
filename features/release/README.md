@@ -81,4 +81,4 @@ system/resources/city-icon.png: City,city-icon.png,create
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

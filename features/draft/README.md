@@ -50,4 +50,4 @@ Content file with draft status for wiki:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

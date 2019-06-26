@@ -1,6 +1,6 @@
 Toc 0.8.2
 =========
-Table of contents. [See demo](https://developers.datenstrom.se/features/toc).
+Table of contents. [See demo](https://extensions.datenstrom.se/features/toc).
 
 <p align="center"><img src="toc-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -55,4 +55,4 @@ Sidebar file with table of contents:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

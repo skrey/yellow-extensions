@@ -1,6 +1,6 @@
 Berlin 0.8.5
 ============
-Berlin is a simple and beautiful theme inspired by Dieter Rams. [See demo](https://developers.datenstrom.se/themes/berlin).
+Berlin is a simple and beautiful theme inspired by Dieter Rams. [See demo](https://extensions.datenstrom.se/themes/berlin).
 
 <p align="center"><img src="berlin-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -18,4 +18,4 @@ The extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's 
 
 ## Designer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

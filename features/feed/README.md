@@ -1,6 +1,6 @@
 Feed 0.8.4
 ==========
-Web feed with recent changes. [See demo](https://developers.datenstrom.se/feed/).
+Web feed with recent changes. [See demo](https://extensions.datenstrom.se/feed/).
 
 <p align="center"><img src="feed-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -51,4 +51,4 @@ Footer file with RSS feed:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

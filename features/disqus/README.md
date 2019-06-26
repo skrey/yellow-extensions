@@ -1,6 +1,6 @@
 Disqus 0.8.2
 ============
-Show Disqus comments on blog. [See demo](https://developers.datenstrom.se/features/blog/made-for-people).
+Show Disqus comments on blog. [See demo](https://extensions.datenstrom.se/features/blog/made-for-people).
 
 <p align="center"><img src="disqus-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -21,5 +21,5 @@ The extension uses an online service, use the [comments extension](https://githu
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
 

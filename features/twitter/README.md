@@ -1,6 +1,6 @@
 Twitter 0.8.2
 =============
-Embed Twitter messages. [See demo](https://developers.datenstrom.se/features/twitter).
+Embed Twitter messages. [See demo](https://extensions.datenstrom.se/features/twitter).
 
 <p align="center"><img src="twitter-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -44,4 +44,4 @@ Embedding a follow button:
 
 ## Developer
 
-Datenstrom and Steffen Schultz. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom and Steffen Schultz. [Get support](https://extensions.datenstrom.se/help/).

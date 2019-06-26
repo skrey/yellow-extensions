@@ -14,4 +14,4 @@ To uninstall delete the [extension files](extension.ini).
 
 ## Translator
 
-Ufo Vyhuleny. [Get support](https://developers.datenstrom.se/help/support).
+Ufo Vyhuleny. [Get support](https://extensions.datenstrom.se/help/).

@@ -1,6 +1,6 @@
 Googlemap 0.8.4
 ===============
-Embed Google map. [See demo](https://developers.datenstrom.se/features/googlemap).
+Embed Google map. [See demo](https://extensions.datenstrom.se/features/googlemap).
 
 <p align="center"><img src="googlemap-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -40,4 +40,4 @@ Embedding a map, GPS coordinates:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

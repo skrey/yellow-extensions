@@ -1,6 +1,6 @@
 Gallery 0.8.2
 =============
-Image gallery with popup. [See demo](https://developers.datenstrom.se/features/gallery).
+Image gallery with popup. [See demo](https://extensions.datenstrom.se/features/gallery).
 
 <p align="center"><img src="gallery-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -26,7 +26,7 @@ The extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe)
 
 ## How to show image captions
 
-Image captions can be configured in file `system/settings/text.ini`. [Learn more](https://developers.datenstrom.se/help/adjusting-system#text-settings).
+Image captions can be configured in file `system/settings/text.ini`. [Learn more](https://extensions.datenstrom.se/help/adjusting-system#text-settings).
 
 ## Examples
 
@@ -56,4 +56,4 @@ Text settings for image captions:
 
 ## Developer
 
-Datenstrom featuring Dmitry Semenov. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom featuring Dmitry Semenov. [Get support](https://extensions.datenstrom.se/help/).

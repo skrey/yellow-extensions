@@ -14,4 +14,4 @@ To uninstall delete the [extension files](extension.ini).
 
 ## Translator
 
-Ludens. [Get support](https://developers.datenstrom.se/help/support).
+Ludens. [Get support](https://extensions.datenstrom.se/help/).

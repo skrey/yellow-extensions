@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to edit a website
 
-The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. To show an edit link add an `[edit]` shortcut to a page. [Learn more](https://developers.datenstrom.se/help/how-to-make-a-website).
+The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. To show an edit link add an `[edit]` shortcut to a page. [Learn more](https://extensions.datenstrom.se/help/how-to-make-a-website).
 
 ## How to create a user account
 
@@ -28,7 +28,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
-`SafeMode` = enable [safe mode](https://developers.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
+`SafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 `EditLocation` = login page location  
 `EditUploadNewLocation` = location for new media file  
 `EditUploadExtensions` = file extensions for upload, `none` to disable  
@@ -40,7 +40,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditUserGroup` = default group for new user account  
 `EditUserHome` = default home page for new user account  
 `EditLoginSessionTimeout` = login session in seconds  
-`EditLoginRestriction` = enable [login restriction](https://developers.datenstrom.se/help/security-configuration#login-restriction), 1 or 0  
+`EditLoginRestriction` = enable [login restriction](https://extensions.datenstrom.se/help/security-configuration#login-restriction), 1 or 0  
 `EditBruteForceProtection` = number of failed login attempts  
 
 ## Examples
@@ -73,4 +73,4 @@ Creating a user account at the command line:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

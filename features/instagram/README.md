@@ -1,6 +1,6 @@
 Instagram 0.8.2
 ===============
-Embed Instagram photos. [See demo](https://developers.datenstrom.se/features/instagram).
+Embed Instagram photos. [See demo](https://extensions.datenstrom.se/features/instagram).
 
 <p align="center"><img src="instagram-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -34,4 +34,4 @@ Embedding a photo:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

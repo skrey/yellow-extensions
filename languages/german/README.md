@@ -14,4 +14,4 @@ To uninstall delete the [extension files](extension.ini).
 
 ## Translator
 
-David Fehrmann. [Get support](https://developers.datenstrom.se/help/support).
+David Fehrmann. [Get support](https://extensions.datenstrom.se/help/).

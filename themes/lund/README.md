@@ -1,6 +1,6 @@
 Lund 0.8.5
 ==========
-Lund is a basic blogger theme. [See demo](https://developers.datenstrom.se/themes/lund).
+Lund is a basic blogger theme. [See demo](https://extensions.datenstrom.se/themes/lund).
 
 <p align="center"><img src="lund-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -14,4 +14,4 @@ To uninstall delete the [extension files](extension.ini).
 
 ## Designer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

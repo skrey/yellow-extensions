@@ -1,6 +1,6 @@
 Bern 0.8.5
 ==========
-Bern is a modern business theme. [See demo](https://developers.datenstrom.se/themes/bern).
+Bern is a modern business theme. [See demo](https://extensions.datenstrom.se/themes/bern).
 
 <p align="center"><img src="bern-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -18,4 +18,4 @@ The extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's 
 
 ## Designer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

@@ -23,12 +23,12 @@ The extension uses the [cURL library](https://github.com/curl/curl) by Daniel St
 The following commands are available:
 
 `php yellow.php about` = Show [website version](https://github.com/datenstrom/yellow-extensions/tree/master/features/core)  
-`php yellow.php build` = Build [static website](https://developers.datenstrom.se/help/server-configuration#static-website)  
-`php yellow.php check` = Check [static website](https://developers.datenstrom.se/help/server-configuration#static-website) for broken links  
-`php yellow.php clean` = Clean [static website](https://developers.datenstrom.se/help/server-configuration#static-website)  
+`php yellow.php build` = Build [static website](https://extensions.datenstrom.se/help/server-configuration#static-website)  
+`php yellow.php check` = Check [static website](https://extensions.datenstrom.se/help/server-configuration#static-website) for broken links  
+`php yellow.php clean` = Clean [static website](https://extensions.datenstrom.se/help/server-configuration#static-website)  
 `php yellow.php install` = Add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php release` = Create releases with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
-`php yellow.php serve` = Start [built-in web server](https://developers.datenstrom.se/help/server-configuration#static-website) for testing the website  
+`php yellow.php serve` = Start [built-in web server](https://extensions.datenstrom.se/help/server-configuration#static-website) for testing the website  
 `php yellow.php traffic` = Create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
 `php yellow.php uninstall` = Remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php update` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
@@ -69,4 +69,4 @@ Checking static website for broken links at the command line:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

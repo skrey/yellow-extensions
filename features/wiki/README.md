@@ -1,6 +1,6 @@
 Wiki 0.8.4
 ==========
-Wiki for your website. [See demo](https://developers.datenstrom.se/features/wiki/).
+Wiki for your website. [See demo](https://extensions.datenstrom.se/features/wiki/).
 
 <p align="center"><img src="wiki-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a wiki
 
-The wiki is available on your website as `http://website/wiki/`. To show the wiki on the home page, go to your `content` folder and delete the `1-home` folder. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](https://developers.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. Use `Tag` to group similar pages together. [Learn more](https://developers.datenstrom.se/help/how-to-make-a-wiki).
+The wiki is available on your website as `http://website/wiki/`. To show the wiki on the home page, go to your `content` folder and delete the `1-home` folder. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. Use `Tag` to group similar pages together. [Learn more](https://extensions.datenstrom.se/help/how-to-make-a-wiki).
 
 ## How to show wiki information
 
@@ -86,4 +86,4 @@ Showing list of pages:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

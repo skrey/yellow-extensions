@@ -63,4 +63,4 @@ Yellow traffic: 30 days, 5280 views
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

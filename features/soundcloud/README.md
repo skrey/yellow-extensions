@@ -1,6 +1,6 @@
 Soundcloud 0.8.2
 ================
-Embed Soundcloud audio tracks. [See demo](https://developers.datenstrom.se/features/soundcloud).
+Embed Soundcloud audio tracks. [See demo](https://extensions.datenstrom.se/features/soundcloud).
 
 <p align="center"><img src="soundcloud-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -33,4 +33,4 @@ Embedding an audio track:
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

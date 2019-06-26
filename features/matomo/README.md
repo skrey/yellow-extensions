@@ -21,4 +21,4 @@ The extension uses JavaScript to collect information, use the [traffic extension
 
 ## Developer
 
-Datenstrom. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

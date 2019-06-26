@@ -1,6 +1,6 @@
 Image 0.8.2
 ===========
-Images and thumbnails. [See demo](https://developers.datenstrom.se/features/image).
+Images and thumbnails. [See demo](https://extensions.datenstrom.se/features/image).
 
 <p align="center"><img src="image-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -62,4 +62,4 @@ Adding an image, different sizes:
 
 ## Developer
 
-Datenstrom featuring Thomas Boutell. [Get support](https://developers.datenstrom.se/help/support).
+Datenstrom featuring Thomas Boutell. [Get support](https://extensions.datenstrom.se/help/).
