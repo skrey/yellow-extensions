@@ -1,6 +1,6 @@
 Edit 0.8.11
 ==========
-Edit your website in a web browser. [See demo](https://developers.datenstrom.se).
+Edit your website in a web browser. [See demo](https://extensions.datenstrom.se).
 
 <p align="center"><img src="edit-screenshot.png?raw=true" alt="Screenshot"></p>
 
