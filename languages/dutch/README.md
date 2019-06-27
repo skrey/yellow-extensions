@@ -1,4 +1,4 @@
-Dutch 0.8.11
+Dutch 0.8.12
 ===========
 Dutch/Nederlands (België) with language 'nl'.
 

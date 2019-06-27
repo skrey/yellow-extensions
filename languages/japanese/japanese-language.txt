@@ -168,7 +168,7 @@ InstallExtensionWebsite: ウェブ
 InstallExtensionBlog: ブログ
 InstallExtensionWiki: ウィキ
 InstallHomeTitle: ホーム
-InstallHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。\n\nもっと多くの機能やテーマをインストールすることができます。\n[もっと詳しく](https://developers.datenstrom.se/help/)。
+InstallHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。\n\nもっと多くの機能やテーマをインストールすることができます。\n[もっと詳しく](https://extensions.datenstrom.se/help/)。
 InstallAboutTitle: について
 InstallAboutText: ウェブサイトを作る人のために。[edit - ログイン]。
 InstallFooterTitle: Footer
@@ -195,5 +195,5 @@ WikiTag: Tags:
 WikiSpecialPages: 全てのページ
 WikiSpecialChanges: 最近の更新状況
 YellowUrl: https://datenstrom.se/yellow/
-YellowHelpUrl: https://developers.datenstrom.se/help/
-YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowHelpUrl: https://extensions.datenstrom.se/help/
+YellowMarkdownUrl: https://extensions.datenstrom.se/help/markdown-cheat-sheet

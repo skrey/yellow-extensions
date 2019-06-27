@@ -168,7 +168,7 @@ InstallExtensionWebsite: 网站
 InstallExtensionBlog: 博客
 InstallExtensionWiki: 维基
 InstallHomeTitle: 首页
-InstallHomeText: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。\n\n您可以安装更多功能和主题。\n[了解更多](https://developers.datenstrom.se/help/)。
+InstallHomeText: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。\n\n您可以安装更多功能和主题。\n[了解更多](https://extensions.datenstrom.se/help/)。
 InstallAboutTitle: 关于
 InstallAboutText: 对于制作网站的人. [edit - 登入].
 InstallFooterTitle: Footer
@@ -195,5 +195,5 @@ WikiTag: 标签:
 WikiSpecialPages: 所有页面
 WikiSpecialChanges: 最近更改
 YellowUrl: https://datenstrom.se/yellow/
-YellowHelpUrl: https://developers.datenstrom.se/help/
-YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowHelpUrl: https://extensions.datenstrom.se/help/
+YellowMarkdownUrl: https://extensions.datenstrom.se/help/markdown-cheat-sheet

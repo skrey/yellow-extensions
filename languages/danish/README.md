@@ -1,4 +1,4 @@
-Danish 0.8.11
+Danish 0.8.12
 ============
 Danish/Dansk with language 'da'.
 

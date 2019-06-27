@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowDutch {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     const TYPE = "language";
     public $yellow;         //access to API
     

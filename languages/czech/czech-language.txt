@@ -168,7 +168,7 @@ InstallExtensionWebsite: Webová stránka
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Domů
-InstallHomeText: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.\n\nMůžete nainstalovat další funkce a motivy.\n[Další informace](https://developers.datenstrom.se/help/).
+InstallHomeText: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.\n\nMůžete nainstalovat další funkce a motivy.\n[Další informace](https://extensions.datenstrom.se/help/).
 InstallAboutTitle: O nás
 InstallAboutText: Pro lidi kteří vytvářejí webové stránky. [edit - Přihlásit se].
 InstallFooterTitle: Footer
@@ -195,5 +195,5 @@ WikiTag: Tags:
 WikiSpecialPages: Všechny stránky
 WikiSpecialChanges: Poslední změny
 YellowUrl: https://datenstrom.se/yellow/
-YellowHelpUrl: https://developers.datenstrom.se/help/
-YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowHelpUrl: https://extensions.datenstrom.se/help/
+YellowMarkdownUrl: https://extensions.datenstrom.se/help/markdown-cheat-sheet

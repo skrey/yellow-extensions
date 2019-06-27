@@ -168,7 +168,7 @@ InstallExtensionWebsite: Site web
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Accueil
-InstallHomeText: Votre site web fonctionne !\n\n[edit - Vous pouvez modifier cette page] ou utiliser un éditeur de texte.\n\nVous pouvez installer plus de fonctionnalités et de thèmes.\n[Apprenez-en plus](https://developers.datenstrom.se/fr/help/).
+InstallHomeText: Votre site web fonctionne !\n\n[edit - Vous pouvez modifier cette page] ou utiliser un éditeur de texte.\n\nVous pouvez installer plus de fonctionnalités et de thèmes.\n[Apprenez-en plus](https://extensions.datenstrom.se/fr/help/).
 InstallAboutTitle: À propos
 InstallAboutText: Pour les gens qui font des sites web. [edit - Se connecter].
 InstallFooterTitle: Footer
@@ -195,5 +195,5 @@ WikiTag: Tags:
 WikiSpecialPages: Toutes les pages
 WikiSpecialChanges: Changements récents
 YellowUrl: https://datenstrom.se/fr/yellow/
-YellowHelpUrl: https://developers.datenstrom.se/fr/help/
-YellowMarkdownUrl: https://developers.datenstrom.se/fr/help/markdown-cheat-sheet
+YellowHelpUrl: https://extensions.datenstrom.se/fr/help/
+YellowMarkdownUrl: https://extensions.datenstrom.se/fr/help/markdown-cheat-sheet

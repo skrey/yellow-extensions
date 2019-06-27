@@ -168,7 +168,7 @@ InstallExtensionWebsite: ওয়েবসাইট
 InstallExtensionBlog: ব্লগ
 InstallExtensionWiki: উইকি
 InstallHomeTitle: Home
-InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install more features and themes.\n[Learn more](https://developers.datenstrom.se/help/).
+InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install more features and themes.\n[Learn more](https://extensions.datenstrom.se/help/).
 InstallAboutTitle: About
 InstallAboutText: For people who make websites. [edit - Log in].
 InstallFooterTitle: Footer
@@ -195,5 +195,5 @@ WikiTag: ট্যাগ সমূহ:
 WikiSpecialPages: সমস্ত পৃষ্ঠা
 WikiSpecialChanges: সাম্প্রতিক পরিবর্তন
 YellowUrl: https://datenstrom.se/yellow/
-YellowHelpUrl: https://developers.datenstrom.se/help/
-YellowMarkdownUrl: https://developers.datenstrom.se/help/markdown-cheat-sheet
+YellowHelpUrl: https://extensions.datenstrom.se/help/
+YellowMarkdownUrl: https://extensions.datenstrom.se/help/markdown-cheat-sheet
