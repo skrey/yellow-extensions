@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowPreviousnext {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.5";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -67,18 +67,6 @@ class YellowPreviousnext {
                                 $pages->filter("layout", "blog")->sort("published", true);
                                 break;
             case "blogpages":   $pages = $this->yellow->content->clean(); break;
-            case "wiki":        $wikiLocation = $this->yellow->system->get("wikiLocation");
-                                if (!empty($wikiLocation)) {
-                                    $wiki = $this->yellow->content->find($wikiLocation);
-                                    $pages = $this->yellow->content->index(!$wiki->isVisible());
-                                } else {
-                                    $wiki = $this->yellow->lookup->isFileLocation($page->location) ? $page->getParent() : $page;
-                                    $pages = $wiki->getChildren(!$wiki->isVisible());
-                                }
-                                $wiki->set("layout", $this->yellow->system->get("wikiDefaultLayout"));
-                                $pages->append($wiki)->filter("layout", "wiki")->sort("title", true);
-                                break;
-            case "wikipages":   $pages = $this->yellow->content->clean(); break;
             default:            $pages = $page->getSiblings(!$page->isVisible());
         }
         return $pages;

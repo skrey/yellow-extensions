@@ -1,4 +1,4 @@
-Wiki 0.8.4
+Wiki 0.8.5
 ==========
 Wiki for your website. [See demo](https://extensions.datenstrom.se/features/wiki/).
 
@@ -39,7 +39,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `WikiLocation` = wiki location  
 `WikiNewLocation` = wiki location for new page  
-`WikiDefaultLayout` = wiki layout for default page  
 `WikiPagesMax` = number of pages to show per shortcut  
 `WikiPaginationLimit` = number of entries to show per page  
 

@@ -10,7 +10,6 @@
 <div class="entry-title"><h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1></div>
 <div class="entry-meta"><p><?php echo $this->yellow->text->getHtml("wikiModified") ?> <?php echo $this->yellow->page->getDateHtml("modified") ?></p></div>
 <div class="entry-content"><?php echo $this->yellow->page->getContent() ?></div>
-<?php echo $this->yellow->page->getExtra("links") ?>
 <?php if ($this->yellow->page->isExisting("tag")): ?>
 <div class="entry-tags">
 <p><?php echo $this->yellow->text->getHtml("wikiTag") ?> <?php $tagCounter = 0; foreach (preg_split("/\s*,\s*/", $this->yellow->page->get("tag")) as $tag) { if (++$tagCounter>1) echo ", "; echo "<a href=\"".$this->yellow->page->getPage("wiki")->getLocation(true).$this->yellow->toolbox->normaliseArgs("tag:$tag")."\">".htmlspecialchars($tag)."</a>"; } ?></p>

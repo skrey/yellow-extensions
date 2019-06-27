@@ -1,4 +1,4 @@
-Previousnext 0.8.4
+Previousnext 0.8.5
 ==================
 Show links to previous/next page. [See demo](https://extensions.datenstrom.se/features/blog/blog-example).
 
@@ -15,7 +15,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to show links
 
-The extension adds links to previous/next page, which allows users to navigate between pages. Links are shown on blog and wiki pages. To show links on other pages add a `[previousnext]` shortcut to a page.
+The extension adds links to previous/next page, which allows users to navigate between pages. Links are shown on blog pages. To show links on other pages add a `[previousnext]` shortcut to a page.
 
 ## Settings
 
