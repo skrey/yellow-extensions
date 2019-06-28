@@ -4,9 +4,11 @@ Datenstrom Yellow is for people who make websites. [See demo](https://extensions
 
 [![Datenstrom Yellow](https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/website/media/images/datenstrom-yellow-en.jpg)](https://datenstrom.se/yellow/)
 
-1. [Download all extensions and unzip them](https://github.com/datenstrom/yellow-extensions/archive/master.zip).  
-2. Copy individual zip files to your web server.  
-3. Open your website in a web browser. [Learn more](https://extensions.datenstrom.se/help/).
+## How to install extensions
+
+1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Download all extensions and unzip them](https://github.com/datenstrom/yellow-extensions/archive/master.zip).
+3. Copy individual zip files into your `system/extensions` folder. [Learn more](https://extensions.datenstrom.se/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/website/media/images/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
