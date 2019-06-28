@@ -2,7 +2,7 @@
 
 Datenstrom Yellow ist für Menschen die Webseiten machen. [Demo anschauen](https://extensions.datenstrom.se/de/).
 
-[![Datenstrom Yellow](https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/website/media/images/datenstrom-yellow-de.jpg)](https://datenstrom.se/de/yellow/)
+![Datenstrom Yellow](https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/website/media/images/datenstrom-yellow-de.jpg)
 
 ## Wie man Erweiterungen installiert
 
