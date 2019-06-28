@@ -1,4 +1,4 @@
-# [![Datenstrom](https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/website/media/images/datenstrom-logo-small.png)](https://github.com/datenstrom)&nbsp; Datenstrom Yellow Erweiterungen
+# Datenstrom Yellow Erweiterungen
 
 Datenstrom Yellow ist für Menschen die Webseiten machen. [Demo anschauen](https://extensions.datenstrom.se/de/).
 
@@ -7,8 +7,12 @@ Datenstrom Yellow ist für Menschen die Webseiten machen. [Demo anschauen](https
 ## Wie man Erweiterungen installiert
 
 1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Alle Erweiterungen herunterladen und entpacken](https://github.com/datenstrom/yellow-extensions/archive/master.zip).  
-3. Kopiere individuelle Zip-Dateien in dein `system/extensions`-Verzeichnis. [Mehr erfahren](https://extensions.datenstrom.se/de/help/).
+2. [Funktionen](https://github.com/datenstrom/yellow-extensions/tree/master/features), [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages),  [Themen](https://github.com/datenstrom/yellow-extensions/tree/master/themes) oder [alle Erweiterungen herunterladen](https://github.com/datenstrom/yellow-extensions/archive/master.zip).
+3. Kopiere individuelle Zip-Dateien in dein `system/extensions`-Verzeichnis.
+
+## Entwickler
+
+Datenstrom und Mitwirkende. [Support finden](https://extensions.datenstrom.se/de/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/website/media/images/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
