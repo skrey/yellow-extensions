@@ -7,8 +7,8 @@ Datenstrom Yellow ist für Menschen die Webseiten machen. [Demo anschauen](https
 ## Wie man Erweiterungen installiert
 
 1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Funktionen](https://github.com/datenstrom/yellow-extensions/tree/master/features), [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages),  [Themen](https://github.com/datenstrom/yellow-extensions/tree/master/themes) oder [alle Erweiterungen herunterladen](https://github.com/datenstrom/yellow-extensions/archive/master.zip).
-3. Kopiere individuelle Zip-Dateien in dein `system/extensions`-Verzeichnis.
+2. [Funktionen](https://github.com/datenstrom/yellow-extensions/tree/master/features), [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages) und [Themen herunterladen](https://github.com/datenstrom/yellow-extensions/tree/master/themes).
+3. Kopiere Zip-Dateien in dein `system/extensions`-Verzeichnis.
 
 ## Entwickler
 

@@ -7,8 +7,8 @@ Datenstrom Yellow is for people who make websites. [See demo](https://extensions
 ## How to install extensions
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download features](https://github.com/datenstrom/yellow-extensions/tree/master/features), [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages), [themes](https://github.com/datenstrom/yellow-extensions/tree/master/themes) or [all extensions](https://github.com/datenstrom/yellow-extensions/archive/master.zip).
-3. Copy individual zip files into your `system/extensions` folder.
+2. [Download features](https://github.com/datenstrom/yellow-extensions/tree/master/features), [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages) and [themes](https://github.com/datenstrom/yellow-extensions/tree/master/themes).
+3. Copy zip files into your `system/extensions` folder.
 
 ## Developer 
 
