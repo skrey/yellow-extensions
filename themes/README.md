@@ -1,7 +1,7 @@
 Themes
 ======
 
-The following themes are available:
+The following themes are available for [Datenstrom Yellow](https://github.com/datenstrom/yellow):
 
 * [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/themes/berlin): 
   Berlin is a simple and beautiful theme inspired by Dieter Rams.

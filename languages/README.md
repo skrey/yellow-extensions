@@ -1,7 +1,7 @@
 Languages
 =========
 
-The following languages are available:
+The following languages are available for [Datenstrom Yellow](https://github.com/datenstrom/yellow):
 
 * [Bengali](https://github.com/datenstrom/yellow-extensions/tree/master/languages/bengali): Bengali/বাঙালি with language 'bn'.
 * [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/chinese): Chinese/简体中文 with language 'zh-CN'.
