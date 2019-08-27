@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /harming/humans
-Disallow: /harming/machines
-Disallow: /risking/own/existence
-Disallow: /edit/
