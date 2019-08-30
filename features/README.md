@@ -33,6 +33,8 @@ The following features are available for [Datenstrom Yellow](https://github.com/
   Embed Google calendar.
 * [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap): 
   Embed Google map.
+* [Help](https://github.com/datenstrom/yellow-extensions/tree/master/features/help): 
+  Help and documentation.
 * [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight): 
   Highlight source code.
 * [Image](https://github.com/datenstrom/yellow-extensions/tree/master/features/image): 
