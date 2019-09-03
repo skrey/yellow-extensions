@@ -3,8 +3,6 @@ Title: How to make a website
 ---
 Learn how to make your own website. [See demo](/).
 
-[[image screenshot-website-en.png Screenshot screenshot 75%]](/)  
-
 ## Installing website
 
 1. [Download and unzip Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).

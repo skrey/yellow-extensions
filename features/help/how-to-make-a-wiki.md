@@ -3,8 +3,6 @@ Title: How to make a wiki
 ---
 Learn how to make your own wiki. [See demo](/features/wiki/).
 
-[[image screenshot-wiki.png Screenshot screenshot 75%]](/features/wiki/coffee-is-good-for-you)  
-
 ## Installing wiki
 
 1. [Download and unzip Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).

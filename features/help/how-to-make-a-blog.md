@@ -3,8 +3,6 @@ Title: How to make a blog
 ---
 Learn how to make your own blog. [See demo](/features/blog/).
 
-[[image screenshot-blog.png Screenshot screenshot 75%]](/features/blog/fika-is-good-for-you)  
-
 ## Installing blog
 
 1. [Download and unzip Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
