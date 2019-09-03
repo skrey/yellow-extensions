@@ -2,7 +2,7 @@ Help 0.8.1
 ==========
 Help and documentation. [See demo](https://extensions.datenstrom.se/help/)
 
-**WORK IN PROGRESS**
+<p align="center"><img src="help-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to install extension
 
