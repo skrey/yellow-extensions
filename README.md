@@ -7,7 +7,7 @@ The following extensions are available for [Datenstrom Yellow](https://github.co
 * [Languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages/):
   Translations for multilingual websites.
 * [Themes](https://github.com/datenstrom/yellow-extensions/tree/master/themes/):
-  Beautiful themes for your website.
+  Beautiful appearance for your website.
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
