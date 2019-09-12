@@ -1,4 +1,4 @@
-Edit 0.8.11
+Edit 0.8.12
 ==========
 Edit your website in a web browser. [See demo](https://extensions.datenstrom.se).
 
@@ -42,6 +42,20 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditLoginSessionTimeout` = login session in seconds  
 `EditLoginRestriction` = enable [login restriction](https://extensions.datenstrom.se/help/security-configuration#login-restriction), 1 or 0  
 `EditBruteForceProtection` = number of failed login attempts  
+
+The following settings can be configured in file `system/settings/user.ini`:
+
+`Email` = email of the user  
+`Name` =  name of the user  
+`Language` = language of the user  
+`Group` = group of the user, e.g. `user`, `administrator`  
+`Home` = home page of the user  
+`Status` = user account status, e.g. `active`  
+`Pending` = pending changes  
+`Hash` = encrypted password  
+`Stamp` = unique token for authentication  
+`Failed` = number of failed login attempts  
+`Modified` = modification time, Unix time  
 
 ## Examples
 
