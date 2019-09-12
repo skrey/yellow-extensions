@@ -1,4 +1,4 @@
-Help 0.8.1
+Help 0.8.2
 ==========
 Help and documentation. [See demo](https://extensions.datenstrom.se/help/)
 

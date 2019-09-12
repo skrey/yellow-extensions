@@ -25,24 +25,32 @@ You can define the system settings here, for example the name of the website and
 
 Another configuration file is `system/settings/text.ini`. Here's an example:
 
+    Language: en
+    TextYes: Yes
+    TextNo: No
     EditLoginTitle: Welcome to Stockholm
     Error404Title: File not found
     Error404Text: The requested file was not found. Oh no...
-    DateFormatShort: F Y
-    DateFormatMedium: Y-m-d
-    DateFormatLong: Y-m-d H:i
     picture.jpg: This is an example image caption.
 
-You can define the text settings here, for example error messages of the website, the date format and [image captions](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery). The default text is defined in the corresponding [language file](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt). You can copy text from a language file into the text settings and customise it.
+You can define the text settings here, for example error messages of the website  and image captions. Text settings consist of `Language` and other settings. You can define any text or adjust the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) of languages.
 
 ## User accounts
 
 All user accounts are stored in file `system/settings/user.ini`. Here's an example:
 
-    anna@svensson.com: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG,Anna,en,active,none,21196d7e857d541849e4,946684800,0,administrator,/
-    english@demo.com: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri,Demo,en,active,none,f3e71699df534913a823,946684800,0,user,/
-    guest@demo.com: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri,Guest,en,active,none,b3106b8b1732ee60f5b3,946684800,0,user,/tests/
+    Email: anna@svensson.com
+    Name: Anna Svensson
+    Language: en
+    Group: administrator
+    Home: /
+    Status: active
+    Pending: none
+    Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
+    Stamp: 21196d7e857d541849e4
+    Modified: 946684800
+    Failed: 0
 
-You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to create new user accounts and change passwords. A user account consists of one line with email, encrypted password and different settings. At the end of the line is the user's group and home page.
+You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to create new user accounts and change passwords. A user account consists of `Email` and other settings. If you don't want all pages to be edited in the web browser, then change the home page of the user.
 
 [Next: Language configuration →](language-configuration)
