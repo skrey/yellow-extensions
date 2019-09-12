@@ -1,4 +1,4 @@
-Core 0.8.5
+Core 0.8.6
 ==========
 Core functionality for your website.
 
