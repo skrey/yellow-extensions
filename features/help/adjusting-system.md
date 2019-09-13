@@ -48,8 +48,8 @@ All user accounts are stored in file `system/settings/user.ini`. Here's an examp
     Pending: none
     Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
     Stamp: 21196d7e857d541849e4
-    Modified: 946684800
     Failed: 0
+    Modified: 946684800
 
 You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to create new user accounts and change passwords. A user account consists of `Email` and other settings. If you don't want all pages to be edited in the web browser, then change the home page of the user.
 
