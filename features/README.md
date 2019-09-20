@@ -102,6 +102,8 @@ The following features are experimental:
   Message of the day.
 * [Openstreetmap](https://github.com/GiovanniSalmeri/yellow-openstreetmap):
   Embed OpenStreetMap maps.
+* [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
+  View the markdown source of a page.
 * [Pinboard](https://github.com/GiovanniSalmeri/yellow-pinboard):
   Pinboard for timed notices.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
