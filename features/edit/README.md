@@ -22,6 +22,10 @@ The first option is to create a user account in a web browser. Go to the login p
 
 The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user add` followed by email, password and an optional name. All user accounts are stored in file `system/settings/user.ini`. See examples below.
 
+# How to restrict a user account
+
+If you don't want that users edit pages in the web browser, then restrict [user accounts](adjusting-system#user-accounts). Open file `system/settings/user.ini` and at the end of the line change the user's home page. Users are allowed to edit pages within their home page, but nowhere else.
+
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
