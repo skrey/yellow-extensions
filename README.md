@@ -5,7 +5,7 @@ The following extensions are available for [Datenstrom Yellow](https://github.co
 * [Features](https://github.com/datenstrom/yellow-extensions/tree/master/features/):
   Useful features for your website.
 * [Languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages/):
-  Translations for multilingual websites.
+  Possible translations for your website.
 * [Themes](https://github.com/datenstrom/yellow-extensions/tree/master/themes/):
   Beautiful appearance for your website.
 

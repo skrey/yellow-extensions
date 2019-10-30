@@ -5,7 +5,7 @@ Die folgenden Erweiterungen sind verfügbar für [Datenstrom Yellow](https://git
 * [Funktionen](https://github.com/datenstrom/yellow-extensions/tree/master/features/):
   Nützliche Funktionen für deine Webseite.
 * [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/):
-  Übersetzungen für mehrsprachige Webseiten.
+  Mögliche Übersetzungen für deine Webseite.
 * [Themen](https://github.com/datenstrom/yellow-extensions/tree/master/themes/):
   Schönes Aussehen für deine Webseite.
 
