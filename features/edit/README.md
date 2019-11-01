@@ -26,7 +26,7 @@ The second option is to create a user account at the [command line](https://gith
 
 If you don't want that users edit pages, then restrict user accounts. Open file `system/settings/user.ini` and change the user's home page. Users are allowed to add, edit and delete pages within their home page. But nowhere else.
 
-If you don't want user that user accounts can be created, then restrict the login page. Open file `system/settings/system.ini` and change `EditLoginRestriction: 1`. Users are allowed to log in, but cannot create new user accounts.
+If you don't want that user accounts can be created, then restrict the login page. Open file `system/settings/system.ini` and change `EditLoginRestriction: 1`. Users are allowed to log in, but cannot create new user accounts.
 
 ## Settings
 
