@@ -197,7 +197,13 @@ Sort page collection by [setting](markdown-cheat-sheet#settings)
 Sort page collection by [settings similarity](markdown-cheat-sheet#settings)
 
 **$pages->merge($input)**  
-Merge page collection
+Calculate union, merge page collection
+
+**$pages->intersect($input)**  
+Calculate intersection, remove pages that are not present in another page collection
+
+**$pages->diff($input)**  
+Calculate difference, remove pages that are present in another page collection
 
 **$pages->append($page)**  
 Append to end of page collection
