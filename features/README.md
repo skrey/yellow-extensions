@@ -112,6 +112,8 @@ The following features are experimental:
   Create password-protected pages.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
   Display random pages from specified location.
+* [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
+  Configurable page redirection.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):
   Create internal links.
 * [Shariff](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/shariff):
