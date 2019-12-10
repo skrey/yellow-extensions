@@ -18,7 +18,7 @@ You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tr
 
 ## How to show and hide a page
 
-By default all pages are available on your website. You can set a different `Status` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. You can chose between different status settings, to make a page unavailable and control who can see it. See settings below.
+All `content` folders are available on your website. Set `Status` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. You can chose between different states, to make a page unavailable and control who can see it. See settings below.
 
 ## How to redirect to another page
 
@@ -40,9 +40,9 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 These are the most important system settings. For a complete list see [configuration file](https://github.com/datenstrom/yellow/blob/master/system/settings/system.ini).
 
-The following status is supported:
+The following page status is supported:
 
-`public` = normal page  
+`public` = page is a normal page  
 `draft` = page ist not available, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
 `hidden` = page ist not available, results in "file not found" error  
 `ignore` = page is ignored in [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
