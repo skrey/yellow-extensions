@@ -38,11 +38,10 @@ The following settings can be configured in file `system/settings/system.ini`:
 `SafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 `MultiLanguageMode` = enable [multi language mode](https://extensions.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
 
-These are the most important system settings. For a complete list see [configuration file](https://github.com/datenstrom/yellow/blob/master/system/settings/system.ini).
-
-The following page status is supported:
+The following page status are supported:
 
 `public` = page is a normal page  
+`private` = page ist not available, user needs to enter a password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
 `draft` = page ist not available, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
 `hidden` = page ist not available, results in "file not found" error  
 `ignore` = page is ignored in [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
