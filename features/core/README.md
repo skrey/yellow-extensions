@@ -14,7 +14,7 @@ Do not delete the [extension files](extension.ini), they are always required.
 
 ## How to show website version
 
-You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version. You can open the [log file](https://extensions.datenstrom.se/help/api#troubleshooting) to show system diagnostics. You can also use shortcuts to show the current website version. See examples below.
+You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version. You can open the [log file](https://extensions.datenstrom.se/help/api#troubleshooting) to show system diagnostics. You can also add a `[yellow]` shortcut to a page. See examples below.
 
 ## How to hide a page
 
@@ -54,13 +54,6 @@ Content file with website version:
     Title: Example page
     ---
     This website is made with [yellow].
-
-Content file with website version, including extensions:
-
-    ---
-    Title: Example page
-    ---
-    This website is made with [yellow].
     
     [yellow about]
 
@@ -71,6 +64,10 @@ Content file with hidden status:
     Status: hidden
     ---
     [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+
+Showing website version at the command line:
+ 
+`php yellow.php about`  
 
 ## Developer
 
