@@ -44,7 +44,7 @@ The following page states are supported:
 `private` = page ist not available, user needs to enter a password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
 `draft` = page ist not available, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
 `hidden` = page ist not available, results in "file not found" error  
-`ignore` = page is ignored in [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
+`ignore` = page is ignored when building a static website  
 
 ## Examples
 
