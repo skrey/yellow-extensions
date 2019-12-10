@@ -16,13 +16,13 @@ Do not delete the [extension files](extension.ini), they are always required.
 
 You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version. You can open the [log file](https://extensions.datenstrom.se/help/api#troubleshooting) to show system diagnostics. You can also use shortcuts to show the current website version. See examples below.
 
-## How to show and hide a page
+## How to hide a page
 
 All `content` folders are available on your website. Set `Status` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. You can chose between different states, to make a page unavailable and control who can see it. See settings below.
 
 ## How to redirect to another page
 
-Set `Redirect` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+Set `Redirect` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system. 
 
 ## Settings
 
@@ -38,7 +38,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `SafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 `MultiLanguageMode` = enable [multi language mode](https://extensions.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
 
-The following page status are supported:
+The following page states are supported:
 
 `public` = page is a normal page  
 `private` = page ist not available, user needs to enter a password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
@@ -64,7 +64,7 @@ Content file with website version, including extensions:
     
     [yellow about]
 
-Footer file with link:
+Content file with hidden status:
 
     ---
     Title: Footer
