@@ -16,6 +16,14 @@ Do not delete the [extension files](extension.ini), they are always required.
 
 You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version. You can open the [log file](https://extensions.datenstrom.se/help/api#troubleshooting) to show system diagnostics. You can also use shortcuts to show the current website version. See examples below.
 
+## How to show and hide a page
+
+By default all pages are available on your website. You can set a different `Status` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. You can chose between different status settings, to make a page unavailable and control who can see it. See settings below.
+
+## How to redirect to another page
+
+Set `Redirect` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
@@ -30,7 +38,14 @@ The following settings can be configured in file `system/settings/system.ini`:
 `SafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 `MultiLanguageMode` = enable [multi language mode](https://extensions.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
 
-These are the most important settings. For a complete list see [configuration file](https://github.com/datenstrom/yellow/blob/master/system/settings/system.ini).
+These are the most important system settings. For a complete list see [configuration file](https://github.com/datenstrom/yellow/blob/master/system/settings/system.ini).
+
+The following status is supported:
+
+`public` = normal page  
+`draft` = page ist not available, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
+`hidden` = page ist not available, results in "file not found" error  
+`ignore` = page is ignored in [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
 
 ## Examples
 
