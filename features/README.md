@@ -47,8 +47,6 @@ The following features are available for [Datenstrom Yellow](https://github.com/
   Matomo web analytics.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/features/meta):
   Meta data for social media sites.
-* [Preview](https://github.com/datenstrom/yellow-extensions/tree/master/features/preview): 
-  Show pages with image preview.
 * [Previousnext](https://github.com/datenstrom/yellow-extensions/tree/master/features/previousnext): 
   Show links to previous/next page.
 * [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
