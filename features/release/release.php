@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.9";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -182,10 +182,7 @@ class YellowRelease {
         $statusCode = 200;
         $fileNameVersion = $pathExtension.$this->yellow->system->get("updateVersionFile");
         list($extension, $version, $description, $status) = $this->getExtensionInformation($pathSource);
-        if (is_file($fileNameVersion) && $status!="hidden") {
-            if (substru($pathSource, 0, strlenu($pathExtension))!=$pathExtension) {
-                $description .= " Experimental";
-            }
+        if (is_file($fileNameVersion) && $status!="ignore") {
             $fileData = $this->yellow->toolbox->readFile($fileNameVersion);
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
@@ -218,7 +215,7 @@ class YellowRelease {
         $statusCode = 200;
         $fileNameWaffle = $pathExtension.$this->yellow->system->get("updateWaffleFile");
         list($extension, $version, $description, $status) = $this->getExtensionInformation($pathSource);
-        if (is_file($fileNameWaffle) && $status!="hidden") {
+        if (is_file($fileNameWaffle) && $status!="ignore") {
             $waffle = $this->getExtensionWaffle($pathSource);
             $fileData = $this->yellow->toolbox->readFile($fileNameWaffle);
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
@@ -292,6 +289,9 @@ class YellowRelease {
             if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
             if (lcfirst($matches[1])=="version") $version = $matches[2];
             if (lcfirst($matches[1])=="description") $description = $matches[2];
+            if (lcfirst($matches[1])=="developer") $description = "$description Developed by $matches[2].";
+            if (lcfirst($matches[1])=="translator") $description = "$description Translated by $matches[2].";
+            if (lcfirst($matches[1])=="designer") $description = "$description Designed by $matches[2].";
             if (lcfirst($matches[1])=="status") $status = $matches[2];
         }
         return array($extension, $version, $description, $status);
