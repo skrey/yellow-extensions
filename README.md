@@ -1,6 +1,6 @@
 # Datenstrom Yellow extensions
 
-The following extensions are available for [Datenstrom Yellow](https://github.com/datenstrom/yellow):
+The following extensions are available:
 
 * [Features](https://github.com/datenstrom/yellow-extensions/tree/master/features/):
   Useful features for your website.

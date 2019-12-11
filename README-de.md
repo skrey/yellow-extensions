@@ -1,6 +1,6 @@
 # Datenstrom Yellow Erweiterungen
 
-Die folgenden Erweiterungen sind verfügbar für [Datenstrom Yellow](https://github.com/datenstrom/yellow):
+Die folgenden Erweiterungen sind verfügbar:
 
 * [Funktionen](https://github.com/datenstrom/yellow-extensions/tree/master/features/):
   Nützliche Funktionen für deine Webseite.

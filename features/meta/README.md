@@ -59,4 +59,4 @@ Content file with meta data from first image:
 
 ## Developer
 
-Datenstrom and Steffen Schultz. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom, Steffen Schultz. [Get support](https://extensions.datenstrom.se/help/).

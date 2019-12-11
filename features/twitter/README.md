@@ -44,4 +44,4 @@ Embedding a follow button:
 
 ## Developer
 
-Datenstrom and Steffen Schultz. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom, Steffen Schultz. [Get support](https://extensions.datenstrom.se/help/).
