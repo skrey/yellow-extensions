@@ -50,7 +50,7 @@ Footer file with contact page:
 
     ---
     Title: Footer
-    Status: hidden
+    Status: shared
     ---
     [Contact](/contact/) &nbsp; 
     [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)

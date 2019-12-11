@@ -44,7 +44,7 @@ Footer file with RSS feed:
 
     ---
     Title: Footer
-    Status: hidden
+    Status: shared
     ---
     [Feed](/feed/page:feed.xml) &nbsp; 
     [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)

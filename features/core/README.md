@@ -85,11 +85,11 @@ Content file with website version:
     
     [yellow about]
 
-Content file with hidden status:
+Content file with shared status:
 
     ---
     Title: Footer
-    Status: hidden
+    Status: shared
     ---
     [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 

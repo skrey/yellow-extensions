@@ -56,7 +56,7 @@ Footer file with search page:
 
     ---
     Title: Footer
-    Status: hidden
+    Status: shared
     ---
     [Search](/search/) &nbsp; 
     [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)

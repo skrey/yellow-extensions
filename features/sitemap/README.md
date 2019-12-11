@@ -43,7 +43,7 @@ Footer file with sitemap:
 
     ---
     Title: Footer
-    Status: hidden
+    Status: shared
     ---
     [Sitemap](/sitemap/) &nbsp; 
     [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)

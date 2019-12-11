@@ -45,7 +45,7 @@ Footer file with heart emoji:
 
     ---
     Title: Footer
-    Status: hidden
+    Status: shared
     ---
     [Made with [ea ea-heart] and Datenstrom Yellow](https://datenstrom.se/yellow/)
 

@@ -46,7 +46,7 @@ Footer file with social media icons:
 
     ---
     Title: Footer
-    Status: hidden
+    Status: shared
     ---
     [[fa fa-twitter]](https://twitter.com/datenstromse) &nbsp; 
     [[fa fa-github]](https://github.com/datenstrom) &nbsp;

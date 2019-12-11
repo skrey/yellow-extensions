@@ -49,7 +49,7 @@ Sidebar file with table of contents:
 
     ---
     Title: Sidebar
-    Status: hidden
+    Status: shared
     ---
     [toc]
 
