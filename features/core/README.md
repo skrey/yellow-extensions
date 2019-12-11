@@ -44,7 +44,7 @@ The following status values are supported:
 `private` = page is not visible, user needs to log in or enter the password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
 `draft` = page is not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
 `unlisted` = page is not visible, but can be accessed with the correct link, requires new core (coming soon)  
-`hidden` = page is not available, but can be included in other pages
+`hidden` = page is not available, but can be included in other pages  
 `ignore` = page is ignored when building a static website  
 
 ## Examples
@@ -65,6 +65,14 @@ Content file with hidden status:
     Status: hidden
     ---
     [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+
+Content file with redirection:
+
+    ---
+    Title: Redirect page
+    Redirect: https://datenstrom.se/yellow/
+    ---
+    This page redirects to another page.
 
 Showing website version at the command line:
  
