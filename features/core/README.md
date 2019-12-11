@@ -22,7 +22,7 @@ Set `Status: unlisted` in the [settings](#settings) at the top of a page. The pa
 
 ## How to redirect to another page
 
-Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system. See examples below.
+Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
 ## Settings
 
@@ -85,13 +85,14 @@ Content file with website version:
     
     [yellow about]
 
-Content file with shared status:
+
+Content file with unlisted status:
 
     ---
-    Title: Footer
-    Status: shared
+    Title: Example page
+    Status: unlisted
     ---
-    [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+    This is an example page.
 
 Content file with redirection:
 
