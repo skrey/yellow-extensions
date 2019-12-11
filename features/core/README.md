@@ -18,13 +18,49 @@ You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tr
 
 ## How to hide a page from the navigation
 
-All `content` folders are available on your website. Set `Status` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. You can chose between different status values, to make a page invisible and control who can access it. See settings below.
+All `content` folders are available on your website. Set `Status` in the [settings](#settings) at the top of a page. You can chose between different status values, to make a page invisible and control who can access it.
 
 ## How to redirect to another page
 
-Set `Redirect` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system. See examples below.
+Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system. See examples below.
 
 ## Settings
+
+The following settings can be configured at the top of a page:
+
+`Title` = page title  
+`TitleContent` = page title shown in content  
+`TitleNavigation` = page title shown in navigation  
+`TitleHeader` = page title shown in web browser  
+`TitleSlug` = page title used for saving the page  
+`Description` = page description  
+`Author` = page author(s), comma separated  
+`Email` = email of page author  
+`Language` = page language  
+`Layout` = page layout  
+`LayoutNew` = page layout for creating a new page  
+`Theme` = page theme  
+`Parser` = page parser  
+`Image` = page image  
+`ImageAlt` = alternative text for page image  
+`Modified` = page modification date, YYYY-MM-DD format  
+`Published` = page publication date, YYYY-MM-DD format  
+`Tag` = page tag(s) for categorisation, comma separated  
+`Status` = page status for workflow, e.g. `public`  
+`Redirect` = redirect to a another page or URL  
+`Navigation` = page navigation  
+`Header` = page header  
+`Footer` = page footer  
+`Sidebar` = page sidebar  
+
+The following status values are supported:
+
+`public` = page is a normal page  
+`private` = page is not visible, user needs to log in or enter the password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
+`draft` = page is not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
+`unlisted` = page is not visible, but can be accessed with the correct link, requires new core (coming soon)  
+`hidden` = page is not available, but can be included in other pages  
+`ignore` = page is ignored when building a static website  
 
 The following settings can be configured in file `system/settings/system.ini`:
 
@@ -37,15 +73,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Theme` = default theme  
 `SafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 `MultiLanguageMode` = enable [multi language mode](https://extensions.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
-
-The following status values are supported:
-
-`public` = page is a normal page  
-`private` = page is not visible, user needs to log in or enter the password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
-`draft` = page is not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
-`unlisted` = page is not visible, but can be accessed with the correct link, requires new core (coming soon)  
-`hidden` = page is not available, but can be included in other pages  
-`ignore` = page is ignored when building a static website  
 
 ## Examples
 
