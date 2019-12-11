@@ -16,9 +16,9 @@ Do not delete the [extension files](extension.ini), they are always required.
 
 You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version. You can open the [log file](https://extensions.datenstrom.se/help/api#troubleshooting) to show system diagnostics. You can also add a `[yellow]` shortcut to a page. See examples below.
 
-## How to hide a page from the navigation
+## How to hide a page
 
-All `content` folders are available on your website. Set `Status` in the [settings](#settings) at the top of a page. You can chose between different status values, to make a page invisible and control who can access it.
+Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to hide a page and control who can access it.
 
 ## How to redirect to another page
 
@@ -58,8 +58,8 @@ The following status values are supported:
 `public` = page is a normal page  
 `private` = page is not visible, user needs to log in or enter the password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
 `draft` = page is not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
-`unlisted` = page is not visible, but can be accessed with the correct link, requires new core (coming soon)  
-`hidden` = page is not available, but can be included in other pages  
+`unlisted` = page is not visible, but can be accessed with the correct link  
+`shared` = page is not available, but can be included in other pages  
 `ignore` = page is ignored when building a static website  
 
 The following settings can be configured in file `system/settings/system.ini`:
