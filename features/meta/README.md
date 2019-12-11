@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 The extension generates meta data for the [Open Graph protocol](http://ogp.me/). 
 
-You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page.
+You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page.
 
 ## Settings
 

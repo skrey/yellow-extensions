@@ -89,10 +89,10 @@ Content file with website version:
 Content file with unlisted status:
 
     ---
-    Title: Example page
+    Title: Unlisted page
     Status: unlisted
     ---
-    This is an example page.
+    This page is not visible in navigation and search results.
 
 Content file with redirection:
 

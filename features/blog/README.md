@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a blog
 
-The blog is available on your website as `http://website/blog/`. To show the blog on the home page, go to your `content` folder and delete the `1-home` folder. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://extensions.datenstrom.se/help/markdown-cheat-sheet#settings) at the top of a page. Use `Tag` to group similar pages together. You can use `[--more--]` to add a page break at the desired spot. [Learn more](https://extensions.datenstrom.se/help/how-to-make-a-blog).
+The blog is available on your website as `http://website/blog/`. To show the blog on the home page, go to your `content` folder and delete the `1-home` folder. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. Use `Tag` to group similar pages together. You can use `[--more--]` to add a page break at the desired spot. [Learn more](https://extensions.datenstrom.se/help/how-to-make-a-blog).
 
 ## How to show blog information
 
