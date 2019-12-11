@@ -41,10 +41,10 @@ The following settings can be configured in file `system/settings/system.ini`:
 The following status values are supported:
 
 `public` = page is a normal page  
-`private` = page ist not visible, user needs to log in or enter a password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
-`draft` = page ist not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
-`unlisted` = page ist not visible, but can be accessed with the correct link, requires new core (coming soon)  
-`hidden` = page ist not available, results in "file not found" error  
+`private` = page is not visible, user needs to log in or enter the password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
+`draft` = page is not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
+`unlisted` = page is not visible, but can be accessed with the correct link, requires new core (coming soon)  
+`hidden` = page is not available, but can be included in other pages
 `ignore` = page is ignored when building a static website  
 
 ## Examples
