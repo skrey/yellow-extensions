@@ -120,4 +120,4 @@ The following features are available:
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube): 
   Embed Youtube videos. Developed by Datenstrom.
 
-Want to make a new feature? [Use the example extension](https://github.com/schulle4u/yellow-extension-example).
+Want to make a new feature? [Start with the example extension](https://github.com/schulle4u/yellow-extension-example).
