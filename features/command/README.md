@@ -18,17 +18,31 @@ You can run commands from within the installation folder. Open a terminal window
 
 This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to check links.
 
+## How to build a static website
+
+Create a static website, that works on almost any web server:
+
+1. Go to your installation folder, where the `yellow.php` is.
+2. Type the following line: `php yellow.php build`
+3. Upload the static website to your web server.
+
+This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The URL of your static website can be defined in the system settings, for example `StaticUrl: http://website/`.
+
+As an alternative to a static website you can build a cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`. To clean the cache type the following line: `php yellow.php clean cache`.
+
+You can test a static website without uploading it to a web server. Start the built-in web server. This is especially handy for developers, since everything runs on your own computer. Here's an example: `php yellow.php serve`. Now the website is available as `http://localhost:8000/`.
+
 ## Commands
 
 The following commands are available:
 
 `php yellow.php about` = Show website version  
-`php yellow.php build` = Build [static website](https://extensions.datenstrom.se/help/server-configuration#static-website)  
-`php yellow.php check` = Check [static website](https://extensions.datenstrom.se/help/server-configuration#static-website) for broken links  
-`php yellow.php clean` = Clean [static website](https://extensions.datenstrom.se/help/server-configuration#static-website)  
+`php yellow.php build` = Build static website    
+`php yellow.php check` = Check static website  
+`php yellow.php clean` = Clean static website  
 `php yellow.php install` = Add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php release` = Create releases with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
-`php yellow.php serve` = Start [built-in web server](https://extensions.datenstrom.se/help/server-configuration#static-website) for testing the website  
+`php yellow.php serve` = Start built-in web server  
 `php yellow.php traffic` = Create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
 `php yellow.php uninstall` = Remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php update` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  

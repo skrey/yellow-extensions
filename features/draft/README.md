@@ -18,7 +18,7 @@ Set `Status: draft` in the [settings](https://github.com/datenstrom/yellow-exten
 
 ## How to show drafts
 
-The draft pages are available on your website as `http://website/drafts/`. It shows a list of pages in alphabetical order. You can also use the [search extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/search). Once you're logged in you can search for `status:draft`, this allows you to show draft pages. For example log in and search for `status:draft coffee` to see draft pages about coffee. 
+All draft pages are available on your website as `http://website/drafts/`. It shows a list of pages in alphabetical order. You can also use the [search extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/search). Once you're logged in you can search for `status:draft`, this allows you to show draft pages. For example log in and search for `status:draft coffee` to see draft pages about coffee. 
 
 ## Examples
 
