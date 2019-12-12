@@ -22,7 +22,7 @@ The following features are available:
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact): 
   Email contact page. Developed by Datenstrom.
 * [Core](https://github.com/datenstrom/yellow-extensions/tree/master/features/core): 
-  Core functionality for your website. Developed by Datenstrom.
+  Core functionality. Developed by Datenstrom.
 * [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv):
   CSV file parser. Developed by Steffen Schultz.
 * [Diary](https://github.com/GiovanniSalmeri/yellow-diary):
