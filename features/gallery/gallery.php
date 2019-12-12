@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowGallery {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
 
@@ -17,7 +17,7 @@ class YellowGallery {
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
-        if ( $name=="gallery" && ($type=="block" || $type=="inline")) {
+        if ($name=="gallery" && ($type=="block" || $type=="inline")) {
             list($pattern, $style, $size) = $this->yellow->toolbox->getTextArgs($text);
             if (empty($style)) $style = $this->yellow->system->get("galleryStyle");
             if (empty($size)) $size = "100%";

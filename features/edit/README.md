@@ -34,7 +34,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
-`SafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
+`CoreSafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 `EditLocation` = login page location  
 `EditUploadNewLocation` = location for new media file  
 `EditUploadExtensions` = file extensions for upload, `none` to disable  

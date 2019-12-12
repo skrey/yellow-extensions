@@ -1,4 +1,4 @@
-Core 0.8.6
+Core 0.8.7
 ==========
 Core functionality.
 
@@ -46,7 +46,7 @@ The following settings can be configured at the top of a page:
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Status` = page status for workflow, e.g. `public`  
+`Status` = page status, e.g. `public`  
 `Redirect` = redirect to a another page or URL  
 `Navigation` = page navigation  
 `Header` = page header  
@@ -71,8 +71,10 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Language` = default language  
 `Layout` = default layout  
 `Theme` = default theme  
-`SafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
-`MultiLanguageMode` = enable [multi language mode](https://extensions.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
+`Parser` = default page parser  
+`Status` = default page status  
+`CoreSafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
+`CoreMultiLanguageMode` = enable [multi language mode](https://extensions.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
 
 ## Examples
 
