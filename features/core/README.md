@@ -12,10 +12,6 @@ Core functionality.
 
 Do not delete the [extension files](extension.ini), they are always required.
 
-## How to show website version
-
-You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version. You can open the [log file](https://extensions.datenstrom.se/help/api#troubleshooting) to show system diagnostics. You can also add a `[yellow]` shortcut to a page. See examples below.
-
 ## How to hide a page
 
 Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to hide a page and control who can access it.
@@ -23,6 +19,10 @@ Set `Status: unlisted` in the [settings](#settings) at the top of a page. The pa
 ## How to redirect to another page
 
 Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+
+## How to show website information
+
+You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version. You can open the [log file](https://extensions.datenstrom.se/help/api#troubleshooting) to show system diagnostics. You can also add a `[yellow]` shortcut to a page. See examples below.
 
 ## Settings
 
@@ -78,16 +78,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 ## Examples
 
-Content file with website version:
-
-    ---
-    Title: Example page
-    ---
-    This website is made with [yellow].
-    
-    [yellow about]
-
-
 Content file with unlisted status:
 
     ---
@@ -103,6 +93,13 @@ Content file with redirection:
     Redirect: https://datenstrom.se/yellow/
     ---
     This page redirects to another page.
+
+Content file with website version:
+
+    ---
+    Title: About page
+    ---
+    This website is made with [yellow].
 
 Showing website version at the command line:
  
