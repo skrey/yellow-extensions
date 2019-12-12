@@ -60,7 +60,7 @@ To adjust the header create the file `content/shared/header.md`. You can also cr
 ```
 ---
 Title: Header
-Status: hidden
+Status: shared
 ---
 I like Markdown.
 ```
@@ -72,7 +72,7 @@ To adjust the footer open the file `content/shared/footer.md`. You can also crea
 ```
 ---
 Title: Footer
-Status: hidden
+Status: shared
 ---
 [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 ```
@@ -84,7 +84,7 @@ To show a sidebar create the file `content/shared/sidebar.md`. You can also crea
 ```
 ---
 Title: Sidebar
-Status: hidden
+Status: shared
 ---
 Links
 

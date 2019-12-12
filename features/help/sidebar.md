@@ -1,6 +1,6 @@
 ---
 Title: Sidebar
-Status: hidden
+Status: shared
 ---
 [-- Tutorials --]
 
