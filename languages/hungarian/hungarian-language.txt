@@ -26,6 +26,7 @@ DateWeekstart: Hétfő
 DateFormatShort: Y F
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
+DraftStatusEmpty: No drafts found.
 EditLoginTitle: Üdvözöljük
 EditLoginEmail: E-mail:
 EditLoginPassword: Jelszó:

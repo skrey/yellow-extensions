@@ -26,6 +26,7 @@ DateWeekstart: lundi
 DateFormatShort: F Y
 DateFormatMedium: d/m/Y
 DateFormatLong: d/m/Y H:i
+DraftStatusEmpty: Aucun brouillon trouvé.
 EditLoginTitle: Bienvenue
 EditLoginEmail: Email:
 EditLoginPassword: Mot de passe:

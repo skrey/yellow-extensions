@@ -26,6 +26,7 @@ DateWeekstart: 星期一
 DateFormatShort: F Y
 DateFormatMedium: Y年n月j日
 DateFormatLong: Y-m-d H:i
+DraftStatusEmpty: No drafts found.
 EditLoginTitle: 欢迎
 EditLoginEmail: 邮箱:
 EditLoginPassword: 密码:

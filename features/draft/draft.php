@@ -4,14 +4,14 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowDraft {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("draftStatusCode", "500");
+        $this->yellow->system->setDefault("draftPaginationLimit", "30");
     }
     
     // Handle page meta data
@@ -26,7 +26,18 @@ class YellowDraft {
             if ($this->yellow->extensions->isExisting("edit")) {
                 $pageError .= " <a href=\"".$this->yellow->page->get("pageEdit")."\">Please log in</a>.";
             }
-            $this->yellow->page->error($this->yellow->system->get("draftStatusCode"), $pageError);
+            $this->yellow->page->error(500, $pageError);
+        }
+        if ($name=="draftpages") {
+            $pages = $this->yellow->content->index(true, false)->filter("status", "draft");
+            $pages->diff($this->yellow->content->index(true, false)->filter("layout", "draftpages"));
+            $pages->sort("title", false);
+            $pages->pagination($this->yellow->system->get("draftPaginationLimit"));
+            if ($_REQUEST["page"] && !$pages->getPaginationNumber()) $this->yellow->page->error(404);
+            $this->yellow->page->setPages($pages);
+            $this->yellow->page->setLastModified($pages->getModified());
+            $this->yellow->page->setHeader("Cache-Control", "max-age=60");
+            $this->yellow->page->set("status", count($pages) ? "done" : "empty");
         }
     }
 }

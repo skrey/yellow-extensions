@@ -26,6 +26,7 @@ DateWeekstart: Montag
 DateFormatShort: F Y
 DateFormatMedium: d.m.Y
 DateFormatLong: d.m.Y H:i
+DraftStatusEmpty: Keine Entwürfe gefunden.
 EditLoginTitle: Willkommen
 EditLoginEmail: E-Mail:
 EditLoginPassword: Kennwort:

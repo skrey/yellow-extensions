@@ -26,6 +26,7 @@ DateWeekstart: 월요일
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
+DraftStatusEmpty: No drafts found.
 EditLoginTitle: 환영
 EditLoginEmail: 이메일:
 EditLoginPassword: 암호:

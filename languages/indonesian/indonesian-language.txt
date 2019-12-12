@@ -26,6 +26,7 @@ DateWeekstart: Senin
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
+DraftStatusEmpty: No drafts found.
 EditLoginTitle: Selamat datang
 EditLoginEmail: Surel:
 EditLoginPassword: Kata sandi:

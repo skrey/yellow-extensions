@@ -26,6 +26,7 @@ DateWeekstart: lunedì
 DateFormatShort: F Y
 DateFormatMedium: d/m/Y
 DateFormatLong: d/m/Y H:i
+DraftStatusEmpty: No drafts found.
 EditLoginTitle: Benvenuto!
 EditLoginEmail: Email:
 EditLoginPassword: Password:

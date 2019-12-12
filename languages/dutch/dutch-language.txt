@@ -26,6 +26,7 @@ DateWeekstart: maandag
 DateFormatShort: F Y
 DateFormatMedium: Y-m-d
 DateFormatLong: Y-m-d H:i
+DraftStatusEmpty: No drafts found.
 EditLoginTitle: Welkom
 EditLoginEmail: E-mail:
 EditLoginPassword: Wachtwoord:
