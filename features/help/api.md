@@ -522,7 +522,7 @@ Here's an example layout for showing if safe mode is activated:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p>
-<?php $safeMode = $this->yellow->system->get("safeMode") ?>
+<?php $safeMode = $this->yellow->system->get("coreSafeMode") ?>
 Safe mode is <?php echo htmlspecialchars($safeMode ? "on" : "off") ?>.
 </p>
 </div>

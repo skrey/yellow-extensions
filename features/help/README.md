@@ -1,4 +1,4 @@
-Help 0.8.2
+Help 0.8.3
 ==========
 Help and documentation.
 

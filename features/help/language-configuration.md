@@ -39,7 +39,7 @@ Les oiseaux de même plumage volent toujours ensemble.
 
 ## Multi language mode
 
-For multilingual websites you can use the multi language mode. For example if you plan to translate an entire website. Open file `system/settings/system.ini` and change `MultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language. Here's an example:
+For multilingual websites you can use the multi language mode. For example if you translate an entire website. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language. Here's an example:
 
 [image screenshot-language1.png Screenshot]
 
