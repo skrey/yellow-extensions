@@ -1,6 +1,6 @@
 Gallery 0.8.2
 =============
-Image gallery with popup. [See demo](https://extensions.datenstrom.se/features/gallery).
+Image gallery with popup.
 
 <p align="center"><img src="gallery-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -22,7 +22,7 @@ The following arguments are available, all but the first argument are optional:
 `Style` = gallery style, e.g. `photoswipe`, `simple`  
 `Size` = image size, pixel or percent
 
-The extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
+This extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
 
 ## How to show image captions
 

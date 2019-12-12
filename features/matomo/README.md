@@ -15,9 +15,9 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to create web analytics
 
-[Matomo](http://matomo.org/) is an open-source web analytics software. It can show visitors, pageviews, referring sites and geographic information. To use the extension open file `system/settings/system.ini`, change `MatomoUrl: http://website/` and `MatomoSiteId: website`. You can find your URL and ID in the Matomo administration.
+[Matomo](http://matomo.org/) is an open-source web analytics software. It can show visitors, pageviews, referring sites and geographic information. To use this extension open file `system/settings/system.ini`, change `MatomoUrl: http://website/` and `MatomoSiteId: website`. You can find your URL and ID in the Matomo administration.
 
-The extension uses JavaScript to collect information, use the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic) as an alternative.
+This extension uses JavaScript to collect information, use the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic) as an alternative.
 
 ## Developer
 

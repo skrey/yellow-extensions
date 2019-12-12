@@ -1,6 +1,6 @@
 Disqus 0.8.2
 ============
-Show Disqus comments on blog. [See demo](https://extensions.datenstrom.se/features/blog/made-for-people).
+Show Disqus comments on blog.
 
 <p align="center"><img src="disqus-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -15,9 +15,9 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to show comments
 
-[Disqus](http://disqus.com) is a comment service for websites. To use the extension open file `system/settings/system.ini` and change `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard. Comments are shown on blog pages. To show comments on other pages add a `[disqus]` shortcut to a page.
+[Disqus](http://disqus.com) is a comment service for websites. To use this extension open file `system/settings/system.ini` and change `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard. Comments are shown on blog pages. To show comments on other pages add a `[disqus]` shortcut to a page.
 
-The extension uses an online service, use the [comments extension](https://github.com/wunderfeyd/yellow-comments) as an alternative.
+This extension uses an online service, use the [comments extension](https://github.com/wunderfeyd/yellow-comments) as an alternative.
 
 ## Developer
 

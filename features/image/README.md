@@ -1,6 +1,6 @@
 Image 0.8.2
 ===========
-Images and thumbnails. [See demo](https://extensions.datenstrom.se/features/image).
+Images and thumbnails.
 
 <p align="center"><img src="image-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -24,7 +24,7 @@ The following arguments are available, all but the first argument are optional:
 `Width` = image width, pixel or percent  
 `Height` = image height, pixel or percent   
 
-The extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell for resizing images.
+This extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell for resizing images.
 
 ## Settings
 

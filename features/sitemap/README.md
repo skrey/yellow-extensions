@@ -1,6 +1,6 @@
 Sitemap 0.8.2
 =============
-Sitemap for your website. [See demo](https://extensions.datenstrom.se/sitemap/).
+Sitemap for your website.
 
 <p align="center"><img src="sitemap-screenshot.png?raw=true" alt="Screenshot"></p>
 

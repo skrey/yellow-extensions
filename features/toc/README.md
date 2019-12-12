@@ -1,6 +1,6 @@
 Toc 0.8.2
 =========
-Table of contents. [See demo](https://extensions.datenstrom.se/features/toc).
+Table of contents.
 
 <p align="center"><img src="toc-screenshot.png?raw=true" alt="Screenshot"></p>
 

@@ -1,6 +1,6 @@
 Blog 0.8.4
 ==========
-Blog for your website. [See demo](https://extensions.datenstrom.se/features/blog/).
+Blog for your website.
 
 <p align="center"><img src="blog-screenshot.png?raw=true" alt="Screenshot"></p>
 

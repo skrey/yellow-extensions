@@ -1,6 +1,6 @@
 Feed 0.8.4
 ==========
-Web feed with recent changes. [See demo](https://extensions.datenstrom.se/feed/).
+Web feed with recent changes.
 
 <p align="center"><img src="feed-screenshot.png?raw=true" alt="Screenshot"></p>
 

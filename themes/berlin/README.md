@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## Information
 
-The extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's licensed under [Apache license](https://opensource.org/licenses/Apache-2.0).
+This extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's licensed under [Apache license](https://opensource.org/licenses/Apache-2.0).
 
 ## Designer
 

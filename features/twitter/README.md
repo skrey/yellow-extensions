@@ -1,6 +1,6 @@
 Twitter 0.8.2
 =============
-Embed Twitter messages. [See demo](https://extensions.datenstrom.se/features/twitter).
+Embed Twitter messages.
 
 <p align="center"><img src="twitter-screenshot.png?raw=true" alt="Screenshot"></p>
 

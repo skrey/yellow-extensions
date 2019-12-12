@@ -1,6 +1,6 @@
 Search 0.8.4
 ============
-Full-text search. [See demo](https://extensions.datenstrom.se/features/search).
+Full-text search.
 
 <p align="center"><img src="search-screenshot.png?raw=true" alt="Screenshot"></p>
 

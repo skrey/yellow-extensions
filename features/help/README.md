@@ -1,6 +1,6 @@
 Help 0.8.2
 ==========
-Help and documentation. [See demo](https://extensions.datenstrom.se/help/)
+Help and documentation.
 
 <p align="center"><img src="help-screenshot.png?raw=true" alt="Screenshot"></p>
 

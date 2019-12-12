@@ -1,6 +1,6 @@
 Slider 0.8.2
 ============
-Image gallery with slider. [See demo](https://extensions.datenstrom.se/features/slider).
+Image gallery with slider.
 
 <p align="center"><img src="slider-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -23,7 +23,7 @@ The following arguments are available, all but the first argument are optional:
 `Size` = image size, pixel or percent  
 `Autoplay` = play images automatically, delay time in milliseconds
 
-The extension uses [Flickity v2.0.9](https://github.com/metafizzy/flickity) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0).
+This extension uses [Flickity v2.0.9](https://github.com/metafizzy/flickity) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0).
 
 ## Examples
 

@@ -1,6 +1,6 @@
 Googlemap 0.8.4
 ===============
-Embed Google map. [See demo](https://extensions.datenstrom.se/features/googlemap).
+Embed Google map.
 
 <p align="center"><img src="googlemap-screenshot.png?raw=true" alt="Screenshot"></p>
 

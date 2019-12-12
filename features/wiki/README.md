@@ -1,6 +1,6 @@
 Wiki 0.8.5
 ==========
-Wiki for your website. [See demo](https://extensions.datenstrom.se/features/wiki/).
+Wiki for your website.
 
 <p align="center"><img src="wiki-screenshot.png?raw=true" alt="Screenshot"></p>
 

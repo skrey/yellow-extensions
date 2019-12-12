@@ -1,6 +1,6 @@
 Youtube 0.8.2
 =============
-Embed Youtube videos. [See demo](https://extensions.datenstrom.se/features/youtube).
+Embed Youtube videos.
 
 <p align="center"><img src="youtube-screenshot.png?raw=true" alt="Screenshot"></p>
 
