@@ -16,9 +16,9 @@ To uninstall delete the [extension files](extension.ini).
 
 Set `Status: draft` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. The page will no longer be visible. You can continue to edit a draft page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
-## How to show draft pages
+## How to show drafts
 
-Draft pages are available on your website as `http://website/drafts/`. You can also use the [search extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/search). Once you're logged in you can search for `status:draft`, this allows you to show draft pages. For example log in and search for `status:draft coffee` to see draft pages about coffee. 
+The draft pages are available on your website as `http://website/drafts/`. It shows a list of pages in alphabetical order. You can also use the [search extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/search). Once you're logged in you can search for `status:draft`, this allows you to show draft pages. For example log in and search for `status:draft coffee` to see draft pages about coffee. 
 
 ## Examples
 
