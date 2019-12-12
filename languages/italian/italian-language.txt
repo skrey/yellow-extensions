@@ -3,7 +3,7 @@
 Language: it
 LanguageLocale: it_IT
 LanguageDescription: Italiano
-LanguageTranslator: Luca Lischetti, Andrea Zanellato, Giovanni Salmeri
+LanguageTranslator: Giovanni Salmeri
 
 BlogBy: di
 BlogTag: Tag:
