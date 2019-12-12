@@ -26,7 +26,7 @@ Create a static website, that works on almost any web server:
 2. Type the following line: `php yellow.php build`
 3. Upload the static website to your web server.
 
-This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The URL of your static website can be defined in the system settings, for example `StaticUrl: http://website/`.
+This will build a static website in the `public` folder. A static website contains all necessary files, including content and media files. Upload the static website to your web server and build a new one when needed. The URL of your static website can be defined in the system settings, for example `StaticUrl: http://website/`.
 
 As an alternative to a static website you can build a cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`. To clean the cache type the following line: `php yellow.php clean cache`.
 
