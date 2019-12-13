@@ -20,7 +20,7 @@ This extension uses the [cURL library](https://github.com/curl/curl) by Daniel S
 
 ## How to build a static website
 
-Create a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a directory. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The URL of your static website can be defined in the settings, for example `StaticUrl: http://website/`.
+Create a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a directory. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed.
 
 As an alternative to a static website you can build a cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`. To clean the cache type the following line: `php yellow.php clean cache`.
 

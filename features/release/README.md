@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to package files for a website update
 
-The [website update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new versions of extensions are available in the offical repository, then downloads and updates everything. Your extension can become part of this update mechanism. Add an `extension.ini` file to your extension, configure settings and which files should be included. Please ask another developer to do a code review.
+The [website update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official extensions repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Add an `extension.ini` file to your extension, configure settings and files. Please ask another developer to do a code review.
 
 ## How to create a relase
 
