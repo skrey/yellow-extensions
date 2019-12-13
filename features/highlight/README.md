@@ -47,4 +47,4 @@ Highlighting of HTML code, without and with line number:
 
 ## Developer
 
-Datenstrom featuring Ivan Sagalaev and Geert Bergman. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

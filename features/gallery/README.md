@@ -56,4 +56,4 @@ Text settings for image captions:
 
 ## Developer
 
-Datenstrom featuring Dmitry Semenov. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

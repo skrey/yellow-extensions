@@ -47,4 +47,4 @@ Adding an image gallery from a subfolder, play automatically:
 
 ## Developer
 
-Datenstrom featuring David DeSandro. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

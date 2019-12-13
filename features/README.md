@@ -80,13 +80,13 @@ The following features are available:
 * [Previousnext](https://github.com/datenstrom/yellow-extensions/tree/master/features/previousnext): 
   Show links to previous/next page. Developed by Datenstrom.
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
-  Create password-protected pages. Developed by Steffen Schultz.
+  Support for password-protected pages. Developed by Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
   Display random pages from specified location. Developed by Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Configurable page redirection. Developed by Steffen Schultz.
 * [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
-  Create releases for website update. Developed by Datenstrom.
+  Package files for website update. Developed by Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Full-text search. Developed by Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):

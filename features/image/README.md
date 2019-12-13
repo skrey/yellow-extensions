@@ -62,4 +62,4 @@ Adding an image, different sizes:
 
 ## Developer
 
-Datenstrom featuring Thomas Boutell. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

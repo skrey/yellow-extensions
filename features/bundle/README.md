@@ -58,4 +58,4 @@ Website with bundled CSS and JavaScript files:
 
 ## Developer
 
-Datenstrom featuring Matthias Mullie. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

@@ -1,6 +1,6 @@
 Release 0.8.9
 =============
-Create releases for website update.
+Package files for website update.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -12,9 +12,13 @@ Create releases for website update.
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to create a release
+## How to package files for a website update
 
-First increase the version number in your code. Then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload changes to GitHub and send a pull request. See examples below.
+The [website update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new versions of extensions are available in the offical repository, then downloads and updates everything. Your extension can become part of this update mechanism. Add an `extension.ini` file to your extension, configure settings and which files should be included. Please ask another developer to do a code review.
+
+## How to create a relase
+
+First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload changes to GitHub and send a pull request.
 
 ## Settings
 

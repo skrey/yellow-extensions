@@ -34,4 +34,4 @@ Making a list:
 
 ## Developer
 
-Datenstrom featuring Michel Fortin. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
