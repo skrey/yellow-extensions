@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to package files for a website update
 
-The [website update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official extensions repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Add an `extension.ini` file to your extension, configure settings and files. Please ask another developer to do a code review.
+The [updater](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official extensions repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Add an `extension.ini` file to your extension, configure settings and file operations. Please ask another developer to do a code review.
 
 ## How to create a relase
 
@@ -47,12 +47,6 @@ The following file operations are supported:
 
 ## Examples
 
-Creating releases at the command line:
-
-`php yellow.php release`   
-`php yellow.php release yellow-example`  
-`php yellow.php release yellow-city`  
-
 Extension settings for a feature:
 
 ~~~
@@ -82,6 +76,12 @@ system/extensions/city.php: City,city.php,create,update
 system/resources/city.css: City,city.css,create,update,careful
 system/resources/city-icon.png: City,city-icon.png,create
 ~~~
+
+Creating releases at the command line:
+
+`php yellow.php release`  
+`php yellow.php release yellow-example`  
+`php yellow.php release yellow-city`  
 
 ## Developer
 
