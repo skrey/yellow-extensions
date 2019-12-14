@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSearch {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.5";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -39,7 +39,8 @@ class YellowSearch {
             list($tokens, $filters) = $this->getSearchInformation($query, 10);
             if (!empty($tokens) || !empty($filters)) {
                 $pages = $this->yellow->content->clean();
-                $showInvisible = $filters["status"]=="draft" && $this->yellow->getRequestHandler()!="core";
+                $showInvisible = $this->yellow->getRequestHandler()=="edit" &&
+                    ($filters["status"]=="private" || $filters["status"]=="draft" || $filters["status"]=="unlisted");
                 foreach ($this->yellow->content->index($showInvisible, false) as $page) {
                     $searchScore = 0;
                     $searchTokens = array();
