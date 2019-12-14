@@ -16,7 +16,7 @@ Do not delete the [extension files](extension.ini), they are always required.
 
 Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to hide a page and control who can access it.
 
-## How to redirect to another page
+## How to redirect a page
 
 Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
@@ -51,7 +51,7 @@ The following settings can be configured at the top of a page:
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
 `Status` = page status, e.g. `public`  
-`Redirect` = redirect to a another page or URL  
+`Redirect` = redirect to another page or URL  
 `Navigation` = page navigation  
 `Header` = page header  
 `Footer` = page footer  
