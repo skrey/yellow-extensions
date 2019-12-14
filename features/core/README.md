@@ -20,9 +20,13 @@ Set `Status: unlisted` in the [settings](#settings) at the top of a page. The pa
 
 Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
-## How to show core information
+## How to show website information
 
-You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) to show website version. You can open the [log file](https://extensions.datenstrom.se/help/api#troubleshooting) to show system diagnostics. You can also add a `[yellow]` shortcut to a page. See examples below.
+You can use shortcuts to show information about the website:
+
+`[yellow]` = for current website version  
+`[yellow error]` = for current error message  
+`[yellow logfile]` = for latest entries in log file  
 
 ## Settings
 
@@ -94,16 +98,14 @@ Content file with redirection:
     ---
     This page redirects to another page.
 
-Content file with website version:
+Content file with website information:
 
     ---
     Title: About page
     ---
     This website is made with [yellow].
 
-Showing website version at the command line:
- 
-`php yellow.php about`  
+    ! [yellow logfile]
 
 ## Developer
 
