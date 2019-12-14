@@ -1,5 +1,5 @@
 French 0.8.13
-============
+=============
 French/Français with language 'fr'.
 
 <p align="center"><img src="french-screenshot.png?raw=true" alt="Screenshot"></p>

@@ -1,5 +1,5 @@
 English 0.8.13
-=============
+==============
 English/English with language 'en'.
 
 <p align="center"><img src="english-screenshot.png?raw=true" alt="Screenshot"></p>

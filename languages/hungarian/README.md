@@ -1,5 +1,5 @@
 Hungarian 0.8.13
-===============
+================
 Hungarian/Magyar with language 'hu'.
 
 <p align="center"><img src="hungarian-screenshot.png?raw=true" alt="Screenshot"></p>

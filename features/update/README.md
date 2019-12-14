@@ -1,5 +1,5 @@
 Update 0.8.10
-============
+=============
 Keep your website up to date.
 
 <p align="center"><img src="update-screenshot.png?raw=true" alt="Screenshot"></p>

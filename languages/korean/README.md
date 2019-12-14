@@ -1,5 +1,5 @@
 Korean 0.8.13
-============
+=============
 Korean/한국어 with language 'ko'.
 
 <p align="center"><img src="korean-screenshot.png?raw=true" alt="Screenshot"></p>

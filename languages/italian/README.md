@@ -1,5 +1,5 @@
 Italian 0.8.13
-=============
+==============
 Italian/Italiano with language 'it'.
 
 <p align="center"><img src="italian-screenshot.png?raw=true" alt="Screenshot"></p>

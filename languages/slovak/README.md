@@ -1,5 +1,5 @@
 Slovak 0.8.13
-===============
+=============
 Slovak/Slovenčina with language 'sk'.
 
 <p align="center"><img src="slovak-screenshot.png?raw=true" alt="Screenshot"></p>

@@ -1,5 +1,5 @@
 German 0.8.13
-============
+=============
 German/Deutsch with language 'de'.
 
 <p align="center"><img src="german-screenshot.png?raw=true" alt="Screenshot"></p>

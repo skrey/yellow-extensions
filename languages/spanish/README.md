@@ -1,5 +1,5 @@
 Spanish 0.8.13
-=============
+==============
 Spanish/Español with language 'es'.
 
 <p align="center"><img src="spanish-screenshot.png?raw=true" alt="Screenshot"></p>

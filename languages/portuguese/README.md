@@ -1,5 +1,5 @@
 Portuguese 0.8.13
-================
+=================
 Portuguese/Português with language 'pt'.
 
 <p align="center"><img src="portuguese-screenshot.png?raw=true" alt="Screenshot"></p>

@@ -1,5 +1,5 @@
 Indonesian 0.8.13
-================
+=================
 Indonesian/Bahasa Indonesia with language 'id'.
 
 <p align="center"><img src="indonesian-screenshot.png?raw=true" alt="Screenshot"></p>

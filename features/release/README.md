@@ -1,5 +1,5 @@
-Release 0.8.9
-=============
+Release 0.8.10
+==============
 Package files for website update.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
@@ -18,7 +18,7 @@ The [website update](https://github.com/datenstrom/yellow-extensions/tree/master
 
 ## How to create a release
 
-First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all necessary files. Upload changes to GitHub and send a pull request.
+First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update your `extension.ini` and all necessary files. Upload changes to GitHub and send a pull request.
 
 ## Settings
 
@@ -29,10 +29,10 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 The following settings can be configured in file `extension.ini` for each extension:
 
-`Extension` = name of extension  
+`Extension` = extension name  
 `Version` = extension version number  
-`Description` = extension description, one line  
-`Published` = extension publication date, YYYY-MM-DD HH:MM:SS format  
+`Description` = extension description, one line maximum  
+`Published` = extension publication date, YYYY-MM-DD format  
 `Developer` = feature developer  
 `Translator` = language translator  
 `Designer` = theme designer  

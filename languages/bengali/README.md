@@ -1,5 +1,5 @@
 Bengali 0.8.13
-=============
+==============
 Bengali/বাঙালি with language 'bn'.
 
 <p align="center"><img src="bengali-screenshot.png?raw=true" alt="Screenshot"></p>
