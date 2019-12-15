@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowHighlight {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -46,7 +46,7 @@ class YellowHighlight {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
             $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}highlight.css\" />\n";
         }
         return $output;
@@ -91,7 +91,7 @@ class YellowHighlight {
     public function getLanguageInformation($language) {
         $aliases = array("c" => "cpp", "html" => "xml");
         $language = isset($aliases[$language]) ? $aliases[$language] : $language;
-        $fileName = $this->yellow->system->get("extensionDir")."highlight-$language.json";
+        $fileName = $this->yellow->system->get("coreExtensionDir")."highlight-$language.json";
         return array($language, $fileName);
     }
 }

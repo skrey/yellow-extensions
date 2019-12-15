@@ -1,4 +1,4 @@
-Stockholm 0.8.5
+Stockholm 0.8.6
 ===============
 Stockholm is a clean website theme. [See demo](https://extensions.datenstrom.se/themes/stockholm).
 

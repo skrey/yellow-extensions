@@ -1,4 +1,4 @@
-Core 0.8.7
+Core 0.8.8
 ==========
 Core functionality.
 
@@ -26,7 +26,7 @@ You can use shortcuts to show information about the website:
 
 `[yellow]` = for current website version  
 `[yellow error]` = for current error message  
-`[yellow logfile]` = for latest entries in log file  
+`[yellow log]` = for latest entries in log file  
 
 ## Settings
 
@@ -50,7 +50,7 @@ The following settings can be configured at the top of a page:
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Status` = page status, e.g. `public`  
+`Status` = page status  
 `Redirect` = redirect to another page or URL  
 `Navigation` = page navigation  
 `Header` = page header  
@@ -62,12 +62,23 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Sitename` = name of the website  
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
-`Timezone` = default timezone  
 `Language` = default language  
 `Layout` = default layout  
 `Theme` = default theme  
 `Parser` = default page parser  
 `Status` = default page status  
+`Navigation` = default page navigation  
+`Header` = default page header  
+`Footer` = default page footer  
+`Sidebar` = default page sidebar  
+
+`CoreStaticUrl` = URL for [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
+`CoreStaticDefaultFile` =  default file for static website  
+`CoreStaticErrorFile` = error file for static website  
+`CoreStaticDir` = target directory for static website  
+`CoreCacheDir` = cache directory for website  
+`CoreServerUrl` = URL of the website, `auto` for automatic detection    
+`CoreServerTimezone` = timezone of the website  
 `CoreSafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 `CoreMultiLanguageMode` = enable [multi language mode](https://extensions.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
 
@@ -105,7 +116,7 @@ Content file with website information:
     ---
     This website is made with [yellow].
 
-    ! [yellow logfile]
+    ! [yellow log]
 
 ## Developer
 

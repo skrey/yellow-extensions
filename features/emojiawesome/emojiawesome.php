@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowEmojiawesome {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -41,7 +41,7 @@ class YellowEmojiawesome {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
             $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}emojiawesome.css\" />\n";
             if (defined("DEBUG") && DEBUG>=3) {
                 $cdn = $this->yellow->system->get("emojiawesomeCdn");

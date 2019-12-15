@@ -746,7 +746,7 @@ Here's an example layout for showing files in a directory:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p>
-<?php $path = $this->yellow->system->get("settingDir") ?>
+<?php $path = $this->yellow->system->get("coreSettingDir") ?>
 <?php foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, false) as $entry): ?>
 <?php echo htmlspecialchars($entry) ?><br />
 <?php endforeach ?>
@@ -764,7 +764,7 @@ Here's an example layout for reading text lines from file:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p>
-<?php $fileName = $this->yellow->system->get("settingDir").$this->yellow->system->get("systemFile") ?>
+<?php $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile") ?>
 <?php $fileData = $this->yellow->toolbox->readFile($fileName) ?>
 <?php foreach ($this->yellow->toolbox->getTextLines($fileData) as $line): ?>
 <?php echo htmlspecialchars($line) ?><br />
@@ -1014,7 +1014,7 @@ class YellowExample {
 You can find system diagnostics in file `system/extensions/yellow.log`. Here's an example:
 
 ```
-2019-03-12 13:33:37 info Datenstrom Yellow 0.8.5, PHP 7.1.23, Apache/2.4.33 Darwin
+2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
 2019-03-12 13:33:37 info Check Apache server configuration
 2019-03-12 13:33:37 info Install language 'English'
 2019-03-12 13:33:37 info Install language 'French'
@@ -1048,13 +1048,13 @@ YellowCore::load extensions:43 time:10 ms
 
 Get maximum information by increasing debug level to `<?php define("DEBUG", 3);`
 ```
-YellowCore::load Datenstrom Yellow 0.8.5, PHP 7.1.23, Apache/2.4.33 Darwin
+YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
 YellowSystem::load file:system/settings/system.ini
 YellowSystem::load Sitename:Datenstrom developers
 YellowSystem::load Author:Datenstrom
 YellowSystem::load Email:webmaster
-YellowSystem::load Timezone:Europe/Stockholm
 YellowSystem::load Language:en
+YellowSystem::load Layout:default
 ```
 
 [Next: HTML files →](html-files)

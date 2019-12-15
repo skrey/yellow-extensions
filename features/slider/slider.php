@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSlider {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -26,7 +26,7 @@ class YellowSlider {
             if (empty($pattern)) {
                 $files = $this->yellow->media->clean();
             } else {
-                $images = $this->yellow->system->get("imageDir");
+                $images = $this->yellow->system->get("coreImageDir");
                 $files = $this->yellow->media->index(true, true)->match("#$images$pattern#");
             }
             if ($this->yellow->extensions->isExisting("image")) {
@@ -56,7 +56,7 @@ class YellowSlider {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
             $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}slider.css\" />\n";
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}slider-flickity.min.js\"></script>\n";
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}slider.js\"></script>\n";

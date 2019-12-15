@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowGallery {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
 
@@ -24,7 +24,7 @@ class YellowGallery {
             if (empty($pattern)) {
                 $files = $this->yellow->media->clean();
             } else {
-                $images = $this->yellow->system->get("imageDir");
+                $images = $this->yellow->system->get("coreImageDir");
                 $files = $this->yellow->media->index(true, true)->match("#$images$pattern#");
             }
             if ($this->yellow->extensions->isExisting("image")) {
@@ -61,7 +61,7 @@ class YellowGallery {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
             $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}gallery.css\" />\n";
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}gallery-photoswipe.min.js\"></script>\n";
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}gallery.js\"></script>\n";
@@ -71,7 +71,7 @@ class YellowGallery {
 
     // Return image caption
     public function getImageCaption($fileName) {
-        $key = substru($fileName, strlenu($this->yellow->system->get("imageDir")));
+        $key = substru($fileName, strlenu($this->yellow->system->get("coreImageDir")));
         return $this->yellow->text->isExisting($key) ? $this->yellow->text->get($key) : "";
     }
 }

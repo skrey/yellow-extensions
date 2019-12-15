@@ -1,4 +1,4 @@
-Berlin 0.8.5
+Berlin 0.8.6
 ============
 Berlin is a simple and beautiful theme inspired by Dieter Rams. [See demo](https://extensions.datenstrom.se/themes/berlin).
 

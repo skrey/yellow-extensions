@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSitemap {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -44,8 +44,8 @@ class YellowSitemap {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $pagination = $this->yellow->system->get("contentPagination");
-            $locationSitemap = $this->yellow->system->get("serverBase").$this->yellow->system->get("sitemapLocation");
+            $pagination = $this->yellow->system->get("coreContentPagination");
+            $locationSitemap = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("sitemapLocation");
             $locationSitemap .= $this->yellow->toolbox->normaliseArgs("$pagination:".$this->yellow->system->get("sitemapFileXml"), false);
             $output = "<link rel=\"sitemap\" type=\"text/xml\" href=\"$locationSitemap\" />\n";
         }
@@ -54,7 +54,7 @@ class YellowSitemap {
     
     // Check if XML requested
     public function isRequestXml() {
-        $pagination = $this->yellow->system->get("contentPagination");
+        $pagination = $this->yellow->system->get("coreContentPagination");
         return $_REQUEST[$pagination]==$this->yellow->system->get("sitemapFileXml");
     }
 }

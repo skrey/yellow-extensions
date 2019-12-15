@@ -14,10 +14,11 @@ The main configuration file is `system/settings/system.ini`. Here's an example:
     Sitename: Anna Svensson Design
     Author: Anna Svensson
     Email: anna@svensson.com
-    Timezone: Europe/Stockholm
     Language: en
     Layout: default
     Theme: stockholm
+    Parser: markdown
+    Status: public
 
 You can define the system settings here, for example the name of the website and the email of the webmaster. Individual [settings](markdown-cheat-sheet#settings) can be defined at the top of each page. For a new installation you should set `Sitename`, `Author` and `Email`.
 

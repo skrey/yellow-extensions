@@ -1,4 +1,4 @@
-Googlecalendar 0.8.3
+Googlecalendar 0.8.4
 ====================
 Embed Google calendar.
 

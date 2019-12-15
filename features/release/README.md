@@ -1,4 +1,4 @@
-Release 0.8.10
+Release 0.8.11
 ==============
 Package files for website update.
 
@@ -14,18 +14,17 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to package files for a website update
 
-The [website update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official extensions repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Add an `extension.ini` file to your extension, configure settings and file operations. Please ask another developer to do a code review.
+The [website update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository. Please make sure your extension uses our coding standard and documentation template. [See example extension](https://github.com/schulle4u/yellow-extension-example).
 
 ## How to create a release
 
-First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update your `extension.ini` and all necessary files. Upload changes to GitHub and send a pull request.
+First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update your `extension.ini` and other files. Upload your changes to GitHub and send a pull request.
 
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`ReleaseExtensionDir` = directory containing the official extensions repository  
-`ReleaseRepositoryDir` = directory containing your repositories   
+`ReleaseRepositoryDir` = directory containing repositories with extensions   
 
 The following settings can be configured in file `extension.ini` for each extension:
 

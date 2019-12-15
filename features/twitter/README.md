@@ -1,4 +1,4 @@
-Twitter 0.8.2
+Twitter 0.8.3
 =============
 Embed Twitter messages.
 

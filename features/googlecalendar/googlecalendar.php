@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowGooglecalendar {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -27,7 +27,7 @@ class YellowGooglecalendar {
             if (empty($entriesMax)) $entriesMax = $this->yellow->system->get("googlecalendarEntriesMax");
             if (empty($style)) $style = $this->yellow->system->get("googlecalendarStyle");
             $language = $page->get("language");
-            $timeZone = $this->yellow->system->get("timezone");
+            $timeZone = $this->yellow->system->get("coreServerTimezone");
             $timeZoneHelper = new DateTime(null, new DateTimeZone($timeZone));
             $timeZoneOffset = $timeZoneHelper->getOffset();
             $dateMonths = $this->yellow->text->getText("dateMonths", $language);
@@ -66,7 +66,7 @@ class YellowGooglecalendar {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $extensionLocation = $this->yellow->system->get("serverBase").$this->yellow->system->get("extensionLocation");
+            $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
             $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}googlecalendar.css\" />\n";
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}googlecalendar.js\"></script>\n";
         }

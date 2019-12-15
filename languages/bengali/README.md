@@ -1,4 +1,4 @@
-Bengali 0.8.13
+Bengali 0.8.14
 ==============
 Bengali/বাঙালি with language 'bn'.
 

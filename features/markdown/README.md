@@ -1,5 +1,5 @@
-Markdown 0.8.9
-==============
+Markdown 0.8.10
+===============
 Text formatting for humans.
 
 <p align="center"><img src="markdown-screenshot.png?raw=true" alt="Screenshot"></p>

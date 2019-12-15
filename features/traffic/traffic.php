@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowTraffic {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $days;           //number of days
@@ -45,8 +45,8 @@ class YellowTraffic {
             } else {
                 $statusCode = 500;
                 $this->days = $this->views = 0;
-                $fileName = $this->yellow->system->get("settingDir").$this->yellow->system->get("systemFile");
-                echo "ERROR checking files: Please configure StaticUrl in file '$fileName'!\n";
+                $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile");
+                echo "ERROR checking files: Please configure CoreStaticUrl in file '$fileName'!\n";
             }
             echo "Yellow $command: $this->days day".($this->days!=1 ? "s" : "").", ";
             echo "$this->views view".($this->views!=1 ? "s" : "")."\n";
@@ -88,12 +88,12 @@ class YellowTraffic {
             $timeStart = $timeFound = time();
             $timeStop = time() - (60*60*24*$days);
             $percentShown = -1;
-            $staticUrl = $this->yellow->system->get("staticUrl");
+            $staticUrl = $this->yellow->system->get("coreStaticUrl");
             list($scheme, $address, $base) = $this->yellow->lookup->getUrlInformation($staticUrl);
             $locationSearch = $this->yellow->system->get("searchLocation");
             $spamFilter = $this->yellow->system->get("trafficSpamFilter");
-            $locationDownload = $this->yellow->system->get("downloadLocation");
-            $locationIgnore = "(".$this->yellow->system->get("mediaLocation")."|".$this->yellow->system->get("editLocation").")";
+            $locationDownload = $this->yellow->system->get("coreDownloadLocation");
+            $locationIgnore = "(".$this->yellow->system->get("coreMediaLocation")."|".$this->yellow->system->get("editLocation").")";
             foreach ($fileNames as $fileName) {
                 if (defined("DEBUG") && DEBUG>=1) echo "YellowTraffic::analyseRequests file:$fileName\n";
                 $fileHandle = @fopen($fileName, "r");
@@ -176,7 +176,7 @@ class YellowTraffic {
     
     // Check static settings
     public function checkStaticSettings() {
-        return !empty($this->yellow->system->get("staticUrl"));
+        return !empty($this->yellow->system->get("coreStaticUrl"));
     }
     
     // Check request arguments

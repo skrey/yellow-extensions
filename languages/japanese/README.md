@@ -1,4 +1,4 @@
-Japanese 0.8.13
+Japanese 0.8.14
 ===============
 Japanese/日本語 with language 'ja'.
 

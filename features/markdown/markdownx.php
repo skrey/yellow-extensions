@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMarkdownx {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.10";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -2877,7 +2877,7 @@ class YellowMarkdownxExtra extends ParsedownExtra {
             $href = $Link["element"]["attributes"]["href"];
             $text = ltrim($Excerpt["context"]);
             if ($text[0]=="!" && !preg_match("/^\w+:/", $href)) {
-                $href = $this->yellow->system->get("serverBase").$this->yellow->system->get("imageLocation").$href;
+                $href = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreImageLocation").$href;
             }
             $href = $this->yellow->lookup->normaliseLocation($href,
                 $this->page->location, $this->page->safeMode && $this->page->statusCode==200);

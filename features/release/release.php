@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -13,8 +13,7 @@ class YellowRelease {
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("releaseExtensionDir", "/Users/Datenstrom/Documents/GitHub/yellow-extensions/");
-        $this->yellow->system->setDefault("releaseRepositoryDir", "/Users/Datenstrom/Documents/GitHub/");
+        $this->yellow->system->setDefault("releaseRepositoryDir", "/Users/yourname/Documents/GitHub/");
     }
 
     // Handle command help
@@ -36,25 +35,31 @@ class YellowRelease {
     public function processCommandRelease($args) {
         $statusCode = 0;
         list($command, $path) = $args;
-        $pathExtension = rtrim($this->yellow->system->get("releaseExtensionDir"), "/")."/";
         $pathRepository = rtrim($this->yellow->system->get("releaseRepositoryDir"), "/")."/";
+        $pathRepositoryOffical = $pathRepository."yellow-extensions/";
         if (!empty($path) && !preg_match("/[\/\\\\]/", $path)) $path = $pathRepository.$path;
-        $path = rtrim(empty($path) ? $pathExtension : $path, "/")."/";
-        if (is_dir($path) && is_dir($pathExtension)) {
+        $path = rtrim(empty($path) ? $pathRepositoryOffical : $path, "/")."/";
+        if (is_dir($pathRepository) && is_dir($pathRepositoryOffical) && is_dir($path)) {
             $this->extensions = $this->errors = 0;
-            $statusCode = max($statusCode, $this->updateReleaseDirectory($path, $pathExtension));
+            $statusCode = max($statusCode, $this->updateReleaseDirectory($path, $pathRepositoryOffical));
             $entries = $this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/.*/", true, true);
             foreach ($entries as $entry) {
                 echo "\rCreating release files ".$this->getProgressPercent($this->extensions, count($entries), 10, 95)."%... ";
-                $statusCode = max($statusCode, $this->updateReleaseDirectory("$entry/", $pathExtension));
+                $statusCode = max($statusCode, $this->updateReleaseDirectory("$entry/", $pathRepositoryOffical));
             }
             echo "\rCreating release files 100%... done\n";
+        } elseif (is_dir($pathRepository)) {
+            $statusCode = 500;
+            $this->extensions = 0;
+            $this->errors = 1;
+            $path = !is_dir($pathRepositoryOffical) ? $pathRepositoryOffical : $path;
+            echo "ERROR updating files: Can't find directory '$path'!\n";
         } else {
             $statusCode = 500;
             $this->extensions = 0;
             $this->errors = 1;
-            $path = !is_dir($path) ? $path : $pathExtension;
-            echo "ERROR updating files: Can't find directory '$path'!\n";
+            $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile");
+            echo "ERROR updating files: Please configure releaseRepositoryDir in file '$fileName'!\n";
         }
         echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
         echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
@@ -62,15 +67,15 @@ class YellowRelease {
     }
     
     // Update release directory
-    public function updateReleaseDirectory($path, $pathExtension) {
+    public function updateReleaseDirectory($path, $pathRepositoryOffical) {
         $statusCode = 200;
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
         if (is_file($fileNameExtension)) {
             $statusCode = max($statusCode, $this->updateReleaseInformation($path));
             $statusCode = max($statusCode, $this->updateReleaseDocumentation($path));
-            $statusCode = max($statusCode, $this->updateReleaseArchive($path, $pathExtension));
-            $statusCode = max($statusCode, $this->updateReleaseVersion($path, $pathExtension));
-            $statusCode = max($statusCode, $this->updateReleaseWaffle($path, $pathExtension));
+            $statusCode = max($statusCode, $this->updateReleaseArchive($path, $pathRepositoryOffical));
+            $statusCode = max($statusCode, $this->updateReleaseVersion($path, $pathRepositoryOffical));
+            $statusCode = max($statusCode, $this->updateReleaseWaffle($path, $pathRepositoryOffical));
             if (defined("DEBUG") && DEBUG>=1) echo "YellowRelease::updateReleaseDirectory ".ucfirst($extension)." $version<br/>\n";
             ++$this->extensions;
             if ($statusCode!=200) ++$this->errors;
@@ -116,7 +121,7 @@ class YellowRelease {
     public function updateReleaseDocumentation($path) {
         $statusCode = 200;
         list($extension, $version) = $this->getExtensionInformation($path);
-        $regex = "/^.*\\".$this->yellow->system->get("contentExtension")."$/";
+        $regex = "/^.*\\".$this->yellow->system->get("coreContentExtension")."$/";
         foreach ($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false) as $entry) {
             $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
             if (preg_match("/^(\xEF\xBB\xBF)?([\w ]+[0-9\.]{5,}[\r\n]+)(\=+[\r\n]+)(.*)$/s", $fileData, $parts)) {
@@ -136,13 +141,13 @@ class YellowRelease {
     }
     
     // Update release ZIP archive
-    public function updateReleaseArchive($pathSource, $pathExtension) {
+    public function updateReleaseArchive($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
         list($extension) = $this->getExtensionInformation($pathSource);
         $fileNameExtension = $pathSource.$this->yellow->system->get("updateExtensionFile");
         if (is_file($fileNameExtension) && !empty($extension)) {
             $zip = new ZipArchive();
-            $fileNameZipArchive = $pathExtension."zip/".strtoloweru("$extension.zip");
+            $fileNameZipArchive = $pathRepositoryOffical."zip/".strtoloweru("$extension.zip");
             if (is_file($fileNameZipArchive)) $this->yellow->toolbox->deleteFile($fileNameZipArchive);
             if ($zip->open($fileNameZipArchive, ZIPARCHIVE::CREATE)===true) {
                 $modified = 0;
@@ -174,10 +179,10 @@ class YellowRelease {
     }
     
     // Update release version file
-    public function updateReleaseVersion($pathSource, $pathExtension) {
+    public function updateReleaseVersion($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
         list($extension, $version, $status, $description, $text) = $this->getExtensionInformation($pathSource);
-        $fileNameVersion = $pathExtension.$this->yellow->system->get("updateVersionFile");
+        $fileNameVersion = $pathRepositoryOffical.$this->yellow->system->get("updateVersionFile");
         if (is_file($fileNameVersion) && $status!="ignore") {
             $fileData = $this->yellow->toolbox->readFile($fileNameVersion);
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
@@ -207,10 +212,10 @@ class YellowRelease {
     }
 
     // Update release waffle file
-    public function updateReleaseWaffle($pathSource, $pathExtension) {
+    public function updateReleaseWaffle($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
         list($extension, $version, $status) = $this->getExtensionInformation($pathSource);
-        $fileNameWaffle = $pathExtension.$this->yellow->system->get("updateWaffleFile");
+        $fileNameWaffle = $pathRepositoryOffical.$this->yellow->system->get("updateWaffleFile");
         if (is_file($fileNameWaffle) && $status!="ignore") {
             $waffle = $this->getExtensionWaffle($pathSource);
             $fileData = $this->yellow->toolbox->readFile($fileNameWaffle);
