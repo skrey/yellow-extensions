@@ -24,6 +24,12 @@ You can add and remove extensions in the file manager. You can also add extensio
 
 This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to download files.
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`UpdateExtensionUrl` = URL of repository with extensions 
+
 ## Examples
 
 Updating website at the command line:

@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to package files for a website update
 
-The [website update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository. Please make sure your extension uses our coding standard and documentation template. [See example extension](https://github.com/schulle4u/yellow-extension-example).
+The [website update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository. Please make sure your extension follows our coding standard. [See example extension](https://github.com/schulle4u/yellow-extension-example).
 
 ## How to create a release
 
