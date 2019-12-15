@@ -75,8 +75,9 @@ The following settings can be configured in file `system/settings/system.ini`:
 `CoreStaticUrl` = URL for [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
 `CoreStaticDefaultFile` =  default file for static website  
 `CoreStaticErrorFile` = error file for static website  
-`CoreStaticDir` = target directory for static website  
-`CoreCacheDir` = cache directory for website  
+`CoreStaticDir` = directory for generated files  
+`CoreCacheDir` = directory for cached files  
+`CoreTrashDir` = directory for deleted files  
 `CoreServerUrl` = URL of the website, `auto` for automatic detection    
 `CoreServerTimezone` = timezone of the website  
 `CoreSafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
