@@ -1,4 +1,4 @@
-Release 0.8.11
+Release 0.8.12
 ==============
 Package files for website update.
 

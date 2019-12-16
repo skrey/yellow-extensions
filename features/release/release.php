@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -37,8 +37,7 @@ class YellowRelease {
         list($command, $path) = $args;
         $pathRepository = rtrim($this->yellow->system->get("releaseRepositoryDir"), "/")."/";
         $pathRepositoryOffical = $pathRepository."yellow-extensions/";
-        if (!empty($path) && !preg_match("/[\/\\\\]/", $path)) $path = $pathRepository.$path;
-        $path = rtrim(empty($path) ? $pathRepositoryOffical : $path, "/")."/";
+        $path = rtrim(empty($path) ? $pathRepositoryOffical : $pathRepository.$path, "/")."/";
         if (is_dir($pathRepository) && is_dir($pathRepositoryOffical) && is_dir($path)) {
             $this->extensions = $this->errors = 0;
             $statusCode = max($statusCode, $this->updateReleaseDirectory($path, $pathRepositoryOffical));
