@@ -58,7 +58,7 @@ class YellowRelease {
             $this->extensions = 0;
             $this->errors = 1;
             $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile");
-            echo "ERROR updating files: Please configure releaseRepositoryDir in file '$fileName'!\n";
+            echo "ERROR updating files: Please configure ReleaseRepositoryDir in file '$fileName'!\n";
         }
         echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
         echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
