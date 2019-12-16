@@ -39,7 +39,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditUploadNewLocation` = location for new media file  
 `EditUploadExtensions` = file extensions for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands  
-`EditToolbarButtons` = toolbar buttons, `none` to disable  
+`EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, `none` to disable  
 `EditNewFile` = content file for new page  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
 `EditUserPasswordMinLength` = minimum length of password  

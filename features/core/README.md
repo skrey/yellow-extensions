@@ -50,7 +50,7 @@ The following settings can be configured at the top of a page:
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Status` = page status  
+`Status` = page status, e.g. `public`  
 `Redirect` = redirect to another page or URL  
 `Navigation` = page navigation  
 `Header` = page header  
@@ -83,7 +83,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `CoreSafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
 `CoreMultiLanguageMode` = enable [multi language mode](https://extensions.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
 
-The following status values are supported:
+The following page status values are supported:
 
 `public` = page is a normal page  
 `private` = page is not visible, user needs to log in or enter the password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
