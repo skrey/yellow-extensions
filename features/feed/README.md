@@ -1,4 +1,4 @@
-Feed 0.8.5
+Feed 0.8.6
 ==========
 Web feed with recent changes.
 

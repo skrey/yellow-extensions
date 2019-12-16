@@ -1,4 +1,4 @@
-Sitemap 0.8.3
+Sitemap 0.8.4
 =============
 Sitemap for your website.
 

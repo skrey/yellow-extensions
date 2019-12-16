@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowFeed {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -83,9 +83,8 @@ class YellowFeed {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $pagination = $this->yellow->system->get("coreContentPagination");
             $locationFeed = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("feedLocation");
-            $locationFeed .= $this->yellow->toolbox->normaliseArgs("$pagination:".$this->yellow->system->get("feedFileXml"), false);
+            $locationFeed .= $this->yellow->toolbox->normaliseArgs("page:".$this->yellow->system->get("feedFileXml"), false);
             $output = "<link rel=\"alternate\" type=\"application/rss+xml\" href=\"$locationFeed\" />\n";
         }
         return $output;
@@ -93,7 +92,6 @@ class YellowFeed {
 
     // Check if XML requested
     public function isRequestXml() {
-        $pagination = $this->yellow->system->get("coreContentPagination");
-        return $_REQUEST[$pagination]==$this->yellow->system->get("feedFileXml");
+        return $_REQUEST["page"]==$this->yellow->system->get("feedFileXml");
     }
 }
