@@ -43,8 +43,8 @@ All user accounts are stored in file `system/settings/user.ini`. Here's an examp
     Email: anna@svensson.com
     Name: Anna Svensson
     Language: en
-    Group: administrator
     Home: /
+    Access: create, edit, delete, upload, system, update
     Status: active
     Pending: none
     Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG

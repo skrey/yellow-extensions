@@ -842,10 +842,10 @@ onLoad ───────▶ onStartup ────────────�
                 onRequest ─────────────────┐                       │
                     │                      │                       │
                     ▼                      ▼                       ▼
-                onParseMeta             onEditUserRestriction  onCommand
-                onParseContentRaw       onEditUserAccount      onCommandHelp
-                onParseContentShortcut  onEditContentFile          │
-                onParseContentText      onEditMediaFile            │
+                onParseMeta             onEditContentFile      onCommand
+                onParseContentRaw       onEditMediaFile        onCommandHelp
+                onParseContentShortcut  onEditSystemFile           │
+                onParseContentText      onEditUserAccount          │
                 onParsePageLayout          │                       ▼
                 onParsePageExtra           │                   onLog
                 onParsePageOutput          │                   onUpdate
@@ -934,19 +934,19 @@ class YellowExample {
 
 Yellow edit events notify when a page is edited in the web browser.
 
-**public function onEditUserRestriction($email, $location, $fileName, $users)**  
-Handle [user restriction](security-configuration#user-restriction)
-
-**public function onEditUserAccount($email, $password, $action, $users)**  
-Handle [user account](adjusting-system#user-accounts) changes
-
 **public function onEditContentFile($page, $action)**  
 Handle [content file](adjusting-content) changes
 
 **public function onEditMediaFile($file, $action)**  
 Handle [media file](adjusting-media) changes
 
-Here's an example extension for restricting certain users:
+**public function onEditSystemFile($file, $action)**  
+Handle [system file](adjusting-system) changes
+
+**public function onEditUserAccount($email, $password, $action, $users)**  
+Handle [user account](adjusting-system#user-accounts) changes
+
+Here's an example extension for handling a file:
 
 ``` php
 <?php
@@ -960,9 +960,13 @@ class YellowExample {
         $this->yellow = $yellow;
     }
     
-    // Handle user restriction
-    public function onEditUserRestriction($email, $location, $fileName, $users) {
-        return $users->getHome($email)=="/guests/";
+    // Handle media file changes
+    public function onEditMediaFile($file, $action) {
+        if ($action=="upload") {
+            $fileName = $file->fileName;
+            $fileType = $this->yellow->toolbox->getFileType($file->get("fileNameShort"));
+            // Add more PHP code here
+        }
     }
 }
 ```
