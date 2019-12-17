@@ -1,4 +1,4 @@
-Edit 0.8.13
+Edit 0.8.14
 ===========
 Edit your website in a web browser.
 
@@ -72,8 +72,6 @@ The following user access rights are supported:
 `upload` = user can upload file  
 `system` = user can change system settings  
 `update` = user can update website  
-`install` = user can add extensions, reserved for later  
-`uninstall` = user can remove extensions, reserved for later  
 
 The following user status values are supported:
 
