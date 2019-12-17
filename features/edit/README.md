@@ -1,8 +1,3 @@
----
-Title: zzz
-TitleContent: GitHub
-Theme: Helsinki
----
 Edit 0.8.13
 ===========
 Edit your website in a web browser.
