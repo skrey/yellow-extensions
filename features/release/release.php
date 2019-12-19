@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.12";
+    const VERSION = "0.8.13";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -153,15 +153,16 @@ class YellowRelease {
                 $fileNamesRequired = $this->getExtensionFileNames($pathSource);
                 $fileNamesFound = $this->yellow->toolbox->getDirectoryEntriesRecursive($pathSource, "/.*/", true, false);
                 foreach ($fileNamesFound as $fileName) {
-                    if (!in_array($fileName, $fileNamesRequired)) continue;
-                    $zip->addFile($fileName, $extension."/".basename($fileName));
+                    if (is_null($fileNamesRequired[$fileName])) continue;
+                    $fileNameSource = $fileNamesRequired[$fileName];
+                    $zip->addFile($fileName, $fileNameSource);
                     $modified = max($modified, $this->yellow->toolbox->getFileModified($fileName));
-                    unset($fileNamesRequired[array_search($fileName, $fileNamesRequired)]);
+                    unset($fileNamesRequired[$fileName]);
                 }
-                if (count($fileNamesRequired)) {
+                if (!empty($fileNamesRequired)) {
                     $statusCode = 500;
-                    foreach ($fileNamesRequired as $fileName) {
-                        echo "ERROR updating files: Can't find file '$fileName'!\n";
+                    foreach ($fileNamesRequired as $key=>$value) {
+                        echo "ERROR updating files: Can't find file '$key'!\n";
                     }
                 }
                 if (!$zip->close() || !$this->yellow->toolbox->modifyFile($fileNameZipArchive, $modified)) {
@@ -182,7 +183,7 @@ class YellowRelease {
         $statusCode = 200;
         list($extension, $version, $status, $description, $text) = $this->getExtensionInformation($pathSource);
         $fileNameVersion = $pathRepositoryOffical.$this->yellow->system->get("updateVersionFile");
-        if (is_file($fileNameVersion) && $status!="ignore") {
+        if (is_file($fileNameVersion) && $status!="unlisted") {
             $fileData = $this->yellow->toolbox->readFile($fileNameVersion);
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
@@ -215,7 +216,7 @@ class YellowRelease {
         $statusCode = 200;
         list($extension, $version, $status) = $this->getExtensionInformation($pathSource);
         $fileNameWaffle = $pathRepositoryOffical.$this->yellow->system->get("updateWaffleFile");
-        if (is_file($fileNameWaffle) && $status!="ignore") {
+        if (is_file($fileNameWaffle) && $status!="unlisted") {
             $waffle = $this->getExtensionWaffle($pathSource);
             $fileData = $this->yellow->toolbox->readFile($fileNameWaffle);
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
@@ -299,18 +300,30 @@ class YellowRelease {
     
     // Return extension file names
     public function getExtensionFileNames($path) {
-        $entries = array();
+        $data = array();
+        $extension = "";
+        $language = $this->yellow->system->get("language");
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
         $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
+            if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
+            if (lcfirst($matches[1])=="language") $language = $matches[2];
             if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
                 list($dummy, $entry, $flags) = explode(",", $matches[2], 3);
-                if (!preg_match("/delete/i", $flags)) array_push($entries, "$path$entry");
+                if (preg_match("/delete/i", $flags)) continue;
+                if (preg_match("/multi-language/i", $flags)) {
+                    foreach(preg_split("/\s*,\s*/", $language) as $token) {
+                        $pathLanguage = $token."/";
+                        $data["$path$pathLanguage$entry"] = $extension."/".$pathLanguage.basename($entry);
+                    }
+                } else {
+                    $data["$path$entry"] = $extension."/".basename($entry);
+                }
             }
         }
-        array_push($entries, $fileNameExtension);
-        return $entries;
+        $data[$fileNameExtension] = $extension."/".basename($fileNameExtension);
+        return $data;
     }
     
     // Return extension waffle

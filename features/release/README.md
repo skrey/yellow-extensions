@@ -1,4 +1,4 @@
-Release 0.8.12
+Release 0.8.13
 ==============
 Package files for website update.
 
@@ -32,6 +32,8 @@ The following settings can be configured in file `extension.ini` for each extens
 `Version` = extension version number  
 `Description` = extension description, one line maximum  
 `Published` = extension publication date, YYYY-MM-DD format  
+`Language` = extension language(s), comma separated  
+`Status` = extension status, e.g. `public`  
 `Developer` = feature developer  
 `Translator` = language translator  
 `Designer` = theme designer  
@@ -43,6 +45,12 @@ The following file operations are supported:
 `delete` = delete if exists  
 `optional` = only if new installation, e.g. for content files  
 `careful` = only if not modified, e.g. for system files  
+`multi-language` = use file from corresponding subfolder  
+
+The following extension status values are supported:
+
+`public` = extension is visible in official repository  
+`unlisted` = extension is not visible in official repository  
 
 ## Examples
 
