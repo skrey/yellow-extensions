@@ -1,5 +1,5 @@
-Command 0.8.9
-=============
+Command 0.8.10
+==============
 Run commands in a terminal window.
 
 <p align="center"><img src="command-screenshot.png?raw=true" alt="Screenshot"></p>
@@ -20,11 +20,11 @@ This extension uses the [cURL library](https://github.com/curl/curl) by Daniel S
 
 ## How to build a static website
 
-Create a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a directory. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed.
+Create a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a directory. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) are defined in file `system/settings/system.ini`.
 
-As an alternative to a static website you can build a cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`. To clean the cache type the following line: `php yellow.php clean cache`.
+You can test a website with the built-in web server. This is especially handy for developers, since everything runs on your own computer. Here's an example: `php yellow.php serve`, you can optionally add a directory. Now the website is available as `http://localhost:8000/`.
 
-You can test a static website without uploading it to a web server first. Start the built-in web server. This is especially handy for developers, since everything runs on your own computer. Here's an example: `php yellow.php serve`. Now the website is available as `http://localhost:8000/`.
+You can create a cache, as an alternative to a static website. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`. To clean the cache type the following line: `php yellow.php clean cache`.
 
 ## Commands
 
@@ -56,7 +56,7 @@ Syntax: php yellow.php about
         php yellow.php clean [directory location]
         php yellow.php install [extension]
         php yellow.php release [directory]
-        php yellow.php serve [url]
+        php yellow.php serve [directory url]
         php yellow.php traffic [days location filename]
         php yellow.php uninstall [extension]
         php yellow.php update [extension]
@@ -74,6 +74,12 @@ Checking static website for broken links at the command line:
 `php yellow.php check`  
 `php yellow.php check public /blog/`  
 `php yellow.php check public /wiki/`  
+
+Start built-in web server at the command line:
+
+`php yellow.php serve`  
+`php yellow.php serve public http://localhost:8008/`  
+`php yellow.php serve public http://localhost:9009/`  
 
 ## Developer
 
