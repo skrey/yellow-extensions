@@ -41,11 +41,11 @@ Les oiseaux de même plumage volent toujours ensemble.
 
 For multilingual websites you can use the multi language mode. For example if you translate an entire website. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language. Here's an example:
 
-[image screenshot-language1.png Screenshot]
+[image help-screenshot-language1.png Screenshot]
 
 The first screenshot shows the folders `1-en`, `2-de` and `3-fr`. This gives you the URLs `http://website/` `http://website/de/` `http://website/fr/` for English, German and French. Here's another example:
 
-[image screenshot-language2.png Screenshot]
+[image help-screenshot-language2.png Screenshot]
 
 The second screenshot shows the folders `1-en`, `2-de`, `3-fr` and `default`. This gives you the URLs `http://website/en/` `http://website/de/` `http://website/fr/` and a home page `http://website/` that automatically detects the visitor's language. 
 

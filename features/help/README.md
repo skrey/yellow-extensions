@@ -1,4 +1,4 @@
-Help 0.8.4
+Help 0.8.5
 ==========
 Help and documentation.
 
@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 The help is available on your website as `http://website/help/`. The help gives you more information about how to create small web pages, blogs and wikis. It's recommended to also install the [search extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/search) and [toc extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc) .
 
-Want to translate the help? Let us know if you want to contribute with a translation.
+The help is currently available in English and German. Let us know if you want to make a translation.
 
 ## Developer
 
