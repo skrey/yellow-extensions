@@ -1,6 +1,6 @@
 Lund 0.8.6
 ==========
-Lund is a basic blogger theme. [See demo](https://extensions.datenstrom.se/themes/lund).
+Lund is a basic blogger theme.
 
 <p align="center"><img src="lund-screenshot.png?raw=true" alt="Screenshot"></p>
 

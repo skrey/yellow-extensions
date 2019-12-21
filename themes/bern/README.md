@@ -1,6 +1,6 @@
 Bern 0.8.6
 ==========
-Bern is a modern business theme. [See demo](https://extensions.datenstrom.se/themes/bern).
+Bern is a modern business theme.
 
 <p align="center"><img src="bern-screenshot.png?raw=true" alt="Screenshot"></p>
 
