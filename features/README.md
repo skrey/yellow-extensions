@@ -35,8 +35,6 @@ The following features are available:
   Edit your website in a web browser. Developed by Datenstrom.
 * [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome): 
   Lots and lots of emoji. Developed by Datenstrom.
-* [Example](https://github.com/schulle4u/yellow-extension-example):
-  Example extension for developers. Developed by Steffen Schultz.
 * [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed): 
   Web feed with recent changes. Developed by Datenstrom.
 * [Filelist](https://github.com/GiovanniSalmeri/yellow-filelist):

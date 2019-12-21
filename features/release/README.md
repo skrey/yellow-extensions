@@ -1,4 +1,4 @@
-Release 0.8.13
+Release 0.8.14
 ==============
 Package files for website update.
 
@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to package files for a website update
 
-The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository. Please make sure your extension follows our coding standard. [See example extension](https://github.com/schulle4u/yellow-extension-example).
+The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository. Please make sure your extension follows our coding/documentation standard. [See example extension](https://github.com/schulle4u/yellow-extension-example).
 
 ## How to create a release
 
@@ -51,6 +51,7 @@ The following extension status values are supported:
 
 `public` = extension is visible in official repository  
 `unlisted` = extension is not visible in official repository  
+`unreleased` = extension is not available in official repository  
 
 ## Examples
 
@@ -66,6 +67,20 @@ Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 
 system/extensions/example.php: Example,example.php,create,update
+~~~
+
+Extension settings for a language:
+~~~
+# Datenstrom Yellow extension
+
+Extension: English
+Version: 0.8.3
+Description: English/English with language 'en'.
+Published: 2019-01-24 19:42:13
+Translator: Anna Svensson
+
+system/extensions/english.php: English,english.php,create,update
+system/extensions/english-language.txt: English,english-language.txt,create,update
 ~~~
 
 Extension settings for a theme:
