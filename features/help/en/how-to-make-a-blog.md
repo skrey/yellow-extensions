@@ -1,7 +1,7 @@
 ---
 Title: How to make a blog
 ---
-Learn how to make your own blog. [See demo](/features/blog/).
+Learn how to make your own blog.
 
 ## Installing blog
 
@@ -166,5 +166,3 @@ Tags
 * [How to add a feed to your blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed)
 * [How to add a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
 * [How to make a static blog](server-configuration#static-website)
-
-[Next: How to make a wiki →](how-to-make-a-wiki)

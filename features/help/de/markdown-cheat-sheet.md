@@ -1,6 +1,5 @@
 ---
 Title: Markdown-Spickzettel
-Sidebar: none
 ---
 Markdown ist eine praktische Art um Webseiten zu bearbeiten.
 

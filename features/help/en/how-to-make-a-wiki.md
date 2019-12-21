@@ -1,7 +1,7 @@
 ---
 Title: How to make a wiki
 ---
-Learn how to make your own wiki. [See demo](/features/wiki/).
+Learn how to make your own wiki.
 
 ## Installing wiki
 

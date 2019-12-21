@@ -53,5 +53,3 @@ Alle Benutzerkonten sind in `system/settings/user.ini` gespeichert. Hier ist ein
     Modified: 946684800
 
 Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) und der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) kannst du neue Benutzerkonten anlegen und Kennwörter ändern. Ein Benutzerkonto besteht aus `Email` und weiteren Einstellungen. Falls du nicht willst dass alle Webseiten im Webbrowser bearbeitet werden, dann ändere die Startseite des Benutzers.
-
-[Weiter: Spracheinstellungen →](language-configuration)

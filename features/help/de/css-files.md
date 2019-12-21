@@ -20,5 +20,3 @@ Hier ist eine Beispiel-Datei `system/resources/custom.css`:
 ## Ressourcen anpassen
 
 Im `system/resources`-Verzeichnis befinden sich alle Ressourcendateien. Hier speichert man Bilder und Schriftarten, die in Themen verwendet werden. Jede Webseite hat ein kleines Icon, auch Favicon genannt. Der Webbrowser zeigt dieses Icon beispielsweise in der Adresszeile an.
-
-[Weiter: JavaScript-Dateien →](javascript-files)

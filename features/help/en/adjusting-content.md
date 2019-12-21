@@ -42,5 +42,3 @@ Making a list:
     * item one
     * item two
     * item three
-
-[Next: Adjusting media →](adjusting-media)

@@ -1,6 +1,5 @@
 ---
 Title: Markdown cheat sheet
-Sidebar: none
 ---
 Markdown is a practical way to edit web pages.
 

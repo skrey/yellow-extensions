@@ -74,5 +74,3 @@ Die folgenden Navigationen sind vorhanden:
 `Navigation: navigation` zeigt Hauptseiten  
 `Navigation: navigation-tree` zeigt alle Seiten  
 `Navigation: navigation-sidebar` zeigt Unterseiten  
-
-[Weiter: CSS-Dateien →](css-files)

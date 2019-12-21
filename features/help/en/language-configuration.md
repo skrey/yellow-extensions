@@ -50,5 +50,3 @@ The first screenshot shows the folders `1-en`, `2-de` and `3-fr`. This gives you
 The second screenshot shows the folders `1-en`, `2-de`, `3-fr` and `default`. This gives you the URLs `http://website/en/` `http://website/de/` `http://website/fr/` and a home page `http://website/` that automatically detects the visitor's language. 
 
 To show a [language selection](/language/), you can create a page that lists available languages. This allows visitors to choose their language. The language selection can be integrated into your website, for example in the navigation or the footer.
-
-[Next: Security configuration →](security-configuration)

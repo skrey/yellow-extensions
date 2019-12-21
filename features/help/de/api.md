@@ -1062,5 +1062,3 @@ YellowSystem::load Email:webmaster
 YellowSystem::load Language:en
 YellowSystem::load Layout:default
 ```
-
-[Weiter: HTML-Dateien →](html-files)

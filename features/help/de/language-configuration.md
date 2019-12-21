@@ -50,5 +50,3 @@ Der erste Screenshot zeigt die Verzeichnisse `1-en`, `2-de` und `3-fr`. Das erze
 Der zweite Screenshot zeigt die Verzeichnisse `1-en`, `2-de`, `3-fr` und `default`. Das erzeugt die URLs `http://website/en/` `http://website/de/` `http://website/fr/` und die Startseite `http://website/` welche automatisch die Sprache der Besucher ermittelt. 
 
 Um eine [Sprachauswahl](/language/) anzuzeigen, kannst du eine Seite erstellen welche die vorhandenen Sprachen auflistet. Das ermöglicht es Besuchern ihre Sprache auszuwählen. Die Sprachauswahl kann man in die Webseite einbauen, beispielsweise in der Navigation oder Fußzeile.
-
-[Weiter: Sicherheitseinstellungen →](security-configuration)

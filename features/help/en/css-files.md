@@ -20,5 +20,3 @@ Here's an example file `system/resources/custom.css`:
 ## Customising resources
 
 The `system/resources` folder contains all resource files. You can store your images and font files here, which are used in themes. Each website has a small icon, sometimes called a favicon. The web browser displays this icon for example in the address bar.
-
-[Next: JavaScript files →](javascript-files)

@@ -73,5 +73,3 @@ The following navigations are available:
 `Navigation: navigation` shows top level pages  
 `Navigation: navigation-tree` shows all pages  
 `Navigation: navigation-sidebar` shows pages in sidebar  
-
-[Next: CSS files →](css-files)

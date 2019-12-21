@@ -112,5 +112,3 @@ This will build a static website in the `public` folder. Upload the static websi
 As an alternative to a static website you can build a cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`. To clean the cache type the following line: `php yellow.php clean cache`.
 
 You can test a static website without uploading it to a web server. Start the built-in web server. This is especially handy for [developers](api), since everything runs on your own computer. Here's an example: `php yellow.php serve`. Now the website is available as `http://localhost:8000/`.
-
-[Next: API for developers →](api)

@@ -111,5 +111,3 @@ Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische
 Als Alternative zu einer statischen Webseite kannst du einen Cache erstellen. Das beschleunigt deine Webseite deutlich, jedoch muss der Cache immer wieder aktualisiert werden. Hier ist ein Beispiel: `php yellow.php build cache`. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
 Man kann eine statische Webseite auch testen, ohne sie auf einen Webserver hochzuladen. Das ist vor allem für [Entwickler](api) praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`. Daraufhin ist die Webseite vorhanden als `http://localhost:8000/`.
-
-[Weiter: API für Entwickler →](api)

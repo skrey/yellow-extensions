@@ -1,7 +1,7 @@
 ---
 Title: How to make a website
 ---
-Learn how to make your own website. [See demo](/).
+Learn how to make your own website.
 
 ## Installing website
 
@@ -100,5 +100,3 @@ Links
 * [How to add a sitemap to your website](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap)
 * [How to add a contact page to your website](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
 * [How to make a static website](server-configuration#static-website)
-
-[Next: How to make a blog →](how-to-make-a-blog)

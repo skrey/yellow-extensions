@@ -34,5 +34,3 @@ You can use the [Youtube extension](https://github.com/datenstrom/yellow-extensi
     [youtube fhs55HEl-Gc]
     [youtube fhs55HEl-Gc left 200 112]
     [youtube fhs55HEl-Gc right 200 112]
-
-[Next: Adjusting system →](adjusting-system)

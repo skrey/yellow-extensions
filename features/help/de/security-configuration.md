@@ -18,5 +18,3 @@ Falls du nicht willst dass Benutzer im Webbrowser erstellt werden, beschränke d
 ## Benutzerbeschränkung
 
 Falls du nicht willst dass Seiten im Webbrowser verändert werden, beschränke [Benutzerkonten](adjusting-system#benutzerkonten). Öffne die Datei `system/settings/user.ini` und ändere am Zeilenende die Startseite. Benutzer dürfen dann Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
-
-[Weiter: Servereinstellungen →](server-configuration)

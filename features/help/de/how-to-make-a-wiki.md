@@ -1,7 +1,7 @@
 ---
-Title: Wiki erstellen
+Title: Wie man ein Wiki erstellt
 ---
-Lerne wie man ein eigenes Wiki erstellt. [Demo anschauen](/de/features/wiki/).
+Lerne wie man ein eigenes Wiki erstellt.
 
 ## Wiki installieren
 
@@ -151,5 +151,3 @@ Tags
 * [Eine Kontaktseite zum Wiki hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
 * [Eine Entwurfseite hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
 * [Ein statisches Wiki erstellen](server-configuration#statische-webseite)
-
-[Weiter: Inhalt anpassen →](adjusting-content)

@@ -42,5 +42,3 @@ Eine Liste erstellen:
     * Punkt eins
     * Punkt zwei
     * Punkt drei
-
-[Weiter: Medien anpassen →](adjusting-media)

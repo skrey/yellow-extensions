@@ -1060,5 +1060,3 @@ YellowSystem::load Email:webmaster
 YellowSystem::load Language:en
 YellowSystem::load Layout:default
 ```
-
-[Next: HTML files →](html-files)

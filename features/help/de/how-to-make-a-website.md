@@ -1,7 +1,7 @@
 ---
-Title: Webseite erstellen
+Title: Wie man eine Webseite erstellt
 ---
-Lerne wie man eine eigene Webseite erstellt. [Demo anschauen](/de/).
+Lerne wie man eine eigene Webseite erstellt.
 
 ## Webseite installieren
 
@@ -100,5 +100,3 @@ Links
 * [Eine Sitemap zur Webseite hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap)
 * [Eine Kontaktseite zur Webseite hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
 * [Eine statische Webseite erstellen](server-configuration#statische-webseite)
-
-[Weiter: Blog erstellen →](how-to-make-a-blog)
