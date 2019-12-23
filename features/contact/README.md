@@ -25,6 +25,10 @@ The following settings can be configured in file `system/settings/system.ini`:
 `ContactLocation` = contact page location  
 `ContactSpamFilter` = spam filter as regular expression  
 
+The following files can be configured:
+
+`system/layouts/contact.html` = layout file for contact page  
+
 ## Examples
 
 Adding a contact form:

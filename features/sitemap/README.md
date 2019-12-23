@@ -24,6 +24,10 @@ The following settings can be configured in file `system/settings/system.ini`:
 `SitemapFileXml` = sitemap file name with XML information  
 `SitemapPaginationLimit` = number of entries to show per page  
 
+The following files can be configured:
+
+`system/layouts/sitemap.html` = layout file for sitemap  
+
 ## Examples
 
 Content file with link to sitemap:

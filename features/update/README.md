@@ -28,7 +28,10 @@ This extension uses the [cURL library](https://github.com/curl/curl) by Daniel S
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`UpdateExtensionUrl` = URL of repository with extensions 
+`UpdateExtensionUrl` = URL of repository with extensions  
+`UpdateVersionFile` = version information about extensions  
+`UpdateWaffleFile` = file information about extensions  
+`UpdateNotification` = pending notifications  
 
 ## Examples
 

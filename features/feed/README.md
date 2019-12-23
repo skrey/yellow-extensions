@@ -25,6 +25,10 @@ The following settings can be configured in file `system/settings/system.ini`:
 `FeedFilterLayout` = feed filter for a specific layout  
 `FeedPaginationLimit` = number of entries to show per page  
 
+The following files can be configured:
+
+`system/layouts/feed.html` = layout file for feed  
+
 ## Examples
 
 Content file with link to feed:
