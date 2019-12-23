@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.14";
+    const VERSION = "0.8.15";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -104,6 +104,13 @@ class YellowRelease {
                 if (lcfirst($matches[1])=="version") $line = "Version: $version\n";
                 if (lcfirst($matches[1])=="published") $line = "Published: ".date("Y-m-d H:i:s", $published)."\n";
                 if (lcfirst($matches[1])=="status" && $matches[2]=="unreleased") $line = "";
+                if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
+                    list($extensionResponsible, $entry, $flags) = explode(",", $matches[2], 3);
+                    if (ucfirst($extensionResponsible)!=ucfirst($extension)) {
+                        $extensionResponsible = ucfirst($extension);
+                        $line = "$matches[1]: $extensionResponsible,$entry,$flags\n";
+                    }
+                }
                 $fileDataNew .= $line;
             }
             if ($fileData!=$fileDataNew) {
