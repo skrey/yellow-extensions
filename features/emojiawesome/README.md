@@ -41,14 +41,6 @@ Adding an emoji, double size:
     [ea ea-heart ea-2x]
     [ea ea-coffee ea-2x]
 
-Footer file with heart emoji:
-
-    ---
-    Title: Footer
-    Status: shared
-    ---
-    [Made with [ea ea-heart] and Datenstrom Yellow](https://datenstrom.se/yellow/)
-
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

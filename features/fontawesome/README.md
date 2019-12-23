@@ -42,16 +42,6 @@ Adding an icon, double size:
     [fa fa-twitter fa-2x]
     [fa fa-github fa-2x]
 
-Footer file with social media icons:
-
-    ---
-    Title: Footer
-    Status: shared
-    ---
-    [[fa fa-twitter]](https://twitter.com/datenstromse) &nbsp; 
-    [[fa fa-github]](https://github.com/datenstrom) &nbsp;
-    [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
-
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

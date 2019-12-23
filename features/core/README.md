@@ -92,6 +92,15 @@ The following page status values are supported:
 `shared` = page is not available, but can be included in other pages  
 `ignore` = page is ignored when building a static website  
 
+The following files can be configured:
+
+`system/layouts/default.html` = layout file for normal page  
+`system/layouts/error.html` = layout file for error page  
+`system/layouts/header.html` = layout file for default header  
+`system/layouts/footer.html` = layout file for default footer  
+`system/layouts/navigation.html` = layout file for default navigation  
+`system/layouts/pagination.html` = layout file for default pagination  
+
 ## Examples
 
 Content file with unlisted status:
@@ -113,10 +122,18 @@ Content file with redirection:
 Content file with website information:
 
     ---
-    Title: About page
+    Title: About
     ---
+    For people who make websites.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+    in culpa qui officia deserunt mollit anim id est laborum.
+    
     This website is made with [yellow].
-
+    
     ! [yellow log]
 
 ## Developer
