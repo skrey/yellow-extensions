@@ -9,7 +9,7 @@ Lerne wie man ein eigenes Blog erstellt.
 2. Kopiere alle Dateien auf deinen Webserver.
 3. Öffne deine Webseite im Webbrowser und wähle "Blog" aus.
 
-Dein Blog ist sofort erreichbar. Die Installation kommt mit mehreren Seiten, "Startseite", "Blog" und "Über". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Du kannst die Startseite löschen, wenn du das Blog auf der Startseite anzeigen willst.
+Dein Blog ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Blog". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Du kannst die Startseite löschen, wenn du das Blog auf der Startseite anzeigen willst.
 
 Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](/de/help/).
  
@@ -87,9 +87,9 @@ wird. Wie oft machst du Fika? [--more--]
 [youtube wnBHyfMtK5o]
 ```
 
-## Kopfzeile anpassen
+## Kopfzeile anzeigen
 
-Um die Kopfzeile anzupassen, erstelle die Datei `content/shared/header.md`. Du kannst auch eine `header.md` in deinem Blogverzeichnis erstellen und sie wird nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
+Um eine Kopfzeile anzuzeigen, erstelle die Datei `content/shared/header.md`. Du kannst auch eine `header.md` in deinem Blogverzeichnis erstellen und sie wird nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
 
 ```
 ---
@@ -99,9 +99,9 @@ Status: shared
 Ich mag Markdown.
 ```
 
-## Fußzeile anpassen
+## Fußzeile anzeigen
 
-Um die Fußzeile anzupassen, öffne die Datei `content/shared/footer.md`. Du kannst auch eine `footer.md` in deinem Blogverzeichnis erstellen und sie wird nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
+Um eine Fußzeile anzuzeigen, erstelle die Datei `content/shared/footer.md`. Du kannst auch eine `footer.md` in deinem Blogverzeichnis erstellen und sie wird nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
 
 ```
 ---

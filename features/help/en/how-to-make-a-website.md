@@ -9,7 +9,7 @@ Learn how to make your own website.
 2. Copy all files to your web server.
 3. Open your website in a web browser and select 'Website'.
 
-Your website is immediately available. The installation comes with two pages, 'Home' and 'About'. This is just an example to get you started, change everything as you like. You can make a website by adding more files and folders.
+Your website is immediately available. The installation comes with a home page. This is just an example to get you started, change everything as you like. You can make a website by adding more files and folders.
 
 When there are problems, please check the [server configuration](server-configuration) or ask the [support](/help/).
 
@@ -53,9 +53,9 @@ about how to create small web pages, blogs and wikis.
 [Learn more](https://extensions.datenstrom.se/help/).
 ```
 
-## Adjusting header
+## Showing header
 
-To adjust the header create the file `content/shared/header.md`. You can also create a `header.md` in any `content` folder and it will only be shown on pages in the same folder. Here's an example:
+To show a header create the file `content/shared/header.md`. You can also create a `header.md` in any `content` folder and it will only be shown on pages in the same folder. Here's an example:
 
 ```
 ---
@@ -65,9 +65,9 @@ Status: shared
 I like Markdown.
 ```
 
-## Adjusting footer
+## Showing footer
 
-To adjust the footer open the file `content/shared/footer.md`. You can also create a `footer.md` in any `content` folder and it will only be shown on pages in the same folder. Here's an example:
+To show a footer create the file `content/shared/footer.md`. You can also create a `footer.md` in any `content` folder and it will only be shown on pages in the same folder. Here's an example:
 
 ```
 ---

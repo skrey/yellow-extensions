@@ -9,7 +9,7 @@ Lerne wie man eine eigene Webseite erstellt.
 2. Kopiere alle Dateien auf deinen Webserver.
 3. Öffne deine Webseite im Webbrowser und wähle "Webseite" aus.
 
-Deine Webseite ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Über". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Man kann eine Webseite erstellen, indem man weitere Dateien und Verzeichnisse hinzufügt.
+Deine Webseite ist sofort erreichbar. Die Installation kommt mit einer Startseite. Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Man kann eine Webseite erstellen, indem man weitere Dateien und Verzeichnisse hinzufügt.
 
 Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](/de/help/).
 
@@ -53,9 +53,9 @@ wie man kleine Webseiten, Blogs und Wikis erstellt.
 [Mehr erfahren](https://extensions.datenstrom.se/de/help/).
 ```
 
-## Kopfzeile anpassen
+## Kopfzeile anzeigen
 
-Um die Kopfzeile anzupassen, erstelle die Datei `content/shared/header.md`. Du kannst auch eine `header.md` in einem `content`-Verzeichnis erstellen und sie wird nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
+Um eine Kopfzeile anzuzeigen, erstelle die Datei `content/shared/header.md`. Du kannst auch eine `header.md` in einem `content`-Verzeichnis erstellen und sie wird nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
 
 ```
 ---
@@ -65,9 +65,9 @@ Status: shared
 Ich mag Markdown.
 ```
 
-## Fußzeile anpassen
+## Fußzeile anzeigen
 
-Um die Fußzeile anzupassen, öffne die Datei `content/shared/footer.md`. Du kannst auch eine `footer.md` in einem beliebigen `content`-Verzeichnis erstellen, die Fußzeile wird dann nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
+Um eine Fußzeile anzuzeigen, erstelle die Datei `content/shared/footer.md`. Du kannst auch eine `footer.md` in einem beliebigen `content`-Verzeichnis erstellen, die Fußzeile wird dann nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
 
 ```
 ---

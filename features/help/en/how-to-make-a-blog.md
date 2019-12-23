@@ -9,7 +9,7 @@ Learn how to make your own blog.
 2. Copy all files to your web server.
 3. Open your website in a web browser and select 'Blog'.
 
-Your blog is immediately available. The installation comes with several pages, 'Home', 'Blog' and 'About'. This is just an example to get you started, change everything as you like. You can delete the home page, if you want to show the blog on the home page.
+Your blog is immediately available. The installation comes with two pages, 'Home' and 'Blog'. This is just an example to get you started, change everything as you like. You can delete the home page, if you want to show the blog on the home page.
 
 When there are problems, please check the [server configuration](server-configuration) or ask the [support](/help/).
  
@@ -87,9 +87,9 @@ How often do you fika? [--more--]
 [youtube wnBHyfMtK5o]
 ```
 
-## Adjusting header
+## Showing header
 
-To adjust the header create the file `content/shared/header.md`. You can also create a `header.md` in your blog folder and it will only be shown on pages in the same folder. Here's an example:
+To show a header create the file `content/shared/header.md`. You can also create a `header.md` in your blog folder and it will only be shown on pages in the same folder. Here's an example:
 
 ```
 ---
@@ -99,9 +99,9 @@ Status: shared
 I like Markdown.
 ```
 
-## Adjusting footer
+## Showing footer
 
-To adjust the footer open the file `content/shared/footer.md`. You can also create a `footer.md` in your blog folder and it will only be shown on pages in the same folder. Here's an example:
+To show a footer create the file `content/shared/footer.md`. You can also create a `footer.md` in your blog folder and it will only be shown on pages in the same folder. Here's an example:
 
 ```
 ---
