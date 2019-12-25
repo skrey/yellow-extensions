@@ -16,8 +16,6 @@ To uninstall delete the [extension files](extension.ini).
 
 The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). It shows referring sites, popular content, files and search queries. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days, location and file name. See examples below.
 
-This extension analyses your web server log files, use the [Matomo extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo) for more detailed web analytics.
-
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
