@@ -144,10 +144,12 @@ Tags
 [wikitags /]
 ```
 
-## Erweiterungen installieren
+## Erweiterungen finden
 
-* [Ein Inhaltsverzeichnis zum Wiki hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc)
-* [Eine Suchfunktion zum Wiki hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [Eine Kontaktseite zum Wiki hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
-* [Eine Entwurfseite hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
-* [Ein statisches Wiki erstellen](server-configuration#statische-webseite)
+Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für dein Wiki. Hier sind einige Beispiele:
+
+* [Wie man ein Inhaltsverzeichnis macht](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc)
+* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
+* [Wie man eine Kontaktseite benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
+* [Wie man eine Entwurfseite macht](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
+

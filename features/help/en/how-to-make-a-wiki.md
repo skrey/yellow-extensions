@@ -148,12 +148,11 @@ Tags
 [wikitags /]
 ```
 
-## Installing extensions
+## Get extensions
 
-* [How to add a table of contents to your wiki](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc)
-* [How to add a search to your wiki](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [How to add a contact page to your wiki](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
-* [How to add a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
-* [How to make a static wiki](server-configuration#static-website)
+There are [extensions](https://github.com/datenstrom/yellow-extensions) for your wiki. Here are some examples:
 
-[Next: Adjusting content →](adjusting-content)
+* [How to make a table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc)
+* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
+* [How to use a contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
+* [How to make a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)

@@ -159,10 +159,11 @@ Tags
 [blogtags /]
 ```
 
-## Erweiterungen installieren
+## Erweiterungen finden
 
-* [Eine Kommentarfunktion zum Blog hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus)
-* [Eine Suche zum Blog hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [Einen Feed zum Blog hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed)
-* [Eine Entwurfseite hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
-* [Ein statisches Blog erstellen](server-configuration#statische-webseite)
+Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für dein Blog. Hier sind einige Beispiele:
+
+* [Wie man Kommentare anzeigt](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus)
+* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
+* [Wie man einen Feed benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed)
+* [Wie man eine Entwurfseite macht](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)

@@ -159,10 +159,11 @@ Tags
 [blogtags /]
 ```
 
-## Installing extensions
+## Get extensions
 
-* [How to add comments to your blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus)
-* [How to add a search to your blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [How to add a feed to your blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed)
-* [How to add a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
-* [How to make a static blog](server-configuration#static-website)
+There are [extensions](https://github.com/datenstrom/yellow-extensions) for your blog. Here are some examples:
+
+* [How to show comments](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus)
+* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
+* [How to use a feed](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed)
+* [How to make a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)

@@ -93,10 +93,11 @@ Links
 * [Datenstrom](https://datenstrom.se)
 ```
 
-## Installing extensions
+## Get extensions
 
-* [How to add an image gallery to your website](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery)
-* [How to add a search to your website](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [How to add a sitemap to your website](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap)
-* [How to add a contact page to your website](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
-* [How to make a static website](server-configuration#static-website)
+There are [extensions](https://github.com/datenstrom/yellow-extensions) for your website. Here are some examples:
+
+* [How to add an image gallery](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery)
+* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
+* [How to use a sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap)
+* [How to use a contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)

@@ -93,10 +93,11 @@ Links
 * [Datenstrom](https://datenstrom.se/de/)
 ```
 
-## Erweiterungen installieren
+## Erweiterungen finden
 
-* [Eine Bildergalerie zur Webseite hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery)
-* [Eine Suche zur Webseite hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [Eine Sitemap zur Webseite hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap)
-* [Eine Kontaktseite zur Webseite hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
-* [Eine statische Webseite erstellen](server-configuration#statische-webseite)
+Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für deine Webseite. Hier sind einige Beispiele:
+
+* [Wie man ein Bildergalerie hinzufügt](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery)
+* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
+* [Wie man eine Sitemap benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap)
+* [Wie man eine Kontaktseite benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
