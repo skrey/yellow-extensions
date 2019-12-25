@@ -59,8 +59,6 @@ The following features are available:
   Embed Instagram photos. Developed by Datenstrom.
 * [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown): 
   Text formatting for humans. Developed by Datenstrom.
-* [Matomo](https://github.com/datenstrom/yellow-extensions/tree/master/features/matomo): 
-  Matomo web analytics. Developed by Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/features/meta):
   Meta data for social media sites. Developed by Datenstrom, Steffen Schultz.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
