@@ -14,13 +14,13 @@ Do not delete the [extension files](extension.ini), they are always required.
 
 ## How to use commands
 
-You can run commands from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` followed by more arguments. To show available commands enter no arguments. You can create a static website and do much more at the command line. See commands below.
+You can run commands from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` followed by more arguments. To show available commands enter no arguments. You can build a static website and do much more at the command line. See commands below.
 
 This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to check links.
 
 ## How to build a static website
 
-Create a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The [website settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) are defined in file `system/settings/system.ini`.
+Create a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) are defined in file `system/settings/system.ini`.
 
 You can test a static website with the built-in web server. This is especially handy for developers, since everything runs on your own computer. Here's an example: `php yellow.php serve`, you can optionally add a folder and a URL. Now the website is available as `http://localhost:8000/`.
 

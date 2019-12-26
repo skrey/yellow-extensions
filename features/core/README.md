@@ -12,13 +12,15 @@ Core functionality.
 
 Do not delete the [extension files](extension.ini), they are always required.
 
-## How to hide a page
+## How to make a secure website
 
-Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to hide a page and control who can access it.
+Make sure your website supports [data encryption](https://www.ssllabs.com/ssltest/). When there are problems, please contact your web hosting provider. It's best if your website automatically redirects from HTTP to HTTPS, so the Internet connection is always encrypted.
 
-## How to redirect a page
+If you can't trust everyone who edits the website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use Markdown, but cannot use HTML, JavaScript and other features.
 
-Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+## How to make a multilingual website
+
+The default installation comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate an entire website, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language. See examples below.
 
 ## How to show website information
 
@@ -27,6 +29,14 @@ You can use shortcuts to show information about the website:
 `[yellow]` = for current website version  
 `[yellow error]` = for current error message  
 `[yellow log]` = for latest entries in log file  
+
+## How to hide a page
+
+Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to hide a page and control who can access it.
+
+## How to redirect a page
+
+Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
 ## Settings
 
@@ -80,8 +90,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 `CoreTrashDir` = directory for deleted files  
 `CoreServerUrl` = URL of the website, `auto` for automatic detection    
 `CoreServerTimezone` = timezone of the website  
-`CoreSafeMode` = enable [safe mode](https://extensions.datenstrom.se/help/security-configuration#safe-mode) with restrictions, 1 or 0  
-`CoreMultiLanguageMode` = enable [multi language mode](https://extensions.datenstrom.se/help/language-configuration#multi-language-mode), 1 or 0  
+`CoreSafeMode` = enable safe mode with restrictions, 1 or 0  
+`CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
 
 The following page status values are supported:
 
@@ -102,6 +112,33 @@ The following files can be configured:
 `system/layouts/pagination.html` = layout file for default pagination  
 
 ## Examples
+
+Folder structure for multilingual website:
+
+~~~
+├── content
+│   ├── 1-en 
+│   │   ├── 1-home 
+│   │   └── shared    
+│   ├── 2-de          
+│   └── 3-fr   
+├── media             
+└── system  
+~~~
+
+Folder structure for multilingual website, with automatic language detection:
+
+~~~
+├── content
+│   ├── 1-en 
+│   │   ├── 1-home 
+│   │   └── shared    
+│   ├── 2-de          
+│   ├── 3-fr   
+│   └── default   
+├── media             
+└── system  
+~~~
 
 Content file with unlisted status:
 
