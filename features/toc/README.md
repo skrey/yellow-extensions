@@ -45,14 +45,6 @@ Content file with table of contents:
     
     This is an example page.
 
-Sidebar file with table of contents:
-
-    ---
-    Title: Sidebar
-    Status: shared
-    ---
-    [toc]
-
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).

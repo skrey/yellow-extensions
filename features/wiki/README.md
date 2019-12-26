@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a wiki
 
-The wiki is available on your website as `http://website/wiki/`. To show the wiki on the home page, go to your `content` folder and delete the `1-home` folder. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. Use `Tag` to group similar pages together. [Learn more](https://extensions.datenstrom.se/help/how-to-make-a-wiki).
+The wiki is available on your website as `http://website/wiki/`. To show the wiki on the home page, go to your `content` folder and delete the `1-home` folder. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. Use `Tag` to group similar pages together.
 
 ## How to show wiki information
 
@@ -64,6 +64,24 @@ Content file with wiki page:
     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
+
+Content file with multiple tags:
+
+    ---
+    Title: Coffee is good for you
+    Layout: wiki
+    Tag: Example, Coffee
+    ---
+    Coffee is a beverage made from the roasted beans of the coffee plant.
+    
+    1. Start with fresh coffee. Coffee beans start losing quality immediately 
+       after roasting and grinding. The best coffee is made from beans ground 
+       right after roasting. 
+    2. Brew a cup of coffee. Coffee is prepared with different methods and 
+       additional flavorings such as milk and sugar. There are Espresso, Filter 
+       coffee, French press, Italian Moka, Turkish coffee and many more. Find 
+       out what's your favorite.
+    3. Enjoy.
 
 Showing latest wiki pages:
 

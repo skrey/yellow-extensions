@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a blog
 
-The blog is available on your website as `http://website/blog/`. To show the blog on the home page, go to your `content` folder and delete the `1-home` folder. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. Use `Tag` to group similar pages together. You can use `[--more--]` to add a page break at the desired spot. [Learn more](https://extensions.datenstrom.se/help/how-to-make-a-blog).
+The blog is available on your website as `http://website/blog/`. To show the blog on the home page, go to your `content` folder and delete the `1-home` folder. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. Use `Tag` to group similar pages together. You can use `[--more--]` to add a page break at the desired spot.
 
 ## How to show blog information
 
@@ -67,6 +67,22 @@ Content file with blog page:
     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
+
+Content file with multiple tags and page break:
+
+    ---
+    Title: Fika is good for you
+    Published: 2016-06-01
+    Author: Datenstrom
+    Layout: blog
+    Tag: Example, Coffee
+    ---
+    Fika is a Swedish custom. It's a social coffee break where people 
+    gather to have a cup of coffee or tea together. [--more--]
+    
+    You can have fika with colleagues at work. You can invite your friends 
+    to fika. Fika is such an important part of life in Sweden that it is 
+    both a verb and a noun. How often do you fika?
 
 Showing latest blog pages:
 

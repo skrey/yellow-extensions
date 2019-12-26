@@ -26,7 +26,7 @@ This extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe
 
 ## How to show image captions
 
-Image captions can be configured in file `system/settings/text.ini`. [Learn more](https://extensions.datenstrom.se/help/adjusting-system#text-settings).
+Image captions can be configured in file `system/settings/text.ini`. See examples below.
 
 ## Examples
 
@@ -50,6 +50,7 @@ Adding an image gallery from a subfolder, square thumbnails:
 
 Text settings for image captions:
 
+    Language: en
     picture.jpg: This is an example image caption.
     photo-2387365-fika-time.jpg: Fika is an important part of life in Sweden. Photo: Taylor Franz
     photo-2391666-start-painting.jpg: Watercolors, brushes and paper. Photo: Tim Arterbury
