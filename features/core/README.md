@@ -16,11 +16,11 @@ Do not delete the [extension files](extension.ini), they are always required.
 
 Make sure your website supports [data encryption](https://www.ssllabs.com/ssltest/). When there are problems, please contact your web hosting provider. It's best if your website automatically redirects from HTTP to HTTPS, so the Internet connection is always encrypted.
 
-If you can't trust everyone who edits the website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use Markdown, but cannot use HTML, JavaScript and other features.
+If you can't trust everyone who edits a website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use Markdown, but cannot use HTML and JavaScript.
 
 ## How to make a multilingual website
 
-The default installation comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate an entire website, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language. See examples below.
+The installation comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate an entire website, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language. See examples below.
 
 ## How to show website information
 
