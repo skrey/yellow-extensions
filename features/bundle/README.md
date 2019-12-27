@@ -1,4 +1,4 @@
-Bundle 0.8.6
+Bundle 0.8.7
 ============
 Bundle website files.
 
@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 This extension bundles and minifies files for a better loading time. Your website may contain multiple CSS and JavaScript files. Usually these will be cached in the browser, but nevertheless each file has to be checked. This is where a file bundler comes in. It looks for included files and replaces them with one single bundle for CSS and one for JavaScript.
 
-This extension uses [Minify v1.3.60](https://github.com/matthiasmullie/minify) by Matthias Mullie. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
+This extension uses [Minify v1.3.62](https://github.com/matthiasmullie/minify) by Matthias Mullie. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
 
 ## Examples
 
