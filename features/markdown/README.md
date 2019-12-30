@@ -32,6 +32,18 @@ Making a list:
     * item two
     * item three
 
+Making a link:
+
+    [Link to page](/help/how-to-make-a-website)
+    [Link to file](/media/downloads/yellow.pdf)
+    [Link to website](https://datenstrom.se)
+
+Adding an image, with a shortcut:
+
+    [image picture.jpg]
+    [image picture.jpg Picture]
+    [image picture.jpg "This is an example image"]
+
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
