@@ -31,9 +31,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `GooglecalendarMode` = calendar mode  
 `GooglecalendarEntriesMax` = number of events  
+`GooglecalendarStyle` = calendar style  
 `GooglecalendarApiKey` = your Google API key  
-
-The visual design of events and agenda can be adjusted in your theme.
 
 ## Examples
 

@@ -21,6 +21,13 @@ You can add an additional style to the name, for example `ea-lg`, `ea-2x`, `ea-3
 
 This extension uses [Twemoji v2.0.0](https://github.com/twitter/twemoji) by Twitter, which supports about 1600 colorful images. Images are licensed under [CC-BY](http://creativecommons.org/licenses/by/4.0/). Twemoji has images for people, animals, food and flags. Files are served from [cdnjs](https://cdnjs.com), you can configure a different CDN or your own server.
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`EmojiawesomeCdn` = CDN with emoji images  
+`EmojiawesomeToolbarButtons` = toolbar buttons for [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+
 ## Examples
 
 Adding an emoji:

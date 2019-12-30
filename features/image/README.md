@@ -24,14 +24,14 @@ The following arguments are available, all but the first argument are optional:
 `Width` = image width, pixel or percent  
 `Height` = image height, pixel or percent   
 
-This extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell for resizing images.
+The image formats GIF, JPG, PNG and SVG are supported. All media is located in the `media` folder. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like.
+
+This extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell for resizing images. 
 
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`ImageLocation` = location for images  
-`ImageDir` = directory for images  
 `ImageAlt` = alternative text  
 `ImageUploadWidthMax` = maximum width for upload, larger images are resized  
 `ImageUploadHeightMax` = maximum height for upload, larger images are resized  

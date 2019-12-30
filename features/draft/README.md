@@ -22,6 +22,10 @@ All draft pages are available on your website as `http://website/edit/drafts/`. 
 
 ## Settings
 
+The following settings can be configured in file `system/settings/system.ini`:
+
+`DraftPaginationLimit` = number of entries to show per page  
+
 The following files can be configured:
 
 `system/layouts/draftpages.html` = layout file for draft pages  

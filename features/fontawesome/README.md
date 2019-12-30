@@ -22,6 +22,12 @@ You can add an additional style to the name, for example `fa-lg`, `fa-2x`, `fa-3
 
 This extension uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy, which supports about 600 pictographic icons. It's licensed under [OFL 1.1](https://opensource.org/licenses/OFL-1.1). Font Awesome has icons for web applications, buttons and forms.
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`FontawesomeToolbarButtons` = toolbar buttons for [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+
 ## Examples
 
 Adding an icon:

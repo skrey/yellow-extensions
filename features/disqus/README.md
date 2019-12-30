@@ -19,6 +19,12 @@ To uninstall delete the [extension files](extension.ini).
 
 This extension uses an online service, use the [comments extension](https://github.com/wunderfeyd/yellow-comments) as an alternative.
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`DisqusShortname ` = name of your website  
+
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
