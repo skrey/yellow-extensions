@@ -26,7 +26,7 @@ This extension uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Aw
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`FontawesomeToolbarButtons` = toolbar buttons for [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`FontawesomeToolbarButtons` = toolbar buttons shown in the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
 
 ## Examples
 

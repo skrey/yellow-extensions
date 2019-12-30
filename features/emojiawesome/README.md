@@ -26,7 +26,7 @@ This extension uses [Twemoji v2.0.0](https://github.com/twitter/twemoji) by Twit
 The following settings can be configured in file `system/settings/system.ini`:
 
 `EmojiawesomeCdn` = CDN with emoji images  
-`EmojiawesomeToolbarButtons` = toolbar buttons for [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`EmojiawesomeToolbarButtons` = toolbar buttons shown in the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
 
 ## Examples
 
