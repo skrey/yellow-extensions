@@ -27,7 +27,7 @@ The following arguments are available, all but the first argument are optional:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`YoutubeStyle` = video style  
+`YoutubeStyle` = video style, e.g. `flexible`  
 
 ## Examples
 

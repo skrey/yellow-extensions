@@ -22,7 +22,7 @@ This extension uses [highlight.php 9.15.10](https://github.com/scrivo/highlight.
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`HighlightClass` = highlight class  
+`HighlightClass` = highlight class, e.g. `highlight`  
 `HighlightLineNumber` = show line number, 1 or 0   
 `HighlightAutodetectLanguages` = languages for automatic detection, comma separated  
 

@@ -36,7 +36,7 @@ The following features are available:
 * [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome): 
   Lots and lots of emoji. Developed by Datenstrom.
 * [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed): 
-  Web feed with recent changes. Developed by Datenstrom.
+  Feed with recent changes. Developed by Datenstrom.
 * [Filelist](https://github.com/GiovanniSalmeri/yellow-filelist):
   Show a list of files for download. Developed by Giovanni Salmeri.
 * [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome): 
@@ -48,7 +48,7 @@ The following features are available:
 * [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap): 
   Embed Google map. Developed by Datenstrom.
 * [Help](https://github.com/datenstrom/yellow-extensions/tree/master/features/help): 
-  Help and documentation. Developed by Datenstrom.
+  Help for your website. Developed by Datenstrom.
 * [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight): 
   Highlight source code. Developed by Datenstrom.
 * [Image](https://github.com/datenstrom/yellow-extensions/tree/master/features/image): 
@@ -90,7 +90,7 @@ The following features are available:
 * [Shariff](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/shariff):
   Privacy-friendly social sharing buttons. Developed by Steffen Schultz.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap): 
-  Sitemap for your website. Developed by Datenstrom.
+  Sitemap with all pages. Developed by Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider): 
   Image gallery with slider. Developed by Datenstrom.
 * [Soundcloud](https://github.com/datenstrom/yellow-extensions/tree/master/features/soundcloud): 

@@ -68,7 +68,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Layout` = default layout  
 `Theme` = default theme  
 `Parser` = default page parser  
-`Status` = default page status  
+`Status` = default page status, e.g. `public`  
 `Navigation` = default page navigation  
 `Header` = default page header  
 `Footer` = default page footer  
@@ -96,6 +96,9 @@ The following page status values are supported:
 
 The following files can be configured:
 
+`content/shared/page-new-default.md` = content file for new page  
+`content/shared/header.md` = content file for page header, optional  
+`content/shared/footer.md` = content file for page footer, optional  
 `system/layouts/default.html` = layout file for normal page  
 `system/layouts/error.html` = layout file for error page  
 `system/layouts/header.html` = layout file for default header  

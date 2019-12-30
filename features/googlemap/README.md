@@ -29,7 +29,7 @@ The following arguments are available, all but the first argument are optional:
 The following settings can be configured in file `system/settings/system.ini`:
 
 `GooglemapZoom` = zoom value  
-`GooglemapStyle` = map style  
+`GooglemapStyle` = map style, e.g. `flexible`   
 
 ## Examples
 

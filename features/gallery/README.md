@@ -34,7 +34,7 @@ Image captions can be configured in file `system/settings/text.ini`.
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`GalleryStyle` = gallery style  
+`GalleryStyle` = gallery style, e.g. `photoswipe`, `simple`  
 
 ## Examples
 

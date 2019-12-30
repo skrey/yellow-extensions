@@ -27,7 +27,7 @@ The following arguments are available, all but the first argument are optional:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`SoundcloudStyle` = audio track style  
+`SoundcloudStyle` = audio track style, e.g. `left`, `center`, `right`  
 
 ## Examples
 

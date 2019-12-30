@@ -26,7 +26,7 @@ The following arguments are available, all arguments are optional:
 The following settings can be configured in file `system/settings/system.ini`:
 
 `BreadcrumbsSeparator` = text shown between breadcrumbs  
-`BreadcrumbsStyle` = breadcrumbs style  
+`BreadcrumbsStyle` = breadcrumbs style, e.g. `breadcrumbs`  
 
 ## Examples
 

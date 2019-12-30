@@ -1,6 +1,6 @@
 Help 0.8.6
 ==========
-Help and documentation.
+Help for your website.
 
 <p align="center"><img src="help-screenshot.png?raw=true" alt="Screenshot"></p>
 

@@ -1,6 +1,6 @@
 Sitemap 0.8.4
 =============
-Sitemap for your website.
+Sitemap with all pages.
 
 <p align="center"><img src="sitemap-screenshot.png?raw=true" alt="Screenshot"></p>
 

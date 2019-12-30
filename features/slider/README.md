@@ -31,7 +31,7 @@ This extension uses [Flickity v2.0.9](https://github.com/metafizzy/flickity) by 
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`SliderStyle` = gallery style  
+`SliderStyle` = gallery style, e.g. `flickity`  
 `SliderAutoplay` = play images automatically, delay time in milliseconds  
 
 ## Examples

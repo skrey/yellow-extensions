@@ -29,9 +29,9 @@ The following arguments are available, all but the first argument are optional:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`GooglecalendarMode` = calendar mode  
+`GooglecalendarMode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
 `GooglecalendarEntriesMax` = number of events  
-`GooglecalendarStyle` = calendar style  
+`GooglecalendarStyle` = calendar style, e.g. `flexible`  
 `GooglecalendarApiKey` = your Google API key  
 
 ## Examples

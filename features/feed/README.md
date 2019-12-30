@@ -1,6 +1,6 @@
 Feed 0.8.6
 ==========
-Web feed with recent changes.
+Feed with recent changes.
 
 <p align="center"><img src="feed-screenshot.png?raw=true" alt="Screenshot"></p>
 

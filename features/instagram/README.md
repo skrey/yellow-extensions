@@ -28,7 +28,7 @@ The following arguments are available, all but the first argument are optional:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`InstagramStyle` = photo style  
+`InstagramStyle` = photo style, e.g. `left`, `center`, `right`  
 
 ## Examples
 
