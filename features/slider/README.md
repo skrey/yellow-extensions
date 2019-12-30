@@ -21,11 +21,18 @@ The following arguments are available, all but the first argument are optional:
 `Pattern` = file name as regular expression  
 `Style` = gallery style, e.g. `flickity`  
 `Size` = image size, pixel or percent  
-`Autoplay` = play images automatically, delay time in milliseconds
+`Autoplay` = play images automatically, delay time in milliseconds  
 
 The image formats GIF, JPG, PNG and SVG are supported. All media is located in the `media` folder. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like.
 
 This extension uses [Flickity v2.0.9](https://github.com/metafizzy/flickity) by David DeSandro. It's licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0).
+
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`SliderStyle` = gallery style  
+`SliderAutoplay` = play images automatically, delay time in milliseconds  
 
 ## Examples
 

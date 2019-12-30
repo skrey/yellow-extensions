@@ -24,6 +24,12 @@ The following arguments are available, all but the first argument are optional:
 `Width` = message width, pixel or percent  
 `Height` = message height, pixel or percent  
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`TwitterTheme` = message theme  
+
 ## Examples
 
 Embedding a tweet:

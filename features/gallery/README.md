@@ -20,7 +20,7 @@ The following arguments are available, all but the first argument are optional:
   
 `Pattern` = file name as regular expression  
 `Style` = gallery style, e.g. `photoswipe`, `simple`  
-`Size` = image size, pixel or percent
+`Size` = image size, pixel or percent  
 
 The image formats GIF, JPG, PNG and SVG are supported. All media is located in the `media` folder. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like.
 
@@ -29,6 +29,12 @@ This extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe
 ## How to show image captions
 
 Image captions can be configured in file `system/settings/text.ini`.
+
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`GalleryStyle` = gallery style  
 
 ## Examples
 

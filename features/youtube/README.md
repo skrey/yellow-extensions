@@ -23,6 +23,12 @@ The following arguments are available, all but the first argument are optional:
 `Width` = video width, pixel or percent  
 `Height` = video height, pixel or percent   
  
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`YoutubeStyle` = video style  
+
 ## Examples
 
 Embedding a video:

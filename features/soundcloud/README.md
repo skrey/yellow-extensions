@@ -23,6 +23,12 @@ The following arguments are available, all but the first argument are optional:
 `Width` = audio track width, pixel or percent  
 `Height` = audio track height, pixel or percent   
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`SoundcloudStyle` = audio track style  
+
 ## Examples
 
 Embedding an audio track:

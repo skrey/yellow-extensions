@@ -23,7 +23,7 @@ This extension uses an online service, use the [comments extension](https://gith
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`DisqusShortname` = Disqus name of your website  
+`DisqusShortname` = your Disqus name  
 
 ## Developer
 
