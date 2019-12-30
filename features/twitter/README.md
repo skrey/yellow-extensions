@@ -18,7 +18,7 @@ Create a `[twitter]` shortcut.
 
 The following arguments are available, all but the first argument are optional:
  
-`Id` = last part of a [Twitter](https://www.twitter.com) link, e.g. `https://twitter.com/datenstromse/status/581449759493398528`  
+`Id` = last part of a [Twitter](https://www.twitter.com) link, e.g. `https://twitter.com/dog_feelings/status/1169078881963261953`  
 `Theme` = message theme, e.g. `light`, `dark`  
 `Style` = message style, e.g. `left`, `center`, `right`  
 `Width` = message width, pixel or percent  
@@ -34,19 +34,19 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 Embedding a tweet:
 
-    [twitter 581449759493398528]
-    [twitter 581449759493398528 dark]
-    [twitter 581449759493398528 light right]
+    [twitter 1169078881963261953]
+    [twitter 1169078881963261953 dark]
+    [twitter 1169078881963261953 light right]
 
 Embedding a timeline:
 
-    [twitter datenstromse]
-    [twitter datenstromse/likes]
-    [twitter datenstromse/likes light - 250 250]
+    [twitter dog_feelings]
+    [twitter dog_feelings/likes]
+    [twitter dog_feelings/likes light - 250 250]
 
 Embedding a follow button:
 
-    [twitterfollow datenstromse]
+    [twitterfollow dog_feelings]
 
 ## Developer
 
