@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a search
 
-The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. To show a search field add a `[search]` shortcut with optional location. You can also add a link to the search somewhere on your website. See examples below.
+The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. To show a search field add a `[search]` shortcut with optional location. You can also add a link to the search somewhere on your website.
 
 ## Settings
 

@@ -22,14 +22,6 @@ If you can't trust everyone who edits a website, then enable the safe mode. Open
 
 The installation comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate an entire website, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
 
-## How to show website information
-
-You can use shortcuts to show information about your website:
-
-`[yellow]` = for current website version  
-`[yellow error]` = for current error message  
-`[yellow log]` = for latest entries in log file  
-
 ## How to hide a page
 
 Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to hide a page and control who can access it.
@@ -113,6 +105,16 @@ The following files can be configured:
 
 ## Examples
 
+Folder structure for normal website:
+
+~~~
+├── content
+│   ├── 1-home 
+│   └── shared    
+├── media             
+└── system  
+~~~
+
 Folder structure for multilingual website:
 
 ~~~
@@ -155,23 +157,6 @@ Content file with redirection:
     Redirect: https://datenstrom.se/yellow/
     ---
     This page redirects to another page.
-
-Content file with website information:
-
-    ---
-    Title: About
-    ---
-    For people who make websites.
-    
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-    in culpa qui officia deserunt mollit anim id est laborum.
-    
-    This website is made with [yellow].
-    
-    ! [yellow log]
 
 ## Developer
 
