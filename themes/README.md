@@ -7,8 +7,6 @@ The following themes are available:
   Berlin is a simple and beautiful theme inspired by Dieter Rams. Designed by Datenstrom.
 * [Bern](https://github.com/datenstrom/yellow-extensions/tree/master/themes/bern): 
   Bern is a modern business theme. Designed by Datenstrom.
-* [Helsinki](https://github.com/datenstrom/yellow-extensions/tree/master/themes/helsinki): 
-  Helsinki is a theme for a GitHub-like knowledge base. Designed by Datenstrom.
 * [Lund](https://github.com/datenstrom/yellow-extensions/tree/master/themes/lund): 
   Lund is a basic blogger theme. Designed by Datenstrom.
 * [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/themes/paris): 
