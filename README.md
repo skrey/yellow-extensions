@@ -9,6 +9,8 @@ The following extensions are available:
 * [Themes](https://github.com/datenstrom/yellow-extensions/tree/master/themes/):
   Beautiful appearance for your website.
 
+Do you have questions? [Get support](https://extensions.datenstrom.se/help/) and [contribute](CONTRIBUTING.md).
+
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
 <a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
