@@ -16,4 +16,4 @@ The following themes are available:
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/themes/stockholm): 
   Stockholm is a clean website theme. Designed by Datenstrom.
 
-Want to make a new theme? [Start with the Stockholm extension](https://github.com/datenstrom/yellow-extensions/tree/master/themes/stockholm).
+Want to make a new theme? [Start with the basic extension](https://github.com/schulle4u/yellow-extension-basic).
