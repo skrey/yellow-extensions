@@ -14,7 +14,7 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man die Hilfe benutzt
 
-Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. Die Hilfe ist derzeit in Englisch und Deutsch verfügbar. Lass uns wissen, falls du eine neue Übersetzung erstellen möchtest. Es wird empfohlen, auch die [Toc-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc). zu installieren
+Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. Die Hilfe ist derzeit in Englisch und Deutsch verfügbar. Lass uns wissen, falls du eine neue Übersetzung erstellen möchtest. Es wird empfohlen, auch die [Toc-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc) zu installieren.
 
 ## Entwickler
 
