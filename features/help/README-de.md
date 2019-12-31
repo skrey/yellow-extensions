@@ -8,13 +8,13 @@ Hilfe für deine Webseite.
 
 1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
 2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/help.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `help.zip` in dein `system/extensions`-Verzeichnis..
+3. Kopiere `help.zip` in dein `system/extensions`-Verzeichnis.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man die Hilfe benutzt
 
-Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. Die Hilfe ist derzeit in Englisch und Deutsch verfügbar. Lass uns wissen, falls du eine neue Übersetzung erstellen möchtest. Es wird empfohlen, auch die [Toc-Erweiterung] zu installieren
+Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. Die Hilfe ist derzeit in Englisch und Deutsch verfügbar. Lass uns wissen, falls du eine neue Übersetzung erstellen möchtest. Es wird empfohlen, auch die [Toc-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc). zu installieren
 
 ## Entwickler
 
