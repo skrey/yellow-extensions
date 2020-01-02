@@ -18,9 +18,9 @@ The first option is to update your website in a [web browser](https://github.com
 
 The second option is to update your website at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php update` followed by optional extensions. You can force the update if necessary. Deleted files can be found in the `system/trash` folder.
 
-## How to add and remove extensions
+## How to add an extension
 
-You can add and remove extensions in the file manager. You can also add extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php install` followed by optional extensions. You can also remove extensions at the command line. Type `php yellow.php uninstall` followed by optional extensions.
+You can download and add extensions as ZIP-files. You can also add extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php install` followed by more arguments. You can also remove extensions at the command line.
 
 This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to download files. Developers can use the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release).
 
@@ -56,3 +56,8 @@ Removing extensions at the command line:
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

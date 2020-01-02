@@ -12,9 +12,9 @@ Befehle im Terminalfenster ausführen.
 
 Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer gebraucht.
 
-## Wie man Befehle ausführt
+## Wie man einen Befehl ausführt
 
-Du kannst Befehle im Installations-Verzeichnis ausführen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php` gefolgt von weiteren Argumenten. Um die vorhandenen Befehle anzuzeigen, gib keine Argumente an. Du kannst eine statische Webseite erstellen und noch viel mehr in der Befehlszeile machen. Siehe Befehle unten. 
+Du kannst Befehle im Installations-Verzeichnis ausführen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php` gefolgt von weiteren Argumenten. Um die vorhandenen Befehle anzuzeigen, gib einfach keine Argumente an. Du kannst eine statische Webseite erstellen und noch viel mehr in der Befehlszeile machen.
 
 Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg um Links zu überprüfen.
 
@@ -36,7 +36,7 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php clean` = Statische Webseite löschen  
 `php yellow.php install` = Erweiterungen hinzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php release` = Releases erstellen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
-`php yellow.php serve` = Eingebauten Websserver starten  
+`php yellow.php serve` = Eingebauten Webserver starten  
 `php yellow.php traffic` = Zugriffsanalysen erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
 `php yellow.php uninstall` = Erweiterungen entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php update` = Webseite aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  

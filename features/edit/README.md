@@ -24,11 +24,11 @@ The second option is to create a user account at the [command line](https://gith
 
 ## How to restrict a user account
 
-If you don't want that users edit pages, then restrict user accounts. Open file `system/settings/user.ini` and change the user's home page and access right. Users are allowed to edit pages within their home page. But nowhere else.
+If you don't want that users modify pages, then restrict user accounts. Open file `system/settings/user.ini` and change the user's home page and access right. Users are allowed to edit pages within their home page, but nowhere else.
 
 If you don't want that user accounts are created, then restrict the login page. Open file `system/settings/system.ini` and change `EditLoginRestriction: 1`. Users are allowed to log in, but cannot create new user accounts.
 
-If you can't trust every user, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
+If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
 
 ## Settings
 
@@ -43,10 +43,10 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, `none` to disable  
 `EditNewFile` = content file for new page  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
-`EditUserPasswordMinLength` = minimum length of password  
+`EditUserPasswordMinLength` = minimum length of passwords  
 `EditUserHome` = default home page for new user account  
 `EditUserAccess` = default user access rights for new user account  
-`EditLoginSessionTimeout` = login session in seconds  
+`EditLoginSessionTimeout` = validity of login in seconds  
 `EditLoginRestriction` = enable login restriction, 1 or 0  
 `EditBruteForceProtection` = number of failed login attempts  
 
@@ -57,7 +57,7 @@ The following settings can be configured in file `system/settings/user.ini`:
 `Language` = language of the user  
 `Home` = home page of the user  
 `Access` = user access rights, e.g. `edit`  
-`Status` = user account status, e.g. `active`  
+`Status` = user status, e.g. `active`  
 `Pending` = pending changes  
 `Hash` = encrypted password  
 `Stamp` = unique token for authentication  
@@ -134,3 +134,8 @@ Creating a user account at the command line:
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

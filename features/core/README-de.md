@@ -12,13 +12,13 @@ Kernfunktionalität der Webseite.
 
 Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer gebraucht.
 
-## Wie man sichere Webseiten macht
+## Wie man eine sichere Webseite macht
 
 Überprüfe ob deine Webseite [Datenverschlüsselung](https://www.ssllabs.com/ssltest/) unterstützt. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster. Am Besten ist es wenn deine Webseite automatisch von HTTP nach HTTPS weiterleitet, damit die Internetverbindung immer verschlüsselt ist.
 
-Falls du nicht jedem Benutzer vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown) benutzen, aber kein HTML und JavaScript verwenden.
+Falls du nicht jedem [Benutzer](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown) benutzen, aber kein HTML und JavaScript verwenden.
 
-## Wie man mehrsprachige Webseiten macht
+## Wie man eine mehrsprachige Webseite macht
 
 Die Installation kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages) installieren. Falls du die gesamte Webseite übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
@@ -88,8 +88,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 Die folgenden Seiten-Statuswerte werden unterstützt:
 
 `public` = Seite ist eine normale Seite  
-`private` = Seite ist nicht sichtbar, Benutzer muss einloggen oder Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
-`draft` = Seite ist nicht sichtbar, Benutzer muss einloggen, erfordert [Draft-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
+`private` = Seite ist nicht sichtbar, Benutzer muss sich einloggen oder Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
+`draft` = Seite ist nicht sichtbar, Benutzer muss sich einloggen, erfordert [Draft-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
 `unlisted` = Seite ist nicht sichtbar, aber kann mit dem richtigen Link abgerufen werden  
 `shared` = Seite ist nicht vorhanden, aber kann in andere Seiten eingebunden werden  
 `ignore` = Seite wird ignoriert, wenn eine statische Webseite erstellt wird  
