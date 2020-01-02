@@ -22,7 +22,7 @@ Falls du nicht jedem [Benutzer](https://github.com/datenstrom/yellow-extensions/
 
 Die Installation kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages) installieren. Falls du die gesamte Webseite übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
-Um eine Sprachauswahl anzuzeigen, erstelle eine Seite auf der die verfügbaren Sprachen aufgelistet sind. Auf diese Weise können Besucher ihre Sprache auswählen.
+Um eine Sprachauswahl anzuzeigen, erstelle eine Seite auf der die vorhandenen Sprachen aufgelistet sind. So können Besucher die Sprache wechseln.
 
 ## Wie man eine Seite versteckt
 

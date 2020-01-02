@@ -22,7 +22,7 @@ If you can't trust every [user](https://github.com/datenstrom/yellow-extensions/
 
 The installation comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate an entire website, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
 
-To show a language selection create a page that lists available languages. This allows visitors to choose their own language. 
+To show a language selection create a page that lists available languages. This allows visitors to switch languages. 
 
 ## How to hide a page
 
