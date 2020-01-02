@@ -20,7 +20,7 @@ Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) vo
 
 ## Wie man eine statische Webseite erstellt
 
-Erstelle eine statische Webseite in der Befehlszeile. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort hinzufügen. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf dein Webserver hoch und erstelle bei Bedarf eine neue. Die [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) deiner statischen Webseite kannst du in der Datei `system/settings/system.ini` festlegen.
+Erstelle eine statische Webseite in der Befehlszeile. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort hinzufügen. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf dein Webserver hoch und erstelle bei Bedarf eine neue. Die [Systemeinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) einer statischen Webseite kannst du in der Datei `system/settings/system.ini` festlegen.
 
 Du kannst eine statische Webseite auch mit dem eingebauten Webserver testen. Das ist vor allem für Entwickler praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`. Daraufhin ist die Webseite vorhanden als `http://localhost:8000/`.
 

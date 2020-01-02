@@ -69,9 +69,9 @@ Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 `create` =  Benutzer kann Seite erstellen  
 `edit` = Benutzer kann Seite bearbeiten  
 `delete` = Benutzer kann Seite löschen  
-`upload` = Benutzer kann Datei hochladen  
-`system` = Benutzer kann Systemeinstellungen ändern  
-`update` = Benutzer kann Webseite aktualisieren  
+`upload` = Benutzer kann Mediendateien hochladen  
+`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings)  
+`update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 
 Die folgenden Benutzer-Statuswerte werden unterstützt:
 

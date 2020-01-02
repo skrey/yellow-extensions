@@ -69,9 +69,9 @@ The following user access rights are supported:
 `create` =  user can create page  
 `edit` = user can edit page  
 `delete` = user can delete page  
-`upload` = user can upload file  
-`system` = user can change system settings  
-`update` = user can update website  
+`upload` = user can upload media files  
+`system` = user can change [system settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings)  
+`update` = user can [update website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 
 The following user status values are supported:
 
