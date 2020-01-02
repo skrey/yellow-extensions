@@ -8,7 +8,7 @@ Webseiten-Dateien verpacken und veröffentlichen.
 
 1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
 2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/release.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `release.zip`  in dein `system/extensions`-Verzeichnis.
+3. Kopiere `release.zip` in dein `system/extensions`-Verzeichnis.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
