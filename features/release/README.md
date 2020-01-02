@@ -1,6 +1,6 @@
 Release 0.8.15
 ==============
-Package files for website update.
+Package and publish website files.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -12,13 +12,13 @@ Package files for website update.
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to package files for a website update
+## How to package files
 
-The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates what's necessary. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository. Please make sure your extension follows our coding/documentation standard. [See contributing guidelines](https://github.com/datenstrom/yellow-extensions/blob/master/CONTRIBUTING.md).
+The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates necessary files. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository `datenstrom/yellow-extensions`. Please make sure your extension follows our coding/documentation standard. [See contributing guidelines](https://github.com/datenstrom/yellow-extensions/blob/master/CONTRIBUTING.md).
 
 ## How to create a release
 
-First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update your `extension.ini` and other files. Upload your changes to GitHub and send a pull request.
+First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all files. Upload your changes to GitHub and send a pull request.
 
 ## Settings
 
@@ -26,7 +26,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `ReleaseRepositoryDir` = directory containing repositories with extensions   
 
-The following settings can be configured in file `extension.ini` for each extension:
+The following settings can be configured in file `extension.ini`:
 
 `Extension` = extension name  
 `Version` = extension version number  
@@ -70,6 +70,7 @@ system/extensions/example.php: Example,example.php,create,update
 ~~~
 
 Extension settings for a language:
+
 ~~~
 # Datenstrom Yellow extension
 
@@ -88,23 +89,28 @@ Extension settings for a theme:
 ~~~
 # Datenstrom Yellow extension
 
-Extension: City
+Extension: Basic
 Version: 0.8.3
 Description: Example theme for designers.
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 
-system/extensions/city.php: City,city.php,create,update
-system/resources/city.css: City,city.css,create,update,careful
-system/resources/city-icon.png: City,city-icon.png,create
+system/extensions/basic.php: Basic,basic.php,create,update
+system/resources/basic.css: Basic,basic.css,create,update,careful
+system/resources/basic-icon.png: Basic,basic-icon.png,create
 ~~~
 
 Creating releases at the command line:
 
 `php yellow.php release`  
-`php yellow.php release yellow-example`  
-`php yellow.php release yellow-city`  
+`php yellow.php release yellow-extension-example`  
+`php yellow.php release yellow-extension-basic`  
 
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

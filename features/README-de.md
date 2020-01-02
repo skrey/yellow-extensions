@@ -1,122 +1,122 @@
-Features
-========
+Funktionen
+==========
 
-The following features are available:
+Die folgenden Funktionen sind verfügbar:
 
 * [About](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/about):
-  Author profile for blog pages. Developed by Steffen Schultz.
+  Autorenprofil für Blogseiten. Entwickelt von Steffen Schultz.
 * [Antispam](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/antispam):
-  Alternative email address obfuscator. Developed by Steffen Schultz.
+  Alternative Verschleierung von E-Mail-Adressen. Entwickelt von Steffen Schultz.
 * [Audio](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio):
-  HTML5 audio player. Developed by Steffen Schultz.
+  HTML5-Audio-Player. Entwickelt von Steffen Schultz.
 * [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog): 
-  Blog for your website. Developed by Datenstrom.
+  Blog für deine Webseite. Entwickelt von Datenstrom.
 * [Breadcrumbs](https://github.com/datenstrom/yellow-extensions/tree/master/features/breadcrumbs): 
-  Breadcrumbs navigation. Developed by Datenstrom.
+  Brotkrümel-Navigation. Entwickelt von Datenstrom.
 * [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/features/bundle): 
-  Bundle website files. Developed by Datenstrom.
+  Webseiten-Dateien bündeln. Entwickelt von Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/features/command): 
-  Run commands in a terminal window. Developed by Datenstrom.
+  Befehle im Terminalfenster ausführen. Entwickelt von Datenstrom.
 * [Comments](https://github.com/GiovanniSalmeri/yellow-comments):
-  Simple commenting system. Developed by Giovanni Salmeri.
+  Einfaches Kommentarsystem. Entwickelt von Giovanni Salmeri.
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact): 
-  Email contact page. Developed by Datenstrom.
+  E-Mail-Kontaktseite. Entwickelt von Datenstrom.
 * [Core](https://github.com/datenstrom/yellow-extensions/tree/master/features/core): 
-  Core functionality of the website. Developed by Datenstrom.
+  Kernfunktionalität der Webseite. Entwickelt von Datenstrom.
 * [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv):
-  CSV file parser. Developed by Steffen Schultz.
+  CSV-Dateileser. Entwickelt von Steffen Schultz.
 * [Diary](https://github.com/GiovanniSalmeri/yellow-diary):
-  Events Diary. Developed by Giovanni Salmeri.
+  Veranstaltungskalender. Entwickelt von Giovanni Salmeri.
 * [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus): 
-  Show Disqus comments on blog. Developed by Datenstrom.
+  Disqus-Kommentare im Blog anzeigen. Entwickelt von Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft): 
-  Support for draft pages. Developed by Datenstrom.
+  Unterstützung für Entwurfsseiten. Entwickelt von Datenstrom.
 * [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit): 
-  Edit your website in a web browser. Developed by Datenstrom.
+  Webseite im Webbrowser bearbeiten. Entwickelt von Datenstrom.
 * [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome): 
-  Lots and lots of emoji. Developed by Datenstrom.
+  Emoji und bunte Bilder. Entwickelt von Datenstrom.
 * [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed): 
-  Feed with recent changes. Developed by Datenstrom.
+  Feed mit neusten Änderungen Entwickelt von Datenstrom.
 * [Filelist](https://github.com/GiovanniSalmeri/yellow-filelist):
-  Show a list of files for download. Developed by Giovanni Salmeri.
+  Liste mit Dateien zum Herunterladen. Entwickelt von Giovanni Salmeri.
 * [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome): 
-  Icons and symbols. Developed by Datenstrom.
+  Icons und Symbole. Entwickelt von Datenstrom.
 * [Gallery](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery): 
-  Image gallery with popup. Developed by Datenstrom.
+  Bildergalerie mit Popup. Entwickelt von Datenstrom.
 * [Googlecalendar](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlecalendar): 
-  Embed Google calendar. Developed by Datenstrom.
+  Google-Kalender einbinden Entwickelt von Datenstrom.
 * [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap): 
-  Embed Google map. Developed by Datenstrom.
+  Google-Karten einbinden Entwickelt von Datenstrom.
 * [Help](https://github.com/datenstrom/yellow-extensions/tree/master/features/help): 
-  Help for your website. Developed by Datenstrom.
+  Hilfe für deine Webseite. Entwickelt von Datenstrom.
 * [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight): 
-  Highlight source code. Developed by Datenstrom.
+  Quellcode hervorheben. Entwickelt von Datenstrom.
 * [Image](https://github.com/datenstrom/yellow-extensions/tree/master/features/image): 
-  Images and thumbnails. Developed by Datenstrom.
+  Bilder in unterschiedlichen Größen. Entwickelt von Datenstrom.
 * [Include](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/include): 
-  Include page content from other pages. Developed by Steffen Schultz.
+  Inhalt von anderen Seiten einbinden. Entwickelt von Steffen Schultz.
 * [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/features/instagram): 
-  Embed Instagram photos. Developed by Datenstrom.
+  Instagram-Fotos einbinden. Entwickelt von Datenstrom.
 * [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown): 
-  Text formatting for humans. Developed by Datenstrom.
+  Textformatierung für Menschen. Entwickelt von Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/features/meta):
-  Meta data for social media sites. Developed by Datenstrom, Steffen Schultz.
+  Metadaten für soziale Medien. Entwickelt von Datenstrom, Steffen Schultz.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
-  Light and accessible social sharing links. Developed by Giovanni Salmeri.
+  Leichtgewichtige Teilen-Links. Entwickelt von Giovanni Salmeri.
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
-  Message of the day. Developed by Steffen Schultz.
+  Nachricht des Tages. Entwickelt von Steffen Schultz.
 * [Openstreetmap](https://github.com/GiovanniSalmeri/yellow-openstreetmap):
-  Embed OpenStreetMap maps. Developed by Giovanni Salmeri.
+  OpenStreetMap-Karten einbinden. Entwickelt von Giovanni Salmeri.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
-  View the markdown source of a page. Developed by Steffen Schultz.
+  Markdown-Quelltext einer Seite ansehen. Entwickelt von Steffen Schultz.
 * [Pinboard](https://github.com/GiovanniSalmeri/yellow-pinboard):
-  Pinboard for timed notices. Developed by Giovanni Salmeri.
+  Pinnwand für zeitgesteuerte Bekanntmachung. Entwickelt von Giovanni Salmeri.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
-  Web feed optimized for podcast publishing. Developed by Steffen Schultz.
+  Web-Feed optimiert für die Podcast-Veröffentlichung. Entwickelt von Steffen Schultz.
 * [Previousnext](https://github.com/datenstrom/yellow-extensions/tree/master/features/previousnext): 
-  Show links to previous/next page. Developed by Datenstrom.
+  Links zu vorherigen/nächsten Seite anzeigen. Entwickelt von Datenstrom.
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
-  Support for password-protected pages. Developed by Steffen Schultz.
+  Unterstützung für passwortgeschützte Seiten. Entwickelt von Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
-  Display random pages from specified location. Developed by Steffen Schultz.
+  Zufällige Seiten eines bestimmten Ortes anzeigen. Entwickelt von Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
-  Alternative page redirection. Developed by Steffen Schultz.
+  Alternative Seitenweiterleitung. Entwickelt von Steffen Schultz.
 * [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
-  Package and publish website files. Developed by Datenstrom.
+  Webseiten-Dateien verpacken und veröffentlichen. Entwickelt von Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
-  Full-text search. Developed by Datenstrom.
+  Volltext-Suche. Entwickelt von Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):
-  Create internal links. Developed by Giovanni Salmeri.
+  Interne Links erzeugen. Entwickelt von Giovanni Salmeri.
 * [Shariff](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/shariff):
-  Privacy-friendly social sharing buttons. Developed by Steffen Schultz.
+  Datenschutzfreundliche Teilen-Schaltflächen. Entwickelt von Steffen Schultz.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap): 
-  Sitemap with all pages. Developed by Datenstrom.
+  Sitemap mit allen Seiten. Entwickelt von Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider): 
-  Image gallery with slider. Developed by Datenstrom.
+  Bildergalerie mit Schieber. Entwickelt von Datenstrom.
 * [Soundcloud](https://github.com/datenstrom/yellow-extensions/tree/master/features/soundcloud): 
-  Embed Soundcloud audio tracks. Developed by Datenstrom.
+  Soundcloud-Audio einbinden. Entwickelt von Datenstrom.
 * [Spoiler](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/spoiler):
-  Hide certain page elements. Developed by Steffen Schultz.
+  Bestimmte Seitenelemente verstecken. Entwickelt von Steffen Schultz.
 * [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker): 
-  RSS feed parser. Developed by Steffen Schultz.
+  RSS-Feed-Leser. Entwickelt von Steffen Schultz.
 * [Toc](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc): 
-  Table of contents. Developed by Datenstrom.
+  Inhaltsverzeichnis anzeigen. Entwickelt von Datenstrom.
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic): 
-  Create traffic analytics from web server log files. Developed by Datenstrom.
+  Zugriffsanalysen aus Webserver-Logdateien erstellen. Entwickelt von Datenstrom.
 * [Tunein](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
-  Embed TuneIn Radio player. Developed by Steffen Schultz.
+  TuneIn-Radio-Player einbetten. Entwickelt von Steffen Schultz.
 * [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter): 
-  Embed Twitter messages. Developed by Datenstrom, Steffen Schultz.
+  Twitter-Nachrichten einbinden. Entwickelt von Datenstrom, Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update): 
-  Keep your website up to date. Developed by Datenstrom.
+  Webseite auf dem neusten Stand halten. Entwickelt von Datenstrom.
 * [Vimeo](https://github.com/datenstrom/yellow-extensions/tree/master/features/vimeo): 
-  Embed Vimeo videos. Developed by Datenstrom.
+  Vimeo-Videos einbinden. Entwickelt von Datenstrom.
 * [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki): 
-  Wiki for your website. Developed by Datenstrom.
+  Wiki für deine Webseite. Entwickelt von Datenstrom.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube): 
-  Embed Youtube videos. Developed by Datenstrom.
+  Youtube-Videos einbinden. Entwickelt von Datenstrom.
 
-Want to make a new feature? [Start with the example extension](https://github.com/schulle4u/yellow-extension-example).
+Möchtest du eine neue Funktion machen? [Beginne mit der Example-Erweiterung](https://github.com/schulle4u/yellow-extension-example).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use the help
 
-The help is available on your website as `http://website/help/`. The help gives you more information about how to create small web pages, blogs and wikis. The help is currently available in English and German. Let us know if you want to make a new translation. It's recommended to also install the [toc extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc).
+The help is available on your website as `http://website/help/`. The help gives you more information about how to create small web pages, blogs and wikis. The help is currently available in English and German. Let us know if you made a new translation. It's recommended to also install the [toc extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc).
 
 ## Developer
 

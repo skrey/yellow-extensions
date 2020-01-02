@@ -1,6 +1,6 @@
 Core 0.8.8
 ==========
-Core functionality.
+Core functionality of the website.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Screenshot"></p>
 
