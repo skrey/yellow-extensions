@@ -125,7 +125,7 @@ Failed: 0
 Modified: 946684800
 ```
 
-Creating a user account at the command line:
+Updating user accounts at the command line:
  
 `php yellow.php user add email@example.com password`  
 `php yellow.php user change email@example.com password`  

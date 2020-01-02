@@ -125,7 +125,7 @@ Failed: 0
 Modified: 946684800
 ```
 
-Ein Benutzerkonto in der Befehlszeile erstellen:
+Benutzerkonten in der Befehlszeile aktualisieren:
  
 `php yellow.php user add email@example.com password`  
 `php yellow.php user change email@example.com password`  

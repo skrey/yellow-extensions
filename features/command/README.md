@@ -40,7 +40,7 @@ The following commands are available:
 `php yellow.php traffic` = Create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
 `php yellow.php uninstall` = Remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php update` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php user` = Update user account with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`php yellow.php user` = Update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
 
 ## Examples
 

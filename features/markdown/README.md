@@ -32,6 +32,18 @@ Making a list:
     * item two
     * item three
 
+Making an ordered list:
+
+    1. item one
+    2. item two
+    3. item three
+
+Making a task list:
+
+    - [x] item one
+    - [ ] item two
+    - [ ] item three
+
 Making a link:
 
     [Link to page](/help/how-to-make-a-website)
