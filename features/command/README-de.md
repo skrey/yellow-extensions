@@ -14,7 +14,7 @@ Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer 
 
 ## Wie man einen Befehl ausführt
 
-Du kannst Befehle im Installations-Verzeichnis ausführen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php` gefolgt von weiteren Argumenten. Um die vorhandenen Befehle anzuzeigen, gib einfach keine Argumente an. Du kannst eine statische Webseite erstellen und noch viel mehr in der Befehlszeile machen.
+Du kannst Befehle im Installations-Verzeichnis ausführen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php` gefolgt von weiteren Argumenten. Um die vorhandenen Befehle anzuzeigen, gib einfach keine Argumente an.
 
 Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg um Links zu überprüfen.
 

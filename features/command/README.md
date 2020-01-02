@@ -14,7 +14,7 @@ Please do not delete the [extension files](extension.ini), they are always requi
 
 ## How to run a command
 
-You can run commands from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` followed by more arguments. To show available commands enter no arguments. You can build a static website and do much more at the command line.
+You can run commands from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` followed by more arguments. To show available commands just don't enter any arguments. 
 
 This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to check links.
 

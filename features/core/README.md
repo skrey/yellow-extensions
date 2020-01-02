@@ -88,7 +88,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 The following page status values are supported:
 
 `public` = page is a normal page  
-`private` = page is not visible, user needs to log in or enter the password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
+`private` = page is not visible, log in or enter password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
 `draft` = page is not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
 `unlisted` = page is not visible, but can be accessed with the correct link  
 `shared` = page is not available, but can be included in other pages  

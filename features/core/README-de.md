@@ -88,7 +88,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 Die folgenden Seiten-Statuswerte werden unterstützt:
 
 `public` = Seite ist eine normale Seite  
-`private` = Seite ist nicht sichtbar, Benutzer muss sich einloggen oder Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
+`private` = Seite ist nicht sichtbar, einloggen oder Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
 `draft` = Seite ist nicht sichtbar, Benutzer muss sich einloggen, erfordert [Draft-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
 `unlisted` = Seite ist nicht sichtbar, aber kann mit dem richtigen Link abgerufen werden  
 `shared` = Seite ist nicht vorhanden, aber kann in andere Seiten eingebunden werden  
