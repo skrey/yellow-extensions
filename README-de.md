@@ -2,11 +2,11 @@
 
 Die folgenden Erweiterungen sind verfügbar:
 
-* [Funktionen](https://github.com/datenstrom/yellow-extensions/tree/master/features/):
+* [Funktionen](https://github.com/datenstrom/yellow-extensions/tree/master/features/README-de.md):
   Nützliche Funktionen für deine Webseite.
-* [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/):
+* [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md):
   Mögliche Übersetzungen für deine Webseite.
-* [Themen](https://github.com/datenstrom/yellow-extensions/tree/master/themes/):
+* [Themen](https://github.com/datenstrom/yellow-extensions/tree/master/themes/README-de.md):
   Schönes Aussehen für deine Webseite.
 
 Hast du Fragen? [Support finden](https://extensions.datenstrom.se/de/help/) und [mitmachen](CONTRIBUTING-de.md).

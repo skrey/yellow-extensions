@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to package files
 
-The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates necessary files. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository `datenstrom/yellow-extensions`. Please make sure your extension follows our coding/documentation standard. [See contributing guidelines](https://github.com/datenstrom/yellow-extensions/blob/master/CONTRIBUTING.md).
+The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates necessary files. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository `datenstrom/yellow-extensions`. Please make sure your extension follows our coding and documentation standard. [See contributing guidelines](https://github.com/datenstrom/yellow-extensions/blob/master/CONTRIBUTING.md).
 
 ## How to create a release
 
