@@ -1,6 +1,6 @@
 Release 0.8.15
 ==============
-Package and publish website files.
+Package and publish extensions.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -12,11 +12,11 @@ Package and publish website files.
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to package files
+## How to package an extension
 
 The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates necessary files. Your extension can become part of this update mechanism. Get a GitHub account and fork the official repository `datenstrom/yellow-extensions`. Please make sure your extension follows our coding and documentation standard. [See contributing guidelines](https://github.com/datenstrom/yellow-extensions/blob/master/CONTRIBUTING.md).
 
-## How to create a release
+## How to publish an extension
 
 First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all files. Upload your changes to GitHub and send a pull request.
 
@@ -100,7 +100,7 @@ system/resources/basic.css: Basic,basic.css,create,update,careful
 system/resources/basic-icon.png: Basic,basic-icon.png,create
 ~~~
 
-Creating releases at the command line:
+Publishing extensions at the command line:
 
 `php yellow.php release`  
 `php yellow.php release yellow-extension-example`  

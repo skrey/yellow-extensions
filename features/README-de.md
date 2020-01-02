@@ -82,7 +82,7 @@ Die folgenden Funktionen sind verfügbar:
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Alternative Seitenweiterleitung. Entwickelt von Steffen Schultz.
 * [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
-  Webseiten-Dateien verpacken und veröffentlichen. Entwickelt von Datenstrom.
+  Erweiterungen verpacken und veröffentlichen. Entwickelt von Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Volltext-Suche. Entwickelt von Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):

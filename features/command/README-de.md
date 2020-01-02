@@ -35,7 +35,7 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php check` = Statische Webseite überprüfen  
 `php yellow.php clean` = Statische Webseite löschen  
 `php yellow.php install` = Erweiterungen hinzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php release` = Releases erstellen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
+`php yellow.php release` = Erweiterungen veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
 `php yellow.php serve` = Eingebauten Webserver starten  
 `php yellow.php traffic` = Zugriffsanalysen erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
 `php yellow.php uninstall` = Erweiterungen entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  

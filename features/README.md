@@ -82,7 +82,7 @@ The following features are available:
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Alternative page redirection. Developed by Steffen Schultz.
 * [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
-  Package and publish website files. Developed by Datenstrom.
+  Package and publish extensions. Developed by Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Full-text search. Developed by Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):

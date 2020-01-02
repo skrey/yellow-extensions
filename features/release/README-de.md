@@ -1,6 +1,6 @@
 Release 0.8.15
 ==============
-Webseiten-Dateien verpacken und veröffentlichen.
+Erweiterungen verpacken und veröffentlichen.
 
 <p align="center"><img src="release-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
@@ -12,11 +12,11 @@ Webseiten-Dateien verpacken und veröffentlichen.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
-## Wie man Dateien verpackt
+## Wie man eine Erweiterung verpackt
 
 Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) überprüft, ob neue Erweiterungen im offiziellen Repository vorhanden sind, lädt sie herunter und aktualisiert notwendige Dateien. Deine Erweiterung kann Teil dieses Mechanismus werden. Besorge dir ein GitHub-Konto und forke das offizielle Repository `datenstrom/yellow-extensions`. Bitte stelle sicher, dass deine Erweiterung unserem Programmierungs- und Dokumentationsstandard entspricht. [Siehe Richtlinien zum Mitmachen](https://github.com/datenstrom/yellow-extensions/blob/master/CONTRIBUTING-de.md).
 
-## Wie man ein Release erstellt
+## Wie man eine Erweiterung veröffentlicht
 
 Erhöhe zuerst die Versionsnummer in deinem Code und erstelle dann ein Release in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php release`, du kannst wahlweise ein Verzeichnis hinzufügen. Dadurch werden alle Dateien aktualisiert. Lade deine Änderungen zu GitHub hoch und schicke einen Pull-Request.
 
@@ -100,7 +100,7 @@ system/resources/basic.css: Basic,basic.css,create,update,careful
 system/resources/basic-icon.png: Basic,basic-icon.png,create
 ~~~
 
-Releases in der Befehlszeile erstellen:
+Erweiterungen in der Befehlszeile veröffentlichen:
 
 `php yellow.php release`  
 `php yellow.php release yellow-extension-example`  

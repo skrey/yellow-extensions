@@ -35,7 +35,7 @@ The following commands are available:
 `php yellow.php check` = Check static website  
 `php yellow.php clean` = Clean static website  
 `php yellow.php install` = Add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php release` = Create releases with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
+`php yellow.php release` = Publish extensions with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
 `php yellow.php serve` = Start built-in web server  
 `php yellow.php traffic` = Create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
 `php yellow.php uninstall` = Remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
