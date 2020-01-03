@@ -22,7 +22,7 @@ Die zweite Möglichkeit besteht darin, deine Webseite in der [Befehlszeile](http
 
 Du kannst Erweiterungen als ZIP-Dateien herunterladen und hinzufügen. Du kannst Erweiterungen auch in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) hinzufügen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php install` gefolgt von weiteren Argumenten. Du kannst Erweiterungen auch in der Befehlszeile entfernen.
 
-Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg. Es gibt auch eine [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release) für Entwickler.
+Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg. Es gibt auch eine [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release).
 
 ## Wie man die aktuelle Version anzeigt
 

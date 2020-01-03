@@ -22,7 +22,7 @@ The second option is to update your website at the [command line](https://github
 
 You can download and add extensions as ZIP-files. You can also add extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php install` followed by more arguments. You can also remove extensions at the command line.
 
-This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg. There's also a [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release) for developers.
+This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg. There's also a [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release).
 
 ## How to show current version
 
