@@ -14,9 +14,11 @@ Please do not delete the [extension files](extension.ini), they are always requi
 
 ## How to make a secure website
 
-Make sure your website supports [data encryption](https://www.ssllabs.com/ssltest/). When there are problems, please contact your web hosting provider. It's best if your website automatically redirects from HTTP to HTTPS, so the Internet connection is always encrypted.
+[Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/features/update). It's best if your website is updated regularly and uses the latest version. Also check if your website supports [data encryption](https://www.ssllabs.com/ssltest/). It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
 
-If you can't trust every [user](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
+If you don't want that pages are modified, then restrict [user accounts](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). You can configure what users are allowed to do, which pages can be changed and which files can be uploaded. The file formats GIF, JPG, PDF, PNG, SVG and ZIP are supported per default.
+
+If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
 
 ## How to make a multilingual website
 

@@ -24,7 +24,7 @@ You can download and add extensions as ZIP-files. You can also add extensions at
 
 This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg. There's also a [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release) for developers.
 
-## How to show current information
+## How to show current version
 
 You can use shortcuts to show information about the website:
 
@@ -44,7 +44,14 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 ## Examples
 
-Content file with information about the website:
+Content file with current version:
+
+    ---
+    Title: Example page
+    ---
+    The current version is [yellow].
+
+Content file with log file:
 
     ---
     Title: About

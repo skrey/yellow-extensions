@@ -24,7 +24,7 @@ Du kannst Erweiterungen als ZIP-Dateien herunterladen und hinzufügen. Du kannst
 
 Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg. Es gibt auch eine [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release) für Entwickler.
 
-## Wie man aktuelle Informationen anzeigt
+## Wie man die aktuelle Version anzeigt
 
 Du kannst Abkürzungen verwenden, um Informationen über die Website anzuzeigen:
 
@@ -44,7 +44,14 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 
 ## Beispiele
 
-Inhaltsdatei mit Informationen über die Webseite:
+Inhaltsdatei mit aktueller Version:
+
+    ---
+    Title: Beispiel-Seite
+    ---
+    Die aktuelle Version ist [yellow].
+
+Inhaltsdatei mit Logdatei:
 
     ---
     Title: Über

@@ -24,7 +24,7 @@ Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](h
 
 ## Wie man ein Benutzerkonto beschränkt
 
-Falls du nicht willst dass Benutzer Seiten verändern, beschränke Benutzerkonten. Öffne die Datei `system/settings/user.ini` und ändere Startseite und Zugriffsrechte. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
+Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/settings/user.ini` und ändere Startseite und Zugriffsrechte. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/settings/system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen sich dann einloggen, aber keine neue Benutzerkonten erstellen.
 
