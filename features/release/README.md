@@ -1,4 +1,4 @@
-Release 0.8.15
+Release 0.8.16
 ==============
 Package and publish extensions.
 
@@ -21,10 +21,6 @@ The [update extension](https://github.com/datenstrom/yellow-extensions/tree/mast
 First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all files. Upload your changes to GitHub and send a pull request.
 
 ## Settings
-
-The following settings can be configured in file `system/settings/system.ini`:
-
-`ReleaseRepositoryDir` = directory containing repositories with extensions   
 
 The following settings can be configured in file `extension.ini`:
 

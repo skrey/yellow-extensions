@@ -1,10 +1,10 @@
 <?php
 // Release extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/release
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -13,7 +13,6 @@ class YellowRelease {
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("releaseRepositoryDir", "/Users/yourname/Documents/GitHub/");
     }
 
     // Handle command help
@@ -35,7 +34,7 @@ class YellowRelease {
     public function processCommandRelease($args) {
         $statusCode = 0;
         list($command, $path) = $args;
-        $pathRepository = rtrim($this->yellow->system->get("releaseRepositoryDir"), "/")."/";
+        $pathRepository = rtrim($this->yellow->system->get("updateExtensionDir"), "/")."/";
         $pathRepositoryOffical = $pathRepository."yellow-extensions/";
         $path = rtrim(empty($path) ? $pathRepositoryOffical : $pathRepository.$path, "/")."/";
         if (is_dir($pathRepository) && is_dir($pathRepositoryOffical) && is_dir($path)) {
@@ -58,7 +57,7 @@ class YellowRelease {
             $this->extensions = 0;
             $this->errors = 1;
             $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile");
-            echo "ERROR updating files: Please configure ReleaseRepositoryDir in file '$fileName'!\n";
+            echo "ERROR updating files: Please configure UpdateExtensionDir in file '$fileName'!\n";
         }
         echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
         echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
@@ -189,7 +188,7 @@ class YellowRelease {
     // Update release version file
     public function updateReleaseVersion($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
-        list($extension, $version, $status, $description, $text) = $this->getExtensionInformation($pathSource);
+        list($extension, $version, $type, $status, $description, $text) = $this->getExtensionInformation($pathSource);
         $fileNameVersion = $pathRepositoryOffical.$this->yellow->system->get("updateVersionFile");
         if (is_file($fileNameVersion) && $status!="unlisted") {
             $fileData = $this->yellow->toolbox->readFile($fileNameVersion);
@@ -222,7 +221,7 @@ class YellowRelease {
     // Update release waffle file
     public function updateReleaseWaffle($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
-        list($extension, $version, $status) = $this->getExtensionInformation($pathSource);
+        list($extension, $version, $type, $status) = $this->getExtensionInformation($pathSource);
         $fileNameWaffle = $pathRepositoryOffical.$this->yellow->system->get("updateWaffleFile");
         if (is_file($fileNameWaffle) && $status!="unlisted") {
             $waffle = $this->getExtensionWaffle($pathSource);
@@ -290,20 +289,21 @@ class YellowRelease {
 
     // Return extension information
     public function getExtensionInformation($path) {
-        $extension = $version = $status = $description = $text = "";
+        $extension = $version = $type = $status = $description = $text = "";
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
         $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches);
             if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
             if (lcfirst($matches[1])=="version") $version = $matches[2];
+            if (lcfirst($matches[1])=="type") $type = $matches[2];
             if (lcfirst($matches[1])=="status") $status = $matches[2];
             if (lcfirst($matches[1])=="description") $description = $matches[2];
             if (lcfirst($matches[1])=="developer") $text = "$description Developed by $matches[2].";
             if (lcfirst($matches[1])=="translator") $text = "$description Translated by $matches[2].";
             if (lcfirst($matches[1])=="designer") $text = "$description Designed by $matches[2].";
         }
-        return array($extension, $version, $status, $description, $text);
+        return array($extension, $version, $type, $status, $description, $text);
     }
     
     // Return extension file names

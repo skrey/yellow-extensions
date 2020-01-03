@@ -24,7 +24,9 @@ Erstelle eine statische Webseite in der Befehlszeile. Öffne ein Terminalfenster
 
 Du kannst eine statische Webseite auch mit dem eingebauten Webserver testen. Das ist vor allem für Entwickler praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`. Daraufhin ist die Webseite vorhanden als `http://localhost:8000/`.
 
-Als Alternative zu einer statischen Webseite kannst du einen Zwischenspeicher erstellen. Das beschleunigt deine Webseite deutlich, jedoch muss der Zwischenspeicher immer wieder aktualisiert werden. Hier ist ein Beispiel: `php yellow.php build cache`. Zum Löschen gibt man ein: `php yellow.php clean cache`.
+## Wie man einen statischen Zwischenspeicher erstellt
+
+Als Alternative zu einer statischen Webseite kannst du einen statischen Zwischenspeicher erstellen. Das beschleunigt deine Webseite deutlich, jedoch muss der Zwischenspeicher immer wieder aktualisiert werden. Hier ist ein Beispiel: `php yellow.php build cache`. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
 ## Befehle
 

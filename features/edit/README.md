@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to edit a website
 
-The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. To show an edit link add an `[edit]` shortcut to a page.
+The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. You can use an `[edit]` shortcut to show an edit link.
 
 ## How to create a user account
 

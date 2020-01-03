@@ -1,4 +1,4 @@
-Release 0.8.15
+Release 0.8.16
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
@@ -21,10 +21,6 @@ Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/ma
 Erhöhe zuerst die Versionsnummer in deinem Code und erstelle dann ein Release in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php release`, du kannst wahlweise ein Verzeichnis hinzufügen. Dadurch werden alle Dateien aktualisiert. Lade deine Änderungen zu GitHub hoch und schicke einen Pull-Request.
 
 ## Einstellungen
-
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
-
-`ReleaseRepositoryDir` = Verzeichnis für Repositories mit Erweiterungen 
 
 Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen werden:
 

@@ -1,4 +1,4 @@
-Update 0.8.13
+Update 0.8.14
 =============
 Webseite auf dem neusten Stand halten.
 
@@ -18,22 +18,48 @@ Die erste Möglichkeit besteht darin, deine Webseite im [Webbrowser](https://git
 
 Die zweite Möglichkeit besteht darin, deine Webseite in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) zu aktualisieren. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php update` gefolgt von optionalen Argumenten. Du kannst die Aktualisierung bei Bedarf erzwingen. Gelöschte Dateien findest du im `system/trash`-Verzeichnis.
 
-## Wie man eine Erweiterungen hinzufügt
+## Wie man eine Webseite erweitert
 
 Du kannst Erweiterungen als ZIP-Dateien herunterladen und hinzufügen. Du kannst Erweiterungen auch in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) hinzufügen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php install` gefolgt von weiteren Argumenten. Du kannst Erweiterungen auch in der Befehlszeile entfernen.
 
 Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg um Dateien herunterzuladen. Entwickler können die [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release) benutzen um Dateien zu verpacken.
+
+## Wie man aktuelle Informationen anzeigt
+
+Du kannst Abkürzungen verwenden, um Informationen über die Website anzuzeigen:
+
+`[yellow]` = für aktuelle Version der Webseite  
+`[yellow error]` = für aktuelle Fehlermeldung  
+`[yellow log]` = für neueste Einträge in der Logdatei  
 
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
 `UpdateExtensionUrl` = URL der Repository mit Erweiterungen  
+`UpdateExtensionDir` = Verzeichnis für Erweiterungen-Quellcode  
 `UpdateVersionFile` = Versionsinformationen von Erweiterungen  
 `UpdateWaffleFile` = Dateiinformationen von Erweiterungen  
 `UpdateNotification` = ausstehende Benachrichtigungen  
 
 ## Beispiele
+
+Inhaltsdatei mit Informationen über die Webseite:
+
+    ---
+    Title: Über
+    ---
+    Für Menschen die Webseiten machen.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+    in culpa qui officia deserunt mollit anim id est laborum.
+    
+    Diese Webseite ist erstellt mit [Datenstrom Yellow](https://datenstrom.se/de/yellow/). 
+
+    ! [yellow log]
 
 Webseite in der Befehlszeile aktualisieren:
  

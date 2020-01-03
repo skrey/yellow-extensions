@@ -14,7 +14,7 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man eine Webseite bearbeitet
 
-Die Anmeldeseite ist auf deiner Website vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine grossartige Art Webseiten zu aktualisieren. Um einen Link zum Bearbeiten anzuzeigen, fügen eine `[edit]`-Abkürzung auf der Seite ein.
+Die Anmeldeseite ist auf deiner Website vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine grossartige Art Webseiten zu aktualisieren. Du kannst eine `[edit]`-Abkürzung benutzen, um einen Link zum Bearbeiten anzuzeigen.
 
 ## Wie man ein Benutzerkonto erstellt
 

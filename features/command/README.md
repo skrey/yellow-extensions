@@ -24,7 +24,9 @@ Create a static website at the command line. Open a terminal window. Go to your 
 
 You can test a static website with the built-in web server. This is especially handy for developers, since everything runs on your own computer. Here's an example: `php yellow.php serve`, you can optionally add a folder and a URL. Now the website is available as `http://localhost:8000/`.
 
-You can create a cache, as an alternative to a static website. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`. To clean the cache type the following line: `php yellow.php clean cache`.
+## How to build a static cache
+
+As an alternative to a static website, you can create a static cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`. To clean the cache type the following line: `php yellow.php clean cache`.
 
 ## Commands
 
