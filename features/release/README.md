@@ -30,6 +30,7 @@ The following settings can be configured in file `extension.ini`:
 
 `Extension` = extension name  
 `Version` = extension version number  
+`Type` = extension type, e.g. `feature`, `language`, `theme`  
 `Description` = extension description, one line maximum  
 `Published` = extension publication date, YYYY-MM-DD format  
 `Language` = extension language(s), comma separated  
@@ -62,6 +63,7 @@ Extension settings for a feature:
 
 Extension: Example
 Version: 0.8.3
+Type: feature
 Description: Example feature for developers.
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
@@ -76,6 +78,7 @@ Extension settings for a language:
 
 Extension: English
 Version: 0.8.3
+Type: language
 Description: English/English with language 'en'.
 Published: 2019-01-24 19:42:13
 Translator: Anna Svensson
@@ -91,6 +94,7 @@ Extension settings for a theme:
 
 Extension: Basic
 Version: 0.8.3
+Type: theme
 Description: Example theme for designers.
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson

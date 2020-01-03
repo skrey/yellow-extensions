@@ -1,4 +1,4 @@
-Edit 0.8.14
+Edit 0.8.15
 ===========
 Webseite im Webbrowser bearbeiten.
 
@@ -46,8 +46,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `EditUserPasswordMinLength` = Mindestänge von Kennwörtern  
 `EditUserHome` = Standard-Startseite für neues Benutzerkonto  
 `EditUserAccess` = Standard-Zugriffsrechte für neues Benutzerkonto  
-`EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
 `EditLoginRestriction` = Anmeldebeschränkung aktivieren, 1 oder 0  
+`EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
 `EditBruteForceProtection` = Anzahl fehlgeschlagener Anmeldeversuche  
 
 Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorgenommen werden:
@@ -62,7 +62,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorg
 `Hash` = verschlüsseltes Kennwort  
 `Stamp` = eindeutiges Token zur Authentifizierung  
 `Failed` = Anzahl fehlgeschlagener Anmeldeversuche  
-`Modified` = Änderungszeit, Unix-Zeit  
+`Modified` = Änderungsdatum, JJJJ-MM-TT Format  
 
 Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 
@@ -122,7 +122,7 @@ Pending: none
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
 Failed: 0
-Modified: 946684800
+Modified: 2000-01-01 13:37:00
 ```
 
 Benutzerkonten in der Befehlszeile aktualisieren:

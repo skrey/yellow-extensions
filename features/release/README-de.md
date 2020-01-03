@@ -30,6 +30,7 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 
 `Extension` = Name der Erweiterung  
 `Version` = Versionsnummer der Erweiterung  
+`Type` = Typ der Erweiterung, z.B. `feature`, `language`, `theme`  
 `Description` = Beschreibung der Erweiterung, maximal eine Zeile  
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
 `Language` = Sprache(n) der Erweiterung, durch Komma getrennt  
@@ -62,6 +63,7 @@ Erweiterungs-Einstellungen für eine Funktion:
 
 Extension: Example
 Version: 0.8.3
+Type: feature
 Description: Example feature for developers.
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
@@ -76,6 +78,7 @@ Erweiterungs-Einstellungen für eine Sprache:
 
 Extension: English
 Version: 0.8.3
+Type: language
 Description: English/English with language 'en'.
 Published: 2019-01-24 19:42:13
 Translator: Anna Svensson
@@ -91,6 +94,7 @@ Erweiterungs-Einstellungen für ein Thema:
 
 Extension: Basic
 Version: 0.8.3
+Type: theme
 Description: Example theme for designers.
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson

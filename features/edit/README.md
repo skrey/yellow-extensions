@@ -1,4 +1,4 @@
-Edit 0.8.14
+Edit 0.8.15
 ===========
 Edit your website in a web browser.
 
@@ -46,8 +46,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditUserPasswordMinLength` = minimum length of passwords  
 `EditUserHome` = default home page for new user account  
 `EditUserAccess` = default user access rights for new user account  
-`EditLoginSessionTimeout` = validity of login in seconds  
 `EditLoginRestriction` = enable login restriction, 1 or 0  
+`EditLoginSessionTimeout` = validity of login in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
 
 The following settings can be configured in file `system/settings/user.ini`:
@@ -62,7 +62,7 @@ The following settings can be configured in file `system/settings/user.ini`:
 `Hash` = encrypted password  
 `Stamp` = unique token for authentication  
 `Failed` = number of failed login attempts  
-`Modified` = modification time, Unix time  
+`Modified` = modification date, YYYY-MM-DD format  
 
 The following user access rights are supported:
 
@@ -122,7 +122,7 @@ Pending: none
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
 Failed: 0
-Modified: 946684800
+Modified: 2000-01-01 13:37:00
 ```
 
 Updating user accounts at the command line:
