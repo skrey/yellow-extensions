@@ -38,7 +38,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Email` = email of the webmaster  
 `EditLocation` = login page location  
 `EditUploadNewLocation` = location for new media file  
-`EditUploadExtensions` = file extensions for upload, `none` to disable  
+`EditUploadExtensions` = file formats for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands, `none` to disable  
 `EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, `none` to disable  
 `EditNewFile` = content file for new page  

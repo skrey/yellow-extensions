@@ -14,7 +14,7 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man eine Webseite bearbeitet
 
-Die Anmeldeseite ist auf deiner Website vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine grossartige Art Webseiten zu aktualisieren. Du kannst eine `[edit]`-Abkürzung benutzen, um einen Link zum Bearbeiten anzuzeigen.
+Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine grossartige Art Webseiten zu aktualisieren. Du kannst eine `[edit]`-Abkürzung benutzen, um einen Link zum Bearbeiten anzuzeigen.
 
 ## Wie man ein Benutzerkonto erstellt
 
@@ -38,7 +38,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `Email` = E-Mail des Webmasters  
 `EditLocation` = Ort der Anmeldeseite  
 `EditUploadNewLocation` = Ort für neue Mediendateien  
-`EditUploadExtensions` = Dateierweiterungen zum Hochladen, `none` um zu deaktivieren  
+`EditUploadExtensions` = Dateiformate zum Hochladen, `none` um zu deaktivieren  
 `EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
 `EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, `none` um zu deaktivieren  
 `EditNewFile` = Inhaltsdatei für neue Seite  

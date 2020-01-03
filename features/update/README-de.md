@@ -26,7 +26,7 @@ Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) vo
 
 ## Wie man die aktuelle Version anzeigt
 
-Du kannst Abkürzungen verwenden, um Informationen über die Website anzuzeigen:
+Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen:
 
 `[yellow]` = für aktuelle Version der Webseite  
 `[yellow error]` = für aktuelle Fehlermeldung  
