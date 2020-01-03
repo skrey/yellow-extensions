@@ -16,8 +16,6 @@ Please do not delete the [extension files](extension.ini), they are always requi
 
 You can run commands from within the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` followed by more arguments. To show available commands just don't enter any arguments. 
 
-This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg to check links.
-
 ## How to build a static website
 
 Create a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The [system settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) of a static website are defined in file `system/settings/system.ini`.
@@ -43,6 +41,8 @@ The following commands are available:
 `php yellow.php uninstall` = Remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php update` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php user` = Update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+
+This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg.
 
 ## Examples
 

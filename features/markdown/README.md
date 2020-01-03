@@ -16,7 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 Markdown allows to write text like an email and it becomes a web page.
 
-This extension uses [Markdown Extra v1.9.0](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). Here's the basic [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). You can use shortcuts to add even more features, for example add images and thumbnails with the [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/image).
+This extension uses [Markdown Extra v1.9.0](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). You can use shortcuts to add even more features. For example add images and thumbnails with the [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/image).
 
 There's also an experimental Markdown parser based on [Parsedown Extra v1.8.0-beta-7](https://github.com/erusev/parsedown) by Emanuil Rusev. It's licensed under [MIT license](https://opensource.org/licenses/MIT). You can [download extension](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) and copy it into your `system/extensions` folder. Now you can switch Markdown parsers with `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
 
@@ -44,13 +44,13 @@ Making a task list:
     - [ ] item two
     - [ ] item three
 
-Making a link:
+Making links:
 
     [Link to page](/help/how-to-make-a-website)
     [Link to file](/media/downloads/yellow.pdf)
     [Link to website](https://datenstrom.se)
 
-Adding an image, with a shortcut:
+Adding images, with a shortcut:
 
     [image picture.jpg]
     [image picture.jpg Picture]
@@ -59,3 +59,8 @@ Adding an image, with a shortcut:
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

@@ -1,26 +1,26 @@
 Bundle 0.8.7
 ============
-Bundle website files.
+Webseiten-Dateien bündeln.
 
-<p align="center"><img src="bundle-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="bundle-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
-## How to install extension
+## Wie man diese Erweiterung installiert
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `bundle.zip` into your `system/extensions` folder.
+1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
+2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
+3. Kopiere `bundle.zip` in dein `system/extensions`-Verzeichnis.
 
-To uninstall delete the [extension files](extension.ini).
+Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
-## How to bundle website files
+## Wie man Webseiten-Dateien bündelt
 
-This extension bundles and minifies files for a better loading time. Your website may contain multiple CSS and JavaScript files. Usually these will be cached in the browser, but nevertheless each file has to be checked. This is where a file bundler comes in. It looks for included files and replaces them with one single bundle for CSS and one for JavaScript.
+Diese Erweiterung bündelt und verkleinert Dateien für eine bessere Ladezeit. Deine Webseite enthält möglicherweise mehrere CSS- und JavaScript-Dateien. In der Regel werden die im Browser zwischengespeichert, trotzdem muss jede Datei überprüft werden. Hier kommt der Dateibündler ins Spiel. Er sucht nach eingebundenen Dateien und ersetzt diese durch ein einzelnes Bündel für CSS und eines für JavaScript.
 
-This extension uses [Minify v1.3.62](https://github.com/matthiasmullie/minify) by Matthias Mullie. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
+Diese Erweiterung benutzt [Minify v1.3.62](https://github.com/matthiasmullie/minify) von Matthias Mullie. Es ist unter [MIT-Lizenz](https://opensource.org/licenses/MIT) lizenziert.
 
-## Examples
+## Beispiele
 
-Website with unbundled CSS and JavaScript files:
+Webseite mit ungebündelten CSS- und JavaScript-Dateien:
 
 ```
 <!DOCTYPE html>
@@ -40,7 +40,7 @@ Website with unbundled CSS and JavaScript files:
 </html>
 ```
 
-Website with bundled CSS and JavaScript files:
+Webseite mit gebündelten CSS- und JavaScript-Dateien:
 
 ```
 <!DOCTYPE html>
@@ -56,9 +56,9 @@ Website with bundled CSS and JavaScript files:
 </html>
 ```
 
-## Developer
+## Entwickler
 
-Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom. [Support finden](https://extensions.datenstrom.se/de/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

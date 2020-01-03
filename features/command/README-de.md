@@ -16,8 +16,6 @@ Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer 
 
 Du kannst Befehle im Installations-Verzeichnis ausführen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php` gefolgt von weiteren Argumenten. Um die vorhandenen Befehle anzuzeigen, gib einfach keine Argumente an.
 
-Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg um Links zu überprüfen.
-
 ## Wie man eine statische Webseite erstellt
 
 Erstelle eine statische Webseite in der Befehlszeile. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort hinzufügen. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf dein Webserver hoch und erstelle bei Bedarf eine neue. Die [Systemeinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) einer statischen Webseite kannst du in der Datei `system/settings/system.ini` festlegen.
@@ -43,6 +41,8 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php uninstall` = Erweiterungen entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php update` = Webseite aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php user` = Benutzerkonten aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+
+Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg.
 
 ## Beispiele
 

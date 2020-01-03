@@ -22,7 +22,7 @@ You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](htt
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`MetaDefaultImage` = page image, `icon` to use the website icon  
+`MetaDefaultImage` = page image, `icon` to use the default icon of the website  
 
 The following files can be configured:
 
@@ -60,3 +60,8 @@ Content file with meta data from first image:
 ## Developer
 
 Datenstrom, Steffen Schultz. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

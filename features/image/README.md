@@ -19,20 +19,20 @@ Create an `[image]` shortcut.
 The following arguments are available, all but the first argument are optional:
  
 `Name` = file name  
-`Alt` = alternative text  
+`Alt` = alternative text for image  
 `Style` = image style, e.g. `left`, `center`, `right`  
 `Width` = image width, pixel or percent  
 `Height` = image height, pixel or percent   
 
-The image formats GIF, JPG, PNG and SVG are supported. All media is located in the `media` folder. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like.
+The image formats GIF, JPG, PNG and SVG are supported. All media files are located in the `media` folder. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like.
 
-This extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell for resizing images. 
+This extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell. There's also a [gallery extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery).
 
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`ImageAlt` = alternative text  
+`ImageAlt` = alternative text for image  
 `ImageUploadWidthMax` = maximum width for upload, larger images are resized  
 `ImageUploadHeightMax` = maximum height for upload, larger images are resized  
 `ImageUploadJpgQuality` = JPG quality for uploaded images  
@@ -42,19 +42,19 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 ## Examples
 
-Adding an image:
+Adding images:
 
     [image picture.jpg]
     [image picture.jpg Picture]
     [image picture.jpg "This is an example image"]
 
-Adding an image, different styles:
+Adding images, different styles:
 
     [image picture.jpg Example left]
     [image picture.jpg Example center]
     [image picture.jpg Example right]
 
-Adding an image, different sizes:
+Adding images, different sizes:
 
     [image picture.jpg Example - 64 64]
     [image picture.jpg Example - 320 200]
@@ -63,3 +63,8 @@ Adding an image, different sizes:
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>
