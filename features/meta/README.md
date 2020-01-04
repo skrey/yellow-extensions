@@ -1,5 +1,5 @@
-Meta 0.8.9
-==========
+Meta 0.8.10
+===========
 Meta data for social media sites.
 
 <p align="center"><img src="meta-screenshot.png?raw=true" alt="Screenshot"></p>
