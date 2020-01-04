@@ -14,7 +14,7 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man eine Erweiterung verpackt
 
-Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) überprüft, ob neue Erweiterungen im offiziellen Repository vorhanden sind, lädt sie herunter und aktualisiert notwendige Dateien. Deine Erweiterung kann Teil dieses Mechanismus werden. Besorge dir ein GitHub-Konto und forke das offizielle Repository `datenstrom/yellow-extensions`. Bitte stelle sicher, dass deine Erweiterung unserem Programmierungs- und Dokumentationsstandard entspricht. [Siehe Richtlinien zum Mitmachen](https://github.com/datenstrom/yellow-extensions/blob/master/CONTRIBUTING-de.md).
+Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) überprüft, ob neue Erweiterungen im offiziellen Repository vorhanden sind, lädt sie herunter und aktualisiert notwendige Dateien. Deine Erweiterung kann Teil dieses Prozesses werden. Besorge dir ein GitHub-Konto und forke das Repository `datenstrom/yellow-extensions`. Schau dir die [Example-Erweiterung](https://github.com/schulle4u/yellow-extension-example) und [Basic-Erweiterung](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen im Detail wie man eine Erweiterung verpackt. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht.
 
 ## Wie man eine Erweiterung veröffentlicht
 

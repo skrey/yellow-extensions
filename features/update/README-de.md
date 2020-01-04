@@ -37,7 +37,8 @@ Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
 `UpdateExtensionUrl` = URL der Repository mit Erweiterungen  
-`UpdateExtensionDir` = Verzeichnis für Erweiterungen-Quellcode  
+`UpdateExtensionDir` = Verzeichnis für Erweiterungs-Quellcode  
+`UpdateExtensionFile` = Datei für Erweiterungs-Einstellungen  
 `UpdateVersionFile` = Versionsinformationen von Erweiterungen  
 `UpdateWaffleFile` = Dateiinformationen von Erweiterungen  
 `UpdateNotification` = ausstehende Benachrichtigungen  

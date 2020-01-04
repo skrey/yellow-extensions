@@ -37,9 +37,10 @@ You can use shortcuts to show information about the website:
 The following settings can be configured in file `system/settings/system.ini`:
 
 `UpdateExtensionUrl` = URL of repository with extensions  
-`UpdateExtensionDir` = directory for extensions source code  
-`UpdateVersionFile` = version information about extensions  
-`UpdateWaffleFile` = file information about extensions  
+`UpdateExtensionDir` = directory for extension source code  
+`UpdateExtensionFile` = file for extension settings  
+`UpdateVersionFile` = version information of extensions  
+`UpdateWaffleFile` = file information of extensions  
 `UpdateNotification` = pending notifications  
 
 ## Examples
