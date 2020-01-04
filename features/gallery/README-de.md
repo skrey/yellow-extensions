@@ -58,8 +58,8 @@ Bildergalerie aus einem Unterverzeichnis hinzufügen, rechteckige Miniaturbilder
 
 Texteinstellungen für Bildunterschriften:
 
-    Language: en
-    picture.jpg: This is an example image caption.
+    Language: de
+    picture.jpg: Das ist eine Beispiel-Bildunterschrift.
     photo-2387365-fika-time.jpg: Fika ist ein wichtiger Teil des Lebens in Schweden. Bild: Taylor Franz
     photo-2391666-start-painting.jpg: Aquarellfarben, Pinsel und Papier. Bild: Tim Arterbury
 
