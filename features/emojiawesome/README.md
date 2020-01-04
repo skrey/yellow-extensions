@@ -16,8 +16,7 @@ To uninstall delete the [extension files](extension.ini).
 
 Add `:shortcode:` to the text of a page. Here's an [emoji cheat sheet](http://www.emoji-cheat-sheet.com). 
 
-It's also possible to create an `[ea]` shortcut or use HTML `<i class="ea ea-name"></i>`.  
-You can add an additional style to the name, for example `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` and `ea-5x`.
+It's also possible to create an `[ea]` shortcut or use HTML `<i class="ea ea-name"></i>`. You can add an additional style to the name, for example `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` and `ea-5x`.
 
 This extension uses [Twemoji v2.0.0](https://github.com/twitter/twemoji) by Twitter, which supports about 1600 colorful images. Images are licensed under [CC-BY](http://creativecommons.org/licenses/by/4.0/). Twemoji has images for people, animals, food and flags. Files are served from [cdnjs](https://cdnjs.com), you can configure a different CDN or your own server.
 
@@ -26,7 +25,7 @@ This extension uses [Twemoji v2.0.0](https://github.com/twitter/twemoji) by Twit
 The following settings can be configured in file `system/settings/system.ini`:
 
 `EmojiawesomeCdn` = URL of CDN with emoji images  
-`EmojiawesomeToolbarButtons` = toolbar buttons shown in the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`EmojiawesomeToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
 
 ## Examples
 
@@ -51,3 +50,8 @@ Adding an emoji, double size:
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

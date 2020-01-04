@@ -34,7 +34,7 @@ Die folgenden Funktionen sind verfügbar:
 * [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit): 
   Webseite im Webbrowser bearbeiten. Entwickelt von Datenstrom.
 * [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome): 
-  Emoji und bunte Bilder. Entwickelt von Datenstrom.
+  Jede Menge Emoji. Entwickelt von Datenstrom.
 * [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed): 
   Feed mit neusten Änderungen Entwickelt von Datenstrom.
 * [Filelist](https://github.com/GiovanniSalmeri/yellow-filelist):

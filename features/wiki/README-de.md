@@ -31,7 +31,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 `Location` = Ort des Wikis  
 `PagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
 `Author` = Seiten eines bestimmten Autors anzeigen, nur bei, `[wikipages]` oder `[wikichanges]`  
-`Tag` = Seiten mit bestimmten Tag anzeigen, `[wikipages]` oder `[wikichanges`]  
+`Tag` = Seiten mit bestimmten Tag anzeigen, nur bei `[wikipages]` oder `[wikichanges`]  
 
 ## Beispiele
 
