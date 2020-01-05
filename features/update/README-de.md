@@ -39,7 +39,7 @@ Eine vollständige Systemdiagnose findet man in der Datei `system/extensions/yel
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
 `UpdateExtensionUrl` = URL der Repository mit Erweiterungen  
-`UpdateExtensionDir` = Verzeichnis für Erweiterungs-Quellcode  
+`UpdateExtensionDir` = Verzeichnis mit Erweiterungs-Quellcode  
 `UpdateExtensionFile` = Datei für Erweiterungs-Einstellungen  
 `UpdateVersionFile` = Versionsinformationen von Erweiterungen  
 `UpdateWaffleFile` = Dateiinformationen von Erweiterungen  

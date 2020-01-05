@@ -22,8 +22,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `TrafficDays` = number of days  
 `TrafficLinesMax` = number of lines to show per category  
-`TrafficLogDir` = log file directory  
-`TrafficLogFile` = log file name as regular expression  
+`TrafficLogDir` = directory with log files  
+`TrafficLogFile` = file name as regular expression  
 `TrafficSpamFilter` = spam filter as regular expression  
 
 ## Examples
@@ -62,3 +62,8 @@ Yellow traffic: 30 days, 5280 views
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

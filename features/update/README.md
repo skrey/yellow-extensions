@@ -39,7 +39,7 @@ You can find a full system diagnosis in file `system/extensions/yellow.log`.
 The following settings can be configured in file `system/settings/system.ini`:
 
 `UpdateExtensionUrl` = URL of repository with extensions  
-`UpdateExtensionDir` = directory for extension source code  
+`UpdateExtensionDir` = directory with extensions source code  
 `UpdateExtensionFile` = file for extension settings  
 `UpdateVersionFile` = version information of extensions  
 `UpdateWaffleFile` = file information of extensions  
