@@ -18,7 +18,7 @@ The contact page is available on your website as `http://website/contact/`. The 
 
 ## How to restrict a contact page
 
-It is best if you restrict links, then no contact messages with links will be sent. Open file `system/settings/system.ini` and change `ContactLinkRestriction: 1`. This blocks many unwanted contact messages. You can also configure keywords in the spam filter, luckily spammers send the same message multiple times.
+It's best if you restrict links, then no messages with clickable links will be sent. Open file `system/settings/system.ini` and change `ContactLinkRestriction: 1`. This blocks many unwanted contact messages. You can also configure keywords in the spam filter, luckily do spammers send the same message multiple times.
 
 If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are not allowed to configure an own email address, the webmaster receives all contact messages.
 
