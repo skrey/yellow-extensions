@@ -16,6 +16,7 @@ ContactButton: Envoyer le message
 ContactStatusNone: Dites bonjour ! Vos commentaires sont les bienvenus.
 ContactStatusIncomplete: S'il vous plaît, veuillez remplir tous les champs.
 ContactStatusInvalid: S'il vous plaît, veuillez entrer une adresse email valide.
+ContactStatusReview: S'il vous plaît, veuillez supprimer les liens du message.
 ContactStatusDone: Votre message a bien été envoyé. Merci !
 ContactStatusError: Votre message n'a pas pu être envoyé, réessayez plus tard s'il vous plaît !
 DatePast: aujourd'hui, hier, il y a @x jours, il ya 1 mois, il y a @x mois, il y a 1 an, il y a @x ans, le @x
@@ -170,10 +171,6 @@ InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Accueil
 InstallHomeText: Votre site web fonctionne !\n\n[edit - Vous pouvez modifier cette page] ou utiliser un éditeur de texte.\n\nVous pouvez installer plus de fonctionnalités et de thèmes.\n[Apprenez-en plus](https://extensions.datenstrom.se/help/).
-InstallAboutTitle: À propos
-InstallAboutText: Pour les gens qui font des sites web. [edit - Se connecter].
-InstallFooterTitle: Footer
-InstallFooterText: [Fait avec Datenstrom Yellow](https://datenstrom.se/yellow/)
 InstallDefaultTitle: Page
 InstallDefaultText: Ceci est une nouvelle page.
 InstallBlogTitle: Page de blog

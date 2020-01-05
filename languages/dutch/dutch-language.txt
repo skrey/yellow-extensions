@@ -16,6 +16,7 @@ ContactButton: Verstuur bericht
 ContactStatusNone: Zeg hallo. Uw feedback is zeer welkom.
 ContactStatusIncomplete: Vul alle velden in.
 ContactStatusInvalid: Vul een geldig email.
+ContactStatusReview: Please remove links from the message.
 ContactStatusDone: Je email is succesvol verzonden. Bedankt!
 ContactStatusError: E-mail kon niet worden verzonden, probeer het later opnieuw!
 DatePast: vandaag, gisteren, @x dagen geleden, 1 maand geleden, @x maanden geleden, 1 jaar geleden, @x jaar geleden, op @x
@@ -170,10 +171,6 @@ InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
 InstallHomeText: Je website werkt!\n\n[edit - Je kan deze pagina bewerken] of gebruik maken van de teksteditor.\n\nYou can install more features and themes.\n[Learn more](https://extensions.datenstrom.se/help/).
-InstallAboutTitle: Over
-InstallAboutText: Voor mensen die websites maken. [edit - Aanmelden].
-InstallFooterTitle: Footer
-InstallFooterText: [Gemaakt met Datenstrom Yellow](https://datenstrom.se/yellow/)
 InstallDefaultTitle: Page
 InstallDefaultText: This is a new page.
 InstallBlogTitle: Blog page

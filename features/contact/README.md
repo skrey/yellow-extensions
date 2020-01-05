@@ -1,4 +1,4 @@
-Contact 0.8.2
+Contact 0.8.3
 =============
 Email contact page.
 

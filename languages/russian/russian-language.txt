@@ -16,6 +16,7 @@ ContactButton: Отправить сообщение
 ContactStatusNone: Скажи привет. Ваши отзывы приветствуются.
 ContactStatusIncomplete: Пожалуйста, заполните все поля.
 ContactStatusInvalid: Пожалуйста, укажите правильный Email.
+ContactStatusReview: Please remove links from the message.
 ContactStatusDone: Ваше письмо отправлено. Спасибо!
 ContactStatusError: Письмо не может быть отправлено, попробуйте еще раз позже!
 DatePast: сегодня, вчера, @x дней назад, 1 месяц назад, @x месяцев назад, 1 год назад, @x лет назад, на @x
@@ -170,10 +171,6 @@ InstallExtensionBlog: Блог
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Главная
 InstallHomeText: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.\n\nВы можете установить больше функций и тем.\n[Учить больше](https://extensions.datenstrom.se/help/).
-InstallAboutTitle: О компании
-InstallAboutText: Для людей которые делают сайты. [edit - Войти].
-InstallFooterTitle: Подвал
-InstallFooterText: [Сделано с Datenstrom Yellow](https://datenstrom.se/yellow/)
 InstallDefaultTitle: Страница
 InstallDefaultText: Это новая страница.
 InstallBlogTitle: Страница блога

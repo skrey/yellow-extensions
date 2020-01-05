@@ -16,6 +16,7 @@ ContactButton: Poslať správu
 ContactStatusNone: Napíš pár slov. Ceníme tvoj názor.
 ContactStatusIncomplete: Prosím vyplň všetky pole.
 ContactStatusInvalid: Prosím napíš platný email.
+ContactStatusReview: Please remove links from the message.
 ContactStatusDone: Správa odoslaná. Ďakujem.
 ContactStatusError: Nepodarilo sa poslať správu. Skús to neskôr!
 DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
@@ -170,10 +171,6 @@ InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
 InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install more features and themes.\n[Learn more](https://extensions.datenstrom.se/help/).
-InstallAboutTitle: About
-InstallAboutText: For people who make websites. [edit - Log in].
-InstallFooterTitle: Footer
-InstallFooterText: [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 InstallDefaultTitle: Page
 InstallDefaultText: This is a new page.
 InstallBlogTitle: Blog page

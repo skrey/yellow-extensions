@@ -1,10 +1,10 @@
 <?php
 // Contact extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/contact
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -12,7 +12,8 @@ class YellowContact {
     public function onLoad($yellow) {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("contactLocation", "/contact/");
-        $this->yellow->system->setDefault("contactSpamFilter", "href=|url=");
+        $this->yellow->system->setDefault("contactLinkRestriction", "0");
+        $this->yellow->system->setDefault("contactSpamFilter", "advert|promot|click here");
     }
     
     // Handle page content of shortcut
@@ -66,6 +67,7 @@ class YellowContact {
         $message = trim($_REQUEST["message"]);
         $consent = trim($_REQUEST["consent"]);
         $referer = trim($_REQUEST["referer"]);
+        $linkFilter = $this->yellow->system->get("contactLinkRestriction") ? "((http|https|ftp):\/\/\S+[^\'\"\,\.\;\:\*\~\s]+)" : "none";
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
         $author = $this->yellow->system->get("author");
         $email = $this->yellow->system->get("email");
@@ -78,7 +80,8 @@ class YellowContact {
         if (empty($name) || empty($from) || empty($message) || empty($consent)) $status = "incomplete";
         if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) $status = "settings";
         if (!empty($from) && !filter_var($from, FILTER_VALIDATE_EMAIL)) $status = "invalid";
-        if (!empty($message) && preg_match("/$spamFilter/i", $message)) $status = "error";
+        if (!empty($message) && $spamFilter!="none" && preg_match("/$spamFilter/i", $message)) $status = "error";
+        if (!empty($message) && $linkFilter!="none" && preg_match("/$linkFilter/i", $message)) $status = "review";
         if ($status=="send") {
             $mailTo = mb_encode_mimeheader("$author")." <$email>";
             $mailSubject = mb_encode_mimeheader($this->yellow->page->get("title"));

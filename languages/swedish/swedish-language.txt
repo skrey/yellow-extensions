@@ -16,6 +16,7 @@ ContactButton: Skicka meddelande
 ContactStatusNone: Säg hej. Din feedback är väldigt välkommen.
 ContactStatusIncomplete: Vänligen fyll i alla fält.
 ContactStatusInvalid: Vänligen ange en giltig emailadress.
+ContactStatusReview: Vänligen ta bort länkar från meddelandet.
 ContactStatusDone: Ditt mail har nu skickats. Tack!
 ContactStatusError: Mailet kunde inte skickas, vänligen försök igen senare!
 DatePast: idag, igår, @x dagar sedan, en månad sedan, @x månader sedan, ett år sedan, @x år sedan, den @x
@@ -170,10 +171,6 @@ InstallExtensionBlog: Blogg
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Hem
 InstallHomeText: Din webbplats fungerar!\n\n[edit - Du kan redigera den här sidan] eller använda din textredigerare.\n\nDu kan installera fler funktioner och teman.\n[Läs mer](https://extensions.datenstrom.se/help/).
-InstallAboutTitle: Om
-InstallAboutText: För personer som gör webbplatser. [edit - Logga in].
-InstallFooterTitle: Footer
-InstallFooterText: [Gjord med Datenstrom Yellow](https://datenstrom.se/yellow/)
 InstallDefaultTitle: Sida
 InstallDefaultText: Detta är en ny sida.
 InstallBlogTitle: Bloggsida

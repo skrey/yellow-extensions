@@ -16,6 +16,7 @@ ContactButton: 送信
 ContactStatusNone: ご意見・ご指摘・ご提案・ご要望・ご質問・お問合せ・等お寄せ下さい。
 ContactStatusIncomplete: 全ての項目にご入力下さい。
 ContactStatusInvalid: 正しいメールアドレスをご入力下さい。
+ContactStatusReview: メッセージからリンクを削除してください。
 ContactStatusDone: メール送信を完了しました！
 ContactStatusError: メールを送信できませんでした。暫くしてからもう一度お試し下さい！
 DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
@@ -170,10 +171,6 @@ InstallExtensionBlog: ブログ
 InstallExtensionWiki: ウィキ
 InstallHomeTitle: ホーム
 InstallHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。\n\nもっと多くの機能やテーマをインストールすることができます。\n[もっと詳しく](https://extensions.datenstrom.se/help/)。
-InstallAboutTitle: について
-InstallAboutText: ウェブサイトを作る人のために。[edit - ログイン]。
-InstallFooterTitle: Footer
-InstallFooterText: [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 InstallDefaultTitle: Page
 InstallDefaultText: This is a new page.
 InstallBlogTitle: Blog page

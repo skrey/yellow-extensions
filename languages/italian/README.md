@@ -1,4 +1,4 @@
-Italian 0.8.14
+Italian 0.8.15
 ==============
 Italian/Italiano with language 'it'.
 

@@ -16,6 +16,7 @@ ContactButton: Send besked
 ContactStatusNone: Sig hej. Vi er glad for dine kommentarer.
 ContactStatusIncomplete: Udfyld venligst alle felter.
 ContactStatusInvalid: Indtast en gyldig email.
+ContactStatusReview: Please remove links from the message.
 ContactStatusDone: Din email er blevet sendt. Mange tak!
 ContactStatusError: Din email er desværre ikke blevet sendt. Venligst forsøg igen senere!
 DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
@@ -170,10 +171,6 @@ InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
 InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install more features and themes.\n[Learn more](https://extensions.datenstrom.se/help/).
-InstallAboutTitle: About
-InstallAboutText: For people who make websites. [edit - Log in].
-InstallFooterTitle: Footer
-InstallFooterText: [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 InstallDefaultTitle: Page
 InstallDefaultText: This is a new page.
 InstallBlogTitle: Blog page

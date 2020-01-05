@@ -15,7 +15,6 @@ Die folgenden Sprachen sind verfügbar:
 * [Indonesian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/indonesian): Indonesisch/Bahasa Indonesia mit Sprache 'id'. Übersetzt von Jimmy Ofisia.
 * [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/italian): Italienisch/Italiano mit Sprache 'it'. Übersetzt von Giovanni Salmeri.
 * [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/japanese): Japanisch/日本語 mit Sprache 'ja'. Übersetzt von Yuhko Senuma.
-* [Korean](https://github.com/datenstrom/yellow-extensions/tree/master/languages/korean): Koreanisch/한국어 mit Sprache 'ko'. Übersetzt von Ludens.
 * [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/polish): Polnisch/Polski mit Sprache 'pl'. Übersetzt von Paweł Klockiewicz.
 * [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/portuguese): Portugiesisch/Português mit Sprache 'pt'. Übersetzt von Al Garcia.
 * [Russian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/russian): Russisch/Русский mit Sprache 'ru'. Übersetzt von Сергей Ворон.
