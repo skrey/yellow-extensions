@@ -20,7 +20,7 @@ Die Kontaktseite ist auf deiner Webseite vorhanden als `http://website/contact/`
 
 Am Besten ist es wenn man Links beschränkt, dann werden keine Nachrichten mit anklickbaren Links verschickt. Öffne die Datei `system/settings/system.ini` und ändere `ContactLinkRestriction: 1`. Das blockiert viele unerwünschte Kontaktnachrichten. Du kannst ausserdem Stichwörter im Spamfilter einstellen, netterweise schicken viele Spammer die selbe Nachricht mehrfach.
 
-Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann keine eigene E-Mail-Adresse festlegen, alle Kontaktnachrichten gehen an den Webmaster.
+Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann keine E-Mail festlegen, alle Kontaktnachrichten gehen an den Webmaster.
 
 ## Einstellungen
 
