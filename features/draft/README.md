@@ -28,7 +28,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 The following files can be configured:
 
-`system/layouts/draftpages.html` = layout file for draft pages  
+`system/layouts/draftpages.html` = layout file with overview of draft pages  
 
 ## Examples
 
@@ -43,7 +43,7 @@ Content file with draft status:
 Content file with draft status for blog:
 
     ---
-    Title: Blog example
+    Title: Blog page
     Published: 2013-04-07
     Author: Datenstrom
     Layout: blog
@@ -65,3 +65,8 @@ Content file with draft status for wiki:
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

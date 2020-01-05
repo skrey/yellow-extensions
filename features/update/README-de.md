@@ -32,6 +32,8 @@ Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen
 `[yellow error]` = für aktuelle Fehlermeldung  
 `[yellow log]` = für neueste Einträge in der Logdatei  
 
+Eine vollständige Systemdiagnose findet man in der Datei `system/extensions/yellow.log`.
+
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:

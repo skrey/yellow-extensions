@@ -1,31 +1,31 @@
 Toc 0.8.2
 =========
-Table of contents.
+Inhaltsverzeichnis anzeigen.
 
-<p align="center"><img src="toc-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="toc-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
-## How to install extension
+## Wie man diese Erweiterung installiert
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/toc.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `toc.zip` into your `system/extensions` folder.
+1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
+2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/toc.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
+3. Kopiere `toc.zip` in dein `system/extensions`-Verzeichnis.
 
-To uninstall delete the [extension files](extension.ini).
+Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
-## How to make a table of contents
+## Wie zeigt man ein Inhaltsverzeichnis an
 
-Create a `[toc]` shortcut separated by blank lines.  
+Erstelle eine `[toc]`-Abkürzung, die durch Leerzeilen getrennt ist.
 
-## Examples
+## Beispiele
 
-Content file with table of contents:
+Inhaltsdatei mit Inhaltsverzeichnis:
 
     ---
-    Title: Example page
+    Title: Beispielseite
     ---
     [toc]
     
-    ## First header
+    ## Erste Überschrift
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -33,7 +33,7 @@ Content file with table of contents:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Second header
+    ## Zweite Überschrift
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -43,11 +43,11 @@ Content file with table of contents:
     
     ## Summary
     
-    This is an example page.
+    Das ist eine Beispielseite.
 
-## Developer
+## Entwickler
 
-Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom. [Support finden](https://extensions.datenstrom.se/de/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

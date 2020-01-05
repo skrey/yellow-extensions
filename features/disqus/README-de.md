@@ -1,0 +1,34 @@
+Disqus 0.8.2
+============
+Disqus-Kommentare im Blog anzeigen.
+
+<p align="center"><img src="disqus-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+
+## Wie man diese Erweiterung installiert
+
+1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
+2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/disqus.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
+3. Kopiere `disqus.zip` in dein `system/extensions`-Verzeichnis.
+
+Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
+
+## Wie man Kommentare anzeigt
+
+[Disqus](https://disqus.com) ist ein Kommentarservice für Webseiten. Um diese Erweiterung zu verwenden, öffnen die Datei `system/settings/system.ini` und ändere `DisqusShortname: website`. Du kannst den Namen deiner Webseite im Disqus-Dashboard finden. Kommentare werden auf Blogseiten angezeigt. Um Kommentare auf anderen Seiten anzuzeigen, füge eine `[disqus]`-Abkürzung in die Seite hinzu.
+
+Diese Erweiterung benutzt einen Online-Service, es gibt die [Comments-Erweiterung](https://github.com/GiovanniSalmeri/yellow-comments) als Alternative.
+
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+
+`DisqusShortname` = dein Disqus-Name  
+
+## Entwickler
+
+Datenstrom. [Support finden](https://extensions.datenstrom.se/de/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

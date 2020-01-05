@@ -32,6 +32,8 @@ You can use shortcuts to show information about the website:
 `[yellow error]` = for current error message  
 `[yellow log]` = for latest entries in log file  
 
+You can find a full system diagnosis in file `system/extensions/yellow.log`.
+
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:

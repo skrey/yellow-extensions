@@ -1,45 +1,45 @@
 Breadcrumbs 0.8.2
 =================
-Breadcrumbs navigation.
+Brotkrümel-Navigation.
 
-<p align="center"><img src="breadcrumbs-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="breadcrumbs-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
-## How to install extension
+## Wie man diese Erweiterung installiert
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/breadcrumbs.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `breadcrumbs.zip` into your `system/extensions` folder.
+1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
+2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/breadcrumbs.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
+3. Kopiere `breadcrumbs.zip` in dein `system/extensions`-Verzeichnis.
 
-To uninstall delete the [extension files](extension.ini).
+Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
-## How to add breadcrumbs
+## Wie man Brotkrümel hinzufügt
 
-Create a `[breadcrumbs]` shortcut. 
+Erstelle eine `[breadcrumbs]`-Abkürzung.
 
-The following arguments are available, all arguments are optional:
+Die folgenden Argumente sind verfügbar, alle Argument sind optional:
  
-`Separator` = text shown between breadcrumbs  
-`Style` = breadcrumbs style, e.g. `breadcrumbs`  
+`Separator` = Text der zwischen Brotkrümel angezeigt wird  
+`Style` = Brotkrümel-Stil, z.B. `breadcrumbs`  
 
-## Settings
+## Einstellungen
 
-The following settings can be configured in file `system/settings/system.ini`:
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
-`BreadcrumbsSeparator` = text shown between breadcrumbs  
-`BreadcrumbsStyle` = breadcrumbs style, e.g. `breadcrumbs`  
+`BreadcrumbsSeparator` = Text der zwischen Brotkrümel angezeigt wird  
+`BreadcrumbsStyle` = Brotkrümel-Stil, z.B. `breadcrumbs`  
 
-## Examples
+## Beispiele
 
-Adding breadcrumbs:
+Brotkrümel hinzufügen:
 
     [breadcrumbs]
     [breadcrumbs > breadcrumbs]
     [breadcrumbs / breadcrumbs]
 
-Content file with breadcrumbs:
+Inhaltsdatei mit Brotkrümel:
 
     ---
-    Title: Example page
+    Title: Beispielseite
     ---
     [breadcrumbs]
         
@@ -49,7 +49,7 @@ Content file with breadcrumbs:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Layout file with breadcrumbs:
+Layoutdatei mit Brotkrümel:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
@@ -62,9 +62,9 @@ Layout file with breadcrumbs:
     </div>
     <?php $this->yellow->layout("footer") ?>
 
-## Developer
+## Entwickler
 
-Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+Datenstrom. [Support finden](https://extensions.datenstrom.se/de/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

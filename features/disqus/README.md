@@ -15,9 +15,9 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to show comments
 
-[Disqus](http://disqus.com) is a comment service for websites. To use this extension open file `system/settings/system.ini` and change `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard. Comments are shown on blog pages. To show comments on other pages add a `[disqus]` shortcut to a page.
+[Disqus](https://disqus.com) is a comment service for websites. To use this extension open file `system/settings/system.ini` and change `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard. Comments are shown on blog pages. To show comments on other pages add a `[disqus]` shortcut to a page.
 
-This extension uses an online service, use the [comments extension](https://github.com/wunderfeyd/yellow-comments) as an alternative.
+This extension uses an online service, there's the [comments extension](https://github.com/GiovanniSalmeri/yellow-comments) as an alternative.
 
 ## Settings
 
@@ -29,3 +29,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
 
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

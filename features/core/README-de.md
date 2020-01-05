@@ -149,7 +149,7 @@ Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennu
 └── system  
 ~~~
 
-Inhaltsdatei mit Status:
+Inhaltsdatei mit Unlisted-Status:
 
     ---
     Title: Seite mit Status
