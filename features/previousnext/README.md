@@ -15,7 +15,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to show links
 
-This extension adds links to previous/next page, which allows users to navigate between pages. Links are shown on blog pages. To show links on other pages add a `[previousnext]` shortcut to a page.
+This extension adds links to previous/next page, which allows users to navigate between pages. Links are shown on blog pages. To show links on other pages use a `[previousnext]` shortcut.
 
 ## Settings
 

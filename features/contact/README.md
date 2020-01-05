@@ -14,7 +14,13 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a contact page
 
-The contact page is available on your website as `http://website/contact/`. The contact email is send to the webmaster, which is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. To show a contact form add a `[contact]` shortcut with an optional location. You can also add a link to the contact page somewhere on your website.
+The contact page is available on your website as `http://website/contact/`. The webmaster receives alls contact emails. The webmaster's email is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. To show a contact form on other pages use a `[contact]` shortcut. You can also add a link to the contact page somewhere on your website.
+
+## How to restrict a contact page
+
+It is best if you restrict links, then no contact messages with links will be sent. Open file `system/settings/system.ini` and change `ContactLinkRestriction: 1`. This blocks many unwanted contact messages. You can also configure keywords in the spam filter, luckily spammers send the same message multiple times.
+
+If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are not allowed to configure an own email address, the webmaster receives all contact messages.
 
 ## Settings
 
@@ -23,6 +29,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
 `ContactLocation` = contact page location  
+`ContactLinkRestriction` = enable link restriction, 1 or 0  
 `ContactSpamFilter` = spam filter as regular expression  
 
 The following files can be configured:
@@ -68,3 +75,8 @@ Content file with contact link:
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>
