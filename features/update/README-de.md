@@ -71,6 +71,10 @@ Inhaltsdatei mit Logdatei:
 
     ! [yellow log]
 
+Nach Aktualisierungen in der Befehlszeile suchen:
+ 
+`php yellow.php about`  
+
 Webseite in der Befehlszeile aktualisieren:
  
 `php yellow.php update`  

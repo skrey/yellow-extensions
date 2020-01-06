@@ -125,6 +125,10 @@ Failed: 0
 Modified: 2000-01-01 13:37:00
 ```
 
+Showing available user accounts at the command line:
+
+`php yellow.php user`  
+
 Updating user accounts at the command line:
  
 `php yellow.php user add email@example.com password`  

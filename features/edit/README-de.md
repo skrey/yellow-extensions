@@ -125,6 +125,10 @@ Failed: 0
 Modified: 2000-01-01 13:37:00
 ```
 
+Vorhandene Benutzerkonten in der Befehlszeile anzeigen:
+
+`php yellow.php user`  
+
 Benutzerkonten in der Befehlszeile aktualisieren:
  
 `php yellow.php user add email@example.com password`  
