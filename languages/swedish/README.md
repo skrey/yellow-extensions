@@ -8,7 +8,7 @@ Swedish/Svenska with language 'sv'.
 
 1. [Ladda ner och installera Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/swedish.zip). Om du använder Safari, högerklicka och välja "Ladda ner fil som".
-3. Kopiera `swedish.zip` till din `system`/extensions`-katalog.
+3. Kopiera `swedish.zip` till din `system/extensions`-katalog.
 
 För att avinstallera ta bort [tilläggsfiler](extension.ini).
 
