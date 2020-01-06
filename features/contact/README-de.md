@@ -1,4 +1,4 @@
-Contact 0.8.3
+Contact 0.8.4
 =============
 E-Mail-Kontaktseite.
 
@@ -20,7 +20,7 @@ Die Kontaktseite ist auf deiner Webseite vorhanden als `http://website/contact/`
 
 Am Besten ist es wenn man Links beschränkt, dann werden keine Nachrichten mit anklickbaren Links verschickt. Öffne die Datei `system/settings/system.ini` und ändere `ContactLinkRestriction: 1`. Das blockiert viele unerwünschte Nachrichten. Du kannst ausserdem Stichwörter im Spamfilter einstellen, netterweise schicken viele Spammer die selbe Nachricht mehrfach.
 
-Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann keine E-Mail festlegen, alle Kontaktnachrichten gehen an den Webmaster.
+Falls du nicht willst dass Nachrichten an unterschiedliche Person geschickt werden, beschränke E-Mails. Öffne die Datei `system/settings/system.ini` und ändere `ContactEmailRestriction: 1`. Benutzer dürfen dann keine E-Mail festlegen, alle Kontaktnachrichten gehen an den Webmaster.
 
 ## Einstellungen
 
@@ -29,6 +29,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
 `ContactLocation` = Ort der Kontaktseite  
+`ContactEmailRestriction` = E-Mail-Beschränkung aktivieren, 1 oder 0  
 `ContactLinkRestriction` = Linkbeschränkung aktivieren, 1 oder 0  
 `ContactSpamFilter` = Spamfilter als regulärer Ausdruck, `none` um zu deaktivieren  
 

@@ -13,6 +13,7 @@ ContactEmail: Email:
 ContactMessage: Meddelande:
 ContactConsent: Jag godkänner att denna webbplats lagrar mitt meddelande.
 ContactButton: Skicka meddelande
+ContactSpam: [Spam]
 ContactStatusNone: Säg hej. Din feedback är väldigt välkommen.
 ContactStatusIncomplete: Vänligen fyll i alla fält.
 ContactStatusInvalid: Vänligen ange en giltig emailadress.

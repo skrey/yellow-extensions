@@ -13,6 +13,7 @@ ContactEmail: Email:
 ContactMessage: Besked:
 ContactConsent: Jeg accepterer, at denne hjemmeside gemmer min besked.
 ContactButton: Send besked
+ContactSpam: [Spam]
 ContactStatusNone: Sig hej. Vi er glad for dine kommentarer.
 ContactStatusIncomplete: Udfyld venligst alle felter.
 ContactStatusInvalid: Indtast en gyldig email.

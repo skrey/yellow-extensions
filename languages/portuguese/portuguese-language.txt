@@ -13,6 +13,7 @@ ContactEmail: Email:
 ContactMessage: Mensagem:
 ContactConsent: Eu consinto que este site armazene minha mensagem.
 ContactButton: Enviar mensagem
+ContactSpam: [Spam]
 ContactStatusNone: Diga olá. O seu feedback é bastante apreciado.
 ContactStatusIncomplete: Por favor, preencha todos os campos.
 ContactStatusInvalid: Por favor insira um email válido.

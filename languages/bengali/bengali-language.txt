@@ -13,6 +13,7 @@ ContactEmail: ইমেইল:
 ContactMessage: বার্তা:
 ContactConsent: আমি সম্মত যে এই ওয়েবসাইটটি আমার বার্তাটি সংরক্ষণ করে।
 ContactButton: বার্তা পাঠান
+ContactSpam: [Spam]
 ContactStatusNone: স্বাগতম! আপনার মতামত খুবই গুরুত্বপূর্ণ। 
 ContactStatusIncomplete: অনুগ্রহ করে সকল ঘর পূরণ করুন। 
 ContactStatusInvalid: অনুগ্রহ করে একটি বিদ্যমান ইমেইল দিন। 

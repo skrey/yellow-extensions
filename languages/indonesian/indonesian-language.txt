@@ -13,6 +13,7 @@ ContactEmail: Surel:
 ContactMessage: Pesan:
 ContactConsent: Saya setuju bahwa situs web ini menyimpan pesan saya.
 ContactButton: Kirim pesan
+ContactSpam: [Spam]
 ContactStatusNone: Ucapkan halo. Umpan balik anda sangat diharapkan.
 ContactStatusIncomplete: Silahkan mengisi semua bidang.
 ContactStatusInvalid: Masukkan email yang valid.

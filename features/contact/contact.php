@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -12,8 +12,9 @@ class YellowContact {
     public function onLoad($yellow) {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("contactLocation", "/contact/");
+        $this->yellow->system->setDefault("contactEmailRestriction", "0");
         $this->yellow->system->setDefault("contactLinkRestriction", "0");
-        $this->yellow->system->setDefault("contactSpamFilter", "advert|promot|click here");
+        $this->yellow->system->setDefault("contactSpamFilter", "advert|promot|market|click here");
     }
     
     // Handle page content of shortcut
@@ -48,7 +49,7 @@ class YellowContact {
             }
             if ($_REQUEST["status"]=="send") {
                 $status = $this->sendMail();
-                if ($status=="settings") $this->yellow->page->error(500, "Webmaster settings not valid!");
+                if ($status=="settings") $this->yellow->page->error(500, "Contact page settings not valid!");
                 if ($status=="error") $this->yellow->page->error(500, $this->yellow->text->get("contactStatusError"));
                 $this->yellow->page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
                 $this->yellow->page->setHeader("Cache-Control", "no-cache, must-revalidate");
@@ -67,32 +68,46 @@ class YellowContact {
         $message = trim($_REQUEST["message"]);
         $consent = trim($_REQUEST["consent"]);
         $referer = trim($_REQUEST["referer"]);
-        $linkFilter = $this->yellow->system->get("contactLinkRestriction") ? "((http|https|ftp):\/\/\S+[^\'\"\,\.\;\:\*\~\s]+)" : "none";
+        $linkRestriction = $this->yellow->system->get("contactLinkRestriction");
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
+        $sitename = $this->yellow->system->get("sitename");
         $author = $this->yellow->system->get("author");
         $email = $this->yellow->system->get("email");
-        if ($this->yellow->page->isExisting("author") && !$this->yellow->page->safeMode) {
+        if ($this->yellow->page->isExisting("author") && !$this->yellow->system->get("contactEmailRestriction")) {
             $author = $this->yellow->page->get("author");
         }
-        if ($this->yellow->page->isExisting("email") && !$this->yellow->page->safeMode) {
+        if ($this->yellow->page->isExisting("email") && !$this->yellow->system->get("contactEmailRestriction")) {
             $email = $this->yellow->page->get("email");
         }
         if (empty($name) || empty($from) || empty($message) || empty($consent)) $status = "incomplete";
         if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) $status = "settings";
         if (!empty($from) && !filter_var($from, FILTER_VALIDATE_EMAIL)) $status = "invalid";
-        if (!empty($message) && $spamFilter!="none" && preg_match("/$spamFilter/i", $message)) $status = "error";
-        if (!empty($message) && $linkFilter!="none" && preg_match("/$linkFilter/i", $message)) $status = "review";
+        if (!empty($message) && $linkRestriction && $this->detectLinks($message)) $status = "review";
         if ($status=="send") {
             $mailTo = mb_encode_mimeheader("$author")." <$email>";
             $mailSubject = mb_encode_mimeheader($this->yellow->page->get("title"));
             $mailHeaders = mb_encode_mimeheader("From: $name")." <$from>\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Referer-Url: ".$referer)."\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Request-Url: ".$this->yellow->page->getUrl())."\r\n";
+            if ($spamFilter!="none" && preg_match("/$spamFilter/i", $message)) {
+                $mailSubject = mb_encode_mimeheader($this->yellow->text->get("contactSpam")." ".$this->yellow->page->get("title"));
+                $mailHeaders .= "X-Spam-Flag: YES\r\n";
+                $mailHeaders .= "X-Spam-Status: Yes, score=1\r\n";
+            }
             $mailHeaders .= "Mime-Version: 1.0\r\n";
             $mailHeaders .= "Content-Type: text/plain; charset=utf-8\r\n";
-            $mailMessage = "$message\r\n-- \r\n$name";
+            $mailMessage = "$message\r\n-- \r\n$sitename";
             $status = mail($mailTo, $mailSubject, $mailMessage, $mailHeaders) ? "done" : "error";
         }
         return $status;
+    }
+    
+    // Detect clickable links
+    public function detectLinks($message) {
+        $found = false;
+        foreach (preg_split("/\s+/", $message) as $token) {
+            if (preg_match("/([\w\-\.]{2,}\.[\w]{2,})/", $token, $matches)) $found = true;
+        }
+        return $found;
     }
 }

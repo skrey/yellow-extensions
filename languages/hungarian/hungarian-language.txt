@@ -13,6 +13,7 @@ ContactEmail: E-mail:
 ContactMessage: Üzenet:
 ContactConsent: Hozzájárulok, hogy ez a weboldal tárolja az üzenetet.
 ContactButton: Üzenet küldése
+ContactSpam: [Spam]
 ContactStatusNone: Szólj hozzánk. Fontos a véleményed.
 ContactStatusIncomplete: Kérlek töltsd ki a mezőket.
 ContactStatusInvalid: Kérlek érvényes e-mail címet adj meg.

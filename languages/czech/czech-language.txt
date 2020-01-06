@@ -13,6 +13,7 @@ ContactEmail: Email:
 ContactMessage: Zpráva:
 ContactConsent: Souhlasím s tím, aby tato webová stránka uchovala mou zprávu.
 ContactButton: Odeslat zprávu
+ContactSpam: [Spam]
 ContactStatusNone: Zde můžete napsat svoje postřehy.
 ContactStatusIncomplete: Prosím, vyplňte všechna pole.
 ContactStatusInvalid: Zadejte platný email.

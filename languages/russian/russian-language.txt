@@ -13,6 +13,7 @@ ContactEmail: Email:
 ContactMessage: Сообщение:
 ContactConsent: Я согласен, что этот сайт сохранит мое сообщение.
 ContactButton: Отправить сообщение
+ContactSpam: [Спам]
 ContactStatusNone: Скажи привет. Ваши отзывы приветствуются.
 ContactStatusIncomplete: Пожалуйста, заполните все поля.
 ContactStatusInvalid: Пожалуйста, укажите правильный Email.

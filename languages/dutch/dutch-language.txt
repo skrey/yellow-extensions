@@ -13,6 +13,7 @@ ContactEmail: Email:
 ContactMessage: Bericht:
 ContactConsent: Ik ga ermee akkoord dat deze website mijn bericht opslaat.
 ContactButton: Verstuur bericht
+ContactSpam: [Spam]
 ContactStatusNone: Zeg hallo. Uw feedback is zeer welkom.
 ContactStatusIncomplete: Vul alle velden in.
 ContactStatusInvalid: Vul een geldig email.
