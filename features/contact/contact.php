@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.5";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -14,7 +14,7 @@ class YellowContact {
         $this->yellow->system->setDefault("contactLocation", "/contact/");
         $this->yellow->system->setDefault("contactEmailRestriction", "0");
         $this->yellow->system->setDefault("contactLinkRestriction", "0");
-        $this->yellow->system->setDefault("contactSpamFilter", "advert|promot|market|click here");
+        $this->yellow->system->setDefault("contactSpamFilter", "advert|promot|market|traffic|click here");
     }
     
     // Handle page content of shortcut
@@ -68,7 +68,6 @@ class YellowContact {
         $message = trim($_REQUEST["message"]);
         $consent = trim($_REQUEST["consent"]);
         $referer = trim($_REQUEST["referer"]);
-        $linkRestriction = $this->yellow->system->get("contactLinkRestriction");
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
         $sitename = $this->yellow->system->get("sitename");
         $author = $this->yellow->system->get("author");
@@ -79,10 +78,10 @@ class YellowContact {
         if ($this->yellow->page->isExisting("email") && !$this->yellow->system->get("contactEmailRestriction")) {
             $email = $this->yellow->page->get("email");
         }
+        if ($this->yellow->system->get("contactLinkRestriction") && $this->detectLinks($message)) $status = "review";
         if (empty($name) || empty($from) || empty($message) || empty($consent)) $status = "incomplete";
         if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) $status = "settings";
         if (!empty($from) && !filter_var($from, FILTER_VALIDATE_EMAIL)) $status = "invalid";
-        if (!empty($message) && $linkRestriction && $this->detectLinks($message)) $status = "review";
         if ($status=="send") {
             $mailTo = mb_encode_mimeheader("$author")." <$email>";
             $mailSubject = mb_encode_mimeheader($this->yellow->page->get("title"));
