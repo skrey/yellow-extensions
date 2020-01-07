@@ -1,6 +1,6 @@
 Swedish 0.8.15
 ==============
-Swedish/Svenska with language 'sv'.
+Swedish/Svenska med språket 'sv'.
 
 <p align="center"><img src="swedish-screenshot.png?raw=true" alt="Screenshot"></p>
 

@@ -1,6 +1,6 @@
 French 0.8.15
 =============
-French/Français with language 'fr'.
+French/Français avec la langue 'fr'.
 
 <p align="center"><img src="french-screenshot.png?raw=true" alt="Screenshot"></p>
 

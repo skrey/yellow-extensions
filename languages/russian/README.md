@@ -1,6 +1,6 @@
 Russian 0.8.15
 ==============
-Russian/Русский with language 'ru'.
+Russian/Русский с языком 'ru'.
 
 <p align="center"><img src="russian-screenshot.png?raw=true" alt="Screenshot"></p>
 

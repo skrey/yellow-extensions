@@ -1,6 +1,6 @@
 German 0.8.15
 =============
-German/Deutsch with language 'de'.
+German/Deutsch mit der Sprache 'de'.
 
 <p align="center"><img src="german-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -14,4 +14,4 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Übersetzer
 
-David Fehrmann. [Support finden](https://extensions.datenstrom.se/help/).
+David Fehrmann. [Support finden](https://extensions.datenstrom.se/de/help/).

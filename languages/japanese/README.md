@@ -1,6 +1,6 @@
 Japanese 0.8.15
 ===============
-Japanese/日本語 with language 'ja'.
+'ja' という言語の日本語/Japanese.
 
 <p align="center"><img src="japanese-screenshot.png?raw=true" alt="Screenshot"></p>
 

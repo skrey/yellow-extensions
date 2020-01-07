@@ -1,6 +1,6 @@
 Danish 0.8.15
 =============
-Danish/Dansk with language 'da'.
+Danish/Dansk med sproget 'da'.
 
 <p align="center"><img src="danish-screenshot.png?raw=true" alt="Screenshot"></p>
 

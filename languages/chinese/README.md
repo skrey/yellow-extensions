@@ -1,6 +1,6 @@
 Chinese 0.8.15
 ==============
-Chinese/简体中文 with language 'zh-CN'.
+Chinese/简体中文 与语言 'zh-CN'.
 
 <p align="center"><img src="chinese-screenshot.png?raw=true" alt="Screenshot"></p>
 
