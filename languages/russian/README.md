@@ -7,7 +7,7 @@ Russian/Русский with language 'ru'.
 ## Как установить расширение
 
 1. [Скачать и установить Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Скачать расширение](https://github.com/datenstrom/yellow-extensions/raw/master/zip/russian.zip). Если вы используете браузер Safari, выберете 'Скачать файл как'.
+2. [Скачать расширение](https://github.com/datenstrom/yellow-extensions/raw/master/zip/russian.zip). Если вы используете браузер Safari, выберете "Скачать файл как".
 3. Скопировать содержимое архива `russian.zip` в каталог `system/extensions`.
 
 Для деинсталляции удалите [файлы расширения](extension.ini).
