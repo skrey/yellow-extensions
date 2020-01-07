@@ -18,7 +18,7 @@ Create a `[googlemap]` shortcut.
 
 The following arguments are available, all but the first argument are optional:
 
-`Address` = text you enter on [Google maps](https://maps.google.com/), wrap multiple words into quotes  
+`Address` = text you enter on [Google Maps](https://maps.google.com/), wrap multiple words into quotes  
 `Zoom` = zoom value, the default zoom is 15  
 `Style` = map style, e.g. `left`, `center`, `right`  
 `Width` = map width, pixel or percent  
@@ -48,3 +48,8 @@ Embedding a map, GPS coordinates:
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

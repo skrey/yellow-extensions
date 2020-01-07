@@ -18,7 +18,7 @@ Create a `[googlecalendar]` shortcut.
 
 The following arguments are available, all but the first argument are optional:
 
-`Id` = [public Google calendar](https://calendar.google.com/), wrap multiple calendars into quotes  
+`Id` = public [Google calendar](https://calendar.google.com/), wrap multiple calendars into quotes  
 `Mode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
 `Date` = start date or number of events, YYYY-MM-DD format  
 `Style` = calendar style, e.g. `left`, `center`, `right`  
@@ -30,7 +30,7 @@ The following arguments are available, all but the first argument are optional:
 The following settings can be configured in file `system/settings/system.ini`:
 
 `GooglecalendarMode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
-`GooglecalendarEntriesMax` = number of events  
+`GooglecalendarEntriesMax` = number of entries  
 `GooglecalendarStyle` = calendar style, e.g. `flexible`  
 `GooglecalendarApiKey` = your Google API key  
 
@@ -57,3 +57,8 @@ Embedding a calendar, events and agenda:
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
+
+<p>
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+</p>

@@ -14,7 +14,7 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Informationen
 
-Diese Erweiterung benutzt [Open Sans](http://www.opensans.com) von Steve Matteson. Es ist unter [Apache-License](https://opensource.org/licenses/Apache-2.0) lizenziert.
+Diese Erweiterung benutzt [Open Sans](http://www.opensans.com) von Steve Matteson. Es ist unter [Apache-Lizenz](https://opensource.org/licenses/Apache-2.0) lizenziert.
 
 ## Designer
 
