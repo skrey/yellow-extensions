@@ -4,14 +4,14 @@ Chinese/简体中文 with language 'zh-CN'.
 
 <p align="center"><img src="chinese-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## 如何安装此扩展
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/chinese.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `chinese.zip` into your `system/extensions` folder.
+1. [下载并安装 Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [下载扩展名](https://github.com/datenstrom/yellow-extensions/raw/master/zip/chinese.zip). 如果您使用的是Safari, 请右键单击并选择 文件下载为.
+3. 将 `chinese.zip` 复制到 `system/extensions` 文件夹中.
 
-To uninstall delete the [extension files](extension.ini).
+要卸载请删除[扩展名文件](extension.ini).
 
-## Translator
+## 翻译器
 
-Hyson Lee. [Get support](https://extensions.datenstrom.se/help/).
+Hyson Lee. [得到支持](https://extensions.datenstrom.se/help/).

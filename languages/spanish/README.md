@@ -4,14 +4,14 @@ Spanish/Español with language 'es'.
 
 <p align="center"><img src="spanish-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Cómo instalar esta extensión
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/spanish.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `spanish.zip` into your `system/extensions` folder.
+1. [Descargue e instale Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Descargar la extensión](https://github.com/datenstrom/yellow-extensions/raw/master/zip/spanish.zip). Si está utilizando Safari, haga clic derecho y seleccione "Descargar archivo como".
+3. Copie `spanish.zip` en su carpeta `system/extensions`.
 
-To uninstall delete the [extension files](extension.ini).
+Para desinstalar, elimine los [archivos de extensión](extension.ini).
 
-## Translator
+## Traductor
 
-Al Garcia, David Garcia. [Get support](https://extensions.datenstrom.se/help/).
+Al Garcia, David Garcia. [Obtener apoyo](https://extensions.datenstrom.se/help/).

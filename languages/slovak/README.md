@@ -4,14 +4,14 @@ Slovak/Slovenčina with language 'sk'.
 
 <p align="center"><img src="slovak-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Ako nainštalovať toto rozšírenie
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/slovak.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `slovak.zip` into your `system/extensions` folder.
+1. [Stiahnite a nainštalujte produkt Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Rozšírenie sťahovania](https://github.com/datenstrom/yellow-extensions/raw/master/zip/slovak.zip). Ak používate Safari, kliknite pravým tlačidlom myši a vyberte možnosť „Stiahnuť súbor ako“.
+3. Skopírujte súbor `slovak.zip` do priečinka `system/extensions`.
 
-To uninstall delete the [extension files](extension.ini).
+Ak chcete odinštalovať, odstráňte [prípony súborov](extension.ini).
 
-## Translator
+## Prekladateľ
 
-Ádám Tuba. [Get support](https://extensions.datenstrom.se/help/).
+Ádám Tuba. [Získať podporu](https://extensions.datenstrom.se/help/).

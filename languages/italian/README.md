@@ -4,14 +4,14 @@ Italian/Italiano with language 'it'.
 
 <p align="center"><img src="italian-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Come installare questa estensione
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/italian.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `italian.zip` into your `system/extensions` folder.
+1. [Scarica e installa Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Scarica estensione](https://github.com/datenstrom/yellow-extensions/raw/master/zip/italian.zip). Se si utilizza Safari, fare clic con il tasto destro del mouse e selezionare "Scarica file come".
+3. Copia `italian.zip` nella cartella `system/extensions`.
 
-To uninstall delete the [extension files](extension.ini).
+Per disinstallare, eliminare i [file di estensione](extension.ini).
 
-## Translator
+## Traduttore
 
-Giovanni Salmeri. [Get support](https://extensions.datenstrom.se/help/).
+Giovanni Salmeri. [Ottieni supporto](https://extensions.datenstrom.se/help/).

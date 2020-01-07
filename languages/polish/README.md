@@ -4,14 +4,14 @@ Polish/Polski with language 'pl'.
 
 <p align="center"><img src="polish-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Jak zainstalować to rozszerzenie
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/polish.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `polish.zip` into your `system/extensions` folder.
+1. [Pobierz i zainstaluj Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Pobierz rozszerzenie](https://github.com/datenstrom/yellow-extensions/raw/master/zip/polish.zip). Jeśli korzystasz z Safari, kliknij prawym przyciskiem myszy i wybierz „Pobierz plik jako”.
+3. Skopiuj plik `polish.zip` do folderu `system/extensions`.
 
-To uninstall delete the [extension files](extension.ini).
+Aby odinstalować, usuń [pliki rozszerzeń](extension.ini).
 
-## Translator
+## Tłumacz
 
-Paweł Klockiewicz. [Get support](https://extensions.datenstrom.se/help/).
+Paweł Klockiewicz. [Uzyskać wsparcie](https://extensions.datenstrom.se/help/).

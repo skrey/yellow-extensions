@@ -4,14 +4,14 @@ Bengali/বাঙালি with language 'bn'.
 
 <p align="center"><img src="bengali-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## এই এক্সটেনশনটি কীভাবে ইনস্টল করবেন
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bengali.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `bengali.zip` into your `system/extensions` folder.
+1. [ডাউনলোড করুন এবং ইনস্টল করুন Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [এক্সটেনশান ডাউনলোড করুন](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bengali.zip). আপনি যদি সাফারি ব্যবহার করছেন, 'হিসাবে ফাইল ডাউনলোড করুন' নির্বাচন করুন.
+3. আপনার `system/extensions` ফোল্ডারে `bengali.zip` অনুলিপি করুন.
 
-To uninstall delete the [extension files](extension.ini).
+[এক্সটেনশন ফাইলগুলি](extension.ini) মুছুন আনইনস্টল করতে.
 
-## Translator
+## অনুবাদক
 
-Mohammed Nazmul Ferdous. [Get support](https://extensions.datenstrom.se/help/).
+Mohammed Nazmul Ferdous. [সমর্থন পেতে](https://extensions.datenstrom.se/help/).

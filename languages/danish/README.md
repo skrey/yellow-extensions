@@ -4,14 +4,14 @@ Danish/Dansk with language 'da'.
 
 <p align="center"><img src="danish-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Sådan installeres denne udvidelse
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/danish.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `danish.zip` into your `system/extensions` folder.
+1. [Download og installer Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Download udvidelse](https://github.com/datenstrom/yellow-extensions/raw/master/zip/danish.zip). Hvis du bruger Safari, skal du højreklikke og vælge "Download fil som".
+3. Kopier `danish.zip` i din mappe `system/extensions`.
 
-To uninstall delete the [extension files](extension.ini).
+For at afinstallere slet [filtypenavne](extension.ini).
 
-## Translator
+## Oversætter
 
-David Garcia. [Get support](https://extensions.datenstrom.se/help/).
+David Garcia. [Få hjælp](https://extensions.datenstrom.se/help/).

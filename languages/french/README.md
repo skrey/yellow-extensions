@@ -4,14 +4,14 @@ French/Français with language 'fr'.
 
 <p align="center"><img src="french-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Comment installer cette extension
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/french.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `french.zip` into your `system/extensions` folder.
+1. [Téléchargez et installez Datenstrom Yellow] (https://github.com/datenstrom/yellow/).
+2. [Télécharger l'extension] (https://github.com/datenstrom/yellow-extensions/raw/master/zip/french.zip). Si vous utilisez Safari, faites un clic droit et sélectionnez "Télécharger le fichier sous".
+3. Copiez `french.zip` dans votre dossier `system/extensions`.
 
-To uninstall delete the [extension files](extension.ini).
+Pour désinstaller, supprimez les [fichiers d'extension](extension.ini).
 
-## Translator
+## Traducteur
 
-Juh Nibreh. [Get support](https://extensions.datenstrom.se/help/).
+Juh Nibreh. [Obtenir de l'aide](https://extensions.datenstrom.se/help/).

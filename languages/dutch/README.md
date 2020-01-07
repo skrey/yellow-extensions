@@ -4,14 +4,14 @@ Dutch/Nederlands (België) with language 'nl'.
 
 <p align="center"><img src="dutch-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Hoe deze extensie te installeren
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/dutch.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `dutch.zip` into your `system/extensions` folder.
+1. [Download en installeer Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Download extensie](https://github.com/datenstrom/yellow-extensions/raw/master/zip/dutch.zip). Als u Safari gebruikt, klikt u met de rechtermuisknop en selecteert u "Bestand downloaden als".
+3. Kopieer `dutch.zip` naar uw map `system/extensions`.
 
-To uninstall delete the [extension files](extension.ini).
+Om de installatie ongedaan te maken, verwijdert u de [extensiebestanden](extension.ini).
 
-## Translator
+## Vertaler
 
-Robin Vannieuwenhuijse. [Get support](https://extensions.datenstrom.se/help/).
+Robin Vannieuwenhuijse. [Krijg ondersteuning](https://extensions.datenstrom.se/help/).

@@ -4,14 +4,14 @@ Indonesian/Bahasa Indonesia with language 'id'.
 
 <p align="center"><img src="indonesian-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Cara memasang ekstensi ini
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/indonesian.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `indonesian.zip` into your `system/extensions` folder.
+1. [Unduh dan pasang Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Unduh ekstensi](https://github.com/datenstrom/yellow-extensions/raw/master/zip/indonesian.zip). Jika menggunakan Safari, klik kanan dan pilih "Unduh file sebagai".
+3. Salin `indonesian.zip` ke folder `system/extensions`.
 
-To uninstall delete the [extension files](extension.ini).
+Untuk menghapus hapus [file ekstensi](extension.ini).
 
-## Translator
+## Penerjemah
 
-Jimmy Ofisia. [Get support](https://extensions.datenstrom.se/help/).
+Jimmy Ofisia. [Dapatkan dukungan](https://extensions.datenstrom.se/help/).

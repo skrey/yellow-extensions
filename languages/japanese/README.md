@@ -4,14 +4,14 @@ Japanese/日本語 with language 'ja'.
 
 <p align="center"><img src="japanese-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## この拡張機能のインストール方法
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/japanese.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `japanese.zip` into your `system/extensions` folder.
+1. [Datenstrom Yellowをダウンロードしてインストールします](https://github.com/datenstrom/yellow/).
+2. [拡張機能をダウンロード](https://github.com/datenstrom/yellow-extensions/raw/master/zip/japanese.zip). Safariを使用している場合は右クリックして[ファイルのダウンロード]を選択します.
+3. `japanese.zip` を `system/extensions` フォルダーにコピーします.
 
-To uninstall delete the [extension files](extension.ini).
+アンインストールするには [拡張ファイル](extension.ini) を削除します.
 
-## Translator
+## 翻訳者
 
-Yuhko Senuma. [Get support](https://extensions.datenstrom.se/help/).
+Yuhko Senuma. [支持を得ます](https://extensions.datenstrom.se/help/).

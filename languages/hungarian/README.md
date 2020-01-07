@@ -4,14 +4,14 @@ Hungarian/Magyar with language 'hu'.
 
 <p align="center"><img src="hungarian-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Hogyan telepítsük ezt a kiterjesztést
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/hungarian.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `hungarian.zip` into your `system/extensions` folder.
+1. [Töltse le és telepítse a Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Letöltési kiterjesztés](https://github.com/datenstrom/yellow-extensions/raw/master/zip/hungarian.zip). Ha Safari-t használ, kattintson a jobb gombbal, és válassza a "Fájl letöltése mint" lehetőséget.
+3. Másolja a `hungarian.zip` fájlt a `system/extensions` mappába.
 
-To uninstall delete the [extension files](extension.ini).
+Az eltávolítás eltávolításához törölje a [kiterjesztés fájljait](extension.ini) fájlt.
 
-## Translator
+## Fordító
 
-Ádám Tuba. [Get support](https://extensions.datenstrom.se/help/).
+Ádám Tuba. [Támogatást kapni](https://extensions.datenstrom.se/help/).

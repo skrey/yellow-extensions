@@ -4,14 +4,14 @@ Portuguese/Português with language 'pt'.
 
 <p align="center"><img src="portuguese-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install extension
+## Como instalar esta extensão
 
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/portuguese.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `portuguese.zip` into your `system/extensions` folder.
+1. [Baixe e instale o Datenstrom Yellow](https://github.com/datenstrom/yellow/).
+2. [Baixar extensão](https://github.com/datenstrom/yellow-extensions/raw/master/zip/portuguese.zip). Se você estiver usando o Safari, clique com o botão direito do mouse e selecione "Baixar arquivo como".
+3. Copie `portuguese.zip` para a pasta `system/extensions`.
 
-To uninstall delete the [extension files](extension.ini).
+Para desinstalar, exclua os [arquivos de extensão](extension.ini).
 
-## Translator
+## Tradutor
 
-Al Garcia. [Get support](https://extensions.datenstrom.se/help/).
+Al Garcia. [Obtenha suporte](https://extensions.datenstrom.se/help/).
