@@ -20,7 +20,7 @@ Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. M
 
 Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu erstellen. Gehe zur Anmeldeseite. Du kannst ein Benutzerkonto erstellen und dein Kennwort ändern. Der Webmaster muss neue Benutzerkonten genehmigen. Die E-Mail des Webmasters wird in der Datei `system/settings/system.ini` festgelegt.
 
-Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/settings/user.ini` gespeichert.
+Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/settings/user.ini` gespeichert.
 
 ## Wie man ein Benutzerkonto beschränkt
 
@@ -28,7 +28,7 @@ Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/settings/system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
 
-Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown) benutzen, aber kein HTML und JavaScript verwenden.
+Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
 
 ## Einstellungen
 
@@ -70,8 +70,8 @@ Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 `edit` = Benutzer kann Seite bearbeiten  
 `delete` = Benutzer kann Seite löschen  
 `upload` = Benutzer kann Mediendateien hochladen  
-`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings)  
-`update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen)  
+`update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 
 Die folgenden Benutzer-Statuswerte werden unterstützt:
 

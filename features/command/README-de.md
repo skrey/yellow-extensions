@@ -18,7 +18,7 @@ Du kannst Befehle im Installations-Verzeichnis ausführen. Öffne ein Terminalfe
 
 ## Wie man eine statische Webseite erstellt
 
-Erstelle eine statische Webseite in der Befehlszeile. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort hinzufügen. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf dein Webserver hoch und erstelle bei Bedarf eine neue. Die [Systemeinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) einer statischen Webseite kannst du in der Datei `system/settings/system.ini` festlegen.
+Erstelle eine statische Webseite in der Befehlszeile. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort hinzufügen. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf dein Webserver hoch und erstelle bei Bedarf eine neue. Die [Systemeinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) einer statischen Webseite kannst du in der Datei `system/settings/system.ini` festlegen.
 
 Du kannst eine statische Webseite auch mit dem eingebauten Webserver testen. Das ist vor allem für Entwickler praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`. Daraufhin ist die Webseite vorhanden als `http://localhost:8000/`.
 
@@ -34,13 +34,13 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php build` = Statische Webseite erstellen  
 `php yellow.php check` = Statische Webseite überprüfen  
 `php yellow.php clean` = Statische Webseite löschen  
-`php yellow.php install` = Erweiterungen hinzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php release` = Erweiterungen veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
+`php yellow.php install` = Erweiterungen hinzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php release` = Erweiterungen veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
 `php yellow.php serve` = Eingebauten Webserver starten  
-`php yellow.php traffic` = Zugriffsanalysen erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
-`php yellow.php uninstall` = Erweiterungen entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php update` = Webseite aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php user` = Benutzerkonten aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`php yellow.php traffic` = Zugriffsanalysen erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
+`php yellow.php uninstall` = Erweiterungen entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php update` = Webseite aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php user` = Benutzerkonten aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
 
 Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg.
 

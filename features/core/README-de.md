@@ -14,11 +14,11 @@ Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer 
 
 ## Wie man eine sichere Webseite macht
 
-[Halte deine Webseite auf dem neuesten Stand](https://github.com/datenstrom/yellow-extensions/tree/master/features/update). Am Besten ist es wenn deine Webseite regelmäßig aktualisiert wird und die neuste Version verwendet. Überprüfe ausserdem ob deine Webseite [Datenverschlüsselung](https://www.ssllabs.com/ssltest/) unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
+[Halte deine Webseite auf dem neuesten Stand](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md). Am Besten ist es wenn deine Webseite regelmäßig aktualisiert wird und die neuste Version verwendet. Überprüfe ausserdem ob deine Webseite [Datenverschlüsselung](https://www.ssllabs.com/ssltest/) unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
 
-Falls du nicht willst dass Seiten verändert werden, [beschränke Benutzerkonten](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). Du kannst festlegen was Benutzer machen dürfen, welche Seiten verändert und welche Dateien hochgeladen werden dürfen. Die Dateiformate GIF, JPG, PDF, PNG, SVG und ZIP werden in den Standardeinstellungen unterstützt.
+Falls du nicht willst dass Seiten verändert werden, [beschränke Benutzerkonten](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md). Du kannst festlegen was Benutzer machen dürfen, welche Seiten verändert und welche Dateien hochgeladen werden dürfen. Die Dateiformate GIF, JPG, PDF, PNG, SVG und ZIP werden in den Standardeinstellungen unterstützt.
 
-Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown) benutzen, aber kein HTML und JavaScript verwenden.
+Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
 
 ## Wie man eine mehrsprachige Webseite macht
 
@@ -32,7 +32,7 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#e
 
 ## Wie man eine Seite weiterleitet
 
-Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite leitet dann zu einer anderen Seite oder URL weiter. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) und im Dateisystem bearbeiten.
+Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite leitet dann zu einer anderen Seite oder URL weiter. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
 
 ## Einstellungen
 
@@ -78,7 +78,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `Footer` = Standard-Fußzeile  
 `Sidebar` = Standard-Sidebar  
 
-`CoreStaticUrl` = URL der [statischen Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
+`CoreStaticUrl` = URL der [statischen Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md)  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
 `CoreStaticDir` = Verzeichnis für erzeugte Dateien  
@@ -92,8 +92,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 Die folgenden Seiten-Statuswerte werden unterstützt:
 
 `public` = Seite ist eine normale Seite  
-`private` = Seite ist nicht sichtbar, einloggen oder Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
-`draft` = Seite ist nicht sichtbar, Benutzer muss sich einloggen, erfordert [Draft-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
+`private` = Seite ist nicht sichtbar, einloggen oder Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private/README-de.md)  
+`draft` = Seite ist nicht sichtbar, Benutzer muss sich einloggen, erfordert [Draft-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft/README-de.md)  
 `unlisted` = Seite ist nicht sichtbar, aber kann mit dem richtigen Link abgerufen werden  
 `shared` = Seite ist nicht vorhanden, aber kann in andere Seiten eingebunden werden  
 `ignore` = Seite wird ignoriert, wenn eine statische Webseite erstellt wird  

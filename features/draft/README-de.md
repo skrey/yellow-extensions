@@ -14,11 +14,11 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man eine Entwurfsseite macht
 
-Ganz oben auf einer Seite kannst du `Status: draft` in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) festlegen. Die Seite ist dann nicht mehr sichtbar. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) und im Dateisystem bearbeiten.
+Ganz oben auf einer Seite kannst du `Status: draft` in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) festlegen. Die Seite ist dann nicht mehr sichtbar. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
 
 ## Wie man Entwurfsseiten wiederfindet
 
-Alle Entwurfsseiten sind auf deiner Webseite vorhanden als `http://website/edit/drafts/`. Du kannst auch die [Search-Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/search) benutzen. Sobald du mit deinem Benutzerkonto angemeldet bist, kannst du nach `Status: draft` suchen. Auf diese Weise kannst du alle Entwurfsseiten wiederfinden.
+Alle Entwurfsseiten sind auf deiner Webseite vorhanden als `http://website/edit/drafts/`. Du kannst auch die [Search-Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/search/README-de.md) benutzen. Sobald du mit deinem Benutzerkonto angemeldet bist, kannst du nach `Status: draft` suchen. Auf diese Weise kannst du alle Entwurfsseiten wiederfinden.
 
 ## Einstellungen
 

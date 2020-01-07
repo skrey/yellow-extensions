@@ -14,11 +14,11 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man eine Erweiterung verpackt
 
-Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) überprüft, ob neue Erweiterungen im offiziellen Repository vorhanden sind, lädt sie herunter und aktualisiert notwendige Dateien. Deine Erweiterung kann Teil dieses Prozesses werden. Besorge dir ein GitHub-Konto und forke das Repository `datenstrom/yellow-extensions`. Schau dir die [Example-Erweiterung](https://github.com/schulle4u/yellow-extension-example) und [Basic-Erweiterung](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen im Detail wie man eine Erweiterung verpackt. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht.
+Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md) überprüft, ob neue Erweiterungen im offiziellen Repository vorhanden sind, lädt sie herunter und aktualisiert notwendige Dateien. Deine Erweiterung kann Teil dieses Prozesses werden. Besorge dir ein GitHub-Konto und forke das Repository `datenstrom/yellow-extensions`. Schau dir die [Example-Erweiterung](https://github.com/schulle4u/yellow-extension-example) und [Basic-Erweiterung](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen im Detail wie man eine Erweiterung verpackt. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht.
 
 ## Wie man eine Erweiterung veröffentlicht
 
-Erhöhe zuerst die Versionsnummer in deinem Code und erstelle dann ein Release in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php release`, du kannst wahlweise ein Verzeichnis hinzufügen. Dadurch werden alle Dateien aktualisiert. Lade deine Änderungen zu GitHub hoch und schicke einen Pull-Request.
+Erhöhe zuerst die Versionsnummer in deinem Code und erstelle dann ein Release in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php release`, du kannst wahlweise ein Verzeichnis hinzufügen. Dadurch werden alle Dateien aktualisiert. Lade deine Änderungen zu GitHub hoch und schicke einen Pull-Request.
 
 ## Einstellungen
 

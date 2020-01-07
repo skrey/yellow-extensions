@@ -26,7 +26,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien befinden sich im `media`-Verzeichnis. Das `media/images`-Verzeichnis ist zum Speichern von Bildern gedacht. Das `media/thumbnails`-Verzeichnis enthält Miniaturbilder. Man kann auch weitere Verzeichnisse hinzufügen und Dateien so organisieren wie man will.
 
-Diese Erweiterung benutzt die [GD-Grafikbibliothek](https://github.com/libgd/libgd) von Thomas Boutell. Es gibt auch eine [Gallery-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery) und [Slider-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider).
+Diese Erweiterung benutzt die [GD-Grafikbibliothek](https://github.com/libgd/libgd) von Thomas Boutell. Es gibt auch eine [Gallery-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery/README-de.md) und [Slider-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider/README-de.md).
 
 ## Einstellungen
 

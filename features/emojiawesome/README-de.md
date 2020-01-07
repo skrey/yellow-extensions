@@ -25,7 +25,7 @@ Diese Erweiterung verwendet [Twemoji v2.0.0](https://github.com/twitter/twemoji)
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
 `EmojiawesomeCdn` = URL der CDN mit Emoji-Bilder  
-`EmojiawesomeToolbarButtons` = Symbolleistenschaltflächen für die [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`EmojiawesomeToolbarButtons` = Symbolleistenschaltflächen für die [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
 
 ## Beispiele
 
