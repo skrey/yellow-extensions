@@ -14,7 +14,7 @@ Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer 
 
 ## Wie man eine sichere Webseite macht
 
-[Halte deine Webseite auf dem neuesten Stand](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md). Am Besten ist es wenn deine Webseite regelmäßig aktualisiert wird und die neuste Version verwendet. Überprüfe ausserdem ob deine Webseite [Datenverschlüsselung](https://www.ssllabs.com/ssltest/) unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
+[Halte deine Webseite auf dem neuesten Stand](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md). Am Besten ist es wenn deine Webseite regelmäßig aktualisiert wird. Überprüfe ausserdem ob deine Webseite [Datenverschlüsselung](https://www.ssllabs.com/ssltest/) unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
 
 Falls du nicht willst dass Seiten verändert werden, [beschränke Benutzerkonten](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md). Du kannst festlegen was Benutzer machen dürfen, welche Seiten verändert und welche Dateien hochgeladen werden dürfen. Die Dateiformate GIF, JPG, PDF, PNG, SVG und ZIP werden in den Standardeinstellungen unterstützt.
 
