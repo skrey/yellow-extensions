@@ -1,4 +1,4 @@
-Traffic 0.8.4
+Traffic 0.8.5
 =============
 Zugriffsanalysen aus Webserver-Logdateien erstellen.
 
@@ -24,7 +24,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `TrafficLinesMax` = Anzahl der Zeilen pro Kategorie  
 `TrafficLogDir` = Verzeichnis mit Logdateien  
 `TrafficLogFile` = Dateiname als regulärer Ausduck  
-`TrafficSpamFilter` = Spamfilter als regulärer Ausdruck  
+`TrafficSpamFilter` = Spamfilter als regulärer Ausdruck, `none` um zu deaktivieren  
 
 ## Beispiele
 

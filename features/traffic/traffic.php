@@ -1,10 +1,10 @@
 <?php
 // Traffic extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowTraffic {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.5";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $days;           //number of days
@@ -122,7 +122,7 @@ class YellowTraffic {
                                 if ($status==206 || ($status>=301 && $status<=303)) continue;
                                 if (!$this->checkRequestArguments($method, $location, $referer)) continue;
                                 if (!preg_match("#^$base$locationFilter#", $location)) continue;
-                                if (preg_match("#$spamFilter#i", $referer.$userAgent)) continue;
+                                if ($spamFilter!="none" && preg_match("#$spamFilter#i", $referer.$userAgent)) continue;
                                 if (preg_match("#^$base$locationDownload#", $location)) {
                                     ++$files[$this->getUrl($scheme, $address, $base, $location)];
                                 }
@@ -134,7 +134,7 @@ class YellowTraffic {
                                 ++$this->views;
                             } else {
                                 if (!preg_match("#^$base$locationFilter#", $location)) continue;
-                                if (preg_match("#$spamFilter#i", $referer.$userAgent) && $status==404) continue;
+                                if ($spamFilter!="none" && preg_match("#$spamFilter#i", $referer.$userAgent) && $status==404) continue;
                                 ++$errors[$this->getUrl($scheme, $address, $base, $location)." - ".$this->getStatusFormatted($status)];
                             }
                         }
