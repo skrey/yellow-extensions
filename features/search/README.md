@@ -42,6 +42,12 @@ Searching a website, different filters:
     coffee language:en
     coffee tag:example
 
+Adding a search field:
+
+    [search]
+    [search /search/]
+    [search /de/search/]
+
 Content file with search field:
 
     ---

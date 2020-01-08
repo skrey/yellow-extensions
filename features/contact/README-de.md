@@ -42,7 +42,7 @@ Die folgenden Dateien können angepasst werden:
 Kontaktformular hinzufügen:
 
     [contact]
-    [contact /en/contact/]
+    [contact /contact/]
     [contact /de/contact/]
 
 Inhaltsdatei mit Kontaktformular:

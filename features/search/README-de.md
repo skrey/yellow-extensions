@@ -40,6 +40,12 @@ Webseite durchsuchen, unterschiedliche Filter:
     kaffee language:de
     kaffee tag:beispiel
 
+Suchfeld hinzufügen:
+
+    [search]
+    [search /search/]
+    [search /de/search/]
+
 Inhaltsdatei mit Suchfeld:
 
     ---

@@ -42,7 +42,20 @@ Content file with link to feed:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    [See recent changes](/feed/).
+    [See recent changes](/feed/). [RSS feed](/feed/page:feed.xml).
+
+Content file with link to feed, by a specific author:
+
+    ---
+    Title: Example page
+    ---
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+    in culpa qui officia deserunt mollit anim id est laborum.
+
+    [Recent changes by Datenstrom](/feed/author:datenstrom/). [RSS-Feed](/feed/author:datenstrom/page:feed.xml).
 
 ## Developer
 
