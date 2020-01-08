@@ -18,7 +18,7 @@ You can run commands from within the installation folder. Open a terminal window
 
 ## How to build a static website
 
-Create a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The [system settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) of a static website are defined in file `system/settings/system.ini`.
+Create a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) of a static website are defined in file `system/settings/system.ini`.
 
 You can test a static website with the built-in web server. This is especially handy for developers, since everything runs on your own computer. Here's an example: `php yellow.php serve`, you can optionally add a folder and a URL. Now the website is available as `http://localhost:8000/`.
 

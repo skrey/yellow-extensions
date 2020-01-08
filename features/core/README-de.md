@@ -18,6 +18,8 @@ Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer 
 
 Falls du nicht willst dass Seiten verändert werden, [beschränke Benutzerkonten](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md). Du kannst festlegen was Benutzer machen dürfen, welche Seiten verändert und welche Dateien hochgeladen werden dürfen. Die Dateiformate GIF, JPG, PDF, PNG, SVG und ZIP werden in den Standardeinstellungen unterstützt.
 
+Falls du nicht so viele Spam-Nachrichten lesen willst, [beschränke die Kontakttseite](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact/README-de.md). Du kannst bestimmen wer Nachrichten empfangen kann und ob sie anklickbare Links enthalten dürfen. Es ist empfehlenswert Links zu beschränken, das blockiert viele unerwünschte Nachrichten.
+
 Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
 
 ## Wie man eine mehrsprachige Webseite macht
@@ -78,7 +80,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `Footer` = Standard-Fußzeile  
 `Sidebar` = Standard-Sidebar  
 
-`CoreStaticUrl` = URL der [statischen Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md)  
+`CoreStaticUrl` = URL der statischen Webseite  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
 `CoreStaticDir` = Verzeichnis für erzeugte Dateien  

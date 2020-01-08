@@ -70,7 +70,7 @@ Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 `edit` = Benutzer kann Seite bearbeiten  
 `delete` = Benutzer kann Seite löschen  
 `upload` = Benutzer kann Mediendateien hochladen  
-`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen)  
+`system` = Benutzer kann [Einstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) in der `system.ini`  
 `update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 
 Die folgenden Benutzer-Statuswerte werden unterstützt:

@@ -18,9 +18,9 @@ Die Kontaktseite ist auf deiner Webseite vorhanden als `http://website/contact/`
 
 ## Wie man eine Kontaktseite beschränkt
 
-Falls du nicht willst dass Nachrichten an beliebige Person geschickt werden, beschränke E-Mails. Öffne die Datei `system/settings/system.ini` und ändere `ContactEmailRestriction: 1`. Benutzer dürfen dann keine E-Mail festlegen, alle Kontaktnachrichten gehen an den Webmaster.
+Falls du nicht willst dass Nachrichten an beliebige Person geschickt werden, beschränke E-Mails. Öffne die Datei `system/settings/system.ini` und ändere `ContactEmailRestriction: 1`. Benutzer dürfen dann keine E-Mail festlegen, alle Kontaktnachrichten gehen direkt an den Webmaster.
 
-Es ist empfehlenswert Links zu beschränken, dann werden keine Nachrichten mit anklickbaren Links verschickt. Öffne die Datei `system/settings/system.ini` und ändere `ContactLinkRestriction: 1`. Das blockiert viele unerwünschte Nachrichten. Du kannst ausserdem Stichwörter im Spamfilter einstellen, netterweise schicken viele Spammer die selbe Nachricht mehrfach.
+Falls du nicht willst dass Nachrichten mit Links verschickt werden, beschränke Links. Öffne die Datei `system/settings/system.ini` und ändere `ContactLinkRestriction: 1`. E-Mails an dich dürfen dann keine anklickbare Links enthalten, das blockiert viele unerwünschte Nachrichten. Du kannst ausserdem Stichwörter im Spamfilter einstellen, netterweise schicken viele Spammer die selbe Nachricht mehrfach.
 
 ## Einstellungen
 
