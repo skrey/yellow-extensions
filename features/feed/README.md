@@ -56,7 +56,7 @@ Content file with link to feed, by a specific author:
     in culpa qui officia deserunt mollit anim id est laborum.
 
     [See recent changes by Datenstrom](/feed/author:datenstrom/). 
-    [RSS-Feed](/feed/author:datenstrom/page:feed.xml).
+    [RSS feed](/feed/author:datenstrom/page:feed.xml).
 
 ## Developer
 

@@ -26,7 +26,7 @@ Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere de
 
 Die Installation kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Falls du die gesamte Webseite übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
-Um eine Sprachauswahl anzuzeigen, erstelle eine Seite auf der die vorhandenen Sprachen aufgelistet sind. So können Besucher die Sprache wechseln.
+Um eine Sprachauswahl anzuzeigen, erstelle eine Seite auf der die vorhandenen Sprachen aufgelistet werden. So können Besucher die Sprache wechseln.
 
 ## Wie man eine Seite versteckt
 
@@ -163,7 +163,7 @@ Inhaltsdatei mit Weiterleitung:
 
     ---
     Title: Seite mit Weiterleitung
-    Redirect: https://datenstrom.se/yellow/
+    Redirect: https://datenstrom.se/de/yellow/
     ---
     Diese Seite leitet zu einer anderen Seite weiter.
 
