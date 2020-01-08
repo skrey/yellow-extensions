@@ -13,7 +13,8 @@ ContactEmail: 氏名:
 ContactMessage: 送信内容:
 ContactConsent: このウェブサイトに私のメッセージが保存されていることに同意します。
 ContactButton: 送信
-ContactSpam: [Spam]
+ContactMailSpam: [Spam]
+ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: ご意見・ご指摘・ご提案・ご要望・ご質問・お問合せ・等お寄せ下さい。
 ContactStatusIncomplete: 全ての項目にご入力下さい。
 ContactStatusInvalid: 正しいメールアドレスをご入力下さい。
@@ -152,6 +153,7 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: ヘルプ
+EditMailFooter: @sitename
 EditDataGenerated: このページは自動的に生成されます。
 EditUploadProgress: [ファイルをアップロード中…]
 EditMenuSettings: 設定

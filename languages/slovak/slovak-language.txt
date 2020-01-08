@@ -13,7 +13,8 @@ ContactEmail: Email:
 ContactMessage: Správa:
 ContactConsent: Soglašam, da ta spletna stran shrani moje sporočilo.
 ContactButton: Poslať správu
-ContactSpam: [Spam]
+ContactMailSpam: [Spam]
+ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Napíš pár slov. Ceníme tvoj názor.
 ContactStatusIncomplete: Prosím vyplň všetky pole.
 ContactStatusInvalid: Prosím napíš platný email.
@@ -152,6 +153,7 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Pomoc
+EditMailFooter: @sitename
 EditDataGenerated: This page is generated automatically.
 EditUploadProgress: [Uploading file…]
 EditMenuSettings: Settings

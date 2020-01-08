@@ -13,11 +13,12 @@ ContactEmail: Email:
 ContactMessage: Сообщение:
 ContactConsent: Я согласен, что этот сайт сохранит мое сообщение.
 ContactButton: Отправить сообщение
-ContactSpam: [Спам]
+ContactMailSpam: [Спам]
+ContactMailFooter: Это письмо было отправлено через @sitename - @title
 ContactStatusNone: Скажи привет. Ваши отзывы приветствуются.
 ContactStatusIncomplete: Пожалуйста, заполните все поля.
 ContactStatusInvalid: Пожалуйста, укажите правильный Email.
-ContactStatusReview: Please remove links from the message.
+ContactStatusReview: Пожалуйста, удалите ссылки из сообщения.
 ContactStatusDone: Ваше письмо отправлено. Спасибо!
 ContactStatusError: Письмо не может быть отправлено, попробуйте еще раз позже!
 DatePast: сегодня, вчера, @x дней назад, 1 месяц назад, @x месяцев назад, 1 год назад, @x лет назад, на @x
@@ -152,6 +153,7 @@ EditToolbarRedo: Повторить
 EditToolbarPreview: Просмотр
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Помощь
+EditMailFooter: @sitename
 EditDataGenerated: Эта страница генерируется автоматически.
 EditUploadProgress: [Загрузка файла...]
 EditMenuSettings: Настройки

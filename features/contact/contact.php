@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -69,7 +69,6 @@ class YellowContact {
         $consent = trim($_REQUEST["consent"]);
         $referer = trim($_REQUEST["referer"]);
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
-        $sitename = $this->yellow->system->get("sitename");
         $author = $this->yellow->system->get("author");
         $email = $this->yellow->system->get("email");
         if ($this->yellow->page->isExisting("author") && !$this->yellow->system->get("contactEmailRestriction")) {
@@ -78,34 +77,54 @@ class YellowContact {
         if ($this->yellow->page->isExisting("email") && !$this->yellow->system->get("contactEmailRestriction")) {
             $email = $this->yellow->page->get("email");
         }
-        if ($this->yellow->system->get("contactLinkRestriction") && $this->detectLinks($message)) $status = "review";
+        if ($this->yellow->system->get("contactLinkRestriction") && $this->isClickable($message)) $status = "review";
         if (empty($name) || empty($from) || empty($message) || empty($consent)) $status = "incomplete";
         if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) $status = "settings";
         if (!empty($from) && !filter_var($from, FILTER_VALIDATE_EMAIL)) $status = "invalid";
         if ($status=="send") {
+            $footer = $this->yellow->text->get("contactMailFooter");
+            $footer = strreplaceu("\\n", "\r\n", $footer);
+            $footer = preg_replace("/@sitename/i", $this->yellow->system->get("sitename"), $footer);
+            $footer = preg_replace("/@title/i", $this->findTitle($referer, $this->yellow->page->get("title")), $footer);
             $mailTo = mb_encode_mimeheader("$author")." <$email>";
             $mailSubject = mb_encode_mimeheader($this->yellow->page->get("title"));
             $mailHeaders = mb_encode_mimeheader("From: $name")." <$from>\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Referer-Url: ".$referer)."\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Request-Url: ".$this->yellow->page->getUrl())."\r\n";
             if ($spamFilter!="none" && preg_match("/$spamFilter/i", $message)) {
-                $mailSubject = mb_encode_mimeheader($this->yellow->text->get("contactSpam")." ".$this->yellow->page->get("title"));
+                $mailSubject = mb_encode_mimeheader($this->yellow->text->get("contactMailSpam")." ".$this->yellow->page->get("title"));
                 $mailHeaders .= "X-Spam-Flag: YES\r\n";
                 $mailHeaders .= "X-Spam-Status: Yes, score=1\r\n";
             }
             $mailHeaders .= "Mime-Version: 1.0\r\n";
             $mailHeaders .= "Content-Type: text/plain; charset=utf-8\r\n";
-            $mailMessage = "$message\r\n-- \r\n$sitename";
+            $mailMessage = "$message\r\n-- \r\n$footer";
             $status = mail($mailTo, $mailSubject, $mailMessage, $mailHeaders) ? "done" : "error";
         }
         return $status;
     }
     
-    // Detect clickable links
-    public function detectLinks($message) {
+    // Return title for local page
+    public function findTitle($url, $titleDefault) {
+        $titleFound = $titleDefault;
+        $serverUrl = $this->yellow->lookup->normaliseUrl(
+            $this->yellow->system->get("coreServerScheme"),
+            $this->yellow->system->get("coreServerAddress"),
+            $this->yellow->system->get("coreServerBase"), "");
+        $serverUrlLength = strlenu($serverUrl);
+        if (substru($url, 0, $serverUrlLength)==$serverUrl) {
+            $page = $this->yellow->content->find(substru($url, $serverUrlLength));
+            if ($page) $titleFound = $page->get("title");
+        }
+        return $titleFound;
+    }
+
+    // Check if text contains clickable links
+    public function isClickable($text) {
         $found = false;
-        foreach (preg_split("/\s+/", $message) as $token) {
-            if (preg_match("/([\w\-\.]{2,}\.[\w]{2,})/", $token, $matches)) $found = true;
+        foreach (preg_split("/\s+/", $text) as $token) {
+            if (preg_match("/([\w\-\.]{2,}\.[\w]{2,})/", $token)) $found = true;
+            if (preg_match("/^\w+:\/\//", $token)) $found = true;
         }
         return $found;
     }

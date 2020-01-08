@@ -13,7 +13,8 @@ ContactEmail: Email:
 ContactMessage: Mensaje:
 ContactConsent: Doy mi consentimiento para que este sitio web almacene mi mensaje.
 ContactButton: Enviar mensaje
-ContactSpam: [Spam]
+ContactMailSpam: [Spam]
+ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Di hola. Tus comentarios son bien recibidos.
 ContactStatusIncomplete: Por favor llena todos los campos.
 ContactStatusInvalid: Por favor introduce una dirección de email válida.
@@ -152,6 +153,7 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Ayuda
+EditMailFooter: @sitename
 EditDataGenerated: Esta página se genera automáticamente.
 EditUploadProgress: [Subir archivo…]
 EditMenuSettings: Configuraciones

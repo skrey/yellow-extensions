@@ -13,7 +13,8 @@ ContactEmail: Email:
 ContactMessage: Bericht:
 ContactConsent: Ik ga ermee akkoord dat deze website mijn bericht opslaat.
 ContactButton: Verstuur bericht
-ContactSpam: [Spam]
+ContactMailSpam: [Spam]
+ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Zeg hallo. Uw feedback is zeer welkom.
 ContactStatusIncomplete: Vul alle velden in.
 ContactStatusInvalid: Vul een geldig email.
@@ -152,6 +153,7 @@ EditToolbarRedo: Opnieuw
 EditToolbarPreview: Voorbeeld
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Help
+EditMailFooter: @sitename
 EditDataGenerated: This page is generated automatically.
 EditUploadProgress: [Uploading file…]
 EditMenuSettings: Instellingen

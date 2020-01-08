@@ -13,7 +13,8 @@ ContactEmail: Surel:
 ContactMessage: Pesan:
 ContactConsent: Saya setuju bahwa situs web ini menyimpan pesan saya.
 ContactButton: Kirim pesan
-ContactSpam: [Spam]
+ContactMailSpam: [Spam]
+ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Ucapkan halo. Umpan balik anda sangat diharapkan.
 ContactStatusIncomplete: Silahkan mengisi semua bidang.
 ContactStatusInvalid: Masukkan email yang valid.
@@ -152,6 +153,7 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: Bantuan
+EditMailFooter: @sitename
 EditDataGenerated: This page is generated automatically.
 EditUploadProgress: [Uploading file…]
 EditMenuSettings: Settings

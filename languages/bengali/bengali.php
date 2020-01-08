@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowBengali {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     const TYPE = "language";
     public $yellow;         //access to API
     

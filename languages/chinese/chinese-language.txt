@@ -13,7 +13,8 @@ ContactEmail: 邮箱:
 ContactMessage: 信息:
 ContactConsent: 我同意这个网站存储我的信息。
 ContactButton: 发送
-ContactSpam: [Spam]
+ContactMailSpam: [Spam]
+ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: 您好！非常感谢您的反馈
 ContactStatusIncomplete: 请填写完所有栏位
 ContactStatusInvalid: 请输入一个有效的e-mail地址
@@ -152,6 +153,7 @@ EditToolbarRedo: Redo
 EditToolbarPreview: Preview
 EditToolbarMarkdown: Markdown
 EditToolbarHelp: 帮助
+EditMailFooter: @sitename
 EditDataGenerated: 此页面自动生成。
 EditUploadProgress: [上传文件…]
 EditMenuSettings: 设置
