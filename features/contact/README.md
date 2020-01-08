@@ -20,7 +20,7 @@ The contact page is available on your website as `http://website/contact/`. The 
 
 If you don't want that messages are sent to anyone, then restrict emails. Open file `system/settings/system.ini` and change `ContactEmailRestriction: 1`. Users are not allowed to configure an email, all contact messages go directly to the webmaster.
 
-If you don't want that messages are sent with links, then restrict links. Open file `system/settings/system.ini` and change `ContactLinkRestriction: 1`. Emails to you must not contain any clickable links, this blocks many unwanted messages. You can also configure keywords in the spam filter, fortunately for us, many spammers send the same message multiple times.
+If you don't want that messages are sent with links, then restrict links. Open file `system/settings/system.ini` and change `ContactLinkRestriction: 1`. Emails must not contain clickable links, this blocks many unwanted messages. You can also configure keywords in the spam filter, fortunately, many spammers send the same message multiple times.
 
 ## Settings
 

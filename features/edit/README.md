@@ -70,7 +70,7 @@ The following user access rights are supported:
 `edit` = user can edit page  
 `delete` = user can delete page  
 `upload` = user can upload media files  
-`system` = user can [change settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) in the `system.ini`  
+`system` = user can [change settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) in file `system/settings/system.ini`  
 `update` = user can [update website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 
 The following user status values are supported:
