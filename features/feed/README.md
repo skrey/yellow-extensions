@@ -55,7 +55,8 @@ Content file with link to feed, by a specific author:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-    [Recent changes by Datenstrom](/feed/author:datenstrom/). [RSS-Feed](/feed/author:datenstrom/page:feed.xml).
+    [See recent changes by Datenstrom](/feed/author:datenstrom/). 
+    [RSS-Feed](/feed/author:datenstrom/page:feed.xml).
 
 ## Developer
 

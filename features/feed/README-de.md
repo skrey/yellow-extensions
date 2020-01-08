@@ -55,7 +55,8 @@ Inhaltsdatei mit Link zum Feed, von einem bestimmter Autor:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    [Letzte Änderungen von Datenstrom](/feed/author:datenstrom/). [RSS-Feed](/feed/author:datenstrom/page:feed.xml).
+    [Letzte Änderungen von Datenstrom anzeigen](/feed/author:datenstrom/). 
+    [RSS-Feed](/feed/author:datenstrom/page:feed.xml).
 
 ## Entwickler
 
