@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.16";
+    const VERSION = "0.8.17";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -83,7 +83,8 @@ class YellowRelease {
     
     // Update release information file
     public function updateReleaseInformation($path) {
-        list($statusCode, $extension, $version) = $this->getReleaseInformation($path);
+        $statusCode = 200;
+        list($extension, $version, $fileNameSource) = $this->getReleaseInformation($path);
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
         if (is_file($fileNameExtension) && !empty($extension) && !empty($version)) {
             $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
@@ -109,8 +110,20 @@ class YellowRelease {
                         $extensionResponsible = ucfirst($extension);
                         $line = "$matches[1]: $extensionResponsible,$entry,$flags\n";
                     }
+                    $fileNameDestination = $matches[1];
+                    if (!$this->yellow->lookup->isValidFile($this->yellow->toolbox->normaliseTokens($fileNameDestination))) {
+                        $statusCode = 500;
+                        echo "ERROR checking files: File '$fileNameDestination' is not possible!\n";
+                    }
                 }
                 $fileDataNew .= $line;
+            }
+            if (!empty($fileNameSource)) {
+                $fileNameClass = basename($fileNameSource);
+                if ($extension!=$this->yellow->lookup->normaliseName($fileNameClass, true, true)) {
+                    $statusCode = 500;
+                    echo "ERROR updating files: Class 'Yellow$extension' and file '$fileNameClass' is not possible!\n";
+                }
             }
             if ($fileData!=$fileDataNew) {
                 if (!$this->yellow->toolbox->createFile($fileNameExtension, $fileDataNew)) {
@@ -262,29 +275,24 @@ class YellowRelease {
     
     // Return release information from source code
     public function getReleaseInformation($path) {
-        $statusCode = 200;
-        $extension = $version = "";
+        $extension = $version = $fileNameSource = "";
         foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/^.*\.php$/", false, false) as $entry) {
             $fileData = $this->yellow->toolbox->readFile($entry, 4096);
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 preg_match("/^\s*(\S+)\s+(\S+)/", $line, $matches);
-                if ($matches[1]=="class" && substru($matches[2], 0, 6)=="Yellow") { $extension = lcfirst(substru($matches[2], 6)); $class = $matches[2]; }
+                if ($matches[1]=="class" && substru($matches[2], 0, 6)=="Yellow") $extension = lcfirst(substru($matches[2], 6));
                 if ($matches[1]=="const" && $matches[2]=="VERSION" && preg_match("/\"([0-9\.]+)\"/", $line, $matches)) $version = $matches[1];
                 if ($matches[1]=="function" || $matches[2]=="function") break;
             }
             if (!empty($extension) && !empty($version)) {
-                if ($extension!=$this->yellow->lookup->normaliseName(basename($entry), true, true)) {
-                    $statusCode = 500;
-                    $extension = $version = "";
-                    echo "ERROR checking files: Class '$class' not possible in file '$entry'!\n";
-                }
+                $fileNameSource = $entry;
                 break;
             }
         }
-        if ($statusCode==200 && empty($extension) && empty($version)) {
+        if (empty($extension) && empty($version)) {
             list($extension, $version) = $this->getExtensionInformation($path);
         }
-        return array($statusCode, $extension, $version);
+        return array($extension, $version, $fileNameSource);
     }
 
     // Return extension information
