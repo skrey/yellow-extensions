@@ -22,12 +22,6 @@ Falls du nicht so viele Spam-Nachrichten bekommen willst, [beschränke die Konta
 
 Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
 
-## Wie man eine mehrsprachige Webseite macht
-
-Die Installation kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Falls du die gesamte Webseite übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
-
-Um eine Sprachauswahl anzuzeigen, erstelle eine Seite auf der die vorhandenen Sprachen aufgelistet werden. So können Besucher die Sprache wechseln.
-
 ## Wie man eine Seite versteckt
 
 Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann nicht mehr sichtbar. Du kannst zwischen verschiedenen Statuswerten wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
@@ -35,6 +29,67 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#e
 ## Wie man eine Seite weiterleitet
 
 Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite leitet dann zu einer anderen Seite oder URL weiter. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
+
+## Wie man eine mehrsprachige Webseite macht
+
+Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Falls du die gesamte Webseite übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+
+Um eine Sprachauswahl anzuzeigen, erstelle eine Seite auf der die vorhandenen Sprachen aufgelistet sind.
+
+## Verzeichnisse
+
+Die folgenden Verzeichnisse sind verfügbar:
+
+```
+├── content               = Inhaltsdateien
+│   ├── 1-home            = vorhanden als http://website/
+│   └── shared            = geteilte Dateien
+├── media                 = Mediendateien
+│   ├── downloads         = Dateien zum Herunterladen
+│   ├── images            = Bilder für den Inhalt
+│   └── thumbnails        = Miniaturbilder
+└── system                = Systemdateien
+    ├── extensions        = installierte Erweiterungen
+    ├── layouts           = Layoutdateien, HTML-Dateien
+    ├── resources         = Resourcendateien, CSS-Dateien usw.
+    ├── settings          = Konfigurationsdateien, INI-Dateien
+    └── trash             = gelöschte Dateien
+```
+
+Verzeichnisstruktur für mehrsprachige Webseite:
+
+```
+├── content               = Inhaltsdateien
+│   ├── 1-en              
+│   │   ├── 1-home        = vorhanden als http://website/
+│   │   └── shared    
+│   ├── 2-de              
+│   │   ├── 1-home        = vorhanden als http://website/de/
+│   │   └── shared    
+│   └── 3-fr              
+│   │   ├── 1-home        = vorhanden als http://website/fr/
+│   │   └── shared    
+├── media                 = Mediendateien
+└── system                = Systemdateien
+```
+
+Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennung:
+
+```
+├── content               = Inhaltsdateien
+│   ├── 1-en              
+│   │   ├── 1-home        = vorhanden als http://website/en/
+│   │   └── shared    
+│   ├── 2-de              
+│   │   ├── 1-home        = vorhanden als http://website/de/
+│   │   └── shared    
+│   ├── 3-fr              
+│   │   ├── 1-home        = vorhanden als http://website/fr/
+│   │   └── shared    
+│   └── default           = vorhanden als http://website/
+├── media                 = Mediendateien
+└── system                = Systemdateien
+```
 
 ## Einstellungen
 
@@ -114,47 +169,17 @@ Die folgenden Dateien können angepasst werden:
 
 ## Beispiele
 
-Verzeichnisstruktur für normale Webseite:
-
-~~~
-├── content
-│   ├── 1-home 
-│   └── shared    
-├── media             
-└── system  
-~~~
-
-Verzeichnisstruktur für mehrsprachige Webseite:
-
-~~~
-├── content
-│   ├── 1-en 
-│   │   ├── 1-home 
-│   │   └── shared    
-│   ├── 2-de          
-│   └── 3-fr   
-├── media             
-└── system  
-~~~
-
-Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennung:
-
-~~~
-├── content
-│   ├── 1-en 
-│   │   ├── 1-home 
-│   │   └── shared    
-│   ├── 2-de          
-│   ├── 3-fr   
-│   └── default   
-├── media             
-└── system  
-~~~
-
-Inhaltsdatei mit Unlisted-Status:
+Inhaltsdatei mit normaler Seite:
 
     ---
-    Title: Seite mit Status
+    Title: Normale Seite
+    ---
+    Das ist eine Beispielseite.
+
+Inhaltsdatei mit versteckter Seite:
+
+    ---
+    Title: Versteckte Seite
     Status: unlisted
     ---
     Diese Seite ist in der Navigation und den Suchergebnissen nicht sichtbar.

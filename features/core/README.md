@@ -22,12 +22,6 @@ If you don't want to get that many spam messages, then restrict the [contact pag
 
 If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
 
-## How to make a multilingual website
-
-The installation comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate an entire website, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
-
-To show a language selection create a page that lists available languages. This allows visitors to switch languages. 
-
 ## How to hide a page
 
 Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to control who can see and access a page.
@@ -35,6 +29,67 @@ Set `Status: unlisted` in the [settings](#settings) at the top of a page. The pa
 ## How to redirect a page
 
 Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+
+## How to make a multilingual website
+
+Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate the entire website, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
+
+To show a language selection create a page that lists available languages.
+
+## Folders
+
+The following folders are available:
+
+```
+├── content               = content files
+│   ├── 1-home            = available as http://website/
+│   └── shared            = shared files
+├── media                 = media files
+│   ├── downloads         = files to download
+│   ├── images            = image files for the content
+│   └── thumbnails        = image thumbnails
+└── system                = system files
+    ├── extensions        = installed extensions
+    ├── layouts           = layout files, HTML files
+    ├── resources         = resource files, CSS files etc.
+    ├── settings          = configuration files, INI files
+    └── trash             = deleted files
+```
+
+Folder structure for multilingual website:
+
+```
+├── content               = content files
+│   ├── 1-en              
+│   │   ├── 1-home        = available as http://website/
+│   │   └── shared    
+│   ├── 2-de              
+│   │   ├── 1-home        = available as http://website/de/
+│   │   └── shared    
+│   └── 3-fr              
+│   │   ├── 1-home        = available as http://website/fr/
+│   │   └── shared    
+├── media                 = media files
+└── system                = system files
+```
+
+Folder structure for multilingual website, with automatic language detection:
+
+```
+├── content               = content files
+│   ├── 1-en              
+│   │   ├── 1-home        = available as http://website/en/
+│   │   └── shared    
+│   ├── 2-de              
+│   │   ├── 1-home        = available as http://website/de/
+│   │   └── shared    
+│   ├── 3-fr              
+│   │   ├── 1-home        = available as http://website/fr/
+│   │   └── shared    
+│   └── default           = available as http://website/       
+├── media                 = media files
+└── system                = system files
+```
 
 ## Settings
 
@@ -114,47 +169,17 @@ The following files can be configured:
 
 ## Examples
 
-Folder structure for normal website:
-
-~~~
-├── content
-│   ├── 1-home 
-│   └── shared    
-├── media             
-└── system  
-~~~
-
-Folder structure for multilingual website:
-
-~~~
-├── content
-│   ├── 1-en 
-│   │   ├── 1-home 
-│   │   └── shared    
-│   ├── 2-de          
-│   └── 3-fr   
-├── media             
-└── system  
-~~~
-
-Folder structure for multilingual website, with automatic language detection:
-
-~~~
-├── content
-│   ├── 1-en 
-│   │   ├── 1-home 
-│   │   └── shared    
-│   ├── 2-de          
-│   ├── 3-fr   
-│   └── default   
-├── media             
-└── system  
-~~~
-
-Content file with unlisted status:
+Content file with normal page:
 
     ---
-    Title: Unlisted page
+    Title: Normal page
+    ---
+    This is an example page.
+
+Content file with hidden page:
+
+    ---
+    Title: Hidden page
     Status: unlisted
     ---
     This page is not visible in navigation and search results.
