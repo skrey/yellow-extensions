@@ -32,7 +32,7 @@ Set `Redirect` in the [settings](#settings) at the top of a page. The page will 
 
 ## How to make a multilingual website
 
-Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate the entire website, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
+Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
 
 To show a language selection create a page that lists available languages.
 
@@ -59,7 +59,7 @@ The following folders are available:
 Folder structure for multilingual website:
 
 ```
-├── content               = content files
+├── content               
 │   ├── 1-en              
 │   │   ├── 1-home        = available as http://website/
 │   │   └── shared    
@@ -69,14 +69,14 @@ Folder structure for multilingual website:
 │   └── 3-fr              
 │   │   ├── 1-home        = available as http://website/fr/
 │   │   └── shared    
-├── media                 = media files
-└── system                = system files
+├── media                 
+└── system                
 ```
 
 Folder structure for multilingual website, with automatic language detection:
 
 ```
-├── content               = content files
+├── content               
 │   ├── 1-en              
 │   │   ├── 1-home        = available as http://website/en/
 │   │   └── shared    
@@ -87,8 +87,8 @@ Folder structure for multilingual website, with automatic language detection:
 │   │   ├── 1-home        = available as http://website/fr/
 │   │   └── shared    
 │   └── default           = available as http://website/       
-├── media                 = media files
-└── system                = system files
+├── media                 
+└── system                
 ```
 
 ## Settings

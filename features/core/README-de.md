@@ -59,7 +59,7 @@ Die folgenden Verzeichnisse sind verfügbar:
 Verzeichnisstruktur für mehrsprachige Webseite:
 
 ```
-├── content               = Inhaltsdateien
+├── content               
 │   ├── 1-en              
 │   │   ├── 1-home        = vorhanden als http://website/
 │   │   └── shared    
@@ -69,14 +69,14 @@ Verzeichnisstruktur für mehrsprachige Webseite:
 │   └── 3-fr              
 │   │   ├── 1-home        = vorhanden als http://website/fr/
 │   │   └── shared    
-├── media                 = Mediendateien
-└── system                = Systemdateien
+├── media                 
+└── system                
 ```
 
 Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennung:
 
 ```
-├── content               = Inhaltsdateien
+├── content               
 │   ├── 1-en              
 │   │   ├── 1-home        = vorhanden als http://website/en/
 │   │   └── shared    
@@ -87,8 +87,8 @@ Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennu
 │   │   ├── 1-home        = vorhanden als http://website/fr/
 │   │   └── shared    
 │   └── default           = vorhanden als http://website/
-├── media                 = Mediendateien
-└── system                = Systemdateien
+├── media                 
+└── system                
 ```
 
 ## Einstellungen
