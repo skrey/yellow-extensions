@@ -87,7 +87,7 @@ Content file with tags and page break:
 Showing links to blog:
 
     [See all pages](/blog/)
-    [See pages by Datenstrom](/blog/author:datenstrom/)
+    [See all pages by Datenstrom](/blog/author:datenstrom/)
     [See example](/blog/tag:example/)
 
 Showing latest blog pages:
@@ -105,7 +105,7 @@ Showing list of tags:
 Showing list of pages:
 
     [blogpages /blog/]
-    [blogpages /blog/ 3]
+    [blogpages /blog/ 10 Datenstrom]
     [blogpages /blog/ 10 - example]
 
 ## Developer

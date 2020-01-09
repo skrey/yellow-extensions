@@ -87,7 +87,7 @@ Inhaltsdatei mit Tags und Seitenumbruch:
 Links zum Blog anzeigen:
 
     [Siehe alle Seiten](/blog/)
-    [Siehe Seiten von Datenstrom](/blog/author:datenstrom/)
+    [Siehe alle Seiten von Datenstrom](/blog/author:datenstrom/)
     [Siehe Beispiel](/blog/tag:beispiel/)
 
 Neuste Blogseiten anzeigen:
@@ -105,7 +105,7 @@ Liste mit Tags anzeigen:
 Liste mit Seiten anzeigen:
 
     [blogpages /blog/]
-    [blogpages /blog/ 3]
+    [blogpages /blog/ 10 Datenstrom]
     [blogpages /blog/ 10 - Beispiel]
 
 ## Entwickler

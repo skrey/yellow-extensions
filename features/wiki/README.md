@@ -104,7 +104,7 @@ Showing list of tags:
 Showing list of pages:
 
     [wikipages /wiki/]
-    [wikipages /wiki/ 3]
+    [wikipages /wiki/ 10 Datenstrom]
     [wikipages /wiki/ 10 - example]
 
 ## Developer

@@ -104,7 +104,7 @@ Liste mit Tags anzeigen:
 Liste mit Seiten anzeigen:
 
     [wikipages /wiki/]
-    [wikipages /wiki/ 3]
+    [wikipages /wiki/ 10 Datenstrom]
     [wikipages /wiki/ 10 - Beispiel]
 
 ## Entwickler
