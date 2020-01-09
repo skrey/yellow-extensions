@@ -22,7 +22,7 @@ Set `Redirect` in the [settings](#settings) at the top of a page. The page will 
 
 ## How to make a secure website
 
-[Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/features/update). It's best if your website is updated regularly. Also check if your website supports [data encryption](https://www.ssllabs.com/ssltest/). It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
+[Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/features/update). It's recommended to update the website as soon as a new release is available. Also check if your website supports [data encryption](https://www.ssllabs.com/ssltest/). It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
 
 If you don't want that pages are modified, then restrict [user accounts](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). You can configure what users are allowed to do, which pages can be changed and which files can be uploaded. The file formats GIF, JPG, PDF, PNG, SVG and ZIP are supported per default.
 
