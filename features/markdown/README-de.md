@@ -14,11 +14,15 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man Text formatiert
 
-Mit Markdown kannst du Text wie in E-Mails schreiben und es wird zur Webseite.
+Markdown ist eine praktische Art um Webseiten zu bearbeiten.
 
-Diese Erweiterung benutzt [Markdown Extra v1.9.0](https://github.com/michelf/php-markdown) von Michel Fortin, ein Werkzeug zur Konvertierung von Text nach HTML. Es ist unter [BSD-Lizenz](https://opensource.org/licenses/BSD-3-Clause) lizenziert. Hier ist der [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Du kannst Abkürzungen verwenden, um noch mehr Funktionen hinzuzufügen. Beispielsweise Bilder mit der [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md).
+Diese Erweiterung benutzt [Markdown Extra v1.9.0](https://github.com/michelf/php-markdown) von Michel Fortin, ein Werkzeug zur Konvertierung von Text nach HTML. Es ist unter [BSD-Lizenz](https://opensource.org/licenses/BSD-3-Clause) lizenziert. Hier ist der [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
 
-Es gibt auch einen experimentellen Markdown-Parser, basierend auf [Parsedown Extra v1.8.0-beta-7](https://github.com/erusev/parsedown) von Emanuil Rusev. Es ist unter [MIT-Lizenz](https://opensource.org/licenses/MIT) lizenziert. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) und in dein `system/extensions`-Verzeichnis kopieren. Dann kannst du Markdown-Parser wechseln mit `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
+Es gibt auch einen experimentellen Markdown-Parser, basierend auf [Parsedown Extra v1.8.0-beta-7](https://github.com/erusev/parsedown) von Emanuil Rusev. Es ist unter [MIT-Lizenz](https://opensource.org/licenses/MIT) lizenziert. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) und in dein `system/extensions`-Verzeichnis kopieren. Parser wechseln mit `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
+
+## Wie man Abkürzungen benutzt
+
+Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen. Abkürzungen kümmern sich um den Rest. Du kannst Informationen anzeigen, Emoji hinzufügen und was-auch-immer in die Webseite einbinden. Beispielsweise gibt es eine [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md) und eine [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md) für Videos.
 
 ## Beispiele
 
@@ -43,6 +47,18 @@ Eine Aufgabenliste erstellen:
     - [x] Punkt eins
     - [ ] Punkt zwei
     - [ ] Punkt drei
+
+Eine Überschrift erstellen:
+
+    # Überschrift 1
+    ## Überschrift 2
+    ### Überschrift 3
+
+Zitate erstellen:
+
+    > Zitat
+    >> Zitat im Zitat
+    >>> Zitat im Zitat im Zitat
 
 Links erstellen:
 

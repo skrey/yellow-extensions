@@ -14,11 +14,15 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to format text
 
-Markdown allows to write text like an email and it becomes a web page.
+Markdown is a practical way to edit web pages.
 
-This extension uses [Markdown Extra v1.9.0](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). You can use shortcuts to add even more features. For example add images and thumbnails with the [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/image).
+This extension uses [Markdown Extra v1.9.0](https://github.com/michelf/php-markdown) by Michel Fortin, which is a text-to-HTML conversion tool. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
 
 There's also an experimental Markdown parser based on [Parsedown Extra v1.8.0-beta-7](https://github.com/erusev/parsedown) by Emanuil Rusev. It's licensed under [MIT license](https://opensource.org/licenses/MIT). You can [download extension](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) and copy it into your `system/extensions` folder. Now you can switch Markdown parsers with `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
+
+## How to use shortcuts
+
+In addition to Markdown there are shortcuts. Markdown provides the basic features. Shortcuts takes care of all the rest. You can show information, add emoji and embed whatever-you-want into the website. For example there is an [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/image) and a [Youtube extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube) for videos.
 
 ## Examples
 
@@ -43,6 +47,18 @@ Making a task list:
     - [x] item one
     - [ ] item two
     - [ ] item three
+
+Making a heading:
+
+    # Heading 1
+    ## Heading 2
+    ### Heading 3
+
+Making quotes:
+
+    > Quote
+    >> Quote of a quote
+    >>> Quote of a quote of a quote
 
 Making links:
 

@@ -14,7 +14,7 @@ Please do not delete the [extension files](extension.ini), they are always requi
 
 ## How to hide a page
 
-Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to control who can see and access a page.
+Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can choose between different status values, to control who can see and access a page.
 
 ## How to redirect a page
 
@@ -67,8 +67,8 @@ Folder structure for multilingual website:
 │   │   ├── 1-home        = available as http://website/de/
 │   │   └── shared    
 │   └── 3-fr              
-│   │   ├── 1-home        = available as http://website/fr/
-│   │   └── shared    
+│       ├── 1-home        = available as http://website/fr/
+│       └── shared    
 ├── media                 
 └── system                
 ```
