@@ -176,10 +176,10 @@ Inhaltsdatei mit normaler Seite:
     ---
     Das ist eine Beispielseite.
 
-Inhaltsdatei mit versteckter Seite:
+Inhaltsdatei mit ungelisteter Seite:
 
     ---
-    Title: Versteckte Seite
+    Title: Ungelistete Seite
     Status: unlisted
     ---
     Diese Seite ist in der Navigation und den Suchergebnissen nicht sichtbar.

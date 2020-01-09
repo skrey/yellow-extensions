@@ -176,10 +176,10 @@ Content file with normal page:
     ---
     This is an example page.
 
-Content file with hidden page:
+Content file with unlisted page:
 
     ---
-    Title: Hidden page
+    Title: Unlisted page
     Status: unlisted
     ---
     This page is not visible in navigation and search results.
