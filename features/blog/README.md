@@ -84,6 +84,12 @@ Content file with tags and page break:
     to fika. Fika is such an important part of life in Sweden that it is 
     both a verb and a noun. How often do you fika?
 
+Showing links to blog:
+
+    [See all pages](/blog/)
+    [See pages by Datenstrom](/blog/author:datenstrom/)
+    [See example](/blog/tag:example/)
+
 Showing latest blog pages:
 
     [blogchanges /blog/]

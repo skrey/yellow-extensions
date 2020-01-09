@@ -84,6 +84,12 @@ Inhaltsdatei mit Tags und Seitenumbruch:
     ist ein so bedeutender Teil vom schwedischen Alltag, dass es sowohl als 
     Verb als auch als Nomen verwendet wird. Wie oft machst du Fika?
 
+Links zum Blog anzeigen:
+
+    [Siehe alle Seiten](/blog/)
+    [Siehe Seiten von Datenstrom](/blog/author:datenstrom/)
+    [Siehe Beispiel](/blog/tag:beispiel/)
+
 Neuste Blogseiten anzeigen:
 
     [blogchanges /blog/]

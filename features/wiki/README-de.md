@@ -83,6 +83,12 @@ Inhaltsdatei mit Tags:
        Mokka, Türkischen Kaffee und vieles mehr. Finde deinen Lieblingsgeschmack.
     3. Genieße.
 
+Links zum Wiki anzeigen:
+
+    [Siehe alle Seiten](/wiki/special:pages/)
+    [Siehe letzte Änderungen](/wiki/special:changes/)
+    [Siehe Beispiel](/wiki/tag:beispiel/)
+
 Neuste Wikiseiten anzeigen:
 
     [wikichanges /wiki/]

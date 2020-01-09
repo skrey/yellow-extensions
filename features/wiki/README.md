@@ -83,6 +83,12 @@ Content file with tags:
        out what's your favorite.
     3. Enjoy.
 
+Showing links to wiki:
+
+    [See all pages](/wiki/special:pages/)
+    [See recent changes](/wiki/special:changes/)
+    [See example](/wiki/tag:example/)
+
 Showing latest wiki pages:
 
     [wikichanges /wiki/]
