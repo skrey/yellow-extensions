@@ -12,6 +12,14 @@ Core functionality of the website.
 
 Please do not delete the [extension files](extension.ini), they are always required.
 
+## How to hide a page
+
+Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to control who can see and access a page.
+
+## How to redirect a page
+
+Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+
 ## How to make a secure website
 
 [Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/features/update). It's best if your website is updated regularly. Also check if your website supports [data encryption](https://www.ssllabs.com/ssltest/). It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
@@ -20,15 +28,7 @@ If you don't want that pages are modified, then restrict [user accounts](https:/
 
 If you don't want to get that many spam messages, then restrict the [contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact). You can determine who can receive messages and whether they can contain clickable links. It's recommended to restrict links, this blocks many unwanted messages.
 
-If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
-
-## How to hide a page
-
-Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can chose between different status values, to control who can see and access a page.
-
-## How to redirect a page
-
-Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are only allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
 
 ## How to make a multilingual website
 

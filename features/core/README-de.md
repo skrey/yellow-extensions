@@ -12,6 +12,14 @@ Kernfunktionalität der Webseite.
 
 Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer gebraucht.
 
+## Wie man eine Seite versteckt
+
+Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann nicht mehr sichtbar. Du kannst zwischen verschiedenen Statuswerten wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
+
+## Wie man eine Seite weiterleitet
+
+Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite leitet dann zu einer anderen Seite oder URL weiter. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
+
 ## Wie man eine sichere Webseite macht
 
 [Halte deine Webseite auf dem neuesten Stand](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md). Am Besten ist es wenn deine Webseite regelmäßig aktualisiert wird. Überprüfe ausserdem ob deine Webseite [Datenverschlüsselung](https://www.ssllabs.com/ssltest/) unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
@@ -20,15 +28,7 @@ Falls du nicht willst dass Seiten verändert werden, [beschränke Benutzerkonten
 
 Falls du nicht so viele Spam-Nachrichten bekommen willst, [beschränke die Kontaktseite](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact/README-de.md). Du kannst bestimmen wer Nachrichten empfangen kann und ob sie anklickbare Links enthalten dürfen. Es ist empfehlenswert Links zu beschränken, das blockiert viele unerwünschte Nachrichten.
 
-Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
-
-## Wie man eine Seite versteckt
-
-Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann nicht mehr sichtbar. Du kannst zwischen verschiedenen Statuswerten wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
-
-## Wie man eine Seite weiterleitet
-
-Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite leitet dann zu einer anderen Seite oder URL weiter. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
+Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann nur [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
 
 ## Wie man eine mehrsprachige Webseite macht
 

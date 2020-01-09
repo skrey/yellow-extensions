@@ -28,7 +28,7 @@ If you don't want that pages are modified, then restrict user accounts. Open fil
 
 If you don't want that user accounts are created, then restrict the login page. Open file `system/settings/system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
 
-If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
+If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are only allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
 
 ## Settings
 

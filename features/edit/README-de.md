@@ -28,7 +28,7 @@ Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/settings/system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
 
-Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
+Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann nur [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
 
 ## Einstellungen
 
