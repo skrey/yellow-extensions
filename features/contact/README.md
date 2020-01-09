@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to use a contact page
 
-The contact page is available on your website as `http://website/contact/`. The webmaster is the contact person receives contact messages. The webmaster's email is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. To show a contact form on other pages use a `[contact]` shortcut. You can also add a link to the contact page somewhere on your website.
+The contact page is available on your website as `http://website/contact/`. The webmaster is the contact person and receives all contact messages. The webmaster's email is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. To show a contact form on other pages use a `[contact]` shortcut. You can also add a link to the contact page somewhere on your website.
 
 ## How to restrict a contact page
 
