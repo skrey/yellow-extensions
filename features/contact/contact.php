@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -77,7 +77,7 @@ class YellowContact {
         if ($this->yellow->page->isExisting("email") && !$this->yellow->system->get("contactEmailRestriction")) {
             $email = $this->yellow->page->get("email");
         }
-        if ($this->yellow->system->get("contactLinkRestriction") && $this->isClickable($message)) $status = "review";
+        if ($this->yellow->system->get("contactLinkRestriction") && $this->checkClickable($message)) $status = "review";
         if (empty($name) || empty($from) || empty($message) || empty($consent)) $status = "incomplete";
         if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) $status = "settings";
         if (!empty($from) && !filter_var($from, FILTER_VALIDATE_EMAIL)) $status = "invalid";
@@ -120,7 +120,7 @@ class YellowContact {
     }
 
     // Check if text contains clickable links
-    public function isClickable($text) {
+    public function checkClickable($text) {
         $found = false;
         foreach (preg_split("/\s+/", $text) as $token) {
             if (preg_match("/([\w\-\.]{2,}\.[\w]{2,})/", $token)) $found = true;

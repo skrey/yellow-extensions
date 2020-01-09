@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.17";
+    const VERSION = "0.8.18";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -122,7 +122,8 @@ class YellowRelease {
                 $fileNameClass = basename($fileNameSource);
                 if ($extension!=$this->yellow->lookup->normaliseName($fileNameClass, true, true)) {
                     $statusCode = 500;
-                    echo "ERROR updating files: Class 'Yellow$extension' and file '$fileNameClass' is not possible!\n";
+                    $class = "Yellow".ucfirst($extension);
+                    echo "ERROR updating files: Class '$class' and file '$fileNameClass' is not possible!\n";
                 }
             }
             if ($fileData!=$fileDataNew) {
