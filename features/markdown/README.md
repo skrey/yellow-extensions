@@ -22,7 +22,7 @@ There's also an experimental Markdown parser based on [Parsedown Extra v1.8.0-be
 
 ## How to use shortcuts
 
-In addition to Markdown there are shortcuts. Markdown provides the basic features. Shortcuts take care of the rest. You can show information, add emoji and embed whatever-you-want into the website. For example there is a [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/image) for images and thumbnails.
+In addition to Markdown there are shortcuts. Markdown provides the basic features. Shortcuts take care of the rest. You can show information, add [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome) and embed whatever-you-want into the website. For example there is a [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/image) for images and thumbnails.
 
 ## Examples
 
