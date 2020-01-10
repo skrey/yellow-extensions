@@ -33,7 +33,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 `Author` = Seiten eines bestimmten Autors anzeigen, nur bei, `[wikipages]` oder `[wikichanges]`  
 `Tag` = Seiten mit bestimmten Tag anzeigen, nur bei `[wikipages]` oder `[wikichanges`]  
 
-## Beispiele
+## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 

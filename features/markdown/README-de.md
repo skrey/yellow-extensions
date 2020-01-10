@@ -22,7 +22,7 @@ Es gibt auch einen experimentellen Markdown-Parser, basierend auf [Parsedown Ext
 
 ## Wie man Abkürzungen benutzt
 
-Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen. Abkürzungen kümmern sich um den Rest. Du kannst Informationen anzeigen, [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome/README-de.md) hinzufügen und was-auch-immer in die Webseite einbinden. Beispielsweise gibt es eine [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md) für Bilder in unterschiedlichen Größen.
+Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, abkürzungen kümmern sich um den Rest. Du kannst Informationen anzeigen, [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome/README-de.md) hinzufügen und was-auch-immer in die Webseite einbinden. Beispielsweise gibt es eine [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md).
 
 ## Beispiele
 

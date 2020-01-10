@@ -26,7 +26,7 @@ The following arguments are available, all but the first argument are optional:
 
 The image formats GIF, JPG, PNG and SVG are supported. All media files are located in the `media` folder. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like.
 
-This extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell. There's also a [gallery extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery) and [slider extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider).
+This extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell. There's also a [gallery extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery).
 
 ## Settings
 
