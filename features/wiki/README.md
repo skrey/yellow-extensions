@@ -37,7 +37,7 @@ The following arguments are available, all but the first argument are optional:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`WikiLocation` = wiki location  
+`WikiLocation` = wiki location, empty means current folder  
 `WikiNewLocation` = wiki location for new page  
 `WikiPagesMax` = number of pages to show per shortcut  
 `WikiPaginationLimit` = number of entries to show per page  

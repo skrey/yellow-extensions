@@ -28,7 +28,7 @@ Du kannst Abkürzungen verwenden, um Informationen über das Wiki anzuzeigen:
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
 
-`Location` = Ort des Wikis  
+`Location` = Ort des Wikis, leer bedeutet aktuelles Verzeichnis  
 `PagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
 `Author` = Seiten eines bestimmten Autors anzeigen, nur bei, `[wikipages]` oder `[wikichanges]`  
 `Tag` = Seiten mit bestimmten Tag anzeigen, nur bei `[wikipages]` oder `[wikichanges`]  

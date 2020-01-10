@@ -38,7 +38,7 @@ The following arguments are available, all but the first argument are optional:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`BlogLocation` = blog location  
+`BlogLocation` = blog location, empty means current folder  
 `BlogNewLocation` = blog location for new page  
 `BlogPagesMax` = number of pages to show per shortcut  
 `BlogPaginationLimit` = number of entries to show per page  

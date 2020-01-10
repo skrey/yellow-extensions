@@ -14,7 +14,7 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to make a table of contents
 
-Create a `[toc]` shortcut separated by blank lines.  
+Create a `[toc]` shortcut.  
 
 ## Examples
 

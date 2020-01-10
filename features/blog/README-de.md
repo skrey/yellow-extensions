@@ -38,7 +38,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
-`BlogLocation` = Ort des Blogs  
+`BlogLocation` = Ort des Blogs, leer bedeutet aktuelles Verzeichnis  
 `BlogNewLocation` = Ort für neue Blogseite  
 `BlogPagesMax` = Anzahl der Seiten pro Abkürzung  
 `BlogPaginationLimit` = Anzahl der Einträge pro Seite 

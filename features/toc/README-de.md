@@ -14,7 +14,7 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie zeigt man ein Inhaltsverzeichnis an
 
-Erstelle eine `[toc]`-Abkürzung, die durch Leerzeilen getrennt ist.
+Erstelle eine `[toc]`-Abkürzung.
 
 ## Beispiele
 
