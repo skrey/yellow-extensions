@@ -50,6 +50,11 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditLoginSessionTimeout` = validity of login in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
 
+The following settings can be configured in file `system/settings/text.ini`:
+
+`EditLoginTitle` = welcome text on login page  
+`EditMailFooter` = footer for email messages  
+
 The following settings can be configured in file `system/settings/user.ini`:
 
 `Email` = email of the user  

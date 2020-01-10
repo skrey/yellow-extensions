@@ -42,7 +42,7 @@ The following folders are available:
 
 ```
 ├── content               = content files
-│   ├── 1-home            = available as http://website/
+│   ├── 1-home            = home page
 │   └── shared            = shared files
 ├── media                 = media files
 │   ├── downloads         = files to download
@@ -61,13 +61,13 @@ Folder structure for multilingual website:
 ```
 ├── content               
 │   ├── 1-en              
-│   │   ├── 1-home        = available as http://website/
+│   │   ├── 1-home        = http://website/
 │   │   └── shared    
 │   ├── 2-de              
-│   │   ├── 1-home        = available as http://website/de/
+│   │   ├── 1-home        = http://website/de/
 │   │   └── shared    
 │   └── 3-fr              
-│       ├── 1-home        = available as http://website/fr/
+│       ├── 1-home        = http://website/fr/
 │       └── shared    
 ├── media                 
 └── system                
@@ -78,15 +78,15 @@ Folder structure for multilingual website, with automatic language detection:
 ```
 ├── content               
 │   ├── 1-en              
-│   │   ├── 1-home        = available as http://website/en/
+│   │   ├── 1-home        = http://website/en/
 │   │   └── shared    
 │   ├── 2-de              
-│   │   ├── 1-home        = available as http://website/de/
+│   │   ├── 1-home        = http://website/de/
 │   │   └── shared    
 │   ├── 3-fr              
-│   │   ├── 1-home        = available as http://website/fr/
+│   │   ├── 1-home        = http://website/fr/
 │   │   └── shared    
-│   └── default           = available as http://website/       
+│   └── default           = http://website/       
 ├── media                 
 └── system                
 ```

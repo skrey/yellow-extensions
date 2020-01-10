@@ -42,7 +42,7 @@ Die folgenden Verzeichnisse sind verfügbar:
 
 ```
 ├── content               = Inhaltsdateien
-│   ├── 1-home            = vorhanden als http://website/
+│   ├── 1-home            = Startseite
 │   └── shared            = geteilte Dateien
 ├── media                 = Mediendateien
 │   ├── downloads         = Dateien zum Herunterladen
@@ -61,13 +61,13 @@ Verzeichnisstruktur für mehrsprachige Webseite:
 ```
 ├── content               
 │   ├── 1-en              
-│   │   ├── 1-home        = vorhanden als http://website/
+│   │   ├── 1-home        = http://website/
 │   │   └── shared    
 │   ├── 2-de              
-│   │   ├── 1-home        = vorhanden als http://website/de/
+│   │   ├── 1-home        = http://website/de/
 │   │   └── shared    
 │   └── 3-fr              
-│       ├── 1-home        = vorhanden als http://website/fr/
+│       ├── 1-home        = http://website/fr/
 │       └── shared    
 ├── media                 
 └── system                
@@ -78,15 +78,15 @@ Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennu
 ```
 ├── content               
 │   ├── 1-en              
-│   │   ├── 1-home        = vorhanden als http://website/en/
+│   │   ├── 1-home        = http://website/en/
 │   │   └── shared    
 │   ├── 2-de              
-│   │   ├── 1-home        = vorhanden als http://website/de/
+│   │   ├── 1-home        = http://website/de/
 │   │   └── shared    
 │   ├── 3-fr              
-│   │   ├── 1-home        = vorhanden als http://website/fr/
+│   │   ├── 1-home        = http://website/fr/
 │   │   └── shared    
-│   └── default           = vorhanden als http://website/
+│   └── default           = http://website/
 ├── media                 
 └── system                
 ```

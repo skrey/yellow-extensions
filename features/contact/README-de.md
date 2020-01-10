@@ -33,6 +33,11 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `ContactLinkRestriction` = Linkbeschränkung aktivieren, 1 oder 0  
 `ContactSpamFilter` = Spamfilter als regulärer Ausdruck, `none` um zu deaktivieren  
 
+Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
+
+`ContactMailSpam` = Präfix für Kontaktnachrichten mit Spam  
+`ContactMailFooter` = Fusszeile von Kontaktnachrichten  
+
 Die folgenden Dateien können angepasst werden:
 
 `system/layouts/contact.html` = Layoutdatei für Kontaktseite  
