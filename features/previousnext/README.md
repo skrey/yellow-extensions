@@ -40,6 +40,19 @@ Content file with links:
 
     [previousnext]
 
+Layout file with links:
+
+    <?php $this->yellow->layout("header") ?>
+    <div class="content">
+    <?php $this->yellow->layout("sidebar") ?>
+    <div class="main" role="main">
+    <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
+    <?php echo $this->yellow->page->getContent() ?>
+    <?php echo $this->yellow->page->getExtra("previousnext") ?>
+    </div>
+    </div>
+    <?php $this->yellow->layout("footer") ?>
+
 ## Developer
 
 Datenstrom. [Get support](https://extensions.datenstrom.se/help/).
