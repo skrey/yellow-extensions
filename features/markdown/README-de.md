@@ -22,7 +22,7 @@ Es gibt auch einen experimentellen Markdown-Parser, basierend auf [Parsedown Ext
 
 ## Wie man Abkürzungen benutzt
 
-Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, Abkürzungen kümmern sich um den Rest. Du kannst Informationen anzeigen, [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome/README-de.md) und [Symbole](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome/README-de.md) hinzufügen, was-auch-immer in die Webseite einbinden. Beispielsweise gibt es eine [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md).
+Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, Abkürzungen kümmern sich um den Rest. Du kannst Informationen anzeigen, [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome/README-de.md) und [Symbole](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome/README-de.md) hinzufügen, was-auch-immer in deine Webseite einbinden.
 
 ## Beispiele
 
@@ -66,11 +66,71 @@ Links erstellen:
     [Link zu Datei](/media/downloads/yellow.pdf)
     [Link zu Webseite](https://datenstrom.se/de/)
 
-Bilder hinzufügen, mit einer Abkürzung:
+Bilder hinzufügen:
 
     [image picture.jpg]
     [image picture.jpg Picture]
     [image picture.jpg "Dies ist ein Beispielbild"]
+
+Tabellen erstellen:
+
+    | Kaffee     | Milch | Stärke  |
+    |------------|-------|---------|
+    | Espresso   | nein  | stark   |
+    | Macchiato  | ja    | mittel  |
+    | Cappuccino | ja    | schwach |
+
+Fußnoten erstellen:
+
+    Text mit einer Fußnote[^1] und noch weiteren Fußnoten.[^2] [^3]
+    
+    [^1]: Hier ist die erste Fußnote
+    [^2]: Hier ist die zweite Fußnote
+    [^3]: Hier ist die dritte Fußnote
+
+Quellcode anzeigen:
+
+    ```
+    Quellcode wird unverändert angezeigt.
+    function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    ```
+
+Absätze erstellen:
+
+    Hier ist der erste Absatz. Der Text kann über mehrere Zeilen gehen
+    und kann durch eine Leerzeile vom nächsten Absatz getrennt werden.
+
+    Hier ist der zweite Absatz.
+
+Zeilenumbrüche erstellen:
+
+    Hier ist die erste Zeile⋅⋅
+    Hier ist die zweite Zeile⋅⋅
+    Hier ist die dritte Zeile⋅⋅
+    
+    Leerzeichen am Zeilenende sind dargestellt durch Punkte (⋅)
+
+Hinweise erstellen:
+
+    ! Hier ist ein Hinweis mit Warnung
+    
+    !! Hier ist ein Hinweis mit Fehler
+    
+    !!! Hier ist ein Hinweis mit Tipp
+
+CSS benutzen:
+
+    ! {.class}
+    ! Hier ist ein Hinweis mit benutzerdefinierter Klasse.
+    ! Der Text kann über mehrere Zeilen gehen
+    ! und Markdown-Formatierung beinhalten.
+
+HTML benutzen:
+
+    <strong>Text mit HTML</strong> kann wahlweise benutzt werden.
+    <a href="https://datenstrom.se/de/" target="_blank">Link in einem neuen Tab öffnen</a>.
 
 ## Entwickler
 

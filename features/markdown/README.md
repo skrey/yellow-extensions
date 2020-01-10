@@ -22,7 +22,7 @@ There's also an experimental Markdown parser based on [Parsedown Extra v1.8.0-be
 
 ## How to use shortcuts
 
-In addition to Markdown there are shortcuts. Markdown provides the basic features, shortcuts take care of the rest. You can show information, add [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome) and [symbols](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome), embed whatever-you-want into the website. For example there's an [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/image).
+In addition to Markdown there are shortcuts. Markdown provides the basic features, shortcuts take care of the rest. You can show information, add [images](https://github.com/datenstrom/yellow-extensions/tree/master/features/image), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome) and [symbols](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome), embed whatever-you-want into your website.
 
 ## Examples
 
@@ -66,11 +66,71 @@ Making links:
     [Link to file](/media/downloads/yellow.pdf)
     [Link to website](https://datenstrom.se)
 
-Adding images, with a shortcut:
+Adding images:
 
     [image picture.jpg]
     [image picture.jpg Picture]
     [image picture.jpg "This is an example image"]
+
+Making tables:
+
+    | Coffee     | Milk | Strength |
+    |------------|------|----------|
+    | Espresso   | no   | strong   |
+    | Macchiato  | yes  | medium   |
+    | Cappuccino | yes  | weak     |
+
+Making footnotes:
+
+    Text with a footnote[^1] and some more footnotes.[^2] [^3]
+    
+    [^1]: Here's the first footnote
+    [^2]: Here's the second footnote
+    [^3]: Here's the third footnote
+
+Showing source code:
+
+    ```
+    Source code will be shown unchanged.
+    function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    ```
+
+Making paragraphs:
+
+    Here's the first paragraph. Text can span over several lines
+    and can be separated by a blank line from the next paragraph.
+
+    Here's the second paragraph.
+
+Making line breaks:
+
+    Here's the first line⋅⋅
+    Here's the second line⋅⋅
+    Here's the third line⋅⋅
+    
+    Spaces at the end of the line are shown with dots (⋅)
+
+Making notices:
+
+    ! Here's a notice with warning
+    
+    !! Here's a notice with error
+    
+    !!! Here's a notice with tip
+
+Using CSS:
+
+    ! {.class}
+    ! Here's a notice with custom class.
+    ! Text can span over several lines
+    ! and contain Markdown formatting.
+
+Using HTML:
+
+    <strong>Text with HTML</strong> can be used optionally.
+    <a href="https://datenstrom.se" target="_blank">Open link in new tab</a>.
 
 ## Developer
 
