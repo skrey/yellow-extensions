@@ -156,3 +156,4 @@ There are [extensions](https://github.com/datenstrom/yellow-extensions) for your
 * [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
 * [How to use a contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
 * [How to make a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
+* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)

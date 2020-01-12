@@ -122,9 +122,10 @@ Status: shared
 ---
 Links
 
-* [Twitter](https://twitter.com/datenstromse)
+* [Datenstrom Yellow](https://datenstrom.se/de/yellow/)
+* [Datenstrom Blue](https://datenstrom.se/de/blue/)
 * [GitHub](https://github.com/datenstrom)
-* [Datenstrom](https://datenstrom.se/de/)
+
 ```
 
 Verwende [Abkürzungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog#how-to-show-blog-information), um Informationen über das Blog anzuzeigen.
@@ -167,3 +168,4 @@ Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für de
 * [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
 * [Wie man einen Feed benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed)
 * [Wie man eine Entwurfseite macht](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
+* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)

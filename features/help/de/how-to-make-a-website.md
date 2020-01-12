@@ -88,9 +88,9 @@ Status: shared
 ---
 Links
 
-* [Twitter](https://twitter.com/datenstromse)
+* [Datenstrom Yellow](https://datenstrom.se/de/yellow/)
+* [Datenstrom Blue](https://datenstrom.se/de/blue/)
 * [GitHub](https://github.com/datenstrom)
-* [Datenstrom](https://datenstrom.se/de/)
 ```
 
 ## Erweiterungen finden
@@ -101,3 +101,4 @@ Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für de
 * [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
 * [Wie man eine Sitemap benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap)
 * [Wie man eine Kontaktseite benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
+* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
