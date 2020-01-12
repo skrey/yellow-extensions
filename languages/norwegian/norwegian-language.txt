@@ -169,7 +169,7 @@ Error500Title: Server feil
 Error500Text: Noe gikk galt. [yellow error]
 InstallTitle: Hei
 InstallExtension: Hva ønsker du å gjøre?
-InstallExtensionWebsite: Statisk nettside
+InstallExtensionWebsite: Nettsted
 InstallExtensionBlog: Blogg
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Hjem
