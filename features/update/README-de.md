@@ -71,7 +71,7 @@ Inhaltsdatei mit Logdatei:
 
     ! [yellow log]
 
-Nach Aktualisierungen in der Befehlszeile suchen:
+Aktuelle Version in der Befehlszeile anzeigen:
  
 `php yellow.php about`  
 

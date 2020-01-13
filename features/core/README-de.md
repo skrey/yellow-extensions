@@ -32,9 +32,9 @@ Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere de
 
 ## Wie man eine mehrsprachige Webseite macht
 
-Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Falls du die gesamte Webseite übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
 
-Um eine Sprachauswahl anzuzeigen, erstelle eine Seite auf der die vorhandenen Sprachen aufgelistet sind.
+Falls du die gesamte Webseite übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
 ## Verzeichnisse
 
@@ -145,6 +145,15 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `CoreServerTimezone` = Zeitzone der Webseite  
 `CoreSafeMode` = Sicherheitsmodus mit Beschränkungen aktivieren, 1 oder 0  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
+
+Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
+
+`DateFormatShort` = kurzes Datumsformat so wie Juni 2016  
+`DateFormatMedium` = mittleres Datumsformat so wie 01.06.2016  
+`DateFormatLong` = langes Datumsformat so wie 01.06.2016 13:37  
+`TimeFormatShort` = kurzes Zeitformat so wie 13:37  
+`TimeFormatMedium` = mittleres Zeitformat so wie 13:37:01  
+`TimeFormatLong` = langes Zeitformat so wie 13:37:01 GMT+1  
 
 Die folgenden Seiten-Statuswerte werden unterstützt:
 

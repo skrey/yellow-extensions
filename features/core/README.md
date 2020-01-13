@@ -32,9 +32,9 @@ If you can't trust every user on your website, then enable the safe mode. Open f
 
 ## How to make a multilingual website
 
-Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). If you want to translate the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
+Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). The default language is defined in file `system/settings/system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
 
-To show a language selection create a page that lists available languages.
+If you want to translate the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
 
 ## Folders
 
@@ -145,6 +145,15 @@ The following settings can be configured in file `system/settings/system.ini`:
 `CoreServerTimezone` = timezone of the website  
 `CoreSafeMode` = enable safe mode with restrictions, 1 or 0  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
+
+The following settings can be configured in file `system/settings/text.ini`:
+
+`DateFormatShort` = short date format such as June 2016  
+`DateFormatMedium` = medium date format such as 2016-06-01  
+`DateFormatLong` = long date format such as 2016-06-01 13:37  
+`TimeFormatShort` = short time format such as 13:37  
+`TimeFormatMedium` = medium time format such as 13:37:01  
+`TimeFormatLong` = long time format such as 13:37:01 GMT+1  
 
 The following page status values are supported:
 

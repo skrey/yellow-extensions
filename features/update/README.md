@@ -71,7 +71,7 @@ Content file with log file:
 
     ! [yellow log]
 
-Checking for updates at the command line:
+Showing current version at the command line:
  
 `php yellow.php about`  
 
