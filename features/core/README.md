@@ -34,7 +34,7 @@ If you can't trust every user on your website, then enable the safe mode. Open f
 
 Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). The default language is defined in file `system/settings/system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
 
-If you want to customise small sections of text, then change the text settings. Open file `system/settings/text.ini`. You can copy the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) of languages and adjust them here. You can also add your own text settings, for example image captions. 
+If you want to configure text, then change the text settings. Open file `system/settings/text.ini`. You can copy the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) of languages and adjust them here. You can also add your own text settings, for example image captions. 
 
 If you want to translate the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
 
