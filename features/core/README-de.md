@@ -34,7 +34,7 @@ Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere de
 
 Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
 
-Falls du die Texteinstellungen der Webseite ändern willst, öffne die Datei `system/settings/text.ini`. Du kannst die [Standardeinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) von Sprachen hierher kopieren und anpassen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
+Falls du kleine Textabschnitte auf der Webseite ändern willst, ändere die Texteinstellungen. Öffne die Datei `system/settings/text.ini`. Du kannst die [Standardeinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) von Sprachen hierher kopieren und anpassen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
 
 Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 

@@ -28,11 +28,11 @@ This extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe
 
 ## How to show image captions
 
-Image captions can be configured in file `system/settings/text.ini`.
+Image captions can be configured in the text settings. Open file `system/settings/text.ini` and add a new line for each image. An image caption consists of file name and description.
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in your text settings.
 
 `GalleryStyle` = gallery style, e.g. `photoswipe`, `simple`  
 
