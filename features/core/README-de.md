@@ -14,7 +14,7 @@ Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer 
 
 ## Wie man eine Seite versteckt
 
-Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann nicht mehr sichtbar. Du kannst zwischen verschiedenen Statuswerten wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
+Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann in der Navigation und den Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen Statuswerten wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
 
 ## Wie man eine Seite weiterleitet
 
@@ -34,7 +34,9 @@ Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere de
 
 Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
 
-Falls du die gesamte Webseite übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+Falls du die Texteinstellungen der Webseite ändern willst, öffne die Datei `system/settings/text.ini`. Du kannst die [Standardeinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) von Sprachen hierher kopieren und anpassen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
+
+Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
 ## Verzeichnisse
 
@@ -49,7 +51,7 @@ Die folgenden Verzeichnisse sind verfügbar:
 │   ├── images            = Bilder für den Inhalt
 │   └── thumbnails        = Miniaturbilder
 └── system                = Systemdateien
-    ├── extensions        = installierte Erweiterungen
+    ├── extensions        = Erweiterungen, PHP-Dateien usw.
     ├── layouts           = Layoutdateien, HTML-Dateien
     ├── resources         = Resourcendateien, CSS-Dateien usw.
     ├── settings          = Konfigurationsdateien, INI-Dateien
@@ -148,12 +150,12 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 
 Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
 
-`DateFormatShort` = kurzes Datumsformat so wie Juni 2016  
-`DateFormatMedium` = mittleres Datumsformat so wie 01.06.2016  
-`DateFormatLong` = langes Datumsformat so wie 01.06.2016 13:37  
-`TimeFormatShort` = kurzes Zeitformat so wie 13:37  
-`TimeFormatMedium` = mittleres Zeitformat so wie 13:37:01  
-`TimeFormatLong` = langes Zeitformat so wie 13:37:01 GMT+1  
+`DateFormatShort` = kurzes Datumsformat  
+`DateFormatMedium` = mittleres Datumsformat, normalerweise 01.06.2016  
+`DateFormatLong` = langes Datumsformat  
+`TimeFormatShort` = kurzes Zeitformat  
+`TimeFormatMedium` = mittleres Zeitformat, normalerweise 13:37:01  
+`TimeFormatLong` = langes Zeitformat  
 
 Die folgenden Seiten-Statuswerte werden unterstützt:
 
@@ -200,6 +202,13 @@ Inhaltsdatei mit Weiterleitung:
     Redirect: https://datenstrom.se/de/yellow/
     ---
     Diese Seite leitet zu einer anderen Seite weiter.
+
+Texteinstellungen für Erweiterungen festlegen:
+
+    Language: de
+    DateFormatMedium: d.m.Y
+    EditLoginTitle: Willkommen in Berlin
+    EditMailFooter: @sitename
 
 ## Entwickler
 

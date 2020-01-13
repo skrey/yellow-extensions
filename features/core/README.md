@@ -14,7 +14,7 @@ Please do not delete the [extension files](extension.ini), they are always requi
 
 ## How to hide a page
 
-Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer be visible. You can choose between different status values, to control who can see and access a page.
+Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer visible in navigation and search results. You can choose between different status values, to control who can see and access a page.
 
 ## How to redirect a page
 
@@ -34,6 +34,8 @@ If you can't trust every user on your website, then enable the safe mode. Open f
 
 Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). The default language is defined in file `system/settings/system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
 
+If you want to change the text settings of the website, then open file `system/settings/text.ini`. You can copy the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) of languages and adjust them here. You can also add your own text settings, for example image captions. 
+
 If you want to translate the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
 
 ## Folders
@@ -49,7 +51,7 @@ The following folders are available:
 │   ├── images            = image files for the content
 │   └── thumbnails        = image thumbnails
 └── system                = system files
-    ├── extensions        = installed extensions
+    ├── extensions        = extensions, PHP files etc.
     ├── layouts           = layout files, HTML files
     ├── resources         = resource files, CSS files etc.
     ├── settings          = configuration files, INI files
@@ -148,12 +150,12 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 The following settings can be configured in file `system/settings/text.ini`:
 
-`DateFormatShort` = short date format such as June 2016  
-`DateFormatMedium` = medium date format such as 2016-06-01  
-`DateFormatLong` = long date format such as 2016-06-01 13:37  
-`TimeFormatShort` = short time format such as 13:37  
-`TimeFormatMedium` = medium time format such as 13:37:01  
-`TimeFormatLong` = long time format such as 13:37:01 GMT+1  
+`DateFormatShort` = short date format  
+`DateFormatMedium` = medium date format, usually 2016-06-01  
+`DateFormatLong` = long date format  
+`TimeFormatShort` = short time format  
+`TimeFormatMedium` = medium time format, usually 13:37:01  
+`TimeFormatLong` = long time format  
 
 The following page status values are supported:
 
@@ -200,6 +202,13 @@ Content file with redirection:
     Redirect: https://datenstrom.se/yellow/
     ---
     This page redirects to another page.
+
+Configuring text settings for extensions:
+
+    Language: en
+    DateFormatMedium: Y-m-d
+    EditLoginTitle: Welcome to Stockholm
+    EditMailFooter: @sitename
 
 ## Developer
 

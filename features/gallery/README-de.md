@@ -56,7 +56,7 @@ Bildergalerie aus einem Unterverzeichnis hinzufügen, rechteckige Miniaturbilder
     [gallery photo-album/ - 150]
     [gallery photo-album/ simple 150]
 
-Texteinstellungen für Bildunterschriften:
+Texteinstellungen für Bildunterschriften festlegen:
 
     Language: de
     picture.jpg: Das ist eine Beispiel-Bildunterschrift.

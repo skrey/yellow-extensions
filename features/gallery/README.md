@@ -56,7 +56,7 @@ Adding an image gallery from a subfolder, square thumbnails:
     [gallery photo-album/ - 150]
     [gallery photo-album/ simple 150]
 
-Text settings for image captions:
+Configuring text settings for image captions:
 
     Language: en
     picture.jpg: This is an example image caption.

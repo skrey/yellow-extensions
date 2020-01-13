@@ -24,7 +24,7 @@ Als Alternative zu einer statischen Webseite kannst du einen statischen Zwischen
 
 ## Wie man den eingebauten Webserver benutzt
 
-Du kannst deine Webseite auch mit dem eingebauten Webserver testen. Das ist vor allem für Entwickler praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`. Daraufhin ist die Webseite vorhanden als `http://localhost:8000/`.
+Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist vor allem für Entwickler praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`. Daraufhin ist die Webseite vorhanden als `http://localhost:8000/`.
 
 ## Befehle
 
