@@ -31,7 +31,7 @@ You can use [Markdown](markdown-cheat-sheet) to edit web pages. Open the file `c
     [edit - You can edit this page] or use your text editor.
 
     You can install more features and themes.
-    [Learn more](https://extensions.datenstrom.se/help/).
+    [Learn more](https://datenstrom.se/yellow/help/).
 
 Formatting text:
 

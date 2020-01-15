@@ -14,4 +14,4 @@ Untuk menghapus hapus [file ekstensi](extension.ini).
 
 ## Penerjemah
 
-Jimmy Ofisia. [Dapatkan dukungan](https://extensions.datenstrom.se/help/).
+Jimmy Ofisia. [Dapatkan dukungan](https://datenstrom.se/yellow/help/).

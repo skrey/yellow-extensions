@@ -31,7 +31,7 @@ Du kannst [Markdown](markdown-cheat-sheet) benutzen um Webseiten zu bearbeiten. 
     [edit - Du kannst diese Seite bearbeiten] oder einen Texteditor benutzen.
     
     Du kannst weitere Funktionen und Themen installieren.
-    [Mehr erfahren](https://extensions.datenstrom.se/de/help/).
+    [Mehr erfahren](https://datenstrom.se/de/yellow/help/).
 
 Text formatieren:
 

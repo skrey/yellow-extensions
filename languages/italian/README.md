@@ -14,4 +14,4 @@ Per disinstallare, eliminare i [file di estensione](extension.ini).
 
 ## Traduttore
 
-Giovanni Salmeri. [Ottieni supporto](https://extensions.datenstrom.se/help/).
+Giovanni Salmeri. [Ottieni supporto](https://datenstrom.se/yellow/help/).

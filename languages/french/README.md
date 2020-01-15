@@ -14,4 +14,4 @@ Pour désinstaller, supprimez les [fichiers d'extension](extension.ini).
 
 ## Traducteur
 
-Juh Nibreh. [Obtenir de l'aide](https://extensions.datenstrom.se/help/).
+Juh Nibreh. [Obtenir de l'aide](https://datenstrom.se/yellow/help/).

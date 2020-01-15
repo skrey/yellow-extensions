@@ -14,4 +14,4 @@ Chcete-li odinstalovat, odstraňte [přípony souborů](extension.ini).
 
 ## Překladatel
 
-Ufo Vyhuleny. [Dostat podporu](https://extensions.datenstrom.se/help/).
+Ufo Vyhuleny. [Dostat podporu](https://datenstrom.se/yellow/help/).

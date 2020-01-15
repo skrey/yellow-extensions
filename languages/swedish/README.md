@@ -14,4 +14,4 @@ För att avinstallera ta bort [tilläggsfiler](extension.ini).
 
 ## Översättare
 
-Adam Engel. [Få stöd](https://extensions.datenstrom.se/help/).
+Adam Engel. [Få stöd](https://datenstrom.se/yellow/help/).

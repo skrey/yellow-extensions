@@ -180,7 +180,7 @@ InstallExtensionWebsite: Веб-сайт
 InstallExtensionBlog: Блог
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Главная
-InstallHomeText: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.\n\nВы можете установить больше функций и тем.\n[Учить больше](https://extensions.datenstrom.se/help/).
+InstallHomeText: Ваш сайт работает!\n\n[edit - Вы можете отредактировать эту страницу] или использовать ваш текстовый редактор.\n\nВы можете установить больше функций и тем.\n[Учить больше](https://datenstrom.se/yellow/help/).
 InstallDefaultTitle: Страница
 InstallDefaultText: Это новая страница.
 InstallBlogTitle: Страница блога

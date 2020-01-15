@@ -26,7 +26,7 @@ Deine Webseite funktioniert!
 [edit - Du kannst diese Seite bearbeiten] oder einen Texteditor benutzen.
 
 Du kannst weitere Funktionen und Themen installieren.
-[Mehr erfahren](https://extensions.datenstrom.se/de/help/).
+[Mehr erfahren](https://datenstrom.se/de/yellow/help/).
 ```
 
 Um eine neue Seite hinzuzufügen, erstellst du eine neue Datei im Home-Verzeichnis oder einem anderen `content`-Verzeichnis. Die [Navigation](adjusting-content) wird automatisch aus deinen `content`-Verzeichnissen erstellt. Hier ist ein weiteres Beispiel:
@@ -37,7 +37,7 @@ Title: Demo
 ---
 [edit - Du kannst diese Seite bearbeiten]. Die Hilfe zeigt dir 
 wie man kleine Webseiten, Blogs und Wikis erstellt.
-[Mehr erfahren](https://extensions.datenstrom.se/de/help/).
+[Mehr erfahren](https://datenstrom.se/de/yellow/help/).
 ```
 
 Ein Bild hinzufügen:
@@ -50,7 +50,7 @@ Title: Demo
 
 [edit - Du kannst diese Seite bearbeiten]. Die Hilfe zeigt dir 
 wie man kleine Webseiten, Blogs und Wikis erstellt.
-[Mehr erfahren](https://extensions.datenstrom.se/de/help/).
+[Mehr erfahren](https://datenstrom.se/de/yellow/help/).
 ```
 
 ## Kopfzeile anzeigen

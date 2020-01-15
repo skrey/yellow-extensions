@@ -14,4 +14,4 @@ Om de installatie ongedaan te maken, verwijdert u de [extensiebestanden](extensi
 
 ## Vertaler
 
-Robin Vannieuwenhuijse. [Krijg ondersteuning](https://extensions.datenstrom.se/help/).
+Robin Vannieuwenhuijse. [Krijg ondersteuning](https://datenstrom.se/yellow/help/).

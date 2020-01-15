@@ -14,4 +14,4 @@ Bengali 0.8.17
 
 ## অনুবাদক
 
-Mohammed Nazmul Ferdous. [সমর্থন পেতে](https://extensions.datenstrom.se/help/).
+Mohammed Nazmul Ferdous. [সমর্থন পেতে](https://datenstrom.se/yellow/help/).

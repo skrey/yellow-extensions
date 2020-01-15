@@ -14,4 +14,4 @@ Chinese/简体中文 与语言 'zh-CN'.
 
 ## 翻译器
 
-Hyson Lee. [得到支持](https://extensions.datenstrom.se/help/).
+Hyson Lee. [得到支持](https://datenstrom.se/yellow/help/).

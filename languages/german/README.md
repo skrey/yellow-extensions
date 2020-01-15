@@ -14,4 +14,4 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Übersetzer
 
-David Fehrmann. [Support finden](https://extensions.datenstrom.se/de/help/).
+David Fehrmann. [Support finden](https://datenstrom.se/de/yellow/help/).

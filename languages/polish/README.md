@@ -14,4 +14,4 @@ Aby odinstalować, usuń [pliki rozszerzeń](extension.ini).
 
 ## Tłumacz
 
-Paweł Klockiewicz. [Uzyskać wsparcie](https://extensions.datenstrom.se/help/).
+Paweł Klockiewicz. [Uzyskać wsparcie](https://datenstrom.se/yellow/help/).

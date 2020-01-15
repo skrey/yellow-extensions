@@ -14,4 +14,4 @@ For at afinstallere slet [filtypenavne](extension.ini).
 
 ## Oversætter
 
-David Garcia. [Få hjælp](https://extensions.datenstrom.se/help/).
+David Garcia. [Få hjælp](https://datenstrom.se/yellow/help/).

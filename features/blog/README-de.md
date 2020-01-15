@@ -110,7 +110,7 @@ Liste mit Seiten anzeigen:
 
 ## Entwickler
 
-Datenstrom. [Support finden](https://extensions.datenstrom.se/de/help/).
+Datenstrom. [Support finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

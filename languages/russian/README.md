@@ -14,4 +14,4 @@ Russian/Русский с языком 'ru'.
 
 ## Перевод
 
-Сергей Ворон. [Получить помощь](https://extensions.datenstrom.se/help/).
+Сергей Ворон. [Получить помощь](https://datenstrom.se/yellow/help/).

@@ -14,4 +14,4 @@ For å avinstallere slett [utvidelsesfilene](extension.ini).
 
 ## Oversetter
 
-Per Arne Solvik. [Få støtte](https://extensions.datenstrom.se/help/).
+Per Arne Solvik. [Få støtte](https://datenstrom.se/yellow/help/).

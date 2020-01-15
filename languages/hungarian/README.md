@@ -14,4 +14,4 @@ Az eltávolítás eltávolításához törölje a [kiterjesztés fájljait](exte
 
 ## Fordító
 
-Ádám Tuba. [Támogatást kapni](https://extensions.datenstrom.se/help/).
+Ádám Tuba. [Támogatást kapni](https://datenstrom.se/yellow/help/).

@@ -14,4 +14,4 @@ Para desinstalar, exclua os [arquivos de extensão](extension.ini).
 
 ## Tradutor
 
-Al Garcia. [Obtenha suporte](https://extensions.datenstrom.se/help/).
+Al Garcia. [Obtenha suporte](https://datenstrom.se/yellow/help/).

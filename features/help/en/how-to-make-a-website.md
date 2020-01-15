@@ -26,7 +26,7 @@ Your website works!
 [edit - You can edit this page] or use your text editor.
 
 You can install more features and themes.
-[Learn more](https://extensions.datenstrom.se/help/).
+[Learn more](https://datenstrom.se/yellow/help/).
 ```
 
 To create a new page, add a new file to the home folder or another `content` folder. The [navigation](adjusting-content) is automatically created from your `content` folders. Here's another example:
@@ -37,7 +37,7 @@ Title: Demo
 ---
 [edit - You can edit this page]. The help gives you more information 
 about how to create small web pages, blogs and wikis. 
-[Learn more](https://extensions.datenstrom.se/help/).
+[Learn more](https://datenstrom.se/yellow/help/).
 ```
 
 Now let's add an image:
@@ -50,7 +50,7 @@ Title: Demo
 
 [edit - You can edit this page]. The help gives you more information 
 about how to create small web pages, blogs and wikis. 
-[Learn more](https://extensions.datenstrom.se/help/).
+[Learn more](https://datenstrom.se/yellow/help/).
 ```
 
 ## Showing header

@@ -14,4 +14,4 @@ Ak chcete odinštalovať, odstráňte [prípony súborov](extension.ini).
 
 ## Prekladateľ
 
-Ádám Tuba. [Získať podporu](https://extensions.datenstrom.se/help/).
+Ádám Tuba. [Získať podporu](https://datenstrom.se/yellow/help/).

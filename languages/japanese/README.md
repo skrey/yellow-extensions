@@ -14,4 +14,4 @@ Japanese 0.8.17
 
 ## 翻訳者
 
-Yuhko Senuma. [支持を得ます](https://extensions.datenstrom.se/help/).
+Yuhko Senuma. [支持を得ます](https://datenstrom.se/yellow/help/).

@@ -14,4 +14,4 @@ To uninstall delete the [extension files](extension.ini).
 
 ## Translator
 
-Mark Seuffert. [Get support](https://extensions.datenstrom.se/help/).
+Mark Seuffert. [Get support](https://datenstrom.se/yellow/help/).
