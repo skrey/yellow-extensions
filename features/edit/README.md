@@ -1,4 +1,4 @@
-Edit 0.8.17
+Edit 0.8.18
 ===========
 Edit your website in a web browser.
 
@@ -62,12 +62,12 @@ The following settings can be configured in file `system/settings/user.ini`:
 `Language` = language of the user  
 `Home` = home page of the user  
 `Access` = user access rights, e.g. `edit`  
-`Status` = user status, e.g. `active`  
-`Pending` = pending changes  
 `Hash` = encrypted password  
 `Stamp` = unique token for authentication  
+`Pending` = pending changes  
 `Failed` = number of failed login attempts  
 `Modified` = modification date, YYYY-MM-DD format  
+`Status` = user status, e.g. `active`  
 
 The following user access rights are supported:
 
@@ -110,7 +110,7 @@ Configuring different toolbar buttons:
 ```
 EditToolbarButtons: auto 
 EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
-EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, markdown
+EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
 EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
@@ -122,12 +122,12 @@ Name: Anna Svensson
 Language: en
 Home: /
 Access: create, edit, delete, upload, system, update
-Status: active
-Pending: none
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
+Pending: none
 Failed: 0
 Modified: 2000-01-01 13:37:00
+Status: active
 ```
 
 Showing available user accounts at the command line:

@@ -21,14 +21,27 @@ ContactStatusInvalid: Bitte eine gültige E-Mail angeben.
 ContactStatusReview: Bitte entferne Links aus der Nachricht.
 ContactStatusDone: Nachricht wurde versandt. Vielen Dank!
 ContactStatusError: Nachricht konnte nicht versandt werden, versuche es später erneut!
-DatePast: heute, gestern, vor @x Tagen, vor 1 Monat, vor @x Monaten, vor 1 Jahr, vor @x Jahren, am @x
-DateFuture: bald, morgen, in @x Tagen, in 1 Monat, in @x Monaten, in 1 Jahr, in @x Jahren, am @x
-DateMonths: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember
-DateWeekdays: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag
-DateWeekstart: Montag
-DateFormatShort: F Y
-DateFormatMedium: d.m.Y
-DateFormatLong: d.m.Y H:i
+CoreDatePast: heute, gestern, vor @x Tagen, vor 1 Monat, vor @x Monaten, vor 1 Jahr, vor @x Jahren, am @x
+CoreDateFuture: bald, morgen, in @x Tagen, in 1 Monat, in @x Monaten, in 1 Jahr, in @x Jahren, am @x
+CoreDateMonths: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember
+CoreDateWeekdays: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag
+CoreDateWeekstart: Montag
+CoreDateFormatShort: F Y
+CoreDateFormatMedium: d.m.Y
+CoreDateFormatLong: d.m.Y H:i
+CoreTimeFormatShort: H:i
+CoreTimeFormatMedium: H:i:s
+CoreTimeFormatLong: H:i:s T
+CorePaginationPrevious: ← Zurück
+CorePaginationNext: Weiter →
+CoreError404Title: Datei nicht gefunden
+CoreError404Text: Die angeforderte Datei wurde nicht gefunden. Oh nein...
+CoreError430Title: Anmeldung fehlgeschlagen
+CoreError430Text: E-Mail oder Kennwort ist falsch. [Bitte erneut versuchen](javascript:yellow.action('login');).
+CoreError434Title: Datei nicht gefunden
+CoreError434Text: Die angeforderte Datei wurde nicht gefunden. [Du kannst diese Seite erstellen](javascript:yellow.action('edit');).
+CoreError500Title: Serverfehler
+CoreError500Text: Etwas ist schief gelaufen. [yellow error]
 DraftStatusEmpty: Keine Entwürfe gefunden.
 EditLoginTitle: Willkommen
 EditLoginEmail: E-Mail:
@@ -159,14 +172,8 @@ EditUploadProgress: [Datei hochladen…]
 EditMenuSettings: Einstellungen
 EditMenuHelp: Hilfe
 EditMenuLogout: Abmelden
-Error404Title: Datei nicht gefunden
-Error404Text: Die angeforderte Datei wurde nicht gefunden. Oh nein...
-Error430Title: Anmeldung fehlgeschlagen
-Error430Text: E-Mail oder Kennwort ist falsch. [Bitte erneut versuchen](javascript:yellow.action('login');).
-Error434Title: Datei nicht gefunden
-Error434Text: Die angeforderte Datei wurde nicht gefunden. [Du kannst diese Seite erstellen](javascript:yellow.action('edit');).
-Error500Title: Serverfehler
-Error500Text: Etwas ist schief gelaufen. [yellow error]
+EditYellowUrl: https://datenstrom.se/de/yellow/
+EditYellowHelpUrl: https://datenstrom.se/de/yellow/help/
 InstallTitle: Hallo
 InstallExtension: Was willst du machen?
 InstallExtensionWebsite: Webseite
@@ -180,21 +187,14 @@ InstallBlogTitle: Blogseite
 InstallBlogText: Dies ist eine neue Blogseite.
 InstallWikiTitle: Wikiseite
 InstallWikiText: Dies ist eine neue Wikiseite.
-PagePrevious: ← Zurück: @title
-PageNext: Weiter: @title →
-PaginationPrevious: ← Zurück
-PaginationNext: Weiter →
+InstallExampleImage: Das ist ein Beispielbild
+PreviousnextPagePrevious: ← Zurück: @title
+PreviousnextPageNext: Weiter: @title →
 SearchResultsNone: Bitte einen Suchbegriff eingeben.
 SearchResultsEmpty: Keine Treffer für diese Suchanfrage.
 SearchSpecialChanges: Letzte Änderungen
 SearchButton: Suchen
-TimeFormatShort: H:i
-TimeFormatMedium: H:i:s
-TimeFormatLong: H:i:s T
 WikiModified: Zuletzt aktualisiert am
 WikiTag: Tags:
 WikiSpecialPages: Alle Seiten
 WikiSpecialChanges: Letzte Änderungen
-YellowUrl: https://datenstrom.se/de/yellow/
-YellowHelpUrl: https://extensions.datenstrom.se/de/help/
-YellowMarkdownUrl: https://extensions.datenstrom.se/de/help/markdown-cheat-sheet

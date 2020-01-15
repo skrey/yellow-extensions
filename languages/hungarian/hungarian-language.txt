@@ -21,14 +21,27 @@ ContactStatusInvalid: Kérlek érvényes e-mail címet adj meg.
 ContactStatusReview: Please remove links from the message.
 ContactStatusDone: Sikeresen elküldted az üzenetet.
 ContactStatusError: A küldés sikertelen volt. Kérlek próbáld meg később.
-DatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
-DateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years, on @x
-DateMonths: Január, Február, Március, Április, Május, Június, Július, Augusztus, Szeptember, Október, November, December
-DateWeekdays: Hétfő, Kedd, Szerda, Csütörtök, Péntek, Szombat, Vasárnap
-DateWeekstart: Hétfő
-DateFormatShort: Y F
-DateFormatMedium: Y-m-d
-DateFormatLong: Y-m-d H:i
+CoreDatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
+CoreDateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years, on @x
+CoreDateMonths: Január, Február, Március, Április, Május, Június, Július, Augusztus, Szeptember, Október, November, December
+CoreDateWeekdays: Hétfő, Kedd, Szerda, Csütörtök, Péntek, Szombat, Vasárnap
+CoreDateWeekstart: Hétfő
+CoreDateFormatShort: Y F
+CoreDateFormatMedium: Y-m-d
+CoreDateFormatLong: Y-m-d H:i
+CoreTimeFormatShort: H:i
+CoreTimeFormatMedium: H:i:s
+CoreTimeFormatLong: H:i:s T
+CorePaginationPrevious: ← Előző
+CorePaginationNext: Tovább →
+CoreError404Title: Fájl nem található
+CoreError404Text: A kért fájl nem található. Óh ne...
+CoreError430Title: Login failed
+CoreError430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+CoreError434Title: File not found
+CoreError434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+CoreError500Title: Server error
+CoreError500Text: Something went wrong. [yellow error]
 DraftStatusEmpty: No drafts found.
 EditLoginTitle: Üdvözöljük
 EditLoginEmail: E-mail:
@@ -159,14 +172,8 @@ EditUploadProgress: [Uploading file…]
 EditMenuSettings: Settings
 EditMenuHelp: Súgó
 EditMenuLogout: Kijelentkezés
-Error404Title: Fájl nem található
-Error404Text: A kért fájl nem található. Óh ne...
-Error430Title: Login failed
-Error430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
-Error434Title: File not found
-Error434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
-Error500Title: Server error
-Error500Text: Something went wrong. [yellow error]
+EditYellowUrl: https://datenstrom.se/yellow/
+EditYellowHelpUrl: https://datenstrom.se/yellow/help/
 InstallTitle: Helló
 InstallExtension: Mit akarsz tenni?
 InstallExtensionWebsite: Weboldal
@@ -180,21 +187,14 @@ InstallBlogTitle: Blog page
 InstallBlogText: This is a new blog page.
 InstallWikiTitle: Wiki page
 InstallWikiText: This is a new wiki page.
-PagePrevious: ← Előző: @title
-PageNext: Tovább: @title →
-PaginationPrevious: ← Előző
-PaginationNext: Tovább →
+InstallExampleImage: This is an example image
+PreviousnextPagePrevious: ← Előző: @title
+PreviousnextPageNext: Tovább: @title →
 SearchResultsNone: Keresett kifejezés
 SearchResultsEmpty: Nincs találat.
 SearchSpecialChanges: Legutóbbi változások
 SearchButton: Keresés
-TimeFormatShort: H:i
-TimeFormatMedium: H:i:s
-TimeFormatLong: H:i:s T
 WikiModified: Utolsó frissítés
 WikiTag: Címke:
 WikiSpecialPages: Az összes oldal
 WikiSpecialChanges: Legutóbbi változások
-YellowUrl: https://datenstrom.se/yellow/
-YellowHelpUrl: https://extensions.datenstrom.se/help/
-YellowMarkdownUrl: https://extensions.datenstrom.se/help/markdown-cheat-sheet

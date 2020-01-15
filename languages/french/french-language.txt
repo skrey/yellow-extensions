@@ -21,14 +21,27 @@ ContactStatusInvalid: S'il vous plaît, veuillez entrer une adresse email valide
 ContactStatusReview: S'il vous plaît, veuillez supprimer les liens du message.
 ContactStatusDone: Votre message a bien été envoyé. Merci !
 ContactStatusError: Votre message n'a pas pu être envoyé, réessayez plus tard s'il vous plaît !
-DatePast: aujourd'hui, hier, il y a @x jours, il ya 1 mois, il y a @x mois, il y a 1 an, il y a @x ans, le @x
-DateFuture: bientôt, demain, dans @x jours, en 1 mois, dans @x mois, en 1 an, dans @x ans, le @x
-DateMonths: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre
-DateWeekdays: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche
-DateWeekstart: lundi
-DateFormatShort: F Y
-DateFormatMedium: d/m/Y
-DateFormatLong: d/m/Y H:i
+CoreDatePast: aujourd'hui, hier, il y a @x jours, il ya 1 mois, il y a @x mois, il y a 1 an, il y a @x ans, le @x
+CoreDateFuture: bientôt, demain, dans @x jours, en 1 mois, dans @x mois, en 1 an, dans @x ans, le @x
+CoreDateMonths: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre
+CoreDateWeekdays: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche
+CoreDateWeekstart: lundi
+CoreDateFormatShort: F Y
+CoreDateFormatMedium: d/m/Y
+CoreDateFormatLong: d/m/Y H:i
+CoreTimeFormatShort: H:i
+CoreTimeFormatMedium: H:i:s
+CoreTimeFormatLong: H:i:s T
+CorePaginationPrevious: ← Précédent
+CorePaginationNext: Suivant →
+CoreError404Title: Fichier non trouvé
+CoreError404Text: Le fichier demandé n'a pas été trouvé. Oh non...
+CoreError430Title: La connexion a échoué
+CoreError430Text: L'email ou le mot de passe est incorrect. [Veuillez réessayer](javascript:yellow.action('login');).
+CoreError434Title: Fichier non trouvé
+CoreError434Text: Le fichier demandé n'a pas été trouvé. [Vous pouvez créer cette page](javascript:yellow.action('edit');).
+CoreError500Title: Erreur du serveur
+CoreError500Text: Une erreur s'est produite. [yellow error]
 DraftStatusEmpty: Aucun brouillon trouvé.
 EditLoginTitle: Bienvenue
 EditLoginEmail: Email:
@@ -159,14 +172,8 @@ EditUploadProgress: [Téléchargement du fichier…]
 EditMenuSettings: Paramètres
 EditMenuHelp: Aide
 EditMenuLogout: Déconnexion
-Error404Title: Fichier non trouvé
-Error404Text: Le fichier demandé n'a pas été trouvé. Oh non...
-Error430Title: La connexion a échoué
-Error430Text: L'email ou le mot de passe est incorrect. [Veuillez réessayer](javascript:yellow.action('login');).
-Error434Title: Fichier non trouvé
-Error434Text: Le fichier demandé n'a pas été trouvé. [Vous pouvez créer cette page](javascript:yellow.action('edit');).
-Error500Title: Erreur du serveur
-Error500Text: Une erreur s'est produite. [yellow error]
+EditYellowUrl: https://datenstrom.se/yellow/
+EditYellowHelpUrl: https://datenstrom.se/yellow/help/
 InstallTitle: Bonjour
 InstallExtension: Que voulez-vous faire ?
 InstallExtensionWebsite: Site web
@@ -180,21 +187,14 @@ InstallBlogTitle: Page de blog
 InstallBlogText: Ceci est une nouvelle page de blog.
 InstallWikiTitle: Page de wiki
 InstallWikiText: Ceci est une nouvelle page de wiki.
-PagePrevious: ← Précédent: @title
-PageNext: Suivant: @title →
-PaginationPrevious: ← Précédent
-PaginationNext: Suivant →
+InstallExampleImage: Ceci est un exemple d'image
+PreviousnextPagePrevious: ← Précédent: @title
+PreviousnextPageNext: Suivant: @title →
 SearchResultsNone: Entrez un mot dans le champ de recherche.
 SearchResultsEmpty: Pas de résultats.
 SearchSpecialChanges: Changements récents
 SearchButton: Rechercher
-TimeFormatShort: H:i
-TimeFormatMedium: H:i:s
-TimeFormatLong: H:i:s T
 WikiModified: Dernière mise à jour le
 WikiTag: Tags:
 WikiSpecialPages: Toutes les pages
 WikiSpecialChanges: Changements récents
-YellowUrl: https://datenstrom.se/yellow/
-YellowHelpUrl: https://extensions.datenstrom.se/help/
-YellowMarkdownUrl: https://extensions.datenstrom.se/help/markdown-cheat-sheet

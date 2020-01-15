@@ -1,4 +1,4 @@
-Edit 0.8.17
+Edit 0.8.18
 ===========
 Webseite im Webbrowser bearbeiten.
 
@@ -62,12 +62,12 @@ Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorg
 `Language` = Sprache des Benutzers  
 `Home` = Startseite des Benutzers  
 `Access` = Zugriffsrechte des Benutzers, z.B. `edit`  
-`Status` = Status des Benutzers, z.B. `active`  
-`Pending` = ausstehende Änderungen  
 `Hash` = verschlüsseltes Kennwort  
 `Stamp` = eindeutiges Token zur Authentifizierung  
+`Pending` = ausstehende Änderungen  
 `Failed` = Anzahl fehlgeschlagener Anmeldeversuche  
 `Modified` = Änderungsdatum, JJJJ-MM-TT Format  
+`Status` = Status des Benutzers, z.B. `active`  
 
 Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 
@@ -110,7 +110,7 @@ Verschiedene Symbolleistenschaltflächen festlegen:
 ```
 EditToolbarButtons: auto 
 EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
-EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, markdown
+EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
 EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
@@ -122,12 +122,12 @@ Name: Anna Svensson
 Language: de
 Home: /
 Access: create, edit, delete, upload, system, update
-Status: active
-Pending: none
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
+Pending: none
 Failed: 0
 Modified: 2000-01-01 13:37:00
+Status: active
 ```
 
 Vorhandene Benutzerkonten in der Befehlszeile anzeigen:

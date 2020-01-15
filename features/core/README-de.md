@@ -1,5 +1,5 @@
-Core 0.8.9
-==========
+Core 0.8.10
+===========
 Kernfunktionalität der Webseite.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
@@ -34,7 +34,7 @@ Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere de
 
 Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
 
-Falls du Text anpassen willst, ändere die Texteinstellungen. Öffne die Datei `system/settings/text.ini`. Du kannst die [Standardeinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) von Sprachen hierher kopieren und anpassen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
+Falls du Textabschnitte anpassen willst, ändere die Texteinstellungen. Öffne die Datei `system/settings/text.ini`. Du kannst die [Standardeinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) von Sprachen hierher kopieren und anpassen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
 
 Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
@@ -110,17 +110,13 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
 `Theme` = Thema der Seite  
 `Parser` = Parser der Seite  
+`Status` = Status der Seite, z.B. `public`  
 `Image` = Bild der Seite  
 `ImageAlt` = Alternative Bildbeschreibung der Seite  
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
-`Status` = Status der Seite, z.B. `public`  
 `Redirect` = Weiterleitung zu einer anderen Seite oder URL  
-`Navigation` = Navigation der Seite  
-`Header` = Kopfzeile der Seite  
-`Footer` = Fußzeile der Seite  
-`Sidebar` = Sidebar der Seite  
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
@@ -132,10 +128,6 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `Theme` = Standard-Theme  
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus, z.B. `public`  
-`Navigation` = Standard-Navigation  
-`Header` = Standard-Kopfzeile  
-`Footer` = Standard-Fußzeile  
-`Sidebar` = Standard-Sidebar  
 
 `CoreStaticUrl` = URL der statischen Webseite  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
@@ -150,12 +142,12 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 
 Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
 
-`DateFormatShort` = kurzes Datumsformat  
-`DateFormatMedium` = mittleres Datumsformat, normalerweise 01.06.2016  
-`DateFormatLong` = langes Datumsformat  
-`TimeFormatShort` = kurzes Zeitformat  
-`TimeFormatMedium` = mittleres Zeitformat, normalerweise 13:37:01  
-`TimeFormatLong` = langes Zeitformat  
+`CoreDateFormatShort` = kurzes Datumsformat  
+`CoreDateFormatMedium` = mittleres Datumsformat, normalerweise 01.06.2016  
+`CoreDateFormatLong` = langes Datumsformat  
+`CoreTimeFormatShort` = kurzes Zeitformat  
+`CoreTimeFormatMedium` = mittleres Zeitformat, normalerweise 13:37:01  
+`CoreTimeFormatLong` = langes Zeitformat  
 
 Die folgenden Seiten-Statuswerte werden unterstützt:
 
@@ -168,9 +160,8 @@ Die folgenden Seiten-Statuswerte werden unterstützt:
 
 Die folgenden Dateien können angepasst werden:
 
+`content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
 `content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
-`content/shared/header.md` = Inhaltsdatei für Kopfzeile, wahlweise  
-`content/shared/footer.md` = Inhaltsdatei für Fußzeile, wahlweise  
 `system/layouts/default.html` = Layoutdatei für normale Seite  
 `system/layouts/error.html` = Layoutdatei für Fehlerseite  
 `system/layouts/header.html` = Layoutdatei für Standard-Kopfzeile  
@@ -206,9 +197,9 @@ Inhaltsdatei mit Weiterleitung:
 Texteinstellungen für Erweiterungen festlegen:
 
     Language: de
-    DateFormatMedium: d.m.Y
+    CoreDateFormatMedium: d.m.Y
     EditLoginTitle: Willkommen in Berlin
-    EditMailFooter: @sitename
+    picture.jpg: Dies ist ein Beispielbild
 
 ## Entwickler
 

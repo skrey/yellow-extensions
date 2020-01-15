@@ -1,4 +1,4 @@
-Emojiawesome 0.8.3
+Emojiawesome 0.8.4
 ==================
 Lots and lots of emoji.
 

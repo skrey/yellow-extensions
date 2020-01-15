@@ -35,7 +35,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 The following settings can be configured in file `system/settings/text.ini`:
 
-`ContactMailSpam` = prefix for contact messages with spam  
 `ContactMailFooter` = footer for contact messages  
 
 The following files can be configured:

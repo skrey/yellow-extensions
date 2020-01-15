@@ -46,7 +46,7 @@ Bilder hinzufügen:
 
     [image picture.jpg]
     [image picture.jpg Picture]
-    [image picture.jpg "Dies ist ein Beispielbild"]
+    [image picture.jpg "Das ist ein Beispielbild"]
 
 Bilder in unterschiedlichen Stilen hinzufügen:
 

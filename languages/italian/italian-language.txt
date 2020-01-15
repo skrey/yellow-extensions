@@ -21,14 +21,27 @@ ContactStatusInvalid: Inserisci per favore un indirizzo email valido.
 ContactStatusReview: Rimuovere per favore i collegamenti dal messaggio.
 ContactStatusDone: Il tuo messaggio è stato inviato con successo. Grazie!
 ContactStatusError: C'è stato un problema nell'invio del messaggio. Riprova per favore più tardi.
-DatePast: oggi, ieri, @x giorni fa, un mese fa, @x mesi fa, un anno fa, @x anni fa, il @x
-DateFuture: presto, domani, tra @x giorni, tra un mese, tra @x mesi, tra un anno, tra @x anni, il @x
-DateMonths: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
-DateWeekdays: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica
-DateWeekstart: lunedì
-DateFormatShort: F Y
-DateFormatMedium: d/m/Y
-DateFormatLong: d/m/Y H:i
+CoreDatePast: oggi, ieri, @x giorni fa, un mese fa, @x mesi fa, un anno fa, @x anni fa, il @x
+CoreDateFuture: presto, domani, tra @x giorni, tra un mese, tra @x mesi, tra un anno, tra @x anni, il @x
+CoreDateMonths: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
+CoreDateWeekdays: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica
+CoreDateWeekstart: lunedì
+CoreDateFormatShort: F Y
+CoreDateFormatMedium: d/m/Y
+CoreDateFormatLong: d/m/Y H:i
+CoreTimeFormatShort: H:i
+CoreTimeFormatMedium: H:i:s
+CoreTimeFormatLong: H:i:s T
+CorePaginationPrevious: ← Precedente
+CorePaginationNext: Successivo →
+CoreError404Title: Pagina non trovata
+CoreError404Text: La pagina richiesta non è stata trovata. Oh no...
+CoreError430Title: Accesso non riuscito
+CoreError430Text: L'indirizzo email o la password non è corretto. [Per favore riprova](javascript:yellow.action('login');).
+CoreError434Title: Pagina non trovata
+CoreError434Text: La pagina richiesta non è stata trovata. [Puoi creare ora questa pagina](javascript:yellow.action('edit');).
+CoreError500Title: Errore del server
+CoreError500Text: Qualcosa non ha funzionato. [yellow error]
 DraftStatusEmpty: No drafts found.
 EditLoginTitle: Benvenuto!
 EditLoginEmail: Email:
@@ -159,14 +172,8 @@ EditUploadProgress: [Caricamento del file in corso…]
 EditMenuSettings: Impostazioni
 EditMenuHelp: Aiuto
 EditMenuLogout: Esci
-Error404Title: Pagina non trovata
-Error404Text: La pagina richiesta non è stata trovata. Oh no...
-Error430Title: Accesso non riuscito
-Error430Text: L'indirizzo email o la password non è corretto. [Per favore riprova](javascript:yellow.action('login');).
-Error434Title: Pagina non trovata
-Error434Text: La pagina richiesta non è stata trovata. [Puoi creare ora questa pagina](javascript:yellow.action('edit');).
-Error500Title: Errore del server
-Error500Text: Qualcosa non ha funzionato. [yellow error]
+EditYellowUrl: https://datenstrom.se/yellow/
+EditYellowHelpUrl: https://datenstrom.se/yellow/help/
 InstallTitle: Ciao
 InstallExtension: Che cosa vuoi fare?
 InstallExtensionWebsite: Sito web
@@ -180,21 +187,14 @@ InstallBlogTitle: Blog page
 InstallBlogText: This is a new blog page.
 InstallWikiTitle: Wiki page
 InstallWikiText: This is a new wiki page.
-PagePrevious: ← Precedente: @title
-PageNext: Successivo: @title →
-PaginationPrevious: ← Precedente
-PaginationNext: Successivo →
+InstallExampleImage: This is an example image
+PreviousnextPagePrevious: ← Precedente: @title
+PreviousnextPageNext: Successivo: @title →
 SearchResultsNone: Inserisci il termine da cercare.
 SearchResultsEmpty: Nessun risultato trovato.
 SearchSpecialChanges: Modifiche recenti
 SearchButton: Cerca
-TimeFormatShort: H:i
-TimeFormatMedium: H:i:s
-TimeFormatLong: H:i:s T
 WikiModified: Ultimo aggiornamento il
 WikiTag: Tag:
 WikiSpecialPages: Tutte le pagine
 WikiSpecialChanges: Modifiche recenti
-YellowUrl: https://datenstrom.se/yellow/
-YellowHelpUrl: https://extensions.datenstrom.se/help/
-YellowMarkdownUrl: https://extensions.datenstrom.se/help/markdown-cheat-sheet

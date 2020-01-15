@@ -59,7 +59,7 @@ Bildergalerie aus einem Unterverzeichnis hinzufügen, rechteckige Miniaturbilder
 Bildunterschriften in den Texteinstellungen festlegen:
 
     Language: de
-    picture.jpg: Das ist eine Beispiel-Bildunterschrift.
+    picture.jpg: Das ist ein Beispielbild
     photo-2387365-fika-time.jpg: Fika ist ein wichtiger Teil des Lebens in Schweden. Bild: Taylor Franz
     photo-2391666-start-painting.jpg: Aquarellfarben, Pinsel und Papier. Bild: Tim Arterbury
 

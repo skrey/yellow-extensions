@@ -1,5 +1,5 @@
-Core 0.8.9
-==========
+Core 0.8.10
+===========
 Core functionality of the website.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Screenshot"></p>
@@ -34,7 +34,7 @@ If you can't trust every user on your website, then enable the safe mode. Open f
 
 Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). The default language is defined in file `system/settings/system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
 
-If you want to configure text, then change the text settings. Open file `system/settings/text.ini`. You can copy the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) of languages and adjust them here. You can also add your own text settings, for example image captions. 
+If you want to configure text sections, then change the text settings. Open file `system/settings/text.ini`. You can copy the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) of languages and adjust them here. You can also add your own text settings, for example image captions. 
 
 If you want to translate the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
 
@@ -110,17 +110,13 @@ The following settings can be configured at the top of a page:
 `LayoutNew` = page layout for creating a new page  
 `Theme` = page theme  
 `Parser` = page parser  
+`Status` = page status, e.g. `public`  
 `Image` = page image  
 `ImageAlt` = alternative text for page image  
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Status` = page status, e.g. `public`  
 `Redirect` = redirect to another page or URL  
-`Navigation` = page navigation  
-`Header` = page header  
-`Footer` = page footer  
-`Sidebar` = page sidebar  
 
 The following settings can be configured in file `system/settings/system.ini`:
 
@@ -132,10 +128,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Theme` = default theme  
 `Parser` = default page parser  
 `Status` = default page status, e.g. `public`  
-`Navigation` = default page navigation  
-`Header` = default page header  
-`Footer` = default page footer  
-`Sidebar` = default page sidebar  
 
 `CoreStaticUrl` = URL for static website  
 `CoreStaticDefaultFile` =  default file for static website  
@@ -150,12 +142,12 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 The following settings can be configured in file `system/settings/text.ini`:
 
-`DateFormatShort` = short date format  
-`DateFormatMedium` = medium date format, usually 2016-06-01  
-`DateFormatLong` = long date format  
-`TimeFormatShort` = short time format  
-`TimeFormatMedium` = medium time format, usually 13:37:01  
-`TimeFormatLong` = long time format  
+`CoreDateFormatShort` = short date format  
+`CoreDateFormatMedium` = medium date format, usually 2016-06-01  
+`CoreDateFormatLong` = long date format  
+`CoreTimeFormatShort` = short time format  
+`CoreTimeFormatMedium` = medium time format, usually 13:37:01  
+`CoreTimeFormatLong` = long time format  
 
 The following page status values are supported:
 
@@ -168,9 +160,8 @@ The following page status values are supported:
 
 The following files can be configured:
 
+`content/shared/page-error-404.md` = content file for error page  
 `content/shared/page-new-default.md` = content file for new page  
-`content/shared/header.md` = content file for page header, optional  
-`content/shared/footer.md` = content file for page footer, optional  
 `system/layouts/default.html` = layout file for normal page  
 `system/layouts/error.html` = layout file for error page  
 `system/layouts/header.html` = layout file for default header  
@@ -206,9 +197,9 @@ Content file with redirection:
 Configuring text settings for extensions:
 
     Language: en
-    DateFormatMedium: Y-m-d
+    CoreDateFormatMedium: Y-m-d
     EditLoginTitle: Welcome to Stockholm
-    EditMailFooter: @sitename
+    picture.jpg: This is an example image
 
 ## Developer
 

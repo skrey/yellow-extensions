@@ -21,14 +21,27 @@ ContactStatusInvalid: Vennligst angi en gyldig epost adresse.
 ContactStatusReview: Vennligst ta bort lenker fra meldingen.
 ContactStatusDone: Din epost er nå sendt. Takk!
 ContactStatusError: Epost kunne ikke sendes, vennligst prøv på nytt senere!
-DatePast: i dag, i går, @x dager siden, en måned siden, @x måneder siden, ett år siden, @x år siden, den @x
-DateFuture: snart, i morgen, om @x dager, om 1 måned, om @x måneder, om 1 år, om @x år, den @x
-DateMonths: Januar, Februar, Mars, April, Mai, Juni, Juli, August, September, Oktober, November, Desember
-DateWeekdays: Mandag, Tirsdag, Onsdag, Torsdag, Fredag, Lørdag, Søndag
-DateWeekstart: Mandag
-DateFormatShort: F Y
-DateFormatMedium: Y-m-d
-DateFormatLong: Y-m-d H:i
+CoreDatePast: i dag, i går, @x dager siden, en måned siden, @x måneder siden, ett år siden, @x år siden, den @x
+CoreDateFuture: snart, i morgen, om @x dager, om 1 måned, om @x måneder, om 1 år, om @x år, den @x
+CoreDateMonths: Januar, Februar, Mars, April, Mai, Juni, Juli, August, September, Oktober, November, Desember
+CoreDateWeekdays: Mandag, Tirsdag, Onsdag, Torsdag, Fredag, Lørdag, Søndag
+CoreDateWeekstart: Mandag
+CoreDateFormatShort: F Y
+CoreDateFormatMedium: Y-m-d
+CoreDateFormatLong: Y-m-d H:i
+CoreTimeFormatShort: H:i
+CoreTimeFormatMedium: H:i:s
+CoreTimeFormatLong: H:i:s T
+CorePaginationPrevious: ← Forrige
+CorePaginationNext: Nesta →
+CoreError404Title: Filen kunne ikke lokaliseres
+CoreError404Text: Den begärda filen kunde inte hittas. Å nej...
+CoreError430Title: Innlogging feilet
+CoreError430Text: Epost eller passord er ikke riktig. [Vennligst prøv på nytt](javascript:yellow.action('login');).
+CoreError434Title: Filen kunne ikke lokaliseres
+CoreError434Text: Filen kunne ikke lokaliseres. [You can create this page](javascript:yellow.action('edit');).
+CoreError500Title: Server feil
+CoreError500Text: Noe gikk galt. [yellow error]
 DraftStatusEmpty: Ingen utkast funnet.
 EditLoginTitle: Velkommen
 EditLoginEmail: Epost:
@@ -159,14 +172,8 @@ EditUploadProgress: [Laster opp fil…]
 EditMenuSettings: Instillinger
 EditMenuHelp: Hjelp
 EditMenuLogout: Logge ut
-Error404Title: Filen kunne ikke lokaliseres
-Error404Text: Den begärda filen kunde inte hittas. Å nej...
-Error430Title: Innlogging feilet
-Error430Text: Epost eller passord er ikke riktig. [Vennligst prøv på nytt](javascript:yellow.action('login');).
-Error434Title: Filen kunne ikke lokaliseres
-Error434Text: Filen kunne ikke lokaliseres. [You can create this page](javascript:yellow.action('edit');).
-Error500Title: Server feil
-Error500Text: Noe gikk galt. [yellow error]
+EditYellowUrl: https://datenstrom.se/yellow/
+EditYellowHelpUrl: https://datenstrom.se/yellow/help/
 InstallTitle: Hei
 InstallExtension: Hva ønsker du å gjøre?
 InstallExtensionWebsite: Nettsted
@@ -180,21 +187,14 @@ InstallBlogTitle: Bloggside
 InstallBlogText: Detta er en ny bloggside.
 InstallWikiTitle: Wikiside
 InstallWikiText: Dette er en ny wikiside.
-PagePrevious: ← Forrige: @title
-PageNext: Nesta: @title →
-PaginationPrevious: ← Forrige
-PaginationNext: Nesta →
+InstallExampleImage: Dette er et eksempelbilde
+PreviousnextPagePrevious: ← Forrige: @title
+PreviousnextPageNext: Nesta: @title →
 SearchResultsNone: Skriv et søkeord.
 SearchResultsEmpty: Kunne ikke finne noe.
 SearchSpecialChanges: De siste endringene
 SearchButton: Søk
-TimeFormatShort: H:i
-TimeFormatMedium: H:i:s
-TimeFormatLong: H:i:s T
 WikiModified: Sist oppdatert
 WikiTag: Tagger:
 WikiSpecialPages: Alle sider
 WikiSpecialChanges: Siste endringer
-YellowUrl: https://datenstrom.se/yellow/
-YellowHelpUrl: https://extensions.datenstrom.se/help/
-YellowMarkdownUrl: https://extensions.datenstrom.se/help/markdown-cheat-sheet

@@ -1,10 +1,10 @@
 <?php
 // Previousnext extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/previousnext
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowPreviousnext {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -29,12 +29,12 @@ class YellowPreviousnext {
                 $output = "<div class=\"".htmlspecialchars($style)."\">\n";
                 $output .= "<p>";
                 if ($pagePrevious) {
-                    $text = preg_replace("/@title/i", $pagePrevious->get("title"), $this->yellow->text->get("pagePrevious"));
+                    $text = preg_replace("/@title/i", $pagePrevious->get("title"), $this->yellow->text->get("PreviousnextPagePrevious"));
                     $output .= "<a class=\"previous\" href=\"".$pagePrevious->getLocation(true)."\">".htmlspecialchars($text)."</a>";
                 }
                 if ($pageNext) {
                     if ($pagePrevious) $output .= " ";
-                    $text = preg_replace("/@title/i", $pageNext->get("title"), $this->yellow->text->get("pageNext"));
+                    $text = preg_replace("/@title/i", $pageNext->get("title"), $this->yellow->text->get("PreviousnextPageNext"));
                     $output .= "<a class=\"next\" href=\"".$pageNext->getLocation(true)."\">".htmlspecialchars($text)."</a>";
                 }
                 $output .= "<p>\n";

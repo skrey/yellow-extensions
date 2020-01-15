@@ -59,7 +59,7 @@ Adding an image gallery from a subfolder, square thumbnails:
 Configuring image captions in the text settings:
 
     Language: en
-    picture.jpg: This is an example image caption.
+    picture.jpg: This is an example image
     photo-2387365-fika-time.jpg: Fika is an important part of life in Sweden. Photo: Taylor Franz
     photo-2391666-start-painting.jpg: Watercolors, brushes and paper. Photo: Tim Arterbury
 

@@ -1,4 +1,4 @@
-Japanese 0.8.16
+Japanese 0.8.17
 ===============
 'ja' という言語の日本語/Japanese.
 

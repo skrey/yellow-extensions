@@ -1,10 +1,10 @@
 <?php
 // Emojiawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowEmojiawesome {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -12,7 +12,7 @@ class YellowEmojiawesome {
     public function onLoad($yellow) {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("emojiawesomeCdn", "https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.0.0/");
-        $this->yellow->system->setDefault("emojiawesomeToolbarButtons", ":grinning: :smile: :angry: :frowning: :heart_eyes: :kissing_heart: :stuck_out_tongue_winking_eye: :joy: :heart: :fire: :sunny: :coffee: :ok_hand: :hand: :+1: :-1:");
+        $this->yellow->system->setDefault("emojiawesomeToolbarButtons", ":grinning: :smile: :angry: :frowning: :heart_eyes: :kissing_heart: :stuck_out_tongue_winking_eye: :joy: :heart: :fire: :sunny: :star: :coffee: :hand: :+1: :-1:");
     }
     
     // Handle page content of shortcut

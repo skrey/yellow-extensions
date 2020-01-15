@@ -21,14 +21,27 @@ ContactStatusInvalid: Vul een geldig email.
 ContactStatusReview: Please remove links from the message.
 ContactStatusDone: Je email is succesvol verzonden. Bedankt!
 ContactStatusError: E-mail kon niet worden verzonden, probeer het later opnieuw!
-DatePast: vandaag, gisteren, @x dagen geleden, 1 maand geleden, @x maanden geleden, 1 jaar geleden, @x jaar geleden, op @x
-DateFuture: binnenkort, morgen, binnen @x dagen, binnen 1 maand, binnen @x maanden, binnen 1 jaar, binnen @x jaar, op @x
-DateMonths: januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december
-DateWeekdays: maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag
-DateWeekstart: maandag
-DateFormatShort: F Y
-DateFormatMedium: Y-m-d
-DateFormatLong: Y-m-d H:i
+CoreDatePast: vandaag, gisteren, @x dagen geleden, 1 maand geleden, @x maanden geleden, 1 jaar geleden, @x jaar geleden, op @x
+CoreDateFuture: binnenkort, morgen, binnen @x dagen, binnen 1 maand, binnen @x maanden, binnen 1 jaar, binnen @x jaar, op @x
+CoreDateMonths: januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december
+CoreDateWeekdays: maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag
+CoreDateWeekstart: maandag
+CoreDateFormatShort: F Y
+CoreDateFormatMedium: Y-m-d
+CoreDateFormatLong: Y-m-d H:i
+CoreTimeFormatShort: H:i
+CoreTimeFormatMedium: H:i:s
+CoreTimeFormatLong: H:i:s T
+CorePaginationPrevious: ← Vorige
+CorePaginationNext: Volgende →
+CoreError404Title: Bestand niet gevonden
+CoreError404Text: Het gevraagde bestand is niet gevonden. Oh nee...
+CoreError430Title: Login failed
+CoreError430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+CoreError434Title: File not found
+CoreError434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+CoreError500Title: Server error
+CoreError500Text: Something went wrong. [yellow error]
 DraftStatusEmpty: No drafts found.
 EditLoginTitle: Welkom
 EditLoginEmail: E-mail:
@@ -159,14 +172,8 @@ EditUploadProgress: [Uploading file…]
 EditMenuSettings: Instellingen
 EditMenuHelp: Help
 EditMenuLogout: Afmelden
-Error404Title: Bestand niet gevonden
-Error404Text: Het gevraagde bestand is niet gevonden. Oh nee...
-Error430Title: Login failed
-Error430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
-Error434Title: File not found
-Error434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
-Error500Title: Server error
-Error500Text: Something went wrong. [yellow error]
+EditYellowUrl: https://datenstrom.se/yellow/
+EditYellowHelpUrl: https://datenstrom.se/yellow/help/
 InstallTitle: Hallo
 InstallExtension: Wat wil je doen?
 InstallExtensionWebsite: Website
@@ -180,21 +187,14 @@ InstallBlogTitle: Blog page
 InstallBlogText: This is a new blog page.
 InstallWikiTitle: Wiki page
 InstallWikiText: This is a new wiki page.
-PagePrevious: ← Vorige: @title
-PageNext: Volgende: @title →
-PaginationPrevious: ← Vorige
-PaginationNext: Volgende →
+InstallExampleImage: This is an example image
+PreviousnextPagePrevious: ← Vorige: @title
+PreviousnextPageNext: Volgende: @title →
 SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
 SearchSpecialChanges: Recente wijzigingen
 SearchButton: Zoek
-TimeFormatShort: H:i
-TimeFormatMedium: H:i:s
-TimeFormatLong: H:i:s T
 WikiModified: Laatst geupdate op
 WikiTag: Labels:
 WikiSpecialPages: Alle pagina's
 WikiSpecialChanges: Recente wijzigingen
-YellowUrl: https://datenstrom.se/yellow/
-YellowHelpUrl: https://extensions.datenstrom.se/help/
-YellowMarkdownUrl: https://extensions.datenstrom.se/help/markdown-cheat-sheet
