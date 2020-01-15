@@ -72,6 +72,8 @@ Coffee is a beverage made from the roasted beans of the coffee plant.
 [youtube SUpY1BT9Xf4]
 ```
 
+You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki#how-to-show-wiki-information) to show information about the wiki.
+
 ## Showing header
 
 To show a header create the file `content/shared/header.md`. You can also create a `header.md` in your wiki folder and it will only be shown on pages in the same folder. Here's an example:
@@ -94,58 +96,6 @@ Title: Footer
 Status: shared
 ---
 [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
-```
-
-## Showing sidebar
-
-To show a sidebar create the file `content/shared/sidebar.md`. You can also create a `sidebar.md` in your wiki folder and it will only be shown on pages in the same folder. Here's an example:
-
-```
----
-Title: Sidebar
-Status: shared
----
-Links
-
-* [See all pages](/wiki/special:pages/)
-* [See recent changes](/wiki/special:changes/)
-* [See example](/wiki/tag:example/)
-```
-
-You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki#how-to-show-wiki-information) to show information about the wiki:
-
-```
----
-Title: Sidebar
-Status: shared
----
-Links
-
-* [See all pages](/wiki/special:pages/)
-* [See recent changes](/wiki/special:changes/)
-* [See example](/wiki/tag:example/)
-
-Tags
-
-[wikitags /wiki/]
-```
-
-Here is the same sidebar, if the wiki is located on the home page:
-
-```
----
-Title: Sidebar
-Status: shared
----
-Links
-
-* [See all pages](/special:pages/)
-* [See recent changes](/special:changes/)
-* [See example](/tag:example/)
-
-Tags
-
-[wikitags /]
 ```
 
 ## Get extensions

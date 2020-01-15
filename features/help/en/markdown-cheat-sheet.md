@@ -155,14 +155,10 @@ Using HTML:
 `LayoutNew` = page layout for creating a new page  
 `Theme` = page theme  
 `Parser` = page parser  
+`Status` = status for workflow  
 `Image` = page image  
 `ImageAlt` = alternative text for page image  
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
 `Redirect` = redirect to a new page or URL  
-`Status` = status for workflow  
-`Navigation` = page navigation  
-`Header` = page header  
-`Footer` = page footer  
-`Sidebar` = page sidebar  

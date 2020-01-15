@@ -77,22 +77,6 @@ Status: shared
 [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 ```
 
-## Showing sidebar
-
-To show a sidebar create the file `content/shared/sidebar.md`. You can also create a `sidebar.md` in any `content` folder and it will only be shown on pages in the same folder. Here's an example:
-
-```
----
-Title: Sidebar
-Status: shared
----
-Links
-
-* [Datenstrom Yellow](https://datenstrom.se/yellow/)
-* [Datenstrom Blue](https://datenstrom.se/blue/)
-* [GitHub](https://github.com/datenstrom)
-```
-
 ## Get extensions
 
 There are [extensions](https://github.com/datenstrom/yellow-extensions) for your website. Here are some examples:

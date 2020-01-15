@@ -173,7 +173,7 @@ Here's an example layout for showing page content with additional date:
 <div class="content">
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<p><?php echo $this->yellow->page->getDateHtml("modified", "dateFormatMedium") ?></p>
+<p><?php echo $this->yellow->page->getDateHtml("modified", "coreDateFormatMedium") ?></p>
 <?php echo $this->yellow->page->getContent() ?>
 </div>
 </div>

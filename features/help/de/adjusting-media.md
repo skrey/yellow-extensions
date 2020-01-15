@@ -14,7 +14,7 @@ Du kannst die [Image-Erweiterung](https://github.com/datenstrom/yellow-extension
 
     [image picture.jpg]
     [image picture.jpg Picture]
-    [image picture.jpg "Dies ist ein Beispielbild"]
+    [image picture.jpg "Das ist ein Beispielbild"]
 
 Bilder in unterschiedliche Stilen:
 

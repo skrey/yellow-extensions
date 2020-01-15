@@ -12,7 +12,6 @@ Here's an example file `system/layouts/default.html`:
 ``` html
 <?php $this->yellow->layout("header") ?>
 <div class="content">
-<?php $this->yellow->layout("sidebar") ?>
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <?php echo $this->yellow->page->getContent() ?>
@@ -26,7 +25,6 @@ Here's an example layout for showing page content and additional HTML code:
 ``` html
 <?php $this->yellow->layout("header") ?>
 <div class="content">
-<?php $this->yellow->layout("sidebar") ?>
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <?php echo $this->yellow->page->getContent() ?>
@@ -41,7 +39,6 @@ Here's an example layout for showing page content and additional blog pages:
 ``` html
 <?php $this->yellow->layout("header") ?>
 <div class="content">
-<?php $this->yellow->layout("sidebar") ?>
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <?php echo $this->yellow->page->getContent() ?>
@@ -63,13 +60,3 @@ Here's an example layout for showing page content and additional blog pages:
 ```
 
 Themes can have their own layout files, to override the existing layout. Add a theme to the file name. For example the file `system/layouts/default.html` will be used with any theme, the file `system/layouts/stockholm-default.html` will only be used with `Theme: Stockholm`.
-
-## Customising navigation
-
-The installation comes with several navigations and you can create more layout files. The default navigation is defined in the [system settings](adjusting-system#system-settings). A different navigation can be defined in the [settings](markdown-cheat-sheet#settings) at the top of each page, for example `Navigation: navigation`. 
-
-The following navigations are available:
-
-`Navigation: navigation` shows top level pages  
-`Navigation: navigation-tree` shows all pages  
-`Navigation: navigation-sidebar` shows pages in sidebar  

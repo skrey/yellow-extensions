@@ -27,14 +27,11 @@ Dort kannst du die Systemeinstellungen festlegen, zum Beispiel den Namen der Web
 Eine weitere Konfigurationsdatei ist `system/settings/text.ini`. Hier ist ein Beispiel:
 
     Language: de
-    TextYes: Ja
-    TextNo: Nein
+    CoreDateFormatMedium: d.m.Y
     EditLoginTitle: Willkommen in Berlin
-    Error404Title: Datei nicht gefunden
-    Error404Text: Die angeforderte Datei wurde nicht gefunden. Oh nein...
-    picture.jpg: Dies ist eine Beispielbildunterschrift.
+    picture.jpg: Das ist ein Beispielbild
 
-Dort kannst du die Texteinstellungen festlegen, zum Beispiel Fehlermeldungen der Webseite und Bildunterschriften. Texteinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst beliebige Texte festlegen oder die [Voreinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) von Sprachen anpassen.
+Dort kannst du die Texteinstellungen festlegen, zum Beispiel Textabschnitte und Bildunterschriften. Texteinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst beliebige Texte festlegen oder die [Voreinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) von Sprachen anpassen.
 
 ## Benutzerkonten
 
@@ -45,11 +42,11 @@ Alle Benutzerkonten sind in `system/settings/user.ini` gespeichert. Hier ist ein
     Language: de
     Home: /
     Access: create, edit, delete, upload, system, update
-    Status: active
-    Pending: none
     Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
     Stamp: 21196d7e857d541849e4
+    Pending: none
     Failed: 0
     Modified: 2000-01-01 13:37:00
+    Status: active
 
 Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) und der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) kannst du neue Benutzerkonten anlegen und Kennwörter ändern. Ein Benutzerkonto besteht aus `Email` und weiteren Einstellungen. Falls du nicht willst dass alle Webseiten im Webbrowser bearbeitet werden, dann ändere die Startseite des Benutzers.

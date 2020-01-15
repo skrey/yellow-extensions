@@ -87,6 +87,8 @@ wird. Wie oft machst du Fika? [--more--]
 [youtube wnBHyfMtK5o]
 ```
 
+Verwende [Abkürzungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog#how-to-show-blog-information), um Informationen über das Blog anzuzeigen.
+
 ## Kopfzeile anzeigen
 
 Um eine Kopfzeile anzuzeigen, erstelle die Datei `content/shared/header.md`. Du kannst auch eine `header.md` in deinem Blogverzeichnis erstellen und sie wird nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
@@ -109,55 +111,6 @@ Title: Footer
 Status: shared
 ---
 [Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/)
-```
-
-## Sidebar anzeigen
-
-Um eine Sidebar anzuzeigen, erstelle die Datei `content/shared/sidebar.md`. Du kannst auch eine `sidebar.md` in deinem Blogverzeichnis erstellen und sie wird nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
-
-```
----
-Title: Sidebar
-Status: shared
----
-Links
-
-* [Datenstrom Yellow](https://datenstrom.se/de/yellow/)
-* [Datenstrom Blue](https://datenstrom.se/de/blue/)
-* [GitHub](https://github.com/datenstrom)
-
-```
-
-Verwende [Abkürzungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog#how-to-show-blog-information), um Informationen über das Blog anzuzeigen.
-
-```
----
-Title: Sidebar
-Status: shared
----
-Neu
-
-[blogchanges /blog/]
-
-Tags
-
-[blogtags /blog/]
-```
-
-Hier ist die selbe Sidebar, falls sich das Blog auf der Startseite befindet:
-
-```
----
-Title: Sidebar
-Status: shared
----
-Neu
-
-[blogchanges /]
-
-Tags
-
-[blogtags /]
 ```
 
 ## Erweiterungen finden

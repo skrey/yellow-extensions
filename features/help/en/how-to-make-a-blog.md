@@ -87,6 +87,8 @@ How often do you fika? [--more--]
 [youtube wnBHyfMtK5o]
 ```
 
+You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog#how-to-show-blog-information) to show information about the blog.
+
 ## Showing header
 
 To show a header create the file `content/shared/header.md`. You can also create a `header.md` in your blog folder and it will only be shown on pages in the same folder. Here's an example:
@@ -109,54 +111,6 @@ Title: Footer
 Status: shared
 ---
 [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
-```
-
-## Showing sidebar
-
-To show a sidebar create the file `content/shared/sidebar.md`. You can also create a `sidebar.md` in your blog folder and it will only be shown on pages in the same folder. Here's an example:
-
-```
----
-Title: Sidebar
-Status: shared
----
-Links
-
-* [Datenstrom Yellow](https://datenstrom.se/yellow/)
-* [Datenstrom Blue](https://datenstrom.se/blue/)
-* [GitHub](https://github.com/datenstrom)
-```
-
-You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog#how-to-show-blog-information) to show information about the blog:
-
-```
----
-Title: Sidebar
-Status: shared
----
-New
-
-[blogchanges /blog/]
-
-Tags
-
-[blogtags /blog/]
-```
-
-Here is the same sidebar, if the blog is located on the home page:
-
-```
----
-Title: Sidebar
-Status: shared
----
-New
-
-[blogchanges /]
-
-Tags
-
-[blogtags /]
 ```
 
 ## Get extensions

@@ -13,7 +13,6 @@ Hier ist eine Beispiel-Datei `system/layouts/default.html`:
 ``` html
 <?php $this->yellow->layout("header") ?>
 <div class="content">
-<?php $this->yellow->layout("sidebar") ?>
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <?php echo $this->yellow->page->getContent() ?>
@@ -27,7 +26,6 @@ Hier ist ein Beispiel-Layout um Seiteninhalt und zusätzlichen HTML-Code anzuzei
 ``` html
 <?php $this->yellow->layout("header") ?>
 <div class="content">
-<?php $this->yellow->layout("sidebar") ?>
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <?php echo $this->yellow->page->getContent() ?>
@@ -42,7 +40,6 @@ Hier ist ein Beispiel-Layout um Seiteninhalt und zusätzliche Blogseiten anzuzei
 ``` html
 <?php $this->yellow->layout("header") ?>
 <div class="content">
-<?php $this->yellow->layout("sidebar") ?>
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <?php echo $this->yellow->page->getContent() ?>
@@ -64,13 +61,3 @@ Hier ist ein Beispiel-Layout um Seiteninhalt und zusätzliche Blogseiten anzuzei
 ```
 
 Themen können ihre eigenen Layoutdateien haben, um das vorhandene Layout zu überschreiben. Zum Beispiel wird die Datei `system/layouts/default.html` bei allen Themen verwendet, die Datei `system/layouts/stockholm-default.html` jedoch nur beim `Theme: Stockholm`.
-
-## Navigation anpassen
-
-Die Installation kommt mit mehreren Navigationen und man kann weitere Layoutdateien erstellen. Die Standardnavigation wird in den [Systemeinstellungen](adjusting-system#systemeinstellungen) festgelegt. Eine andere Navigation lässt sich in den [Einstellungen](markdown-cheat-sheet#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Navigation: navigation`. 
-
-Die folgenden Navigationen sind vorhanden:
-
-`Navigation: navigation` zeigt Hauptseiten  
-`Navigation: navigation-tree` zeigt alle Seiten  
-`Navigation: navigation-sidebar` zeigt Unterseiten  

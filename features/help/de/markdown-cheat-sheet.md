@@ -155,14 +155,10 @@ HTML benutzen:
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
 `Theme` = Thema der Seite  
 `Parser` = Parser der Seite  
+`Status` = Status für Arbeitsablauf  
 `Image` = Bild der Seite  
 `ImageAlt` = Alternative Bildbeschreibung der Seite  
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
 `Redirect` = Umleitung zu einer neuen Seite oder URL  
-`Status` = Status für Arbeitsablauf  
-`Navigation` = Navigation der Seite  
-`Header` = Kopfzeile der Seite  
-`Footer` = Fußzeile der Seite  
-`Sidebar` = Sidebar der Seite  
