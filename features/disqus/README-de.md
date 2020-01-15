@@ -43,7 +43,6 @@ Layoutdatei mit Kommentare:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
-    <?php $this->yellow->layout("sidebar") ?>
     <div class="main" role="main">
     <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
     <?php echo $this->yellow->page->getContent() ?>
