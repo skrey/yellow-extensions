@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.8";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -68,6 +68,7 @@ class YellowContact {
         $message = trim($_REQUEST["message"]);
         $consent = trim($_REQUEST["consent"]);
         $referer = trim($_REQUEST["referer"]);
+        $footer = $this->getMailFooter($referer);
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
         $author = $this->yellow->system->get("author");
         $email = $this->yellow->system->get("email");
@@ -82,10 +83,6 @@ class YellowContact {
         if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) $status = "settings";
         if (!empty($from) && !filter_var($from, FILTER_VALIDATE_EMAIL)) $status = "invalid";
         if ($status=="send") {
-            $footer = $this->yellow->text->get("contactMailFooter");
-            $footer = strreplaceu("\\n", "\r\n", $footer);
-            $footer = preg_replace("/@sitename/i", $this->yellow->system->get("sitename"), $footer);
-            $footer = preg_replace("/@title/i", $this->findTitle($referer, $this->yellow->page->get("title")), $footer);
             $mailTo = mb_encode_mimeheader("$author")." <$email>";
             $mailSubject = mb_encode_mimeheader($this->yellow->page->get("title"));
             $mailHeaders = mb_encode_mimeheader("From: $name")." <$from>\r\n";
@@ -102,6 +99,15 @@ class YellowContact {
             $status = mail($mailTo, $mailSubject, $mailMessage, $mailHeaders) ? "done" : "error";
         }
         return $status;
+    }
+    
+    // Return email footer
+    public function getMailFooter($url) {
+        $footer = $this->yellow->text->get("contactMailFooter");
+        $footer = strreplaceu("\\n", "\r\n", $footer);
+        $footer = preg_replace("/@sitename/i", $this->yellow->system->get("sitename"), $footer);
+        $footer = preg_replace("/@title/i", $this->findTitle($url, $this->yellow->page->get("title")), $footer);
+        return $footer;
     }
     
     // Return title for local page
