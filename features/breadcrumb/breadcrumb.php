@@ -1,27 +1,27 @@
 <?php
-// Breadcrumbs extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/breadcrumbs
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Breadcrumb extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/breadcrumb
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-class YellowBreadcrumbs {
-    const VERSION = "0.8.2";
+class YellowBreadcrumb {
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("breadcrumbsSeparator", ">");
-        $this->yellow->system->setDefault("breadcrumbsStyle", "breadcrumbs");
+        $this->yellow->system->setDefault("breadcrumbSeparator", ">");
+        $this->yellow->system->setDefault("breadcrumbStyle", "breadcrumb");
     }
     
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
-        if ($name=="breadcrumbs" && ($type=="block" || $type=="inline")) {
+        if ($name=="breadcrumb" && ($type=="block" || $type=="inline")) {
             list($separator, $style) = $this->yellow->toolbox->getTextArgs($text);
-            if (empty($separator)) $separator = $this->yellow->system->get("breadcrumbsSeparator");
-            if (empty($style)) $style = $this->yellow->system->get("breadcrumbsStyle");
+            if (empty($separator)) $separator = $this->yellow->system->get("breadcrumbSeparator");
+            if (empty($style)) $style = $this->yellow->system->get("breadcrumbStyle");
             $pages = $this->yellow->content->path($page->getLocation(true), true);
             $page->setLastModified($pages->getModified());
             $output = "<div class=\"".htmlspecialchars($style)."\">";

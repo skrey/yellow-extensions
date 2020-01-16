@@ -11,7 +11,7 @@ Die folgenden Funktionen sind verfügbar:
   HTML5-Audio-Player. Entwickelt von Steffen Schultz.
 * [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog/README-de.md): 
   Blog für deine Webseite. Entwickelt von Datenstrom.
-* [Breadcrumbs](https://github.com/datenstrom/yellow-extensions/tree/master/features/breadcrumbs/README-de.md): 
+* [Breadcrumb](https://github.com/datenstrom/yellow-extensions/tree/master/features/breadcrumb/README-de.md): 
   Brotkrümel-Navigation. Entwickelt von Datenstrom.
 * [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/features/bundle/README-de.md): 
   Webseiten-Dateien bündeln. Entwickelt von Datenstrom.

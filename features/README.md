@@ -11,8 +11,8 @@ The following features are available:
   HTML5 audio player. Developed by Steffen Schultz.
 * [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog): 
   Blog for your website. Developed by Datenstrom.
-* [Breadcrumbs](https://github.com/datenstrom/yellow-extensions/tree/master/features/breadcrumbs): 
-  Breadcrumbs navigation. Developed by Datenstrom.
+* [Breadcrumb](https://github.com/datenstrom/yellow-extensions/tree/master/features/breadcrumb): 
+  Breadcrumb navigation. Developed by Datenstrom.
 * [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/features/bundle): 
   Bundle website files. Developed by Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/features/command): 

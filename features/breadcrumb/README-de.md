@@ -1,47 +1,47 @@
-Breadcrumbs 0.8.2
-=================
+Breadcrumb 0.8.3
+================
 Brotkrümel-Navigation.
 
-<p align="center"><img src="breadcrumbs-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 
 1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/breadcrumbs.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `breadcrumbs.zip` in dein `system/extensions`-Verzeichnis.
+2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/breadcrumb.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
+3. Kopiere `breadcrumb.zip` in dein `system/extensions`-Verzeichnis.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
-## Wie man Brotkrümel hinzufügt
+## Wie man eine Brotkrümel-Navigation hinzufügt
 
-Erstelle eine `[breadcrumbs]`-Abkürzung.
+Erstelle eine `[breadcrumb]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle Argument sind optional:
  
-`Separator` = Text der zwischen Brotkrümel angezeigt wird  
-`Style` = Brotkrümel-Stil, z.B. `breadcrumbs`  
+`Separator` = Text der zwischen Elementen angezeigt wird  
+`Style` = Brotkrümel-Stil, z.B. `breadcrumb`  
 
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
-`BreadcrumbsSeparator` = Text der zwischen Brotkrümel angezeigt wird  
-`BreadcrumbsStyle` = Brotkrümel-Stil, z.B. `breadcrumbs`  
+`BreadcrumbSeparator` = Text der zwischen Elementen angezeigt wird  
+`BreadcrumbStyle` = Brotkrümel-Stil, z.B. `breadcrumb`  
 
 ## Beispiele
 
-Brotkrümel hinzufügen:
+Brotkrümel-Navigation hinzufügen:
 
-    [breadcrumbs]
-    [breadcrumbs > breadcrumbs]
-    [breadcrumbs / breadcrumbs]
+    [breadcrumb]
+    [breadcrumb > breadcrumb]
+    [breadcrumb / breadcrumb]
 
 Inhaltsdatei mit Brotkrümel:
 
     ---
     Title: Beispielseite
     ---
-    [breadcrumbs]
+    [breadcrumb]
         
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -55,7 +55,7 @@ Layoutdatei mit Brotkrümel:
     <div class="content">
     <div class="main" role="main">
     <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $this->yellow->page->getExtra("breadcrumbs") ?>
+    <?php echo $this->yellow->page->getExtra("breadcrumb") ?>
     <?php echo $this->yellow->page->getContent() ?>
     </div>
     </div>

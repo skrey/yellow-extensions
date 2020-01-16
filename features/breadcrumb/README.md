@@ -1,47 +1,47 @@
-Breadcrumbs 0.8.2
-=================
-Breadcrumbs navigation.
+Breadcrumb 0.8.3
+================
+Breadcrumb navigation.
 
-<p align="center"><img src="breadcrumbs-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/breadcrumbs.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `breadcrumbs.zip` into your `system/extensions` folder.
+2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/breadcrumb.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `breadcrumb.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to add breadcrumbs
+## How to add a breadcrumb navigation
 
-Create a `[breadcrumbs]` shortcut. 
+Create a `[breadcrumb]` shortcut. 
 
 The following arguments are available, all arguments are optional:
  
-`Separator` = text shown between breadcrumbs  
-`Style` = breadcrumbs style, e.g. `breadcrumbs`  
+`Separator` = text shown between elements  
+`Style` = breadcrumb style, e.g. `breadcrumb`  
 
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`BreadcrumbsSeparator` = text shown between breadcrumbs  
-`BreadcrumbsStyle` = breadcrumbs style, e.g. `breadcrumbs`  
+`BreadcrumbSeparator` = text shown between elements  
+`BreadcrumbStyle` = breadcrumb style, e.g. `breadcrumb`  
 
 ## Examples
 
-Adding breadcrumbs:
+Adding a breadcrumb navigation:
 
-    [breadcrumbs]
-    [breadcrumbs > breadcrumbs]
-    [breadcrumbs / breadcrumbs]
+    [breadcrumb]
+    [breadcrumb > breadcrumb]
+    [breadcrumb / breadcrumb]
 
-Content file with breadcrumbs:
+Content file with breadcrumb:
 
     ---
     Title: Example page
     ---
-    [breadcrumbs]
+    [breadcrumb]
         
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -49,13 +49,13 @@ Content file with breadcrumbs:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Layout file with breadcrumbs:
+Layout file with breadcrumb:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
     <div class="main" role="main">
     <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $this->yellow->page->getExtra("breadcrumbs") ?>
+    <?php echo $this->yellow->page->getExtra("breadcrumb") ?>
     <?php echo $this->yellow->page->getContent() ?>
     </div>
     </div>
