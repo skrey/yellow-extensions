@@ -320,7 +320,7 @@ Hole eine [Page](#yellow-page) vom Dateisystem, null falls nicht vorhanden
 **$this->yellow->content->index($showInvisible = false, $multiLang = false, $levelMax = 0)**  
 Hole eine [Page-Collection](#yellow-page-collection) mit allen Seiten
 
-**$this->yellow->content->top($showInvisible = false)**  
+**$this->yellow->content->top($showInvisible = false, $showOnePager = true)**  
 Hole eine [Page-Collection](#yellow-page-collection) mit Hauptseiten der Navigation
 
 **$this->yellow->content->path($location, $absoluteLocation = false)**  

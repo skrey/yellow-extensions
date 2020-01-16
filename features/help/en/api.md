@@ -320,7 +320,7 @@ Return [page](#yellow-page) from file system, null if not found
 **$this->yellow->content->index($showInvisible = false, $multiLang = false, $levelMax = 0)**  
 Return [page collection](#yellow-page-collection) with all pages
 
-**$this->yellow->content->top($showInvisible = false)**  
+**$this->yellow->content->top($showInvisible = false, $showOnePager = true)**  
 Return [page collection](#yellow-page-collection) with top-level navigation
 
 **$this->yellow->content->path($location, $absoluteLocation = false)**  
