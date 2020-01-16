@@ -12,7 +12,7 @@ Breadcrumb navigation.
 
 To uninstall delete the [extension files](extension.ini).
 
-## How to add a breadcrumb navigation
+## How to add a navigation
 
 Create a `[breadcrumb]` shortcut. 
 
@@ -30,7 +30,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 ## Examples
 
-Adding a breadcrumb navigation:
+Adding navigation:
 
     [breadcrumb]
     [breadcrumb > breadcrumb]

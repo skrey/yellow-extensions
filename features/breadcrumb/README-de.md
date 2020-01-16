@@ -12,7 +12,7 @@ Brotkrümel-Navigation.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
-## Wie man eine Brotkrümel-Navigation hinzufügt
+## Wie man eine Navigation hinzufügt
 
 Erstelle eine `[breadcrumb]`-Abkürzung.
 
@@ -30,7 +30,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 
 ## Beispiele
 
-Brotkrümel-Navigation hinzufügen:
+Navigation hinzufügen:
 
     [breadcrumb]
     [breadcrumb > breadcrumb]
