@@ -16,9 +16,9 @@ To uninstall delete the [extension files](extension.ini).
 
 The following files can be configured:
 
-`system/layouts/berlin-default.html` = layout file for normal page, support for sidebar  
 `system/resources/berlin.css` = CSS file  
 `system/resources/berlin-icon.png` = icon of the website  
+`system/layouts/berlin-default.html` = custom layout file for normal page  
 
 This extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's licensed under [Apache license](https://opensource.org/licenses/Apache-2.0).
 

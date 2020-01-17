@@ -16,9 +16,9 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 Die folgenden Dateien können angepasst werden:
 
-`system/layouts/berlin-default.html` = Layoutdatei für normale Seite, Unterstützung für Sidebar  
 `system/resources/berlin.css` = CSS-Datei  
 `system/resources/berlin-icon.png` = Icon der Webseite  
+`system/layouts/berlin-default.html` = spezielle Layoutdatei für normale Seite  
 
 Diese Erweiterung benutzt [Open Sans](http://www.opensans.com) von Steve Matteson. Es ist unter [Apache-Lizenz](https://opensource.org/licenses/Apache-2.0) lizenziert.
 

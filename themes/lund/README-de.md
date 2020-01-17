@@ -12,6 +12,14 @@ Lund ist ein normales Blogger-Thema.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
+## Einstellungen
+
+Die folgenden Dateien können angepasst werden:
+
+`system/resources/lund.css` = CSS-Datei  
+`system/resources/lund-icon.png` = Icon der Webseite  
+`system/resources/lund-banner.jpg` = Banner der Webseite  
+
 ## Designer
 
 Datenstrom. [Support finden](https://datenstrom.se/de/yellow/help/).

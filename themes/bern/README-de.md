@@ -12,7 +12,13 @@ Bern ist ein modernes Firmen-Thema.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
-## Informationen
+## Einstellungen
+
+Die folgenden Dateien können angepasst werden:
+
+`system/resources/bern.css` = CSS-Datei  
+`system/resources/bern-icon.png` = Icon der Webseite  
+`system/resources/bern-banner.jpg` = Banner der Webseite  
 
 Diese Erweiterung benutzt [Open Sans](http://www.opensans.com) von Steve Matteson. Es ist unter [Apache-Lizenz](https://opensource.org/licenses/Apache-2.0) lizenziert.
 
