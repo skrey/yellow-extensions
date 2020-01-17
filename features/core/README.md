@@ -28,7 +28,7 @@ Create file `content/shared/header.md` for a header. Create file `content/shared
 
 Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). The default language is defined in file `system/settings/system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
 
-If you want to offer the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. The you have to adjust the [folders](#folders). Go to your `content` folder and create a new folder for each language.
+If you want to offer the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Then you have to adjust the [folders](#folders). Go to your `content` folder and create a new folder for each language.
 
 If you want to configure text, then change the text settings. Open file `system/settings/text.ini` and change existing settings. You can copy the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) from language files and paste them into this file. You can also add your own text settings, for example image captions.
 

@@ -12,7 +12,13 @@ Berlin is a simple and beautiful theme inspired by Dieter Rams.
 
 To uninstall delete the [extension files](extension.ini).
 
-## Information
+## Settings 
+
+The following files can be configured:
+
+`system/layouts/berlin-default.html` = layout file for normal page, support for sidebar  
+`system/resources/berlin.css` = CSS file  
+`system/resources/berlin-icon.png` = icon of the website  
 
 This extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's licensed under [Apache license](https://opensource.org/licenses/Apache-2.0).
 
