@@ -88,6 +88,13 @@ Die folgenden Benutzer-Statuswerte werden unterstützt:
 `unchanged` = Benutzer hat ausstehende Änderungen nicht bestätigt  
 `removed` = Benutzer hat ausstehende Löschung nicht bestätigt  
 
+Die folgenden Dateien können angepasst werden:
+
+`content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
+`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
+`content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
+`content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
+
 ## Beispiele
 
 Inhaltsdatei mit Link zum Bearbeiten:

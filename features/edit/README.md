@@ -88,6 +88,13 @@ The following user status values are supported:
 `unchanged` = user has not confirmed pending changes  
 `removed` = user has not confirmed pending deletion  
 
+The following files can be configured:
+
+`content/shared/page-new-default.md` = content file for new page  
+`content/shared/page-new-blog.md` = content file for new blog page  
+`content/shared/page-new-wiki.md` = content file for new wiki page  
+`content/shared/page-error-404.md` = content file for error page  
+
 ## Examples
 
 Content file with edit link:

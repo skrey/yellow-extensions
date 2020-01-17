@@ -20,6 +20,18 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#e
 
 Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite leitet dann zu einer anderen Seite oder URL weiter. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
 
+## Wie man eine Kopfzeile und Fußzeile macht
+
+Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst auch eine `header.md` und `footer.md` in einem anderen Verzeichnis erstellen, dann wir sie nur auf Seiten im gleichen Verzeichnis angezeigt.
+
+## Wie man eine mehrsprachige Webseite macht
+
+Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
+
+Falls du die gesamte Webseite in mehreren Sprachen anbieten willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+
+Falls du Text anpassen willst, ändere die Texteinstellungen. Öffne die Datei `system/settings/text.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) aus Sprachdateien kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
+
 ## Wie man eine sichere Webseite macht
 
 [Halte deine Webseite auf dem neuesten Stand](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md). Es wird empfohlen die Website zu aktualisieren sobald ein neues Release bereit steht. Überprüfe ausserdem ob deine Webseite [Datenverschlüsselung](https://www.ssllabs.com/ssltest/) unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
@@ -29,14 +41,6 @@ Falls du nicht willst dass Seiten verändert werden, [beschränke Benutzerkonten
 Falls du nicht so viele Spam-Nachrichten bekommen willst, [beschränke die Kontaktseite](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact/README-de.md). Du kannst bestimmen wer Nachrichten empfangen darf und ob sie anklickbare Links enthalten dürfen. Es ist empfehlenswert Links zu beschränken, das blockiert viele unerwünschte Nachrichten.
 
 Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann nur [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
-
-## Wie man eine mehrsprachige Webseite macht
-
-Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
-
-Falls du Textabschnitte anpassen willst, ändere die Texteinstellungen. Öffne die Datei `system/settings/text.ini`. Du kannst die [Standardeinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) von Sprachen hierher kopieren und anpassen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
-
-Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
 ## Verzeichnisse
 
@@ -160,10 +164,8 @@ Die folgenden Seiten-Statuswerte werden unterstützt:
 
 Die folgenden Dateien können angepasst werden:
 
-`content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
-`content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
 `system/layouts/default.html` = Layoutdatei für normale Seite  
-`system/layouts/error.html` = Layoutdatei für Fehlerseite  
+`system/layouts/error.html` = Layoutdatei für Standard-Fehlerseite  
 `system/layouts/header.html` = Layoutdatei für Standard-Kopfzeile  
 `system/layouts/footer.html` = Layoutdatei für Standard-Fußzeile  
 `system/layouts/navigation.html` = Layoutdatei für Standard-Navigation  

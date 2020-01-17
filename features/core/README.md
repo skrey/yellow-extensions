@@ -20,6 +20,18 @@ Set `Status: unlisted` in the [settings](#settings) at the top of a page. The pa
 
 Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
+## How to make a header and footer
+
+Create file `content/shared/header.md` for a header. Create file `content/shared/footer.md` for a footer. You can also create a `header.md` and `footer.md` in any other folder, then it will only be shown on pages in the same folder.
+
+## How to make a multilingual website
+
+Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). The default language is defined in file `system/settings/system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
+
+If you want to offer the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
+
+If you want to configure text, then change the text settings. Open file `system/settings/text.ini` and change existing settings. You can copy the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) from language files and paste them into this file. You can also add your own text settings, for example image captions.
+
 ## How to make a secure website
 
 [Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/features/update). It's recommended to update the website as soon as a new release is available. Also check if your website supports [data encryption](https://www.ssllabs.com/ssltest/). It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
@@ -29,14 +41,6 @@ If you don't want that pages are modified, then restrict [user accounts](https:/
 If you don't want to get that many spam messages, then restrict the [contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact). You can determine who can receive messages and whether they can contain clickable links. It's recommended to restrict links, this blocks many unwanted messages.
 
 If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are only allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
-
-## How to make a multilingual website
-
-Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). The default language is defined in file `system/settings/system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
-
-If you want to configure text sections, then change the text settings. Open file `system/settings/text.ini`. You can copy the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) of languages and adjust them here. You can also add your own text settings, for example image captions. 
-
-If you want to translate the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language.
 
 ## Folders
 
@@ -160,10 +164,8 @@ The following page status values are supported:
 
 The following files can be configured:
 
-`content/shared/page-error-404.md` = content file for error page  
-`content/shared/page-new-default.md` = content file for new page  
 `system/layouts/default.html` = layout file for normal page  
-`system/layouts/error.html` = layout file for error page  
+`system/layouts/error.html` = layout file for default error page  
 `system/layouts/header.html` = layout file for default header  
 `system/layouts/footer.html` = layout file for default footer  
 `system/layouts/navigation.html` = layout file for default navigation  
