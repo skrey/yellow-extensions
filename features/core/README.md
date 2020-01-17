@@ -164,7 +164,7 @@ The following page status values are supported:
 
 The following files can be configured:
 
-`system/layouts/default.html` = layout file for normal page  
+`system/layouts/default.html` = layout file for default page  
 `system/layouts/error.html` = layout file for default error page  
 `system/layouts/header.html` = layout file for default header  
 `system/layouts/footer.html` = layout file for default footer  

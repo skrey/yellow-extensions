@@ -8,7 +8,7 @@ Bern ist ein modernes Firmen-Thema.
 
 1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
 2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bern.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `bern.zip ` in dein `system/extensions`-Verzeichnis.
+3. Kopiere `bern.zip` in dein `system/extensions`-Verzeichnis.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 

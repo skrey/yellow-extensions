@@ -8,7 +8,7 @@ Lund ist ein normales Blogger-Thema.
 
 1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
 2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/lund.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `lund.zip ` in dein `system/extensions`-Verzeichnis.
+3. Kopiere `lund.zip` in dein `system/extensions`-Verzeichnis.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 

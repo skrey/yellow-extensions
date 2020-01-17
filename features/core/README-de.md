@@ -164,7 +164,7 @@ Die folgenden Seiten-Statuswerte werden unterstützt:
 
 Die folgenden Dateien können angepasst werden:
 
-`system/layouts/default.html` = Layoutdatei für normale Seite  
+`system/layouts/default.html` = Layoutdatei für Standard-Seite  
 `system/layouts/error.html` = Layoutdatei für Standard-Fehlerseite  
 `system/layouts/header.html` = Layoutdatei für Standard-Kopfzeile  
 `system/layouts/footer.html` = Layoutdatei für Standard-Fußzeile  
