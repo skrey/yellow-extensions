@@ -28,7 +28,7 @@ Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die 
 
 Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
 
-Falls du die gesamte Webseite in mehreren Sprachen anbieten willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+Falls du die gesamte Webseite in mehreren Sprachen anbieten willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisse](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
 Falls du Text anpassen willst, ändere die Texteinstellungen. Öffne die Datei `system/settings/text.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) aus Sprachdateien kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
 
@@ -195,6 +195,14 @@ Inhaltsdatei mit Weiterleitung:
     Redirect: https://datenstrom.se/de/yellow/
     ---
     Diese Seite leitet zu einer anderen Seite weiter.
+
+Inhaltsdatei mit Fußzeile:
+
+    ---
+    Title: Footer
+    Status: shared
+    ---
+    [Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/)
 
 Texteinstellungen für Erweiterungen festlegen:
 
