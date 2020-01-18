@@ -12,15 +12,6 @@ Stockholm is a clean website theme.
 
 To uninstall delete the [extension files](extension.ini).
 
-## Settings 
-
-The following files can be configured:
-
-`system/resources/stockholm.css` = CSS file  
-`system/resources/stockholm-icon.png` = icon of the website  
-
-This extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's licensed under [Apache license](https://opensource.org/licenses/Apache-2.0).
-
 ## Designer
 
 Datenstrom. [Get support](https://datenstrom.se/yellow/help/).

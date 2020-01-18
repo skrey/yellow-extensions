@@ -16,17 +16,13 @@ To uninstall delete the [extension files](extension.ini).
 
 This extension generates meta data for the [Open Graph protocol](http://ogp.me/). 
 
-You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page.
+You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. You can configure further meta data in the HTML header, for example in file `system/layouts/header.html`.
 
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
 `MetaDefaultImage` = page image, `icon` to use the default icon of the website  
-
-The following files can be configured:
-
-`system/layouts/header.html` = layout file with other meta data
 
 ## Example
 

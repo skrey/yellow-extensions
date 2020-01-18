@@ -28,7 +28,7 @@ Diese Erweiterung benutzt [PhotoSwipe v4.1.2](https://github.com/dimsemenov/phot
 
 ## Wie man Bildunterschriften anzeigt
 
-Bildunterschriften können in den Texteinstellungen festgelegt werden. Öffne die Datei `system/settings/text.ini` und füge eine neue Zeile für jedes Bild hinzu. Eine Bildunterschrift besteht aus Dateinamen und Beschreibung.
+Bildunterschriften können in den Texteinstellungen festgelegt werden. Öffne die Datei `system/settings/text.ini` und füge für jedes Bild eine neue Zeile hinzu. Eine Zeile besteht aus Dateinamen und Beschreibung.
 
 ## Einstellungen
 

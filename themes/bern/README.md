@@ -12,16 +12,6 @@ Bern is a modern business theme.
 
 To uninstall delete the [extension files](extension.ini).
 
-## Settings 
-
-The following files can be configured:
-
-`system/resources/bern.css` = CSS file  
-`system/resources/bern-icon.png` = icon of the website  
-`system/resources/bern-banner.jpg` = banner of the website  
-
-This extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's licensed under [Apache license](https://opensource.org/licenses/Apache-2.0).
-
 ## Designer
 
 Datenstrom. [Get support](https://datenstrom.se/yellow/help/).

@@ -166,8 +166,8 @@ The following files can be configured:
 
 `system/layouts/default.html` = layout file for default page  
 `system/layouts/error.html` = layout file for default error page  
-`system/layouts/header.html` = layout file for default header  
-`system/layouts/footer.html` = layout file for default footer  
+`system/layouts/header.html` = layout file for default HTML header  
+`system/layouts/footer.html` = layout file for default HTML footer  
 `system/layouts/navigation.html` = layout file for default navigation  
 `system/layouts/pagination.html` = layout file for default pagination  
 

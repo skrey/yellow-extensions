@@ -65,7 +65,7 @@ Content file with wiki page:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Content file with tags:
+Content file with wiki page:
 
     ---
     Title: Coffee is good for you

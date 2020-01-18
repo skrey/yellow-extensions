@@ -16,17 +16,13 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](http://ogp.me/). 
 
-Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) festlegen.
+Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) festlegen. Weitere Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
 
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
 `MetaDefaultImage` = Bild der Seite, `icon` um das Standard-Icon der Webseite zu verwenden  
-
-Die folgenden Dateien können angepasst werden:
-
-`system/layouts/header.html` = Layoutdatei mit weiteren Metadaten
 
 ## Beispiele
 

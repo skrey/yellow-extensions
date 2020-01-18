@@ -12,16 +12,6 @@ Berlin ist ein einfaches und schönes Thema, inspiriert von Dieter Rams.
 
 Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
-## Einstellungen
-
-Die folgenden Dateien können angepasst werden:
-
-`system/resources/berlin.css` = CSS-Datei  
-`system/resources/berlin-icon.png` = Icon der Webseite  
-`system/layouts/berlin-default.html` = benutzerdefinierte Layoutdatei für Standard-Seite  
-
-Diese Erweiterung benutzt [Open Sans](http://www.opensans.com) von Steve Matteson. Es ist unter [Apache-Lizenz](https://opensource.org/licenses/Apache-2.0) lizenziert.
-
 ## Designer
 
 Datenstrom. [Support finden](https://datenstrom.se/de/yellow/help/).

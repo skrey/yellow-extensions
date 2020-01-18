@@ -12,16 +12,6 @@ Paris is an elegant theme for writers.
 
 To uninstall delete the [extension files](extension.ini).
 
-## Settings 
-
-The following files can be configured:
-
-`system/resources/paris.css` = CSS file  
-`system/resources/paris-icon.png` = icon of the website  
-`system/resources/paris-logo.png` = logo of the website  
-
-This extension uses [Open Sans](http://www.opensans.com) by Steve Matteson. It's licensed under [Apache license](https://opensource.org/licenses/Apache-2.0).
-
 ## Designer
 
 Datenstrom. [Get support](https://datenstrom.se/yellow/help/).
