@@ -18,7 +18,7 @@ Run commands in the installation folder. Open a terminal window. Go to your inst
 
 ## How to build a static website
 
-Build a static website that works on most web servers. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check the static website for broken links type: `php yellow.php check`. To clean the static website type the following: `php yellow.php clean`.
+Build a static website that works on most web servers. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check for broken links type: `php yellow.php check`. To clean the static website type the following: `php yellow.php clean`.
 
 ## How to build a static cache
 
