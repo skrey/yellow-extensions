@@ -24,10 +24,6 @@ Es gibt auch einen experimentellen Markdown-Parser, basierend auf [Parsedown Ext
 
 Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, Abkürzungen bieten häufige Funktionen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome/README-de.md), [Icons](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome/README-de.md) und ein [Inhaltsverzeichnis](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc/README-de.md) in deine Webseite einbinden.
 
-## Wie man HTML benutzt
-
-Zusätzlich zu Markdown gibt es HTML. Was mit Markdown nicht möglich ist, kann man mit HTML machen. Du kannst HTML-Code und alles mögliche in deine Webseite einbinden.
-
 ## Beispiele
 
 Text formatieren:
