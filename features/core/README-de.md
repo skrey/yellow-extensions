@@ -20,7 +20,7 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#e
 
 Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite leitet dann zu einer anderen Seite oder URL weiter. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
 
-## Wie man eine Kopfzeile und Fußzeile macht
+## Wie man eine Seite anpasst
 
 Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst auch eine `header.md` und `footer.md` in einem anderen Verzeichnis erstellen, dann wir sie nur auf Seiten im gleichen Verzeichnis angezeigt.
 
@@ -28,7 +28,7 @@ Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die 
 
 Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
 
-Falls du die gesamte Webseite in mehreren Sprachen anbieten willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisse](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+Falls du die gesamte Webseite in mehreren Sprachen anbieten willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
 Falls du Text anpassen willst, ändere die Texteinstellungen. Öffne die Datei `system/settings/text.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) aus Sprachdateien kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
 

@@ -35,6 +35,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 The following settings can be configured in file `system/settings/text.ini`:
 
+`ContactStatusNone` = welcome text on contact page  
 `ContactMailFooter` = footer for contact messages  
 
 The following files can be configured:

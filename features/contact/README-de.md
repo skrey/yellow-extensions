@@ -35,6 +35,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 
 Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
 
+`ContactStatusNone` = Begrüßungstext auf der Kontaktseite  
 `ContactMailFooter` = Fusszeile von Kontaktnachrichten  
 
 Die folgenden Dateien können angepasst werden:
