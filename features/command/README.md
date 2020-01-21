@@ -22,7 +22,7 @@ Build a static website at the command line. Open a terminal window. Go to your i
 
 ## How to build a static cache
 
-You can speed up your website with a static cache. This speeds up a dynamic website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`, you can optionally add a location. To clean the cache type the following line: `php yellow.php clean cache`.
+You can speed up a dynamic website with a static cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`, you can optionally add a location. To clean the cache type the following line: `php yellow.php clean cache`.
 
 ## How to start the built-in web server
 

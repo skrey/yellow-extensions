@@ -22,7 +22,7 @@ Erstelle eine statische Webseite in der Befehlszeile. Öffne ein Terminalfenster
 
 ## Wie man einen statischen Zwischenspeicher erstellt
 
-Du kannst deine Webseite mit einem statischen Zwischenspeicher beschleunigen. Das beschleunigt eine dynamische Webseite deutlich, jedoch muss man es regelmässig aktualisieren. Hier ist ein Beispiel: `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Zum Löschen gibt man ein: `php yellow.php clean cache`.
+Du kannst eine dynamische Webseite mit einem statischen Zwischenspeicher beschleunigen. Das beschleunigt deine Webseite deutlich, jedoch muss man es regelmässig aktualisieren. Hier ist ein Beispiel: `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
 ## Wie man den eingebauten Webserver startet
 
