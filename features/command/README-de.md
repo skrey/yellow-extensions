@@ -14,17 +14,19 @@ Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer 
 
 ## Wie man einen Befehl ausführt
 
-Du kannst Befehle im Installations-Verzeichnis ausführen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php` gefolgt von weiteren Argumenten. Um die vorhandenen Befehle anzuzeigen, gib einfach keine Argumente an.
+Führe Befehle im Installations-Verzeichnis aus. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php` gefolgt von weiteren Argumenten. Um die vorhandenen Befehle anzuzeigen, gib keine Argumente an.
 
 ## Wie man eine statische Webseite erstellt
 
-Erstelle eine statische Webseite in der Befehlszeile. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort hinzufügen. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf dein Webserver hoch und erstelle bei Bedarf eine neue. Die [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) einer statischen Webseite kannst du in der Datei `system/settings/system.ini` festlegen.
+Erstelle eine statische Webseite in der Befehlszeile. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf dein Webserver hoch und erstelle bei Bedarf eine neue.  Zum Löschen gibt man ein: `php yellow.php clean`.
 
-Als Alternative zu einer statischen Webseite kannst du einen statischen Zwischenspeicher erstellen. Das beschleunigt deine Webseite deutlich, jedoch muss der Zwischenspeicher immer wieder aktualisiert werden. Hier ist ein Beispiel: `php yellow.php build cache`. Zum Löschen gibt man ein: `php yellow.php clean cache`.
+## Wie man einen statischen Zwischenspeicher erstellt
 
-## Wie man den eingebauten Webserver benutzt
+Du kannst deine Webseite mit einem statischen Zwischenspeicher beschleunigen. Das beschleunigt deine Webseite deutlich, jedoch muss es immer wieder aktualisiert werden. Hier ist ein Beispiel: `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
-Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist vor allem für Entwickler praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`. Daraufhin ist die Webseite vorhanden als `http://localhost:8000/`.
+## Wie man den eingebauten Webserver startet
+
+Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist vor allem für Entwickler praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`, du kannst wahlweise ein Verzeichnis und eine URL angeben. Öffne einen Webbrowser und gehe zu `http://localhost:8000/`.
 
 ## Befehle
 
