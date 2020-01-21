@@ -18,11 +18,11 @@ Run commands in the installation folder. Open a terminal window. Go to your inst
 
 ## How to build a static website
 
-Build a static website at the command line. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To clean the static website type the following line: `php yellow.php clean`.
+Build a static website that works on most web servers. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check the static website for broken links type: `php yellow.php check`. To clean the static website type the following: `php yellow.php clean`.
 
 ## How to build a static cache
 
-You can speed up a dynamic website with a static cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`, you can optionally add a location. To clean the cache type the following line: `php yellow.php clean cache`.
+You can speed up a dynamic website with a static cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`, you can optionally add a location. To clean the cache type following: `php yellow.php clean cache`.
 
 ## How to start the built-in web server
 
