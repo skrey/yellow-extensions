@@ -14,11 +14,11 @@ To uninstall delete the [extension files](extension.ini).
 
 ## How to package an extension
 
-The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if new extensions are available in the official repository, then downloads and updates necessary files. Your extension can become part of this process. Get a GitHub account and fork the repository `datenstrom/yellow-extensions`. Take a look at the [example extension](https://github.com/schulle4u/yellow-extension-example) and [basic extension](https://github.com/schulle4u/yellow-extension-basic). They show in detail how to package an extension. Please make sure your extension follows our coding and documentation standards.
+The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) checks if extensions are available in the official repository, then downloads and updates files. Your extension can become part of this process. Get a GitHub account and fork repository `datenstrom/yellow-extensions`. Take a look at the [example extension](https://github.com/schulle4u/yellow-extension-example) and [basic extension](https://github.com/schulle4u/yellow-extension-basic). They show in detail how to package an extension. Please make sure all extensions follows our coding and documentation standards.
 
 ## How to publish an extension
 
-First increase the version number in your code, then create a release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release`, you can optionally add a directory. This will update all files. Upload your changes to GitHub and send a pull request.
+First increase the version number in your code, then create a new release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by a folder. This will update all necessary files. Upload your changes to GitHub and send a pull request to `datenstrom/yellow-extensions`.
 
 ## Settings
 
