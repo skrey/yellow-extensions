@@ -26,7 +26,7 @@ Falls du den Inhalt anpassen willst, kannst du [Markdown](https://github.com/dat
 
 Falls du HTML anpassen willst, ändere das Layout. Das Standardlayout wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Layout lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Natürlich gibt es eine [API für Entwickler](https://github.com/datenstrom/yellow-extensions/tree/master/features/help/README-de.md), beispielsweise um eine eigene Navigation zu erstellen.
 
-Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Thema lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern aus mehreren Dateien. Alle Resourcendateien befinden sich im `system/resources`-Verzeichnis. Es gibt fertige [Themen](https://github.com/datenstrom/yellow-extensions/blob/master/themes/README-de.md) zum Herunterladen.
+Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Thema lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern aus mehreren Dateien. Alle Resourcendateien befinden sich im `system/resources`-Verzeichnis. Es gibt auch [Themen](https://github.com/datenstrom/yellow-extensions/blob/master/themes/README-de.md) zum Herunterladen.
 
 ## Wie man eine mehrsprachige Webseite macht
 
