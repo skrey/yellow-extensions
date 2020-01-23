@@ -22,13 +22,17 @@ Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellu
 
 ## Wie man eine Seite anpasst
 
-Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst auch eine `header.md` und `footer.md` in einem anderen Verzeichnis erstellen, dann wir sie nur auf Seiten im gleichen Verzeichnis angezeigt.
+Falls du den Inhalt anpassen willst, kannst du [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen. Alle Inhalte befinden sich im `content`-Verzeichnis. Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst eine Kopfzeile und Fußzeile auch in einem anderen Verzeichnis erstellen, dann wir sie nur auf Seiten im gleichen Verzeichnis angezeigt. Manche Themen habe Unterstützung für Kopfzeile, Fußzeile und Sidebar.
+
+Falls du HTML anpassen willst, ändere das Layout. Das Standardlayout wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Layout lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Natürlich gibt es eine [API für Entwickler](https://github.com/datenstrom/yellow-extensions/tree/master/features/help/README-de.md), beispielsweise um eine eigene Navigation zu erstellen.
+
+Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Thema lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern auch aus Schriftarten und anderen Dateien. Alle Resourcendateien befinden sich im `system/resources`-Verzeichnis. Es gibt fertige [Themen](https://github.com/datenstrom/yellow-extensions/blob/master/themes/README-de.md) zum Herunterladen.
 
 ## Wie man eine mehrsprachige Webseite macht
 
 Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/tree/master/languages/README-de.md) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
 
-Falls du die gesamte Webseite in mehreren Sprachen anbieten willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
 Falls du Text anpassen willst, ändere die Texteinstellungen. Öffne die Datei `system/settings/text.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
 
@@ -55,9 +59,9 @@ Die folgenden Verzeichnisse sind verfügbar:
 │   ├── images            = Bilder für den Inhalt
 │   └── thumbnails        = Miniaturbilder
 └── system                = Systemdateien
-    ├── extensions        = Erweiterungsdateien, PHP-Dateien usw.
+    ├── extensions        = Erweiterungsdateien
     ├── layouts           = Layoutdateien, HTML-Dateien
-    ├── resources         = Resourcendateien, CSS-Dateien usw.
+    ├── resources         = Resourcendateien, CSS-Dateien, Schriftarten, usw.
     ├── settings          = Konfigurationsdateien, INI-Dateien
     └── trash             = gelöschte Dateien
 ```

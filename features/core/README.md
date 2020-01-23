@@ -22,13 +22,17 @@ Set `Redirect` in the [settings](#settings) at the top of a page. The page will 
 
 ## How to adjust a page
 
-Create file `content/shared/header.md` for a header. Create file `content/shared/footer.md` for a footer. You can also create a `header.md` and `footer.md` in any other folder, then it will only be shown on pages in the same folder.
+If you want to adjust the content, then use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown). All content is located in your `content` folder. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder. Some themes have support for header, footer and sidebar.
+
+If you want to adjust HTML, then change the layout. The default layout is defined in file `system/settings/system.ini`. A different layout can be defined in the [settings](#settings) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/features/help), for example to create your own navigation.
+
+If you want to adjust CSS, then change the theme. The default theme is defined in file `system/settings/system.ini`. A different theme can be defined in the [settings](#settings) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but also of fonts and other files. All resource files are stored in your `system/resources` folder. There are [themes](https://github.com/datenstrom/yellow-extensions/tree/master/themes) to download.
 
 ## How to make a multilingual website
 
 Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages). The default language is defined in file `system/settings/system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
 
-If you want to offer the entire website in multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Then you have to adjust the [folder structure](#folders). Go to your `content` folder and create a new folder for each language.
+If you want to translate the entire website into multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Then you have to adjust the [folder structure](#folders). Go to your `content` folder and create a new folder for each language.
 
 If you want to configure text, then change the text settings. Open file `system/settings/text.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) and paste them into this file. You can also add your own text settings, for example image captions.
 
@@ -55,9 +59,9 @@ The following folders are available:
 │   ├── images            = image files for the content
 │   └── thumbnails        = image thumbnails
 └── system                = system files
-    ├── extensions        = extension files, PHP files etc.
+    ├── extensions        = extension files
     ├── layouts           = layout files, HTML files
-    ├── resources         = resource files, CSS files etc.
+    ├── resources         = resource files, CSS files, fonts, etc.
     ├── settings          = configuration files, INI files
     └── trash             = deleted files
 ```
