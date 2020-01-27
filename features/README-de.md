@@ -77,6 +77,8 @@ Die folgenden Funktionen sind verfügbar:
   Links zu vorherigen/nächsten Seite anzeigen. Entwickelt von Datenstrom.
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private/README-de.md): 
   Unterstützung für passwortgeschützte Seiten. Entwickelt von Steffen Schultz.
+* [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss/README-de.md): 
+  Widgets für RadioBoss Cloud. Entwickelt von Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random/README-de.md): 
   Zufällige Seiten eines bestimmten Ortes anzeigen. Entwickelt von Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect/README-de.md): 
