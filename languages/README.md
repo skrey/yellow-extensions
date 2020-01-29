@@ -12,7 +12,6 @@ The following languages are available:
 * [French](https://github.com/datenstrom/yellow-extensions/tree/master/languages/french): French/Français with language 'fr'. Translated by Juh Nibreh.
 * [German](https://github.com/datenstrom/yellow-extensions/tree/master/languages/german): German/Deutsch with language 'de'. Translated by David Fehrmann.
 * [Hungarian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/hungarian): Hungarian/Magyar with language 'hu'. Translated by Ádám Tuba.
-* [Indonesian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/indonesian): Indonesian/Bahasa Indonesia with language 'id'. Translated by Jimmy Ofisia.
 * [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/italian): Italian/Italiano with language 'it'. Translated by Giovanni Salmeri.
 * [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/japanese): Japanese/日本語 with language 'ja'. Translated by Yuhko Senuma.
 * [Norwegian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/norwegian): Norwegian/Norsk Bokmål with language 'nb'. Translated by Per Arne Solvik.
