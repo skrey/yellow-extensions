@@ -111,8 +111,6 @@ Die folgenden Funktionen sind verfügbar:
   Twitter-Nachrichten einbinden. Entwickelt von Datenstrom, Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md): 
   Webseite auf dem neusten Stand halten. Entwickelt von Datenstrom.
-* [Vimeo](https://github.com/datenstrom/yellow-extensions/tree/master/features/vimeo/README-de.md): 
-  Vimeo-Videos einbinden. Entwickelt von Datenstrom.
 * [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki/README-de.md): 
   Wiki für deine Webseite. Entwickelt von Datenstrom.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube/README-de.md): 

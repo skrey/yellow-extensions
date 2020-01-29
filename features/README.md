@@ -111,8 +111,6 @@ The following features are available:
   Embed Twitter messages. Developed by Datenstrom, Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update): 
   Keep your website up to date. Developed by Datenstrom.
-* [Vimeo](https://github.com/datenstrom/yellow-extensions/tree/master/features/vimeo): 
-  Embed Vimeo videos. Developed by Datenstrom.
 * [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki): 
   Wiki for your website. Developed by Datenstrom.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube): 
