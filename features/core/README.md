@@ -26,7 +26,7 @@ If you want to adjust the content, then use [Markdown](https://github.com/datens
 
 If you want to adjust HTML, then change the layout. The default layout is defined in file `system/settings/system.ini`. A different layout can be defined in the [settings](#settings) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/features/help), for example to create your own navigation.
 
-If you want to adjust CSS, then change the theme. The default theme is defined in file `system/settings/system.ini`. A different theme can be defined in the [settings](#settings) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All resource files are stored in your `system/resources` folder. There are also [themes](https://github.com/datenstrom/yellow-extensions/tree/master/themes) to download.
+If you want to adjust CSS, then change the theme. The default theme is defined in file `system/settings/system.ini`. A different theme can be defined in the [settings](#settings) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All resource files are stored in your `system/resources` folder. There are [themes](https://github.com/datenstrom/yellow-extensions/tree/master/themes) to download.
 
 ## How to make a multilingual website
 
@@ -207,17 +207,6 @@ Content file with footer:
     Status: shared
     ---
     [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
-
-Layout file for default page:
-
-    <?php $this->yellow->layout("header") ?>
-    <div class="content">
-    <div class="main" role="main">
-    <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $this->yellow->page->getContent() ?>
-    </div>
-    </div>
-    <?php $this->yellow->layout("footer") ?>
 
 Configuring text settings for extensions:
 

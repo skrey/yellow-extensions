@@ -22,7 +22,7 @@ Die folgenden Sprachen sind verfügbar:
 * [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/spanish): Spanish/Spanisch mit der Sprache 'es'. Übersetzt von Al Garcia, David Garcia.
 * [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/swedish): Swedish/Schwedisch mit der Sprache 'sv'. Übersetzt von Adam Engel.
 
-Möchtest du eine neue Sprache machen? [Beginne mit der englischen Sprachdatei](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) und [englischen Hilfe](https://github.com/datenstrom/yellow-extensions/tree/master/features/help).
+Möchtest du eine neue Sprache machen? [Beginne mit der englischen Sprachdatei](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

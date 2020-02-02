@@ -22,7 +22,7 @@ The following languages are available:
 * [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/spanish): Spanish/Español with language 'es'. Translated by Al Garcia, David Garcia.
 * [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/swedish): Swedish/Svenska with language 'sv'. Translated by Adam Engel.
 
-Want to make a new language? [Start with the English language file](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) and [English help](https://github.com/datenstrom/yellow-extensions/tree/master/features/help).
+Want to make a new language? [Start with the English language file](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
