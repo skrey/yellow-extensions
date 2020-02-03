@@ -7,9 +7,8 @@ Show Disqus comments on blog.
 ## How to install extension
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download and install blog extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog).
-3. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/disqus.zip). If you are using Safari, right click and select 'Download file as'.
-4. Copy `disqus.zip` into your `system/extensions` folder.
+2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/disqus.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `disqus.zip` into your `system/extensions` folder.
 
 To uninstall delete the [extension files](extension.ini).
 
