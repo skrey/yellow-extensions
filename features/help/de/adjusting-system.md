@@ -3,7 +3,14 @@ Title: System anpassen
 ---
 Alle Einstellungen befinden sich im `system`-Verzeichnis. Hier macht man Anpassungen.
 
-[image help-screenshot-system.png Screenshot]
+    ├── content
+    ├── media
+    └── system
+        ├── extensions
+        ├── layouts
+        ├── resources
+        ├── settings
+        └── trash
 
 Das `extensions`-Verzeichnis enthält installierte Erweiterungen. Im `layouts`-Verzeichnis und im `resources`-Verzeichnis kann man das Aussehen seiner Webseite anpassen. Das `settings`-Verzeichnis enthält Konfigurationsdateien. Das `trash`-Verzeichnis enthält gelöschte Dateien.
 

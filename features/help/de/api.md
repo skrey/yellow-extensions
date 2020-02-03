@@ -12,14 +12,16 @@ Die folgenden Verzeichnisse sind vorhanden:
 
 ```
 ├── content               = Inhaltsdateien
+│   ├── 1-home            = Startseite
+│   └── shared            = geteilte Dateien
 ├── media                 = Mediendateien
 │   ├── downloads         = Dateien zum Herunterladen
 │   ├── images            = Bilder für den Inhalt
 │   └── thumbnails        = Miniaturbilder
 └── system                = Systemdateien
-    ├── extensions        = installierte Erweiterungen
+    ├── extensions        = Erweiterungsdateien
     ├── layouts           = Layoutdateien, HTML-Dateien
-    ├── resources         = Resourcendateien, CSS-Dateien usw.
+    ├── resources         = Resourcendateien, CSS-Dateien, Schriftarten, usw.
     ├── settings          = Konfigurationsdateien, INI-Dateien
     └── trash             = gelöschte Dateien
 ```

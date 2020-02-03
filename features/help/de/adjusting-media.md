@@ -3,7 +3,12 @@ Title: Medien anpassen
 ---
 Alle Medien befinden sich im `media`-Verzeichnis. Hier speichert man Bilder und andere Dateien.
 
-[image help-screenshot-media.png Screenshot]
+    ├── content
+    ├── media
+    │   ├── downloads
+    │   ├── images
+    │   └── thumbnails
+    └── system
 
 Das `downloads`-Verzeichnis enthält Dateien zum Herunterladen. Das `images`-Verzeichnis ist zum Speichern von Bildern gedacht. Das `thumbnails`-Verzeichnis enthält Miniaturbilder. Man kann auch weitere Verzeichnisse hinzufügen und Dateien so organisieren wie man will. Im Grunde genommen kann jede Mediendatei von der Webseite heruntergeladen werden. 
 

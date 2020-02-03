@@ -11,14 +11,16 @@ The following folders are available:
 
 ```
 ├── content               = content files
+│   ├── 1-home            = home page
+│   └── shared            = shared files
 ├── media                 = media files
 │   ├── downloads         = files to download
 │   ├── images            = image files for the content
 │   └── thumbnails        = image thumbnails
 └── system                = system files
-    ├── extensions        = installed extensions
+    ├── extensions        = extension files
     ├── layouts           = layout files, HTML files
-    ├── resources         = resource files, CSS files etc.
+    ├── resources         = resource files, CSS files, fonts, etc.
     ├── settings          = configuration files, INI files
     └── trash             = deleted files
 ```

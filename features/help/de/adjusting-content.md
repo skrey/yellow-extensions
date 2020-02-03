@@ -3,7 +3,11 @@ Title: Inhalt anpassen
 ---
 Alle Inhalte befinden sich im `content`-Verzeichnis. Hier bearbeitet man seine Webseite. 
 
-[image help-screenshot-content.png Screenshot]
+    ├── content
+    │   ├── 1-home
+    │   └── shared
+    ├── media
+    └── system
 
 Die `content`-Verzeichnisse stehen auf deiner Webseite zur Verfügung. In jedem Verzeichnis gibt es eine Datei mit Namen `page.md` oder mit dem Namen des Verzeichnisses. Man kann auch weitere Dateien und Verzeichnisse hinzufügen. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst.
 

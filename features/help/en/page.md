@@ -16,7 +16,6 @@ TitleSlug: help
 ! * [Adjusting content](adjusting-content)
 ! * [Adjusting media](adjusting-media)
 ! * [Adjusting system](adjusting-system)
-! * [Language configuration](language-configuration)
 ! * [Security configuration](security-configuration)
 ! * [Server configuration](server-configuration)
 ! * [HTML files](html-files)

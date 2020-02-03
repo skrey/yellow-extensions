@@ -3,7 +3,12 @@ Title: Adjusting media
 ---
 All media is located in the `media` folder. You can store your images and other files here.
 
-[image help-screenshot-media.png Screenshot]
+    ├── content
+    ├── media
+    │   ├── downloads
+    │   ├── images
+    │   └── thumbnails
+    └── system
 
 The `downloads` folder contains files to download. The `images` folder is the place to store your images. The `thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like. Essentially, any media file can be downloaded from the website.
 
