@@ -1,4 +1,4 @@
-Berlin 0.8.6
+Berlin 0.8.7
 ============
 Berlin is a simple and beautiful theme inspired by Dieter Rams.
 
