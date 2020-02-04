@@ -12,8 +12,6 @@ All settings are located in the `system` folder. You can adjust your website her
         ├── settings
         └── trash
 
-[image help-screenshot-system.png Screenshot]
-
 The `extensions` folder contains installed extensions. You can use the `layouts` folder and the `resources` folder to adjust the appearance of your website. The `settings` folder contains configuration files. The `trash` folder contains deleted files.
 
 ## System settings
