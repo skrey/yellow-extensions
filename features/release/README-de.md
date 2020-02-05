@@ -14,7 +14,7 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man eine Erweiterung verpackt
 
-Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md) kümmert sich darum Dateien herunterzuladen und Webseiten zu aktualisiert. Deine Erweiterung kann Teil dieses Prozesses werden. Besorge dir ein GitHub-Konto und [forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions). Schau dir die [Example-Erweiterung](https://github.com/schulle4u/yellow-extension-example) und [Basic-Erweiterung](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen dir welche Dateien und Einstellungen notwendig sind. Bitte stelle sicher, dass alle Erweiterungen unseren Programmierungs- und Dokumentationsstandards entsprechen.
+Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md) kümmert sich darum Webseiten zu aktualisiert. Deine Erweiterung kann Teil dieses Prozesses werden. Besorge dir ein GitHub-Konto und [forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions). Schau dir die [Example-Erweiterung](https://github.com/schulle4u/yellow-extension-example) und [Basic-Erweiterung](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen dir welche Dateien und Einstellungen notwendig sind. Bitte stelle sicher, dass alle Erweiterungen unseren Programmierungs- und Dokumentationsstandards entsprechen.
 
 ## Wie man eine Erweiterung veröffentlicht
 
