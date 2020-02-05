@@ -102,9 +102,9 @@ system/resources/basic-icon.png: Basic,basic-icon.png,create
 
 Erweiterungen in der Befehlszeile veröffentlichen:
 
-`php yellow.php release`  
 `php yellow.php release yellow-extension-example`  
 `php yellow.php release yellow-extension-basic`  
+`php yellow.php release yellow-openstreetmap`  
 
 ## Entwickler
 
