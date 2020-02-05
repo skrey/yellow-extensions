@@ -18,7 +18,7 @@ Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/ma
 
 ## Wie man eine Erweiterung veröffentlicht
 
-Erhöhe zuerst die Versionsnummer in deinem Code und erstelle dann ein neues Release in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php release` gefolgt von einem Verzeichnis. Dadurch werden alle Dateien aktualisiert. Lade deine Änderungen zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
+Erhöhe zuerst die Versionsnummer in deinem Code und erstelle dann ein neues Release in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php release` gefolgt von einem Verzeichnis. Lade deine Änderungen zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
 
 ## Einstellungen
 
