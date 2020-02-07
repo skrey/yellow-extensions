@@ -1,7 +1,7 @@
 ---
-Title: Server configuration
+Title: Troubleshooting
 ---
-Here's how to set up different web servers.
+Here's how to fix errors and server problems.
 
 ## Apache
 

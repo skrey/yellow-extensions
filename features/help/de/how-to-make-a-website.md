@@ -11,7 +11,7 @@ Lerne wie man eine eigene Webseite erstellt.
 
 Deine Webseite ist sofort erreichbar. Die Installation kommt mit einer Startseite. Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Man kann eine Webseite erstellen, indem man weitere Dateien und Verzeichnisse hinzufügt.
 
-Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](/de/help/).
+Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](troubleshooting) oder frage den [Support](/de/help/).
 
 ## Webseiten schreiben
 

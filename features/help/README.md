@@ -1,4 +1,4 @@
-Help 0.8.8
+Help 0.8.9
 ==========
 Help for your website.
 

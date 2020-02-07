@@ -1,7 +1,7 @@
 ---
-Title: Servereinstellungen
+Title: Fehlerbehebung
 ---
-Wie man unterschiedliche Webserver konfiguriert.
+Wie man Fehler und Serverprobleme behebt.
 
 ## Apache
 

@@ -11,7 +11,7 @@ Lerne wie man ein eigenes Blog erstellt.
 
 Dein Blog ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Blog". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Du kannst die Startseite löschen, wenn du das Blog auf der Startseite anzeigen willst.
 
-Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](server-configuration) oder frage den [Support](/de/help/).
+Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](troubleshooting) oder frage den [Support](/de/help/).
  
 ## Blogeinträge schreiben
 
