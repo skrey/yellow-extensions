@@ -1,4 +1,4 @@
-Stockholm 0.8.6
+Stockholm 0.8.7
 ===============
 Stockholm ist ein schlichtes Webseiten-Thema.
 
