@@ -11,7 +11,7 @@ Learn how to make your own website.
 
 Your website is immediately available. The installation comes with a home page. This is just an example to get you started, change everything as you like. You can make a website by adding more files and folders.
 
-When there are problems, please check the [server configuration](troubleshooting) or ask the [support](/help/).
+When there are problems, please check the [server configuration](troubleshooting) or ask the [support](./).
 
 ## Writing web pages
 
