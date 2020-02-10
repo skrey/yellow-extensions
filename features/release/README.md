@@ -102,9 +102,9 @@ system/resources/basic-icon.png: Basic,basic-icon.png,create
 
 Publishing extensions at the command line:
 
-`php yellow.php release yellow-extension-example`  
 `php yellow.php release yellow-extension-basic`  
-`php yellow.php release yellow-openstreetmap`  
+`php yellow.php release yellow-extension-example`  
+`php yellow.php release yellow-extensions/languages/english`  
 
 ## Developer
 
