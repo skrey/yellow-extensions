@@ -160,7 +160,7 @@ EditToolbarLink: Ссылка
 EditToolbarFile: Файл
 EditToolbarEmojiawesome: Эмо́дзи
 EditToolbarFontawesome: Иконка
-EditToolbarDraft: Черновик
+EditToolbarStatus: Статус
 EditToolbarUndo: Отменить
 EditToolbarRedo: Повторить
 EditToolbarPreview: Просмотр

@@ -160,7 +160,7 @@ EditToolbarLink: Lenke
 EditToolbarFile: Fil
 EditToolbarEmojiawesome: Emoji
 EditToolbarFontawesome: Ikon
-EditToolbarDraft: Utkast
+EditToolbarStatus: Status
 EditToolbarUndo: Angre
 EditToolbarRedo: Gjenopprette
 EditToolbarPreview: Forhåndsvisning

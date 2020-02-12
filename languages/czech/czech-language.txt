@@ -160,7 +160,7 @@ EditToolbarLink: Link
 EditToolbarFile: File
 EditToolbarEmojiawesome: Emoji
 EditToolbarFontawesome: Icon
-EditToolbarDraft: Draft
+EditToolbarStatus: Status
 EditToolbarUndo: Undo
 EditToolbarRedo: Redo
 EditToolbarPreview: Preview
