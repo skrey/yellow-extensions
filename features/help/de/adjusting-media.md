@@ -21,13 +21,13 @@ Du kannst die [Image-Erweiterung](https://github.com/datenstrom/yellow-extension
     [image picture.jpg Picture]
     [image picture.jpg "Das ist ein Beispielbild"]
 
-Bilder in unterschiedliche Stilen:
+Bilder in unterschiedlichen Stilen:
 
     [image picture.jpg Beispiel left]
     [image picture.jpg Beispiel center]
     [image picture.jpg Beispiel right]
 
-Bilder in unterschiedliche Größen:
+Bilder in unterschiedlichen Größen:
 
     [image picture.jpg Beispiel - 64 64]
     [image picture.jpg Beispiel - 320 200]

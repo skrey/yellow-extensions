@@ -67,7 +67,7 @@ Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite mit [maßg
 Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite mit [maßgeschneidertem Datumsformat](https://www.php.net/manual/de/function.date.php), HTML-kodiert
 
 **$this->yellow->page->getContent($rawFormat = false, $sizeMax = 0)**  
-Hole den Seitenhalt, HTML-kodiert oder Rohformat
+Hole den Seiteninhalt, HTML-kodiert oder Rohformat
 
 **$this->yellow->page->getParent()**  
 Hole die Elternseite, null falls nicht vorhanden
@@ -154,7 +154,7 @@ Hier ist ein Beispiel-Layout um den Seiteninhalt anzuzeigen:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Hier ist ein Beispiel-Layout um den Seiteninhalt und zusätzliche Einstellung anzuzeigen:
+Hier ist ein Beispiel-Layout um den Seiteninhalt und eine zusätzliche Einstellung anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -168,7 +168,7 @@ Hier ist ein Beispiel-Layout um den Seiteninhalt und zusätzliche Einstellung an
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Hier ist ein Beispiel-Layout um den Seiteninhalt und zusätzliches Datum anzuzeigen:
+Hier ist ein Beispiel-Layout um den Seiteninhalt und ein zusätzliches Datum anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -356,7 +356,7 @@ Hier ist ein Beispiel-Layout um alle Seiten anzuzeigen:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Hier ist ein Beispiel-Layout um Seiten unterhalb einer bestimmten Orts anzuzeigen:
+Hier ist ein Beispiel-Layout um Seiten unterhalb eines bestimmten Orts anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -445,7 +445,7 @@ Hier ist ein Beispiel-Layout um die neusten Mediendateien anzuzeigen:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Hier ist ein Beispiel-Layout um Mediendateien eines bestimmten Types anzuzeigen:
+Hier ist ein Beispiel-Layout um Mediendateien eines bestimmten Typen anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -537,16 +537,16 @@ Safe mode is <?php echo htmlspecialchars($safeMode ? "on" : "off") ?>.
 Yellow-Text gibt Zugang zu [Texteinstellungen](adjusting-system#texteinstellungen):
 
 **$this->yellow->text->get($key)**  
-Hole ein Textstring
+Hole einen Textstring
 
 **$this->yellow->text->getHtml($key)**  
-Hole ein Textstring, HTML-kodiert
+Hole einen Textstring, HTML-kodiert
 
 **$this->yellow->text->getText($key, $language )**  
-Hole ein Textstring für eine bestimmte Sprache
+Hole einen Textstring für eine bestimmte Sprache
 
 **$this->yellow->text->getTextHtml($key, $language )**  
-Hole ein Textstring für eine bestimmte Sprache, HTML-kodiert
+Hole einen Textstring für eine bestimmte Sprache, HTML-kodiert
 
 **$this->yellow->text->getData($filterStart = "", $language = "")**  
 Hole Textstrings
@@ -614,7 +614,7 @@ Hier ist ein Beispiel-Layout um zu testen ob eine bestimmte Sprache existiert:
 
 ### Yellow-Text-Kodierung
 
-Die folgenden Funktionen sind vorhanden zur Kodierung von Text: 
+Die folgenden Funktionen sind zur Kodierung von Text vorhanden: 
 
 `htmlspecialchars($string)` = kodiere Textstring ins HTML-Format  
 `rawurlencode($string)` = kodiere URL, z.B. Hyperlink-Argumente  
@@ -678,7 +678,7 @@ Hole den Ort der aktuellen HTTP-Anfrage
 Hole die Ortargumente der aktuellen HTTP-Anfrage
 
 **$this->yellow->toolbox->isLocationArgs($location = "")**  
-Teste ob es Ortargumente gibt in der aktuellen HTTP-Anfrage
+Teste ob es Ortargumente in der aktuellen HTTP-Anfrage gibt
 
 **$this->yellow->toolbox->normaliseArgs($text, $appendSlash = true, $filterStrict = true)**  
 Normalisiere Ortargumente
@@ -758,7 +758,7 @@ Hier ist ein Beispiel-Layout um Dateien in einem Verzeichnis anzuzeigen:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Hier ist ein Beispiel-Layout um Textzeilen von Datei zu lesen:
+Hier ist ein Beispiel-Layout um Textzeilen von einer Datei zu lesen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -857,9 +857,9 @@ onLoad ───────▶ onStartup ────────────�
 exit ◀───────── onShutDown ◀───────────────┴───────────────────────┘
 ```
 
-Wird eine Seite angezeigt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Danach informiert der Core mit `onRequest` dass es eine Anfrage gibt. Die Seite kann mit verschiedenen `onParse`-Ereignisse analysiert werden. Dann wird der Inhalt der Seite erzeugt. Sollte ein Fehler auftreten, wird eine Fehlerseite erzeugt. Zum Schluss wird die Seite ausgegeben und es wird `onShutdown` aufgerufen.
+Wird eine Seite angezeigt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Danach informiert der Core mit `onRequest` dass es eine Anfrage gibt. Die Seite kann mit verschiedenen `onParse`-Ereignissen analysiert werden. Dann wird der Inhalt der Seite erzeugt. Sollte ein Fehler auftreten, wird eine Fehlerseite erzeugt. Zum Schluss wird die Seite ausgegeben und es wird `onShutdown` aufgerufen.
 
-Wird eine Seite bearbeitet, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Danach informiert der Core mit `onRequest` dass es eine Anfrage gibt, welche von der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) behandelt wird. Änderungen an der Seite können mit verschiedenen `onEdit`-Ereignisse überprüft werden. Dann wird die Seite im Dateisystem gespeichert. Zum Schluss wird ein Statuscode zum Neuladen der Seite ausgegeben und es wird `onShutdown` aufgerufen.
+Wird eine Seite bearbeitet, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Danach informiert der Core mit `onRequest` dass es eine Anfrage gibt, welche von der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) behandelt wird. Änderungen an der Seite können mit verschiedenen `onEdit`-Ereignissen überprüft werden. Dann wird die Seite im Dateisystem gespeichert. Zum Schluss wird ein Statuscode zum Neuladen der Seite ausgegeben und es wird `onShutdown` aufgerufen.
 
 Wird ein Befehl ausgeführt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Danach informiert der Core mit `onCommand` dass es einen Befehl gibt, welcher von der entsprechenden Erweiterung behandelt wird. Sollte kein Befehl in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) eingegeben worden sein, dann wird `onCommandHelp` aufgerufen und Erweiterungen können eine Hilfe zur Verfügung stellen. Zum Schluss wird ein Rückgabecode ausgegeben und es wird `onShutdown` aufgerufen.
 

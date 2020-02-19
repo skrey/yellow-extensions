@@ -104,9 +104,9 @@ Erstelle eine statische Webseite in der [Befehlszeile](https://github.com/datens
 
 1. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet.
 2. Gib die folgende Zeile ein: `php yellow.php build`
-3. Lade die statische Webseite auf dein Webserver hoch.
+3. Lade die statische Webseite auf deinen Webserver hoch.
 
-Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf dein Webserver hoch und erstelle bei Bedarf eine neue. Die URL deiner statischen Webseite kannst du in den [Systemeinstellungen](adjusting-system#systemeinstellungen) festlegen, zum Beispiel `StaticUrl: http://website/`. 
+Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue. Die URL deiner statischen Webseite kannst du in den [Systemeinstellungen](adjusting-system#systemeinstellungen) festlegen, zum Beispiel `StaticUrl: http://website/`. 
 
 Als Alternative zu einer statischen Webseite kannst du einen Cache erstellen. Das beschleunigt deine Webseite deutlich, jedoch muss der Cache immer wieder aktualisiert werden. Hier ist ein Beispiel: `php yellow.php build cache`. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
