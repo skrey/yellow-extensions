@@ -105,7 +105,7 @@ server {
 
 Hier ist eine `nginx.conf` Konfigurationsdatei für eine statische Webseite:
 
-```
+```nginx
 server {
     listen 80;
     server_name website.com;

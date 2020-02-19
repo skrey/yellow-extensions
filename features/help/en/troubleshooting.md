@@ -11,12 +11,12 @@ The following problems can occur:
 
 **Datenstrom Yellow requires a configuration file for Apache!**
 
-* Copy file `.htaccess` into the installation folder.
+* Copy the file `.htaccess` into the installation folder.
 * Check if your FTP software has a setting to show all files.
 
 **Datenstrom Yellow requires write access […]**
 
-* Run command `chmod -R a+rw *` in the installation folder. 
+* Run the command `chmod -R a+rw *` in the installation folder. 
 * You can use your FTP software to give write permissions to all files.
 
 **Datenstrom Yellow requires rewrite support […]**
@@ -104,7 +104,7 @@ server {
 
 Here's a `nginx.conf` configuration file for a static website:
 
-```
+```nginx
 server {
     listen 80;
     server_name website.com;
