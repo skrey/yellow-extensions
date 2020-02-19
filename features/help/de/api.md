@@ -1,8 +1,7 @@
 ---
-Title: API Deutsch
-TitleContent: API
+Title: API
 ---
-API für Entwickler. Wir :heart: Entwickler.
+Wir <3 Menschen die programmieren.
 
 [toc]
 
@@ -329,7 +328,7 @@ Hole eine [Page-Collection](#yellow-page-collection) mit Hauptseiten der Navigat
 Hole eine [Page-Collection](#yellow-page-collection) mit Pfad in der Navigation
 
 **$this->yellow->content->multi($location, $absoluteLocation = false, $showInvisible = false)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit mehreren Sprachen im [Mehrsprachen-Modus](language-configuration#mehrsprachen-modus)
+Hole eine [Page-Collection](#yellow-page-collection) mit mehreren Sprachen im Mehrsprachen-Modus
 
 **$this->yellow->content->shared($name)**  
 Hole eine [Page](#yellow-page) mit geteiltem Inhalt, null falls nicht vorhanden  
@@ -516,7 +515,7 @@ Hier ist ein Beispiel-Layout um Webmaster-Einstellungen anzuzeigen:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Hier ist ein Beispiel-Layout um anzuzeigen ob der sichere Modus aktiviert ist:
+Hier ist ein Beispiel-Layout um anzuzeigen ob der Mehrsprachen-Modus aktiviert ist:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -524,8 +523,8 @@ Hier ist ein Beispiel-Layout um anzuzeigen ob der sichere Modus aktiviert ist:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p>
-<?php $safeMode = $this->yellow->system->get("coreSafeMode") ?>
-Safe mode is <?php echo htmlspecialchars($safeMode ? "on" : "off") ?>.
+<?php $multiLanguageMode = $this->yellow->system->get("coreMultiLanguageMode") ?>
+Multi language mode is <?php echo htmlspecialchars($multiLanguageMode ? "on" : "off") ?>.
 </p>
 </div>
 </div>
@@ -1015,52 +1014,4 @@ class YellowExample {
         return $statusCode;
     }
 }
-```
-
-## Fehlersuche
-
-Systemdiagnose findet man in der Datei `system/extensions/yellow.log`. Hier ist ein Beispiel:
-
-```
-2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
-2019-03-12 13:33:37 info Check Apache server configuration
-2019-03-12 13:33:37 info Install language 'English'
-2019-03-12 13:33:37 info Install language 'French'
-2019-03-12 13:33:37 info Install language 'German'
-2019-03-12 13:33:49 info Install extension 'Blog 0.8.4'
-2019-03-12 13:33:49 info Add user 'Anna'
-```
-
-Oder öffne die Datei `system/extensions/core.php` und ändere `<?php define("DEBUG", 1);`  
-
-```
-YellowCore::sendPage Cache-Control: max-age=60
-YellowCore::sendPage Content-Type: text/html; charset=utf-8
-YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
-YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
-YellowCore::sendPage layout:blogpages theme:flatsite parser:markdown
-YellowCore::processRequest file:content/1-en/2-features/1-blog/page.md
-YellowCore::request status:200 handler:core time:19 ms
-```
-
-Dateisysteminformationen durch Erhöhen des Debuglevels zu `<?php define("DEBUG", 2);`
-```
-YellowSystem::load file:system/settings/system.ini
-YellowEditUsers::load file:system/settings/user.ini
-YellowText::load file:system/extensions/english-language.txt
-YellowText::load file:system/extensions/french-language.txt
-YellowText::load file:system/extensions/german-language.txt
-YellowText::load file:system/settings/text.ini
-YellowCore::load extensions:43 time:10 ms
-```
-
-Maximum Informationen durch Erhöhen des Debuglevels zu `<?php define("DEBUG", 3);`
-```
-YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
-YellowSystem::load file:system/settings/system.ini
-YellowSystem::load Sitename:Datenstrom developers
-YellowSystem::load Author:Datenstrom
-YellowSystem::load Email:webmaster
-YellowSystem::load Language:en
-YellowSystem::load Layout:default
 ```

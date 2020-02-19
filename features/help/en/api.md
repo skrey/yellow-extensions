@@ -1,7 +1,7 @@
 ---
 Title: API
 ---
-API for developers. We :heart: developers.
+We <3 love people who code.
 
 [toc]
 
@@ -329,7 +329,7 @@ Return [page collection](#yellow-page-collection) with top-level navigation
 Return [page collection](#yellow-page-collection) with path ancestry
 
 **$this->yellow->content->multi($location, $absoluteLocation = false, $showInvisible = false)**  
-Return [page collection](#yellow-page-collection) with multiple languages in [multi language mode](language-configuration#multi-language-mode)
+Return [page collection](#yellow-page-collection) with multiple languages in multi language mode
 
 **$this->yellow->content->shared($name)**  
 Return [page](#yellow-page) with shared content, null if not found  
@@ -516,7 +516,7 @@ Here's an example layout for showing webmaster settings:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing if safe mode is activated:
+Here's an example layout for showing if multi language mode is activated:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -524,8 +524,8 @@ Here's an example layout for showing if safe mode is activated:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p>
-<?php $safeMode = $this->yellow->system->get("coreSafeMode") ?>
-Safe mode is <?php echo htmlspecialchars($safeMode ? "on" : "off") ?>.
+<?php $multiLanguageMode = $this->yellow->system->get("coreMultiLanguageMode") ?>
+Multi language mode is <?php echo htmlspecialchars($multiLanguageMode ? "on" : "off") ?>.
 </p>
 </div>
 </div>
@@ -1013,52 +1013,4 @@ class YellowExample {
         return $statusCode;
     }
 }
-```
-
-## Troubleshooting
-
-You can find system diagnostics in file `system/extensions/yellow.log`. Here's an example:
-
-```
-2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
-2019-03-12 13:33:37 info Check Apache server configuration
-2019-03-12 13:33:37 info Install language 'English'
-2019-03-12 13:33:37 info Install language 'French'
-2019-03-12 13:33:37 info Install language 'German'
-2019-03-12 13:33:49 info Install extension 'Blog 0.8.4'
-2019-03-12 13:33:49 info Add user 'Anna'
-```
-
-Or open file `system/extensions/core.php` and change `<?php define("DEBUG", 1);`
-
-```
-YellowCore::sendPage Cache-Control: max-age=60
-YellowCore::sendPage Content-Type: text/html; charset=utf-8
-YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
-YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
-YellowCore::sendPage layout:blogpages theme:flatsite parser:markdown
-YellowCore::processRequest file:content/1-en/2-features/1-blog/page.md
-YellowCore::request status:200 handler:core time:19 ms
-```
-
-Get file system information by increasing debug level to `<?php define("DEBUG", 2);`
-```
-YellowSystem::load file:system/settings/system.ini
-YellowEditUsers::load file:system/settings/user.ini
-YellowText::load file:system/extensions/english-language.txt
-YellowText::load file:system/extensions/french-language.txt
-YellowText::load file:system/extensions/german-language.txt
-YellowText::load file:system/settings/text.ini
-YellowCore::load extensions:43 time:10 ms
-```
-
-Get maximum information by increasing debug level to `<?php define("DEBUG", 3);`
-```
-YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
-YellowSystem::load file:system/settings/system.ini
-YellowSystem::load Sitename:Datenstrom developers
-YellowSystem::load Author:Datenstrom
-YellowSystem::load Email:webmaster
-YellowSystem::load Language:en
-YellowSystem::load Layout:default
 ```

@@ -1,11 +1,39 @@
 ---
 Title: Fehlerbehebung
 ---
-Wie man Fehler und Serverprobleme behebt.
+Wie man Fehler findet und behebt.
 
-## Apache
+[toc]
 
-Die `.htaccess` Konfigurationsdatei für den [Apache](http://httpd.apache.org)-Webserver:
+## Probleme bei der Installation
+
+Die folgenden Probleme können auftreten:
+
+**Datenstrom Yellow requires Apache configuration file!**
+
+* Kopiere die Datei `.htaccess` ins Installations-Verzeichnis. 
+* Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen.
+
+**Datenstrom Yellow requires […] write access!**
+
+* Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. 
+* Du kannst deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben.
+
+**Datenstrom Yellow requires […] rewrite module!**
+
+* Aktualisiere die Konfiguration auf deinem Webserver, siehe [Apache](#probleme-mit-apache) and [Nginx](#probleme-mit-nginx).
+
+**Datenstrom Yellow requires […] extension!**
+
+* Installiere die fehlende PHP-Erweiterung auf deinem Webserver.
+
+**Datenstrom Yellow requires PHP 5.6 or higher!**
+
+* Installiere die neuste PHP-Version auf deinem Webserver.
+
+## Probleme mit Apache
+
+Hier ist eine `.htaccess` Konfigurationsdatei für den [Apache-Webserver](https://httpd.apache.org):
 
 ```apache
 <IfModule mod_rewrite.c>
@@ -19,8 +47,7 @@ RewriteRule ^ yellow.php [L]
 </IfModule>
 ```
 
-Wenn deine Webseite nicht funktioniert, wird angezeigt "Datenstrom Yellow requires Apache rewrite module". 
-Überprüfe bitte die folgenden Schritte. Füge `RewriteBase` zur Konfigurationsdatei hinzu, das behebt die meisten Apache-Webserverprobleme. Hier ist ein Beispiel für ein Unterverzeichnis:
+Hier ist eine `.htaccess` Konfigurationsdatei für ein Unterverzeichnis:
 
 ```apache
 <IfModule mod_rewrite.c>
@@ -34,19 +61,12 @@ RewriteRule ^ yellow.php [L]
 </IfModule>
 ```
 
-Wenn deine Webseite immer noch nicht funktioniert und sich über das Rewrite-Module beschwert, dann überprüfe bitte den Apache-Webserver. Du musst vermutlich das [Rewrite-Modul](https://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2) aktivieren und `AllowOverride All` in den [Webserver-Einstellungen](https://stackoverflow.com/questions/18740419/how-to-set-allowoverride-all) konfigurieren.
+Wenn deine Webseite nicht funktioniert, dann musst du das [Rewrite-Modul aktivieren](https://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2) und die [globale Konfiguration aktualisieren](https://stackoverflow.com/questions/18740419/how-to-set-allowoverride-all). Nachdem die Konfiguration verändert wurde, musst du den Apache-Webserver neustarten/neuladen.
 
-Wenn der Dateizugriff nicht funktioniert, wird angezeigt "Datenstrom Yellow requires Apache read/write access". Stelle sicher dass der Webserver Dateien lesen und schreiben kann. Du kannst [Schreibrechte](https://superuser.com/questions/51838/recursive-chmod-rw-for-files-rwx-for-directories) für Dateien manuell angleichen, zum Beispiel mit `chmod -R a+rw *`. Als Alternative kannst du Webserver und Benutzern die Gruppe `www-data` und `umask 002` zuweisen.
 
-Wenn man eine [statische Webseite](#statische-webseite) hat, sollte man die folgende Konfigurationsdatei benutzen:
+## Probleme mit Nginx
 
-```apache
-ErrorDocument 404 /404.html
-```
-
-## Nginx
-
-Die `nginx.conf` Konfigurationsdatei für den [Nginx](https://nginx.org/)-Webserver:
+Hier ist eine `nginx.conf` Konfigurationsdatei für den [Nginx-Webserver](https://nginx.org/):
 
 ```nginx
 server {
@@ -83,13 +103,9 @@ server {
 }
 ```
 
-Wenn deine Webseite nicht funktioniert, wird angezeigt "Datenstrom Yellow requires Nginx rewrite module". Überprüfe bitte `server_name` und `root` in der Konfigurationsdatei. Falls die Konfigurationsdatei verändert wurde, musst du den Nginx-Webserver [neustarten/neuladen](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
+Hier ist eine `nginx.conf` Konfigurationsdatei für eine statische Webseite:
 
-Wenn der Dateizugriff nicht funktioniert, wird angezeigt "Datenstrom Yellow requires Nginx read/write access". Stelle sicher dass der Webserver Dateien lesen und schreiben kann. Du kannst [Schreibrechte](https://superuser.com/questions/51838/recursive-chmod-rw-for-files-rwx-for-directories) für Dateien manuell angleichen, zum Beispiel mit `chmod -R a+rw *`. Als Alternative kannst du Webserver und Benutzern die Gruppe `www-data` und `umask 002` zuweisen.
-
-Wenn man eine [statische Webseite](#statische-webseite) hat, sollte man die folgende Konfigurationsdatei benutzen:
-
-```nginx
+```
 server {
     listen 80;
     server_name website.com;
@@ -98,16 +114,51 @@ server {
 }
 ```
 
-## Statische Webseite
+Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root` in der Konfigurationsdatei. Nachdem die Konfiguration verändert wurde, musst du den [Nginx-Webserver neustarten/neuladen](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
 
-Erstelle eine statische Webseite in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command), die auf fast jedem Webserver funktioniert:
+## Systemdiagnose
 
-1. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet.
-2. Gib die folgende Zeile ein: `php yellow.php build`
-3. Lade die statische Webseite auf deinen Webserver hoch.
+Die Logdatei `system/extensions/yellow.log` zeigt wichtige Informationen und Fehler an. Hier ist ein Beispiel:
 
-Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue. Die URL deiner statischen Webseite kannst du in den [Systemeinstellungen](adjusting-system#systemeinstellungen) festlegen, zum Beispiel `StaticUrl: http://website/`. 
+```
+2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
+2019-03-12 13:33:37 info Install language 'English'
+2019-03-12 13:33:37 info Install language 'French'
+2019-03-12 13:33:37 info Install language 'German'
+2019-03-12 13:33:49 info Install extension 'Blog 0.8.4'
+2019-03-12 13:33:49 info Add user 'Anna'
+```
 
-Als Alternative zu einer statischen Webseite kannst du einen Cache erstellen. Das beschleunigt deine Webseite deutlich, jedoch muss der Cache immer wieder aktualisiert werden. Hier ist ein Beispiel: `php yellow.php build cache`. Zum Löschen gibt man ein: `php yellow.php clean cache`.
+Für weitere Informationen öffne die Datei `system/extensions/core.php` und ändere `<?php define("DEBUG", 1);`  
 
-Man kann eine statische Webseite auch testen, ohne sie auf einen Webserver hochzuladen. Das ist vor allem für [Entwickler](api) praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`. Daraufhin ist die Webseite vorhanden als `http://localhost:8000/`.
+```
+YellowCore::sendPage Cache-Control: max-age=60
+YellowCore::sendPage Content-Type: text/html; charset=utf-8
+YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
+YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
+YellowCore::sendPage layout:blogpages theme:flatsite parser:markdown
+YellowCore::processRequest file:content/1-en/2-features/1-blog/page.md
+YellowCore::request status:200 handler:core time:19 ms
+```
+
+Dateisysteminformationen durch Erhöhen des Debuglevels zu `<?php define("DEBUG", 2);`
+```
+YellowSystem::load file:system/settings/system.ini
+YellowEditUsers::load file:system/settings/user.ini
+YellowText::load file:system/extensions/english-language.txt
+YellowText::load file:system/extensions/french-language.txt
+YellowText::load file:system/extensions/german-language.txt
+YellowText::load file:system/settings/text.ini
+YellowCore::load extensions:43 time:10 ms
+```
+
+Maximum Informationen durch Erhöhen des Debuglevels zu `<?php define("DEBUG", 3);`
+```
+YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
+YellowSystem::load file:system/settings/system.ini
+YellowSystem::load Sitename:Datenstrom developers
+YellowSystem::load Author:Datenstrom
+YellowSystem::load Email:webmaster
+YellowSystem::load Language:en
+YellowSystem::load Layout:default
+```

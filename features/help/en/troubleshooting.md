@@ -1,11 +1,39 @@
 ---
 Title: Troubleshooting
 ---
-Here's how to fix errors and server problems.
+Here's how to find and fix errors.
 
-## Apache
+[toc]
 
-The `.htaccess` configuration file for the [Apache](http://httpd.apache.org) web server:
+## Problems with installation
+
+The following problems can occur:
+
+**Datenstrom Yellow requires Apache configuration file!**
+
+* Copy file `.htaccess` into the installation folder.
+* Check if your FTP software has a setting to show all files.
+
+**Datenstrom Yellow requires […] write access!**
+
+* Run command `chmod -R a+rw *` in the installation folder. 
+* You can use your FTP software to give write permissions to all files.
+
+**Datenstrom Yellow requires […] rewrite module!**
+
+* Configure your web server, see examples for [Apache](#problems-with-apache) and [Nginx](#problems-with-nginx).
+
+**Datenstrom Yellow requires […] extension!**
+
+* Install the missing PHP extension on your web server.
+
+**Datenstrom Yellow requires PHP 5.6 or higher!**
+
+* Install the latest PHP version on your web server.
+
+## Problems with Apache
+
+Here's a `.htaccess` configuration file for the [Apache web server](https://httpd.apache.org):
 
 ```apache
 <IfModule mod_rewrite.c>
@@ -19,7 +47,7 @@ RewriteRule ^ yellow.php [L]
 </IfModule>
 ```
 
-When your website doesn't work, it shows "Datenstrom Yellow requires Apache rewrite module". Please check the following steps. Add `RewriteBase` to your configuration file, this will fix most Apache web server problems. Here's an example for a subfolder:
+Here's a `.htaccess` configuration file for a subfolder:
 
 ```apache
 <IfModule mod_rewrite.c>
@@ -33,20 +61,11 @@ RewriteRule ^ yellow.php [L]
 </IfModule>
 ```
 
-When your website still doesn't work and complains about the rewrite module, then please check the Apache web server. You probably have to enable the [rewrite module](https://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2) and configure `AllowOverride All` in the [web server settings](https://stackoverflow.com/questions/18740419/how-to-set-allowoverride-all). 
+When your website doesn't work, then you have to [enable the rewrite module](https://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2) and [update the global configuration](https://stackoverflow.com/questions/18740419/how-to-set-allowoverride-all). After the configuration has been changed, you have to restart/reload the Apache web server.
 
-When file access doesn't work, it shows "Datenstrom Yellow requires Apache read/write access".
-Make sure that the web server can read and write files. You can manually adjust [file permissions](https://superuser.com/questions/51838/recursive-chmod-rw-for-files-rwx-for-directories) so that the web server can overwrite files, for example with command `chmod -R a+rw *`. As an alternative you can assign the group `www-data` and `umask 002` to the web server and users.
+## Problems with Nginx
 
-When you have a [static website](#static-website) you should use the following configuration file:
-
-```apache
-ErrorDocument 404 /404.html
-```
-
-## Nginx
-
-The `nginx.conf` configuration file for the [Nginx](https://nginx.org/) web server:
+Here's a `nginx.conf` configuration file for the [Nginx web server](https://nginx.org/) :
 
 ```nginx
 server {
@@ -83,14 +102,9 @@ server {
 }
 ```
 
-When your website doesn't work, it shows "Datenstrom Yellow requires Nginx rewrite module".
-Please check `server_name` and `root` in the configuration file. If the configuration file has been changed, you need to [restart/reload](https://stackoverflow.com/questions/21292533/reload-nginx-configuration) the Nginx web server.
+Here's a `nginx.conf` configuration file for a static website:
 
-When file access doesn't work, it shows "Datenstrom Yellow requires Nginx read/write access". Make sure that the web server can read and write files. You can manually adjust [file permissions](https://superuser.com/questions/51838/recursive-chmod-rw-for-files-rwx-for-directories) so that the web server can overwrite files, for example with command `chmod -R a+rw *`. As an alternative you can assign the group `www-data` and `umask 002` to the web server and users.
-
-When you have a [static website](#static-website) you should use the following configuration file:
-
-```nginx
+```
 server {
     listen 80;
     server_name website.com;
@@ -99,16 +113,52 @@ server {
 }
 ```
 
-## Static website
+When your website doesn't work, then check `server_name` and `root` in the configuration file. After the configuration has been changed, you have to [restart/reload the Nginx web server](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
 
-Create a static website at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command), that works on almost any web server:
+## System diagnostics
 
-1. Go to your installation folder, where the `yellow.php` is.
-2. Type the following line: `php yellow.php build`
-3. Upload the static website to your web server.
+The log file `system/extensions/yellow.log` shows important information and errors. Here's an example:
 
-This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. The URL of your static website can be defined in the [system settings](adjusting-system#system-settings), for example `StaticUrl: http://website/`.
+```
+2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
+2019-03-12 13:33:37 info Install language 'English'
+2019-03-12 13:33:37 info Install language 'French'
+2019-03-12 13:33:37 info Install language 'German'
+2019-03-12 13:33:49 info Install extension 'Blog 0.8.4'
+2019-03-12 13:33:49 info Add user 'Anna'
+```
 
-As an alternative to a static website you can build a cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`. To clean the cache type the following line: `php yellow.php clean cache`.
+For more information open file `system/extensions/core.php` and change `<?php define("DEBUG", 1);`
 
-You can test a static website without uploading it to a web server. Start the built-in web server. This is especially handy for [developers](api), since everything runs on your own computer. Here's an example: `php yellow.php serve`. Now the website is available as `http://localhost:8000/`.
+```
+YellowCore::sendPage Cache-Control: max-age=60
+YellowCore::sendPage Content-Type: text/html; charset=utf-8
+YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
+YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
+YellowCore::sendPage layout:blogpages theme:flatsite parser:markdown
+YellowCore::processRequest file:content/1-en/2-features/1-blog/page.md
+YellowCore::request status:200 handler:core time:19 ms
+```
+
+Get file system information by increasing debug level to `<?php define("DEBUG", 2);`
+```
+YellowSystem::load file:system/settings/system.ini
+YellowEditUsers::load file:system/settings/user.ini
+YellowText::load file:system/extensions/english-language.txt
+YellowText::load file:system/extensions/french-language.txt
+YellowText::load file:system/extensions/german-language.txt
+YellowText::load file:system/settings/text.ini
+YellowCore::load extensions:43 time:10 ms
+```
+
+Get maximum information by increasing debug level to `<?php define("DEBUG", 3);`
+```
+YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
+YellowSystem::load file:system/settings/system.ini
+YellowSystem::load Sitename:Datenstrom developers
+YellowSystem::load Author:Datenstrom
+YellowSystem::load Email:webmaster
+YellowSystem::load Language:en
+YellowSystem::load Layout:default
+```
+
