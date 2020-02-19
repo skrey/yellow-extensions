@@ -21,7 +21,7 @@ Die folgenden Probleme können auftreten:
 
 **Datenstrom Yellow requires rewrite support […]**
 
-* Aktualisiere die Konfiguration auf deinem Webserver, siehe [Beispiele für Apache](#probleme-mit-apache) und [Nginx](#probleme-mit-nginx).
+* Konfiguriere deinen Webserver, siehe [Beispiele für Apache](#probleme-mit-apache) und [Nginx](#probleme-mit-nginx).
 
 **Datenstrom Yellow requires PHP extension […]**
 
