@@ -9,21 +9,21 @@ Here's how to find and fix errors.
 
 The following problems can occur:
 
-**Datenstrom Yellow requires Apache configuration file!**
+**Datenstrom Yellow requires a configuration file for Apache!**
 
 * Copy file `.htaccess` into the installation folder.
 * Check if your FTP software has a setting to show all files.
 
-**Datenstrom Yellow requires […] write access!**
+**Datenstrom Yellow requires write access […]**
 
 * Run command `chmod -R a+rw *` in the installation folder. 
 * You can use your FTP software to give write permissions to all files.
 
-**Datenstrom Yellow requires […] rewrite module!**
+**Datenstrom Yellow requires rewrite support […]**
 
-* Configure your web server, see examples for [Apache](#problems-with-apache) and [Nginx](#problems-with-nginx).
+* Configure your web server, see [examples for Apache](#problems-with-apache) and [Nginx](#problems-with-nginx).
 
-**Datenstrom Yellow requires […] extension!**
+**Datenstrom Yellow requires PHP extension […]**
 
 * Install the missing PHP extension on your web server.
 

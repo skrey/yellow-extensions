@@ -9,21 +9,21 @@ Wie man Fehler findet und behebt.
 
 Die folgenden Probleme können auftreten:
 
-**Datenstrom Yellow requires Apache configuration file!**
+**Datenstrom Yellow requires a configuration file for Apache!**
 
 * Kopiere die Datei `.htaccess` ins Installations-Verzeichnis. 
 * Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen.
 
-**Datenstrom Yellow requires […] write access!**
+**Datenstrom Yellow requires write access […]**
 
 * Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. 
 * Du kannst deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben.
 
-**Datenstrom Yellow requires […] rewrite module!**
+**Datenstrom Yellow requires rewrite support […]**
 
-* Aktualisiere die Konfiguration auf deinem Webserver, siehe [Apache](#probleme-mit-apache) and [Nginx](#probleme-mit-nginx).
+* Aktualisiere die Konfiguration auf deinem Webserver, siehe [Beispiele für Apache](#probleme-mit-apache) und [Nginx](#probleme-mit-nginx).
 
-**Datenstrom Yellow requires […] extension!**
+**Datenstrom Yellow requires PHP extension […]**
 
 * Installiere die fehlende PHP-Erweiterung auf deinem Webserver.
 
