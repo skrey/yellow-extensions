@@ -120,7 +120,7 @@ When your website doesn't work, then check `server_name` and `root` in the confi
 The log file `system/extensions/yellow.log` shows important information and errors. Here's an example:
 
 ```
-2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
+2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache 2.4.33 Darwin
 2019-03-12 13:33:37 info Install language 'English'
 2019-03-12 13:33:37 info Install language 'French'
 2019-03-12 13:33:37 info Install language 'German'
@@ -153,7 +153,7 @@ YellowCore::load extensions:43 time:10 ms
 
 Get maximum information by increasing debug level to `<?php define("DEBUG", 3);`
 ```
-YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
+YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache 2.4.33 Darwin
 YellowSystem::load file:system/settings/system.ini
 YellowSystem::load Sitename:Datenstrom developers
 YellowSystem::load Author:Datenstrom

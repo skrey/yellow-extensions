@@ -121,7 +121,7 @@ Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root
 Die Logdatei `system/extensions/yellow.log` zeigt wichtige Informationen und Fehler an. Hier ist ein Beispiel:
 
 ```
-2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
+2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache 2.4.33 Darwin
 2019-03-12 13:33:37 info Install language 'English'
 2019-03-12 13:33:37 info Install language 'French'
 2019-03-12 13:33:37 info Install language 'German'
@@ -154,7 +154,7 @@ YellowCore::load extensions:43 time:10 ms
 
 Maximum Informationen durch Erhöhen des Debuglevels zu `<?php define("DEBUG", 3);`
 ```
-YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache/2.4.33 Darwin
+YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache 2.4.33 Darwin
 YellowSystem::load file:system/settings/system.ini
 YellowSystem::load Sitename:Datenstrom developers
 YellowSystem::load Author:Datenstrom
