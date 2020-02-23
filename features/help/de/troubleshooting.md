@@ -21,11 +21,13 @@ Die folgenden Probleme können auftreten:
 
 **Datenstrom Yellow requires rewrite support […]**
 
-* Konfiguriere deinen Webserver, siehe [Beispiele für Apache](#probleme-mit-apache) und [Nginx](#probleme-mit-nginx).
+* Konfiguriere deinen Webserver, siehe [Probleme mit Apache](#probleme-mit-apache) und [Nginx](#probleme-mit-nginx).
+* Du kannst den [eingebauten Webserver](https://github.com/datenstrom/yellow-extensions/blob/master/features/command/README-de.md#wie-man-den-eingebauten-webserver-startet) auf dem eigenem Computer starten.
 
 **Datenstrom Yellow requires PHP extension […]**
 
 * Installiere die fehlende PHP-Erweiterung auf deinem Webserver.
+* Du brauchst die folgenden PHP-Erweiterungen: curl, gd, exif, mbstring, zip.
 
 **Datenstrom Yellow requires PHP 5.6 or higher!**
 

@@ -24,4 +24,8 @@ TitleSlug: help
 
 ## Get support
 
-Do you have question? Something doesn't work? There's a good chance that your question has already been answered. If not, just open a new support issue. That way you get help for your website and everyone else with the same question can also read the answers. [Report problems and suggest ideas](https://github.com/datenstrom/yellow/issues). For companies there's [commercial support](https://mayberg.se/support/).
+Do you have question? Something doesn't work? There's a good chance that your question has already been answered. If not, submit a new issue. Add a lot of details, the more we know the better we can help. That way you get help for your website and everyone else can also read the answers. [Ask questions](https://github.com/datenstrom/yellow/issues) and [contribute](https://github.com/datenstrom/yellow/blob/master/CONTRIBUTING.md). 
+
+## Want to have commercial support?
+
+Do you have an urgent problem? Looking for someone that helps you with your website? You can contact the person who made your website or talk to your webmaster. Usually you get help there. If not, contact the commercial support. We'll make sure you have the support you need. [Learn more about commercial support](https://mayberg.se/support/).

@@ -12,21 +12,17 @@ Run commands in a terminal window.
 
 Please do not delete the [extension files](extension.ini), they are always required.
 
-## How to run a command
-
-Run commands in the installation folder. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` followed by more arguments. To show available commands don't enter any arguments. 
-
 ## How to build a static website
 
 Build a static website that works on most web servers. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check for broken links type: `php yellow.php check`. To clean the static website type the following: `php yellow.php clean`.
 
 ## How to build a static cache
 
-You can speed up a dynamic website with a static cache. This speeds up your website significantly, but the cache needs to be updated repeatedly. Here's an example: `php yellow.php build cache`, you can optionally add a location. To clean the cache type following: `php yellow.php clean cache`.
+You can speed up your website with a static cache. This improves loading time, but the cache needs to be updated repeatedly. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. To clean the cache type following: `php yellow.php clean cache`.
 
 ## How to start the built-in web server
 
-You can test your website with the built-in web server. This is especially handy for developers, since everything runs on your own computer. Here's an example: `php yellow.php serve`, you can optionally add a folder and a URL. Open a web browser and go to `http://localhost:8000/`.
+You can test your website with the built-in web server. This is handy for developers, since everything runs on your own computer. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php serve`, you can optionally add a folder and a URL. Open a web browser and go to `http://localhost:8000/`.
 
 ## Commands
 

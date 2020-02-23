@@ -12,21 +12,17 @@ Befehle im Terminalfenster ausführen.
 
 Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer gebraucht.
 
-## Wie man einen Befehl ausführt
-
-Führe Befehle im Installations-Verzeichnis aus. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php` gefolgt von weiteren Argumenten. Um die vorhandenen Befehle anzuzeigen, gib keine Argumente an.
-
 ## Wie man eine statische Webseite erstellt
 
 Erstelle eine statische Webseite, die auf den meisten Webservern funktioniert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue. Zum Überprüfen nach defekten Links gibt man ein: `php yellow.php check`. Zum Löschen gibt man ein: `php yellow.php clean`.
 
 ## Wie man einen statischen Zwischenspeicher erstellt
 
-Du kannst eine dynamische Webseite mit einem statischen Zwischenspeicher beschleunigen. Das beschleunigt deine Webseite deutlich, jedoch muss der Speicher immer wieder aktualisiert werden. Hier ist ein Beispiel: `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Zum Löschen gibt man ein: `php yellow.php clean cache`.
+Du kannst deine Webseite mit einem statischen Zwischenspeicher beschleunigen. Das verbessert die Ladezeit, jedoch muss der Speicher immer wieder aktualisiert werden. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
 ## Wie man den eingebauten Webserver startet
 
-Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist vor allem für Entwickler praktisch, da alles auf dem eigenem Computer läuft. Hier ist ein Beispiel: `php yellow.php serve`, du kannst wahlweise ein Verzeichnis und eine URL angeben. Öffne einen Webbrowser und gehe zu `http://localhost:8000/`.
+Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch für Entwickler, da alles auf dem eigenem Computer läuft. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php serve`, du kannst wahlweise ein Verzeichnis und eine URL angeben. Öffne einen Webbrowser und gehe zu `http://localhost:8000/`.
 
 ## Befehle
 
