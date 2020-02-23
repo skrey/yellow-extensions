@@ -12,15 +12,7 @@ Core functionality of the website.
 
 Please do not delete the [extension files](extension.ini), they are always required.
 
-## How to hide a page
-
-Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer visible in navigation and search results. You can choose between different status values, to control who can see and access a page.
-
-## How to redirect a page
-
-Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
-
-## How to adjust a page
+## How to customise a website
 
 If you want to adjust the content, then use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown). All content is located in your `content` folder. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder. Some themes have support for header, footer and sidebar.
 
@@ -45,6 +37,14 @@ If you don't want that pages are modified, then restrict [user accounts](https:/
 If you don't want to get that many spam messages, then restrict the [contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact). You can determine who can receive messages and whether they can contain clickable links. It's recommended to restrict links, this blocks many unwanted messages.
 
 If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are only allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
+
+## How to hide a page
+
+Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer visible in navigation and search results. You can choose between different status values, to control who can see and access a page.
+
+## How to redirect a page
+
+Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
 ## Folders
 
