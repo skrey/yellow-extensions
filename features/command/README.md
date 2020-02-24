@@ -2,7 +2,7 @@ Command 0.8.10
 ==============
 Run commands in a terminal window.
 
-<p align="center"><img src="command-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
 
 ## How to install extension
 
