@@ -2,7 +2,7 @@ Feed 0.8.6
 ==========
 Feed mit letzten Änderungen.
 
-<p align="center"><img src="feed-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="feed-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

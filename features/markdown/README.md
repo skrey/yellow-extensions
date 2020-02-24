@@ -2,7 +2,7 @@ Markdown 0.8.11
 ===============
 Text formatting for humans.
 
-<p align="center"><img src="markdown-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="markdown-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## How to install extension
 

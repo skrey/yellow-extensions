@@ -2,7 +2,7 @@ Release 0.8.18
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
-<p align="center"><img src="release-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="release-screenshot.png?raw=true" width="794" height="478" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

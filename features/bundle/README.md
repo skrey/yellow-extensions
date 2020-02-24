@@ -2,7 +2,7 @@ Bundle 0.8.7
 ============
 Bundle website files.
 
-<p align="center"><img src="bundle-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="bundle-screenshot.png?raw=true" width="795" height="512" alt="Screenshot"></p>
 
 ## How to install extension
 

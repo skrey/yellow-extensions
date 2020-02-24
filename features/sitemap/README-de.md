@@ -2,7 +2,7 @@ Sitemap 0.8.4
 =============
 Sitemap mit allen Seiten.
 
-<p align="center"><img src="sitemap-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="sitemap-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

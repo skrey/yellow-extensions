@@ -2,7 +2,7 @@ Berlin 0.8.7
 ============
 Berlin ist ein einfaches und schönes Thema, inspiriert von Dieter Rams.
 
-<p align="center"><img src="berlin-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="berlin-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

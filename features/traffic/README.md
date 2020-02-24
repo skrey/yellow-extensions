@@ -2,7 +2,7 @@ Traffic 0.8.5
 =============
 Create traffic analytics from web server log files.
 
-<p align="center"><img src="traffic-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="traffic-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
 
 ## How to install extension
 

@@ -2,7 +2,7 @@ Stockholm 0.8.7
 ===============
 Stockholm ist ein schlichtes Webseiten-Thema.
 
-<p align="center"><img src="stockholm-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="stockholm-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

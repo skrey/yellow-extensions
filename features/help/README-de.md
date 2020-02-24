@@ -2,7 +2,7 @@ Help 0.8.9
 ==========
 Hilfe für deine Webseite.
 
-<p align="center"><img src="help-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="help-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

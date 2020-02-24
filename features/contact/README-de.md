@@ -2,7 +2,7 @@ Contact 0.8.8
 =============
 E-Mail-Kontaktseite.
 
-<p align="center"><img src="contact-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="contact-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

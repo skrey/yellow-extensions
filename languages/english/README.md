@@ -2,7 +2,7 @@ English 0.8.18
 ==============
 English/English with language 'en'.
 
-<p align="center"><img src="english-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="english-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## How to install extension
 

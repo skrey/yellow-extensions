@@ -2,7 +2,7 @@ Paris 0.8.7
 ===========
 Paris ist ein elegantes Thema für Schriftsteller.
 
-<p align="center"><img src="paris-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="paris-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

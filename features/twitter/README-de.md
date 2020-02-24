@@ -2,7 +2,7 @@ Twitter 0.8.3
 =============
 Twitter-Nachrichten einbinden.
 
-<p align="center"><img src="twitter-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="twitter-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

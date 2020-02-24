@@ -2,7 +2,7 @@ Gallery 0.8.4
 =============
 Image gallery with popup.
 
-<p align="center"><img src="gallery-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="gallery-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## How to install extension
 

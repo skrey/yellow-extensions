@@ -2,7 +2,7 @@ Previousnext 0.8.6
 ==================
 Show links to previous/next page.
 
-<p align="center"><img src="previousnext-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="previousnext-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## How to install extension
 

@@ -2,7 +2,7 @@ Dutch 0.8.18
 ============
 Dutch/Nederlands (België) met de taal 'nl'.
 
-<p align="center"><img src="dutch-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="dutch-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## Hoe deze extensie te installeren
 

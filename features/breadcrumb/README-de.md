@@ -2,7 +2,7 @@ Breadcrumb 0.8.3
 ================
 Brotkrümel-Navigation.
 
-<p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="breadcrumb-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

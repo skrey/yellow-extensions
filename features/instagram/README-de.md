@@ -2,7 +2,7 @@ Instagram 0.8.3
 ===============
 Instagram-Fotos einbinden.
 
-<p align="center"><img src="instagram-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="instagram-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

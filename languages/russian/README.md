@@ -2,7 +2,7 @@ Russian 0.8.18
 ==============
 Russian/Русский с языком 'ru'.
 
-<p align="center"><img src="russian-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="russian-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## Как установить расширение
 

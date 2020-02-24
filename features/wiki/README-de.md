@@ -2,7 +2,7 @@ Wiki 0.8.5
 ==========
 Wiki für deine Webseite.
 
-<p align="center"><img src="wiki-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="wiki-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

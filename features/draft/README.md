@@ -2,7 +2,7 @@ Draft 0.8.3
 ===========
 Support for draft pages.
 
-<p align="center"><img src="draft-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="draft-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## How to install extension
 

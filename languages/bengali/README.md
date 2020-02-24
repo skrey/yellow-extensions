@@ -2,7 +2,7 @@ Bengali 0.8.18
 ==============
 'bn' ভাষা সহ বাঙালি।/Bengali.
 
-<p align="center"><img src="bengali-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="bengali-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## এই এক্সটেনশনটি কীভাবে ইনস্টল করবেন
 

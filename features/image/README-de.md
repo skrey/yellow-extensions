@@ -2,7 +2,7 @@ Image 0.8.6
 ===========
 Bilder in unterschiedlichen Größen.
 
-<p align="center"><img src="image-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="image-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

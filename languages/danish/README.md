@@ -2,7 +2,7 @@ Danish 0.8.18
 =============
 Danish/Dansk med sproget 'da'.
 
-<p align="center"><img src="danish-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="danish-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## Sådan installeres denne udvidelse
 

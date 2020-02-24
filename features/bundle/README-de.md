@@ -2,7 +2,7 @@ Bundle 0.8.7
 ============
 Webseiten-Dateien bündeln.
 
-<p align="center"><img src="bundle-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="bundle-screenshot.png?raw=true" width="795" height="512" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

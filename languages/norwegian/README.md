@@ -2,7 +2,7 @@ Norwegian 0.8.18
 ================
 Norwegian/Norsk Bokmål med språket 'nb'.
 
-<p align="center"><img src="norwegian-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="norwegian-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## Hvordan installere denne utvidelsen
 

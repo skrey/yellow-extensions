@@ -2,7 +2,7 @@ Youtube 0.8.2
 =============
 Embed Youtube videos.
 
-<p align="center"><img src="youtube-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="youtube-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## How to install extension
 

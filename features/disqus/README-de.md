@@ -2,7 +2,7 @@ Disqus 0.8.2
 ============
 Disqus-Kommentare im Blog anzeigen.
 
-<p align="center"><img src="disqus-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="disqus-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

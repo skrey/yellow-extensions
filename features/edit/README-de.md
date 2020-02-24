@@ -2,7 +2,7 @@ Edit 0.8.21
 ===========
 Webseite im Webbrowser bearbeiten.
 
-<p align="center"><img src="edit-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="edit-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

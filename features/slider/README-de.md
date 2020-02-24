@@ -2,7 +2,7 @@ Slider 0.8.3
 ============
 Bildergalerie mit Schieber.
 
-<p align="center"><img src="slider-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="slider-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

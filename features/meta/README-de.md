@@ -2,7 +2,7 @@ Meta 0.8.11
 ===========
 Metadaten für soziale Medien.
 
-<p align="center"><img src="meta-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="meta-screenshot.png?raw=true" width="795" height="512" alt="Bildschirmfoto"></p>
 
 ## Wie man diese Erweiterung installiert
 

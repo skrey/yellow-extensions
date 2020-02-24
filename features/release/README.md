@@ -2,7 +2,7 @@ Release 0.8.18
 ==============
 Package and publish extensions.
 
-<p align="center"><img src="release-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="release-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
 
 ## How to install extension
 

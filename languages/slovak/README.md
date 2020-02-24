@@ -2,7 +2,7 @@ Slovak 0.8.18
 =============
 Slovak/Slovenčina s jazykom 'sk'.
 
-<p align="center"><img src="slovak-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="slovak-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## Ako nainštalovať toto rozšírenie
 

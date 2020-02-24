@@ -2,7 +2,7 @@ Japanese 0.8.18
 ===============
 'ja' という言語の日本語/Japanese.
 
-<p align="center"><img src="japanese-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="japanese-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## この拡張機能のインストール方法
 

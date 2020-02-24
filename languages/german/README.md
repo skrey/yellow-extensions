@@ -2,7 +2,7 @@ German 0.8.18
 =============
 German/Deutsch mit der Sprache 'de'.
 
-<p align="center"><img src="german-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="german-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## Wie man diese Erweiterung installiert
 

@@ -2,7 +2,7 @@ Chinese 0.8.18
 ==============
 Chinese/简体中文 与语言 'zh-CN'.
 
-<p align="center"><img src="chinese-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="chinese-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
 ## 如何安装此扩展
 
