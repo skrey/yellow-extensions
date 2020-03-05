@@ -1,4 +1,4 @@
-Feed 0.8.6
+Feed 0.8.7
 ==========
 Feed mit letzten Änderungen.
 

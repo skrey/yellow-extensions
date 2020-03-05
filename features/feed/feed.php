@@ -1,10 +1,10 @@
 <?php
 // Feed extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/feed
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2010 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowFeed {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -48,7 +48,7 @@ class YellowFeed {
                 $output .= "<language>".$this->yellow->page->getHtml("language")."</language>\r\n";
                 foreach ($pages as $page) {
                     $timestamp = strtotime($page->get($chronologicalOrder ? "modified" : "published"));
-                    $content = $this->yellow->toolbox->createTextDescription($page->getContent(), 0, false, "<!--more-->", " <a href=\"".$page->getUrl()."\">".$this->yellow->text->getHtml("blogMore")."</a>");
+                    $content = $this->yellow->toolbox->createTextDescription($page->getContent(), 0, false, "<!--more-->", "<a href=\"".$page->getUrl()."\">".$this->yellow->text->getHtml("blogMore")."</a>");
                     $output .= "<item>\r\n";
                     $output .= "<title>".$page->getHtml("title")."</title>\r\n";
                     $output .= "<link>".$page->getUrl()."</link>\r\n";
