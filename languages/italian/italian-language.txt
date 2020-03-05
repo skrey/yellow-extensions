@@ -37,9 +37,9 @@ CorePaginationNext: Successivo →
 CoreError404Title: Pagina non trovata
 CoreError404Text: La pagina richiesta non è stata trovata. Oh no...
 CoreError430Title: Accesso non riuscito
-CoreError430Text: L'indirizzo email o la password non è corretto. [Per favore riprova](javascript:yellow.action('login');).
+CoreError430Text: L'indirizzo email o la password non è corretto. [Per favore riprova](#data-action-login).
 CoreError434Title: Pagina non trovata
-CoreError434Text: La pagina richiesta non è stata trovata. [Puoi creare ora questa pagina](javascript:yellow.action('edit');).
+CoreError434Text: La pagina richiesta non è stata trovata. [Puoi creare ora questa pagina](#data-action-edit).
 CoreError500Title: Errore del server
 CoreError500Text: Qualcosa non ha funzionato. [yellow error]
 DraftStatusEmpty: No drafts found.

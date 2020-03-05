@@ -37,9 +37,9 @@ CorePaginationNext: Nasledujúci →
 CoreError404Title: Datoteka ni najdena
 CoreError404Text: Zahtevane datoteke ni bilo mogoče najti. Oh ne ...
 CoreError430Title: Login failed
-CoreError430Text: The email or password is incorrect. [Please try again](javascript:yellow.action('login');).
+CoreError430Text: The email or password is incorrect. [Please try again](#data-action-login).
 CoreError434Title: File not found
-CoreError434Text: The requested file was not found. [You can create this page](javascript:yellow.action('edit');).
+CoreError434Text: The requested file was not found. [You can create this page](#data-action-edit).
 CoreError500Title: Server error
 CoreError500Text: Something went wrong. [yellow error]
 DraftStatusEmpty: No drafts found.

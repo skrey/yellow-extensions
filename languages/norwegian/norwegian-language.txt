@@ -37,9 +37,9 @@ CorePaginationNext: Nesta →
 CoreError404Title: Filen kunne ikke lokaliseres
 CoreError404Text: Den begärda filen kunde inte hittas. Å nej...
 CoreError430Title: Innlogging feilet
-CoreError430Text: Epost eller passord er ikke riktig. [Vennligst prøv på nytt](javascript:yellow.action('login');).
+CoreError430Text: Epost eller passord er ikke riktig. [Vennligst prøv på nytt](#data-action-login).
 CoreError434Title: Filen kunne ikke lokaliseres
-CoreError434Text: Filen kunne ikke lokaliseres. [You can create this page](javascript:yellow.action('edit');).
+CoreError434Text: Filen kunne ikke lokaliseres. [You can create this page](#data-action-edit).
 CoreError500Title: Server feil
 CoreError500Text: Noe gikk galt. [yellow error]
 DraftStatusEmpty: Ingen utkast funnet.

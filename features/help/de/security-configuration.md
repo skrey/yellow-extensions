@@ -5,11 +5,7 @@ Wie man Sicherheit und Datenschutz konfiguriert.
 
 ## Datenverschlüsselung
 
-Überprüfe ob deine Webseite [Datenverschlüsselung](https://www.ssllabs.com/ssltest/) unterstützt. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster. Am Besten ist es wenn deine Webseite automatisch von HTTP nach HTTPS weiterleitet und die Internetverbindung immer verschlüsselt ist.
-
-## Sicherheitsmodus
-
-Falls du deine Webseite vor Unfug im Webbrowser schützen willst, beschränke [Markdown](markdown-cheat-sheet). Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann Markdown benutzen, aber kein HTML, JavaScript und andere Funktionen verwenden.
+Überprüfe ob deine Webseite Datenverschlüsselung unterstützt. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster. Am Besten ist es wenn deine Webseite automatisch von HTTP nach HTTPS weiterleitet und die Internetverbindung immer verschlüsselt ist.
 
 ## Loginbeschränkung
 

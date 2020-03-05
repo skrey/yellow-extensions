@@ -37,9 +37,9 @@ CorePaginationNext: Suivant →
 CoreError404Title: Fichier non trouvé
 CoreError404Text: Le fichier demandé n'a pas été trouvé. Oh non...
 CoreError430Title: La connexion a échoué
-CoreError430Text: L'email ou le mot de passe est incorrect. [Veuillez réessayer](javascript:yellow.action('login');).
+CoreError430Text: L'email ou le mot de passe est incorrect. [Veuillez réessayer](#data-action-login).
 CoreError434Title: Fichier non trouvé
-CoreError434Text: Le fichier demandé n'a pas été trouvé. [Vous pouvez créer cette page](javascript:yellow.action('edit');).
+CoreError434Text: Le fichier demandé n'a pas été trouvé. [Vous pouvez créer cette page](#data-action-edit).
 CoreError500Title: Erreur du serveur
 CoreError500Text: Une erreur s'est produite. [yellow error]
 DraftStatusEmpty: Aucun brouillon trouvé.

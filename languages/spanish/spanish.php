@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSpanish {
-    const VERSION = "0.8.18";
+    const VERSION = "0.8.19";
     const TYPE = "language";
     public $yellow;         //access to API
     
@@ -22,4 +22,5 @@ class YellowSpanish {
             $language = reset(array_diff($this->yellow->text->getLanguages(), array("es")));
             $this->yellow->system->save($fileName, array("language" => $language));
         }
-    }}
+    }
+}

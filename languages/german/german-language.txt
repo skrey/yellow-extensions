@@ -37,9 +37,9 @@ CorePaginationNext: Weiter →
 CoreError404Title: Datei nicht gefunden
 CoreError404Text: Die angeforderte Datei wurde nicht gefunden. Oh nein...
 CoreError430Title: Anmeldung fehlgeschlagen
-CoreError430Text: E-Mail oder Kennwort ist falsch. [Bitte erneut versuchen](javascript:yellow.action('login');).
+CoreError430Text: E-Mail oder Kennwort ist falsch. [Bitte erneut versuchen](#data-action-login).
 CoreError434Title: Datei nicht gefunden
-CoreError434Text: Die angeforderte Datei wurde nicht gefunden. [Du kannst diese Seite erstellen](javascript:yellow.action('edit');).
+CoreError434Text: Die angeforderte Datei wurde nicht gefunden. [Du kannst diese Seite erstellen](#data-action-edit).
 CoreError500Title: Serverfehler
 CoreError500Text: Etwas ist schief gelaufen. [yellow error]
 DraftStatusEmpty: Keine Entwürfe gefunden.

@@ -1,10 +1,10 @@
 <?php
 // Markdown extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMarkdownx {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -15,7 +15,7 @@ class YellowMarkdownx {
     
     // Handle page content in raw format
     public function onParseContentRaw($page, $text) {
-        $markdown = new YellowMarkdownxExtra($this->yellow, $page);
+        $markdown = new YellowParsedownParser($this->yellow, $page);
         return $markdown->text($text);
     }
 }
@@ -2692,10 +2692,10 @@ class ParsedownExtra extends Parsedown
     protected $regexAttribute = '(?:[#.][-\w]+[ ]*)';
 }
 
-// Yellow Markdown extra extension
-// Copyright (c) 2013-2019 Datenstrom
+// Datenstrom Yellow Parsedown parser
+// Copyright (c) 2013-2020 Datenstrom
 
-class YellowMarkdownxExtra extends ParsedownExtra {
+class YellowParsedownParser extends ParsedownExtra {
     public $yellow;             //access to API
     public $page;               //access to page
     public $idAttributes;       //id attributes
@@ -2705,7 +2705,6 @@ class YellowMarkdownxExtra extends ParsedownExtra {
         $this->yellow = $yellow;
         $this->page = $page;
         $this->idAttributes = array();
-        $this->setSafeMode($page->safeMode);
         $this->BlockTypes["!"][] = "Notice";
         $this->BlockTypes["["][] = "ShortcutText";
         $this->InlineTypes["["][]= "ShortcutText";
@@ -2879,8 +2878,7 @@ class YellowMarkdownxExtra extends ParsedownExtra {
             if ($text[0]=="!" && !preg_match("/^\w+:/", $href)) {
                 $href = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreImageLocation").$href;
             }
-            $href = $this->yellow->lookup->normaliseLocation($href,
-                $this->page->location, $this->page->safeMode && $this->page->statusCode==200);
+            $href = $this->yellow->lookup->normaliseLocation($href, $this->page->location);
             $Link["element"]["attributes"]["href"] = $href;
         }
         return $Link;

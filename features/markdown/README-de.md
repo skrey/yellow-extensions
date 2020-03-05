@@ -1,4 +1,4 @@
-Markdown 0.8.11
+Markdown 0.8.12
 ===============
 Textformatierung für Menschen.
 

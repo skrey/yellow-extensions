@@ -5,11 +5,7 @@ Here's how to set up security and privacy.
 
 ## Data encryption
 
-Check if your website supports [data encryption](https://www.ssllabs.com/ssltest/). When there are problems, please contact your web hosting provider. It's best if your website automatically redirects from HTTP to HTTPS and the Internet connection is always encrypted.
-
-## Safe mode
-
-If you want to protect your website from nuisance in the web browser, then restrict [Markdown](markdown-cheat-sheet). Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are allowed to use Markdown, but cannot use HTML, JavaScript and other features.
+Check if your website supports data encryption. When there are problems, please contact your web hosting provider. It's best if your website automatically redirects from HTTP to HTTPS and the Internet connection is always encrypted.
 
 ## Login restriction
 

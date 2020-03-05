@@ -1,4 +1,4 @@
-Edit 0.8.21
+Edit 0.8.22
 ===========
 Webseite im Webbrowser bearbeiten.
 
@@ -27,8 +27,6 @@ Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](h
 Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/settings/user.ini` und ändere Startseite und Zugriffsrechte. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/settings/system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
-
-Falls du nicht jedem Benutzer auf deiner Webseite vertrauen kannst, aktiviere den Sicherheitsmodus. Öffne die Datei `system/settings/system.ini` und ändere `CoreSafeMode: 1`. Benutzer dürfen dann nur [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen, aber kein HTML und JavaScript verwenden.
 
 ## Einstellungen
 

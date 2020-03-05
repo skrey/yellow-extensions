@@ -30,13 +30,11 @@ If you want to configure text, then change the text settings. Open file `system/
 
 ## How to make a secure website
 
-[Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/features/update). It's recommended to update the website as soon as a new release is available. Also check if your website supports [data encryption](https://www.ssllabs.com/ssltest/). It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
+[Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/features/update). It's recommended to update the website as soon as a new release is available. Also check if your website supports data encryption. It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
 
 If you don't want that pages are modified, then restrict [user accounts](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). You can configure what users are allowed to do, which pages can be changed and which files can be uploaded. The file formats GIF, JPG, PDF, PNG, SVG and ZIP are supported per default.
 
 If you don't want to get that many spam messages, then restrict the [contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact). You can determine who can receive messages and whether they can contain clickable links. It's recommended to restrict links, this blocks many unwanted messages.
-
-If you can't trust every user on your website, then enable the safe mode. Open file `system/settings/system.ini` and change `CoreSafeMode: 1`. Users are only allowed to use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown), but cannot use HTML and JavaScript.
 
 ## How to hide a page
 

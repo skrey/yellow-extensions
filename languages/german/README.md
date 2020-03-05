@@ -1,4 +1,4 @@
-German 0.8.18
+German 0.8.19
 =============
 German/Deutsch mit der Sprache 'de'.
 

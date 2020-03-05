@@ -37,9 +37,9 @@ CorePaginationNext: Далее →
 CoreError404Title: Файл не найден
 CoreError404Text: Запрашиваемый файл не найден. О нет...
 CoreError430Title: Ошибка входа
-CoreError430Text: Неверный email или пароль. [Пожалуйста, попробуйте еще раз](javascript:yellow.action('login');).
+CoreError430Text: Неверный email или пароль. [Пожалуйста, попробуйте еще раз](#data-action-login).
 CoreError434Title: Файл не найден
-CoreError434Text: Запрашиваемый файл не найден. [Вы можете создать эту страницу](javascript:yellow.action('edit');).
+CoreError434Text: Запрашиваемый файл не найден. [Вы можете создать эту страницу](#data-action-edit).
 CoreError500Title: Ошибка сервера
 CoreError500Text: Что-то пошло не так. [yellow error]
 DraftStatusEmpty: No drafts found.
