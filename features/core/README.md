@@ -143,7 +143,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 `CoreTrashDir` = directory for deleted files  
 `CoreServerUrl` = URL of the website, `auto` for automatic detection    
 `CoreServerTimezone` = timezone of the website  
-`CoreSafeMode` = enable safe mode with restrictions, 1 or 0  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
 
 The following settings can be configured in file `system/settings/text.ini`:

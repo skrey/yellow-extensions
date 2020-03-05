@@ -143,7 +143,6 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `CoreTrashDir` = Verzeichnis für gelöschte Dateien  
 `CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
 `CoreServerTimezone` = Zeitzone der Webseite  
-`CoreSafeMode` = Sicherheitsmodus mit Beschränkungen aktivieren, 1 oder 0  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
 
 Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
