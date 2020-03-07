@@ -1,4 +1,4 @@
-Core 0.8.10
+Core 0.8.11
 ===========
 Core functionality of the website.
 
