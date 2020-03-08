@@ -38,7 +38,7 @@ If you don't want to get that many spam messages, then restrict the [contact pag
 
 ## How to hide a page
 
-Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page will no longer visible in navigation and search results. You can choose between different status values, to control who can see and access a page.
+Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different status values, to control who can see and access a page.
 
 ## How to redirect a page
 
