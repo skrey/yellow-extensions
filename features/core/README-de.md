@@ -116,7 +116,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
 `Theme` = Thema der Seite  
 `Parser` = Parser der Seite  
-`Status` = [Status der Seite](#einstellungen-status)  
+`Status` = Status der Seite, [unterstütze Werte](#einstellungen-status)  
 `Image` = Bild der Seite  
 `ImageAlt` = Alternative Bildbeschreibung der Seite  
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
@@ -133,7 +133,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Layout` = Standard-Layout  
 `Theme` = Standard-Theme  
 `Parser` = Standard-Seitenparser  
-`Status` = Standard-Seitenstatus  
+`Status` = Standard-Seitenstatus, [unterstütze Werte](#einstellungen-status)  
 
 `CoreStaticUrl` = URL der statischen Webseite  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
@@ -157,7 +157,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 <a id="einstellungen-status"></a>Die folgenden Seiten-Statuswerte werden unterstützt:
 
 `public` = Seite ist eine normale Seite  
-`private` = Seite ist nicht sichtbar, Benutzer muss Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private/README-de.md)  
+`private` = Seite ist nicht sichtbar, Benutzer muss das Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private/README-de.md)  
 `draft` = Seite ist nicht sichtbar, Benutzer muss sich einloggen, erfordert [Draft-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft/README-de.md)  
 `unlisted` = Seite ist nicht sichtbar, aber kann mit dem richtigen Link abgerufen werden  
 `shared` = Seite ist nicht vorhanden, aber kann in andere Seiten eingebunden werden  

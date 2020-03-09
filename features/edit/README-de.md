@@ -59,13 +59,13 @@ Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorg
 `Name` =  Name des Benutzers  
 `Language` = Sprache des Benutzers  
 `Home` = Startseite des Benutzers  
-`Access` = [Zugriffsrechte des Benutzers](#einstellungen-access)  
+`Access` = Zugriffsrechte des Benutzers, [unterstütze Zugriffsrechte](#einstellungen-access)  
 `Hash` = verschlüsseltes Kennwort  
 `Stamp` = eindeutiges Token zur Authentifizierung  
 `Pending` = ausstehende Änderungen  
 `Failed` = Anzahl fehlgeschlagener Anmeldeversuche  
 `Modified` = Änderungsdatum, JJJJ-MM-TT Format  
-`Status` = [Status des Benutzers](#einstellungen-status)  
+`Status` = Status des Benutzers, [unterstütze Werte](#einstellungen-status)  
 
 <a id="einstellungen-access"></a>Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 

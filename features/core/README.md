@@ -116,7 +116,7 @@ The following settings can be configured at the top of a page:
 `LayoutNew` = page layout for creating a new page  
 `Theme` = page theme  
 `Parser` = page parser  
-`Status` = [page status](#settings-status)  
+`Status` = page status, [supported values](#settings-status)  
 `Image` = page image  
 `ImageAlt` = alternative text for page image  
 `Modified` = page modification date, YYYY-MM-DD format  
@@ -133,7 +133,7 @@ The following settings can be configured at the top of a page:
 `Layout` = default layout  
 `Theme` = default theme  
 `Parser` = default page parser  
-`Status` = default page status  
+`Status` = default page status, [supported values](#settings-status)  
 
 `CoreStaticUrl` = URL for static website  
 `CoreStaticDefaultFile` =  default file for static website  
