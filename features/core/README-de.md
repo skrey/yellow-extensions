@@ -134,7 +134,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Theme` = Standard-Theme  
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus, [unterstütze Statuswerte](#einstellungen-status)  
-`CoreStaticUrl` = URL der statischen Webseite  
+`CoreStaticUrl` = URL der statischen Webseite, kann man in der [Befehlszeile](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/command/README-de.md) erstellen  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
 `CoreStaticDir` = Verzeichnis für erzeugte Dateien  

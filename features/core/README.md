@@ -134,7 +134,7 @@ The following settings can be configured at the top of a page:
 `Theme` = default theme  
 `Parser` = default page parser  
 `Status` = default page status, [supported status values](#settings-status)  
-`CoreStaticUrl` = URL for static website  
+`CoreStaticUrl` = URL for static website, can be built at the [command line](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/command)  
 `CoreStaticDefaultFile` =  default file for static website  
 `CoreStaticErrorFile` = error file for static website  
 `CoreStaticDir` = directory for generated files  
