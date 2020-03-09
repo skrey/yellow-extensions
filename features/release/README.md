@@ -46,7 +46,7 @@ The following settings can be configured in file `extension.ini`:
 `create` = create file if not exists  
 `update` = overwrite file if exists  
 `delete` = delete file if exists  
-`multi-language` = use file from corresponding subfolder  
+`multi-language` = use file from corresponding subfolder, e.g. for content files  
 `optional` = only if new installation, e.g. for content files  
 `careful` = only if not modified, e.g. for system files  
 

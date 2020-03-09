@@ -46,7 +46,7 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `create` = Datei erstellen falls nicht vorhanden  
 `update` = Datei überschreiben falls vorhanden  
 `delete` = Datei löschen falls vorhanden  
-`multi-language` = Datei aus dem entsprechenden Unterverzeichnis verwenden  
+`multi-language` = Datei aus dem entsprechenden Unterverzeichnis verwenden, z.B. für Inhaltsdateien  
 `optional` = nur falls neue Installation, z.B. für Inhaltsdateien  
 `careful` = nur falls nicht verändert, z.B. für Systemdateien  
 
