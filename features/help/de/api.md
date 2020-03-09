@@ -778,7 +778,7 @@ Hier ist ein Beispiel-Layout um Textzeilen von einer Datei zu lesen:
 
 ### Yellow-Extensions
 
-Yellow-Extensions gibt Zugang zu [Funktionen](/de/features/) und [Themen](/de/themes/):
+Yellow-Extensions gibt Zugang zu Funktionen und Themen:
 
 **$this->yellow->extensions->get($name)**  
 Hole eine Erweiterung

@@ -67,7 +67,7 @@ When your website doesn't work, then you have to [enable the rewrite module](htt
 
 ## Problems with Nginx
 
-Here's a `nginx.conf` configuration file for the [Nginx web server](https://nginx.org/) :
+Here's a `nginx.conf` configuration file for the [Nginx web server](https://nginx.org/):
 
 ```nginx
 server {

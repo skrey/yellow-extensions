@@ -1,5 +1,5 @@
-Help 0.8.9
-==========
+Help 0.8.10
+===========
 Help for your website.
 
 <p align="center"><img src="help-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

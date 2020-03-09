@@ -779,7 +779,7 @@ Here's an example layout for reading text lines from file:
 
 ### Yellow extensions
 
-Yellow extensions gives access to [features](/features/) and [themes](/themes/):
+Yellow extensions gives access to features and themes:
 
 **$this->yellow->extensions->get($name)**  
 Return extension

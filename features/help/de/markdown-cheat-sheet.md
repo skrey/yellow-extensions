@@ -125,7 +125,6 @@ HTML benutzen:
 `[gallery photo.*jpg - 20%]` = [Bildergalerie hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery)  
 `[slider photo.*jpg]` = [Bildergalerie mit Schieber hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider)  
 `[youtube fhs55HEl-Gc]` = [Youtube-Video einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube)  
-`[vimeo 13387502]` = [Vimeo-Video einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/features/vimeo)  
 `[soundcloud 101175715]` = [Soundcloud-Audio einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/features/soundcloud)  
 `[twitter datenstromse]` = [Twitter-Nachrichten einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter)  
 `[instagram BISN9ngjV2-]` = [Instagram-Foto einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/features/instagram)  
