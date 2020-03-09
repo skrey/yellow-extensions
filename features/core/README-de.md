@@ -38,7 +38,7 @@ Falls du nicht so viele Spam-Nachrichten bekommen willst, [beschränke die Konta
 
 ## Wie man eine Seite versteckt
 
-Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann in der Navigation und den Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen Statuswerten wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
+Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann in der Navigation und den Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Seiten-Statuswerten](#settings-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
 
 ## Wie man eine Seite weiterleitet
 
@@ -116,7 +116,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
 `Theme` = Thema der Seite  
 `Parser` = Parser der Seite  
-`Status` = Status der Seite, z.B. `public`  
+`Status` = [Status der Seite](#settings-status)  
 `Image` = Bild der Seite  
 `ImageAlt` = Alternative Bildbeschreibung der Seite  
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
@@ -124,7 +124,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
 `Redirect` = Weiterleitung zu einer anderen Seite oder URL  
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+<a id="settings-system"></a>Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
 `Sitename` = Name der Webseite  
 `Author` = Name des Webmasters  
@@ -133,7 +133,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `Layout` = Standard-Layout  
 `Theme` = Standard-Theme  
 `Parser` = Standard-Seitenparser  
-`Status` = Standard-Seitenstatus, z.B. `public`  
+`Status` = Standard-Seitenstatus  
 
 `CoreStaticUrl` = URL der statischen Webseite  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
@@ -145,7 +145,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `CoreServerTimezone` = Zeitzone der Webseite  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
 
-Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
+<a id="settings-text"></a>Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
 
 `CoreDateFormatShort` = kurzes Datumsformat  
 `CoreDateFormatMedium` = mittleres Datumsformat, normalerweise 01.06.2016  
@@ -154,16 +154,15 @@ Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorg
 `CoreTimeFormatMedium` = mittleres Zeitformat, normalerweise 13:37:01  
 `CoreTimeFormatLong` = langes Zeitformat  
 
-Die folgenden Seiten-Statuswerte werden unterstützt:
+<a id="settings-status"></a>Die folgenden Seiten-Statuswerte werden unterstützt:
 
 `public` = Seite ist eine normale Seite  
-`private` = Seite ist nicht sichtbar, einloggen oder Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private/README-de.md)  
+`private` = Seite ist nicht sichtbar, Benutzer muss Kennwort eingeben, erfordert [Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private/README-de.md)  
 `draft` = Seite ist nicht sichtbar, Benutzer muss sich einloggen, erfordert [Draft-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft/README-de.md)  
 `unlisted` = Seite ist nicht sichtbar, aber kann mit dem richtigen Link abgerufen werden  
 `shared` = Seite ist nicht vorhanden, aber kann in andere Seiten eingebunden werden  
-`ignore` = Seite wird ignoriert, wenn eine statische Webseite erstellt wird  
 
-Die folgenden Dateien können angepasst werden:
+<a id="settings-files"></a>Die folgenden Dateien können angepasst werden:
 
 `system/layouts/default.html` = Layoutdatei für Standard-Seite  
 `system/layouts/error.html` = Layoutdatei für Standard-Fehlerseite  

@@ -38,7 +38,7 @@ If you don't want to get that many spam messages, then restrict the [contact pag
 
 ## How to hide a page
 
-Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different status values, to control who can see and access a page.
+Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different [page status values](#settings-status), to control who can see and access a page.
 
 ## How to redirect a page
 
@@ -116,7 +116,7 @@ The following settings can be configured at the top of a page:
 `LayoutNew` = page layout for creating a new page  
 `Theme` = page theme  
 `Parser` = page parser  
-`Status` = page status, e.g. `public`  
+`Status` = [page status](#settings-status)  
 `Image` = page image  
 `ImageAlt` = alternative text for page image  
 `Modified` = page modification date, YYYY-MM-DD format  
@@ -124,7 +124,7 @@ The following settings can be configured at the top of a page:
 `Tag` = page tag(s) for categorisation, comma separated  
 `Redirect` = redirect to another page or URL  
 
-The following settings can be configured in file `system/settings/system.ini`:
+<a id="settings-system"></a>The following settings can be configured in file `system/settings/system.ini`:
 
 `Sitename` = name of the website  
 `Author` = name of the webmaster  
@@ -133,7 +133,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `Layout` = default layout  
 `Theme` = default theme  
 `Parser` = default page parser  
-`Status` = default page status, e.g. `public`  
+`Status` = default page status  
 
 `CoreStaticUrl` = URL for static website  
 `CoreStaticDefaultFile` =  default file for static website  
@@ -145,7 +145,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `CoreServerTimezone` = timezone of the website  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
 
-The following settings can be configured in file `system/settings/text.ini`:
+<a id="settings-text"></a>The following settings can be configured in file `system/settings/text.ini`:
 
 `CoreDateFormatShort` = short date format  
 `CoreDateFormatMedium` = medium date format, usually 2016-06-01  
@@ -154,16 +154,15 @@ The following settings can be configured in file `system/settings/text.ini`:
 `CoreTimeFormatMedium` = medium time format, usually 13:37:01  
 `CoreTimeFormatLong` = long time format  
 
-The following page status values are supported:
+<a id="settings-status"></a>The following page status values are supported:
 
 `public` = page is a normal page  
-`private` = page is not visible, log in or enter password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
+`private` = page is not visible, user needs to enter password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
 `draft` = page is not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
 `unlisted` = page is not visible, but can be accessed with the correct link  
 `shared` = page is not available, but can be included in other pages  
-`ignore` = page is ignored when building a static website  
 
-The following files can be configured:
+<a id="settings-files"></a>The following files can be configured:
 
 `system/layouts/default.html` = layout file for default page  
 `system/layouts/error.html` = layout file for default error page  
