@@ -59,24 +59,24 @@ Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorg
 `Name` =  Name des Benutzers  
 `Language` = Sprache des Benutzers  
 `Home` = Startseite des Benutzers  
-`Access` = [Zugriffsrechte des Benutzers](#settings-access)  
+`Access` = [Zugriffsrechte des Benutzers](#einstellungen-access)  
 `Hash` = verschlüsseltes Kennwort  
 `Stamp` = eindeutiges Token zur Authentifizierung  
 `Pending` = ausstehende Änderungen  
 `Failed` = Anzahl fehlgeschlagener Anmeldeversuche  
 `Modified` = Änderungsdatum, JJJJ-MM-TT Format  
-`Status` = [Status des Benutzers](#settings-status)  
+`Status` = [Status des Benutzers](#einstellungen-status)  
 
-<a id="settings-access"></a>Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
+<a id="einstellungen-access"></a>Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 
 `create` =  Benutzer kann Seite erstellen  
 `edit` = Benutzer kann Seite bearbeiten  
 `delete` = Benutzer kann Seite löschen  
 `upload` = Benutzer kann Mediendateien hochladen  
-`system` = Benutzer kann [Einstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) in der Datei `system/settings/system.ini`  
+`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen-system)  
 `update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 
-<a id="settings-status"></a>Die folgenden Benutzer-Statuswerte werden unterstützt:
+<a id="einstellungen-status"></a>Die folgenden Benutzer-Statuswerte werden unterstützt:
 
 `active` = Benutzer ist aktiv  
 `inactive` = Benutzer wurde vorübergehend deaktiviert  
@@ -86,7 +86,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorg
 `unchanged` = Benutzer hat ausstehende Änderungen nicht bestätigt  
 `removed` = Benutzer hat ausstehende Löschung nicht bestätigt  
 
-<a id="settings-files"></a>Die folgenden Dateien können angepasst werden:
+<a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
 `content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
 `content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  

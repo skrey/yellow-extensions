@@ -73,7 +73,7 @@ The following settings can be configured in file `system/settings/user.ini`:
 `edit` = user can edit page  
 `delete` = user can delete page  
 `upload` = user can upload media files  
-`system` = user can [change settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) in file `system/settings/system.ini`  
+`system` = user can [change system settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings-system)`  
 `update` = user can [update website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 
 <a id="settings-status"></a>The following user status values are supported:
