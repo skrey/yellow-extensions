@@ -30,7 +30,7 @@ The following settings can be configured in file `extension.ini`:
 `Description` = extension description, one line maximum  
 `Published` = extension publication date, YYYY-MM-DD format  
 `Language` = extension language(s), comma separated  
-`Status` = extension status, [supported values](#settings-status)    
+`Status` = extension status, [supported status values](#settings-status)    
 `Developer` = feature developer  
 `Translator` = language translator  
 `Designer` = theme designer  

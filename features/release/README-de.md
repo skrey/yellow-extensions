@@ -30,7 +30,7 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `Description` = Beschreibung der Erweiterung, maximal eine Zeile  
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
 `Language` = Sprache(n) der Erweiterung, durch Komma getrennt  
-`Status` = Status der Erweiterung, [unterstütze Werte](#einstellungen-status)    
+`Status` = Status der Erweiterung, [unterstütze Statuswerte](#einstellungen-status)    
 `Developer` = Entwickler einer Funktion  
 `Translator` = Übersetzer einer Sprache  
 `Designer` = Designer eines Themas  

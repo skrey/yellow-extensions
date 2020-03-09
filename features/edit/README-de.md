@@ -65,7 +65,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorg
 `Pending` = ausstehende Änderungen  
 `Failed` = Anzahl fehlgeschlagener Anmeldeversuche  
 `Modified` = Änderungsdatum, JJJJ-MM-TT Format  
-`Status` = Status des Benutzers, [unterstütze Werte](#einstellungen-status)  
+`Status` = Status des Benutzers, [unterstütze Statuswerte](#einstellungen-status)  
 
 <a id="einstellungen-access"></a>Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 

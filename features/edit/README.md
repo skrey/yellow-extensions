@@ -65,7 +65,7 @@ The following settings can be configured in file `system/settings/user.ini`:
 `Pending` = pending changes  
 `Failed` = number of failed login attempts  
 `Modified` = modification date, YYYY-MM-DD format  
-`Status` = user status, [supported values](#settings-status)  
+`Status` = user status, [supported status values](#settings-status)  
 
 <a id="settings-access"></a>The following user access rights are supported:
 

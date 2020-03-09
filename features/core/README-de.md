@@ -38,7 +38,7 @@ Falls du nicht so viele Spam-Nachrichten bekommen willst, [beschränke die Konta
 
 ## Wie man eine Seite versteckt
 
-Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann in der Navigation und den Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Seiten-Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
+Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann in der Navigation und den Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
 
 ## Wie man eine Seite weiterleitet
 
@@ -116,7 +116,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
 `Theme` = Thema der Seite  
 `Parser` = Parser der Seite  
-`Status` = Status der Seite, [unterstütze Werte](#einstellungen-status)  
+`Status` = Status der Seite, [unterstütze Statuswerte](#einstellungen-status)  
 `Image` = Bild der Seite  
 `ImageAlt` = Alternative Bildbeschreibung der Seite  
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
@@ -133,7 +133,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Layout` = Standard-Layout  
 `Theme` = Standard-Theme  
 `Parser` = Standard-Seitenparser  
-`Status` = Standard-Seitenstatus, [unterstütze Werte](#einstellungen-status)  
+`Status` = Standard-Seitenstatus, [unterstütze Statuswerte](#einstellungen-status)  
 
 `CoreStaticUrl` = URL der statischen Webseite  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  

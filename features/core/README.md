@@ -38,7 +38,7 @@ If you don't want to get that many spam messages, then restrict the [contact pag
 
 ## How to hide a page
 
-Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different [page status values](#settings-status), to control who can see and access a page.
+Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
 
 ## How to redirect a page
 
@@ -116,7 +116,7 @@ The following settings can be configured at the top of a page:
 `LayoutNew` = page layout for creating a new page  
 `Theme` = page theme  
 `Parser` = page parser  
-`Status` = page status, [supported values](#settings-status)  
+`Status` = page status, [supported status values](#settings-status)  
 `Image` = page image  
 `ImageAlt` = alternative text for page image  
 `Modified` = page modification date, YYYY-MM-DD format  
@@ -133,7 +133,7 @@ The following settings can be configured at the top of a page:
 `Layout` = default layout  
 `Theme` = default theme  
 `Parser` = default page parser  
-`Status` = default page status, [supported values](#settings-status)  
+`Status` = default page status, [supported status values](#settings-status)  
 
 `CoreStaticUrl` = URL for static website  
 `CoreStaticDefaultFile` =  default file for static website  
