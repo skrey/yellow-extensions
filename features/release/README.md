@@ -43,12 +43,12 @@ The following settings can be configured in file `extension.ini`:
 
 <a id="settings-actions"></a>The following file actions are supported:
 
-`create` = create if not exists  
-`update` = overwrite if exists  
-`delete` = delete if exists  
+`create` = create file if not exists  
+`update` = overwrite file if exists  
+`delete` = delete file if exists  
+`multi-language` = use file from corresponding subfolder  
 `optional` = only if new installation, e.g. for content files  
 `careful` = only if not modified, e.g. for system files  
-`multi-language` = use file from corresponding subfolder  
 
 ## Examples
 
