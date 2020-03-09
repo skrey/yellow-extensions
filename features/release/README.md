@@ -30,12 +30,18 @@ The following settings can be configured in file `extension.ini`:
 `Description` = extension description, one line maximum  
 `Published` = extension publication date, YYYY-MM-DD format  
 `Language` = extension language(s), comma separated  
-`Status` = extension status, e.g. `public`  
+`Status` = [extension status](#settings-status)    
 `Developer` = feature developer  
 `Translator` = language translator  
 `Designer` = theme designer  
 
-The following file operations are supported:
+<a id="settings-status"></a>The following extension status values are supported:
+
+`public` = extension is visible in official repository  
+`unlisted` = extension is not visible in official repository  
+`unreleased` = extension is not available in official repository  
+
+<a id="settings-actions"></a>The following file actions are supported:
 
 `create` = create if not exists  
 `update` = overwrite if exists  
@@ -43,12 +49,6 @@ The following file operations are supported:
 `optional` = only if new installation, e.g. for content files  
 `careful` = only if not modified, e.g. for system files  
 `multi-language` = use file from corresponding subfolder  
-
-The following extension status values are supported:
-
-`public` = extension is visible in official repository  
-`unlisted` = extension is not visible in official repository  
-`unreleased` = extension is not available in official repository  
 
 ## Examples
 

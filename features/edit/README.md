@@ -59,15 +59,15 @@ The following settings can be configured in file `system/settings/user.ini`:
 `Name` =  name of the user  
 `Language` = language of the user  
 `Home` = home page of the user  
-`Access` = user access rights, e.g. `edit`  
+`Access` = [user access rights](#settings-access)  
 `Hash` = encrypted password  
 `Stamp` = unique token for authentication  
 `Pending` = pending changes  
 `Failed` = number of failed login attempts  
 `Modified` = modification date, YYYY-MM-DD format  
-`Status` = user status, e.g. `active`  
+`Status` = [user status](#settings-status)  
 
-The following user access rights are supported:
+<a id="settings-access"></a>The following user access rights are supported:
 
 `create` =  user can create page  
 `edit` = user can edit page  
@@ -76,7 +76,7 @@ The following user access rights are supported:
 `system` = user can [change settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) in file `system/settings/system.ini`  
 `update` = user can [update website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 
-The following user status values are supported:
+<a id="settings-status"></a>The following user status values are supported:
 
 `active` = user is active  
 `inactive` = user has been deactivated temporarily  
@@ -86,7 +86,7 @@ The following user status values are supported:
 `unchanged` = user has not confirmed pending changes  
 `removed` = user has not confirmed pending deletion  
 
-The following files can be configured:
+<a id="settings-files"></a>The following files can be configured:
 
 `content/shared/page-new-default.md` = content file for new page  
 `content/shared/page-new-blog.md` = content file for new blog page  

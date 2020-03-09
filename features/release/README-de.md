@@ -30,12 +30,18 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `Description` = Beschreibung der Erweiterung, maximal eine Zeile  
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
 `Language` = Sprache(n) der Erweiterung, durch Komma getrennt  
-`Status` = Status der Erweiterung, z.B. `public`  
+`Status` = [Status der Erweiterung](#settings-status)    
 `Developer` = Entwickler einer Funktion  
 `Translator` = Übersetzer einer Sprache  
 `Designer` = Designer eines Themas  
 
-Die folgenden Dateioperationen werden unterstützt:
+<a id="settings-status"></a>Die folgenden Erweiterungs-Statuswerte werden unterstützt:
+
+`public` = Erweiterung ist im offiziellen Repository sichtbar  
+`unlisted` = Erweiterung ist im offiziellen Repository nicht sichtbar  
+`unreleased` = Erweiterung ist im offiziellen Repository nicht vorhanden  
+
+<a id="settings-actions"></a>Die folgenden Dateiaktionen werden unterstützt:
 
 `create` = erstellen falls nicht vorhanden  
 `update` = überschreiben falls vorhanden  
@@ -43,12 +49,6 @@ Die folgenden Dateioperationen werden unterstützt:
 `optional` = nur falls neue Installation, z.B. für Inhaltsdateien  
 `careful` = nur falls nicht verändert, z.B. für Systemdateien  
 `multi-language` = verwende Datei aus dem entsprechenden Unterverzeichnis  
-
-Die folgenden Erweiterungs-Statuswerte werden unterstützt:
-
-`public` = Erweiterung ist im offiziellen Repository sichtbar  
-`unlisted` = Erweiterung ist im offiziellen Repository nicht sichtbar  
-`unreleased` = Erweiterung ist im offiziellen Repository nicht vorhanden  
 
 ## Beispiele
 
