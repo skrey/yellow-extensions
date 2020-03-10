@@ -135,6 +135,22 @@ Modified: 2000-01-01 13:37:00
 Status: active
 ```
 
+Ein Benutzerkonto mit beschränkten Zugriffsrechten ausstatten:
+
+```
+Email: deutsch@example.com
+Name: Demo
+Language: de
+Home: /demo/
+Access: edit, upload
+Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
+Stamp: 2a2ddef05dbea5071ba0
+Pending: none
+Failed: 0
+Modified: 2000-01-01 13:37:00
+Status: active
+```
+
 Vorhandene Benutzerkonten in der Befehlszeile anzeigen:
 
 `php yellow.php user`  

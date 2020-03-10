@@ -135,6 +135,22 @@ Modified: 2000-01-01 13:37:00
 Status: active
 ```
 
+Configuring a user account with restricted user access rights:
+
+```
+Email: english@example.com
+Name: Demo
+Language: en
+Home: /demo/
+Access: edit, upload
+Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
+Stamp: f3e71699df534913a823
+Pending: none
+Failed: 0
+Modified: 2000-01-01 13:37:00
+Status: active
+```
+
 Showing available user accounts at the command line:
 
 `php yellow.php user`  
