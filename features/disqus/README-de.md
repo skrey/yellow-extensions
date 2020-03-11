@@ -1,4 +1,4 @@
-Disqus 0.8.2
+Disqus 0.8.3
 ============
 Disqus-Kommentare im Blog anzeigen.
 
