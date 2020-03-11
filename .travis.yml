@@ -11,9 +11,9 @@ php:
 before_script: 
   - git clone https://github.com/datenstrom/yellow.git yellow; cd yellow
   - cp $TRAVIS_BUILD_DIR/zip/* system/extensions/
-  - echo -e "---\nBuild: exclude\n---\n" > content/contact/page.md 
-  - echo -e "---\nBuild: exclude\n---\n" > content/search/page.md
-  - echo -e "CoreStaticUrl: http://website/\n" >> system/settings/system.ini
+  - echo -e "---\nBuild:exclude\n---\n" > content/contact/page.md 
+  - echo -e "---\nBuild:exclude\n---\n" > content/search/page.md
+  - echo -e "CoreStaticUrl:http://website/\n" >> system/settings/system.ini
   - php yellow.php update
   - php yellow.php about
 script: 
