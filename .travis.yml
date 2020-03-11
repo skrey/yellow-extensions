@@ -11,10 +11,10 @@ php:
 before_script: 
   - git clone https://github.com/datenstrom/yellow.git yellow; cd yellow
   - cp $TRAVIS_BUILD_DIR/zip/* system/extensions/
+  - php yellow.php update
   - echo "Build:exclude" > content/contact/page.md 
   - echo "Build:exclude" > content/search/page.md
   - echo "CoreStaticUrl:http://website/" >> system/settings/system.ini
-  - php yellow.php update
   - php yellow.php about
 script: 
   - php yellow.php build test
