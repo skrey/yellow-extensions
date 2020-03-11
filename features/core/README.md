@@ -117,12 +117,13 @@ The following settings can be configured at the top of a page:
 `Theme` = page theme  
 `Parser` = page parser  
 `Status` = page status, [supported status values](#settings-status)  
+`Redirect` = redirect to another page or URL  
 `Image` = page image  
 `ImageAlt` = alternative text for page image  
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Redirect` = redirect to another page or URL  
+`Build` = page option(s) for building a static website, comma separated  
 
 <a id="settings-system"></a>The following settings can be configured in file `system/settings/system.ini`:
 
@@ -134,7 +135,7 @@ The following settings can be configured at the top of a page:
 `Theme` = default theme  
 `Parser` = default page parser  
 `Status` = default page status, [supported status values](#settings-status)  
-`CoreStaticUrl` = URL for static website, can be built at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
+`CoreStaticUrl` = URL for [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
 `CoreStaticDefaultFile` =  default file for static website  
 `CoreStaticErrorFile` = error file for static website  
 `CoreStaticDir` = directory for generated files  
@@ -187,13 +188,13 @@ Content file with unlisted page:
     ---
     This page is not visible in navigation and search results.
 
-Content file with redirection:
+Content file with header:
 
     ---
-    Title: Redirect page
-    Redirect: https://datenstrom.se/yellow/
+    Title: Header
+    Status: shared
     ---
-    This page redirects to another page.
+    I like Markdown.
 
 Content file with footer:
 
@@ -202,6 +203,22 @@ Content file with footer:
     Status: shared
     ---
     [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+
+Content file with redirection:
+
+    ---
+    Title: Redirect page
+    Redirect: https://datenstrom.se/yellow/
+    ---
+    This page is redirected to another page.
+
+Content file with options for building a static website:
+
+    ---
+    Title: Exclude page
+    Build: exclude
+    ---
+    This page is not available in static website.
 
 Configuring text settings for extensions:
 

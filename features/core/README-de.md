@@ -30,7 +30,7 @@ Falls du Text anpassen willst, ändere die Texteinstellungen. Öffne die Datei `
 
 ## Wie man eine sichere Webseite macht
 
-[Halte deine Webseite auf dem neuesten Stand](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md). Es wird empfohlen die Website zu aktualisieren sobald ein neues Release bereit steht. Überprüfe ausserdem ob deine Webseite Datenverschlüsselung unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
+[Halte deine Webseite auf dem neuesten Stand](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md). Es wird empfohlen die Webseite zu aktualisieren sobald ein neues Release bereit steht. Überprüfe ausserdem ob deine Webseite Datenverschlüsselung unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
 
 Falls du nicht willst dass Seiten verändert werden, [beschränke Benutzerkonten](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md). Du kannst festlegen was Benutzer machen dürfen, welche Seiten verändert und welche Dateien hochgeladen werden dürfen. Die Dateiformate GIF, JPG, PDF, PNG, SVG und ZIP werden in den Standardeinstellungen unterstützt.
 
@@ -117,12 +117,13 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Theme` = Thema der Seite  
 `Parser` = Parser der Seite  
 `Status` = Status der Seite, [unterstütze Statuswerte](#einstellungen-status)  
+`Redirect` = Weiterleitung zu einer anderen Seite oder URL  
 `Image` = Bild der Seite  
 `ImageAlt` = Alternative Bildbeschreibung der Seite  
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
-`Redirect` = Weiterleitung zu einer anderen Seite oder URL  
+`Build` = Optionen zum Erstellen einer statischen Webseite, durch Komma getrennt  
 
 <a id="einstellungen-system"></a>Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
@@ -134,7 +135,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Theme` = Standard-Theme  
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus, [unterstütze Statuswerte](#einstellungen-status)  
-`CoreStaticUrl` = URL der statischen Webseite, kann man in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) erstellen  
+`CoreStaticUrl` = URL der [statischen Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md)  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
 `CoreStaticDir` = Verzeichnis für erzeugte Dateien  
@@ -187,13 +188,13 @@ Inhaltsdatei mit ungelisteter Seite:
     ---
     Diese Seite ist in der Navigation und den Suchergebnissen nicht sichtbar.
 
-Inhaltsdatei mit Weiterleitung:
+Inhaltsdatei mit Kopfzeile:
 
     ---
-    Title: Seite mit Weiterleitung
-    Redirect: https://datenstrom.se/de/yellow/
+    Title: Header
+    Status: shared
     ---
-    Diese Seite leitet zu einer anderen Seite weiter.
+    Ich mag Markdown.
 
 Inhaltsdatei mit Fußzeile:
 
@@ -202,6 +203,22 @@ Inhaltsdatei mit Fußzeile:
     Status: shared
     ---
     [Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/)
+
+Inhaltsdatei mit Weiterleitung:
+
+    ---
+    Title: Seite weiterleiten
+    Redirect: https://datenstrom.se/de/yellow/
+    ---
+    Diese Seite wird zu einer anderen Seite weitergeleitet.
+
+Inhaltsdatei mit Optionen zum Erstellen einer statischen Webseite:
+
+    ---
+    Title: Seite ausschliessen
+    Build: exclude
+    ---
+    Diese Seite ist in der statischen Webseite nicht vorhanden.
 
 Texteinstellungen für Erweiterungen festlegen:
 

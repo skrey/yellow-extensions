@@ -1,4 +1,4 @@
-Command 0.8.10
+Command 0.8.11
 ==============
 Befehle im Terminalfenster ausführen.
 
