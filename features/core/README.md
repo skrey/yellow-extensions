@@ -42,7 +42,7 @@ Set `Status: unlisted` in the [settings](#settings) at the top of a page. The pa
 
 ## How to redirect a page
 
-Set `Redirect` in the [settings](#settings) at the top of a page. The page will redirect to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+Set `Redirect` in the [settings](#settings) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
 ## Folders
 

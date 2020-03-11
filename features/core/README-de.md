@@ -42,7 +42,7 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#e
 
 ## Wie man eine Seite weiterleitet
 
-Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite leitet dann zu einer anderen Seite oder URL weiter. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
+Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
 
 ## Verzeichnisse
 
