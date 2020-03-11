@@ -24,7 +24,7 @@ The second option is to create a user account at the [command line](https://gith
 
 ## How to restrict a user account
 
-If you don't want that pages are modified, then restrict user accounts. Open file `system/settings/user.ini` and change the user's home page and access right. Users are allowed to edit pages within their home page, but nowhere else.
+If you don't want that pages are modified, then restrict user accounts. Open file `system/settings/user.ini` and change [home page and access right](#settings-user). Users are allowed to edit pages within their home page, but nowhere else.
 
 If you don't want that user accounts are created, then restrict the login page. Open file `system/settings/system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
 
@@ -42,7 +42,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditNewFile` = content file for new page  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
 `EditUserPasswordMinLength` = minimum length of passwords  
-`EditUserHome` = default home page for new user account  
+`EditUserHome` = default home page location for new user account  
 `EditUserAccess` = default user access rights for new user account  
 `EditLoginRestriction` = enable login restriction, 1 or 0  
 `EditLoginSessionTimeout` = validity of login in seconds  
@@ -53,12 +53,12 @@ The following settings can be configured in file `system/settings/text.ini`:
 `EditLoginTitle` = welcome text on login page  
 `EditMailFooter` = footer for email messages  
 
-The following settings can be configured in file `system/settings/user.ini`:
+<a id="settings-user"></a>The following settings can be configured in file `system/settings/user.ini`:
 
 `Email` = email of the user  
 `Name` =  name of the user  
 `Language` = language of the user  
-`Home` = home page of the user  
+`Home` = home page location  
 `Access` = user access rights, [supported access rights](#settings-access)  
 `Hash` = encrypted password  
 `Stamp` = unique token for authentication  

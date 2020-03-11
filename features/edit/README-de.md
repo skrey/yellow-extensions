@@ -24,7 +24,7 @@ Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](h
 
 ## Wie man ein Benutzerkonto beschränkt
 
-Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/settings/user.ini` und ändere Startseite und Zugriffsrechte. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
+Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/settings/user.ini` und ändere [Startseite und Zugriffsrechte](#einstellungen-user). Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/settings/system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
 
@@ -53,13 +53,13 @@ Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorg
 `EditLoginTitle` = Begrüßungstext auf der Anmeldeseite  
 `EditMailFooter` = Fusszeile von E-Mail-Nachrichten  
 
-Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorgenommen werden:
+<a id="einstellungen-user"></a>Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorgenommen werden:
 
 `Email` = E-Mail des Benutzers  
 `Name` =  Name des Benutzers  
 `Language` = Sprache des Benutzers  
-`Home` = Startseite des Benutzers  
-`Access` = Zugriffsrechte des Benutzers, [unterstütze Zugriffsrechte](#einstellungen-access)  
+`Home` = Ort der Startseite  
+`Access` = Zugriffsrechte, [unterstütze Zugriffsrechte](#einstellungen-access)  
 `Hash` = verschlüsseltes Kennwort  
 `Stamp` = eindeutiges Token zur Authentifizierung  
 `Pending` = ausstehende Änderungen  
