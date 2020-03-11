@@ -123,7 +123,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
-`Build` = Optionen zum Erstellen einer statischen Webseite, durch Komma getrennt  
+`Build` = Optionen zum Erstellen einer [statischen Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md), durch Komma getrennt  
 
 <a id="einstellungen-system"></a>Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 

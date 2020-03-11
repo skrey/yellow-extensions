@@ -123,7 +123,7 @@ The following settings can be configured at the top of a page:
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Build` = page option(s) for building a static website, comma separated  
+`Build` = page option(s) for building a [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command), comma separated  
 
 <a id="settings-system"></a>The following settings can be configured in file `system/settings/system.ini`:
 
