@@ -110,15 +110,6 @@ Content file with edit link:
     
     This website is made with [Datenstrom Yellow](https://datenstrom.se/yellow/). 
 
-Configuring different toolbar buttons:
-
-```
-EditToolbarButtons: auto 
-EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
-EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
-```
-
 Configuring a user account with maximum user access rights:
 
 ```
@@ -129,6 +120,22 @@ Home: /
 Access: create, edit, delete, upload, system, update
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
+Pending: none
+Failed: 0
+Modified: 2000-01-01 13:37:00
+Status: active
+```
+
+Configuring a user account with default user access rights:
+
+```
+Email: english@example.com
+Name: Niklas Svensson
+Language: en
+Home: /
+Access: create, edit, delete, upload
+Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
+Stamp: e4138bbd338881147a5d
 Pending: none
 Failed: 0
 Modified: 2000-01-01 13:37:00
@@ -149,6 +156,15 @@ Pending: none
 Failed: 0
 Modified: 2000-01-01 13:37:00
 Status: active
+```
+
+Configuring different toolbar buttons:
+
+```
+EditToolbarButtons: auto 
+EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
+EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
 Showing available user accounts at the command line:

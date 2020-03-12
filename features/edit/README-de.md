@@ -110,15 +110,6 @@ Inhaltsdatei mit Link zum Bearbeiten:
     
     Diese Webseite ist erstellt mit [Datenstrom Yellow](https://datenstrom.se/de/yellow/). 
 
-Verschiedene Symbolleistenschaltflächen festlegen:
-
-```
-EditToolbarButtons: auto 
-EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
-EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
-```
-
 Ein Benutzerkonto mit maximalen Zugriffsrechten ausstatten:
 
 ```
@@ -129,6 +120,22 @@ Home: /
 Access: create, edit, delete, upload, system, update
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
+Pending: none
+Failed: 0
+Modified: 2000-01-01 13:37:00
+Status: active
+```
+
+Ein Benutzerkonto mit Standard-Zugriffsrechten ausstatten:
+
+```
+Email: deutsch@example.com
+Name: Niklas Svensson
+Language: de
+Home: /
+Access: create, edit, delete, upload
+Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
+Stamp: a81eb147a5dd3384138b
 Pending: none
 Failed: 0
 Modified: 2000-01-01 13:37:00
@@ -149,6 +156,15 @@ Pending: none
 Failed: 0
 Modified: 2000-01-01 13:37:00
 Status: active
+```
+
+Verschiedene Symbolleistenschaltflächen festlegen:
+
+```
+EditToolbarButtons: auto 
+EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
+EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
 Vorhandene Benutzerkonten in der Befehlszeile anzeigen:
