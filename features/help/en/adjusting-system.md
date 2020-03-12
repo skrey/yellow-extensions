@@ -35,7 +35,6 @@ Another configuration file is `system/settings/text.ini`. Here's an example:
 
     Language: en
     CoreDateFormatMedium: Y-m-d
-    EditLoginTitle: Welcome to Stockholm
     picture.jpg: This is an example image
 
 You can define the text settings here, for example text sections and image captions. Text settings consist of `Language` and other settings. You can define any text or adjust the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) of languages.

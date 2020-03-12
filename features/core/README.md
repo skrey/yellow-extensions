@@ -215,16 +215,15 @@ Content file with redirection:
 Content file with options for building a static website:
 
     ---
-    Title: Exclude page
+    Title: Example page
     Build: exclude
     ---
-    This page is not available in static website.
+    This page is not taken into account when building a static website.
 
-Configuring text settings for extensions:
+Configuring text settings:
 
     Language: en
     CoreDateFormatMedium: Y-m-d
-    EditLoginTitle: Welcome to Stockholm
     picture.jpg: This is an example image
 
 ## Developer

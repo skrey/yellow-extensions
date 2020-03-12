@@ -215,16 +215,15 @@ Inhaltsdatei mit Weiterleitung:
 Inhaltsdatei mit Optionen zum Erstellen einer statischen Webseite:
 
     ---
-    Title: Seite ausschliessen
+    Title: Beispielseite
     Build: exclude
     ---
-    Diese Seite ist in der statischen Webseite nicht vorhanden.
+    Diese Seite wird beim Erstellen einer statischen Webseite nicht berücksichtigt.
 
-Texteinstellungen für Erweiterungen festlegen:
+Texteinstellungen festlegen:
 
     Language: de
     CoreDateFormatMedium: d.m.Y
-    EditLoginTitle: Willkommen in Berlin
     picture.jpg: Dies ist ein Beispielbild
 
 ## Entwickler
