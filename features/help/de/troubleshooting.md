@@ -22,7 +22,7 @@ Die folgenden Probleme können auftreten:
 **Datenstrom Yellow requires rewrite support […]**
 
 * Konfiguriere deinen Webserver, siehe [Probleme mit Apache](#probleme-mit-apache) und [Nginx](#probleme-mit-nginx).
-* Du kannst den [eingebauten Webserver](https://github.com/datenstrom/yellow-extensions/blob/master/features/command/README-de.md#wie-man-den-eingebauten-webserver-startet) auf dem eigenem Computer starten.
+* Du kannst den [eingebauten Webserver](https://github.com/datenstrom/yellow-extensions/blob/master/features/command/README-de.md) auf dem eigenem Computer starten.
 
 **Datenstrom Yellow requires PHP extension […]**
 
@@ -164,3 +164,9 @@ YellowSystem::load Email:webmaster
 YellowSystem::load Language:en
 YellowSystem::load Layout:default
 ```
+
+## Verwandte Informationen
+
+* [Wie man ein Problem meldet](https://github.com/datenstrom/yellow/blob/master/CONTRIBUTING-de.md)
+* [Wie man die aktuelle Version anzeigt](https://github.com/datenstrom/yellow-extensions/blob/master/features/update/README-de.md)
+* [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/blob/master/features/command/README-de.md)
