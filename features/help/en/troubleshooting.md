@@ -22,7 +22,7 @@ The following problems can occur:
 **Datenstrom Yellow requires rewrite support […]**
 
 * Configure your web server, see [problems with Apache](#problems-with-apache) and [Nginx](#problems-with-nginx).
-* You can start the [built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/features/command) on your own computer.
+* You can test your website with the built-in web server.
 
 **Datenstrom Yellow requires PHP extension […]**
 
