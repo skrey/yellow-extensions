@@ -9,7 +9,7 @@ Die folgenden Erweiterungen sind verfügbar:
 * [Themen](https://github.com/datenstrom/yellow-extensions/tree/master/themes/README-de.md):
   Schönes Aussehen für deine Webseite.
 
-Hast du Fragen? [Support finden](https://datenstrom.se/de/yellow/help/) und [mitmachen](CONTRIBUTING-de.md).
+Hast du Fragen? [Demo ausprobieren](https://datenstrom.se/de/yellow/demo/), [Support finden](https://datenstrom.se/de/yellow/help/) und [mitmachen](CONTRIBUTING-de.md).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
