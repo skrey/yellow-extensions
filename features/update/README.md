@@ -12,9 +12,9 @@ Keep your website up to date.
 
 Please do not delete the [extension files](extension.ini), they are always required.
 
-## How to show website version
+## How to show current version
 
-You can show the current version in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). Log in with your user account. Go to the settings. You can also show the current version at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php about`. 
+You can show the current version of your website in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). Log in with your user account. Go to the settings. You can also show the current version at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php about`. 
 
 You can use shortcuts to show information about the website:
 
