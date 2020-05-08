@@ -12,6 +12,14 @@ Keep your website up to date.
 
 Please do not delete the [extension files](extension.ini), they are always required.
 
+## How to show website version
+
+Your website shows the current version in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). Log in with your user account and go to the settings. You can also show the current version at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php about`. You can also use shortcuts to show information about the website:
+
+`[yellow]` = for current website version  
+`[yellow error]` = for current error message  
+`[yellow log]` = for latest entries in log file  
+
 ## How to update a website
 
 The first option is to update your website in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). Log in with your user account. Go to the settings and check for updates. Your website will show when updates are available. You need to have update rights to update a website. All user accounts are stored in file `system/settings/user.ini`. 
@@ -24,16 +32,6 @@ Your website only comes with the bare essentials. You can download and add exten
 
 This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg. There's also a [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release).
 
-## How to show current version
-
-You can use shortcuts to show information about the website:
-
-`[yellow]` = for current website version  
-`[yellow error]` = for current error message  
-`[yellow log]` = for latest entries in log file  
-
-You can find a full system diagnosis in file `system/extensions/yellow.log`.
-
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
@@ -44,6 +42,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 `UpdateVersionFile` = version information of extensions  
 `UpdateWaffleFile` = file information of extensions  
 `UpdateNotification` = pending notifications  
+
+The log file can be found in file `system/extensions/yellow.log`.
 
 ## Examples
 

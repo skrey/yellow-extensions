@@ -8,7 +8,7 @@ Wir machen Dinge für Menschen. Deine Mitarbeit ist sehr willkommen.
 1. [Erstelle eine neue Support-Anfrage für jedes Problem](https://github.com/datenstrom/yellow/issues).
 2. Beschreibe dein Problem, manchmal gibt es unterschiedliche Lösungen.
 3. Füge viele Details hinzu, je mehr wir wissen, desto besser können wir helfen.
-4. Beschwere dich mit Freundlichkeit und arbeite mit uns zusammen.
+4. Benutze die neuste Version. [Welche Version habe ich?](https://github.com/datenstrom/yellow-extensions/blob/master/features/update/README-de.md)
 
 ## Wie man eine Idee vorschlägt
 
@@ -21,13 +21,13 @@ Wir machen Dinge für Menschen. Deine Mitarbeit ist sehr willkommen.
 
 1. [Beginne mit einer Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-example), [Sprache](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) oder [Thema](https://github.com/schulle4u/yellow-extension-basic).
 2. Stelle dir vor was der Benutzer machen will, strebe eine einfache Lösung an.
-2. Lade deine Erweiterung zu GitHub hoch, lass uns wissen, falls du auf Hilfe brauchst.
+2. Lade deine Erweiterung zu GitHub hoch, lass uns wissen, falls du Hilfe brauchst.
 3.  Veröffentliche deine Erweiterung im offiziellen Repository. [Wie geht das?](https://github.com/datenstrom/yellow-extensions/blob/master/features/release/README-de.md)
 
 ## Wie man in Verbindung bleibt 
 
-1. [Beobachte uns auf GitHub](https://github.com/datenstrom/yellow) oder [folge uns auf Twitter](https://twitter.com/datendesigner).
-2. Erzähle von den Webseiten, Blogs, Wikis und Dingen, die du gemacht hast.
+1. [Beobachte uns auf GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendesigner) oder [sende eine Nachricht and die Entwickler](https://datenstrom.se/de/contact/).
+2. Erzähle von deinen Webseiten, Blogs, Wikis und anderen Dingen, die du gemacht hast.
 3. Beantworte Fragen und diskutiere Probleme mit anderen, wenn dir das Spass macht.
 4. Werde über neue Versionen in deiner Mailbox informiert. [Was ist neu?](https://github.com/datenstrom/yellow/releases)
 

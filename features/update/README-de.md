@@ -12,6 +12,14 @@ Webseite auf dem neusten Stand halten.
 
 Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer gebraucht.
 
+## Wie man die Version der Webseite anzeigt
+
+Deine Webseite zeigt die aktuelle Version im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) an. Melde dich mit deinem Benutzerkonto an und gehe in die Einstellungen. Du kannst die aktuelle Version auch in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) anzeigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php about`. Du kannst auch Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen:
+
+`[yellow]` = für aktuelle Version der Webseite  
+`[yellow error]` = für aktuelle Fehlermeldung  
+`[yellow log]` = für neueste Einträge in der Logdatei  
+
 ## Wie man eine Webseite aktualisiert
 
 Die erste Möglichkeit besteht darin, deine Webseite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) zu aktualisieren. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen und suche nach Aktualisierungen. Deine Webseite zeigt an, wenn Aktualisierungen verfügbar sind. Du benötigst Update-Rechte, um eine Webseite zu aktualisieren. Alle Benutzerkonten werden in der Datei `system/settings/user.ini` gespeichert.
@@ -24,16 +32,6 @@ Deine Webseite kommt nur mit dem Nötigsten. Du kannst Erweiterungen als ZIP-Dat
 
 Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg. Es gibt auch eine [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md).
 
-## Wie man die aktuelle Version anzeigt
-
-Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen:
-
-`[yellow]` = für aktuelle Version der Webseite  
-`[yellow error]` = für aktuelle Fehlermeldung  
-`[yellow log]` = für neueste Einträge in der Logdatei  
-
-Eine vollständige Systemdiagnose findet man in der Datei `system/extensions/yellow.log`.
-
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
@@ -44,6 +42,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `UpdateVersionFile` = Versionsinformationen von Erweiterungen  
 `UpdateWaffleFile` = Dateiinformationen von Erweiterungen  
 `UpdateNotification` = ausstehende Benachrichtigungen  
+
+Die Logdatei findet man in der Datei `system/extensions/yellow.log`.
 
 ## Beispiele
 
