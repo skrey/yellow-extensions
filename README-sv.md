@@ -1,15 +1,15 @@
 # Datenstrom Yellow extensions
 
-The following extensions are available:
+Följande tillägg finns tillgängliga:
 
-* [Features](https://github.com/datenstrom/yellow-extensions/tree/master/features/):
-  Useful features for your website.
-* [Languages](https://github.com/datenstrom/yellow-extensions/tree/master/languages/):
-  Possible translations for your website.
-* [Themes](https://github.com/datenstrom/yellow-extensions/tree/master/themes/):
-  Beautiful appearance for your website.
+* [Funktioner](https://github.com/datenstrom/yellow-extensions/tree/master/features/):
+  Användbara funktioner för din webbplats.
+* [Språk](https://github.com/datenstrom/yellow-extensions/tree/master/languages/):
+  Möjliga översättningar för din webbplats.
+* [Teman](https://github.com/datenstrom/yellow-extensions/tree/master/themes/):
+  Vackert utseende för din webbplats.
 
-Do you have questions? [Get help](https://datenstrom.se/yellow/help/) and [contribute](CONTRIBUTING.md).
+Har du några frågor? [Hitta hjälp](https://datenstrom.se/yellow/help/) och [engagera dig](CONTRIBUTING.md).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
