@@ -1,5 +1,5 @@
-Bundle 0.8.9
-============
+Bundle 0.8.10
+=============
 Webseiten-Dateien bündeln.
 
 <p align="center"><img src="bundle-screenshot.png?raw=true" width="795" height="512" alt="Bildschirmfoto"></p>
