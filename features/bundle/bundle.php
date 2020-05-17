@@ -113,6 +113,7 @@ class YellowBundle {
                     $fileData = $this->processBundleConvert($scheme, $address, $base, $fileData, $fileName, $type);
                     $fileData = $this->processBundleMinify($scheme, $address, $base, $fileData, $fileName, $type);
                     if (substrb($fileData, 0, 3)=="\xEF\xBB\xBF") $fileData = substrb($fileData, 3);
+                    if (substrb($fileData, 0, 13)=="\"use strict\";" || substrb($fileData, 0, 13)=="'use strict';") $fileData = substrb($fileData, 13);
                     if (!empty($fileDataNew)) $fileDataNew .= "\n\n";
                     $fileDataNew .= "/* ".basename($fileName)." */\n";
                     $fileDataNew .= $fileData;
