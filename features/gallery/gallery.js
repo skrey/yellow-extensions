@@ -1,16 +1,13 @@
 // Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 var initPhotoSwipeFromDOM = function() {
 
     // Parse gallery items from DOM
     var parseElements = function(element) {
-        var thumbElements = element.childNodes,
-        items = [],
-        childElements,
-        size,
-        item;
+        var thumbElements = element.childNodes, items = [],
+            el, childElements, size, item;
         for (var i=0; i<thumbElements.length; i++) {
             el = thumbElements[i];
             if (el.nodeType!==1) continue;
