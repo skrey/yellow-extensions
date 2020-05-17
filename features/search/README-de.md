@@ -10,6 +10,8 @@ Volltext-Suche.
 2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/search.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
 3. Kopiere `search.zip ` in dein `system/extensions`-Verzeichnis.
 
+Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
+
 ## Wie man eine Suche benutzt
 
 Die Suche ist auf deiner Webseite vorhanden als `http://website/search/`. Sie durchsucht den Inhalt der gesamten Webseite, nur sichtbare Seiten sind enthalten. Um ein Suchfeld anzuzeigen, benutze eine `[search]`-Abkürzung. Du kannst auch einen Link zur Suche irgendwo auf deiner Webseite einbauen.
