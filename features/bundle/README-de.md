@@ -14,7 +14,7 @@ Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
 
 ## Wie man Webseiten-Dateien bündelt
 
-Diese Erweiterung bündelt und verkleinert Dateien für eine bessere Ladezeit. Deine Webseite enthält möglicherweise mehrere CSS- und JavaScript-Dateien. In der Regel werden die im Browser zwischengespeichert, trotzdem muss jede Datei überprüft werden. Hier kommt der Dateibündler ins Spiel. Er sucht nach eingebundenen Dateien und ersetzt diese durch ein einzelnes Bündel für CSS und eines für JavaScript.
+Diese Erweiterung bündelt und verkleinert Dateien für eine bessere Ladezeit. Deine Webseite enthält möglicherweise mehrere CSS- und JavaScript-Dateien. In der Regel werden die im Browser zwischengespeichert, trotzdem muss jede Datei überprüft werden. Hier kommt der Dateibündler ins Spiel. Er sucht nach eingebundenen Dateien und ersetzt diese durch eine einzelne Datei für CSS und eine für JavaScript.
 
 Diese Erweiterung benutzt [Minify v1.3.62](https://github.com/matthiasmullie/minify) von Matthias Mullie. Es ist unter [MIT-Lizenz](https://opensource.org/licenses/MIT) lizenziert.
 
