@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.9";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -45,14 +45,14 @@ class YellowContact {
             if (empty($_REQUEST["referer"])) {
                 $_REQUEST["referer"] = $_SERVER["HTTP_REFERER"];
                 $this->yellow->page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
-                $this->yellow->page->setHeader("Cache-Control", "no-cache, must-revalidate");
+                $this->yellow->page->setHeader("Cache-Control", "no-cache, no-store");
             }
             if ($_REQUEST["status"]=="send") {
                 $status = $this->sendMail();
                 if ($status=="settings") $this->yellow->page->error(500, "Contact page settings not valid!");
                 if ($status=="error") $this->yellow->page->error(500, $this->yellow->text->get("contactStatusError"));
                 $this->yellow->page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
-                $this->yellow->page->setHeader("Cache-Control", "no-cache, must-revalidate");
+                $this->yellow->page->setHeader("Cache-Control", "no-cache, no-store");
                 $this->yellow->page->set("status", $status);
             } else {
                 $this->yellow->page->set("status", "none");
