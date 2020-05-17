@@ -1,4 +1,4 @@
-Edit 0.8.24
+Edit 0.8.25
 ===========
 Webseite im Webbrowser bearbeiten.
 
