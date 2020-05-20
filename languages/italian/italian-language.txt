@@ -123,7 +123,7 @@ EditSystemInformation: The webmaster is the contact person and can approve new u
 EditSystemStatusNone: Here you can change system settings.
 EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: Aggiornamenti
-EditUpdateStatusNone: Datenstrom Yellow è per le persone che creano siti web.
+EditUpdateStatusNone: Datenstrom Yellow è per le persone che creano piccoli siti web.
 EditUpdateStatusCheck: Controllo degli aggiornamenti in corso…
 EditUpdateStatusUpdates: Ci sono aggiornamenti disponibili, aggiorna adesso.
 EditUpdateStatusOk: Il tuo sito è aggiornato.

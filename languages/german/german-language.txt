@@ -123,7 +123,7 @@ EditSystemInformation: Der Webmaster ist die Kontaktperson und kann neue Benutze
 EditSystemStatusNone: Hier kannst du Systemeinstellungen ändern.
 EditSystemStatusInvalid: Bitte eine gültige E-Mail angeben.
 EditUpdateTitle: Aktualisierungen
-EditUpdateStatusNone: Datenstrom Yellow ist für Menschen die Webseiten machen.
+EditUpdateStatusNone: Datenstrom Yellow ist für Menschen die kleine Webseiten machen.
 EditUpdateStatusCheck: Nach Aktualisierung suchen…
 EditUpdateStatusUpdates: Aktualisierung verfügbar, jetzt aktualisieren.
 EditUpdateStatusOk: Deine Webseite ist auf dem neusten Stand.

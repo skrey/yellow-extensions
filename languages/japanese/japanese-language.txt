@@ -123,7 +123,7 @@ EditSystemInformation: The webmaster is the contact person and can approve new u
 EditSystemStatusNone: Here you can change system settings.
 EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: 更新情報
-EditUpdateStatusNone: Datenstrom Yellow でウェブサイトを作る
+EditUpdateStatusNone: Datenstrom Yellow で小さなウェブサイトを作る
 EditUpdateStatusCheck: アップデートの確認中…
 EditUpdateStatusUpdates： 利用可能なアップデート,今直ぐアップデートする。
 EditUpdateStatusOk: 最新のバージョンです。
