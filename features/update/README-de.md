@@ -61,7 +61,7 @@ Inhaltsdatei mit Logdatei:
     ---
     Title: Über
     ---
-    Für Menschen die Webseiten machen.
+    Für Menschen die kleine Webseiten machen.
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 

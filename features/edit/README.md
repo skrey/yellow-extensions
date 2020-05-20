@@ -100,7 +100,7 @@ Content file with edit link:
     ---
     Title: About
     ---
-    For people who make websites. [edit - Log in].
+    For people who make small websites. [edit - Log in].
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 

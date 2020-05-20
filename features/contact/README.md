@@ -68,7 +68,7 @@ Content file with contact link:
     ---
     Title: About
     ---
-    For people who make websites. [Contact me](/contact/).
+    For people who make small websites. [Contact me](/contact/).
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 

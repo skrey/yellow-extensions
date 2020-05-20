@@ -68,7 +68,7 @@ Inhaltsdatei mit Kontaktlink:
     ---
     Title: Über
     ---
-    Für Menschen die Webseiten machen. [Kontaktiere mich](/contact/).
+    Für Menschen die kleine Webseiten machen. [Kontaktiere mich](/contact/).
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 

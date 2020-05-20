@@ -100,7 +100,7 @@ Inhaltsdatei mit Link zum Bearbeiten:
     ---
     Title: Über
     ---
-    Für Menschen die Webseiten machen. [edit - Anmelden].
+    Für Menschen die kleine Webseiten machen. [edit - Anmelden].
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 

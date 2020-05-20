@@ -61,7 +61,7 @@ Content file with log file:
     ---
     Title: About
     ---
-    For people who make websites.
+    For people who make small websites.
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
