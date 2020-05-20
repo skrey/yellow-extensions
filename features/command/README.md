@@ -1,4 +1,4 @@
-Command 0.8.11
+Command 0.8.12
 ==============
 Run commands in a terminal window.
 
@@ -49,7 +49,7 @@ Showing available commands:
 `php yellow.php`
 
 ~~~~
-Datenstrom Yellow is for people who make websites.
+Datenstrom Yellow is for people who make small websites.
 Syntax: php yellow.php about
         php yellow.php build [directory location]
         php yellow.php check [directory location]
