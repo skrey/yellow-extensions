@@ -5,145 +5,145 @@ Funktioner, språk och teman för små webbplatser.
 ## Funktioner
 
 * [About](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/about):
-  Author profile for blog pages. Developed by Steffen Schultz.
+  Författarprofil för bloggsidor. Utvecklad av Steffen Schultz.
 * [Antispam](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/antispam):
-  Alternative email address obfuscator. Developed by Steffen Schultz.
+  Alternativ e-postadress obfuscator. Utvecklad av Steffen Schultz.
 * [Audio](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio):
-  HTML5 audio player. Developed by Steffen Schultz.
+  HTML5 ljudspelare. Utvecklad av Steffen Schultz.
 * [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog): 
-  Blog for your website. Developed by Datenstrom.
+  Blogg för din webbplats. Utvecklad av Datenstrom.
 * [Breadcrumb](https://github.com/datenstrom/yellow-extensions/tree/master/features/breadcrumb): 
-  Breadcrumb navigation. Developed by Datenstrom.
+  Breadcrumb navigation. Utvecklad av Datenstrom.
 * [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/features/bundle): 
-  Bundle website files. Developed by Datenstrom.
+  Bundla webbplatsfiler. Utvecklad av Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/features/command): 
-  Run commands in a terminal window. Developed by Datenstrom.
+  Kör kommandon i ett terminalfönster. Utvecklad av Datenstrom.
 * [Comments](https://github.com/GiovanniSalmeri/yellow-comments):
-  Simple commenting system. Developed by Giovanni Salmeri.
+  Enkelt kommentarsystem. Utvecklad av Giovanni Salmeri.
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact): 
-  Email contact page. Developed by Datenstrom.
+  E-post kontaktsida. Utvecklad av Datenstrom.
 * [Core](https://github.com/datenstrom/yellow-extensions/tree/master/features/core): 
-  Core functionality of the website. Developed by Datenstrom.
+  Webbplatsens kärnfunktion. Utvecklad av Datenstrom.
 * [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv):
-  CSV file parser. Developed by Steffen Schultz.
+  CSV-filtolkare. Utvecklad av Steffen Schultz.
 * [Diary](https://github.com/GiovanniSalmeri/yellow-diary):
-  Events Diary. Developed by Giovanni Salmeri.
+  Händelsedagbok. Utvecklad av Giovanni Salmeri.
 * [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus): 
-  Show Disqus comments on blog. Developed by Datenstrom.
+  Visa Disqus-kommentarer på bloggen. Utvecklad av Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft): 
-  Support for draft pages. Developed by Datenstrom.
+  Stöd för draftsidor. Utvecklad av Datenstrom.
 * [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit): 
-  Edit your website in a web browser. Developed by Datenstrom.
+  Redigera din webbplats i en webbläsare. Utvecklad av Datenstrom.
 * [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome): 
-  Lots and lots of emoji. Developed by Datenstrom.
+  Massor och massor av emoji. Utvecklad av Datenstrom.
 * [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed): 
-  Feed with recent changes. Developed by Datenstrom.
+  Feed med senaste ändringarna.. Utvecklad av Datenstrom.
 * [Filelist](https://github.com/GiovanniSalmeri/yellow-filelist):
-  Show a list of files for download. Developed by Giovanni Salmeri.
+  Visa en lista över filer för nedladdning. Utvecklad av Giovanni Salmeri.
 * [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome): 
-  Icons and symbols. Developed by Datenstrom.
+  Ikoner och symboler. Utvecklad av Datenstrom.
 * [Gallery](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery): 
-  Image gallery with popup. Developed by Datenstrom.
+  Bildgalleri med popup. Utvecklad av Datenstrom.
 * [Googlecalendar](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlecalendar): 
-  Embed Google calendar. Developed by Datenstrom.
+  Bädda in Google-kalender. Utvecklad av Datenstrom.
 * [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap): 
-  Embed Google map. Developed by Datenstrom.
+  Bädda in Google-karta. Utvecklad av Datenstrom.
 * [Help](https://github.com/datenstrom/yellow-extensions/tree/master/features/help): 
-  Help for your website. Developed by Datenstrom.
+  Hjälp för din webbplats. Utvecklad av Datenstrom.
 * [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight): 
-  Highlight source code. Developed by Datenstrom.
+  Markera källkod. Utvecklad av Datenstrom.
 * [Image](https://github.com/datenstrom/yellow-extensions/tree/master/features/image): 
-  Images and thumbnails. Developed by Datenstrom.
+  Bilder och miniatyrbilder. Utvecklad av Datenstrom.
 * [Include](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/include): 
-  Include page content from other pages. Developed by Steffen Schultz.
+  Inkludera sidinnehåll från andra sidor. Utvecklad av Steffen Schultz.
 * [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/features/instagram): 
-  Embed Instagram photos. Developed by Datenstrom.
+  Bädda in Instagram-foton. Utvecklad av Datenstrom.
 * [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown): 
-  Text formatting for humans. Developed by Datenstrom.
+  Textformatering för människor. Utvecklad av Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/features/meta):
-  Meta data for social media sites. Developed by Datenstrom, Steffen Schultz.
+  Metadata för webbplatser med sociala medier. Utvecklad av Datenstrom, Steffen Schultz.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
-  Light and accessible social sharing links. Developed by Giovanni Salmeri.
+  Lätt och tillgänglig social delningslänkar. Utvecklad av Giovanni Salmeri.
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
-  Message of the day. Developed by Steffen Schultz.
+  Dagens meddelande. Utvecklad av Steffen Schultz.
 * [Openstreetmap](https://github.com/GiovanniSalmeri/yellow-openstreetmap):
-  Embed OpenStreetMap maps. Developed by Giovanni Salmeri.
+  Bädda in OpenStreetMap-kartor. Utvecklad av Giovanni Salmeri.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
-  View the markdown source of a page. Developed by Steffen Schultz.
+  Visa markeringskällan för en sida. Utvecklad av Steffen Schultz.
 * [Pinboard](https://github.com/GiovanniSalmeri/yellow-pinboard):
-  Pinboard for timed notices. Developed by Giovanni Salmeri.
+  Pinboard för tidsinställda meddelanden. Utvecklad av Giovanni Salmeri.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
-  Web feed optimized for podcast publishing. Developed by Steffen Schultz.
+  Webbflöde optimerat för publicering av podcast. Utvecklad av Steffen Schultz.
 * [Previousnext](https://github.com/datenstrom/yellow-extensions/tree/master/features/previousnext): 
-  Show links to previous/next page. Developed by Datenstrom.
+  Visa länkar till föregående/nästa sida. Utvecklad av Datenstrom.
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
-  Support for password-protected pages. Developed by Steffen Schultz.
+  Stöd för lösenordsskyddade sidor. Utvecklad av Steffen Schultz.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss): 
-  Widgets for RadioBoss Cloud. Developed by Steffen Schultz.
+  Widgets för RadioBoss Cloud. Utvecklad av Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
-  Display random pages from specified location. Developed by Steffen Schultz.
+  Visa slumpmässiga sidor från angiven plats. Utvecklad av Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
-  Alternative page redirection. Developed by Steffen Schultz.
+  Alternativ sida omdirigering. Utvecklad av Steffen Schultz.
 * [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
-  Package and publish extensions. Developed by Datenstrom.
+  Paketera och publicera tillägg. Utvecklad av Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
-  Full-text search. Developed by Datenstrom.
+  Heltekstsökning. Utvecklad av Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):
-  Create internal links. Developed by Giovanni Salmeri.
+  Skapa interna länkar. Utvecklad av Giovanni Salmeri.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap): 
-  Sitemap with all pages. Developed by Datenstrom.
+  Sitemap med alla sidor. Utvecklad av Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider): 
-  Image gallery with slider. Developed by Datenstrom.
+  Bildgalleri med reglaget. Utvecklad av Datenstrom.
 * [Soundcloud](https://github.com/datenstrom/yellow-extensions/tree/master/features/soundcloud): 
-  Embed Soundcloud audio tracks. Developed by Datenstrom.
+  Bädda in Soundcloud-ljudspår. Utvecklad av Datenstrom.
 * [Spoiler](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/spoiler):
-  Hide certain page elements. Developed by Steffen Schultz.
+   vissa sidelement. Utvecklad av Steffen Schultz.
 * [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker): 
-  RSS feed parser. Developed by Steffen Schultz.
+  RSS-feed parser. Utvecklad av Steffen Schultz.
 * [Toc](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc): 
-  Table of contents. Developed by Datenstrom.
+  Innehållsförteckning. Utvecklad av Datenstrom.
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic): 
-  Create traffic analytics from web server log files. Developed by Datenstrom.
+  Skapa trafikanalys från webbserverns loggfiler. Utvecklad av Datenstrom.
 * [Tunein](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
-  Embed TuneIn Radio player. Developed by Steffen Schultz.
+  Bädda in TuneIn Radio-spelare. Utvecklad av Steffen Schultz.
 * [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter): 
-  Embed Twitter messages. Developed by Datenstrom, Steffen Schultz.
+  Bädda in Twitter-meddelanden. Utvecklad av Datenstrom, Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update): 
-  Keep your website up to date. Developed by Datenstrom.
+  Håll din webbplats uppdaterad. Utvecklad av Datenstrom.
 * [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki): 
-  Wiki for your website. Developed by Datenstrom.
+  Wiki för din webbplats. Utvecklad av Datenstrom.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube): 
-  Embed Youtube videos. Developed by Datenstrom.
+  Bädda in Youtube-videor. Utvecklad av Datenstrom.
 
 ## Språk
 
-* [Bengali](https://github.com/datenstrom/yellow-extensions/tree/master/languages/bengali): Bengali/বাঙালি with language 'bn'. Translated by Mohammed Nazmul Ferdous.
-* [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/chinese): Chinese/简体中文 with language 'zh-CN'. Translated by Hyson Lee.
-* [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/languages/czech): Czech/Čeština with language 'cs'. Translated by Ufo Vyhuleny.
-* [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/danish): Danish/Dansk with language 'da'. Translated by David Garcia.
-* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/languages/dutch): Dutch/Nederlands (België) with language 'nl'. Translated by Robin Vannieuwenhuijse.
-* [English](https://github.com/datenstrom/yellow-extensions/tree/master/languages/english): English/English with language 'en'. Translated by Mark Seuffert.
-* [French](https://github.com/datenstrom/yellow-extensions/tree/master/languages/french): French/Français with language 'fr'. Translated by Juh Nibreh.
-* [German](https://github.com/datenstrom/yellow-extensions/tree/master/languages/german): German/Deutsch with language 'de'. Translated by David Fehrmann.
-* [Hungarian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/hungarian): Hungarian/Magyar with language 'hu'. Translated by Ádám Tuba.
-* [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/italian): Italian/Italiano with language 'it'. Translated by Giovanni Salmeri.
-* [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/japanese): Japanese/日本語 with language 'ja'. Translated by Yuhko Senuma.
-* [Norwegian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/norwegian): Norwegian/Norsk Bokmål with language 'nb'. Translated by Per Arne Solvik.
-* [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/polish): Polish/Polski with language 'pl'. Translated by Paweł Klockiewicz.
-* [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/portuguese): Portuguese/Português with language 'pt'. Translated by Al Garcia.
-* [Russian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/russian): Russian/Русский with language 'ru'. Translated by Сергей Ворон.
-* [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/languages/slovak): Slovak/Slovenčina with language 'sk'. Translated by Ádám Tuba.
-* [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/spanish): Spanish/Español with language 'es'. Translated by Al Garcia, David Garcia.
-* [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/swedish): Swedish/Svenska with language 'sv'. Translated by Adam Engel.
+* [Bengali](https://github.com/datenstrom/yellow-extensions/tree/master/languages/bengali): Bengali/Bengali med språket 'bn'. Översatt av Mohammed Nazmul Ferdous.
+* [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/chinese): Chinese/Kinesiskt med språket 'zh-CN'. Översatt av Hyson Lee.
+* [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/languages/czech): Czech/Tjeckiskt med språket 'cs'. Översatt av Ufo Vyhuleny.
+* [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/danish): Danish/Danska med språket 'da'. Översatt av David Garcia.
+* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/languages/dutch): Dutch/Holländska (Belgien) med språket 'nl'. Översatt av Robin Vannieuwenhuijse.
+* [English](https://github.com/datenstrom/yellow-extensions/tree/master/languages/english): English/Engelska med språket 'en'. Översatt av Mark Seuffert.
+* [French](https://github.com/datenstrom/yellow-extensions/tree/master/languages/french): French/Franska med språket 'fr'. Översatt av Juh Nibreh.
+* [German](https://github.com/datenstrom/yellow-extensions/tree/master/languages/german): German/Tyska med språket 'de'. Översatt av David Fehrmann.
+* [Hungarian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/hungarian): Hungarian/Ungerska med språket 'hu'. Översatt av Ádám Tuba.
+* [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/italian): Italian/Italienska med språket 'it'. Översatt av Giovanni Salmeri.
+* [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/japanese): Japanese/Japanska med språket 'ja'. Översatt av Yuhko Senuma.
+* [Norwegian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/norwegian): Norwegian/Norska Bokmål med språket 'nb'. Översatt av Per Arne Solvik.
+* [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/polish): Polish/Polska med språket 'pl'. Översatt av Paweł Klockiewicz.
+* [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/languages/portuguese): Portuguese/Portugisiska med språket 'pt'. Översatt av Al Garcia.
+* [Russian](https://github.com/datenstrom/yellow-extensions/tree/master/languages/russian): Russian/Ryska med språket 'ru'. Översatt av Сергей Ворон.
+* [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/languages/slovak): Slovak/Slovakiska med språket 'sk'. Översatt av Ádám Tuba.
+* [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/spanish): Spanish/Spanska med språket 'es'. Översatt av Al Garcia, David Garcia.
+* [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/swedish): Swedish/Svenska med språket 'sv'. Översatt av Adam Engel.
 
 ## Teman
 
 * [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/themes/berlin): 
-  Berlin is a simple and beautiful theme inspired by Dieter Rams. Designed by Datenstrom.
+  Berlin är ett enkelt och vackert tema inspirerat av Dieter Rams. Designad av Datenstrom.
 * [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/themes/paris): 
-  Paris is an elegant theme for writers. Designed by Datenstrom.
+  Paris är ett elegant tema för författare. Designad av Datenstrom.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/themes/stockholm): 
-  Stockholm is a clean website theme. Designed by Datenstrom.
+  Stockholm är ett rent webbplatstema. Designad av Datenstrom.
 
 Har du några frågor? [Hitta hjälp](https://datenstrom.se/yellow/help/) och [engagera dig](CONTRIBUTING.md).
 
