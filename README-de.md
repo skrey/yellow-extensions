@@ -1,6 +1,6 @@
 # Datenstrom Yellow Erweiterungen
 
-Die folgenden Erweiterungen sind verfügbar:
+Funktionen, Sprachen und Themen für deine Webseite,
 
 ## Funktionen
 
@@ -139,8 +139,6 @@ Die folgenden Erweiterungen sind verfügbar:
 * [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/languages/swedish): Swedish/Schwedisch mit der Sprache 'sv'. Übersetzt von Adam Engel.
 
 ## Themen
-
-Die folgenden Themen sind verfügbar:
 
 * [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/themes/berlin/README-de.md): 
   Berlin ist ein einfaches und schönes Thema, inspiriert von Dieter Rams. Entworfen von Datenstrom.

@@ -1,6 +1,6 @@
 # Datenstrom Yellow extensions
 
-Följande tillägg finns tillgängliga:
+Funktioner, språk och teman för din webbplats.
 
 ## Funktioner
 
@@ -146,7 +146,6 @@ Följande tillägg finns tillgängliga:
   Paris is an elegant theme for writers. Designed by Datenstrom.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/themes/stockholm): 
   Stockholm is a clean website theme. Designed by Datenstrom.
-
 
 Har du några frågor? [Hitta hjälp](https://datenstrom.se/yellow/help/) och [engagera dig](CONTRIBUTING.md).
 
