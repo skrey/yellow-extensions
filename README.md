@@ -1,6 +1,6 @@
 # Datenstrom Yellow extensions
 
-Features, languages and themes for your website.
+Features, languages and themes for small websites.
 
 ## Features
 
