@@ -90,8 +90,6 @@ Features, languages and themes for small websites.
   Full-text search. Developed by Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):
   Create internal links. Developed by Giovanni Salmeri.
-* [Shariff](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/shariff):
-  Privacy-friendly social sharing buttons. Developed by Steffen Schultz.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap): 
   Sitemap with all pages. Developed by Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider): 

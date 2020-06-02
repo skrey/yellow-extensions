@@ -90,8 +90,6 @@ Funktionen, Sprachen und Themen für kleine Webseiten.
   Volltext-Suche. Entwickelt von Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):
   Interne Links erzeugen. Entwickelt von Giovanni Salmeri.
-* [Shariff](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/shariff/README-de.md):
-  Datenschutzfreundliche Teilen-Schaltflächen. Entwickelt von Steffen Schultz.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap/README-de.md): 
   Sitemap mit allen Seiten. Entwickelt von Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider/README-de.md): 
