@@ -1,6 +1,6 @@
 # Datenstrom Yellow extensions
 
-Funktioner, språk och teman för små webbplatser.
+Fler funktioner, språk och teman för Datenstrom Yellow.
 
 ## Funktioner
 

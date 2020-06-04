@@ -1,6 +1,6 @@
 # Datenstrom Yellow Erweiterungen
 
-Funktionen, Sprachen und Themen für kleine Webseiten.
+Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 
 ## Funktionen
 
