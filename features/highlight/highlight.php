@@ -1,10 +1,10 @@
 <?php
 // Highlight extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowHighlight {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -75,12 +75,13 @@ class YellowHighlight {
     
     // Return highlight information
     public function getHighlightInformation($name) {
+        $language = $id = "";
         $class = $this->yellow->system->get("highlightClass");
         $lineNumber = intval($this->yellow->system->get("highlightLineNumber"));
         foreach (explode(" ", $name) as $token) {
             if (preg_match("/^[\w]+$/", $token) && empty($language)) $language = $token;
-            if ($token[0]==".") $class = $class." ".substru($token, 1);
-            if ($token[0]=="#") $id = substru($token, 1);
+            if (substru($token, 0, 1)==".") $class = $class." ".substru($token, 1);
+            if (substru($token, 0, 1)=="#") $id = substru($token, 1);
         }
         if (preg_match("/with-line-number/i", $class)) $lineNumber = true;
         if (preg_match("/without-line-number/i", $class)) $lineNumber = false;
