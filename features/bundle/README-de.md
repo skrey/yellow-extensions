@@ -1,4 +1,4 @@
-Bundle 0.8.10
+Bundle 0.8.11
 =============
 Webseiten-Dateien bündeln.
 
