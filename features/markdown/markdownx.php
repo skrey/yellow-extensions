@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowMarkdownx {
-    const VERSION = "0.8.13";
+    const VERSION = "0.8.14";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -2903,7 +2903,7 @@ class YellowParsedownParser extends ParsedownExtra {
     protected function getIdAttribute($text) {
         $text = $this->yellow->lookup->normaliseName($text, true, false, true);
         $text = trim(preg_replace("/-+/", "-", $text), "-");
-        if (is_null($this->idAttributes[$text])) {
+        if (!isset($this->idAttributes[$text])) {
             $this->idAttributes[$text] = $text;
         } else {
             $text = null;
