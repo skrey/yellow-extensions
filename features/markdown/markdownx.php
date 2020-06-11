@@ -2875,7 +2875,7 @@ class YellowParsedownParser extends ParsedownExtra {
         if ($Link) {
             $href = $Link["element"]["attributes"]["href"];
             $text = ltrim($Excerpt["context"]);
-            if ($text[0]=="!" && !preg_match("/^\w+:/", $href)) {
+            if (isset($text[0]) && $text[0]=="!" && !preg_match("/^\w+:/", $href)) {
                 $href = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreImageLocation").$href;
             }
             $href = $this->yellow->lookup->normaliseLocation($href, $this->page->location);
