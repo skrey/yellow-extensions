@@ -2776,9 +2776,12 @@ class YellowParsedownParser extends ParsedownExtra {
     protected function blockFencedCodeComplete($Block) {
         $Block = parent::blockFencedCodeComplete($Block);
         if ($Block) {
-            $name = preg_replace("/language-(.*)/", "$1", $Block["element"]["element"]["attributes"]["class"]);
-            $name = preg_replace("/{(.*)}/", "$1", $name);
             $text = $Block["element"]["element"]["text"];
+            $name = "";
+            if (isset($Block["element"]["element"]["attributes"]["class"])) {
+                $name = preg_replace("/language-(.*)/", "$1", $Block["element"]["element"]["attributes"]["class"]);
+                $name = preg_replace("/{(.*)}/", "$1", $name);
+            }
             $output = $this->page->parseContentShortcut($name, $text, "code");
             if (!is_null($output)) {
                 $Block["element"] = array("rawHtml" => $output, "allowRawHtmlInSafeMode" => true, "autobreak" => true);
