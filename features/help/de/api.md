@@ -617,7 +617,6 @@ Die folgenden Funktionen sind zur Kodierung von Text vorhanden:
 
 `htmlspecialchars($string)` = kodiere Textstring ins HTML-Format  
 `rawurlencode($string)` = kodiere URL, z.B. Hyperlink-Argumente  
-`strencode($string)` = kodiere String, z.B. JavaScript-Argumente  
 
 Hier ist ein Beispiel-Layout um HTML-Argumente zu kodieren:
 
@@ -644,23 +643,6 @@ Hier ist ein Beispiel-Layout um Hyperlink-Argumente zu kodieren:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p><img src="https://unsplash.it/210/140/?image=<?php echo rawurlencode($id) ?>" /></p>
-</div>
-</div>
-<?php $this->yellow->layout("footer") ?>
-```
-
-Hier ist ein Beispiel-Layout um JavaScript-Argumente zu kodieren:
-
-``` html
-<?php list($name, $message) = $this->yellow->getLayoutArgs() ?>
-<?php if (empty($message)) $message = "Hello world" ?>
-<?php $this->yellow->layout("header") ?>
-<div class="content">
-<div class="main" role="main">
-<h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<script type="text/javascript">
-console.log("<?php echo strencode($message) ?>");
-</script>
 </div>
 </div>
 <?php $this->yellow->layout("footer") ?>

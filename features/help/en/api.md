@@ -618,7 +618,6 @@ The following functions are available to encode text:
 
 `htmlspecialchars($string)` = encode text string into HTML format  
 `rawurlencode($string)` = encode URL, e.g. hyperlink arguments  
-`strencode($string)` = encode string, e.g. JavaScript arguments  
 
 Here's an example layout for encoding HTML arguments:
 
@@ -645,23 +644,6 @@ Here's an example layout for encoding hyperlink arguments:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p><img src="https://unsplash.it/210/140/?image=<?php echo rawurlencode($id) ?>" /></p>
-</div>
-</div>
-<?php $this->yellow->layout("footer") ?>
-```
-
-Here's an example layout for encoding JavaScript arguments:
-
-``` html
-<?php list($name, $message) = $this->yellow->getLayoutArgs() ?>
-<?php if (empty($message)) $message = "Hello world" ?>
-<?php $this->yellow->layout("header") ?>
-<div class="content">
-<div class="main" role="main">
-<h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<script type="text/javascript">
-console.log("<?php echo strencode($message) ?>");
-</script>
 </div>
 </div>
 <?php $this->yellow->layout("footer") ?>
