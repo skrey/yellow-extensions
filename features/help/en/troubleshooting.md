@@ -21,7 +21,7 @@ The following problems can occur:
 
 **Datenstrom Yellow requires rewrite support […]**
 
-* Configure your web server, see [problems with Apache](#problems-with-apache) and [Nginx](#problems-with-nginx).
+* Configure your web server, see configuration files below.
 * You can test your website with the built-in web server.
 
 **Datenstrom Yellow requires PHP extension […]**
@@ -122,10 +122,10 @@ When your website doesn't work, then check `server_name` and `root` in the confi
 The log file `system/extensions/yellow.log` shows important information and errors. Here's an example:
 
 ```
-2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache 2.4.33 Darwin
-2019-03-12 13:33:37 info Install language 'English'
-2019-03-12 13:33:37 info Install language 'French'
-2019-03-12 13:33:37 info Install language 'German'
+2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache 2.4.33, Darwin
+2019-03-12 13:33:37 info Install extension 'English 0.8.10'
+2019-03-12 13:33:37 info Install extension 'French 0.8.10'
+2019-03-12 13:33:37 info Install extension 'German 0.8.10'
 2019-03-12 13:33:49 info Install extension 'Blog 0.8.4'
 2019-03-12 13:33:49 info Add user 'Anna'
 ```
@@ -139,7 +139,7 @@ YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
 YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
 YellowCore::sendPage layout:blogpages theme:flatsite parser:markdown
 YellowCore::processRequest file:content/1-en/2-features/1-blog/page.md
-YellowCore::request status:200 handler:core time:19 ms
+YellowCore::request status:200 time:19 ms
 ```
 
 Get file system information by increasing debug level to `<?php define("DEBUG", 2);`
@@ -150,12 +150,10 @@ YellowText::load file:system/extensions/english-language.txt
 YellowText::load file:system/extensions/french-language.txt
 YellowText::load file:system/extensions/german-language.txt
 YellowText::load file:system/settings/text.ini
-YellowCore::load extensions:43 time:10 ms
 ```
 
 Get maximum information by increasing debug level to `<?php define("DEBUG", 3);`
 ```
-YellowCore::load Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache 2.4.33 Darwin
 YellowSystem::load file:system/settings/system.ini
 YellowSystem::load Sitename:Datenstrom developers
 YellowSystem::load Author:Datenstrom

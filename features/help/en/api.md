@@ -1,7 +1,7 @@
 ---
 Title: API
 ---
-We <3 love people who code.
+We <3 people who code.
 
 [toc]
 
@@ -86,20 +86,26 @@ Return [page collection](#yellow-page-collection) with additional pages
 **$this->yellow->page->getPage($key)**  
 Return related page
 
+**$this->yellow->page->getUrl()**  
+Return page URL
+
 **$this->yellow->page->getBase($multiLanguage = false)**  
 Return page base
 
 **$this->yellow->page->getLocation($absoluteLocation = false)**  
 Return page location
 
-**$this->yellow->page->getUrl()**  
-Return page URL
+**$this->yellow->page->getRequest($key)**  
+Return page request argument
 
-**$this->yellow->page->getExtra($name)**  
-Return page extra data
+**$this->yellow->page->getRequestHtml($key)**  
+Return page request argument, HTML encoded
 
 **$this->yellow->page->getHeader($key)**  
 Return page response header
+
+**$this->yellow->page->getExtra($name)**  
+Return page extra data
 
 **$this->yellow->page->getModified($httpFormat = false)**  
 Return page modification date, Unix time or HTTP format
@@ -131,11 +137,14 @@ Check if page is cacheable
 **$this->yellow->page->isError()**  
 Check if page with error
 
-**$this->yellow->page->isHeader($key)**  
-Check if response header exists
-
 **$this->yellow->page->isExisting($key)**  
 Check if page [setting](markdown-cheat-sheet#settings) exists  
+
+**$this->yellow->page->isRequest($key)**  
+Check if request argument exists
+
+**$this->yellow->page->isHeader($key)**  
+Check if response header exists
 
 **$this->yellow->page->isPage($key)**  
 Check if related page exists  
@@ -612,55 +621,12 @@ Here's an example layout for checking if a specific language exists:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-### Yellow text encoding
-
-The following functions are available to encode text:
-
-`htmlspecialchars($string)` = encode text string into HTML format  
-`rawurlencode($string)` = encode URL, e.g. hyperlink arguments  
-
-Here's an example layout for encoding HTML arguments:
-
-``` html
-<?php list($name, $class) = $this->yellow->getLayoutArgs() ?>
-<?php if (empty($class)) $class = "regular" ?>
-<?php $this->yellow->layout("header") ?>
-<div class="content">
-<div class="main" role="main">
-<h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<p><img src="https://unsplash.it/210/140/?random" class="<?php echo htmlspecialchars($class) ?>" /></p>
-</div>
-</div>
-<?php $this->yellow->layout("footer") ?>
-```
-
-Here's an example layout for encoding hyperlink arguments:
-
-``` html
-<?php list($name, $id) = $this->yellow->getLayoutArgs() ?>
-<?php if (empty($id)) $id = "821" ?>
-<?php $this->yellow->layout("header") ?>
-<div class="content">
-<div class="main" role="main">
-<h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<p><img src="https://unsplash.it/210/140/?image=<?php echo rawurlencode($id) ?>" /></p>
-</div>
-</div>
-<?php $this->yellow->layout("footer") ?>
-```
-
 ### Yellow toolbox
 
 Yellow toolbox gives access to toolbox with helpers:
 
-**$this->yellow->toolbox->getLocation($filterStrict = true)**  
-Return location from current HTTP request
-
-**$this->yellow->toolbox->getLocationArgs()**  
-Return location arguments from current HTTP request
-
-**$this->yellow->toolbox->isLocationArgs($location = "")**  
-Check if there are location arguments in current HTTP request
+**$this->yellow->toolbox->getServer($key)**  
+Return server argument from current HTTP request
 
 **$this->yellow->toolbox->normaliseArgs($text, $appendSlash = true, $filterStrict = true)**  
 Normalise location arguments
@@ -701,26 +667,8 @@ Return file modification date, Unix time
 **$this->yellow->toolbox->getTextLines($text)**  
 Return lines from text string, including newline  
 
-**$this->yellow->toolbox->getTextArgs($text, $optional = "-")**  
+**$this->yellow->toolbox->getTextArgs($text, $optional = "-", $sizeMin = 9)**  
 Return arguments from text string, space separated  
-
-Here's an example layout for showing location and arguments:
-
-``` html
-<?php $this->yellow->layout("header") ?>
-<div class="content">
-<div class="main" role="main">
-<h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<p>
-<?php echo htmlspecialchars($this->yellow->toolbox->getLocation()) ?><br />
-<?php foreach ($_REQUEST as $key=>$value): ?>
-<?php echo htmlspecialchars("$key: $value") ?><br />
-<?php endforeach ?>
-</p>
-</div>
-</div>
-<?php $this->yellow->layout("footer") ?>
-```
 
 Here's an example layout for showing files in a directory:
 

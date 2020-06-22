@@ -86,20 +86,26 @@ Hole eine [Page-Collection](#yellow-page-collection) mit zusätzlichen Seiten
 **$this->yellow->page->getPage($key)**  
 Hole eine zugehörige Seite
 
+**$this->yellow->page->getUrl()**  
+Hole die URL der Seite 
+
 **$this->yellow->page->getBase($multiLanguage = false)**  
 Hole die Basis der Seite
 
 **$this->yellow->page->getLocation($absoluteLocation = false)**  
 Hole den Ort der Seite
 
-**$this->yellow->page->getUrl()**  
-Hole die URL der Seite 
+**$this->yellow->page->getRequest($key)**  
+Hole das Requestargument der Seite
 
-**$this->yellow->page->getExtra($name)**  
-Hole Extradaten der Seite
+**$this->yellow->page->getRequestHtml($key)**  
+Hole das Requestargument der Seite, HTML-kodiert
 
 **$this->yellow->page->getHeader($key)**  
 Hole den Responseheader der Seite
+
+**$this->yellow->page->getExtra($name)**  
+Hole Extradaten der Seite
 
 **$this->yellow->page->getModified($httpFormat = false)**  
 Hole das Änderungsdatum der Seite, Unix-Zeit oder HTTP-Format
@@ -131,11 +137,14 @@ Teste ob die Seite cachebar ist
 **$this->yellow->page->isError()**  
 Teste ob die Seite einen Fehler hat
 
-**$this->yellow->page->isHeader($key)**  
-Teste ob der Responseheader existiert
-
 **$this->yellow->page->isExisting($key)**  
 Teste ob die [Einstellung](markdown-cheat-sheet#einstellungen) der Seite existiert  
+
+**$this->yellow->page->isRequest($key)**  
+Teste ob das Requestargument existiert
+
+**$this->yellow->page->isHeader($key)**  
+Teste ob der Responseheader existiert
 
 **$this->yellow->page->isPage($key)**  
 Teste ob die zugehörige Seite existiert
@@ -611,55 +620,12 @@ Hier ist ein Beispiel-Layout um zu testen ob eine bestimmte Sprache existiert:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-### Yellow-Text-Kodierung
-
-Die folgenden Funktionen sind zur Kodierung von Text vorhanden: 
-
-`htmlspecialchars($string)` = kodiere Textstring ins HTML-Format  
-`rawurlencode($string)` = kodiere URL, z.B. Hyperlink-Argumente  
-
-Hier ist ein Beispiel-Layout um HTML-Argumente zu kodieren:
-
-``` html
-<?php list($name, $class) = $this->yellow->getLayoutArgs() ?>
-<?php if (empty($class)) $class = "regular" ?>
-<?php $this->yellow->layout("header") ?>
-<div class="content">
-<div class="main" role="main">
-<h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<p><img src="https://unsplash.it/210/140/?random" class="<?php echo htmlspecialchars($class) ?>" /></p>
-</div>
-</div>
-<?php $this->yellow->layout("footer") ?>
-```
-
-Hier ist ein Beispiel-Layout um Hyperlink-Argumente zu kodieren:
-
-``` html
-<?php list($name, $id) = $this->yellow->getLayoutArgs() ?>
-<?php if (empty($id)) $id = "821" ?>
-<?php $this->yellow->layout("header") ?>
-<div class="content">
-<div class="main" role="main">
-<h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<p><img src="https://unsplash.it/210/140/?image=<?php echo rawurlencode($id) ?>" /></p>
-</div>
-</div>
-<?php $this->yellow->layout("footer") ?>
-```
-
 ### Yellow-Toolbox
 
 Yellow-Toolbox gibt Zugang zur Werkzeugkiste mit Helfern:
 
-**$this->yellow->toolbox->getLocation($filterStrict = true)**  
-Hole den Ort der aktuellen HTTP-Anfrage
-
-**$this->yellow->toolbox->getLocationArgs()**  
-Hole die Ortargumente der aktuellen HTTP-Anfrage
-
-**$this->yellow->toolbox->isLocationArgs($location = "")**  
-Teste ob es Ortargumente in der aktuellen HTTP-Anfrage gibt
+**$this->yellow->toolbox->getServer($key)**   
+Hole das Serverargument der aktuellen HTTP-Anfrage
 
 **$this->yellow->toolbox->normaliseArgs($text, $appendSlash = true, $filterStrict = true)**  
 Normalisiere Ortargumente
@@ -700,26 +666,8 @@ Hole das Änderungsdatum der Datei, Unix-Zeit
 **$this->yellow->toolbox->getTextLines($text)**  
 Hole die Zeilen eines Textstrings, einschließlich Zeilenumbruch  
 
-**$this->yellow->toolbox->getTextArgs($text, $optional = "-")**  
+**$this->yellow->toolbox->getTextArgs($text, $optional = "-", $sizeMin = 9)**  
 Hole die Argumente eines Textstrings, durch Leerzeichen getrennt  
-
-Hier ist ein Beispiel-Layout um Ort und Argumente anzuzeigen:
-
-``` html
-<?php $this->yellow->layout("header") ?>
-<div class="content">
-<div class="main" role="main">
-<h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<p>
-<?php echo htmlspecialchars($this->yellow->toolbox->getLocation()) ?><br />
-<?php foreach ($_REQUEST as $key=>$value): ?>
-<?php echo htmlspecialchars("$key: $value") ?><br />
-<?php endforeach ?>
-</p>
-</div>
-</div>
-<?php $this->yellow->layout("footer") ?>
-```
 
 Hier ist ein Beispiel-Layout um Dateien in einem Verzeichnis anzuzeigen:
 
