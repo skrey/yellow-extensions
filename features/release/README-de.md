@@ -1,4 +1,4 @@
-Release 0.8.18
+Release 0.8.19
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
