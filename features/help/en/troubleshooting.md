@@ -9,9 +9,9 @@ Here's how to find and fix errors.
 
 The following problems can occur:
 
-**Datenstrom Yellow requires a configuration file for Apache!**
+**Datenstrom Yellow requires configuration file […]**
 
-* Copy the file `.htaccess` into the installation folder.
+* Copy the supplied `.htaccess` file into the installation folder.
 * Check if your FTP software has a setting to show all files.
 
 **Datenstrom Yellow requires write access […]**
@@ -21,8 +21,8 @@ The following problems can occur:
 
 **Datenstrom Yellow requires rewrite support […]**
 
-* Configure your web server, see configuration files below.
-* You can test your website with the built-in web server.
+* Configure the web server, see configuration files below.
+* You can use the built-in web server on your computer.
 
 **Datenstrom Yellow requires PHP extension […]**
 
@@ -40,7 +40,6 @@ Here's a `.htaccess` configuration file for the [Apache web server](https://http
 ```apache
 <IfModule mod_rewrite.c>
 RewriteEngine on
-
 DirectoryIndex index.html yellow.php
 RewriteRule ^(cache|content|system)/ error [L]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -49,7 +48,7 @@ RewriteRule ^ yellow.php [L]
 </IfModule>
 ```
 
-Here's a `.htaccess` configuration file for a subfolder:
+Here's a `.htaccess` configuration file for a subfolder, for example `http://website/yellow/`:
 
 ```apache
 <IfModule mod_rewrite.c>

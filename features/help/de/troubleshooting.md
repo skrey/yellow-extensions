@@ -9,9 +9,9 @@ Wie man Fehler findet und behebt.
 
 Die folgenden Probleme können auftreten:
 
-**Datenstrom Yellow requires a configuration file for Apache!**
+**Datenstrom Yellow requires configuration file […]**
 
-* Kopiere die Datei `.htaccess` ins Installations-Verzeichnis. 
+* Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. 
 * Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen.
 
 **Datenstrom Yellow requires write access […]**
@@ -21,8 +21,8 @@ Die folgenden Probleme können auftreten:
 
 **Datenstrom Yellow requires rewrite support […]**
 
-* Konfiguriere deinen Webserver, siehe Konfigurationsdateien weiter unten.
-* Du kannst deine Webseite mit dem eingebauten Webserver testen.
+* Konfiguriere den Webserver, siehe Konfigurationsdateien weiter unten.
+* Du kannst den eingebauten Webserver auf deinem Computer verwenden.
 
 **Datenstrom Yellow requires PHP extension […]**
 
@@ -40,7 +40,6 @@ Hier ist eine `.htaccess` Konfigurationsdatei für den [Apache-Webserver](https:
 ```apache
 <IfModule mod_rewrite.c>
 RewriteEngine on
-
 DirectoryIndex index.html yellow.php
 RewriteRule ^(cache|content|system)/ error [L]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -49,7 +48,7 @@ RewriteRule ^ yellow.php [L]
 </IfModule>
 ```
 
-Hier ist eine `.htaccess` Konfigurationsdatei für ein Unterverzeichnis:
+Hier ist eine `.htaccess` Konfigurationsdatei für ein Unterverzeichnis, beispielsweise `http://website/yellow/`:
 
 ```apache
 <IfModule mod_rewrite.c>
@@ -165,6 +164,6 @@ YellowSystem::load Layout:default
 
 ## Verwandte Informationen
 
-* [Wie man ein Problem meldet](https://github.com/datenstrom/yellow/blob/master/CONTRIBUTING-de.md)
+* [Wie man ein Problem meldet](https://github.com/datenstrom/yellow/blob/master/CONTRIBUTING.md)
 * [Wie man die aktuelle Version anzeigt](https://github.com/datenstrom/yellow-extensions/blob/master/features/update/README-de.md)
 * [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/blob/master/features/command/README-de.md)
