@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowBreadcrumb {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -19,7 +19,7 @@ class YellowBreadcrumb {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="breadcrumb" && ($type=="block" || $type=="inline")) {
-            list($separator, $style) = $this->yellow->toolbox->getTextArgs($text);
+            list($separator, $style) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($separator)) $separator = $this->yellow->system->get("breadcrumbSeparator");
             if (empty($style)) $style = $this->yellow->system->get("breadcrumbStyle");
             $pages = $this->yellow->content->path($page->getLocation(true), true);

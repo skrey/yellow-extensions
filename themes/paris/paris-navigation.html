@@ -1,4 +1,4 @@
-<?php list($name, $pages, $level) = $this->yellow->getLayoutArgs() ?>
+<?php list($name, $pages, $level) = $this->yellow->getLayoutArguments() ?>
 <?php if (!$pages) $pages = $this->yellow->content->top() ?>
 <?php $this->yellow->page->setLastModified($pages->getModified()) ?>
 <?php if (!$level): ?>

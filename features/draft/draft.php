@@ -1,10 +1,10 @@
 <?php
 // Draft extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/draft
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowDraft {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -33,7 +33,7 @@ class YellowDraft {
             $pages->diff($this->yellow->content->index(true, false)->filter("layout", "draftpages"));
             $pages->sort("title", false);
             $pages->pagination($this->yellow->system->get("draftPaginationLimit"));
-            if ($_REQUEST["page"] && !$pages->getPaginationNumber()) $this->yellow->page->error(404);
+            if ($page->isRequest("page") && !$pages->getPaginationNumber()) $this->yellow->page->error(404);
             $this->yellow->page->setPages($pages);
             $this->yellow->page->setLastModified($pages->getModified());
             $this->yellow->page->setHeader("Cache-Control", "max-age=60");

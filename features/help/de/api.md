@@ -624,10 +624,13 @@ Hier ist ein Beispiel-Layout um zu testen ob eine bestimmte Sprache existiert:
 
 Yellow-Toolbox gibt Zugang zur Werkzeugkiste mit Helfern:
 
+**$this->yellow->toolbox->getCookie($key)**   
+Hole das Browsercookie der aktuellen HTTP-Anfrage
+
 **$this->yellow->toolbox->getServer($key)**   
 Hole das Serverargument der aktuellen HTTP-Anfrage
 
-**$this->yellow->toolbox->normaliseArgs($text, $appendSlash = true, $filterStrict = true)**  
+**$this->yellow->toolbox->normaliseArguments($text, $appendSlash = true, $filterStrict = true)**  
 Normalisiere Ortargumente
 
 **$this->yellow->toolbox->getDirectoryEntries($path, $regex = "/.*/", $sort = true, $directories = true, $includePath = true)**  
@@ -666,8 +669,11 @@ Hole das Änderungsdatum der Datei, Unix-Zeit
 **$this->yellow->toolbox->getTextLines($text)**  
 Hole die Zeilen eines Textstrings, einschließlich Zeilenumbruch  
 
-**$this->yellow->toolbox->getTextArgs($text, $optional = "-", $sizeMin = 9)**  
-Hole die Argumente eines Textstrings, durch Leerzeichen getrennt  
+**$this->yellow->toolbox->getTextList($text, $separator, $size)**  
+Hole ein Array mit bestimmter Grösse aus einem Textstring  
+
+**$this->yellow->toolbox->getTextArguments($text, $optional = "-", $sizeMin = 9)**  
+Hole die Argumente aus einem Textstring, durch Leerzeichen getrennt  
 
 Hier ist ein Beispiel-Layout um Dateien in einem Verzeichnis anzuzeigen:
 
@@ -677,7 +683,7 @@ Hier ist ein Beispiel-Layout um Dateien in einem Verzeichnis anzuzeigen:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p>
-<?php $path = $this->yellow->system->get("coreSettingDir") ?>
+<?php $path = $this->yellow->system->get("coreSettingDirectory") ?>
 <?php foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, false) as $entry): ?>
 <?php echo htmlspecialchars($entry) ?><br />
 <?php endforeach ?>
@@ -695,7 +701,7 @@ Hier ist ein Beispiel-Layout um Textzeilen von einer Datei zu lesen:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p>
-<?php $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile") ?>
+<?php $fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile") ?>
 <?php $fileData = $this->yellow->toolbox->readFile($fileName) ?>
 <?php foreach ($this->yellow->toolbox->getTextLines($fileData) as $line): ?>
 <?php echo htmlspecialchars($line) ?><br />
@@ -907,7 +913,7 @@ class YellowExample {
 
 Yellow-Command-Ereignisse unterrichten wenn ein Befehl ausgeführt wird:
 
-**public function onCommand($args)**  
+**public function onCommand($command, $text)**  
 Behandle Befehle
 
 **public function onCommandHelp()**  
@@ -934,9 +940,8 @@ class YellowExample {
     }
     
     // Handle command
-    public function onCommand($args) {
+    public function onCommand($command, $text) {
         $statusCode = 0;
-        list($command) = $args;
         if ($command=="example") {
             echo "Yellow $command: Add more text here\n";
             $statusCode = 200;

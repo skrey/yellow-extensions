@@ -625,10 +625,13 @@ Here's an example layout for checking if a specific language exists:
 
 Yellow toolbox gives access to toolbox with helpers:
 
+**$this->yellow->toolbox->getCookie($key)**  
+Return browser cookie from from current HTTP request  
+
 **$this->yellow->toolbox->getServer($key)**  
 Return server argument from current HTTP request
 
-**$this->yellow->toolbox->normaliseArgs($text, $appendSlash = true, $filterStrict = true)**  
+**$this->yellow->toolbox->normaliseArguments($text, $appendSlash = true, $filterStrict = true)**  
 Normalise location arguments
 
 **$this->yellow->toolbox->getDirectoryEntries($path, $regex = "/.*/", $sort = true, $directories = true, $includePath = true)**  
@@ -667,7 +670,10 @@ Return file modification date, Unix time
 **$this->yellow->toolbox->getTextLines($text)**  
 Return lines from text string, including newline  
 
-**$this->yellow->toolbox->getTextArgs($text, $optional = "-", $sizeMin = 9)**  
+**$this->yellow->toolbox->getTextList($text, $separator, $size)**  
+Return array of specific size from text string  
+
+**$this->yellow->toolbox->getTextArguments($text, $optional = "-", $sizeMin = 9)**  
 Return arguments from text string, space separated  
 
 Here's an example layout for showing files in a directory:
@@ -678,7 +684,7 @@ Here's an example layout for showing files in a directory:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p>
-<?php $path = $this->yellow->system->get("coreSettingDir") ?>
+<?php $path = $this->yellow->system->get("coreSettingDirectory") ?>
 <?php foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, false) as $entry): ?>
 <?php echo htmlspecialchars($entry) ?><br />
 <?php endforeach ?>
@@ -696,7 +702,7 @@ Here's an example layout for reading text lines from file:
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <p>
-<?php $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile") ?>
+<?php $fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile") ?>
 <?php $fileData = $this->yellow->toolbox->readFile($fileName) ?>
 <?php foreach ($this->yellow->toolbox->getTextLines($fileData) as $line): ?>
 <?php echo htmlspecialchars($line) ?><br />
@@ -907,7 +913,7 @@ class YellowExample {
 
 Yellow command events notify when a command is executed.
 
-**public function onCommand($args)**  
+**public function onCommand($command, $text)**  
 Handle command
 
 **public function onCommandHelp()**  
@@ -933,9 +939,8 @@ class YellowExample {
     }
     
     // Handle command
-    public function onCommand($args) {
+    public function onCommand($command, $text) {
         $statusCode = 0;
-        list($command) = $args;
         if ($command=="example") {
             echo "Yellow $command: Add more text here\n";
             $statusCode = 200;
