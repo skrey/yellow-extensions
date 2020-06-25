@@ -138,9 +138,9 @@ The following settings can be configured at the top of a page:
 `CoreStaticUrl` = URL for [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
 `CoreStaticDefaultFile` =  default file for static website  
 `CoreStaticErrorFile` = error file for static website  
-`CoreStaticDir` = directory for generated files  
-`CoreCacheDir` = directory for cached files  
-`CoreTrashDir` = directory for deleted files  
+`CoreStaticDirectory` = directory for generated files  
+`CoreCacheDirectory` = directory for cached files  
+`CoreTrashDirectory` = directory for deleted files  
 `CoreServerUrl` = URL of the website, `auto` for automatic detection    
 `CoreServerTimezone` = timezone of the website  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  

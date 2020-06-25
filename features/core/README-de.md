@@ -138,9 +138,9 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `CoreStaticUrl` = URL der [statischen Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md)  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
-`CoreStaticDir` = Verzeichnis für erzeugte Dateien  
-`CoreCacheDir` = Verzeichnis für zwischengespeicherte Dateien  
-`CoreTrashDir` = Verzeichnis für gelöschte Dateien  
+`CoreStaticDirectory` = Verzeichnis für erzeugte Dateien  
+`CoreCacheDirectory` = Verzeichnis für zwischengespeicherte Dateien  
+`CoreTrashDirectory` = Verzeichnis für gelöschte Dateien  
 `CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
 `CoreServerTimezone` = Zeitzone der Webseite  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
