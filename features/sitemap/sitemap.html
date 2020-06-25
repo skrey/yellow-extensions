@@ -3,6 +3,7 @@
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <ul>
+<?php $section = $sectionNew = "" ?>
 <?php foreach ($this->yellow->page->getPages() as $page): ?>
 <?php $sectionNew = htmlspecialchars(strtoupperu(substru($page->get("title"), 0, 1))) ?>
 <?php if ($section!=$sectionNew) { $section = $sectionNew; echo "</ul><h2>$section</h2><ul>\n"; } ?>

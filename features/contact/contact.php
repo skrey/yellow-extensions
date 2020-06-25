@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.8.9";
+    const VERSION = "0.8.10";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -21,10 +21,10 @@ class YellowContact {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="contact" && ($type=="block" || $type=="inline")) {
-            list($location) = $this->yellow->toolbox->getTextArgs($text);
+            list($location) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($location)) $location = $this->yellow->system->get("contactLocation");
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
-            $output .= "<form class=\"contact-form\" action=\"".$this->yellow->page->base.$location."\" method=\"post\">\n";
+            $output .= "<form class=\"contact-form\" action=\"".$page->base.$location."\" method=\"post\">\n";
             $output .= "<p class=\"contact-name\"><label for=\"name\">".$this->yellow->text->getHtml("contactName")."</label><br /><input type=\"text\" class=\"form-control\" name=\"name\" id=\"name\" value=\"\" /></p>\n";
             $output .= "<p class=\"contact-from\"><label for=\"from\">".$this->yellow->text->getHtml("contactEmail")."</label><br /><input type=\"text\" class=\"form-control\" name=\"from\" id=\"from\" value=\"\" /></p>\n";
             $output .= "<p class=\"contact-message\"><label for=\"message\">".$this->yellow->text->getHtml("contactMessage")."</label><br /><textarea class=\"form-control\" name=\"message\" id=\"message\" rows=\"7\" cols=\"70\"></textarea></p>\n";
@@ -41,21 +41,21 @@ class YellowContact {
     // Handle page layout
     public function onParsePageLayout($page, $name) {
         if ($name=="contact") {
-            if ($this->yellow->isCommandLine()) $this->yellow->page->error(500, "Static website not supported!");
-            if (empty($_REQUEST["referer"])) {
-                $_REQUEST["referer"] = $_SERVER["HTTP_REFERER"];
-                $this->yellow->page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
-                $this->yellow->page->setHeader("Cache-Control", "no-cache, no-store");
+            if ($this->yellow->isCommandLine()) $page->error(500, "Static website not supported!");
+            if (!$page->isRequest("referer")) {
+                $page->setRequest("referer", $this->yellow->toolbox->getServer("HTTP_REFERER"));
+                $page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
+                $page->setHeader("Cache-Control", "no-cache, no-store");
             }
-            if ($_REQUEST["status"]=="send") {
+            if ($page->getRequest("status")=="send") {
                 $status = $this->sendMail();
-                if ($status=="settings") $this->yellow->page->error(500, "Contact page settings not valid!");
-                if ($status=="error") $this->yellow->page->error(500, $this->yellow->text->get("contactStatusError"));
-                $this->yellow->page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
-                $this->yellow->page->setHeader("Cache-Control", "no-cache, no-store");
-                $this->yellow->page->set("status", $status);
+                if ($status=="settings") $page->error(500, "Contact page settings not valid!");
+                if ($status=="error") $page->error(500, $this->yellow->text->get("contactStatusError"));
+                $page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
+                $page->setHeader("Cache-Control", "no-cache, no-store");
+                $page->set("status", $status);
             } else {
-                $this->yellow->page->set("status", "none");
+                $page->set("status", "none");
             }
         }
     }
@@ -63,11 +63,11 @@ class YellowContact {
     // Send contact email
     public function sendMail() {
         $status = "send";
-        $name = trim(preg_replace("/[^\pL\d\-\. ]/u", "-", $_REQUEST["name"]));
-        $from = trim($_REQUEST["from"]);
-        $message = trim($_REQUEST["message"]);
-        $consent = trim($_REQUEST["consent"]);
-        $referer = trim($_REQUEST["referer"]);
+        $name = trim(preg_replace("/[^\pL\d\-\. ]/u", "-", $this->yellow->page->getRequest("name")));
+        $from = trim($this->yellow->page->getRequest("from"));
+        $message = trim($this->yellow->page->getRequest("message"));
+        $consent = trim($this->yellow->page->getRequest("consent"));
+        $referer = trim($this->yellow->page->getRequest("referer"));
         $footer = $this->getMailFooter($referer);
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
         $author = $this->yellow->system->get("author");

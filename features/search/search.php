@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSearch {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -20,7 +20,7 @@ class YellowSearch {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="search" && ($type=="block" || $type=="inline")) {
-            list($location) = $this->yellow->toolbox->getTextArgs($text);
+            list($location) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($location)) $location = $this->yellow->system->get("searchLocation");
             $output = "<div class=\"".htmlspecialchars($name)."\" role=\"search\">\n";
             $output .= "<form class=\"search-form\" action=\"".$this->yellow->page->base.$location."\" method=\"post\">\n";
@@ -35,52 +35,52 @@ class YellowSearch {
     // Handle page layout
     public function onParsePageLayout($page, $name) {
         if ($name=="search") {
-            $query = trim($_REQUEST["query"]);
+            $query = trim($page->getRequest("query"));
             list($tokens, $filters) = $this->getSearchInformation($query, 10);
             if (!empty($tokens) || !empty($filters)) {
                 $pages = $this->yellow->content->clean();
                 $showInvisible = $this->yellow->getRequestHandler()=="edit" &&
                     ($filters["status"]=="private" || $filters["status"]=="draft" || $filters["status"]=="unlisted");
-                foreach ($this->yellow->content->index($showInvisible, false) as $page) {
+                foreach ($this->yellow->content->index($showInvisible, false) as $pageSearch) {
                     $searchScore = 0;
                     $searchTokens = array();
                     foreach ($tokens as $token) {
-                        $score = substr_count(strtoloweru($page->getContent(true)), strtoloweru($token));
+                        $score = substr_count(strtoloweru($pageSearch->getContent(true)), strtoloweru($token));
                         if ($score) {
                             $searchScore += $score;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($page->getLocation(true), $token)) {
+                        if (stristr($pageSearch->getLocation(true), $token)) {
                             $searchScore += 20;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($page->get("title"), $token)) {
+                        if (stristr($pageSearch->get("title"), $token)) {
                             $searchScore += 10;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($page->get("tag"), $token)) {
+                        if (stristr($pageSearch->get("tag"), $token)) {
                             $searchScore += 5;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($page->get("author"), $token)) {
+                        if (stristr($pageSearch->get("author"), $token)) {
                             $searchScore += 2;
                             $searchTokens[$token] = true;
                         }
                     }
                     if (count($tokens)==count($searchTokens)) {
-                        $page->set("searchscore", $searchScore);
-                        $pages->append($page);
+                        $pageSearch->set("searchscore", $searchScore);
+                        $pages->append($pageSearch);
                     }
                 }
                 if (!empty($filters)) {
-                    if ($filters["tag"]) $pages->filter("tag", $filters["tag"]);
-                    if ($filters["author"]) $pages->filter("author", $filters["author"]);
-                    if ($filters["language"]) $pages->filter("language", $filters["language"]);
-                    if ($filters["status"]) $pages->filter("status", $filters["status"]);
+                    if (isset($filters["tag"])) $pages->filter("tag", $filters["tag"]);
+                    if (isset($filters["author"])) $pages->filter("author", $filters["author"]);
+                    if (isset($filters["language"])) $pages->filter("language", $filters["language"]);
+                    if (isset($filters["status"])) $pages->filter("status", $filters["status"]);
                 }
                 $pages->sort("modified")->sort("searchscore");
                 $pages->pagination($this->yellow->system->get("searchPaginationLimit"));
-                if ($_REQUEST["page"] && !$pages->getPaginationNumber()) $this->yellow->page->error(404);
+                if ($page->isRequest("page") && !$pages->getPaginationNumber()) $this->yellow->page->error(404);
                 $text = empty($query) ? $this->yellow->text->get("searchSpecialChanges") : $query;
                 $this->yellow->page->set("titleHeader", $text." - ".$this->yellow->page->get("sitename"));
                 $this->yellow->page->set("titleContent", $this->yellow->page->get("title").": ".$text);
@@ -98,17 +98,18 @@ class YellowSearch {
         
     // Return search information
     public function getSearchInformation($query, $tokensMax) {
-        $tokens = array_unique(array_filter($this->yellow->toolbox->getTextArgs($query), "strlen"));
+        $tokens = array_unique(array_filter($this->yellow->toolbox->getTextArguments($query), "strlen"));
         $filters = array();
         $filtersSupported = array("tag", "author", "language", "status", "special");
         foreach ($_REQUEST as $key=>$value) {
             if (in_array($key, $filtersSupported)) $filters[$key] = $value;
         }
         foreach ($tokens as $key=>$value) {
-            preg_match("/^(.*?):(.*)$/", $value, $matches);
-            if (!empty($matches[1]) && !strempty($matches[2]) && in_array($matches[1], $filtersSupported)) {
-                $filters[$matches[1]] = $matches[2];
-                unset($tokens[$key]);
+            if (preg_match("/^(.*?):(.*)$/", $value, $matches)) {
+                if (!empty($matches[1]) && !strempty($matches[2]) && in_array($matches[1], $filtersSupported)) {
+                    $filters[$matches[1]] = $matches[2];
+                    unset($tokens[$key]);
+                }
             }
         }
         if ($tokensMax) $tokens = array_slice($tokens, 0, $tokensMax);

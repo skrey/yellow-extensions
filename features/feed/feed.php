@@ -1,10 +1,10 @@
 <?php
 // Feed extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/feed
-// Copyright (c) 2013-2010 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowFeed {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.8";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -22,18 +22,18 @@ class YellowFeed {
         if ($name=="feed") {
             $pages = $this->yellow->content->index(false, false);
             $pagesFilter = array();
-            if ($_REQUEST["tag"]) {
-                $pages->filter("tag", $_REQUEST["tag"]);
+            if ($page->isRequest("tag")) {
+                $pages->filter("tag", $page->getRequest("tag"));
                 array_push($pagesFilter, $pages->getFilter());
             }
-            if ($_REQUEST["author"]) {
-                $pages->filter("author", $_REQUEST["author"]);
+            if ($page->isRequest("author")) {
+                $pages->filter("author", $page->getRequest("author"));
                 array_push($pagesFilter, $pages->getFilter());
             }
             $feedFilterLayout = $this->yellow->system->get("feedFilterLayout");
             if (!empty($feedFilterLayout)) $pages->filter("layout", $feedFilterLayout);
             $chronologicalOrder = ($this->yellow->system->get("feedFilterLayout")!="blog");
-            if ($this->isRequestXml()) {
+            if ($this->isRequestXml($page)) {
                 $pages->sort($chronologicalOrder ? "modified" : "published", false);
                 $pages->limit($this->yellow->system->get("feedPaginationLimit"));
                 $title = !empty($pagesFilter) ? implode(" ", $pagesFilter)." - ".$this->yellow->page->get("sitename") : $this->yellow->page->get("sitename");
@@ -46,16 +46,16 @@ class YellowFeed {
                 $output .= "<link>".$this->yellow->page->scheme."://".$this->yellow->page->address.$this->yellow->page->base."/"."</link>\r\n";
                 $output .= "<description>".$this->yellow->page->getHtml("description")."</description>\r\n";
                 $output .= "<language>".$this->yellow->page->getHtml("language")."</language>\r\n";
-                foreach ($pages as $page) {
-                    $timestamp = strtotime($page->get($chronologicalOrder ? "modified" : "published"));
-                    $content = $this->yellow->toolbox->createTextDescription($page->getContent(), 0, false, "<!--more-->", "<a href=\"".$page->getUrl()."\">".$this->yellow->text->getHtml("blogMore")."</a>");
+                foreach ($pages as $pageFeed) {
+                    $timestamp = strtotime($pageFeed->get($chronologicalOrder ? "modified" : "published"));
+                    $content = $this->yellow->toolbox->createTextDescription($pageFeed->getContent(), 0, false, "<!--more-->", "<a href=\"".$pageFeed->getUrl()."\">".$this->yellow->text->getHtml("blogMore")."</a>");
                     $output .= "<item>\r\n";
-                    $output .= "<title>".$page->getHtml("title")."</title>\r\n";
-                    $output .= "<link>".$page->getUrl()."</link>\r\n";
+                    $output .= "<title>".$pageFeed->getHtml("title")."</title>\r\n";
+                    $output .= "<link>".$pageFeed->getUrl()."</link>\r\n";
                     $output .= "<pubDate>".date(DATE_RSS, $timestamp)."</pubDate>\r\n";
-                    $output .= "<guid isPermaLink=\"false\">".$page->getUrl()."?".$timestamp."</guid>\r\n";
-                    $output .= "<dc:creator>".$page->getHtml("author")."</dc:creator>\r\n";
-                    $output .= "<description>".$page->getHtml("description")."</description>\r\n";
+                    $output .= "<guid isPermaLink=\"false\">".$pageFeed->getUrl()."?".$timestamp."</guid>\r\n";
+                    $output .= "<dc:creator>".$pageFeed->getHtml("author")."</dc:creator>\r\n";
+                    $output .= "<description>".$pageFeed->getHtml("description")."</description>\r\n";
                     $output .= "<content:encoded><![CDATA[".$content."]]></content:encoded>\r\n";
                     $output .= "</item>\r\n";
                 }
@@ -84,14 +84,14 @@ class YellowFeed {
         $output = null;
         if ($name=="header") {
             $locationFeed = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("feedLocation");
-            $locationFeed .= $this->yellow->toolbox->normaliseArgs("page:".$this->yellow->system->get("feedFileXml"), false);
+            $locationFeed .= $this->yellow->toolbox->normaliseArguments("page:".$this->yellow->system->get("feedFileXml"), false);
             $output = "<link rel=\"alternate\" type=\"application/rss+xml\" href=\"$locationFeed\" />\n";
         }
         return $output;
     }
 
     // Check if XML requested
-    public function isRequestXml() {
-        return $_REQUEST["page"]==$this->yellow->system->get("feedFileXml");
+    public function isRequestXml($page) {
+        return $page->getRequest("page")==$this->yellow->system->get("feedFileXml");
     }
 }

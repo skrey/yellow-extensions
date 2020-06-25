@@ -3,6 +3,7 @@
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <ul>
+<?php $section = $sectionNew = "" ?>
 <?php foreach ($this->yellow->page->getPages() as $page): ?>
 <?php if ($this->yellow->page->get("wikipagesChronologicalOrder")): ?>
 <?php $sectionNew = htmlspecialchars($page->getDate("modified")) ?>

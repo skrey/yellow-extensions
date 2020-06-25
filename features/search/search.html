@@ -3,7 +3,7 @@
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <form class="search-form" action="<?php echo $this->yellow->page->getLocation(true) ?>" method="post">
-<input class="form-control" type="text" name="query" value="<?php echo htmlspecialchars($_REQUEST["query"]) ?>"<?php echo $this->yellow->page->get("status")=="none" ? " autofocus=\"autofocus\"" : "" ?> />
+<input class="form-control" type="text" name="query" value="<?php echo $this->yellow->page->getRequestHtml("query") ?>"<?php echo $this->yellow->page->get("status")=="none" ? " autofocus=\"autofocus\"" : "" ?> />
 <input class="btn search-btn" type="submit" value="<?php echo $this->yellow->text->getHtml("searchButton") ?>" />
 <input type="hidden" name="clean-url" />
 </form>

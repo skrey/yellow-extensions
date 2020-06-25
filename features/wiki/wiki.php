@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowWiki {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -20,7 +20,7 @@ class YellowWiki {
     // Handle page meta data
     public function onParseMeta($page) {
         if ($page==$this->yellow->page) {
-            if ($page->get("layout")=="wikipages" && !$this->yellow->toolbox->isLocationArgs()) {
+            if ($page->get("layout")=="wikipages" && !$this->yellow->toolbox->isLocationArguments()) {
                 $page->set("layout", $page->isExisting("layoutShow") ? $page->get("layoutShow") : "wiki");
             }
         }
@@ -44,7 +44,7 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikiauthors($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
+        list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
@@ -61,7 +61,7 @@ class YellowWiki {
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
             foreach ($authors as $key=>$value) {
-                $output .= "<li><a href=\"".$wiki->getLocation(true).$this->yellow->toolbox->normaliseArgs("author:$key")."\">";
+                $output .= "<li><a href=\"".$wiki->getLocation(true).$this->yellow->toolbox->normaliseArguments("author:$key")."\">";
                 $output .= htmlspecialchars($key)."</a></li>\n";
             }
             $output .= "</ul>\n";
@@ -75,7 +75,7 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikipages($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArgs($text);
+        list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
@@ -88,9 +88,9 @@ class YellowWiki {
             if ($pagesMax!=0) $pages->limit($pagesMax);
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
-            foreach ($pages as $page) {
-                $output .= "<li><a".($page->isExisting("tag") ? " class=\"".$this->getClass($page)."\"" : "");
-                $output .= " href=\"".$page->getLocation(true)."\">".$page->getHtml("title")."</a></li>\n";
+            foreach ($pages as $pageWiki) {
+                $output .= "<li><a".($pageWiki->isExisting("tag") ? " class=\"".$this->getClass($pageWiki)."\"" : "");
+                $output .= " href=\"".$pageWiki->getLocation(true)."\">".$pageWiki->getHtml("title")."</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
@@ -103,7 +103,7 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikichanges($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArgs($text);
+        list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
@@ -116,9 +116,9 @@ class YellowWiki {
             if ($pagesMax!=0) $pages->limit($pagesMax);
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
-            foreach ($pages as $page) {
-                $output .= "<li><a".($page->isExisting("tag") ? " class=\"".$this->getClass($page)."\"" : "");
-                $output .= " href=\"".$page->getLocation(true)."\">".$page->getHtml("title")."</a></li>\n";
+            foreach ($pages as $pageWiki) {
+                $output .= "<li><a".($pageWiki->isExisting("tag") ? " class=\"".$this->getClass($pageWiki)."\"" : "");
+                $output .= " href=\"".$pageWiki->getLocation(true)."\">".$pageWiki->getHtml("title")."</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
@@ -131,7 +131,7 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikirelated($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
+        list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
@@ -142,9 +142,9 @@ class YellowWiki {
             if ($pagesMax!=0) $pages->limit($pagesMax);
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
-            foreach ($pages as $page) {
-                $output .= "<li><a".($page->isExisting("tag") ? " class=\"".$this->getClass($page)."\"" : "");
-                $output .= " href=\"".$page->getLocation(true)."\">".$page->getHtml("title")."</a></li>\n";
+            foreach ($pages as $pageWiki) {
+                $output .= "<li><a".($pageWiki->isExisting("tag") ? " class=\"".$this->getClass($pageWiki)."\"" : "");
+                $output .= " href=\"".$pageWiki->getLocation(true)."\">".$pageWiki->getHtml("title")."</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
@@ -157,7 +157,7 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikitags($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax) = $this->yellow->toolbox->getTextArgs($text);
+        list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
@@ -174,7 +174,7 @@ class YellowWiki {
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
             foreach ($tags as $key=>$value) {
-                $output .= "<li><a href=\"".$wiki->getLocation(true).$this->yellow->toolbox->normaliseArgs("tag:$key")."\">";
+                $output .= "<li><a href=\"".$wiki->getLocation(true).$this->yellow->toolbox->normaliseArguments("tag:$key")."\">";
                 $output .= htmlspecialchars($key)."</a></li>\n";
             }
             $output .= "</ul>\n";
@@ -188,25 +188,26 @@ class YellowWiki {
     // Handle page layout
     public function onParsePageLayout($page, $name) {
         if ($name=="wikipages") {
+            $chronologicalOrder = false;
             $pages = $this->getWikiPages($this->yellow->page->location);
             $pagesFilter = array();
-            if ($_REQUEST["special"]=="pages") {
+            if ($page->getRequest("special")=="pages") {
                 array_push($pagesFilter, $this->yellow->text->get("wikiSpecialPages"));
             }
-            if ($_REQUEST["special"]=="changes") {
+            if ($page->getRequest("special")=="changes") {
                 $chronologicalOrder = true;
                 array_push($pagesFilter, $this->yellow->text->get("wikiSpecialChanges"));
             }
-            if ($_REQUEST["tag"]) {
-                $pages->filter("tag", $_REQUEST["tag"]);
+            if ($page->isRequest("tag")) {
+                $pages->filter("tag", $page->getRequest("tag"));
                 array_push($pagesFilter, $pages->getFilter());
             }
-            if ($_REQUEST["author"]) {
-                $pages->filter("author", $_REQUEST["author"], false);
+            if ($page->isRequest("author")) {
+                $pages->filter("author", $page->getRequest("author"), false);
                 array_push($pagesFilter, $pages->getFilter());
             }
-            if ($_REQUEST["modified"]) {
-                $pages->filter("modified", $_REQUEST["modified"], false);
+            if ($page->isRequest("modified")) {
+                $pages->filter("modified", $page->getRequest("modified"), false);
                 array_push($pagesFilter, $this->yellow->text->normaliseDate($pages->getFilter()));
             }
             $pages->sort($chronologicalOrder ? "modified" : "title", $chronologicalOrder);
@@ -256,7 +257,7 @@ class YellowWiki {
     public function getClass($page) {
         if ($page->isExisting("tag")) {
             foreach (preg_split("/\s*,\s*/", $page->get("tag")) as $tag) {
-                $class .= " tag-".$this->yellow->toolbox->normaliseArgs($tag, false);
+                $class .= " tag-".$this->yellow->toolbox->normaliseArguments($tag, false);
             }
         }
         return trim($class);

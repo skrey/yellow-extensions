@@ -1,5 +1,5 @@
-Contact 0.8.9
-=============
+Contact 0.8.10
+==============
 E-Mail-Kontaktseite.
 
 <p align="center"><img src="contact-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
