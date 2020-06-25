@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowTraffic {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $days;           //number of days
@@ -15,7 +15,7 @@ class YellowTraffic {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("trafficDays", 30);
         $this->yellow->system->setDefault("trafficLinesMax", 8);
-        $this->yellow->system->setDefault("trafficLogDir", "/var/log/apache2/");
+        $this->yellow->system->setDefault("trafficLogDirectory", "/var/log/apache2/");
         $this->yellow->system->setDefault("trafficLogFile", "(.*)access.log");
         $this->yellow->system->setDefault("trafficSpamFilter", "bot|crawler|spider|checker|localhost");
     }
@@ -26,26 +26,25 @@ class YellowTraffic {
     }
     
     // Handle command
-    public function onCommand($args) {
-        list($command) = $args;
+    public function onCommand($command, $text) {
         switch ($command) {
-            case "traffic": $statusCode = $this->processCommandTraffic($args); break;
+            case "traffic": $statusCode = $this->processCommandTraffic($command, $text); break;
             default:        $statusCode = 0;
         }
         return $statusCode;
     }
 
     // Process command to create traffic analytics
-    public function processCommandTraffic($args) {
+    public function processCommandTraffic($command, $text) {
         $statusCode = 0;
-        list($command, $days, $location, $fileName) = $args;
-        if (empty($location) || $location[0]=="/") {
+        list($days, $location, $fileName) = $this->yellow->toolbox->getTextArguments($text);
+        if (empty($location) || substru($location, 0, 1)=="/") {
             if ($this->checkStaticSettings()) {
                 $statusCode = $this->processRequests($days, $location, $fileName);
             } else {
                 $statusCode = 500;
                 $this->days = $this->views = 0;
-                $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile");
+                $fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile");
                 echo "ERROR checking files: Please configure CoreStaticUrl in file '$fileName'!\n";
             }
             echo "Yellow $command: $this->days day".($this->days!=1 ? "s" : "").", ";
@@ -62,7 +61,7 @@ class YellowTraffic {
         if (empty($location)) $location = "/";
         if (empty($days)) $days = $this->yellow->system->get("trafficDays");
         if (empty($fileName)) {
-            $path = $this->yellow->system->get("trafficLogDir");
+            $path = $this->yellow->system->get("trafficLogDirectory");
             $regex = "/^".basename($this->yellow->system->get("trafficLogFile"))."$/";
             $fileNames = array_reverse($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false));
             list($statusCode, $sites, $content, $files, $search, $errors) = $this->analyseRequests($days, $location, $fileNames);
@@ -152,7 +151,7 @@ class YellowTraffic {
             echo "\rCreating traffic analytics 100%... done\n";
         } else {
             $statusCode = 500;
-            $path = $this->yellow->system->get("trafficLogDir");
+            $path = $this->yellow->system->get("trafficLogDirectory");
             echo "ERROR reading logfiles: Can't find files in directory '$path'!\n";
         }
         return array($statusCode, $sites, $content, $files, $search, $errors);
@@ -181,7 +180,7 @@ class YellowTraffic {
     
     // Check request arguments
     public function checkRequestArguments($method, $location, $referer) {
-        return (($method=="GET" || $method=="POST") && $location[0]=="/" && ($referer=="-" || substru($referer, 0, 4)=="http"));
+        return (($method=="GET" || $method=="POST") && substru($location, 0, 1)=="/" && ($referer=="-" || substru($referer, 0, 4)=="http"));
     }
     
     // Return location, decode logfile-encoding and URL-encoding
@@ -209,7 +208,7 @@ class YellowTraffic {
 
     // Return search URL, if available
     public function getSearchUrl($scheme, $address, $base, $location, $locationSearch) {
-        $locationSearch = $base."(.*)".$locationSearch."query".$this->yellow->toolbox->getLocationArgsSeparator();
+        $locationSearch = $base."(.*)".$locationSearch."query".$this->yellow->toolbox->getLocationArgumentsSeparator();
         $searchUrl = preg_match("#^$locationSearch([^/]+)/$#", $location) ? ("$scheme://$address".strtoloweru($location)) : "-";
         return strreplaceu(array("%", "\x1c", "\x1d", "\x1e", "\x20"), array("%25", "%1C", "%1D", "%1E", "%20"), $searchUrl);
     }

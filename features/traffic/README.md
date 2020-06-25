@@ -1,4 +1,4 @@
-Traffic 0.8.5
+Traffic 0.8.6
 =============
 Create traffic analytics from web server log files.
 
@@ -22,7 +22,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `TrafficDays` = number of days  
 `TrafficLinesMax` = number of lines to show per category  
-`TrafficLogDir` = directory with log files  
+`TrafficLogDirectory` = directory with log files  
 `TrafficLogFile` = file name as regular expression  
 `TrafficSpamFilter` = spam filter as regular expression, `none` to disable  
 

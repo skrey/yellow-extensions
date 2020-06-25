@@ -32,7 +32,7 @@ class YellowRelease {
     // Process command to create releases
     public function processCommandRelease($command, $text) {
         $statusCode = 0;
-        list($path) = $this->yellow->toolbox->getTextArgs($text);
+        list($path) = $this->yellow->toolbox->getTextArguments($text);
         $pathRepository = rtrim($this->yellow->system->get("updateExtensionDirectory"), "/")."/";
         $pathRepositoryOffical = $pathRepository."yellow-extensions/";
         $path = rtrim(empty($path) ? $pathRepositoryOffical : $pathRepository.$path, "/")."/";
