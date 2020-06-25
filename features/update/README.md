@@ -1,4 +1,4 @@
-Update 0.8.19
+Update 0.8.20
 =============
 Keep your website up to date.
 
@@ -39,7 +39,7 @@ This extension uses the [cURL library](https://github.com/curl/curl) by Daniel S
 The following settings can be configured in file `system/settings/system.ini`:
 
 `UpdateExtensionUrl` = URL of repository with extensions  
-`UpdateExtensionDir` = directory with extensions source code  
+`UpdateExtensionDirectory` = directory with extensions source code  
 `UpdateExtensionFile` = file for extension settings  
 `UpdateVersionFile` = version information of extensions  
 `UpdateWaffleFile` = file information of extensions  

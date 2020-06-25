@@ -1,4 +1,4 @@
-Release 0.8.19
+Release 0.8.20
 ==============
 Package and publish extensions.
 

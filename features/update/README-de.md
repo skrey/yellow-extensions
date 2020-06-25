@@ -1,4 +1,4 @@
-Update 0.8.19
+Update 0.8.20
 =============
 Webseite auf dem neusten Stand halten.
 
@@ -39,7 +39,7 @@ Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) vo
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
 `UpdateExtensionUrl` = URL der Repository mit Erweiterungen  
-`UpdateExtensionDir` = Verzeichnis mit Erweiterungs-Quellcode  
+`UpdateExtensionDirectory` = Verzeichnis mit Erweiterungs-Quellcode  
 `UpdateExtensionFile` = Datei für Erweiterungs-Einstellungen  
 `UpdateVersionFile` = Versionsinformationen von Erweiterungen  
 `UpdateWaffleFile` = Dateiinformationen von Erweiterungen  

@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.19";
+    const VERSION = "0.8.20";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -21,20 +21,19 @@ class YellowRelease {
     }
     
     // Handle command
-    public function onCommand($args) {
-        list($command) = $args;
+    public function onCommand($command, $text) {
         switch ($command) {
-            case "release": $statusCode = $this->processCommandRelease($args); break;
+            case "release": $statusCode = $this->processCommandRelease($command, $text); break;
             default:        $statusCode = 0;
         }
         return $statusCode;
     }
 
     // Process command to create releases
-    public function processCommandRelease($args) {
+    public function processCommandRelease($command, $text) {
         $statusCode = 0;
-        list($command, $path) = $args;
-        $pathRepository = rtrim($this->yellow->system->get("updateExtensionDir"), "/")."/";
+        list($path) = $this->yellow->toolbox->getTextArgs($text);
+        $pathRepository = rtrim($this->yellow->system->get("updateExtensionDirectory"), "/")."/";
         $pathRepositoryOffical = $pathRepository."yellow-extensions/";
         $path = rtrim(empty($path) ? $pathRepositoryOffical : $pathRepository.$path, "/")."/";
         if (is_dir($pathRepository) && is_dir($pathRepositoryOffical) && is_dir($path)) {
@@ -56,8 +55,8 @@ class YellowRelease {
             $statusCode = 500;
             $this->extensions = 0;
             $this->errors = 1;
-            $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile");
-            echo "ERROR updating files: Please configure UpdateExtensionDir in file '$fileName'!\n";
+            $fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile");
+            echo "ERROR updating files: Please configure UpdateExtensionDirectory in file '$fileName'!\n";
         }
         echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
         echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
