@@ -1,4 +1,4 @@
-Image 0.8.7
+Image 0.8.8
 ===========
 Images and thumbnails.
 
@@ -37,7 +37,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `ImageUploadHeightMax` = maximum height for upload, larger images are resized  
 `ImageUploadJpgQuality` = JPG quality for uploaded images  
 `ImageThumbnailLocation` = location for thumbnails  
-`ImageThumbnailDir` = directory for thumbnails  
+`ImageThumbnailDirectory` = directory for thumbnails  
 `ImageThumbnailJpgQuality` = JPG quality for thumbnails  
 
 ## Examples

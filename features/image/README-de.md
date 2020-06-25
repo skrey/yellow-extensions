@@ -1,4 +1,4 @@
-Image 0.8.7
+Image 0.8.8
 ===========
 Bilder in unterschiedlichen Größen.
 
@@ -37,7 +37,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `ImageUploadHeightMax` = maximale Höhe zum Hochladen, größere Bilder werden verkleinert  
 `ImageUploadJpgQuality` = JPG-Qualität für hochgeladene Bilder  
 `ImageThumbnailLocation` = Ort für Miniaturbilder  
-`ImageThumbnailDir` = Verzeichnis für Miniaturbilder  
+`ImageThumbnailDirectory` = Verzeichnis für Miniaturbilder  
 `ImageThumbnailJpgQuality` = JPG-Qualität für Miniaturbilder  
 
 ## Beispiele

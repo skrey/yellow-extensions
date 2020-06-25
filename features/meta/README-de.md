@@ -1,4 +1,4 @@
-Meta 0.8.11
+Meta 0.8.12
 ===========
 Metadaten für soziale Medien.
 
