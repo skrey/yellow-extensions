@@ -1,4 +1,4 @@
-Norwegian 0.8.19
+Norwegian 0.8.20
 ================
 Norwegian/Norsk Bokmål med språket 'nb'.
 

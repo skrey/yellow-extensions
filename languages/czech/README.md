@@ -1,4 +1,4 @@
-Czech 0.8.19
+Czech 0.8.20
 ============
 Czech/Čeština s jazykem 'cs'.
 

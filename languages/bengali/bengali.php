@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowBengali {
-    const VERSION = "0.8.19";
+    const VERSION = "0.8.20";
     const TYPE = "language";
     public $yellow;         //access to API
     
@@ -15,7 +15,7 @@ class YellowBengali {
     
     // Handle update
     public function onUpdate($action) {
-        $fileName = $this->yellow->system->get("coreSettingDir").$this->yellow->system->get("coreSystemFile");
+        $fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile");
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("language" => "bn"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="bn") {

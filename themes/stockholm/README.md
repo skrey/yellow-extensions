@@ -1,4 +1,4 @@
-Stockholm 0.8.7
+Stockholm 0.8.8
 ===============
 Stockholm is a clean website theme.
 
