@@ -1,10 +1,10 @@
 <?php
 // Soundcloud extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/soundcloud
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSoundcloud {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -18,7 +18,7 @@ class YellowSoundcloud {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="soundcloud" && ($type=="block" || $type=="inline")) {
-            list($id, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
+            list($id, $style, $width, $height) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($style)) $style = $this->yellow->system->get("soundcloudStyle");
             if (empty($width)) $width = "100%";
             if (empty($height)) $height = "166";

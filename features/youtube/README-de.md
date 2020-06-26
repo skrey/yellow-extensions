@@ -1,4 +1,4 @@
-Youtube 0.8.2
+Youtube 0.8.3
 =============
 Youtube-Videos einbinden.
 

@@ -1,4 +1,4 @@
-Highlight 0.8.6
+Highlight 0.8.7
 ===============
 Quellcode hervorheben.
 

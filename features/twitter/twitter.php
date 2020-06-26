@@ -1,10 +1,10 @@
 <?php
 // Twitter extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowTwitter {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -18,7 +18,7 @@ class YellowTwitter {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="twitter" && ($type=="block" || $type=="inline")) {
-            list($id, $theme, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
+            list($id, $theme, $style, $width, $height) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($theme)) $theme = $this->yellow->system->get("twitterTheme");
             $language = $page->get("language");
             if (is_numeric($id)) {
@@ -36,7 +36,7 @@ class YellowTwitter {
             }
         }
         if ($name=="twitterfollow" && ($type=="block" || $type=="inline")) {
-            list($id, $dummy, $style) = $this->yellow->toolbox->getTextArgs($text);
+            list($id, $dummy, $style) = $this->yellow->toolbox->getTextArguments($text);
             $language = $page->get("language");
             if (!empty($style)) $output .= "<div class=\"".htmlspecialchars($style)."\">";
             $output .= "<a class=\"twitter-follow-button\" data-size=\"large\"";

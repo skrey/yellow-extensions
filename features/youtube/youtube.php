@@ -1,10 +1,10 @@
 <?php
 // Youtube extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowYoutube {
-    const VERSION = "0.8.2";
+    const VERSION = "0.8.3";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -18,7 +18,7 @@ class YellowYoutube {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="youtube" && ($type=="block" || $type=="inline")) {
-            list($id, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
+            list($id, $style, $width, $height) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($style)) $style = $this->yellow->system->get("youtubeStyle");
             $output = "<div class=\"".htmlspecialchars($style)."\">";
             $output .= "<iframe src=\"https://www.youtube.com/embed/".rawurlencode($id)."\" frameborder=\"0\" allowfullscreen";

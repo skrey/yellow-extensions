@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowGallery {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
 
@@ -18,13 +18,13 @@ class YellowGallery {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="gallery" && ($type=="block" || $type=="inline")) {
-            list($pattern, $style, $size) = $this->yellow->toolbox->getTextArgs($text);
+            list($pattern, $style, $size) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($style)) $style = $this->yellow->system->get("galleryStyle");
             if (empty($size)) $size = "100%";
             if (empty($pattern)) {
                 $files = $this->yellow->media->clean();
             } else {
-                $images = $this->yellow->system->get("coreImageDir");
+                $images = $this->yellow->system->get("coreImageDirectory");
                 $files = $this->yellow->media->index(true, true)->match("#$images$pattern#");
             }
             if ($this->yellow->extensions->isExisting("image")) {
@@ -71,7 +71,7 @@ class YellowGallery {
 
     // Return image caption
     public function getImageCaption($fileName) {
-        $key = substru($fileName, strlenu($this->yellow->system->get("coreImageDir")));
+        $key = substru($fileName, strlenu($this->yellow->system->get("coreImageDirectory")));
         return $this->yellow->text->isExisting($key) ? $this->yellow->text->get($key) : "";
     }
 }

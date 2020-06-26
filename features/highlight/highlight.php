@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowHighlight {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -92,7 +92,7 @@ class YellowHighlight {
     public function getLanguageInformation($language) {
         $aliases = array("c" => "cpp", "html" => "xml");
         $language = isset($aliases[$language]) ? $aliases[$language] : $language;
-        $fileName = $this->yellow->system->get("coreExtensionDir")."highlight-$language.json";
+        $fileName = $this->yellow->system->get("coreExtensionDirectory")."highlight-$language.json";
         return array($language, $fileName);
     }
 }

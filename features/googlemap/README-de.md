@@ -1,4 +1,4 @@
-Googlemap 0.8.4
+Googlemap 0.8.5
 ===============
 Google-Karten einbinden.
 

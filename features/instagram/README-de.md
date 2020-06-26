@@ -1,4 +1,4 @@
-Instagram 0.8.3
+Instagram 0.8.4
 ===============
 Instagram-Fotos einbinden.
 

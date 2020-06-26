@@ -1,10 +1,10 @@
 <?php
 // Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/slider
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowSlider {
-    const VERSION = "0.8.3";
+    const VERSION = "0.8.4";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -19,14 +19,14 @@ class YellowSlider {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="slider" && ($type=="block" || $type=="inline")) {
-            list($pattern, $style, $size, $autoplay) = $this->yellow->toolbox->getTextArgs($text);
+            list($pattern, $style, $size, $autoplay) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($style)) $style = $this->yellow->system->get("sliderStyle");
             if (empty($size)) $size = "100%";
             if (empty($autoplay)) $autoplay = $this->yellow->system->get("sliderAutoplay");
             if (empty($pattern)) {
                 $files = $this->yellow->media->clean();
             } else {
-                $images = $this->yellow->system->get("coreImageDir");
+                $images = $this->yellow->system->get("coreImageDirectory");
                 $files = $this->yellow->media->index(true, true)->match("#$images$pattern#");
             }
             if ($this->yellow->extensions->isExisting("image")) {

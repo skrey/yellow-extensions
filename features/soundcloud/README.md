@@ -1,4 +1,4 @@
-Soundcloud 0.8.2
+Soundcloud 0.8.3
 ================
 Embed Soundcloud audio tracks.
 

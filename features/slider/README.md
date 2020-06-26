@@ -1,4 +1,4 @@
-Slider 0.8.3
+Slider 0.8.4
 ============
 Image gallery with slider.
 

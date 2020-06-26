@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowGooglecalendar {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -21,7 +21,7 @@ class YellowGooglecalendar {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="googlecalendar" && ($type=="block" || $type=="inline")) {
-            list($id, $mode, $date, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
+            list($id, $mode, $date, $style, $width, $height) = $this->yellow->toolbox->getTextArguments($text);
             list($timestamp, $entriesMax) = $this->getTimestampAndEntries($date);
             if (empty($mode)) $mode = $this->yellow->system->get("googlecalendarMode");
             if (empty($entriesMax)) $entriesMax = $this->yellow->system->get("googlecalendarEntriesMax");
@@ -97,6 +97,7 @@ class YellowGooglecalendar {
             $color = $this->getCalendarColor($matches[2]);
         } else {
             $src = $this->getCalendarSource($src);
+            $color = "";
         }
         return array($src, $color);
     }

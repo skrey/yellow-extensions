@@ -1,10 +1,10 @@
 <?php
 // Googlemap extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap
-// Copyright (c) 2013-2019 Datenstrom, https://datenstrom.se
+// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 class YellowGooglemap {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.5";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -19,7 +19,7 @@ class YellowGooglemap {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="googlemap" && ($type=="block" || $type=="inline")) {
-            list($address, $zoom, $style, $width, $height) = $this->yellow->toolbox->getTextArgs($text);
+            list($address, $zoom, $style, $width, $height) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($zoom)) $zoom = $this->yellow->system->get("googlemapZoom");
             if (empty($style)) $style = $this->yellow->system->get("googlemapStyle");
             $language = $page->get("language");
