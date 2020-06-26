@@ -1,4 +1,4 @@
-Contact 0.8.10
+Contact 0.8.11
 ==============
 E-Mail-Kontaktseite.
 
