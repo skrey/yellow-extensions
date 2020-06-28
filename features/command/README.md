@@ -1,4 +1,4 @@
-Command 0.8.15
+Command 0.8.16
 ==============
 Run commands in a terminal window.
 
