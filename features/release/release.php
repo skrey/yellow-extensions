@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowRelease {
-    const VERSION = "0.8.20";
+    const VERSION = "0.8.21";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $extensions;     //number of extensions
@@ -91,7 +91,7 @@ class YellowRelease {
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                     if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
-                        list($dummy, $entry) = explode(",", $matches[2], 3);
+                        list($dummy1, $entry, $dummy2) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
                         if (is_file($path.$entry)) {
                             $published = filemtime($path.$entry);
                             break;
@@ -106,7 +106,7 @@ class YellowRelease {
                     if (lcfirst($matches[1])=="published") $line = "Published: ".date("Y-m-d H:i:s", $published)."\n";
                     if (lcfirst($matches[1])=="status" && $matches[2]=="unreleased") $line = "";
                     if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
-                        list($extensionResponsible, $entry, $flags) = explode(",", $matches[2], 3);
+                        list($extensionResponsible, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
                         if (ucfirst($extensionResponsible)!=ucfirst($extension)) {
                             $extensionResponsible = ucfirst($extension);
                             $line = "$matches[1]: $extensionResponsible,$entry,$flags\n";
@@ -213,7 +213,7 @@ class YellowRelease {
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                     if (!empty($matches[1]) && !empty($matches[2]) && strtoloweru($matches[1])==strtoloweru($extension)) {
-                        list($dummy, $url) = explode(",", $matches[2]);
+                        list($dummy1, $url, $dummy2) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
                         $fileDataNew .= "$matches[1]: $version,$url,$text\n";
                         $found = true;
                         continue;
@@ -337,7 +337,7 @@ class YellowRelease {
                 if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
                 if (lcfirst($matches[1])=="language") $language = $matches[2];
                 if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
-                    list($dummy, $entry, $flags) = explode(",", $matches[2], 3);
+                    list($dummy, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
                     if (preg_match("/delete/i", $flags)) continue;
                     if (preg_match("/multi-language/i", $flags)) {
                         foreach(preg_split("/\s*,\s*/", $language) as $token) {
