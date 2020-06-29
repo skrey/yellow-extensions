@@ -104,8 +104,6 @@ More features, languages and themes for Datenstrom Yellow.
   Table of contents. Developed by Datenstrom.
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic): 
   Create traffic analytics from web server log files. Developed by Datenstrom.
-* [Tunein](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
-  Embed TuneIn Radio player. Developed by Steffen Schultz.
 * [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter): 
   Embed Twitter messages. Developed by Datenstrom, Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update): 

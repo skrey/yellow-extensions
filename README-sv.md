@@ -104,8 +104,6 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
   Innehållsförteckning. Utvecklad av Datenstrom.
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic): 
   Skapa trafikanalys från webbserverns loggfiler. Utvecklad av Datenstrom.
-* [Tunein](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein): 
-  Bädda in TuneIn Radio-spelare. Utvecklad av Steffen Schultz.
 * [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter): 
   Bädda in Twitter-meddelanden. Utvecklad av Datenstrom, Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update): 

@@ -104,8 +104,6 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
   Inhaltsverzeichnis anzeigen. Entwickelt von Datenstrom.
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md): 
   Zugriffsanalysen aus Webserver-Logdateien erstellen. Entwickelt von Datenstrom.
-* [Tunein](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/tunein/README-de.md): 
-  TuneIn-Radio-Player einbetten. Entwickelt von Steffen Schultz.
 * [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter/README-de.md): 
   Twitter-Nachrichten einbinden. Entwickelt von Datenstrom, Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md): 
