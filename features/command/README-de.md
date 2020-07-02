@@ -6,7 +6,7 @@ Befehle im Terminalfenster ausführen.
 
 ## Wie man einen Befehl ausführt
 
-Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet.  Gib ein `php yellow.php` um die vorhandenen Befehle zu sehen.
+Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet.  Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen.
 
 ## Wie man eine statische Webseite erstellt
 

@@ -6,7 +6,7 @@ Run commands in a terminal window.
 
 ## How to run a command
 
-Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build` to show available commands.
+Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands.
 
 ## How to build a static website
 
