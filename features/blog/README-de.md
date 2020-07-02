@@ -102,7 +102,7 @@ Die folgenden Dateien können angepasst werden:
 
 ## Installation
 
-[Zip-Datei herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/blog.zip) und in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/blog.zip) und Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 

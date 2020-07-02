@@ -102,7 +102,7 @@ The following files can be configured:
 
 ## Installation
 
-[Download zip file](https://github.com/datenstrom/yellow-extensions/raw/master/zip/blog.zip) and copy it into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/blog.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 

@@ -75,7 +75,7 @@ Start built-in web server at the command line:
 
 ## Installation
 
-[Download zip file](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) and copy it into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 
