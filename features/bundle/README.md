@@ -4,14 +4,6 @@ Bundle website files.
 
 <p align="center"><img src="bundle-screenshot.png?raw=true" width="795" height="512" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `bundle.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to bundle website files
 
 This extension bundles and minifies files for a better loading time. Your website may contain multiple CSS and JavaScript files. Usually these will be cached in the browser, but nevertheless each file has to be checked. This is where a file bundler comes in. It looks for included files and replaces them with one single file for CSS and one for JavaScript.
@@ -55,6 +47,10 @@ Website with bundled CSS and JavaScript files:
 </body>
 </html>
 ```
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 

@@ -4,14 +4,6 @@ Textformatierung für Menschen.
 
 <p align="center"><img src="markdown-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man diese Erweiterung installiert
-
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/markdown.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `markdown.zip` in dein `system/extensions`-Verzeichnis.
-
-Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
-
 ## Wie man Text formatiert
 
 Markdown ist eine praktische Art um Webseiten zu bearbeiten.
@@ -131,6 +123,10 @@ HTML benutzen:
 
     <strong>Text mit HTML</strong> kann wahlweise benutzt werden.
     <a href="https://datenstrom.se/de/" target="_blank">Link in einem neuen Tab öffnen</a>.
+
+## Installation
+
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/markdown.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 

@@ -4,14 +4,6 @@ Text formatting for humans.
 
 <p align="center"><img src="markdown-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/markdown.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `markdown.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to format text
 
 Markdown is a practical way to edit web pages.
@@ -131,6 +123,10 @@ Using HTML:
 
     <strong>Text with HTML</strong> can be used optionally.
     <a href="https://datenstrom.se" target="_blank">Open link in new tab</a>.
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/markdown.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 
