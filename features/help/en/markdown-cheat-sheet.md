@@ -126,7 +126,7 @@ Using HTML:
 `[slider photo.*jpg]` = [add image gallery with slider](https://github.com/datenstrom/yellow-extensions/tree/master/features/slider)  
 `[youtube fhs55HEl-Gc]` = [embed Youtube video](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube)  
 `[soundcloud 101175715]` = [embed Soundcloud audio](https://github.com/datenstrom/yellow-extensions/tree/master/features/soundcloud)  
-`[twitter datenstromse]` = [embed Twitter messages](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter)  
+`[twitter datendeveloper]` = [embed Twitter messages](https://github.com/datenstrom/yellow-extensions/tree/master/features/twitter)  
 `[instagram BISN9ngjV2-]` = [embed Instagram photo](https://github.com/datenstrom/yellow-extensions/tree/master/features/instagram)  
 `[googlecalendar en.swedish#holiday]` = [embed Google calendar](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlecalendar)  
 `[googlemap Stockholm]` = [embed Google map](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap)  
