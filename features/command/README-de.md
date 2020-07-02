@@ -4,9 +4,13 @@ Befehle im Terminalfenster ausführen.
 
 <p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Bildschirmfoto"></p>
 
+## Wie man einen Befehl ausführt
+
+Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet.  Gib ein `php yellow.php` um die vorhandenen Befehle zu sehen.
+
 ## Wie man eine statische Webseite erstellt
 
-Erstelle eine statische Webseite, die auf den meisten Webservern funktioniert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue. Zum Überprüfen nach defekten Links gibt man ein: `php yellow.php check`. Zum Löschen gibt man ein: `php yellow.php clean`.
+Du kannst eine eine statische Webseite erstellen, die auf den meisten Webservern funktioniert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue. Zum Überprüfen nach defekten Links gibt man ein: `php yellow.php check`. Zum Löschen gibt man ein: `php yellow.php clean`.
 
 ## Wie man einen statischen Zwischenspeicher erstellt
 
@@ -21,16 +25,16 @@ Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch
 Die folgenden Befehle sind verfügbar:
 
 `php yellow.php about` = Version der Webseite anzeigen  
-`php yellow.php build` = Statische Webseite erstellen  
-`php yellow.php check` = Statische Webseite überprüfen  
-`php yellow.php clean` = Statische Webseite löschen  
-`php yellow.php install` = Erweiterungen hinzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php release` = Erweiterungen veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
-`php yellow.php serve` = Eingebauten Webserver starten  
-`php yellow.php traffic` = Zugriffsanalysen erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
-`php yellow.php uninstall` = Erweiterungen entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php update` = Webseite aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php user` = Benutzerkonten aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
+`php yellow.php build [directory location]` = Statische Webseite erstellen  
+`php yellow.php check [directory location]` = Statische Webseite überprüfen  
+`php yellow.php clean [directory location]` = Statische Webseite löschen  
+`php yellow.php install [extension]` = Erweiterungen hinzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php release [directory]` = Erweiterungen veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
+`php yellow.php serve [directory url]` = Eingebauten Webserver starten  
+`php yellow.php traffic [days location filename]` = Zugriffsanalysen erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
+`php yellow.php uninstall [extension]` = Erweiterungen entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php update [extension]` = Webseite aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php user [option email password name]` = Benutzerkonten aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
 
 Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg.
 
@@ -39,21 +43,6 @@ Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) vo
 Vorhandene Befehle anzeigen:
 
 `php yellow.php`
-
-~~~~
-Datenstrom Yellow is for people who make small websites.
-Syntax: php yellow.php about
-        php yellow.php build [directory location]
-        php yellow.php check [directory location]
-        php yellow.php clean [directory location]
-        php yellow.php install [extension]
-        php yellow.php release [directory]
-        php yellow.php serve [directory url]
-        php yellow.php traffic [days location filename]
-        php yellow.php uninstall [extension]
-        php yellow.php update [extension]
-        php yellow.php user [option email password name]
-~~~~
 
 Statische Webseite in der Befehlszeile erstellen:
 

@@ -4,9 +4,13 @@ Run commands in a terminal window.
 
 <p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
 
+## How to run a command
+
+Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build` to show available commands.
+
 ## How to build a static website
 
-Build a static website that works on most web servers. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check for broken links type: `php yellow.php check`. To clean the static website type the following: `php yellow.php clean`.
+You can build a static website that works on most web servers. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check for broken links type: `php yellow.php check`. To clean the static website type the following: `php yellow.php clean`.
 
 ## How to build a static cache
 
@@ -21,16 +25,16 @@ You can test your website with the built-in web server. This is handy for develo
 The following commands are available:
 
 `php yellow.php about` = Show website version  
-`php yellow.php build` = Build static website    
-`php yellow.php check` = Check static website  
-`php yellow.php clean` = Clean static website  
-`php yellow.php install` = Add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php release` = Publish extensions with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
-`php yellow.php serve` = Start built-in web server  
-`php yellow.php traffic` = Create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
-`php yellow.php uninstall` = Remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php update` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php user` = Update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`php yellow.php build [directory location]` = Build static website    
+`php yellow.php check [directory location]` = Check static website  
+`php yellow.php clean [directory location]` = Clean static website  
+`php yellow.php install [extension]` = Add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php release [directory]` = Publish extensions with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
+`php yellow.php serve [directory url]` = Start built-in web server  
+`php yellow.php traffic [days location filename]` = Create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
+`php yellow.php uninstall [extension]` = Remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php update [extension]` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php user [option email password name]` = Update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
 
 This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg.
 
@@ -39,21 +43,6 @@ This extension uses the [cURL library](https://github.com/curl/curl) by Daniel S
 Showing available commands:
 
 `php yellow.php`
-
-~~~~
-Datenstrom Yellow is for people who make small websites.
-Syntax: php yellow.php about
-        php yellow.php build [directory location]
-        php yellow.php check [directory location]
-        php yellow.php clean [directory location]
-        php yellow.php install [extension]
-        php yellow.php release [directory]
-        php yellow.php serve [directory url]
-        php yellow.php traffic [days location filename]
-        php yellow.php uninstall [extension]
-        php yellow.php update [extension]
-        php yellow.php user [option email password name]
-~~~~
 
 Building static website at the command line:
 
