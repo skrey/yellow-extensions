@@ -4,14 +4,6 @@ Wiki for your website.
 
 <p align="center"><img src="wiki-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/wiki.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `wiki.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to use a wiki
 
 The wiki is available on your website as `http://website/wiki/`. To show the wiki on the home page, go to your `content` folder and delete the `1-home` folder. To create a new wiki page, add a new file to the wiki folder. Set `Title` and other [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. Use `Tag` to group similar pages together.
@@ -32,21 +24,6 @@ The following arguments are available, all but the first argument are optional:
 `PagesMax` = number of pages to show per shortcut, 0 for unlimited  
 `Author` = show pages by a specific author, `[wikipages]` or `[wikichanges]` only  
 `Tag` = show pages with a specific tag, `[wikipages]` or `[wikichanges`] only  
-
-## Settings
-
-The following settings can be configured in file `system/settings/system.ini`:
-
-`WikiLocation` = wiki location, empty means current folder  
-`WikiNewLocation` = wiki location for new page  
-`WikiPagesMax` = number of pages to show per shortcut  
-`WikiPaginationLimit` = number of entries to show per page  
-
-The following files can be configured:
-
-`content/shared/page-new-wiki.md` = content file for new wiki page  
-`system/layouts/wikipages.html` = layout file for main wiki page  
-`system/layouts/wiki.html` = layout file for individual wiki page  
 
 ## Examples
 
@@ -106,6 +83,25 @@ Showing list of pages:
     [wikipages /wiki/]
     [wikipages /wiki/ 10 Datenstrom]
     [wikipages /wiki/ 10 - example]
+
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`WikiLocation` = wiki location, empty means current folder  
+`WikiNewLocation` = wiki location for new page  
+`WikiPagesMax` = number of pages to show per shortcut  
+`WikiPaginationLimit` = number of entries to show per page  
+
+The following files can be configured:
+
+`content/shared/page-new-wiki.md` = content file for new wiki page  
+`system/layouts/wikipages.html` = layout file for main wiki page  
+`system/layouts/wiki.html` = layout file for individual wiki page  
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/wiki.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 

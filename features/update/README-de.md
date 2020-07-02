@@ -4,14 +4,6 @@ Webseite auf dem neusten Stand halten.
 
 <p align="center"><img src="update-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man diese Erweiterung installiert
-
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/update.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `update.zip` in dein `system/extensions`-Verzeichnis.
-
-Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer gebraucht.
-
 ## Wie man die aktuelle Version anzeigt
 
 Du kannst die aktuelle Version deiner Webseite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) anzeigen. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen. Du kannst die aktuelle Version auch in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) anzeigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php about`. 
@@ -33,19 +25,6 @@ Die zweite Möglichkeit besteht darin, deine Webseite in der [Befehlszeile](http
 Deine Webseite kommt nur mit dem Nötigsten. Du kannst Erweiterungen als ZIP-Dateien herunterladen und hinzufügen. Du kannst Erweiterungen auch in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) hinzufügen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php install` gefolgt von weiteren Argumenten. Du kannst Erweiterungen auch in der Befehlszeile entfernen.
 
 Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg. Es gibt auch eine [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md).
-
-## Einstellungen
-
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
-
-`UpdateExtensionUrl` = URL der Repository mit Erweiterungen  
-`UpdateExtensionDirectory` = Verzeichnis mit Erweiterungs-Quellcode  
-`UpdateExtensionFile` = Datei für Erweiterungs-Einstellungen  
-`UpdateVersionFile` = Versionsinformationen von Erweiterungen  
-`UpdateWaffleFile` = Dateiinformationen von Erweiterungen  
-`UpdateNotification` = ausstehende Benachrichtigungen  
-
-Die Logdatei findet man in der Datei `system/extensions/yellow.log`.
 
 ## Beispiele
 
@@ -94,6 +73,23 @@ Erweiterungen in der Befehlszeile entfernen:
 `php yellow.php uninstall`  
 `php yellow.php uninstall gallery`  
 `php yellow.php uninstall english german french`  
+
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+
+`UpdateExtensionUrl` = URL der Repository mit Erweiterungen  
+`UpdateExtensionDirectory` = Verzeichnis mit Erweiterungs-Quellcode  
+`UpdateExtensionFile` = Datei für Erweiterungs-Einstellungen  
+`UpdateVersionFile` = Versionsinformationen von Erweiterungen  
+`UpdateWaffleFile` = Dateiinformationen von Erweiterungen  
+`UpdateNotification` = ausstehende Benachrichtigungen  
+
+Die Logdatei findet man in der Datei `system/extensions/yellow.log`.
+
+## Installation
+
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/update.zip) und Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 

@@ -4,14 +4,6 @@ Core functionality of the website.
 
 <p align="center"><img src="core-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/core.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `core.zip` into your `system/extensions` folder.
-
-Please do not delete the [extension files](extension.ini), they are always required.
-
 ## How to customise a website
 
 If you want to adjust the content, then use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown). All content is located in your `content` folder. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder. Some themes have support for header, footer and sidebar.
@@ -99,6 +91,61 @@ Folder structure for multilingual website, with automatic language detection:
 └── system                
 ```
 
+## Examples
+
+Content file with normal page:
+
+    ---
+    Title: Normal page
+    ---
+    This is an example page.
+
+Content file with unlisted page:
+
+    ---
+    Title: Unlisted page
+    Status: unlisted
+    ---
+    This page is not visible in navigation and search results.
+
+Content file with header:
+
+    ---
+    Title: Header
+    Status: shared
+    ---
+    I like Markdown.
+
+Content file with footer:
+
+    ---
+    Title: Footer
+    Status: shared
+    ---
+    [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+
+Content file with redirection:
+
+    ---
+    Title: Redirect page
+    Redirect: https://datenstrom.se/yellow/
+    ---
+    This page is redirected to another page.
+
+Content file with options for building a static website:
+
+    ---
+    Title: Example page
+    Build: exclude
+    ---
+    This page is not taken into account when building a static website.
+
+Configuring text settings:
+
+    Language: en
+    CoreDateFormatMedium: Y-m-d
+    picture.jpg: This is an example image
+
 ## Settings
 
 The following settings can be configured at the top of a page:
@@ -171,60 +218,9 @@ The following settings can be configured at the top of a page:
 `system/layouts/navigation.html` = layout file for default navigation  
 `system/layouts/pagination.html` = layout file for default pagination  
 
-## Examples
+## Installation
 
-Content file with normal page:
-
-    ---
-    Title: Normal page
-    ---
-    This is an example page.
-
-Content file with unlisted page:
-
-    ---
-    Title: Unlisted page
-    Status: unlisted
-    ---
-    This page is not visible in navigation and search results.
-
-Content file with header:
-
-    ---
-    Title: Header
-    Status: shared
-    ---
-    I like Markdown.
-
-Content file with footer:
-
-    ---
-    Title: Footer
-    Status: shared
-    ---
-    [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
-
-Content file with redirection:
-
-    ---
-    Title: Redirect page
-    Redirect: https://datenstrom.se/yellow/
-    ---
-    This page is redirected to another page.
-
-Content file with options for building a static website:
-
-    ---
-    Title: Example page
-    Build: exclude
-    ---
-    This page is not taken into account when building a static website.
-
-Configuring text settings:
-
-    Language: en
-    CoreDateFormatMedium: Y-m-d
-    picture.jpg: This is an example image
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/core.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 

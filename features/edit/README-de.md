@@ -4,14 +4,6 @@ Webseite im Webbrowser bearbeiten.
 
 <p align="center"><img src="edit-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man diese Erweiterung installiert
-
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/edit.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `edit.zip` in dein `system/extensions`-Verzeichnis.
-
-Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
-
 ## Wie man eine Webseite bearbeitet
 
 Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine grossartige Art Webseiten zu aktualisieren. Du kannst eine `[edit]`-Abkürzung benutzen, um einen Link zum Bearbeiten anzuzeigen.
@@ -27,71 +19,6 @@ Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](h
 Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/settings/user.ini` und ändere [Startseite und Zugriffsrechte](#einstellungen-user). Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/settings/system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
-
-## Einstellungen
-
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
-
-`Author` = Name des Webmasters  
-`Email` = E-Mail des Webmasters  
-`EditLocation` = Ort der Anmeldeseite  
-`EditUploadNewLocation` = Ort für neue Mediendateien  
-`EditUploadExtensions` = Dateiformate zum Hochladen, `none` um zu deaktivieren  
-`EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
-`EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, `none` um zu deaktivieren  
-`EditNewFile` = Inhaltsdatei für neue Seite  
-`EditEndOfLine` = Zeilenenden, z.B. `auto`, `lf`, `crlf`  
-`EditUserPasswordMinLength` = Mindestänge von Kennwörtern  
-`EditUserHome` = Standard-Startseite für neues Benutzerkonto  
-`EditUserAccess` = Standard-Zugriffsrechte für neues Benutzerkonto  
-`EditLoginRestriction` = Anmeldebeschränkung aktivieren, 1 oder 0  
-`EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
-`EditBruteForceProtection` = Anzahl fehlgeschlagener Anmeldeversuche  
-
-Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
-
-`EditLoginTitle` = Begrüßungstext auf der Anmeldeseite  
-`EditMailFooter` = Fusszeile von E-Mail-Nachrichten  
-
-<a id="einstellungen-user"></a>Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorgenommen werden:
-
-`Email` = E-Mail des Benutzers  
-`Name` =  Name des Benutzers  
-`Language` = Sprache des Benutzers  
-`Home` = Ort der Startseite  
-`Access` = Zugriffsrechte, [unterstütze Zugriffsrechte](#einstellungen-access)  
-`Hash` = verschlüsseltes Kennwort  
-`Stamp` = eindeutiges Token zur Authentifizierung  
-`Pending` = ausstehende Änderungen  
-`Failed` = Anzahl fehlgeschlagener Anmeldeversuche  
-`Modified` = Änderungsdatum, JJJJ-MM-TT Format  
-`Status` = Status des Benutzers, [unterstütze Statuswerte](#einstellungen-status)  
-
-<a id="einstellungen-access"></a>Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
-
-`create` =  Benutzer kann Seite erstellen  
-`edit` = Benutzer kann Seite bearbeiten  
-`delete` = Benutzer kann Seite löschen  
-`upload` = Benutzer kann Mediendateien hochladen  
-`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen-system)  
-`update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-
-<a id="einstellungen-status"></a>Die folgenden Benutzer-Statuswerte werden unterstützt:
-
-`active` = Benutzer ist aktiv  
-`inactive` = Benutzer wurde vorübergehend deaktiviert  
-`unconfirmed` = Benutzer hat Benutzerkonto nicht bestätigt  
-`unapproved` = Benutzer wurde vom Webmaster nicht genehmigt  
-`unverified` = Benutzer hat neue E-Mail-Adresse nicht bestätigt  
-`unchanged` = Benutzer hat ausstehende Änderungen nicht bestätigt  
-`removed` = Benutzer hat ausstehende Löschung nicht bestätigt  
-
-<a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
-
-`content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
-`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
-`content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
-`content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
 
 ## Beispiele
 
@@ -176,6 +103,75 @@ Benutzerkonten in der Befehlszeile aktualisieren:
 `php yellow.php user add email@example.com password`  
 `php yellow.php user change email@example.com password`  
 `php yellow.php user remove email@example.com`  
+
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+
+`Author` = Name des Webmasters  
+`Email` = E-Mail des Webmasters  
+`EditLocation` = Ort der Anmeldeseite  
+`EditUploadNewLocation` = Ort für neue Mediendateien  
+`EditUploadExtensions` = Dateiformate zum Hochladen, `none` um zu deaktivieren  
+`EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
+`EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, `none` um zu deaktivieren  
+`EditNewFile` = Inhaltsdatei für neue Seite  
+`EditEndOfLine` = Zeilenenden, z.B. `auto`, `lf`, `crlf`  
+`EditUserPasswordMinLength` = Mindestänge von Kennwörtern  
+`EditUserHome` = Standard-Startseite für neues Benutzerkonto  
+`EditUserAccess` = Standard-Zugriffsrechte für neues Benutzerkonto  
+`EditLoginRestriction` = Anmeldebeschränkung aktivieren, 1 oder 0  
+`EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
+`EditBruteForceProtection` = Anzahl fehlgeschlagener Anmeldeversuche  
+
+Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
+
+`EditLoginTitle` = Begrüßungstext auf der Anmeldeseite  
+`EditMailFooter` = Fusszeile von E-Mail-Nachrichten  
+
+<a id="einstellungen-user"></a>Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorgenommen werden:
+
+`Email` = E-Mail des Benutzers  
+`Name` =  Name des Benutzers  
+`Language` = Sprache des Benutzers  
+`Home` = Ort der Startseite  
+`Access` = Zugriffsrechte, [unterstütze Zugriffsrechte](#einstellungen-access)  
+`Hash` = verschlüsseltes Kennwort  
+`Stamp` = eindeutiges Token zur Authentifizierung  
+`Pending` = ausstehende Änderungen  
+`Failed` = Anzahl fehlgeschlagener Anmeldeversuche  
+`Modified` = Änderungsdatum, JJJJ-MM-TT Format  
+`Status` = Status des Benutzers, [unterstütze Statuswerte](#einstellungen-status)  
+
+<a id="einstellungen-access"></a>Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
+
+`create` =  Benutzer kann Seite erstellen  
+`edit` = Benutzer kann Seite bearbeiten  
+`delete` = Benutzer kann Seite löschen  
+`upload` = Benutzer kann Mediendateien hochladen  
+`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen-system)  
+`update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+
+<a id="einstellungen-status"></a>Die folgenden Benutzer-Statuswerte werden unterstützt:
+
+`active` = Benutzer ist aktiv  
+`inactive` = Benutzer wurde vorübergehend deaktiviert  
+`unconfirmed` = Benutzer hat Benutzerkonto nicht bestätigt  
+`unapproved` = Benutzer wurde vom Webmaster nicht genehmigt  
+`unverified` = Benutzer hat neue E-Mail-Adresse nicht bestätigt  
+`unchanged` = Benutzer hat ausstehende Änderungen nicht bestätigt  
+`removed` = Benutzer hat ausstehende Löschung nicht bestätigt  
+
+<a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
+
+`content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
+`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
+`content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
+`content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
+
+## Installation
+
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/edit.zip) und Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 

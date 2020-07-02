@@ -4,14 +4,6 @@ Edit your website in a web browser.
 
 <p align="center"><img src="edit-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/edit.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `edit.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to edit a website
 
 The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. You can use an `[edit]` shortcut to show an edit link.
@@ -27,71 +19,6 @@ The second option is to create a user account at the [command line](https://gith
 If you don't want that pages are modified, then restrict user accounts. Open file `system/settings/user.ini` and change [home page and access rights](#settings-user). Users are allowed to edit pages within their home page, but nowhere else.
 
 If you don't want that user accounts are created, then restrict the login page. Open file `system/settings/system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
-
-## Settings
-
-The following settings can be configured in file `system/settings/system.ini`:
-
-`Author` = name of the webmaster  
-`Email` = email of the webmaster  
-`EditLocation` = login page location  
-`EditUploadNewLocation` = location for new media file  
-`EditUploadExtensions` = file formats for upload, `none` to disable  
-`EditKeyboardShortcuts` = keyboard shortcuts and commands, `none` to disable  
-`EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, `none` to disable  
-`EditNewFile` = content file for new page  
-`EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
-`EditUserPasswordMinLength` = minimum length of passwords  
-`EditUserHome` = default home page location for new user account  
-`EditUserAccess` = default user access rights for new user account  
-`EditLoginRestriction` = enable login restriction, 1 or 0  
-`EditLoginSessionTimeout` = validity of login in seconds  
-`EditBruteForceProtection` = number of failed login attempts  
-
-The following settings can be configured in file `system/settings/text.ini`:
-
-`EditLoginTitle` = welcome text on login page  
-`EditMailFooter` = footer for email messages  
-
-<a id="settings-user"></a>The following settings can be configured in file `system/settings/user.ini`:
-
-`Email` = email of the user  
-`Name` =  name of the user  
-`Language` = language of the user  
-`Home` = home page location  
-`Access` = user access rights, [supported access rights](#settings-access)  
-`Hash` = encrypted password  
-`Stamp` = unique token for authentication  
-`Pending` = pending changes  
-`Failed` = number of failed login attempts  
-`Modified` = modification date, YYYY-MM-DD format  
-`Status` = user status, [supported status values](#settings-status)  
-
-<a id="settings-access"></a>The following user access rights are supported:
-
-`create` =  user can create page  
-`edit` = user can edit page  
-`delete` = user can delete page  
-`upload` = user can upload media files  
-`system` = user can [change system settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings-system)  
-`update` = user can [update website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-
-<a id="settings-status"></a>The following user status values are supported:
-
-`active` = user is active  
-`inactive` = user has been deactivated temporarily  
-`unconfirmed` = user has not confirmed user account  
-`unapproved` = user has not been approved by webmaster  
-`unverified` = user has not confirmed new email address  
-`unchanged` = user has not confirmed pending changes  
-`removed` = user has not confirmed pending deletion  
-
-<a id="settings-files"></a>The following files can be configured:
-
-`content/shared/page-new-default.md` = content file for new page  
-`content/shared/page-new-blog.md` = content file for new blog page  
-`content/shared/page-new-wiki.md` = content file for new wiki page  
-`content/shared/page-error-404.md` = content file for error page  
 
 ## Examples
 
@@ -176,6 +103,75 @@ Updating user accounts at the command line:
 `php yellow.php user add email@example.com password`  
 `php yellow.php user change email@example.com password`  
 `php yellow.php user remove email@example.com`  
+
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`Author` = name of the webmaster  
+`Email` = email of the webmaster  
+`EditLocation` = login page location  
+`EditUploadNewLocation` = location for new media file  
+`EditUploadExtensions` = file formats for upload, `none` to disable  
+`EditKeyboardShortcuts` = keyboard shortcuts and commands, `none` to disable  
+`EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, `none` to disable  
+`EditNewFile` = content file for new page  
+`EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
+`EditUserPasswordMinLength` = minimum length of passwords  
+`EditUserHome` = default home page location for new user account  
+`EditUserAccess` = default user access rights for new user account  
+`EditLoginRestriction` = enable login restriction, 1 or 0  
+`EditLoginSessionTimeout` = validity of login in seconds  
+`EditBruteForceProtection` = number of failed login attempts  
+
+The following settings can be configured in file `system/settings/text.ini`:
+
+`EditLoginTitle` = welcome text on login page  
+`EditMailFooter` = footer for email messages  
+
+<a id="settings-user"></a>The following settings can be configured in file `system/settings/user.ini`:
+
+`Email` = email of the user  
+`Name` =  name of the user  
+`Language` = language of the user  
+`Home` = home page location  
+`Access` = user access rights, [supported access rights](#settings-access)  
+`Hash` = encrypted password  
+`Stamp` = unique token for authentication  
+`Pending` = pending changes  
+`Failed` = number of failed login attempts  
+`Modified` = modification date, YYYY-MM-DD format  
+`Status` = user status, [supported status values](#settings-status)  
+
+<a id="settings-access"></a>The following user access rights are supported:
+
+`create` =  user can create page  
+`edit` = user can edit page  
+`delete` = user can delete page  
+`upload` = user can upload media files  
+`system` = user can [change system settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings-system)  
+`update` = user can [update website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+
+<a id="settings-status"></a>The following user status values are supported:
+
+`active` = user is active  
+`inactive` = user has been deactivated temporarily  
+`unconfirmed` = user has not confirmed user account  
+`unapproved` = user has not been approved by webmaster  
+`unverified` = user has not confirmed new email address  
+`unchanged` = user has not confirmed pending changes  
+`removed` = user has not confirmed pending deletion  
+
+<a id="settings-files"></a>The following files can be configured:
+
+`content/shared/page-new-default.md` = content file for new page  
+`content/shared/page-new-blog.md` = content file for new blog page  
+`content/shared/page-new-wiki.md` = content file for new wiki page  
+`content/shared/page-error-404.md` = content file for error page  
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/edit.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 

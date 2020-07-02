@@ -4,14 +4,6 @@ Kernfunktionalität der Webseite.
 
 <p align="center"><img src="core-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man diese Erweiterung installiert
-
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/core.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `core.zip` in dein `system/extensions`-Verzeichnis.
-
-Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer gebraucht.
-
 ## Wie man eine Webseite anpasst
 
 Falls du den Inhalt anpassen willst, kannst du [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown/README-de.md) benutzen. Alle Inhalte befinden sich im `content`-Verzeichnis. Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst eine Kopfzeile und Fußzeile auch in einem anderen Verzeichnis erstellen, dann wir sie nur auf Seiten im gleichen Verzeichnis angezeigt. Manche Themen habe Unterstützung für Kopfzeile, Fußzeile und Sidebar.
@@ -99,6 +91,61 @@ Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennu
 └── system                
 ```
 
+## Beispiele
+
+Inhaltsdatei mit normaler Seite:
+
+    ---
+    Title: Normale Seite
+    ---
+    Das ist eine Beispielseite.
+
+Inhaltsdatei mit ungelisteter Seite:
+
+    ---
+    Title: Ungelistete Seite
+    Status: unlisted
+    ---
+    Diese Seite ist in der Navigation und den Suchergebnissen nicht sichtbar.
+
+Inhaltsdatei mit Kopfzeile:
+
+    ---
+    Title: Header
+    Status: shared
+    ---
+    Ich mag Markdown.
+
+Inhaltsdatei mit Fußzeile:
+
+    ---
+    Title: Footer
+    Status: shared
+    ---
+    [Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/)
+
+Inhaltsdatei mit Weiterleitung:
+
+    ---
+    Title: Seite weiterleiten
+    Redirect: https://datenstrom.se/de/yellow/
+    ---
+    Diese Seite wird zu einer anderen Seite weitergeleitet.
+
+Inhaltsdatei mit Optionen zum Erstellen einer statischen Webseite:
+
+    ---
+    Title: Beispielseite
+    Build: exclude
+    ---
+    Diese Seite wird beim Erstellen einer statischen Webseite nicht berücksichtigt.
+
+Texteinstellungen festlegen:
+
+    Language: de
+    CoreDateFormatMedium: d.m.Y
+    picture.jpg: Dies ist ein Beispielbild
+
 ## Einstellungen
 
 Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden:
@@ -171,60 +218,9 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `system/layouts/navigation.html` = Layoutdatei für Standard-Navigation  
 `system/layouts/pagination.html` = Layoutdatei für Standard-Pagination  
 
-## Beispiele
+## Installation
 
-Inhaltsdatei mit normaler Seite:
-
-    ---
-    Title: Normale Seite
-    ---
-    Das ist eine Beispielseite.
-
-Inhaltsdatei mit ungelisteter Seite:
-
-    ---
-    Title: Ungelistete Seite
-    Status: unlisted
-    ---
-    Diese Seite ist in der Navigation und den Suchergebnissen nicht sichtbar.
-
-Inhaltsdatei mit Kopfzeile:
-
-    ---
-    Title: Header
-    Status: shared
-    ---
-    Ich mag Markdown.
-
-Inhaltsdatei mit Fußzeile:
-
-    ---
-    Title: Footer
-    Status: shared
-    ---
-    [Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/)
-
-Inhaltsdatei mit Weiterleitung:
-
-    ---
-    Title: Seite weiterleiten
-    Redirect: https://datenstrom.se/de/yellow/
-    ---
-    Diese Seite wird zu einer anderen Seite weitergeleitet.
-
-Inhaltsdatei mit Optionen zum Erstellen einer statischen Webseite:
-
-    ---
-    Title: Beispielseite
-    Build: exclude
-    ---
-    Diese Seite wird beim Erstellen einer statischen Webseite nicht berücksichtigt.
-
-Texteinstellungen festlegen:
-
-    Language: de
-    CoreDateFormatMedium: d.m.Y
-    picture.jpg: Dies ist ein Beispielbild
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/core.zip) und Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 

@@ -4,14 +4,6 @@ Wiki für deine Webseite.
 
 <p align="center"><img src="wiki-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man diese Erweiterung installiert
-
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/wiki.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `wiki.zip` in dein `system/extensions`-Verzeichnis.
-
-Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
-
 ## Wie man ein Wiki benutzt
 
 Das Wiki ist auf deiner Webseite vorhanden als `http://website/wiki/`. Um das Wiki auf der Startseite anzuzeigen, gehe in dein `content`-Verzeichnis und lösche das `1-home`-Verzeichnis. Um eine neue Wikiseite hinzuzufügen, erstelle eine neue Datei im Wikiverzeichnis. Ganz oben auf einer Seite kannst du `Title` und weitere [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) festlegen. Mit `Tag` kann man ähnliche Seiten gruppieren. 
@@ -32,21 +24,6 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 `PagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
 `Author` = Seiten eines bestimmten Autors anzeigen, nur bei, `[wikipages]` oder `[wikichanges]`  
 `Tag` = Seiten mit bestimmten Tag anzeigen, nur bei `[wikipages]` oder `[wikichanges`]  
-
-## Einstellungen
-
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
-
-`WikiLocation` = Ort des Wikis, leer bedeutet aktuelles Verzeichnis  
-`WikiNewLocation` = Ort für neue Wikiseite  
-`WikiPagesMax` = Anzahl der Seiten pro Abkürzung  
-`WikiPaginationLimit` = Anzahl der Einträge pro Seite  
-
-The following files can be configured:
-
-`content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
-`system/layouts/wikipages.html` = Layoutdatei für Wikihauptseite  
-`system/layouts/wiki.html` = Layoutdatei für individuelle Wikiseite  
 
 ## Beispiele
 
@@ -106,6 +83,25 @@ Liste mit Seiten anzeigen:
     [wikipages /wiki/]
     [wikipages /wiki/ 10 Datenstrom]
     [wikipages /wiki/ 10 - Beispiel]
+
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+
+`WikiLocation` = Ort des Wikis, leer bedeutet aktuelles Verzeichnis  
+`WikiNewLocation` = Ort für neue Wikiseite  
+`WikiPagesMax` = Anzahl der Seiten pro Abkürzung  
+`WikiPaginationLimit` = Anzahl der Einträge pro Seite  
+
+Die folgenden Dateien können angepasst werden:
+
+`content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
+`system/layouts/wikipages.html` = Layoutdatei für Wikihauptseite  
+`system/layouts/wiki.html` = Layoutdatei für individuelle Wikiseite  
+
+## Installation
+
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/wiki.zip) und Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 
