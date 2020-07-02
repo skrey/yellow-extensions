@@ -4,14 +4,6 @@ Run commands in a terminal window.
 
 <p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `command.zip` into your `system/extensions` folder.
-
-Please do not delete the [extension files](extension.ini), they are always required.
-
 ## How to build a static website
 
 Build a static website that works on most web servers. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check for broken links type: `php yellow.php check`. To clean the static website type the following: `php yellow.php clean`.
@@ -80,6 +72,10 @@ Start built-in web server at the command line:
 `php yellow.php serve`  
 `php yellow.php serve public http://localhost:8008/`  
 `php yellow.php serve dynamic http://localhost:8008/`  
+
+## Installation
+
+[Download zip file](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) and copy it into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 

@@ -4,14 +4,6 @@ Blog for your website.
 
 <p align="center"><img src="blog-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/blog.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `blog.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to use a blog
 
 The blog is available on your website as `http://website/blog/`. To show the blog on the home page, go to your `content` folder and delete the `1-home` folder. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. The publishing date will be used to sort blog pages. Use `Tag` to group similar pages together. You can use `[--more--]` to add a page break at the desired spot.
@@ -33,21 +25,6 @@ The following arguments are available, all but the first argument are optional:
 `PagesMax` = number of pages to show per shortcut, 0 for unlimited  
 `Author` = show pages by a specific author, `[blogpages]` or `[blogchanges]` only  
 `Tag` = show pages with a specific tag, `[blogpages]` or `[blogchanges]` only  
-
-## Settings
-
-The following settings can be configured in file `system/settings/system.ini`:
-
-`BlogLocation` = blog location, empty means current folder  
-`BlogNewLocation` = blog location for new page  
-`BlogPagesMax` = number of pages to show per shortcut  
-`BlogPaginationLimit` = number of entries to show per page  
-
-The following files can be configured:
-
-`content/shared/page-new-blog.md` = content file for new blog page  
-`system/layouts/blogpages.html` = layout file for main blog page  
-`system/layouts/blog.html` = layout file for individual blog page  
 
 ## Examples
 
@@ -107,6 +84,25 @@ Showing list of pages:
     [blogpages /blog/]
     [blogpages /blog/ 10 Datenstrom]
     [blogpages /blog/ 10 - example]
+
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`BlogLocation` = blog location, empty means current folder  
+`BlogNewLocation` = blog location for new page  
+`BlogPagesMax` = number of pages to show per shortcut  
+`BlogPaginationLimit` = number of entries to show per page  
+
+The following files can be configured:
+
+`content/shared/page-new-blog.md` = content file for new blog page  
+`system/layouts/blogpages.html` = layout file for main blog page  
+`system/layouts/blog.html` = layout file for individual blog page  
+
+## Installation
+
+[Download zip file](https://github.com/datenstrom/yellow-extensions/raw/master/zip/blog.zip) and copy it into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 

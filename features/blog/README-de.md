@@ -4,14 +4,6 @@ Blog für deine Webseite.
 
 <p align="center"><img src="blog-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man diese Erweiterung installiert
-
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/blog.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `blog.zip` in dein `system/extensions`-Verzeichnis.
-
-Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
-
 ## Wie man ein Blog benutzt
 
 Das Blog ist auf deiner Webseite vorhanden als `http://website/blog/`. Um das Blog auf der Startseite anzuzeigen, gehe in dein `content`-Verzeichnis und lösche das `1-home`-Verzeichnis. Um eine neue Blogseite hinzuzufügen, erstelle eine neue Datei im Blogverzeichnis. Ganz oben auf einer Seite kannst du `Published` und weitere [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) festlegen. Das Veröffentlichungsdatum wird zur Sortierung der Blogseiten verwendet. Mit `Tag` kann man ähnliche Seiten gruppieren. Du kannst `[--more--]` benutzen, um an der gewünschten Stelle einen Seitenumbruch zu erzeugen.
@@ -33,21 +25,6 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 `PagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
 `Author` = Seiten eines bestimmten Autors anzeigen, nur bei `[blogpages]` oder `[blogchanges]`  
 `Tag` = Seiten mit bestimmten Tag anzeigen, nur bei `[blogpages]` oder `[blogchanges]`  
-
-## Einstellungen
-
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
-
-`BlogLocation` = Ort des Blogs, leer bedeutet aktuelles Verzeichnis  
-`BlogNewLocation` = Ort für neue Blogseite  
-`BlogPagesMax` = Anzahl der Seiten pro Abkürzung  
-`BlogPaginationLimit` = Anzahl der Einträge pro Seite 
-
-Die folgenden Dateien können angepasst werden:
-
-`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite   
-`system/layouts/blogpages.html` = Layoutdatei für Bloghauptseite  
-`system/layouts/blog.html` = Layoutdatei für individuelle Blogseite 
 
 ## Beispiele
 
@@ -107,6 +84,25 @@ Liste mit Seiten anzeigen:
     [blogpages /blog/]
     [blogpages /blog/ 10 Datenstrom]
     [blogpages /blog/ 10 - Beispiel]
+
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+
+`BlogLocation` = Ort des Blogs, leer bedeutet aktuelles Verzeichnis  
+`BlogNewLocation` = Ort für neue Blogseite  
+`BlogPagesMax` = Anzahl der Seiten pro Abkürzung  
+`BlogPaginationLimit` = Anzahl der Einträge pro Seite 
+
+Die folgenden Dateien können angepasst werden:
+
+`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite   
+`system/layouts/blogpages.html` = Layoutdatei für Bloghauptseite  
+`system/layouts/blog.html` = Layoutdatei für individuelle Blogseite 
+
+## Installation
+
+[Zip-Datei herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/blog.zip) und in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 

@@ -4,14 +4,6 @@ Befehle im Terminalfenster ausführen.
 
 <p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Bildschirmfoto"></p>
 
-## Wie man diese Erweiterung installiert
-
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `command.zip` in dein `system/extensions`-Verzeichnis.
-
-Die [Erweiterungsdateien](extension.ini) bitte nicht löschen, sie werden immer gebraucht.
-
 ## Wie man eine statische Webseite erstellt
 
 Erstelle eine statische Webseite, die auf den meisten Webservern funktioniert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue. Zum Überprüfen nach defekten Links gibt man ein: `php yellow.php check`. Zum Löschen gibt man ein: `php yellow.php clean`.
@@ -80,6 +72,10 @@ Eingebauten Webserver in der Befehlszeile starten:
 `php yellow.php serve`  
 `php yellow.php serve public http://localhost:8008/`  
 `php yellow.php serve dynamic http://localhost:8008/`  
+
+## Installation
+
+[Zip-Datei herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) und in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 
