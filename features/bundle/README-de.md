@@ -8,8 +8,6 @@ Webseiten-Dateien bündeln.
 
 Diese Erweiterung bündelt und verkleinert Dateien für eine bessere Ladezeit. Deine Webseite enthält möglicherweise mehrere CSS- und JavaScript-Dateien. In der Regel werden die im Browser zwischengespeichert, trotzdem muss jede Datei überprüft werden. Hier kommt der Dateibündler ins Spiel. Er sucht nach eingebundenen Dateien und ersetzt diese durch eine einzelne Datei für CSS und eine für JavaScript.
 
-Diese Erweiterung benutzt [Minify v1.3.62](https://github.com/matthiasmullie/minify) von Matthias Mullie. Es ist unter [MIT-Lizenz](https://opensource.org/licenses/MIT) lizenziert.
-
 ## Beispiele
 
 Webseite mit ungebündelten CSS- und JavaScript-Dateien:
@@ -51,6 +49,8 @@ Webseite mit gebündelten CSS- und JavaScript-Dateien:
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+
+Diese Erweiterung benutzt [Minify v1.3.62](https://github.com/matthiasmullie/minify) von Matthias Mullie.
 
 ## Entwickler
 

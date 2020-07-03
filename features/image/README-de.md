@@ -18,7 +18,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien befinden sich im `media`-Verzeichnis. Das `media/images`-Verzeichnis ist zum Speichern von Bildern gedacht. Das `media/thumbnails`-Verzeichnis enthält Miniaturbilder. Man kann auch weitere Verzeichnisse hinzufügen und Dateien so organisieren wie man will.
 
-Diese Erweiterung benutzt die [GD-Grafikbibliothek](https://github.com/libgd/libgd) von Thomas Boutell. Es gibt auch eine [Gallery-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery/README-de.md).
+Es gibt auch eine [Gallery-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery/README-de.md).
 
 ## Beispiele
 
@@ -55,6 +55,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/image.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+
+Diese Erweiterung benutzt die [GD-Grafikbibliothek](https://github.com/libgd/libgd) von Thomas Boutell.
 
 ## Entwickler
 

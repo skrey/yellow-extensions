@@ -36,8 +36,6 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php update [extension]` = Webseite aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 `php yellow.php user [option email password name]` = Benutzerkonten aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
 
-Diese Erweiterung benutzt die [cURL-Bibliothek](https://github.com/curl/curl) von Daniel Stenberg.
-
 ## Beispiele
 
 Vorhandene Befehle anzeigen:
@@ -65,6 +63,8 @@ Eingebauten Webserver in der Befehlszeile starten:
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+
+Diese Erweiterung benutzt die [cURL-Netzwerkbibliothek](https://github.com/curl/curl) von Daniel Stenberg.
 
 ## Entwickler
 

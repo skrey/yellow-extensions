@@ -36,8 +36,6 @@ The following commands are available:
 `php yellow.php update [extension]` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
 `php yellow.php user [option email password name]` = Update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
 
-This extension uses the [cURL library](https://github.com/curl/curl) by Daniel Stenberg.
-
 ## Examples
 
 Showing available commands:
@@ -65,6 +63,8 @@ Start built-in web server at the command line:
 ## Installation
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
+This extension uses [cURL network library](https://github.com/curl/curl) by Daniel Stenberg.
 
 ## Developer
 

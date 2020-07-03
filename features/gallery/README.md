@@ -4,14 +4,6 @@ Image gallery with popup.
 
 <p align="center"><img src="gallery-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/gallery.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `gallery.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to add an image gallery
 
 Create a `[gallery]` shortcut.
@@ -24,17 +16,9 @@ The following arguments are available, all but the first argument are optional:
 
 The image formats GIF, JPG, PNG and SVG are supported. All media files are located in the `media` folder. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like.
 
-This extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. It's licensed under [MIT license](https://opensource.org/licenses/MIT).
-
 ## How to show image captions
 
 Image captions can be configured in the text settings. Open file `system/settings/text.ini` and add a new line for each image. A line consists of file name and description.
-
-## Settings
-
-The following settings can be configured in your text settings.
-
-`GalleryStyle` = gallery style, e.g. `photoswipe`, `simple`  
 
 ## Examples
 
@@ -62,6 +46,18 @@ Configuring image captions in the text settings:
     picture.jpg: This is an example image
     photo-2387365-fika-time.jpg: Fika is an important part of life in Sweden. Photo: Taylor Franz
     photo-2391666-start-painting.jpg: Watercolors, brushes and paper. Photo: Tim Arterbury
+
+## Settings
+
+The following settings can be configured in your text settings.
+
+`GalleryStyle` = gallery style, e.g. `photoswipe`, `simple`  
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/gallery.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
+This extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov.
 
 ## Developer
 
