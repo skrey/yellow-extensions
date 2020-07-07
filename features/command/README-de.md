@@ -20,22 +20,6 @@ Du kannst deine Webseite mit einem statischen Zwischenspeicher beschleunigen. Da
 
 Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch für Entwickler, da alles auf dem eigenem Computer läuft. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php serve`, du kannst wahlweise ein Verzeichnis und eine URL angeben. Öffne einen Webbrowser und gehe zu `http://localhost:8000/`.
 
-## Befehle
-
-Die folgenden Befehle sind verfügbar:
-
-`php yellow.php about` um die aktuelle Version der Webseite anzuzeigen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php build` um statische Webseite zu erstellen  
-`php yellow.php check` um statische Webseite nach fehlerhaften Links zu überprüfen  
-`php yellow.php clean` um statische Webseite zu löschen  
-`php yellow.php install` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php release` um Erweiterungen zu veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
-`php yellow.php serve` um den eingebauten Webserver zu starten  
-`php yellow.php traffic` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
-`php yellow.php uninstall` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php update` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php user` um Benutzerkonten zu aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
-
 ## Beispiele
 
 Vorhandene Befehle anzeigen:
@@ -60,11 +44,25 @@ Eingebauten Webserver in der Befehlszeile starten:
 `php yellow.php serve public http://localhost:8008/`  
 `php yellow.php serve dynamic http://localhost:8008/`  
 
+## Befehle
+
+Die folgenden Befehle sind verfügbar:
+
+`php yellow.php about` um die aktuelle Version der Webseite anzuzeigen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php build` um statische Webseite zu erstellen  
+`php yellow.php check` um statische Webseite nach fehlerhaften Links zu überprüfen  
+`php yellow.php clean` um statische Webseite zu löschen  
+`php yellow.php install` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php release` um Erweiterungen zu veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
+`php yellow.php serve` um den eingebauten Webserver zu starten  
+`php yellow.php traffic` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
+`php yellow.php uninstall` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php update` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php user` um Benutzerkonten zu aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
+
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
-
-Diese Erweiterung benutzt die [cURL-Netzwerkbibliothek](https://github.com/curl/curl) von Daniel Stenberg.
 
 ## Entwickler
 

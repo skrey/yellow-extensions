@@ -20,23 +20,6 @@ You can speed up your website with a static cache. This improves loading time, b
 
 You can test your website with the built-in web server. This is handy for developers, since everything runs on your own computer. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php serve`, you can optionally add a folder and a URL. Open a web browser and go to `http://localhost:8000/`.
 
-## Commands
-
-The following commands are available:
-
-`php yellow.php about` to show current website version with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php build` to build static website    
-`php yellow.php check` to check static website for broken links  
-`php yellow.php clean` to clean static website  
-`php yellow.php install` to add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php release` to publish extensions with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
-`php yellow.php serve` to start built-in web server  
-`php yellow.php traffic` to create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
-`php yellow.php uninstall` to remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php update` to update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php user` to update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
-
-
 ## Examples
 
 Showing available commands:
@@ -61,11 +44,25 @@ Start built-in web server at the command line:
 `php yellow.php serve public http://localhost:8008/`  
 `php yellow.php serve dynamic http://localhost:8008/`  
 
+## Commands
+
+The following commands are available:
+
+`php yellow.php about` to show current website version with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php build` to build static website    
+`php yellow.php check` to check static website for broken links  
+`php yellow.php clean` to clean static website  
+`php yellow.php install` to add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php release` to publish extensions with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
+`php yellow.php serve` to start built-in web server  
+`php yellow.php traffic` to create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
+`php yellow.php uninstall` to remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php update` to update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php user` to update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+
 ## Installation
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
-
-This extension uses [cURL network library](https://github.com/curl/curl) by Daniel Stenberg.
 
 ## Developer
 
