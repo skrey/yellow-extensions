@@ -4,14 +4,10 @@ German/Deutsch mit der Sprache 'de'.
 
 <p align="center"><img src="german-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## Wie man diese Erweiterung installiert
+## Installation
 
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/german.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `german.zip` in dein `system/extensions`-Verzeichnis.
-
-Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/german.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Übersetzer
 
-David Fehrmann. [Support finden](https://datenstrom.se/de/yellow/help/).
+David Fehrmann. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
