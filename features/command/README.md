@@ -22,15 +22,22 @@ You can test your website with the built-in web server. This is handy for develo
 
 ## Examples
 
-Content file with options for building a static website:
+Content file with normal page:
+
+    ---
+    Title: Example page
+    ---
+    This website is made with Datenstrom Yellow.
+
+Content file with build options:
 
     ---
     Title: Example page
     Build: exclude
     ---
-    This page is not taken into account when building a static website.
+    This page is not included in a static website.
 
-Showing available commands:
+Showing available commands at the command line:
 
 `php yellow.php`
 

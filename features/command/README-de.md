@@ -22,15 +22,22 @@ Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch
 
 ## Beispiele
 
-Inhaltsdatei mit Optionen zum Erstellen einer statischen Webseite:
+Inhaltsdatei mit normaler Seite:
+
+    ---
+    Title: Beispielseite
+    ---
+    Diese Webseite ist erstellt mit Datenstrom Yellow.
+
+Inhaltsdatei mit Optionen zum Erstellen:
 
     ---
     Title: Beispielseite
     Build: exclude
     ---
-    Diese Seite wird beim Erstellen einer statischen Webseite nicht berücksichtigt.
+    Diese Seite ist in einer statischen Website nicht enthalten.
 
-Vorhandene Befehle anzeigen:
+Vorhandene Befehle in der Befehlszeile anzeigen:
 
 `php yellow.php`
 
