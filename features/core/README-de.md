@@ -77,14 +77,6 @@ Inhaltsdatei mit Weiterleitung:
     ---
     Diese Seite wird zu einer anderen Seite weitergeleitet.
 
-Inhaltsdatei mit Optionen zum Erstellen einer statischen Webseite:
-
-    ---
-    Title: Beispielseite
-    Build: exclude
-    ---
-    Diese Seite wird beim Erstellen einer statischen Webseite nicht berücksichtigt.
-
 Texteinstellungen festlegen:
 
     Language: de

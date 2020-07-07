@@ -77,14 +77,6 @@ Content file with redirection:
     ---
     This page is redirected to another page.
 
-Content file with options for building a static website:
-
-    ---
-    Title: Example page
-    Build: exclude
-    ---
-    This page is not taken into account when building a static website.
-
 Configuring text settings:
 
     Language: en

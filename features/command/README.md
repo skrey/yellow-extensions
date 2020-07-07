@@ -22,6 +22,14 @@ You can test your website with the built-in web server. This is handy for develo
 
 ## Examples
 
+Content file with options for building a static website:
+
+    ---
+    Title: Example page
+    Build: exclude
+    ---
+    This page is not taken into account when building a static website.
+
 Showing available commands:
 
 `php yellow.php`

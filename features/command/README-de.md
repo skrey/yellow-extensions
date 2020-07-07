@@ -22,6 +22,14 @@ Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch
 
 ## Beispiele
 
+Inhaltsdatei mit Optionen zum Erstellen einer statischen Webseite:
+
+    ---
+    Title: Beispielseite
+    Build: exclude
+    ---
+    Diese Seite wird beim Erstellen einer statischen Webseite nicht berücksichtigt.
+
 Vorhandene Befehle anzeigen:
 
 `php yellow.php`
