@@ -1,10 +1,10 @@
 Command 0.8.16
 ==============
-Befehle im Terminalfenster ausführen.
+Webseite in der Befehlszeile erstellen.
 
 <p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Bildschirmfoto"></p>
 
-## Wie man einen Befehl ausführt
+## Wie man die Befehlszeile benutzt
 
 Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet.  Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen.
 
@@ -24,17 +24,29 @@ Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch
 
 Die folgenden Befehle sind verfügbar:
 
-`php yellow.php about` = Version der Webseite anzeigen  
-`php yellow.php build [directory location]` = Statische Webseite erstellen  
-`php yellow.php check [directory location]` = Statische Webseite überprüfen  
-`php yellow.php clean [directory location]` = Statische Webseite löschen  
-`php yellow.php install [extension]` = Erweiterungen hinzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php release [directory]` = Erweiterungen veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
-`php yellow.php serve [directory url]` = Eingebauten Webserver starten  
-`php yellow.php traffic [days location filename]` = Zugriffsanalysen erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
-`php yellow.php uninstall [extension]` = Erweiterungen entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php update [extension]` = Webseite aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php user [option email password name]` = Benutzerkonten aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
+`php yellow.php about` um aktuelle Version der Webseite anzuzeigen  
+`php yellow.php build [directory location]` um statische Webseite zu erstellen  
+`php yellow.php check [directory location]` um statische Webseite zu überprüfen  
+`php yellow.php clean [directory location]` um statische Webseite zu löschen  
+`php yellow.php install [extension]` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php release [directory]` um Erweiterungen zu veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
+`php yellow.php serve [directory url]` um den eingebauten Webserver zu starten  
+`php yellow.php traffic [days location]` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
+`php yellow.php uninstall [extension]` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php update [extension]` um Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php user [option email password name]` um Benutzerkonten zu aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
+
+Die folgenden Argumente werden unterstützt:
+
+`directory = Name des Verzeichnisses  
+`location` = Name des Orts  
+`extension` = Name der Erweiterung  
+`url` = URL des Webservers  
+`days` = Anzahl der Tage  
+`option` = Option zum Verwalten von Benutzerkonten  
+`email` = Email des Benutzers  
+`password` = Kennwort des Benutzers  
+`name` = Name des Benutzers  
 
 ## Beispiele
 

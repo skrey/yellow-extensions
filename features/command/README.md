@@ -1,10 +1,10 @@
 Command 0.8.16
 ==============
-Run commands in a terminal window.
+Make your website at the command line.
 
 <p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
 
-## How to run a command
+## How to use the command line
 
 Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands.
 
@@ -24,17 +24,29 @@ You can test your website with the built-in web server. This is handy for develo
 
 The following commands are available:
 
-`php yellow.php about` = Show website version  
-`php yellow.php build [directory location]` = Build static website    
-`php yellow.php check [directory location]` = Check static website  
-`php yellow.php clean [directory location]` = Clean static website  
-`php yellow.php install [extension]` = Add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php release [directory]` = Publish extensions with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
-`php yellow.php serve [directory url]` = Start built-in web server  
-`php yellow.php traffic [days location filename]` = Create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
-`php yellow.php uninstall [extension]` = Remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php update [extension]` = Update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php user [option email password name]` = Update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`php yellow.php about` to show website version  
+`php yellow.php build [directory location]` to build static website    
+`php yellow.php check [directory location]` to check static website  
+`php yellow.php clean [directory location]` to clean static website  
+`php yellow.php install [extension]` to add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php release [directory]` to publish extensions with the [release extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/release)  
+`php yellow.php serve [directory url]` to start built-in web server  
+`php yellow.php traffic [days location]` to create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
+`php yellow.php uninstall [extension]` to remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php update [extension]` to update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php user [option email password name]` to update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+
+The following arguments are supported:
+
+`directory = directory name  
+`location` = location name  
+`extension` = extension name  
+`url` = webserver URL  
+`days` = number of days  
+`option` = option to manage user accounts  
+`email` = email of the user  
+`password` = password of the user  
+`name` = name of the user  
 
 ## Examples
 

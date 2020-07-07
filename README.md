@@ -17,7 +17,7 @@ More features, languages and themes for Datenstrom Yellow.
 * [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/features/bundle): 
   Bundle website files. Developed by Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/features/command): 
-  Run commands in a terminal window. Developed by Datenstrom.
+  Make your website at the command line. Developed by Datenstrom.
 * [Comments](https://github.com/GiovanniSalmeri/yellow-comments):
   Simple commenting system. Developed by Giovanni Salmeri.
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact): 

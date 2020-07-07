@@ -17,7 +17,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/features/bundle): 
   Bundla webbplatsfiler. Utvecklad av Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/features/command): 
-  Kör kommandon i ett terminalfönster. Utvecklad av Datenstrom.
+  Skapa din webbplats på kommandoraden. Utvecklad av Datenstrom.
 * [Comments](https://github.com/GiovanniSalmeri/yellow-comments):
   Enkelt kommentarsystem. Utvecklad av Giovanni Salmeri.
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact): 
