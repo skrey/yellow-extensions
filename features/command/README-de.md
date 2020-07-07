@@ -43,7 +43,7 @@ Die folgenden Argumente werden unterstützt:
 `extension` = Name der Erweiterung  
 `url` = URL des Webservers  
 `days` = Anzahl der Tage  
-`option` = Option zum Verwalten von Benutzerkonten  
+`option` = Option für Benutzerkonten, z.B. `add`, `change`, `remove`  
 `email` = Email des Benutzers  
 `password` = Kennwort des Benutzers  
 `name` = Name des Benutzers  

@@ -1,6 +1,6 @@
 Command 0.8.16
 ==============
-Make your website at the command line.
+Build your website at the command line.
 
 <p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
 
@@ -43,7 +43,7 @@ The following arguments are supported:
 `extension` = extension name  
 `url` = webserver URL  
 `days` = number of days  
-`option` = option to manage user accounts  
+`option` = option for user accounts, e.g. `add`, `change`, `remove`  
 `email` = email of the user  
 `password` = password of the user  
 `name` = name of the user  
