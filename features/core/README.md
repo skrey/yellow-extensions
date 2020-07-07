@@ -36,61 +36,6 @@ Set `Status: unlisted` in the [settings](#settings) at the top of a page. The pa
 
 Set `Redirect` in the [settings](#settings) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
 
-## Folders
-
-The following folders are available:
-
-```
-├── content               = content files
-│   ├── 1-home            = home page
-│   └── shared            = shared files
-├── media                 = media files
-│   ├── downloads         = files to download
-│   ├── images            = image files for the content
-│   └── thumbnails        = image thumbnails
-└── system                = system files
-    ├── extensions        = extension files
-    ├── layouts           = layout files, HTML files
-    ├── resources         = resource files, CSS files, fonts, etc.
-    ├── settings          = configuration files, INI files
-    └── trash             = deleted files
-```
-
-Folder structure for multilingual website:
-
-```
-├── content               
-│   ├── 1-en              
-│   │   ├── 1-home        = http://website/
-│   │   └── shared    
-│   ├── 2-de              
-│   │   ├── 1-home        = http://website/de/
-│   │   └── shared    
-│   └── 3-fr              
-│       ├── 1-home        = http://website/fr/
-│       └── shared    
-├── media                 
-└── system                
-```
-
-Folder structure for multilingual website, with automatic language detection:
-
-```
-├── content               
-│   ├── 1-en              
-│   │   ├── 1-home        = http://website/en/
-│   │   └── shared    
-│   ├── 2-de              
-│   │   ├── 1-home        = http://website/de/
-│   │   └── shared    
-│   ├── 3-fr              
-│   │   ├── 1-home        = http://website/fr/
-│   │   └── shared    
-│   └── default           = http://website/       
-├── media                 
-└── system                
-```
-
 ## Examples
 
 Content file with normal page:
@@ -145,6 +90,61 @@ Configuring text settings:
     Language: en
     CoreDateFormatMedium: Y-m-d
     picture.jpg: This is an example image
+
+## Folders
+
+The following folders are available:
+
+```
+├── content               = content files
+│   ├── 1-home            = home page
+│   └── shared            = shared files
+├── media                 = media files
+│   ├── downloads         = files to download
+│   ├── images            = image files for the content
+│   └── thumbnails        = image thumbnails
+└── system                = system files
+    ├── extensions        = extension files
+    ├── layouts           = layout files, HTML files
+    ├── resources         = resource files, CSS files, fonts, etc.
+    ├── settings          = configuration files, INI files
+    └── trash             = deleted files
+```
+
+Folder structure for multilingual website:
+
+```
+├── content               
+│   ├── 1-en              
+│   │   ├── 1-home        = http://website/
+│   │   └── shared    
+│   ├── 2-de              
+│   │   ├── 1-home        = http://website/de/
+│   │   └── shared    
+│   └── 3-fr              
+│       ├── 1-home        = http://website/fr/
+│       └── shared    
+├── media                 
+└── system                
+```
+
+Folder structure for multilingual website, with automatic language detection:
+
+```
+├── content               
+│   ├── 1-en              
+│   │   ├── 1-home        = http://website/en/
+│   │   └── shared    
+│   ├── 2-de              
+│   │   ├── 1-home        = http://website/de/
+│   │   └── shared    
+│   ├── 3-fr              
+│   │   ├── 1-home        = http://website/fr/
+│   │   └── shared    
+│   └── default           = http://website/       
+├── media                 
+└── system                
+```
 
 ## Settings
 

@@ -36,61 +36,6 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#e
 
 Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) und im Dateisystem bearbeiten.
 
-## Verzeichnisse
-
-Die folgenden Verzeichnisse sind verfügbar:
-
-```
-├── content               = Inhaltsdateien
-│   ├── 1-home            = Startseite
-│   └── shared            = geteilte Dateien
-├── media                 = Mediendateien
-│   ├── downloads         = Dateien zum Herunterladen
-│   ├── images            = Bilder für den Inhalt
-│   └── thumbnails        = Miniaturbilder
-└── system                = Systemdateien
-    ├── extensions        = Erweiterungsdateien
-    ├── layouts           = Layoutdateien, HTML-Dateien
-    ├── resources         = Resourcendateien, CSS-Dateien, Schriftarten, usw.
-    ├── settings          = Konfigurationsdateien, INI-Dateien
-    └── trash             = gelöschte Dateien
-```
-
-Verzeichnisstruktur für mehrsprachige Webseite:
-
-```
-├── content               
-│   ├── 1-en              
-│   │   ├── 1-home        = http://website/
-│   │   └── shared    
-│   ├── 2-de              
-│   │   ├── 1-home        = http://website/de/
-│   │   └── shared    
-│   └── 3-fr              
-│       ├── 1-home        = http://website/fr/
-│       └── shared    
-├── media                 
-└── system                
-```
-
-Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennung:
-
-```
-├── content               
-│   ├── 1-en              
-│   │   ├── 1-home        = http://website/en/
-│   │   └── shared    
-│   ├── 2-de              
-│   │   ├── 1-home        = http://website/de/
-│   │   └── shared    
-│   ├── 3-fr              
-│   │   ├── 1-home        = http://website/fr/
-│   │   └── shared    
-│   └── default           = http://website/
-├── media                 
-└── system                
-```
-
 ## Beispiele
 
 Inhaltsdatei mit normaler Seite:
@@ -145,6 +90,61 @@ Texteinstellungen festlegen:
     Language: de
     CoreDateFormatMedium: d.m.Y
     picture.jpg: Dies ist ein Beispielbild
+
+## Verzeichnisse
+
+Die folgenden Verzeichnisse sind verfügbar:
+
+```
+├── content               = Inhaltsdateien
+│   ├── 1-home            = Startseite
+│   └── shared            = geteilte Dateien
+├── media                 = Mediendateien
+│   ├── downloads         = Dateien zum Herunterladen
+│   ├── images            = Bilder für den Inhalt
+│   └── thumbnails        = Miniaturbilder
+└── system                = Systemdateien
+    ├── extensions        = Erweiterungsdateien
+    ├── layouts           = Layoutdateien, HTML-Dateien
+    ├── resources         = Resourcendateien, CSS-Dateien, Schriftarten, usw.
+    ├── settings          = Konfigurationsdateien, INI-Dateien
+    └── trash             = gelöschte Dateien
+```
+
+Verzeichnisstruktur für mehrsprachige Webseite:
+
+```
+├── content               
+│   ├── 1-en              
+│   │   ├── 1-home        = http://website/
+│   │   └── shared    
+│   ├── 2-de              
+│   │   ├── 1-home        = http://website/de/
+│   │   └── shared    
+│   └── 3-fr              
+│       ├── 1-home        = http://website/fr/
+│       └── shared    
+├── media                 
+└── system                
+```
+
+Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennung:
+
+```
+├── content               
+│   ├── 1-en              
+│   │   ├── 1-home        = http://website/en/
+│   │   └── shared    
+│   ├── 2-de              
+│   │   ├── 1-home        = http://website/de/
+│   │   └── shared    
+│   ├── 3-fr              
+│   │   ├── 1-home        = http://website/fr/
+│   │   └── shared    
+│   └── default           = http://website/
+├── media                 
+└── system                
+```
 
 ## Einstellungen
 
