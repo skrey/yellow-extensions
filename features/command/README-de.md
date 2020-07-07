@@ -38,7 +38,7 @@ Die folgenden Befehle sind verfügbar:
 
 Die folgenden Argumente werden unterstützt:
 
-`directory = Name des Verzeichnisses  
+`directory` = Name des Verzeichnisses  
 `location` = Name des Orts  
 `extension` = Name der Erweiterung  
 `url` = URL des Webservers  
