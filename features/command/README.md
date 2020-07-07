@@ -24,7 +24,7 @@ You can test your website with the built-in web server. This is handy for develo
 
 The following commands are available:
 
-`php yellow.php about` to show website version  
+`php yellow.php about` to show current website version  
 `php yellow.php build [directory location]` to build static website    
 `php yellow.php check [directory location]` to check static website  
 `php yellow.php clean [directory location]` to clean static website  
@@ -38,7 +38,7 @@ The following commands are available:
 
 The following arguments are supported:
 
-`directory = directory name  
+`directory` = directory name  
 `location` = location name  
 `extension` = extension name  
 `url` = webserver URL  

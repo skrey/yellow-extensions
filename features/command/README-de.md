@@ -24,7 +24,7 @@ Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch
 
 Die folgenden Befehle sind verfügbar:
 
-`php yellow.php about` um aktuelle Version der Webseite anzuzeigen  
+`php yellow.php about` um die aktuelle Version der Webseite anzuzeigen  
 `php yellow.php build [directory location]` um statische Webseite zu erstellen  
 `php yellow.php check [directory location]` um statische Webseite zu überprüfen  
 `php yellow.php clean [directory location]` um statische Webseite zu löschen  
@@ -33,7 +33,7 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php serve [directory url]` um den eingebauten Webserver zu starten  
 `php yellow.php traffic [days location]` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
 `php yellow.php uninstall [extension]` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php update [extension]` um Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php update [extension]` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 `php yellow.php user [option email password name]` um Benutzerkonten zu aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
 
 Die folgenden Argumente werden unterstützt:
