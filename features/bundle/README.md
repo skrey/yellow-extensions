@@ -54,7 +54,7 @@ This extension uses [Minify v1.3.62](https://github.com/matthiasmullie/minify) b
 
 ## Developer
 
-Datenstrom. [Get support](https://datenstrom.se/yellow/help/).
+Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

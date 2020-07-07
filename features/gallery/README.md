@@ -49,7 +49,7 @@ Configuring image captions in the text settings:
 
 ## Settings
 
-The following settings can be configured in your text settings.
+The following settings can be configured in file `system/settings/system.ini`:
 
 `GalleryStyle` = gallery style, e.g. `photoswipe`, `simple`  
 
@@ -61,7 +61,7 @@ This extension uses [PhotoSwipe v4.1.2](https://github.com/dimsemenov/photoswipe
 
 ## Developer
 
-Datenstrom. [Get support](https://datenstrom.se/yellow/help/).
+Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

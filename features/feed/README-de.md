@@ -4,30 +4,9 @@ Feed mit letzten Änderungen.
 
 <p align="center"><img src="feed-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man diese Erweiterung installiert
-
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/feed.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `feed.zip ` in dein `system/extensions`-Verzeichnis.
-
-Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
-
 ## Wie man eine Feed benutzt
 
 Der Feed ist auf deiner Webseite vorhanden als `http://website/feed/` und `http://website/feed/page:feed.xml`. Es ist eine Feed für die gesamte Webseite, nur sichtbare Seiten sind enthalten. Um einen Blog-Feed zu machen, öffne die Datei `system/settings/system.ini` und ändere `FeedFilterLayout: blog`. Du kannst einen Link zum Feed irgendwo auf deiner Webseite einbauen.
-
-## Einstellungen
-
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
-
-`FeedLocation` = Ort des Feed  
-`FeedFileXml` = Feed-Dateiname für RSS-Feed  
-`FeedFilterLayout` = Feedfilter für ein bestimmtes Layout  
-`FeedPaginationLimit` = Anzahl der Einträge pro Seite  
-
-Die folgenden Dateien können angepasst werden:
-
-`system/layouts/feed.html` = Layoutdatei für Feed  
 
 ## Beispiele
 
@@ -58,9 +37,26 @@ Inhaltsdatei mit Link zum Feed, von einem bestimmter Autor:
     [Letzte Änderungen von Datenstrom anzeigen](/feed/author:datenstrom/). 
     [RSS-Feed](/feed/author:datenstrom/page:feed.xml).
 
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+
+`FeedLocation` = Ort des Feed  
+`FeedFileXml` = Feed-Dateiname für RSS-Feed  
+`FeedFilterLayout` = Feedfilter für ein bestimmtes Layout  
+`FeedPaginationLimit` = Anzahl der Einträge pro Seite  
+
+Die folgenden Dateien können angepasst werden:
+
+`system/layouts/feed.html` = Layoutdatei für Feed  
+
+## Installation
+
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/feed.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+
 ## Entwickler
 
-Datenstrom. [Support finden](https://datenstrom.se/de/yellow/help/).
+Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

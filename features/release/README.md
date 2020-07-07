@@ -4,14 +4,6 @@ Package and publish extensions.
 
 <p align="center"><img src="release-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/release.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `release.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to package an extension
 
 The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update) takes care of updating websites. Your extension can become part of this process. Get a GitHub account and [fork the official repository](https://github.com/datenstrom/yellow-extensions). Take a look at the [example extension](https://github.com/schulle4u/yellow-extension-example) and [basic extension](https://github.com/schulle4u/yellow-extension-basic). They show you which files and settings are necessary. Please make sure that all extensions follow our coding and documentation standards.
@@ -19,36 +11,6 @@ The [update extension](https://github.com/datenstrom/yellow-extensions/tree/mast
 ## How to publish an extension
 
 First increase the version number in your PHP code, then create a new release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by a folder. Upload your extension to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
-
-## Settings
-
-The following settings can be configured in file `extension.ini`:
-
-`Extension` = extension name  
-`Version` = extension version number  
-`Type` = extension type, e.g. `feature`, `language`, `theme`  
-`Description` = extension description, one line maximum  
-`Published` = extension publication date, YYYY-MM-DD format  
-`Language` = extension language(s), comma separated  
-`Status` = extension status, [supported status values](#settings-status)    
-`Developer` = feature developer  
-`Translator` = language translator  
-`Designer` = theme designer  
-
-<a id="settings-status"></a>The following extension status values are supported:
-
-`public` = extension is visible in official repository  
-`unlisted` = extension is not visible in official repository  
-`unreleased` = extension is not available in official repository  
-
-<a id="settings-actions"></a>The following file actions are supported:
-
-`create` = create file if not exists  
-`update` = overwrite file if exists  
-`delete` = delete file if exists  
-`multi-language` = use file from corresponding subfolder, e.g. for content files  
-`optional` = only if new installation, e.g. for content files  
-`careful` = only if not modified, e.g. for system files  
 
 ## Examples
 
@@ -106,9 +68,43 @@ Publishing extensions at the command line:
 `php yellow.php release yellow-extension-example`  
 `php yellow.php release yellow-extensions/languages/english`  
 
+## Settings
+
+The following settings can be configured in file `extension.ini`:
+
+`Extension` = extension name  
+`Version` = extension version number  
+`Type` = extension type, e.g. `feature`, `language`, `theme`  
+`Description` = extension description, one line maximum  
+`Published` = extension publication date, YYYY-MM-DD format  
+`Language` = extension language(s), comma separated  
+`Status` = extension status, [supported status values](#settings-status)    
+`Developer` = feature developer  
+`Translator` = language translator  
+`Designer` = theme designer  
+
+<a id="settings-status"></a>The following extension status values are supported:
+
+`public` = extension is visible in official repository  
+`unlisted` = extension is not visible in official repository  
+`unreleased` = extension is not available in official repository  
+
+<a id="settings-actions"></a>The following file actions are supported:
+
+`create` = create file if not exists  
+`update` = overwrite file if exists  
+`delete` = delete file if exists  
+`multi-language` = use file from corresponding subfolder, e.g. for content files  
+`optional` = only if new installation, e.g. for content files  
+`careful` = only if not modified, e.g. for system files  
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/release.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
 ## Developer
 
-Datenstrom. [Get support](https://datenstrom.se/yellow/help/).
+Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

@@ -4,14 +4,6 @@ Embed Google calendar.
 
 <p align="center"><img src="googlecalendar-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/googlecalendar.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `googlecalendar.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to embed a calendar
 
 Create a `[googlecalendar]` shortcut.
@@ -24,15 +16,6 @@ The following arguments are available, all but the first argument are optional:
 `Style` = calendar style, e.g. `left`, `center`, `right`  
 `Width` = calendar width, pixel or percent  
 `Height` = calendar height, pixel or percent  
-
-## Settings
-
-The following settings can be configured in file `system/settings/system.ini`:
-
-`GooglecalendarMode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
-`GooglecalendarEntriesMax` = number of entries  
-`GooglecalendarStyle` = calendar style, e.g. `flexible`  
-`GooglecalendarApiKey` = your Google API key  
 
 ## Examples
 
@@ -54,9 +37,22 @@ Embedding a calendar, events and agenda:
     [googlecalendar de.german#holiday events 10]
     [googlecalendar de.german#holiday agenda 10]
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`GooglecalendarMode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
+`GooglecalendarEntriesMax` = number of entries  
+`GooglecalendarStyle` = calendar style, e.g. `flexible`  
+`GooglecalendarApiKey` = your Google API key  
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/googlecalendar.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
 ## Developer
 
-Datenstrom. [Get support](https://datenstrom.se/yellow/help/).
+Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

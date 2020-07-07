@@ -4,29 +4,9 @@ Full-text search.
 
 <p align="center"><img src="search-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/search.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `search.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to use a search
 
 The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. To show a search field add a `[search]` shortcut. You can also add a link to the search somewhere on your website.
-
-## Settings
-
-The following settings can be configured in file `system/settings/system.ini`:
-
-`SearchLocation` = search location  
-`SearchPaginationLimit` = number of entries to show per page  
-`SearchPageLength` = maximum page length to show  
-
-The following files can be configured:
-
-`system/layouts/search.html` = layout file for search  
 
 ## Examples
 
@@ -74,9 +54,25 @@ Content file with link to search:
 
     [Search all pages](/search/). [See recent changes](/search/special:changes/).
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`SearchLocation` = search location  
+`SearchPaginationLimit` = number of entries to show per page  
+`SearchPageLength` = maximum page length to show  
+
+The following files can be configured:
+
+`system/layouts/search.html` = layout file for search  
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/search.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
 ## Developer
 
-Datenstrom. [Get support](https://datenstrom.se/yellow/help/).
+Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

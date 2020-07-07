@@ -4,29 +4,9 @@ Sitemap with all pages.
 
 <p align="center"><img src="sitemap-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to install extension
-
-1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
-2. [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/sitemap.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `sitemap.zip` into your `system/extensions` folder.
-
-To uninstall delete the [extension files](extension.ini).
-
 ## How to use a sitemap
 
 The sitemap is available as `http://website/sitemap/` and `http://website/sitemap/page:sitemap.xml`. It's an overview of the entire website, only visible pages are included. You can add a link to the sitemap somewhere on your website.
-
-## Settings
-
-The following settings can be configured in file `system/settings/system.ini`:
-
-`SitemapLocation` = sitemap location  
-`SitemapFileXml` = sitemap file name with XML information  
-`SitemapPaginationLimit` = number of entries to show per page  
-
-The following files can be configured:
-
-`system/layouts/sitemap.html` = layout file for sitemap  
 
 ## Examples
 
@@ -43,9 +23,25 @@ Content file with link to sitemap:
     
     [See all pages](/sitemap/).
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`SitemapLocation` = sitemap location  
+`SitemapFileXml` = sitemap file name with XML information  
+`SitemapPaginationLimit` = number of entries to show per page  
+
+The following files can be configured:
+
+`system/layouts/sitemap.html` = layout file for sitemap  
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/sitemap.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
 ## Developer
 
-Datenstrom. [Get support](https://datenstrom.se/yellow/help/).
+Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

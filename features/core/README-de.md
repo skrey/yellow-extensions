@@ -224,7 +224,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 
 ## Entwickler
 
-Datenstrom. [Support finden](https://datenstrom.se/de/yellow/help/).
+Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

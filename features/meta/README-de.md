@@ -4,25 +4,11 @@ Metadaten für soziale Medien.
 
 <p align="center"><img src="meta-screenshot.png?raw=true" width="795" height="512" alt="Bildschirmfoto"></p>
 
-## Wie man diese Erweiterung installiert
-
-1. [Datenstrom Yellow herunterladen und installieren](https://github.com/datenstrom/yellow/).
-2. [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/meta.zip). Falls du Safari verwendest, rechtsklicke und wähle "Verknüpfte Datei laden unter".
-3. Kopiere `meta.zip` in dein `system/extensions`-Verzeichnis.
-
-Zum Deinstallieren lösche einfach die [Erweiterungsdateien](extension.ini).
-
 ## Wie man Metadaten für soziale Medien hinzufügt
 
 Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](http://ogp.me/). 
 
 Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) festlegen. Weitere Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
-
-## Einstellungen
-
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
-
-`MetaDefaultImage` = Bild der Seite, `icon` um das Standard-Icon der Webseite zu verwenden  
 
 ## Beispiele
 
@@ -53,9 +39,19 @@ Inhaltsdatei mit Metadaten vom ersten Bild
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+
+`MetaDefaultImage` = Bild der Seite, `icon` um das Standard-Icon der Webseite zu verwenden  
+
+## Installation
+
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/meta.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+
 ## Entwickler
 
-Datenstrom, Steffen Schultz. [Support finden](https://datenstrom.se/de/yellow/help/).
+Datenstrom, Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

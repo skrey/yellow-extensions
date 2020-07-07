@@ -130,7 +130,7 @@ Diese Erweiterung benutzt [Markdown Extra v1.9.0](https://github.com/michelf/php
 
 ## Entwickler
 
-Datenstrom. [Support finden](https://datenstrom.se/de/yellow/help/).
+Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
