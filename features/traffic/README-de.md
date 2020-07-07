@@ -6,7 +6,7 @@ Zugriffsanalysen aus Webserver-Logdateien erstellen.
 
 ## Wie man Zugriffsanalysen erstellt
 
-Die Zugriffsanalysen sind in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) vorhanden. Es zeigt verweisende Webseiten, beliebte Inhalte, Dateien und Suchanfragen.  Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php traffic` gefolgt von optionalen Tagen, Ort und Dateiname.
+Die Zugriffsanalysen sind in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) vorhanden. Es zeigt verweisende Webseiten, beliebte Inhalte, Dateien und Suchanfragen.  Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php traffic` gefolgt von optionalen Tagen und Ort.
 
 ## Beispiele
 
@@ -14,7 +14,7 @@ Zugriffsanalysen in der Befehlszeile erstellen:
 
 `php yellow.php traffic`  
 `php yellow.php traffic 1`  
-`php yellow.php traffic 30 /yellow/ /var/log/apache2/website_access.log` 
+`php yellow.php traffic 30 /yellow/` 
 
 ## Einstellungen
 

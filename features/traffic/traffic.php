@@ -22,7 +22,7 @@ class YellowTraffic {
 
     // Handle command help
     public function onCommandHelp() {
-        return "traffic [days location filename]\n";
+        return "traffic [days location]\n";
     }
     
     // Handle command
@@ -37,10 +37,10 @@ class YellowTraffic {
     // Process command to create traffic analytics
     public function processCommandTraffic($command, $text) {
         $statusCode = 0;
-        list($days, $location, $fileName) = $this->yellow->toolbox->getTextArguments($text);
+        list($days, $location) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location) || substru($location, 0, 1)=="/") {
             if ($this->checkStaticSettings()) {
-                $statusCode = $this->processRequests($days, $location, $fileName);
+                $statusCode = $this->processRequests($days, $location);
             } else {
                 $statusCode = 500;
                 $this->days = $this->views = 0;
@@ -57,17 +57,13 @@ class YellowTraffic {
     }
     
     // Analyse and show traffic
-    public function processRequests($days, $location, $fileName) {
+    public function processRequests($days, $location) {
         if (empty($location)) $location = "/";
         if (empty($days)) $days = $this->yellow->system->get("trafficDays");
-        if (empty($fileName)) {
-            $path = $this->yellow->system->get("trafficLogDirectory");
-            $regex = "/^".basename($this->yellow->system->get("trafficLogFile"))."$/";
-            $fileNames = array_reverse($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false));
-            list($statusCode, $sites, $content, $files, $search, $errors) = $this->analyseRequests($days, $location, $fileNames);
-        } else {
-            list($statusCode, $sites, $content, $files, $search, $errors) = $this->analyseRequests($days, $location, array($fileName));
-        }
+        $path = $this->yellow->system->get("trafficLogDirectory");
+        $regex = "/^".basename($this->yellow->system->get("trafficLogFile"))."$/";
+        $fileNames = array_reverse($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false));
+        list($statusCode, $sites, $content, $files, $search, $errors) = $this->analyseRequests($days, $location, $fileNames);
         if ($statusCode==200) {
             $this->showRequests($sites, "Referring sites");
             $this->showRequests($content, "Popular content");
