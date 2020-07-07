@@ -10,8 +10,6 @@ Füge `:shortcode:` zum Text einer Seite hinzu. Hier ist eine [komplette Liste m
 
 Es ist auch möglich eine `[fa]`-Abkürzung zu erstellen oder HTML `<i class="fa fa-name"></i>` zu benutzen. Du kannst weitere Stile an den Namen anhängen, beispielsweise `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` und `fa-5x`.
 
-Diese Erweiterung verwendet [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) von Dave Gandy, es unterstützt ungefähr 600 piktografische Symbole. Es ist unter [OFL 1.1](https://opensource.org/licenses/OFL-1.1) lizenziert. Font Awesome hat Symbole für Webanwendungen, Schaltflächen und Formulare.
-
 ## Beispiele
 
 Icon hinzufügen:
@@ -41,6 +39,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/fontawesome.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+
+Diese Erweiterung verwendet [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) von Dave Gandy.
 
 ## Entwickler
 

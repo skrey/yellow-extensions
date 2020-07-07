@@ -8,7 +8,7 @@ Highlight source code.
 
 Wrap your code blocks in \`\`\` and add a language identifier.
 
-This extension uses [highlight.php 9.15.10](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman, which supports about 180 programming languages. It's licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause). The following languages are included: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. You can download more [language files](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages), rename and copy them into your `system/extensions` folder.
+The following programming languages are included: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. You can download more [language files](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages), rename and copy them into your `system/extensions` folder.
 
 ## Examples
 
@@ -48,6 +48,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 ## Installation
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/highlight.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
+This extension uses [highlight.php 9.15.10](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman.
 
 ## Developer
 

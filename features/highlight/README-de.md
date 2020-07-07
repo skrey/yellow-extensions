@@ -8,7 +8,7 @@ Quellcode hervorheben.
 
 Wickle Codeblöcke in \`\`\` ein und fügen eine Sprachidentifizierung hinzu.
 
-Diese Erweiterung benutzt [highlight.php 9.15.10](https://github.com/scrivo/highlight.php) von Ivan Sagalaev und Geert Bergman, es unterstützt ungefähr 180 Programmiersprachen. Es ist unter [BSD-Lizenz](https://opensource.org/licenses/BSD-3-Clause) lizenziert. Die folgenden Sprachen sind enthalten: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. Du kannst weitere [Sprachdateien](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren.
+Die folgenden Programmiersprachen sind enthalten: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. Du kannst weitere [Sprachdateien](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren.
 
 ## Beispiele
 
@@ -48,6 +48,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/highlight.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+
+Diese Erweiterung benutzt [highlight.php 9.15.10](https://github.com/scrivo/highlight.php) von Ivan Sagalaev und Geert Bergman.
 
 ## Entwickler
 

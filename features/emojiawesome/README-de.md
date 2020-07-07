@@ -10,8 +10,6 @@ Füge `:shortcode:` zum Text einer Seite hinzu. Hier ist ein [Emoji-Spickzettel]
 
 Es ist auch möglich eine `[ea]`-Abkürzung zu erstellen oder HTML `<i class="ea ea-name"></i>` zu benutzen. Du kannst weitere Stile an den Namen anhängen, beispielsweise `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` und `ea-5x`.
 
-Diese Erweiterung verwendet [Twemoji v2.0.0](https://github.com/twitter/twemoji) von Twitter, es unterstützt ungefähr 1600 bunte Bilder. Die Bilder werden unter [CC-BY](http://creativecommons.org/licenses/by/4.0/) lizenziert. Twemoji hat Bilder für Menschen, Tiere, Essen und Flaggen. Dateien werden von [cdnjs](https://cdnjs.com) geliefert. Du kannst ein anderes CDN oder deinen eigenen Server konfigurieren.
-
 ## Beispiele
 
 Emoji hinzufügen:
@@ -42,6 +40,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/emojiawesome.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+
+Diese Erweiterung verwendet [Twemoji v2.0.0](https://github.com/twitter/twemoji) von Twitter. Dateien werden von [cdnjs](https://cdnjs.com) geliefert.
 
 ## Entwickler
 

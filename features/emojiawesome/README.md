@@ -10,8 +10,6 @@ Add `:shortcode:` to the text of a page. Here's an [emoji cheat sheet](http://ww
 
 It's also possible to create an `[ea]` shortcut or use HTML `<i class="ea ea-name"></i>`. You can add an additional style to the name, for example `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` and `ea-5x`.
 
-This extension uses [Twemoji v2.0.0](https://github.com/twitter/twemoji) by Twitter, which supports about 1600 colorful images. Images are licensed under [CC-BY](http://creativecommons.org/licenses/by/4.0/). Twemoji has images for people, animals, food and flags. Files are served from [cdnjs](https://cdnjs.com), you can configure a different CDN or your own server.
-
 ## Examples
 
 Adding an emoji:
@@ -42,6 +40,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 ## Installation
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/emojiawesome.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
+This extension uses [Twemoji v2.0.0](https://github.com/twitter/twemoji) by Twitter. Files are served from [cdnjs](https://cdnjs.com).
 
 ## Developer
 

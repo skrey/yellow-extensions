@@ -10,8 +10,6 @@ Add `:shortcode:` to the text of a page. Here's a [complete list of icons](https
 
 It's also possible to create a `[fa]` shortcut or use HTML `<i class="fa fa-name"></i>`. You can add an additional style to the name, for example `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` and `fa-5x`.
 
-This extension uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy, which supports about 600 pictographic icons. It's licensed under [OFL 1.1](https://opensource.org/licenses/OFL-1.1). Font Awesome has symbols for web applications, buttons and forms.
-
 ## Examples
 
 Adding an icon:
@@ -41,6 +39,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 ## Installation
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/fontawesome.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
+This extension uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy.
 
 ## Developer
 
