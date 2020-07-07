@@ -1,4 +1,4 @@
-Update 0.8.22
+Update 0.8.23
 =============
 Webseite auf dem neusten Stand halten.
 
@@ -50,7 +50,7 @@ Inhaltsdatei mit Logdatei:
 
     ! [yellow log]
 
-Aktuelle Version in der Befehlszeile anzeigen:
+Aktuelle Version der Webseite in der Befehlszeile anzeigen:
  
 `php yellow.php about`  
 

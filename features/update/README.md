@@ -1,4 +1,4 @@
-Update 0.8.22
+Update 0.8.23
 =============
 Keep your website up to date.
 
@@ -50,7 +50,7 @@ Content file with log file:
 
     ! [yellow log]
 
-Showing current version at the command line:
+Showing current website version at the command line:
  
 `php yellow.php about`  
 

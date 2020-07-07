@@ -1,4 +1,4 @@
-Command 0.8.16
+Command 0.8.17
 ==============
 Befehlszeile der Webseite.
 
@@ -24,9 +24,9 @@ Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch
 
 Die folgenden Befehle sind verfügbar:
 
-`php yellow.php about` um die aktuelle Version der Webseite anzuzeigen  
+`php yellow.php about` um die aktuelle Version der Webseite anzuzeigen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 `php yellow.php build` um statische Webseite zu erstellen  
-`php yellow.php check` um statische Webseite zu überprüfen  
+`php yellow.php check` um statische Webseite nach fehlerhaften Links zu überprüfen  
 `php yellow.php clean` um statische Webseite zu löschen  
 `php yellow.php install` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 `php yellow.php release` um Erweiterungen zu veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
