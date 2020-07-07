@@ -4,13 +4,13 @@ Keep your website up to date.
 
 <p align="center"><img src="update-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to show current website version
+## How to show the version of a website
 
 You can show the current version of your website in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). Log in with your user account. Go to the settings. You can also show the current version at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php about`. 
 
 You can use shortcuts to show information about the website:
 
-`[yellow]` for current website version  
+`[yellow]` for current version  
 `[yellow error]` for current error message  
 `[yellow log]` for latest entries in log file  
 
@@ -50,7 +50,7 @@ Content file with log file:
 
     ! [yellow log]
 
-Showing current website version at the command line:
+Showing current version at the command line:
  
 `php yellow.php about`  
 

@@ -63,7 +63,7 @@ Eingebauten Webserver in der Befehlszeile starten:
 
 Die folgenden Befehle sind verfügbar:
 
-`php yellow.php about` um die aktuelle Version der Webseite anzuzeigen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php about` um die aktuelle Version anzuzeigen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 `php yellow.php build` um statische Webseite zu erstellen  
 `php yellow.php check` um statische Webseite nach fehlerhaften Links zu überprüfen  
 `php yellow.php clean` um statische Webseite zu löschen  

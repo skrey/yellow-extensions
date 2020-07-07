@@ -4,13 +4,13 @@ Webseite auf dem neusten Stand halten.
 
 <p align="center"><img src="update-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man die aktuelle Version der Webseite anzeigt
+## Wie man die Version einer Webseite anzeigt
 
 Du kannst die aktuelle Version deiner Webseite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md) anzeigen. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen. Du kannst die aktuelle Version auch in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) anzeigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php about`. 
 
 Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen:
 
-`[yellow]` für aktuelle Version der Webseite  
+`[yellow]` für aktuelle Version  
 `[yellow error]` für aktuelle Fehlermeldung  
 `[yellow log]` für neueste Einträge in der Logdatei  
 
@@ -50,7 +50,7 @@ Inhaltsdatei mit Logdatei:
 
     ! [yellow log]
 
-Aktuelle Version der Webseite in der Befehlszeile anzeigen:
+Aktuelle Version in der Befehlszeile anzeigen:
  
 `php yellow.php about`  
 
