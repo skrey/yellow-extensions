@@ -29,7 +29,7 @@ Content file with normal page:
     ---
     This website is made with Datenstrom Yellow.
 
-Content file with build options:
+Content file with build options for static website:
 
     ---
     Title: Example page

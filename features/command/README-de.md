@@ -29,13 +29,13 @@ Inhaltsdatei mit normaler Seite:
     ---
     Diese Webseite ist erstellt mit Datenstrom Yellow.
 
-Inhaltsdatei mit Optionen zum Erstellen:
+Inhaltsdatei mit Optionen zum Erstellen einer statischen Webseite:
 
     ---
     Title: Beispielseite
     Build: exclude
     ---
-    Diese Seite ist in einer statischen Website nicht enthalten.
+    Diese Seite ist in einer statischen Webseite nicht enthalten.
 
 Vorhandene Befehle in der Befehlszeile anzeigen:
 
