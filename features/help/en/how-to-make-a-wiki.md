@@ -11,7 +11,7 @@ Learn how to make your own wiki.
 
 Your wiki is immediately available. The installation comes with two pages, 'Home' and 'Wiki'. This is just an example to get you started, change everything as you like. You can delete the home page, if you want to show the wiki on the home page.
 
-When there are problems, please check the [server configuration](troubleshooting) or ask the [support](./).
+When there are problems with installation, see [troubleshooting](troubleshooting).
 
 ## Writing wiki pages
 

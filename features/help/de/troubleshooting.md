@@ -164,6 +164,6 @@ YellowSystem::load Layout:default
 
 ## Verwandte Informationen
 
-* [Wie man ein Problem meldet](https://github.com/datenstrom/yellow/blob/master/CONTRIBUTING.md)
-* [Wie man die aktuelle Version anzeigt](https://github.com/datenstrom/yellow-extensions/blob/master/features/update/README-de.md)
 * [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/blob/master/features/command/README-de.md)
+* [Wie man die Version einer Webseite anzeigt](https://github.com/datenstrom/yellow-extensions/blob/master/features/update/README-de.md)
+* [Wie man ein Problem meldet](https://github.com/datenstrom/yellow/blob/master/CONTRIBUTING.md)

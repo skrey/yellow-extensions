@@ -11,7 +11,7 @@ Lerne wie man ein eigenes Wiki erstellt.
 
 Dein Wiki ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Wiki". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Du kannst die Startseite löschen, wenn du das Wiki auf der Startseite anzeigen willst.
 
-Falls Probleme auftreten, überprüfe bitte die [Servereinstellungen](troubleshooting) oder frage den [Support](./).
+Falls Probleme bei der Installation auftreten, siehe [Fehlerbehebung](troubleshooting).
 
 ## Wikiseiten schreiben
 
