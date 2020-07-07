@@ -10,9 +10,9 @@ Du kannst die aktuelle Version deiner Webseite im [Webbrowser](https://github.co
 
 Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen:
 
-`[yellow]` = für aktuelle Version der Webseite  
-`[yellow error]` = für aktuelle Fehlermeldung  
-`[yellow log]` = für neueste Einträge in der Logdatei  
+`[yellow]` für aktuelle Version der Webseite  
+`[yellow error]` für aktuelle Fehlermeldung  
+`[yellow log]` für neueste Einträge in der Logdatei  
 
 ## Wie man eine Webseite aktualisiert
 

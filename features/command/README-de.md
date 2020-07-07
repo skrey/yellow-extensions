@@ -1,6 +1,6 @@
 Command 0.8.16
 ==============
-Webseite in der Befehlszeile erstellen.
+Befehlszeile der Webseite.
 
 <p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Bildschirmfoto"></p>
 
@@ -25,28 +25,16 @@ Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch
 Die folgenden Befehle sind verfügbar:
 
 `php yellow.php about` um die aktuelle Version der Webseite anzuzeigen  
-`php yellow.php build [directory location]` um statische Webseite zu erstellen  
-`php yellow.php check [directory location]` um statische Webseite zu überprüfen  
-`php yellow.php clean [directory location]` um statische Webseite zu löschen  
-`php yellow.php install [extension]` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php release [directory]` um Erweiterungen zu veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
-`php yellow.php serve [directory url]` um den eingebauten Webserver zu starten  
-`php yellow.php traffic [days location]` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
-`php yellow.php uninstall [extension]` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php update [extension]` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php user [option email password name]` um Benutzerkonten zu aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
-
-Die folgenden Argumente werden unterstützt:
-
-`directory` = Name des Verzeichnisses  
-`location` = Name des Orts  
-`extension` = Name der Erweiterung  
-`url` = URL des Webservers  
-`days` = Anzahl der Tage  
-`option` = Option für Benutzerkonten, z.B. `add`, `change`, `remove`  
-`email` = Email des Benutzers  
-`password` = Kennwort des Benutzers  
-`name` = Name des Benutzers  
+`php yellow.php build` um statische Webseite zu erstellen  
+`php yellow.php check` um statische Webseite zu überprüfen  
+`php yellow.php clean` um statische Webseite zu löschen  
+`php yellow.php install` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php release` um Erweiterungen zu veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
+`php yellow.php serve` um den eingebauten Webserver zu starten  
+`php yellow.php traffic` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
+`php yellow.php uninstall` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php update` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php user` um Benutzerkonten zu aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
 
 ## Beispiele
 

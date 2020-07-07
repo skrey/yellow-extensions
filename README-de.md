@@ -17,7 +17,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/features/bundle/README-de.md): 
   Webseiten-Dateien bündeln. Entwickelt von Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md): 
-  Webseite in der Befehlszeile erstellen. Entwickelt von Datenstrom.
+  Befehlszeile der Webseite. Entwickelt von Datenstrom.
 * [Comments](https://github.com/GiovanniSalmeri/yellow-comments):
   Einfaches Kommentarsystem. Entwickelt von Giovanni Salmeri.
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact/README-de.md): 

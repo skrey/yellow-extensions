@@ -10,9 +10,9 @@ You can show the current version of your website in a [web browser](https://gith
 
 You can use shortcuts to show information about the website:
 
-`[yellow]` = for current website version  
-`[yellow error]` = for current error message  
-`[yellow log]` = for latest entries in log file  
+`[yellow]` for current website version  
+`[yellow error]` for current error message  
+`[yellow log]` for latest entries in log file  
 
 ## How to update a website
 
