@@ -1,8 +1,8 @@
-Release 0.8.21
+Publish 0.8.21
 ==============
 Package and publish extensions.
 
-<p align="center"><img src="release-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
+<p align="center"><img src="publish-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>
 
 ## How to package an extension
 
@@ -10,7 +10,7 @@ The [update extension](https://github.com/datenstrom/yellow-extensions/tree/mast
 
 ## How to publish an extension
 
-First increase the version number in your PHP code, then create a new release at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php release` followed by a folder. Upload your extension to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
+First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish` followed by a folder. Upload your extension to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
 
 ## Examples
 
@@ -64,9 +64,9 @@ system/resources/basic-icon.png: Basic,basic-icon.png,create
 
 Publishing extensions at the command line:
 
-`php yellow.php release yellow-extension-basic`  
-`php yellow.php release yellow-extension-example`  
-`php yellow.php release yellow-extensions/languages/english`  
+`php yellow.php publish yellow-extension-basic`  
+`php yellow.php publish yellow-extension-example`  
+`php yellow.php publish yellow-extensions/languages/english`  
 
 ## Settings
 
@@ -87,7 +87,7 @@ The following settings can be configured in file `extension.ini`:
 
 `public` = extension is visible in official repository  
 `unlisted` = extension is not visible in official repository  
-`unreleased` = extension is not available in official repository  
+`unpublished` = extension is not available in official repository  
 
 <a id="settings-actions"></a>The following file actions are supported:
 
@@ -100,7 +100,7 @@ The following settings can be configured in file `extension.ini`:
 
 ## Installation
 
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/release.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/publish.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 

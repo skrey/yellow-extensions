@@ -84,7 +84,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
   Visa slumpmässiga sidor från angiven plats. Utvecklad av Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Alternativ sida omdirigering. Utvecklad av Steffen Schultz.
-* [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
+* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish): 
   Paketera och publicera tillägg. Utvecklad av Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Heltekstsökning. Utvecklad av Datenstrom.

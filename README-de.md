@@ -84,7 +84,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
   Zufällige Seiten eines bestimmten Ortes anzeigen. Entwickelt von Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect/README-de.md): 
   Alternative Seitenweiterleitung. Entwickelt von Steffen Schultz.
-* [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md): 
+* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish/README-de.md): 
   Erweiterungen verpacken und veröffentlichen. Entwickelt von Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search/README-de.md): 
   Volltext-Suche. Entwickelt von Datenstrom.

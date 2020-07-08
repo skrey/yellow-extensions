@@ -1,8 +1,8 @@
-Release 0.8.21
+Publish 0.8.21
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
-<p align="center"><img src="release-screenshot.png?raw=true" width="794" height="478" alt="Bildschirmfoto"></p>
+<p align="center"><img src="publish-screenshot.png?raw=true" width="794" height="478" alt="Bildschirmfoto"></p>
 
 ## Wie man eine Erweiterung verpackt
 
@@ -10,7 +10,7 @@ Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/ma
 
 ## Wie man eine Erweiterung veröffentlicht
 
-Erhöhe zuerst die Versionsnummer in deinem PHP-Code und erzeuge dann ein neues Release in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php release` gefolgt von einem Verzeichnis. Lade deine Erweiterung zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
+Erhöhe zuerst die Versionsnummer in deinem PHP-Code und veröffentliche dann deine Erweiterung in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php publish` gefolgt von einem Verzeichnis. Lade deine Erweiterung zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
 
 ## Beispiele
 
@@ -64,9 +64,9 @@ system/resources/basic-icon.png: Basic,basic-icon.png,create
 
 Erweiterungen in der Befehlszeile veröffentlichen:
 
-`php yellow.php release yellow-extension-basic`  
-`php yellow.php release yellow-extension-example`  
-`php yellow.php release yellow-extensions/languages/english`  
+`php yellow.php publish yellow-extension-basic`  
+`php yellow.php publish yellow-extension-example`  
+`php yellow.php publish yellow-extensions/languages/english`  
 
 ## Einstellungen
 
@@ -87,7 +87,7 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 
 `public` = Erweiterung ist im offiziellen Repository sichtbar  
 `unlisted` = Erweiterung ist im offiziellen Repository nicht sichtbar  
-`unreleased` = Erweiterung ist im offiziellen Repository nicht vorhanden  
+`unpublished` = Erweiterung ist im offiziellen Repository nicht vorhanden  
 
 <a id="einstellungen-actions"></a>Die folgenden Dateiaktionen werden unterstützt:
 
@@ -100,7 +100,7 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 
 ## Installation
 
-[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/release.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/publish.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 

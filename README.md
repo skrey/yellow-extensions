@@ -84,7 +84,7 @@ More features, languages and themes for Datenstrom Yellow.
   Display random pages from specified location. Developed by Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Alternative page redirection. Developed by Steffen Schultz.
-* [Release](https://github.com/datenstrom/yellow-extensions/tree/master/features/release): 
+* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish): 
   Package and publish extensions. Developed by Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Full-text search. Developed by Datenstrom.
