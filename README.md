@@ -78,14 +78,14 @@ More features, languages and themes for Datenstrom Yellow.
   Show links to previous/next page. Developed by Datenstrom.
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
   Support for password-protected pages. Developed by Steffen Schultz.
+* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish): 
+  Package and publish extensions. Developed by Datenstrom.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss): 
   Widgets for RadioBoss Cloud. Developed by Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
   Display random pages from specified location. Developed by Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Alternative page redirection. Developed by Steffen Schultz.
-* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish): 
-  Package and publish extensions. Developed by Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Full-text search. Developed by Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):

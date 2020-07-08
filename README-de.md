@@ -78,14 +78,14 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
   Links zu vorherigen/nächsten Seite anzeigen. Entwickelt von Datenstrom.
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private/README-de.md): 
   Unterstützung für passwortgeschützte Seiten. Entwickelt von Steffen Schultz.
+* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish/README-de.md): 
+  Erweiterungen verpacken und veröffentlichen. Entwickelt von Datenstrom.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss/README-de.md): 
   Widgets für RadioBoss Cloud. Entwickelt von Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random/README-de.md): 
   Zufällige Seiten eines bestimmten Ortes anzeigen. Entwickelt von Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect/README-de.md): 
   Alternative Seitenweiterleitung. Entwickelt von Steffen Schultz.
-* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish/README-de.md): 
-  Erweiterungen verpacken und veröffentlichen. Entwickelt von Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search/README-de.md): 
   Volltext-Suche. Entwickelt von Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):

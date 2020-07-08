@@ -78,14 +78,14 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
   Visa länkar till föregående/nästa sida. Utvecklad av Datenstrom.
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
   Stöd för lösenordsskyddade sidor. Utvecklad av Steffen Schultz.
+* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish): 
+  Paketera och publicera tillägg. Utvecklad av Datenstrom.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss): 
   Widgets för RadioBoss Cloud. Utvecklad av Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
   Visa slumpmässiga sidor från angiven plats. Utvecklad av Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Alternativ sida omdirigering. Utvecklad av Steffen Schultz.
-* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish): 
-  Paketera och publicera tillägg. Utvecklad av Datenstrom.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search): 
   Heltekstsökning. Utvecklad av Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):
