@@ -64,12 +64,12 @@ Eingebauten Webserver in der Befehlszeile starten:
 Die folgenden Befehle sind verfügbar:
 
 `php yellow.php about` um die aktuelle Version anzuzeigen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php build` um statische Webseite zu erstellen  
-`php yellow.php check` um statische Webseite nach fehlerhaften Links zu überprüfen  
-`php yellow.php clean` um statische Webseite zu löschen  
+`php yellow.php build` um statische Webseite zu erstellen mit der Command-Erweiterung  
+`php yellow.php check` um statische Webseite zu überprüfen mit der Command-Erweiterung  
+`php yellow.php clean` um statische Webseite zu löschen mit der Command-Erweiterung  
 `php yellow.php install` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 `php yellow.php release` um Erweiterungen zu veröffentlichen mit der [Release-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/release/README-de.md)  
-`php yellow.php serve` um den eingebauten Webserver zu starten  
+`php yellow.php serve` um den eingebauten Webserver zu starten mit der Command-Erweiterung  
 `php yellow.php traffic` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
 `php yellow.php uninstall` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
 `php yellow.php update` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  

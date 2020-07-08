@@ -122,7 +122,7 @@ Using HTML:
 
 ## Settings
 
-There's an experimental Markdown parser. [Download file](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) and copy it into your `system/extensions` folder. The default parser is defined in file `system/settings/system.ini`. A different parser can be defined in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of each page, for example  `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
+There's an experimental Markdown parser you can try out. [Download file](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) and copy it into your `system/extensions` folder. The default parser is defined in file `system/settings/system.ini`. A different parser can be defined in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of each page, for example  `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
 
 ## Installation
 
