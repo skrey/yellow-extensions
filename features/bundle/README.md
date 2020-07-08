@@ -46,6 +46,23 @@ Website with bundled CSS and JavaScript files:
 </html>
 ```
 
+Website with excluded file:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example page</title>
+<link rel="stylesheet" type="text/css" media="all" href="/media/resources/bundle-dfd1ef8a4c.min.css" />
+<script type="text/javascript" defer="defer" src="/media/resources/bundle-3808f805bc.min.js"></script>
+<script type="text/javascript" defer="defer" data-bundle="exclude" src="/media/extensions/debug.js"></script>
+</head>
+<body>
+<h1>Hello world</h1>
+</body>
+</html>
+```
+
 ## Installation
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.

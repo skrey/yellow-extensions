@@ -27,15 +27,15 @@ Inhaltsdatei mit normaler Seite:
     ---
     Title: Beispielseite
     ---
-    Diese Webseite ist erstellt mit Datenstrom Yellow.
+    Diese Seite ist in der statischen Webseite enthalten.
 
-Inhaltsdatei mit Optionen zum Erstellen einer statischen Webseite:
+Inhaltsdatei mit ausgeschlossener Seite:
 
     ---
     Title: Beispielseite
     Build: exclude
     ---
-    Diese Seite ist in einer statischen Webseite nicht enthalten.
+    Diese Seite ist in der statischen Webseite nicht enthalten.
 
 Vorhandene Befehle in der Befehlszeile anzeigen:
 

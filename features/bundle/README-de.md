@@ -46,6 +46,23 @@ Webseite mit gebündelten CSS- und JavaScript-Dateien:
 </html>
 ```
 
+Webseite mit ausgeschlossener Datei:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example page</title>
+<link rel="stylesheet" type="text/css" media="all" href="/media/resources/bundle-dfd1ef8a4c.min.css" />
+<script type="text/javascript" defer="defer" src="/media/resources/bundle-3808f805bc.min.js"></script>
+<script type="text/javascript" defer="defer" data-bundle="exclude" src="/media/extensions/debug.js"></script>
+</head>
+<body>
+<h1>Hello world</h1>
+</body>
+</html>
+```
+
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.

@@ -8,8 +8,6 @@ Textformatierung für Menschen.
 
 Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist der [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
 
-Es gibt auch einen experimentellen Parser. [Datei herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) und in dein `system/extensions`-Verzeichnis kopieren. Jetzt kannst du Parser wechseln mit `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
-
 ## Wie man Abkürzungen benutzt
 
 Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, Abkürzungen bieten häufige Funktionen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome/README-de.md), [Icons](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome/README-de.md), [Karten](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap/README-de.md), [Inhaltsverzeichnis](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc/README-de.md) und mehr in deine Webseite einbinden.
@@ -121,6 +119,10 @@ HTML benutzen:
 
     <strong>Text mit HTML</strong> kann wahlweise benutzt werden.
     <a href="https://datenstrom.se/de/" target="_blank">Link in einem neuen Tab öffnen</a>.
+
+## Einstellungen
+
+Es gibt verschiedene Markdown-Parser die du verwenden kannst. [Datei herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) und in dein `system/extensions`-Verzeichnis kopieren. Jetzt kannst du Parser wechseln mit `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
 
 ## Installation
 

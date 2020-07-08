@@ -27,15 +27,15 @@ Content file with normal page:
     ---
     Title: Example page
     ---
-    This website is made with Datenstrom Yellow.
+    This page is included in static website.
 
-Content file with build options for static website:
+Content file with excluded page:
 
     ---
     Title: Example page
     Build: exclude
     ---
-    This page is not included in a static website.
+    This page is not included in static website.
 
 Showing available commands at the command line:
 

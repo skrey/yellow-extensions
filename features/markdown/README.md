@@ -8,8 +8,6 @@ Text formatting for humans.
 
 Markdown is a practical way to edit web pages. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
 
-There's also an experimental parser. [Download file](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) and copy it into your `system/extensions` folder. Now you can switch Markdown parsers with `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
-
 ## How to use shortcuts
 
 In addition to Markdown there are shortcuts. Markdown provides the basic features, shortcuts provide common features. You can add [images](https://github.com/datenstrom/yellow-extensions/tree/master/features/image), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome), [icons](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome), [maps](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap), [table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc) and more to your website.
@@ -121,6 +119,10 @@ Using HTML:
 
     <strong>Text with HTML</strong> can be used optionally.
     <a href="https://datenstrom.se" target="_blank">Open link in new tab</a>.
+
+## Settings
+
+There are different Markdown parsers you can use. [Download file](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) and copy it into your `system/extensions` folder. Now you can switch Markdown parsers with `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
 
 ## Installation
 
