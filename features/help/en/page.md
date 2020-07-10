@@ -8,9 +8,9 @@ TitleSlug: help
 ## Get help
 
 ! {.wikipages}
-! * [How to make a website](how-to-make-a-website)
-! * [How to make a blog](how-to-make-a-blog)
-! * [How to make a wiki](how-to-make-a-wiki)
+! * [How to make a small website](how-to-make-a-small-website)
+! * [How to make a small blog](how-to-make-a-small-blog)
+! * [How to make a small wiki](how-to-make-a-small-wiki)
 ! * [Markdown cheat sheet](markdown-cheat-sheet)
 ! * [API for developers](api)
 ! * [Adjusting content](adjusting-content)

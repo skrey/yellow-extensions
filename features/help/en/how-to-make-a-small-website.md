@@ -1,5 +1,5 @@
 ---
-Title: How to make a website
+Title: How to make a small website
 ---
 Learn how to make your own website.
 

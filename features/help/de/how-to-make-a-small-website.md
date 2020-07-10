@@ -1,5 +1,5 @@
 ---
-Title: Wie man eine Webseite erstellt
+Title: Wie man eine kleine Webseite erstellt
 ---
 Lerne wie man eine eigene Webseite erstellt.
 

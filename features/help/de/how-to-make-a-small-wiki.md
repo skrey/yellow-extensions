@@ -1,5 +1,5 @@
 ---
-Title: Wie man ein Wiki erstellt
+Title: Wie man ein kleines Wiki erstellt
 ---
 Lerne wie man ein eigenes Wiki erstellt.
 

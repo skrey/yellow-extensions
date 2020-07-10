@@ -8,9 +8,9 @@ TitleSlug: help
 ## Hilfe finden
 
 ! {.wikipages}
-! * [Wie man eine Webseite erstellt](how-to-make-a-website)
-! * [Wie man ein Blog erstellt](how-to-make-a-blog)
-! * [Wie man ein Wiki erstellt](how-to-make-a-wiki)
+! * [Wie man eine kleine Webseite erstellt](how-to-make-a-small-website)
+! * [Wie man ein kleines Blog erstellt](how-to-make-a-small-blog)
+! * [Wie man ein kleines Wiki erstellt](how-to-make-a-small-wiki)
 ! * [Markdown-Spickzettel](markdown-cheat-sheet)
 ! * [API für Entwickler](api)
 ! * [Inhalt anpassen](adjusting-content)

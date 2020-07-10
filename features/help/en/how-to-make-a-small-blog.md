@@ -1,5 +1,5 @@
 ---
-Title: How to make a blog
+Title: How to make a small blog
 ---
 Learn how to make your own blog.
 

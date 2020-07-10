@@ -1,5 +1,5 @@
 ---
-Title: How to make a wiki
+Title: How to make a small wiki
 ---
 Learn how to make your own wiki.
 

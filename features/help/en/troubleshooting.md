@@ -165,4 +165,4 @@ YellowSystem::load Layout:default
 
 * [How to start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
 * [How to show the version of a website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)
-* [How to report a problem](https://github.com/datenstrom/yellow/blob/master/CONTRIBUTING.md)
+* [How to make a secure website](https://github.com/datenstrom/yellow-extensions/tree/master/features/core)

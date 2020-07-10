@@ -1,5 +1,5 @@
 ---
-Title: Wie man ein Blog erstellt
+Title: Wie man ein kleines Blog erstellt
 ---
 Lerne wie man ein eigenes Blog erstellt.
 
