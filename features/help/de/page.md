@@ -24,7 +24,7 @@ TitleSlug: help
 
 ## Möchtest du Fragen stellen?
 
-Hast du Fragen? Funktioniert etwas nicht? Es besteht eine gute Chance, dass deine Frage bereits beantwortet wurde. Falls nicht, erstelle eine neue Anfrage. Füge viele Details hinzu, je mehr wir wissen, desto besser können wir helfen. Gib die Version deiner Webseite an. So bekommst du Hilfe und alle anderen können die Antworten auch lesen. [Fragen stellen](https://github.com/datenstrom/yellow/issues) und [mitmachen](https://github.com/datenstrom/yellow/blob/master/CONTRIBUTING.md).  
+Funktioniert etwas nicht? Brauchst du weitere Informationen? Es besteht eine gute Chance, dass deine Frage bereits beantwortet wurde. Falls nicht, erstelle eine neue Anfrage. Füge viele Details hinzu, je mehr wir wissen, desto besser können wir helfen. Gib die Version deiner Webseite an. So bekommst du Hilfe und alle anderen können die Antworten lesen. [Fragen stellen](https://github.com/datenstrom/yellow/issues) und [mitmachen](contributing-guidelines).  
 
 ## Möchtest du Support haben?
 

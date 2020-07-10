@@ -143,7 +143,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/themes/stockholm): 
   Stockholm är ett rent webbplatstema. Designad av Datenstrom.
 
-Har du några frågor? [Hitta hjälp](https://datenstrom.se/yellow/help/) och [engagera dig](CONTRIBUTING.md).
+Har du några frågor? [Hitta hjälp](https://datenstrom.se/yellow/help/) och [engagera dig](https://datenstrom.se/yellow/help/contributing-guidelines).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
