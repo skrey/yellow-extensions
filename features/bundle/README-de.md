@@ -17,12 +17,12 @@ Webseite mit ungebündelten CSS- und JavaScript-Dateien:
 <html>
 <head>
 <title>Example page</title>
-<link rel="stylesheet" type="text/css" media="all" href="/user/mark/media/extensions/gallery.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/user/mark/media/extensions/twitter.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/user/mark/media/resources/stockholm.css" />
-<script type="text/javascript" defer="defer" src="/user/mark/media/extensions/gallery-photoswipe.min.js"></script>
-<script type="text/javascript" defer="defer" src="/user/mark/media/extensions/gallery.js"></script>
-<script type="text/javascript" defer="defer" src="/user/mark/media/extensions/twitter.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/media/extensions/gallery.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/media/extensions/twitter.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/media/resources/stockholm.css" />
+<script type="text/javascript" defer="defer" src="/media/extensions/gallery-photoswipe.min.js"></script>
+<script type="text/javascript" defer="defer" src="/media/extensions/gallery.js"></script>
+<script type="text/javascript" defer="defer" src="/media/extensions/twitter.js"></script>
 </head>
 <body>
 <h1>Hello world</h1>
