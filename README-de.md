@@ -45,9 +45,9 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Gallery](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery/README-de.md): 
   Bildergalerie mit Popup. Entwickelt von Datenstrom.
 * [Googlecalendar](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlecalendar/README-de.md): 
-  Google-Kalender einbinden Entwickelt von Datenstrom.
+  Google-Kalender einbinden. Entwickelt von Datenstrom.
 * [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap/README-de.md): 
-  Google-Karten einbinden Entwickelt von Datenstrom.
+  Google-Karten einbinden. Entwickelt von Datenstrom.
 * [Help](https://github.com/datenstrom/yellow-extensions/tree/master/features/help/README-de.md): 
   Hilfe für deine Webseite. Entwickelt von Datenstrom.
 * [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight/README-de.md): 
