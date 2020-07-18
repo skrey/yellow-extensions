@@ -24,7 +24,7 @@ TitleSlug: help
 
 ## Want to ask questions?
 
-Something doesn't work? Do you need more information? There's a good chance that your question has already been answered. If not, submit a new issue. Add a lot of details, the more we know the better we can help. Specify the version of your website. That way you get help and everyone else can read the answers. [Ask questions](https://github.com/datenstrom/yellow/issues) and [contribute](contributing-guidelines). 
+Can't find what you're looking for? Something doesn't work? There's a good chance that your question has already been answered. If not, submit a new issue. Add a lot of details, the more we know the better we can help. That way you get help and everyone else can read the answers as well. [Ask questions](https://github.com/datenstrom/yellow/issues) and [contribute](contributing-guidelines). 
 
 ## Want to have support?
 

@@ -11,31 +11,27 @@ The following problems can occur:
 
 **Datenstrom Yellow requires configuration file […]**
 
-* Copy the supplied `.htaccess` file into the installation folder.
-* Check if your FTP software has a setting to show all files.
+Copy the supplied `.htaccess` file into the installation folder. Check if your FTP software has a setting to show all files. It sometimes happens that the `.htaccess` file was overlooked during installation. After the missing file has been copied to the web server, the problem should be resolved.
 
 **Datenstrom Yellow requires write access […]**
 
-* Run the command `chmod -R a+rw *` in the installation folder. 
-* You can use your FTP software to give write permissions to all files.
+Run the command `chmod -R a+rw *` in the installation folder. You can use your FTP software to give write permissions to all files. It's recommended to give write permissions to all files and folders in the installation folder. As soon as the web server has sufficient write access in the `system` folder, the problem should be resolved.
 
 **Datenstrom Yellow requires rewrite support […]**
 
-* Configure the web server, see configuration files below.
-* You can use the built-in web server on your computer.
+Configure the web server, see configuration files below. You either need a configuration file for your web server or you use the built-in web server on your computer. The built-in web server is handy for developers. As soon as the web server forwards HTTP requests to `yellow.php`, the problem should be resolved.
 
 **Datenstrom Yellow requires PHP extension […]**
 
-* Install the missing PHP extension on your web server.
-* You need the following PHP extensions: curl, gd, exif, mbstring, zip.
+Install the missing PHP extension on your web server.
 
 **Datenstrom Yellow requires PHP 5.6 or higher!**
 
-* Install the latest PHP version on your web server.
+Install the latest PHP version on your web server.
 
 ## Problems with Apache
 
-Here's a `.htaccess` configuration file for the [Apache web server](https://httpd.apache.org):
+Here's a `.htaccess` configuration file for the Apache web server:
 
 ```apache
 <IfModule mod_rewrite.c>
@@ -66,7 +62,7 @@ When your website doesn't work, then you have to [enable the rewrite module](htt
 
 ## Problems with Nginx
 
-Here's a `nginx.conf` configuration file for the [Nginx web server](https://nginx.org/):
+Here's a `nginx.conf` configuration file for the Nginx web server:
 
 ```nginx
 server {
@@ -118,15 +114,15 @@ When your website doesn't work, then check `server_name` and `root` in the confi
 
 ## System diagnostics
 
-The log file `system/extensions/yellow.log` shows important information and errors. Here's an example:
+The file `system/extensions/yellow.log` shows important information and errors. Here's an example:
 
 ```
-2019-03-12 13:33:37 info Datenstrom Yellow 0.8.8, PHP 7.1.23, Apache 2.4.33, Darwin
-2019-03-12 13:33:37 info Install extension 'English 0.8.10'
-2019-03-12 13:33:37 info Install extension 'French 0.8.10'
-2019-03-12 13:33:37 info Install extension 'German 0.8.10'
-2019-03-12 13:33:49 info Install extension 'Blog 0.8.4'
-2019-03-12 13:33:49 info Add user 'Anna'
+2020-07-12 13:33:37 info Datenstrom Yellow 0.8.13, PHP 7.1.23, Apache 2.4.33, Darwin
+2020-07-12 13:33:37 info Install extension 'English 0.8.21'
+2020-07-12 13:33:37 info Install extension 'French 0.8.21'
+2020-07-12 13:33:37 info Install extension 'German 0.8.21'
+2020-07-12 13:33:49 info Install extension 'Blog 0.8.7'
+2020-07-12 13:33:49 info Add user 'Anna'
 ```
 
 For more information open file `system/extensions/core.php` and change `<?php define("DEBUG", 1);`
@@ -136,7 +132,7 @@ YellowCore::sendPage Cache-Control: max-age=60
 YellowCore::sendPage Content-Type: text/html; charset=utf-8
 YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
 YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
-YellowCore::sendPage layout:blogpages theme:flatsite parser:markdown
+YellowCore::sendPage language:en layout:blogpages theme:stockholm parser:markdown
 YellowCore::processRequest file:content/1-en/2-features/1-blog/page.md
 YellowCore::request status:200 time:19 ms
 ```
@@ -144,17 +140,17 @@ YellowCore::request status:200 time:19 ms
 Get file system information by increasing debug level to `<?php define("DEBUG", 2);`
 ```
 YellowSystem::load file:system/settings/system.ini
-YellowEditUsers::load file:system/settings/user.ini
-YellowText::load file:system/extensions/english-language.txt
-YellowText::load file:system/extensions/french-language.txt
-YellowText::load file:system/extensions/german-language.txt
-YellowText::load file:system/settings/text.ini
+YellowUser::load file:system/settings/user.ini
+YellowLanguage::load file:system/extensions/english.txt
+YellowLanguage::load file:system/extensions/french.txt
+YellowLanguage::load file:system/extensions/german.txt
+YellowLanguage::load file:system/settings/language.ini
 ```
 
 Get maximum information by increasing debug level to `<?php define("DEBUG", 3);`
 ```
 YellowSystem::load file:system/settings/system.ini
-YellowSystem::load Sitename:Datenstrom developers
+YellowSystem::load Sitename:Datenstrom Yellow
 YellowSystem::load Author:Datenstrom
 YellowSystem::load Email:webmaster
 YellowSystem::load Language:en
@@ -165,4 +161,4 @@ YellowSystem::load Layout:default
 
 * [How to start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
 * [How to show the version of a website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)
-* [How to make a secure website](https://github.com/datenstrom/yellow-extensions/tree/master/features/core)
+* [How to report a problem](contributing-guidelines)
