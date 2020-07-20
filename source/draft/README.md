@@ -6,11 +6,11 @@ Support for draft pages.
 
 ## How to make a draft page
 
-Set `Status: draft` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. The page will no longer be visible. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+Set `Status: draft` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page. The page will no longer be visible. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the file system.
 
 ## How to find draft pages
 
-All draft pages are available on your website as `http://website/edit/drafts/`. You can also use the [search extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/search). Once you're logged in with your user account, you can search for `status:draft`. This allows you to find all draft pages.
+All draft pages are available on your website as `http://website/edit/drafts/`. You can also use the [search extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/search). Once you're logged in with your user account, you can search for `status:draft`. This allows you to find all draft pages.
 
 ## Examples
 
@@ -63,6 +63,6 @@ The following files can be configured:
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

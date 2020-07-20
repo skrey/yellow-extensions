@@ -6,7 +6,7 @@ Wiki für deine Webseite.
 
 ## Wie man ein Wiki benutzt
 
-Das Wiki ist auf deiner Webseite vorhanden als `http://website/wiki/`. Um das Wiki auf der Startseite anzuzeigen, gehe in dein `content`-Verzeichnis und lösche das `1-home`-Verzeichnis. Um eine neue Wikiseite hinzuzufügen, erstelle eine neue Datei im Wikiverzeichnis. Ganz oben auf einer Seite kannst du `Title` und weitere [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) festlegen. Mit `Tag` kann man ähnliche Seiten gruppieren. 
+Das Wiki ist auf deiner Webseite vorhanden als `http://website/wiki/`. Um das Wiki auf der Startseite anzuzeigen, gehe in dein `content`-Verzeichnis und lösche das `1-home`-Verzeichnis. Um eine neue Wikiseite hinzuzufügen, erstelle eine neue Datei im Wikiverzeichnis. Ganz oben auf einer Seite kannst du `Title` und weitere [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) festlegen. Mit `Tag` kann man ähnliche Seiten gruppieren. 
 
 ## Wie man Wikiinformationen anzeigt
 
@@ -108,6 +108,6 @@ Die folgenden Dateien können angepasst werden:
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

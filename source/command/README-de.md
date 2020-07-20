@@ -63,17 +63,17 @@ Eingebauten Webserver in der Befehlszeile starten:
 
 Die folgenden Befehle sind verfügbar:
 
-`php yellow.php about` um die aktuelle Version anzuzeigen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`php yellow.php about` um die aktuelle Version anzuzeigen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php build` um statische Webseite zu erstellen mit der Command-Erweiterung  
 `php yellow.php check` um statische Webseite zu überprüfen mit der Command-Erweiterung  
 `php yellow.php clean` um statische Webseite zu löschen mit der Command-Erweiterung  
-`php yellow.php install` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php publish` um Erweiterungen zu veröffentlichen mit der [Publish-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish/README-de.md)  
+`php yellow.php install` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php publish` um Erweiterungen zu veröffentlichen mit der [Publish-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md)  
 `php yellow.php serve` um den eingebauten Webserver zu starten mit der Command-Erweiterung  
-`php yellow.php traffic` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic/README-de.md)  
-`php yellow.php uninstall` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php update` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
-`php yellow.php user` um Benutzerkonten zu aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit/README-de.md)  
+`php yellow.php traffic` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md)  
+`php yellow.php uninstall` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php update` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php user` um Benutzerkonten zu aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 
 ## Installation
 
@@ -84,6 +84,6 @@ Die folgenden Befehle sind verfügbar:
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

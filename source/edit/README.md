@@ -12,7 +12,7 @@ The login page is available on your website as `http://website/edit/`. Log in wi
 
 The first option is to create a user account in a web browser. Go to the login page. You can create a user account and change your password. The webmaster needs to approve new user accounts. The webmaster's email is defined in file `system/settings/system.ini`.
 
-The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/features/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user add` followed by email and password. All user accounts are stored in file `system/settings/user.ini`.
+The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user add` followed by email and password. All user accounts are stored in file `system/settings/user.ini`.
 
 ## How to restrict a user account
 
@@ -149,8 +149,8 @@ The following settings can be configured in file `system/settings/text.ini`:
 `edit` = user can edit page  
 `delete` = user can delete page  
 `upload` = user can upload media files  
-`system` = user can [change system settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings-system)  
-`update` = user can [update website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`system` = user can [change system settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings-system)  
+`update` = user can [update website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 
 <a id="settings-status"></a>The following user status values are supported:
 
@@ -178,6 +178,6 @@ The following settings can be configured in file `system/settings/text.ini`:
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

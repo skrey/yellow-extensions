@@ -63,17 +63,17 @@ Start built-in web server at the command line:
 
 The following commands are available:
 
-`php yellow.php about` to show current version with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
+`php yellow.php about` to show current version with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php build` to build static website with the command extension  
 `php yellow.php check` to check static website with the command extension  
 `php yellow.php clean` to clean static website with the command extension  
-`php yellow.php install` to add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php publish` to publish extensions with the [publish extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/publish)  
+`php yellow.php install` to add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php publish` to publish extensions with the [publish extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)  
 `php yellow.php serve` to start built-in web server with the command extension  
-`php yellow.php traffic` to create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/traffic)  
-`php yellow.php uninstall` to remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php update` to update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)  
-`php yellow.php user` to update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`php yellow.php traffic` to create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
+`php yellow.php uninstall` to remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php update` to update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php user` to update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 
 ## Installation
 
@@ -84,6 +84,6 @@ The following commands are available:
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

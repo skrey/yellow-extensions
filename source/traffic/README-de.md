@@ -6,7 +6,7 @@ Zugriffsanalysen aus Webserver-Logdateien erstellen.
 
 ## Wie man Zugriffsanalysen erstellt
 
-Die Zugriffsanalysen sind in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) vorhanden. Es zeigt verweisende Webseiten, beliebte Inhalte, Dateien und Suchanfragen.  Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php traffic` gefolgt von optionalen Tagen und Ort.
+Die Zugriffsanalysen sind in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) vorhanden. Es zeigt verweisende Webseiten, beliebte Inhalte, Dateien und Suchanfragen.  Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php traffic` gefolgt von optionalen Tagen und Ort.
 
 ## Beispiele
 
@@ -35,6 +35,6 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

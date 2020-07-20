@@ -6,7 +6,7 @@ Blog for your website.
 
 ## How to use a blog
 
-The blog is available on your website as `http://website/blog/`. To show the blog on the home page, go to your `content` folder and delete the `1-home` folder. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. The publishing date will be used to sort blog pages. Use `Tag` to group similar pages together. You can use `[--more--]` to add a page break at the desired spot.
+The blog is available on your website as `http://website/blog/`. To show the blog on the home page, go to your `content` folder and delete the `1-home` folder. To create a new blog page, add a new file to the blog folder. Set `Published` and other [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page. The publishing date will be used to sort blog pages. Use `Tag` to group similar pages together. You can use `[--more--]` to add a page break at the desired spot.
 
 ## How to show blog information
 
@@ -109,6 +109,6 @@ The following files can be configured:
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

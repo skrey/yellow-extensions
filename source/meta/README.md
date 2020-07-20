@@ -8,7 +8,7 @@ Meta data for social media sites.
 
 This extension generates meta data for the [Open Graph protocol](http://ogp.me/). 
 
-You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. You can configure further meta data in the HTML header, for example in file `system/layouts/header.html`.
+You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page. You can configure further meta data in the HTML header, for example in file `system/layouts/header.html`.
 
 ## Example
 
@@ -54,6 +54,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 Datenstrom, Steffen Schultz. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

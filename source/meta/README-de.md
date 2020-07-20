@@ -8,7 +8,7 @@ Metadaten für soziale Medien.
 
 Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](http://ogp.me/). 
 
-Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) festlegen. Weitere Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
+Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) festlegen. Weitere Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
 
 ## Beispiele
 
@@ -54,6 +54,6 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 Datenstrom, Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

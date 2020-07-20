@@ -6,7 +6,7 @@ Email contact page.
 
 ## How to use a contact page
 
-The contact page is available on your website as `http://website/contact/`. The webmaster receives all contact messages. The webmaster's email is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of a page. To show a contact form on other pages use a `[contact]` shortcut. You can also add a link to the contact page somewhere on your website.
+The contact page is available on your website as `http://website/contact/`. The webmaster receives all contact messages. The webmaster's email is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page. To show a contact form on other pages use a `[contact]` shortcut. You can also add a link to the contact page somewhere on your website.
 
 ## How to restrict a contact page
 
@@ -79,6 +79,6 @@ The following files can be configured:
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

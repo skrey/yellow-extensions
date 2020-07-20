@@ -34,7 +34,7 @@ Adding an icon, double size:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`FontawesomeToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit)  
+`FontawesomeToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 
 ## Installation
 
@@ -47,6 +47,6 @@ This extension uses [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Aw
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

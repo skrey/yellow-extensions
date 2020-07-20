@@ -6,7 +6,7 @@ Help for your website.
 
 ## How to use the help
 
-The help is available on your website as `http://website/help/`. The help gives you more information about how to create small web pages, blogs and wikis. The help is currently available in English and German. Let us know if you made a new translation. It's recommended to also install the [toc extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc).
+The help is available on your website as `http://website/help/`. The help gives you more information about how to create small web pages, blogs and wikis. The help is currently available in English and German. Let us know if you made a new translation. It's recommended to also install the [toc extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc).
 
 ## Installation
 
@@ -17,6 +17,6 @@ The help is available on your website as `http://website/help/`. The help gives 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

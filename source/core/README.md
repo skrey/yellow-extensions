@@ -6,9 +6,9 @@ Core functionality of the website.
 
 ## How to customise a website
 
-If you want to adjust the content, then use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown). All content is located in your `content` folder. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder. Some themes have support for header, footer and sidebar.
+If you want to adjust the content, then use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown). All content is located in your `content` folder. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder. Some themes have support for header, footer and sidebar.
 
-If you want to adjust HTML, then change the layout. The default layout is defined in file `system/settings/system.ini`. A different layout can be defined in the [settings](#settings) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/features/help), for example to create your own navigation.
+If you want to adjust HTML, then change the layout. The default layout is defined in file `system/settings/system.ini`. A different layout can be defined in the [settings](#settings) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), for example to create your own navigation.
 
 If you want to adjust CSS, then change the theme. The default theme is defined in file `system/settings/system.ini`. A different theme can be defined in the [settings](#settings) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All resource files are stored in your `system/resources` folder. There are [themes](https://github.com/datenstrom/yellow-extensions#themes) to download.
 
@@ -22,11 +22,11 @@ If you want to configure text, then change the text settings. Open file `system/
 
 ## How to make a secure website
 
-[Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/features/update). It's recommended to update the website as soon as a new release is available. Also check if your website supports data encryption. It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
+[Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/source/update). It's recommended to update the website as soon as a new release is available. Also check if your website supports data encryption. It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
 
-If you don't want that pages are modified, then restrict [user accounts](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit). You can configure what users are allowed to do, which pages can be changed and which files can be uploaded. The file formats GIF, JPG, PDF, PNG, SVG and ZIP are supported per default.
+If you don't want that pages are modified, then restrict [user accounts](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit). You can configure what users are allowed to do, which pages can be changed and which files can be uploaded. The file formats GIF, JPG, PDF, PNG, SVG and ZIP are supported per default.
 
-If you don't want to get that many spam messages, then restrict the [contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact). You can determine who can receive messages and whether they can contain clickable links. It's recommended to restrict links, this blocks many unwanted messages.
+If you don't want to get that many spam messages, then restrict the [contact page](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact). You can determine who can receive messages and whether they can contain clickable links. It's recommended to restrict links, this blocks many unwanted messages.
 
 ## How to hide a page
 
@@ -34,7 +34,7 @@ Set `Status: unlisted` in the [settings](#settings) at the top of a page. The pa
 
 ## How to redirect a page
 
-Set `Redirect` in the [settings](#settings) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/features/edit) and the file system.
+Set `Redirect` in the [settings](#settings) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the file system.
 
 ## Examples
 
@@ -162,7 +162,7 @@ The following settings can be configured at the top of a page:
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Build` = page option(s) for building a [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command), comma separated  
+`Build` = page option(s) for building a [static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command), comma separated  
 
 <a id="settings-system"></a>The following settings can be configured in file `system/settings/system.ini`:
 
@@ -174,7 +174,7 @@ The following settings can be configured at the top of a page:
 `Theme` = default theme  
 `Parser` = default page parser  
 `Status` = default page status, [supported status values](#settings-status)  
-`CoreStaticUrl` = URL for [static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)  
+`CoreStaticUrl` = URL for [static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)  
 `CoreStaticDefaultFile` =  default file for static website  
 `CoreStaticErrorFile` = error file for static website  
 `CoreStaticDirectory` = directory for generated files  
@@ -197,7 +197,7 @@ The following settings can be configured at the top of a page:
 
 `public` = page is a normal page  
 `private` = page is not visible, user needs to enter password, requires [private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
-`draft` = page is not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)  
+`draft` = page is not visible, user needs to log in, requires [draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)  
 `unlisted` = page is not visible, but can be accessed with the correct link  
 `shared` = page is not available, but can be included in other pages  
 
@@ -219,6 +219,6 @@ The following settings can be configured at the top of a page:
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

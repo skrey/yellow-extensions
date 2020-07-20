@@ -12,7 +12,7 @@ Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. M
 
 Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu erstellen. Gehe zur Anmeldeseite. Du kannst ein Benutzerkonto erstellen und dein Kennwort ändern. Der Webmaster muss neue Benutzerkonten genehmigen. Die E-Mail des Webmasters wird in der Datei `system/settings/system.ini` festgelegt.
 
-Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/features/command/README-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/settings/user.ini` gespeichert.
+Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/settings/user.ini` gespeichert.
 
 ## Wie man ein Benutzerkonto beschränkt
 
@@ -149,8 +149,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorg
 `edit` = Benutzer kann Seite bearbeiten  
 `delete` = Benutzer kann Seite löschen  
 `upload` = Benutzer kann Mediendateien hochladen  
-`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen-system)  
-`update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/features/update/README-de.md)  
+`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen-system)  
+`update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 
 <a id="einstellungen-status"></a>Die folgenden Benutzer-Statuswerte werden unterstützt:
 
@@ -178,6 +178,6 @@ Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorg
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

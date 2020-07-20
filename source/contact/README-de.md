@@ -6,7 +6,7 @@ E-Mail-Kontaktseite.
 
 ## Wie man eine Kontaktseite benutzt
 
-Die Kontaktseite ist auf deiner Webseite vorhanden als `http://website/contact/`. Der Webmaster erhält alle Kontaktnachrichten. Die E-Mail des Webmasters wird in der Datei `system/settings/system.ini` festgelegt. Ganz oben auf einer Seite kannst du einen anderen `Author` und `Email` in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) festlegen. Um ein Kontaktformular auf anderen Seiten anzuzeigen, benutze eine `[contact]`-Abkürzung. Du kannst auch einen Link zur Kontaktseite irgendwo auf deiner Webseite einbauen.
+Die Kontaktseite ist auf deiner Webseite vorhanden als `http://website/contact/`. Der Webmaster erhält alle Kontaktnachrichten. Die E-Mail des Webmasters wird in der Datei `system/settings/system.ini` festgelegt. Ganz oben auf einer Seite kannst du einen anderen `Author` und `Email` in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) festlegen. Um ein Kontaktformular auf anderen Seiten anzuzeigen, benutze eine `[contact]`-Abkürzung. Du kannst auch einen Link zur Kontaktseite irgendwo auf deiner Webseite einbauen.
 
 ## Wie man eine Kontaktseite beschränkt
 
@@ -79,6 +79,6 @@ Die folgenden Dateien können angepasst werden:
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

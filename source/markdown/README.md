@@ -10,7 +10,7 @@ Markdown is a practical way to edit web pages. Here's the [Markdown syntax](http
 
 ## How to use shortcuts
 
-In addition to Markdown there are shortcuts. Markdown provides the basic features, shortcuts provide common features. You can add [images](https://github.com/datenstrom/yellow-extensions/tree/master/features/image), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome), [icons](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome), [maps](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap), [table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc) and more to your website.
+In addition to Markdown there are shortcuts. Markdown provides the basic features, shortcuts provide common features. You can add [images](https://github.com/datenstrom/yellow-extensions/tree/master/source/image), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome), [icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome), [maps](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap), [table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc) and more to your website.
 
 ## Examples
 
@@ -122,7 +122,7 @@ Using HTML:
 
 ## Settings
 
-There's an experimental Markdown parser you can try out. [Download file](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) and copy it into your `system/extensions` folder. The default parser is defined in file `system/settings/system.ini`. A different parser can be defined in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/features/core#settings) at the top of each page, for example  `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
+There's an experimental Markdown parser you can try out. [Download file](https://github.com/datenstrom/yellow-extensions/raw/master/source/markdown/markdownx.php) and copy it into your `system/extensions` folder. The default parser is defined in file `system/settings/system.ini`. A different parser can be defined in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of each page, for example  `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra.
 
 ## Installation
 
@@ -135,6 +135,6 @@ This extension uses [Markdown Extra v1.9.0](https://github.com/michelf/php-markd
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>

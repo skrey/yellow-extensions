@@ -10,7 +10,7 @@ Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist der [Markd
 
 ## Wie man Abkürzungen benutzt
 
-Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, Abkürzungen bieten häufige Funktionen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/features/image/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome/README-de.md), [Icons](https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome/README-de.md), [Karten](https://github.com/datenstrom/yellow-extensions/tree/master/features/googlemap/README-de.md), [Inhaltsverzeichnis](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc/README-de.md) und mehr in deine Webseite einbinden.
+Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, Abkürzungen bieten häufige Funktionen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md), [Icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-de.md), [Karten](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap/README-de.md), [Inhaltsverzeichnis](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md) und mehr in deine Webseite einbinden.
 
 ## Beispiele
 
@@ -122,7 +122,7 @@ HTML benutzen:
 
 ## Einstellungen
 
-Es gibt einen experimentellen Markdown-Parser. [Datei herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/features/markdown/markdownx.php) und in dein `system/extensions`-Verzeichnis kopieren. Der Standardparser wird in der Datei `system/settings/system.ini` festgelegt. Eine anderer Parser lässt sich in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/core/README-de.md#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra. 
+Es gibt einen experimentellen Markdown-Parser. [Datei herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/source/markdown/markdownx.php) und in dein `system/extensions`-Verzeichnis kopieren. Der Standardparser wird in der Datei `system/settings/system.ini` festgelegt. Eine anderer Parser lässt sich in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown` = Markdown Extra, `Parser: markdownx` = Parsedown Extra. 
 
 ## Installation
 
@@ -135,6 +135,6 @@ Diese Erweiterung benutzt [Markdown Extra v1.9.0](https://github.com/michelf/php
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/features/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
+<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
 </p>
