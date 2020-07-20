@@ -81,8 +81,8 @@ Status: shared
 
 There are [extensions](https://github.com/datenstrom/yellow-extensions) for your website. Here are some examples:
 
-* [How to add an image gallery](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery)
-* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [How to use a sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap)
-* [How to use a contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
-* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
+* [How to add an image gallery](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)
+* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
+* [How to use a sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap)
+* [How to use a contact page](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact)
+* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)

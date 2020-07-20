@@ -19,7 +19,7 @@ Run the command `chmod -R a+rw *` in the installation folder. You can use your F
 
 **Datenstrom Yellow requires rewrite support […]**
 
-Configure the web server, see configuration files below. You either need a configuration file for your web server or you use the built-in web server on your computer. The built-in web server is handy for developers. As soon as the web server forwards HTTP requests to `yellow.php`, the problem should be resolved.
+Configure the web server, see configuration files below. You either need a configuration file for your web server or you use the built-in web server on your computer. The built-in web server is handy for developers. As soon as the web server forwards HTTP requests to the `yellow.php`, the problem should be resolved.
 
 **Datenstrom Yellow requires PHP extension […]**
 
@@ -50,6 +50,20 @@ Here's a `.htaccess` configuration file for a subfolder, for example `http://web
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteBase /yellow/
+DirectoryIndex index.html yellow.php
+RewriteRule ^(cache|content|system)/ error [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ yellow.php [L]
+</IfModule>
+```
+
+Here's a `.htaccess` configuration file for a subdomain, for example `http://sub.domain.website/`:
+
+```apache
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
 DirectoryIndex index.html yellow.php
 RewriteRule ^(cache|content|system)/ error [L]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -159,6 +173,5 @@ YellowSystem::load Layout:default
 
 ## Related information
 
-* [How to start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
-* [How to show the version of a website](https://github.com/datenstrom/yellow-extensions/tree/master/features/update)
-* [How to report a problem](contributing-guidelines)
+* [How to start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
+* [How to create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)

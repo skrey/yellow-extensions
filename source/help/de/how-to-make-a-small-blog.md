@@ -49,7 +49,7 @@ schwedischen Alltag, dass es sowohl als Verb als auch als Nomen verwendet
 wird. Wie oft machst du Fika?
 ```
 
-Ein Video hinzufügen mit der [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube):
+Ein Video hinzufügen mit der [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube):
 
 ```
 ---
@@ -87,7 +87,7 @@ wird. Wie oft machst du Fika? [--more--]
 [youtube wnBHyfMtK5o]
 ```
 
-Verwende [Abkürzungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog#how-to-show-blog-information), um Informationen über das Blog anzuzeigen.
+Verwende [Abkürzungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog#how-to-show-blog-information), um Informationen über das Blog anzuzeigen.
 
 ## Kopfzeile anzeigen
 
@@ -117,8 +117,8 @@ Status: shared
 
 Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für dein Blog. Hier sind einige Beispiele:
 
-* [Wie man Kommentare anzeigt](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus)
-* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [Wie man einen Feed benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed)
-* [Wie man eine Entwurfseite macht](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
-* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
+* [Wie man Kommentare anzeigt](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus)
+* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
+* [Wie man einen Feed benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/feed)
+* [Wie man eine Entwurfseite macht](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)
+* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)

@@ -58,6 +58,20 @@ RewriteRule ^ yellow.php [L]
 </IfModule>
 ```
 
+Hier ist eine `.htaccess` Konfigurationsdatei für eine Subdomain, beispielsweise `http://sub.domain.website/`:
+
+```apache
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+DirectoryIndex index.html yellow.php
+RewriteRule ^(cache|content|system)/ error [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ yellow.php [L]
+</IfModule>
+```
+
 Wenn deine Webseite nicht funktioniert, dann musst du das [Rewrite-Modul aktivieren](https://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2) und die [globale Konfiguration aktualisieren](https://stackoverflow.com/questions/18740419/how-to-set-allowoverride-all). Nachdem die Konfiguration verändert wurde, musst du den Apache-Webserver neustarten/neuladen.
 
 
@@ -160,6 +174,5 @@ YellowSystem::load Layout:default
 
 ## Verwandte Informationen
 
-* [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/blob/master/features/command/README-de.md)
-* [Wie man die Version einer Webseite anzeigt](https://github.com/datenstrom/yellow-extensions/blob/master/features/update/README-de.md)
-* [Wie man ein Problem meldet](contributing-guidelines)
+* [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/blob/master/source/command/README-de.md)
+* [Wie man ein Benutzerkonto erstellt](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md)

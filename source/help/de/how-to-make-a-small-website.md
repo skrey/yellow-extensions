@@ -81,8 +81,8 @@ Status: shared
 
 Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für deine Webseite. Hier sind einige Beispiele:
 
-* [Wie man ein Bildergalerie hinzufügt](https://github.com/datenstrom/yellow-extensions/tree/master/features/gallery)
-* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [Wie man eine Sitemap benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/sitemap)
-* [Wie man eine Kontaktseite benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
-* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
+* [Wie man ein Bildergalerie hinzufügt](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)
+* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
+* [Wie man eine Sitemap benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap)
+* [Wie man eine Kontaktseite benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact)
+* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)

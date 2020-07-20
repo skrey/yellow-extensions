@@ -50,7 +50,7 @@ Kaffee ist ein Getränk aus gerösteten Bohnen der Kaffeepflanze.
 3. Genieße.
 ```
 
-Ein Video hinzufügen mit der [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube):
+Ein Video hinzufügen mit der [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube):
 
 ```
 ---
@@ -72,7 +72,7 @@ Kaffee ist ein Getränk aus gerösteten Bohnen der Kaffeepflanze.
 [youtube SUpY1BT9Xf4]
 ```
 
-Verwende [Abkürzungen](https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki#how-to-show-wiki-information), um Informationen über das Wiki anzuzeigen.
+Verwende [Abkürzungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki#how-to-show-wiki-information), um Informationen über das Wiki anzuzeigen.
 
 ## Kopfzeile anzeigen
 
@@ -102,9 +102,9 @@ Status: shared
 
 Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für dein Wiki. Hier sind einige Beispiele:
 
-* [Wie man ein Inhaltsverzeichnis macht](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc)
-* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [Wie man eine Kontaktseite benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
-* [Wie man eine Entwurfseite macht](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
-* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
+* [Wie man ein Inhaltsverzeichnis macht](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)
+* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
+* [Wie man eine Kontaktseite benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact)
+* [Wie man eine Entwurfseite macht](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)
+* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
 

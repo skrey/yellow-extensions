@@ -14,7 +14,7 @@ Das `downloads`-Verzeichnis enthält Dateien zum Herunterladen. Das `images`-Ver
 
 ## Bilder
 
-Du kannst die [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/image) benutzen um Bilder einzubinden. Um ein neues Bild hinzuzufügen, kopierst du eine neue Datei ins `images`-Verzeichnis und erstellst eine `[image]`-Abkürzung. Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Hier ist ein Beispiel:
+Du kannst die [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/image) benutzen um Bilder einzubinden. Um ein neues Bild hinzuzufügen, kopierst du eine neue Datei ins `images`-Verzeichnis und erstellst eine `[image]`-Abkürzung. Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Hier ist ein Beispiel:
 
 
     [image picture.jpg]
@@ -35,7 +35,7 @@ Bilder in unterschiedlichen Größen:
 
 ## Videos
 
-Du kannst die [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube) benutzen um Videos einzubinden.
+Du kannst die [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube) benutzen um Videos einzubinden.
 
     [youtube fhs55HEl-Gc]
     [youtube fhs55HEl-Gc left 200 112]

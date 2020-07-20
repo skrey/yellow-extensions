@@ -49,7 +49,7 @@ an important part of life in Sweden that it is both a verb and a noun.
 How often do you fika?
 ```
 
-Now let's add a video with the [Youtube extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube):
+Now let's add a video with the [Youtube extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube):
 
 ```
 ---
@@ -87,7 +87,7 @@ How often do you fika? [--more--]
 [youtube wnBHyfMtK5o]
 ```
 
-You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/features/blog#how-to-show-blog-information) to show information about the blog.
+You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog#how-to-show-blog-information) to show information about the blog.
 
 ## Showing header
 
@@ -117,8 +117,8 @@ Status: shared
 
 There are [extensions](https://github.com/datenstrom/yellow-extensions) for your blog. Here are some examples:
 
-* [How to show comments](https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus)
-* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [How to use a feed](https://github.com/datenstrom/yellow-extensions/tree/master/features/feed)
-* [How to make a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
-* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
+* [How to show comments](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus)
+* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
+* [How to use a feed](https://github.com/datenstrom/yellow-extensions/tree/master/source/feed)
+* [How to make a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)
+* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)

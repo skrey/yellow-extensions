@@ -12,15 +12,14 @@ TitleSlug: help
 ! * [Wie man ein kleines Blog erstellt](how-to-make-a-small-blog)
 ! * [Wie man ein kleines Wiki erstellt](how-to-make-a-small-wiki)
 ! * [Markdown-Spickzettel](markdown-cheat-sheet)
-! * [API für Entwickler](api)
 ! * [Inhalt anpassen](adjusting-content)
 ! * [Medien anpassen](adjusting-media)
 ! * [System anpassen](adjusting-system)
-! * [Sicherheitseinstellungen](security-configuration)
-! * [Fehlerbehebung](troubleshooting)
 ! * [HTML-Dateien](html-files)
 ! * [CSS-Dateien](css-files)
 ! * [JavaScript-Dateien](javascript-files)
+! * [API für Entwickler](api)
+! * [Fehlerbehebung](troubleshooting)
 
 ## Möchtest du Fragen stellen?
 

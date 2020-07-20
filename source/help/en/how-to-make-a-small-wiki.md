@@ -50,7 +50,7 @@ Coffee is a beverage made from the roasted beans of the coffee plant.
 3. Enjoy.
 ```
 
-Now let's add a video with the [Youtube extension](https://github.com/datenstrom/yellow-extensions/tree/master/features/youtube):
+Now let's add a video with the [Youtube extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube):
 
 ```
 ---
@@ -72,7 +72,7 @@ Coffee is a beverage made from the roasted beans of the coffee plant.
 [youtube SUpY1BT9Xf4]
 ```
 
-You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/features/wiki#how-to-show-wiki-information) to show information about the wiki.
+You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki#how-to-show-wiki-information) to show information about the wiki.
 
 ## Showing header
 
@@ -102,8 +102,8 @@ Status: shared
 
 There are [extensions](https://github.com/datenstrom/yellow-extensions) for your wiki. Here are some examples:
 
-* [How to make a table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/features/toc)
-* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/features/search)
-* [How to use a contact page](https://github.com/datenstrom/yellow-extensions/tree/master/features/contact)
-* [How to make a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/features/draft)
-* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/features/command)
+* [How to make a table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)
+* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
+* [How to use a contact page](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact)
+* [How to make a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)
+* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
