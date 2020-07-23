@@ -1,4 +1,4 @@
-Traffic 0.8.6
+Traffic 0.8.7
 =============
 Zugriffsanalysen aus Webserver-Logdateien erstellen.
 

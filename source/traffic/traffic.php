@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowTraffic {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     const TYPE = "feature";
     public $yellow;         //access to API
     public $days;           //number of days
@@ -206,7 +206,7 @@ class YellowTraffic {
     public function getSearchUrl($scheme, $address, $base, $location, $locationSearch) {
         $locationSearch = $base."(.*)".$locationSearch."query".$this->yellow->toolbox->getLocationArgumentsSeparator();
         $searchUrl = preg_match("#^$locationSearch([^/]+)/$#", $location) ? ("$scheme://$address".strtoloweru($location)) : "-";
-        return strreplaceu(array("%", "\x1c", "\x1d", "\x1e", "\x20"), array("%25", "%1C", "%1D", "%1E", "%20"), $searchUrl);
+        return str_replace(array("%", "\x1c", "\x1d", "\x1e", "\x20"), array("%25", "%1C", "%1D", "%1E", "%20"), $searchUrl);
     }
     
     // Return human readable status

@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowContact {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -104,7 +104,7 @@ class YellowContact {
     // Return email footer
     public function getMailFooter($url) {
         $footer = $this->yellow->text->get("contactMailFooter");
-        $footer = strreplaceu("\\n", "\r\n", $footer);
+        $footer = str_replace("\\n", "\r\n", $footer);
         $footer = preg_replace("/@sitename/i", $this->yellow->system->get("sitename"), $footer);
         $footer = preg_replace("/@title/i", $this->findTitle($url, $this->yellow->page->get("title")), $footer);
         return $footer;

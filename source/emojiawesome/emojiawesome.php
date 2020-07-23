@@ -4,7 +4,7 @@
 // This file may be used and distributed under the terms of the public license.
 
 class YellowEmojiawesome {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -20,7 +20,7 @@ class YellowEmojiawesome {
         $output = null;
         if (($name=="ea" && $type=="inline") || $type=="symbol") {
             list($shortname, $style) = $this->yellow->toolbox->getTextArguments($text);
-            if (preg_match("/ea-(.+)/", $shortname, $matches)) $shortname = strreplaceu("-", "_", $matches[1]);
+            if (preg_match("/ea-(.+)/", $shortname, $matches)) $shortname = str_replace("-", "_", $matches[1]);
             if ($this->isShortname($shortname)) {
                 $class = $this->normaliseClass(trim("ea ea-$shortname $style"));
                 $output = "<i class=\"".htmlspecialchars($class)."\"";
@@ -60,7 +60,7 @@ class YellowEmojiawesome {
     
     // Normalise emoji CSS class
     public function normaliseClass($text) {
-        return strreplaceu(array("+1", "-1", "_"), array("plus1", "minus1", "-"), $text);
+        return str_replace(array("+1", "-1", "_"), array("plus1", "minus1", "-"), $text);
     }
     
     // Normalise text with emoji, convert UTF8 and shortcode
