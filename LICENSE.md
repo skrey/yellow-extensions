@@ -338,5 +338,5 @@ Public License instead of this License.
 
 ## How to apply these terms to this repository 
 
-All files in this repository are licensed under GPLv2 and copyrighted by the 
+All files are licensed under GPLv2 and copyrighted by the 
 respective author/developer/translator/designer, unless stated otherwise.
