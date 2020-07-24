@@ -1,14 +1,12 @@
 <?php
-// Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/publish
-// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
-// This file may be used and distributed under the terms of the public license.
+// Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
     const VERSION = "0.8.21";
     const TYPE = "feature";
-    public $yellow;         //access to API
-    public $extensions;     //number of extensions
-    public $errors;         //number of errors
+    public $yellow;         // access to API
+    public $extensions;     // number of extensions
+    public $errors;         // number of errors
 
     // Handle initialisation
     public function onLoad($yellow) {

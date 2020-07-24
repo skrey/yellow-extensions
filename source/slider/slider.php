@@ -1,12 +1,10 @@
 <?php
-// Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/slider
-// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
-// This file may be used and distributed under the terms of the public license.
+// Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/slider
 
 class YellowSlider {
     const VERSION = "0.8.4";
     const TYPE = "feature";
-    public $yellow;         //access to API
+    public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {

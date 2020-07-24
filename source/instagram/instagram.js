@@ -1,6 +1,4 @@
-// Instagram extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/instagram
-// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
-// This file may be used and distributed under the terms of the public license.
+// Instagram extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram
 
 var initInstagramFromDOM = function() {
     var elements = document.querySelectorAll(".instagram-media");

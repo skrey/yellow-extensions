@@ -37,7 +37,7 @@ Eine weitere Konfigurationsdatei ist `system/settings/text.ini`. Hier ist ein Be
     CoreDateFormatMedium: d.m.Y
     picture.jpg: Das ist ein Beispielbild
 
-Dort kannst du die Texteinstellungen festlegen, zum Beispiel Textabschnitte und Bildunterschriften. Texteinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst beliebige Texte festlegen oder die [Voreinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/languages/german/german-language.txt) von Sprachen anpassen.
+Dort kannst du die Texteinstellungen festlegen, zum Beispiel Textabschnitte und Bildunterschriften. Texteinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst beliebige Texte festlegen oder die [Voreinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german-language.txt) von Sprachen anpassen.
 
 ## Benutzerkonten
 

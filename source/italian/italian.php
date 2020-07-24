@@ -1,12 +1,10 @@
 <?php
-// Italian extension, https://github.com/datenstrom/yellow-extensions/tree/master/languages/italian
-// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
-// This file may be used and distributed under the terms of the public license.
+// Italian extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/italian
 
 class YellowItalian {
     const VERSION = "0.8.20";
     const TYPE = "language";
-    public $yellow;         //access to API
+    public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {

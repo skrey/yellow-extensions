@@ -1,6 +1,4 @@
-// Disqus extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/disqus
-// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
-// This file may be used and distributed under the terms of the public license.
+// Disqus extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus
 
 var disqus_config = function () {
     this.page.url = document.getElementById("disqus_thread").getAttribute("data-url");

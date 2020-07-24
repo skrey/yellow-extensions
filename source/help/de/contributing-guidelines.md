@@ -28,7 +28,7 @@ Wie man zusammenarbeitet und gute Produkte macht.
 
 ## Wie man eine eigene Erweiterung erstellt
 
-* [Beginne mit einer Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-example), [Sprache](https://github.com/datenstrom/yellow-extensions/blob/master/languages/english/english-language.txt) oder [Thema](https://github.com/schulle4u/yellow-extension-basic).
+* [Beginne mit einer Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-example), [Sprache](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english-language.txt) oder [Thema](https://github.com/schulle4u/yellow-extension-basic).
 * Stelle dir vor was der Benutzer machen will, strebe eine einfache Lösung an.
 * Lade deine Erweiterung zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
 * Veröffentliche deine Erweiterung im offiziellen Repository. [Was gibt es?](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md)

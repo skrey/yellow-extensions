@@ -1,12 +1,10 @@
 <?php
-// Contact extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/contact
-// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
-// This file may be used and distributed under the terms of the public license.
+// Contact extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/contact
 
 class YellowContact {
     const VERSION = "0.8.12";
     const TYPE = "feature";
-    public $yellow;         //access to API
+    public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {

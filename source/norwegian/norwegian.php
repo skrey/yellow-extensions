@@ -1,12 +1,10 @@
 <?php
-// Norwegian extension, https://github.com/datenstrom/yellow-extensions/tree/master/languages/norwegian
-// Copyright (c) 2020 Per Arne Solvik
-// This file may be used and distributed under the terms of the public license.
+// Norwegian extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian
 
 class YellowNorwegian {
     const VERSION = "0.8.20";
     const TYPE = "language";
-    public $yellow;         //access to API
+    public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {

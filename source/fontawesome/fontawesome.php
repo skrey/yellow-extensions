@@ -1,12 +1,10 @@
 <?php
-// Fontawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/fontawesome
-// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
-// This file may be used and distributed under the terms of the public license.
+// Fontawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome
 
 class YellowFontawesome {
     const VERSION = "0.8.4";
     const TYPE = "feature";
-    public $yellow;         //access to API
+    public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {

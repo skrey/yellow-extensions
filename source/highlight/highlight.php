@@ -1,12 +1,10 @@
 <?php
-// Highlight extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/highlight
-// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
-// This file may be used and distributed under the terms of the public license.
+// Highlight extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight
 
 class YellowHighlight {
     const VERSION = "0.8.7";
     const TYPE = "feature";
-    public $yellow;         //access to API
+    public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {

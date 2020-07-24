@@ -1,12 +1,10 @@
 <?php
-// Markdown extension, https://github.com/datenstrom/yellow-extensions/tree/master/features/markdown
-// Copyright (c) 2013-2020 Datenstrom, https://datenstrom.se
-// This file may be used and distributed under the terms of the public license.
+// Markdown extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown
 
 class YellowMarkdownx {
     const VERSION = "0.8.14";
     const TYPE = "feature";
-    public $yellow;         //access to API
+    public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
@@ -2692,13 +2690,12 @@ class ParsedownExtra extends Parsedown
     protected $regexAttribute = '(?:[#.][-\w]+[ ]*)';
 }
 
-// Datenstrom Yellow Parsedown parser
-// Copyright (c) 2013-2020 Datenstrom
+// Parsedown parser, Copyright Datenstrom, License GPLv2
 
 class YellowParsedownParser extends ParsedownExtra {
-    public $yellow;             //access to API
-    public $page;               //access to page
-    public $idAttributes;       //id attributes
+    public $yellow;             // access to API
+    public $page;               // access to page
+    public $idAttributes;       // id attributes
     
     public function __construct($yellow, $page) {
         parent::__construct();
