@@ -1,4 +1,4 @@
-Image 0.8.8
+Image 0.8.9
 ===========
 Bilder in unterschiedlichen Größen.
 

@@ -10,7 +10,7 @@ Falls du den Inhalt anpassen willst, kannst du [Markdown](https://github.com/dat
 
 Falls du HTML anpassen willst, ändere das Layout. Das Standardlayout wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Layout lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Natürlich gibt es eine [API für Entwickler](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md), beispielsweise um eine eigene Navigation zu erstellen.
 
-Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Thema lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern aus mehreren Dateien. Alle Resourcendateien befinden sich im `system/resources`-Verzeichnis. Es gibt [Themen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#themen) zum Herunterladen.
+Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Thema lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern aus mehreren Dateien. Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Es gibt [Themen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#themen) zum Herunterladen.
 
 ## Wie man eine mehrsprachige Webseite macht
 
@@ -98,8 +98,8 @@ Die folgenden Verzeichnisse sind verfügbar:
 └── system                = Systemdateien
     ├── extensions        = Erweiterungsdateien
     ├── layouts           = Layoutdateien, HTML-Dateien
-    ├── resources         = Resourcendateien, CSS-Dateien, Schriftarten, usw.
     ├── settings          = Konfigurationsdateien, INI-Dateien
+    ├── themes            = Themendateien, CSS-Dateien, Schriftarten, usw.
     └── trash             = gelöschte Dateien
 ```
 

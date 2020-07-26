@@ -2,8 +2,7 @@
 // Blog extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/blog
 
 class YellowBlog {
-    const VERSION = "0.8.6";
-    const TYPE = "feature";
+    const VERSION = "0.8.8";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -49,7 +48,7 @@ class YellowBlog {
             $output .= "<ul>\n";
             foreach ($months as $key=>$value) {
                 $output .= "<li><a href=\"".$blog->getLocation(true).$this->yellow->toolbox->normaliseArguments("published:$key")."\">";
-                $output .= htmlspecialchars($this->yellow->text->normaliseDate($key))."</a></li>\n";
+                $output .= htmlspecialchars($this->yellow->language->normaliseDate($key))."</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
@@ -218,7 +217,7 @@ class YellowBlog {
             }
             if ($page->isRequest("published")) {
                 $pages->filter("published", $page->getRequest("published"), false);
-                array_push($pagesFilter, $this->yellow->text->normaliseDate($pages->getFilter()));
+                array_push($pagesFilter, $this->yellow->language->normaliseDate($pages->getFilter()));
             }
             $pages->sort("published");
             $pages->pagination($this->yellow->system->get("blogPaginationLimit"));
@@ -244,7 +243,7 @@ class YellowBlog {
     }
     
     // Handle content file editing
-    public function onEditContentFile($page, $action) {
+    public function onEditContentFile($page, $action, $email) {
         if ($page->get("layout")=="blog") $page->set("pageNewLocation", $this->yellow->system->get("blogNewLocation"));
     }
 

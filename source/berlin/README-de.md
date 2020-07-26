@@ -1,4 +1,4 @@
-Berlin 0.8.8
+Berlin 0.8.9
 ============
 Berlin ist ein einfaches und schönes Thema, inspiriert von Dieter Rams.
 

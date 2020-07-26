@@ -1,4 +1,4 @@
-Bundle 0.8.13
+Bundle 0.8.14
 =============
 Webseiten-Dateien bündeln.
 
@@ -19,7 +19,7 @@ Webseite mit ungebündelten CSS- und JavaScript-Dateien:
 <title>Example page</title>
 <link rel="stylesheet" type="text/css" media="all" href="/media/extensions/gallery.css" />
 <link rel="stylesheet" type="text/css" media="all" href="/media/extensions/twitter.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/media/resources/stockholm.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/media/themes/stockholm.css" />
 <script type="text/javascript" defer="defer" src="/media/extensions/gallery-photoswipe.min.js"></script>
 <script type="text/javascript" defer="defer" src="/media/extensions/gallery.js"></script>
 <script type="text/javascript" defer="defer" src="/media/extensions/twitter.js"></script>
@@ -37,8 +37,8 @@ Webseite mit gebündelten CSS- und JavaScript-Dateien:
 <html>
 <head>
 <title>Example page</title>
-<link rel="stylesheet" type="text/css" media="all" href="/media/resources/bundle-dfd1ef8a4c.min.css" />
-<script type="text/javascript" defer="defer" src="/media/resources/bundle-3808f805bc.min.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/media/extensions/bundle-dfd1ef8a4c.min.css" />
+<script type="text/javascript" defer="defer" src="/media/extensions/bundle-3808f805bc.min.js"></script>
 </head>
 <body>
 <h1>Hello world</h1>
@@ -53,8 +53,8 @@ Webseite mit ausgeschlossener Datei:
 <html>
 <head>
 <title>Example page</title>
-<link rel="stylesheet" type="text/css" media="all" href="/media/resources/bundle-dfd1ef8a4c.min.css" />
-<script type="text/javascript" defer="defer" src="/media/resources/bundle-3808f805bc.min.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/media/extensions/bundle-dfd1ef8a4c.min.css" />
+<script type="text/javascript" defer="defer" src="/media/extensions/bundle-3808f805bc.min.js"></script>
 <script type="text/javascript" defer="defer" data-bundle="exclude" src="/media/extensions/debug.js"></script>
 </head>
 <body>

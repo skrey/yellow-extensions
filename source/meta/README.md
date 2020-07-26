@@ -1,4 +1,4 @@
-Meta 0.8.12
+Meta 0.8.14
 ===========
 Meta data for social media sites.
 

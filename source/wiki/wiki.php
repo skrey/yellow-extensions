@@ -2,8 +2,7 @@
 // Wiki extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki
 
 class YellowWiki {
-    const VERSION = "0.8.6";
-    const TYPE = "feature";
+    const VERSION = "0.8.8";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -190,11 +189,11 @@ class YellowWiki {
             $pages = $this->getWikiPages($this->yellow->page->location);
             $pagesFilter = array();
             if ($page->getRequest("special")=="pages") {
-                array_push($pagesFilter, $this->yellow->text->get("wikiSpecialPages"));
+                array_push($pagesFilter, $this->yellow->language->getText("wikiSpecialPages"));
             }
             if ($page->getRequest("special")=="changes") {
                 $chronologicalOrder = true;
-                array_push($pagesFilter, $this->yellow->text->get("wikiSpecialChanges"));
+                array_push($pagesFilter, $this->yellow->language->getText("wikiSpecialChanges"));
             }
             if ($page->isRequest("tag")) {
                 $pages->filter("tag", $page->getRequest("tag"));
@@ -206,7 +205,7 @@ class YellowWiki {
             }
             if ($page->isRequest("modified")) {
                 $pages->filter("modified", $page->getRequest("modified"), false);
-                array_push($pagesFilter, $this->yellow->text->normaliseDate($pages->getFilter()));
+                array_push($pagesFilter, $this->yellow->language->normaliseDate($pages->getFilter()));
             }
             $pages->sort($chronologicalOrder ? "modified" : "title", $chronologicalOrder);
             $pages->pagination($this->yellow->system->get("wikiPaginationLimit"));
@@ -231,7 +230,7 @@ class YellowWiki {
     }
     
     // Handle content file editing
-    public function onEditContentFile($page, $action) {
+    public function onEditContentFile($page, $action, $email) {
         if ($page->get("layout")=="wiki") $page->set("pageNewLocation", $this->yellow->system->get("wikiNewLocation"));
     }
     

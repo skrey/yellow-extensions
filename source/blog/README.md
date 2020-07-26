@@ -1,4 +1,4 @@
-Blog 0.8.6
+Blog 0.8.8
 ==========
 Blog for your website.
 

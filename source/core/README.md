@@ -10,7 +10,7 @@ If you want to adjust the content, then use [Markdown](https://github.com/datens
 
 If you want to adjust HTML, then change the layout. The default layout is defined in file `system/settings/system.ini`. A different layout can be defined in the [settings](#settings) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), for example to create your own navigation.
 
-If you want to adjust CSS, then change the theme. The default theme is defined in file `system/settings/system.ini`. A different theme can be defined in the [settings](#settings) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All resource files are stored in your `system/resources` folder. There are [themes](https://github.com/datenstrom/yellow-extensions#themes) to download.
+If you want to adjust CSS, then change the theme. The default theme is defined in file `system/settings/system.ini`. A different theme can be defined in the [settings](#settings) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All theme files are stored in your `system/themes` folder. There are [themes](https://github.com/datenstrom/yellow-extensions#themes) to download.
 
 ## How to make a multilingual website
 
@@ -98,8 +98,8 @@ The following folders are available:
 └── system                = system files
     ├── extensions        = extension files
     ├── layouts           = layout files, HTML files
-    ├── resources         = resource files, CSS files, fonts, etc.
     ├── settings          = configuration files, INI files
+    ├── themes            = theme files, CSS files, fonts, etc.
     └── trash             = deleted files
 ```
 

@@ -1,4 +1,4 @@
-Paris 0.8.8
+Paris 0.8.9
 ===========
 Paris ist ein elegantes Thema für Schriftsteller.
 

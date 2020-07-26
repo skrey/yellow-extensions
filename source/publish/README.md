@@ -58,8 +58,8 @@ Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 
 system/extensions/basic.php: Basic,basic.php,create,update
-system/resources/basic.css: Basic,basic.css,create,update,careful
-system/resources/basic.png: Basic,basic.png,create
+system/themes/basic.css: Basic,basic.css,create,update,careful
+system/themes/basic.png: Basic,basic.png,create
 ~~~
 
 Publishing extensions at the command line:

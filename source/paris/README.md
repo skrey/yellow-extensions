@@ -1,4 +1,4 @@
-Paris 0.8.8
+Paris 0.8.9
 ===========
 Paris is an elegant theme for writers.
 

@@ -1,4 +1,4 @@
-Chinese 0.8.20
+Chinese 0.8.21
 ==============
 Chinese/简体中文 语言为 'zh-CN'。
 
