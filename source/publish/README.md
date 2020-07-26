@@ -59,7 +59,7 @@ Designer: Anna Svensson
 
 system/extensions/basic.php: Basic,basic.php,create,update
 system/resources/basic.css: Basic,basic.css,create,update,careful
-system/resources/basic-icon.png: Basic,basic-icon.png,create
+system/resources/basic.png: Basic,basic.png,create
 ~~~
 
 Publishing extensions at the command line:
