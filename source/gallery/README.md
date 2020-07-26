@@ -18,7 +18,7 @@ The image formats GIF, JPG, PNG and SVG are supported. All media files are locat
 
 ## How to show image captions
 
-Image captions can be configured in the text settings. Open file `system/settings/text.ini` and add a new line for each image. A line consists of file name and description.
+Image captions can be configured in the language settings. Open file `system/settings/language.ini` and add a new line for each image. A line consists of file name and description.
 
 ## Examples
 
@@ -40,7 +40,7 @@ Adding an image gallery from a subfolder, square thumbnails:
     [gallery photo-album/ - 150]
     [gallery photo-album/ simple 150]
 
-Configuring image captions in the text settings:
+Configuring image captions in the language settings:
 
     Language: en
     media/images/photo.jpg: This is an example image

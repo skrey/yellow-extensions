@@ -18,7 +18,7 @@ Your website comes with three languages and you can install more [languages](htt
 
 If you want to translate the entire website into multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Then you have to adjust the [folder structure](#folders). Go to your `content` folder and create a new folder for each language.
 
-If you want to configure text, then change the text settings. Open file `system/settings/text.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own text settings, for example image captions.
+If you want to configure languages, then change the language settings. Open file `system/settings/language.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
 
 ## How to make a secure website
 
@@ -77,7 +77,7 @@ Content file with redirection:
     ---
     This page is redirected to another page.
 
-Configuring text settings:
+Configuring language settings:
 
     Language: en
     CoreDateFormatMedium: Y-m-d
@@ -184,7 +184,7 @@ The following settings can be configured at the top of a page:
 `CoreServerTimezone` = timezone of the website  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
 
-<a id="settings-text"></a>The following settings can be configured in file `system/settings/text.ini`:
+<a id="settings-language"></a>The following settings can be configured in file `system/settings/language.ini`:
 
 `CoreDateFormatShort` = short date format  
 `CoreDateFormatMedium` = medium date format, usually 2016-06-01  

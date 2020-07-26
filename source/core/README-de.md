@@ -18,7 +18,7 @@ Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://g
 
 Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
-Falls du Text anpassen willst, ändere die Texteinstellungen. Öffne die Datei `system/settings/text.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Texteinstellungen hinzufügen, beispielsweise Bildunterschriften.
+Falls du Sprachen anpassen willst, ändere die Spracheinstellungen. Öffne die Datei `system/settings/language.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Spracheinstellungen hinzufügen, beispielsweise Bildunterschriften.
 
 ## Wie man eine sichere Webseite macht
 
@@ -77,7 +77,7 @@ Inhaltsdatei mit Weiterleitung:
     ---
     Diese Seite wird zu einer anderen Seite weitergeleitet.
 
-Texteinstellungen festlegen:
+Spracheinstellungen festlegen:
 
     Language: de
     CoreDateFormatMedium: d.m.Y
@@ -184,7 +184,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `CoreServerTimezone` = Zeitzone der Webseite  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
 
-<a id="einstellungen-text"></a>Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
+<a id="einstellungen-language"></a>Die folgenden Einstellungen können in der Datei `system/settings/language.ini` vorgenommen werden:
 
 `CoreDateFormatShort` = kurzes Datumsformat  
 `CoreDateFormatMedium` = mittleres Datumsformat, normalerweise 01.06.2016  

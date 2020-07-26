@@ -61,11 +61,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 `ContactLinkRestriction` = enable link restriction, 1 or 0  
 `ContactSpamFilter` = spam filter as regular expression, `none` to disable  
 
-The following settings can be configured in file `system/settings/text.ini`:
-
-`ContactStatusNone` = welcome text on contact page  
-`ContactMailFooter` = footer for contact messages  
-
 The following files can be configured:
 
 `system/layouts/contact.html` = layout file for contact page  

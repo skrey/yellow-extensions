@@ -124,11 +124,6 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
 `EditBruteForceProtection` = Anzahl fehlgeschlagener Anmeldeversuche  
 
-Die folgenden Einstellungen können in der Datei `system/settings/text.ini` vorgenommen werden:
-
-`EditLoginTitle` = Begrüßungstext auf der Anmeldeseite  
-`EditMailFooter` = Fusszeile von E-Mail-Nachrichten  
-
 <a id="einstellungen-user"></a>Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorgenommen werden:
 
 `Email` = E-Mail des Benutzers  

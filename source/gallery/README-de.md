@@ -18,7 +18,7 @@ Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien be
 
 ## Wie man Bildunterschriften anzeigt
 
-Bildunterschriften können in den Texteinstellungen festgelegt werden. Öffne die Datei `system/settings/text.ini` und füge für jedes Bild eine neue Zeile hinzu. Eine Zeile besteht aus Dateinamen und Beschreibung.
+Bildunterschriften können in den Spracheinstellungen festgelegt werden. Öffne die Datei `system/settings/language.ini` und füge für jedes Bild eine neue Zeile hinzu. Eine Zeile besteht aus Dateinamen und Beschreibung.
 
 ## Beispiele
 
@@ -40,7 +40,7 @@ Bildergalerie aus einem Unterverzeichnis hinzufügen, rechteckige Miniaturbilder
     [gallery photo-album/ - 150]
     [gallery photo-album/ simple 150]
 
-Bildunterschriften in den Texteinstellungen festlegen:
+Bildunterschriften in den Spracheinstellungen festlegen:
 
     Language: de
     media/images/photo.jpg: Das ist ein Beispielbild
