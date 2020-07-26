@@ -42,7 +42,7 @@ Published: 2019-01-24 19:42:13
 Translator: Anna Svensson
 
 system/extensions/german.php: German,german.php,create,update
-system/extensions/german-language.txt: German,german-language.txt,create,update
+system/extensions/german.txt: German,german.txt,create,update
 ~~~
 
 Erweiterungs-Einstellungen für ein Thema:

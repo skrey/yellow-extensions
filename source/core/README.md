@@ -1,4 +1,4 @@
-Core 0.8.13
+Core 0.8.14
 ===========
 Core functionality of the website.
 
@@ -18,7 +18,7 @@ Your website comes with three languages and you can install more [languages](htt
 
 If you want to translate the entire website into multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Then you have to adjust the [folder structure](#folders). Go to your `content` folder and create a new folder for each language.
 
-If you want to configure text, then change the text settings. Open file `system/settings/text.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english-language.txt) and paste them into this file. You can also add your own text settings, for example image captions.
+If you want to configure text, then change the text settings. Open file `system/settings/text.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own text settings, for example image captions.
 
 ## How to make a secure website
 

@@ -42,7 +42,7 @@ Published: 2019-01-24 19:42:13
 Translator: Anna Svensson
 
 system/extensions/english.php: English,english.php,create,update
-system/extensions/english-language.txt: English,english-language.txt,create,update
+system/extensions/english.txt: English,english.txt,create,update
 ~~~
 
 Extension settings for a theme:
