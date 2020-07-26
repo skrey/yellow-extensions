@@ -2,8 +2,7 @@
 // Chinese extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese
 
 class YellowChinese {
-    const VERSION = "0.8.20";
-    const TYPE = "language";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,7 +16,7 @@ class YellowChinese {
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("language" => "zh-CN"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="zh-CN") {
-            $language = reset(array_diff($this->yellow->text->getLanguages(), array("zh-CN")));
+            $language = reset(array_diff($this->yellow->system->getValues("language"), array("zh-CN")));
             $this->yellow->system->save($fileName, array("language" => $language));
         }
     }

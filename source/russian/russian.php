@@ -2,8 +2,7 @@
 // Russian extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/russian
 
 class YellowRussian {
-    const VERSION = "0.8.20";
-    const TYPE = "language";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,7 +16,7 @@ class YellowRussian {
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("language" => "ru"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="ru") {
-            $language = reset(array_diff($this->yellow->text->getLanguages(), array("ru")));
+            $language = reset(array_diff($this->yellow->system->getValues("language"), array("ru")));
             $this->yellow->system->save($fileName, array("language" => $language));
         }
     }

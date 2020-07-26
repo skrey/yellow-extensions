@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# German extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/german
 
 Language: de
 LanguageLocale: de_DE
 LanguageDescription: Deutsch
 LanguageTranslator: David Fehrmann
-
 BlogBy: von
 BlogTag: Tags:
 BlogMore: Lies mehr…
@@ -174,6 +173,7 @@ EditMenuHelp: Hilfe
 EditMenuLogout: Abmelden
 EditYellowUrl: https://datenstrom.se/de/yellow/
 EditYellowHelpUrl: https://datenstrom.se/de/yellow/help/
+ImageDefaultAlt: Bild ohne Beschreibung
 InstallTitle: Hallo
 InstallExtension: Was willst du machen?
 InstallExtensionWebsite: Webseite

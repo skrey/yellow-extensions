@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Hungarian extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/hungarian
 
 Language: hu
 LanguageLocale: hu_HU
 LanguageDescription: Magyar
 LanguageTranslator: Ádám Tuba
-
 BlogBy: by
 BlogTag: Címke:
 BlogMore: Bővebben…
@@ -174,6 +173,7 @@ EditMenuHelp: Súgó
 EditMenuLogout: Kijelentkezés
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Image without description
 InstallTitle: Helló
 InstallExtension: Mit akarsz tenni?
 InstallExtensionWebsite: Weboldal

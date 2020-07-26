@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Bengali extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/bengali
 
 Language: bn
 LanguageLocale: bn_BD
 LanguageDescription: বাঙালি
 LanguageTranslator: Mohammed Nazmul Ferdous
-
 BlogBy: লিখেছেন
 BlogTag: ট্যাগ সমূহ:
 BlogMore: আরো পড়ুন…
@@ -174,6 +173,7 @@ EditMenuHelp: সাহায্য
 EditMenuLogout: প্রস্থান
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Image without description
 InstallTitle: হ্যালো
 InstallExtension: আপনি কি করতে চান?
 InstallExtensionWebsite: ওয়েবসাইট

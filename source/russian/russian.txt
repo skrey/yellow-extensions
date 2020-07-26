@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Russian extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/russian
 
 Language: ru
 LanguageLocale: ru_RU
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
-
 BlogBy: Автор
 BlogTag: Тэги:
 BlogMore: Читать далее…
@@ -174,6 +173,7 @@ EditMenuHelp: Помощь
 EditMenuLogout: Выход
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Изображение без описания
 InstallTitle: Здравствуйте
 InstallExtension: Что вы хотите сделать?
 InstallExtensionWebsite: Веб-сайт

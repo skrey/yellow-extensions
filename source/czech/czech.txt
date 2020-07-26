@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Czech extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/czech
 
 Language: cs
 LanguageLocale: cs_CZ
 LanguageDescription: Čeština
 LanguageTranslator: Ufo Vyhuleny
-
 BlogBy: Vytvořil
 BlogTag: Tags:
 BlogMore: Čti dále…
@@ -174,6 +173,7 @@ EditMenuHelp: Nápověda
 EditMenuLogout: Odhlásit
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Image without description
 InstallTitle: Ahoj
 InstallExtension: Co chcete udělat?
 InstallExtensionWebsite: Webová stránka

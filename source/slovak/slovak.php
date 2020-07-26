@@ -2,8 +2,7 @@
 // Slovak extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/slovak
 
 class YellowSlovak {
-    const VERSION = "0.8.20";
-    const TYPE = "language";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,7 +16,7 @@ class YellowSlovak {
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("language" => "sk"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="sk") {
-            $language = reset(array_diff($this->yellow->text->getLanguages(), array("sk")));
+            $language = reset(array_diff($this->yellow->system->getValues("language"), array("sk")));
             $this->yellow->system->save($fileName, array("language" => $language));
         }
     }

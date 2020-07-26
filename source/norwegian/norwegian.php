@@ -2,8 +2,7 @@
 // Norwegian extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian
 
 class YellowNorwegian {
-    const VERSION = "0.8.20";
-    const TYPE = "language";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,7 +16,7 @@ class YellowNorwegian {
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("language" => "nb"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="nb") {
-            $language = reset(array_diff($this->yellow->text->getLanguages(), array("nb")));
+            $language = reset(array_diff($this->yellow->system->getValues("language"), array("nb")));
             $this->yellow->system->save($fileName, array("language" => $language));
         }
     }

@@ -4,7 +4,6 @@ Language: pt
 LanguageLocale: pt_PT
 LanguageDescription: Português
 LanguageTranslator: Al Garcia
-
 BlogBy: por
 BlogTag: Tags:
 BlogMore: Ler mais…
@@ -174,6 +173,7 @@ EditMenuHelp: Ajuda
 EditMenuLogout: Sair
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Image without description
 InstallTitle: Olá
 InstallExtension: O que você quer fazer?
 InstallExtensionWebsite: Website

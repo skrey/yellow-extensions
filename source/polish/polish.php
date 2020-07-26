@@ -2,8 +2,7 @@
 // Polish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/polish
 
 class YellowPolish {
-    const VERSION = "0.8.20";
-    const TYPE = "language";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,7 +16,7 @@ class YellowPolish {
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("language" => "pl"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="pl") {
-            $language = reset(array_diff($this->yellow->text->getLanguages(), array("pl")));
+            $language = reset(array_diff($this->yellow->system->getValues("language"), array("pl")));
             $this->yellow->system->save($fileName, array("language" => $language));
         }
     }

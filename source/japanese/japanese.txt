@@ -4,7 +4,6 @@ Language: ja
 LanguageLocale: ja_JP
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
-
 BlogBy: by
 BlogTag: Tags:
 BlogMore: 全文を表示して見る…
@@ -174,6 +173,7 @@ EditMenuHelp: ヘルプ
 EditMenuLogout: ログアウト
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: 説明のない画像
 InstallTitle: こんにちは
 InstallExtension: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
 InstallExtensionWebsite: ウェブ

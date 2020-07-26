@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Danish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/danish
 
 Language: da
 LanguageLocale: da_DK
 LanguageDescription: Dansk
 LanguageTranslator: David Garcia
-
 BlogBy: af
 BlogTag: Tags:
 BlogMore: Læs mere…
@@ -174,6 +173,7 @@ EditMenuHelp: Hjælp
 EditMenuLogout: Log ud
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Image without description
 InstallTitle: Hej
 InstallExtension: Hvad vil du lave?
 InstallExtensionWebsite: Internet side

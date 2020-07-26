@@ -2,8 +2,7 @@
 // Swedish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish
 
 class YellowSwedish {
-    const VERSION = "0.8.20";
-    const TYPE = "language";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,7 +16,7 @@ class YellowSwedish {
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("language" => "sv"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="sv") {
-            $language = reset(array_diff($this->yellow->text->getLanguages(), array("sv")));
+            $language = reset(array_diff($this->yellow->system->getValues("language"), array("sv")));
             $this->yellow->system->save($fileName, array("language" => $language));
         }
     }

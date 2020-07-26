@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Swedish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish
 
 Language: sv
 LanguageLocale: sv_SE
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
-
 BlogBy: av
 BlogTag: Taggar:
 BlogMore: Läs mer…
@@ -174,6 +173,7 @@ EditMenuHelp: Hjälp
 EditMenuLogout: Logga ut
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Bild utan beskrivning
 InstallTitle: Hej
 InstallExtension: Vad vill du göra?
 InstallExtensionWebsite: Webbsida

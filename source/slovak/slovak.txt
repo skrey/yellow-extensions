@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Slovak extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/slovak
 
 Language: sk
 LanguageLocale: sk_SK
 LanguageDescription: Slovenčina
 LanguageTranslator: Ádám Tuba
-
 BlogBy: od
 BlogTag: Štítky:
 BlogMore: Čítať ďalej…
@@ -174,6 +173,7 @@ EditMenuHelp: Pomoc
 EditMenuLogout: Odhlásiť sa
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Image without description
 InstallTitle: Zdravo
 InstallExtension: Čo chcete urobiť?
 InstallExtensionWebsite: Webové stránky

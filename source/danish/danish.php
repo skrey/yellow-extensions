@@ -2,8 +2,7 @@
 // Danish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/danish
 
 class YellowDanish {
-    const VERSION = "0.8.20";
-    const TYPE = "language";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,7 +16,7 @@ class YellowDanish {
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("language" => "da"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="da") {
-            $language = reset(array_diff($this->yellow->text->getLanguages(), array("da")));
+            $language = reset(array_diff($this->yellow->system->getValues("language"), array("da")));
             $this->yellow->system->save($fileName, array("language" => $language));
         }
     }

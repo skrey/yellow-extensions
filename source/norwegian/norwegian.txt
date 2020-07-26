@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Norwegian extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian
 
 Language: nb
 LanguageLocale: nb_NO
 LanguageDescription: Norsk Bokmål
 LanguageTranslator: Per Arne Solvik
-
 BlogBy: av
 BlogTag: Tagger:
 BlogMore: Les mer…
@@ -174,6 +173,7 @@ EditMenuHelp: Hjelp
 EditMenuLogout: Logge ut
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Image without description
 InstallTitle: Hei
 InstallExtension: Hva ønsker du å gjøre?
 InstallExtensionWebsite: Nettsted

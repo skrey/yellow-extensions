@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Dutch extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch
 
 Language: nl
 LanguageLocale: nl_BE
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
-
 BlogBy: door
 BlogTag: Labels:
 BlogMore: Lees meer…
@@ -174,6 +173,7 @@ EditMenuHelp: Help
 EditMenuLogout: Afmelden
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Image without description
 InstallTitle: Hallo
 InstallExtension: Wat wil je doen?
 InstallExtensionWebsite: Website

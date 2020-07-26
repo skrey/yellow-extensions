@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# Chinese extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese
 
 Language: zh-CN
 LanguageLocale: zh_CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
-
 BlogBy: 作者:
 BlogTag: 标签:
 BlogMore: 阅读全文…
@@ -174,6 +173,7 @@ EditMenuHelp: 帮助
 EditMenuLogout: 登出
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: 图片无描述
 InstallTitle: 你好
 InstallExtension: 打算用来做什么呢？
 InstallExtensionWebsite: 网站

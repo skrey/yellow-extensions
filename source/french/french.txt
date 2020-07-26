@@ -1,10 +1,9 @@
-# Datenstrom Yellow language file
+# French extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/french
 
 Language: fr
 LanguageLocale: fr_FR
 LanguageDescription: Français
 LanguageTranslator: Juh Nibreh
-
 BlogBy: par
 BlogTag: Tags:
 BlogMore: Lire la suite…
@@ -174,6 +173,7 @@ EditMenuHelp: Aide
 EditMenuLogout: Déconnexion
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+ImageDefaultAlt: Image sans description
 InstallTitle: Bonjour
 InstallExtension: Que voulez-vous faire ?
 InstallExtensionWebsite: Site web
