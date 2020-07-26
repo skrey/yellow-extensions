@@ -2,8 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.6";
-    const TYPE = "feature";
+    const VERSION = "0.8.7";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -22,7 +21,7 @@ class YellowSearch {
             if (empty($location)) $location = $this->yellow->system->get("searchLocation");
             $output = "<div class=\"".htmlspecialchars($name)."\" role=\"search\">\n";
             $output .= "<form class=\"search-form\" action=\"".$this->yellow->page->base.$location."\" method=\"post\">\n";
-            $output .= "<input class=\"form-control\" type=\"text\" name=\"query\" placeholder=\"".$this->yellow->text->getHtml("searchButton")."\" />\n";
+            $output .= "<input class=\"form-control\" type=\"text\" name=\"query\" placeholder=\"".$this->yellow->language->getTextHtml("searchButton")."\" />\n";
             $output .= "<input type=\"hidden\" name=\"clean-url\" />\n";
             $output .= "</form>\n";
             $output .= "</div>\n";
@@ -79,7 +78,7 @@ class YellowSearch {
                 $pages->sort("modified")->sort("searchscore");
                 $pages->pagination($this->yellow->system->get("searchPaginationLimit"));
                 if ($page->isRequest("page") && !$pages->getPaginationNumber()) $this->yellow->page->error(404);
-                $text = empty($query) ? $this->yellow->text->get("searchSpecialChanges") : $query;
+                $text = empty($query) ? $this->yellow->language->getText("searchSpecialChanges") : $query;
                 $this->yellow->page->set("titleHeader", $text." - ".$this->yellow->page->get("sitename"));
                 $this->yellow->page->set("titleContent", $this->yellow->page->get("title").": ".$text);
                 $this->yellow->page->set("title", $this->yellow->page->get("title").": ".$text);

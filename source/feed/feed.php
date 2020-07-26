@@ -2,8 +2,7 @@
 // Feed extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/feed
 
 class YellowFeed {
-    const VERSION = "0.8.8";
-    const TYPE = "feature";
+    const VERSION = "0.8.9";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -46,7 +45,7 @@ class YellowFeed {
                 $output .= "<language>".$this->yellow->page->getHtml("language")."</language>\r\n";
                 foreach ($pages as $pageFeed) {
                     $timestamp = strtotime($pageFeed->get($chronologicalOrder ? "modified" : "published"));
-                    $content = $this->yellow->toolbox->createTextDescription($pageFeed->getContent(), 0, false, "<!--more-->", "<a href=\"".$pageFeed->getUrl()."\">".$this->yellow->text->getHtml("blogMore")."</a>");
+                    $content = $this->yellow->toolbox->createTextDescription($pageFeed->getContent(), 0, false, "<!--more-->", "<a href=\"".$pageFeed->getUrl()."\">".$this->yellow->language->getTextHtml("blogMore")."</a>");
                     $output .= "<item>\r\n";
                     $output .= "<title>".$pageFeed->getHtml("title")."</title>\r\n";
                     $output .= "<link>".$pageFeed->getUrl()."</link>\r\n";

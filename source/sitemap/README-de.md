@@ -1,4 +1,4 @@
-Sitemap 0.8.5
+Sitemap 0.8.6
 =============
 Sitemap mit allen Seiten.
 

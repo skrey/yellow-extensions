@@ -2,8 +2,7 @@
 // TOC extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/toc
 
 class YellowToc {
-    const VERSION = "0.8.3";
-    const TYPE = "feature";
+    const VERSION = "0.8.4";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -11,8 +10,8 @@ class YellowToc {
         $this->yellow = $yellow;
     }
     
-    // Handle page content
-    public function onParseContentText($page, $text) {
+    // Handle page content in HTML format
+    public function onParseContentHtml($page, $text) {
         $callback = function ($matches) use ($page) {
             $output = "<ul class=\"toc\">\n";
             $major = $minor = 0;

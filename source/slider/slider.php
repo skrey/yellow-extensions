@@ -2,8 +2,7 @@
 // Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/slider
 
 class YellowSlider {
-    const VERSION = "0.8.4";
-    const TYPE = "feature";
+    const VERSION = "0.8.5";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -27,14 +26,14 @@ class YellowSlider {
                 $images = $this->yellow->system->get("coreImageDirectory");
                 $files = $this->yellow->media->index(true, true)->match("#$images$pattern#");
             }
-            if ($this->yellow->extensions->isExisting("image")) {
+            if ($this->yellow->extension->isExisting("image")) {
                 if (count($files)) {
                     $page->setLastModified($files->getModified());
                     $output = "<div class=\"".htmlspecialchars($style)."\" data-prevnextbuttons=\"false\" data-clickable=\"true\" data-wraparound=\"true\"";
                     if ($autoplay!=0) $output .= " data-autoplay=\"".htmlspecialchars($autoplay)."\"";
                     $output .= ">\n";
                     foreach ($files as $file) {
-                        list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($file->fileName, $size, $size);
+                        list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($file->fileName, $size, $size);
                         $output .= "<img src=\"".htmlspecialchars($src)."\" width=\"".htmlspecialchars($width)."\" height=\"".
                             htmlspecialchars($height)."\" alt=\"".basename($file->getLocation(true))."\" title=\"".
                             basename($file->getLocation(true))."\" />\n";

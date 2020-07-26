@@ -2,8 +2,7 @@
 // Googlemap extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap
 
 class YellowGooglemap {
-    const VERSION = "0.8.5";
-    const TYPE = "feature";
+    const VERSION = "0.8.7";
     public $yellow;         // access to API
     
     // Handle initialisation

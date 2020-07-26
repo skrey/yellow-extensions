@@ -1,4 +1,4 @@
-Googlemap 0.8.5
+Googlemap 0.8.7
 ===============
 Embed Google map.
 

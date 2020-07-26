@@ -2,8 +2,7 @@
 // Disqus extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus
 
 class YellowDisqus {
-    const VERSION = "0.8.3";
-    const TYPE = "feature";
+    const VERSION = "0.8.4";
     public $yellow;         // access to API
     
     // Handle initialisation

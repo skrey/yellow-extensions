@@ -1,4 +1,4 @@
-Previousnext 0.8.6
+Previousnext 0.8.7
 ==================
 Links zu vorherigen/nächsten Seite anzeigen.
 

@@ -1,4 +1,4 @@
-Fontawesome 0.8.4
+Fontawesome 0.8.6
 =================
 Icons und Symbole.
 

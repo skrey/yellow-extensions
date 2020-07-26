@@ -1,4 +1,4 @@
-Googlecalendar 0.8.6
+Googlecalendar 0.8.7
 ====================
 Google-Kalender einbinden.
 

@@ -2,8 +2,7 @@
 // Highlight extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight
 
 class YellowHighlight {
-    const VERSION = "0.8.7";
-    const TYPE = "feature";
+    const VERSION = "0.8.8";
     public $yellow;         // access to API
     
     // Handle initialisation

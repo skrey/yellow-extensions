@@ -2,8 +2,7 @@
 // Sitemap extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap
 
 class YellowSitemap {
-    const VERSION = "0.8.5";
-    const TYPE = "feature";
+    const VERSION = "0.8.6";
     public $yellow;         // access to API
     
     // Handle initialisation

@@ -1,4 +1,4 @@
-Instagram 0.8.4
+Instagram 0.8.5
 ===============
 Embed Instagram photos.
 

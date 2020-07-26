@@ -2,8 +2,7 @@
 // Youtube extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube
 
 class YellowYoutube {
-    const VERSION = "0.8.3";
-    const TYPE = "feature";
+    const VERSION = "0.8.4";
     public $yellow;         // access to API
     
     // Handle initialisation

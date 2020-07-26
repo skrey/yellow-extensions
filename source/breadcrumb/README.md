@@ -1,4 +1,4 @@
-Breadcrumb 0.8.4
+Breadcrumb 0.8.5
 ================
 Breadcrumb navigation.
 

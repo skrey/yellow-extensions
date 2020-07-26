@@ -2,8 +2,7 @@
 // Soundcloud extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud
 
 class YellowSoundcloud {
-    const VERSION = "0.8.3";
-    const TYPE = "feature";
+    const VERSION = "0.8.4";
     public $yellow;         // access to API
     
     // Handle initialisation

@@ -3,7 +3,6 @@
 
 class YellowTraffic {
     const VERSION = "0.8.7";
-    const TYPE = "feature";
     public $yellow;         // access to API
     public $days;           // number of days
     public $views;          // number of views
@@ -18,11 +17,6 @@ class YellowTraffic {
         $this->yellow->system->setDefault("trafficSpamFilter", "bot|crawler|spider|checker|localhost");
     }
 
-    // Handle command help
-    public function onCommandHelp() {
-        return "traffic [days location]\n";
-    }
-    
     // Handle command
     public function onCommand($command, $text) {
         switch ($command) {
@@ -32,6 +26,11 @@ class YellowTraffic {
         return $statusCode;
     }
 
+    // Handle command help
+    public function onCommandHelp() {
+        return "traffic [days location]\n";
+    }
+    
     // Process command to create traffic analytics
     public function processCommandTraffic($command, $text) {
         $statusCode = 0;

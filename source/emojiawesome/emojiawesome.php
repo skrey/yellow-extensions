@@ -3,7 +3,6 @@
 
 class YellowEmojiawesome {
     const VERSION = "0.8.6";
-    const TYPE = "feature";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -31,7 +30,7 @@ class YellowEmojiawesome {
     }
     
     // Handle content file editing
-    public function onEditContentFile($page, $action) {
+    public function onEditContentFile($page, $action, $email) {
         $page->rawData = $this->normaliseText($page->rawData, true, false);
     }
 

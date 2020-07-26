@@ -2,8 +2,7 @@
 // Instagram extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram
 
 class YellowInstagram {
-    const VERSION = "0.8.4";
-    const TYPE = "feature";
+    const VERSION = "0.8.5";
     public $yellow;         // access to API
     
     // Handle initialisation

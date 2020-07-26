@@ -2,8 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.21";
-    const TYPE = "feature";
+    const VERSION = "0.8.22";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -13,11 +12,6 @@ class YellowPublish {
         $this->yellow = $yellow;
     }
 
-    // Handle command help
-    public function onCommandHelp() {
-        return "publish [directory]\n";
-    }
-    
     // Handle command
     public function onCommand($command, $text) {
         switch ($command) {
@@ -27,6 +21,11 @@ class YellowPublish {
         return $statusCode;
     }
 
+    // Handle command help
+    public function onCommandHelp() {
+        return "publish [directory]\n";
+    }
+    
     // Process command to publish extensions
     public function processCommandPublish($command, $text) {
         $statusCode = 0;

@@ -2,8 +2,7 @@
 // Previousnext extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/previousnext
 
 class YellowPreviousnext {
-    const VERSION = "0.8.6";
-    const TYPE = "feature";
+    const VERSION = "0.8.7";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -18,21 +17,22 @@ class YellowPreviousnext {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="previousnext" && ($type=="block" || $type=="inline")) {
-            $style = $this->yellow->system->get("previousnextStyle");
             $pages = $this->getRelatedPages($page);
             $page->setLastModified($pages->getModified());
+            $pagePrevious = $pageNext = null;
             if ($this->yellow->system->get("previousnextPagePrevious")) $pagePrevious = $pages->getPagePrevious($page);
             if ($this->yellow->system->get("previousnextPageNext")) $pageNext = $pages->getPageNext($page);
-            if ($pagePrevious || $pageNext) {
+            if ($pagePrevious!=null || $pageNext!=null) {
+                $style = $this->yellow->system->get("previousnextStyle");
                 $output = "<div class=\"".htmlspecialchars($style)."\">\n";
                 $output .= "<p>";
-                if ($pagePrevious) {
-                    $text = preg_replace("/@title/i", $pagePrevious->get("title"), $this->yellow->text->get("PreviousnextPagePrevious"));
+                if ($pagePrevious!=null) {
+                    $text = preg_replace("/@title/i", $pagePrevious->get("title"), $this->yellow->language->getText("PreviousnextPagePrevious"));
                     $output .= "<a class=\"previous\" href=\"".$pagePrevious->getLocation(true)."\">".htmlspecialchars($text)."</a>";
                 }
-                if ($pageNext) {
+                if ($pageNext!=null) {
                     if ($pagePrevious) $output .= " ";
-                    $text = preg_replace("/@title/i", $pageNext->get("title"), $this->yellow->text->get("PreviousnextPageNext"));
+                    $text = preg_replace("/@title/i", $pageNext->get("title"), $this->yellow->language->getText("PreviousnextPageNext"));
                     $output .= "<a class=\"next\" href=\"".$pageNext->getLocation(true)."\">".htmlspecialchars($text)."</a>";
                 }
                 $output .= "<p>\n";

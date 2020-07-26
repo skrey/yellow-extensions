@@ -2,8 +2,7 @@
 // Googlecalendar extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar
 
 class YellowGooglecalendar {
-    const VERSION = "0.8.6";
-    const TYPE = "feature";
+    const VERSION = "0.8.7";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -28,15 +27,15 @@ class YellowGooglecalendar {
             $timeZone = $this->yellow->system->get("coreServerTimezone");
             $timeZoneHelper = new DateTime(null, new DateTimeZone($timeZone));
             $timeZoneOffset = $timeZoneHelper->getOffset();
-            $dateMonths = $this->yellow->text->getText("coreDateMonths", $language);
-            $dateWeekdays = $this->yellow->text->getText("coreDateWeekdays", $language);
-            $dateWeekstart = $this->yellow->text->getText("coreDateWeekstart", $language);
-            $dateFormatShort = $this->yellow->text->getText("coreDateFormatShort", $language);
-            $dateFormatMedium = $this->yellow->text->getText("coreDateFormatMedium", $language);
-            $dateFormatLong = $this->yellow->text->getText("coreDateFormatLong", $language);
-            $timeFormatShort = $this->yellow->text->getText("coreTimeFormatShort", $language);
-            $timeFormatMedium = $this->yellow->text->getText("coreTimeFormatMedium", $language);
-            $timeFormatLong = $this->yellow->text->getText("coreTimeFormatLong", $language);
+            $dateMonths = $this->yellow->language->getText("coreDateMonths", $language);
+            $dateWeekdays = $this->yellow->language->getText("coreDateWeekdays", $language);
+            $dateWeekstart = $this->yellow->language->getText("coreDateWeekstart", $language);
+            $dateFormatShort = $this->yellow->language->getText("coreDateFormatShort", $language);
+            $dateFormatMedium = $this->yellow->language->getText("coreDateFormatMedium", $language);
+            $dateFormatLong = $this->yellow->language->getText("coreDateFormatLong", $language);
+            $timeFormatShort = $this->yellow->language->getText("coreTimeFormatShort", $language);
+            $timeFormatMedium = $this->yellow->language->getText("coreTimeFormatMedium", $language);
+            $timeFormatLong = $this->yellow->language->getText("coreTimeFormatLong", $language);
             $apiKey = $this->yellow->system->get("googlecalendarApiKey");
             if ($mode=="week" || $mode=="month") {
                 $output = "<div class=\"".htmlspecialchars($style)."\">";
