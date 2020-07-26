@@ -22,27 +22,26 @@ Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien be
 
 Bilder hinzufügen:
 
-    [image picture.jpg]
-    [image picture.jpg Picture]
-    [image picture.jpg "Das ist ein Beispielbild"]
+    [image photo.jpg]
+    [image photo.jpg Beispiel]
+    [image photo.jpg "Das ist ein Beispielbild"]
 
 Bilder in unterschiedlichen Stilen hinzufügen:
 
-    [image picture.jpg Beispiel left]
-    [image picture.jpg Beispiel center]
-    [image picture.jpg Beispiel right]
+    [image photo.jpg Beispiel left]
+    [image photo.jpg Beispiel center]
+    [image photo.jpg Beispiel right]
 
 Bilder in unterschiedliche Größen hinzufügen:
 
-    [image picture.jpg Beispiel - 64 64]
-    [image picture.jpg Beispiel - 320 200]
-    [image picture.jpg Beispiel - 50%]
+    [image photo.jpg Beispiel - 64 64]
+    [image photo.jpg Beispiel - 320 200]
+    [image photo.jpg Beispiel - 50%]
 
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
-`ImageAlt` = alternative Bildbeschreibung  
 `ImageUploadWidthMax` = maximale Breite zum Hochladen, größere Bilder werden verkleinert  
 `ImageUploadHeightMax` = maximale Höhe zum Hochladen, größere Bilder werden verkleinert  
 `ImageUploadJpgQuality` = JPG-Qualität für hochgeladene Bilder  

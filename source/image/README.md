@@ -22,27 +22,26 @@ The image formats GIF, JPG, PNG and SVG are supported. All media files are locat
 
 Adding images:
 
-    [image picture.jpg]
-    [image picture.jpg Picture]
-    [image picture.jpg "This is an example image"]
+    [image photo.jpg]
+    [image photo.jpg Example]
+    [image photo.jpg "This is an example image"]
 
 Adding images, different styles:
 
-    [image picture.jpg Example left]
-    [image picture.jpg Example center]
-    [image picture.jpg Example right]
+    [image photo.jpg Example left]
+    [image photo.jpg Example center]
+    [image photo.jpg Example right]
 
 Adding images, different sizes:
 
-    [image picture.jpg Example - 64 64]
-    [image picture.jpg Example - 320 200]
-    [image picture.jpg Example - 50%]
+    [image photo.jpg Example - 64 64]
+    [image photo.jpg Example - 320 200]
+    [image photo.jpg Example - 50%]
 
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`ImageAlt` = alternative text for image  
 `ImageUploadWidthMax` = maximum width for upload, larger images are resized  
 `ImageUploadHeightMax` = maximum height for upload, larger images are resized  
 `ImageUploadJpgQuality` = JPG quality for uploaded images  

@@ -31,7 +31,7 @@ Content file with meta data from first image:
     Title: Example page
     Description: Example for your website
     ---
-    [image picture.jpg]
+    [image photo.jpg]
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -43,7 +43,7 @@ Content file with meta data from first image:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`MetaDefaultImage` = page image, `icon` to use the default icon of the website  
+`MetaDefaultImage` = page image, `favicon` to use the default icon of the website  
 
 ## Installation
 

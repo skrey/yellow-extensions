@@ -31,7 +31,7 @@ Inhaltsdatei mit Metadaten vom ersten Bild
     Title: Beispielseite
     Description: Beispiel für deine Webseite
     ---
-    [image picture.jpg]
+    [image photo.jpg]
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -43,7 +43,7 @@ Inhaltsdatei mit Metadaten vom ersten Bild
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
-`MetaDefaultImage` = Bild der Seite, `icon` um das Standard-Icon der Webseite zu verwenden  
+`MetaDefaultImage` = Bild der Seite, `favicon` um das Standard-Icon der Webseite zu verwenden  
 
 ## Installation
 

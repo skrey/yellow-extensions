@@ -56,9 +56,9 @@ Making links:
 
 Adding images:
 
-    [image picture.jpg]
-    [image picture.jpg Picture]
-    [image picture.jpg "This is an example image"]
+    [image photo.jpg]
+    [image photo.jpg Example]
+    [image photo.jpg "This is an example image"]
 
 Making tables:
 

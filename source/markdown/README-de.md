@@ -56,9 +56,9 @@ Links erstellen:
 
 Bilder hinzufügen:
 
-    [image picture.jpg]
-    [image picture.jpg Picture]
-    [image picture.jpg "Dies ist ein Beispielbild"]
+    [image photo.jpg]
+    [image photo.jpg Beispiel]
+    [image photo.jpg "Dies ist ein Beispielbild"]
 
 Tabellen erstellen:
 

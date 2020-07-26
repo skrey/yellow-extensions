@@ -81,7 +81,7 @@ Configuring text settings:
 
     Language: en
     CoreDateFormatMedium: Y-m-d
-    picture.jpg: This is an example image
+    media/images/photo.jpg: This is an example image
 
 ## Folders
 

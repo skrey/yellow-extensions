@@ -81,7 +81,7 @@ Texteinstellungen festlegen:
 
     Language: de
     CoreDateFormatMedium: d.m.Y
-    picture.jpg: Dies ist ein Beispielbild
+    media/images/photo.jpg: Dies ist ein Beispielbild
 
 ## Verzeichnisse
 
