@@ -2,8 +2,7 @@
 // Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery
 
 class YellowGallery {
-    const VERSION = "0.8.6";
-    const TYPE = "feature";
+    const VERSION = "0.8.7";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -25,7 +24,7 @@ class YellowGallery {
                 $images = $this->yellow->system->get("coreImageDirectory");
                 $files = $this->yellow->media->index(true, true)->match("#$images$pattern#");
             }
-            if ($this->yellow->extensions->isExisting("image")) {
+            if ($this->yellow->extension->isExisting("image")) {
                 if (count($files)) {
                     $page->setLastModified($files->getModified());
                     $output = "<div class=\"".htmlspecialchars($style)."\" data-fullscreenel=\"false\" data-shareel=\"false\"";
@@ -33,8 +32,8 @@ class YellowGallery {
                     $output .= ">\n";
                     foreach ($files as $file) {
                         list($widthInput, $heightInput) = $this->yellow->toolbox->detectImageInformation($file->fileName);
-                        list($src, $width, $height) = $this->yellow->extensions->get("image")->getImageInformation($file->fileName, $size, $size);
-                        $caption = $this->getImageCaption($file->fileName);
+                        list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($file->fileName, $size, $size);
+                        $caption = $this->yellow->language->isText($file->fileName) ? $this->yellow->language->getText($file->fileName) : "";
                         $output .= "<a href=\"".$file->getLocation(true)."\"";
                         if ($widthInput && $heightInput) $output .= " data-size=\"".htmlspecialchars("{$widthInput}x{$heightInput}")."\"";
                         if (!empty($caption)) $output .= " data-caption=\"".htmlspecialchars($caption)."\"";
@@ -65,11 +64,5 @@ class YellowGallery {
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}gallery.js\"></script>\n";
         }
         return $output;
-    }
-
-    // Return image caption
-    public function getImageCaption($fileName) {
-        $key = substru($fileName, strlenu($this->yellow->system->get("coreImageDirectory")));
-        return $this->yellow->text->isExisting($key) ? $this->yellow->text->get($key) : "";
     }
 }

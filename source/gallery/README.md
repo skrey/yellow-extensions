@@ -1,4 +1,4 @@
-Gallery 0.8.6
+Gallery 0.8.7
 =============
 Image gallery with popup.
 

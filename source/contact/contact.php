@@ -2,8 +2,7 @@
 // Contact extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/contact
 
 class YellowContact {
-    const VERSION = "0.8.12";
-    const TYPE = "feature";
+    const VERSION = "0.8.13";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -13,6 +12,7 @@ class YellowContact {
         $this->yellow->system->setDefault("contactEmailRestriction", "0");
         $this->yellow->system->setDefault("contactLinkRestriction", "0");
         $this->yellow->system->setDefault("contactSpamFilter", "advert|promot|market|traffic|click here");
+        $this->yellow->language->setDefault("contactMailFooter");
     }
     
     // Handle page content of shortcut
@@ -23,13 +23,13 @@ class YellowContact {
             if (empty($location)) $location = $this->yellow->system->get("contactLocation");
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<form class=\"contact-form\" action=\"".$page->base.$location."\" method=\"post\">\n";
-            $output .= "<p class=\"contact-name\"><label for=\"name\">".$this->yellow->text->getHtml("contactName")."</label><br /><input type=\"text\" class=\"form-control\" name=\"name\" id=\"name\" value=\"\" /></p>\n";
-            $output .= "<p class=\"contact-from\"><label for=\"from\">".$this->yellow->text->getHtml("contactEmail")."</label><br /><input type=\"text\" class=\"form-control\" name=\"from\" id=\"from\" value=\"\" /></p>\n";
-            $output .= "<p class=\"contact-message\"><label for=\"message\">".$this->yellow->text->getHtml("contactMessage")."</label><br /><textarea class=\"form-control\" name=\"message\" id=\"message\" rows=\"7\" cols=\"70\"></textarea></p>\n";
-            $output .= "<p class=\"contact-consent\"><input type=\"checkbox\" name=\"consent\" value=\"consent\" id=\"consent\"> <label for=\"consent\">".$this->yellow->text->getHtml("contactConsent")."</label></p>\n";
+            $output .= "<p class=\"contact-name\"><label for=\"name\">".$this->yellow->language->getTextHtml("contactName")."</label><br /><input type=\"text\" class=\"form-control\" name=\"name\" id=\"name\" value=\"\" /></p>\n";
+            $output .= "<p class=\"contact-from\"><label for=\"from\">".$this->yellow->language->getTextHtml("contactEmail")."</label><br /><input type=\"text\" class=\"form-control\" name=\"from\" id=\"from\" value=\"\" /></p>\n";
+            $output .= "<p class=\"contact-message\"><label for=\"message\">".$this->yellow->language->getTextHtml("contactMessage")."</label><br /><textarea class=\"form-control\" name=\"message\" id=\"message\" rows=\"7\" cols=\"70\"></textarea></p>\n";
+            $output .= "<p class=\"contact-consent\"><input type=\"checkbox\" name=\"consent\" value=\"consent\" id=\"consent\"> <label for=\"consent\">".$this->yellow->language->getTextHtml("contactConsent")."</label></p>\n";
             $output .= "<input type=\"hidden\" name=\"referer\" value=\"".$page->getUrl()."\" />\n";
             $output .= "<input type=\"hidden\" name=\"status\" value=\"send\" />\n";
-            $output .= "<input type=\"submit\" value=\"".$this->yellow->text->getHtml("contactButton")."\" class=\"btn contact-btn\" />\n";
+            $output .= "<input type=\"submit\" value=\"".$this->yellow->language->getTextHtml("contactButton")."\" class=\"btn contact-btn\" />\n";
             $output .= "</form>\n";
             $output .= "</div>\n";
         }
@@ -48,7 +48,7 @@ class YellowContact {
             if ($page->getRequest("status")=="send") {
                 $status = $this->sendMail();
                 if ($status=="settings") $page->error(500, "Contact page settings not valid!");
-                if ($status=="error") $page->error(500, $this->yellow->text->get("contactStatusError"));
+                if ($status=="error") $page->error(500, $this->yellow->language->getText("contactStatusError"));
                 $page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
                 $page->setHeader("Cache-Control", "no-cache, no-store");
                 $page->set("status", $status);
@@ -87,7 +87,7 @@ class YellowContact {
             $mailHeaders .= mb_encode_mimeheader("X-Referer-Url: ".$referer)."\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Request-Url: ".$this->yellow->page->getUrl())."\r\n";
             if ($spamFilter!="none" && preg_match("/$spamFilter/i", $message)) {
-                $mailSubject = mb_encode_mimeheader($this->yellow->text->get("contactMailSpam")." ".$this->yellow->page->get("title"));
+                $mailSubject = mb_encode_mimeheader($this->yellow->language->getText("contactMailSpam")." ".$this->yellow->page->get("title"));
                 $mailHeaders .= "X-Spam-Flag: YES\r\n";
                 $mailHeaders .= "X-Spam-Status: Yes, score=1\r\n";
             }
@@ -101,7 +101,7 @@ class YellowContact {
     
     // Return email footer
     public function getMailFooter($url) {
-        $footer = $this->yellow->text->get("contactMailFooter");
+        $footer = $this->yellow->language->getText("contactMailFooter");
         $footer = str_replace("\\n", "\r\n", $footer);
         $footer = preg_replace("/@sitename/i", $this->yellow->system->get("sitename"), $footer);
         $footer = preg_replace("/@title/i", $this->findTitle($url, $this->yellow->page->get("title")), $footer);
