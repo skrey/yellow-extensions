@@ -2,8 +2,7 @@
 // Berlin extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin
 
 class YellowBerlin {
-    const VERSION = "0.8.8";
-    const TYPE = "theme";
+    const VERSION = "0.8.9";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,7 +16,7 @@ class YellowBerlin {
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("theme" => "berlin"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("theme")=="berlin") {
-            $theme = reset(array_diff($this->yellow->extensions->getExtensions("theme"), array("berlin")));
+            $theme = reset(array_diff($this->yellow->system->getValues("theme"), array("berlin")));
             $this->yellow->system->save($fileName, array("theme" => $theme));
         }
     }
