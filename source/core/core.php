@@ -82,7 +82,7 @@ class YellowCore {
     // Check requirements
     public function checkRequirements() {
         $troubleshooting = PHP_SAPI!="cli" ? "<a href=\"https://datenstrom.se/yellow/help/troubleshooting\">See troubleshooting</a>." : "";
-        version_compare(PHP_VERSION, "5.5", ">=") || die("Datenstrom Yellow requires PHP 5.5 or higher! $troubleshooting\n");
+        version_compare(PHP_VERSION, "5.6", ">=") || die("Datenstrom Yellow requires PHP 5.6 or higher! $troubleshooting\n");
         extension_loaded("curl") || die("Datenstrom Yellow requires PHP curl extension! $troubleshooting\n");
         extension_loaded("gd") || die("Datenstrom Yellow requires PHP gd extension! $troubleshooting\n");
         extension_loaded("exif") || die("Datenstrom Yellow requires PHP exif extension! $troubleshooting\n");
