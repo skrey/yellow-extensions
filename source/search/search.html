@@ -4,7 +4,7 @@
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <form class="search-form" action="<?php echo $this->yellow->page->getLocation(true) ?>" method="post">
 <input class="form-control" type="text" name="query" value="<?php echo $this->yellow->page->getRequestHtml("query") ?>"<?php echo $this->yellow->page->get("status")=="none" ? " autofocus=\"autofocus\"" : "" ?> />
-<input class="btn search-btn" type="submit" value="<?php echo $this->yellow->text->getHtml("searchButton") ?>" />
+<input class="btn search-btn" type="submit" value="<?php echo $this->yellow->language->getTextHtml("searchButton") ?>" />
 <input type="hidden" name="clean-url" />
 </form>
 <?php if (count($this->yellow->page->getPages())): ?>
@@ -16,7 +16,7 @@
 </div>
 <?php endforeach ?>
 <?php elseif ($this->yellow->page->get("status")!="none"): ?>
-<p><?php echo $this->yellow->text->getHtml("searchResults".ucfirst($this->yellow->page->get("status"))) ?><p>
+<p><?php echo $this->yellow->language->getTextHtml("searchResults".ucfirst($this->yellow->page->get("status"))) ?><p>
 <?php endif ?>
 <?php $this->yellow->layout("pagination", $this->yellow->page->getPages()) ?>
 </div>

@@ -11,7 +11,7 @@
 <?php endforeach ?>
 </ul>
 <?php if ($this->yellow->page->get("status")=="empty"): ?>
-<p><?php echo $this->yellow->text->getHtml("draftStatusEmpty") ?><p>
+<p><?php echo $this->yellow->language->getTextHtml("draftStatusEmpty") ?><p>
 <?php endif ?>
 <?php $this->yellow->layout("pagination", $this->yellow->page->getPages()) ?>
 </div>
