@@ -16,21 +16,21 @@ The `downloads` folder contains files to download. The `images` folder is the pl
 
 You can use the [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/image) to embed images. To add a new image, copy a new file into the `images` folder and create an `[image]` shortcut. The image formats GIF, JPG, PNG and SVG are supported. Here's an example:
 
-    [image picture.jpg]
-    [image picture.jpg Picture]
-    [image picture.jpg "This is an example image"]
+    [image photo.jpg]
+    [image photo.jpg Example]
+    [image photo.jpg "This is an example image"]
 
 Images in different styles:
 
-    [image picture.jpg Example left]
-    [image picture.jpg Example center]
-    [image picture.jpg Example right]
+    [image photo.jpg Example left]
+    [image photo.jpg Example center]
+    [image photo.jpg Example right]
 
 Images in different sizes:
 
-    [image picture.jpg Example - 64 64]
-    [image picture.jpg Example - 320 200]
-    [image picture.jpg Example - 50%]
+    [image photo.jpg Example - 64 64]
+    [image photo.jpg Example - 320 200]
+    [image photo.jpg Example - 50%]
 
 ## Videos
 

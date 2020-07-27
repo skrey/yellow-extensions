@@ -8,11 +8,11 @@ All settings are located in the `system` folder. You can adjust your website her
     └── system
         ├── extensions
         ├── layouts
-        ├── resources
         ├── settings
+        ├── themes
         └── trash
 
-The `extensions` folder contains installed extensions. You can use the `layouts` folder and the `resources` folder to adjust the appearance of your website. The `settings` folder contains configuration files. The `trash` folder contains deleted files.
+The `extensions` folder contains installed extensions. You can use the `layouts` folder and the `themes` folder to adjust the appearance of your website. The `settings` folder contains configuration files. The `trash` folder contains deleted files.
 
 ## System settings
 
@@ -31,13 +31,13 @@ You can define the system settings here, for example the name of the website and
 
 ## Text settings
 
-Another configuration file is `system/settings/text.ini`. Here's an example:
+Another configuration file is `system/settings/language.ini`. Here's an example:
 
     Language: en
     CoreDateFormatMedium: Y-m-d
-    picture.jpg: This is an example image
+    media/images/photo.jpg: This is an example image
 
-You can define the text settings here, for example text sections and image captions. Text settings consist of `Language` and other settings. You can define any text or adjust the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english-language.txt) of languages.
+You can define the text settings here, for example text sections and image captions. Text settings consist of `Language` and other settings. You can define any text or adjust the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) of languages.
 
 ## User accounts
 

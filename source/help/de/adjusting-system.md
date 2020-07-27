@@ -8,11 +8,11 @@ Alle Einstellungen befinden sich im `system`-Verzeichnis. Hier macht man Anpassu
     └── system
         ├── extensions
         ├── layouts
-        ├── resources
         ├── settings
+        ├── themes
         └── trash
 
-Das `extensions`-Verzeichnis enthält installierte Erweiterungen. Im `layouts`-Verzeichnis und im `resources`-Verzeichnis kann man das Aussehen seiner Webseite anpassen. Das `settings`-Verzeichnis enthält Konfigurationsdateien. Das `trash`-Verzeichnis enthält gelöschte Dateien.
+Das `extensions`-Verzeichnis enthält installierte Erweiterungen. Im `layouts`-Verzeichnis und im `themes`-Verzeichnis kann man das Aussehen seiner Webseite anpassen. Das `settings`-Verzeichnis enthält Konfigurationsdateien. Das `trash`-Verzeichnis enthält gelöschte Dateien.
 
 ## Systemeinstellungen
 
@@ -31,13 +31,13 @@ Dort kannst du die Systemeinstellungen festlegen, zum Beispiel den Namen der Web
 
 ## Texteinstellungen
 
-Eine weitere Konfigurationsdatei ist `system/settings/text.ini`. Hier ist ein Beispiel:
+Eine weitere Konfigurationsdatei ist `system/settings/language.ini`. Hier ist ein Beispiel:
 
     Language: de
     CoreDateFormatMedium: d.m.Y
-    picture.jpg: Das ist ein Beispielbild
+    media/images/photo.jpg: Das ist ein Beispielbild
 
-Dort kannst du die Texteinstellungen festlegen, zum Beispiel Textabschnitte und Bildunterschriften. Texteinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst beliebige Texte festlegen oder die [Voreinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german-language.txt) von Sprachen anpassen.
+Dort kannst du die Texteinstellungen festlegen, zum Beispiel Textabschnitte und Bildunterschriften. Texteinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst beliebige Texte festlegen oder die [Voreinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) von Sprachen anpassen.
 
 ## Benutzerkonten
 

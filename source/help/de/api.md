@@ -20,8 +20,8 @@ Die folgenden Verzeichnisse sind vorhanden:
 └── system                = Systemdateien
     ├── extensions        = Erweiterungsdateien
     ├── layouts           = Layoutdateien, HTML-Dateien
-    ├── resources         = Resourcendateien, CSS-Dateien, Schriftarten, usw.
     ├── settings          = Konfigurationsdateien, INI-Dateien
+    ├── themes            = Themendateien, CSS-Dateien, Schriftarten, usw.
     └── trash             = gelöschte Dateien
 ```
 

@@ -47,15 +47,15 @@ Making links:
 
 Adding an image:
 
-    [image picture.jpg]
-    [image picture.jpg Picture]
-    [image picture.jpg "This is an example image"]
+    [image photo.jpg]
+    [image photo.jpg Example]
+    [image photo.jpg "This is an example image"]
 
 Adding an image, alternative format:
 
-    ![image](picture.jpg)
-    ![image](picture.jpg "Picture")
-    ![image](picture.jpg "This is an example image")
+    ![image](photo.jpg)
+    ![image](photo.jpg "Example")
+    ![image](photo.jpg "This is an example image")
 
 ## Extras
 
@@ -121,7 +121,7 @@ Using HTML:
 
 ## Shortcuts
 
-`[image picture.jpg Picture - 50%]` = [add image thumbnail](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
+`[image photo.jpg Example - 50%]` = [add image thumbnail](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
 `[gallery photo.*jpg - 20%]` = [add image gallery](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
 `[slider photo.*jpg]` = [add image gallery with slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
 `[youtube fhs55HEl-Gc]` = [embed Youtube video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  

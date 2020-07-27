@@ -20,8 +20,8 @@ The following folders are available:
 └── system                = system files
     ├── extensions        = extension files
     ├── layouts           = layout files, HTML files
-    ├── resources         = resource files, CSS files, fonts, etc.
     ├── settings          = configuration files, INI files
+    ├── themes            = theme files, CSS files, fonts, etc.
     └── trash             = deleted files
 ```
 

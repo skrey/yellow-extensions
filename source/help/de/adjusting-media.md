@@ -17,21 +17,21 @@ Das `downloads`-Verzeichnis enthält Dateien zum Herunterladen. Das `images`-Ver
 Du kannst die [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/image) benutzen um Bilder einzubinden. Um ein neues Bild hinzuzufügen, kopierst du eine neue Datei ins `images`-Verzeichnis und erstellst eine `[image]`-Abkürzung. Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Hier ist ein Beispiel:
 
 
-    [image picture.jpg]
-    [image picture.jpg Picture]
-    [image picture.jpg "Das ist ein Beispielbild"]
+    [image photo.jpg]
+    [image photo.jpg Beispiel]
+    [image photo.jpg "Das ist ein Beispielbild"]
 
 Bilder in unterschiedlichen Stilen:
 
-    [image picture.jpg Beispiel left]
-    [image picture.jpg Beispiel center]
-    [image picture.jpg Beispiel right]
+    [image photo.jpg Beispiel left]
+    [image photo.jpg Beispiel center]
+    [image photo.jpg Beispiel right]
 
 Bilder in unterschiedlichen Größen:
 
-    [image picture.jpg Beispiel - 64 64]
-    [image picture.jpg Beispiel - 320 200]
-    [image picture.jpg Beispiel - 50%]
+    [image photo.jpg Beispiel - 64 64]
+    [image photo.jpg Beispiel - 320 200]
+    [image photo.jpg Beispiel - 50%]
 
 ## Videos
 

@@ -3,7 +3,7 @@ Title: Help for your website
 TitleNavigation: Help
 TitleSlug: help
 ---
-[image help-picture.jpg "Datenstrom Yellow is for people who make websites" rounded]
+[image help-photo.jpg "Datenstrom Yellow is for people who make small websites" rounded]
 
 ## Get help
 

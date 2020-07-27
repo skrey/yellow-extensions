@@ -47,15 +47,15 @@ Links erstellen:
 
 Ein Bild hinzufügen:
 
-    [image picture.jpg]
-    [image picture.jpg Picture]
-    [image picture.jpg "Dies ist ein Beispielbild"]
+    [image photo.jpg]
+    [image photo.jpg Beispiel]
+    [image photo.jpg "Dies ist ein Beispielbild"]
 
 Ein Bild hinzufügen, alternatives Format:
 
-    ![image](picture.jpg)
-    ![image](picture.jpg "Picture")
-    ![image](picture.jpg "Dies ist ein Beispielbild")
+    ![image](photo.jpg)
+    ![image](photo.jpg "Beispiel")
+    ![image](photo.jpg "Dies ist ein Beispielbild")
 
 ## Extras
 
@@ -121,7 +121,7 @@ HTML benutzen:
 
 ## Abkürzungen
 
-`[image picture.jpg Picture - 50%]` = [Miniaturbild hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
+`[image photo.jpg Beispiel - 50%]` = [Miniaturbild hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
 `[gallery photo.*jpg - 20%]` = [Bildergalerie hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
 `[slider photo.*jpg]` = [Bildergalerie mit Schieber hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
 `[youtube fhs55HEl-Gc]` = [Youtube-Video einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
