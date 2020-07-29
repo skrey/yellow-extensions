@@ -1,4 +1,4 @@
-Bundle 0.8.14
+Bundle 0.8.15
 =============
 Bundle website files.
 
@@ -67,7 +67,7 @@ Website with excluded file:
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [Minify v1.3.62](https://github.com/matthiasmullie/minify) by Matthias Mullie.
+This extension uses [Minify v1.3.63](https://github.com/matthiasmullie/minify) by Matthias Mullie.
 
 ## Developer
 
