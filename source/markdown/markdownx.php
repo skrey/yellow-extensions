@@ -12,7 +12,7 @@ class YellowMarkdownx {
     
     // Handle page content in raw format
     public function onParseContentRaw($page, $text) {
-        $markdown = new YellowParsedownParser($this->yellow, $page);
+        $markdown = new YellowMarkdownxParser($this->yellow, $page);
         return $markdown->text($text);
     }
 }
@@ -2691,7 +2691,7 @@ class ParsedownExtra extends Parsedown
 
 // Parsedown parser, Copyright Datenstrom, License GPLv2
 
-class YellowParsedownParser extends ParsedownExtra {
+class YellowMarkdownxParser extends ParsedownExtra {
     public $yellow;             // access to API
     public $page;               // access to page
     public $idAttributes;       // id attributes
