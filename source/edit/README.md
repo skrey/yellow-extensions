@@ -1,4 +1,4 @@
-Edit 0.8.30
+Edit 0.8.31
 ===========
 Edit your website in a web browser.
 
@@ -22,7 +22,7 @@ If you don't want that user accounts are created, then restrict the login page. 
 
 ## How to restore a deleted page
 
-All pages that are deleted in the web browser are saved in the `system/trash` folder. You can restore a deleted page by copying it back into the `content` folder.
+All pages that are deleted in the web browser are saved in the `system/trash` folder. You can restore a deleted page by copying it back into the `content` folder. The original file name is stored as `FileNameOriginal` in the settings at the top of a page.
 
 ## Examples
 
