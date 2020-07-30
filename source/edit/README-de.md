@@ -4,7 +4,7 @@ Webseite im Webbrowser bearbeiten.
 
 <p align="center"><img src="edit-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man eine Webseite bearbeitet
+## Wie man eine Webseite im Webbrowser bearbeitet
 
 Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine grossartige Art Webseiten zu aktualisieren. Du kannst eine `[edit]`-Abkürzung benutzen, um einen Link zum Bearbeiten anzuzeigen.
 
@@ -22,7 +22,7 @@ Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmel
 
 ## Wie man eine gelöschte Seite wiederherstellt
 
-Alle Seite die im Webbrowser gelöscht werden, werden im `system/trash`-Verzeichnis gespeichert. Man kann eine gelöschte Seite wiederherstellen, indem man sie umbenennt und zurück ins `content`-Verzeichnis kopiert.
+Alle Seiten die im Webbrowser gelöscht werden, werden im `system/trash`-Verzeichnis gespeichert. Man kann eine gelöschte Seite wiederherstellen, indem man sie umbenennt und zurück ins `content`-Verzeichnis kopiert.
 
 ## Beispiele
 

@@ -4,7 +4,7 @@ Edit your website in a web browser.
 
 <p align="center"><img src="edit-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to edit a website
+## How to edit a website in a web browser
 
 The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. You can use an `[edit]` shortcut to show an edit link.
 
