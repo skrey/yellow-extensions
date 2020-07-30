@@ -18,7 +18,7 @@ Du kannst eine statische Webseite erstellen, die auf den meisten Webservern funk
 
 ## Wie man einen statischen Zwischenspeicher erstellt
 
-Du kannst einen statischen Zwischenspeicher erstellen, um deine Webseite zu beschleunigen. In der Regel wird eine Seite zuerst erzeugt und dann an den Browser ausgeliefert. Mit einem statischen Zwischenspeicher werden Seiten direkt an den Browser ausgeliefert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Erstelle bei Bedarf einen neuen Zwischenspeicher. Zum Löschen gibt man ein: `php yellow.php clean cache`.
+Du kannst einen statischen Zwischenspeicher erstellen, um deine Webseite zu beschleunigen. In der Regel wird eine Seite zuerst erzeugt und dann an den Browser ausgeliefert. Mit einem statischen Zwischenspeicher werden Dateien direkt an den Browser ausgeliefert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Erstelle bei Bedarf einen neuen Zwischenspeicher. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
 ## Beispiele
 
@@ -83,6 +83,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
 `CoreStaticDirectory` = Verzeichnis für erzeugte Dateien  
+`CoreCacheDirectory` = Verzeichnis für zwischengespeicherte Dateien  
 
 ## Installation
 
