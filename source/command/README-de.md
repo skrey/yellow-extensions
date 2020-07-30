@@ -14,11 +14,11 @@ Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch
 
 ## Wie man eine statische Webseite erstellt
 
-Du kannst eine eine statische Webseite erstellen, die auf den meisten Webservern funktioniert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue. Zum Überprüfen nach defekten Links gibt man ein: `php yellow.php check`. Zum Löschen gibt man ein: `php yellow.php clean`.
+Du kannst eine statische Webseite erstellen, die auf den meisten Webservern funktioniert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue. Zum Überprüfen nach defekten Links gibt man ein: `php yellow.php check`. Zum Löschen gibt man ein: `php yellow.php clean`.
 
 ## Wie man einen statischen Zwischenspeicher erstellt
 
-Du kannst deine Webseite mit einem statischen Zwischenspeicher beschleunigen. Das verbessert die Ladezeit, jedoch muss der Zwischenspeicher immer wieder aktualisiert werden. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Zum Löschen gibt man ein: `php yellow.php clean cache`.
+Du kannst einen statischen Zwischenspeicher erstellen, um deine Webseite zu beschleunigen. In der Regel werden Webseiten erst erstellt und dann an den Browser ausgeliefert. Mit einem Zwischenspeicher spart man sich den ersten Schritt und liefert Webseiten direkt an den Browser aus. Das verbessert die Ladezeit, jedoch muss der Zwischenspeicher immer wieder aktualisiert werden. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
 ## Beispiele
 
