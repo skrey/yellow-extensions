@@ -22,7 +22,7 @@ Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmel
 
 ## Wie man eine gelöschte Seite wiederherstellt
 
-Alle Seiten die im Webbrowser gelöscht werden, werden im `system/trash`-Verzeichnis gespeichert. Man kann eine gelöschte Seite wiederherstellen, indem man sie umbenennt und zurück ins `content`-Verzeichnis kopiert.
+Alle Seiten die im Webbrowser gelöscht werden, werden im `system/trash`-Verzeichnis gespeichert. Man kann eine gelöschte Seite wiederherstellen, indem man sie zurück ins `content`-Verzeichnis kopiert.
 
 ## Beispiele
 

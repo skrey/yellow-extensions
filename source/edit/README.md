@@ -22,7 +22,7 @@ If you don't want that user accounts are created, then restrict the login page. 
 
 ## How to restore a deleted page
 
-All pages that are deleted in the web browser are saved in the `system/trash` folder. You can restore a deleted page by renaming it and copying it back into the `content` folder.
+All pages that are deleted in the web browser are saved in the `system/trash` folder. You can restore a deleted page by copying it back into the `content` folder.
 
 ## Examples
 
