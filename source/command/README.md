@@ -18,7 +18,7 @@ You can build a static website that works on most web servers. Open a terminal w
 
 ## How to build a static cache
 
-You can build a static cache to speed up your website. Usually a web page is first generated and then delivered to the browser. With a cache you can skip one step and deliver web pages directly to the browser. This improves loading time, but the cache needs to be updated repeatedly. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. To clean the cache type following: `php yellow.php clean cache`.
+You can build a static cache to speed up your website. Usually a page is first generated and then delivered to the browser. With a cache you can skip one step and deliver pages directly to the browser. This improves loading time, but the cache needs to be updated repeatedly. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. To clean the cache type following: `php yellow.php clean cache`.
 
 ## Examples
 
@@ -74,6 +74,16 @@ The following commands are available:
 `php yellow.php uninstall` to remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php update` to update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php user` to update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`CoreStaticUrl` = URL for static website  
+`CoreStaticDefaultFile` =  default file for static website  
+`CoreStaticErrorFile` = error file for static website  
+`CoreStaticDirectory` = directory for generated files  
+`CoreCacheDirectory` = directory for cached files  
 
 ## Installation
 

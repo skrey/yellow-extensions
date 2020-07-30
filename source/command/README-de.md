@@ -18,7 +18,7 @@ Du kannst eine statische Webseite erstellen, die auf den meisten Webservern funk
 
 ## Wie man einen statischen Zwischenspeicher erstellt
 
-Du kannst einen statischen Zwischenspeicher erstellen, um deine Webseite zu beschleunigen. In der Regel werden Webseiten erst erstellt und dann an den Browser ausgeliefert. Mit einem Zwischenspeicher spart man sich einen Schritt und liefert Webseiten direkt an den Browser aus. Das verbessert die Ladezeit, jedoch muss der Zwischenspeicher immer wieder aktualisiert werden. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Zum Löschen gibt man ein: `php yellow.php clean cache`.
+Du kannst einen statischen Zwischenspeicher erstellen, um deine Webseite zu beschleunigen. In der Regel wird eine Seite zuerst erzeugt und dann an den Browser ausgeliefert. Mit einem Zwischenspeicher spart man sich einen Schritt und liefert Seiten direkt an den Browser aus. Das verbessert die Ladezeit, jedoch muss der Zwischenspeicher immer wieder aktualisiert werden. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
 ## Beispiele
 
@@ -74,6 +74,15 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php uninstall` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php update` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php user` um Benutzerkonten zu aktualisieren mit der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
+
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+  
+`CoreStaticUrl` = URL der statischen Webseite  
+`CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
+`CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
+`CoreStaticDirectory` = Verzeichnis für erzeugte Dateien  
 
 ## Installation
 
