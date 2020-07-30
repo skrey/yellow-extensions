@@ -20,6 +20,10 @@ Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/settings/system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
 
+## Wie man eine gelöschte Seite wiederherstellt
+
+Alle Seite die im Webbrowser gelöscht werden, werden im `system/trash`-Verzeichnis gespeichert. Man kann eine gelöschte Seite wiederherstellen, indem man sie umbenennt und zurück ins `content`-Verzeichnis kopiert.
+
 ## Beispiele
 
 Inhaltsdatei mit Link zum Bearbeiten:

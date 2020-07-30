@@ -6,7 +6,7 @@ Webseiten-Dateien bündeln.
 
 ## Wie man Webseiten-Dateien bündelt
 
-Diese Erweiterung bündelt und verkleinert Dateien für eine bessere Ladezeit. Deine Webseite enthält möglicherweise mehrere CSS- und JavaScript-Dateien. In der Regel werden die im Browser zwischengespeichert, trotzdem muss jede Datei überprüft werden. Hier kommt der Dateibündler ins Spiel. Er sucht nach eingebundenen Dateien und ersetzt diese durch eine einzelne Datei für CSS und eine für JavaScript.
+Diese Erweiterung bündelt und verkleinert Dateien für eine bessere Ladezeit. Deine Webseite enthält möglicherweise mehrere CSS- und JavaScript-Dateien. In der Regel werden die im Browser zwischengespeichert, trotzdem muss jede Datei überprüft werden. Hier kommt der Dateibündler ins Spiel. Er sucht im HTML-Header nach eingebundenen Dateien und ersetzt diese durch eine einzelne Datei für CSS und eine für JavaScript.
 
 ## Beispiele
 
@@ -46,7 +46,7 @@ Webseite mit gebündelten CSS- und JavaScript-Dateien:
 </html>
 ```
 
-Webseite mit ausgeschlossener Datei:
+Webseite mit gebündelten und ungebündelten Dateien:
 
 ```
 <!DOCTYPE html>
