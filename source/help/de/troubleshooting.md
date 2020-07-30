@@ -9,23 +9,23 @@ Wie man Fehler findet und behebt.
 
 Die folgenden Probleme können auftreten:
 
-**Datenstrom Yellow requires configuration file […]**
+**Datenstrom Yellow requires configuration file**
 
-Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen. Es passiert manchmal dass die `.htaccess` Datei bei der Installation übersehen wurde. Nachdem die fehlende Datei auf den Webserver kopiert wurde, sollte das Problem behoben sein.
+Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen. Es passiert manchmal dass die `.htaccess` Datei bei der Installation übersehen wurde. Nachdem die fehlende Konfigurationsdatei auf den Webserver kopiert wurde, sollte das Problem behoben sein.
 
-**Datenstrom Yellow requires write access […]**
+**Datenstrom Yellow requires write access**
 
 Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben. Es wird empfohlen allen Dateien und Verzeichnissen im Installations-Verzeichnis Schreibrechte zu geben. Sobald der Webserver ausreichende Schreibrechte im `system`-Verzeichnis hat, sollte das Problem behoben sein.
 
-**Datenstrom Yellow requires rewrite support […]**
+**Datenstrom Yellow requires rewrite support**
 
 Konfiguriere den Webserver, siehe Konfigurationsdateien weiter unten. Du benötigst entweder eine Konfigurationsdatei für deinen Webserver oder du verwendest den eingebauten Webserver auf deinem Computer. Der eingebaute Webserver ist praktisch für Entwickler. Sobald der Webserver HTTP-Anfragen an die `yellow.php` weiterleitet, sollte das Problem behoben sein.
 
-**Datenstrom Yellow requires PHP extension […]**
+**Datenstrom Yellow requires PHP extension**
 
 Installiere die fehlende PHP-Erweiterung auf deinem Webserver.
 
-**Datenstrom Yellow requires PHP 5.6 or higher!**
+**Datenstrom Yellow requires PHP 5.6 or higher**
 
 Installiere die neuste PHP-Version auf deinem Webserver.
 
@@ -72,7 +72,7 @@ RewriteRule ^ yellow.php [L]
 </IfModule>
 ```
 
-Wenn deine Webseite nicht funktioniert, dann musst du das [Rewrite-Modul aktivieren](https://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2) und die [globale Konfiguration aktualisieren](https://stackoverflow.com/questions/18740419/how-to-set-allowoverride-all). Nachdem die Konfiguration verändert wurde, musst du den Apache-Webserver neustarten/neuladen.
+Wenn deine Webseite nicht funktioniert, dann musst du das [Rewrite-Modul aktivieren](https://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2) und die [globale Konfiguration aktualisieren](https://stackoverflow.com/questions/18740419/how-to-set-allowoverride-all). Nachdem die Konfiguration verändert wurde, musst du möglicherweise den Apache-Webserver neustarten/neuladen.
 
 
 ## Probleme mit Nginx
@@ -125,7 +125,7 @@ server {
 }
 ```
 
-Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root` in der Konfigurationsdatei. Nachdem die Konfiguration verändert wurde, musst du den [Nginx-Webserver neustarten/neuladen](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
+Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root` in der Konfigurationsdatei. Nachdem die Konfiguration verändert wurde, musst du möglicherweise den [Nginx-Webserver neustarten/neuladen](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
 
 ## Systemdiagnose
 
@@ -174,5 +174,6 @@ YellowSystem::load Layout:default
 
 ## Verwandte Informationen
 
-* [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/blob/master/source/command/README-de.md)
-* [Wie man ein Benutzerkonto erstellt](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md)
+* [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md)
+* [Wie man ein Benutzerkonto erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
+* [Wie man eine gelöschte Seite wiederherstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)

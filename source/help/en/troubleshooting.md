@@ -9,23 +9,23 @@ Here's how to find and fix errors.
 
 The following problems can occur:
 
-**Datenstrom Yellow requires configuration file […]**
+**Datenstrom Yellow requires configuration file**
 
-Copy the supplied `.htaccess` file into the installation folder. Check if your FTP software has a setting to show all files. It sometimes happens that the `.htaccess` file was overlooked during installation. After the missing file has been copied to the web server, the problem should be resolved.
+Copy the supplied `.htaccess` file into the installation folder. Check if your FTP software has a setting to show all files. It sometimes happens that the `.htaccess` file was overlooked during installation. After the missing configuration file has been copied to the web server, the problem should be resolved.
 
-**Datenstrom Yellow requires write access […]**
+**Datenstrom Yellow requires write access**
 
 Run the command `chmod -R a+rw *` in the installation folder. You can use your FTP software to give write permissions to all files. It's recommended to give write permissions to all files and folders in the installation folder. As soon as the web server has sufficient write access in the `system` folder, the problem should be resolved.
 
-**Datenstrom Yellow requires rewrite support […]**
+**Datenstrom Yellow requires rewrite support**
 
 Configure the web server, see configuration files below. You either need a configuration file for your web server or you use the built-in web server on your computer. The built-in web server is handy for developers. As soon as the web server forwards HTTP requests to the `yellow.php`, the problem should be resolved.
 
-**Datenstrom Yellow requires PHP extension […]**
+**Datenstrom Yellow requires PHP extension**
 
 Install the missing PHP extension on your web server.
 
-**Datenstrom Yellow requires PHP 5.6 or higher!**
+**Datenstrom Yellow requires PHP 5.6 or higher**
 
 Install the latest PHP version on your web server.
 
@@ -72,7 +72,7 @@ RewriteRule ^ yellow.php [L]
 </IfModule>
 ```
 
-When your website doesn't work, then you have to [enable the rewrite module](https://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2) and [update the global configuration](https://stackoverflow.com/questions/18740419/how-to-set-allowoverride-all). After the configuration has been changed, you have to restart/reload the Apache web server.
+When your website doesn't work, then you have to [enable the rewrite module](https://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2) and [update the global configuration](https://stackoverflow.com/questions/18740419/how-to-set-allowoverride-all). After the configuration has been changed, you may have to restart/reload the Apache web server.
 
 ## Problems with Nginx
 
@@ -124,7 +124,7 @@ server {
 }
 ```
 
-When your website doesn't work, then check `server_name` and `root` in the configuration file. After the configuration has been changed, you have to [restart/reload the Nginx web server](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
+When your website doesn't work, then check `server_name` and `root` in the configuration file. After the configuration has been changed, you may have to [restart/reload the Nginx web server](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
 
 ## System diagnostics
 
@@ -175,3 +175,4 @@ YellowSystem::load Layout:default
 
 * [How to start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
 * [How to create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
+* [How to restore a deleted page](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) 
