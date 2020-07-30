@@ -16,7 +16,7 @@ The second option is to create a user account at the [command line](https://gith
 
 ## How to restrict a user account
 
-If you don't want that pages are modified, then restrict user accounts. Open file `system/settings/user.ini` and change [home page and access rights](#settings-user). Users are allowed to edit pages within their home page, but nowhere else.
+If you don't want that pages are modified, then restrict user accounts. Open file `system/settings/user.ini` and change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
 
 If you don't want that user accounts are created, then restrict the login page. Open file `system/settings/system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
 
@@ -148,8 +148,8 @@ The following settings can be configured in file `system/settings/system.ini`:
 `edit` = user can edit page  
 `delete` = user can delete page  
 `upload` = user can upload media files  
-`system` = user can [change system settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings-system)  
-`update` = user can [update website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`system` = user can change system settings  
+`update` = user can update website  
 
 <a id="settings-status"></a>The following user status values are supported:
 

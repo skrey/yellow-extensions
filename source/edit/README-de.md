@@ -16,7 +16,7 @@ Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](h
 
 ## Wie man ein Benutzerkonto beschränkt
 
-Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/settings/user.ini` und ändere [Startseite und Zugriffsrechte](#einstellungen-user). Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
+Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/settings/user.ini` und ändere `Home` und `Access`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/settings/system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
 
@@ -148,8 +148,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `edit` = Benutzer kann Seite bearbeiten  
 `delete` = Benutzer kann Seite löschen  
 `upload` = Benutzer kann Mediendateien hochladen  
-`system` = Benutzer kann [Systemeinstellungen ändern](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen-system)  
-`update` = Benutzer kann [Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`system` = Benutzer kann Systemeinstellungen ändern  
+`update` = Benutzer kann Webseite aktualisieren  
 
 <a id="einstellungen-status"></a>Die folgenden Benutzer-Statuswerte werden unterstützt:
 
