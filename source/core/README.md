@@ -4,9 +4,11 @@ Core functionality of the website.
 
 <p align="center"><img src="core-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to customise a website
+## How to edit a website on the computer
 
-If you want to adjust the content, then use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown). All content is located in your `content` folder. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder. Some themes have support for header, footer and sidebar.
+You can use your favorite text editor and change everything in the file manager. All content is located in your `content` folder. Basically, what you see in the file manager is the website you get. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder. Some themes have support for header, footer and sidebar.
+
+## How to customise a website
 
 If you want to adjust HTML, then change the layout. The default layout is defined in file `system/settings/system.ini`. A different layout can be defined in the [settings](#settings) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), for example to create your own navigation.
 
@@ -162,7 +164,7 @@ The following settings can be configured at the top of a page:
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Build` = page option(s) for building a [static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command), comma separated  
+`Build` = page option(s) for building a static website, comma separated  
 
 <a id="settings-system"></a>The following settings can be configured in file `system/settings/system.ini`:
 
@@ -174,7 +176,7 @@ The following settings can be configured at the top of a page:
 `Theme` = default theme  
 `Parser` = default page parser  
 `Status` = default page status, [supported status values](#settings-status)  
-`CoreStaticUrl` = URL for [static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)  
+`CoreStaticUrl` = URL for static website  
 `CoreStaticDefaultFile` =  default file for static website  
 `CoreStaticErrorFile` = error file for static website  
 `CoreStaticDirectory` = directory for generated files  

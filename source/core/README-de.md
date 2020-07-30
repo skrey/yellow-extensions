@@ -4,9 +4,11 @@ Kernfunktionalität der Webseite.
 
 <p align="center"><img src="core-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man eine Webseite anpasst
+## Wie man eine Webseite auf dem Computer bearbeitet
 
-Falls du den Inhalt anpassen willst, kannst du [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-de.md) benutzen. Alle Inhalte befinden sich im `content`-Verzeichnis. Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst eine Kopfzeile und Fußzeile auch in einem anderen Verzeichnis erstellen, dann wir sie nur auf Seiten im gleichen Verzeichnis angezeigt. Manche Themen habe Unterstützung für Kopfzeile, Fußzeile und Sidebar.
+Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager verändern.  Alle Inhalte befinden sich im `content`-Verzeichnis. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst. Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst eine Kopfzeile und Fußzeile auch in einem anderen Verzeichnis erstellen, dann wir sie nur auf Seiten im gleichen Verzeichnis angezeigt. Manche Themen habe Unterstützung für Kopfzeile, Fußzeile und Sidebar.
+
+## Wie man eine Webseite anpasst
 
 Falls du HTML anpassen willst, ändere das Layout. Das Standardlayout wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Layout lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Natürlich gibt es eine [API für Entwickler](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md), beispielsweise um eine eigene Navigation zu erstellen.
 
@@ -162,7 +164,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
-`Build` = Optionen zum Erstellen einer [statischen Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md), durch Komma getrennt  
+`Build` = Optionen zum Erstellen einer statischen Webseite, durch Komma getrennt  
 
 <a id="einstellungen-system"></a>Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
@@ -174,7 +176,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Theme` = Standard-Theme  
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus, [unterstütze Statuswerte](#einstellungen-status)  
-`CoreStaticUrl` = URL der [statischen Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md)  
+`CoreStaticUrl` = URL der statischen Webseite 
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
 `CoreStaticDirectory` = Verzeichnis für erzeugte Dateien  

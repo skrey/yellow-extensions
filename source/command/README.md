@@ -18,7 +18,7 @@ You can build a static website that works on most web servers. Open a terminal w
 
 ## How to build a static cache
 
-You can build a static cache to speed up your website. Usually a page is first generated and then delivered to the browser. With a cache you can skip one step and deliver pages directly to the browser. This improves loading time, but the cache needs to be updated repeatedly. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. To clean the cache type following: `php yellow.php clean cache`.
+You can build a static cache to speed up your website. Usually a page is first generated and then delivered to the browser. With a cache pages are directly delivered to the browser. This improves loading time, but the cache needs to be updated repeatedly. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. To clean the cache type following: `php yellow.php clean cache`.
 
 ## Examples
 
