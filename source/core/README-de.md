@@ -181,8 +181,8 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `CoreStaticUrl` = URL der statischen Webseite 
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
-`CoreStaticDirectory` = Verzeichnis für erzeugte Dateien  
-`CoreCacheDirectory` = Verzeichnis für zwischengespeicherte Dateien  
+`CoreStaticBuildDirectory` = Verzeichnis für erzeugte Dateien  
+`CoreStaticCacheDirectory` = Verzeichnis für zwischengespeicherte Dateien  
 `CoreTrashDirectory` = Verzeichnis für gelöschte Dateien  
 `CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
 `CoreServerTimezone` = Zeitzone der Webseite  

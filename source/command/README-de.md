@@ -1,4 +1,4 @@
-Command 0.8.18
+Command 0.8.19
 ==============
 Befehlszeile der Webseite.
 
@@ -82,8 +82,8 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `CoreStaticUrl` = URL der statischen Webseite  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
-`CoreStaticDirectory` = Verzeichnis für erzeugte Dateien  
-`CoreCacheDirectory` = Verzeichnis für zwischengespeicherte Dateien  
+`CoreStaticBuildDirectory` = Verzeichnis für erzeugte Dateien  
+`CoreStaticCacheDirectory` = Verzeichnis für zwischengespeicherte Dateien  
 
 ## Installation
 

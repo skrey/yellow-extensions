@@ -181,8 +181,8 @@ The following settings can be configured at the top of a page:
 `CoreStaticUrl` = URL for static website  
 `CoreStaticDefaultFile` =  default file for static website  
 `CoreStaticErrorFile` = error file for static website  
-`CoreStaticDirectory` = directory for generated files  
-`CoreCacheDirectory` = directory for cached files  
+`CoreStaticBuildDirectory` = directory for generated files  
+`CoreStaticCacheDirectory` = directory for cached files  
 `CoreTrashDirectory` = directory for deleted files  
 `CoreServerUrl` = URL of the website, `auto` for automatic detection    
 `CoreServerTimezone` = timezone of the website  
