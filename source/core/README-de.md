@@ -178,7 +178,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Theme` = Standard-Theme  
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus, [unterstütze Statuswerte](#einstellungen-status)  
-`CoreStaticUrl` = URL der statischen Webseite 
+`CoreStaticUrl` = URL der statischen Webseite  
 `CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
 `CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
 `CoreStaticBuildDirectory` = Verzeichnis für erzeugte Dateien  
