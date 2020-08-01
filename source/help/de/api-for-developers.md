@@ -1,155 +1,155 @@
 ---
-Title: API
+Title: API für Entwickler
 ---
-We <3 people who code.
+Wir <3 Menschen die programmieren.
 
 [toc]
 
-## Folder structure
+## Verzeichnisstruktur
 
-The following folders are available:
+Die folgenden Verzeichnisse sind vorhanden:
 
 ```
-├── content               = content files
-│   ├── 1-home            = home page
-│   └── shared            = shared files
-├── media                 = media files
-│   ├── downloads         = files to download
-│   ├── images            = image files for the content
-│   └── thumbnails        = image thumbnails
-└── system                = system files
-    ├── extensions        = extension files
-    ├── layouts           = layout files, HTML files
-    ├── settings          = configuration files, INI files
-    ├── themes            = theme files, CSS files, fonts, etc.
-    └── trash             = deleted files
+├── content               = Inhaltsdateien
+│   ├── 1-home            = Startseite
+│   └── shared            = geteilte Dateien
+├── media                 = Mediendateien
+│   ├── downloads         = Dateien zum Herunterladen
+│   ├── images            = Bilder für den Inhalt
+│   └── thumbnails        = Miniaturbilder
+└── system                = Systemdateien
+    ├── extensions        = Erweiterungsdateien
+    ├── layouts           = Layoutdateien, HTML-Dateien
+    ├── settings          = Konfigurationsdateien, INI-Dateien
+    ├── themes            = Themendateien, CSS-Dateien, Schriftarten, usw.
+    └── trash             = gelöschte Dateien
 ```
 
-## Objects
+## Objekte
 
-The following objects are available:
+Die folgenden Objekte sind vorhanden:
 
-`$this->yellow->page` = [access to current page](#yellow-page)  
-`$this->yellow->content` = [access to content files from file system](#yellow-content)  
-`$this->yellow->media` = [access to media files from file system](#yellow-media)  
-`$this->yellow->system` = [access to system settings](#yellow-system)  
-`$this->yellow->text` = [access to text settings](#yellow-text)  
-`$this->yellow->toolbox` = [access to toolbox with helpers](#yellow-toolbox)  
-`$this->yellow->extensions` = [access to features and themes](#yellow-extensions) 
+`$this->yellow->page` = [Zugang zur aktuellen Seite](#yellow-page)  
+`$this->yellow->content` = [Zugang zu Inhaltsdateien vom Dateisystem](#yellow-content)  
+`$this->yellow->media` = [Zugang zu Mediendateien vom Dateisystem](#yellow-media)  
+`$this->yellow->system` = [Zugang zu Systemeinstellungen](#yellow-system)  
+`$this->yellow->text` = [Zugang zu Texteinstellungen](#yellow-text)  
+`$this->yellow->toolbox` = [Zugang zur Werkzeugkiste mit Helfern](#yellow-toolbox)  
+`$this->yellow->extensions` = [Zugang zu Funktionen und Themen](#yellow-extensions)  
 
-### Yellow page
+### Yellow-Page
 
-Yellow page gives access to current page:
+Yellow-Page gibt Zugang zur aktuellen Seite:
 
 **$this->yellow->page->get($key)**  
-Return page [setting](markdown-cheat-sheet#settings) 
+Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite
 
 **$this->yellow->page->getHtml($key)**  
-Return page [setting](markdown-cheat-sheet#settings), HTML encoded  
+Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite, HTML-kodiert  
 
 **$this->yellow->page->getDate($key, $format = "")**  
-Return page [setting](markdown-cheat-sheet#settings) as [language specific date format](adjusting-system#text-settings)  
+Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite als [sprachspezifisches Datumsformat](adjusting-system#texteinstellungen)
 
 **$this->yellow->page->getDateHtml($key, $format = "")**  
-Return page [setting](markdown-cheat-sheet#settings) as [language specific date format](adjusting-system#text-settings), HTML encoded  
+Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite als [sprachspezifisches Datumsformat](adjusting-system#texteinstellungen), HTML-kodiert
 
 **$this->yellow->page->getDateRelative($key, $format = "", $daysLimit = 30)**  
-Return page [setting](markdown-cheat-sheet#settings) as [language specific date format](adjusting-system#text-settings), relative to today
+Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite als [sprachspezifisches Datumsformat](adjusting-system#texteinstellungen), relativ zu heute
 
 **$this->yellow->page->getDateRelativeHtml($key, $format = "", $daysLimit = 30)**  
-Return page [setting](markdown-cheat-sheet#settings) as [language specific date format](adjusting-system#text-settings), relative to today, HTML encoded
+Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite als [sprachspezifisches Datumsformat](adjusting-system#texteinstellungen), relativ zu heute, HTML-kodiert
 
 **$this->yellow->page->getDateFormatted($key, $format)**  
-Return page [setting](markdown-cheat-sheet#settings) with [custom date format](https://www.php.net/manual/en/function.date.php)  
+Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite mit [maßgeschneidertem Datumsformat](https://www.php.net/manual/de/function.date.php)
 
 **$this->yellow->page->getDateFormattedHtml($key, $format)**  
-Return page [setting](markdown-cheat-sheet#settings) with [custom date format](https://www.php.net/manual/en/function.date.php), HTML encoded  
+Hole eine [Einstellung](markdown-cheat-sheet#einstellungen) der Seite mit [maßgeschneidertem Datumsformat](https://www.php.net/manual/de/function.date.php), HTML-kodiert
 
 **$this->yellow->page->getContent($rawFormat = false, $sizeMax = 0)**  
-Return page content, HTML encoded or raw format
+Hole den Seiteninhalt, HTML-kodiert oder Rohformat
 
 **$this->yellow->page->getParent()**  
-Return parent page, null if none
+Hole die Elternseite, null falls nicht vorhanden
 
 **$this->yellow->page->getParentTop($homeFallback = false)**  
-Return top-level parent page, null if none
+Hole die oberste Elternseite, null falls nicht vorhanden
 
 **$this->yellow->page->getSiblings($showInvisible = false)**  
-Return [page collection](#yellow-page-collection) with pages on the same level
+Hole eine [Page-Collection](#yellow-page-collection) mit Seiten auf dem selben Level
 
 **$this->yellow->page->getChildren($showInvisible = false)**  
-Return [page collection](#yellow-page-collection) with child pages
+Hole eine [Page-Collection](#yellow-page-collection) mit Kinderseiten
 
 **$this->yellow->page->getPages()**  
-Return [page collection](#yellow-page-collection) with additional pages
+Hole eine [Page-Collection](#yellow-page-collection) mit zusätzlichen Seiten
 
 **$this->yellow->page->getPage($key)**  
-Return related page
+Hole eine zugehörige Seite
 
 **$this->yellow->page->getUrl()**  
-Return page URL
+Hole die URL der Seite 
 
 **$this->yellow->page->getBase($multiLanguage = false)**  
-Return page base
+Hole die Basis der Seite
 
 **$this->yellow->page->getLocation($absoluteLocation = false)**  
-Return page location
+Hole den Ort der Seite
 
 **$this->yellow->page->getRequest($key)**  
-Return page request argument
+Hole das Requestargument der Seite
 
 **$this->yellow->page->getRequestHtml($key)**  
-Return page request argument, HTML encoded
+Hole das Requestargument der Seite, HTML-kodiert
 
 **$this->yellow->page->getHeader($key)**  
-Return page response header
+Hole den Responseheader der Seite
 
 **$this->yellow->page->getExtra($name)**  
-Return page extra data
+Hole Extradaten der Seite
 
 **$this->yellow->page->getModified($httpFormat = false)**  
-Return page modification date, Unix time or HTTP format
+Hole das Änderungsdatum der Seite, Unix-Zeit oder HTTP-Format
 
 **$this->yellow->page->getLastModified($httpFormat = false)**  
-Return last modification date, Unix time or HTTP format
+Hole das letzte Änderungsdatum der Seite, Unix-Zeit oder HTTP-Format
 
 **$this->yellow->page->getStatusCode($httpFormat = false)**  
-Return page status code, number or HTTP format
+Hole den Statuscode der Seite, Zahl oder HTTP-Format
 
 **$this->yellow->page->error($statusCode, $pageError = "")**  
-Respond with error page
+Antworte mit Fehlerseite
 
 **$this->yellow->page->clean($statusCode, location = "")**  
-Respond with status code, no page content
+Antworte mit Statuscode, ohne Seiteninhalt
 
 **$this->yellow->page->isAvailable()**  
-Check if page is available
+Teste ob die Seite vorhanden ist
 
 **$this->yellow->page->isVisible()**  
-Check if page is visible
+Teste ob die Seite sichtbar ist
 
 **$this->yellow->page->isActive()**  
-Check if page is within current HTTP request
+Teste ob die Seite innerhalb der aktuellen HTTP-Anfrage ist
 
 **$this->yellow->page->isCacheable()**  
-Check if page is cacheable
+Teste ob die Seite cachebar ist
 
 **$this->yellow->page->isError()**  
-Check if page with error
+Teste ob die Seite einen Fehler hat
 
 **$this->yellow->page->isExisting($key)**  
-Check if page [setting](markdown-cheat-sheet#settings) exists  
+Teste ob die [Einstellung](markdown-cheat-sheet#einstellungen) der Seite existiert  
 
 **$this->yellow->page->isRequest($key)**  
-Check if request argument exists
+Teste ob das Requestargument existiert
 
 **$this->yellow->page->isHeader($key)**  
-Check if response header exists
+Teste ob der Responseheader existiert
 
 **$this->yellow->page->isPage($key)**  
-Check if related page exists  
+Teste ob die zugehörige Seite existiert
 
-Here's an example layout for showing page content:
+Hier ist ein Beispiel-Layout um den Seiteninhalt anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -162,7 +162,7 @@ Here's an example layout for showing page content:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing page content with additional setting:
+Hier ist ein Beispiel-Layout um den Seiteninhalt und eine zusätzliche Einstellung anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -176,8 +176,7 @@ Here's an example layout for showing page content with additional setting:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-
-Here's an example layout for showing page content with additional date:
+Hier ist ein Beispiel-Layout um den Seiteninhalt und ein zusätzliches Datum anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -191,80 +190,80 @@ Here's an example layout for showing page content with additional date:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-### Yellow page collection
+### Yellow-Page-Collection
 
-Yellow page collection gives access to multiple pages:
+Yellow-Page-Collection gibt Zugang zu mehreren Seiten:
 
 **$pages->filter($key, $value, $exactMatch = true)**  
-Filter page collection by [setting](markdown-cheat-sheet#settings)   
+Filtere eine Page-Collection nach [Einstellung](markdown-cheat-sheet#einstellungen)
 
 **$pages->match($regex = "/.*/")**  
-Filter page collection by file name
+Filtere eine Page-Collection nach Dateinamen
 
 **$pages->sort($key, $ascendingOrder = true)**  
-Sort page collection by [setting](markdown-cheat-sheet#settings)   
+Sortiere eine Page-Collection nach [Einstellung](markdown-cheat-sheet#einstellungen)
 
 **$pages->similar($page, $ascendingOrder = false)**  
-Sort page collection by [settings similarity](markdown-cheat-sheet#settings)
+Sortiere eine Page-Collection nach [Einstellungsähnlichkeit](markdown-cheat-sheet#einstellungen)
 
 **$pages->merge($input)**  
-Calculate union, merge page collection
+Berechne Vereinigungsmenge, füge eine Page-Collection hinzu
 
 **$pages->intersect($input)**  
-Calculate intersection, remove pages that are not present in another page collection
+Berechne Schnittmenge, entferne Seiten die nicht in einer anderen Page-Collection sind
 
 **$pages->diff($input)**  
-Calculate difference, remove pages that are present in another page collection
+Berechne Restmenge, entferne Seiten die in einer anderen Page-Collection sind
 
 **$pages->append($page)**  
-Append to end of page collection
+Hänge an das Ende der Page-Collection
 
 **$pages->prepend($page)**  
-Prepend to start of page collection
+Stelle an den Anfang der Page-Collection
 
 **$pages->limit($pagesMax)**  
-Limit the number of pages in page collection
+Begrenze die Anzahl der Seiten in der Page-Collection
 
 **$pages->reverse()**  
-Reverse page collection
+Drehe die Page-Collection um
 
 **$pages->shuffle()**  
-Randomize page collection
+Mach die Page-Collection zufällig
 
 **$pages->pagination($limit, $reverse = true)**  
-Paginate page collection
+Erstelle eine Pagination für die Page-Collection
 
 **$pages->getPaginationNumber()**  
-Return current page number in pagination
+Hole die aktuelle Seitennummer in der Pagination
 
 **$pages->getPaginationCount()**  
-Return highest page number in pagination
+Hole die höchste Seitennummer in der Pagination
 
 **$pages->getPaginationLocation($absoluteLocation = true, $pageNumber = 1)**  
-Return location for a page in pagination
+Hole den Ort einer Seite in der Pagination
 
 **$pages->getPaginationPrevious($absoluteLocation = true)**  
-Return location for previous page in pagination
+Hole den Ort der vorherigen Seite in der Pagination
 
 **$pages->getPaginationNext($absoluteLocation = true)**  
-Return location for next page in pagination
+Hole den Ort der nächsten Seite in der Pagination
 
 **$pages->getPagePrevious($page)**  
-Return previous page in collection, null if none
+Hole die vorherige Seite in der Page-Collection, null falls nicht vorhanden
 
 **$pages->getPageNext($page)**  
-Return next page in collection, null if none
+Hole die nächste Seite in der Page-Collection, null falls nicht vorhanden
 
 **$pages->getFilter()**  
-Return current page filter
+Hole den aktuellen Seitenfilter
 
 **$pages->getModified($httpFormat = false)**  
-Return page collection modification date, Unix time or HTTP format
+Hole das Änderungsdatum der Page-Collection, Unix-Zeit oder HTTP-Format
 
 **$pages->isPagination()**  
-Check if there is a pagination
+Teste ob eine Pagination vorhanden ist
 
-Here's an example layout for showing three random pages:
+Hier ist ein Beispiel-Layout um drei zufällige Seiten anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -283,7 +282,7 @@ Here's an example layout for showing three random pages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing latest pages:
+Hier ist ein Beispiel-Layout um die neusten Seiten anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -302,7 +301,7 @@ Here's an example layout for showing latest pages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing draft pages:
+Hier ist ein Beispiel-Layout um Entwurfseiten anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -321,32 +320,32 @@ Here's an example layout for showing draft pages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-### Yellow content
+### Yellow-Content
 
-Yellow content gives access to [content files](adjusting-content) from file system:
+Yellow-Content gibt Zugang zu [Inhaltsdateien](adjusting-content) vom Dateisystem:
 
 **$this->yellow->content->find($location, $absoluteLocation = false)**  
-Return [page](#yellow-page) from file system, null if not found
+Hole eine [Page](#yellow-page) vom Dateisystem, null falls nicht vorhanden
 
 **$this->yellow->content->index($showInvisible = false, $multiLang = false, $levelMax = 0)**  
-Return [page collection](#yellow-page-collection) with all pages
+Hole eine [Page-Collection](#yellow-page-collection) mit allen Seiten
 
 **$this->yellow->content->top($showInvisible = false, $showOnePager = true)**  
-Return [page collection](#yellow-page-collection) with top-level navigation
+Hole eine [Page-Collection](#yellow-page-collection) mit Hauptseiten der Navigation
 
 **$this->yellow->content->path($location, $absoluteLocation = false)**  
-Return [page collection](#yellow-page-collection) with path ancestry
+Hole eine [Page-Collection](#yellow-page-collection) mit Pfad in der Navigation
 
 **$this->yellow->content->multi($location, $absoluteLocation = false, $showInvisible = false)**  
-Return [page collection](#yellow-page-collection) with multiple languages in multi language mode
+Hole eine [Page-Collection](#yellow-page-collection) mit mehreren Sprachen im Mehrsprachen-Modus
 
 **$this->yellow->content->shared($name)**  
-Return [page](#yellow-page) with shared content, null if not found  
+Hole eine [Page](#yellow-page) mit geteiltem Inhalt, null falls nicht vorhanden  
 
 **$this->yellow->content->clean()**  
-Return [page collection](#yellow-page-collection) that is empty
+Hole eine [Page-Collection](#yellow-page-collection) die leer ist
 
-Here's an example layout for showing all pages:
+Hier ist ein Beispiel-Layout um alle Seiten anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -365,7 +364,7 @@ Here's an example layout for showing all pages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing pages below a specific location:
+Hier ist ein Beispiel-Layout um Seiten unterhalb eines bestimmten Orts anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -384,7 +383,7 @@ Here's an example layout for showing pages below a specific location:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing top-level navigation pages:
+Hier ist ein Beispiel-Layout um die Hauptseiten der Navigation anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -403,20 +402,20 @@ Here's an example layout for showing top-level navigation pages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-### Yellow media
+### Yellow-Media
 
-Yellow media gives access to [media files](adjusting-media) from file system:
+Yellow-Media gibt Zugang zu [Mediendateien](adjusting-media) vom Dateisystem:
 
 **$this->yellow->media->find($location, $absoluteLocation = false)**  
-Return [page](#yellow-page) with media file information, null if not found
+Hole eine [Page](#yellow-page) mit Informationen über Mediendatei, null falls nicht vorhanden
 
 **$this->yellow->media->index($showInvisible = false, $multiPass = false, $levelMax = 0)**  
-Return [page collection](#yellow-page-collection) with all media files
+Hole eine [Page-Collection](#yellow-page-collection) mit allen Mediendateien
 
 **$this->yellow->media->clean()**  
-Return [page collection](#yellow-page-collection) that is empty
+Hole eine [Page-Collection](#yellow-page-collection) die leer ist
 
-Here's an example layout for showing all media files:
+Hier ist ein Beispiel-Layout um alle Mediendateien anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -435,7 +434,7 @@ Here's an example layout for showing all media files:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing latest media files:
+Hier ist ein Beispiel-Layout um die neusten Mediendateien anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -454,7 +453,7 @@ Here's an example layout for showing latest media files:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing media files of a specific type:
+Hier ist ein Beispiel-Layout um Mediendateien eines bestimmten Typen anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -473,26 +472,26 @@ Here's an example layout for showing media files of a specific type:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-### Yellow system
+### Yellow-System
 
-Yellow system gives access to [system settings](adjusting-system#system-settings):
+Yellow-System gibt Zugang zu [Systemeinstellungen ](adjusting-system#systemeinstellungen):
 
 **$this->yellow->system->get($key)**  
-Return system setting
+Hole eine Systemeinstellung
 
 **$this->yellow->system->getHtml($key)**  
-Return system setting, HTML encoded
+Hole eine Systemeinstellung, HTML-kodiert
 
 **$this->yellow->system->getData($filterStart = "", $filterEnd = "")**  
-Return system settings
+Hole Systemeinstellungen
 
 **$this->yellow->system->getModified($httpFormat = false)**  
-Return system settings modification date, Unix time or HTTP format
+Hole das Änderungsdatum von Systemeinstellungen, Unix-Zeit oder HTTP-Format
 
 **$this->yellow->system->isExisting($key)**  
-Check if system setting exists
+Teste ob die Systemeinstellung existiert
 
-Here's an example layout for showing static website settings:
+Hier ist ein Beispiel-Layout um statische Webseiten-Einstellungen anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -509,7 +508,7 @@ Here's an example layout for showing static website settings:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing webmaster settings:
+Hier ist ein Beispiel-Layout um Webmaster-Einstellungen anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -525,7 +524,7 @@ Here's an example layout for showing webmaster settings:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing if multi language mode is activated:
+Hier ist ein Beispiel-Layout um anzuzeigen ob der Mehrsprachen-Modus aktiviert ist:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -541,38 +540,38 @@ Multi language mode is <?php echo htmlspecialchars($multiLanguageMode ? "on" : "
 <?php $this->yellow->layout("footer") ?>
 ```
 
-### Yellow text
+### Yellow-Text
 
-Yellow text gives access to [text settings](adjusting-system#text-settings):
+Yellow-Text gibt Zugang zu [Texteinstellungen](adjusting-system#texteinstellungen):
 
 **$this->yellow->text->get($key)**  
-Return text setting
+Hole einen Textstring
 
 **$this->yellow->text->getHtml($key)**  
-Return text setting, HTML encoded
+Hole einen Textstring, HTML-kodiert
 
 **$this->yellow->text->getText($key, $language )**  
-Return text setting for specific language
+Hole einen Textstring für eine bestimmte Sprache
 
 **$this->yellow->text->getTextHtml($key, $language )**  
-Return text setting for specific language, HTML encoded
+Hole einen Textstring für eine bestimmte Sprache, HTML-kodiert
 
 **$this->yellow->text->getData($filterStart = "", $language = "")**  
-Return text settings
+Hole Textstrings
 
 **$this->yellow->text->getModified($httpFormat = false)**  
-Return text settings modification date, Unix time or HTTP format
+Hole das Änderungsdatum von Text, Unix-Zeit oder HTTP-Format
 
 **$this->yellow->text->getLanguages()**  
-Return languages
+Hole Sprachen
 
 **$this->yellow->text->isLanguage($language)**  
-Check if language exists
+Teste ob die Sprache existiert
 
 **$this->yellow->text->isExisting($key, $language = "")**  
-Check if text setting exists
+Teste ob der Textstring existiert
 
-Here's an example layout for showing error messages:
+Hier ist ein Beispiel-Layout um Fehlermeldungen anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -589,7 +588,7 @@ Here's an example layout for showing error messages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing languages and translators:
+Hier ist ein Beispiel-Layout um Sprachen und Übersetzer anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -607,7 +606,7 @@ Here's an example layout for showing languages and translators:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for checking if a specific language exists:
+Hier ist ein Beispiel-Layout um zu testen ob eine bestimmte Sprache existiert:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -621,62 +620,62 @@ Here's an example layout for checking if a specific language exists:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-### Yellow toolbox
+### Yellow-Toolbox
 
-Yellow toolbox gives access to toolbox with helpers:
+Yellow-Toolbox gibt Zugang zur Werkzeugkiste mit Helfern:
 
-**$this->yellow->toolbox->getCookie($key)**  
-Return browser cookie from from current HTTP request  
+**$this->yellow->toolbox->getCookie($key)**   
+Hole das Browsercookie der aktuellen HTTP-Anfrage
 
-**$this->yellow->toolbox->getServer($key)**  
-Return server argument from current HTTP request
+**$this->yellow->toolbox->getServer($key)**   
+Hole das Serverargument der aktuellen HTTP-Anfrage
 
 **$this->yellow->toolbox->normaliseArguments($text, $appendSlash = true, $filterStrict = true)**  
-Normalise location arguments
+Normalisiere Ortargumente
 
 **$this->yellow->toolbox->getDirectoryEntries($path, $regex = "/.*/", $sort = true, $directories = true, $includePath = true)**  
-Return files and directories
+Hole Dateien und Verzeichnisse
 
 **$this->yellow->toolbox->readFile($fileName, $sizeMax = 0)**  
-Read file, empty string if not found  
+Lese eine Datei, leerer String falls nicht vorhanden
 
 **$this->yellow->toolbox->createFile($fileName, $fileData, $mkdir = false)**  
-Create file  
+Erstelle eine Datei
 
 **$this->yellow->toolbox->appendFile($fileName, $fileData, $mkdir = false)**  
-Append file  
+Hänge an eine Datei an
 
 **$this->yellow->toolbox->copyFile($fileNameSource, $fileNameDestination, $mkdir = false)**  
-Copy file  
+Kopiere eine Datei  
 
 **$this->yellow->toolbox->renameFile($fileNameSource, $fileNameDestination, $mkdir = false)**  
-Rename file  
+Benenne eine Datei um
 
 **$this->yellow->toolbox->renameDirectory($pathSource, $pathDestination, $mkdir = false)**  
-Rename directory  
+Benenne ein Verzeichnis um  
 
 **$this->yellow->toolbox->deleteFile($fileName, $pathTrash = "")**  
-Delete file  
+Lösche eine Datei
 
 **$this->yellow->toolbox->deleteDirectory($path, $pathTrash = "")**  
-Delete directory  
+Lösche ein Verzeichnis  
 
 **$this->yellow->toolbox->modifyFile($fileName, $modified)**  
-Set file modification date, Unix time  
+Setze das Änderungsdatum der Datei, Unix-Zeit
 
 **$this->yellow->toolbox->getFileModified($fileName)**  
-Return file modification date, Unix time  
+Hole das Änderungsdatum der Datei, Unix-Zeit
 
 **$this->yellow->toolbox->getTextLines($text)**  
-Return lines from text string, including newline  
+Hole die Zeilen eines Textstrings, einschließlich Zeilenumbruch  
 
 **$this->yellow->toolbox->getTextList($text, $separator, $size)**  
-Return array of specific size from text string  
+Hole ein Array mit bestimmter Grösse aus einem Textstring  
 
 **$this->yellow->toolbox->getTextArguments($text, $optional = "-", $sizeMin = 9)**  
-Return arguments from text string, space separated  
+Hole die Argumente aus einem Textstring, durch Leerzeichen getrennt  
 
-Here's an example layout for showing files in a directory:
+Hier ist ein Beispiel-Layout um Dateien in einem Verzeichnis anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -694,7 +693,7 @@ Here's an example layout for showing files in a directory:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for reading text lines from file:
+Hier ist ein Beispiel-Layout um Textzeilen von einer Datei zu lesen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -713,26 +712,26 @@ Here's an example layout for reading text lines from file:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-### Yellow extensions
+### Yellow-Extensions
 
-Yellow extensions gives access to features and themes:
+Yellow-Extensions gibt Zugang zu Funktionen und Themen:
 
 **$this->yellow->extensions->get($name)**  
-Return extension
+Hole eine Erweiterung
 
 **$this->yellow->extensions->getData($type = "")**  
-Return extensions version
+Hole die Versionsinformation von Erweiterungen
 
 **$this->yellow->extensions->getModified($httpFormat = false)**  
-Return extensions modification date, Unix time or HTTP format
+Hole das Änderungsdatum von Erweiterungen, Unix-Zeit oder HTTP-Format
 
 **$this->yellow->extensions->getExtensions($type = "")**  
-Return extensions
+Hole Erweiterungen
 
 **$this->yellow->extensions->isExisting($name)**  
-Check if extension exists
+Teste ob die Erweiterung existiert
 
-Here's an example layout for showing information about extensions:
+Hier ist ein Beispiel-Layout um Informationen über Erweiterungen anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -749,7 +748,7 @@ Here's an example layout for showing information about extensions:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example extension for creating own features:
+Hier ist eine Beispiel-Erweiterung um eigene Funktionen zu erstellen:
 
 ``` php
 <?php
@@ -759,7 +758,7 @@ class YellowExample {
 }
 ```
 
-Here's an example extension for creating own themes:
+Hier ist eine Beispiel-Erweiterung um eigene Themen zu erstellen:
 
 ``` php
 <?php
@@ -769,9 +768,10 @@ class YellowExample {
 }
 ```
 
-## Events
 
-The following events are available in extensions:
+## Ereignisse
+
+Die folgenden Ereignisse sind vorhanden in Erweiterungen:
 
 ```
 onLoad ───────▶ onStartup ─────────────────────────────────────────┐
@@ -792,56 +792,56 @@ onLoad ───────▶ onStartup ────────────�
 exit ◀───────── onShutDown ◀───────────────┴───────────────────────┘
 ```
 
-When a page is displayed, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. After that the core informs with `onRequest` that there's a request. The page can be analysed with various `onParse` events. Then the page content will be generated. If an error occurs, an error page will be generated. Finally the page is output and `onShutdown` will be called.
+Wird eine Seite angezeigt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Danach informiert der Core mit `onRequest` dass es eine Anfrage gibt. Die Seite kann mit verschiedenen `onParse`-Ereignissen analysiert werden. Dann wird der Inhalt der Seite erzeugt. Sollte ein Fehler auftreten, wird eine Fehlerseite erzeugt. Zum Schluss wird die Seite ausgegeben und es wird `onShutdown` aufgerufen.
 
-When a page is edited, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. After that the core informs with `onRequest` that there's a request, which will be handled by the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit). Changes at the page can be analysed with various `onEdit` events. Then the page will be saved in the file system. Finally a status code is output to reload the page and `onShutdown` will be called.
+Wird eine Seite bearbeitet, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Danach informiert der Core mit `onRequest` dass es eine Anfrage gibt, welche von der [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) behandelt wird. Änderungen an der Seite können mit verschiedenen `onEdit`-Ereignissen überprüft werden. Dann wird die Seite im Dateisystem gespeichert. Zum Schluss wird ein Statuscode zum Neuladen der Seite ausgegeben und es wird `onShutdown` aufgerufen.
 
-When a command is executed, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. After that the core informs with `onCommand` that there's a command, which will be handled by the corresponding extension. If no command has been entered at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command), then `onCommandHelp` will be called and extensions can provide a help. Finally a return code is output and `onShutdown` will be called.
+Wird ein Befehl ausgeführt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Danach informiert der Core mit `onCommand` dass es einen Befehl gibt, welcher von der entsprechenden Erweiterung behandelt wird. Sollte kein Befehl in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command) eingegeben worden sein, dann wird `onCommandHelp` aufgerufen und Erweiterungen können eine Hilfe zur Verfügung stellen. Zum Schluss wird ein Rückgabecode ausgegeben und es wird `onShutdown` aufgerufen.
 
-### Yellow core events
+### Yellow-Core-Ereignisse
 
-Yellow core events notify when a state has changed.
+Yellow-Core-Ereignisse unterrichten wenn sich ein Zustand ändert:
 
 **public function onLoad($yellow)**  
-Handle initialisation
+Behandle die Initialisierung
 
 **public function onStartup()**  
-Handle startup
+Behandle das Hochfahren
 
 **public function onRequest($scheme, $address, $base, $location, $fileName)**  
-Handle request
+Behandle die Anfrage
 
 **public function onParseMeta($page)**  
-Handle page [meta data](markdown-cheat-sheet#settings)
+Behandle die [Metadaten](markdown-cheat-sheet#einstellungen) einer Seite
 
 **public function onParseContentRaw($page, $text)**  
-Handle page content in raw format
+Behandle den Seiteninhalt im Rohformat
 
 **public function onParseContentShortcut($page, $name, $text, $type)**  
-Handle page content of [shortcut](markdown-cheat-sheet#shortcuts)
+Behandle den Seiteninhalt einer [Abkürzung](markdown-cheat-sheet#abkürzungen)
 
 **public function onParseContentText($page, $text)**  
-Handle page content
+Behandle den Seiteninhalt
 
 **public function onParsePageLayout($page, $name)**  
-Handle page [layout](html-files)
+Behandle das [Layout](html-files) einer Seite
 
 **public function onParsePageExtra($page, $name)**  
-Handle page extra data
+Behandle die Extradaten einer Seite
 
 **public function onParsePageOutput($page, $text)**  
-Handle page output data
+Behandle die Ausgabedaten einer Seite
 
 **public function onLog($action, $message)**  
-Handle logging
+Behandle das Logging
 
 **public function onUpdate($action)**  
-Handle update
+Behandle die Aktualisierung
 
 **public function onShutdown()**  
-Handle shutdown
+Behandle das Runterfahren
 
-Here's an example extension for handling an `[example]` shortcut:
+Hier ist eine Beispiel-Erweiterung um eine `[example]`-Abkürzung zu behandeln:
 
 ``` php
 <?php
@@ -854,7 +854,7 @@ class YellowExample {
     public function onLoad($yellow) {
         $this->yellow = $yellow;
     }
-    
+
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
@@ -868,23 +868,23 @@ class YellowExample {
 }
 ```
 
-### Yellow edit events
+### Yellow-Edit-Ereignisse
 
-Yellow edit events notify when a page is edited in the web browser.
+Yellow-Edit-Ereignisse unterrichten wenn eine Seite im Webbrowser bearbeitet wird:
 
 **public function onEditContentFile($page, $action)**  
-Handle [content file](adjusting-content) changes
+Behandle Änderungen an [Inhaltsdatei](adjusting-content)
 
 **public function onEditMediaFile($file, $action)**  
-Handle [media file](adjusting-media) changes
+Behandle Änderungen an [Mediendatei](adjusting-media)
 
 **public function onEditSystemFile($file, $action)**  
-Handle [system file](adjusting-system) changes
+Behandle Änderungen an [Systemdatei](adjusting-system)
 
 **public function onEditUserAccount($email, $password, $action, $users)**  
-Handle [user account](adjusting-system#user-accounts) changes
+Behandle Änderungen am [Benutzerkonto](adjusting-system#benutzerkonten)
 
-Here's an example extension for handling a file:
+Hier ist eine Beispiel-Erweiterung um eine Datei zu behandeln:
 
 ``` php
 <?php
@@ -909,17 +909,18 @@ class YellowExample {
 }
 ```
 
-### Yellow command events
+### Yellow-Command-Ereignisse
 
-Yellow command events notify when a command is executed.
+Yellow-Command-Ereignisse unterrichten wenn ein Befehl ausgeführt wird:
 
 **public function onCommand($command, $text)**  
-Handle command
+Behandle Befehle
 
 **public function onCommandHelp()**  
-Handle command help
+Behandle Hilfe für Befehle
 
-Here's an example extension for handling a command:
+
+Hier ist eine Beispiel-Erweiterung um einen Befehl zu behandeln:
 
 ``` php
 <?php
@@ -932,7 +933,7 @@ class YellowExample {
     public function onLoad($yellow) {
         $this->yellow = $yellow;
     }
-    
+
     // Handle command help
     public function onCommandHelp() {
         return "example\n";

@@ -18,7 +18,7 @@ TitleSlug: help
 ! * [HTML-Dateien](html-files)
 ! * [CSS-Dateien](css-files)
 ! * [JavaScript-Dateien](javascript-files)
-! * [API für Entwickler](api)
+! * [API für Entwickler](api-for-developers)
 ! * [Fehlerbehebung](troubleshooting)
 
 ## Möchtest du Fragen stellen?
