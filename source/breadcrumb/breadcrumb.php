@@ -2,7 +2,7 @@
 // Breadcrumb extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/breadcrumb
 
 class YellowBreadcrumb {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -10,6 +10,7 @@ class YellowBreadcrumb {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("breadcrumbSeparator", ">");
         $this->yellow->system->setDefault("breadcrumbStyle", "breadcrumb");
+        $this->yellow->system->setDefault("breadcrumbPagesMin", "2");
     }
     
     // Handle page content of shortcut
@@ -20,13 +21,19 @@ class YellowBreadcrumb {
             if (empty($separator)) $separator = $this->yellow->system->get("breadcrumbSeparator");
             if (empty($style)) $style = $this->yellow->system->get("breadcrumbStyle");
             $pages = $this->yellow->content->path($page->getLocation(true), true);
-            $page->setLastModified($pages->getModified());
-            $output = "<div class=\"".htmlspecialchars($style)."\">";
-            foreach ($pages as $pageBreadcrumb) {
-                $output .= "<a href=\"".$pageBreadcrumb->getLocation(true)."\">".$pageBreadcrumb->getHtml("titleNavigation")."</a>";
-                if ($pageBreadcrumb->getLocation(true)!=$page->getLocation(true)) $output .= " ".htmlspecialchars($separator)." ";
+            if (count($pages)>=$this->yellow->system->get("breadcrumbPagesMin")) {
+                $page->setLastModified($pages->getModified());
+                $output = "<div class=\"".htmlspecialchars($style)."\">";
+                foreach ($pages as $pageBreadcrumb) {
+                    if ($pageBreadcrumb->getLocation()!=$page->getLocation()) {
+                        $output .= "<a href=\"".$pageBreadcrumb->getLocation(true)."\">".$pageBreadcrumb->getHtml("titleNavigation")."</a>";
+                        $output .= " ".htmlspecialchars($separator)." ";
+                    } else {
+                        $output .= "<span class=\"active\">".$pageBreadcrumb->getHtml("titleContent")."</span>";
+                    }
+                }
+                $output .= "</div>\n";
             }
-            $output .= "</div>\n";
         }
         return $output;
     }

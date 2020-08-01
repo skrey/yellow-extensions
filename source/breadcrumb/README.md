@@ -1,4 +1,4 @@
-Breadcrumb 0.8.5
+Breadcrumb 0.8.6
 ================
 Breadcrumb navigation.
 
@@ -52,6 +52,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `BreadcrumbSeparator` = text shown between elements  
 `BreadcrumbStyle` = breadcrumb style, e.g. `breadcrumb`  
+`BreadcrumbPagesMin` = number of pages to show breadcrumb navigation  
 
 ## Installation
 

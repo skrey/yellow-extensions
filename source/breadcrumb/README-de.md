@@ -1,4 +1,4 @@
-Breadcrumb 0.8.5
+Breadcrumb 0.8.6
 ================
 Brotkrümel-Navigation.
 
@@ -52,6 +52,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 
 `BreadcrumbSeparator` = Text der zwischen Elementen angezeigt wird  
 `BreadcrumbStyle` = Brotkrümel-Stil, z.B. `breadcrumb`  
+`BreadcrumbPagesMin` = Anzahl der Seiten um Brotkrümel-Navigation anzuzeigen  
 
 ## Installation
 
