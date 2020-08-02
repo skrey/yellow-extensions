@@ -1,4 +1,4 @@
-Edit 0.8.32
+Edit 0.8.33
 ===========
 Edit your website in a web browser.
 
