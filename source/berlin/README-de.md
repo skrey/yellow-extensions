@@ -1,6 +1,6 @@
 Berlin 0.8.9
 ============
-Berlin ist ein einfaches Thema, inspiriert von Dieter Rams.
+Berlin ist ein schönes Thema, inspiriert von Dieter Rams.
 
 <p align="center"><img src="berlin-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 

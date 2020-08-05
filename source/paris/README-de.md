@@ -1,6 +1,6 @@
 Paris 0.8.9
 ===========
-Paris ist ein elegantes Thema für Schriftsteller.
+Paris ist ein elegantes Thema.
 
 <p align="center"><img src="paris-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 

@@ -1,6 +1,6 @@
 Stockholm 0.8.9
 ===============
-Stockholm ist ein schlichtes Webseiten-Thema.
+Stockholm ist ein schlichtes Thema.
 
 <p align="center"><img src="stockholm-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 

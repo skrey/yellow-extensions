@@ -1,6 +1,6 @@
 Paris 0.8.9
 ===========
-Paris is an elegant theme for writers.
+Paris is an elegant theme.
 
 <p align="center"><img src="paris-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
