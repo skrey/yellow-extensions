@@ -10,7 +10,7 @@ Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilf
 
 ## Wie man die Hilfe übersetzt
 
-Du kannst die Hilfe in deine eigene Sprache übersetzen. Alle Hilfeseiten befinden sich im Hilfeverzeichnis innerhalb des `content`-Verzeichnisses. Lass uns wissen, falls du eine neue Übersetzung erstellt hast.
+Du kannst die Hilfe in deine eigene Sprache übersetzen. Alle Hilfeseiten befinden sich im `content/9-help`-Verzeichnis. Am Besten ist es wenn man die Dateinamen beibehält, nur den Titel und den Inhalt einer Seite übersetzt. Lass uns wissen, falls du eine neue Übersetzung erstellt hast.
 
 ## Installation
 
