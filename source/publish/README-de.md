@@ -77,7 +77,7 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `Developer` = Entwickler einer Funktion  
 `Translator` = Übersetzer einer Sprache  
 `Designer` = Designer eines Themas  
-`Language` = Sprache(n) der Erweiterung, durch Komma getrennt  
+`Language` = Sprachen der Erweiterung, durch Komma getrennt  
 `Tag` = Tags zur Kategorisierung der Erweiterung, durch Komma getrennt  
 
 <a id="einstellungen-status"></a>Die folgenden Erweiterungs-Statuswerte werden unterstützt:
