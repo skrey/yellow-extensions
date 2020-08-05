@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.22";
+    const VERSION = "0.8.23";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -201,7 +201,7 @@ class YellowPublish {
     // Update extension version file
     public function updateExtensionVersion($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
-        list($extension, $version, $type, $status, $description, $text) = $this->getExtensionInformation($pathSource);
+        list($extension, $version, $status, $description, $author) = $this->getExtensionInformation($pathSource);
         $fileNameVersion = $pathRepositoryOffical.$this->yellow->system->get("updateVersionFile");
         if (is_file($fileNameVersion) && $status!="unlisted") {
             $found = false;
@@ -211,7 +211,7 @@ class YellowPublish {
                 if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                     if (!empty($matches[1]) && !empty($matches[2]) && strtoloweru($matches[1])==strtoloweru($extension)) {
                         list($dummy1, $url, $dummy2) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
-                        $fileDataNew .= "$matches[1]: $version,$url,$text\n";
+                        $fileDataNew .= "$matches[1]: $version,$url,$author\n";
                         $found = true;
                         continue;
                     }
@@ -221,7 +221,7 @@ class YellowPublish {
             if (!$found) {
                 $url = "https://github.com/datenstrom/yellow-extensions/raw/master/zip/".strtoloweru("$extension.zip");
                 $fileDataNew .= "\n# Datenstrom Yellow version, new extension\n\n";
-                $fileDataNew .= ucfirst($extension).": $version,$url,$text\n";
+                $fileDataNew .= ucfirst($extension).": $version,$url,$author\n";
             }
             if ($fileData!=$fileDataNew) {
                 if (!$this->yellow->toolbox->createFile($fileNameVersion, $fileDataNew)) {
@@ -237,7 +237,7 @@ class YellowPublish {
     // Update extension waffle file
     public function updateExtensionWaffle($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
-        list($extension, $version, $type, $status) = $this->getExtensionInformation($pathSource);
+        list($extension, $version, $status) = $this->getExtensionInformation($pathSource);
         $fileNameWaffle = $pathRepositoryOffical.$this->yellow->system->get("updateWaffleFile");
         if (is_file($fileNameWaffle) && $status!="unlisted") {
             $found = false;
@@ -304,22 +304,21 @@ class YellowPublish {
 
     // Return extension information
     public function getExtensionInformation($path) {
-        $extension = $version = $type = $status = $description = $text = "";
+        $extension = $version = $status = $description = $author = "";
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
         $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                 if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
                 if (lcfirst($matches[1])=="version") $version = $matches[2];
-                if (lcfirst($matches[1])=="type") $type = $matches[2];
                 if (lcfirst($matches[1])=="status") $status = $matches[2];
                 if (lcfirst($matches[1])=="description") $description = $matches[2];
-                if (lcfirst($matches[1])=="developer") $text = "$description Developed by $matches[2].";
-                if (lcfirst($matches[1])=="translator") $text = "$description Translated by $matches[2].";
-                if (lcfirst($matches[1])=="designer") $text = "$description Designed by $matches[2].";
+                if (lcfirst($matches[1])=="developer") $author = "$description Developed by $matches[2].";
+                if (lcfirst($matches[1])=="translator") $author = "$description Translated by $matches[2].";
+                if (lcfirst($matches[1])=="designer") $author = "$description Designed by $matches[2].";
             }
         }
-        return array($extension, $version, $type, $status, $description, $text);
+        return array($extension, $version, $status, $description, $author);
     }
     
     // Return extension file names
@@ -337,7 +336,7 @@ class YellowPublish {
                     list($dummy, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
                     if (preg_match("/delete/i", $flags)) continue;
                     if (preg_match("/multi-language/i", $flags)) {
-                        foreach(preg_split("/\s*,\s*/", $language) as $token) {
+                        foreach (preg_split("/\s*,\s*/", $language) as $token) {
                             $pathLanguage = $token."/";
                             $data["$path$pathLanguage$entry"] = $extension."/".$pathLanguage.basename($entry);
                         }
