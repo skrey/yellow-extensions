@@ -53,8 +53,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/image.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [GD graphics library](https://github.com/libgd/libgd) by Thomas Boutell. 
-
 ## Developer
 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).

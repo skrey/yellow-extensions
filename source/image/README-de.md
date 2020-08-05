@@ -53,8 +53,6 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/image.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung benutzt die [GD-Grafikbibliothek](https://github.com/libgd/libgd) von Thomas Boutell.
-
 ## Entwickler
 
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).

@@ -21,11 +21,10 @@ Extension settings for a feature:
 
 Extension: Example
 Version: 0.8.3
-Type: feature
 Description: Example feature for developers.
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
-
+Tag: feature
 system/extensions/example.php: Example,example.php,create,update
 ~~~
 
@@ -36,11 +35,10 @@ Extension settings for a language:
 
 Extension: English
 Version: 0.8.3
-Type: language
 Description: English/English with language 'en'.
 Published: 2019-01-24 19:42:13
 Translator: Anna Svensson
-
+Tag: language
 system/extensions/english.php: English,english.php,create,update
 system/extensions/english.txt: English,english.txt,create,update
 ~~~
@@ -52,11 +50,10 @@ Extension settings for a theme:
 
 Extension: Basic
 Version: 0.8.3
-Type: theme
 Description: Example theme for designers.
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
-
+Tag: theme
 system/extensions/basic.php: Basic,basic.php,create,update
 system/themes/basic.css: Basic,basic.css,create,update,careful
 system/themes/basic.png: Basic,basic.png,create
@@ -74,14 +71,14 @@ The following settings can be configured in file `extension.ini`:
 
 `Extension` = extension name  
 `Version` = extension version number  
-`Type` = extension type, e.g. `feature`, `language`, `theme`  
 `Description` = extension description, one line maximum  
 `Published` = extension publication date, YYYY-MM-DD format  
-`Language` = extension language(s), comma separated  
 `Status` = extension status, [supported status values](#settings-status)    
 `Developer` = feature developer  
 `Translator` = language translator  
 `Designer` = theme designer  
+`Language` = extension language(s), comma separated  
+`Tag` = extension tag(s) for categorisation, comma separated  
 
 <a id="settings-status"></a>The following extension status values are supported:
 

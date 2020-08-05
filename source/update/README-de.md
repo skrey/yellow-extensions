@@ -18,7 +18,7 @@ Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen
 
 Die erste Möglichkeit besteht darin, deine Webseite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) zu aktualisieren. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen und suche nach Aktualisierungen. Deine Webseite zeigt an, wenn Aktualisierungen verfügbar sind. Du benötigst Update-Rechte, um eine Webseite zu aktualisieren. Alle Benutzerkonten werden in der Datei `system/settings/user.ini` gespeichert.
 
-Die zweite Möglichkeit besteht darin, deine Webseite in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu aktualisieren. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php update`. Du kannst die Aktualisierung bei Bedarf erzwingen. Gelöschte Dateien findest du im `system/trash`-Verzeichnis.
+Die zweite Möglichkeit besteht darin, deine Webseite in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu aktualisieren. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php update`. Du kannst die Aktualisierung einer Erweiterung bei Bedarf erzwingen. Gelöschte Dateien findest du im `system/trash`-Verzeichnis.
 
 ## Wie man eine Webseite erweitert
 
@@ -88,8 +88,6 @@ Die Logdatei findet man in der Datei `system/extensions/yellow.log`.
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/update.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
-
-Diese Erweiterung benutzt die [cURL-Netzwerkbibliothek](https://github.com/curl/curl) von Daniel Stenberg.
 
 ## Entwickler
 

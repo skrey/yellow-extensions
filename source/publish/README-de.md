@@ -21,11 +21,10 @@ Erweiterungs-Einstellungen für eine Funktion:
 
 Extension: Example
 Version: 0.8.3
-Type: feature
 Description: Example feature for developers.
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
-
+Tag: feature
 system/extensions/example.php: Example,example.php,create,update
 ~~~
 
@@ -36,11 +35,10 @@ Erweiterungs-Einstellungen für eine Sprache:
 
 Extension: German
 Version: 0.8.3
-Type: language
 Description: German/Deutsch with language 'de'.
 Published: 2019-01-24 19:42:13
 Translator: Anna Svensson
-
+Tag: language
 system/extensions/german.php: German,german.php,create,update
 system/extensions/german.txt: German,german.txt,create,update
 ~~~
@@ -52,11 +50,10 @@ Erweiterungs-Einstellungen für ein Thema:
 
 Extension: Basic
 Version: 0.8.3
-Type: theme
 Description: Example theme for designers.
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
-
+Tag: theme
 system/extensions/basic.php: Basic,basic.php,create,update
 system/themes/basic.css: Basic,basic.css,create,update,careful
 system/themes/basic.png: Basic,basic.png,create
@@ -74,14 +71,14 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 
 `Extension` = Name der Erweiterung  
 `Version` = Versionsnummer der Erweiterung  
-`Type` = Typ der Erweiterung, z.B. `feature`, `language`, `theme`  
 `Description` = Beschreibung der Erweiterung, maximal eine Zeile  
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
-`Language` = Sprache(n) der Erweiterung, durch Komma getrennt  
 `Status` = Status der Erweiterung, [unterstütze Statuswerte](#einstellungen-status)    
 `Developer` = Entwickler einer Funktion  
 `Translator` = Übersetzer einer Sprache  
 `Designer` = Designer eines Themas  
+`Language` = Sprache(n) der Erweiterung, durch Komma getrennt  
+`Tag` = Tags zur Kategorisierung der Erweiterung, durch Komma getrennt  
 
 <a id="einstellungen-status"></a>Die folgenden Erweiterungs-Statuswerte werden unterstützt:
 
