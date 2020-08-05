@@ -18,7 +18,7 @@ Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen
 
 Die erste Möglichkeit besteht darin, deine Webseite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) zu aktualisieren. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen und suche nach Aktualisierungen. Deine Webseite zeigt an, wenn Aktualisierungen verfügbar sind. Du benötigst Update-Rechte, um eine Webseite zu aktualisieren. Alle Benutzerkonten werden in der Datei `system/settings/user.ini` gespeichert.
 
-Die zweite Möglichkeit besteht darin, deine Webseite in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu aktualisieren. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php update` gefolgt von optionalen Argumenten. Du kannst die Aktualisierung bei Bedarf erzwingen. Gelöschte Dateien findest du im `system/trash`-Verzeichnis.
+Die zweite Möglichkeit besteht darin, deine Webseite in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu aktualisieren. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php update`. Du kannst die Aktualisierung einer Erweiterung bei Bedarf erzwingen. Gelöschte Dateien findest du im `system/trash`-Verzeichnis.
 
 ## Wie man eine Webseite erweitert
 
@@ -57,8 +57,8 @@ Aktuelle Version in der Befehlszeile anzeigen:
 Webseite in der Befehlszeile aktualisieren:
  
 `php yellow.php update`  
-`php yellow.php update core`  
-`php yellow.php update core force`  
+`php yellow.php update force core`  
+`php yellow.php update force update`  
 
 Erweiterungen in der Befehlszeile hinzufügen:
 
