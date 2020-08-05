@@ -137,7 +137,7 @@ More features, languages and themes for Datenstrom Yellow.
 ## Themes
 
 * [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin): 
-  Berlin is a simple and beautiful theme inspired by Dieter Rams. Designed by Datenstrom.
+  Berlin is a simple theme inspired by Dieter Rams. Designed by Datenstrom.
 * [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris): 
   Paris is an elegant theme for writers. Designed by Datenstrom.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm): 

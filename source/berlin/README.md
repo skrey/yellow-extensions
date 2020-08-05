@@ -1,6 +1,6 @@
 Berlin 0.8.9
 ============
-Berlin is a simple and beautiful theme inspired by Dieter Rams.
+Berlin is a simple theme inspired by Dieter Rams.
 
 <p align="center"><img src="berlin-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 

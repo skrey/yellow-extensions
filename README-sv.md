@@ -137,7 +137,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 ## Teman
 
 * [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin): 
-  Berlin är ett enkelt och vackert tema inspirerat av Dieter Rams. Designad av Datenstrom.
+  Berlin är ett enkelt tema inspirerat av Dieter Rams. Designad av Datenstrom.
 * [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris): 
   Paris är ett elegant tema för författare. Designad av Datenstrom.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm): 
