@@ -180,7 +180,8 @@ InstallExtensionWebsite: 网站
 InstallExtensionBlog: 博客
 InstallExtensionWiki: 维基
 InstallHomeTitle: 首页
-InstallHomeText: 你的网站已正常运行！\n\n[edit - 现在你可以编辑本页]或用你喜欢的文本编辑器修改。\n\n您可以安装更多功能和主题。\n[了解更多](https://datenstrom.se/yellow/help/)。
+InstallHomeTitleContent: 你的网站已正常运行！
+InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - You can edit this page]. The help gives you more information about how to create small web pages, blogs and wikis. [Learn more](https://datenstrom.se/yellow/help/).
 InstallDefaultTitle: 页面
 InstallDefaultText: 这是一个新的页面。
 InstallBlogTitle: 博客页面

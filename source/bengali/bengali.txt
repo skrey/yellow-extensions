@@ -180,7 +180,8 @@ InstallExtensionWebsite: ওয়েবসাইট
 InstallExtensionBlog: ব্লগ
 InstallExtensionWiki: উইকি
 InstallHomeTitle: Home
-InstallHomeText: Your website works!\n\n[edit - You can edit this page] or use your text editor.\n\nYou can install more features and themes.\n[Learn more](https://datenstrom.se/yellow/help/).
+InstallHomeTitleContent: আপনার ওয়েবসাইট কাজ করে!
+InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - You can edit this page]. The help gives you more information about how to create small web pages, blogs and wikis. [Learn more](https://datenstrom.se/yellow/help/).
 InstallDefaultTitle: Page
 InstallDefaultText: This is a new page.
 InstallBlogTitle: Blog page

@@ -180,7 +180,8 @@ InstallExtensionWebsite: Webová stránka
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Domů
-InstallHomeText: Stránka funguje!\n\n[edit - Nyní můžete upravit tuto stránku] nebo použít textový editor.\n\nMůžete nainstalovat další funkce a motivy.\n[Další informace](https://datenstrom.se/yellow/help/).
+InstallHomeTitleContent: Stránka funguje!
+InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - You can edit this page]. The help gives you more information about how to create small web pages, blogs and wikis. [Learn more](https://datenstrom.se/yellow/help/).
 InstallDefaultTitle: Page
 InstallDefaultText: This is a new page.
 InstallBlogTitle: Blog page

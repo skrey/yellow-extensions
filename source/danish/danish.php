@@ -2,7 +2,7 @@
 // Danish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/danish
 
 class YellowDanish {
-    const VERSION = "0.8.21";
+    const VERSION = "0.8.22";
     public $yellow;         // access to API
     
     // Handle initialisation

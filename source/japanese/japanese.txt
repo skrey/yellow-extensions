@@ -180,7 +180,8 @@ InstallExtensionWebsite: ウェブ
 InstallExtensionBlog: ブログ
 InstallExtensionWiki: ウィキ
 InstallHomeTitle: ホーム
-InstallHomeText: インストール完了！\n\n[edit - このページを編集] するか、ＦＴＰソフトとテキストエディタをご使用下さい。\n\nもっと多くの機能やテーマをインストールすることができます。\n[もっと詳しく](https://datenstrom.se/yellow/help/)。
+InstallHomeTitleContent: インストール完了！
+InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - You can edit this page]. The help gives you more information about how to create small web pages, blogs and wikis. [Learn more](https://datenstrom.se/yellow/help/).
 InstallDefaultTitle: Page
 InstallDefaultText: This is a new page.
 InstallBlogTitle: Blog page
