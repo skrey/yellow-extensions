@@ -1,4 +1,4 @@
-Gallery 0.8.7
+Gallery 0.8.8
 =============
 Bildergalerie mit Popup.
 
@@ -46,6 +46,7 @@ Bildunterschriften in den Spracheinstellungen festlegen:
     media/images/photo.jpg: Das ist ein Beispielbild
     media/images/photo-2387365-fika-time.jpg: Fika ist ein wichtiger Teil des Lebens in Schweden. Bild: Taylor Franz
     media/images/photo-2391666-start-painting.jpg: Aquarellfarben, Pinsel und Papier. Bild: Tim Arterbury
+    media/images/photo-album/screenshot-2020-01.png: Eine kleine Webseite von Adam Engel aus Schweden.
 
 ## Einstellungen
 

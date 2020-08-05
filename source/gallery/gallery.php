@@ -2,7 +2,7 @@
 // Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery
 
 class YellowGallery {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.8";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -34,13 +34,13 @@ class YellowGallery {
                         list($widthInput, $heightInput) = $this->yellow->toolbox->detectImageInformation($file->fileName);
                         list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($file->fileName, $size, $size);
                         $caption = $this->yellow->language->isText($file->fileName) ? $this->yellow->language->getText($file->fileName) : "";
+                        $alt = empty($caption) ? basename($file->getLocation(true)) : $caption;
                         $output .= "<a href=\"".$file->getLocation(true)."\"";
                         if ($widthInput && $heightInput) $output .= " data-size=\"".htmlspecialchars("{$widthInput}x{$heightInput}")."\"";
                         if (!empty($caption)) $output .= " data-caption=\"".htmlspecialchars($caption)."\"";
                         $output .= ">";
                         $output .= "<img src=\"".htmlspecialchars($src)."\" width=\"".htmlspecialchars($width)."\" height=\"".
-                            htmlspecialchars($height)."\" alt=\"".basename($file->getLocation(true))."\" title=\"".
-                            basename($file->getLocation(true))."\" />";
+                            htmlspecialchars($height)."\" alt=\"".htmlspecialchars($alt)."\" title=\"".htmlspecialchars($alt)."\" />";
                         $output .= "</a> \n";
                     }
                     $output .= "</div>";

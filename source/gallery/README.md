@@ -1,4 +1,4 @@
-Gallery 0.8.7
+Gallery 0.8.8
 =============
 Image gallery with popup.
 
@@ -46,6 +46,7 @@ Configuring image captions in the language settings:
     media/images/photo.jpg: This is an example image
     media/images/photo-2387365-fika-time.jpg: Fika is an important part of life in Sweden. Photo: Taylor Franz
     media/images/photo-2391666-start-painting.jpg: Watercolors, brushes and paper. Photo: Tim Arterbury
+    media/images/photo-album/screenshot-2020-01.png: A small website by Adam Engel from Sweden.
 
 ## Settings
 
