@@ -118,22 +118,21 @@ EditSystemTitle: System settings
 EditSystemSitename: Name of the website:
 EditSystemAuthor: Name of the webmaster:
 EditSystemEmail: Email of the webmaster:
-EditSystemInformation: The webmaster is the contact person and can approve new user accounts.
+EditSystemInformation: The webmaster can approve new user accounts.
 EditSystemStatusNone: Here you can change system settings.
 EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: 更新情報
 EditUpdateStatusNone: Datenstrom Yellow で小さなウェブサイトを作る
 EditUpdateStatusCheck: アップデートの確認中…
-EditUpdateStatusUpdates： 利用可能なアップデート,今直ぐアップデートする。
+EditUpdateStatusUpdates： 以下の更新が利用可能です:
 EditUpdateStatusOk: 最新のバージョンです。
-EditUpdateModified: @extension が変更されました
-EditUpdateForce: アップデートする！
 EditOkButton: Ok
 EditCancelButton: キャンセル
 EditChangeButton: 変更
 EditCreateButton: 作成
 EditEditButton: 保存
 EditDeleteButton: 削除
+EditUpdateButton: 更新
 EditEdit: ページの編集
 EditCreate: +
 EditDelete: -

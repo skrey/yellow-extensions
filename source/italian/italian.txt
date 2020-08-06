@@ -118,22 +118,21 @@ EditSystemTitle: System settings
 EditSystemSitename: Name of the website:
 EditSystemAuthor: Name of the webmaster:
 EditSystemEmail: Email of the webmaster:
-EditSystemInformation: The webmaster is the contact person and can approve new user accounts.
+EditSystemInformation: The webmaster can approve new user accounts.
 EditSystemStatusNone: Here you can change system settings.
 EditSystemStatusInvalid: Please enter a valid email.
 EditUpdateTitle: Aggiornamenti
 EditUpdateStatusNone: Datenstrom Yellow è per le persone che creano piccoli siti web.
 EditUpdateStatusCheck: Controllo degli aggiornamenti in corso…
-EditUpdateStatusUpdates: Ci sono aggiornamenti disponibili, aggiorna adesso.
+EditUpdateStatusUpdates: Sono disponibili i seguenti aggiornamenti:
 EditUpdateStatusOk: Il tuo sito è aggiornato.
-EditUpdateModified: @extension è stato modificato
-EditUpdateForce: Forza l'aggiornamento
 EditOkButton: Ok
 EditCancelButton: Annulla
 EditChangeButton: Cambia
 EditCreateButton: Crea
 EditEditButton: Salva
 EditDeleteButton: Elimina
+EditUpdateButton: Aggiornare
 EditEdit: Modifica la pagina
 EditCreate: +
 EditDelete: -

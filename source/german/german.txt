@@ -118,22 +118,21 @@ EditSystemTitle: Systemeinstellungen
 EditSystemSitename: Name der Webseite:
 EditSystemAuthor: Name des Webmasters:
 EditSystemEmail: E-Mail des Webmasters:
-EditSystemInformation: Der Webmaster ist die Kontaktperson und kann neue Benutzerkonten genehmigen.
+EditSystemInformation: Der Webmaster kann neue Benutzerkonten genehmigen.
 EditSystemStatusNone: Hier kannst du Systemeinstellungen ändern.
 EditSystemStatusInvalid: Bitte eine gültige E-Mail angeben.
 EditUpdateTitle: Aktualisierungen
 EditUpdateStatusNone: Datenstrom Yellow ist für Menschen die kleine Webseiten machen.
 EditUpdateStatusCheck: Nach Aktualisierung suchen…
-EditUpdateStatusUpdates: Aktualisierung verfügbar, jetzt aktualisieren.
-EditUpdateStatusOk: Deine Webseite ist auf dem neusten Stand.
-EditUpdateModified: @extension wurde modifiziert
-EditUpdateForce: Aktualisierung erzwingen
+EditUpdateStatusUpdates: Die folgenden Aktualisierungen sind verfügbar:
+EditUpdateStatusOk: Die Webseite ist auf dem neusten Stand.
 EditOkButton: Ok
 EditCancelButton: Abbruch
 EditChangeButton: Ändern
 EditCreateButton: Erzeugen
 EditEditButton: Speichern
 EditDeleteButton: Löschen
+EditUpdateButton: Aktualisieren
 EditEdit: Seite bearbeiten
 EditCreate: +
 EditDelete: -

@@ -1,4 +1,4 @@
-Polish 0.8.22
+Polish 0.8.23
 =============
 Polish/Polski z językiem 'pl'.
 

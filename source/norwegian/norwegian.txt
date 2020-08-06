@@ -118,22 +118,21 @@ EditSystemTitle: Systeminnstillinger
 EditSystemSitename: Nettstedets navn:
 EditSystemAuthor: Nettstedets administrator:
 EditSystemEmail: Administrators epost:
-EditSystemInformation: Nettstedets administrator er kontaktpersonen som kan bekrefte brukerkontoer.
+EditSystemInformation: Nettstedets administrator kan bekrefte brukerkontoer.
 EditSystemStatusNone: Her kan du endre systeminnstillinger.
 EditSystemStatusInvalid: Vennligst fyll inn en gyldig epost adresse.
 EditUpdateTitle: Oppdateringer
 EditUpdateStatusNone: Datenstrom Yellow er for folk som lager små nettsteder.
 EditUpdateStatusCheck: Ser etter oppdateringer…
-EditUpdateStatusUpdates: Oppdateringer tilgjengelig, oppdater nå.
+EditUpdateStatusUpdates: Følgende oppdateringer er tilgjengelige:
 EditUpdateStatusOk: Ditt nettsted er oppdatert.
-EditUpdateModified: @extension har blitt modifisert
-EditUpdateForce: Tving oppdatering
 EditOkButton: Ok
 EditCancelButton: Avbryt
 EditChangeButton: Endre
 EditCreateButton: Lage
 EditEditButton: Lagre
 EditDeleteButton: Slett
+EditUpdateButton: Oppdater
 EditEdit: Rediger side
 EditCreate: +
 EditDelete: -

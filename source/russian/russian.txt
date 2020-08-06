@@ -118,22 +118,21 @@ EditSystemTitle: Системные настройки
 EditSystemSitename: Имя сайта:
 EditSystemAuthor: Имя автора:
 EditSystemEmail: Email автора:
-EditSystemInformation: Автор является контактным лицом и может утверждать новые учетные записи пользователей.
+EditSystemInformation: Автор является может утверждать новые учетные записи пользователей.
 EditSystemStatusNone: Здесь вы можете изменить настройки системы.
 EditSystemStatusInvalid: Пожалуйста, введите действительный email.
 EditUpdateTitle: Обновления
 EditUpdateStatusNone: Datenstrom Yellow is for people who make small websites.
 EditUpdateStatusCheck: Проверка обновлений…
-EditUpdateStatusUpdates: Доступны обновления, обновите сейчас.
+EditUpdateStatusUpdates: Доступны следующие обновления:
 EditUpdateStatusOk: Ваш сайт обновлен.
-EditUpdateModified: @extension был изменен
-EditUpdateForce: Принудительно обновить
 EditOkButton: Ok
 EditCancelButton: Отмена
 EditChangeButton: Изменить
 EditCreateButton: Создать
 EditEditButton: Сохранить
 EditDeleteButton: Удалить
+EditUpdateButton: Обновить
 EditEdit: Редактировать
 EditCreate: +
 EditDelete: -

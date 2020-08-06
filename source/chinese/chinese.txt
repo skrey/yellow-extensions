@@ -118,22 +118,21 @@ EditSystemTitle: 系统设置
 EditSystemSitename: 网站名:
 EditSystemAuthor: 管理员:
 EditSystemEmail: 管理员邮箱:
-EditSystemInformation: 管理员也是网站联络人并可以批准新用户帐号。
+EditSystemInformation: 网站管理员可以批准新的用户帐号。
 EditSystemStatusNone: 在此你可以修改系统设置。
 EditSystemStatusInvalid: 请输入一个有效的邮箱地址。
 EditUpdateTitle: 更新
 EditUpdateStatusNone: Datenstrom Yellow 适合于制作小型网站的人们。
 EditUpdateStatusCheck: 正在检查更新…
-EditUpdateStatusUpdates：有更新可用，现在更新。
+EditUpdateStatusUpdates：以下更新可用：
 EditUpdateStatusOk: 已是最新版
-EditUpdateModified: @extension 已被更改
-EditUpdateForce: 强制更新
 EditOkButton: 确定
 EditCancelButton: 取消
 EditChangeButton: 更改
 EditCreateButton: 创建
 EditEditButton: 保存
 EditDeleteButton: 删除
+EditUpdateButton: Update
 EditEdit: 编辑页面
 EditCreate: + 新建
 EditDelete: - 删除
