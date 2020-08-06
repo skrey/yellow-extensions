@@ -1,4 +1,4 @@
-Update 0.8.27
+Update 0.8.28
 =============
 Keep your website up to date.
 
@@ -10,7 +10,7 @@ You can show the current version of your website in a [web browser](https://gith
 
 You can use shortcuts to show information about the website:
 
-`[yellow]` for current version  
+`[yellow about]` for current version  
 `[yellow error]` for current error message  
 `[yellow log]` for latest entries in log file  
 
@@ -31,7 +31,9 @@ Content file with current version:
     ---
     Title: Example page
     ---
-    The current version is [yellow].
+    The current version of my website is:
+
+    ! [yellow about]
 
 Content file with log file:
 

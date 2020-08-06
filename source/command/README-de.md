@@ -1,4 +1,4 @@
-Command 0.8.19
+Command 0.8.20
 ==============
 Befehlszeile der Webseite.
 

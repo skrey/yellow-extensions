@@ -1,4 +1,4 @@
-Update 0.8.27
+Update 0.8.28
 =============
 Webseite auf dem neusten Stand halten.
 
@@ -10,7 +10,7 @@ Du kannst die aktuelle Version deiner Webseite im [Webbrowser](https://github.co
 
 Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen:
 
-`[yellow]` für aktuelle Version  
+`[yellow about]` für aktuelle Version  
 `[yellow error]` für aktuelle Fehlermeldung  
 `[yellow log]` für neueste Einträge in der Logdatei  
 
@@ -31,7 +31,9 @@ Inhaltsdatei mit aktueller Version:
     ---
     Title: Beispiel-Seite
     ---
-    Die aktuelle Version ist [yellow].
+    Die aktuelle Version meiner Webseite ist:
+
+    ! [yellow about]
 
 Inhaltsdatei mit Logdatei:
 
