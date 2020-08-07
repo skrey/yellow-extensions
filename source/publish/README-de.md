@@ -10,7 +10,7 @@ Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/ma
 
 ## Wie man eine Erweiterung veröffentlicht
 
-Erhöhe zuerst die Versionsnummer in deinem PHP-Code und veröffentliche dann deine Erweiterung in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php publish` gefolgt von einem Verzeichnis. Das aktualisiert alle notwendigen Dateien. Lade deine Änderungen zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
+Erhöhe zuerst die Versionsnummer in deinem PHP-Code und veröffentliche dann deine Erweiterung in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php publish`, du kannst wahlweise ein Verzeichnis angeben. Das aktualisiert alle notwendigen Dateien. Lade deine Änderungen zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
 
 Beim ersten Mal wirst du nach deinem GitHub-Verzeichnis gefragt. Benutze dein GitHub-Konto, [forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions) und speichere eine Kopie auf deiner Festplatte ab. Du kannst das Verzeichnis konfigurieren mit `UpdateExtensionDirectory` in der Datei `system/settings/system.ini`.
 
@@ -19,7 +19,7 @@ Beim ersten Mal wirst du nach deinem GitHub-Verzeichnis gefragt. Benutze dein Gi
 Erweiterungs-Einstellungen für eine Funktion:
 
 ~~~
-# Datenstrom Yellow extension
+# Datenstrom Yellow extension settings
 
 Extension: Example
 Version: 0.8.3
@@ -33,7 +33,7 @@ system/extensions/example.php: Example,example.php,create,update
 Erweiterungs-Einstellungen für eine Sprache:
 
 ~~~
-# Datenstrom Yellow extension
+# Datenstrom Yellow extension settings
 
 Extension: German
 Version: 0.8.3
@@ -48,7 +48,7 @@ system/extensions/german.txt: German,german.txt,create,update
 Erweiterungs-Einstellungen für ein Thema:
 
 ~~~
-# Datenstrom Yellow extension
+# Datenstrom Yellow extension settings
 
 Extension: Basic
 Version: 0.8.3
@@ -93,9 +93,9 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `create` = Datei erstellen falls nicht vorhanden  
 `update` = Datei überschreiben falls vorhanden  
 `delete` = Datei löschen falls vorhanden  
-`multi-language` = Datei aus dem entsprechenden Unterverzeichnis verwenden, z.B. für Inhaltsdateien  
-`optional` = nur falls neue Installation, z.B. für Inhaltsdateien  
-`careful` = nur falls nicht verändert, z.B. für Systemdateien  
+`multi-language` = Datei aus dem entsprechenden Unterverzeichnis verwenden  
+`optional` = nur falls neue Installation  
+`careful` = nur falls nicht verändert  
 
 ## Installation
 

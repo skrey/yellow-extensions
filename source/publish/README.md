@@ -10,7 +10,7 @@ The [update extension](https://github.com/datenstrom/yellow-extensions/tree/mast
 
 ## How to publish an extension
 
-First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish` followed by a folder. This will update all necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
+First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish`, you can optionally add a folder. This will update all necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
 
 The first time you will be asked for your GitHub directory. Use your GitHub account, [fork the official repository](https://github.com/datenstrom/yellow-extensions) and store a copy on your hard disk. You can configure the directory with `UpdateExtensionDirectory` in file `system/settings/system.ini`.
 
@@ -19,7 +19,7 @@ The first time you will be asked for your GitHub directory. Use your GitHub acco
 Extension settings for a feature:
 
 ~~~
-# Datenstrom Yellow extension
+# Datenstrom Yellow extension settings
 
 Extension: Example
 Version: 0.8.3
@@ -33,7 +33,7 @@ system/extensions/example.php: Example,example.php,create,update
 Extension settings for a language:
 
 ~~~
-# Datenstrom Yellow extension
+# Datenstrom Yellow extension settings
 
 Extension: English
 Version: 0.8.3
@@ -48,7 +48,7 @@ system/extensions/english.txt: English,english.txt,create,update
 Extension settings for a theme:
 
 ~~~
-# Datenstrom Yellow extension
+# Datenstrom Yellow extension settings
 
 Extension: Basic
 Version: 0.8.3
@@ -93,9 +93,9 @@ The following settings can be configured in file `extension.ini`:
 `create` = create file if not exists  
 `update` = overwrite file if exists  
 `delete` = delete file if exists  
-`multi-language` = use file from corresponding subfolder, e.g. for content files  
-`optional` = only if new installation, e.g. for content files  
-`careful` = only if not modified, e.g. for system files  
+`multi-language` = use file from corresponding subfolder  
+`optional` = only if new installation  
+`careful` = only if not modified  
 
 ## Installation
 
