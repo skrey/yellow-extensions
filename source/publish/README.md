@@ -6,11 +6,13 @@ Package and publish extensions.
 
 ## How to package an extension
 
-The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) takes care of updating websites. Your extension can become part of this process. Get a GitHub account and [fork the official repository](https://github.com/datenstrom/yellow-extensions). Take a look at the [example extension](https://github.com/schulle4u/yellow-extension-example) and [basic extension](https://github.com/schulle4u/yellow-extension-basic). They show you which files and settings are necessary. Please make sure that all extensions follow our coding and documentation standards.
+The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) takes care of updating websites. Your extension can become part of this process. Take a look at the [example extension](https://github.com/schulle4u/yellow-extension-example) and [basic extension](https://github.com/schulle4u/yellow-extension-basic). They show you which files and settings are necessary. Please make sure that your extension follows our coding and documentation standards.
 
 ## How to publish an extension
 
-First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish` followed by a folder. Upload your extension to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
+First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish` followed by a folder. This updates all the necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
+
+The first time you will be asked for the extensions directory. Use your GitHub account, [fork the official repository](https://github.com/datenstrom/yellow-extensions) and store the repository on your hard disk.
 
 ## Examples
 
