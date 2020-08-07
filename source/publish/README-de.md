@@ -12,7 +12,7 @@ Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/ma
 
 Erhöhe zuerst die Versionsnummer in deinem PHP-Code und veröffentliche dann deine Erweiterung in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php publish` gefolgt von einem Verzeichnis. Das aktualisiert alle notwendigen Dateien. Lade deine Änderungen zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
 
-Beim ersten Mal wirst du nach dem Erweiterungs-Verzeichnis gefragt. Benutze dein GitHub-Konto, [forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions) und speichere das Repository auf deiner Festplatte ab.
+Beim ersten Mal wirst du nach dem Quellcode-Verzeichnis gefragt. Benutze dein GitHub-Konto, [forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions) und speichere eine Kopie auf deiner Festplatte ab. Du kannst dein GitHub-Verzeichnis angeben mit `UpdateExtensionDirectory` in der Datei `system/settings/system.ini`.
 
 ## Beispiele
 
