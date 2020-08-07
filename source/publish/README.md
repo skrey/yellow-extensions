@@ -12,7 +12,7 @@ The [update extension](https://github.com/datenstrom/yellow-extensions/tree/mast
 
 First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish` followed by a folder. This will update all necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
 
-The first time you will be asked for your GitHub directory. Use your GitHub account, [fork the official repository](https://github.com/datenstrom/yellow-extensions) and store the repository on your hard disk. You can configure the directory with `UpdateExtensionDirectory` in file `system/settings/system.ini`.
+The first time you will be asked for your GitHub directory. Use your GitHub account, [fork the official repository](https://github.com/datenstrom/yellow-extensions) and store a copy on your hard disk. You can configure the directory with `UpdateExtensionDirectory` in file `system/settings/system.ini`.
 
 ## Examples
 
