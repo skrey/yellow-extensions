@@ -6,7 +6,7 @@ Erweiterungen verpacken und veröffentlichen.
 
 ## Wie man eine Erweiterung verpackt
 
-Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) kümmert sich darum Webseiten zu aktualisiert. Deine Erweiterung kann Teil dieses Prozesses werden. Schau dir die [Example-Erweiterung](https://github.com/schulle4u/yellow-extension-example) und [Basic-Erweiterung](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen dir welche Dateien und Einstellungen notwendig sind. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht.
+Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) kümmert sich darum Webseiten zu aktualisiert. Deine Erweiterung kann Teil dieses Prozesses werden. Schau dir die [Example-Erweiterung](https://github.com/schulle4u/yellow-extension-example) und [Basic-Erweiterung](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen dir welche Dateien und Einstellungen erforderlich sind. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht.
 
 ## Wie man eine Erweiterung veröffentlicht
 
