@@ -78,7 +78,7 @@ Removing extensions at the command line:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`UpdateExtensionUrl` = URL of repository with extensions  
+`UpdateExtensionUrl` = repository with extensions  
 `UpdateExtensionDirectory` = directory with extensions source code  
 `UpdateExtensionFile` = file for extension settings  
 `UpdateVersionFile` = version information of extensions  

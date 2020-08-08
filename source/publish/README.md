@@ -24,6 +24,8 @@ Extension settings for a feature:
 Extension: Example
 Version: 0.8.3
 Description: Example feature for developers.
+HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/example
+DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/example.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 Tag: feature
@@ -38,6 +40,8 @@ Extension settings for a language:
 Extension: English
 Version: 0.8.3
 Description: English/English with language 'en'.
+HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/english
+DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/english.zip
 Published: 2019-01-24 19:42:13
 Translator: Anna Svensson
 Tag: language
@@ -53,6 +57,8 @@ Extension settings for a theme:
 Extension: Basic
 Version: 0.8.3
 Description: Example theme for designers.
+HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/basic
+DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/basic.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: theme
@@ -74,6 +80,8 @@ The following settings can be configured in file `extension.ini`:
 `Extension` = extension name  
 `Version` = extension version number  
 `Description` = extension description, one line maximum  
+`HelpUrl` = extension help page  
+`DownloadUrl` = extension download  
 `Published` = extension publication date, YYYY-MM-DD format  
 `Status` = extension status, [supported status values](#settings-status)    
 `Developer` = feature developer  

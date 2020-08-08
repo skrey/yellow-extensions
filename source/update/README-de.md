@@ -78,7 +78,7 @@ Erweiterungen in der Befehlszeile entfernen:
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
-`UpdateExtensionUrl` = URL der Repository mit Erweiterungen  
+`UpdateExtensionUrl` = Repository mit Erweiterungen  
 `UpdateExtensionDirectory` = Verzeichnis mit Erweiterungs-Quellcode  
 `UpdateExtensionFile` = Datei für Erweiterungs-Einstellungen  
 `UpdateVersionFile` = Versionsinformationen von Erweiterungen  

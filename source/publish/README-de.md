@@ -24,6 +24,8 @@ Erweiterungs-Einstellungen für eine Funktion:
 Extension: Example
 Version: 0.8.3
 Description: Example feature for developers.
+HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/example
+DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/example.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 Tag: feature
@@ -38,6 +40,8 @@ Erweiterungs-Einstellungen für eine Sprache:
 Extension: German
 Version: 0.8.3
 Description: German/Deutsch with language 'de'.
+HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/german
+DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/german.zip
 Published: 2019-01-24 19:42:13
 Translator: Anna Svensson
 Tag: language
@@ -53,6 +57,8 @@ Erweiterungs-Einstellungen für ein Thema:
 Extension: Basic
 Version: 0.8.3
 Description: Example theme for designers.
+HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/basic
+DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/basic.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: theme
@@ -74,6 +80,8 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `Extension` = Name der Erweiterung  
 `Version` = Versionsnummer der Erweiterung  
 `Description` = Beschreibung der Erweiterung, maximal eine Zeile  
+`HelpUrl` = Hilfeseite der Erweiterung  
+`DownloadUrl` = Download der Erweiterung  
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
 `Status` = Status der Erweiterung, [unterstütze Statuswerte](#einstellungen-status)    
 `Developer` = Entwickler einer Funktion  
