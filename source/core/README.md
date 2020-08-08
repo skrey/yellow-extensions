@@ -81,12 +81,6 @@ Content file with redirection:
     ---
     This page is redirected to another page.
 
-Configuring language settings:
-
-    Language: en
-    CoreDateFormatMedium: Y-m-d
-    media/images/photo.jpg: This is an example image
-
 ## Folders
 
 The following folders are available:
@@ -97,13 +91,13 @@ The following folders are available:
 │   └── shared            = shared files
 ├── media                 = media files
 │   ├── downloads         = files to download
-│   ├── images            = image files for the content
-│   └── thumbnails        = image thumbnails
+│   ├── images            = image files for content
+│   └── thumbnails        = image thumbnails for content
 └── system                = system files
     ├── extensions        = extension files
-    ├── layouts           = layout files, HTML files
-    ├── settings          = configuration files, INI files
-    ├── themes            = theme files, CSS files, fonts, etc.
+    ├── layouts           = configurable layout files
+    ├── settings          = configurable setting files
+    ├── themes            = configurable theme files
     └── trash             = deleted files
 ```
 
@@ -178,24 +172,9 @@ The following settings can be configured at the top of a page:
 `Theme` = default theme  
 `Parser` = default page parser  
 `Status` = default page status, [supported status values](#settings-status)  
-`CoreStaticUrl` = URL for static website  
-`CoreStaticDefaultFile` =  default file for static website  
-`CoreStaticErrorFile` = error file for static website  
-`CoreStaticBuildDirectory` = directory for generated files  
-`CoreStaticCacheDirectory` = directory for cached files  
-`CoreTrashDirectory` = directory for deleted files  
-`CoreServerUrl` = URL of the website, `auto` for automatic detection    
+`CoreStaticUrl` = URL for static website    
 `CoreServerTimezone` = timezone of the website  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
-
-<a id="settings-language"></a>The following settings can be configured in file `system/settings/language.ini`:
-
-`CoreDateFormatShort` = short date format  
-`CoreDateFormatMedium` = medium date format, usually 2016-06-01  
-`CoreDateFormatLong` = long date format  
-`CoreTimeFormatShort` = short time format  
-`CoreTimeFormatMedium` = medium time format, usually 13:37:01  
-`CoreTimeFormatLong` = long time format  
 
 <a id="settings-status"></a>The following page status values are supported:
 

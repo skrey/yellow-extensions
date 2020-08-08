@@ -81,12 +81,6 @@ Inhaltsdatei mit Weiterleitung:
     ---
     Diese Seite wird zu einer anderen Seite weitergeleitet.
 
-Spracheinstellungen festlegen:
-
-    Language: de
-    CoreDateFormatMedium: d.m.Y
-    media/images/photo.jpg: Dies ist ein Beispielbild
-
 ## Verzeichnisse
 
 Die folgenden Verzeichnisse sind verfügbar:
@@ -98,12 +92,12 @@ Die folgenden Verzeichnisse sind verfügbar:
 ├── media                 = Mediendateien
 │   ├── downloads         = Dateien zum Herunterladen
 │   ├── images            = Bilder für den Inhalt
-│   └── thumbnails        = Miniaturbilder
+│   └── thumbnails        = Miniaturbilder für den Inhalt
 └── system                = Systemdateien
     ├── extensions        = Erweiterungsdateien
-    ├── layouts           = Layoutdateien, HTML-Dateien
-    ├── settings          = Konfigurationsdateien, INI-Dateien
-    ├── themes            = Themendateien, CSS-Dateien, Schriftarten, usw.
+    ├── layouts           = konfigurierbare Layoutdateien
+    ├── settings          = konfigurierbare Einstellungsdateien
+    ├── themes            = konfigurierbare Themendateien
     └── trash             = gelöschte Dateien
 ```
 
@@ -179,23 +173,9 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus, [unterstütze Statuswerte](#einstellungen-status)  
 `CoreStaticUrl` = URL der statischen Webseite  
-`CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
-`CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
-`CoreStaticBuildDirectory` = Verzeichnis für erzeugte Dateien  
-`CoreStaticCacheDirectory` = Verzeichnis für zwischengespeicherte Dateien  
-`CoreTrashDirectory` = Verzeichnis für gelöschte Dateien  
 `CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
 `CoreServerTimezone` = Zeitzone der Webseite  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
-
-<a id="einstellungen-language"></a>Die folgenden Einstellungen können in der Datei `system/settings/language.ini` vorgenommen werden:
-
-`CoreDateFormatShort` = kurzes Datumsformat  
-`CoreDateFormatMedium` = mittleres Datumsformat, normalerweise 01.06.2016  
-`CoreDateFormatLong` = langes Datumsformat  
-`CoreTimeFormatShort` = kurzes Zeitformat  
-`CoreTimeFormatMedium` = mittleres Zeitformat, normalerweise 13:37:01  
-`CoreTimeFormatLong` = langes Zeitformat  
 
 <a id="einstellungen-status"></a>Die folgenden Seiten-Statuswerte werden unterstützt:
 

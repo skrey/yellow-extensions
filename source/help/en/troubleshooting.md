@@ -131,7 +131,7 @@ When your website doesn't work, then check `server_name` and `root` in the confi
 The file `system/extensions/yellow.log` shows important information and errors. Here's an example:
 
 ```
-2020-07-12 13:33:37 info Datenstrom Yellow 0.8.13, PHP 7.1.23, Apache 2.4.33, Darwin
+2020-07-12 13:33:37 info Datenstrom Yellow 0.8.15, PHP 7.1.33, Apache 2.4.33, Mac
 2020-07-12 13:33:37 info Install extension 'English 0.8.21'
 2020-07-12 13:33:37 info Install extension 'French 0.8.21'
 2020-07-12 13:33:37 info Install extension 'German 0.8.21'
