@@ -1,4 +1,4 @@
-Publish 0.8.23
+Publish 0.8.24
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
@@ -12,7 +12,7 @@ Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/ma
 
 Erhöhe zuerst die Versionsnummer in deinem PHP-Code und veröffentliche dann deine Erweiterung in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php publish` gefolgt von einem Verzeichnis. Das aktualisiert alle notwendigen Dateien. Lade deine Änderungen zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
 
-Beim ersten Mal wirst du nach deinem GitHub-Verzeichnis gefragt. Benutze dein GitHub-Konto, [forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions) und speichere eine Kopie auf deiner Festplatte ab. Du kannst das Verzeichnis konfigurieren mit `UpdateExtensionDirectory` in der Datei `system/settings/system.ini`.
+Beim ersten Mal wirst du nach deinem Quellcode-Verzeichnis gefragt. Benutze dein GitHub-Konto, [forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions) und speichere eine Kopie auf deiner Festplatte ab. Du kannst das Verzeichnis konfigurieren mit `UpdateSourceCodeDirectory` in der Datei `system/settings/system.ini`.
 
 ## Beispiele
 
@@ -81,9 +81,9 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `Version` = Versionsnummer der Erweiterung  
 `Description` = Beschreibung der Erweiterung, maximal eine Zeile  
 `HelpUrl` = Hilfeseite der Erweiterung  
-`DownloadUrl` = Download der Erweiterung  
+`DownloadUrl` = Adresse zum Herunterladen der Erweiterung  
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
-`Status` = Status der Erweiterung, [unterstütze Statuswerte](#einstellungen-status)    
+`Status` = Status der Erweiterung, [unterstütze Statuswerte](#einstellungen-status)  
 `Developer` = Entwickler einer Funktion  
 `Translator` = Übersetzer einer Sprache  
 `Designer` = Designer eines Themas  

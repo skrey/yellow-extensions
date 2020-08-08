@@ -1,4 +1,4 @@
-Command 0.8.20
+Command 0.8.21
 ==============
 Command line of the website.
 
@@ -80,10 +80,10 @@ The following commands are available:
 The following settings can be configured in file `system/settings/system.ini`:
 
 `CoreStaticUrl` = URL of the static website  
-`CoreStaticDefaultFile` =  default file for static website  
-`CoreStaticErrorFile` = error file for static website  
-`CoreStaticBuildDirectory` = directory for generated files  
-`CoreStaticCacheDirectory` = directory for cached files  
+`CommandStaticBuildDirectory` = directory for generated files  
+`CommandStaticCacheDirectory` = directory for cached files  
+`CommandStaticDefaultFile` = default file for static website  
+`CommandStaticErrorFile` = error file for static website  
 
 ## Installation
 

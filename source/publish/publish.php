@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.23";
+    const VERSION = "0.8.24";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -30,7 +30,7 @@ class YellowPublish {
     public function processCommandPublish($command, $text) {
         $statusCode = 0;
         list($path) = $this->yellow->toolbox->getTextArguments($text);
-        $pathRepository = rtrim($this->yellow->system->get("updateExtensionDirectory"), "/")."/";
+        $pathRepository = rtrim($this->yellow->system->get("updateSourceCodeDirectory"), "/")."/";
         $pathRepositoryOffical = $pathRepository."yellow-extensions/";
         $path = rtrim(empty($path) ? $pathRepositoryOffical : $pathRepository.$path, "/")."/";
         if (is_dir($pathRepository) && is_dir($pathRepositoryOffical) && is_dir($path)) {
@@ -47,13 +47,13 @@ class YellowPublish {
             $this->extensions = 0;
             $this->errors = 1;
             $path = !is_dir($pathRepositoryOffical) ? $pathRepositoryOffical : $path;
-            echo "ERROR updating files: Can't find directory '$path'!\n";
+            echo "ERROR publishing files: Can't find directory '$path'!\n";
         } else {
             $statusCode = 500;
             $this->extensions = 0;
             $this->errors = 1;
             $fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile");
-            echo "ERROR updating files: Please configure UpdateExtensionDirectory in file '$fileName'!\n";
+            echo "ERROR publishing files: Please configure UpdateSourceCodeDirectory in file '$fileName'!\n";
         }
         echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
         echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
@@ -68,6 +68,7 @@ class YellowPublish {
             $statusCode = max($statusCode, $this->updateExtensionInformation($path));
             $statusCode = max($statusCode, $this->updateExtensionDocumentation($path));
             $statusCode = max($statusCode, $this->updateExtensionArchive($path, $pathRepositoryOffical));
+            $statusCode = max($statusCode, $this->updateExtensionLatest($path, $pathRepositoryOffical));
             $statusCode = max($statusCode, $this->updateExtensionVersion($path, $pathRepositoryOffical));
             $statusCode = max($statusCode, $this->updateExtensionWaffle($path, $pathRepositoryOffical));
             if (defined("DEBUG") && DEBUG>=1) echo "YellowPublish::updateExtensionDirectory ".ucfirst($extension)." $version<br/>\n";
@@ -96,10 +97,12 @@ class YellowPublish {
                     }
                 }
             }
+            $url = "https://github.com/datenstrom/yellow-extensions/raw/master/zip/".strtoloweru("$extension.zip");
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                     if (lcfirst($matches[1])=="extension") $line = "Extension: ".ucfirst($extension)."\n";
                     if (lcfirst($matches[1])=="version") $line = "Version: $version\n";
+                    if (lcfirst($matches[1])=="downloadUrl") $line = "DownloadUrl: $url\n";
                     if (lcfirst($matches[1])=="published") $line = "Published: ".date("Y-m-d H:i:s", $published)."\n";
                     if (lcfirst($matches[1])=="status" && $matches[2]=="unpublished") $line = "";
                     if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
@@ -111,7 +114,7 @@ class YellowPublish {
                         $fileNameDestination = $matches[1];
                         if (!$this->yellow->lookup->isValidFile($this->yellow->toolbox->normaliseTokens($fileNameDestination))) {
                             $statusCode = 500;
-                            echo "ERROR checking files: File '$fileNameDestination' is not possible!\n";
+                            echo "ERROR publishing files: File '$fileNameDestination' is not possible!\n";
                         }
                     }
                 }
@@ -122,13 +125,13 @@ class YellowPublish {
                 if ($extension!=$this->yellow->lookup->normaliseName($fileNameClass, true, true)) {
                     $statusCode = 500;
                     $class = "Yellow".ucfirst($extension);
-                    echo "ERROR updating files: Class '$class' and file '$fileNameClass' is not possible!\n";
+                    echo "ERROR publishing files: Class '$class' and file '$fileNameClass' is not possible!\n";
                 }
             }
             if ($fileData!=$fileDataNew) {
                 if (!$this->yellow->toolbox->createFile($fileNameExtension, $fileDataNew)) {
                     $statusCode = 500;
-                    echo "ERROR updating files: Can't write file '$fileNameExtension'!\n";
+                    echo "ERROR publishing files: Can't write file '$fileNameExtension'!\n";
                 }
             }
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionInformation file:$fileNameExtension<br/>\n";
@@ -151,7 +154,7 @@ class YellowPublish {
             if ($fileData!=$fileDataNew) {
                 if (!$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
                     $statusCode = 500;
-                    echo "ERROR updating files: Can't write file '$entry'!\n";
+                    echo "ERROR publishing files: Can't write file '$entry'!\n";
                 }
             }
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionDocumentation file:$entry<br/>\n";
@@ -182,18 +185,60 @@ class YellowPublish {
                 if (!empty($fileNamesRequired)) {
                     $statusCode = 500;
                     foreach ($fileNamesRequired as $key=>$value) {
-                        echo "ERROR updating files: Can't find file '$key'!\n";
+                        echo "ERROR publishing files: Can't find file '$key'!\n";
                     }
                 }
                 if (!$zip->close() || !$this->yellow->toolbox->modifyFile($fileNameZipArchive, $modified)) {
                     $statusCode = 500;
-                    echo "ERROR updating files: Can't write file '$fileNameZipArchive'!\n";
+                    echo "ERROR publishing files: Can't write file '$fileNameZipArchive'!\n";
                 }
             } else {
                 $statusCode = 500;
-                echo "ERROR updating files: Can't write file '$fileNameZipArchive'!\n";
+                echo "ERROR publishing files: Can't write file '$fileNameZipArchive'!\n";
             }
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionArchive file:$fileNameZipArchive<br/>\n";
+        }
+        return $statusCode;
+    }
+    
+    // Update extension latest file
+    public function updateExtensionLatest($pathSource, $pathRepositoryOffical) {
+        $statusCode = 200;
+        list($extension, $version, $status) = $this->getExtensionInformation($pathSource);
+        $fileNameLatest = $pathRepositoryOffical.$this->yellow->system->get("updateLatestFile");
+        if (is_file($fileNameLatest) && $status!="unlisted") {
+            $scan = false;
+            $fileData = $this->yellow->toolbox->readFile($fileNameLatest);
+            $fileDataStart = $fileDataMiddle = $fileDataEnd = "";
+            foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
+                if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
+                    if (lcfirst($matches[1])=="extension" && !strempty($matches[2])) {
+                        $scan = strtoloweru($matches[2])==strtoloweru($extension);
+                    }
+                }
+                if (!$scan && empty($fileDataMiddle)) {
+                    $fileDataStart .= $line;
+                } elseif ($scan) {
+                    $fileDataMiddle .= $line;
+                } else {
+                    $fileDataEnd .= $line;
+                }
+            }
+            if (!empty($fileDataMiddle)) {
+                $fileDataMiddle = $this->getExtensionSettings($pathSource);
+                if (!empty($fileDataEnd)) $fileDataMiddle .= "\n";
+            } else {
+                if (!empty($fileDataStart)) $fileDataEnd .= "\n";
+                $fileDataEnd .= $this->getExtensionSettings($pathSource);
+            }
+            $fileDataNew = $fileDataStart.$fileDataMiddle.$fileDataEnd;
+            if ($fileData!=$fileDataNew) {
+                if (!$this->yellow->toolbox->createFile($fileNameLatest, $fileDataNew)) {
+                    $statusCode = 500;
+                    echo "ERROR publishing files: Can't write file '$fileNameLatest'!\n";
+                }
+            }
+            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionLatest file:$fileNameLatest<br/>\n";
         }
         return $statusCode;
     }
@@ -220,13 +265,12 @@ class YellowPublish {
             }
             if (!$found) {
                 $url = "https://github.com/datenstrom/yellow-extensions/raw/master/zip/".strtoloweru("$extension.zip");
-                $fileDataNew .= "\n# Datenstrom Yellow version, new extension\n\n";
                 $fileDataNew .= ucfirst($extension).": $version,$url,$author\n";
             }
             if ($fileData!=$fileDataNew) {
                 if (!$this->yellow->toolbox->createFile($fileNameVersion, $fileDataNew)) {
                     $statusCode = 500;
-                    echo "ERROR updating files: Can't write file '$fileNameVersion'!\n";
+                    echo "ERROR publishing files: Can't write file '$fileNameVersion'!\n";
                 }
             }
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionVersion file:$fileNameVersion<br/>\n";
@@ -241,14 +285,13 @@ class YellowPublish {
         $fileNameWaffle = $pathRepositoryOffical.$this->yellow->system->get("updateWaffleFile");
         if (is_file($fileNameWaffle) && $status!="unlisted") {
             $found = false;
-            $waffle = $this->getExtensionWaffle($pathSource);
             $fileData = $this->yellow->toolbox->readFile($fileNameWaffle);
             $fileDataNew = "";
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                     if (!empty($matches[1]) && !empty($matches[2]) && preg_match("/^$extension,/i", $matches[2])) {
                         if (!$found) {
-                            $fileDataNew .= $waffle;
+                            $fileDataNew .= $this->getExtensionWaffle($pathSource);
                             $found = true;
                         }
                         continue;
@@ -257,13 +300,12 @@ class YellowPublish {
                 $fileDataNew .= $line;
             }
             if (!$found) {
-                $fileDataNew .= "\n# Datenstrom Yellow waffle, new extension\n\n";
-                $fileDataNew .= $waffle;
+                $fileDataNew .= $this->getExtensionWaffle($pathSource);
             }
             if ($fileData!=$fileDataNew) {
                 if (!$this->yellow->toolbox->createFile($fileNameWaffle, $fileDataNew)) {
                     $statusCode = 500;
-                    echo "ERROR updating files: Can't write file '$fileNameWaffle'!\n";
+                    echo "ERROR publishing files: Can't write file '$fileNameWaffle'!\n";
                 }
             }
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionWaffle file:$fileNameWaffle<br/>\n";
@@ -363,5 +405,20 @@ class YellowPublish {
             }
         }
         return $waffle;
+    }
+
+    // Return extension settings
+    public function getExtensionSettings($path) {
+        $settings = "";
+        $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
+        $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
+        foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
+            if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
+                if (!empty($matches[1]) && !empty($matches[2])) {
+                    $settings .= "$matches[1]: $matches[2]\n";
+                }
+            }
+        }
+        return $settings;
     }
 }

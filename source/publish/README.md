@@ -1,4 +1,4 @@
-Publish 0.8.23
+Publish 0.8.24
 ==============
 Package and publish extensions.
 
@@ -12,7 +12,7 @@ The [update extension](https://github.com/datenstrom/yellow-extensions/tree/mast
 
 First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish` followed by a folder. This will update all necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
 
-The first time you will be asked for your GitHub directory. Use your GitHub account, [fork the official repository](https://github.com/datenstrom/yellow-extensions) and store a copy on your hard disk. You can configure the directory with `UpdateExtensionDirectory` in file `system/settings/system.ini`.
+The first time you will be asked for your source code directory. Use your GitHub account, [fork the official repository](https://github.com/datenstrom/yellow-extensions) and store a copy on your hard disk. You can configure the directory with `UpdateSourceCodeDirectory` in file `system/settings/system.ini`.
 
 ## Examples
 
@@ -81,9 +81,9 @@ The following settings can be configured in file `extension.ini`:
 `Version` = extension version number  
 `Description` = extension description, one line maximum  
 `HelpUrl` = extension help page  
-`DownloadUrl` = extension download  
+`DownloadUrl` = extension download address  
 `Published` = extension publication date, YYYY-MM-DD format  
-`Status` = extension status, [supported status values](#settings-status)    
+`Status` = extension status, [supported status values](#settings-status)  
 `Developer` = feature developer  
 `Translator` = language translator  
 `Designer` = theme designer  

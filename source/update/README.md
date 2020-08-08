@@ -1,4 +1,4 @@
-Update 0.8.28
+Update 0.8.29
 =============
 Keep your website up to date.
 
@@ -78,9 +78,11 @@ Removing extensions at the command line:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
+`UpdateSourceCodeDirectory` = directory with extensions source code  
 `UpdateExtensionUrl` = repository with extensions  
-`UpdateExtensionDirectory` = directory with extensions source code  
-`UpdateExtensionFile` = file for extension settings  
+`UpdateExtensionFile` = file with extension settings  
+`UpdateCurrentFile` = file with current update settings  
+`UpdateLatestFile` = file with latest update settings  
 `UpdateVersionFile` = version information of extensions  
 `UpdateWaffleFile` = file information of extensions  
 `UpdateNotification` = pending notifications  

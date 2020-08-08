@@ -1,4 +1,4 @@
-Command 0.8.20
+Command 0.8.21
 ==============
 Befehlszeile der Webseite.
 
@@ -6,7 +6,7 @@ Befehlszeile der Webseite.
 
 ## Wie man die Befehlszeile benutzt
 
-Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet.  Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen.
+Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen.
 
 ## Wie man den eingebauten Webserver startet
 
@@ -78,12 +78,12 @@ Die folgenden Befehle sind verfügbar:
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
-  
+
 `CoreStaticUrl` = URL der statischen Webseite  
-`CoreStaticDefaultFile` =  Standard-Datei der statischen Webseite  
-`CoreStaticErrorFile` = Fehler-Datei der statischen Webseite  
-`CoreStaticBuildDirectory` = Verzeichnis für erzeugte Dateien  
-`CoreStaticCacheDirectory` = Verzeichnis für zwischengespeicherte Dateien  
+`CommandStaticBuildDirectory` = Verzeichnis für erzeugte Dateien  
+`CommandStaticCacheDirectory` = Verzeichnis für zwischengespeicherte Dateien  
+`CommandStaticDefaultFile` = Standard-Datei der statischen Webseite  
+`CommandStaticErrorFile` = Fehler-Datei der statischen Webseite  
 
 ## Installation
 
