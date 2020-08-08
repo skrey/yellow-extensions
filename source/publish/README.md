@@ -24,7 +24,7 @@ Extension settings for a feature:
 Extension: Example
 Version: 0.8.3
 Description: Example feature for developers.
-HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/example
+HelpUrl: https://github.com/annasvensson/yellow-extension-example
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/example.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
@@ -43,7 +43,7 @@ Description: English/English with language 'en'.
 HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/english
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/english.zip
 Published: 2019-01-24 19:42:13
-Translator: Anna Svensson
+Translator: Mark Seuffert
 Tag: language
 system/extensions/english.php: English,english.php,create,update
 system/extensions/english.txt: English,english.txt,create,update
@@ -57,7 +57,7 @@ Extension settings for a theme:
 Extension: Basic
 Version: 0.8.3
 Description: Example theme for designers.
-HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/basic
+HelpUrl: https://github.com/annasvensson/yellow-extension-basic
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/basic.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson

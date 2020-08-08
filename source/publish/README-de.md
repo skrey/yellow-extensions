@@ -24,7 +24,7 @@ Erweiterungs-Einstellungen für eine Funktion:
 Extension: Example
 Version: 0.8.3
 Description: Example feature for developers.
-HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/example
+HelpUrl: https://github.com/annasvensson/yellow-extension-example
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/example.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
@@ -43,7 +43,7 @@ Description: German/Deutsch with language 'de'.
 HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/german
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/german.zip
 Published: 2019-01-24 19:42:13
-Translator: Anna Svensson
+Translator: David Fehrmann
 Tag: language
 system/extensions/german.php: German,german.php,create,update
 system/extensions/german.txt: German,german.txt,create,update
@@ -57,7 +57,7 @@ Erweiterungs-Einstellungen für ein Thema:
 Extension: Basic
 Version: 0.8.3
 Description: Example theme for designers.
-HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/basic
+HelpUrl: https://github.com/annasvensson/yellow-extension-basic
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/basic.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
