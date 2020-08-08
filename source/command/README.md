@@ -79,7 +79,7 @@ The following commands are available:
 
 The following settings can be configured in file `system/settings/system.ini`:
 
-`CoreStaticUrl` = URL for static website  
+`CoreStaticUrl` = URL of the static website  
 `CoreStaticDefaultFile` =  default file for static website  
 `CoreStaticErrorFile` = error file for static website  
 `CoreStaticBuildDirectory` = directory for generated files  

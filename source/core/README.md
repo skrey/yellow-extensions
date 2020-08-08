@@ -172,7 +172,8 @@ The following settings can be configured at the top of a page:
 `Theme` = default theme  
 `Parser` = default page parser  
 `Status` = default page status, [supported status values](#settings-status)  
-`CoreStaticUrl` = URL for static website    
+`CoreStaticUrl` = URL of the static website  
+`CoreServerUrl` = URL of the website, `auto` for automatic detection  
 `CoreServerTimezone` = timezone of the website  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
 
