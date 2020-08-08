@@ -65,7 +65,7 @@ Publishing extensions at the command line:
 
 `php yellow.php publish yellow-extension-basic`  
 `php yellow.php publish yellow-extension-example`  
-`php yellow.php publish yellow-extensions/languages/english`  
+`php yellow.php publish yellow-extensions/source/english`  
 
 ## Settings
 
