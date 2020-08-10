@@ -83,7 +83,7 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `HelpUrl` = Hilfeseite der Erweiterung  
 `DownloadUrl` = Adresse zum Herunterladen der Erweiterung  
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
-`Status` = Status der Erweiterung, [unterstütze Statuswerte](#einstellungen-status)  
+`Status` = Status der Erweiterung, [unterstützte Statuswerte](#einstellungen-status)  
 `Developer` = Entwickler einer Funktion  
 `Translator` = Übersetzer einer Sprache  
 `Designer` = Designer eines Themas  

@@ -134,13 +134,13 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `Name` =  Name des Benutzers  
 `Language` = Sprache des Benutzers  
 `Home` = Ort der Startseite  
-`Access` = Zugriffsrechte, [unterstütze Zugriffsrechte](#einstellungen-access)  
+`Access` = Zugriffsrechte, [unterstützte Zugriffsrechte](#einstellungen-access)  
 `Hash` = verschlüsseltes Kennwort  
 `Stamp` = eindeutiges Token zur Authentifizierung  
 `Pending` = ausstehende Änderungen  
 `Failed` = Anzahl fehlgeschlagener Anmeldeversuche  
 `Modified` = Änderungsdatum, JJJJ-MM-TT Format  
-`Status` = Status des Benutzers, [unterstütze Statuswerte](#einstellungen-status)  
+`Status` = Status des Benutzers, [unterstützte Statuswerte](#einstellungen-status)  
 
 <a id="einstellungen-access"></a>Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 

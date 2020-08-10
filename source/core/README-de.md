@@ -153,7 +153,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
 `Theme` = Thema der Seite  
 `Parser` = Parser der Seite  
-`Status` = Status der Seite, [unterstütze Statuswerte](#einstellungen-status)  
+`Status` = Status der Seite, [unterstützte Statuswerte](#einstellungen-status)  
 `Redirect` = Weiterleitung zu einer anderen Seite oder URL  
 `Image` = Bild der Seite  
 `ImageAlt` = Alternative Bildbeschreibung der Seite  
@@ -171,7 +171,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Layout` = Standard-Layout  
 `Theme` = Standard-Theme  
 `Parser` = Standard-Seitenparser  
-`Status` = Standard-Seitenstatus, [unterstütze Statuswerte](#einstellungen-status)  
+`Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
 `CoreStaticUrl` = URL der statischen Webseite  
 `CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
 `CoreServerTimezone` = Zeitzone der Webseite  
