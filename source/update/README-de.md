@@ -1,4 +1,4 @@
-Update 0.8.29
+Update 0.8.30
 =============
 Webseite auf dem neusten Stand halten.
 
@@ -78,7 +78,6 @@ Erweiterungen in der Befehlszeile entfernen:
 
 Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
 
-`UpdateSourceCodeDirectory ` = Verzeichnis mit Erweiterungs-Quellcode  
 `UpdateExtensionUrl` = Repository mit Erweiterungen  
 `UpdateExtensionFile` = Datei mit Erweiterungs-Einstellungen  
 `UpdateCurrentFile` = Datei mit aktuellen Aktualisierungs-Einstellungen  

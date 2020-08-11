@@ -1,4 +1,4 @@
-Core 0.8.17
+Core 0.8.18
 ===========
 Kernfunktionalität der Webseite.
 
@@ -8,7 +8,7 @@ Kernfunktionalität der Webseite.
 
 Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager verändern. Alle Inhalte befinden sich im `content`-Verzeichnis. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst. Du kannst den eingebauten Webserver verwenden oder eine [statische Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) erstellen.
 
-## Wie man eine Webseite anpasst
+## Wie man eine Webseite auf dem Computer anpasst
 
 Falls du den Inhalt anpassen willst, kannst du [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-de.md) benutzen. Alle Inhalte befinden sich im `content`-Verzeichnis. Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst eine Kopfzeile und Fußzeile auch in einem anderen Verzeichnis erstellen, dann wir sie nur auf Seiten im gleichen Verzeichnis angezeigt.
 
@@ -23,14 +23,6 @@ Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://g
 Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
 Falls du Sprachen anpassen willst, ändere die Spracheinstellungen. Öffne die Datei `system/settings/language.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Spracheinstellungen hinzufügen, beispielsweise Bildunterschriften.
-
-## Wie man eine sichere Webseite macht
-
-[Halte deine Webseite auf dem neuesten Stand](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md). Es wird empfohlen die Webseite zu aktualisieren sobald ein neues Release bereit steht. Überprüfe ausserdem ob deine Webseite Datenverschlüsselung unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
-
-Falls du nicht willst dass Seiten verändert werden, [beschränke Benutzerkonten](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md). Du kannst festlegen was Benutzer machen dürfen, welche Seiten verändert und welche Dateien hochgeladen werden dürfen. Die Dateiformate GIF, JPG, PDF, PNG, SVG und ZIP werden in den Standardeinstellungen unterstützt.
-
-Falls du nicht so viele Spam-Nachrichten bekommen willst, [beschränke die Kontaktseite](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact/README-de.md). Du kannst bestimmen wer Nachrichten empfangen darf und ob sie anklickbare Links enthalten dürfen. Es ist empfehlenswert Links zu beschränken, das blockiert viele unerwünschte Nachrichten.
 
 ## Wie man eine Seite versteckt
 
@@ -56,22 +48,6 @@ Inhaltsdatei mit ungelisteter Seite:
     Status: unlisted
     ---
     Diese Seite ist in der Navigation und den Suchergebnissen nicht sichtbar.
-
-Inhaltsdatei mit Kopfzeile:
-
-    ---
-    Title: Header
-    Status: shared
-    ---
-    Ich mag Markdown.
-
-Inhaltsdatei mit Fußzeile:
-
-    ---
-    Title: Footer
-    Status: shared
-    ---
-    [Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/)
 
 Inhaltsdatei mit Weiterleitung:
 
@@ -188,11 +164,8 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
 `system/layouts/default.html` = Layoutdatei für Standard-Seite  
-`system/layouts/error.html` = Layoutdatei für Standard-Fehlerseite  
 `system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
 `system/layouts/footer.html` = Layoutdatei für Standard-HTML-Footer  
-`system/layouts/navigation.html` = Layoutdatei für Standard-Navigation  
-`system/layouts/pagination.html` = Layoutdatei für Standard-Pagination  
 
 ## Installation
 

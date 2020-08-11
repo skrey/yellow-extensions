@@ -1,4 +1,4 @@
-Edit 0.8.34
+Edit 0.8.35
 ===========
 Edit your website in a web browser.
 
@@ -7,6 +7,8 @@ Edit your website in a web browser.
 ## How to edit a website in a web browser
 
 The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. You can use an `[edit]` shortcut to show an edit link.
+
+Check if your website supports data encryption. It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
 
 ## How to create a user account
 

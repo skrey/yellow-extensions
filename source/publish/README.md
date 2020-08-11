@@ -1,4 +1,4 @@
-Publish 0.8.24
+Publish 0.8.25
 ==============
 Package and publish extensions.
 
@@ -12,7 +12,7 @@ The [update extension](https://github.com/datenstrom/yellow-extensions/tree/mast
 
 First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish` followed by a folder. This will update all necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`.
 
-The first time you will be asked for your source code directory. Use your GitHub account, [fork the official repository](https://github.com/datenstrom/yellow-extensions) and store a copy on your hard disk. You can configure the directory with `UpdateSourceCodeDirectory` in file `system/settings/system.ini`.
+The first time you will be asked for your source code directory. [Fork the official repository](https://github.com/datenstrom/yellow-extensions) and store a copy on your computer.
 
 ## Examples
 
@@ -25,7 +25,7 @@ Extension: Example
 Version: 0.8.3
 Description: Example feature for developers.
 HelpUrl: https://github.com/annasvensson/yellow-extension-example
-DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/example.zip
+DownloadUrl: https://github.com/annasvensson/yellow-extension-example/archive/master.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 Tag: feature
@@ -58,7 +58,7 @@ Extension: Basic
 Version: 0.8.3
 Description: Example theme for designers.
 HelpUrl: https://github.com/annasvensson/yellow-extension-basic
-DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/basic.zip
+DownloadUrl: hhttps://github.com/annasvensson/yellow-extension-basic/archive/master.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: theme
@@ -75,6 +75,10 @@ Publishing extensions at the command line:
 
 ## Settings
 
+The following settings can be configured in file `system/settings/system.ini`:
+
+`PublishSourceCodeDirectory` = directory with extensions source code  
+
 The following settings can be configured in file `extension.ini`:
 
 `Extension` = extension name  
@@ -87,7 +91,6 @@ The following settings can be configured in file `extension.ini`:
 `Developer` = feature developer  
 `Translator` = language translator  
 `Designer` = theme designer  
-`Language` = extension language(s), comma separated  
 `Tag` = extension tag(s) for categorisation, comma separated  
 
 <a id="settings-status"></a>The following extension status values are supported:

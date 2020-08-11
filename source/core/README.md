@@ -1,4 +1,4 @@
-Core 0.8.17
+Core 0.8.18
 ===========
 Core functionality of the website.
 
@@ -8,7 +8,7 @@ Core functionality of the website.
 
 You can use your favorite text editor and change everything in the file manager. All content is located in your `content` folder. Basically, what you see in the file manager is the website you get. You can use the built-in web server or create a [static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command).
 
-## How to customise a website
+## How to customise a website on the computer
 
 If you want to adjust the content, then use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown). All content is located in your `content` folder. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder.
 
@@ -23,14 +23,6 @@ Your website comes with three languages and you can install more [languages](htt
 If you want to translate the entire website into multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Then you have to adjust the [folder structure](#folders). Go to your `content` folder and create a new folder for each language.
 
 If you want to configure languages, then change the language settings. Open file `system/settings/language.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
-
-## How to make a secure website
-
-[Keep your website up to date](https://github.com/datenstrom/yellow-extensions/tree/master/source/update). It's recommended to update the website as soon as a new release is available. Also check if your website supports data encryption. It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
-
-If you don't want that pages are modified, then restrict [user accounts](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit). You can configure what users are allowed to do, which pages can be changed and which files can be uploaded. The file formats GIF, JPG, PDF, PNG, SVG and ZIP are supported per default.
-
-If you don't want to get that many spam messages, then restrict the [contact page](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact). You can determine who can receive messages and whether they can contain clickable links. It's recommended to restrict links, this blocks many unwanted messages.
 
 ## How to hide a page
 
@@ -56,22 +48,6 @@ Content file with unlisted page:
     Status: unlisted
     ---
     This page is not visible in navigation and search results.
-
-Content file with header:
-
-    ---
-    Title: Header
-    Status: shared
-    ---
-    I like Markdown.
-
-Content file with footer:
-
-    ---
-    Title: Footer
-    Status: shared
-    ---
-    [Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
 
 Content file with redirection:
 
@@ -188,11 +164,8 @@ The following settings can be configured at the top of a page:
 <a id="settings-files"></a>The following files can be configured:
 
 `system/layouts/default.html` = layout file for default page  
-`system/layouts/error.html` = layout file for default error page  
 `system/layouts/header.html` = layout file for default HTML header  
 `system/layouts/footer.html` = layout file for default HTML footer  
-`system/layouts/navigation.html` = layout file for default navigation  
-`system/layouts/pagination.html` = layout file for default pagination  
 
 ## Installation
 

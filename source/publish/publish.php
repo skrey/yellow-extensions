@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.24";
+    const VERSION = "0.8.25";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -10,6 +10,7 @@ class YellowPublish {
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
+        $this->yellow->system->setDefault("publishSourceCodeDirectory", "/Users/yourname/Documents/GitHub/");
     }
 
     // Handle command
@@ -30,7 +31,7 @@ class YellowPublish {
     public function processCommandPublish($command, $text) {
         $statusCode = 0;
         list($path) = $this->yellow->toolbox->getTextArguments($text);
-        $pathRepository = rtrim($this->yellow->system->get("updateSourceCodeDirectory"), "/")."/";
+        $pathRepository = rtrim($this->yellow->system->get("publishSourceCodeDirectory"), "/")."/";
         $pathRepositoryOffical = $pathRepository."yellow-extensions/";
         $path = rtrim(empty($path) ? $pathRepositoryOffical : $pathRepository.$path, "/")."/";
         if (is_dir($pathRepository) && is_dir($pathRepositoryOffical) && is_dir($path)) {
@@ -53,7 +54,7 @@ class YellowPublish {
             $this->extensions = 0;
             $this->errors = 1;
             $fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile");
-            echo "ERROR publishing files: Please configure UpdateSourceCodeDirectory in file '$fileName'!\n";
+            echo "ERROR publishing files: Please configure PublishSourceCodeDirectory in file '$fileName'!\n";
         }
         echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
         echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
@@ -173,7 +174,7 @@ class YellowPublish {
             if (is_file($fileNameZipArchive)) $this->yellow->toolbox->deleteFile($fileNameZipArchive);
             if ($zip->open($fileNameZipArchive, ZIPARCHIVE::CREATE)===true) {
                 $modified = 0;
-                $fileNamesRequired = $this->getExtensionFileNames($pathSource);
+                $fileNamesRequired = $this->getExtensionFileNamesRequired($pathSource);
                 $fileNamesFound = $this->yellow->toolbox->getDirectoryEntriesRecursive($pathSource, "/.*/", true, false);
                 foreach ($fileNamesFound as $fileName) {
                     if (!isset($fileNamesRequired[$fileName])) continue;
@@ -213,7 +214,7 @@ class YellowPublish {
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                     if (lcfirst($matches[1])=="extension" && !strempty($matches[2])) {
-                        $scan = strtoloweru($matches[2])==strtoloweru($extension);
+                        $scan = lcfirst($matches[2])==lcfirst($extension);
                     }
                 }
                 if (!$scan && empty($fileDataMiddle)) {
@@ -247,7 +248,7 @@ class YellowPublish {
     public function updateExtensionVersion($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
         list($extension, $version, $status, $description, $author) = $this->getExtensionInformation($pathSource);
-        $fileNameVersion = $pathRepositoryOffical.$this->yellow->system->get("updateVersionFile");
+        $fileNameVersion = $pathRepositoryOffical."version.ini";
         if (is_file($fileNameVersion) && $status!="unlisted") {
             $found = false;
             $fileData = $this->yellow->toolbox->readFile($fileNameVersion);
@@ -282,7 +283,7 @@ class YellowPublish {
     public function updateExtensionWaffle($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
         list($extension, $version, $status) = $this->getExtensionInformation($pathSource);
-        $fileNameWaffle = $pathRepositoryOffical.$this->yellow->system->get("updateWaffleFile");
+        $fileNameWaffle = $pathRepositoryOffical."waffle.ini";
         if (is_file($fileNameWaffle) && $status!="unlisted") {
             $found = false;
             $fileData = $this->yellow->toolbox->readFile($fileNameWaffle);
@@ -363,33 +364,41 @@ class YellowPublish {
         return array($extension, $version, $status, $description, $author);
     }
     
-    // Return extension file names
-    public function getExtensionFileNames($path) {
+    // Return extension file names required
+    public function getExtensionFileNamesRequired($path) {
         $data = array();
         $extension = "";
-        $language = $this->yellow->system->get("language");
+        $languages = $this->getExtensionLanguages($path);
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
         $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                 if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
-                if (lcfirst($matches[1])=="language") $language = $matches[2];
                 if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
                     list($dummy, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
                     if (preg_match("/delete/i", $flags)) continue;
-                    if (preg_match("/multi-language/i", $flags)) {
-                        foreach (preg_split("/\s*,\s*/", $language) as $token) {
-                            $pathLanguage = $token."/";
-                            $data["$path$pathLanguage$entry"] = $extension."/".$pathLanguage.basename($entry);
+                    if (preg_match("/multi-language/i", $flags) && $this->yellow->lookup->isContentFile($matches[1])) {
+                        foreach ($languages as $language) {
+                            $pathLanguage = $language."/";
+                            $data["$path$pathLanguage$entry"] = $extension."/".$pathLanguage.$entry;
                         }
                     } else {
-                        $data["$path$entry"] = $extension."/".basename($entry);
+                        $data["$path$entry"] = $extension."/".$entry;
                     }
                 }
             }
         }
         $data[$fileNameExtension] = $extension."/".basename($fileNameExtension);
         return $data;
+    }
+    
+    // Return extension languages
+    public function getExtensionLanguages($path) {
+        $languages = array();
+        foreach($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, true, false) as $entry) {
+            array_push($languages, $entry);
+        }
+        return array_unique($languages);
     }
     
     // Return extension waffle

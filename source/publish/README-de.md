@@ -1,4 +1,4 @@
-Publish 0.8.24
+Publish 0.8.25
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
@@ -12,7 +12,7 @@ Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/ma
 
 Erhöhe zuerst die Versionsnummer in deinem PHP-Code und veröffentliche dann deine Erweiterung in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php publish` gefolgt von einem Verzeichnis. Das aktualisiert alle notwendigen Dateien. Lade deine Änderungen zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
 
-Beim ersten Mal wirst du nach deinem Quellcode-Verzeichnis gefragt. Benutze dein GitHub-Konto, [forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions) und speichere eine Kopie auf deiner Festplatte ab. Du kannst das Verzeichnis konfigurieren mit `UpdateSourceCodeDirectory` in der Datei `system/settings/system.ini`.
+Beim ersten Mal wirst du nach deinem Quellcode-Verzeichnis gefragt. [Forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions) und speichere eine Kopie auf deinen Computer.
 
 ## Beispiele
 
@@ -24,7 +24,7 @@ Erweiterungs-Einstellungen für eine Funktion:
 Extension: Example
 Version: 0.8.3
 Description: Example feature for developers.
-HelpUrl: https://github.com/annasvensson/yellow-extension-example
+HelpUrl: https://github.com/annasvensson/yellow-extension-example/archive/master.zip
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/example.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
@@ -58,7 +58,7 @@ Extension: Basic
 Version: 0.8.3
 Description: Example theme for designers.
 HelpUrl: https://github.com/annasvensson/yellow-extension-basic
-DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/basic.zip
+DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/master.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: theme
@@ -75,6 +75,10 @@ Erweiterungen in der Befehlszeile veröffentlichen:
 
 ## Einstellungen
 
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+
+`PublishSourceCodeDirectory ` = Verzeichnis mit Erweiterungs-Quellcode  
+
 Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen werden:
 
 `Extension` = Name der Erweiterung  
@@ -87,7 +91,6 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `Developer` = Entwickler einer Funktion  
 `Translator` = Übersetzer einer Sprache  
 `Designer` = Designer eines Themas  
-`Language` = Sprachen der Erweiterung, durch Komma getrennt  
 `Tag` = Tags zur Kategorisierung der Erweiterung, durch Komma getrennt  
 
 <a id="einstellungen-status"></a>Die folgenden Erweiterungs-Statuswerte werden unterstützt:
