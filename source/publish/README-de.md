@@ -24,8 +24,8 @@ Erweiterungs-Einstellungen für eine Funktion:
 Extension: Example
 Version: 0.8.3
 Description: Example feature for developers.
-HelpUrl: https://github.com/annasvensson/yellow-extension-example/archive/master.zip
-DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/example.zip
+HelpUrl: https://github.com/annasvensson/yellow-extension-example
+DownloadUrl: https://github.com/annasvensson/yellow-extension-example/archive/master.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 Tag: feature
