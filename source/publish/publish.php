@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.25";
+    const VERSION = "0.8.26";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -70,8 +70,6 @@ class YellowPublish {
             $statusCode = max($statusCode, $this->updateExtensionDocumentation($path));
             $statusCode = max($statusCode, $this->updateExtensionArchive($path, $pathRepositoryOffical));
             $statusCode = max($statusCode, $this->updateExtensionLatest($path, $pathRepositoryOffical));
-            $statusCode = max($statusCode, $this->updateExtensionVersion($path, $pathRepositoryOffical));
-            $statusCode = max($statusCode, $this->updateExtensionWaffle($path, $pathRepositoryOffical));
             if (defined("DEBUG") && DEBUG>=1) echo "YellowPublish::updateExtensionDirectory ".ucfirst($extension)." $version<br/>\n";
             ++$this->extensions;
             if ($statusCode!=200) ++$this->errors;
@@ -82,22 +80,11 @@ class YellowPublish {
     // Update extension information file
     public function updateExtensionInformation($path) {
         $statusCode = 200;
-        list($extension, $version, $fileNameSource) = $this->getExtensionInformationFromSource($path);
+        list($extension, $version, $published, $fileNameSource) = $this->getExtensionInformationFromSource($path);
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
         if (is_file($fileNameExtension) && !empty($extension) && !empty($version)) {
             $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
             $fileDataNew = "";
-            foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
-                if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
-                    if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
-                        list($dummy1, $entry, $dummy2) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
-                        if (is_file($path.$entry)) {
-                            $published = filemtime($path.$entry);
-                            break;
-                        }
-                    }
-                }
-            }
             $url = "https://github.com/datenstrom/yellow-extensions/raw/master/zip/".strtoloweru("$extension.zip");
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
                 if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
@@ -107,10 +94,10 @@ class YellowPublish {
                     if (lcfirst($matches[1])=="published") $line = "Published: ".date("Y-m-d H:i:s", $published)."\n";
                     if (lcfirst($matches[1])=="status" && $matches[2]=="unpublished") $line = "";
                     if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
-                        list($extensionResponsible, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
-                        if (ucfirst($extensionResponsible)!=ucfirst($extension)) {
-                            $extensionResponsible = ucfirst($extension);
-                            $line = "$matches[1]: $extensionResponsible,$entry,$flags\n";
+                        list($entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 2);
+                        if (strposu($entry, ".")===false) {
+                            list($dummy, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
+                            $line = "$matches[1]: $entry,$flags\n";
                         }
                         $fileNameDestination = $matches[1];
                         if (!$this->yellow->lookup->isValidFile($this->yellow->toolbox->normaliseTokens($fileNameDestination))) {
@@ -205,7 +192,7 @@ class YellowPublish {
     // Update extension latest file
     public function updateExtensionLatest($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
-        list($extension, $version, $status) = $this->getExtensionInformation($pathSource);
+        list($extension, $version, $published, $status) = $this->getExtensionInformation($pathSource);
         $fileNameLatest = $pathRepositoryOffical.$this->yellow->system->get("updateLatestFile");
         if (is_file($fileNameLatest) && $status!="unlisted") {
             $scan = false;
@@ -244,76 +231,6 @@ class YellowPublish {
         return $statusCode;
     }
     
-    // Update extension version file
-    public function updateExtensionVersion($pathSource, $pathRepositoryOffical) {
-        $statusCode = 200;
-        list($extension, $version, $status, $description, $author) = $this->getExtensionInformation($pathSource);
-        $fileNameVersion = $pathRepositoryOffical."version.ini";
-        if (is_file($fileNameVersion) && $status!="unlisted") {
-            $found = false;
-            $fileData = $this->yellow->toolbox->readFile($fileNameVersion);
-            $fileDataNew = "";
-            foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
-                if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
-                    if (!empty($matches[1]) && !empty($matches[2]) && strtoloweru($matches[1])==strtoloweru($extension)) {
-                        list($dummy1, $url, $dummy2) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
-                        $fileDataNew .= "$matches[1]: $version,$url,$author\n";
-                        $found = true;
-                        continue;
-                    }
-                }
-                $fileDataNew .= $line;
-            }
-            if (!$found) {
-                $url = "https://github.com/datenstrom/yellow-extensions/raw/master/zip/".strtoloweru("$extension.zip");
-                $fileDataNew .= ucfirst($extension).": $version,$url,$author\n";
-            }
-            if ($fileData!=$fileDataNew) {
-                if (!$this->yellow->toolbox->createFile($fileNameVersion, $fileDataNew)) {
-                    $statusCode = 500;
-                    echo "ERROR publishing files: Can't write file '$fileNameVersion'!\n";
-                }
-            }
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionVersion file:$fileNameVersion<br/>\n";
-        }
-        return $statusCode;
-    }
-
-    // Update extension waffle file
-    public function updateExtensionWaffle($pathSource, $pathRepositoryOffical) {
-        $statusCode = 200;
-        list($extension, $version, $status) = $this->getExtensionInformation($pathSource);
-        $fileNameWaffle = $pathRepositoryOffical."waffle.ini";
-        if (is_file($fileNameWaffle) && $status!="unlisted") {
-            $found = false;
-            $fileData = $this->yellow->toolbox->readFile($fileNameWaffle);
-            $fileDataNew = "";
-            foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
-                if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
-                    if (!empty($matches[1]) && !empty($matches[2]) && preg_match("/^$extension,/i", $matches[2])) {
-                        if (!$found) {
-                            $fileDataNew .= $this->getExtensionWaffle($pathSource);
-                            $found = true;
-                        }
-                        continue;
-                    }
-                }
-                $fileDataNew .= $line;
-            }
-            if (!$found) {
-                $fileDataNew .= $this->getExtensionWaffle($pathSource);
-            }
-            if ($fileData!=$fileDataNew) {
-                if (!$this->yellow->toolbox->createFile($fileNameWaffle, $fileDataNew)) {
-                    $statusCode = 500;
-                    echo "ERROR publishing files: Can't write file '$fileNameWaffle'!\n";
-                }
-            }
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionWaffle file:$fileNameWaffle<br/>\n";
-        }
-        return $statusCode;
-    }
-    
     // Return progress in percent
     public function getProgressPercent($now, $total, $increments, $max)
     {
@@ -324,7 +241,7 @@ class YellowPublish {
     
     // Return extension information from source code
     public function getExtensionInformationFromSource($path) {
-        $extension = $version = $fileNameSource = "";
+        $extension = $version = $published = $fileNameSource = "";
         foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/^.*\.php$/", false, false) as $entry) {
             $fileData = $this->yellow->toolbox->readFile($entry, 4096);
             foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
@@ -335,33 +252,31 @@ class YellowPublish {
                 }
             }
             if (!empty($extension) && !empty($version)) {
+                $published = filemtime($entry);
                 $fileNameSource = $entry;
                 break;
             }
         }
-        if (empty($extension) && empty($version)) {
-            list($extension, $version) = $this->getExtensionInformation($path);
+        if (empty($extension) || empty($version) || empty($published)) {
+            list($extension, $version, $published) = $this->getExtensionInformation($path);
         }
-        return array($extension, $version, $fileNameSource);
+        return array($extension, $version, $published, $fileNameSource);
     }
 
     // Return extension information
     public function getExtensionInformation($path) {
-        $extension = $version = $status = $description = $author = "";
+        $extension = $version = $published = $status = "";
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
         $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                 if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
                 if (lcfirst($matches[1])=="version") $version = $matches[2];
+                if (lcfirst($matches[1])=="published") $published = strtotime($matches[2]);
                 if (lcfirst($matches[1])=="status") $status = $matches[2];
-                if (lcfirst($matches[1])=="description") $description = $matches[2];
-                if (lcfirst($matches[1])=="developer") $author = "$description Developed by $matches[2].";
-                if (lcfirst($matches[1])=="translator") $author = "$description Translated by $matches[2].";
-                if (lcfirst($matches[1])=="designer") $author = "$description Designed by $matches[2].";
             }
         }
-        return array($extension, $version, $status, $description, $author);
+        return array($extension, $version, $published, $status);
     }
     
     // Return extension file names required
@@ -375,7 +290,7 @@ class YellowPublish {
             if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
                 if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
                 if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
-                    list($dummy, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
+                    list($entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 2);
                     if (preg_match("/delete/i", $flags)) continue;
                     if (preg_match("/multi-language/i", $flags) && $this->yellow->lookup->isContentFile($matches[1])) {
                         foreach ($languages as $language) {
@@ -399,21 +314,6 @@ class YellowPublish {
             array_push($languages, $entry);
         }
         return array_unique($languages);
-    }
-    
-    // Return extension waffle
-    public function getExtensionWaffle($path) {
-        $waffle = "";
-        $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
-        $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
-        foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
-            if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
-                if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
-                    $waffle .= "$matches[1]: $matches[2]\n";
-                }
-            }
-        }
-        return $waffle;
     }
 
     // Return extension settings

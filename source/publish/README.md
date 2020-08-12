@@ -1,4 +1,4 @@
-Publish 0.8.25
+Publish 0.8.26
 ==============
 Package and publish extensions.
 
@@ -29,7 +29,7 @@ DownloadUrl: https://github.com/annasvensson/yellow-extension-example/archive/ma
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 Tag: feature
-system/extensions/example.php: Example,example.php,create,update
+system/extensions/example.php: example.php,create,update
 ~~~
 
 Extension settings for a language:
@@ -45,8 +45,8 @@ DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/engl
 Published: 2019-01-24 19:42:13
 Translator: Mark Seuffert
 Tag: language
-system/extensions/english.php: English,english.php,create,update
-system/extensions/english.txt: English,english.txt,create,update
+system/extensions/english.php: english.php,create,update
+system/extensions/english.txt: english.txt,create,update
 ~~~
 
 Extension settings for a theme:
@@ -62,9 +62,9 @@ DownloadUrl: hhttps://github.com/annasvensson/yellow-extension-basic/archive/mas
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: theme
-system/extensions/basic.php: Basic,basic.php,create,update
-system/themes/basic.css: Basic,basic.css,create,update,careful
-system/themes/basic.png: Basic,basic.png,create
+system/extensions/basic.php: basic.php,create,update
+system/themes/basic.css: basic.css,create,update,careful
+system/themes/basic.png: basic.png,create
 ~~~
 
 Publishing extensions at the command line:

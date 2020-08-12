@@ -1,4 +1,4 @@
-Publish 0.8.25
+Publish 0.8.26
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
@@ -29,7 +29,7 @@ DownloadUrl: https://github.com/annasvensson/yellow-extension-example/archive/ma
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 Tag: feature
-system/extensions/example.php: Example,example.php,create,update
+system/extensions/example.php: example.php,create,update
 ~~~
 
 Erweiterungs-Einstellungen für eine Sprache:
@@ -45,8 +45,8 @@ DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/germ
 Published: 2019-01-24 19:42:13
 Translator: David Fehrmann
 Tag: language
-system/extensions/german.php: German,german.php,create,update
-system/extensions/german.txt: German,german.txt,create,update
+system/extensions/german.php: german.php,create,update
+system/extensions/german.txt: german.txt,create,update
 ~~~
 
 Erweiterungs-Einstellungen für ein Thema:
@@ -62,9 +62,9 @@ DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/mast
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: theme
-system/extensions/basic.php: Basic,basic.php,create,update
-system/themes/basic.css: Basic,basic.css,create,update,careful
-system/themes/basic.png: Basic,basic.png,create
+system/extensions/basic.php: basic.php,create,update
+system/themes/basic.css: basic.css,create,update,careful
+system/themes/basic.png: basic.png,create
 ~~~
 
 Erweiterungen in der Befehlszeile veröffentlichen:
