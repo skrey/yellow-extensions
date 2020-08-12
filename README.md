@@ -115,7 +115,6 @@ More features, languages and themes for Datenstrom Yellow.
 
 ## Languages
 
-* [Bengali](https://github.com/datenstrom/yellow-extensions/tree/master/source/bengali): Bengali/বাঙালি with language 'bn'. Translated by Mohammed Nazmul Ferdous.
 * [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Chinese/简体中文 with language 'zh-CN'. Translated by Hyson Lee.
 * [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/source/czech): Czech/Čeština with language 'cs'. Translated by Ufo Vyhuleny.
 * [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/source/danish): Danish/Dansk with language 'da'. Translated by David Garcia.
