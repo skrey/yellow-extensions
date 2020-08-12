@@ -115,23 +115,23 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 
 ## Språk
 
-* [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Chinese/Kinesiskt med språket 'zh-CN'. Översatt av Hyson Lee.
+* [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Kinesiskt/简体中文 med språket 'zh-CN'. Översatt av Hyson Lee.
 * [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/source/czech): Czech/Tjeckiskt med språket 'cs'. Översatt av Ufo Vyhuleny.
-* [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/source/danish): Danish/Danska med språket 'da'. Översatt av David Garcia.
-* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch): Dutch/Holländska (Belgien) med språket 'nl'. Översatt av Robin Vannieuwenhuijse.
-* [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/english): English/Engelska med språket 'en'. Översatt av Mark Seuffert.
-* [French](https://github.com/datenstrom/yellow-extensions/tree/master/source/french): French/Franska med språket 'fr'. Översatt av Juh Nibreh.
-* [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/german): German/Tyska med språket 'de'. Översatt av David Fehrmann.
-* [Hungarian](https://github.com/datenstrom/yellow-extensions/tree/master/source/hungarian): Hungarian/Ungerska med språket 'hu'. Översatt av Ádám Tuba.
-* [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/source/italian): Italian/Italienska med språket 'it'. Översatt av Giovanni Salmeri.
-* [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/source/japanese): Japanese/Japanska med språket 'ja'. Översatt av Yuhko Senuma.
-* [Norwegian](https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian): Norwegian/Norska Bokmål med språket 'nb'. Översatt av Per Arne Solvik.
-* [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/source/polish): Polish/Polska med språket 'pl'. Översatt av Paweł Klockiewicz.
-* [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/source/portuguese): Portuguese/Portugisiska med språket 'pt'. Översatt av Al Garcia.
-* [Russian](https://github.com/datenstrom/yellow-extensions/tree/master/source/russian): Russian/Ryska med språket 'ru'. Översatt av Сергей Ворон.
-* [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/source/slovak): Slovak/Slovakiska med språket 'sk'. Översatt av Ádám Tuba.
-* [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/source/spanish): Spanish/Spanska med språket 'es'. Översatt av Al Garcia, David Garcia.
-* [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish): Swedish/Svenska med språket 'sv'. Översatt av Adam Engel.
+* [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/source/danish): Danska/Dansk med språket 'da'. Översatt av David Garcia.
+* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch): Holländska/Nederlands (België) med språket 'nl'. Översatt av Robin Vannieuwenhuijse.
+* [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/english): Engelska/English med språket 'en'. Översatt av Mark Seuffert.
+* [French](https://github.com/datenstrom/yellow-extensions/tree/master/source/french): Franska/Français med språket 'fr'. Översatt av Juh Nibreh.
+* [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/german): Tyska/Deutsch med språket 'de'. Översatt av David Fehrmann.
+* [Hungarian](https://github.com/datenstrom/yellow-extensions/tree/master/source/hungarian): Ungerska/Magyar med språket 'hu'. Översatt av Ádám Tuba.
+* [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/source/italian): Italienska/Italiano med språket 'it'. Översatt av Giovanni Salmeri.
+* [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/source/japanese): Japanska/日本語 med språket 'ja'. Översatt av Yuhko Senuma.
+* [Norwegian](https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian): Norska/Norsk Bokmål med språket 'nb'. Översatt av Per Arne Solvik.
+* [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/source/polish): Polska/Polski med språket 'pl'. Översatt av Paweł Klockiewicz.
+* [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/source/portuguese): Portugisiska/Português med språket 'pt'. Översatt av Al Garcia.
+* [Russian](https://github.com/datenstrom/yellow-extensions/tree/master/source/russian): Ryska/Русский med språket 'ru'. Översatt av Сергей Ворон.
+* [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/source/slovak): Slovakiska/Slovenčina med språket 'sk'. Översatt av Ádám Tuba.
+* [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/source/spanish): Spanska/Español med språket 'es'. Översatt av Al Garcia, David Garcia.
+* [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish): Svenska/Svenska med språket 'sv'. Översatt av Adam Engel.
 
 ## Teman
 

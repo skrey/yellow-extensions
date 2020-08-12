@@ -12,7 +12,7 @@ Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/ma
 
 Erhöhe zuerst die Versionsnummer in deinem PHP-Code und veröffentliche dann deine Erweiterung in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md). Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php publish` gefolgt von einem Verzeichnis. Das aktualisiert alle notwendigen Dateien. Lade deine Änderungen zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`.
 
-Beim ersten Mal wirst du nach deinem Quellcode-Verzeichnis gefragt. [Forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions) und speichere eine Kopie auf deinen Computer.
+Beim ersten Mal wirst du nach deinem Quellcode-Verzeichnis gefragt. [Forke das offizielle Repository](https://github.com/datenstrom/yellow-extensions).
 
 ## Beispiele
 
@@ -104,7 +104,7 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `create` = Datei erstellen falls nicht vorhanden  
 `update` = Datei überschreiben falls vorhanden  
 `delete` = Datei löschen falls vorhanden  
-`multi-language` = Datei aus dem entsprechenden Unterverzeichnis verwenden  
+`multi-language` = Inhalt aus dem entsprechenden Unterverzeichnis verwenden  
 `optional` = nur falls neue Installation  
 `careful` = nur falls nicht verändert  
 
