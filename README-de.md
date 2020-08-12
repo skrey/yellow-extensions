@@ -115,23 +115,23 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 
 ## Sprachen
 
-* [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Chinesisch/简体中文 mit der Sprache 'zh-CN'. Übersetzt von Hyson Lee.
-* [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/source/czech): Tschechisch/Čeština mit der Sprache 'cs'. Übersetzt von Ufo Vyhuleny.
-* [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/source/danish): Dänisch/Dansk mit der Sprache 'da'. Übersetzt von David Garcia.
-* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch): Niederländisch Nederlands (België) mit der Sprache 'nl'. Übersetzt von Robin Vannieuwenhuijse.
-* [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/english): Englisch/English mit der Sprache 'en'. Übersetzt von Mark Seuffert.
-* [French](https://github.com/datenstrom/yellow-extensions/tree/master/source/french): Französisch/Français mit der Sprache 'fr'. Übersetzt von Juh Nibreh.
-* [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/german): Deutsch/Deutsch mit der Sprache 'de'. Übersetzt von David Fehrmann.
-* [Hungarian](https://github.com/datenstrom/yellow-extensions/tree/master/source/hungarian): Ungarisch/Magyar mit der Sprache 'hu'. Übersetzt von Ádám Tuba.
-* [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/source/italian): Italienisch/Italiano mit der Sprache 'it'. Übersetzt von Giovanni Salmeri.
-* [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/source/japanese): Japanisch/日本語 mit der Sprache 'ja'. Übersetzt von Yuhko Senuma.
-* [Norwegian](https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian): Norwegisch/Norsk Bokmål mit der Sprache 'nb'. Übersetzt von Per Arne Solvik.
-* [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/source/polish): Polnisch/Polski mit der Sprache 'pl'. Übersetzt von Paweł Klockiewicz.
-* [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/source/portuguese): Portugiesisch/Português mit der Sprache 'pt'. Übersetzt von Al Garcia.
-* [Russian](https://github.com/datenstrom/yellow-extensions/tree/master/source/russian): Russisch/Русский mit der Sprache 'ru'. Übersetzt von Сергей Ворон.
-* [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/source/slovak): Slowakisch/Slovenčina mit der Sprache 'sk'. Übersetzt von Ádám Tuba.
-* [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/source/spanish): Spanisch/Español mit der Sprache 'es'. Übersetzt von Al Garcia, David Garcia.
-* [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish): Schwedisch/Svenska mit der Sprache 'sv'. Übersetzt von Adam Engel.
+* [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Chinesisch/简体中文 mit der Sprache "zh-CN". Übersetzt von Hyson Lee.
+* [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/source/czech): Tschechisch/Čeština mit der Sprache "cs". Übersetzt von Ufo Vyhuleny.
+* [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/source/danish): Dänisch/Dansk mit der Sprache "da". Übersetzt von David Garcia.
+* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch): Niederländisch/Nederlands (België) mit der Sprache "nl". Übersetzt von Robin Vannieuwenhuijse.
+* [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/english): Englisch/English mit der Sprache "en". Übersetzt von Mark Seuffert.
+* [French](https://github.com/datenstrom/yellow-extensions/tree/master/source/french): Französisch/Français mit der Sprache "fr". Übersetzt von Juh Nibreh.
+* [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/german): Deutsch/Deutsch mit der Sprache "de". Übersetzt von David Fehrmann.
+* [Hungarian](https://github.com/datenstrom/yellow-extensions/tree/master/source/hungarian): Ungarisch/Magyar mit der Sprache "hu". Übersetzt von Ádám Tuba.
+* [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/source/italian): Italienisch/Italiano mit der Sprache "it". Übersetzt von Giovanni Salmeri.
+* [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/source/japanese): Japanisch/日本語 mit der Sprache "ja". Übersetzt von Yuhko Senuma.
+* [Norwegian](https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian): Norwegisch/Norsk Bokmål mit der Sprache "nb". Übersetzt von Per Arne Solvik.
+* [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/source/polish): Polnisch/Polski mit der Sprache "pl". Übersetzt von Paweł Klockiewicz.
+* [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/source/portuguese): Portugiesisch/Português mit der Sprache "pt". Übersetzt von Al Garcia.
+* [Russian](https://github.com/datenstrom/yellow-extensions/tree/master/source/russian): Russisch/Русский mit der Sprache "ru". Übersetzt von Сергей Ворон.
+* [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/source/slovak): Slowakisch/Slovenčina mit der Sprache "sk". Übersetzt von Ádám Tuba.
+* [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/source/spanish): Spanisch/Español mit der Sprache "es". Übersetzt von Al Garcia, David Garcia.
+* [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish): Schwedisch/Svenska mit der Sprache "sv". Übersetzt von Adam Engel.
 
 ## Themen
 

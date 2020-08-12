@@ -1,6 +1,6 @@
 German 0.8.23
 =============
-German/Deutsch mit der Sprache 'de'.
+German/Deutsch mit der Sprache "de".
 
 <p align="center"><img src="german-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
