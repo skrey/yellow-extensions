@@ -1,4 +1,4 @@
-Danish 0.8.23
+Danish 0.8.24
 =============
 Danish/Dansk med sproget 'da'.
 

@@ -2,7 +2,7 @@
 // Dutch extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch
 
 class YellowDutch {
-    const VERSION = "0.8.23";
+    const VERSION = "0.8.24";
     public $yellow;         // access to API
     
     // Handle initialisation

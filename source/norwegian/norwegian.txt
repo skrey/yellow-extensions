@@ -4,9 +4,16 @@ Language: nb
 LanguageLocale: nb_NO
 LanguageDescription: Norsk Bokmål
 LanguageTranslator: Per Arne Solvik
+BerlinDescription: Berlin is a theme inspired by Dieter Rams.
+BlogDescription: Blog for your website.
 BlogBy: av
 BlogTag: Tagger:
 BlogMore: Les mer…
+BreadcrumbDescription: Breadcrumb navigation.
+BundleDescription: Bundle website files.
+ChineseDescription: Chinese/简体中文 with language 'zh-CN'.
+CommandDescription: Command line of the website.
+ContactDescription: Email contact page.
 ContactName: Navn:
 ContactEmail: Epost:
 ContactMessage: Melding:
@@ -20,6 +27,7 @@ ContactStatusInvalid: Vennligst angi en gyldig epost adresse.
 ContactStatusReview: Vennligst ta bort lenker fra meldingen.
 ContactStatusDone: Din epost er nå sendt. Takk!
 ContactStatusError: Epost kunne ikke sendes, vennligst prøv på nytt senere!
+CoreDescription: Kjernefunksjonaliteten til nettstedet.
 CoreDatePast: i dag, i går, @x dager siden, en måned siden, @x måneder siden, ett år siden, @x år siden, den @x
 CoreDateFuture: snart, i morgen, om @x dager, om 1 måned, om @x måneder, om 1 år, om @x år, den @x
 CoreDateMonths: Januar, Februar, Mars, April, Mai, Juni, Juli, August, September, Oktober, November, Desember
@@ -41,7 +49,13 @@ CoreError434Title: Filen kunne ikke lokaliseres
 CoreError434Text: Filen kunne ikke lokaliseres. [You can create this page](#data-action-edit).
 CoreError500Title: Server feil
 CoreError500Text: Noe gikk galt. [yellow error]
+CzechDescription: Czech/Čeština with language 'cs'.
+DanishDescription: Danish/Dansk with language 'da'.
+DisqusDescription: Show Disqus comments on blog.
+DraftDescription: Support for draft pages.
 DraftStatusEmpty: Ingen utkast funnet.
+DutchDescription: Dutch/Nederlands (België) with language 'nl'.
+EditDescription: Rediger nettstedet ditt i en nettleser.
 EditLoginTitle: Velkommen
 EditLoginEmail: Epost:
 EditLoginPassword: Passord:
@@ -172,7 +186,21 @@ EditMenuHelp: Hjelp
 EditMenuLogout: Logge ut
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+EmojiawesomeDescription: Lots and lots of emoji.
+EnglishDescription: English/English with language 'en'.
+FeedDescription: Feed with recent changes.
+FontawesomeDescription: Icons and symbols.
+FrenchDescription: French/Français with language 'fr'.
+GalleryDescription: Image gallery with popup.
+GermanDescription: German/Deutsch with language 'de'.
+GooglecalendarDescription: Embed Google calendar.
+GooglemapDescription: Embed Google map.
+HelpDescription: Help for your website.
+HighlightDescription: Highlight source code.
+HungarianDescription: Hungarian/Magyar with language 'hu'.
+ImageDescription: Images and thumbnails.
 ImageDefaultAlt: Image without description
+InstagramDescription: Embed Instagram photos.
 InstallTitle: Hei
 InstallExtension: Hva ønsker du å gjøre?
 InstallExtensionWebsite: Nettsted
@@ -188,13 +216,38 @@ InstallBlogText: Detta er en ny bloggside.
 InstallWikiTitle: Wikiside
 InstallWikiText: Dette er en ny wikiside.
 InstallExampleImage: Dette er et eksempelbilde
+ItalianDescription: Italian/Italiano with language 'it'.
+JapaneseDescription: Japanese/日本語 with language 'ja'.
+MarkdownDescription: Text formatting for humans.
+MetaDescription: Meta data for social media sites.
+NorwegianDescription: Norwegian/Norsk Bokmål with language 'nb'.
+ParisDescription: Paris is an elegant theme.
+PolishDescription: Polish/Polski with language 'pl'.
+PortugueseDescription: Portuguese/Português with language 'pt'.
+PreviousnextDescription: Show links to previous/next page.
 PreviousnextPagePrevious: ← Forrige: @title
 PreviousnextPageNext: Nesta: @title →
+PublishDescription: Package and publish extensions.
+RussianDescription: Russian/Русский with language 'ru'.
+SearchDescription: Full-text search.
 SearchResultsNone: Skriv et søkeord.
 SearchResultsEmpty: Kunne ikke finne noe.
 SearchSpecialChanges: De siste endringene
 SearchButton: Søk
+SitemapDescription: Sitemap with all pages.
+SliderDescription: Image gallery with slider.
+SlovakDescription: Slovak/Slovenčina with language 'sk'.
+SoundcloudDescription: Embed Soundcloud audio tracks.
+SpanishDescription: Spanish/Español with language 'es'.
+StockholmDescription: Stockholm is a clean theme.
+SwedishDescription: Swedish/Svenska with language 'sv'.
+TocDescription: Table of contents.
+TrafficDescription: Create traffic analytics from web server log files.
+TwitterDescription: Embed Twitter messages.
+UpdateDescription: Hold nettstedet ditt oppdatert.
+WikiDescription: Wiki for your website.
 WikiModified: Sist oppdatert
 WikiTag: Tagger:
 WikiSpecialPages: Alle sider
 WikiSpecialChanges: Siste endringer
+YoutubeDescription: Embed Youtube videos.

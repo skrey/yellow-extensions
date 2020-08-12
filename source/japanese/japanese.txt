@@ -4,9 +4,16 @@ Language: ja
 LanguageLocale: ja_JP
 LanguageDescription: 日本語
 LanguageTranslator: Yuhko Senuma
+BerlinDescription: Berlin is a theme inspired by Dieter Rams.
+BlogDescription: Blog for your website.
 BlogBy: by
 BlogTag: Tags:
 BlogMore: 全文を表示して見る…
+BreadcrumbDescription: Breadcrumb navigation.
+BundleDescription: Bundle website files.
+ChineseDescription: Chinese/简体中文 with language 'zh-CN'.
+CommandDescription: Command line of the website.
+ContactDescription: Email contact page.
 ContactName: 氏名:
 ContactEmail: 氏名:
 ContactMessage: 送信内容:
@@ -20,6 +27,7 @@ ContactStatusInvalid: 正しいメールアドレスをご入力下さい。
 ContactStatusReview: メッセージからリンクを削除してください。
 ContactStatusDone: メール送信を完了しました！
 ContactStatusError: メールを送信できませんでした。暫くしてからもう一度お試し下さい！
+CoreDescription: Webサイトのコア機能。
 CoreDatePast: today, yesterday, @x days ago, 1 month ago, @x months ago, 1 year ago, @x years ago, on @x
 CoreDateFuture: soon, tomorrow, in @x days, in 1 month, in @x months, in 1 year, in @x years, on @x
 CoreDateMonths: １月, ２月, ３月, ４月, ５月, ６月, ７月, ８月, ９月, １０月, １１月, １２月
@@ -41,7 +49,13 @@ CoreError434Title: File not found
 CoreError434Text: The requested file was not found. [You can create this page](#data-action-edit).
 CoreError500Title: Server error
 CoreError500Text: Something went wrong. [yellow error]
+CzechDescription: Czech/Čeština with language 'cs'.
+DanishDescription: Danish/Dansk with language 'da'.
+DisqusDescription: Show Disqus comments on blog.
+DraftDescription: Support for draft pages.
 DraftStatusEmpty: No drafts found.
+DutchDescription: Dutch/Nederlands (België) with language 'nl'.
+EditDescription: WebブラウザーでWebサイトを編集します。
 EditLoginTitle: ようこそ
 EditLoginEmail: メールアドレス:
 EditLoginPassword: パスワード:
@@ -172,7 +186,21 @@ EditMenuHelp: ヘルプ
 EditMenuLogout: ログアウト
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+EmojiawesomeDescription: Lots and lots of emoji.
+EnglishDescription: English/English with language 'en'.
+FeedDescription: Feed with recent changes.
+FontawesomeDescription: Icons and symbols.
+FrenchDescription: French/Français with language 'fr'.
+GalleryDescription: Image gallery with popup.
+GermanDescription: German/Deutsch with language 'de'.
+GooglecalendarDescription: Embed Google calendar.
+GooglemapDescription: Embed Google map.
+HelpDescription: Help for your website.
+HighlightDescription: Highlight source code.
+HungarianDescription: Hungarian/Magyar with language 'hu'.
+ImageDescription: Images and thumbnails.
 ImageDefaultAlt: 説明のない画像
+InstagramDescription: Embed Instagram photos.
 InstallTitle: こんにちは
 InstallExtension: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
 InstallExtensionWebsite: ウェブ
@@ -188,13 +216,38 @@ InstallBlogText: This is a new blog page.
 InstallWikiTitle: Wiki page
 InstallWikiText: This is a new wiki page.
 InstallExampleImage: This is an example image
+ItalianDescription: Italian/Italiano with language 'it'.
+JapaneseDescription: Japanese/日本語 with language 'ja'.
+MarkdownDescription: Text formatting for humans.
+MetaDescription: Meta data for social media sites.
+NorwegianDescription: Norwegian/Norsk Bokmål with language 'nb'.
+ParisDescription: Paris is an elegant theme.
+PolishDescription: Polish/Polski with language 'pl'.
+PortugueseDescription: Portuguese/Português with language 'pt'.
+PreviousnextDescription: Show links to previous/next page.
 PreviousnextPagePrevious: ← 前のページへ : @title
 PreviousnextPageNext: 次のページへ : @title →
+PublishDescription: Package and publish extensions.
+RussianDescription: Russian/Русский with language 'ru'.
+SearchDescription: Full-text search.
 SearchResultsNone: 検索キーワードをご入力下さい。
 SearchResultsEmpty: 検索結果が見つかりません。
 SearchSpecialChanges: 最近の更新
 SearchButton: 検索
+SitemapDescription: Sitemap with all pages.
+SliderDescription: Image gallery with slider.
+SlovakDescription: Slovak/Slovenčina with language 'sk'.
+SoundcloudDescription: Embed Soundcloud audio tracks.
+SpanishDescription: Spanish/Español with language 'es'.
+StockholmDescription: Stockholm is a clean theme.
+SwedishDescription: Swedish/Svenska with language 'sv'.
+TocDescription: Table of contents.
+TrafficDescription: Create traffic analytics from web server log files.
+TwitterDescription: Embed Twitter messages.
+UpdateDescription: ウェブサイトを最新の状態に保ちます。
+WikiDescription: Wiki for your website.
 WikiModified: 最終更新日
 WikiTag: Tags:
 WikiSpecialPages: 全てのページ
 WikiSpecialChanges: 最近の更新状況
+YoutubeDescription: Embed Youtube videos.

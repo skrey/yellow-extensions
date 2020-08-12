@@ -4,9 +4,16 @@ Language: ru
 LanguageLocale: ru_RU
 LanguageDescription: Русский
 LanguageTranslator: Сергей Ворон
+BerlinDescription: Berlin is a theme inspired by Dieter Rams.
+BlogDescription: Blog for your website.
 BlogBy: Автор
 BlogTag: Тэги:
 BlogMore: Читать далее…
+BreadcrumbDescription: Breadcrumb navigation.
+BundleDescription: Bundle website files.
+ChineseDescription: Chinese/简体中文 with language 'zh-CN'.
+CommandDescription: Command line of the website.
+ContactDescription: Email contact page.
 ContactName: Имя:
 ContactEmail: Email:
 ContactMessage: Сообщение:
@@ -20,6 +27,7 @@ ContactStatusInvalid: Пожалуйста, укажите правильный 
 ContactStatusReview: Пожалуйста, удалите ссылки из сообщения.
 ContactStatusDone: Ваше письмо отправлено. Спасибо!
 ContactStatusError: Письмо не может быть отправлено, попробуйте еще раз позже!
+CoreDescription: Основные функции веб-сайта.
 CoreDatePast: сегодня, вчера, @x дней назад, 1 месяц назад, @x месяцев назад, 1 год назад, @x лет назад, на @x
 CoreDateFuture: скоро, завтра, через @x дней, через 1 месяц, через @x месяцев, через 1 год, через @x лет, на @x
 CoreDateMonths: январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь
@@ -41,7 +49,13 @@ CoreError434Title: Файл не найден
 CoreError434Text: Запрашиваемый файл не найден. [Вы можете создать эту страницу](#data-action-edit).
 CoreError500Title: Ошибка сервера
 CoreError500Text: Что-то пошло не так. [yellow error]
+CzechDescription: Czech/Čeština with language 'cs'.
+DanishDescription: Danish/Dansk with language 'da'.
+DisqusDescription: Show Disqus comments on blog.
+DraftDescription: Support for draft pages.
 DraftStatusEmpty: No drafts found.
+DutchDescription: Dutch/Nederlands (België) with language 'nl'.
+EditDescription: Отредактируйте свой сайт в веб-браузере.
 EditLoginTitle: Добро пожаловать
 EditLoginEmail: Email:
 EditLoginPassword: Пароль:
@@ -172,7 +186,21 @@ EditMenuHelp: Помощь
 EditMenuLogout: Выход
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+EmojiawesomeDescription: Lots and lots of emoji.
+EnglishDescription: English/English with language 'en'.
+FeedDescription: Feed with recent changes.
+FontawesomeDescription: Icons and symbols.
+FrenchDescription: French/Français with language 'fr'.
+GalleryDescription: Image gallery with popup.
+GermanDescription: German/Deutsch with language 'de'.
+GooglecalendarDescription: Embed Google calendar.
+GooglemapDescription: Embed Google map.
+HelpDescription: Help for your website.
+HighlightDescription: Highlight source code.
+HungarianDescription: Hungarian/Magyar with language 'hu'.
+ImageDescription: Images and thumbnails.
 ImageDefaultAlt: Изображение без описания
+InstagramDescription: Embed Instagram photos.
 InstallTitle: Здравствуйте
 InstallExtension: Что вы хотите сделать?
 InstallExtensionWebsite: Веб-сайт
@@ -188,13 +216,38 @@ InstallBlogText: Это новая страница блога.
 InstallWikiTitle: Wiki страница
 InstallWikiText: Это новая wiki страница.
 InstallExampleImage: Это пример изображения
+ItalianDescription: Italian/Italiano with language 'it'.
+JapaneseDescription: Japanese/日本語 with language 'ja'.
+MarkdownDescription: Text formatting for humans.
+MetaDescription: Meta data for social media sites.
+NorwegianDescription: Norwegian/Norsk Bokmål with language 'nb'.
+ParisDescription: Paris is an elegant theme.
+PolishDescription: Polish/Polski with language 'pl'.
+PortugueseDescription: Portuguese/Português with language 'pt'.
+PreviousnextDescription: Show links to previous/next page.
 PreviousnextPagePrevious: ← Назад: @title
 PreviousnextPageNext: Далее: @title →
+PublishDescription: Package and publish extensions.
+RussianDescription: Russian/Русский with language 'ru'.
+SearchDescription: Full-text search.
 SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
 SearchSpecialChanges: Последние изменения
 SearchButton: Искать
+SitemapDescription: Sitemap with all pages.
+SliderDescription: Image gallery with slider.
+SlovakDescription: Slovak/Slovenčina with language 'sk'.
+SoundcloudDescription: Embed Soundcloud audio tracks.
+SpanishDescription: Spanish/Español with language 'es'.
+StockholmDescription: Stockholm is a clean theme.
+SwedishDescription: Swedish/Svenska with language 'sv'.
+TocDescription: Table of contents.
+TrafficDescription: Create traffic analytics from web server log files.
+TwitterDescription: Embed Twitter messages.
+UpdateDescription: Держите свой сайт в актуальном
+WikiDescription: Wiki for your website.
 WikiModified: Последнее обновление
 WikiTag: Тэги:
 WikiSpecialPages: Все страницы
 WikiSpecialChanges: Последние изменения
+YoutubeDescription: Embed Youtube videos.

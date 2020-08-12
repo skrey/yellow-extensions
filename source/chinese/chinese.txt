@@ -4,9 +4,16 @@ Language: zh-CN
 LanguageLocale: zh_CN
 LanguageDescription: 简体中文
 LanguageTranslator: Hyson Lee
+BerlinDescription: Berlin is a theme inspired by Dieter Rams.
+BlogDescription: Blog for your website.
 BlogBy: 作者:
 BlogTag: 标签:
 BlogMore: 阅读全文…
+BreadcrumbDescription: Breadcrumb navigation.
+BundleDescription: Bundle website files.
+ChineseDescription: Chinese/简体中文 with language 'zh-CN'.
+CommandDescription: Command line of the website.
+ContactDescription: Email contact page.
 ContactName: 姓名:
 ContactEmail: 邮箱:
 ContactMessage: 信息:
@@ -20,6 +27,7 @@ ContactStatusInvalid: 请输入一个有效的e-mail地址
 ContactStatusReview: 请从邮件中删除链接
 ContactStatusDone: 您的信息已发送。非常感谢！
 ContactStatusError: 信息无法发送，请稍后再试！
+CoreDescription: 网站的核心功能。
 CoreDatePast: 今天, 昨天, @x 天前, 1 个月前, @x 个月前, 1 年前, @x 年前, 在 @x 前
 CoreDateFuture: 很快, 明天, 在 @x 天后, 在 1 月后, 在 @x 月后, 在 1 年后, 在 @x 年后, 在 @x 后
 CoreDateMonths: 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月
@@ -41,7 +49,13 @@ CoreError434Title: 文件未找到
 CoreError434Text: 请求的文件未找到。[你可以创建这个页面](#data-action-edit).
 CoreError500Title: 服务器错误
 CoreError500Text: 出错了. [yellow error]
+CzechDescription: Czech/Čeština with language 'cs'.
+DanishDescription: Danish/Dansk with language 'da'.
+DisqusDescription: Show Disqus comments on blog.
+DraftDescription: Support for draft pages.
 DraftStatusEmpty: 未找到草稿。
+DutchDescription: Dutch/Nederlands (België) with language 'nl'.
+EditDescription: 在网络浏览器中编辑您的网站。
 EditLoginTitle: 欢迎
 EditLoginEmail: 邮箱:
 EditLoginPassword: 密码:
@@ -172,7 +186,21 @@ EditMenuHelp: 帮助
 EditMenuLogout: 登出
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+EmojiawesomeDescription: Lots and lots of emoji.
+EnglishDescription: English/English with language 'en'.
+FeedDescription: Feed with recent changes.
+FontawesomeDescription: Icons and symbols.
+FrenchDescription: French/Français with language 'fr'.
+GalleryDescription: Image gallery with popup.
+GermanDescription: German/Deutsch with language 'de'.
+GooglecalendarDescription: Embed Google calendar.
+GooglemapDescription: Embed Google map.
+HelpDescription: Help for your website.
+HighlightDescription: Highlight source code.
+HungarianDescription: Hungarian/Magyar with language 'hu'.
+ImageDescription: Images and thumbnails.
 ImageDefaultAlt: 图片无描述
+InstagramDescription: Embed Instagram photos.
 InstallTitle: 你好
 InstallExtension: 打算用来做什么呢？
 InstallExtensionWebsite: 网站
@@ -188,13 +216,38 @@ InstallBlogText: 这是一个新的博客页面。
 InstallWikiTitle: 维基页面
 InstallWikiText: 这是一个新的维基页面。
 InstallExampleImage: 这是一个范例图片
+ItalianDescription: Italian/Italiano with language 'it'.
+JapaneseDescription: Japanese/日本語 with language 'ja'.
+MarkdownDescription: Text formatting for humans.
+MetaDescription: Meta data for social media sites.
+NorwegianDescription: Norwegian/Norsk Bokmål with language 'nb'.
+ParisDescription: Paris is an elegant theme.
+PolishDescription: Polish/Polski with language 'pl'.
+PortugueseDescription: Portuguese/Português with language 'pt'.
+PreviousnextDescription: Show links to previous/next page.
 PreviousnextPagePrevious: ← 上一页 @title
 PreviousnextPageNext: 下一页 @title →
+PublishDescription: Package and publish extensions.
+RussianDescription: Russian/Русский with language 'ru'.
+SearchDescription: Full-text search.
 SearchResultsNone: 请输入搜索关键字
 SearchResultsEmpty: 搜索查无结果
 SearchSpecialChanges: 最近更改
 SearchButton: 搜索
+SitemapDescription: Sitemap with all pages.
+SliderDescription: Image gallery with slider.
+SlovakDescription: Slovak/Slovenčina with language 'sk'.
+SoundcloudDescription: Embed Soundcloud audio tracks.
+SpanishDescription: Spanish/Español with language 'es'.
+StockholmDescription: Stockholm is a clean theme.
+SwedishDescription: Swedish/Svenska with language 'sv'.
+TocDescription: Table of contents.
+TrafficDescription: Create traffic analytics from web server log files.
+TwitterDescription: Embed Twitter messages.
+UpdateDescription: 使您的网站保持最新。
+WikiDescription: Wiki for your website.
 WikiModified: 最后更新
 WikiTag: 标签:
 WikiSpecialPages: 所有页面
 WikiSpecialChanges: 最近更改
+YoutubeDescription: Embed Youtube videos.

@@ -4,9 +4,16 @@ Language: nl
 LanguageLocale: nl_BE
 LanguageDescription: Nederlands (België)
 LanguageTranslator: Robin Vannieuwenhuijse
+BerlinDescription: Berlin is a theme inspired by Dieter Rams.
+BlogDescription: Blog for your website.
 BlogBy: door
 BlogTag: Labels:
 BlogMore: Lees meer…
+BreadcrumbDescription: Breadcrumb navigation.
+BundleDescription: Bundle website files.
+ChineseDescription: Chinese/简体中文 with language 'zh-CN'.
+CommandDescription: Command line of the website.
+ContactDescription: Email contact page.
 ContactName: Naam:
 ContactEmail: Email:
 ContactMessage: Bericht:
@@ -20,6 +27,7 @@ ContactStatusInvalid: Vul een geldig email.
 ContactStatusReview: Please remove links from the message.
 ContactStatusDone: Je email is succesvol verzonden. Bedankt!
 ContactStatusError: E-mail kon niet worden verzonden, probeer het later opnieuw!
+CoreDescription: Kernfunctionaliteit van de website.
 CoreDatePast: vandaag, gisteren, @x dagen geleden, 1 maand geleden, @x maanden geleden, 1 jaar geleden, @x jaar geleden, op @x
 CoreDateFuture: binnenkort, morgen, binnen @x dagen, binnen 1 maand, binnen @x maanden, binnen 1 jaar, binnen @x jaar, op @x
 CoreDateMonths: januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december
@@ -41,7 +49,13 @@ CoreError434Title: File not found
 CoreError434Text: The requested file was not found. [You can create this page](#data-action-edit).
 CoreError500Title: Server error
 CoreError500Text: Something went wrong. [yellow error]
+CzechDescription: Czech/Čeština with language 'cs'.
+DanishDescription: Danish/Dansk with language 'da'.
+DisqusDescription: Show Disqus comments on blog.
+DraftDescription: Support for draft pages.
 DraftStatusEmpty: No drafts found.
+DutchDescription: Dutch/Nederlands (België) with language 'nl'.
+EditDescription: Bewerk uw website in een webbrowser.
 EditLoginTitle: Welkom
 EditLoginEmail: E-mail:
 EditLoginPassword: Wachtwoord:
@@ -172,7 +186,21 @@ EditMenuHelp: Help
 EditMenuLogout: Afmelden
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+EmojiawesomeDescription: Lots and lots of emoji.
+EnglishDescription: English/English with language 'en'.
+FeedDescription: Feed with recent changes.
+FontawesomeDescription: Icons and symbols.
+FrenchDescription: French/Français with language 'fr'.
+GalleryDescription: Image gallery with popup.
+GermanDescription: German/Deutsch with language 'de'.
+GooglecalendarDescription: Embed Google calendar.
+GooglemapDescription: Embed Google map.
+HelpDescription: Help for your website.
+HighlightDescription: Highlight source code.
+HungarianDescription: Hungarian/Magyar with language 'hu'.
+ImageDescription: Images and thumbnails.
 ImageDefaultAlt: Image without description
+InstagramDescription: Embed Instagram photos.
 InstallTitle: Hallo
 InstallExtension: Wat wil je doen?
 InstallExtensionWebsite: Website
@@ -188,13 +216,38 @@ InstallBlogText: This is a new blog page.
 InstallWikiTitle: Wiki page
 InstallWikiText: This is a new wiki page.
 InstallExampleImage: This is an example image
+ItalianDescription: Italian/Italiano with language 'it'.
+JapaneseDescription: Japanese/日本語 with language 'ja'.
+MarkdownDescription: Text formatting for humans.
+MetaDescription: Meta data for social media sites.
+NorwegianDescription: Norwegian/Norsk Bokmål with language 'nb'.
+ParisDescription: Paris is an elegant theme.
+PolishDescription: Polish/Polski with language 'pl'.
+PortugueseDescription: Portuguese/Português with language 'pt'.
+PreviousnextDescription: Show links to previous/next page.
 PreviousnextPagePrevious: ← Vorige: @title
 PreviousnextPageNext: Volgende: @title →
+PublishDescription: Package and publish extensions.
+RussianDescription: Russian/Русский with language 'ru'.
+SearchDescription: Full-text search.
 SearchResultsNone: Voer een zoekterm in.
 SearchResultsEmpty: Geen resultaten gevonden.
 SearchSpecialChanges: Recente wijzigingen
 SearchButton: Zoek
+SitemapDescription: Sitemap with all pages.
+SliderDescription: Image gallery with slider.
+SlovakDescription: Slovak/Slovenčina with language 'sk'.
+SoundcloudDescription: Embed Soundcloud audio tracks.
+SpanishDescription: Spanish/Español with language 'es'.
+StockholmDescription: Stockholm is a clean theme.
+SwedishDescription: Swedish/Svenska with language 'sv'.
+TocDescription: Table of contents.
+TrafficDescription: Create traffic analytics from web server log files.
+TwitterDescription: Embed Twitter messages.
+UpdateDescription: Houd uw website up-to-date.
+WikiDescription: Wiki for your website.
 WikiModified: Laatst geupdate op
 WikiTag: Labels:
 WikiSpecialPages: Alle pagina's
 WikiSpecialChanges: Recente wijzigingen
+YoutubeDescription: Embed Youtube videos.
