@@ -13,7 +13,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog): 
   Blogg för din webbplats. Utvecklad av Datenstrom.
 * [Breadcrumb](https://github.com/datenstrom/yellow-extensions/tree/master/source/breadcrumb): 
-  Breadcrumb navigation. Utvecklad av Datenstrom.
+  Brödcrumbnavigering. Utvecklad av Datenstrom.
 * [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/source/bundle): 
   Bundla webbplatsfiler. Utvecklad av Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/source/command): 
@@ -37,7 +37,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome): 
   Massor och massor av emoji. Utvecklad av Datenstrom.
 * [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/source/feed): 
-  Feed med senaste ändringarna.. Utvecklad av Datenstrom.
+  Feed med senaste ändringarna. Utvecklad av Datenstrom.
 * [Filelist](https://github.com/GiovanniSalmeri/yellow-filelist):
   Visa en lista över filer för nedladdning. Utvecklad av Giovanni Salmeri.
 * [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome): 

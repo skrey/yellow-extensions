@@ -4,9 +4,16 @@ Language: sv
 LanguageLocale: sv_SE
 LanguageDescription: Svenska
 LanguageTranslator: Adam Engel
+BerlinDescription: Berlin är ett tema inspirerat av Dieter Rams.
+BlogDescription: Blogg för din webbplats.
 BlogBy: av
 BlogTag: Taggar:
 BlogMore: Läs mer…
+BreadcrumbDescription: Brödcrumbnavigering..
+BundleDescription: Bundla webbplatsfiler.
+ChineseDescription: Kinesiskt/简体中文 med språket "zh-CN".
+CommandDescription: Webbplatsens kommandorad.
+ContactDescription: E-post kontaktsida.
 ContactName: Namn:
 ContactEmail: Email:
 ContactMessage: Meddelande:
@@ -20,6 +27,7 @@ ContactStatusInvalid: Vänligen ange en giltig emailadress.
 ContactStatusReview: Vänligen ta bort länkar från meddelandet.
 ContactStatusDone: Ditt mail har nu skickats. Tack!
 ContactStatusError: Mailet kunde inte skickas, vänligen försök igen senare!
+CoreDescription: Webbplatsens kärnfunktion.
 CoreDatePast: idag, igår, @x dagar sedan, en månad sedan, @x månader sedan, ett år sedan, @x år sedan, den @x
 CoreDateFuture: snart, imorgon, om @x dagar, om 1 månad, om @x månader, om 1 år, om @x år, den @x
 CoreDateMonths: Januari, Februari, Mars, April, Maj, Juni, Juli, Augusti, September, Oktober, November, December
@@ -41,7 +49,13 @@ CoreError434Title: File not found
 CoreError434Text: The requested file was not found. [You can create this page](#data-action-edit).
 CoreError500Title: Server error
 CoreError500Text: Something went wrong. [yellow error]
+CzechDescription: Czech/Tjeckiskt med språket "cs".
+DanishDescription: Danska/Dansk med språket "da".
+DisqusDescription: Visa Disqus-kommentarer på bloggen.
+DraftDescription: Stöd för draftsidor.
 DraftStatusEmpty: No drafts found.
+DutchDescription: Holländska/Nederlands (België) med språket "nl".
+EditDescription: Redigera din webbplats i en webbläsare.
 EditLoginTitle: Välkommen
 EditLoginEmail: Email:
 EditLoginPassword: Lösenord:
@@ -172,7 +186,21 @@ EditMenuHelp: Hjälp
 EditMenuLogout: Logga ut
 EditYellowUrl: https://datenstrom.se/yellow/
 EditYellowHelpUrl: https://datenstrom.se/yellow/help/
+EmojiawesomeDescription: Massor och massor av emoji.
+EnglishDescription: Engelska/English med språket "en".
+FeedDescription: Feed med senaste ändringarna.
+FontawesomeDescription: Ikoner och symboler.
+FrenchDescription: Franska/Français med språket "fr".
+GalleryDescription: Bildgalleri med popup.
+GermanDescription: Tyska/Deutsch med språket "de".
+GooglecalendarDescription: Bädda in Google-kalender.
+GooglemapDescription: Bädda in Google-karta.
+HelpDescription: Hjälp för din webbplats.
+HighlightDescription: Markera källkod.
+HungarianDescription: Ungerska/Magyar med språket "hu".
+ImageDescription: Bilder och miniatyrbilder.
 ImageDefaultAlt: Bild utan beskrivning
+InstagramDescription: Bädda in Instagram-foton.
 InstallTitle: Hej
 InstallExtension: Vad vill du göra?
 InstallExtensionWebsite: Webbsida
@@ -188,13 +216,38 @@ InstallBlogText: Detta är en ny bloggsida.
 InstallWikiTitle: Wikisida
 InstallWikiText: Detta är en ny wikisida.
 InstallExampleImage: Detta är en exempelbild
+ItalianDescription: Italienska/Italiano med språket "it".
+JapaneseDescription: Japanska/日本語 med språket "ja".
+MarkdownDescription: Textformatering för människor.
+MetaDescription: Metadata för webbplatser med sociala medier.
+NorwegianDescription: Norska/Norsk Bokmål med språket "nb".
+ParisDescription: Paris är ett elegant tema.
+PolishDescription: Polska/Polski med språket "pl".
+PortugueseDescription: Portugisiska/Português med språket "pt".
+PreviousnextDescription: Visa länkar till föregående/nästa sida.
 PreviousnextPagePrevious: ← Tidigare: @title
 PreviousnextPageNext: Nästa: @title →
+PublishDescription: Paketera och publicera tillägg.
+RussianDescription: Ryska/Русский med språket "ru".
+SearchDescription: Heltekstsökning.
 SearchResultsNone: Skriv ett sökord.
 SearchResultsEmpty: Inga resultat funna.
 SearchSpecialChanges: Senaste ändringarna
 SearchButton: Sök
+SitemapDescription: Sitemap med alla sidor.
+SliderDescription: Bildgalleri med reglaget.
+SlovakDescription: Slovakiska/Slovenčina med språket "sk".
+SoundcloudDescription: Bädda in Soundcloud-ljudspår.
+SpanishDescription: Spanska/Español med språket "es".
+StockholmDescription: Stockholm är ett rent tema.
+SwedishDescription: Svenska/Svenska med språket "sv".
+TocDescription: Innehållsförteckning.
+TrafficDescription: Skapa trafikanalys från webbserverns loggfiler.
+TwitterDescription: Bädda in Twitter-meddelanden.
+UpdateDescription: Håll din webbplats uppdaterad.
+WikiDescription: Wiki för din webbplats.
 WikiModified: Senast uppdaterad den
 WikiTag: Taggar:
 WikiSpecialPages: Alla sidor
 WikiSpecialChanges: Senaste ändringarna
+YoutubeDescription: Bädda in Youtube-videor
