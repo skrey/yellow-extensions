@@ -136,7 +136,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 ## Themen
 
 * [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin/README-de.md): 
-  Berlin ist ein schönes Thema, inspiriert von Dieter Rams. Entworfen von Datenstrom.
+  Berlin ist ein Thema inspiriert von Dieter Rams. Entworfen von Datenstrom.
 * [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris/README-de.md): 
   Paris ist ein elegantes Thema. Entworfen von Datenstrom.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm/README-de.md): 
