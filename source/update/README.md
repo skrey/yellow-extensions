@@ -82,8 +82,6 @@ The following settings can be configured in file `system/settings/system.ini`:
 `UpdateExtensionFile` = file with extension settings  
 `UpdateCurrentFile` = file with current update settings  
 `UpdateLatestFile` = file with latest update settings  
-`UpdateVersionFile` = version information of extensions  
-`UpdateWaffleFile` = file information of extensions  
 `UpdateNotification` = pending notifications  
 
 The log file can be found in file `system/extensions/yellow.log`.
