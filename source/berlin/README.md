@@ -4,10 +4,6 @@ Berlin is a theme inspired by Dieter Rams.
 
 <p align="center"><img src="berlin-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## Installation
-
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/berlin.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
-
 ## Settings
 
 The following settings can be configured in file `system/settings/system.ini`:
@@ -17,7 +13,11 @@ The following settings can be configured in file `system/settings/system.ini`:
 The following files can be configured:
 
 `system/themes/berlin.css` = CSS file of the theme  
-`system/themes/berlin.png` = favicon of the theme  
+`system/themes/berlin.png` = icon of the theme  
+
+## Installation
+
+[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/berlin.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Designer
 
