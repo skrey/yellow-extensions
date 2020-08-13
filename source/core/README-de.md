@@ -145,7 +145,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Email` = E-Mail des Webmasters  
 `Language` = Standard-Sprache  
 `Layout` = Standard-Layout  
-`Theme` = Standard-Theme  
+`Theme` = Standard-Thema  
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
 `CoreStaticUrl` = URL der statischen Webseite  

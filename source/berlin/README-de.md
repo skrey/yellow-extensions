@@ -8,6 +8,17 @@ Berlin ist ein Thema inspiriert von Dieter Rams.
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/berlin.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+
+`Theme` = Standard-Thema  
+
+Die folgenden Dateien können angepasst werden:
+
+`system/themes/berlin.css` = CSS-Datei des Themas  
+`system/themes/berlin.png` = Favicon des Themas  
+
 ## Designer
 
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).

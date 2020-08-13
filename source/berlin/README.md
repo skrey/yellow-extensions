@@ -8,6 +8,17 @@ Berlin is a theme inspired by Dieter Rams.
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/berlin.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
+## Settings
+
+The following settings can be configured in file `system/settings/system.ini`:
+
+`Theme` = default theme  
+
+The following files can be configured:
+
+`system/themes/berlin.css` = CSS file of the theme  
+`system/themes/berlin.png` = favicon of the theme  
+
 ## Designer
 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
