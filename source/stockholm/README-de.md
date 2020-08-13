@@ -4,6 +4,13 @@ Stockholm ist ein schlichtes Thema.
 
 <p align="center"><img src="stockholm-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
+## Einstellungen
+
+Die folgenden Dateien können angepasst werden:
+
+`system/themes/stockholm.css` = CSS-Datei des Themas  
+`system/themes/stockholm.png` = Icon des Themas  
+
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/stockholm.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.

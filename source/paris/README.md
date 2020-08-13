@@ -4,6 +4,15 @@ Paris is an elegant theme.
 
 <p align="center"><img src="paris-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
+## Settings
+
+The following files can be configured:
+
+`system/themes/paris.css` = CSS file of the theme  
+`system/themes/paris.png` = icon of the theme  
+`system/themes/paris-logo.png` = image shown in the header  
+`system/themes/paris-quote.png` = image shown in quotes  
+
 ## Installation
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/paris.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.

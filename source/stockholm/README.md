@@ -4,6 +4,13 @@ Stockholm is a clean theme.
 
 <p align="center"><img src="stockholm-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
+## Settings
+
+The following files can be configured:
+
+`system/themes/stockholm.css` = CSS file of the theme  
+`system/themes/stockholm.png` = icon of the theme  
+
 ## Installation
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/stockholm.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.

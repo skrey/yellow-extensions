@@ -6,10 +6,6 @@ Berlin is a theme inspired by Dieter Rams.
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
-
-`Theme` = default theme  
-
 The following files can be configured:
 
 `system/themes/berlin.css` = CSS file of the theme  

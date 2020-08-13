@@ -6,10 +6,6 @@ Berlin ist ein Thema inspiriert von Dieter Rams.
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
-
-`Theme` = Standard-Thema  
-
 Die folgenden Dateien können angepasst werden:
 
 `system/themes/berlin.css` = CSS-Datei des Themas  
