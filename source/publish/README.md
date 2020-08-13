@@ -58,7 +58,7 @@ Extension: Basic
 Version: 0.8.3
 Description: Example theme for designers.
 HelpUrl: https://github.com/annasvensson/yellow-extension-basic
-DownloadUrl: hhttps://github.com/annasvensson/yellow-extension-basic/archive/master.zip
+DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/master.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: example, theme
