@@ -1,4 +1,4 @@
-Publish 0.8.26
+Publish 0.8.27
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
@@ -28,7 +28,7 @@ HelpUrl: https://github.com/annasvensson/yellow-extension-example
 DownloadUrl: https://github.com/annasvensson/yellow-extension-example/archive/master.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
-Tag: feature
+Tag: example, feature
 system/extensions/example.php: example.php,create,update
 ~~~
 
@@ -61,7 +61,7 @@ HelpUrl: https://github.com/annasvensson/yellow-extension-basic
 DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/master.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
-Tag: theme
+Tag: example, theme
 system/extensions/basic.php: basic.php,create,update
 system/themes/basic.css: basic.css,create,update,careful
 system/themes/basic.png: basic.png,create
