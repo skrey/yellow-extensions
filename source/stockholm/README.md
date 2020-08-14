@@ -6,7 +6,7 @@ Stockholm is a clean theme.
 
 ## Settings
 
-The following files can be configured:
+The following files can be customised:
 
 `system/themes/stockholm.css` = CSS file of the theme  
 `system/themes/stockholm.png` = icon of the theme  

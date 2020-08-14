@@ -6,7 +6,7 @@ Paris is an elegant theme.
 
 ## Settings
 
-The following files can be configured:
+The following files can be customised:
 
 `system/themes/paris.css` = CSS file of the theme  
 `system/themes/paris.png` = icon of the theme  

@@ -62,7 +62,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `SearchPaginationLimit` = number of entries to show per page  
 `SearchPageLength` = maximum page length to show  
 
-The following files can be configured:
+The following files can be customised:
 
 `system/layouts/search.html` = layout file for search  
 

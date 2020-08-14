@@ -50,7 +50,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 
 `DraftPaginationLimit` = number of entries to show per page  
 
-The following files can be configured:
+The following files can be customised:
 
 `system/layouts/draftpages.html` = layout file with overview of draft pages  
 

@@ -6,7 +6,7 @@ Berlin is a theme inspired by Dieter Rams.
 
 ## Settings
 
-The following files can be configured:
+The following files can be customised:
 
 `system/themes/berlin.css` = CSS file of the theme  
 `system/themes/berlin.png` = icon of the theme  

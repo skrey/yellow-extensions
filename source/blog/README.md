@@ -94,7 +94,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `BlogPagesMax` = number of pages to show per shortcut  
 `BlogPaginationLimit` = number of entries to show per page  
 
-The following files can be configured:
+The following files can be customised:
 
 `content/shared/page-new-blog.md` = content file for new blog page  
 `system/layouts/blogpages.html` = layout file for main blog page  

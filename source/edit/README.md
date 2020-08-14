@@ -163,7 +163,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `unchanged` = user has not confirmed pending changes  
 `removed` = user has not confirmed pending deletion  
 
-<a id="settings-files"></a>The following files can be configured:
+<a id="settings-files"></a>The following files can be customised:
 
 `content/shared/page-new-default.md` = content file for new page  
 `content/shared/page-new-blog.md` = content file for new blog page  

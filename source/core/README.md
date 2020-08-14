@@ -161,7 +161,7 @@ The following settings can be configured at the top of a page:
 `unlisted` = page is not visible, but can be accessed with the correct link  
 `shared` = page is not available, but can be included in other pages  
 
-<a id="settings-files"></a>The following files can be configured:
+<a id="settings-files"></a>The following files can be customised:
 
 `system/layouts/default.html` = layout file for default page  
 `system/layouts/header.html` = layout file for default HTML header  

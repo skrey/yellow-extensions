@@ -93,7 +93,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `WikiPagesMax` = number of pages to show per shortcut  
 `WikiPaginationLimit` = number of entries to show per page  
 
-The following files can be configured:
+The following files can be customised:
 
 `content/shared/page-new-wiki.md` = content file for new wiki page  
 `system/layouts/wikipages.html` = layout file for main wiki page  
