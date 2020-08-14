@@ -6,7 +6,7 @@ Erweiterungen verpacken und veröffentlichen.
 
 ## Wie man eine Erweiterung verpackt
 
-Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) kümmert sich darum Webseiten zu aktualisiert. Deine Erweiterung kann Teil dieses Prozesses werden. Schau dir die [Example-Erweiterung](https://github.com/schulle4u/yellow-extension-helloworld) und [Basic-Erweiterung](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen dir welche Dateien und Einstellungen erforderlich sind. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht.
+Die [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) kümmert sich darum Webseiten zu aktualisiert. Deine Erweiterung kann Teil dieses Prozesses werden. Schau dir die [Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld) und das [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen dir welche Dateien und Einstellungen erforderlich sind. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht.
 
 ## Wie man eine Erweiterung veröffentlicht
 
@@ -21,15 +21,18 @@ Erweiterungs-Einstellungen für eine Funktion:
 ~~~
 # Datenstrom Yellow extension settings
 
-Extension: Example
-Version: 0.8.3
+Extension: Helloworld
+Version: 0.8.15
 Description: Example feature for developers.
-HelpUrl: https://github.com/annasvensson/yellow-extension-example
-DownloadUrl: https://github.com/annasvensson/yellow-extension-example/archive/master.zip
+HelpUrl: https://github.com/annasvensson/yellow-extension-helloworld
+DownloadUrl: https://github.com/annasvensson/yellow-extension-helloworld/archive/master.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 Tag: example, feature
-system/extensions/example.php: example.php,create,update
+system/extensions/helloworld.php: helloworld.php,create,update
+system/extensions/helloworld.js: helloworld.js,create,update
+system/extensions/helloworld.css: helloworld.css,create,update
+system/extensions/helloworld.txt: helloworld.txt,create,update
 ~~~
 
 Erweiterungs-Einstellungen für eine Sprache:
@@ -38,7 +41,7 @@ Erweiterungs-Einstellungen für eine Sprache:
 # Datenstrom Yellow extension settings
 
 Extension: German
-Version: 0.8.3
+Version: 0.8.24
 Description: German/Deutsch with language 'de'.
 HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/german
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/german.zip
@@ -55,7 +58,7 @@ Erweiterungs-Einstellungen für ein Thema:
 # Datenstrom Yellow extension settings
 
 Extension: Basic
-Version: 0.8.3
+Version: 0.8.15
 Description: Example theme for designers.
 HelpUrl: https://github.com/annasvensson/yellow-extension-basic
 DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/master.zip
@@ -63,6 +66,7 @@ Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: example, theme
 system/extensions/basic.php: basic.php,create,update
+system/extensions/basic.txt: basic.txt,create,update
 system/themes/basic.css: basic.css,create,update,careful
 system/themes/basic.png: basic.png,create
 ~~~
@@ -70,7 +74,7 @@ system/themes/basic.png: basic.png,create
 Erweiterungen in der Befehlszeile veröffentlichen:
 
 `php yellow.php publish yellow-extension-basic`  
-`php yellow.php publish yellow-extension-example`  
+`php yellow.php publish yellow-extension-helloworld`  
 `php yellow.php publish yellow-extensions/source/german`  
 
 ## Einstellungen

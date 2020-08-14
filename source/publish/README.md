@@ -6,7 +6,7 @@ Package and publish extensions.
 
 ## How to package an extension
 
-The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) takes care of updating websites. Your extension can become part of this process. Take a look at the [example extension](https://github.com/schulle4u/yellow-extension-helloworld) and [basic extension](https://github.com/schulle4u/yellow-extension-basic). They show you which files and settings are required. Please make sure that your extension follows our coding and documentation standards.
+The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) takes care of updating websites. Your extension can become part of this process. Take a look at the [example feature](https://github.com/schulle4u/yellow-extension-helloworld) and [example theme](https://github.com/schulle4u/yellow-extension-basic). They show you which files and settings are required. Please make sure that your extension follows our coding and documentation standards.
 
 ## How to publish an extension
 
@@ -21,15 +21,18 @@ Extension settings for a feature:
 ~~~
 # Datenstrom Yellow extension settings
 
-Extension: Example
-Version: 0.8.3
+Extension: Helloworld
+Version: 0.8.15
 Description: Example feature for developers.
-HelpUrl: https://github.com/annasvensson/yellow-extension-example
-DownloadUrl: https://github.com/annasvensson/yellow-extension-example/archive/master.zip
+HelpUrl: https://github.com/annasvensson/yellow-extension-helloworld
+DownloadUrl: https://github.com/annasvensson/yellow-extension-helloworld/archive/master.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 Tag: example, feature
-system/extensions/example.php: example.php,create,update
+system/extensions/helloworld.php: helloworld.php,create,update
+system/extensions/helloworld.js: helloworld.js,create,update
+system/extensions/helloworld.css: helloworld.css,create,update
+system/extensions/helloworld.txt: helloworld.txt,create,update
 ~~~
 
 Extension settings for a language:
@@ -38,7 +41,7 @@ Extension settings for a language:
 # Datenstrom Yellow extension settings
 
 Extension: English
-Version: 0.8.3
+Version: 0.8.24
 Description: English/English with language 'en'.
 HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/english
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/english.zip
@@ -55,7 +58,7 @@ Extension settings for a theme:
 # Datenstrom Yellow extension settings
 
 Extension: Basic
-Version: 0.8.3
+Version: 0.8.15
 Description: Example theme for designers.
 HelpUrl: https://github.com/annasvensson/yellow-extension-basic
 DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/master.zip
@@ -63,6 +66,7 @@ Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: example, theme
 system/extensions/basic.php: basic.php,create,update
+system/extensions/basic.txt: basic.txt,create,update
 system/themes/basic.css: basic.css,create,update,careful
 system/themes/basic.png: basic.png,create
 ~~~
@@ -70,7 +74,7 @@ system/themes/basic.png: basic.png,create
 Publishing extensions at the command line:
 
 `php yellow.php publish yellow-extension-basic`  
-`php yellow.php publish yellow-extension-example`  
+`php yellow.php publish yellow-extension-helloworld`  
 `php yellow.php publish yellow-extensions/source/english`  
 
 ## Settings
