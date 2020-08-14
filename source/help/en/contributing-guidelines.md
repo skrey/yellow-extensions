@@ -28,7 +28,7 @@ Here's how to work together and make good products.
 
 ## How to create your own extension
 
-* [Start with an example feature](https://github.com/schulle4u/yellow-extension-example), [language](https://github.com/datenstrom/yellow-extensions/tree/master/source/english/english.txt) or [theme](https://github.com/schulle4u/yellow-extension-basic).
+* [Start with an example feature](https://github.com/schulle4u/yellow-extension-helloworld), [language](https://github.com/datenstrom/yellow-extensions/tree/master/source/english/english.txt) or [theme](https://github.com/schulle4u/yellow-extension-basic).
 * Imagine what the user wants to do, aim for a simple solution.
 * Upload your extension to GitHub, let us know if you need help.
 * Publish your extension in the official repository. [What's available?](https://github.com/datenstrom/yellow-extensions)

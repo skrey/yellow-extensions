@@ -6,7 +6,7 @@ Package and publish extensions.
 
 ## How to package an extension
 
-The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) takes care of updating websites. Your extension can become part of this process. Take a look at the [example extension](https://github.com/schulle4u/yellow-extension-example) and [basic extension](https://github.com/schulle4u/yellow-extension-basic). They show you which files and settings are required. Please make sure that your extension follows our coding and documentation standards.
+The [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) takes care of updating websites. Your extension can become part of this process. Take a look at the [example extension](https://github.com/schulle4u/yellow-extension-helloworld) and [basic extension](https://github.com/schulle4u/yellow-extension-basic). They show you which files and settings are required. Please make sure that your extension follows our coding and documentation standards.
 
 ## How to publish an extension
 
