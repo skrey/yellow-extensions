@@ -4,12 +4,9 @@ Berlin ist ein Thema inspiriert von Dieter Rams.
 
 <p align="center"><img src="berlin-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Einstellungen
+## Wie man ein Thema anpasst
 
-Die folgenden Dateien können angepasst werden:
-
-`system/themes/berlin.css` = CSS-Datei des Themas  
-`system/themes/berlin.png` = Icon des Themas  
+Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien bearbeiten. Die Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben.
 
 ## Installation
 

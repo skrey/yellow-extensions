@@ -4,12 +4,9 @@ Berlin is a theme inspired by Dieter Rams.
 
 <p align="center"><img src="berlin-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## Settings
+## How to customise a theme
 
-The following files can be customised:
-
-`system/themes/berlin.css` = CSS file of the theme  
-`system/themes/berlin.png` = icon of the theme  
+All theme files are stored in your `system/themes` folder. You can edit these files. Your changes will not be overwritten when the website is updated.
 
 ## Installation
 
