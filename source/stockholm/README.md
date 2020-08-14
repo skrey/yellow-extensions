@@ -4,12 +4,9 @@ Stockholm is a clean theme.
 
 <p align="center"><img src="stockholm-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## Settings
+## How to customise a theme
 
-The following files can be customised:
-
-`system/themes/stockholm.css` = CSS file of the theme  
-`system/themes/stockholm.png` = icon of the theme  
+All theme files are stored in your `system/themes` folder. All layout files are stored in your `system/layouts` folder. You can edit these files. Your changes will not be overwritten when the website is updated.
 
 ## Installation
 

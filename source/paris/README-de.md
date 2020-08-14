@@ -4,14 +4,9 @@ Paris ist ein elegantes Thema.
 
 <p align="center"><img src="paris-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Einstellungen
+## Wie man ein Thema anpasst
 
-Die folgenden Dateien können angepasst werden:
-
-`system/themes/paris.css` = CSS-Datei des Themas  
-`system/themes/paris.png` = Icon des Themas  
-`system/themes/paris-logo.png` = Bild das im Header angezeigt wird  
-`system/themes/paris-quote.png` = Bild das bei Zitaten angezeigt wird 
+Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Du kannst diese Dateien bearbeiten. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben.
 
 ## Installation
 

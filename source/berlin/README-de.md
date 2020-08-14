@@ -6,7 +6,7 @@ Berlin ist ein Thema inspiriert von Dieter Rams.
 
 ## Wie man ein Thema anpasst
 
-Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien bearbeiten. Die Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben.
+Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Du kannst diese Dateien bearbeiten. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben.
 
 ## Installation
 

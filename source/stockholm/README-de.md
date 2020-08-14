@@ -4,12 +4,9 @@ Stockholm ist ein schlichtes Thema.
 
 <p align="center"><img src="stockholm-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Einstellungen
+## Wie man ein Thema anpasst
 
-Die folgenden Dateien können angepasst werden:
-
-`system/themes/stockholm.css` = CSS-Datei des Themas  
-`system/themes/stockholm.png` = Icon des Themas  
+Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Du kannst diese Dateien bearbeiten. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben.
 
 ## Installation
 

@@ -4,14 +4,9 @@ Paris is an elegant theme.
 
 <p align="center"><img src="paris-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## Settings
+## How to customise a theme
 
-The following files can be customised:
-
-`system/themes/paris.css` = CSS file of the theme  
-`system/themes/paris.png` = icon of the theme  
-`system/themes/paris-logo.png` = image shown in the header  
-`system/themes/paris-quote.png` = image shown in quotes  
+All theme files are stored in your `system/themes` folder. All layout files are stored in your `system/layouts` folder. You can edit these files. Your changes will not be overwritten when the website is updated.
 
 ## Installation
 

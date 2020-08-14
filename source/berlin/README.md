@@ -6,7 +6,7 @@ Berlin is a theme inspired by Dieter Rams.
 
 ## How to customise a theme
 
-All theme files are stored in your `system/themes` folder. You can edit these files. Your changes will not be overwritten when the website is updated.
+All theme files are stored in your `system/themes` folder. All layout files are stored in your `system/layouts` folder. You can edit these files. Your changes will not be overwritten when the website is updated.
 
 ## Installation
 
