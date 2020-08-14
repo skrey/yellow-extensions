@@ -6,7 +6,7 @@ Erweiterungen verpacken und veröffentlichen.
 
 ## Wie man eine Erweiterung verpackt
 
-Beginne mit einer [Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld) oder einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen dir welche Dateien und Einstellungen erforderlich sind. Jede Erweiterung benötigt eine `extension.ini`-Datei für die Erweiterungseinstellungen. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht.
+Beginne mit einer [Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld) oder einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) an. Sie zeigen dir welche Dateien und Einstellungen erforderlich sind. Jede Erweiterung benötigt eine `extension.ini`-Datei für die Erweiterungseinstellungen. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht. Es ist nicht wichtig welchen Standard wir auswählen, sondern dass wir alle den selben verwenden.
 
 ## Wie man eine Erweiterung veröffentlicht
 
