@@ -56,7 +56,7 @@ class YellowUpdate {
     public function onUpdate($action) {
         if ($action=="update") {  // TODO: remove later, converts old layout files
             if ($this->yellow->system->isExisting("updateVersionFile")) {
-                $path = $this->yellow->system->get("coreLayoutDir");
+                $path = $this->yellow->system->get("coreLayoutDirectory");
                 foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.html$/", true, false) as $entry) {
                     $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
                     $fileDataNew = str_replace("\$this->yellow->content->shared(\"header\")", "null", $fileDataNew);
