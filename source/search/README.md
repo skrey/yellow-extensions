@@ -1,5 +1,5 @@
-Search 0.8.7
-============
+Search 0.8.10
+=============
 Full-text search.
 
 <p align="center"><img src="search-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

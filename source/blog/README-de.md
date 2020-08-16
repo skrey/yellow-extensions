@@ -1,5 +1,5 @@
-Blog 0.8.8
-==========
+Blog 0.8.10
+===========
 Blog für deine Webseite.
 
 <p align="center"><img src="blog-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>

@@ -2,7 +2,7 @@
 // Blog extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/blog
 
 class YellowBlog {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -230,7 +230,7 @@ class YellowBlog {
             } else {
                 $page->set("titleContent", "");
             }
-            $page->setPages($pages);
+            $page->setPages("blog", $pages);
             $page->setLastModified($pages->getModified());
             $page->setHeader("Cache-Control", "max-age=60");
         }

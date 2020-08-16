@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -82,7 +82,7 @@ class YellowSearch {
                 $this->yellow->page->set("titleHeader", $text." - ".$this->yellow->page->get("sitename"));
                 $this->yellow->page->set("titleContent", $this->yellow->page->get("title").": ".$text);
                 $this->yellow->page->set("title", $this->yellow->page->get("title").": ".$text);
-                $this->yellow->page->setPages($pages);
+                $this->yellow->page->setPages("search", $pages);
                 $this->yellow->page->setLastModified($pages->getModified());
                 $this->yellow->page->setHeader("Cache-Control", "max-age=60");
                 $this->yellow->page->set("status", count($pages) ? "done" : "empty");
@@ -92,7 +92,7 @@ class YellowSearch {
             }
         }
     }
-        
+    
     // Return search information
     public function getSearchInformation($query, $tokensMax) {
         $tokens = array_unique(array_filter($this->yellow->toolbox->getTextArguments($query), "strlen"));

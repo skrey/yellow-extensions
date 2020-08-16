@@ -2,7 +2,7 @@
 // Wiki extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki
 
 class YellowWiki {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -217,7 +217,7 @@ class YellowWiki {
                 $this->yellow->page->set("title", $this->yellow->page->get("title").": ".$text);
                 $this->yellow->page->set("wikipagesChronologicalOrder", $chronologicalOrder);
             }
-            $this->yellow->page->setPages($pages);
+            $this->yellow->page->setPages("wiki", $pages);
             $this->yellow->page->setLastModified($pages->getModified());
             $this->yellow->page->setHeader("Cache-Control", "max-age=60");
         }

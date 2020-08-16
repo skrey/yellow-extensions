@@ -2,7 +2,7 @@
 // Draft extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/draft
 
 class YellowDraft {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -31,7 +31,7 @@ class YellowDraft {
             $pages->sort("title", false);
             $pages->pagination($this->yellow->system->get("draftPaginationLimit"));
             if ($page->isRequest("page") && !$pages->getPaginationNumber()) $this->yellow->page->error(404);
-            $this->yellow->page->setPages($pages);
+            $this->yellow->page->setPages("draft", $pages);
             $this->yellow->page->setLastModified($pages->getModified());
             $this->yellow->page->setHeader("Cache-Control", "max-age=60");
             $this->yellow->page->set("status", count($pages) ? "done" : "empty");

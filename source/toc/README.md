@@ -1,4 +1,4 @@
-Toc 0.8.4
+Toc 0.8.5
 =========
 Table of contents.
 

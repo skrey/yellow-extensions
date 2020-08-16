@@ -97,7 +97,7 @@ class YellowPublish {
                     if (lcfirst($matches[1])=="type") $line = "Tag: $matches[2]\n";
                     if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
                         list($entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 2);
-                        if (strposu($entry, ".")===false) {
+                        if (strposu($entry, ".")===false) { // TODO: remove later, converts old extension settings
                             list($dummy, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
                             $line = "$matches[1]: $entry,$flags\n";
                         }

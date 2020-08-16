@@ -1,5 +1,5 @@
-Sitemap 0.8.6
-=============
+Sitemap 0.8.10
+==============
 Sitemap mit allen Seiten.
 
 <p align="center"><img src="sitemap-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>

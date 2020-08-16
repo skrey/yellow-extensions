@@ -2,7 +2,7 @@
 // TOC extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/toc
 
 class YellowToc {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.5";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -15,14 +15,16 @@ class YellowToc {
         $callback = function ($matches) use ($page) {
             $output = "<ul class=\"toc\">\n";
             $major = $minor = 0;
-            preg_match_all("/<h(\d) id=\"([^\"]+)\">(.*?)<\/h\d>/i", $page->getPage("main")->parserData, $matches, PREG_SET_ORDER);
+            $location = $page->getPage("main")->getLocation(true);
+            $rawData = $page->getPage("main")->parserData;
+            preg_match_all("/<h(\d) id=\"([^\"]+)\">(.*?)<\/h\d>/i", $rawData, $matches, PREG_SET_ORDER);
             foreach ($matches as $match) {
                 switch ($match[1]) {
                     case 2: ++$major; $minor = 0;
-                            $output .= "<li><a href=\"#$match[2]\">$major. $match[3]</a></li>\n";
+                            $output .= "<li><a href=\"$location#$match[2]\">$major. $match[3]</a></li>\n";
                             break;
                     case 3: ++$minor;
-                            $output .= "<li><a href=\"#$match[2]\">$major.$minor. $match[3]</a></li>\n";
+                            $output .= "<li><a href=\"$location#$match[2]\">$major.$minor. $match[3]</a></li>\n";
                             break;
                 }
             }

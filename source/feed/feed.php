@@ -2,7 +2,7 @@
 // Feed extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/feed
 
 class YellowFeed {
-    const VERSION = "0.8.9";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -70,7 +70,7 @@ class YellowFeed {
                     $this->yellow->page->set("title", $this->yellow->page->get("title").": ".$text);
                 }
                 $this->yellow->page->set("feedChronologicalOrder", $chronologicalOrder);
-                $this->yellow->page->setPages($pages);
+                $this->yellow->page->setPages("feed", $pages);
                 $this->yellow->page->setLastModified($pages->getModified());
             }
         }

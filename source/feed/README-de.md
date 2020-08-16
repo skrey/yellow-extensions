@@ -1,5 +1,5 @@
-Feed 0.8.9
-==========
+Feed 0.8.10
+===========
 Feed mit letzten Änderungen.
 
 <p align="center"><img src="feed-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>

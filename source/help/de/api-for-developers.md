@@ -80,11 +80,11 @@ Hole eine [Page-Collection](#yellow-page-collection) mit Seiten auf dem selben L
 **$this->yellow->page->getChildren($showInvisible = false)**  
 Hole eine [Page-Collection](#yellow-page-collection) mit Kinderseiten
 
-**$this->yellow->page->getPages()**  
+**$this->yellow->page->getPages($key)**  
 Hole eine [Page-Collection](#yellow-page-collection) mit zusätzlichen Seiten
 
 **$this->yellow->page->getPage($key)**  
-Hole eine zugehörige Seite
+Hole eine geteilte Seite
 
 **$this->yellow->page->getUrl()**  
 Hole die URL der Seite 
@@ -147,7 +147,7 @@ Teste ob das Requestargument existiert
 Teste ob der Responseheader existiert
 
 **$this->yellow->page->isPage($key)**  
-Teste ob die zugehörige Seite existiert
+Teste ob die geteilte Seite existiert
 
 Hier ist ein Beispiel-Layout um den Seiteninhalt anzuzeigen:
 
@@ -338,9 +338,6 @@ Hole eine [Page-Collection](#yellow-page-collection) mit Pfad in der Navigation
 
 **$this->yellow->content->multi($location, $absoluteLocation = false, $showInvisible = false)**  
 Hole eine [Page-Collection](#yellow-page-collection) mit mehreren Sprachen im Mehrsprachen-Modus
-
-**$this->yellow->content->shared($name)**  
-Hole eine [Page](#yellow-page) mit geteiltem Inhalt, null falls nicht vorhanden  
 
 **$this->yellow->content->clean()**  
 Hole eine [Page-Collection](#yellow-page-collection) die leer ist

@@ -1,5 +1,5 @@
-Draft 0.8.5
-===========
+Draft 0.8.10
+============
 Unterstützung für Entwurfsseiten.
 
 <p align="center"><img src="draft-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>

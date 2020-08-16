@@ -4,7 +4,7 @@
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <ul>
 <?php $section = $sectionNew = "" ?>
-<?php foreach ($this->yellow->page->getPages() as $page): ?>
+<?php foreach ($this->yellow->page->getPages("feed") as $page): ?>
 <?php if ($this->yellow->page->get("feedChronologicalOrder")): ?>
 <?php $sectionNew = $page->getDateHtml("modified") ?>
 <?php else: ?>
@@ -14,7 +14,7 @@
 <li><a href="<?php echo $page->getLocation(true) ?>"><?php echo $page->getHtml("title") ?></a></li>
 <?php endforeach ?>
 </ul>
-<?php $this->yellow->layout("pagination", $this->yellow->page->getPages()) ?>
+<?php $this->yellow->layout("pagination", $this->yellow->page->getPages("feed")) ?>
 </div>
 </div>
 <?php $this->yellow->layout("footer") ?>

@@ -80,11 +80,11 @@ Return [page collection](#yellow-page-collection) with pages on the same level
 **$this->yellow->page->getChildren($showInvisible = false)**  
 Return [page collection](#yellow-page-collection) with child pages
 
-**$this->yellow->page->getPages()**  
+**$this->yellow->page->getPages($key)**  
 Return [page collection](#yellow-page-collection) with additional pages
 
 **$this->yellow->page->getPage($key)**  
-Return related page
+Return shared page
 
 **$this->yellow->page->getUrl()**  
 Return page URL
@@ -147,7 +147,7 @@ Check if request argument exists
 Check if response header exists
 
 **$this->yellow->page->isPage($key)**  
-Check if related page exists  
+Check if shared page exists  
 
 Here's an example layout for showing page content:
 
@@ -339,9 +339,6 @@ Return [page collection](#yellow-page-collection) with path ancestry
 
 **$this->yellow->content->multi($location, $absoluteLocation = false, $showInvisible = false)**  
 Return [page collection](#yellow-page-collection) with multiple languages in multi language mode
-
-**$this->yellow->content->shared($name)**  
-Return [page](#yellow-page) with shared content, null if not found  
 
 **$this->yellow->content->clean()**  
 Return [page collection](#yellow-page-collection) that is empty

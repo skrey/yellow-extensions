@@ -4,7 +4,7 @@
 <?php if (!empty($this->yellow->page->get("titleContent"))): ?>
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <?php endif ?>
-<?php foreach ($this->yellow->page->getPages() as $page): ?>
+<?php foreach ($this->yellow->page->getPages("blog") as $page): ?>
 <?php $page->set("entryClass", "entry") ?>
 <?php if ($page->isExisting("tag")): ?>
 <?php foreach (preg_split("/\s*,\s*/", $page->get("tag")) as $tag) { $page->set("entryClass", $page->get("entryClass")." tag-".$this->yellow->toolbox->normaliseArguments($tag, false)); } ?>
@@ -15,7 +15,7 @@
 <div class="entry-content"><?php echo $this->yellow->toolbox->createTextDescription($page->getContent(), 0, false, "<!--more-->", "<a href=\"".$page->getLocation(true)."\">".$this->yellow->language->getTextHtml("blogMore")."</a>") ?></div>
 </div>
 <?php endforeach ?>
-<?php $this->yellow->layout("pagination", $this->yellow->page->getPages()) ?>
+<?php $this->yellow->layout("pagination", $this->yellow->page->getPages("blog")) ?>
 </div>
 </div>
 <?php $this->yellow->layout("footer") ?>
