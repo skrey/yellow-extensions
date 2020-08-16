@@ -2,7 +2,7 @@
 // Wiki extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki
 
 class YellowWiki {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -16,7 +16,7 @@ class YellowWiki {
 
     // Handle page meta data
     public function onParseMeta($page) {
-        if ($page==$this->yellow->page) {
+        if ($page===$this->yellow->page) {
             if ($page->get("layout")=="wikipages" && !$this->yellow->toolbox->isLocationArguments()) {
                 $page->set("layout", $page->isExisting("layoutShow") ? $page->get("layoutShow") : "wiki");
             }

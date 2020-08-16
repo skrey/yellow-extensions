@@ -1,4 +1,4 @@
-Wiki 0.8.10
+Wiki 0.8.11
 ===========
 Wiki for your website.
 
