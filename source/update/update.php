@@ -2,7 +2,7 @@
 // Update extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/update
 
 class YellowUpdate {
-    const VERSION = "0.8.32";
+    const VERSION = "0.8.33";
     const PRIORITY = "2";
     public $yellow;                 // access to API
     public $updates;                // number of updates
@@ -55,16 +55,14 @@ class YellowUpdate {
     // Handle update
     public function onUpdate($action) {
         if ($action=="update") {  // TODO: remove later, converts old layout files
-            if ($this->yellow->system->isExisting("updateVersionFile")) {
-                $path = $this->yellow->system->get("coreLayoutDirectory");
-                foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.html$/", true, false) as $entry) {
-                    $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
-                    $fileDataNew = str_replace("\$this->yellow->content->shared(\"header\")", "null", $fileDataNew);
-                    $fileDataNew = str_replace("\$this->yellow->content->shared(\"footer\")", "null", $fileDataNew);
-                    $fileDataNew = str_replace("if (\$page = null)", "/* Remove this line */ if (\$page = null)", $fileDataNew);
-                    if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
-                        $this->yellow->log("error", "Can't write file '$entry'!");
-                    }
+            $path = $this->yellow->system->get("coreLayoutDirectory");
+            foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.html$/", true, false) as $entry) {
+                $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
+                $fileDataNew = str_replace("\$this->yellow->content->shared(\"header\")", "null", $fileDataNew);
+                $fileDataNew = str_replace("\$this->yellow->content->shared(\"footer\")", "null", $fileDataNew);
+                $fileDataNew = str_replace("php if (\$page = null)", "php /* Remove this line */ if (\$page = null)", $fileDataNew);
+                if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
+                    $this->yellow->log("error", "Can't write file '$entry'!");
                 }
             }
         }
