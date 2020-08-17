@@ -92,7 +92,7 @@ Return [page collection](#yellow-page-collection) with child pages recursively
 Return [page collection](#yellow-page-collection) with additional pages
 
 **page->getPage($key)**  
-Return shared or additional page
+Return shared page
 
 **page->getUrl()**  
 Return page URL
