@@ -29,7 +29,7 @@ The main configuration file is `system/settings/system.ini`. Here's an example:
 
 You can define the system settings here, for example the name of the website and the email of the webmaster. Individual [settings](markdown-cheat-sheet#settings) can be defined at the top of each page. For a new installation you should set `Sitename`, `Author` and `Email`.
 
-## Text settings
+## Language settings
 
 Another configuration file is `system/settings/language.ini`. Here's an example:
 
@@ -39,7 +39,7 @@ Another configuration file is `system/settings/language.ini`. Here's an example:
 
 You can define the text settings here, for example text sections and image captions. Text settings consist of `Language` and other settings. You can define any text or adjust the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) of languages.
 
-## User accounts
+## User settings
 
 All user accounts are stored in file `system/settings/user.ini`. Here's an example:
 

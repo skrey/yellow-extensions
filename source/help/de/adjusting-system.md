@@ -29,7 +29,7 @@ Die zentrale Konfigurationsdatei ist `system/settings/system.ini`. Hier ist ein 
 
 Dort kannst du die Systemeinstellungen festlegen, zum Beispiel den Namen der Webseite und die E-Mail des Webmasters. Die individuellen [Einstellungen](markdown-cheat-sheet#einstellungen) lassen sich ganz oben auf jeder Seite festlegen. Bei einer neuen Installation sollte man `Sitename`, `Author` und `Email` anpassen.
 
-## Texteinstellungen
+## Spracheinstellungen
 
 Eine weitere Konfigurationsdatei ist `system/settings/language.ini`. Hier ist ein Beispiel:
 
@@ -39,7 +39,7 @@ Eine weitere Konfigurationsdatei ist `system/settings/language.ini`. Hier ist ei
 
 Dort kannst du die Texteinstellungen festlegen, zum Beispiel Textabschnitte und Bildunterschriften. Texteinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst beliebige Texte festlegen oder die [Voreinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) von Sprachen anpassen.
 
-## Benutzerkonten
+## Benutzereinstellungen
 
 Alle Benutzerkonten sind in `system/settings/user.ini` gespeichert. Hier ist ein Beispiel:
 
