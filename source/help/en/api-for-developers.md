@@ -376,7 +376,7 @@ Here's an example layout for showing pages below a specific location:
 <div class="content">
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<?php $pages = $this->yellow->content->find("/help/")->getChildren(true) ?>
+<?php $pages = $this->yellow->content->find("/help/")->getChildren() ?>
 <?php $this->yellow->page->setLastModified($pages->getModified()) ?>
 <ul>
 <?php foreach ($pages as $page): ?>
@@ -446,7 +446,7 @@ Here's an example layout for showing latest media files:
 <div class="content">
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<?php $files = $this->yellow->media->index(true)->sort("modified", false) ?>
+<?php $files = $this->yellow->media->index()->sort("modified", false) ?>
 <?php $this->yellow->page->setLastModified($files->getModified()) ?>
 <ul>
 <?php foreach ($files as $file): ?>
@@ -465,7 +465,7 @@ Here's an example layout for showing media files of a specific type:
 <div class="content">
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<?php $files = $this->yellow->media->index(true)->filter("type", "pdf") ?>
+<?php $files = $this->yellow->media->index()->filter("type", "pdf") ?>
 <?php $this->yellow->page->setLastModified($files->getModified()) ?>
 <ul>
 <?php foreach ($files as $file): ?>
