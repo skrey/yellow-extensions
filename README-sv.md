@@ -25,7 +25,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Core](https://github.com/datenstrom/yellow-extensions/tree/master/source/core): 
   Webbplatsens kärnfunktion. Utvecklad av Datenstrom.
 * [Codefile](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/codefile): 
-  Download code blocks as text file. Utvecklad av Steffen Schultz.
+  Ladda ner kodblock som textfil. Utvecklad av Steffen Schultz.
 * [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv):
   CSV-filtolkare. Utvecklad av Steffen Schultz.
 * [Diary](https://github.com/GiovanniSalmeri/yellow-diary):
