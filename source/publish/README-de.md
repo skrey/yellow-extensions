@@ -1,4 +1,4 @@
-Publish 0.8.27
+Publish 0.8.28
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
@@ -29,10 +29,10 @@ DownloadUrl: https://github.com/annasvensson/yellow-extension-helloworld/archive
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
 Tag: example, feature
-system/extensions/helloworld.php: helloworld.php,create,update
-system/extensions/helloworld.js: helloworld.js,create,update
-system/extensions/helloworld.css: helloworld.css,create,update
-system/extensions/helloworld.txt: helloworld.txt,create,update
+system/extensions/helloworld.php: helloworld.php, create, update
+system/extensions/helloworld.js: helloworld.js, create, update
+system/extensions/helloworld.css: helloworld.css, create, update
+system/extensions/helloworld.txt: helloworld.txt, create, update
 ~~~
 
 Erweiterungseinstellungen für eine Sprache:
@@ -48,8 +48,8 @@ DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/germ
 Published: 2019-01-24 19:42:13
 Translator: David Fehrmann
 Tag: language
-system/extensions/german.php: german.php,create,update
-system/extensions/german.txt: german.txt,create,update
+system/extensions/german.php: german.php, create, update
+system/extensions/german.txt: german.txt, create, update
 ~~~
 
 Erweiterungseinstellungen für ein Thema:
@@ -65,10 +65,10 @@ DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/mast
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
 Tag: example, theme
-system/extensions/basic.php: basic.php,create,update
-system/extensions/basic.txt: basic.txt,create,update
-system/themes/basic.css: basic.css,create,update,careful
-system/themes/basic.png: basic.png,create
+system/extensions/basic.php: basic.php, create, update
+system/extensions/basic.txt: basic.txt, create, update
+system/themes/basic.css: basic.css, create, update, careful
+system/themes/basic.png: basic.png, create
 ~~~
 
 Erweiterungen in der Befehlszeile veröffentlichen:

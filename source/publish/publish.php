@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.27";
+    const VERSION = "0.8.28";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -96,6 +96,8 @@ class YellowPublish {
                     if (lcfirst($matches[1])=="status" && $matches[2]=="unpublished") $line = "";
                     if (lcfirst($matches[1])=="type") $line = "Tag: $matches[2]\n";
                     if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
+                        $matches[2] = preg_replace("/,(\S)/", ", $1", $matches[2]);
+                        $line = "$matches[1]: $matches[2]\n";
                         list($entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 2);
                         if (strposu($entry, ".")===false) { // TODO: remove later, converts old extension settings
                             list($dummy, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
