@@ -6,7 +6,9 @@ Email contact page.
 
 ## How to use a contact page
 
-The contact page is available on your website as `http://website/contact/`. The webmaster receives all contact messages. The webmaster's email is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page. To show a contact form on other pages use a `[contact]` shortcut. You can also add a link to the contact page somewhere on your website.
+The contact page is available on your website as `http://website/contact/`. The webmaster receives all contact messages. The webmaster's email is defined in file `system/settings/system.ini`. You can set a different `Author` and `Email` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page.  The email address for the contact page must match the domain name of the website, otherwise it can cause problems.
+
+To show a contact form on other pages use a `[contact]` shortcut. You can also add a link to the contact page somewhere on your website.
 
 ## How to restrict a contact page
 
