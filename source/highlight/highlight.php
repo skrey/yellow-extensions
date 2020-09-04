@@ -2,7 +2,7 @@
 // Highlight extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight
 
 class YellowHighlight {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.9";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,13 +17,10 @@ class YellowHighlight {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if (!empty($name) && $type=="code") {
-            list($language, $class, $id, $lineNumber) = $this->getHighlightInformation($name);
+            list($language, $attributes, $lineNumber) = $this->getHighlightInformation($name);
             if (!empty($language)) {
                 list($language, $text) = $this->highlight($language, $text);
-                $output = "<pre";
-                if (!empty($class)) $output .= " class=\"".htmlspecialchars($class)."\"";
-                if (!empty($id)) $output .= " id=\"".htmlspecialchars($id)."\"";
-                $output .= ">";
+                $output = "<pre$attributes>";
                 if (!$lineNumber) {
                     $output .= "<code class=\"".htmlspecialchars("language-$language")."\">".$text."</code>";
                 } else {
@@ -72,17 +69,21 @@ class YellowHighlight {
     
     // Return highlight information
     public function getHighlightInformation($name) {
-        $language = $id = "";
-        $class = $this->yellow->system->get("highlightClass");
-        $lineNumber = intval($this->yellow->system->get("highlightLineNumber"));
+        $language = $attributes = "";
+        $attributesData = array("class" => $this->yellow->system->get("highlightClass"));
         foreach (explode(" ", $name) as $token) {
             if (preg_match("/^[\w]+$/", $token) && empty($language)) $language = $token;
-            if (substru($token, 0, 1)==".") $class = $class." ".substru($token, 1);
-            if (substru($token, 0, 1)=="#") $id = substru($token, 1);
+            if (substru($token, 0, 1)==".") $attributesData["class"] = $attributesData["class"]." ".substru($token, 1);
+            if (substru($token, 0, 1)=="#") $attributesData["id"] = substru($token, 1);
+            if (preg_match("/^([\w]+)=(.+)/", $token, $matches)) $attributesData[$matches[1]] = $matches[2];
         }
-        if (preg_match("/with-line-number/i", $class)) $lineNumber = true;
-        if (preg_match("/without-line-number/i", $class)) $lineNumber = false;
-        return array($language, $class, $id, $lineNumber);
+        foreach($attributesData as $key=>$value) {
+            $attributes .= " $key=\"".htmlspecialchars($value)."\"";
+        }
+        $lineNumber = intval($this->yellow->system->get("highlightLineNumber"));
+        if (preg_match("/with-line-number/i", $attributesData["class"])) $lineNumber = true;
+        if (preg_match("/without-line-number/i", $attributesData["class"])) $lineNumber = false;
+        return array($language, $attributes, $lineNumber);
     }
     
     // Return language information
