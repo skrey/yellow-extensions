@@ -6,7 +6,7 @@ Inhaltsverzeichnis anzeigen.
 
 ## Wie zeigt man ein Inhaltsverzeichnis an
 
-Erstelle eine `[toc]`-Abkürzung.
+Erstelle eine `[toc]`-Abkürzung. Das Inhaltsverzeichnis wird automatisch aus den Überschriften erzeugt.
 
 ## Beispiele
 

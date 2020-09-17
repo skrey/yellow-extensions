@@ -6,7 +6,7 @@ Table of contents.
 
 ## How to make a table of contents
 
-Create a `[toc]` shortcut.  
+Create a `[toc]` shortcut. The table of contents is automatically generated from the headings.
 
 ## Examples
 
