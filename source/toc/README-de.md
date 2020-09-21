@@ -33,7 +33,7 @@ Inhaltsdatei mit Inhaltsverzeichnis:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Summary
+    ## Zusammenfassung
     
     Das ist eine Beispielseite.
 
