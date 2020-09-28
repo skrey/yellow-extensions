@@ -26,15 +26,22 @@ Wie man zusammenarbeitet und gute Produkte macht.
 * Schlage eine spezifische Lösung vor, wähle eine die für dich funktionieren würde.
 * Stimme für gute Ideen ab, gib ihnen einen Daumen nach oben. [Was ist beliebt?](https://github.com/datenstrom/yellow/issues?q=is%3Aopen+is%3Aissue+sort%3Areactions-%2B1-desc+label%3Aidea)
 
-## Wie man eine eigene Erweiterung erstellt
+## Wie man eine Erweiterung erstellt
 
 * [Beginne mit einer Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld) oder einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic).
 * Stelle dir vor was der Benutzer machen will, strebe eine einfache Lösung an.
 * Lade deine Erweiterung zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
-* Veröffentliche deine Erweiterung im offiziellen Repository. [Was gibt es?](https://github.com/datenstrom/yellow-extensions/tree/master/README-de.md)
+* Veröffentliche deine Erweiterung im offiziellen Repository.
+
+## Wie man eine Übersetzung erstellt
+
+* [Schaue dir deine eigene Sprache an](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) und überprüfe ob alles in Ordnung ist.
+* Suche nach Textzeilen in Englisch, die noch nicht übersetzt wurden.
+* Erstelle eine neue Übersetzung, wenn deine Sprache fehlt.
+* Veröffentliche deine Übersetzung im offiziellen Repository.
 
 ## Wie man in Kontakt kommt
 
-* [Folge uns auf GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper) oder [sende eine Nachricht](https://datenstrom.se/de/contact/).
+* [Folge uns auf GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper), [TeamVideo](https://team.video/datendeveloper) oder [sende eine Nachricht](https://datenstrom.se/de/contact/).
+* Treffe andere Entwickler, diskutiere neuste Änderungen und arbeite zusammen.
 * Beantworte Fragen und löse Probleme, wenn dir das Spaß macht.
-* Besuche unser Entwicklertreffen am ersten des Monats. [Was ist geplant?](https://github.com/datenstrom/yellow/issues/521)
