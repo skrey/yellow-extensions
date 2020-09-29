@@ -59,17 +59,17 @@ Statische Webseite in der Befehlszeile nach fehlerhaften Links überprüfen:
 `php yellow.php check public /blog/`  
 `php yellow.php check public /wiki/`  
 
-## Befehle
+Statische Webseite und Dateien in der Befehlszeile löschen:
 
-Die folgenden Befehle sind verfügbar:
+`php yellow.php clean`  
+`php yellow.php clean public /blog/`  
+`php yellow.php clean public /wiki/`  
+
+Weitere Befehle sind verfügbar:
 
 `php yellow.php about` um die aktuelle Version anzuzeigen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`php yellow.php build` um statische Webseite zu erstellen mit der Command-Erweiterung  
-`php yellow.php check` um statische Webseite zu überprüfen mit der Command-Erweiterung  
-`php yellow.php clean` um statische Webseite zu löschen mit der Command-Erweiterung  
 `php yellow.php install` um Erweiterungen hinzuzufügen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php publish` um Erweiterungen zu veröffentlichen mit der [Publish-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md)  
-`php yellow.php serve` um den eingebauten Webserver zu starten mit der Command-Erweiterung  
 `php yellow.php traffic` um Zugriffsanalysen zu erstellen mit der [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md)  
 `php yellow.php uninstall` um Erweiterungen zu entfernen mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php update` um die Webseite zu aktualisieren mit der [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
