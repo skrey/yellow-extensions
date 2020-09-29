@@ -59,12 +59,6 @@ Checking static website for broken links at the command line:
 `php yellow.php check public /blog/`  
 `php yellow.php check public /wiki/`  
 
-Checking static website for broken links at the command line:
-
-`php yellow.php check`  
-`php yellow.php check public /blog/`  
-`php yellow.php check public /wiki/`
-
 Cleaning static website and files at the command line:
 
 `php yellow.php clean`  
