@@ -71,7 +71,7 @@ Cleaning static website and files at the command line:
 `php yellow.php clean public /blog/`  
 `php yellow.php clean public /wiki/`  
   
-More commands are available:
+A few more commands are available at the command line:
 
 `php yellow.php about` to show current version with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php install` to add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
