@@ -6,7 +6,7 @@ Command line of the website.
 
 ## How to use the command line
 
-Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands.
+Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. You can start the web server, build a static website, [update a website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update), [update user accounts](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit), [publish extensions](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish) and more.
 
 ## How to start the built-in web server
 
@@ -64,16 +64,6 @@ Cleaning static website and files at the command line:
 `php yellow.php clean`  
 `php yellow.php clean public /blog/`  
 `php yellow.php clean public /wiki/`  
-  
-A few more commands are available at the command line:
-
-`php yellow.php about` to show current version with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php install` to add extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php publish` to publish extensions with the [publish extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)  
-`php yellow.php traffic` to create traffic analytics with the [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
-`php yellow.php uninstall` to remove extensions with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php update` to update website with the [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php user` to update user accounts with the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 
 ## Settings
 
