@@ -1,4 +1,4 @@
-Command 0.8.22
+Command 0.8.23
 ==============
 Command line of the website.
 
@@ -6,7 +6,7 @@ Command line of the website.
 
 ## How to use the command line
 
-Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. You can [start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-start-the-built-in-web-server), [build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-build-a-static-website), [update a website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update), [create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit), [publish an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish) and more.
+Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. You can [start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-start-the-built-in-web-server), [build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-build-a-static-website), [update a website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update), [create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and more.
 
 ## How to start the built-in web server
 
