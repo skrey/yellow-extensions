@@ -1,5 +1,5 @@
-Image 0.8.9
-===========
+Image 0.8.10
+============
 Bilder in unterschiedlichen Größen.
 
 <p align="center"><img src="image-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
