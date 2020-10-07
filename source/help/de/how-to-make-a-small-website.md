@@ -55,7 +55,7 @@ wie man kleine Webseiten, Blogs und Wikis erstellt.
 
 ## Kopfzeile anzeigen
 
-Um eine Kopfzeile anzuzeigen, erstelle die Datei `content/shared/header.md`. Du kannst auch eine `header.md` in einem `content`-Verzeichnis erstellen und sie wird nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
+Um eine Kopfzeile anzuzeigen, erstelle die Datei `content/shared/header.md`. Hier ist ein Beispiel:
 
 ```
 ---
@@ -67,7 +67,7 @@ Ich mag Markdown.
 
 ## Fußzeile anzeigen
 
-Um eine Fußzeile anzuzeigen, erstelle die Datei `content/shared/footer.md`. Du kannst auch eine `footer.md` in einem beliebigen `content`-Verzeichnis erstellen, die Fußzeile wird dann nur auf Seiten im gleichen Verzeichnis angezeigt. Hier ist ein Beispiel:
+Um eine Fußzeile anzuzeigen, erstelle die Datei `content/shared/footer.md`. Hier ist ein Beispiel:
 
 ```
 ---

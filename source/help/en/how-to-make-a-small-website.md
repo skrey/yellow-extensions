@@ -55,7 +55,7 @@ about how to create small web pages, blogs and wikis.
 
 ## Showing header
 
-To show a header create the file `content/shared/header.md`. You can also create a `header.md` in any `content` folder and it will only be shown on pages in the same folder. Here's an example:
+To show a header create the file `content/shared/header.md`. Here's an example:
 
 ```
 ---
@@ -67,7 +67,7 @@ I like Markdown.
 
 ## Showing footer
 
-To show a footer create the file `content/shared/footer.md`. You can also create a `footer.md` in any `content` folder and it will only be shown on pages in the same folder. Here's an example:
+To show a footer create the file `content/shared/footer.md`. Here's an example:
 
 ```
 ---
