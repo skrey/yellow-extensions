@@ -1067,4 +1067,4 @@ var_dump(strempty(""));       // bool(true)
 
 * [Datenstrom Yellow releases](https://github.com/datenstrom/yellow/releases)
 * [Datenstrom on GitHub](https://github.com/datenstrom)
-* [Datenstrom on Travis CI](https://travis-ci.org/github/datenstrom)
+* [Datenstrom on Travis CI](https://travis-ci.com/github/datenstrom)
