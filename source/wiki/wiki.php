@@ -2,7 +2,7 @@
 // Wiki extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki
 
 class YellowWiki {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -43,6 +43,7 @@ class YellowWiki {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);
@@ -74,6 +75,7 @@ class YellowWiki {
         $output = null;
         list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);
@@ -102,6 +104,7 @@ class YellowWiki {
         $output = null;
         list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);
@@ -130,6 +133,7 @@ class YellowWiki {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);
@@ -156,6 +160,7 @@ class YellowWiki {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
         $wiki = $this->yellow->content->find($location);
         $pages = $this->getWikiPages($location);

@@ -2,7 +2,7 @@
 // Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery
 
 class YellowGallery {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.9";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -19,6 +19,7 @@ class YellowGallery {
             if (empty($style)) $style = $this->yellow->system->get("galleryStyle");
             if (empty($size)) $size = "100%";
             if (empty($pattern)) {
+                $pattern = "unknown";
                 $files = $this->yellow->media->clean();
             } else {
                 $images = $this->yellow->system->get("coreImageDirectory");

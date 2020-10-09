@@ -2,7 +2,7 @@
 // Blog extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/blog
 
 class YellowBlog {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -35,6 +35,7 @@ class YellowBlog {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
         $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
@@ -63,6 +64,7 @@ class YellowBlog {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
         $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
@@ -94,6 +96,7 @@ class YellowBlog {
         $output = null;
         list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
         $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
@@ -122,6 +125,7 @@ class YellowBlog {
         $output = null;
         list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
         $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
@@ -150,6 +154,7 @@ class YellowBlog {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
         $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);
@@ -176,6 +181,7 @@ class YellowBlog {
         $output = null;
         list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($location)) $location = $this->yellow->system->get("blogLocation");
+        if (empty($location)) $location = "unknown";
         if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("blogPagesMax");
         $blog = $this->yellow->content->find($location);
         $pages = $this->getBlogPages($location);

@@ -1,4 +1,4 @@
-Slider 0.8.5
+Slider 0.8.6
 ============
 Bildergalerie mit Schieber.
 
