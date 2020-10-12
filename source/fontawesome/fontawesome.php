@@ -2,7 +2,7 @@
 // Fontawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome
 
 class YellowFontawesome {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     public $yellow;         // access to API
     
     // Handle initialisation

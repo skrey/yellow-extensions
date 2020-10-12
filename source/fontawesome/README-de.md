@@ -1,4 +1,4 @@
-Fontawesome 0.8.6
+Fontawesome 0.8.7
 =================
 Icons und Symbole.
 
@@ -40,7 +40,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/fontawesome.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung verwendet [Font Awesome v4.5.0](https://github.com/FortAwesome/Font-Awesome) von Dave Gandy.
+Diese Erweiterung verwendet [Font Awesome v4.7.0](https://github.com/FortAwesome/Font-Awesome) von Dave Gandy.
 
 ## Entwickler
 
