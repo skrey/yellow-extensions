@@ -2,7 +2,7 @@
 // Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery
 
 class YellowGallery {
-    const VERSION = "0.8.9";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
 
     // Handle initialisation
