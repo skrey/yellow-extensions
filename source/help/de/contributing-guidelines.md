@@ -10,21 +10,14 @@ Wie man zusammenarbeitet und gute Produkte macht.
 * [Erstelle eine neue Anfrage für jede Frage](https://github.com/datenstrom/yellow/issues).
 * Beschreibe deine Frage, sage uns was du bisher gemacht hast.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
-* Gib die Version deiner Webseite an. [Welche Version habe ich?](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)
+* Gib die Version deiner Webseite an.
 
 ## Wie man ein Problem meldet
 
 * [Erstelle eine neue Anfrage für jedes Problem](https://github.com/datenstrom/yellow/issues).
 * Beschreibe dein Problem, sage uns wie man es reproduzieren kann.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
-* Gib die Version deiner Webseite an. [Welche Version habe ich?](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)
-
-## Wie man eine Idee vorschlägt
-
-* [Erstelle eine neue Anfrage für jede Idee](https://github.com/datenstrom/yellow/issues).
-* Erkläre deine Idee, wie sie deinen Alltag leichter machen würde.
-* Schlage eine spezifische Lösung vor, wähle eine die für dich funktionieren würde.
-* Stimme für gute Ideen ab, gib ihnen einen Daumen nach oben. [Was ist beliebt?](https://github.com/datenstrom/yellow/issues?q=is%3Aopen+is%3Aissue+sort%3Areactions-%2B1-desc+label%3Aidea)
+* Gib die Version deiner Webseite an.
 
 ## Wie man eine Erweiterung erstellt
 
@@ -43,5 +36,6 @@ Wie man zusammenarbeitet und gute Produkte macht.
 ## Wie man in Kontakt kommt
 
 * [Folge uns auf GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper), [TeamVideo](https://team.video/datendeveloper) oder [sende eine Nachricht](https://datenstrom.se/de/contact/).
+* Erzähle uns von deinen Ideen, wie sie deine Arbeit angenehmer machen würden.
 * Treffe andere Entwickler, diskutiere neuste Änderungen und arbeite zusammen.
 * Beantworte Fragen und löse Probleme, wenn dir das Spaß macht.

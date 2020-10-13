@@ -10,21 +10,14 @@ Here's how to work together and make good products.
 * [Submit a new issue for each question](https://github.com/datenstrom/yellow/issues).
 * Describe your question, tell us what you have done so far.
 * Add a lot of details, the more we know the better we can help.
-* Specify the version of your website. [What version do I have?](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)
+* Specify the version of your website.
 
 ## How to report a problem
 
 * [Submit a new issue for each problem](https://github.com/datenstrom/yellow/issues).
 * Describe your problem, tell us how to reproduce it.
 * Add a lot of details, the more we know the better we can help.
-* Specify the version of your website. [What version do I have?](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)
-
-## How to suggest an idea
-
-* [Submit a new issue for each idea](https://github.com/datenstrom/yellow/issues).
-* Explain your idea, how it would make your everyday life easier.
-* Propose a specific solution, choose one that would work for you.
-* Vote for good ideas and give them a thumbs-up. [What's popular?](https://github.com/datenstrom/yellow/issues?q=is%3Aopen+is%3Aissue+sort%3Areactions-%2B1-desc+label%3Aidea)
+* Specify the version of your website.
 
 ## How to create an extension
 
@@ -43,5 +36,6 @@ Here's how to work together and make good products.
 ## How to get in touch
 
 * [Follow us on GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper), [TeamVideo](https://team.video/datendeveloper) or [send a message](https://datenstrom.se/contact/).
+* Tell us about your ideas, how they would make your work more enjoyable.
 * Meet other developers, discuss latest changes and work together. 
 * Answer questions and solve problems, if you enjoy it.
