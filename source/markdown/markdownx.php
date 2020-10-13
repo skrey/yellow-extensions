@@ -2,7 +2,7 @@
 // Markdown extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown
 
 class YellowMarkdownx {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -2848,7 +2848,7 @@ class YellowMarkdownxParser extends ParsedownExtra {
         if ($Block) {
             $level = strspn($Line["text"], "#");
             $text = trim($Line["text"], "#");
-            if (!isset($Block["element"]["attributes"]) && $level>=2 && $level<=3) {
+            if (!isset($Block["element"]["attributes"]) && $level>=2) {
                 $Block["element"]["attributes"] = array("id" => $this->getIdAttribute($text));
             }
         }
@@ -2861,7 +2861,7 @@ class YellowMarkdownxParser extends ParsedownExtra {
         if ($Block) {
             $text = $Block["element"]["handler"]["argument"];
             $level = $Line["text"][0]=="=" ? 1 : 2;
-            if (!isset($Block["element"]["attributes"]) && $level>=2 && $level<=3) {
+            if (!isset($Block["element"]["attributes"]) && $level>=2) {
                 $Block["element"]["attributes"] = array("id" => $this->getIdAttribute($text));
             }
         }
