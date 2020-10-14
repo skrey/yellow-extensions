@@ -10,14 +10,14 @@ Here's how to work together and make good products.
 * [Submit a new issue for each question](https://github.com/datenstrom/yellow/issues).
 * Describe your question, tell us what you have done so far.
 * Add a lot of details, the more we know the better we can help.
-* Specify the version of your website.
+* Specify the version of your website, including log files and screenshots.
 
 ## How to report a problem
 
 * [Submit a new issue for each problem](https://github.com/datenstrom/yellow/issues).
 * Describe your problem, tell us how to reproduce it.
 * Add a lot of details, the more we know the better we can help.
-* Specify the version of your website.
+* Specify the version of your website, including log files and screenshots.
 
 ## How to create an extension
 
@@ -31,11 +31,11 @@ Here's how to work together and make good products.
 * [Have a look at your own language](https://github.com/datenstrom/yellow-extensions#languages) and check that everything looks okay. 
 * Look for text lines in English, which have not been translated yet. 
 * Make a new translation, if your language is missing.
-* Publish your translation in the official repository.
+* Add your translation to the official repository.
 
 ## How to get in touch
 
-* [Follow us on GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper), [TeamVideo](https://team.video/datendeveloper) or [send a message](https://datenstrom.se/contact/).
-* Tell us about your ideas, how they would make your work more enjoyable.
-* Meet other developers, discuss latest changes and work together. 
+* [Send a message](https://datenstrom.se/contact/), [follow us on GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper) or [TeamVideo](https://team.video/datendeveloper).
+* Tell about your ideas, how they would make your work more enjoyable.
+* Meet other developers and designers, work together with us. 
 * Answer questions and solve problems, if you enjoy it.

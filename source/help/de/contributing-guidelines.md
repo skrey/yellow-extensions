@@ -10,14 +10,14 @@ Wie man zusammenarbeitet und gute Produkte macht.
 * [Erstelle eine neue Anfrage für jede Frage](https://github.com/datenstrom/yellow/issues).
 * Beschreibe deine Frage, sage uns was du bisher gemacht hast.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
-* Gib die Version deiner Webseite an.
+* Gib die Version deiner Webseite an, gerne auch Logdateien und Bildschirmfotos.
 
 ## Wie man ein Problem meldet
 
 * [Erstelle eine neue Anfrage für jedes Problem](https://github.com/datenstrom/yellow/issues).
 * Beschreibe dein Problem, sage uns wie man es reproduzieren kann.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
-* Gib die Version deiner Webseite an.
+* Gib die Version deiner Webseite an, gerne auch Logdateien und Bildschirmfotos.
 
 ## Wie man eine Erweiterung erstellt
 
@@ -31,11 +31,11 @@ Wie man zusammenarbeitet und gute Produkte macht.
 * [Schaue dir deine eigene Sprache an](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) und überprüfe ob alles in Ordnung ist.
 * Suche nach Textzeilen in Englisch, die noch nicht übersetzt wurden.
 * Erstelle eine neue Übersetzung, wenn deine Sprache fehlt.
-* Veröffentliche deine Übersetzung im offiziellen Repository.
+* Füge deine Übersetzung zum offiziellen Repository hinzu.
 
 ## Wie man in Kontakt kommt
 
-* [Folge uns auf GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper), [TeamVideo](https://team.video/datendeveloper) oder [sende eine Nachricht](https://datenstrom.se/de/contact/).
-* Erzähle uns von deinen Ideen, wie sie deine Arbeit angenehmer machen würden.
-* Treffe andere Entwickler, diskutiere neuste Änderungen und arbeite zusammen.
+* [Sende eine Nachricht](https://datenstrom.se/de/contact/), [folge uns auf GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper) oder [TeamVideo](https://team.video/datendeveloper).
+* Erzähle von deinen Ideen, wie sie deine Arbeit angenehmer machen würden.
+* Treffe andere Entwickler und Designer, arbeite mit uns zusammen.
 * Beantworte Fragen und löse Probleme, wenn dir das Spaß macht.
