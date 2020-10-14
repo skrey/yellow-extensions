@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.28";
+    const VERSION = "0.8.29";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -99,10 +99,6 @@ class YellowPublish {
                         $matches[2] = preg_replace("/,(\S)/", ", $1", $matches[2]);
                         $line = "$matches[1]: $matches[2]\n";
                         list($entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 2);
-                        if (strposu($entry, ".")===false) { // TODO: remove later, converts old extension settings
-                            list($dummy, $entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 3);
-                            $line = "$matches[1]: $entry,$flags\n";
-                        }
                         $fileNameDestination = $matches[1];
                         if (!$this->yellow->lookup->isValidFile($this->yellow->toolbox->normaliseTokens($fileNameDestination))) {
                             $statusCode = 500;
