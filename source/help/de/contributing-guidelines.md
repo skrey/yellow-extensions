@@ -9,15 +9,15 @@ Wie man zusammenarbeitet und gute Produkte macht.
 
 * [Erstelle eine neue Anfrage für jede Frage](https://github.com/datenstrom/yellow/issues).
 * Beschreibe deine Frage, sage uns was du bisher gemacht hast.
+* Gib die Version deiner Webseite an, benutze die neuste Version falls möglich.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
-* Gib die Version deiner Webseite an, gerne auch Logdateien und Bildschirmfotos.
 
 ## Wie man ein Problem meldet
 
 * [Erstelle eine neue Anfrage für jedes Problem](https://github.com/datenstrom/yellow/issues).
 * Beschreibe dein Problem, sage uns wie man es reproduzieren kann.
+* Gib die Version deiner Webseite an, überprüfe Logdateien nach Fehlern.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
-* Gib die Version deiner Webseite an, gerne auch Logdateien und Bildschirmfotos.
 
 ## Wie man eine Erweiterung erstellt
 
@@ -35,7 +35,7 @@ Wie man zusammenarbeitet und gute Produkte macht.
 
 ## Wie man in Kontakt kommt
 
-* [Sende eine Nachricht](https://datenstrom.se/de/contact/), [folge uns auf GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper) oder [TeamVideo](https://team.video/datendeveloper).
+* [Sende eine Nachricht](https://datenstrom.se/de/contact/), [folge uns auf GitHub](https://github.com/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper) oder [TeamVideo](https://team.video/datendeveloper).
 * Erzähle von deinen Ideen, wie sie deine Arbeit angenehmer machen würden.
 * Treffe andere Entwickler und Designer, arbeite mit uns zusammen.
 * Beantworte Fragen und löse Probleme, wenn dir das Spaß macht.

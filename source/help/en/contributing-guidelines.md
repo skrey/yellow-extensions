@@ -9,15 +9,15 @@ Here's how to work together and make good products.
 
 * [Submit a new issue for each question](https://github.com/datenstrom/yellow/issues).
 * Describe your question, tell us what you have done so far.
+* Specify the version of your website, use the latest version if possible.
 * Add a lot of details, the more we know the better we can help.
-* Specify the version of your website, including log files and screenshots.
 
 ## How to report a problem
 
 * [Submit a new issue for each problem](https://github.com/datenstrom/yellow/issues).
 * Describe your problem, tell us how to reproduce it.
+* Specify the version of your website, check log files for errors.
 * Add a lot of details, the more we know the better we can help.
-* Specify the version of your website, including log files and screenshots.
 
 ## How to create an extension
 
@@ -35,7 +35,7 @@ Here's how to work together and make good products.
 
 ## How to get in touch
 
-* [Send a message](https://datenstrom.se/contact/), [follow us on GitHub](https://github.com/datenstrom/yellow), [Gitter](https://gitter.im/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper) or [TeamVideo](https://team.video/datendeveloper).
+* [Send a message](https://datenstrom.se/contact/), [follow us on GitHub](https://github.com/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper) or [TeamVideo](https://team.video/datendeveloper).
 * Tell about your ideas, how they would make your work more enjoyable.
 * Meet other developers and designers, work together with us. 
 * Answer questions and solve problems, if you enjoy it.
