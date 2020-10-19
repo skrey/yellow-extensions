@@ -1,4 +1,4 @@
-Wiki 0.8.12
+Wiki 0.8.13
 ===========
 Wiki für deine Webseite.
 

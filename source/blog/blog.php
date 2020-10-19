@@ -2,7 +2,7 @@
 // Blog extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/blog
 
 class YellowBlog {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -270,6 +270,7 @@ class YellowBlog {
     
     // Return class for page
     public function getClass($page) {
+        $class = "";
         if ($page->isExisting("tag")) {
             foreach (preg_split("/\s*,\s*/", $page->get("tag")) as $tag) {
                 $class .= " tag-".$this->yellow->toolbox->normaliseArguments($tag, false);
