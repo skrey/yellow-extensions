@@ -285,6 +285,7 @@ class YellowBlog {
         foreach ($pages as $page) {
             if ($page->isExisting($key)) {
                 foreach (preg_split("/\s*,\s*/", $page->get($key)) as $entry) {
+                    if (!isset($data[$entry])) $data[$entry] = 0;
                     ++$data[$entry];
                 }
             }
@@ -296,7 +297,10 @@ class YellowBlog {
     public function getMonths($pages, $key) {
         $data = array();
         foreach ($pages as $page) {
-            if (preg_match("/^(\d+\-\d+)\-/", $page->get($key), $matches)) ++$data[$matches[1]];
+            if (preg_match("/^(\d+\-\d+)\-/", $page->get($key), $matches)) {
+                if (!isset($data[$entry])) $data[$entry] = 0;
+                ++$data[$matches[1]];
+            }
         }
         return $data;
     }
