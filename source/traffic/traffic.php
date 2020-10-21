@@ -2,7 +2,7 @@
 // Traffic extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic
 
 class YellowTraffic {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.9";
     public $yellow;         // access to API
     public $days;           // number of days
     public $views;          // number of views
@@ -104,9 +104,12 @@ class YellowTraffic {
                             }
                             $location = $this->getLocation($uri);
                             $referer = $this->getReferer($referer, "$address$base/");
+                            $url = $this->getUrl($scheme, $address, $base, $location);
+                            $urlSearch = $this->getUrlSearch($scheme, $address, $base, $location, $locationSearch);
                             if ($status<400) {
                                 $clientsRequestThrottle = substru($timestamp, 0, 17).$method.$location;
-                                if ($clients[$ip]==$clientsRequestThrottle) {
+                                if (isset($clients[$ip]) && $clients[$ip]==$clientsRequestThrottle) {
+                                    if (!isset($sites[$referer])) $sites[$referer] = 0;
                                     --$sites[$referer];
                                     continue;
                                 }
@@ -116,18 +119,24 @@ class YellowTraffic {
                                 if (!preg_match("#^$base$locationFilter#", $location)) continue;
                                 if ($spamFilter!="none" && preg_match("#$spamFilter#i", $referer.$userAgent)) continue;
                                 if (preg_match("#^$base$locationDownload#", $location)) {
-                                    ++$files[$this->getUrl($scheme, $address, $base, $location)];
+                                    if (!isset($files[$url])) $files[$url] = 0;
+                                    ++$files[$url];
                                 }
                                 if (preg_match("#^$base$locationIgnore#", $location) && $locationFilter=="/") continue;
                                 if (preg_match("#^$base/robots\.txt#", $location) && $locationFilter=="/") continue;
-                                ++$content[$this->getUrl($scheme, $address, $base, $location)];
+                                if (!isset($content[$url])) $content[$url] = 0;
+                                ++$content[$url];
+                                if (!isset($sites[$referer])) $sites[$referer] = 0;
                                 ++$sites[$referer];
-                                ++$search[$this->getSearchUrl($scheme, $address, $base, $location, $locationSearch)];
+                                if (!isset($search[$urlSearch])) $search[$urlSearch] = 0;
+                                ++$search[$urlSearch];
                                 ++$this->views;
                             } else {
                                 if (!preg_match("#^$base$locationFilter#", $location)) continue;
-                                if ($spamFilter!="none" && preg_match("#$spamFilter#i", $referer.$userAgent) && $status==404) continue;
-                                ++$errors[$this->getUrl($scheme, $address, $base, $location)." - ".$this->getStatusFormatted($status)];
+                                if ($spamFilter!="none" && preg_match("#$spamFilter#i", $referer.$userAgent)) continue;
+                                $entry = $this->getUrl($scheme, $address, $base, $location)." - ".$this->getStatusFormatted($status);
+                                if (!isset($errors[$entry])) $errors[$entry] = 0;
+                                ++$errors[$entry];
                             }
                         }
                     }
@@ -200,10 +209,10 @@ class YellowTraffic {
     }
 
     // Return search URL, if available
-    public function getSearchUrl($scheme, $address, $base, $location, $locationSearch) {
+    public function getUrlSearch($scheme, $address, $base, $location, $locationSearch) {
         $locationSearch = $base."(.*)".$locationSearch."query".$this->yellow->toolbox->getLocationArgumentsSeparator();
-        $searchUrl = preg_match("#^$locationSearch([^/]+)/$#", $location) ? ("$scheme://$address".strtoloweru($location)) : "-";
-        return str_replace(array("%", "\x1c", "\x1d", "\x1e", "\x20"), array("%25", "%1C", "%1D", "%1E", "%20"), $searchUrl);
+        $urlSearch = preg_match("#^$locationSearch([^/]+)/$#", $location) ? ("$scheme://$address".strtoloweru($location)) : "-";
+        return str_replace(array("%", "\x1c", "\x1d", "\x1e", "\x20"), array("%25", "%1C", "%1D", "%1E", "%20"), $urlSearch);
     }
     
     // Return human readable status
