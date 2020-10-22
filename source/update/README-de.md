@@ -1,4 +1,4 @@
-Update 0.8.35
+Update 0.8.36
 =============
 Webseite auf dem neusten Stand halten.
 
