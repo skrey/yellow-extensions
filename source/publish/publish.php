@@ -53,7 +53,7 @@ class YellowPublish {
             $statusCode = 500;
             $this->extensions = 0;
             $this->errors = 1;
-            $fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile");
+            $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
             echo "ERROR publishing files: Please configure PublishSourceCodeDirectory in file '$fileName'!\n";
         }
         echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");

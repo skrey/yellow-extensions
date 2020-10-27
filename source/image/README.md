@@ -1,4 +1,4 @@
-Image 0.8.10
+Image 0.8.11
 ============
 Images and thumbnails.
 

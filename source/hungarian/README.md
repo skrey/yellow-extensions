@@ -1,4 +1,4 @@
-Hungarian 0.8.24
+Hungarian 0.8.25
 ================
 Hungarian/Magyar az nyelvvel 'hu'.
 

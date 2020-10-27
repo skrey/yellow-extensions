@@ -2,7 +2,7 @@
 // Japanese extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/japanese
 
 class YellowJapanese {
-    const VERSION = "0.8.24";
+    const VERSION = "0.8.25";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -12,7 +12,7 @@ class YellowJapanese {
     
     // Handle update
     public function onUpdate($action) {
-        $fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile");
+        $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
         if ($action=="install") {
             $this->yellow->system->save($fileName, array("language" => "ja"));
         } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="ja") {

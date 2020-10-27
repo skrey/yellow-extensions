@@ -1,5 +1,5 @@
-Traffic 0.8.9
-=============
+Traffic 0.8.10
+==============
 Zugriffsanalysen aus Webserver-Logdateien erstellen.
 
 <p align="center"><img src="traffic-screenshot.png?raw=true" width="794" height="478" alt="Bildschirmfoto"></p>

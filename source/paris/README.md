@@ -1,5 +1,5 @@
-Paris 0.8.9
-===========
+Paris 0.8.10
+============
 Paris is an elegant theme.
 
 <p align="center"><img src="paris-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
