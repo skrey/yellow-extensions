@@ -1,7 +1,7 @@
 <?php
-// Markdown extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown
+// Parsedown extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown
 
-class YellowMarkdownx {
+class YellowParsedown {
     const VERSION = "0.8.16";
     public $yellow;         // access to API
     
@@ -12,8 +12,8 @@ class YellowMarkdownx {
     
     // Handle page content in raw format
     public function onParseContentRaw($page, $text) {
-        $markdown = new YellowMarkdownxParser($this->yellow, $page);
-        return $markdown->text($text);
+        $parsedown = new YellowParsedownParser($this->yellow, $page);
+        return $parsedown->text($text);
     }
 }
 
@@ -2691,7 +2691,7 @@ class ParsedownExtra extends Parsedown
 
 // Parsedown parser, Copyright Datenstrom, License GPLv2
 
-class YellowMarkdownxParser extends ParsedownExtra {
+class YellowParsedownParser extends ParsedownExtra {
     public $yellow;             // access to API
     public $page;               // access to page
     public $idAttributes;       // id attributes

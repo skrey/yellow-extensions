@@ -72,6 +72,8 @@ More features, languages and themes for Datenstrom Yellow.
   Embed OpenStreetMap maps. Developed by Giovanni Salmeri.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
   View the markdown source of a page. Developed by Steffen Schultz.
+* [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 
+  Text formatting for humans. Developed by Datenstrom.
 * [Pinboard](https://github.com/GiovanniSalmeri/yellow-pinboard):
   Pinboard for timed notices. Developed by Giovanni Salmeri.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 

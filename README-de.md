@@ -72,6 +72,8 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
   OpenStreetMap-Karten einbinden. Entwickelt von Giovanni Salmeri.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource/README-de.md): 
   Markdown-Quelltext einer Seite ansehen. Entwickelt von Steffen Schultz.
+* [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown/README-de.md): 
+  Textformatierung für Menschen. Entwickelt von Datenstrom.
 * [Pinboard](https://github.com/GiovanniSalmeri/yellow-pinboard):
   Pinnwand für zeitgesteuerte Bekanntmachung. Entwickelt von Giovanni Salmeri.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast/README-de.md): 

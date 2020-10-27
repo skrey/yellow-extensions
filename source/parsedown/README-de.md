@@ -1,5 +1,5 @@
-Markdown 0.8.16
-===============
+Parsedown 0.8.16
+================
 Textformatierung für Menschen.
 
 <p align="center"><img src="markdown-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
@@ -122,13 +122,13 @@ HTML benutzen:
 
 ## Einstellungen
 
-Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Eine anderer Parser lässt sich in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown` = Markdown Extra. 
+Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Parser lässt sich in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: parsedown` = Parsedown Extra. 
 
 ## Installation
 
-[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/markdown.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/parsedown.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung benutzt [Markdown Extra v1.9.0](https://github.com/michelf/php-markdown) von Michel Fortin.
+Diese Erweiterung benutzt [Parsedown Extra v1.8.0-beta-7](https://github.com/erusev/parsedown) von Emanuil Rusev.
 
 ## Entwickler
 

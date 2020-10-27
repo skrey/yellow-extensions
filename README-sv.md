@@ -72,6 +72,8 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
   Bädda in OpenStreetMap-kartor. Utvecklad av Giovanni Salmeri.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
   Visa markeringskällan för en sida. Utvecklad av Steffen Schultz.
+* [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 
+  Textformatering för människor. Utvecklad av Datenstrom.
 * [Pinboard](https://github.com/GiovanniSalmeri/yellow-pinboard):
   Pinboard för tidsinställda meddelanden. Utvecklad av Giovanni Salmeri.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
