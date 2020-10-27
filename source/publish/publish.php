@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.29";
+    const VERSION = "0.8.30";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
