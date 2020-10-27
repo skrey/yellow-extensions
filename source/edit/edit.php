@@ -1251,8 +1251,7 @@ class YellowEditResponse {
     // Return settings actions
     public function getSettingsActions() {
         $settingsActions = "account";
-        if ($this->isUserAccess("configure")) $settingsActions .= ", system";
-        if ($this->isUserAccess("install")) $settingsActions .= ", about";
+        if ($this->isUserAccess("system")) $settingsActions .= ", system";
         if ($this->isUserAccess("update")) $settingsActions .= ", update";
         return $settingsActions=="account" ? "" : $settingsActions;
     }
@@ -1686,9 +1685,8 @@ class YellowEditResponse {
     // Check if user with access
     public function isUserAccess($action, $location = "") {
         $userHome = $this->yellow->user->getUser("home", $this->userEmail);
-        $tokens = preg_split("/\s*,\s*/", $this->yellow->user->getUser("access", $this->userEmail));
-        return in_array($action, $tokens) &&
-            (empty($location) || substru($location, 0, strlenu($userHome))==$userHome);
+        $userAccess = preg_split("/\s*,\s*/", $this->yellow->user->getUser("access", $this->userEmail));
+        return in_array($action, $userAccess) && (empty($location) || substru($location, 0, strlenu($userHome))==$userHome);
     }
     
     // Check if login with restriction
