@@ -12,7 +12,7 @@ install:
   - php yellow.php update
   - echo "Build:exclude" > content/contact/page.md 
   - echo "Build:exclude" > content/search/page.md
-  - echo "CoreStaticUrl:http://website/" >> system/settings/system.ini
+  - echo "CoreStaticUrl:http://website/" >> system/extensions/yellow-system.ini
   - php yellow.php about
 script: 
   - php yellow.php build test
