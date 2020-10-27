@@ -12,15 +12,15 @@ Check if your website supports data encryption. It's best if the Internet connec
 
 ## How to create a user account
 
-The first option is to create a user account in a web browser. Go to the login page. You can create a user account and change your password. The webmaster needs to approve new user accounts. The webmaster's email is defined in file `system/settings/system.ini`.
+The first option is to create a user account in a web browser. Go to the login page. You can create a user account and change your password. The webmaster needs to approve new user accounts. The webmaster's email is defined in file `system/extensions/yellow-system.ini`.
 
-The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user add` followed by email and password. All user accounts are stored in file `system/settings/user.ini`.
+The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php user add` followed by email and password. All user accounts are stored in file `system/extensions/yellow-user.ini`.
 
 ## How to restrict a user account
 
-If you don't want that pages are modified, then restrict user accounts. Open file `system/settings/user.ini` and change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
+If you don't want that pages are modified, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
 
-If you don't want that user accounts are created, then restrict the login page. Open file `system/settings/system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
+If you don't want that user accounts are created, then restrict the login page. Open file `system/extensions/yellow-system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
 
 ## How to restore a deleted page
 
@@ -112,7 +112,7 @@ Updating user accounts at the command line:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
@@ -130,7 +130,7 @@ The following settings can be configured in file `system/settings/system.ini`:
 `EditLoginSessionTimeout` = validity of login in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
 
-<a id="settings-user"></a>The following settings can be configured in file `system/settings/user.ini`:
+<a id="settings-user"></a>The following settings can be configured in file `system/extensions/yellow-user.ini`:
 
 `Email` = email of the user  
 `Name` =  name of the user  

@@ -39,7 +39,7 @@ Kalender einbinden, Events und Agenda:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `GooglecalendarMode` = Kalendermodus, z.B. `week`, `month`, `events`, `agenda`  
 `GooglecalendarEntriesMax` = Anzahl der Einträge  

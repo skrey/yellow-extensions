@@ -32,7 +32,7 @@ Adding an icon, double size:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `FontawesomeToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 

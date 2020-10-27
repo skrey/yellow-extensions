@@ -39,7 +39,7 @@ Embedding a calendar, events and agenda:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `GooglecalendarMode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
 `GooglecalendarEntriesMax` = number of entries  

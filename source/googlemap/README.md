@@ -32,7 +32,7 @@ Embedding a map, GPS coordinates:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `GooglemapZoom` = zoom value  
 `GooglemapStyle` = map style, e.g. `flexible`   

@@ -6,7 +6,7 @@ Show Disqus comments on blog.
 
 ## How to show comments
 
-[Disqus](https://disqus.com) is a comment service for websites. To use this extension open file `system/settings/system.ini` and change `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard. Comments are shown on blog pages. To show comments on other pages add a `[disqus]` shortcut to a page.
+[Disqus](https://disqus.com) is a comment service for websites. To use this extension open file `system/extensions/yellow-system.ini` and change `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard. Comments are shown on blog pages. To show comments on other pages add a `[disqus]` shortcut to a page.
 
 This extension uses an online service, there's the [comments extension](https://github.com/GiovanniSalmeri/yellow-comments) as an alternative.
 
@@ -39,7 +39,7 @@ Layout file with comments:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `DisqusShortname` = your Disqus name  
 

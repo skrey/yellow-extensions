@@ -67,7 +67,7 @@ Statische Webseite und Dateien in der Befehlszeile löschen:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `CoreStaticUrl` = URL der statischen Webseite  
 `CommandStaticBuildDirectory` = Verzeichnis für erzeugte Dateien  

@@ -41,7 +41,7 @@ Inhaltsdatei mit Metadaten vom ersten Bild
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `MetaDefaultImage` = Bild der Seite, `favicon` um das Standard-Icon der Webseite zu verwenden  
 

@@ -37,7 +37,7 @@ Layout file with links:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `PreviousnextPagePrevious` = show link to previous page, 1 or 0  
 `PreviousnextPageNext` = show link to next page, 1 or 0  

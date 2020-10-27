@@ -40,7 +40,7 @@ Bilder in unterschiedliche Größen hinzufügen:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `ImageUploadWidthMax` = maximale Breite zum Hochladen, größere Bilder werden verkleinert  
 `ImageUploadHeightMax` = maximale Höhe zum Hochladen, größere Bilder werden verkleinert  

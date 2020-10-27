@@ -18,7 +18,7 @@ The image formats GIF, JPG, PNG and SVG are supported. All media files are locat
 
 ## How to show image captions
 
-Image captions can be configured in the language settings. Open file `system/settings/language.ini` and add a new line for each image. A line consists of file name and description.
+Image captions can be configured in the language settings. Open file `system/extensions/yellow-language.ini` and add a new line for each image. A line consists of file name and description.
 
 ## Examples
 
@@ -50,7 +50,7 @@ Configuring image captions in the language settings:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `GalleryStyle` = gallery style, e.g. `photoswipe`, `simple`  
 

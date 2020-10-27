@@ -25,7 +25,7 @@ Embedding a video:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `YoutubeStyle` = video style, e.g. `flexible`  
 

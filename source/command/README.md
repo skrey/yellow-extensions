@@ -67,7 +67,7 @@ Cleaning static website and files at the command line:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `CoreStaticUrl` = URL of the static website  
 `CommandStaticBuildDirectory` = directory for generated files  

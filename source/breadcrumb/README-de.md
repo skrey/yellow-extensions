@@ -48,7 +48,7 @@ Layoutdatei mit Brotkrümel:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `BreadcrumbSeparator` = Text der zwischen Elementen angezeigt wird  
 `BreadcrumbStyle` = Brotkrümel-Stil, z.B. `breadcrumb`  

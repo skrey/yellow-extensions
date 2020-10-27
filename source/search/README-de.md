@@ -56,7 +56,7 @@ Inhaltsdatei mit Link zur Suche:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `SearchLocation` = Ort der Suche  
 `SearchPaginationLimit` = Anzahl der Einträge pro Seite  

@@ -46,7 +46,7 @@ Content file with draft status for wiki:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `DraftPaginationLimit` = number of entries to show per page  
 

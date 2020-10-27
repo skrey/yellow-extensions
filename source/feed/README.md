@@ -6,7 +6,7 @@ Feed with recent changes.
 
 ## How to use a feed
 
-The feed is available on your website as `http://website/feed/` and `http://website/feed/page:feed.xml`. It's a feed for the entire website, only visible pages are included. To make a blog feed open file `system/settings/system.ini` and change `FeedFilterLayout: blog`. You can add a link to the feed somewhere on your website.
+The feed is available on your website as `http://website/feed/` and `http://website/feed/page:feed.xml`. It's a feed for the entire website, only visible pages are included. To make a blog feed open file `system/extensions/yellow-system.ini` and change `FeedFilterLayout: blog`. You can add a link to the feed somewhere on your website.
 
 ## Examples
 
@@ -39,7 +39,7 @@ Content file with link to feed, by a specific author:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `FeedLocation` = feed location  
 `FeedFileXml` = feed file name for RSS feed  

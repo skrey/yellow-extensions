@@ -39,7 +39,7 @@ Adding an image gallery from a subfolder, play automatically:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `SliderStyle` = gallery style, e.g. `flickity`  
 `SliderAutoplay` = play images automatically, delay time in milliseconds  

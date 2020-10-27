@@ -25,7 +25,7 @@ Inhaltsdatei mit Link zur Sitemap:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `SitemapLocation` = Ort der Sitemap  
 `SitemapFileXml` = Sitemap-Dateiname mit XML-Informationen  

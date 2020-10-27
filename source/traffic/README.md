@@ -18,7 +18,7 @@ Creating traffic analytics at the command line:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `TrafficDays` = number of days  
 `TrafficLinesMax` = number of lines to show per category  

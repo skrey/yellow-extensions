@@ -16,7 +16,7 @@ You can use shortcuts to show information about the website:
 
 ## How to update a website
 
-The first option is to update your website in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit). Log in with your user account. Go to the settings and check for updates. Your website will show when updates are available. You need to have update rights to update a website. All user accounts are stored in file `system/settings/user.ini`. 
+The first option is to update your website in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit). Log in with your user account. Go to the settings and check for updates. Your website will show when updates are available. You need to have update rights to update a website. All user accounts are stored in file `system/extensions/yellow-user.ini`. 
 
 The second option is to update your website at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php update`. You can force the update of an extension if necessary. Deleted files can be found in the `system/trash` folder.
 
@@ -76,7 +76,7 @@ Removing extensions at the command line:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `UpdateExtensionUrl` = repository with extensions  
 `UpdateExtensionFile` = file with extension settings  

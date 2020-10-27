@@ -12,15 +12,15 @@ Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. M
 
 ## Wie man ein Benutzerkonto erstellt
 
-Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu erstellen. Gehe zur Anmeldeseite. Du kannst ein Benutzerkonto erstellen und dein Kennwort ändern. Der Webmaster muss neue Benutzerkonten genehmigen. Die E-Mail des Webmasters wird in der Datei `system/settings/system.ini` festgelegt.
+Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu erstellen. Gehe zur Anmeldeseite. Du kannst ein Benutzerkonto erstellen und dein Kennwort ändern. Der Webmaster muss neue Benutzerkonten genehmigen. Die E-Mail des Webmasters wird in der Datei `system/extensions/yellow-system.ini` festgelegt.
 
-Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/settings/user.ini` gespeichert.
+Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
 ## Wie man ein Benutzerkonto beschränkt
 
-Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/settings/user.ini` und ändere `Home` und `Access`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
+Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/extensions/yellow-user.ini` und ändere `Home` und `Access`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
-Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/settings/system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
+Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
 
 ## Wie man eine gelöschte Seite wiederherstellt
 
@@ -112,7 +112,7 @@ Benutzerkonten in der Befehlszeile aktualisieren:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
@@ -130,7 +130,7 @@ Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vo
 `EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
 `EditBruteForceProtection` = Anzahl fehlgeschlagener Anmeldeversuche  
 
-<a id="einstellungen-user"></a>Die folgenden Einstellungen können in der Datei `system/settings/user.ini` vorgenommen werden:
+<a id="einstellungen-user"></a>Die folgenden Einstellungen können in der Datei `system/extensions/yellow-user.ini` vorgenommen werden:
 
 `Email` = E-Mail des Benutzers  
 `Name` =  Name des Benutzers  

@@ -25,7 +25,7 @@ Audiospur einbinden:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `SoundcloudStyle` = Audiospurstil, z.B. `left`, `center`, `right`  
 

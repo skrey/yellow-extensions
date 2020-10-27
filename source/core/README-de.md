@@ -12,17 +12,17 @@ Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager veränd
 
 Falls du den Inhalt anpassen willst, kannst du [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-de.md) benutzen. Alle Inhalte befinden sich im `content`-Verzeichnis. Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst eine Kopfzeile und Fußzeile auch in einem anderen Verzeichnis erstellen, dann wir sie nur auf Seiten im gleichen Verzeichnis angezeigt.
 
-Falls du HTML anpassen willst, ändere das Layout. Das Standardlayout wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Layout lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Natürlich gibt es eine [API für Entwickler](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md), beispielsweise um eine eigene Navigation zu erstellen.
+Falls du HTML anpassen willst, ändere das Layout. Das Standardlayout wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Eine anderes Layout lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Natürlich gibt es eine [API für Entwickler](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md), beispielsweise um eine eigene Navigation zu erstellen.
 
-Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/settings/system.ini` festgelegt. Eine anderes Thema lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern aus mehreren Dateien. Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Es gibt [Themen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#themen) zum Herunterladen.
+Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Eine anderes Thema lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern aus mehreren Dateien. Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Es gibt [Themen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#themen) zum Herunterladen.
 
 ## Wie man eine mehrsprachige Webseite macht
 
-Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) installieren. Die Standardsprache wird in der Datei `system/settings/system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
+Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) installieren. Die Standardsprache wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
 
-Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/settings/system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
-Falls du Sprachen anpassen willst, ändere die Spracheinstellungen. Öffne die Datei `system/settings/language.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Spracheinstellungen hinzufügen, beispielsweise Bildunterschriften.
+Falls du Sprachen anpassen willst, ändere die Spracheinstellungen. Öffne die Datei `system/extensions/yellow-language.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Spracheinstellungen hinzufügen, beispielsweise Bildunterschriften.
 
 ## Wie man eine Seite versteckt
 
@@ -138,7 +138,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
 `Build` = Optionen zum Erstellen einer statischen Webseite, durch Komma getrennt  
 
-<a id="einstellungen-system"></a>Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+<a id="einstellungen-system"></a>Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `Sitename` = Name der Webseite  
 `Author` = Name des Webmasters  

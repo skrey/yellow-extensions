@@ -39,7 +39,7 @@ Highlighting of HTML code, without and with line number:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `HighlightClass` = highlight class, e.g. `highlight`  
 `HighlightLineNumber` = show line number, 1 or 0   

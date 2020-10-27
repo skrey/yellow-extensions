@@ -86,7 +86,7 @@ Liste mit Seiten anzeigen:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `WikiLocation` = Ort des Wikis, leer bedeutet aktuelles Verzeichnis  
 `WikiNewLocation` = Ort für neue Wikiseite  

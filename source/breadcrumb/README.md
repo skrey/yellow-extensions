@@ -48,7 +48,7 @@ Layout file with breadcrumb:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `BreadcrumbSeparator` = text shown between elements  
 `BreadcrumbStyle` = breadcrumb style, e.g. `breadcrumb`  

@@ -32,7 +32,7 @@ Adding an emoji, double size:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `EmojiawesomeCdn` = URL of CDN with emoji images  
 `EmojiawesomeToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  

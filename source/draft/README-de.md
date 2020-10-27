@@ -46,7 +46,7 @@ Inhaltsdatei mit Draft-Status fürs Wiki:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `DraftPaginationLimit` = Anzahl der Einträge pro Seite  
 

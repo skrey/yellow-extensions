@@ -41,7 +41,7 @@ Content file with meta data from first image:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `MetaDefaultImage` = page image, `favicon` to use the default icon of the website  
 

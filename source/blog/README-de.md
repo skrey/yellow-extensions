@@ -87,7 +87,7 @@ Liste mit Seiten anzeigen:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `BlogLocation` = Ort des Blogs, leer bedeutet aktuelles Verzeichnis  
 `BlogNewLocation` = Ort für neue Blogseite  

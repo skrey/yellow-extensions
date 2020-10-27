@@ -39,7 +39,7 @@ Hervorhebung von HTML-Quellcode, ohne und mit Zeilennummer:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `HighlightClass` = Hervorhebungs-Klasse, z.B. `highlight`  
 `HighlightLineNumber` = Zeilennummer anzeigen, 1 oder 0   

@@ -18,7 +18,7 @@ Zugriffsanalysen in der Befehlszeile erstellen:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `TrafficDays` = Anzahl Tage  
 `TrafficLinesMax` = Anzahl der Zeilen pro Kategorie  

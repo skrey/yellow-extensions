@@ -26,7 +26,7 @@ Embedding a photo:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `InstagramStyle` = photo style, e.g. `left`, `center`, `right`  
 

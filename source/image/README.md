@@ -40,7 +40,7 @@ Adding images, different sizes:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `ImageUploadWidthMax` = maximum width for upload, larger images are resized  
 `ImageUploadHeightMax` = maximum height for upload, larger images are resized  

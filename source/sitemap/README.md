@@ -25,7 +25,7 @@ Content file with link to sitemap:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `SitemapLocation` = sitemap location  
 `SitemapFileXml` = sitemap file name with XML information  

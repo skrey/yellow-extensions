@@ -39,7 +39,7 @@ Bildergalerie aus einem Unterverzeichnis hinzufügen, automatisch abspielen:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können in der Datei `system/settings/system.ini` vorgenommen werden:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `SliderStyle` = Galeriestil, z.B. `flickity`  
 `SliderAutoplay` = Bilder automatisch abspielen, Verzögerungszeit in Millisekunden  

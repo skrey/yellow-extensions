@@ -25,7 +25,7 @@ Embedding an audio track:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `SoundcloudStyle` = audio track style, e.g. `left`, `center`, `right`  
 

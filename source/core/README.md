@@ -12,17 +12,17 @@ You can use your favorite text editor and change everything in the file manager.
 
 If you want to adjust the content, then use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown). All content is located in your `content` folder. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder.
 
-If you want to adjust HTML, then change the layout. The default layout is defined in file `system/settings/system.ini`. A different layout can be defined in the [settings](#settings) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), for example to create your own navigation.
+If you want to adjust HTML, then change the layout. The default layout is defined in file `system/extensions/yellow-system.ini`. A different layout can be defined in the [settings](#settings) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), for example to create your own navigation.
 
-If you want to adjust CSS, then change the theme. The default theme is defined in file `system/settings/system.ini`. A different theme can be defined in the [settings](#settings) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All theme files are stored in your `system/themes` folder. There are [themes](https://github.com/datenstrom/yellow-extensions#themes) to download.
+If you want to adjust CSS, then change the theme. The default theme is defined in file `system/extensions/yellow-system.ini`. A different theme can be defined in the [settings](#settings) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All theme files are stored in your `system/themes` folder. There are [themes](https://github.com/datenstrom/yellow-extensions#themes) to download.
 
 ## How to make a multilingual website
 
-Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions#languages). The default language is defined in file `system/settings/system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
+Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions#languages). The default language is defined in file `system/extensions/yellow-system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
 
-If you want to translate the entire website into multiple languages, then enable the multi language mode. Open file `system/settings/system.ini` and change `CoreMultiLanguageMode: 1`. Then you have to adjust the [folder structure](#folders). Go to your `content` folder and create a new folder for each language.
+If you want to translate the entire website into multiple languages, then enable the multi language mode. Open file `system/extensions/yellow-system.ini` and change `CoreMultiLanguageMode: 1`. Then you have to adjust the [folder structure](#folders). Go to your `content` folder and create a new folder for each language.
 
-If you want to configure languages, then change the language settings. Open file `system/settings/language.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
+If you want to configure languages, then change the language settings. Open file `system/extensions/yellow-language.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
 
 ## How to hide a page
 
@@ -138,7 +138,7 @@ The following settings can be configured at the top of a page:
 `Tag` = page tag(s) for categorisation, comma separated  
 `Build` = page option(s) for building a static website, comma separated  
 
-<a id="settings-system"></a>The following settings can be configured in file `system/settings/system.ini`:
+<a id="settings-system"></a>The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `Sitename` = name of the website  
 `Author` = name of the webmaster  

@@ -87,7 +87,7 @@ Showing list of pages:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `BlogLocation` = blog location, empty means current folder  
 `BlogNewLocation` = blog location for new page  

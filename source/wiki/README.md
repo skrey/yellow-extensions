@@ -86,7 +86,7 @@ Showing list of pages:
 
 ## Settings
 
-The following settings can be configured in file `system/settings/system.ini`:
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `WikiLocation` = wiki location, empty means current folder  
 `WikiNewLocation` = wiki location for new page  
