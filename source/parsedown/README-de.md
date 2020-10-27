@@ -2,7 +2,7 @@ Parsedown 0.8.16
 ================
 Textformatierung für Menschen.
 
-<p align="center"><img src="markdown-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
+<p align="center"><img src="parsedown-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man Text formatiert
 
@@ -122,7 +122,7 @@ HTML benutzen:
 
 ## Einstellungen
 
-Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Parser lässt sich in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: parsedown` = Parsedown Extra. 
+Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Parser lässt sich in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: parsedown`. 
 
 ## Installation
 
