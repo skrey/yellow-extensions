@@ -1,4 +1,4 @@
-Help 0.8.15
+Help 0.8.16
 ===========
 Help for your website.
 

@@ -70,9 +70,8 @@ Die folgenden Verzeichnisse sind verfügbar:
 │   ├── images            = Bilder für den Inhalt
 │   └── thumbnails        = Miniaturbilder für den Inhalt
 └── system                = Systemdateien
-    ├── extensions        = Erweiterungsdateien
+    ├── extensions        = Erweiterungsdateien und Einstellungen
     ├── layouts           = konfigurierbare Layoutdateien
-    ├── settings          = konfigurierbare Einstellungsdateien
     ├── themes            = konfigurierbare Themendateien
     └── trash             = gelöschte Dateien
 ```

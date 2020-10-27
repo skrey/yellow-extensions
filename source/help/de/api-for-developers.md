@@ -18,9 +18,8 @@ Die folgenden Verzeichnisse sind vorhanden:
 │   ├── images            = Bilder für den Inhalt
 │   └── thumbnails        = Miniaturbilder für den Inhalt
 └── system                = Systemdateien
-    ├── extensions        = Erweiterungsdateien
+    ├── extensions        = Erweiterungsdateien und Einstellungen
     ├── layouts           = konfigurierbare Layoutdateien
-    ├── settings          = konfigurierbare Einstellungsdateien
     ├── themes            = konfigurierbare Themendateien
     └── trash             = gelöschte Dateien
 ```
@@ -813,7 +812,7 @@ Normalisiere Elemente und Attribute in HTML/SVG-Daten
 Hier ist ein Beispiel-Code um Textzeilen von einer Datei zu lesen:
 
 ``` php
-$fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile");
+$fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
 $fileData = $this->yellow->toolbox->readFile($fileName);
 foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
     echo $line;
@@ -823,7 +822,7 @@ foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
 Hier ist ein Beispiel-Code um Dateien in einem Verzeichnis anzuzeigen:
 
 ``` php
-$path = $this->yellow->system->get("coreSettingDirectory");
+$path = $this->yellow->system->get("coreExtensionDirectory");
 foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, false) as $entry) {
     echo "Found file $entry\n";
 }
@@ -858,8 +857,8 @@ onLoad ───────▶ onStartup ────────────�
                 onParseContentShortcut  onEditSystemFile           │
                 onParseContentHtml      onEditUserAccount          │
                 onParsePageLayout          │                       ▼
-                onParsePageExtra           │                   onLog
-                onParsePageOutput          │                   onUpdate
+                onParsePageExtra           │                   onUpdate
+                onParsePageOutput          │                   onLog
                     │                      │                       │
                     ▼                      │                       │
                 onShutDown ◀───────────────┴───────────────────────┘

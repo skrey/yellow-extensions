@@ -35,7 +35,7 @@ Here's how to work together and make good products.
 
 ## How to get in touch
 
-* [Send a message](https://datenstrom.se/contact/), [follow us on GitHub](https://github.com/datenstrom/yellow), [Twitter](https://twitter.com/datendeveloper) or [TeamVideo](https://team.video/datendeveloper).
+* [Send a message](https://datenstrom.se/contact/), [follow us on GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) or [TeamVideo](https://team.video/datendeveloper).
 * Tell about your ideas, how they would make your work more enjoyable.
 * Meet other developers and designers, work together with us. 
 * Answer questions and solve problems, if you enjoy it.

@@ -8,15 +8,14 @@ Alle Einstellungen befinden sich im `system`-Verzeichnis. Hier macht man Anpassu
     └── system
         ├── extensions
         ├── layouts
-        ├── settings
         ├── themes
         └── trash
 
-Das `extensions`-Verzeichnis enthält installierte Erweiterungen. Im `layouts`-Verzeichnis und im `themes`-Verzeichnis kann man das Aussehen seiner Webseite anpassen. Das `settings`-Verzeichnis enthält Konfigurationsdateien. Das `trash`-Verzeichnis enthält gelöschte Dateien.
+Das `extensions`-Verzeichnis enthält installierte Erweiterungen. Im `layouts`-Verzeichnis und im `themes`-Verzeichnis kann man das Aussehen seiner Webseite anpassen. Das `trash`-Verzeichnis enthält gelöschte Dateien.
 
 ## Systemeinstellungen
 
-Die zentrale Konfigurationsdatei ist `system/settings/system.ini`. Hier ist ein Beispiel:
+Die zentrale Konfigurationsdatei ist `system/extensions/yellow-system.ini`. Hier ist ein Beispiel:
 
     Sitename: Anna Svensson Design
     Author: Anna Svensson
@@ -31,7 +30,7 @@ Dort kannst du die Systemeinstellungen festlegen, zum Beispiel den Namen der Web
 
 ## Spracheinstellungen
 
-Eine weitere Konfigurationsdatei ist `system/settings/language.ini`. Hier ist ein Beispiel:
+Eine weitere Konfigurationsdatei ist `system/extensions/yellow-language.ini`. Hier ist ein Beispiel:
 
     Language: de
     CoreDateFormatMedium: d.m.Y
@@ -41,7 +40,7 @@ Dort kannst du die Texteinstellungen festlegen, zum Beispiel Textabschnitte und 
 
 ## Benutzereinstellungen
 
-Alle Benutzerkonten sind in `system/settings/user.ini` gespeichert. Hier ist ein Beispiel:
+Alle Benutzerkonten sind in `system/extensions/yellow-user.ini` gespeichert. Hier ist ein Beispiel:
 
     Email: anna@svensson.com
     Name: Anna Svensson

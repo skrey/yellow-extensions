@@ -70,9 +70,8 @@ The following folders are available:
 │   ├── images            = image files for content
 │   └── thumbnails        = image thumbnails for content
 └── system                = system files
-    ├── extensions        = extension files
+    ├── extensions        = extension files and settings
     ├── layouts           = configurable layout files
-    ├── settings          = configurable setting files
     ├── themes            = configurable theme files
     └── trash             = deleted files
 ```

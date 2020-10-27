@@ -8,15 +8,14 @@ All settings are located in the `system` folder. You can adjust your website her
     └── system
         ├── extensions
         ├── layouts
-        ├── settings
         ├── themes
         └── trash
 
-The `extensions` folder contains installed extensions. You can use the `layouts` folder and the `themes` folder to adjust the appearance of your website. The `settings` folder contains configuration files. The `trash` folder contains deleted files.
+The `extensions` folder contains installed extensions. You can use the `layouts` folder and the `themes` folder to adjust the appearance of your website. The `trash` folder contains deleted files.
 
 ## System settings
 
-The main configuration file is `system/settings/system.ini`. Here's an example:
+The main configuration file is `system/extensions/yellow-system.ini`. Here's an example:
 
     Sitename: Anna Svensson Design
     Author: Anna Svensson
@@ -31,7 +30,7 @@ You can define the system settings here, for example the name of the website and
 
 ## Language settings
 
-Another configuration file is `system/settings/language.ini`. Here's an example:
+Another configuration file is `system/extensions/yellow-language.ini`. Here's an example:
 
     Language: en
     CoreDateFormatMedium: Y-m-d
@@ -41,7 +40,7 @@ You can define the text settings here, for example text sections and image capti
 
 ## User settings
 
-All user accounts are stored in file `system/settings/user.ini`. Here's an example:
+All user accounts are stored in file `system/extensions/yellow-user.ini`. Here's an example:
 
     Email: anna@svensson.com
     Name: Anna Svensson

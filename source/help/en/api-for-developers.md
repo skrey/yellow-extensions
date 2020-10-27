@@ -18,9 +18,8 @@ The following folders are available:
 │   ├── images            = image files for content
 │   └── thumbnails        = image thumbnails for content
 └── system                = system files
-    ├── extensions        = extension files
+    ├── extensions        = extension files and settings
     ├── layouts           = configurable layout files
-    ├── settings          = configurable setting files
     ├── themes            = configurable theme files
     └── trash             = deleted files
 ```
@@ -814,7 +813,7 @@ Normalise elements and attributes in HTML/SVG data
 Here's an example code for reading text lines from file:
 
 ``` php
-$fileName = $this->yellow->system->get("coreSettingDirectory").$this->yellow->system->get("coreSystemFile");
+$fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
 $fileData = $this->yellow->toolbox->readFile($fileName);
 foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
     echo $line;
@@ -824,7 +823,7 @@ foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
 Here's an example code for showing files in a folder:
 
 ``` php
-$path = $this->yellow->system->get("coreSettingDirectory");
+$path = $this->yellow->system->get("coreExtensionDirectory");
 foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, false) as $entry) {
     echo "Found file $entry\n";
 }
@@ -859,8 +858,8 @@ onLoad ───────▶ onStartup ────────────�
                 onParseContentShortcut  onEditSystemFile           │
                 onParseContentHtml      onEditUserAccount          │
                 onParsePageLayout          │                       ▼
-                onParsePageExtra           │                   onLog
-                onParsePageOutput          │                   onUpdate
+                onParsePageExtra           │                   onUpdate
+                onParsePageOutput          │                   onLog
                     │                      │                       │
                     ▼                      │                       │
                 onShutDown ◀───────────────┴───────────────────────┘
