@@ -16,7 +16,7 @@ Wie man zusammenarbeitet und gute Produkte macht.
 
 * [Erstelle eine neue Anfrage für jedes Problem](https://github.com/datenstrom/yellow/issues).
 * Beschreibe dein Problem, sage uns wie man es reproduzieren kann.
-* Gib die Version deiner Webseite an, überprüfe Logdateien nach Fehlern.
+* Gib die Version deiner Webseite an, überprüfe die Logdatei nach Fehlern.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
 
 ## Wie man eine Erweiterung erstellt

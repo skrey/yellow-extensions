@@ -16,7 +16,7 @@ Here's how to work together and make good products.
 
 * [Submit a new issue for each problem](https://github.com/datenstrom/yellow/issues).
 * Describe your problem, tell us how to reproduce it.
-* Specify the version of your website, check log files for errors.
+* Specify the version of your website, check the log file for errors.
 * Add a lot of details, the more we know the better we can help.
 
 ## How to create an extension

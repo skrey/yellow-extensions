@@ -15,7 +15,7 @@ Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. Über
 
 **Datenstrom Yellow requires write access**
 
-Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben. Es wird empfohlen allen Dateien und Verzeichnissen im Installations-Verzeichnis Schreibrechte zu geben. Sobald der Webserver ausreichende Schreibrechte im `system`-Verzeichnis hat, sollte das Problem behoben sein.
+Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst auch deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben. Es wird empfohlen allen Dateien und Verzeichnissen im Installations-Verzeichnis Schreibrechte zu geben. Sobald der Webserver ausreichende Schreibrechte im `system`-Verzeichnis hat, sollte das Problem behoben sein.
 
 **Datenstrom Yellow requires rewrite support**
 
@@ -127,20 +127,23 @@ server {
 
 Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root` in der Konfigurationsdatei. Nachdem die Konfiguration verändert wurde, musst du möglicherweise den [Nginx-Webserver neustarten/neuladen](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
 
-## Systemdiagnose
+## Probleme nach Aktualisierung der Webseite
 
-Die Datei `system/extensions/yellow.log` zeigt wichtige Informationen und Fehler an. Hier ist ein Beispiel:
+<a id="logdatei"></a>Die Datei `system/extensions/yellow.log` zeigt wichtige Informationen und Fehler an. Hier ist ein Beispiel:
 
 ```
-2020-07-12 13:33:37 info Datenstrom Yellow 0.8.15, PHP 7.1.33, Apache 2.4.33, Mac
-2020-07-12 13:33:37 info Install extension 'English 0.8.21'
-2020-07-12 13:33:37 info Install extension 'French 0.8.21'
-2020-07-12 13:33:37 info Install extension 'German 0.8.21'
-2020-07-12 13:33:49 info Install extension 'Blog 0.8.7'
-2020-07-12 13:33:49 info Add user 'Anna'
+2020-10-28 14:13:07 info Datenstrom Yellow 0.8.16, PHP 7.1.33, Apache 2.4.33, Mac
+2020-10-28 14:13:07 info Install extension 'English 0.8.24'
+2020-10-28 14:13:07 info Install extension 'German 0.8.24'
+2020-10-28 14:13:07 info Install extension 'French 0.8.24'
+2020-10-28 14:13:17 info Add user 'Anna'
+2020-10-28 21:02:42 info Update extension 'Core 0.8.26'
+2020-10-28 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Für weitere Informationen öffne die Datei `system/extensions/core.php` und ändere `<?php define("DEBUG", 1);`  
+Überprüfe die Logdatei nach Fehlern. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien und Verzeichnissen Schreibrechte. Wenn Erweiterungs-Probleme auftreten, dann wende dich an den Entwickler. Falls du nicht sicher bist was Probleme verursacht, dann aktiviere den Debug-Modus. Dadurch werden zusätzliche Informationen auf der aktuellen Seite angezeigt. 
+
+Öffne die Datei `system/extensions/core.php` und ändere die erste Zeile zu `<?php define("DEBUG", 1);`  
 
 ```
 YellowCore::sendPage Cache-Control: max-age=60
@@ -153,18 +156,20 @@ YellowCore::request status:200 time:19 ms
 ```
 
 Dateisysteminformationen durch Erhöhen des Debuglevels zu `<?php define("DEBUG", 2);`
+
 ```
-YellowSystem::load file:system/settings/system.ini
-YellowUser::load file:system/settings/user.ini
+YellowSystem::load file:system/extensions/yellow-system.ini
+YellowUser::load file:system/extensions/yellow-user.ini
 YellowLanguage::load file:system/extensions/english.txt
 YellowLanguage::load file:system/extensions/french.txt
 YellowLanguage::load file:system/extensions/german.txt
-YellowLanguage::load file:system/settings/language.ini
+YellowLanguage::load file:system/extensions/yellow-language.ini
 ```
 
 Maximum Informationen durch Erhöhen des Debuglevels zu `<?php define("DEBUG", 3);`
+
 ```
-YellowSystem::load file:system/settings/system.ini
+YellowSystem::load file:system/extensions/yellow-system.ini
 YellowSystem::load Sitename:Datenstrom Yellow
 YellowSystem::load Author:Datenstrom
 YellowSystem::load Email:webmaster
