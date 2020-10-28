@@ -1,4 +1,4 @@
-Update 0.8.39
+Update 0.8.40
 =============
 Keep your website up to date.
 
@@ -82,6 +82,9 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `UpdateExtensionFile` = file with extension settings  
 `UpdateCurrentFile` = file with current update settings  
 `UpdateLatestFile` = file with latest update settings  
+`UpdateDailyTimestamp` = time of next daily update  
+`UpdateWeeklyTimestamp` = time of next weekly update  
+`UpdateMonthlyTimestamp` = time of next monthly update  
 `UpdateNotification` = pending notifications  
 
 The log file can be found in file `system/extensions/yellow.log`.
