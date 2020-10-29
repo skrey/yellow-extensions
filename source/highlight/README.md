@@ -8,7 +8,7 @@ Highlight source code.
 
 Wrap your code blocks in \`\`\` and add a language identifier.
 
-The following programming languages are included: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. You can download more [language files](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages), rename and copy them into your `system/extensions` folder.
+The following programming languages are included: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. You can download more [language files](https://github.com/scrivo/highlight.php/tree/master/src/Highlight/languages), rename and copy them into your `system/extensions` folder.
 
 ## Examples
 

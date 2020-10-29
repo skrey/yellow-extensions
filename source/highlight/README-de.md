@@ -8,7 +8,7 @@ Quellcode hervorheben.
 
 Wickle Codeblöcke in \`\`\` ein und fügen eine Sprachidentifizierung hinzu.
 
-Die folgenden Programmiersprachen sind enthalten: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. Du kannst weitere [Sprachdateien](https://github.com/scrivo/highlight.php/tree/master/Highlight/languages) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren.
+Die folgenden Programmiersprachen sind enthalten: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. Du kannst weitere [Sprachdateien](https://github.com/scrivo/highlight.php/tree/master/src/Highlight/languages) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren.
 
 ## Beispiele
 
