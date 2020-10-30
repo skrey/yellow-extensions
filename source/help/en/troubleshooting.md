@@ -9,23 +9,33 @@ Here's how to find and fix errors.
 
 The following problems can occur:
 
-**Datenstrom Yellow requires configuration file**
+```
+Datenstrom Yellow requires configuration file!
+```
 
 Copy the supplied `.htaccess` file into the installation folder. Check if your FTP software has a setting to show all files. It sometimes happens that the `.htaccess` file was overlooked during installation. After the missing configuration file has been copied to the web server, the problem should be resolved.
 
-**Datenstrom Yellow requires write access**
+```
+Datenstrom Yellow requires write access!
+```
 
 Run the command `chmod -R a+rw *` in the installation folder. You can also use your FTP software to give write permissions to all files. It's recommended to give write permissions to all files and folders in the installation folder. As soon as the web server has sufficient write access in the `system` folder, the problem should be resolved.
 
-**Datenstrom Yellow requires rewrite support**
+```
+Datenstrom Yellow requires rewrite support!
+```
 
 Configure the web server, see configuration files below. You either need a configuration file for your web server or you use the built-in web server on your computer. The built-in web server is handy for developers. As soon as the web server forwards HTTP requests to the `yellow.php`, the problem should be resolved.
 
-**Datenstrom Yellow requires PHP extension**
+```
+Datenstrom Yellow requires PHP extension!
+```
 
 Install the missing PHP extension on your web server.
 
-**Datenstrom Yellow requires PHP 5.6 or higher**
+```
+Datenstrom Yellow requires PHP 5.6 or higher!
+```
 
 Install the latest PHP version on your web server.
 
@@ -127,7 +137,7 @@ server {
 When your website doesn't work, then check `server_name` and `root` in the configuration file. After the configuration has been changed, you may have to [restart/reload the Nginx web server](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
 
 
-## Problems after website update
+## Problems after update
 
 The file `system/extensions/yellow.log` shows important information and errors. Here's an example:
 
@@ -141,7 +151,7 @@ The file `system/extensions/yellow.log` shows important information and errors. 
 2020-10-28 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Check the log file for errors. When there are write errors, then give write permissions to the affected files and folders. When there are extension errors, then contact the  developer and let him/her know. If you're not sure what causes problems, then activate the debug mode. This will show additional information on the current page. 
+Check the log file for errors. When there are write errors, then give write permissions to the affected files and folders. When there are extension errors, then contact the developer/designer and let him/her know. If you're not sure what causes problems, then activate the debug mode. This will show additional information on the current page. 
 
 Open file `system/extensions/core.php` and change the first line to `<?php define("DEBUG", 1);`
 
@@ -151,7 +161,7 @@ YellowCore::sendPage Content-Type: text/html; charset=utf-8
 YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
 YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
 YellowCore::sendPage language:en layout:blogpages theme:stockholm parser:markdown
-YellowCore::processRequest file:content/1-en/2-features/1-blog/page.md
+YellowCore::processRequest file:content/1-en/2-extensions/1-blog/page.md
 YellowCore::request status:200 time:19 ms
 ```
 
@@ -164,6 +174,7 @@ YellowLanguage::load file:system/extensions/english.txt
 YellowLanguage::load file:system/extensions/french.txt
 YellowLanguage::load file:system/extensions/german.txt
 YellowLanguage::load file:system/extensions/yellow-language.ini
+YellowLookup::findFileFromLocation /extensions/blog/ -> content/1-en/2-extensions/1-blog/page.md
 ```
 
 Get maximum information by increasing debug level to `<?php define("DEBUG", 3);`
@@ -175,10 +186,11 @@ YellowSystem::load Author:Datenstrom
 YellowSystem::load Email:webmaster
 YellowSystem::load Language:en
 YellowSystem::load Layout:default
+YellowSystem::load Theme:stockholm
 ```
 
 ## Related information
 
 * [How to start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
 * [How to create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
-* [How to restore a deleted page](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) 
+* [How to update a website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)

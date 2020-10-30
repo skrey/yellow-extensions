@@ -9,23 +9,33 @@ Wie man Fehler findet und behebt.
 
 Die folgenden Probleme können auftreten:
 
-**Datenstrom Yellow requires configuration file**
+```
+Datenstrom Yellow requires configuration file!
+```
 
 Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen. Es passiert manchmal dass die `.htaccess` Datei bei der Installation übersehen wurde. Nachdem die fehlende Konfigurationsdatei auf den Webserver kopiert wurde, sollte das Problem behoben sein.
 
-**Datenstrom Yellow requires write access**
+```
+Datenstrom Yellow requires write access!
+```
 
 Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst auch deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben. Es wird empfohlen allen Dateien und Verzeichnissen im Installations-Verzeichnis Schreibrechte zu geben. Sobald der Webserver ausreichende Schreibrechte im `system`-Verzeichnis hat, sollte das Problem behoben sein.
 
-**Datenstrom Yellow requires rewrite support**
+```
+Datenstrom Yellow requires rewrite support!
+```
 
 Konfiguriere den Webserver, siehe Konfigurationsdateien weiter unten. Du benötigst entweder eine Konfigurationsdatei für deinen Webserver oder du verwendest den eingebauten Webserver auf deinem Computer. Der eingebaute Webserver ist praktisch für Entwickler. Sobald der Webserver HTTP-Anfragen an die `yellow.php` weiterleitet, sollte das Problem behoben sein.
 
-**Datenstrom Yellow requires PHP extension**
+```
+Datenstrom Yellow requires PHP extension!
+```
 
 Installiere die fehlende PHP-Erweiterung auf deinem Webserver.
 
-**Datenstrom Yellow requires PHP 5.6 or higher**
+```
+Datenstrom Yellow requires PHP 5.6 or higher!
+```
 
 Installiere die neuste PHP-Version auf deinem Webserver.
 
@@ -127,7 +137,7 @@ server {
 
 Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root` in der Konfigurationsdatei. Nachdem die Konfiguration verändert wurde, musst du möglicherweise den [Nginx-Webserver neustarten/neuladen](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
 
-## Probleme nach Aktualisierung der Webseite
+## Probleme nach Aktualisierung
 
 <a id="logdatei"></a>Die Datei `system/extensions/yellow.log` zeigt wichtige Informationen und Fehler an. Hier ist ein Beispiel:
 
@@ -141,9 +151,9 @@ Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root
 2020-10-28 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Überprüfe die Logdatei nach Fehlern. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien und Verzeichnissen Schreibrechte. Wenn Erweiterungs-Probleme auftreten, dann wende dich an den Entwickler. Falls du nicht sicher bist was Probleme verursacht, dann aktiviere den Debug-Modus. Dadurch werden zusätzliche Informationen auf der aktuellen Seite angezeigt. 
+Überprüfe die Logdatei nach Fehlern. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien und Verzeichnissen Schreibrechte. Wenn Erweiterungs-Probleme auftreten, dann wende dich an den Entwickler/Designer. Falls du nicht sicher bist was Probleme verursacht, dann aktiviere den Debug-Modus. Dadurch werden zusätzliche Informationen auf der aktuellen Seite angezeigt. 
 
-Öffne die Datei `system/extensions/core.php` und ändere die erste Zeile zu `<?php define("DEBUG", 1);`  
+Öffne die Datei `system/extensions/core.php` und ändere die erste Zeile zu `<?php define("DEBUG", 1);`
 
 ```
 YellowCore::sendPage Cache-Control: max-age=60
@@ -151,7 +161,7 @@ YellowCore::sendPage Content-Type: text/html; charset=utf-8
 YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
 YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
 YellowCore::sendPage language:de layout:blogpages theme:stockholm parser:markdown
-YellowCore::processRequest file:content/2-de/2-features/1-blog/page.md
+YellowCore::processRequest file:content/2-de/2-extensions/1-blog/page.md
 YellowCore::request status:200 time:19 ms
 ```
 
@@ -164,6 +174,7 @@ YellowLanguage::load file:system/extensions/english.txt
 YellowLanguage::load file:system/extensions/french.txt
 YellowLanguage::load file:system/extensions/german.txt
 YellowLanguage::load file:system/extensions/yellow-language.ini
+YellowLookup::findFileFromLocation /de/extensions/blog/ -> content/2-de/2-extensions/1-blog/page.md
 ```
 
 Maximum Informationen durch Erhöhen des Debuglevels zu `<?php define("DEBUG", 3);`
@@ -175,10 +186,11 @@ YellowSystem::load Author:Datenstrom
 YellowSystem::load Email:webmaster
 YellowSystem::load Language:de
 YellowSystem::load Layout:default
+YellowSystem::load Theme:stockholm
 ```
 
 ## Verwandte Informationen
 
 * [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md)
 * [Wie man ein Benutzerkonto erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
-* [Wie man eine gelöschte Seite wiederherstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
+* [Wie man eine Webseite aktualisiert](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md)
