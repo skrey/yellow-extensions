@@ -1,4 +1,4 @@
-Publish 0.8.30
+Publish 0.8.31
 ==============
 Erweiterungen verpacken und veröffentlichen.
 

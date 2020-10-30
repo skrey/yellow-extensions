@@ -2,7 +2,7 @@
 // Emojiawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome
 
 class YellowEmojiawesome {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -41,6 +41,7 @@ class YellowEmojiawesome {
             $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
             $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}emojiawesome.css\" />\n";
             if (defined("DEBUG") && DEBUG>=3) {
+                $outputData = "";
                 $cdn = $this->yellow->system->get("emojiawesomeCdn");
                 foreach ($this->getLookupData() as $entry) {
                     $class = $this->normaliseClass("ea-$entry[shortname]");
