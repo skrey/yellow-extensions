@@ -1,8 +1,18 @@
-Update 0.8.41
+Update 0.8.42
 =============
 Keep your website up to date.
 
 <p align="center"><img src="update-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
+
+## How to update a website
+
+The first option is to update your website in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit). Log in with your user account. Go to the settings and check for updates. Your website will show when updates are available. You need to have update rights to update a website. All user accounts are stored in file `system/extensions/yellow-user.ini`. 
+
+The second option is to update your website at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php update`. You can optionally add the name of an extension. Deleted files can be found in the `system/trash` folder.
+
+## How to extend a website
+
+Your website only comes with the bare essentials. You can download and add extensions as ZIP-files. You can also add extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php install` followed by more arguments. You can also remove extensions at the command line.
 
 ## How to show the version of a website
 
@@ -13,16 +23,6 @@ You can use shortcuts to show information about the website:
 `[yellow about]` for current version  
 `[yellow error]` for current error message  
 `[yellow log]` for latest entries in log file  
-
-## How to update a website
-
-The first option is to update your website in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit). Log in with your user account. Go to the settings and check for updates. Your website will show when updates are available. You need to have update rights to update a website. All user accounts are stored in file `system/extensions/yellow-user.ini`. 
-
-The second option is to update your website at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php update`. You can force the update of an extension if necessary. Deleted files can be found in the `system/trash` folder.
-
-## How to extend a website
-
-Your website only comes with the bare essentials. You can download and add extensions as ZIP-files. You can also add extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php install` followed by more arguments. You can also remove extensions at the command line.
 
 ## Examples
 
@@ -59,8 +59,8 @@ Showing current version at the command line:
 Updating website at the command line:
  
 `php yellow.php update`  
-`php yellow.php update force markdown`  
-`php yellow.php update force english german french`  
+`php yellow.php update gallery`  
+`php yellow.php update english german french`  
 
 Adding extensions at the command line:
 

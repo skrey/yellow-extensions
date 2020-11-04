@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -47,12 +47,12 @@ class YellowSearch {
                             $searchScore += $score;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageSearch->getLocation(true), $token)) {
-                            $searchScore += 20;
+                        if (stristr($pageSearch->get("title"), $token)) {
+                            $searchScore += 50;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageSearch->get("title"), $token)) {
-                            $searchScore += 10;
+                        if (stristr($pageSearch->getLocation(true), $token)) {
+                            $searchScore += 20;
                             $searchTokens[$token] = true;
                         }
                         if (stristr($pageSearch->get("tag"), $token)) {
