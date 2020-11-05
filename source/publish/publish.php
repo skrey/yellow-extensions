@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.31";
+    const VERSION = "0.8.32";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -247,7 +247,7 @@ class YellowPublish {
                 }
             }
             if (!empty($extension) && !empty($version)) {
-                $published = filemtime($entry);
+                $published = $this->yellow->toolbox->getFileModified($entry);
                 $fileNameSource = $entry;
                 break;
             }
