@@ -1,4 +1,4 @@
-Core 0.8.29
+Core 0.8.30
 ===========
 Kernfunktionalität der Webseite.
 
