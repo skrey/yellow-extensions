@@ -65,7 +65,7 @@ More features, languages and themes for Datenstrom Yellow.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta):
   Meta data for social media sites. Developed by Datenstrom, Steffen Schultz.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
-  Light and accessible social sharing links. Developed by Giovanni Salmeri.
+  Light and accessible social sharing links. Developed by Giovanni Salmeri. [[1]](#feature-notes)
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
   Message of the day. Developed by Steffen Schultz.
 * [Openstreetmap](https://github.com/GiovanniSalmeri/yellow-openstreetmap):
@@ -116,6 +116,8 @@ More features, languages and themes for Datenstrom Yellow.
   Wiki for your website. Developed by Datenstrom.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube): 
   Embed Youtube videos. Developed by Datenstrom.
+
+<a id="feature-notes"></a>1: Extension doesn't work with latest release, consider helping the developer.
 
 ## Languages
 
