@@ -19,7 +19,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md): 
   Befehlszeile der Webseite. Entwickelt von Datenstrom.
 * [Comments](https://github.com/GiovanniSalmeri/yellow-comments):
-  Einfaches Kommentarsystem. Entwickelt von Giovanni Salmeri.
+  Einfaches Kommentarsystem. Entwickelt von Giovanni Salmeri. [[1]](#funktionen-anmerkungen)
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact/README-de.md): 
   E-Mail-Kontaktseite. Entwickelt von Datenstrom.
 * [Core](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md): 
@@ -29,7 +29,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv/README-de.md):
   CSV-Dateileser. Entwickelt von Steffen Schultz.
 * [Diary](https://github.com/GiovanniSalmeri/yellow-diary):
-  Veranstaltungskalender. Entwickelt von Giovanni Salmeri.
+  Veranstaltungskalender. Entwickelt von Giovanni Salmeri. [[1]](#funktionen-anmerkungen)
 * [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus/README-de.md): 
   Disqus-Kommentare im Blog anzeigen. Entwickelt von Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft/README-de.md): 
@@ -41,7 +41,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/source/feed/README-de.md): 
   Feed mit letzten Änderungen. Entwickelt von Datenstrom.
 * [Filelist](https://github.com/GiovanniSalmeri/yellow-filelist):
-  Liste mit Dateien zum Herunterladen. Entwickelt von Giovanni Salmeri.
+  Liste mit Dateien zum Herunterladen. Entwickelt von Giovanni Salmeri. [[1]](#funktionen-anmerkungen)
 * [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-de.md): 
   Icons und Symbole. Entwickelt von Datenstrom.
 * [Gallery](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md): 
@@ -65,17 +65,17 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta/README-de.md):
   Metadaten für soziale Medien. Entwickelt von Datenstrom, Steffen Schultz.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
-  Leichtgewichtige Teilen-Links. Entwickelt von Giovanni Salmeri.
+  Leichtgewichtige Teilen-Links. Entwickelt von Giovanni Salmeri. [[1]](#funktionen-anmerkungen)
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd/README-de.md):
   Nachricht des Tages. Entwickelt von Steffen Schultz.
 * [Openstreetmap](https://github.com/GiovanniSalmeri/yellow-openstreetmap):
-  OpenStreetMap-Karten einbinden. Entwickelt von Giovanni Salmeri.
+  OpenStreetMap-Karten einbinden. Entwickelt von Giovanni Salmeri. [[1]](#funktionen-anmerkungen)
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource/README-de.md): 
   Markdown-Quelltext einer Seite ansehen. Entwickelt von Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown/README-de.md): 
   Textformatierung für Menschen. Entwickelt von Datenstrom.
 * [Pinboard](https://github.com/GiovanniSalmeri/yellow-pinboard):
-  Pinnwand für zeitgesteuerte Bekanntmachung. Entwickelt von Giovanni Salmeri.
+  Pinnwand für zeitgesteuerte Bekanntmachung. Entwickelt von Giovanni Salmeri. [[1]](#funktionen-anmerkungen)
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast/README-de.md): 
   Web-Feed optimiert für die Podcast-Veröffentlichung. Entwickelt von Steffen Schultz.
 * [Previousnext](https://github.com/datenstrom/yellow-extensions/tree/master/source/previousnext/README-de.md): 
@@ -93,7 +93,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-de.md): 
   Volltext-Suche. Entwickelt von Datenstrom.
 * [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):
-  Interne Links erzeugen. Entwickelt von Giovanni Salmeri.
+  Interne Links erzeugen. Entwickelt von Giovanni Salmeri. [[1]](#funktionen-anmerkungen)
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap/README-de.md): 
   Sitemap mit allen Seiten. Entwickelt von Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md): 
@@ -116,6 +116,8 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
   Wiki für deine Webseite. Entwickelt von Datenstrom.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md): 
   Youtube-Videos einbinden. Entwickelt von Datenstrom.
+
+<a id="funktionen-anmerkungen"></a>1: Funktioniert nicht mit der neuesten Version, hilf dem Entwickler.
 
 ## Sprachen
 
