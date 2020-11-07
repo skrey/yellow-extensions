@@ -117,7 +117,7 @@ More features, languages and themes for Datenstrom Yellow.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube): 
   Embed Youtube videos. Developed by Datenstrom.
 
-<a id="feature-notes"></a>1: Doesn't work with latest release, help the developer.
+<a id="feature-notes"></a>Note 1: Doesn't work with latest release, help the developer to update the extension.
 
 ## Languages
 

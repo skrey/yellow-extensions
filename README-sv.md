@@ -117,7 +117,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube): 
   Bädda in Youtube-videor. Utvecklad av Datenstrom.
 
-<a id="funktioner-anteckningar"></a>1: Fungerar inte med den senaste versionen, hjälp utvecklaren.
+<a id="funktioner-anteckningar"></a>Anteckning 1: Fungerar inte med den senaste versionen, hjälp utvecklaren att uppdatera tillägget.
 
 ## Språk
 

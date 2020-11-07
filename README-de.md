@@ -117,7 +117,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md): 
   Youtube-Videos einbinden. Entwickelt von Datenstrom.
 
-<a id="funktionen-anmerkungen"></a>1: Funktioniert nicht mit der neuesten Version, hilf dem Entwickler.
+<a id="funktionen-anmerkungen"></a>Anmerkung 1: Funktioniert nicht mit der neuesten Version, hilf dem Entwickler die Erweiterung zu aktualisieren.
 
 ## Sprachen
 
