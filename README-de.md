@@ -65,11 +65,11 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta/README-de.md):
   Metadaten für soziale Medien. Entwickelt von Datenstrom, Steffen Schultz.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
-  Leichtgewichtige Teilen-Links. Entwickelt von Giovanni Salmeri. [[1]](#funktionen-anmerkungen)
+  Leichtgewichtige Teilen-Links. Entwickelt von Giovanni Salmeri.
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd/README-de.md):
   Nachricht des Tages. Entwickelt von Steffen Schultz.
 * [Openstreetmap](https://github.com/GiovanniSalmeri/yellow-openstreetmap):
-  OpenStreetMap-Karten einbinden. Entwickelt von Giovanni Salmeri. [[1]](#funktionen-anmerkungen)
+  OpenStreetMap-Karten einbinden. Entwickelt von Giovanni Salmeri.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource/README-de.md): 
   Markdown-Quelltext einer Seite ansehen. Entwickelt von Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown/README-de.md): 

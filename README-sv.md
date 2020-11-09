@@ -65,11 +65,11 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta):
   Metadata för webbplatser med sociala medier. Utvecklad av Datenstrom, Steffen Schultz.
 * [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
-  Lätt och tillgänglig social delningslänkar. Utvecklad av Giovanni Salmeri. [[1]](#funktioner-anteckningar)
+  Lätt och tillgänglig social delningslänkar. Utvecklad av Giovanni Salmeri.
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
   Dagens meddelande. Utvecklad av Steffen Schultz.
 * [Openstreetmap](https://github.com/GiovanniSalmeri/yellow-openstreetmap):
-  Bädda in OpenStreetMap-kartor. Utvecklad av Giovanni Salmeri. [[1]](#funktioner-anteckningar)
+  Bädda in OpenStreetMap-kartor. Utvecklad av Giovanni Salmeri.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
   Visa markeringskällan för en sida. Utvecklad av Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 
