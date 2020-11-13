@@ -2,7 +2,7 @@
 // Update extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/update
 
 class YellowUpdate {
-    const VERSION = "0.8.42";
+    const VERSION = "0.8.43";
     const PRIORITY = "2";
     public $yellow;                 // access to API
     public $updates;                // number of updates
@@ -58,6 +58,7 @@ class YellowUpdate {
     public function onUpdate($action) {
         if ($action=="ready") {
             $this->convertSystemSettings();
+            if ($this->yellow->page->isExisting("pageError")) return;
             if ($this->yellow->system->get("updateNotification")!="none") {
                 foreach (explode(",", $this->yellow->system->get("updateNotification")) as $token) {
                     list($extension, $action) = $this->yellow->toolbox->getTextList($token, "/", 2);
