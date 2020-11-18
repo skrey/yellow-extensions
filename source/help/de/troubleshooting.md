@@ -142,7 +142,7 @@ Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root
 <a id="logdatei"></a>Die Datei `system/extensions/yellow.log` zeigt wichtige Informationen und Fehler an. Hier ist ein Beispiel:
 
 ```
-2020-10-28 14:13:07 info Datenstrom Yellow 0.8.16, PHP 7.1.33, Apache 2.4.33, Mac
+2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.16, PHP 7.1.33, Apache 2.4.33, Mac
 2020-10-28 14:13:07 info Install extension 'English 0.8.24'
 2020-10-28 14:13:07 info Install extension 'German 0.8.24'
 2020-10-28 14:13:07 info Install extension 'French 0.8.24'
