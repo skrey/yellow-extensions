@@ -781,10 +781,10 @@ Delete file
 Delete directory  
 
 **toolbox->modifyFile($fileName, $modified)**  
-Set file modification date, Unix time  
+Set file/directory modification date, Unix time  
 
 **toolbox->getFileModified($fileName)**  
-Return file modification date, Unix time  
+Return file/directory modification date, Unix time  
 
 **toolbox->getFileType($fileName)**  
 Return file type
@@ -796,7 +796,7 @@ Return lines from text, including newline
 Return array of specific size from text  
 
 **toolbox->getTextArguments($text, $optional = "-", $sizeMin = 9)**  
-Return array from text, space separated  
+Return array of variable size from text, space separated  
 
 **toolbox->createTextDescription($text, $lengthMax = 0, $removeHtml = true, $endMarker = "", $endMarkerText = "")**  
 Create text description, with or without HTML
@@ -847,22 +847,22 @@ foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.md$/
 The following events are available:
 
 ```
-onLoad ───────▶ onStartup ─────────────────────────────────────────┐
-                    │                                              │
-                    ▼                                              │
-                onRequest ─────────────────┐                       │
-                    │                      │                       │
-                    ▼                      ▼                       ▼
-                onParseMeta             onEditContentFile      onCommand
-                onParseContentRaw       onEditMediaFile        onCommandHelp
-                onParseContentShortcut  onEditSystemFile           │
-                onParseContentHtml      onEditUserAccount          │
-                onParsePageLayout          │                       ▼
-                onParsePageExtra           │                   onUpdate
-                onParsePageOutput          │                   onLog
-                    │                      │                       │
-                    ▼                      │                       │
-                onShutDown ◀───────────────┴───────────────────────┘
+onLoad ───────▶ onStartup ───────────────────────────────────────────┐
+                    │                                                │
+                    ▼                                                │
+                onRequest ───────────────────┐                       │
+                    │                        │                       │
+                    ▼                        ▼                       ▼
+                onParseMeta              onEditContentFile       onCommand  
+                onParseContentRaw        onEditMediaFile         onCommandHelp
+                onParseContentShortcut   onEditSystemFile            │
+                onParseContentHtml       onEditUserAccount           │
+                onParsePageLayout            │                       ▼
+                onParsePageExtra             │                   onUpdate
+                onParsePageOutput            │                   onLog
+                    │                        │                       │
+                    ▼                        │                       │
+                onShutDown ◀─────────────────┴───────────────────────┘
 ```
 
 When a page is displayed, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. The page can be handled with various `onParse` events. Then the page content will be generated. If an error has occurred, an error page will be generated. Finally the page is output and `onShutdown` will be called.
@@ -880,6 +880,9 @@ Handle initialisation
 
 **public function onStartup()**  
 Handle startup
+
+**public function onUpdate($action)**  
+Handle update
 
 **public function onRequest($scheme, $address, $base, $location, $fileName)**  
 Handle request
@@ -907,9 +910,6 @@ Handle page output data
 
 **public function onLog($action, $message)**  
 Handle logging
-
-**public function onUpdate($action)**  
-Handle update
 
 **public function onShutdown()**  
 Handle shutdown

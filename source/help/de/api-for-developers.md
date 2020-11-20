@@ -780,10 +780,10 @@ Lösche eine Datei
 Lösche ein Verzeichnis  
 
 **toolbox->modifyFile($fileName, $modified)**  
-Setze das Änderungsdatum der Datei, Unix-Zeit
+Setze das Änderungsdatum von Datei/Verzeichnis, Unix-Zeit
 
 **toolbox->getFileModified($fileName)**  
-Hole das Änderungsdatum der Datei, Unix-Zeit
+Hole das Änderungsdatum von Datei/Verzeichnis, Unix-Zeit
 
 **toolbox->getFileType($fileName)**  
 Hole den Typ der Datei
@@ -795,7 +795,7 @@ Hole die Zeilen eines Texts, einschließlich Zeilenumbruch
 Hole ein Array mit bestimmter Grösse aus dem Text  
 
 **toolbox->getTextArguments($text, $optional = "-", $sizeMin = 9)**  
-Hole ein Array aus dem Text, durch Leerzeichen getrennt  
+Hole ein Array mit variabler Grösse aus dem Text, durch Leerzeichen getrennt  
 
 **toolbox->createTextDescription($text, $lengthMax = 0, $removeHtml = true, $endMarker = "", $endMarkerText = "")**  
 Erstelle eine Textbeschreibung, mit oder ohne HTML
@@ -846,22 +846,22 @@ foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.md$/
 Die folgenden Ereignisse sind vorhanden:
 
 ```
-onLoad ───────▶ onStartup ─────────────────────────────────────────┐
-                    │                                              │
-                    ▼                                              │
-                onRequest ─────────────────┐                       │
-                    │                      │                       │
-                    ▼                      ▼                       ▼
-                onParseMeta             onEditContentFile      onCommand
-                onParseContentRaw       onEditMediaFile        onCommandHelp
-                onParseContentShortcut  onEditSystemFile           │
-                onParseContentHtml      onEditUserAccount          │
-                onParsePageLayout          │                       ▼
-                onParsePageExtra           │                   onUpdate
-                onParsePageOutput          │                   onLog
-                    │                      │                       │
-                    ▼                      │                       │
-                onShutDown ◀───────────────┴───────────────────────┘
+onLoad ───────▶ onStartup ───────────────────────────────────────────┐
+                    │                                                │
+                    ▼                                                │
+                onRequest ───────────────────┐                       │
+                    │                        │                       │
+                    ▼                        ▼                       ▼
+                onParseMeta              onEditContentFile       onCommand  
+                onParseContentRaw        onEditMediaFile         onCommandHelp
+                onParseContentShortcut   onEditSystemFile            │
+                onParseContentHtml       onEditUserAccount           │
+                onParsePageLayout            │                       ▼
+                onParsePageExtra             │                   onUpdate
+                onParsePageOutput            │                   onLog
+                    │                        │                       │
+                    ▼                        │                       │
+                onShutDown ◀─────────────────┴───────────────────────┘
 ```
 
 Wird eine Seite angezeigt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Die Seite kann mit verschiedenen `onParse`-Ereignissen behandelt werden. Dann wird der Inhalt der Seite erzeugt. Sollte ein Fehler aufgetreten sein, wird eine Fehlerseite erzeugt. Zum Schluss wird die Seite ausgegeben und es wird `onShutdown` aufgerufen.
@@ -879,6 +879,9 @@ Behandle die Initialisierung
 
 **public function onStartup()**  
 Behandle das Hochfahren
+
+**public function onUpdate($action)**  
+Behandle die Aktualisierung
 
 **public function onRequest($scheme, $address, $base, $location, $fileName)**  
 Behandle die Anfrage
@@ -906,9 +909,6 @@ Behandle die Ausgabedaten einer Seite
 
 **public function onLog($action, $message)**  
 Behandle das Logging
-
-**public function onUpdate($action)**  
-Behandle die Aktualisierung
 
 **public function onShutdown()**  
 Behandle das Runterfahren
