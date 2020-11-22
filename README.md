@@ -18,8 +18,6 @@ More features, languages and themes for Datenstrom Yellow.
   Bundle website files. Developed by Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/source/command): 
   Command line of the website. Developed by Datenstrom.
-* [Comments](https://github.com/GiovanniSalmeri/yellow-comments):
-  Simple commenting system. Developed by Giovanni Salmeri. [[1]](#feature-notes)
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact): 
   Email contact page. Developed by Datenstrom.
 * [Core](https://github.com/datenstrom/yellow-extensions/tree/master/source/core): 
@@ -28,8 +26,6 @@ More features, languages and themes for Datenstrom Yellow.
   Download code blocks as text file. Developed by Steffen Schultz.
 * [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv):
   CSV file parser. Developed by Steffen Schultz.
-* [Diary](https://github.com/GiovanniSalmeri/yellow-diary):
-  Events Diary. Developed by Giovanni Salmeri. [[1]](#feature-notes)
 * [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus): 
   Show Disqus comments on blog. Developed by Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft): 
@@ -40,8 +36,6 @@ More features, languages and themes for Datenstrom Yellow.
   Lots and lots of emoji. Developed by Datenstrom.
 * [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/source/feed): 
   Feed with recent changes. Developed by Datenstrom.
-* [Filelist](https://github.com/GiovanniSalmeri/yellow-filelist):
-  Show a list of files for download. Developed by Giovanni Salmeri. [[1]](#feature-notes)
 * [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome): 
   Icons and symbols. Developed by Datenstrom.
 * [Gallery](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery): 
@@ -64,18 +58,12 @@ More features, languages and themes for Datenstrom Yellow.
   Text formatting for humans. Developed by Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta):
   Meta data for social media sites. Developed by Datenstrom, Steffen Schultz.
-* [Minishare](https://github.com/GiovanniSalmeri/yellow-minishare):
-  Light and accessible social sharing links. Developed by Giovanni Salmeri.
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
   Message of the day. Developed by Steffen Schultz.
-* [Openstreetmap](https://github.com/GiovanniSalmeri/yellow-openstreetmap):
-  Embed OpenStreetMap maps. Developed by Giovanni Salmeri.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
   View the markdown source of a page. Developed by Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 
   Text formatting for humans. Developed by Datenstrom.
-* [Pinboard](https://github.com/GiovanniSalmeri/yellow-pinboard):
-  Pinboard for timed notices. Developed by Giovanni Salmeri. [[1]](#feature-notes)
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
   Web feed optimized for podcast publishing. Developed by Steffen Schultz.
 * [Previousnext](https://github.com/datenstrom/yellow-extensions/tree/master/source/previousnext): 
@@ -92,8 +80,6 @@ More features, languages and themes for Datenstrom Yellow.
   Alternative page redirection. Developed by Steffen Schultz.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search): 
   Full-text search. Developed by Datenstrom.
-* [Selflink](https://github.com/GiovanniSalmeri/yellow-selflink):
-  Create internal links. Developed by Giovanni Salmeri. [[1]](#feature-notes)
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap): 
   Sitemap with all pages. Developed by Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider): 
@@ -116,8 +102,6 @@ More features, languages and themes for Datenstrom Yellow.
   Wiki for your website. Developed by Datenstrom.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube): 
   Embed Youtube videos. Developed by Datenstrom.
-
-<a id="feature-notes"></a>Note 1: Doesn't work with latest release, help the developer to update the extension.
 
 ## Languages
 
