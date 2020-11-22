@@ -9,7 +9,7 @@ Alle Inhalte befinden sich im `content`-Verzeichnis. Hier bearbeitet man seine W
     ├── media
     └── system
 
-Die `content`-Verzeichnisse stehen auf deiner Webseite zur Verfügung. In jedem Verzeichnis gibt es eine Datei mit Namen `page.md` oder mit dem Namen des Verzeichnisses. Man kann auch weitere Dateien und Verzeichnisse hinzufügen. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst.
+Die `content`-Verzeichnisse stehen auf deiner Webseite zur Verfügung. In jedem Verzeichnis gibt es eine Datei mit Namen `page.md`. Man kann auch weitere Dateien und Verzeichnisse hinzufügen. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst.
 
 ## Dateien und Verzeichnisse
 

@@ -10,16 +10,16 @@ Here's how to find and fix errors.
 The following problems can occur:
 
 ```
-Datenstrom Yellow requires configuration file!
-```
-
-Copy the supplied `.htaccess` file into the installation folder. Check if your FTP software has a setting to show all files. It sometimes happens that the `.htaccess` file was overlooked during installation. After the missing configuration file has been copied to the web server, the problem should be resolved.
-
-```
 Datenstrom Yellow requires write access!
 ```
 
 Run the command `chmod -R a+rw *` in the installation folder. You can also use your FTP software to give write permissions to all files. It's recommended to give write permissions to all files and folders in the installation folder. As soon as the web server has sufficient write access in the `system` folder, the problem should be resolved.
+
+```
+Datenstrom Yellow requires configuration file!
+```
+
+Copy the supplied `.htaccess` file into the installation folder. Check if your FTP software has a setting to show all files. It sometimes happens that the `.htaccess` file was overlooked during installation. After the missing configuration file has been copied to the web server, the problem should be resolved.
 
 ```
 Datenstrom Yellow requires rewrite support!
@@ -147,11 +147,11 @@ The file `system/extensions/yellow.log` shows important information and errors. 
 2020-10-28 14:13:07 info Install extension 'German 0.8.24'
 2020-10-28 14:13:07 info Install extension 'French 0.8.24'
 2020-10-28 14:13:17 info Add user 'Anna'
-2020-10-28 21:02:42 info Update extension 'Core 0.8.26'
+2020-10-28 21:02:42 info Update extension 'Core 0.8.34'
 2020-10-28 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Check the log file for errors. When there are write errors, then give write permissions to the affected files. When there are extension errors, then contact the developer/designer. When there are layout problems, then replace the affected files with the latest version. If you're not sure what causes problems, then activate the debug mode. This will show additional information on the current page. 
+Check the log file for errors. When there are write errors, then give write permissions to the affected files. When there are other errors, then contact the developer/designer and replace the affected files. If you're not sure what causes problems, then activate the debug mode. This will show additional information on the current page. 
 
 Open file `system/extensions/core.php` and change the first line to `<?php define("DEBUG", 1);`
 

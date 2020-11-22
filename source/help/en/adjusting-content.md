@@ -9,7 +9,7 @@ All content is located in the `content` folder. You can edit your website here.
     ├── media
     └── system
 
-The `content` folders are available on your website. Every folder has a file called `page.md` or with the name of the folder. You can also add more files and folders. Basically, what you see in the file manager is the website you get.
+The `content` folders are available on your website. Every folder has a file called `page.md`. You can also add more files and folders. Basically, what you see in the file manager is the website you get.
 
 ## Files and folders
 

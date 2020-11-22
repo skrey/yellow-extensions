@@ -10,16 +10,16 @@ Wie man Fehler findet und behebt.
 Die folgenden Probleme können auftreten:
 
 ```
-Datenstrom Yellow requires configuration file!
-```
-
-Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen. Es passiert manchmal dass die `.htaccess` Datei bei der Installation übersehen wurde. Nachdem die fehlende Konfigurationsdatei auf den Webserver kopiert wurde, sollte das Problem behoben sein.
-
-```
 Datenstrom Yellow requires write access!
 ```
 
 Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst auch deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben. Es wird empfohlen allen Dateien und Verzeichnissen im Installations-Verzeichnis Schreibrechte zu geben. Sobald der Webserver ausreichende Schreibrechte im `system`-Verzeichnis hat, sollte das Problem behoben sein.
+
+```
+Datenstrom Yellow requires configuration file!
+```
+
+Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen. Es passiert manchmal dass die `.htaccess` Datei bei der Installation übersehen wurde. Nachdem die fehlende Konfigurationsdatei auf den Webserver kopiert wurde, sollte das Problem behoben sein.
 
 ```
 Datenstrom Yellow requires rewrite support!
@@ -147,11 +147,11 @@ Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root
 2020-10-28 14:13:07 info Install extension 'German 0.8.24'
 2020-10-28 14:13:07 info Install extension 'French 0.8.24'
 2020-10-28 14:13:17 info Add user 'Anna'
-2020-10-28 21:02:42 info Update extension 'Core 0.8.26'
+2020-10-28 21:02:42 info Update extension 'Core 0.8.34'
 2020-10-28 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Überprüfe die Logdatei nach Fehlern. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Wenn Erweiterungs-Probleme auftreten, dann wende dich an den Entwickler/Designer. Wenn Layout-Probleme auftreten, dann ersetze die betroffenen Dateien mit der neusten Version. Falls du nicht sicher bist was Probleme verursacht, dann aktiviere den Debug-Modus. Dadurch werden zusätzliche Informationen auf der aktuellen Seite angezeigt. 
+Überprüfe die Logdatei nach Fehlern. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Wenn andere Fehler auftreten, dann wende dich an den Entwickler/Designer und ersetze die betroffenen Dateien. Falls du nicht sicher bist was Probleme verursacht, dann aktiviere den Debug-Modus. Dadurch werden zusätzliche Informationen auf der aktuellen Seite angezeigt. 
 
 Öffne die Datei `system/extensions/core.php` und ändere die erste Zeile zu `<?php define("DEBUG", 1);`
 
