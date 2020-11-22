@@ -1,5 +1,5 @@
-Highlight 0.8.9
-===============
+Highlight 0.8.10
+================
 Highlight source code.
 
 <p align="center"><img src="highlight-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
@@ -49,7 +49,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/highlight.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [highlight.php 9.15.10](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman.
+This extension uses [highlight.php 9.18.1.5](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman.
 
 ## Developer
 

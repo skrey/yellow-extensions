@@ -1,5 +1,5 @@
-Highlight 0.8.9
-===============
+Highlight 0.8.10
+================
 Quellcode hervorheben.
 
 <p align="center"><img src="highlight-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
@@ -49,7 +49,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/highlight.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung benutzt [highlight.php 9.15.10](https://github.com/scrivo/highlight.php) von Ivan Sagalaev und Geert Bergman.
+Diese Erweiterung benutzt [highlight.php 9.18.1.5](https://github.com/scrivo/highlight.php) von Ivan Sagalaev und Geert Bergman.
 
 ## Entwickler
 
