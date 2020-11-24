@@ -43,10 +43,14 @@ CorePaginationPrevious: ← 戻る
 CorePaginationNext: 次へ →
 CoreError404Title: ファイルが見つかりません
 CoreError404Text: 要求されたファイルが見つかりませんでした。 あらいやだ...
+CoreError420Title: Page not public
+CoreError420Text: The requested page is not public. [yellow error]
 CoreError430Title: ログインに失敗しました。
 CoreError430Text: メールアドレスかパスワードが間違っています。 [Please try again](#data-action-login).
-CoreError434Title: ファイルが見つかりません
-CoreError434Text: The requested file was not found. [You can create this page](#data-action-edit).
+CoreError434Title: Page not found.
+CoreError434Text: The requested page was not found. [You can create this page](#data-action-edit).
+CoreError435Title: Page not found
+CoreError435Text: The requested page has been deleted. [You can restore this page](#data-action-restore).
 CoreError500Title: サーバーエラー
 CoreError500Text: 問題が発生しました。[yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.
@@ -54,7 +58,8 @@ DanishDescription: Danish/Dansk with language 'da'.
 DisqusDescription: Show Disqus comments on blog.
 DraftDescription: Support for draft pages.
 DraftStatusEmpty: 下書きはありません。
-DutchDescription: Dutch/Nederlands (België) with language 'nl'.
+DraftPageError: Please log in.
+DutchDescription: Dutch/Nederlands with language 'nl'.
 EditDescription: WebブラウザーでWebサイトを編集します。
 EditLoginTitle: ようこそ
 EditLoginEmail: メールアドレス:
@@ -128,13 +133,13 @@ EditAccountStatusTaken: 別のメールアドレスをご入力下さい。
 EditAccountStatusWeak: 別のパスワードをご入力下さい。
 EditAccountStatusShort: もっと長いパスワードをご入力下さい。
 EditAccountStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
-EditSystemTitle: システム設定
-EditSystemSitename: ウェブサイト名:
-EditSystemAuthor: 管理者名:
-EditSystemEmail: Eメール:
-EditSystemInformation: 管理者は新しいユーザーアカウントを承認できます。
-EditSystemStatusNone: ここでシステム設定を変更できます。
-EditSystemStatusInvalid: Please enter a valid email.
+EditConfigureTitle: システム設定
+EditConfigureSitename: ウェブサイト名:
+EditConfigureAuthor: 管理者名:
+EditConfigureEmail: Eメール:
+EditConfigureInformation: 管理者は新しいユーザーアカウントを承認できます。
+EditConfigureStatusNone: ここでシステム設定を変更できます。
+EditConfigureStatusInvalid: Please enter a valid email.
 EditUpdateTitle: 更新情報
 EditUpdateStatusNone: Datenstrom Yellow で小さなウェブサイトを作る
 EditUpdateStatusCheck: アップデートの確認中…
@@ -180,7 +185,7 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: ヘルプ
 EditMailFooter: @sitename
 EditDataGenerated: このページは自動的に生成されます。
-EditUploadProgress: [ファイルをアップロード中…]
+EditUploadProgress: ファイルをアップロード中…
 EditMenuSettings: 設定
 EditMenuHelp: ヘルプ
 EditMenuLogout: ログアウト

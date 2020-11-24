@@ -1,4 +1,4 @@
-Edit 0.8.39
+Edit 0.8.40
 ===========
 Webseite im Webbrowser bearbeiten.
 
@@ -21,10 +21,6 @@ Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](h
 Falls du nicht willst dass Seiten verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/extensions/yellow-user.ini` und ändere `Home` und `Access`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
-
-## Wie man eine gelöschte Seite wiederherstellt
-
-Alle Seiten die im Webbrowser gelöscht werden, werden im `system/trash`-Verzeichnis gespeichert. Man kann eine gelöschte Seite wiederherstellen, indem man sie zurück ins `content`-Verzeichnis kopiert. Der ursprüngliche Dateiname ist gespeichert als `FileNameOriginal` in den Einstellungen ganz oben auf der Seite.
 
 ## Beispiele
 
@@ -50,7 +46,7 @@ Email: anna@svensson.com
 Name: Anna Svensson
 Language: de
 Home: /
-Access: create, edit, delete, upload, system, update
+Access: create, edit, delete, restore, upload, configure, update
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
 Pending: none
@@ -66,7 +62,7 @@ Email: deutsch@example.com
 Name: Niklas Svensson
 Language: de
 Home: /
-Access: create, edit, delete, upload
+Access: create, edit, delete, restore, upload
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: a81eb147a5dd3384138b
 Pending: none
@@ -149,8 +145,9 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `create` =  Benutzer kann Seite erstellen  
 `edit` = Benutzer kann Seite bearbeiten  
 `delete` = Benutzer kann Seite löschen  
+`restore` = Benutzer kann gelöschte Seite wiederherstellen  
 `upload` = Benutzer kann Mediendateien hochladen  
-`system` = Benutzer kann Systemeinstellungen ändern  
+`configure` = Benutzer kann Webseite konfigurieren  
 `update` = Benutzer kann Webseite aktualisieren  
 
 <a id="einstellungen-status"></a>Die folgenden Benutzer-Statuswerte werden unterstützt:

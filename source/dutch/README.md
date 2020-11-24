@@ -1,6 +1,6 @@
-Dutch 0.8.25
+Dutch 0.8.26
 ============
-Dutch/Nederlands (België) met de taal 'nl'.
+Dutch/Nederlands met de taal 'nl'.
 
 <p align="center"><img src="dutch-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 

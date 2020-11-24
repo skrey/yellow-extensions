@@ -1,4 +1,4 @@
-Edit 0.8.39
+Edit 0.8.40
 ===========
 Edit your website in a web browser.
 
@@ -21,10 +21,6 @@ The second option is to create a user account at the [command line](https://gith
 If you don't want that pages are modified, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
 
 If you don't want that user accounts are created, then restrict the login page. Open file `system/extensions/yellow-system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
-
-## How to restore a deleted page
-
-All pages that are deleted in the web browser are saved in the `system/trash` folder. You can restore a deleted page by copying it back into the `content` folder. The original file name is stored as `FileNameOriginal` in the settings at the top of a page.
 
 ## Examples
 
@@ -50,7 +46,7 @@ Email: anna@svensson.com
 Name: Anna Svensson
 Language: en
 Home: /
-Access: create, edit, delete, upload, system, update
+Access: create, edit, delete, restore, upload, configure, update
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
 Pending: none
@@ -66,7 +62,7 @@ Email: english@example.com
 Name: Niklas Svensson
 Language: en
 Home: /
-Access: create, edit, delete, upload
+Access: create, edit, delete, restore, upload
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: e4138bbd338881147a5d
 Pending: none
@@ -149,8 +145,9 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `create` =  user can create page  
 `edit` = user can edit page  
 `delete` = user can delete page  
+`restore` = user can restore deleted page  
 `upload` = user can upload media files  
-`system` = user can change system settings  
+`configure` = user can configure website  
 `update` = user can update website  
 
 <a id="settings-status"></a>The following user status values are supported:

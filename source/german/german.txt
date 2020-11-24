@@ -43,10 +43,14 @@ CorePaginationPrevious: ← Zurück
 CorePaginationNext: Weiter →
 CoreError404Title: Datei nicht gefunden
 CoreError404Text: Die angeforderte Datei wurde nicht gefunden. Oh nein...
+CoreError420Title: Seite nicht öffentlich
+CoreError420Text: Die angeforderte Seite ist nicht öffentlich. [yellow error]
 CoreError430Title: Anmeldung fehlgeschlagen
 CoreError430Text: E-Mail oder Kennwort ist falsch. [Bitte erneut versuchen](#data-action-login).
-CoreError434Title: Datei nicht gefunden
-CoreError434Text: Die angeforderte Datei wurde nicht gefunden. [Du kannst diese Seite erstellen](#data-action-edit).
+CoreError434Title: Seite nicht gefunden
+CoreError434Text: Die angeforderte Seite wurde nicht gefunden. [Du kannst diese Seite erstellen](#data-action-edit).
+CoreError435Title: Seite nicht gefunden
+CoreError435Text: Die angeforderte Seite wurde gelöscht. [Du kannst diese Seite wiederherstellen](#data-action-restore).
 CoreError500Title: Serverfehler
 CoreError500Text: Etwas ist schief gelaufen. [yellow error]
 CzechDescription: Tschechisch/Čeština mit der Sprache "cs".
@@ -54,7 +58,8 @@ DanishDescription: Dänisch/Dansk mit der Sprache "da".
 DisqusDescription: Disqus-Kommentare im Blog anzeigen.
 DraftDescription: Unterstützung für Entwurfsseiten.
 DraftStatusEmpty: Keine Entwürfe gefunden.
-DutchDescription: Niederländisch/Nederlands (België) mit der Sprache "nl".
+DraftPageError: Bitte melde dich an.
+DutchDescription: Niederländisch/Nederlands mit der Sprache "nl".
 EditDescription: Webseite im Webbrowser bearbeiten.
 EditLoginTitle: Willkommen
 EditLoginEmail: E-Mail:
@@ -119,7 +124,7 @@ EditWelcomeSubject: Willkommen
 EditWelcomeMessage: Hallo @usershort,\n\ndein Benutzerkonto wurde erstellt. Viel Spass beim Bearbeiten der Webseite.
 EditGoodbyeSubject: Auf Wiedersehen
 EditGoodbyeMessage: Hallo @usershort,\n\ndein Benutzerkonto wurde gelöscht. Mach's gut.
-EditAccountTitle: Benutzereinstellungen
+EditAccountTitle: Benutzer
 EditAccountInformation: Du kannst dein Benutzerkonto jederzeit löschen.
 EditAccountMore: Lies mehr…
 EditAccountStatusNone: Hier kannst du dein Benutzerkonto ändern.
@@ -128,13 +133,13 @@ EditAccountStatusTaken: Bitte eine andere E-Mail angeben.
 EditAccountStatusWeak: Bitte ein anderes Kennwort angeben.
 EditAccountStatusShort: Bitte ein längeres Kennwort angeben.
 EditAccountStatusNext: Benutzerkonto wird geändert, bitte überprüfe deine E-Mails.
-EditSystemTitle: Systemeinstellungen
-EditSystemSitename: Name der Webseite:
-EditSystemAuthor: Name des Webmasters:
-EditSystemEmail: E-Mail des Webmasters:
-EditSystemInformation: Der Webmaster kann neue Benutzerkonten genehmigen.
-EditSystemStatusNone: Hier kannst du Systemeinstellungen ändern.
-EditSystemStatusInvalid: Bitte eine gültige E-Mail angeben.
+EditConfigureTitle: Webseite
+EditConfigureSitename: Name der Webseite:
+EditConfigureAuthor: Name des Webmasters:
+EditConfigureEmail: E-Mail des Webmasters:
+EditConfigureInformation: Der Webmaster kann neue Benutzerkonten genehmigen.
+EditConfigureStatusNone: Hier kannst du deine Webseite konfigurieren.
+EditConfigureStatusInvalid: Bitte eine gültige E-Mail angeben.
 EditUpdateTitle: Aktualisierungen
 EditUpdateStatusNone: Datenstrom Yellow ist für Menschen die kleine Webseiten machen.
 EditUpdateStatusCheck: Nach Aktualisierung suchen…
@@ -180,7 +185,7 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hilfe
 EditMailFooter: @sitename
 EditDataGenerated: Diese Seite ist automatisch erstellt.
-EditUploadProgress: [Datei hochladen…]
+EditUploadProgress: Datei hochladen…
 EditMenuSettings: Einstellungen
 EditMenuHelp: Hilfe
 EditMenuLogout: Abmelden

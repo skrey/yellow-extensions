@@ -1,4 +1,4 @@
-French 0.8.25
+French 0.8.26
 =============
 French/Français avec la langue 'fr'.
 

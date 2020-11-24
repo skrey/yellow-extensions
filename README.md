@@ -108,7 +108,7 @@ More features, languages and themes for Datenstrom Yellow.
 * [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Chinese/简体中文 with language 'zh-CN'. Translated by Hyson Lee.
 * [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/source/czech): Czech/Čeština with language 'cs'. Translated by Ufo Vyhuleny.
 * [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/source/danish): Danish/Dansk with language 'da'. Translated by David Garcia.
-* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch): Dutch/Nederlands (België) with language 'nl'. Translated by Robin Vannieuwenhuijse.
+* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch): Dutch/Nederlands with language 'nl'. Translated by Robin Vannieuwenhuijse.
 * [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/english): English/English with language 'en'. Translated by Mark Seuffert.
 * [French](https://github.com/datenstrom/yellow-extensions/tree/master/source/french): French/Français with language 'fr'. Translated by Juh Nibreh.
 * [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/german): German/Deutsch with language 'de'. Translated by David Fehrmann.

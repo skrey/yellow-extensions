@@ -43,10 +43,14 @@ CorePaginationPrevious: ← Forrige
 CorePaginationNext: Nesta →
 CoreError404Title: Filen kunne ikke lokaliseres
 CoreError404Text: Den begärda filen kunde inte hittas. Å nej...
+CoreError420Title: Siden er ikke offentlig
+CoreError420Text: Den begärda siden er ikke offentlig. [yellow error]
 CoreError430Title: Innlogging feilet
 CoreError430Text: Epost eller passord er ikke riktig. [Vennligst prøv på nytt](#data-action-login).
-CoreError434Title: Filen kunne ikke lokaliseres
-CoreError434Text: Filen kunne ikke lokaliseres. [You can create this page](#data-action-edit).
+CoreError434Title: Siden kunne ikke lokaliseres
+CoreError434Text: Den begärda siden kunde inte hittas. [You can create this page](#data-action-edit).
+CoreError435Title: Siden kunne ikke lokaliseres
+CoreError435Text: Den begärda siden er slettet. [You can restore this page](#data-action-restore).
 CoreError500Title: Server feil
 CoreError500Text: Noe gikk galt. [yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.
@@ -54,7 +58,8 @@ DanishDescription: Danish/Dansk with language 'da'.
 DisqusDescription: Show Disqus comments on blog.
 DraftDescription: Support for draft pages.
 DraftStatusEmpty: Ingen utkast funnet.
-DutchDescription: Dutch/Nederlands (België) with language 'nl'.
+DraftPageError: Vennligst logg inn.
+DutchDescription: Dutch/Nederlands with language 'nl'.
 EditDescription: Rediger nettstedet ditt i en nettleser.
 EditLoginTitle: Velkommen
 EditLoginEmail: Epost:
@@ -119,7 +124,7 @@ EditWelcomeSubject: Velkommen
 EditWelcomeMessage: Hei @usershort,\n\ndin brukerkonto har blitt opprettet.
 EditGoodbyeSubject: Adjø
 EditGoodbyeMessage: Hei @usershort,\n\ndin brukerkonto har blitt slettet.
-EditAccountTitle: Brukerinnstillinger
+EditAccountTitle: Bruker
 EditAccountInformation: Du kan slette din brukerkonto når som helst.
 EditAccountMore: Les mer…
 EditAccountStatusNone: Her kan du endre din brukerkonto.
@@ -128,13 +133,13 @@ EditAccountStatusTaken: Vennligst fyll inn en annen epost adresse.
 EditAccountStatusWeak: Vennligst fyll inn et annet passord.
 EditAccountStatusShort: Vennligst fyll inn et lengre passord.
 EditAccountStatusNext: Din brukerkonto er endret, vennligst sjekk din innboks.
-EditSystemTitle: Systeminnstillinger
-EditSystemSitename: Nettstedets navn:
-EditSystemAuthor: Nettstedets administrator:
-EditSystemEmail: Administrators epost:
-EditSystemInformation: Nettstedets administrator kan bekrefte brukerkontoer.
-EditSystemStatusNone: Her kan du endre systeminnstillinger.
-EditSystemStatusInvalid: Vennligst fyll inn en gyldig epost adresse.
+EditConfigureTitle: Nettsted
+EditConfigureSitename: Nettstedets navn:
+EditConfigureAuthor: Nettstedets administrator:
+EditConfigureEmail: Administrators epost:
+EditConfigureInformation: Nettstedets administrator kan bekrefte brukerkontoer.
+EditConfigureStatusNone: Her kan du konfigurere ditt nettsted.
+EditConfigureStatusInvalid: Vennligst fyll inn en gyldig epost adresse.
 EditUpdateTitle: Oppdateringer
 EditUpdateStatusNone: Datenstrom Yellow er for folk som lager små nettsteder.
 EditUpdateStatusCheck: Ser etter oppdateringer…
@@ -180,7 +185,7 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hjelp
 EditMailFooter: @sitename
 EditDataGenerated: Denne siden genereres automatik.
-EditUploadProgress: [Laster opp fil…]
+EditUploadProgress: Laster opp fil…
 EditMenuSettings: Instillinger
 EditMenuHelp: Hjelp
 EditMenuLogout: Logge ut

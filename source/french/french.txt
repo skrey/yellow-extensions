@@ -42,11 +42,15 @@ CoreTimeFormatLong: H:i:s T
 CorePaginationPrevious: ← Précédent
 CorePaginationNext: Suivant →
 CoreError404Title: Fichier non trouvé
-CoreError404Text: Le fichier demandé n'a pas été trouvé. Oh non...
+CoreError404Text: Le fichier demandé n'a pas été trouvé. Oh non…
+CoreError420Title: Page non publique
+CoreError420Text: La page demandée n'est pas publique. [yellow error]
 CoreError430Title: La connexion a échoué
 CoreError430Text: L'email ou le mot de passe est incorrect. [Veuillez réessayer](#data-action-login).
-CoreError434Title: Fichier non trouvé
-CoreError434Text: Le fichier demandé n'a pas été trouvé. [Vous pouvez créer cette page](#data-action-edit).
+CoreError434Title: Page non trouvé
+CoreError434Text: La page demandée n'a pas été trouvée. [Vous pouvez créer cette page](#data-action-edit).
+CoreError435Title: Page non trouvé
+CoreError435Text: La page demandée a été supprimée. [Vous pouvez restaurer cette page](#data-action-restore).
 CoreError500Title: Erreur du serveur
 CoreError500Text: Une erreur s'est produite. [yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.
@@ -54,7 +58,8 @@ DanishDescription: Danish/Dansk with language 'da'.
 DisqusDescription: Show Disqus comments on blog.
 DraftDescription: Support for draft pages.
 DraftStatusEmpty: Aucun brouillon trouvé.
-DutchDescription: Dutch/Nederlands (België) with language 'nl'.
+DraftPageError: Veuillez vous connecter.
+DutchDescription: Dutch/Nederlands with language 'nl'.
 EditDescription: Modifiez votre site web dans un navigateur web.
 EditLoginTitle: Bienvenue
 EditLoginEmail: Email:
@@ -119,7 +124,7 @@ EditWelcomeSubject: Bienvenue
 EditWelcomeMessage: Bonjour @usershort,\n\nvotre compte utilisateur a bien été créé. Amusez-vous bien en éditant le site web.
 EditGoodbyeSubject: Au revoir
 EditGoodbyeMessage: Bonjour @usershort,\n\nvotre compte utilisateur a bien été supprimé. Prends soin.
-EditAccountTitle: Paramètres utilisateur
+EditAccountTitle: Utilisateur
 EditAccountInformation: Vous pouvez supprimer votre compte d'utilisateur.
 EditAccountMore: Lire la suite…
 EditAccountStatusNone: Ici, vous pouvez changer votre compte utilisateur.
@@ -128,13 +133,13 @@ EditAccountStatusTaken: S'il vous plaît, veuillez entrer une adresse email diff
 EditAccountStatusWeak: S'il vous plaît, choisissez un mot de passe différent.
 EditAccountStatusShort: S'il vous plaît, choisissez un mot de passe plus long.
 EditAccountStatusNext: Votre compte a été changé, vérifiez vos emails.
-EditSystemTitle: Paramètres du système
-EditSystemSitename: Nom du site:
-EditSystemAuthor: Nom du webmaster:
-EditSystemEmail: Email du webmaster:
-EditSystemInformation: Le webmaster peut approuver les nouveaux comptes d'utilisateurs.
-EditSystemStatusNone: Ici, vous pouvez changer les paramètres du système.
-EditSystemStatusInvalid: S'il vous plaît, veuillez entrer une adresse email valide.
+EditConfigureTitle: Site web
+EditConfigureSitename: Nom du site:
+EditConfigureAuthor: Nom du webmaster:
+EditConfigureEmail: Email du webmaster:
+EditConfigureInformation: Le webmaster peut approuver les nouveaux comptes d'utilisateurs.
+EditConfigureStatusNone: Ici, vous pouvez configurer votre site web.
+EditConfigureStatusInvalid: S'il vous plaît, veuillez entrer une adresse email valide.
 EditUpdateTitle: Mises à jour
 EditUpdateStatusNone: Datenstrom Yellow est fait pour les gens qui font de petits sites web.
 EditUpdateStatusCheck: Vérification des mises à jour…
@@ -180,7 +185,7 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Aide
 EditMailFooter: @sitename
 EditDataGenerated: Cette page est créée automatiquement.
-EditUploadProgress: [Téléchargement du fichier…]
+EditUploadProgress: Téléchargement du fichier…
 EditMenuSettings: Paramètres
 EditMenuHelp: Aide
 EditMenuLogout: Déconnexion

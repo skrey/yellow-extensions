@@ -43,10 +43,14 @@ CorePaginationPrevious: ← Anterior
 CorePaginationNext: Seguinte →
 CoreError404Title: Arquivo não encontrado
 CoreError404Text: O arquivo solicitado não foi encontrado. Ah não...
+CoreError420Title: Page not public
+CoreError420Text: The requested page is not public. [yellow error]
 CoreError430Title: Login failed
 CoreError430Text: The email or password is incorrect. [Please try again](#data-action-login).
-CoreError434Title: File not found
-CoreError434Text: The requested file was not found. [You can create this page](#data-action-edit).
+CoreError434Title: Page not found
+CoreError434Text: The requested page was not found. [You can create this page](#data-action-edit).
+CoreError435Title: Page not found
+CoreError435Text: The requested page has been deleted. [You can restore this page](#data-action-restore).
 CoreError500Title: Server error
 CoreError500Text: Something went wrong. [yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.
@@ -54,7 +58,8 @@ DanishDescription: Danish/Dansk with language 'da'.
 DisqusDescription: Show Disqus comments on blog.
 DraftDescription: Support for draft pages.
 DraftStatusEmpty: No drafts found.
-DutchDescription: Dutch/Nederlands (België) with language 'nl'.
+DraftPageError: Please log in.
+DutchDescription: Dutch/Nederlands with language 'nl'.
 EditDescription: Edite seu site em um navegador da web.
 EditLoginTitle: Bem vinda
 EditLoginEmail: Email:
@@ -119,7 +124,7 @@ EditWelcomeSubject: Bem vindo
 EditWelcomeMessage: Oi @usershort,\n\nsua conta de usuário foi criada. Divirta-se na edição do site.
 EditGoodbyeSubject: Goodbye
 EditGoodbyeMessage: Hi @usershort,\n\nyour user account has been deleted. Take care.
-EditAccountTitle: User settings
+EditAccountTitle: User
 EditAccountInformation: You can delete your user account anytime.
 EditAccountMore: Read more…
 EditAccountStatusNone: Here you can change your user account.
@@ -128,13 +133,13 @@ EditAccountStatusTaken: Please enter a different email.
 EditAccountStatusWeak: Please enter a different password.
 EditAccountStatusShort: Por favor insira uma senha mais longa.
 EditAccountStatusNext: User account will be changed, please check your emails.
-EditSystemTitle: System settings
-EditSystemSitename: Name of the website:
-EditSystemAuthor: Name of the webmaster:
-EditSystemEmail: Email of the webmaster:
-EditSystemInformation: The webmaster can approve new user accounts.
-EditSystemStatusNone: Here you can change system settings.
-EditSystemStatusInvalid: Please enter a valid email.
+EditConfigureTitle: Website
+EditConfigureSitename: Name of the website:
+EditConfigureAuthor: Name of the webmaster:
+EditConfigureEmail: Email of the webmaster:
+EditConfigureInformation: The webmaster can approve new user accounts.
+EditConfigureStatusNone: Here you can configure your website.
+EditConfigureStatusInvalid: Please enter a valid email.
 EditUpdateTitle: Updates
 EditUpdateStatusNone: Datenstrom Yellow is for people who make small websites.
 EditUpdateStatusCheck: Checking for updates…
@@ -180,7 +185,7 @@ EditToolbarMarkdown: Markdown
 EditToolbarHelp: Ajuda
 EditMailFooter: @sitename
 EditDataGenerated: This page is generated automatically.
-EditUploadProgress: [Uploading file…]
+EditUploadProgress: Uploading file…
 EditMenuSettings: Configurações
 EditMenuHelp: Ajuda
 EditMenuLogout: Sair

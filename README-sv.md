@@ -108,7 +108,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Kinesiskt/简体中文 med språket "zh-CN". Översatt av Hyson Lee.
 * [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/source/czech): Czech/Tjeckiskt med språket "cs". Översatt av Ufo Vyhuleny.
 * [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/source/danish): Danska/Dansk med språket "da". Översatt av David Garcia.
-* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch): Holländska/Nederlands (België) med språket "nl". Översatt av Robin Vannieuwenhuijse.
+* [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch): Holländska/Nederlands med språket "nl". Översatt av Robin Vannieuwenhuijse.
 * [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/english): Engelska/English med språket "en". Översatt av Mark Seuffert.
 * [French](https://github.com/datenstrom/yellow-extensions/tree/master/source/french): Franska/Français med språket "fr". Översatt av Juh Nibreh.
 * [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/german): Tyska/Deutsch med språket "de". Översatt av David Fehrmann.
