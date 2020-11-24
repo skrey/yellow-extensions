@@ -2,7 +2,7 @@
 // Draft extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/draft
 
 class YellowDraft {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -19,11 +19,12 @@ class YellowDraft {
     // Handle page layout
     public function onParsePageLayout($page, $name) {
         if ($this->yellow->page->get("status")=="draft" && $this->yellow->getRequestHandler()=="core") {
-            $pageError = "Can't show draft page!";
+            $pageError = "";
             if ($this->yellow->extension->isExisting("edit")) {
-                $pageError .= " <a href=\"".$this->yellow->page->get("pageEdit")."\">Please log in</a>.";
+                $pageError .= "<a href=\"".$this->yellow->page->get("pageEdit")."\">";
+                $pageError .= $this->yellow->language->getText("draftPageError")."</a>";
             }
-            $this->yellow->page->error(500, $pageError);
+            $this->yellow->page->error(420, $pageError);
         }
         if ($name=="draftpages") {
             $pages = $this->yellow->content->index(true, false)->filter("status", "draft");

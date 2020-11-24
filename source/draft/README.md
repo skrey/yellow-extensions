@@ -1,4 +1,4 @@
-Draft 0.8.10
+Draft 0.8.11
 ============
 Support for draft pages.
 
