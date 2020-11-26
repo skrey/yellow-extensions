@@ -10,7 +10,7 @@ Start with an [example feature](https://github.com/schulle4u/yellow-extension-he
 
 ## How to publish an extension
 
-You can publish an extension to make it easier for users to install. First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish` followed by a folder. This will update all necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`. Your extension is now included in the [update process](https://github.com/datenstrom/yellow-extensions/tree/master/source/update).
+You can publish an extension to make it easier to install. First increase the version number in your PHP code, then publish your extension at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish` followed by a folder. This will update all necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`. Your extension is now included in the [update process](https://github.com/datenstrom/yellow-extensions/tree/master/source/update).
 
 ## Examples
 
