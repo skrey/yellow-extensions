@@ -151,7 +151,7 @@ Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root
 2020-10-28 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Überprüfe die Logdatei nach Fehlern. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Wenn andere Fehler auftreten, dann wende dich an den Entwickler/Designer und ersetze die betroffenen Dateien. Falls du nicht sicher bist was Probleme verursacht, dann aktiviere den Debug-Modus. Dadurch werden zusätzliche Informationen auf der aktuellen Seite angezeigt. 
+Überprüfe die Logdatei nach Fehlern. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Wenn andere Fehler auftreten, dann wende dich an den Entwickler/Designer und ersetze die betroffenen Dateien. Wenn du nicht 100% sicher bist was Probleme verursacht, dann aktiviere den Debug-Modus. Das zeigt zusätzliche Informationen auf der aktuellen Seite. 
 
 Öffne die Datei `system/extensions/core.php` und ändere die erste Zeile zu `<?php define("DEBUG", 1);`
 

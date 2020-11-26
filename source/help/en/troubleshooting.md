@@ -151,7 +151,7 @@ The file `system/extensions/yellow.log` shows important information and errors. 
 2020-10-28 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Check the log file for errors. When there are write errors, then give write permissions to the affected files. When there are other errors, then contact the developer/designer and replace the affected files. If you're not sure what causes problems, then activate the debug mode. This will show additional information on the current page. 
+Check the log file for errors. When there are write errors, then give write permissions to the affected files. When there are other errors, then contact the developer/designer and replace the affected files. When you're not 100% sure what causes problems, then activate the debug mode. This will show additional information on the current page. 
 
 Open file `system/extensions/core.php` and change the first line to `<?php define("DEBUG", 1);`
 
