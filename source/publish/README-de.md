@@ -79,7 +79,7 @@ Erweiterungen in der Befehlszeile veröffentlichen:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`PublishSourceCodeDirectory ` = Verzeichnis mit Erweiterungs-Quellcode  
+`PublishSourceCodeDirectory ` = Verzeichnis mit Quellcode  
 
 Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen werden:
 

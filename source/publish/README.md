@@ -79,7 +79,7 @@ Publishing extensions at the command line:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`PublishSourceCodeDirectory` = directory with extensions source code  
+`PublishSourceCodeDirectory` = directory with source code  
 
 The following settings can be configured in file `extension.ini`:
 
