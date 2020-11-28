@@ -61,7 +61,7 @@ More features, languages and themes for Datenstrom Yellow.
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
   Message of the day. Developed by Steffen Schultz.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
-  View the markdown source of a page. Developed by Steffen Schultz.
+  Display Markdown source on pages. Developed by Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 
   Text formatting for humans. Developed by Datenstrom.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
@@ -75,7 +75,7 @@ More features, languages and themes for Datenstrom Yellow.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss): 
   Widgets for RadioBoss Cloud. Developed by Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
-  Display random pages from specified location. Developed by Steffen Schultz.
+  Display random pages. Developed by Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Alternative page redirection. Developed by Steffen Schultz.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search): 

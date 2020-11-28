@@ -61,7 +61,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd/README-de.md):
   Nachricht des Tages. Entwickelt von Steffen Schultz.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource/README-de.md): 
-  Markdown-Quelltext einer Seite ansehen. Entwickelt von Steffen Schultz.
+  Markdown-Quelltext auf Seiten anzeigen. Entwickelt von Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown/README-de.md): 
   Textformatierung für Menschen. Entwickelt von Datenstrom.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast/README-de.md): 
@@ -75,7 +75,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss/README-de.md): 
   Widgets für RadioBoss Cloud. Entwickelt von Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random/README-de.md): 
-  Zufällige Seiten eines bestimmten Ortes anzeigen. Entwickelt von Steffen Schultz.
+  Zufällige Seiten anzeigen. Entwickelt von Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect/README-de.md): 
   Alternative Seitenweiterleitung. Entwickelt von Steffen Schultz.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-de.md): 

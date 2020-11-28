@@ -61,7 +61,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
   Dagens meddelande. Utvecklad av Steffen Schultz.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
-  Visa markeringskällan för en sida. Utvecklad av Steffen Schultz.
+  Visa Markdown-källtext på sidor. Utvecklad av Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 
   Textformatering för människor. Utvecklad av Datenstrom.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
@@ -75,7 +75,7 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss): 
   Widgets för RadioBoss Cloud. Utvecklad av Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 
-  Visa slumpmässiga sidor från angiven plats. Utvecklad av Steffen Schultz.
+  Visa slumpmässiga sidor. Utvecklad av Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Alternativ sida omdirigering. Utvecklad av Steffen Schultz.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search): 
