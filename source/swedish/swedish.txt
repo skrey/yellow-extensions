@@ -47,17 +47,17 @@ CoreError420Title: Sidan är inte offentlig
 CoreError420Text: Den begärda sidan är inte offentlig. [yellow error]
 CoreError430Title: Inloggningen misslyckades
 CoreError430Text: Emailen eller lösenordet är felaktigt. [Var god försök igen](#data-action-login).
-CoreError434Title: Page not found
-CoreError434Text: The requested page was not found. [You can create this page](#data-action-edit).
-CoreError435Title: Page not found
-CoreError435Text: The requested page has been deleted. [You can restore this page](#data-action-restore).
-CoreError500Title: Server error
-CoreError500Text: Something went wrong. [yellow error]
+CoreError434Title: Sidan hittades inte
+CoreError434Text: Den begärda sidan kunde inte hittas. [Du kan skapa den här sidan](#data-action-edit).
+CoreError435Title: Sidan hittades inte
+CoreError435Text:Den begärda sidan har tagits bort. [Du kan återställa den här sidan](#data-action-restore).
+CoreError500Title: Serverfel
+CoreError500Text: Något gick fel. [yellow error]
 CzechDescription: Czech/Tjeckiskt med språket "cs".
 DanishDescription: Danska/Dansk med språket "da".
 DisqusDescription: Visa Disqus-kommentarer på bloggen.
 DraftDescription: Stöd för draftsidor.
-DraftStatusEmpty: No drafts found.
+DraftStatusEmpty: Inga draftsidor hittades.
 DraftPageError: Vänligen logga in.
 DutchDescription: Holländska/Nederlands med språket "nl".
 EditDescription: Redigera din webbplats i en webbläsare.
@@ -213,7 +213,7 @@ InstallExtensionBlog: Blogg
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Hem
 InstallHomeTitleContent: Din webbplats fungerar!
-InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - Du kan redigera den här sidan]. Hjälpen ger dig mer information om hur du skapar små webbsidor, bloggar och wikier. [Läs mer](https://datenstrom.se/yellow/help/).
+InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - Du kan redigera den här sidan]. Hjälpen ger dig mer information om hur du skapar små webbsidor, bloggar och wikier. [Läs mer](https://datenstrom.se/sv/yellow/help/).
 InstallDefaultTitle: Sida
 InstallDefaultText: Detta är en ny sida.
 InstallBlogTitle: Bloggsida
