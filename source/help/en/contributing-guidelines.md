@@ -28,7 +28,7 @@ Here's how to work together and make good products.
 
 ## How to make a translation
 
-* [Have a look at your own language](https://github.com/datenstrom/yellow-extensions#languages) and the [help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), check that everything looks okay. 
+* [Have a look at your language](https://github.com/datenstrom/yellow-extensions#languages) and the [help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), check that everything looks okay. 
 * Look for text lines which have not been translated yet. 
 * Make a new translation, if your language is missing.
 * Add your translation to the official repository.

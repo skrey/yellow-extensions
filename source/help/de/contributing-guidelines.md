@@ -28,7 +28,7 @@ Wie man zusammenarbeitet und gute Produkte macht.
 
 ## Wie man eine Übersetzung erstellt
 
-* [Schaue dir deine eigene Sprache](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) und die [Hilfe](https://github.com/datenstrom/yellow-extensions/blob/master/source/help/README-de.md) an, überprüfe ob alles in Ordnung ist.
+* [Schaue dir deine Sprache](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) und die [Hilfe](https://github.com/datenstrom/yellow-extensions/blob/master/source/help/README-de.md) an, überprüfe ob alles in Ordnung ist.
 * Suche nach Textzeilen die noch nicht übersetzt wurden.
 * Erstelle eine neue Übersetzung, wenn deine Sprache fehlt.
 * Füge deine Übersetzung zum offiziellen Repository hinzu.

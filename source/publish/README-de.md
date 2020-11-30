@@ -6,7 +6,7 @@ Erweiterungen verpacken und veröffentlichen.
 
 ## Wie man eine Erweiterung verpackt
 
-Beginne mit einer [Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld) oder einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) an. Das zeigt dir welche Dateien und Einstellungen erforderlich sind. Jede Erweiterung benötigt eine `extension.ini`-Datei mit Erweiterungseinstellungen. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht. Es ist nicht wichtig welchen Standard wir verwenden, aber dass wir alle den selben verwenden. Bitte teste deine Erweiterung regelmässig mit der [neuesten Produktversion](https://github.com/datenstrom/yellow/releases). Datenstrom Yellow verwendet ein fortlaufendes Produktaktualisierungsmodell. 
+Beginne mit einer [Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld) oder einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) an. Das zeigt dir welche Dateien und Einstellungen erforderlich sind. Jede Erweiterung benötigt eine `extension.ini`-Datei mit Erweiterungseinstellungen. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht. Es ist nicht wichtig welchen Standard wir verwenden, aber dass wir alle den selben verwenden. Bitte teste deine Erweiterung regelmässig mit der [neuesten Produktversion](https://github.com/datenstrom/yellow/releases).
 
 ## Wie man eine Erweiterung veröffentlicht
 
