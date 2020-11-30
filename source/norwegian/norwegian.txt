@@ -48,9 +48,9 @@ CoreError420Text: Den begärda siden er ikke offentlig. [yellow error]
 CoreError430Title: Innlogging feilet
 CoreError430Text: Epost eller passord er ikke riktig. [Vennligst prøv på nytt](#data-action-login).
 CoreError434Title: Siden kunne ikke lokaliseres
-CoreError434Text: Den begärda siden kunde inte hittas. [You can create this page](#data-action-edit).
+CoreError434Text: Den begärda siden kunde inte hittas. [Du kan opprette denne siden](#data-action-edit).
 CoreError435Title: Siden kunne ikke lokaliseres
-CoreError435Text: Den begärda siden er slettet. [You can restore this page](#data-action-restore).
+CoreError435Text: Den begärda siden er slettet. [Du kan gjenopprette denne siden](#data-action-restore).
 CoreError500Title: Server feil
 CoreError500Text: Noe gikk galt. [yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.
@@ -225,7 +225,7 @@ ItalianDescription: Italian/Italiano with language 'it'.
 JapaneseDescription: Japanese/日本語 with language 'ja'.
 MarkdownDescription: Text formatting for humans.
 MetaDescription: Meta data for social media sites.
-NorwegianDescription: Norwegian/Norsk Bokmål with language 'nb'.
+NorwegianDescription: Norwegian/Norsk with language 'nb'.
 ParisDescription: Paris is an elegant theme.
 PolishDescription: Polish/Polski with language 'pl'.
 PortugueseDescription: Portuguese/Português with language 'pt'.

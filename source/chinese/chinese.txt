@@ -225,7 +225,7 @@ ItalianDescription: 意大利语/Italiano with language 'it'.
 JapaneseDescription: 日语/日本語 with language 'ja'.
 MarkdownDescription: 方便人们阅读的文本格式化插件.
 MetaDescription: Meta插件为社交分享网站优化信息头.
-NorwegianDescription: 挪威语/Norsk Bokmål with language 'nb'.
+NorwegianDescription: 挪威语/Norsk with language 'nb'.
 ParisDescription: Paris是一个优雅的主题.
 PolishDescription: 波兰语/Polski with language 'pl'.
 PortugueseDescription: 葡萄牙语/Português with language 'pt'.

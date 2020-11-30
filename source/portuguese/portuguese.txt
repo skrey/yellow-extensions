@@ -225,7 +225,7 @@ ItalianDescription: Italian/Italiano with language 'it'.
 JapaneseDescription: Japanese/日本語 with language 'ja'.
 MarkdownDescription: Text formatting for humans.
 MetaDescription: Meta data for social media sites.
-NorwegianDescription: Norwegian/Norsk Bokmål with language 'nb'.
+NorwegianDescription: Norwegian/Norsk with language 'nb'.
 ParisDescription: Paris is an elegant theme.
 PolishDescription: Polish/Polski with language 'pl'.
 PortugueseDescription: Portuguese/Português with language 'pt'.
