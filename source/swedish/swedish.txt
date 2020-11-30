@@ -11,7 +11,7 @@ BlogTag: Taggar:
 BlogMore: Läs mer…
 BreadcrumbDescription: Brödcrumbnavigering..
 BundleDescription: Bundla webbplatsfiler.
-ChineseDescription: Kinesiskt/简体中文 med språket "zh-CN".
+ChineseDescription: Kinesiskt/简体中文 med språket "zh".
 CommandDescription: Webbplatsens kommandorad.
 ContactDescription: E-post kontaktsida.
 ContactName: Namn:

@@ -14,9 +14,9 @@ class YellowChinese {
     public function onUpdate($action) {
         $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
         if ($action=="install") {
-            $this->yellow->system->save($fileName, array("language" => "zh-CN"));
-        } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="zh-CN") {
-            $language = reset(array_diff($this->yellow->system->getValues("language"), array("zh-CN")));
+            $this->yellow->system->save($fileName, array("language" => "zh"));
+        } elseif ($action=="uninstall" && $this->yellow->system->get("language")=="zh") {
+            $language = reset(array_diff($this->yellow->system->getValues("language"), array("zh")));
             $this->yellow->system->save($fileName, array("language" => $language));
         }
     }

@@ -11,7 +11,7 @@ BlogTag: Tagi:
 BlogMore: Czytaj dalej…
 BreadcrumbDescription: Nawigacja okruszkowa (breadcrumb).
 BundleDescription: Połącz pliki strony internetowej w zestawy.
-ChineseDescription: Chiński/简体中文 z językiem 'zh-CN'.
+ChineseDescription: Chiński/简体中文 z językiem 'zh'.
 CommandDescription: Wiersz poleceń witryny.
 ContactDescription: Strona kontaktowa e-mail.
 ContactName: Nazwa:

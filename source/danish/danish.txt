@@ -11,7 +11,7 @@ BlogTag: Tags:
 BlogMore: Læs mere…
 BreadcrumbDescription: Breadcrumb navigation.
 BundleDescription: Bundle website files.
-ChineseDescription: Chinese/简体中文 with language 'zh-CN'.
+ChineseDescription: Chinese/简体中文 with language 'zh'.
 CommandDescription: Command line of the website.
 ContactDescription: Email contact page.
 ContactName: Navn:

@@ -105,7 +105,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 
 ## Sprachen
 
-* [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Chinesisch/简体中文 mit der Sprache "zh-CN". Übersetzt von Hyson Lee.
+* [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Chinesisch/简体中文 mit der Sprache "zh". Übersetzt von Hyson Lee.
 * [Czech](https://github.com/datenstrom/yellow-extensions/tree/master/source/czech): Tschechisch/Čeština mit der Sprache "cs". Übersetzt von Ufo Vyhuleny.
 * [Danish](https://github.com/datenstrom/yellow-extensions/tree/master/source/danish): Dänisch/Dansk mit der Sprache "da". Übersetzt von David Garcia.
 * [Dutch](https://github.com/datenstrom/yellow-extensions/tree/master/source/dutch): Niederländisch/Nederlands mit der Sprache "nl". Übersetzt von Robin Vannieuwenhuijse.
