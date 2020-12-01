@@ -116,7 +116,7 @@ More features, languages and themes for Datenstrom Yellow.
 * [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/source/italian): Italian/Italiano with language 'it'. Translated by Giovanni Salmeri.
 * [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/source/japanese): Japanese/日本語 with language 'ja'. Translated by Yuhko Senuma.
 * [Norwegian](https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian): Norwegian/Norsk with language 'nb'. Translated by Per Arne Solvik.
-* [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/source/polish): Polish/Polski with language 'pl'. Translated by Paweł Klockiewicz.
+* [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/source/polish): Polish/Polski with language 'pl'. Translated by Paweł Klockiewicz and Kanbeq.
 * [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/source/portuguese): Portuguese/Português with language 'pt'. Translated by Al Garcia.
 * [Russian](https://github.com/datenstrom/yellow-extensions/tree/master/source/russian): Russian/Русский with language 'ru'. Translated by Сергей Ворон.
 * [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/source/slovak): Slovak/Slovenčina with language 'sk'. Translated by Ádám Tuba.
@@ -137,5 +137,6 @@ Do you have questions? [Get help](https://datenstrom.se/yellow/help/) and [contr
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
 <a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
+<a href="README-pl.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-pl.png" width="15" height="15" alt="Polski">&nbsp; Polski</a>&nbsp;
 <a href="README-sv.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-sv.png" width="15" height="15" alt="Svenska">&nbsp; Svenska</a>&nbsp;
 </p>
