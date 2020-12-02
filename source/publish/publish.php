@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.32";
+    const VERSION = "0.8.33";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -70,7 +70,10 @@ class YellowPublish {
             $statusCode = max($statusCode, $this->updateExtensionDocumentation($path));
             $statusCode = max($statusCode, $this->updateExtensionArchive($path, $pathRepositoryOffical));
             $statusCode = max($statusCode, $this->updateExtensionLatest($path, $pathRepositoryOffical));
-            if (defined("DEBUG") && DEBUG>=1) echo "YellowPublish::updateExtensionDirectory ".ucfirst($extension)." $version<br/>\n";
+            if (defined("DEBUG") && DEBUG>=1) {
+                list($extension, $version) = $this->getExtensionInformationFromSource($path);
+                echo "YellowPublish::updateExtensionDirectory ".ucfirst($extension)." $version<br/>\n";
+            }
             ++$this->extensions;
             if ($statusCode!=200) ++$this->errors;
         }
