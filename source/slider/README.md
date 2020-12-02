@@ -1,5 +1,5 @@
-Slider 0.8.6
-============
+Slider 0.8.11
+=============
 Image gallery with slider.
 
 <p align="center"><img src="slider-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

@@ -2,7 +2,7 @@
 // Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/slider
 
 class YellowSlider {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -35,9 +35,10 @@ class YellowSlider {
                     $output .= ">\n";
                     foreach ($files as $file) {
                         list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($file->fileName, $size, $size);
-                        $output .= "<img src=\"".htmlspecialchars($src)."\" width=\"".htmlspecialchars($width)."\" height=\"".
-                            htmlspecialchars($height)."\" alt=\"".basename($file->getLocation(true))."\" title=\"".
-                            basename($file->getLocation(true))."\" />\n";
+                        $output .= "<img src=\"".htmlspecialchars($src)."\"";
+                        if ($width && $height) $output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
+                        $output .= " alt=\"".basename($file->getLocation(true))."\" title=\"".basename($file->getLocation(true))."\"";
+                        $output .= " />\n";
                     }
                     $output .= "</div>";
                 } else {

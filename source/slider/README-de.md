@@ -1,5 +1,5 @@
-Slider 0.8.6
-============
+Slider 0.8.11
+=============
 Bildergalerie mit Schieber.
 
 <p align="center"><img src="slider-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>

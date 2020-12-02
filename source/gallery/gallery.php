@@ -2,7 +2,7 @@
 // Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery
 
 class YellowGallery {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -32,16 +32,18 @@ class YellowGallery {
                     if (substru($size, -1, 1)!="%") $output .= " data-thumbsquare=\"true\"";
                     $output .= ">\n";
                     foreach ($files as $file) {
-                        list($widthInput, $heightInput) = $this->yellow->toolbox->detectImageInformation($file->fileName);
                         list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($file->fileName, $size, $size);
+                        list($widthInput, $heightInput) = $this->yellow->toolbox->detectImageInformation($file->fileName);
+                        if (!$widthInput || !$heightInput) $widthInput = $heightInput = "500";
                         $caption = $this->yellow->language->isText($file->fileName) ? $this->yellow->language->getText($file->fileName) : "";
                         $alt = empty($caption) ? basename($file->getLocation(true)) : $caption;
                         $output .= "<a href=\"".$file->getLocation(true)."\"";
-                        if ($widthInput && $heightInput) $output .= " data-size=\"".htmlspecialchars("{$widthInput}x{$heightInput}")."\"";
-                        if (!empty($caption)) $output .= " data-caption=\"".htmlspecialchars($caption)."\"";
+                        $output .= " data-size=\"".htmlspecialchars("{$widthInput}x{$heightInput}")."\"";
+                        $output .= " data-caption=\"".htmlspecialchars($caption)."\"";
                         $output .= ">";
-                        $output .= "<img src=\"".htmlspecialchars($src)."\" width=\"".htmlspecialchars($width)."\" height=\"".
-                            htmlspecialchars($height)."\" alt=\"".htmlspecialchars($alt)."\" title=\"".htmlspecialchars($alt)."\" />";
+                        $output .= "<img src=\"".htmlspecialchars($src)."\"";
+                        if ($width && $height) $output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
+                        $output .= " alt=\"".htmlspecialchars($alt)."\" title=\"".htmlspecialchars($alt)."\" />";
                         $output .= "</a> \n";
                     }
                     $output .= "</div>";
