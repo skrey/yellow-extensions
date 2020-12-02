@@ -1,4 +1,4 @@
-Toc 0.8.5
+Toc 0.8.6
 =========
 Inhaltsverzeichnis anzeigen.
 
@@ -36,6 +36,18 @@ Inhaltsdatei mit Inhaltsverzeichnis:
     ## Zusammenfassung
     
     Das ist eine Beispielseite.
+
+Layoutdatei mit Inhaltsverzeichnis:
+
+    <?php $this->yellow->layout("header") ?>
+    <div class="content">
+    <div class="main" role="main">
+    <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
+    <?php echo $this->yellow->page->getExtra("toc") ?>
+    <?php echo $this->yellow->page->getContent() ?>
+    </div>
+    </div>
+    <?php $this->yellow->layout("footer") ?>
 
 ## Installation
 

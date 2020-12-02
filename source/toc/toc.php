@@ -1,8 +1,8 @@
 <?php
-// TOC extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/toc
+// Toc extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/toc
 
 class YellowToc {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -32,5 +32,10 @@ class YellowToc {
             return $output;
         };
         return preg_replace_callback("/<p>\[toc\]<\/p>\n/i", $callback, $text);
+    }
+    
+    // Handle page extra data
+    public function onParsePageExtra($page, $name) {
+        return $name=="toc" ? $this->onParseContentHtml($page, "<p>[toc]</p>\n") : null;
     }
 }
