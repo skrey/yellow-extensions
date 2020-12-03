@@ -3,10 +3,10 @@ Title: How to make a small website
 ---
 Learn how to make your own website.
 
-## Installing website
+## Installation
 
-1. [Download and unzip Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
-2. Copy all files to your web server.
+1. [Download Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
+2. Unzip and copy all files to your web server.
 3. Open your website in a web browser and select 'Website'.
 
 Your website is immediately available. The installation comes with a home page. This is just an example to get you started, change everything as you like. You can make a website by adding more files and folders.

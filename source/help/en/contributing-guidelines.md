@@ -8,14 +8,14 @@ Here's how to work together and make good products.
 ## How to ask a question
 
 * [Submit a new issue for each question](https://github.com/datenstrom/yellow/issues).
-* Describe your question, tell us what you have done so far.
+* Describe your question and tell us what you have done so far.
 * Specify the version of your website, use the latest version if possible.
 * Add a lot of details, the more we know the better we can help.
 
 ## How to report a problem
 
 * [Submit a new issue for each problem](https://github.com/datenstrom/yellow/issues).
-* Describe your problem, tell us how to reproduce it.
+* Describe your problem and tell us how to reproduce it.
 * Specify the version of your website, check the log file for errors.
 * Add a lot of details, the more we know the better we can help.
 

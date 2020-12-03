@@ -8,14 +8,14 @@ Wie man zusammenarbeitet und gute Produkte macht.
 ## Wie man eine Frage stellt
 
 * [Erstelle eine neue Anfrage für jede Frage](https://github.com/datenstrom/yellow/issues).
-* Beschreibe deine Frage, sage uns was du bisher gemacht hast.
+* Beschreibe deine Frage und sage uns was du bisher gemacht hast.
 * Gib die Version deiner Webseite an, benutze die neuste Version falls möglich.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
 
 ## Wie man ein Problem meldet
 
 * [Erstelle eine neue Anfrage für jedes Problem](https://github.com/datenstrom/yellow/issues).
-* Beschreibe dein Problem, sage uns wie man es reproduzieren kann.
+* Beschreibe dein Problem und sage uns wie man es reproduzieren kann.
 * Gib die Version deiner Webseite an, überprüfe die Logdatei nach Fehlern.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
 

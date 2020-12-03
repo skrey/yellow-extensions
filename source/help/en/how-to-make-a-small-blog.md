@@ -3,10 +3,10 @@ Title: How to make a small blog
 ---
 Learn how to make your own blog.
 
-## Installing blog
+## Installation
 
-1. [Download and unzip Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
-2. Copy all files to your web server.
+1. [Download Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
+2. Unzip and copy all files to your web server.
 3. Open your website in a web browser and select 'Blog'.
 
 Your blog is immediately available. The installation comes with two pages, 'Home' and 'Blog'. This is just an example to get you started, change everything as you like. You can delete the home page, if you want to show the blog on the home page.

@@ -3,10 +3,10 @@ Title: Wie man ein kleines Blog erstellt
 ---
 Lerne wie man ein eigenes Blog erstellt.
 
-## Blog installieren
+## Installation
 
-1. [Datenstrom Yellow herunterladen und entpacken](https://github.com/datenstrom/yellow/archive/master.zip).
-2. Kopiere alle Dateien auf deinen Webserver.
+1. [Datenstrom Yellow herunterladen](https://github.com/datenstrom/yellow/archive/master.zip).
+2. Entpacke und kopiere alle Dateien auf deinen Webserver.
 3. Öffne deine Webseite im Webbrowser und wähle "Blog" aus.
 
 Dein Blog ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Blog". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Du kannst die Startseite löschen, wenn du das Blog auf der Startseite anzeigen willst.
