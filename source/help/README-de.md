@@ -6,11 +6,11 @@ Hilfe für deine Webseite.
 
 ## Wie man die Hilfe benutzt
 
-Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. Die Hilfe ist derzeit in Englisch und Deutsch verfügbar. Es wird empfohlen, auch die [Toc-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md) zu installieren.
+Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. Es wird empfohlen, auch die [Toc-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md) und [Highlight-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight/README-de.md) zu installieren.
 
 ## Wie man die Hilfe übersetzt
 
-Die Hilfeseiten befinden sich im `content/9-help`-Verzeichnis. Übersetze nur den Titel und den Inhalt einer Seite. Dateinamen sollte man unverändert lassen. Lass uns wissen, falls du eine neue Übersetzung erstellt hast.
+Die Hilfeseiten befinden sich im `content/9-help`-Verzeichnis. Übersetze den Titel und den Inhalt aller Seiten. Die Dateinamen sollten unverändert bleiben. Die Hilfeseiten sind derzeit auf Englisch und Deutsch verfügbar. Lass uns wissen, falls du eine neue Übersetzung erstellt hast und füge sie zu dieser Erweiterung hinzu.
 
 ## Installation
 
