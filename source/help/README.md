@@ -10,7 +10,7 @@ The help is available on your website as `http://website/help/`. The help gives 
 
 ## How to translate the help
 
-The help pages are inside your `content/9-help` folder. Translate the title and content of all page. The file names should be left unchanged. The help pages are currently available in English and German. Let us know, if you made a new translation and add it to this repository.
+The help pages are inside your `content/9-help` folder. Translate the title and content of all page. The file names should be left unchanged. The help is currently available in English and German. Let us know, if you made a new translation and add it to this repository.
 
 ## Installation
 
