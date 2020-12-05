@@ -134,7 +134,7 @@ Using HTML:
 `[wikichanges /wiki/]` = [show latest wiki pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki)  
 `[fa fa-envelope-o]` = [show icons and symbols](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome)  
 `[ea ea-smile]` = [show emoji and colorful images](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome)  
-`[yellow]` = [show website version](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)  
+`[yellow about]` = [show website version](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `[edit]` = [edit website in web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `[toc]` = [show table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)  
 `[--more--]` = [add page break](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog) 

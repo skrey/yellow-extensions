@@ -16,7 +16,7 @@ The `content` folders are available on your website. Every folder has a file cal
 The navigation is automatically created from your `content` folders:
 
 1. Folders can have a numerical prefix, e.g. `1-home` or `9-about`
-2. Files can have a numerical prefix, e.g. `2013-04-07-blog-example.md`
+2. Files can have a numerical prefix, e.g. `2020-04-07-blog-example.md`
 3. Files and folders without a prefix have no special meaning
 
 Prefix and suffix are removed from the location, so that it looks better. For example the folder `content/9-about/` is available on your website as `http://website/about/`. The file `content/9-about/privacy.md` becomes `http://website/about/privacy`. 
@@ -29,12 +29,12 @@ You can use [Markdown](markdown-cheat-sheet) to edit web pages. Open the file `c
 
     ---
     Title: Home
+    TitleContent: Your website works!
     ---
-    Your website works!
+    [image photo.jpg Example rounded]
     
-    [edit - You can edit this page] or use your text editor.
-
-    You can install more features and themes.
+    [edit - You can edit this page]. 
+    The help gives you more information about how to create small web pages, blogs and wikis. 
     [Learn more](https://datenstrom.se/yellow/help/).
 
 Formatting text:

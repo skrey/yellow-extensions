@@ -32,7 +32,7 @@ Inhaltsdatei mit Blogseite:
 
     ---
     Title: Blog-Beispiel
-    Published: 2013-04-07
+    Published: 2020-04-07
     Author: Datenstrom
     Layout: blog
     Tag: Beispiel
@@ -49,7 +49,7 @@ Inhaltsdatei mit Blogseite und Seitenumbruch:
 
     ---
     Title: Fika ist gut für dich
-    Published: 2016-06-01
+    Published: 2020-06-01
     Author: Datenstrom
     Layout: blog
     Tag: Beispiel, Kaffee

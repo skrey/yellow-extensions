@@ -3,24 +3,24 @@ Title: How to make a small blog
 ---
 Learn how to make your own blog.
 
-## Installation
+[toc]
+
+## First steps
 
 1. [Download Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
 2. Unzip and copy all files to your web server.
-3. Open your website in a web browser and select 'Blog'.
+3. Open your website in a web browser.
 
-Your blog is immediately available. The installation comes with two pages, 'Home' and 'Blog'. This is just an example to get you started, change everything as you like. You can delete the home page, if you want to show the blog on the home page.
+Enter your name, email, password and select 'Blog'. Your blog is immediately available. The installation comes with two pages, 'Home' and 'Blog'. This is just an example to get you started. Change everything as you like. You can edit your blog in a web browser or on your computer.  You can delete the home page, if you want to show the blog on the home page. If there are problems with installation, see [troubleshooting](troubleshooting).
 
-When there are problems with installation, see [troubleshooting](troubleshooting).
- 
-## Writing blog pages
+## Edit blog pages
 
-Have a look inside your `content` folder, there's the blog folder with all your blog pages. Open the file `2013-04-07-blog-example.md`. You'll see settings and text of the page. You can change `Title` and other [settings](markdown-cheat-sheet#settings) at the top of a page. Below that you can use [Markdown](markdown-cheat-sheet). Here's an example:
+Let's see how to edit blog pages on the computer. Have a look inside your `content` folder, here's the blog folder with all your blog pages. Open the file `2020-04-07-blog-example.md`. You'll see settings and text of the page. You can change `Title` and other [settings](markdown-cheat-sheet#settings) at the top of a page. Below that you can use [Markdown](markdown-cheat-sheet). Here's an example:
 
 ```
 ---
 Title: Blog example
-Published: 2013-04-07
+Published: 2020-04-07
 Author: Datenstrom
 Layout: blog
 Tag: Example
@@ -37,7 +37,7 @@ To create a new blog page, add a new file to the blog folder. Set `Published` an
 ```
 ---
 Title: Fika is good for you
-Published: 2016-06-01
+Published: 2020-06-01
 Author: Datenstrom
 Layout: blog
 Tag: Example, Coffee
@@ -54,7 +54,7 @@ Now let's add a video with the [Youtube extension](https://github.com/datenstrom
 ```
 ---
 Title: Fika is good for you
-Published: 2016-06-01
+Published: 2020-06-01
 Author: Datenstrom
 Layout: blog
 Tag: Example, Coffee, Video
@@ -65,15 +65,15 @@ colleagues at work. You can invite your friends to fika. Fika is such
 an important part of life in Sweden that it is both a verb and a noun. 
 How often do you fika?
 
-[youtube wnBHyfMtK5o]
+[youtube SUpY1BT9Xf4]
 ```
 
-Let's show the video when a visitor clicks on the blog page. You can use `[--more--]` to add a page break at the desired spot:
+You can use `[--more--]` to add a page break at the desired spot. The rest will be shown when a visitor clicks on the blog page:
 
 ```
 ---
 Title: Fika is good for you
-Published: 2016-06-01
+Published: 2020-06-01
 Author: Datenstrom
 Layout: blog
 Tag: Example, Coffee, Video
@@ -84,12 +84,10 @@ colleagues at work. You can invite your friends to fika. Fika is such
 an important part of life in Sweden that it is both a verb and a noun. 
 How often do you fika? [--more--]
 
-[youtube wnBHyfMtK5o]
+[youtube SUpY1BT9Xf4]
 ```
 
-You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog#how-to-show-blog-information) to show information about the blog.
-
-## Showing header
+## Show header and footer
 
 To show a header create the file `content/shared/header.md`. Here's an example:
 
@@ -98,10 +96,8 @@ To show a header create the file `content/shared/header.md`. Here's an example:
 Title: Header
 Status: shared
 ---
-I like Markdown.
+Website is under construction.
 ```
-
-## Showing footer
 
 To show a footer create the file `content/shared/footer.md`. Here's an example:
 
@@ -110,15 +106,15 @@ To show a footer create the file `content/shared/footer.md`. Here's an example:
 Title: Footer
 Status: shared
 ---
-[Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+[Made with Datenstrom Yellow](https://datenstrom.se/yellow/).
 ```
 
-## Get extensions
+## Add features, languages and themes
 
-There are [extensions](https://github.com/datenstrom/yellow-extensions) for your blog. Here are some examples:
+There are [extensions for your website](https://github.com/datenstrom/yellow-extensions). Of course we also have an [API for developers](api-for-developers).
 
-* [How to show comments](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus)
-* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
-* [How to use a feed](https://github.com/datenstrom/yellow-extensions/tree/master/source/feed)
-* [How to make a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)
-* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
+## Related information
+
+* [How to use a blog](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)
+* [How to edit a website in a web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
+* [How to edit a website on the computer](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)

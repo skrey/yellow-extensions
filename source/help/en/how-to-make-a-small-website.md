@@ -3,57 +3,61 @@ Title: How to make a small website
 ---
 Learn how to make your own website.
 
-## Installation
+[toc]
+
+## First steps
 
 1. [Download Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
 2. Unzip and copy all files to your web server.
-3. Open your website in a web browser and select 'Website'.
+3. Open your website in a web browser.
 
-Your website is immediately available. The installation comes with a home page. This is just an example to get you started, change everything as you like. You can make a website by adding more files and folders.
+Enter your name, email, password and select 'Website'. Your website is immediately available. The installation comes with one page. This is just an example to get you started. Change everything as you like. You can edit your website in a web browser or on your computer. If there are problems with installation, see [troubleshooting](troubleshooting).
 
-When there are problems with installation, see [troubleshooting](troubleshooting).
+## Edit web pages
 
-## Writing web pages
-
-Have a look inside your `content` folder, here are all your web pages. Open the file `content/1-home/page.md`. You'll see settings and text of the page. You can change `Title` and other [settings](markdown-cheat-sheet#settings) at the top of a page. Below that you can use [Markdown](markdown-cheat-sheet). Here's an example:
+Let's see how to edit web pages on the computer. Have a look inside your `content` folder, here are all your web pages. Open the file `content/1-home/page.md`. You'll see settings and text of the page. You can change `Title` and other [settings](markdown-cheat-sheet#settings) at the top of a page. Below that you can use [Markdown](markdown-cheat-sheet). Here's an example:
 
 ```
 ---
 Title: Home
----
-Your website works! 
-
-[edit - You can edit this page] or use your text editor.
-
-You can install more features and themes.
-[Learn more](https://datenstrom.se/yellow/help/).
-```
-
-To create a new page, add a new file to the home folder or another `content` folder. The [navigation](adjusting-content) is automatically created from your `content` folders. Here's another example:
-
-```
----
-Title: Demo
----
-[edit - You can edit this page]. The help gives you more information 
-about how to create small web pages, blogs and wikis. 
-[Learn more](https://datenstrom.se/yellow/help/).
-```
-
-Now let's add an image:
-
-```
----
-Title: Demo
+TitleContent: Your website works!
 ---
 [image photo.jpg Example rounded]
 
-[edit - You can edit this page]. The help gives you more information 
-about how to create small web pages, blogs and wikis. 
+[edit - You can edit this page]. 
+The help gives you more information about how to create small web pages, blogs and wikis. 
 [Learn more](https://datenstrom.se/yellow/help/).
 ```
 
-## Showing header
+To create a new page, add a new file to the home folder or to another `content` folder:
+
+```
+---
+Title: Example page
+---
+This is an example page.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
+```
+
+Now let's add text formatting:
+
+```
+---
+Title: Example page
+---
+This is an example page.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
+
+Normal **bold** *italic* ~~strikethrough~~ `code`
+```
+
+## Show header and footer
 
 To show a header create the file `content/shared/header.md`. Here's an example:
 
@@ -62,10 +66,8 @@ To show a header create the file `content/shared/header.md`. Here's an example:
 Title: Header
 Status: shared
 ---
-I like Markdown.
+Website is under construction.
 ```
-
-## Showing footer
 
 To show a footer create the file `content/shared/footer.md`. Here's an example:
 
@@ -74,15 +76,15 @@ To show a footer create the file `content/shared/footer.md`. Here's an example:
 Title: Footer
 Status: shared
 ---
-[Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+[Made with Datenstrom Yellow](https://datenstrom.se/yellow/).
 ```
 
-## Get extensions
+## Add features, languages and themes
 
-There are [extensions](https://github.com/datenstrom/yellow-extensions) for your website. Here are some examples:
+There are [extensions for your website](https://github.com/datenstrom/yellow-extensions). Of course we also have an [API for developers](api-for-developers).
 
-* [How to add an image gallery](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)
-* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
-* [How to use a sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap)
-* [How to use a contact page](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact)
-* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
+## Related information
+
+* [How to make a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
+* [How to edit a website in a web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
+* [How to edit a website on the computer](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)

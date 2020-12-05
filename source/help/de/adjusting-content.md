@@ -16,7 +16,7 @@ Die `content`-Verzeichnisse stehen auf deiner Webseite zur Verfügung. In jedem 
 Die Navigation wird automatisch aus deinen `content`-Verzeichnissen erstellt:
 
 1. Verzeichnisse können ein numerisches Präfix haben, z.B. `1-home` oder `9-about`
-2. Dateien können ein numerisches Präfix haben, z.B. `2013-04-07-blog-example.md`
+2. Dateien können ein numerisches Präfix haben, z.B. `2020-04-07-blog-example.md`
 3. Dateien und Verzeichnisse ohne Präfix haben keine besondere Bedeutung
 
 Präfixe und Suffixe werden aus der Adresse entfernt, damit es besser aussieht. Zum Beispiel ist das Verzeichnis `content/9-about/` vorhanden als `http://website/about/`. Die Datei `content/9-about/privacy.md` wird zu `http://website/about/privacy`.
@@ -29,13 +29,13 @@ Du kannst [Markdown](markdown-cheat-sheet) benutzen um Webseiten zu bearbeiten. 
 
     ---
     Title: Startseite
+    TitleContent: Deine Webseite funktioniert!
     ---
-    Deine Webseite funktioniert!
+    [image photo.jpg Beispiel rounded]
     
-    [edit - Du kannst diese Seite bearbeiten] oder einen Texteditor benutzen.
-    
-    Du kannst weitere Funktionen und Themen installieren.
-    [Mehr erfahren](https://datenstrom.se/de/yellow/help/).
+    [edit - Du kannst diese Seite bearbeiten]. 
+    Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. 
+    [Weitere Informationen](https://datenstrom.se/de/yellow/help/).
 
 Text formatieren:
 

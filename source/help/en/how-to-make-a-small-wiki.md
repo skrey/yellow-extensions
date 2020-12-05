@@ -3,19 +3,19 @@ Title: How to make a small wiki
 ---
 Learn how to make your own wiki.
 
-## Installation
+[toc]
+
+## First steps
 
 1. [Download Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
 2. Unzip and copy all files to your web server.
-3. Open your website in a web browser and select 'Wiki'.
+3. Open your website in a web browser.
 
-Your wiki is immediately available. The installation comes with two pages, 'Home' and 'Wiki'. This is just an example to get you started, change everything as you like. You can delete the home page, if you want to show the wiki on the home page.
-
-When there are problems with installation, see [troubleshooting](troubleshooting).
+Enter your name, email, password and select 'Wiki'. Your wiki is immediately available. The installation comes with two pages, 'Home' and 'Wiki'. This is just an example to get you started. Change everything as you like. You can edit your wiki in a web browser or on your computer.  You can delete the home page, if you want to show the wiki on the home page. If there are problems with installation, see [troubleshooting](troubleshooting).
 
 ## Writing wiki pages
 
-Have a look inside your `content` folder, there's the wiki folder with all your wiki pages. Open the file `wiki-page.md`. You'll see settings and text of the page. You can change `Title` and other [settings](markdown-cheat-sheet#settings) at the top of a page. Below that you can use [Markdown](markdown-cheat-sheet). Here's an example:
+Let's see how to edit wiki pages on the computer. Have a look inside your `content` folder, here's  the wiki folder with all your wiki pages. Open the file `wiki-page.md`. You'll see settings and text of the page. You can change `Title` and other [settings](markdown-cheat-sheet#settings) at the top of a page. Below that you can use [Markdown](markdown-cheat-sheet). Here's an example:
 
 ```
 ---
@@ -72,9 +72,7 @@ Coffee is a beverage made from the roasted beans of the coffee plant.
 [youtube SUpY1BT9Xf4]
 ```
 
-You can use [shortcuts](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki#how-to-show-wiki-information) to show information about the wiki.
-
-## Showing header
+## Show header and footer
 
 To show a header create the file `content/shared/header.md`. Here's an example:
 
@@ -83,10 +81,8 @@ To show a header create the file `content/shared/header.md`. Here's an example:
 Title: Header
 Status: shared
 ---
-I like Markdown.
+Website is under construction.
 ```
-
-## Showing footer
 
 To show a footer create the file `content/shared/footer.md`. Here's an example:
 
@@ -95,15 +91,15 @@ To show a footer create the file `content/shared/footer.md`. Here's an example:
 Title: Footer
 Status: shared
 ---
-[Made with Datenstrom Yellow](https://datenstrom.se/yellow/)
+[Made with Datenstrom Yellow](https://datenstrom.se/yellow/).
 ```
 
-## Get extensions
+## Add features, languages and themes
 
-There are [extensions](https://github.com/datenstrom/yellow-extensions) for your wiki. Here are some examples:
+There are [extensions for your website](https://github.com/datenstrom/yellow-extensions). Of course we also have an [API for developers](api-for-developers).
 
-* [How to make a table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)
-* [How to use a search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
-* [How to use a contact page](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact)
-* [How to make a draft page](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)
-* [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
+## Related information
+
+* [How to use a wiki](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki)
+* [How to edit a website in a web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
+* [How to edit a website on the computer](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)

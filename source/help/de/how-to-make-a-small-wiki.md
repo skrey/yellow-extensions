@@ -3,19 +3,19 @@ Title: Wie man ein kleines Wiki erstellt
 ---
 Lerne wie man ein eigenes Wiki erstellt.
 
-## Installation
+[toc]
+
+## Erste Schritte
 
 1. [Datenstrom Yellow herunterladen](https://github.com/datenstrom/yellow/archive/master.zip).
 2. Entpacke und kopiere alle Dateien auf deinen Webserver.
-3. Öffne deine Webseite im Webbrowser und wähle "Wiki" aus.
+3. Öffne deine Webseite im Webbrowser.
 
-Dein Wiki ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Wiki". Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Du kannst die Startseite löschen, wenn du das Wiki auf der Startseite anzeigen willst.
-
-Falls Probleme bei der Installation auftreten, siehe [Fehlerbehebung](troubleshooting).
+Gebe deinen Namen, E-Mail, Kennwort ein und wähle "Wiki" aus. Dein Wiki ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Wiki". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Wiki im Webbrowser oder auf deinem Computer bearbeiten. Du kannst die Startseite löschen, wenn du das Wiki auf der Startseite anzeigen willst. Falls Probleme bei der Installation auftreten, siehe [Fehlerbehebung](troubleshooting).
 
 ## Wikiseiten schreiben
 
-Lass uns einen Blick ins `content`-Verzeichnis werfen, dort befindet sich das Wikiverzeichnis mit allen Wikiseiten. Öffne die Datei `wiki-page.md`. Es werden Einstellungen und Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Einstellungen](markdown-cheat-sheet#einstellungen) ändern. Darunter kannst du [Markdown](markdown-cheat-sheet) benutzen. Hier ist ein Beispiel:
+Lass uns ausprobieren wie man Wikiseiten auf dem Computer bearbeitet. Schau dir das `content`-Verzeichnis an, dort befindet sich das Wikiverzeichnis mit allen Wikiseiten. Öffne die Datei `wiki-page.md`. Es werden Einstellungen und der Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Einstellungen](markdown-cheat-sheet#einstellungen) ändern. Darunter kannst du [Markdown](markdown-cheat-sheet) benutzen. Hier ist ein Beispiel:
 
 ```
 ---
@@ -30,7 +30,7 @@ tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
 ```
 
-Um eine neue Wikiseite hinzuzufügen, erstellst du eine neue Datei im Wikiverzeichnis. Ganz oben auf der Seite solltest du `Title` und weitere Einstellungen ändern. Mit `Tag` kannst du ähnliche Seiten gruppieren. Hier ein weiteres Beispiel:
+Um eine neue Wikiseite hinzuzufügen, erstellst du eine neue Datei im Wikiverzeichnis. Ganz oben auf der Seite solltest du `Title` und weitere Einstellungen ändern. Mit `Tag` kannst du ähnliche Seiten gruppieren. Hier ist ein weiteres Beispiel:
 
 ```
 ---
@@ -50,7 +50,7 @@ Kaffee ist ein Getränk aus gerösteten Bohnen der Kaffeepflanze.
 3. Genieße.
 ```
 
-Ein Video hinzufügen mit der [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube):
+Du kannst ein Video hinzufügen mit der [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md):
 
 ```
 ---
@@ -72,9 +72,7 @@ Kaffee ist ein Getränk aus gerösteten Bohnen der Kaffeepflanze.
 [youtube SUpY1BT9Xf4]
 ```
 
-Verwende [Abkürzungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki#how-to-show-wiki-information), um Informationen über das Wiki anzuzeigen.
-
-## Kopfzeile anzeigen
+## Kopfzeile und Fußzeile anzeigen
 
 Um eine Kopfzeile anzuzeigen, erstelle die Datei `content/shared/header.md`. Hier ist ein Beispiel:
 
@@ -83,10 +81,8 @@ Um eine Kopfzeile anzuzeigen, erstelle die Datei `content/shared/header.md`. Hie
 Title: Header
 Status: shared
 ---
-Ich mag Markdown.
+Webseite ist im Aufbau.
 ```
-
-## Fußzeile anzeigen
 
 Um eine Fußzeile anzuzeigen, erstelle die Datei `content/shared/footer.md`. Hier ist ein Beispiel:
 
@@ -95,16 +91,16 @@ Um eine Fußzeile anzuzeigen, erstelle die Datei `content/shared/footer.md`. Hie
 Title: Footer
 Status: shared
 ---
-[Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/)
+[Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/).
 ```
 
-## Erweiterungen finden
+## Funktionen, Sprachen und Themen hinzufügen
 
-Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für dein Wiki. Hier sind einige Beispiele:
+Es gibt [Erweiterungen für deine Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/README-de.md). Natürlich haben wir auch eine [API für Entwickler](api-for-developers).
 
-* [Wie man ein Inhaltsverzeichnis macht](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)
-* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
-* [Wie man eine Kontaktseite benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact)
-* [Wie man eine Entwurfseite macht](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)
-* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
+## Verwandte Informationen
+
+* [Wie man ein Wiki benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md)
+* [Wie man eine Webseite im Webbrowser bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
+* [Wie man eine Webseite auf dem Computer bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
 

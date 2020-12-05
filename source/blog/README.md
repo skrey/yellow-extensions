@@ -32,7 +32,7 @@ Content file with blog page:
 
     ---
     Title: Blog example
-    Published: 2013-04-07
+    Published: 2020-04-07
     Author: Datenstrom
     Layout: blog
     Tag: Example
@@ -49,7 +49,7 @@ Content file with blog page and page break:
 
     ---
     Title: Fika is good for you
-    Published: 2016-06-01
+    Published: 2020-06-01
     Author: Datenstrom
     Layout: blog
     Tag: Example, Coffee

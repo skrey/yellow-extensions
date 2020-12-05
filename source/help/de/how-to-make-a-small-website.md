@@ -3,57 +3,61 @@ Title: Wie man eine kleine Webseite erstellt
 ---
 Lerne wie man eine eigene Webseite erstellt.
 
-## Installation
+[toc]
+
+## Erste Schritte
 
 1. [Datenstrom Yellow herunterladen](https://github.com/datenstrom/yellow/archive/master.zip).
 2. Entpacke und kopiere alle Dateien auf deinen Webserver.
-3. Öffne deine Webseite im Webbrowser und wähle "Webseite" aus.
+3. Öffne deine Webseite im Webbrowser.
 
-Deine Webseite ist sofort erreichbar. Die Installation kommt mit einer Startseite. Das ist nur ein Beispiel um loszulegen, verändere alles so wie du willst. Man kann eine Webseite erstellen, indem man weitere Dateien und Verzeichnisse hinzufügt.
+Gebe deinen Namen, E-Mail, Kennwort ein und wähle "Webseite" aus. Deine Webseite ist sofort erreichbar. Die Installation kommt mit einer Seite. Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst deine Webseite im Webbrowser oder auf deinem Computer bearbeiten. Falls Probleme bei der Installation auftreten, siehe [Fehlerbehebung](troubleshooting).
 
-Falls Probleme bei der Installation auftreten, siehe [Fehlerbehebung](troubleshooting).
+## Webseiten bearbeiten
 
-## Webseiten schreiben
-
-Lass uns einen Blick ins `content`-Verzeichnis werfen, hier sind alle Webseiten. Öffne die Datei `content/1-home/page.md`. Es werden Einstellungen und Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und weitere [Einstellungen](markdown-cheat-sheet#einstellungen) ändern. Darunter kannst du [Markdown](markdown-cheat-sheet) benutzen. Hier ist ein Beispiel:
+Lass uns ausprobieren wie man Webseiten auf dem Computer bearbeitet. Schau dir das `content`-Verzeichnis an, dort befinden sich alle Webseiten. Öffne die Datei `content/1-home/page.md`. Es werden Einstellungen und der Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und weitere [Einstellungen](markdown-cheat-sheet#einstellungen) ändern. Darunter kannst du [Markdown](markdown-cheat-sheet) benutzen. Hier ist ein Beispiel:
 
 ```
 ---
 Title: Startseite
----
-Deine Webseite funktioniert!
-
-[edit - Du kannst diese Seite bearbeiten] oder einen Texteditor benutzen.
-
-Du kannst weitere Funktionen und Themen installieren.
-[Mehr erfahren](https://datenstrom.se/de/yellow/help/).
-```
-
-Um eine neue Seite hinzuzufügen, erstellst du eine neue Datei im Home-Verzeichnis oder einem anderen `content`-Verzeichnis. Die [Navigation](adjusting-content) wird automatisch aus deinen `content`-Verzeichnissen erstellt. Hier ist ein weiteres Beispiel:
-
-```
----
-Title: Demo
----
-[edit - Du kannst diese Seite bearbeiten]. Die Hilfe zeigt dir 
-wie man kleine Webseiten, Blogs und Wikis erstellt.
-[Mehr erfahren](https://datenstrom.se/de/yellow/help/).
-```
-
-Ein Bild hinzufügen:
-
-```
----
-Title: Demo
+TitleContent: Deine Webseite funktioniert!
 ---
 [image photo.jpg Beispiel rounded]
 
-[edit - Du kannst diese Seite bearbeiten]. Die Hilfe zeigt dir 
-wie man kleine Webseiten, Blogs und Wikis erstellt.
-[Mehr erfahren](https://datenstrom.se/de/yellow/help/).
+[edit - Du kannst diese Seite bearbeiten]. 
+Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. 
+[Weitere Informationen](https://datenstrom.se/de/yellow/help/).
 ```
 
-## Kopfzeile anzeigen
+Um eine neue Seite hinzuzufügen, erstelle eine neue Datei im Home-Verzeichnis oder in einem anderen `content`-Verzeichnis:
+
+```
+---
+Title: Beispielseite
+---
+Das ist eine Beispielseite.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+```
+
+Du kannst Textformatierung hinzufügen:
+
+```
+---
+Title: Beispielseite
+---
+Das ist eine Beispielseite.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+Normal **Fettschrift** *Kursiv* ~~Durchgestrichen~~ `Code`
+```
+
+## Kopfzeile und Fußzeile anzeigen
 
 Um eine Kopfzeile anzuzeigen, erstelle die Datei `content/shared/header.md`. Hier ist ein Beispiel:
 
@@ -62,10 +66,8 @@ Um eine Kopfzeile anzuzeigen, erstelle die Datei `content/shared/header.md`. Hie
 Title: Header
 Status: shared
 ---
-Ich mag Markdown.
+Webseite ist im Aufbau.
 ```
-
-## Fußzeile anzeigen
 
 Um eine Fußzeile anzuzeigen, erstelle die Datei `content/shared/footer.md`. Hier ist ein Beispiel:
 
@@ -74,15 +76,15 @@ Um eine Fußzeile anzuzeigen, erstelle die Datei `content/shared/footer.md`. Hie
 Title: Footer
 Status: shared
 ---
-[Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/)
+[Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/).
 ```
 
-## Erweiterungen finden
+## Funktionen, Sprachen und Themen hinzufügen
 
-Es gibt [Erweiterungen](https://github.com/datenstrom/yellow-extensions) für deine Webseite. Hier sind einige Beispiele:
+Es gibt [Erweiterungen für deine Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/README-de.md). Natürlich haben wir auch eine [API für Entwickler](api-for-developers).
 
-* [Wie man ein Bildergalerie hinzufügt](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)
-* [Wie man eine Suchfunktion benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
-* [Wie man eine Sitemap benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap)
-* [Wie man eine Kontaktseite benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact)
-* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
+## Verwandte Informationen
+
+* [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md)
+* [Wie man eine Webseite im Webbrowser bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
+* [Wie man eine Webseite auf dem Computer bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
