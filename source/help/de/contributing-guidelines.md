@@ -35,7 +35,7 @@ Wie man zusammenarbeitet und gute Produkte macht.
 
 ## Wie man in Kontakt kommt
 
-* [Kontaktiere einen Menschen](https://datenstrom.se/de/contact/), [folge uns auf GitHub](https://github.com/datenstrom) und [Twitter](https://twitter.com/datendeveloper).
+* [Folge uns auf GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) oder [schicke eine E-Mail](https://datenstrom.se/de/contact/).
 * Zeige was du gemacht hast, erzähle uns von neuen Funktionen, Sprachen und Themen.
-* Treffe andere Entwickler und Designer, arbeite mit uns zusammen.
+* Treffe andere Entwickler, Übersetzer und Designer, arbeite mit uns zusammen.
 * Beantworte Fragen und löse Probleme, wenn dir das Spaß macht.

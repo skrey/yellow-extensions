@@ -35,7 +35,7 @@ Here's how to work together and make good products.
 
 ## How to get in touch
 
-* [Contact a human](https://datenstrom.se/contact/), [follow us on GitHub](https://github.com/datenstrom) and [Twitter](https://twitter.com/datendeveloper).
+* [Follow us on GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) or [send an email](https://datenstrom.se/contact/).
 * Show what you've done, tell us about new features, languages and themes.
-* Meet other developers and designers, work together with us. 
+* Meet other developers, translators and designers, work together with us. 
 * Answer questions and solve problems, if you enjoy it.
