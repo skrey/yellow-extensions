@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.33";
+    const VERSION = "0.8.34";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -230,8 +230,7 @@ class YellowPublish {
     }
     
     // Return progress in percent
-    public function getProgressPercent($now, $total, $increments, $max)
-    {
+    public function getProgressPercent($now, $total, $increments, $max) {
         $percent = intval(($max / $total) * $now);
         if ($increments>1) $percent = intval($percent / $increments) * $increments;
         return min($max, $percent);
@@ -280,7 +279,7 @@ class YellowPublish {
     // Return extension languages available
     public function getExtensionLanguagesAvailable($path) {
         $languages = array();
-        foreach($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, true, false) as $entry) {
+        foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, true, false) as $entry) {
             array_push($languages, $entry);
         }
         return array_unique($languages);

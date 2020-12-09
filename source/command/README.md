@@ -1,4 +1,4 @@
-Command 0.8.26
+Command 0.8.27
 ==============
 Command line of the website.
 

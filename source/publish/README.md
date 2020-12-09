@@ -1,4 +1,4 @@
-Publish 0.8.33
+Publish 0.8.34
 ==============
 Package and publish extensions.
 

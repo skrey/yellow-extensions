@@ -2,7 +2,7 @@
 // Highlight extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight
 
 class YellowHighlight {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -77,7 +77,7 @@ class YellowHighlight {
             if (substru($token, 0, 1)=="#") $attributesData["id"] = substru($token, 1);
             if (preg_match("/^([\w]+)=(.+)/", $token, $matches)) $attributesData[$matches[1]] = $matches[2];
         }
-        foreach($attributesData as $key=>$value) {
+        foreach ($attributesData as $key=>$value) {
             $attributes .= " $key=\"".htmlspecialchars($value)."\"";
         }
         $lineNumber = intval($this->yellow->system->get("highlightLineNumber"));

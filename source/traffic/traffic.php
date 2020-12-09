@@ -2,7 +2,7 @@
 // Traffic extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic
 
 class YellowTraffic {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     public $days;           // number of days
     public $views;          // number of views
@@ -221,8 +221,7 @@ class YellowTraffic {
     }
     
     // Return progress in percent
-    public function getProgressPercent($now, $total, $increments, $max)
-    {
+    public function getProgressPercent($now, $total, $increments, $max) {
         $percent = intval(($max / $total) * $now);
         if ($increments>1) $percent = intval($percent / $increments) * $increments;
         return min($max, $percent);
