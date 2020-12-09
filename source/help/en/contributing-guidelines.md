@@ -7,14 +7,14 @@ Here's how to work together and make good products.
 
 ## How to ask a question
 
-* [Submit a new issue for each question](https://github.com/datenstrom/yellow/issues).
+* [Create a new discussion for each question](https://github.com/datenstrom/yellow/discussions).
 * Describe your question and tell us what you have done so far.
 * Specify the version of your website, use the latest version if possible.
 * Add a lot of details, the more we know the better we can help.
 
 ## How to report a problem
 
-* [Submit a new issue for each problem](https://github.com/datenstrom/yellow/issues).
+* [Create a new issue for each problem](https://github.com/datenstrom/yellow/issues).
 * Describe your problem and tell us how to reproduce it.
 * Specify the version of your website, check the log file for errors.
 * Add a lot of details, the more we know the better we can help.
@@ -36,6 +36,6 @@ Here's how to work together and make good products.
 ## How to get in touch
 
 * [Follow us on GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) or [send an email](https://datenstrom.se/contact/).
-* Show what you've done, tell us about new features, languages and themes.
-* Meet other developers, translators and designers, work together with us. 
+* Meet other developers, translators and designers. 
 * Answer questions and solve problems, if you enjoy it.
+* Show what you've made, tell us more about you.
