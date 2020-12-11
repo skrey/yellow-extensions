@@ -26,6 +26,8 @@ More features, languages and themes for Datenstrom Yellow.
   Download code blocks as text file. Developed by Steffen Schultz.
 * [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv):
   CSV file parser. Developed by Steffen Schultz.
+* [Daily](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/daily): 
+  Show daily pages. Developed by Steffen Schultz.
 * [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus): 
   Show Disqus comments on blog. Developed by Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft): 

@@ -26,6 +26,8 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
   Ladda ner kodblock som textfil. Utvecklad av Steffen Schultz.
 * [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv):
   CSV-filtolkare. Utvecklad av Steffen Schultz.
+* [Daily](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/daily): 
+  Visa dagliga sidor. Utvecklad av Steffen Schultz.
 * [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus): 
   Visa Disqus-kommentarer på bloggen. Utvecklad av Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft): 

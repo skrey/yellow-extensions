@@ -26,6 +26,8 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
   Code-Blöcke als Textdatei herunterladen. Entwickelt von Steffen Schultz.
 * [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv/README-de.md):
   CSV-Dateileser. Entwickelt von Steffen Schultz.
+* [Daily](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/daily): 
+  Tägliche Seiten anzeigen. Entwickelt von Steffen Schultz.
 * [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus/README-de.md): 
   Disqus-Kommentare im Blog anzeigen. Entwickelt von Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft/README-de.md): 
