@@ -58,8 +58,6 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
   Textformatierung für Menschen. Entwickelt von Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta/README-de.md):
   Metadaten für soziale Medien. Entwickelt von Datenstrom, Steffen Schultz.
-* [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd/README-de.md):
-  Nachricht des Tages. Entwickelt von Steffen Schultz.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource/README-de.md): 
   Markdown-Quelltext auf Seiten anzeigen. Entwickelt von Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown/README-de.md): 

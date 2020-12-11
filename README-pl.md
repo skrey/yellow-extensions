@@ -58,8 +58,6 @@ Więcej funkcji, języków i motywów do Datenstrom Yellow.
   Formatowanie tekstu dla ludzi. Opracowano przez Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta):
   Metadane dla serwisów społecznościowych. Opracowano przez Datenstrom oraz Steffen'a Schultz'a.
-* [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
-  Wiadomość dnia. Opracowano przez Steffen'a Schultz'a.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
   Wyświetlaj kod źródłowy Markdown na stronach. Opracowano przez Steffen'a Schultz'a.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 

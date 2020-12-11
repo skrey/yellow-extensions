@@ -58,8 +58,6 @@ More features, languages and themes for Datenstrom Yellow.
   Text formatting for humans. Developed by Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta):
   Meta data for social media sites. Developed by Datenstrom, Steffen Schultz.
-* [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
-  Message of the day. Developed by Steffen Schultz.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
   Display Markdown source on pages. Developed by Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 

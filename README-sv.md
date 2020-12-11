@@ -58,8 +58,6 @@ Fler funktioner, språk och teman för Datenstrom Yellow.
   Textformatering för människor. Utvecklad av Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta):
   Metadata för webbplatser med sociala medier. Utvecklad av Datenstrom, Steffen Schultz.
-* [Motd](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/motd):
-  Dagens meddelande. Utvecklad av Steffen Schultz.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
   Visa Markdown-källtext på sidor. Utvecklad av Steffen Schultz.
 * [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 
