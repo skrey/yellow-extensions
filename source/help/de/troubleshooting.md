@@ -143,15 +143,15 @@ Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.16, PHP 7.1.33, Apache 2.4.33, Mac
-2020-10-28 14:13:07 info Install extension 'English 0.8.24'
-2020-10-28 14:13:07 info Install extension 'German 0.8.24'
-2020-10-28 14:13:07 info Install extension 'French 0.8.24'
+2020-10-28 14:13:07 info Install extension 'English 0.8.26'
+2020-10-28 14:13:07 info Install extension 'German 0.8.26'
+2020-10-28 14:13:07 info Install extension 'French 0.8.26'
 2020-10-28 14:13:17 info Add user 'Anna'
-2020-10-28 21:02:42 info Update extension 'Core 0.8.34'
+2020-10-28 21:02:42 info Update extension 'Core 0.8.38'
 2020-10-28 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Überprüfe die Logdatei nach Fehlern. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Wenn andere Fehler auftreten, dann wende dich an den Entwickler/Designer und ersetze die betroffenen Dateien. Wenn du nicht 100% sicher bist was Probleme verursacht, dann aktiviere den Debug-Modus. Das zeigt zusätzliche Informationen auf der aktuellen Seite. 
+Überprüfe die Logdatei nach Fehlermeldungen. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Wenn andere Fehler auftreten, dann wende dich an den Entwickler/Designer und ersetze die betroffenen Dateien. Wenn du nicht 100% sicher bist was Probleme macht, dann aktiviere den Debug-Modus. Das zeigt zusätzliche Informationen auf der aktuellen Seite. 
 
 Öffne die Datei `system/extensions/core.php` und ändere die erste Zeile zu `<?php define("DEBUG", 1);`
 
