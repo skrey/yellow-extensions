@@ -30,7 +30,8 @@ ContactStatusError: Wiadomość nie mogła zostać wysłana. Prosimy spróbować
 CoreDescription: Podstawowa funkcjonalność strony internetowej.
 CoreDatePast: dzisiaj, wczoraj, @x dni temu, miesiąc temu, @x miesiące(-ęcy) temu, rok temu, @x lat(-a) temu, @x
 CoreDateFuture: wkrótce, jutro, za @x dni, za miesiąc, za @x miesiące(-y), za rok, za @x lat(-a), @x
-CoreDateMonths: styczeń, luty, marzec, kwiecień, maj, czerwiec, lipiec, sierpień, wrzesień, październik, listopad, grudzień
+CoreDateMonthsNominative: styczeń, luty, marzec, kwiecień, maj, czerwiec, lipiec, sierpień, wrzesień, październik, listopad, grudzień
+CoreDateMonthsGenitive: styczeń, luty, marzec, kwiecień, maj, czerwiec, lipiec, sierpień, wrzesień, październik, listopad, grudzień
 CoreDateWeekdays: poniedziałek, wtorek, środa, czwartek, piątek, sobota, niedziela
 CoreDateWeekstart: poniedziałek
 CoreDateFormatShort: F Y

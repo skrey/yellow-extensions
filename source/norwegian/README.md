@@ -1,4 +1,4 @@
-Norwegian 0.8.26
+Norwegian 0.8.27
 ================
 Norwegian/Norsk med språket 'nb'.
 

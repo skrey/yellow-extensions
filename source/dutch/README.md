@@ -1,4 +1,4 @@
-Dutch 0.8.26
+Dutch 0.8.27
 ============
 Dutch/Nederlands met de taal 'nl'.
 

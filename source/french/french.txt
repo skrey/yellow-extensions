@@ -30,7 +30,8 @@ ContactStatusError: Votre message n'a pas pu être envoyé, réessayez plus tard
 CoreDescription: Fonctionnalité principale du site web.
 CoreDatePast: aujourd'hui, hier, il y a @x jours, il ya 1 mois, il y a @x mois, il y a 1 an, il y a @x ans, le @x
 CoreDateFuture: bientôt, demain, dans @x jours, en 1 mois, dans @x mois, en 1 an, dans @x ans, le @x
-CoreDateMonths: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre
+CoreDateMonthsNominative: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre
+CoreDateMonthsGenitive: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre
 CoreDateWeekdays: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche
 CoreDateWeekstart: lundi
 CoreDateFormatShort: F Y

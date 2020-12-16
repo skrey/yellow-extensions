@@ -1,4 +1,4 @@
-Swedish 0.8.26
+Swedish 0.8.27
 ==============
 Swedish/Svenska med språket "sv".
 

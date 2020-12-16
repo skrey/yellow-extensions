@@ -30,7 +30,8 @@ ContactStatusError: Mailet kunde inte skickas, vänligen försök igen senare!
 CoreDescription: Webbplatsens kärnfunktion.
 CoreDatePast: idag, igår, @x dagar sedan, en månad sedan, @x månader sedan, ett år sedan, @x år sedan, den @x
 CoreDateFuture: snart, imorgon, om @x dagar, om 1 månad, om @x månader, om 1 år, om @x år, den @x
-CoreDateMonths: Januari, Februari, Mars, April, Maj, Juni, Juli, Augusti, September, Oktober, November, December
+CoreDateMonthsNominative: Januari, Februari, Mars, April, Maj, Juni, Juli, Augusti, September, Oktober, November, December
+CoreDateMonthsGenitive: Januari, Februari, Mars, April, Maj, Juni, Juli, Augusti, September, Oktober, November, December
 CoreDateWeekdays: Måndag, Tisdag, Onsdag, Torsdag, Fredag, Lördag, Söndag
 CoreDateWeekstart: Måndag
 CoreDateFormatShort: F Y

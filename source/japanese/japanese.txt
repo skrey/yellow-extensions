@@ -30,7 +30,8 @@ ContactStatusError: メールを送信できませんでした。暫くしてか
 CoreDescription: Webサイトのコア機能。
 CoreDatePast: 今日, 昨日, @x 日前, １ヶ月前, @x ヶ月前, １年前, @x 年前, on @x
 CoreDateFuture: 直前, 明日, @x 日以内, １ヶ月以内, @x ヶ月以内, １年以内, @x 年以内, on @x
-CoreDateMonths: １月, ２月, ３月, ４月, ５月, ６月, ７月, ８月, ９月, １０月, １１月, １２月
+CoreDateMonthsNominative: １月, ２月, ３月, ４月, ５月, ６月, ７月, ８月, ９月, １０月, １１月, １２月
+CoreDateMonthsGenitive: １月, ２月, ３月, ４月, ５月, ６月, ７月, ８月, ９月, １０月, １１月, １２月
 CoreDateWeekdays: 月曜日, 火曜日, 水曜日, 木曜日, 金曜日, 土曜日, 日曜日
 CoreDateWeekstart: 月曜日
 CoreDateFormatShort: F Y

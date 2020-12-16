@@ -30,7 +30,8 @@ ContactStatusError: E-mail kon niet worden verzonden, probeer het later opnieuw!
 CoreDescription: Kernfunctionaliteit van de website.
 CoreDatePast: vandaag, gisteren, @x dagen geleden, 1 maand geleden, @x maanden geleden, 1 jaar geleden, @x jaar geleden, op @x
 CoreDateFuture: binnenkort, morgen, binnen @x dagen, binnen 1 maand, binnen @x maanden, binnen 1 jaar, binnen @x jaar, op @x
-CoreDateMonths: januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december
+CoreDateMonthsNominative: januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december
+CoreDateMonthsGenitive: januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december
 CoreDateWeekdays: maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag
 CoreDateWeekstart: maandag
 CoreDateFormatShort: F Y

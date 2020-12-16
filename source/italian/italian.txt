@@ -30,7 +30,8 @@ ContactStatusError: C'è stato un problema nell'invio del messaggio. Riprova per
 CoreDescription: Funzionalità di base del sito web.
 CoreDatePast: oggi, ieri, @x giorni fa, un mese fa, @x mesi fa, un anno fa, @x anni fa, il @x
 CoreDateFuture: presto, domani, tra @x giorni, tra un mese, tra @x mesi, tra un anno, tra @x anni, il @x
-CoreDateMonths: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
+CoreDateMonthsNominative: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
+CoreDateMonthsGenitive: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
 CoreDateWeekdays: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica
 CoreDateWeekstart: lunedì
 CoreDateFormatShort: F Y
