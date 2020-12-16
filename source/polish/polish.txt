@@ -31,7 +31,7 @@ CoreDescription: Podstawowa funkcjonalność strony internetowej.
 CoreDatePast: dzisiaj, wczoraj, @x dni temu, miesiąc temu, @x miesiące(-ęcy) temu, rok temu, @x lat(-a) temu, @x
 CoreDateFuture: wkrótce, jutro, za @x dni, za miesiąc, za @x miesiące(-y), za rok, za @x lat(-a), @x
 CoreDateMonthsNominative: styczeń, luty, marzec, kwiecień, maj, czerwiec, lipiec, sierpień, wrzesień, październik, listopad, grudzień
-CoreDateMonthsGenitive: styczeń, luty, marzec, kwiecień, maj, czerwiec, lipiec, sierpień, wrzesień, październik, listopad, grudzień
+CoreDateMonthsGenitive: stycznia, lutego, marca, kwietnia, maja, czerwca, lipca, sierpnia, września, października, listopada, grudnia
 CoreDateWeekdays: poniedziałek, wtorek, środa, czwartek, piątek, sobota, niedziela
 CoreDateWeekstart: poniedziałek
 CoreDateFormatShort: F Y
