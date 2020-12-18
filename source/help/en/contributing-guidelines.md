@@ -35,6 +35,6 @@ Here's how we work together and make good products.
 
 ## Related information
 
-* [Datenstrom community on GitHub](https://github.com/datenstrom)
-* [Datenstrom community on Twitter](https://twitter.com/datendeveloper)
-* [Community guidelines](https://docs.github.com/articles/github-community-guidelines)
+* [Datenstrom on GitHub](https://github.com/datenstrom)
+* [Datenstrom on Twitter](https://twitter.com/datendeveloper)
+* [API for developers](api-for-developers)

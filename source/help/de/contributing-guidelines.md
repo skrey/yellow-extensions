@@ -35,6 +35,6 @@ Wie wir zusammenarbeiten und gute Produkte machen.
 
 ## Verwandte Informationen
 
-* [Datenstrom-Community bei GitHub](https://github.com/datenstrom)
-* [Datenstrom-Community bei Twitter](https://twitter.com/datendeveloper)
-* [Richtlinien für die Community](https://docs.github.com/articles/github-community-guidelines)
+* [Datenstrom bei GitHub](https://github.com/datenstrom)
+* [Datenstrom bei Twitter](https://twitter.com/datendeveloper)
+* [API für Entwickler](api-for-developers)
