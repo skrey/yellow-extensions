@@ -137,18 +137,18 @@ server {
 
 Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root` in der Konfigurationsdatei. Nachdem die Konfiguration verändert wurde, musst du möglicherweise den [Nginx-Webserver neustarten/neuladen](https://stackoverflow.com/questions/21292533/reload-nginx-configuration).
 
-## Probleme nach Aktualisierung
+## Probleme nach der Installation
 
 <a id="logdatei"></a>Die Datei `system/extensions/yellow.log` zeigt wichtige Informationen und Fehler an. Hier ist ein Beispiel:
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.16, PHP 7.1.33, Apache 2.4.33, Mac
-2020-10-28 14:13:07 info Install extension 'English 0.8.26'
-2020-10-28 14:13:07 info Install extension 'German 0.8.26'
-2020-10-28 14:13:07 info Install extension 'French 0.8.26'
+2020-10-28 14:13:07 info Install extension 'English 0.8.27'
+2020-10-28 14:13:07 info Install extension 'German 0.8.27'
+2020-10-28 14:13:07 info Install extension 'Swedish 0.8.27'
 2020-10-28 14:13:17 info Add user 'Anna'
-2020-10-28 21:02:42 info Update extension 'Core 0.8.38'
-2020-10-28 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
+2020-12-18 21:02:42 info Update extension 'Core 0.8.39'
+2020-12-18 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
 Überprüfe die Logdatei nach Fehlermeldungen. Wenn Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Wenn andere Fehler auftreten, dann wende dich an den Entwickler/Designer und ersetze die betroffenen Dateien. Wenn du nicht 100% sicher bist was Probleme macht, dann aktiviere den Debug-Modus. Das zeigt zusätzliche Informationen auf der aktuellen Seite. 
@@ -171,8 +171,8 @@ Dateisysteminformationen durch Erhöhen des Debuglevels zu `<?php define("DEBUG"
 YellowSystem::load file:system/extensions/yellow-system.ini
 YellowUser::load file:system/extensions/yellow-user.ini
 YellowLanguage::load file:system/extensions/english.txt
-YellowLanguage::load file:system/extensions/french.txt
 YellowLanguage::load file:system/extensions/german.txt
+YellowLanguage::load file:system/extensions/swedish.txt
 YellowLanguage::load file:system/extensions/yellow-language.ini
 YellowLookup::findFileFromLocation /de/extensions/blog/ -> content/2-de/2-extensions/1-blog/page.md
 ```

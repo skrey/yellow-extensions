@@ -132,7 +132,7 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm/README-de.md): 
   Stockholm ist ein schlichtes Thema. Entworfen von Datenstrom.
 
-Willst du eine Erweiterung erstellen? [API für Entwickler](https://datenstrom.se/de/yellow/help/api-for-developers).
+Möchtest du Erweiterungen erstellen? [API für Entwickler](https://datenstrom.se/de/yellow/help/api-for-developers).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;

@@ -132,7 +132,7 @@ More features, languages and themes for Datenstrom Yellow.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm): 
   Stockholm is a clean theme. Designed by Datenstrom.
 
-Do you want to make an extension? [API for developers](https://datenstrom.se/yellow/help/api-for-developers).
+Do you want to make extensions? [API for developers](https://datenstrom.se/yellow/help/api-for-developers).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
