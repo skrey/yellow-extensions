@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -36,7 +36,7 @@ class YellowSearch {
             list($tokens, $filters) = $this->getSearchInformation($query, 10);
             if (!empty($tokens) || !empty($filters)) {
                 $pages = $this->yellow->content->clean();
-                $showInvisible = $this->yellow->getRequestHandler()=="edit" &&
+                $showInvisible = $this->yellow->getRequestHandler()=="edit" && isset($filters["status"]) &&
                     ($filters["status"]=="private" || $filters["status"]=="draft" || $filters["status"]=="unlisted");
                 foreach ($this->yellow->content->index($showInvisible, false) as $pageSearch) {
                     $searchScore = 0;

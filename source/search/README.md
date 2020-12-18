@@ -1,4 +1,4 @@
-Search 0.8.11
+Search 0.8.12
 =============
 Full-text search.
 
