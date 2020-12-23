@@ -3,9 +3,9 @@
 function GoogleCalendar(element, options) {
     this.element = element;
     this.options = options ? options : this.parseOptions(element,
-        ["mode", "timeZone", "timeZoneOffset", "dateMonths", "dateWeekdays", "dateFormatShort",
-         "dateFormatMedium", "dateFormatLong", "timeFormatShort", "timeFormatMedium", "timeFormatLong",
-         "timeMin", "entriesMax", "calendar", "apiKey"]);
+        ["mode", "timeZone", "timeZoneOffset", "dateMonthsNominative", "dateMonthsGenitive", "dateWeekdays",
+         "dateFormatShort", "dateFormatMedium", "dateFormatLong", "timeFormatShort", "timeFormatMedium",
+         "timeFormatLong", "timeMin", "entriesMax", "calendar", "apiKey"]);
     return (this instanceof GoogleCalendar ? this : new GoogleCalendar());
 }
 
@@ -126,7 +126,8 @@ GoogleCalendar.prototype = {
         var timeZoneOffset = this.options.timeZoneOffset;
         var timeZoneOffsetHours = Math.abs(parseInt(timeZoneOffset/3600));
         var timeZoneOffsetMinutes = Math.abs(parseInt(timeZoneOffset/60))%60;
-        var dateMonths = this.options.dateMonths.split(/,\s*/);
+        var dateMonthsNominative = this.options.dateMonthsNominative.split(/,\s*/);
+        var dateMonthsGenitive = this.options.dateMonthsGenitive.split(/,\s*/);
         var dateWeekdays = this.options.dateWeekdays.split(/,\s*/);
         var dateReplace = {
             d: function() { return (date.getDate()<10 ? "0" : "")+date.getDate(); },
@@ -135,9 +136,10 @@ GoogleCalendar.prototype = {
             l: function() { return dateWeekdays[(date.getDay()+6)%7]; },
             N: function() { return (date.getDay()==0 ? 7 : date.getDay()); },
             w: function() { return date.getDay(); },
-            F: function() { return dateMonths[date.getMonth()]; },
+            F: function() { return dateMonthsNominative[date.getMonth()]; },
+            V: function() { return dateMonthsGenitive[date.getMonth()]; },
             m: function() { return (date.getMonth()<9 ? "0" : "")+(date.getMonth()+1); },
-            M: function() { return dateMonths[date.getMonth()].substr(0, 3); },
+            M: function() { return dateMonthsNominative[date.getMonth()].substr(0, 3); },
             n: function() { return date.getMonth()+1; },
             Y: function() { return date.getFullYear(); },
             y: function() { return (""+date.getFullYear()).substr(2); },
@@ -155,7 +157,15 @@ GoogleCalendar.prototype = {
             T: function() { return "GMT"+(timeZoneOffset<0 ? "-" : "+")+timeZoneOffsetHours; },
             Z: function() { return timeZoneOffset; },
         };
-        return format.replace(/(.)/g, function(match) { return dateReplace[match] ? dateReplace[match].call() : match; });
+        var output = "";
+        for (var i=0, l=format.length; i<l; i++) {
+            if (dateReplace[format[i]]) {
+                output += dateReplace[format[i]].call();
+            } else {
+                output += (format[i]=="\\" && i+1<l) ? format[++i] : format[i];
+            }
+        }
+        return output;
     },
     
     // Encode HTML special characters

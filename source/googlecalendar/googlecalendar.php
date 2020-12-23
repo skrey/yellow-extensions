@@ -2,7 +2,7 @@
 // Googlecalendar extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar
 
 class YellowGooglecalendar {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.8";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -27,7 +27,8 @@ class YellowGooglecalendar {
             $timeZone = $this->yellow->system->get("coreServerTimezone");
             $timeZoneHelper = new DateTime(null, new DateTimeZone($timeZone));
             $timeZoneOffset = $timeZoneHelper->getOffset();
-            $dateMonths = $this->yellow->language->getText("coreDateMonths", $language);
+            $dateMonthsNominative = $this->yellow->language->getText("coreDateMonthsNominative", $language);
+            $dateMonthsGenitive = $this->yellow->language->getText("coreDateMonthsGenitive", $language);
             $dateWeekdays = $this->yellow->language->getText("coreDateWeekdays", $language);
             $dateWeekstart = $this->yellow->language->getText("coreDateWeekstart", $language);
             $dateFormatShort = $this->yellow->language->getText("coreDateFormatShort", $language);
@@ -52,7 +53,7 @@ class YellowGooglecalendar {
             if ($mode=="events" || $mode=="agenda") {
                 if ($style=="flexible") $style = "googlecalendar";
                 list($src) = $this->getCalendarInformation($id);
-                $output = "<div class=\"".htmlspecialchars($style)."\" data-mode=\"".htmlspecialchars($mode)."\" data-timemin=\"".htmlspecialchars($this->getCalendarDate($timestamp))."\" data-timezone=\"".htmlspecialchars($timeZone)."\" data-timezoneOffset=\"".htmlspecialchars($timeZoneOffset)."\" data-datemonths=\"".htmlspecialchars($dateMonths)."\" data-dateweekdays=\"".htmlspecialchars($dateWeekdays)."\" data-dateformatshort=\"".htmlspecialchars($dateFormatShort)."\" data-dateformatmedium=\"".htmlspecialchars($dateFormatMedium)."\" data-dateformatlong=\"".htmlspecialchars($dateFormatLong)."\" data-timeformatshort=\"".htmlspecialchars($timeFormatShort)."\" data-timeformatmedium=\"".htmlspecialchars($timeFormatMedium)."\" data-timeformatLong=\"".htmlspecialchars($timeFormatLong)."\" data-entriesmax=\"".htmlspecialchars($entriesMax)."\" data-calendar=\"".htmlspecialchars($src)."\" data-apikey=\"".htmlspecialchars($apiKey)."\">";
+                $output = "<div class=\"".htmlspecialchars($style)."\" data-mode=\"".htmlspecialchars($mode)."\" data-timemin=\"".htmlspecialchars($this->getCalendarDate($timestamp))."\" data-timezone=\"".htmlspecialchars($timeZone)."\" data-timezoneOffset=\"".htmlspecialchars($timeZoneOffset)."\" data-datemonthsnominative=\"".htmlspecialchars($dateMonthsNominative)."\" data-datemonthsgenitive=\"".htmlspecialchars($dateMonthsGenitive)."\" data-dateweekdays=\"".htmlspecialchars($dateWeekdays)."\" data-dateformatshort=\"".htmlspecialchars($dateFormatShort)."\" data-dateformatmedium=\"".htmlspecialchars($dateFormatMedium)."\" data-dateformatlong=\"".htmlspecialchars($dateFormatLong)."\" data-timeformatshort=\"".htmlspecialchars($timeFormatShort)."\" data-timeformatmedium=\"".htmlspecialchars($timeFormatMedium)."\" data-timeformatLong=\"".htmlspecialchars($timeFormatLong)."\" data-entriesmax=\"".htmlspecialchars($entriesMax)."\" data-calendar=\"".htmlspecialchars($src)."\" data-apikey=\"".htmlspecialchars($apiKey)."\">";
                 $output .= "</div>";
             }
         }
