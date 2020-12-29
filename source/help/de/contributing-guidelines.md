@@ -8,16 +8,16 @@ Wie wir zusammenarbeiten und gute Produkte machen.
 ## Wie man eine Frage stellt
 
 * [Erstelle für jede Frage eine neue Diskussion](https://github.com/datenstrom/yellow/discussions).
-* Beschreibe deine Frage und welches Problem du hast.
-* Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
+* Beschreibe deine Frage und welche Probleme du hast.
 * Gib die Version deiner Webseite an, benutze die neuste Version falls möglich.
+* Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
 
 ## Wie man einen Fehler meldet
 
-* [Erstelle für jeden Fehler eine neue Meldung](https://github.com/datenstrom/yellow/issues).
-* Beschreibe was nicht funktioniert und wie man den Fehler reproduzieren kann.
-* Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
+* [Erstelle für jeden Fehler eine neue Diskussion](https://github.com/datenstrom/yellow/discussions).
+* Erkläre was nicht funktioniert und wie man den Fehler reproduzieren kann.
 * Überprüfe die Datei `system/extensions/yellow.log` nach Fehlermeldungen.
+* Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
 
 ## Wie man eine Übersetzung erstellt
 
