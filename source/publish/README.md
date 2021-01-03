@@ -6,7 +6,7 @@ Package and publish extensions.
 
 ## How to package an extension
 
-Start with an [example feature](https://github.com/schulle4u/yellow-extension-helloworld) or [example theme](https://github.com/schulle4u/yellow-extension-basic). That shows you which files and settings are required. Every extension needs an `extension.ini` file with extension settings. Please make sure that your extension follows our coding and documentation standards. It's not important which standard we use, but that we all use the same one. Please test your extension regularly with the [latest product release](https://github.com/datenstrom/yellow/releases).
+Start with an [example feature](https://github.com/schulle4u/yellow-extension-helloworld) or [example theme](https://github.com/schulle4u/yellow-extension-basic). This will show you which files and settings are required. Every extension needs an `extension.ini` file with extension settings. Please make sure that your extension follows our coding and documentation standards. It's not important which standard we use, but that we all use the same one. Please test your extension regularly with the [latest product release](https://github.com/datenstrom/yellow/releases).
 
 ## How to publish an extension
 
