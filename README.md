@@ -103,6 +103,15 @@ More features, languages and themes for Datenstrom Yellow.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube): 
   Embed Youtube videos. Developed by Datenstrom.
 
+## Themes
+
+* [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin): 
+  Berlin is a theme inspired by Dieter Rams. Designed by Datenstrom.
+* [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris): 
+  Paris is an elegant theme. Designed by Datenstrom.
+* [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm): 
+  Stockholm is a clean theme. Designed by Datenstrom.
+
 ## Languages
 
 * [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Chinese/简体中文 with language 'zh'. Translated by Hyson Lee.
@@ -123,20 +132,10 @@ More features, languages and themes for Datenstrom Yellow.
 * [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/source/spanish): Spanish/Español with language 'es'. Translated by Al Garcia, David Garcia.
 * [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish): Swedish/Svenska with language 'sv'. Translated by Adam Engel.
 
-## Themes
-
-* [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin): 
-  Berlin is a theme inspired by Dieter Rams. Designed by Datenstrom.
-* [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris): 
-  Paris is an elegant theme. Designed by Datenstrom.
-* [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm): 
-  Stockholm is a clean theme. Designed by Datenstrom.
-
-Do you want to make extensions? [API for developers](https://datenstrom.se/yellow/help/api-for-developers).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
 <a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
-<a href="README-pl.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-pl.png" width="15" height="15" alt="Polski">&nbsp; Polski</a>&nbsp;
 <a href="README-sv.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-sv.png" width="15" height="15" alt="Svenska">&nbsp; Svenska</a>&nbsp;
 </p>

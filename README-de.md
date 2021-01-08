@@ -103,6 +103,15 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md): 
   Youtube-Videos einbinden. Entwickelt von Datenstrom.
 
+## Themen
+
+* [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin/README-de.md): 
+  Berlin ist ein Thema inspiriert von Dieter Rams. Entworfen von Datenstrom.
+* [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris/README-de.md): 
+  Paris ist ein elegantes Thema. Entworfen von Datenstrom.
+* [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm/README-de.md): 
+  Stockholm ist ein schlichtes Thema. Entworfen von Datenstrom.
+
 ## Sprachen
 
 * [Chinese](https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese): Chinesisch/简体中文 mit der Sprache "zh". Übersetzt von Hyson Lee.
@@ -123,20 +132,10 @@ Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
 * [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/source/spanish): Spanisch/Español mit der Sprache "es". Übersetzt von Al Garcia, David Garcia.
 * [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish): Schwedisch/Svenska mit der Sprache "sv". Übersetzt von Adam Engel.
 
-## Themen
-
-* [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin/README-de.md): 
-  Berlin ist ein Thema inspiriert von Dieter Rams. Entworfen von Datenstrom.
-* [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris/README-de.md): 
-  Paris ist ein elegantes Thema. Entworfen von Datenstrom.
-* [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm/README-de.md): 
-  Stockholm ist ein schlichtes Thema. Entworfen von Datenstrom.
-
-Möchtest du Erweiterungen erstellen? [API für Entwickler](https://datenstrom.se/de/yellow/help/api-for-developers).
+Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
 <p>
 <a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
 <a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
-<a href="README-pl.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-pl.png" width="15" height="15" alt="Polski">&nbsp; Polski</a>&nbsp;
 <a href="README-sv.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-sv.png" width="15" height="15" alt="Svenska">&nbsp; Svenska</a>&nbsp;
 </p>
