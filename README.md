@@ -1,6 +1,6 @@
 # Datenstrom Yellow extensions
 
-More features, languages and themes for Datenstrom Yellow.
+More features, themes and languages for Datenstrom Yellow.
 
 ## Features
 

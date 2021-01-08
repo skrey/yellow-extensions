@@ -1,6 +1,6 @@
 # Datenstrom Yellow Erweiterungen
 
-Weitere Funktionen, Sprachen und Themen für Datenstrom Yellow.
+Weitere Funktionen, Themen und Sprachen für Datenstrom Yellow.
 
 ## Funktionen
 
