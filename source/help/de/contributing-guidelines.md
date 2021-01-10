@@ -32,7 +32,7 @@ Wir denken Menschen sollten im Zentrum stehen. Ein Bestandteil von Produktentwic
 
 Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. Die meisten Antworten werden von Community-Mitgliedern, so wie du, bereitgestellt. Denke daran, dass andere Menschen möglicherweise nicht die gleiche Erfahrung oder den gleichen Hintergrund haben wie du. Fühle dich niemals gezwungen, auf jemanden zu reagieren oder zu antworten. Du kannst jederzeit aus Gesprächen aussteigen, wenn die Diskussion nicht konstruktiv verläuft. 
 
-Unser Ziel ist es Fragen und Fehler innerhalb von 30 Tagen zu beantworten. Beiträge von geringer Qualität werden jedoch entfernt, um unsere Community nicht zu überfordern. Falls jemand die Arbeit der Gemeinschaft behindert oder selbst keinen Beitrag leistet, behalten wir uns das Recht vor, Benutzer für einige Tage aus unserer Community auszuschliessen. Wir glauben, dass es ein Privileg und kein Recht ist Fragen zu stellen. [Feedback ist sehr willkommen](/de/contact/).
+Unser Ziel ist es Fragen und Fehler innerhalb von 30 Tagen zu beantworten. Beiträge von geringer Qualität werden jedoch entfernt, um unsere Community nicht zu überfordern. Wir glauben, dass es ein Privileg und kein Recht ist Fragen zu stellen. Lass uns wissen wie wir ein angenehmes Arbeitsumfeld schaffen können. [Feedback ist sehr willkommen](/de/contact/).
 
 ## Verwandte Informationen
 
