@@ -6,7 +6,7 @@ Package and publish extensions.
 
 ## How to package an extension
 
-Start with an [example feature](https://github.com/schulle4u/yellow-extension-helloworld) or [example theme](https://github.com/schulle4u/yellow-extension-basic). This will show you which files and settings are required. Every extension needs an `extension.ini` file with extension settings. Please make sure that your extension follows our coding and documentation standards. It's not important which standard we use, but that we all use the same one. Please test your extension regularly with the [latest product release](https://github.com/datenstrom/yellow/releases).
+Start with an [example feature](https://github.com/schulle4u/yellow-extension-helloworld), [example theme](https://github.com/schulle4u/yellow-extension-basic) or [translation](https://github.com/datenstrom/yellow-extensions/tree/master/source/english). This will show you which files and settings are required. Every extension needs an `extension.ini` file with extension settings. Please make sure that your extension follows our coding and documentation standards. It's not important which standard we use, but that we all use the same one. Please test your extension regularly with the [latest product release](https://github.com/datenstrom/yellow/releases).
 
 ## How to publish an extension
 
@@ -33,23 +33,6 @@ system/extensions/helloworld.css: helloworld.css, create, update
 system/extensions/helloworld.txt: helloworld.txt, create, update
 ~~~
 
-Extension settings for a language:
-
-~~~
-# Datenstrom Yellow extension settings
-
-Extension: English
-Version: 0.8.24
-Description: English/English with language 'en'.
-HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/english
-DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/english.zip
-Published: 2019-01-24 19:42:13
-Translator: Mark Seuffert
-Tag: language
-system/extensions/english.php: english.php, create, update
-system/extensions/english.txt: english.txt, create, update
-~~~
-
 Extension settings for a theme:
 
 ~~~
@@ -69,10 +52,27 @@ system/themes/basic.css: basic.css, create, update, careful
 system/themes/basic.png: basic.png, create
 ~~~
 
+Extension settings for a language:
+
+~~~
+# Datenstrom Yellow extension settings
+
+Extension: English
+Version: 0.8.24
+Description: English/English with language 'en'.
+HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/english
+DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/english.zip
+Published: 2019-01-24 19:42:13
+Translator: Mark Seuffert
+Tag: language
+system/extensions/english.php: english.php, create, update
+system/extensions/english.txt: english.txt, create, update
+~~~
+
 Publishing extensions at the command line:
 
-`php yellow.php publish yellow-extension-basic`  
 `php yellow.php publish yellow-extension-helloworld`  
+`php yellow.php publish yellow-extension-basic`  
 `php yellow.php publish yellow-extensions/source/english`  
 
 ## Settings
@@ -91,8 +91,8 @@ The following settings can be configured in file `extension.ini`:
 `Published` = extension publication date, YYYY-MM-DD format  
 `Status` = extension status, [supported status values](#settings-status)  
 `Developer` = feature developer  
-`Translator` = language translator  
 `Designer` = theme designer  
+`Translator` = language translator  
 `Tag` = extension tag(s) for categorisation, comma separated  
 
 <a id="settings-status"></a>The following extension status values are supported:

@@ -6,7 +6,7 @@ Erweiterungen verpacken und veröffentlichen.
 
 ## Wie man eine Erweiterung verpackt
 
-Beginne mit einer [Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld) oder einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic). Das zeigt dir welche Dateien und Einstellungen erforderlich sind. Jede Erweiterung benötigt eine `extension.ini`-Datei mit Erweiterungseinstellungen. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht. Es ist nicht wichtig welchen Standard wir verwenden, aber dass wir alle den selben verwenden. Bitte teste deine Erweiterung regelmässig mit der [neuesten Produktversion](https://github.com/datenstrom/yellow/releases).
+Beginne mit einer [Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld), einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) oder einer [Übersetzung](https://github.com/datenstrom/yellow-extensions/tree/master/source/german). Das zeigt dir welche Dateien und Einstellungen erforderlich sind. Jede Erweiterung benötigt eine `extension.ini`-Datei mit Erweiterungseinstellungen. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht. Es ist nicht wichtig welchen Standard wir verwenden, aber dass wir alle den selben verwenden. Bitte teste deine Erweiterung regelmässig mit der [neuesten Produktversion](https://github.com/datenstrom/yellow/releases).
 
 ## Wie man eine Erweiterung veröffentlicht
 
@@ -33,23 +33,6 @@ system/extensions/helloworld.css: helloworld.css, create, update
 system/extensions/helloworld.txt: helloworld.txt, create, update
 ~~~
 
-Erweiterungseinstellungen für eine Sprache:
-
-~~~
-# Datenstrom Yellow extension settings
-
-Extension: German
-Version: 0.8.24
-Description: German/Deutsch with language 'de'.
-HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/german
-DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/german.zip
-Published: 2019-01-24 19:42:13
-Translator: David Fehrmann
-Tag: language
-system/extensions/german.php: german.php, create, update
-system/extensions/german.txt: german.txt, create, update
-~~~
-
 Erweiterungseinstellungen für ein Thema:
 
 ~~~
@@ -69,10 +52,27 @@ system/themes/basic.css: basic.css, create, update, careful
 system/themes/basic.png: basic.png, create
 ~~~
 
+Erweiterungseinstellungen für eine Sprache:
+
+~~~
+# Datenstrom Yellow extension settings
+
+Extension: German
+Version: 0.8.24
+Description: German/Deutsch with language 'de'.
+HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/german
+DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/german.zip
+Published: 2019-01-24 19:42:13
+Translator: David Fehrmann
+Tag: language
+system/extensions/german.php: german.php, create, update
+system/extensions/german.txt: german.txt, create, update
+~~~
+
 Erweiterungen in der Befehlszeile veröffentlichen:
 
-`php yellow.php publish yellow-extension-basic`  
 `php yellow.php publish yellow-extension-helloworld`  
+`php yellow.php publish yellow-extension-basic`  
 `php yellow.php publish yellow-extensions/source/german`  
 
 ## Einstellungen
@@ -91,8 +91,8 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
 `Status` = Status der Erweiterung, [unterstützte Statuswerte](#einstellungen-status)  
 `Developer` = Entwickler einer Funktion  
-`Translator` = Übersetzer einer Sprache  
 `Designer` = Designer eines Themas  
+`Translator` = Übersetzer einer Sprache  
 `Tag` = Tags zur Kategorisierung der Erweiterung, durch Komma getrennt  
 
 <a id="einstellungen-status"></a>Die folgenden Erweiterungs-Statuswerte werden unterstützt:
