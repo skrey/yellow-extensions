@@ -9,29 +9,30 @@ Wie wir zusammenarbeiten und gute Produkte machen.
 
 * [Erstelle für jede Frage eine neue Diskussion](https://github.com/datenstrom/yellow/discussions).
 * Beschreibe deine Frage und welche Probleme du hast.
-* Gib die Version deiner Webseite an, benutze die neuste Version falls möglich.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
+* Wähle eine Antwort aus, wenn deine Frage beantwortet wurde.
 
 ## Wie man einen Fehler meldet
 
 * [Erstelle für jeden Fehler eine neue Diskussion](https://github.com/datenstrom/yellow/discussions).
 * Erkläre was nicht funktioniert und wie man den Fehler reproduzieren kann.
-* Überprüfe die Datei `system/extensions/yellow.log` nach Fehlermeldungen.
 * Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
-
-## Wie man eine Übersetzung erstellt
-
-* [Schaue dir deine Sprache](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) und die [Hilfe-Erweiterung](https://github.com/datenstrom/yellow-extensions/blob/master/source/help/README-de.md) an.
-* Suche nach Textzeilen die noch nicht übersetzt wurden.
-* Erstelle eine neue Übersetzung, falls deine Sprache fehlt.
-* Veröffentliche deine Übersetzung im offiziellen Repository.
+* Überprüfe die Datei `system/extensions/yellow.log` nach Fehlermeldungen.
 
 ## Wie man eine Erweiterung erstellt
 
-* [Beginne mit einer Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld) oder einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic).
+* [Beginne mit einer Beispiels-Funktion](https://github.com/schulle4u/yellow-extension-helloworld), einem [Beispiels-Thema](https://github.com/schulle4u/yellow-extension-basic) oder einer [Übersetzung](https://github.com/datenstrom/yellow-extensions/tree/master/source/german).
 * Stelle dir vor was der Benutzer machen will, strebe eine einfache Lösung an.
 * Lade deine Erweiterung zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
 * Veröffentliche deine Erweiterung im offiziellen Repository.
+
+## Tipps für aktiv Mitwirkende
+
+Wir denken Menschen sollten im Zentrum stehen. Ein Bestandteil von Produktentwicklung ist es die Bedürfnisse und Probleme von Menschen zu verstehen. Unsere Aufgabe besteht nicht darin, mehr Technologie und mehr Funktionen in das Leben von Menschen zu bringen. Unsere erste Aufgabe besteht darin, Komplexität und Probleme aus dem Leben von Menschen zu entfernen. Unsere zweite Aufgabe besteht darin, Gleichgesinnte zu finden und zusammenarbeiten.
+
+Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. Die meisten Antworten werden von Community-Mitgliedern, so wie du, bereitgestellt. Denke daran, dass andere Menschen möglicherweise nicht die gleiche Erfahrung oder den gleichen Hintergrund haben wie du. Fühle dich niemals gezwungen, auf jemanden zu reagieren oder zu antworten. Du kannst jederzeit aus Gesprächen aussteigen, wenn die Diskussion nicht konstruktiv verläuft. 
+
+Unser Ziel ist es Fragen und Fehler innerhalb von 30 Tagen zu beantworten. Beiträge von geringer Qualität werden jedoch entfernt, um unsere Community nicht zu überfordern. Falls jemand die Arbeit der Gemeinschaft behindert oder selbst keinen Beitrag leistet, behalten wir uns das Recht vor, Benutzer für einige Tage aus unserer Community auszuschliessen. Wir glauben, dass es ein Privileg und kein Recht ist Fragen zu stellen. [Feedback ist sehr willkommen](/de/contact/).
 
 ## Verwandte Informationen
 
