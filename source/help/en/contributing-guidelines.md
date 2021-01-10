@@ -30,9 +30,9 @@ Here's how we work together and make good products.
 
 We think people should be in the centre. Understanding people's needs and problems is a part of product development. Our job is not to bring more technology and more features into people's lives. Our first task is to remove complexity and problems from people's lives. Our second task is to find like-minded people and work together.
  
-Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same experience level or background as you. Never feel compelled to react or respond to anyone. You can step out of conversations at any time, if the discussion isn't constructive.
+Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same experience level or background as you. Never feel compelled to react or respond to anyone. You can step out of conversations at any time if the discussion isn't constructive.
 
-Our goal is to answer questions and bugs within 30 days, but low-quality contributions will be removed to not overwhelm our community. We believe that asking questions is a privilege, not a right. Let us know how we can create a pleasant work environment. [Feedback is very welcome](/contact/).
+Our goal is to answer questions and bugs within 30 days, but low-quality contributions will be removed to not overwhelm our community. Collaboration works best when people enjoy what they do. Let us know how we can create a pleasant work environment. [Feedback is very welcome](/contact/).
 
 ## Related information
 
