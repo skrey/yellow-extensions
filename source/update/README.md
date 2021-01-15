@@ -84,7 +84,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `UpdateCurrentFile` = file with current update settings  
 `UpdateCurrentRelease` = currently installed product release  
 `UpdateTrashTimeout` = storage of deleted files in seconds  
-`UpdateDailyTimestamp` = time of next daily update  
+`UpdateDailyTimestamp` = time of next daily notification  
 `UpdateNotification` = pending notifications  
 
 The log file can be found in file `system/extensions/yellow.log`.
