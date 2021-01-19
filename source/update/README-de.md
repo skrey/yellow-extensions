@@ -1,4 +1,4 @@
-Update 0.8.48
+Update 0.8.49
 =============
 Webseite auf dem neusten Stand halten.
 
@@ -83,9 +83,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `UpdateLatestFile` = Datei mit neusten Aktualisierungs-Einstellungen  
 `UpdateCurrentFile` = Datei mit aktuellen Aktualisierungs-Einstellungen  
 `UpdateCurrentRelease` = momentan installierte Produktversion  
-`UpdateTrashTimeout` = Speicherung von gelöschten Dateien in Sekunden  
-`UpdateDailyTimestamp` = Zeitpunkt der nächsten täglichen Benachrichtigung  
-`UpdateNotification` = ausstehende Benachrichtigungen  
+`UpdateEventPending ` = ausstehende Ereignisse  
+`UpdateEventDaily ` = Zeitpunkt des nächsten täglichen Ereignisses  
 
 Die Logdatei findet man in der Datei `system/extensions/yellow.log`.
 

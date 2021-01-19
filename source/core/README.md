@@ -1,4 +1,4 @@
-Core 0.8.39
+Core 0.8.40
 ===========
 Core functionality of the website.
 
@@ -151,6 +151,7 @@ The following settings can be configured at the top of a page:
 `CoreServerUrl` = URL of the website, `auto` for automatic detection  
 `CoreServerTimezone` = timezone of the website  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
+`CoreTrashTimeout` = storage of deleted files in seconds  
 
 <a id="settings-status"></a>The following page status values are supported:
 

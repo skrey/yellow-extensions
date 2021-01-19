@@ -1,4 +1,4 @@
-Core 0.8.39
+Core 0.8.40
 ===========
 Kernfunktionalität der Webseite.
 
@@ -151,6 +151,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
 `CoreServerTimezone` = Zeitzone der Webseite  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
+`CoreTrashTimeout` = Speicherung von gelöschten Dateien in Sekunden  
 
 <a id="einstellungen-status"></a>Die folgenden Seiten-Statuswerte werden unterstützt:
 
