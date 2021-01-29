@@ -45,28 +45,28 @@ Mit Hilfe von `$this->yellow` kann man auf die Webseite zugreifen. Die API ist i
 Yellow-Page gibt Zugang zur aktuellen Seite:
 
 **page->get($key)**  
-Hole eine [Seiteneeinstellung](markdown-cheat-sheet#einstellungen)
+Hole eine [Seiteneinstellung](markdown-cheat-sheet#einstellungen)
 
 **page->getHtml($key)**  
-Hole eine [Seiteneeinstellung](markdown-cheat-sheet#einstellungen), HTML-kodiert  
+Hole eine [Seiteneinstellung](markdown-cheat-sheet#einstellungen), HTML-kodiert  
 
 **page->getDate($key, $format = "")**  
-Hole eine [Seiteneeinstellung](markdown-cheat-sheet#einstellungen) als [sprachspezifisches Datum](adjusting-system#spracheinstellungen)
+Hole eine [Seiteneinstellung](markdown-cheat-sheet#einstellungen) als [sprachspezifisches Datum](adjusting-system#spracheinstellungen)
 
 **page->getDateHtml($key, $format = "")**  
-Hole eine [Seiteneeinstellung](markdown-cheat-sheet#einstellungen) als [sprachspezifisches Datum](adjusting-system#spracheinstellungen), HTML-kodiert
+Hole eine [Seiteneinstellung](markdown-cheat-sheet#einstellungen) als [sprachspezifisches Datum](adjusting-system#spracheinstellungen), HTML-kodiert
 
 **page->getDateRelative($key, $format = "", $daysLimit = 30)**  
-Hole eine [Seiteneeinstellung](markdown-cheat-sheet#einstellungen) als [sprachspezifisches Datum](adjusting-system#spracheinstellungen), relativ zu heute
+Hole eine [Seiteneinstellung](markdown-cheat-sheet#einstellungen) als [sprachspezifisches Datum](adjusting-system#spracheinstellungen), relativ zu heute
 
 **page->getDateRelativeHtml($key, $format = "", $daysLimit = 30)**  
-Hole eine [Seiteneeinstellung](markdown-cheat-sheet#einstellungen) als [sprachspezifisches Datum](adjusting-system#spracheinstellungen), relativ zu heute, HTML-kodiert
+Hole eine [Seiteneinstellung](markdown-cheat-sheet#einstellungen) als [sprachspezifisches Datum](adjusting-system#spracheinstellungen), relativ zu heute, HTML-kodiert
 
 **page->getDateFormatted($key, $format)**  
-Hole eine [Seiteneeinstellung](markdown-cheat-sheet#einstellungen) als [Datum](https://www.php.net/manual/de/function.date.php)
+Hole eine [Seiteneinstellung](markdown-cheat-sheet#einstellungen) als [Datum](https://www.php.net/manual/de/function.date.php)
 
 **page->getDateFormattedHtml($key, $format)**  
-Hole eine [Seiteneeinstellung](markdown-cheat-sheet#einstellungen) als [Datum](https://www.php.net/manual/de/function.date.php), HTML-kodiert
+Hole eine [Seiteneinstellung](markdown-cheat-sheet#einstellungen) als [Datum](https://www.php.net/manual/de/function.date.php), HTML-kodiert
 
 **page->getContent($rawFormat = false, $sizeMax = 0)**  
 Hole den Seiteninhalt, HTML-kodiert oder Rohformat
@@ -144,7 +144,7 @@ Antworte mit Statuscode, ohne Seiteninhalt
 Überprüfe ob die Seite einen Fehler hat
 
 **page->isExisting($key)**  
-Überprüfe ob die [Seiteneeinstellung](markdown-cheat-sheet#einstellungen) existiert  
+Überprüfe ob die [Seiteneinstellung](markdown-cheat-sheet#einstellungen) existiert  
 
 **page->isRequest($key)**  
 Überprüfe ob das Requestargument existiert
@@ -201,13 +201,13 @@ Hier ist ein Beispiel-Layout um den Seiteninhalt und das Änderungsdatum anzuzei
 Yellow-Page-Collection gibt Zugang zu mehreren Seiten:
 
 **pages->filter($key, $value, $exactMatch = true)**  
-Filtere eine Page-Collection nach [Seiteneeinstellung](markdown-cheat-sheet#einstellungen)
+Filtere eine Page-Collection nach [Seiteneinstellung](markdown-cheat-sheet#einstellungen)
 
 **pages->match($regex = "/.*/")**  
 Filtere eine Page-Collection nach Dateinamen
 
 **pages->sort($key, $ascendingOrder = true)**  
-Sortiere eine Page-Collection nach [Seiteneeinstellung](markdown-cheat-sheet#einstellungen)
+Sortiere eine Page-Collection nach [Seiteneinstellung](markdown-cheat-sheet#einstellungen)
 
 **pages->similar($page, $ascendingOrder = false)**  
 Sortiere eine Page-Collection nach Einstellungsähnlichkeit
@@ -489,7 +489,7 @@ Hole eine [Systemeinstellung](adjusting-system#systemeinstellungen), HTML-kodier
 Hole [Systemeinstellungen](adjusting-system#systemeinstellungen)
 
 **system->getValues($key)**  
-Hole die unterstützen Werte einer [Systemeinstellung](adjusting-system#systemeinstellungen), leer falls nicht bekannt
+Hole die unterstützten Werte einer [Systemeinstellung](adjusting-system#systemeinstellungen), leer falls nicht bekannt
 
 **system->getModified($httpFormat = false)**  
 Hole das Änderungsdatum von [Systemeinstellungen](adjusting-system#systemeinstellungen), Unix-Zeit oder HTTP-Format
