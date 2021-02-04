@@ -10,4 +10,4 @@ Turkish/Türkçe 'tr' dili ile.
 
 ## Çevirmen
 
-Osman Kars, [Yardım almak](https://datenstrom.se/yellow/help/).
+Osman Kars. [Yardım almak](https://datenstrom.se/yellow/help/).
