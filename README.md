@@ -131,6 +131,7 @@ More features, themes and languages for Datenstrom Yellow.
 * [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/source/slovak): Slovak/Slovenčina with language 'sk'. Translated by Ádám Tuba.
 * [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/source/spanish): Spanish/Español with language 'es'. Translated by Al Garcia, David Garcia.
 * [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish): Swedish/Svenska with language 'sv'. Translated by Adam Engel.
+* [Turkish](https://github.com/datenstrom/yellow-extensions/tree/master/source/turkish): Turkish/Türkçe with language 'tr'. Translated by Osman Kars.
 
 Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
 

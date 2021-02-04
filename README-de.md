@@ -131,6 +131,7 @@ Weitere Funktionen, Themen und Sprachen für Datenstrom Yellow.
 * [Slovak](https://github.com/datenstrom/yellow-extensions/tree/master/source/slovak): Slowakisch/Slovenčina mit der Sprache "sk". Übersetzt von Ádám Tuba.
 * [Spanish](https://github.com/datenstrom/yellow-extensions/tree/master/source/spanish): Spanisch/Español mit der Sprache "es". Übersetzt von Al Garcia, David Garcia.
 * [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish): Schwedisch/Svenska mit der Sprache "sv". Übersetzt von Adam Engel.
+* [Turkish](https://github.com/datenstrom/yellow-extensions/tree/master/source/turkish): Türkisch/Türkçe mit der Sprache "tr". Übersetzt von Osman Kars.
 
 Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 
