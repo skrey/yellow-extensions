@@ -214,7 +214,7 @@ InstallExtensionBlog: Blogg
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Hem
 InstallHomeTitleContent: Din webbplats fungerar!
-InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - Du kan redigera den här sidan]. Hjälpen ger dig mer information om hur du skapar små webbsidor, bloggar och wikier. [Läs mer](https://datenstrom.se/sv/yellow/help/).
+InstallHomeText: [image photo.jpg Exempel rounded]\n\n[edit - Du kan redigera den här sidan]. Hjälpen ger dig mer information om hur du skapar små webbsidor, bloggar och wikier. [Läs mer](https://datenstrom.se/sv/yellow/help/).
 InstallDefaultTitle: Sida
 InstallDefaultText: Detta är en ny sida.
 InstallBlogTitle: Bloggsida

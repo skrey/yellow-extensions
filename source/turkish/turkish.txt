@@ -214,7 +214,7 @@ InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Ana Sayfa
 InstallHomeTitleContent: Web Siteniz Çalışıyor!
-InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - Bu sayfayı düzenleyebilirsiniz]. Bu yardım, size küçük web sayfalarının, blogların ve wiki'lerin nasıl oluşturulacağı hakkında daha fazla bilgi verir. [Daha fazla bilgi edin](https://datenstrom.se/yellow/help/).
+InstallHomeText: [image photo.jpg Misal rounded]\n\n[edit - Bu sayfayı düzenleyebilirsiniz]. Bu yardım, size küçük web sayfalarının, blogların ve wiki'lerin nasıl oluşturulacağı hakkında daha fazla bilgi verir. [Daha fazla bilgi edin](https://datenstrom.se/yellow/help/).
 InstallDefaultTitle: Sayfa
 InstallDefaultText: Bu yeni bir sayfadır.
 InstallBlogTitle: Blog sayfası
