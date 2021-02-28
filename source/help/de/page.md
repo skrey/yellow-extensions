@@ -23,8 +23,8 @@ TitleSlug: help
 
 ## Möchtest du Fragen stellen?
 
-Kannst du etwas nicht finden? Funktioniert etwas nicht? Es besteht eine gute Chance, dass deine Frage bereits beantwortet wurde. Falls nicht, erstelle eine neue Diskussion. Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen. So bekommst du Hilfe und alle anderen können die Antworten ebenso lesen. [Fragen stellen](https://github.com/datenstrom/yellow/discussions) und [mitmachen](contributing-guidelines).  
+Kannst du etwas nicht finden? Funktioniert etwas nicht? Es besteht eine gute Chance, dass deine Frage bereits beantwortet wurde. Falls nicht, beginne eine neue Diskussion. Beschreibe was du machen möchtest und welche Probleme du hast. So bekommst du Hilfe und alle anderen können die Antworten ebenso lesen. [Fragen stellen](https://github.com/datenstrom/yellow/discussions) und [mitmachen](contributing-guidelines).  
 
 ## Möchtest du Support haben?
 
-Hast du ein dringendes Problem? Suchst du jemanden der dir und deiner Firma hilft? Wende dich zuerst an den Webmaster deiner Webseite. Normalerweise kann dir dort weitergeholfen werden. Falls nicht, wende dich an den kommerziellen Support. Wir stellen sicher, dass du die Unterstützung hast die du brauchst. [Weitere Informationen zum kommerziellen Support](https://mayberg.se/support/).
+Hast du ein dringendes Problem? Suchst du jemanden der dir hilft? Wende dich zuerst an denjenigen der deine Webseite erstellt hat. Normalerweise kann dir dort weitergeholfen werden. Falls nicht, wende dich an den kommerziellen Support. Wir stellen sicher, dass du die Unterstützung hast die du brauchst. [Weitere Informationen zum kommerziellen Support](https://mayberg.se/support/).

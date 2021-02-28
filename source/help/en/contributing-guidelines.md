@@ -7,14 +7,14 @@ Here's how to work together and make good products.
 
 ## How to ask a question
 
-* [Create a new discussion for each question](https://github.com/datenstrom/yellow/discussions).
+* [Start a new discussion for each question](https://github.com/datenstrom/yellow/discussions).
+* Write your question in the title, so that everyone can see what it is about. 
 * Describe what you want to do and which problems you have.
-* Add a lot of details, the more we know the better we can help.
 * Select an answer, when your question has been answered.
 
 ## How to report a bug
 
-* [Create a new discussion for each bug](https://github.com/datenstrom/yellow/discussions).
+* [Start a new discussion for each bug](https://github.com/datenstrom/yellow/discussions).
 * Explain what doesn't work and how to reproduce the error.
 * Add a lot of details, the more we know the better we can help.
 * Check the file `system/extensions/yellow.log` for error messages.
@@ -28,11 +28,9 @@ Here's how to work together and make good products.
 
 ## Tips for active contributors
 
-[We think people should be in the centre](/). Understanding people's needs and problems is a part of product development. Our job is not to bring more technology and more features into people's lives. Our first task is to remove complexity and problems from people's lives. Our second task is to find like-minded people and work together.
- 
-Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same experience level or background as you. Never feel compelled to react or respond to anyone. You can step out of conversations at any time if the discussion isn't constructive.
+Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same experience level or background as you. Never feel compelled to react or respond to anyone. You can step out of conversations at any time if the discussion isn't constructive. Focus on the people who want to help you. Low-quality contributions will be removed to not overwhelm our community.
 
-Our goal is to answer questions and bugs within 30 days, but low-quality contributions will be removed to not overwhelm our community. Collaboration works best when you enjoy what your are doing. Let us know how we can support you and create a pleasant work environment. [Feedback is very welcome](/contact/).
+Collaboration works best when you enjoy what your are doing. Let us know how we can support you. We think people should be in the centre. Understanding people's needs and problems is a part of product development. Our job is not to bring more technology and more features into people's lives. Our first task is to remove complexity and problems from people's lives. Our second task is to find like-minded people and work together. [Feedback is very welcome](https://datenstrom.se/contact/).
 
 ## Related information
 
