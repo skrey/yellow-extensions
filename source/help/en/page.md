@@ -27,4 +27,4 @@ Can't find what you're looking for? Something doesn't work? There's a good chanc
 
 ## Want to have support?
 
-Have an urgent problem? Are you looking for someone that helps you? First contact the person who made your website. Usually you can get help there. If not, contact the commercial support. We'll make sure you have the support you need. We're happy to listen and take care of problems. [Learn more about commercial support](https://mayberg.se/support/).
+Have an urgent problem? Are you looking for someone that helps you with your website? First contact the person who made your website. Usually you can get help there. If not, contact the commercial support. Talk to a consultant via email or phone. We'll make sure you have the support you need. [Learn more about commercial support](https://mayberg.se/support/).

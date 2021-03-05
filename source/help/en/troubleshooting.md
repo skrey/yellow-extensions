@@ -31,7 +31,7 @@ Configure the web server, see configuration files below. You either need a confi
 Datenstrom Yellow requires PHP extension!
 ```
 
-Install the missing PHP extension on your web server.
+Install the missing PHP extension on your web server. You need `curl exif gd mbstring zip`.
 
 ```
 Datenstrom Yellow requires PHP 5.6 or higher!

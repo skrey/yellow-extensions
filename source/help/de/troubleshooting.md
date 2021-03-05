@@ -31,7 +31,7 @@ Konfiguriere den Webserver, siehe Konfigurationsdateien weiter unten. Du benöti
 Datenstrom Yellow requires PHP extension!
 ```
 
-Installiere die fehlende PHP-Erweiterung auf deinem Webserver.
+Installiere die fehlende PHP-Erweiterung auf deinem Webserver. Du benötigst `curl exif gd mbstring zip`.
 
 ```
 Datenstrom Yellow requires PHP 5.6 or higher!

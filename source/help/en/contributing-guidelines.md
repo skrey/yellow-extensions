@@ -22,18 +22,17 @@ Here's how to work together and make good products.
 ## How to create an extension
 
 * [Start with an example feature](https://github.com/schulle4u/yellow-extension-helloworld), [example theme](https://github.com/schulle4u/yellow-extension-basic) or [translation](https://github.com/datenstrom/yellow-extensions/tree/master/source/english).
-* Imagine what the user wants to do, aim for a simple solution.
 * Upload your extension to GitHub, let us know if you need help.
+* Imagine what the user wants to do, aim for a simple solution.
 * Publish your extension to make it easier to install.
 
 ## Tips for active contributors
 
 Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same experience level or background as you. Never feel compelled to react or respond to anyone. You can step out of conversations at any time if the discussion isn't constructive. Focus on the people who want to help you. Low-quality contributions will be removed to not overwhelm our community.
 
-Collaboration works best when you enjoy what your are doing. Let us know how we can support you. We think people should be in the centre. Understanding people's needs and problems is a part of product development. Our job is not to bring more technology and more features into people's lives. Our first task is to remove complexity and problems from people's lives. Our second task is to find like-minded people and work together. [Feedback is very welcome](https://datenstrom.se/contact/).
+Let us know how we can create a good work environment. Collaboration works best when you enjoy what your are doing. We think people should be in the centre. Understanding people's needs and problems is a part of product development. Our job is not to bring more technology and more features into people's lives. Our first task is to remove complexity and problems from people's lives. Our second task is to find like-minded people and work together. [Feedback is very welcome](https://datenstrom.se/contact/).
 
 ## Related information
 
 * [Datenstrom on GitHub](https://github.com/datenstrom)
 * [Datenstrom on Twitter](https://twitter.com/datendeveloper)
-* [API for developers](api-for-developers)

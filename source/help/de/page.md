@@ -27,4 +27,4 @@ Kannst du etwas nicht finden? Funktioniert etwas nicht? Es besteht eine gute Cha
 
 ## Möchtest du Support haben?
 
-Hast du ein dringendes Problem? Suchst du jemanden der dir hilft? Wende dich zuerst an denjenigen der deine Webseite erstellt hat. Normalerweise kann dir dort weitergeholfen werden. Falls nicht, wende dich an den kommerziellen Support. Wir stellen sicher, dass du die Unterstützung hast die du brauchst. [Weitere Informationen zum kommerziellen Support](https://mayberg.se/support/).
+Hast du ein dringendes Problem? Suchst du jemanden der dir mit deiner Webseite hilft? Wende dich zuerst an denjenigen der deine Webseite erstellt hat. Normalerweise kann dir dort weitergeholfen werden. Falls nicht, wende dich an den kommerziellen Support. Wir stellen sicher, dass du die Unterstützung hast die du brauchst. [Weitere Informationen zum kommerziellen Support](https://mayberg.se/support/).
