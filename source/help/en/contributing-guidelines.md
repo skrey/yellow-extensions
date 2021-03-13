@@ -15,9 +15,9 @@ Here's how to work together and make good products.
 ## How to report a bug
 
 * [Start a new discussion for each bug](https://github.com/datenstrom/yellow/discussions).
-* Explain what doesn't work and how to reproduce the error.
-* Add a lot of details, the more we know the better we can help.
-* Check the file `system/extensions/yellow.log` for error messages.
+* Explain how to reproduce the bug, try to narrow down the cause.
+* Add many details, check the log file `system/extensions/yellow.log`.
+* Test that everything works, when your problem has been fixed.
 
 ## How to create an extension
 

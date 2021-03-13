@@ -15,9 +15,9 @@ Wie man zusammenarbeitet und gute Produkte macht.
 ## Wie man einen Fehler meldet
 
 * [Beginne eine neue Diskussion für jeden Fehler](https://github.com/datenstrom/yellow/discussions).
-* Erkläre was nicht funktioniert und wie man den Fehler reproduzieren kann.
-* Füge viele Details hinzu, je mehr wir wissen, desto besser können wir dir helfen.
-* Überprüfe die Datei `system/extensions/yellow.log` nach Fehlermeldungen.
+* Erkläre wie man den Fehler reproduziert kann, versuche die Ursache einzugrenzen.
+* Füge viele Details hinzu, überprüfe die Logdatei `system/extensions/yellow.log`.
+* Teste ob alles funktioniert, wenn dein Problem behoben wurde.
 
 ## Wie man eine Erweiterung erstellt
 
