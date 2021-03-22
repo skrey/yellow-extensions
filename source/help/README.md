@@ -8,7 +8,7 @@ Help for your website.
 
 The help is available on your website as `http://website/help/`. The help gives you more information about how to create small web pages, blogs and wikis. It's recommended to also install the [toc extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc) and [highlight extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight).
 
-## How to translate the help
+## How to improve the documentation
 
 Have a look inside your `content/9-help` folder. Translate the title and content of all pages. The file names should be left unchanged. The help is currently available in English and German. Let us know, if you made a new translation and add it to this repository.
 

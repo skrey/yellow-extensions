@@ -6,7 +6,7 @@ Befehlszeile der Webseite.
 
 ## Wie man die Befehlszeile benutzt
 
-Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen. Du kannst [eine statische Webseite erstellen](https://github.com/datenstrom/yellow-extensions/blob/master/source/command/README-de.md#wie-man-eine-statische-webseite-erstellt), [eine Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md#wie-man-eine-webseite-aktualisiert), [ein Benutzerkonto erstellen](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md#wie-man-ein-benutzerkonto-erstellt) und vieles mehr.
+Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen. Die vorhandenen Befehle hängen von den installierten Erweiterungen ab. Du kannst den eingebauten Webserver starten, eine statische Webseite erstellen, [eine Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md#wie-man-eine-webseite-aktualisiert), [ein Benutzerkonto erstellen](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md#wie-man-ein-benutzerkonto-erstellt) und vieles mehr.
 
 ## Wie man den eingebauten Webserver startet
 
