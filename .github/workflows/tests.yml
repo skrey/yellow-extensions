@@ -20,7 +20,6 @@ jobs:
         run: |
           echo "::add-matcher::${{ runner.tool_cache }}/php.json"
           git clone https://github.com/datenstrom/yellow.git yellow
-          rm zip/backwards-compatible-*
           cp zip/* yellow/system/extensions/
           cd yellow; php yellow.php update; php yellow.php about
           echo "Build:exclude" > content/contact/page.md 
