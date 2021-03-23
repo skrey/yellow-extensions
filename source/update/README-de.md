@@ -54,7 +54,7 @@ Inhaltsdatei mit Logdatei:
 
 Aktuelle Version in der Befehlszeile anzeigen:
  
-`php yellow.php about`  
+`php yellow.php about`
 
 Webseite in der Befehlszeile aktualisieren:
  

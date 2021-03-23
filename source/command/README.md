@@ -6,7 +6,7 @@ Command line of the website.
 
 ## How to use the command line
 
-Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on the extensions installed. You can [use the built-in web server](#how-to-use-the-built-in-web-server), [build a static website](#how-to-build-a-static-website), [update a website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update#how-to-update-a-website), [create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit#how-to-create-a-user-account) and more.
+Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on the extensions installed. Type `php yellow.php about` to show installed extensions. You can [use the built-in web server](#how-to-use-the-built-in-web-server), [build a static website](#how-to-build-a-static-website), [update a website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update#how-to-update-a-website), [create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit#how-to-create-a-user-account) and more.
 
 ## How to use the built-in web server
 
@@ -40,6 +40,10 @@ Content file with excluded page:
 Showing available commands at the command line:
 
 `php yellow.php`
+
+Showing installed extensions at the command line:
+ 
+`php yellow.php about`
 
 Starting built-in web server at the command line:
 

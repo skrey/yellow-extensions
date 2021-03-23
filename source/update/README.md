@@ -54,7 +54,7 @@ Content file with log file:
 
 Showing current version at the command line:
  
-`php yellow.php about`  
+`php yellow.php about`
 
 Updating website at the command line:
  
