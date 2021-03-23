@@ -20,3 +20,5 @@ Hier ist eine Beispiel-Datei `system/themes/custom.css`:
 ## Themen anpassen
 
 Im `system/themes`-Verzeichnis befinden sich alle Themendateien. Hier speichert man Bilder und Schriftarten, die in Themen verwendet werden. Jede Webseite hat ein kleines Icon, auch Favicon genannt. Der Webbrowser zeigt dieses Icon beispielsweise in der Adresszeile an.
+
+Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

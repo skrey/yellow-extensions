@@ -40,3 +40,5 @@ Du kannst die [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensi
     [youtube fhs55HEl-Gc]
     [youtube fhs55HEl-Gc left 200 112]
     [youtube fhs55HEl-Gc right 200 112]
+
+Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

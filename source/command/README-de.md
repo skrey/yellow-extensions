@@ -6,7 +6,7 @@ Befehlszeile der Webseite.
 
 ## Wie man die Befehlszeile benutzt
 
-Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen. Die vorhandenen Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die installierten Erweiterungen anzuzeigen. Du kannst [den eingebauten Webserver verwenden](#wie-man-den-eingebauten-webserver-verwendet), [eine statische Webseite erstellen](#wie-man-eine-statische-webseite-erstellt), [eine Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md#wie-man-eine-webseite-aktualisiert), [ein Benutzerkonto erstellen](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md#wie-man-ein-benutzerkonto-erstellt) und vieles mehr.
+Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen. Die vorhandenen Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die aktuelle Version und Erweiterungen anzuzeigen. Du kannst [den eingebauten Webserver verwenden](#wie-man-den-eingebauten-webserver-verwendet), [eine statische Webseite erstellen](#wie-man-eine-statische-webseite-erstellt), [eine Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md#wie-man-eine-webseite-aktualisiert), [ein Benutzerkonto erstellen](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md#wie-man-ein-benutzerkonto-erstellt) und vieles mehr.
 
 ## Wie man den eingebauten Webserver verwendet
 
@@ -41,7 +41,7 @@ Vorhandene Befehle in der Befehlszeile anzeigen:
 
 `php yellow.php`
 
-Installierte Erweiterungen in der Befehlszeile anzeigen:
+Aktuelle Version und Erweiterungen in der Befehlszeile anzeigen:
  
 `php yellow.php about`
 

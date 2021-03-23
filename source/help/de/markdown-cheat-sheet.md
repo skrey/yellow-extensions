@@ -161,3 +161,5 @@ HTML benutzen:
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
 `Redirect` = Umleitung zu einer neuen Seite oder URL  
+
+Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

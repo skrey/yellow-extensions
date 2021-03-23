@@ -46,3 +46,5 @@ Eine Liste erstellen:
     * Punkt eins
     * Punkt zwei
     * Punkt drei
+
+Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

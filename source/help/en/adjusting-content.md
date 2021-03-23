@@ -46,3 +46,5 @@ Making a list:
     * item one
     * item two
     * item three
+
+Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

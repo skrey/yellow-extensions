@@ -109,12 +109,14 @@ Status: shared
 [Made with Datenstrom Yellow](https://datenstrom.se/yellow/).
 ```
 
-## Add features, languages and themes
+## Add features, themes and languages
 
-There are [extensions for your website](https://github.com/datenstrom/yellow-extensions). Of course we also have an [API for developers](api-for-developers).
+There are [extensions for your website](https://github.com/datenstrom/yellow-extensions) and an [API for developers](api-for-developers).
 
 ## Related information
 
-* [How to use a blog](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)
 * [How to edit a website in a web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
 * [How to edit a website on the computer](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
+* [How to use a blog](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)
+
+Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

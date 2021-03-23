@@ -52,7 +52,7 @@ Content file with log file:
 
     ! [yellow log]
 
-Showing current version at the command line:
+Showing current version and extensions at the command line:
  
 `php yellow.php about`
 

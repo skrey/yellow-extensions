@@ -142,12 +142,12 @@ Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root
 <a id="logdatei"></a>Die Datei `system/extensions/yellow.log` zeigt wichtige Informationen und Fehler an. Hier ist ein Beispiel:
 
 ```
-2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.16, PHP 7.1.33, Apache 2.4.33, Mac
+2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
 2020-10-28 14:13:07 info Install extension 'English 0.8.27'
 2020-10-28 14:13:07 info Install extension 'German 0.8.27'
 2020-10-28 14:13:07 info Install extension 'Swedish 0.8.27'
 2020-10-28 14:13:17 info Add user 'Anna'
-2020-12-18 21:02:42 info Update extension 'Core 0.8.39'
+2020-12-18 21:02:42 info Update extension 'Core 0.8.42'
 2020-12-18 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
@@ -191,6 +191,8 @@ YellowSystem::load Theme:stockholm
 
 ## Verwandte Informationen
 
-* [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md)
+* [Wie man den eingebauten Webserver verwendet](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md)
 * [Wie man ein Benutzerkonto erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
-* [Wie man eine Webseite aktualisiert](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md)
+* [Wie man eine Webseite aktualisiert](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)
+
+Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

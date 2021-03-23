@@ -141,12 +141,12 @@ When your website doesn't work, then check `server_name` and `root` in the confi
 The file `system/extensions/yellow.log` shows important information and errors. Here's an example:
 
 ```
-2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.16, PHP 7.1.33, Apache 2.4.33, Mac
+2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
 2020-10-28 14:13:07 info Install extension 'English 0.8.27'
 2020-10-28 14:13:07 info Install extension 'German 0.8.27'
 2020-10-28 14:13:07 info Install extension 'Swedish 0.8.27'
 2020-10-28 14:13:17 info Add user 'Anna'
-2020-12-18 21:02:42 info Update extension 'Core 0.8.39'
+2020-12-18 21:02:42 info Update extension 'Core 0.8.42'
 2020-12-18 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
@@ -190,6 +190,8 @@ YellowSystem::load Theme:stockholm
 
 ## Related information
 
-* [How to start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
+* [How to use the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
 * [How to create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
 * [How to update a website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)
+
+Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

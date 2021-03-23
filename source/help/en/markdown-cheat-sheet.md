@@ -161,3 +161,5 @@ Using HTML:
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
 `Redirect` = redirect to a new page or URL  
+
+Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

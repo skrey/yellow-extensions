@@ -16,3 +16,5 @@ var ready = function() {
 }
 window.addEventListener("load", ready, false);
 ```
+
+Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

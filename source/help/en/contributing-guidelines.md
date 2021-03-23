@@ -34,5 +34,6 @@ Let us know how we can create a good work environment. Collaboration works best 
 
 ## Related information
 
+* [How to improve the documentation](https://github.com/datenstrom/yellow-extensions/blob/master/source/help)
 * [Datenstrom on GitHub](https://github.com/datenstrom)
 * [Datenstrom on Twitter](https://twitter.com/datendeveloper)

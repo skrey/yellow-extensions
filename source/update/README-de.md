@@ -52,7 +52,7 @@ Inhaltsdatei mit Logdatei:
 
     ! [yellow log]
 
-Aktuelle Version in der Befehlszeile anzeigen:
+Aktuelle Version und Erweiterungen in der Befehlszeile anzeigen:
  
 `php yellow.php about`
 

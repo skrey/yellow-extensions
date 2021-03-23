@@ -34,5 +34,6 @@ Lass uns wissen wie wir ein gutes Arbeitsumfeld schaffen können. Zusammenarbeit
 
 ## Verwandte Informationen
 
+* [Wie man die Dokumentation verbessert](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md)
 * [Datenstrom bei GitHub](https://github.com/datenstrom)
 * [Datenstrom bei Twitter](https://twitter.com/datendeveloper)
