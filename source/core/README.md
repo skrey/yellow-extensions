@@ -6,7 +6,7 @@ Core functionality of the website.
 
 ## How to edit a website on the computer
 
-You can use your favorite text editor and change everything in the file manager. All content is located in your `content` folder. Basically, what you see in the file manager is the website you get. You can use the built-in web server or create a [static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command).
+You can use your favorite text editor and change everything in the file manager. All content is located in your `content` folder. Basically, what you see in the file manager is the website you get. You can [start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-use-the-built-in-web-server) or [build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-build-a-static-website).
 
 ## How to customise a website on the computer
 

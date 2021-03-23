@@ -6,9 +6,9 @@ Befehlszeile der Webseite.
 
 ## Wie man die Befehlszeile benutzt
 
-Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen. Die vorhandenen Befehle hängen von den installierten Erweiterungen ab. Du kannst den eingebauten Webserver starten, eine statische Webseite erstellen, [eine Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md#wie-man-eine-webseite-aktualisiert), [ein Benutzerkonto erstellen](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md#wie-man-ein-benutzerkonto-erstellt) und vieles mehr.
+Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen. Die vorhandenen Befehle hängen von den installierten Erweiterungen ab. Du kannst [den eingebauten Webserver verwenden](#wie-man-den-eingebauten-webserver-verwendet), [eine statische Webseite erstellen](#wie-man-eine-statische-webseite-erstellt), [eine Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md#wie-man-eine-webseite-aktualisiert), [ein Benutzerkonto erstellen](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md#wie-man-ein-benutzerkonto-erstellt) und vieles mehr.
 
-## Wie man den eingebauten Webserver startet
+## Wie man den eingebauten Webserver verwendet
 
 Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch für Entwickler, da alles auf dem eigenem Computer läuft. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php serve`, du kannst wahlweise ein Verzeichnis und eine URL angeben. Öffne einen Webbrowser und gehe zu `http://localhost:8000/`.
 

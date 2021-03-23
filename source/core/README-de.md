@@ -6,7 +6,7 @@ Kernfunktionalität der Webseite.
 
 ## Wie man eine Webseite auf dem Computer bearbeitet
 
-Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager verändern. Alle Inhalte befinden sich im `content`-Verzeichnis. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst. Du kannst den eingebauten Webserver verwenden oder eine [statische Webseite](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) erstellen.
+Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager verändern. Alle Inhalte befinden sich im `content`-Verzeichnis. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst. Du kannst den [eingebauten Webserver verwenden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md#wie-man-den-eingebauten-webserver-verwendet) oder eine [statische Webseite erstellen](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md#wie-man-eine-statische-webseite-erstellt).
 
 ## Wie man eine Webseite auf dem Computer anpasst
 
