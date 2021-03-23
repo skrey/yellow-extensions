@@ -73,6 +73,7 @@ Cleaning static website and files at the command line:
 
 The following commands are available:
 
+`php yellow.php` = Show available commands, requires [core extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)  
 `php yellow.php about` = Show current version and extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php build` = Build static website, requires command extension  
 `php yellow.php check` = Check static website, requires command extension  
@@ -89,7 +90,6 @@ The following commands are available:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`CoreStaticUrl` = URL of the static website  
 `CommandStaticBuildDirectory` = directory for generated files  
 `CommandStaticDefaultFile` = default file for static website  
 `CommandStaticErrorFile` = error file for static website  
