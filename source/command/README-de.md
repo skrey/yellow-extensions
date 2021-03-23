@@ -6,7 +6,7 @@ Befehlszeile der Webseite.
 
 ## Wie man die Befehlszeile benutzt
 
-Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen. Die vorhandenen Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die aktuelle Version und Erweiterungen anzuzeigen. Du kannst [den eingebauten Webserver verwenden](#wie-man-den-eingebauten-webserver-verwendet), [eine statische Webseite erstellen](#wie-man-eine-statische-webseite-erstellt), [eine Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md#wie-man-eine-webseite-aktualisiert), [ein Benutzerkonto erstellen](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md#wie-man-ein-benutzerkonto-erstellt) und vieles mehr.
+Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die vorhandenen Befehle anzuzeigen. Gib ein `php yellow.php about`, um die aktuelle Version und Erweiterungen anzuzeigen. Du kannst [den eingebauten Webserver verwenden](#wie-man-den-eingebauten-webserver-verwendet), [eine statische Webseite erstellen](#wie-man-eine-statische-webseite-erstellt), [eine Webseite aktualisieren](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md#wie-man-eine-webseite-aktualisiert), [ein Benutzerkonto erstellen](https://github.com/datenstrom/yellow-extensions/blob/master/source/edit/README-de.md#wie-man-ein-benutzerkonto-erstellt) und vieles mehr.
 
 ## Wie man den eingebauten Webserver verwendet
 
@@ -68,6 +68,22 @@ Statische Webseite und Dateien in der Befehlszeile löschen:
 `php yellow.php clean`  
 `php yellow.php clean public /blog/`  
 `php yellow.php clean public /wiki/`  
+
+## Befehle
+
+Die folgenden Befehle sind verfügbar:
+
+`php yellow.php about` = Aktuelle Version und Erweiterungen anzeigen, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
+`php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung    
+`php yellow.php clean` = Statische Webseite löschen, erfordert Command-Erweiterung    
+`php yellow.php install` = Erweiterungen hinzufügen, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php publish` = Erweiterungen veröffentlichen, erfordert [Publish-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md)  
+`php yellow.php serve` = Eingebauten Webserver starten, erfordert Command-Erweiterung    
+`php yellow.php traffic` = Zugriffsanalysen erstellen, erfordert [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md)  
+`php yellow.php uninstall` = Erweiterungen entfernen, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php update` = Webseite aktualisieren, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php user` = Benutzerkonten aktualisieren, erfordert [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 
 ## Einstellungen
 

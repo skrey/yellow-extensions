@@ -6,7 +6,7 @@ Command line of the website.
 
 ## How to use the command line
 
-Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on the extensions installed. Type `php yellow.php about` to show the current version and extensions. You can [use the built-in web server](#how-to-use-the-built-in-web-server), [build a static website](#how-to-build-a-static-website), [update a website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update#how-to-update-a-website), [create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit#how-to-create-a-user-account) and more.
+Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. Type `php yellow.php about` to show the current version and extensions. You can [use the built-in web server](#how-to-use-the-built-in-web-server), [build a static website](#how-to-build-a-static-website), [update a website](https://github.com/datenstrom/yellow-extensions/tree/master/source/update#how-to-update-a-website), [create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit#how-to-create-a-user-account) and more.
 
 ## How to use the built-in web server
 
@@ -68,6 +68,22 @@ Cleaning static website and files at the command line:
 `php yellow.php clean`  
 `php yellow.php clean public /blog/`  
 `php yellow.php clean public /wiki/`  
+
+## Commands
+
+The following commands are available:
+
+`php yellow.php about` = Show current version and extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php build` = Build static website, requires command extension  
+`php yellow.php check` = Check static website, requires command extension  
+`php yellow.php clean` = Clean static website, requires command extension  
+`php yellow.php install` = Add extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php publish` = Publish extensions, requires [publish extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)  
+`php yellow.php serve` = Start built-in web server, requires command extension  
+`php yellow.php traffic` = Create traffic analytics, requires [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
+`php yellow.php uninstall` = Remove extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php update` = Update website, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php user` = Update user accounts, requires [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 
 ## Settings
 

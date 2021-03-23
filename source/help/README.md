@@ -10,7 +10,9 @@ The help is available on your website as `http://website/help/`. The help gives 
 
 ## How to improve the documentation
 
-Have a look inside your `content/9-help` folder. Translate the title and content of all pages. The file names should be left unchanged. The help is currently available in English and German. Let us know, if you made a new translation and add it to this repository.
+Have a look inside your `content/9-help` folder. 
+
+If you want to make a translation, here are some tips. Translate the title and content of all pages. The file names should be left unchanged. The help is currently available in [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/en) and [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/de). Let us know, if you made a new translation and add it to this repository.
 
 ## Installation
 

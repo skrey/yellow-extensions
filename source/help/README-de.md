@@ -10,7 +10,9 @@ Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilf
 
 ## Wie man die Dokumentation verbessert
 
-Schau dir das `content/9-help`-Verzeichnis an. Übersetze den Titel und den Inhalt aller Seiten. Die Dateinamen sollten unverändert bleiben. Die Hilfe ist derzeit auf Deutsch und Englisch verfügbar. Lass uns wissen, falls du eine neue Übersetzung erstellt hast und füge sie zu diesem Repository hinzu.
+Schau dir das `content/9-help`-Verzeichnis an. 
+
+Falls du eine Übersetzung erstellen möchtest, hier sind ein paar Tipps. Übersetze den Titel und den Inhalt aller Seiten. Die Dateinamen sollten unverändert bleiben. Die Hilfe ist derzeit auf [Deutsch](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/de) und [Englisch](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/en) verfügbar. Lass uns wissen, falls du eine neue Übersetzung erstellt hast und füge sie zu diesem Repository hinzu.
 
 ## Installation
 
