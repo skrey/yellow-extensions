@@ -22,21 +22,6 @@ Du kannst einen statischen Zwischenspeicher erstellen, um deine Webseite zu besc
 
 ## Beispiele
 
-Inhaltsdatei mit normaler Seite:
-
-    ---
-    Title: Beispielseite
-    ---
-    Diese Seite ist in der statischen Webseite enthalten.
-
-Inhaltsdatei mit ausgeschlossener Seite:
-
-    ---
-    Title: Beispielseite
-    Build: exclude
-    ---
-    Diese Seite ist in der statischen Webseite nicht enthalten.
-
 Verfügbare Befehle in der Befehlszeile anzeigen:
 
 `php yellow.php`
@@ -73,7 +58,7 @@ Statische Webseite und Dateien in der Befehlszeile löschen:
 
 Die folgenden Befehle sind verfügbar:
 
-`php yellow.php` = Verfügbare Befehle anzeigen, erfordert [Core-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)  
+`php yellow.php` = Verfügbare Befehle anzeigen  
 `php yellow.php about` = Aktuelle Version und Erweiterungen anzeigen, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
 `php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung    

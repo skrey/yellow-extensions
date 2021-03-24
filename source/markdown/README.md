@@ -128,7 +128,7 @@ The default parser is defined in file `system/extensions/yellow-system.ini`. A d
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/markdown.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [Markdown Extra v1.9.0](https://github.com/michelf/php-markdown) by Michel Fortin.
+This extension uses [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) by Michel Fortin.
 
 ## Developer
 

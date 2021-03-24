@@ -57,6 +57,14 @@ Content file with redirection:
     ---
     This page is redirected to another page.
 
+Content file with excluded page:
+
+    ---
+    Title: Example page
+    Build: exclude
+    ---
+    This page is not included in static website.
+
 ## Folders
 
 The following folders are available:

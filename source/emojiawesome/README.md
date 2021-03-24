@@ -41,7 +41,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/emojiawesome.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [Twemoji v2.0.0](https://github.com/twitter/twemoji) by Twitter. Files are served from [cdnjs](https://cdnjs.com).
+This extension uses [Twemoji 2.0.0](https://github.com/twitter/twemoji) by Twitter. Files are served from [cdnjs](https://cdnjs.com).
 
 ## Developer
 

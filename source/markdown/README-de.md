@@ -128,7 +128,7 @@ Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festg
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/markdown.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung benutzt [Markdown Extra v1.9.0](https://github.com/michelf/php-markdown) von Michel Fortin.
+Diese Erweiterung benutzt [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) von Michel Fortin.
 
 ## Entwickler
 

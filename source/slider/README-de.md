@@ -48,7 +48,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/slider.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung benutzt [Flickity v2.0.9](https://github.com/metafizzy/flickity) von David DeSandro.
+Diese Erweiterung benutzt [Flickity 2.0.9](https://github.com/metafizzy/flickity) von David DeSandro.
 
 ## Entwickler
 

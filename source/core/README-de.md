@@ -57,6 +57,14 @@ Inhaltsdatei mit Weiterleitung:
     ---
     Diese Seite wird zu einer anderen Seite weitergeleitet.
 
+Inhaltsdatei mit ausgeschlossener Seite:
+
+    ---
+    Title: Beispielseite
+    Build: exclude
+    ---
+    Diese Seite ist in der statischen Webseite nicht enthalten.
+
 ## Verzeichnisse
 
 Die folgenden Verzeichnisse sind verfügbar:

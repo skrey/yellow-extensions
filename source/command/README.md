@@ -22,21 +22,6 @@ You can build a static cache to speed up your website. Usually a page is first g
 
 ## Examples
 
-Content file with normal page:
-
-    ---
-    Title: Example page
-    ---
-    This page is included in static website.
-
-Content file with excluded page:
-
-    ---
-    Title: Example page
-    Build: exclude
-    ---
-    This page is not included in static website.
-
 Showing available commands at the command line:
 
 `php yellow.php`
@@ -73,7 +58,7 @@ Cleaning static website and files at the command line:
 
 The following commands are available:
 
-`php yellow.php` = Show available commands, requires [core extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)  
+`php yellow.php` = Show available commands  
 `php yellow.php about` = Show current version and extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php build` = Build static website, requires command extension  
 `php yellow.php check` = Check static website, requires command extension  
