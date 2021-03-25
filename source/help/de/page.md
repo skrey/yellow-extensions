@@ -23,7 +23,7 @@ TitleSlug: help
 
 ## Möchtest du Fragen stellen?
 
-Kannst du etwas nicht finden? Funktioniert etwas nicht? Es besteht eine gute Chance, dass deine Frage bereits beantwortet wurde. Falls nicht, beginne eine neue Diskussion. Beschreibe was du machen möchtest und welche Probleme du hast. So bekommst du Hilfe und alle anderen können die Antworten ebenso lesen. [Fragen stellen](https://github.com/datenstrom/yellow/discussions) und [mitmachen](contributing-guidelines).  
+Kannst du etwas nicht finden? Funktioniert etwas nicht? Es besteht eine gute Chance, dass deine Frage bereits beantwortet wurde. Falls nicht, beginne eine neue Diskussion. Beschreibe was du machen möchtest und welche Probleme du hast. So bekommst du Hilfe und alle anderen können die Antworten ebenso lesen. [Fragen stellen](https://github.com/datenstrom/yellow/discussions) und [mit uns zusammenarbeiten](contributing-guidelines).  
 
 ## Möchtest du Support haben?
 

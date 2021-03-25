@@ -1066,6 +1066,6 @@ var_dump(strempty(""));       // bool(true)
 
 * [Wie man die Befehlszeile benutzt](https://github.com/datenstrom/yellow-extensions/blob/master/source/command/README-de.md)
 * [Wie man eine Erweiterung veröffentlicht](https://github.com/datenstrom/yellow-extensions/blob/master/source/publish/README-de.md)
-* [Wie man die Dokumentation verbessert](https://github.com/datenstrom/yellow-extensions/blob/master/source/help/README-de.md)
+* [Wie man eine Webseite aktualisiert](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md)
 
 Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

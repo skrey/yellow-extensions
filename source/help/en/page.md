@@ -23,7 +23,7 @@ TitleSlug: help
 
 ## Want to ask questions?
 
-Can't find what you're looking for? Something doesn't work? There's a good chance that your question has already been answered. If not, start a new discussion. Describe what you want to do and which problems you have. That way you get help and everyone else can read the answers as well. [Ask a question](https://github.com/datenstrom/yellow/discussions) and [contribute](contributing-guidelines). 
+Can't find what you're looking for? Something doesn't work? There's a good chance that your question has already been answered. If not, start a new discussion. Describe what you want to do and which problems you have. That way you get help and everyone else can read the answers as well. [Ask a question](https://github.com/datenstrom/yellow/discussions) and [work with us](contributing-guidelines). 
 
 ## Want to have support?
 
