@@ -422,7 +422,7 @@ class YellowUpdate {
         if ($this->yellow->system->isExisting("updateNotification")) {  // TODO: remove later, convert old notification
             $updateEventPending = $this->yellow->system->get("updateNotification");
             $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
-            if ($this->yellow->system->save($fileName, array("updateEventPending" => $updateEventPending))) {
+            if (!$this->yellow->system->save($fileName, array("updateEventPending" => $updateEventPending))) {
                 $this->yellow->log("error", "Can't write file '$fileName'!");
             }
         }
