@@ -10,7 +10,7 @@ Create a `[soundcloud]` shortcut.
  
 The following arguments are available, all but the first argument are optional:
 
-`Id` = last part of a [Soundcloud](http://www.soundcloud.com/) link, e.g. `http://api.soundcloud.com/tracks/101175715`  
+`Id` = last part of a [Soundcloud](https://soundcloud.com) link, e.g. `http://api.soundcloud.com/tracks/101175715`  
 `Style` = audio track style, e.g. `left`, `center`, `right`  
 `Width` = audio track width, pixel or percent  
 `Height` = audio track height, pixel or percent   
@@ -33,7 +33,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/soundcloud.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses an online service with cookies, there's the [audio extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio) as an alternative.
+This extension uses an online service with cookies. There's the [audio extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio) as an alternative.
 
 ## Developer
 

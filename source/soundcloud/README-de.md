@@ -10,7 +10,7 @@ Erstelle eine `[soundcloud]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
 
-`Id` = letzte Teil eines [Soundcloud](http://www.soundcloud.com/)-Links, z.B. `http://api.soundcloud.com/tracks/101175715`  
+`Id` = letzte Teil eines [Soundcloud](https://soundcloud.com)-Links, z.B. `http://api.soundcloud.com/tracks/101175715`  
 `Style` = Audiospurstil, z.B. `left`, `center`, `right`  
 `Width` = Audiospurbreite, Pixel oder Prozent  
 `Height` = Audiospurhöhe, Pixel oder Prozent   
@@ -33,7 +33,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/soundcloud.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung benutzt einen Online-Service mit Cookies, es gibt die [Audio-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio) als Alternative.
+Diese Erweiterung benutzt einen Online-Service mit Cookies. Es gibt die [Audio-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio) als Alternative.
 
 ## Entwickler
 
