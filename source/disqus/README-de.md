@@ -8,8 +8,6 @@ Disqus-Kommentare im Blog anzeigen.
 
 [Disqus](https://disqus.com) ist ein Kommentarservice für Webseiten. Um diese Erweiterung zu verwenden, öffnen die Datei `system/extensions/yellow-system.ini` und ändere `DisqusShortname: website`. Du kannst den Namen deiner Webseite im Disqus-Dashboard finden. Kommentare werden auf Blogseiten angezeigt. Um Kommentare auf anderen Seiten anzuzeigen, füge eine `[disqus]`-Abkürzung in die Seite hinzu.
 
-Diese Erweiterung benutzt einen Online-Service, es gibt die [Comments-Erweiterung](https://github.com/GiovanniSalmeri/yellow-comments) als Alternative.
-
 ## Beispiele
 
 Inhaltsdatei mit Kommentare:
@@ -46,6 +44,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/disqus.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+
+Diese Erweiterung benutzt einen Online-Service mit Cookies, es gibt die [Comments-Erweiterung](https://github.com/GiovanniSalmeri/yellow-comments) als Alternative.
 
 ## Entwickler
 
