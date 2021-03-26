@@ -39,6 +39,23 @@ Content file with meta data from first image:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
+Layout file with meta data for Twitter:
+
+    <!DOCTYPE html>
+    <html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
+    <head>
+    <title><?php echo $this->yellow->page->getHtml("titleHeader") ?></title>
+    <meta charset="utf-8" />
+    <meta name="description" content="<?php echo $this->yellow->page->getHtml("description") ?>" />
+    <meta name="author" content="<?php echo $this->yellow->page->getHtml("author") ?>" />
+    <meta name="generator" content="Datenstrom Yellow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@dog_feelings">
+    <?php echo $this->yellow->page->getExtra("header") ?>
+    </head>
+    ...
+
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:

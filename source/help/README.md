@@ -10,9 +10,7 @@ The help is available on your website as `http://website/help/`. The help gives 
 
 ## How to edit the help
 
-You can edit the help in a web browser or on your computer. If you want to edit the help on your computer, have a look inside your `content/9-help` folder. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions`. Let us know if you need help.
-
-If you want to make a translation, here are some tips. Translate the title and content of all pages. The file names should be left unchanged. The help is currently available in [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/en) and [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/de). Let us know, if you made a new translation and add it to this repository.
+You can edit the help in a web browser or on your computer. If you want to edit the help on your computer, have a look inside your `content/9-help` folder. If you want to make a translation, here are some tips. Translate the title and content of all pages. The file names should be left unchanged. The help is currently available in [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/en) and [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/de). Let us know, if you made a new translation and add it to this repository.
 
 ## Installation
 

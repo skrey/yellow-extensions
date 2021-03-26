@@ -10,9 +10,7 @@ Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilf
 
 ## Wie man die Hilfe bearbeitet
 
-Du kannst die Hilfe im Webbrowser oder auf deinem Computer bearbeiten. Falls du die Hilfe auf deinem Computer bearbeiten möchtest, schau dir das `content/9-help`-Verzeichnis an. Lade deine Änderungen zu GitHub hoch und erzeuge einen [Pull-Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) für `datenstrom/yellow-extensions`. Lass uns wissen falls du Hilfe brauchst.
-
-Falls du eine Übersetzung erstellen möchtest, hier sind ein paar Tipps. Übersetze den Titel und den Inhalt aller Seiten. Die Dateinamen sollten unverändert bleiben. Die Hilfe ist derzeit auf [Deutsch](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/de) und [Englisch](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/en) verfügbar. Lass uns wissen, falls du eine neue Übersetzung erstellt hast und füge sie zu diesem Repository hinzu.
+Du kannst die Hilfe im Webbrowser oder auf deinem Computer bearbeiten. Falls du die Hilfe auf deinem Computer bearbeiten möchtest, schau dir das `content/9-help`-Verzeichnis an. Falls du eine Übersetzung erstellen möchtest, hier sind ein paar Tipps. Übersetze den Titel und den Inhalt aller Seiten. Die Dateinamen sollten unverändert bleiben. Die Hilfe ist derzeit auf [Deutsch](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/de) und [Englisch](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/en) verfügbar. Lass uns wissen, falls du eine neue Übersetzung erstellt hast und füge sie zu diesem Repository hinzu.
 
 ## Installation
 
