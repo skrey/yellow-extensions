@@ -192,7 +192,7 @@ YellowSystem::load Theme:stockholm
 ## Verwandte Informationen
 
 * [Wie man den eingebauten Webserver verwendet](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md)
+* [Wie man die aktuelle Version anzeigt](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)
 * [Wie man ein Benutzerkonto erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
-* [Wie man eine Webseite aktualisiert](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)
 
 Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).
