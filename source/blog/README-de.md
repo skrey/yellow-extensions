@@ -1,4 +1,4 @@
-Blog 0.8.12
+Blog 0.8.13
 ===========
 Blog für deine Webseite.
 
