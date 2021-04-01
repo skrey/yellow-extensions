@@ -28,8 +28,8 @@ Here's how to work with us and make useful products.
 
 * [Have a look at the help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help) or [individual extensions](https://github.com/datenstrom/yellow-extensions).
 * Edit the existing documentation or make a translation.
-* Upload your documentation to GitHub, let us know if you need help.
-* Review your documentation from the perspective of the user.
+* Upload the documentation to GitHub, let us know if you need help.
+* Review the documentation, try to make it easy for the user. 
 
 ## Tips for active contributors
 

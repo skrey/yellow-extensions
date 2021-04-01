@@ -28,8 +28,8 @@ Wie man mit uns zusammenarbeitet und nützliche Produkte macht.
 
 * [Schau dir die Hilfe an](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md) oder [individuelle Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/README-de.md).
 * Bearbeite die vorhandene Dokumentation oder erstelle eine Übersetzung.
-* Lade deine Dokumentation zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
-* Überprüfe deine Dokumentation aus der Sicht des Benutzers. 
+* Lade die Dokumentation zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
+* Überprüfe die Dokumentation, versuche es dem Benutzer einfach zu machen. 
 
 ## Tipps für aktiv Mitwirkende
 
