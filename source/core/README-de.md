@@ -20,7 +20,7 @@ Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der D
 
 Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) installieren. Die Standardsprache wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
 
-Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#verzeichnisse) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#beispiele-folders) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
 
 Falls du Sprachen anpassen willst, ändere die Spracheinstellungen. Öffne die Datei `system/extensions/yellow-language.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Spracheinstellungen hinzufügen, beispielsweise Bildunterschriften.
 
@@ -65,9 +65,7 @@ Inhaltsdatei mit ausgeschlossener Seite:
     ---
     Diese Seite ist in der statischen Webseite nicht enthalten.
 
-## Verzeichnisse
-
-Die folgenden Verzeichnisse sind verfügbar:
+<a id="beispiele-folders"></a>Verzeichnisstruktur für normale Webseite:
 
 ```
 ├── content               = Inhaltsdateien

@@ -54,11 +54,8 @@ Cleaning static website and files at the command line:
 `php yellow.php clean public /blog/`  
 `php yellow.php clean public /wiki/`  
 
-## Commands
+Available commands depend on extensions installed:
 
-The following commands are available:
-
-`php yellow.php` = Show available commands  
 `php yellow.php about` = Show current version and extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php build` = Build static website, requires command extension  
 `php yellow.php check` = Check static website, requires command extension  
