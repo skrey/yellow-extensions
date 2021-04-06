@@ -33,7 +33,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/soundcloud.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses an online service with cookies. There's the [audio extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio) as an alternative.
+This extension uses a service that collect personal data. There's the [audio extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio) as an alternative.
 
 ## Developer
 
