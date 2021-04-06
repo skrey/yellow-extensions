@@ -45,7 +45,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/disqus.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [Disqus](https://disqus.com), a service provider that collects personal data.
+This extension uses [Disqus](https://disqus.com). The service provider collects personal data and uses cookies.
 
 ## Developer
 

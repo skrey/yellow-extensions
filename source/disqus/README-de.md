@@ -45,7 +45,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/disqus.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung verwendet [Disqus](https://disqus.com), ein Dienstanbieter der personenbezogene Daten sammelt.
+Diese Erweiterung verwendet [Disqus](https://disqus.com). Der Dienstanbieter sammelt personenbezogene Daten und verwendet Cookies.
 
 ## Entwickler
 
