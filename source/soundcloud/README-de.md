@@ -33,7 +33,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/soundcloud.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung verwendet einen Service der personenbezogene Daten sammelt. Es gibt die [Audio-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio) als Alternative.
+Diese Erweiterung verwendet [Soundcloud](https://soundcloud.com), ein Dienstanbieter der personenbezogene Daten sammelt.
 
 ## Entwickler
 
