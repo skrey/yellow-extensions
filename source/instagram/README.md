@@ -34,6 +34,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/instagram.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
+This extension uses [Instagram](https://www.instagram.com). The service provider collects personal data and uses cookies.
+
 ## Developer
 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).

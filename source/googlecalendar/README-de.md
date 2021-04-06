@@ -50,6 +50,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/googlecalendar.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
+Diese Erweiterung verwendet [Google Calendar](https://calendar.google.com/). Der Dienstanbieter sammelt personenbezogene Daten und benutzt Cookies.
+
 ## Entwickler
 
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
