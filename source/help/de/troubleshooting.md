@@ -94,6 +94,7 @@ server {
     listen 80;
     server_name website.com;
     root /var/www/website/;
+    default_type text/html;
     index index.html yellow.php;
 
     location /cache {
@@ -131,6 +132,7 @@ server {
     listen 80;
     server_name website.com;
     root /var/www/website/;
+    default_type text/html;
     error_page 404 /404.html;
 }
 ```
