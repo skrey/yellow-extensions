@@ -1,4 +1,4 @@
-Stockholm 0.8.10
+Stockholm 0.8.11
 ================
 Stockholm is a clean theme.
 

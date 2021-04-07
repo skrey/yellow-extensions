@@ -102,6 +102,7 @@ a:hover {
 .content td {
     text-align: left;
     padding: 0.3em;
+    padding-right: 2em;
     border-top: 1px solid #bbb;
     border-bottom: 1px solid #bbb;
 }
@@ -183,7 +184,7 @@ a:hover {
     padding: 0;
     list-style: none;
 }
-.content .entry-links .previous {
+.content .previousnext .previous {
     margin-right: 1em;
 }
 .content .pagination .previous {

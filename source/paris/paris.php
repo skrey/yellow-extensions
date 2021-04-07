@@ -2,7 +2,7 @@
 // Paris extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/paris
 
 class YellowParis {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation

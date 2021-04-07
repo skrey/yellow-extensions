@@ -2,7 +2,7 @@
 // Previousnext extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/previousnext
 
 class YellowPreviousnext {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.8";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -10,7 +10,6 @@ class YellowPreviousnext {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("previousnextPagePrevious", "1");
         $this->yellow->system->setDefault("previousnextPageNext", "1");
-        $this->yellow->system->setDefault("previousnextStyle", "entry-links");
     }
     
     // Handle page content of shortcut
@@ -23,8 +22,7 @@ class YellowPreviousnext {
             if ($this->yellow->system->get("previousnextPagePrevious")) $pagePrevious = $pages->getPagePrevious($page);
             if ($this->yellow->system->get("previousnextPageNext")) $pageNext = $pages->getPageNext($page);
             if ($pagePrevious!=null || $pageNext!=null) {
-                $style = $this->yellow->system->get("previousnextStyle");
-                $output = "<div class=\"".htmlspecialchars($style)."\">\n";
+                $output = "<div class=\"previousnext\">\n";
                 $output .= "<p>";
                 if ($pagePrevious!=null) {
                     $text = preg_replace("/@title/i", $pagePrevious->get("title"), $this->yellow->language->getText("PreviousnextPagePrevious"));

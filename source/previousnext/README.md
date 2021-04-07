@@ -1,4 +1,4 @@
-Previousnext 0.8.7
+Previousnext 0.8.8
 ==================
 Show links to previous/next page.
 
@@ -41,7 +41,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `PreviousnextPagePrevious` = show link to previous page, 1 or 0  
 `PreviousnextPageNext` = show link to next page, 1 or 0  
-`PreviousnextStyle` = links style, e.g. `entry-links`, `simple`  
 
 ## Installation
 
