@@ -1,4 +1,4 @@
-Highlight 0.8.11
+Highlight 0.8.12
 ================
 Highlight source code.
 
@@ -41,7 +41,6 @@ Highlighting of HTML code, without and with line number:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`HighlightClass` = highlight class, e.g. `highlight`  
 `HighlightLineNumber` = show line number, 1 or 0   
 `HighlightAutodetectLanguages` = languages for automatic detection, comma separated  
 
@@ -49,7 +48,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/highlight.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [highlight.php 9.18.1.5](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman.
+This extension uses [highlight.php 9.18.1.6](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman.
 
 ## Developer
 

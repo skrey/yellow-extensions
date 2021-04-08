@@ -2,13 +2,12 @@
 // Highlight extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight
 
 class YellowHighlight {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("highlightClass", "highlight");
         $this->yellow->system->setDefault("highlightLineNumber", "0");
         $this->yellow->system->setDefault("highlightAutodetectLanguages", "html, css, javascript, php");
     }
@@ -70,7 +69,7 @@ class YellowHighlight {
     // Return highlight information
     public function getHighlightInformation($name) {
         $language = $attributes = "";
-        $attributesData = array("class" => $this->yellow->system->get("highlightClass"));
+        $attributesData = array("class" => "highlight");
         foreach (explode(" ", $name) as $token) {
             if (preg_match("/^[\w]+$/", $token) && empty($language)) $language = $token;
             if (substru($token, 0, 1)==".") $attributesData["class"] = $attributesData["class"]." ".substru($token, 1);
@@ -96,9 +95,11 @@ class YellowHighlight {
 }
 
 /* Highlight.php, https://github.com/scrivo/highlight.php
- * Copyright © 2006-2013, Ivan Sagalaev (maniac@softwaremaniacs.org), highlight.js (original author)
- * Copyright © 2013, Geert Bergman (geert@scrivo.nl), highlight.php
- * All rights reserved.
+ * Copyright (c)
+ * - 2006-2013, Ivan Sagalaev (maniac@softwaremaniacs.org), highlight.js
+ *              (original author)
+ * - 2013-2019, Geert Bergman (geert@scrivo.nl), highlight.php
+ * - 2014       Daniel Lynge, highlight.php (contributor)
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:

@@ -1,4 +1,4 @@
-Highlight 0.8.11
+Highlight 0.8.12
 ================
 Quellcode hervorheben.
 
@@ -41,7 +41,6 @@ Hervorhebung von HTML-Quellcode, ohne und mit Zeilennummer:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`HighlightClass` = Hervorhebungs-Klasse, z.B. `highlight`  
 `HighlightLineNumber` = Zeilennummer anzeigen, 1 oder 0   
 `HighlightAutodetectLanguages` = Sprachen zur automatischen Erkennung, durch Komma getrennt  
 
@@ -49,7 +48,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/highlight.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung benutzt [highlight.php 9.18.1.5](https://github.com/scrivo/highlight.php) von Ivan Sagalaev und Geert Bergman.
+Diese Erweiterung benutzt [highlight.php 9.18.1.6](https://github.com/scrivo/highlight.php) von Ivan Sagalaev und Geert Bergman.
 
 ## Entwickler
 
