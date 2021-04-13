@@ -1,6 +1,6 @@
 # Datenstrom Yellow tilläg
 
-Fler funktioner, teman och språk för Datenstrom Yellow.
+Funktioner, teman och språk för Datenstrom Yellow.
 
 ## Funktioner
 
