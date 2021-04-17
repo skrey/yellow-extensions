@@ -120,7 +120,7 @@ server {
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
         fastcgi_pass 127.0.0.1:9000;
         fastcgi_index yellow.php;
-        include fastcgi_params;
+        include fastcgi.conf;
     }
 }
 ```
