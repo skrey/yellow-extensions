@@ -84,14 +84,30 @@ Liste mit Seiten anzeigen:
     [wikipages /wiki/ 10 Datenstrom]
     [wikipages /wiki/ 10 - Beispiel]
 
+Anderen Ort festlegen, URL mit Unterverzeichnis zur Kategorisierung:
+
+    WikiLocation: /
+    WikiNewLocation: /@tag/@title
+
+Anderen Ort festlegen, URL mit Unterverzeichnis für jeden Autor:
+
+    WikiLocation: /
+    WikiNewLocation: /@author/@title
+
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `WikiLocation` = Ort des Wikis, leer bedeutet aktuelles Verzeichnis  
-`WikiNewLocation` = Ort für neue Wikiseite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
+`WikiNewLocation` = Ort für neue Seite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 `WikiPagesMax` = Anzahl der Seiten pro Abkürzung  
 `WikiPaginationLimit` = Anzahl der Einträge pro Seite  
+
+Die folgenden Werte für neue Seiten werden unterstützt:
+
+`@title` = Seitentitel  
+`@tag` = Tag zur Kategorisierung der Seite  
+`@author` = Autor der Seite  
 
 Die folgenden Dateien können angepasst werden:
 

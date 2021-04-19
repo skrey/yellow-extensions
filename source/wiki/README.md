@@ -84,14 +84,30 @@ Showing list of pages:
     [wikipages /wiki/ 10 Datenstrom]
     [wikipages /wiki/ 10 - example]
 
+Configuring different location, URL with subfolder for categorisation:
+
+    WikiLocation: /
+    WikiNewLocation: /@tag/@title
+
+Configuring different location, URL with subfolder for each author:
+
+    WikiLocation: /
+    WikiNewLocation: /@author/@title
+
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `WikiLocation` = wiki location, empty means current folder  
-`WikiNewLocation` = wiki location for new page in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+`WikiNewLocation` = location for new page in [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `WikiPagesMax` = number of pages to show per shortcut  
 `WikiPaginationLimit` = number of entries to show per page  
+
+The following values for new pages are supported:
+
+`@title` = page title  
+`@tag` = page tag for categorisation  
+`@author` = page author  
 
 The following files can be customised:
 

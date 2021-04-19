@@ -96,6 +96,15 @@ EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, fil
 EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
+Verschiedene Orte zum Hochladen festlegen:
+
+```
+EditUploadNewLocation: /media/@group/@filename
+EditUploadNewLocation: /media/@group/@timestamp.@type
+EditUploadNewLocation: /media/@group/@folder/@filename
+EditUploadNewLocation: /media/uploads/@filename
+```
+
 Vorhandene Benutzerkonten in der Befehlszeile anzeigen:
 
 `php yellow.php user`  
@@ -113,7 +122,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
 `EditLocation` = Ort der Anmeldeseite  
-`EditUploadNewLocation` = Ort für neue Mediendateien  
+`EditUploadNewLocation` = Ort für hochgeladene Mediendateien  
 `EditUploadExtensions` = Dateiformate zum Hochladen, `none` um zu deaktivieren  
 `EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
 `EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, `none` um zu deaktivieren  
@@ -159,6 +168,14 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `unverified` = Benutzer hat neue E-Mail-Adresse nicht bestätigt  
 `unchanged` = Benutzer hat ausstehende Änderungen nicht bestätigt  
 `removed` = Benutzer hat ausstehende Löschung nicht bestätigt  
+
+<a id="settings-uploads"></a>Die folgenden Werte für hochgeladene Dateien werden unterstützt:
+
+`@timestamp` = Datum als Zeitstempel  
+`@filename` = Dateiname  
+`@type` = Dateityp  
+`@group` = Dateigruppe  
+`@folder` = Ordnername der Seite
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 

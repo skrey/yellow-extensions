@@ -85,14 +85,35 @@ Liste mit Seiten anzeigen:
     [blogpages /blog/ 10 Datenstrom]
     [blogpages /blog/ 10 - Beispiel]
 
+Anderen Ort festlegen, URL mit vollständigem Datum:
+
+    BlogLocation: /
+    BlogNewLocation: /@date/@title
+
+Anderen Ort festlegen, URL mit Unterverzeichnis für jedes Jahr:
+
+    BlogLocation: /
+    BlogNewLocation: /@year/@title
+
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `BlogLocation` = Ort des Blogs, leer bedeutet aktuelles Verzeichnis  
-`BlogNewLocation` = Ort für neue Blogseite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
+`BlogNewLocation` = Ort für neue Seite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 `BlogPagesMax` = Anzahl der Seiten pro Abkürzung  
 `BlogPaginationLimit` = Anzahl der Einträge pro Seite 
+
+Die folgenden Werte für neue Seiten werden unterstützt:
+
+`@title` = Seitentitel  
+`@timestamp` = Veröffentlichungsdatum der Seite als Zeitstempel  
+`@date` = Veröffentlichungsdatum der Seite  
+`@year` = Veröffentlichungsjahr der Seite  
+`@month` = Veröffentlichungsmonat der Seite  
+`@day` = Veröffentlichungstag der Seite  
+`@tag` = Tag zur Kategorisierung der Seite  
+`@author` = Autor der Seite  
 
 Die folgenden Dateien können angepasst werden:
 

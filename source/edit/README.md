@@ -96,6 +96,15 @@ EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, fil
 EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
+Configuring different upload locations:
+
+```
+EditUploadNewLocation: /media/@group/@filename
+EditUploadNewLocation: /media/@group/@timestamp.@type
+EditUploadNewLocation: /media/@group/@folder/@filename
+EditUploadNewLocation: /media/uploads/@filename
+```
+
 Showing available user accounts at the command line:
 
 `php yellow.php user`  
@@ -113,7 +122,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
 `EditLocation` = login page location  
-`EditUploadNewLocation` = location for new media file  
+`EditUploadNewLocation` = location for uploaded media file  
 `EditUploadExtensions` = file formats for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands, `none` to disable  
 `EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, `none` to disable  
@@ -159,6 +168,14 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `unverified` = user has not confirmed new email address  
 `unchanged` = user has not confirmed pending changes  
 `removed` = user has not confirmed pending deletion  
+
+<a id="settings-uploads"></a>The following values for uploaded files are supported:
+
+`@timestamp` = date as timestamp  
+`@filename` = file name  
+`@type` = file type  
+`@group` = file group  
+`@folder` = folder name of page  
 
 <a id="settings-files"></a>The following files can be customised:
 
