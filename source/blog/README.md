@@ -99,7 +99,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `BlogPagesMax` = number of pages to show per shortcut  
 `BlogPaginationLimit` = number of entries to show per page  
 
-The following values for new pages are supported:
+The following placeholders for new pages are supported:
 
 `@title` = page title  
 `@timestamp` = page publication date as timestamp  

@@ -122,7 +122,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
 `EditLocation` = login page location  
-`EditUploadNewLocation` = location for uploaded media file  
+`EditUploadNewLocation` = location for uploaded media file, [supported placeholders](#settings-upload)  
 `EditUploadExtensions` = file formats for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands, `none` to disable  
 `EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, `none` to disable  
@@ -169,7 +169,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `unchanged` = user has not confirmed pending changes  
 `removed` = user has not confirmed pending deletion  
 
-<a id="settings-upload"></a>The following values for uploaded media files are supported:
+<a id="settings-upload"></a>The following placeholders for uploaded media files are supported:
 
 `@filename` = file name  
 `@timestamp` = file upload date as timestamp  

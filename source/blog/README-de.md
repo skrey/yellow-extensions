@@ -99,7 +99,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `BlogPagesMax` = Anzahl der Seiten pro Abkürzung  
 `BlogPaginationLimit` = Anzahl der Einträge pro Seite 
 
-Die folgenden Werte für neue Seiten werden unterstützt:
+Die folgenden Platzhalter für neue Seiten werden unterstützt:
 
 `@title` = Seitentitel  
 `@timestamp` = Veröffentlichungsdatum der Seite als Zeitstempel  

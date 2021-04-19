@@ -122,7 +122,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
 `EditLocation` = Ort der Anmeldeseite  
-`EditUploadNewLocation` = Ort für hochgeladene Mediendateien  
+`EditUploadNewLocation` = Ort für hochgeladene Mediendateien, [unterstützte Platzhalter](#einstellungen-upload)   
 `EditUploadExtensions` = Dateiformate zum Hochladen, `none` um zu deaktivieren  
 `EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
 `EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, `none` um zu deaktivieren  
@@ -169,7 +169,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `unchanged` = Benutzer hat ausstehende Änderungen nicht bestätigt  
 `removed` = Benutzer hat ausstehende Löschung nicht bestätigt  
 
-<a id="settings-upload"></a>Die folgenden Werte für hochgeladene Mediendateien werden unterstützt:
+<a id="einstellungen-upload"></a>Die folgenden Platzhalter für hochgeladene Mediendateien werden unterstützt:
 
 `@filename` = Dateiname  
 `@timestamp` = Hochladedatum der Datei als Zeitstempel  

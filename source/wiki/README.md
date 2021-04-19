@@ -98,7 +98,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `WikiPagesMax` = number of pages to show per shortcut  
 `WikiPaginationLimit` = number of entries to show per page  
 
-The following values for new pages are supported:
+The following placeholders for new pages are supported:
 
 `@title` = page title  
 `@tag` = page tag for categorisation  

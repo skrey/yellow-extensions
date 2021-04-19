@@ -98,7 +98,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `WikiPagesMax` = Anzahl der Seiten pro Abkürzung  
 `WikiPaginationLimit` = Anzahl der Einträge pro Seite  
 
-Die folgenden Werte für neue Seiten werden unterstützt:
+Die folgenden Platzhalter für neue Seiten werden unterstützt:
 
 `@title` = Seitentitel  
 `@tag` = Tag zur Kategorisierung der Seite  
