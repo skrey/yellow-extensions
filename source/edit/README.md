@@ -169,13 +169,13 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `unchanged` = user has not confirmed pending changes  
 `removed` = user has not confirmed pending deletion  
 
-<a id="settings-uploads"></a>The following values for uploaded media files are supported:
+<a id="settings-upload"></a>The following values for uploaded media files are supported:
 
-`@timestamp` = date as timestamp  
 `@filename` = file name  
+`@timestamp` = file upload date as timestamp  
 `@type` = file type  
 `@group` = file group  
-`@folder` = folder name of page  
+`@folder` = folder name of source page  
 
 <a id="settings-files"></a>The following files can be customised:
 

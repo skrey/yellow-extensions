@@ -169,13 +169,13 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `unchanged` = Benutzer hat ausstehende Änderungen nicht bestätigt  
 `removed` = Benutzer hat ausstehende Löschung nicht bestätigt  
 
-<a id="settings-uploads"></a>Die folgenden Werte für hochgeladene Mediendateien werden unterstützt:
+<a id="settings-upload"></a>Die folgenden Werte für hochgeladene Mediendateien werden unterstützt:
 
-`@timestamp` = Datum als Zeitstempel  
 `@filename` = Dateiname  
+`@timestamp` = Hochladedatum der Datei als Zeitstempel  
 `@type` = Dateityp  
 `@group` = Dateigruppe  
-`@folder` = Ordnername der Seite
+`@folder` = Ordnername der Urspungsseite
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
