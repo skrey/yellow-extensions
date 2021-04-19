@@ -89,7 +89,7 @@ Showing list of pages:
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `WikiLocation` = wiki location, empty means current folder  
-`WikiNewLocation` = wiki location for new page  
+`WikiNewLocation` = wiki location for new page in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `WikiPagesMax` = number of pages to show per shortcut  
 `WikiPaginationLimit` = number of entries to show per page  
 

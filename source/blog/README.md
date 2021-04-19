@@ -90,7 +90,7 @@ Showing list of pages:
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `BlogLocation` = blog location, empty means current folder  
-`BlogNewLocation` = blog location for new page  
+`BlogNewLocation` = blog location for new page in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `BlogPagesMax` = number of pages to show per shortcut  
 `BlogPaginationLimit` = number of entries to show per page  
 

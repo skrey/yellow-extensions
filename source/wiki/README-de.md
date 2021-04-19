@@ -89,7 +89,7 @@ Liste mit Seiten anzeigen:
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `WikiLocation` = Ort des Wikis, leer bedeutet aktuelles Verzeichnis  
-`WikiNewLocation` = Ort für neue Wikiseite  
+`WikiNewLocation` = Ort für neue Wikiseite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 `WikiPagesMax` = Anzahl der Seiten pro Abkürzung  
 `WikiPaginationLimit` = Anzahl der Einträge pro Seite  
 
