@@ -89,11 +89,6 @@ Configuring different location, URL with subfolder for categorisation:
     WikiLocation: /
     WikiNewLocation: /@tag/@title
 
-Configuring different location, URL with subfolder for each author:
-
-    WikiLocation: /
-    WikiNewLocation: /@author/@title
-
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:

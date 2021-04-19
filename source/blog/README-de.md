@@ -85,11 +85,6 @@ Liste mit Seiten anzeigen:
     [blogpages /blog/ 10 Datenstrom]
     [blogpages /blog/ 10 - Beispiel]
 
-Anderen Ort festlegen, URL mit vollständigem Datum:
-
-    BlogLocation: /
-    BlogNewLocation: /@date/@title
-
 Anderen Ort festlegen, URL mit Unterverzeichnis für jedes Jahr:
 
     BlogLocation: /

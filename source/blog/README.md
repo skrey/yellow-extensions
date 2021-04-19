@@ -85,11 +85,6 @@ Showing list of pages:
     [blogpages /blog/ 10 Datenstrom]
     [blogpages /blog/ 10 - example]
 
-Configuring different location, URL with full date:
-
-    BlogLocation: /
-    BlogNewLocation: /@date/@title
-
 Configuring different location, URL with subfolder for each year:
 
     BlogLocation: /

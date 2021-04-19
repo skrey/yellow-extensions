@@ -89,11 +89,6 @@ Anderen Ort festlegen, URL mit Unterverzeichnis zur Kategorisierung:
     WikiLocation: /
     WikiNewLocation: /@tag/@title
 
-Anderen Ort festlegen, URL mit Unterverzeichnis für jeden Autor:
-
-    WikiLocation: /
-    WikiNewLocation: /@author/@title
-
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
