@@ -122,7 +122,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
 `EditLocation` = Ort der Anmeldeseite  
-`EditUploadNewLocation` = Ort für hochgeladene Mediendateien, [unterstützte Platzhalter](#einstellungen-upload)   
+`EditUploadNewLocation` = Ort für hochgeladene Mediendateien, [unterstützte Platzhalter](#einstellungen-placeholders)   
 `EditUploadExtensions` = Dateiformate zum Hochladen, `none` um zu deaktivieren  
 `EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
 `EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, `none` um zu deaktivieren  
@@ -135,7 +135,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
 `EditBruteForceProtection` = Anzahl fehlgeschlagener Anmeldeversuche  
 
-<a id="einstellungen-upload"></a>Die folgenden Platzhalter für hochgeladene Mediendateien werden unterstützt:
+<a id="einstellungen-placeholders"></a>Die folgenden Platzhalter für hochgeladene Mediendateien werden unterstützt:
 
 `@filename` = Dateiname  
 `@timestamp` = Hochladedatum der Datei als Zeitstempel  

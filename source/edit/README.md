@@ -122,7 +122,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
 `EditLocation` = login page location  
-`EditUploadNewLocation` = location for uploaded media files, [supported placeholders](#settings-upload)  
+`EditUploadNewLocation` = location for uploaded media files, [supported placeholders](#settings-placeholders)  
 `EditUploadExtensions` = file formats for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands, `none` to disable  
 `EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, `none` to disable  
@@ -135,7 +135,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `EditLoginSessionTimeout` = validity of login in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
 
-<a id="settings-upload"></a>The following placeholders for uploaded media files are supported:
+<a id="settings-placeholders"></a>The following placeholders for uploaded media files are supported:
 
 `@filename` = file name  
 `@timestamp` = file upload date as timestamp  

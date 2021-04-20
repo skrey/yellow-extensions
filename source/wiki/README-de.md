@@ -94,11 +94,11 @@ Anderen Ort festlegen, URL mit Unterverzeichnis zur Kategorisierung:
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `WikiLocation` = Ort des Wikis, leer bedeutet aktuelles Verzeichnis  
-`WikiNewLocation` = Ort für neue Seiten im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
+`WikiNewLocation` = Ort für neue Wikiseiten, [unterstützte Platzhalter](#einstellungen-placeholders)  
 `WikiPagesMax` = Anzahl der Seiten pro Abkürzung  
 `WikiPaginationLimit` = Anzahl der Einträge pro Seite  
 
-Die folgenden Platzhalter für neue Seiten werden unterstützt:
+<a id="einstellungen-placeholders"></a>Die folgenden Platzhalter für neue Wikiseiten werden unterstützt:
 
 `@title` = Seitentitel  
 `@tag` = Tag zur Kategorisierung der Seite  
