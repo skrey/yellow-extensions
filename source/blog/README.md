@@ -87,15 +87,15 @@ Showing list of pages:
 
 Configuring different location, URL with subfolder for each year:
 
-    BlogLocation: /
-    BlogNewLocation: /@year/@title
+    BlogLocation: /blog/
+    BlogNewLocation: /blog/@year/@title
 
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `BlogLocation` = blog location, empty means current folder  
-`BlogNewLocation` = location for new page in [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+`BlogNewLocation` = location for new page in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `BlogPagesMax` = number of pages to show per shortcut  
 `BlogPaginationLimit` = number of entries to show per page  
 
@@ -103,7 +103,7 @@ The following placeholders for new pages are supported:
 
 `@title` = page title  
 `@timestamp` = page publication date as timestamp  
-`@date` = page publication date  
+`@date` = page publication date, YYYY-MM-DD format  
 `@year` = page publication year  
 `@month` = page publication month  
 `@day` = page publication day  

@@ -135,6 +135,14 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `EditLoginSessionTimeout` = validity of login in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
 
+<a id="settings-upload"></a>The following placeholders for uploaded media files are supported:
+
+`@filename` = file name  
+`@timestamp` = file upload date as timestamp  
+`@type` = file type  
+`@group` = file group  
+`@folder` = folder name of source page  
+
 <a id="settings-user"></a>The following settings can be configured in file `system/extensions/yellow-user.ini`:
 
 `Email` = email of the user  
@@ -168,14 +176,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `unverified` = user has not confirmed new email address  
 `unchanged` = user has not confirmed pending changes  
 `removed` = user has not confirmed pending deletion  
-
-<a id="settings-upload"></a>The following placeholders for uploaded media files are supported:
-
-`@filename` = file name  
-`@timestamp` = file upload date as timestamp  
-`@type` = file type  
-`@group` = file group  
-`@folder` = folder name of source page  
 
 <a id="settings-files"></a>The following files can be customised:
 

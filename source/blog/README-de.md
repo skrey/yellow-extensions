@@ -87,8 +87,8 @@ Liste mit Seiten anzeigen:
 
 Anderen Ort festlegen, URL mit Unterverzeichnis für jedes Jahr:
 
-    BlogLocation: /
-    BlogNewLocation: /@year/@title
+    BlogLocation: /blog/
+    BlogNewLocation: /blog/@year/@title
 
 ## Einstellungen
 
@@ -103,7 +103,7 @@ Die folgenden Platzhalter für neue Seiten werden unterstützt:
 
 `@title` = Seitentitel  
 `@timestamp` = Veröffentlichungsdatum der Seite als Zeitstempel  
-`@date` = Veröffentlichungsdatum der Seite  
+`@date` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `@year` = Veröffentlichungsjahr der Seite  
 `@month` = Veröffentlichungsmonat der Seite  
 `@day` = Veröffentlichungstag der Seite  

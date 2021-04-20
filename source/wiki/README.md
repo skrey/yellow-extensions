@@ -86,15 +86,15 @@ Showing list of pages:
 
 Configuring different location, URL with subfolder for categorisation:
 
-    WikiLocation: /
-    WikiNewLocation: /@tag/@title
+    WikiLocation: /wiki/
+    WikiNewLocation: /wiki/@tag/@title
 
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `WikiLocation` = wiki location, empty means current folder  
-`WikiNewLocation` = location for new page in [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+`WikiNewLocation` = location for new page in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `WikiPagesMax` = number of pages to show per shortcut  
 `WikiPaginationLimit` = number of entries to show per page  
 

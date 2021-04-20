@@ -135,6 +135,14 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
 `EditBruteForceProtection` = Anzahl fehlgeschlagener Anmeldeversuche  
 
+<a id="einstellungen-upload"></a>Die folgenden Platzhalter für hochgeladene Mediendateien werden unterstützt:
+
+`@filename` = Dateiname  
+`@timestamp` = Hochladedatum der Datei als Zeitstempel  
+`@type` = Dateityp  
+`@group` = Dateigruppe  
+`@folder` = Ordnername der Urspungsseite
+
 <a id="einstellungen-user"></a>Die folgenden Einstellungen können in der Datei `system/extensions/yellow-user.ini` vorgenommen werden:
 
 `Email` = E-Mail des Benutzers  
@@ -168,14 +176,6 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `unverified` = Benutzer hat neue E-Mail-Adresse nicht bestätigt  
 `unchanged` = Benutzer hat ausstehende Änderungen nicht bestätigt  
 `removed` = Benutzer hat ausstehende Löschung nicht bestätigt  
-
-<a id="einstellungen-upload"></a>Die folgenden Platzhalter für hochgeladene Mediendateien werden unterstützt:
-
-`@filename` = Dateiname  
-`@timestamp` = Hochladedatum der Datei als Zeitstempel  
-`@type` = Dateityp  
-`@group` = Dateigruppe  
-`@folder` = Ordnername der Urspungsseite
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 

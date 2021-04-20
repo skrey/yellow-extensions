@@ -86,8 +86,8 @@ Liste mit Seiten anzeigen:
 
 Anderen Ort festlegen, URL mit Unterverzeichnis zur Kategorisierung:
 
-    WikiLocation: /
-    WikiNewLocation: /@tag/@title
+    WikiLocation: /wiki/
+    WikiNewLocation: /wiki/@tag/@title
 
 ## Einstellungen
 
