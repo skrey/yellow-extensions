@@ -1,4 +1,4 @@
-Edit 0.8.44
+Edit 0.8.45
 ===========
 Webseite im Webbrowser bearbeiten.
 
@@ -139,6 +139,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 `@filename` = Dateiname  
 `@timestamp` = Hochladedatum der Datei als Zeitstempel  
+`@date` = Hochladedatum der Datei, JJJJ-MM-TT Format  
 `@type` = Dateityp  
 `@group` = Dateigruppe  
 `@folder` = Ordnername der Urspungsseite

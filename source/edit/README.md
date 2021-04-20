@@ -1,4 +1,4 @@
-Edit 0.8.44
+Edit 0.8.45
 ===========
 Edit your website in a web browser.
 
@@ -139,6 +139,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `@filename` = file name  
 `@timestamp` = file upload date as timestamp  
+`@date` = file upload date, YYYY-MM-DD format  
 `@type` = file type  
 `@group` = file group  
 `@folder` = folder name of source page  
