@@ -95,7 +95,7 @@ Configuring different location, URL with subfolder for each year:
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `BlogLocation` = blog location, empty means current folder  
-`BlogNewLocation` = location for new page in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+`BlogNewLocation` = location for new pages in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `BlogPagesMax` = number of pages to show per shortcut  
 `BlogPaginationLimit` = number of entries to show per page  
 

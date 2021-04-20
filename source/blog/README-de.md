@@ -95,7 +95,7 @@ Anderen Ort festlegen, URL mit Unterverzeichnis für jedes Jahr:
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `BlogLocation` = Ort des Blogs, leer bedeutet aktuelles Verzeichnis  
-`BlogNewLocation` = Ort für neue Seite im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
+`BlogNewLocation` = Ort für neue Seiten im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 `BlogPagesMax` = Anzahl der Seiten pro Abkürzung  
 `BlogPaginationLimit` = Anzahl der Einträge pro Seite 
 
