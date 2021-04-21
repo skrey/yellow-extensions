@@ -8,7 +8,7 @@ Metadaten für soziale Medien.
 
 Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](http://ogp.me/). 
 
-Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) festlegen. Weitere Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
+Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) festlegen. Zusätzliche Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
 
 ## Beispiele
 
@@ -39,7 +39,7 @@ Inhaltsdatei mit Metadaten vom ersten Bild
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Layoutdatei mit Metadaten für Twitter:
+Layoutdatei mit zusätzlichen Metadaten für Twitter:
 
     <!DOCTYPE html>
     <html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
@@ -61,6 +61,11 @@ Layoutdatei mit Metadaten für Twitter:
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `MetaDefaultImage` = Bild der Seite, `favicon` um das Standard-Icon der Webseite zu verwenden  
+
+Die folgenden Dateien können angepasst werden:
+
+`system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
+`system/layouts/footer.html` = Layoutdatei für Standard-HTML-Footer  
 
 ## Installation
 

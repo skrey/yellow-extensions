@@ -8,7 +8,7 @@ Meta data for social media sites.
 
 This extension generates meta data for the [Open Graph protocol](http://ogp.me/). 
 
-You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page. You can configure further meta data in the HTML header, for example in file `system/layouts/header.html`.
+You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page. You can configure additional meta data in the HTML header, for example in file `system/layouts/header.html`.
 
 ## Example
 
@@ -39,7 +39,7 @@ Content file with meta data from first image:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Layout file with meta data for Twitter:
+Layout file with additional meta data for Twitter:
 
     <!DOCTYPE html>
     <html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
@@ -61,6 +61,11 @@ Layout file with meta data for Twitter:
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `MetaDefaultImage` = page image, `favicon` to use the default icon of the website  
+
+The following files can be customised:
+
+`system/layouts/header.html` = layout file for default HTML header  
+`system/layouts/footer.html` = layout file for default HTML footer  
 
 ## Installation
 
