@@ -6,7 +6,7 @@ Metadaten für soziale Medien.
 
 ## Wie man Metadaten für soziale Medien hinzufügt
 
-Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](http://ogp.me/). 
+Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](https://ogp.me/). 
 
 Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) festlegen. Zusätzliche Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
 

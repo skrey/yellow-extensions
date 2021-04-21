@@ -54,7 +54,7 @@ Statische Webseite und Dateien in der Befehlszeile löschen:
 `php yellow.php clean public /blog/`  
 `php yellow.php clean public /wiki/`  
 
-Befehlszeile benutzen, eine Übersicht der gängigen Befehle:
+Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
 
 `php yellow.php about` = Aktuelle Version und Erweiterungen anzeigen, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
