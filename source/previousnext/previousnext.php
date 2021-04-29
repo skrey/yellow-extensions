@@ -2,7 +2,7 @@
 // Previousnext extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/previousnext
 
 class YellowPreviousnext {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.9";
     public $yellow;         // access to API
     
     // Handle initialisation
