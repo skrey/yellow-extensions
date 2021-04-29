@@ -10,7 +10,7 @@ The help is available on your website as `http://website/help/`. The help gives 
 
 ## How to edit the help
 
-If you want to edit the help in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit), go to `http://website/edit/help/` on your website. If you want to edit the help on your computer, have a look inside your `content/9-help` folder. If you want to make a translation, here are some tips. Translate the title and content of all pages. The file names should be left unchanged. The help is currently available in [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/en) and [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/de). Let us know if you made a new translation.
+If you want to edit the help in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit), this is possible on you website at `http://website/edit/help/`. If you want to edit the help on your computer, have a look inside your `content/9-help` folder. If you want to make a translation, here are some tips. Translate the title and content of all pages. The file names should be left unchanged. The help is currently available in [English](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/en) and [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/de). Let us know if you made a new translation.
 
 ## Installation
 
