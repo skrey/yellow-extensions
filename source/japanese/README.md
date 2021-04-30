@@ -10,4 +10,4 @@ Japanese 0.8.27
 
 ## 翻訳者
 
-Yuhko Senuma, Tomonori Ikeda. [助けを得る](https://datenstrom.se/yellow/help/)。
+Yuhko Senuma、Tomonori Ikeda。 [助けを得る](https://datenstrom.se/yellow/help/)。
