@@ -19,7 +19,7 @@ Here's how to work with us and make useful products.
 
 ## How to create an extension
 
-* [Start with an example feature](https://github.com/schulle4u/yellow-extension-helloworld), [example theme](https://github.com/schulle4u/yellow-extension-basic) or [translation](https://github.com/datenstrom/yellow-extensions/tree/master/source/english).
+* [Start with an example feature](https://github.com/schulle4u/yellow-extension-helloworld), [example theme](https://github.com/schulle4u/yellow-extension-basic) or [translation](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt).
 * Imagine what the user wants to do, aim for a simple solution.
 * Upload your extension to GitHub, let us know if you need help.
 * First make it work, then make it better.
@@ -29,7 +29,7 @@ Here's how to work with us and make useful products.
 * [Have a look at the help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help) or [individual extensions](https://github.com/datenstrom/yellow-extensions).
 * Edit the existing documentation or make a translation.
 * Upload your documentation to GitHub, let us know if you need help.
-* Review documentation and examples, make it easy for the user. 
+* Check that it is helpful to the user, give practical examples.
 
 ## Tips for active contributors
 

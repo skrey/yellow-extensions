@@ -19,7 +19,7 @@ Wie man mit uns zusammenarbeitet und nützliche Produkte macht.
 
 ## Wie man eine Erweiterung erstellt
 
-* [Beginne mit einer Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld), einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) oder einer [Übersetzung](https://github.com/datenstrom/yellow-extensions/tree/master/source/german).
+* [Beginne mit einer Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld), einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) oder einer [Übersetzung](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt).
 * Stelle dir vor was der Benutzer machen will, strebe eine einfache Lösung an.
 * Lade deine Erweiterung zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
 * Erst funktionieren lassen, dann besser machen.
@@ -29,7 +29,7 @@ Wie man mit uns zusammenarbeitet und nützliche Produkte macht.
 * [Schau dir die Hilfe an](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md) oder [individuelle Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/README-de.md).
 * Bearbeite die vorhandene Dokumentation oder erstelle eine Übersetzung.
 * Lade deine Dokumentation zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
-* Überprüfe Dokumentation und Beispiele, mache es dem Benutzer einfach. 
+* Überprüfe ob es für den Benutzer hilfreich ist, gebe praktische Beispiele. 
 
 ## Tipps für aktiv Mitwirkende
 
