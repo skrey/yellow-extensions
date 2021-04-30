@@ -123,7 +123,7 @@ Funktionen, Themen und Sprachen für Datenstrom Yellow.
 * [German](https://github.com/datenstrom/yellow-extensions/tree/master/source/german): Deutsch/Deutsch mit der Sprache "de". Übersetzt von David Fehrmann.
 * [Hungarian](https://github.com/datenstrom/yellow-extensions/tree/master/source/hungarian): Ungarisch/Magyar mit der Sprache "hu". Übersetzt von Ádám Tuba.
 * [Italian](https://github.com/datenstrom/yellow-extensions/tree/master/source/italian): Italienisch/Italiano mit der Sprache "it". Übersetzt von Giovanni Salmeri.
-* [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/source/japanese): Japanisch/日本語 mit der Sprache "ja". Übersetzt von Yuhko Senuma.
+* [Japanese](https://github.com/datenstrom/yellow-extensions/tree/master/source/japanese): Japanisch/日本語 mit der Sprache "ja". Übersetzt von Yuhko Senuma, Tomonori Ikeda.
 * [Norwegian](https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian): Norwegisch/Norsk mit der Sprache "nb". Übersetzt von Per Arne Solvik.
 * [Polish](https://github.com/datenstrom/yellow-extensions/tree/master/source/polish): Polnisch/Polski mit der Sprache "pl". Übersetzt von Paweł Klockiewicz, Kanbeq.
 * [Portuguese](https://github.com/datenstrom/yellow-extensions/tree/master/source/portuguese): Portugiesisch/Português mit der Sprache "pt". Übersetzt von Al Garcia.
