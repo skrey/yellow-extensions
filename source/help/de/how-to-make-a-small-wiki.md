@@ -1,17 +1,13 @@
 ---
 Title: Wie man ein kleines Wiki erstellt
 ---
-Lerne wie man ein eigenes Wiki erstellt.
+Hier erfährst du, wie du dein Wiki erstellt.
 
 [toc]
 
 ## Erste Schritte
 
-1. [Datenstrom Yellow herunterladen](https://github.com/datenstrom/yellow/archive/master.zip).
-2. Entpacke und kopiere alle Dateien auf deinen Webserver.
-3. Öffne deine Webseite im Webbrowser.
-
-Gebe deinen Namen, E-Mail, Kennwort ein und wähle "Wiki" aus. Dein Wiki ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Wiki". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Wiki im Webbrowser oder auf deinem Computer bearbeiten. Du kannst die Startseite löschen, wenn du das Wiki auf der Startseite anzeigen willst. Falls Probleme bei der Installation auftreten, siehe [Fehlerbehebung](troubleshooting).
+[Folge der Installations-Anleitung](how-to-get-started) und wähle "Wiki" aus. Die Installation kommt mit zwei Seiten, "Startseite" und "Wiki". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Wiki im Webbrowser oder auf deinem Computer bearbeiten. Du kannst die Startseite löschen, wenn du das Wiki auf der Startseite anzeigen willst. Falls Probleme bei der Installation auftreten, [siehe Fehlerbehebung](troubleshooting).
 
 ## Wikiseiten schreiben
 

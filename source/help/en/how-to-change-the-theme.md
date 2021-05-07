@@ -1,7 +1,7 @@
 ---
-Title: CSS files
+Title: How to change the theme
 ---
-Here's how to adjust the appearance of your website.
+Here's how to change the appearance of your website.
 
 ## Customising CSS
 
@@ -17,7 +17,21 @@ Here's an example file `system/themes/custom.css`:
 }
 ```
 
-## Customising themes
+## Customising JavaScript
+
+To adjust your website even more you can use [JavaScript](https://www.w3schools.com/js/). This allows you to create dynamic features for websites. You can save JavaScript into a file which has a similar name as the CSS file. Then it will be automatically included.
+
+Here's an example file `system/themes/custom.js`:
+
+``` javascript
+var ready = function() {
+	console.log("Hello world");
+	// Add more JavaScript code here
+}
+window.addEventListener("load", ready, false);
+```
+
+## Customising images and files
 
 The `system/themes` folder contains all theme files. You can store your images and font files here, which are used in themes. Each website has a small icon, sometimes called a favicon. The web browser displays this icon for example in the address bar.
 

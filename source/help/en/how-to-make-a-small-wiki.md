@@ -1,17 +1,13 @@
 ---
 Title: How to make a small wiki
 ---
-Learn how to make your own wiki.
+Learn how to make your wiki.
 
 [toc]
 
 ## First steps
 
-1. [Download Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
-2. Unzip and copy all files to your web server.
-3. Open your website in a web browser.
-
-Enter your name, email, password and select 'Wiki'. Your wiki is immediately available. The installation comes with two pages, 'Home' and 'Wiki'. This is just an example to get you started. Change everything as you like. You can edit your wiki in a web browser or on your computer.  You can delete the home page, if you want to show the wiki on the home page. If there are problems with installation, see [troubleshooting](troubleshooting).
+[Follow the installation instructions](how-to-get-started) and select 'Wiki'. The installation comes with two pages, 'Home' and 'Wiki'. This is just an example to get you started. Change everything as you like. You can edit your wiki in a web browser or on your computer.  You can delete the home page, if you want to show the wiki on the home page. If there are problems with installation, [see troubleshooting](troubleshooting).
 
 ## Writing wiki pages
 

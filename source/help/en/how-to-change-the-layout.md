@@ -1,7 +1,7 @@
 ---
-Title: HTML files
+Title: How to change the layout
 ---
-Here's how to adjust the layout of your website.
+Here's how to change the layout of your website.
 
 ## Customising HTML
 

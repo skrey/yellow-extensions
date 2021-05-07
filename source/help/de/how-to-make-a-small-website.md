@@ -1,17 +1,13 @@
 ---
 Title: Wie man eine kleine Webseite erstellt
 ---
-Lerne wie man eine eigene Webseite erstellt.
+Hier erfährst du, wie du deine Webseite erstellt.
 
 [toc]
 
 ## Erste Schritte
 
-1. [Datenstrom Yellow herunterladen](https://github.com/datenstrom/yellow/archive/master.zip).
-2. Entpacke und kopiere alle Dateien auf deinen Webserver.
-3. Öffne deine Webseite im Webbrowser.
-
-Gebe deinen Namen, E-Mail, Kennwort ein und wähle "Webseite" aus. Deine Webseite ist sofort erreichbar. Die Installation kommt mit einer Seite. Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst deine Webseite im Webbrowser oder auf deinem Computer bearbeiten. Falls Probleme bei der Installation auftreten, siehe [Fehlerbehebung](troubleshooting).
+[Folge der Installations-Anleitung](how-to-get-started) und wähle "Webseite" aus. Die Installation kommt mit einer Seite. Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst deine Webseite im Webbrowser oder auf deinem Computer bearbeiten. Falls Probleme bei der Installation auftreten, [siehe Fehlerbehebung](troubleshooting).
 
 ## Webseiten bearbeiten
 

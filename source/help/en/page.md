@@ -8,16 +8,16 @@ TitleSlug: help
 ## Get help
 
 ! {.wikipages}
+! * [How to get started](how-to-get-started)
 ! * [How to make a small website](how-to-make-a-small-website)
 ! * [How to make a small blog](how-to-make-a-small-blog)
 ! * [How to make a small wiki](how-to-make-a-small-wiki)
-! * [Markdown cheat sheet](markdown-cheat-sheet)
 ! * [Adjusting content](adjusting-content)
 ! * [Adjusting media](adjusting-media)
 ! * [Adjusting system](adjusting-system)
-! * [HTML files](html-files)
-! * [CSS files](css-files)
-! * [JavaScript files](javascript-files)
+! * [Markdown cheat sheet](markdown-cheat-sheet)
+! * [How to change the layout](how-to-change-the-layout)
+! * [How to change the theme](how-to-change-the-theme)
 ! * [API for developers](api-for-developers)
 ! * [Troubleshooting](troubleshooting)
 
