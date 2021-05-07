@@ -2,7 +2,7 @@
 // Youtube extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube
 
 class YellowYoutube {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.5";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,8 +17,9 @@ class YellowYoutube {
         if ($name=="youtube" && ($type=="block" || $type=="inline")) {
             list($id, $style, $width, $height) = $this->yellow->toolbox->getTextArguments($text);
             if (empty($style)) $style = $this->yellow->system->get("youtubeStyle");
+            $language = $page->get("language");
             $output = "<div class=\"".htmlspecialchars($style)."\">";
-            $output .= "<iframe src=\"https://www.youtube.com/embed/".rawurlencode($id)."\" frameborder=\"0\" allowfullscreen";
+            $output .= "<iframe src=\"https://www.youtube.com/embed/".rawurlencode($id)."?&amp;hl=".rawurlencode($language)."\" frameborder=\"0\" allowfullscreen";
             if ($width && $height) $output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
             $output .= "></iframe></div>";
         }
