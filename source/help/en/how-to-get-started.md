@@ -14,9 +14,9 @@ If there are problems with installation, [see troubleshooting](troubleshooting).
 
 ## Installation on your computer
 
-1. [Download Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
-2. Unzip and copy all files into a folder.
-3. Open a terminal window and go to your installation folder.
+1. Open a terminal window and go to the desired folder.
+2. Type `curl -L -O https://github.com/datenstrom/yellow/archive/master.zip`.
+3. Unzip downloaded file, type `unzip master.zip; cd yellow-master`.
 4. Start the built-in web server, type `php yellow.php serve`.
 
 If you want to learn more about the command line, [see command extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/command).

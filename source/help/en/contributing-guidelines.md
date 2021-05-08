@@ -13,7 +13,7 @@ Here's how to work with us and make useful products.
 ## How to report a bug
 
 * [Start a new discussion for each bug](https://github.com/datenstrom/yellow/discussions).
-* Explain how to reproduce the bug, try to narrow down the cause.
+* Explain how to reproduce the bug, check if it happens every time.
 * Add many details, check the log file `system/extensions/yellow.log`.
 * Test that everything works, when your problem has been fixed.
 
