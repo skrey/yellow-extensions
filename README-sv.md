@@ -1,4 +1,4 @@
-# Datenstrom Yellow tilläg
+# Datenstrom Yellow tillägg
 
 Funktioner, teman och språk för Datenstrom Yellow.
 
