@@ -6,7 +6,7 @@ Command line of the website.
 
 ## How to use the command line
 
-Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the current version and extensions.
+Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the current version and extensions. If your computer doesn't come with PHP, [see PHP installation](https://www.php.net/manual/en/install.php).
 
 ## How to use the built-in web server
 

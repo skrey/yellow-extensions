@@ -7,7 +7,7 @@ Learn how to make your blog.
 
 ## First steps
 
-[Follow the installation instructions](how-to-get-started) and select 'Blog'. The installation comes with two pages, 'Home' and 'Blog'. This is just an example to get you started. Change everything as you like. You can edit your blog in a web browser or on your computer.  You can delete the home page, if you want to show the blog on the home page. If there are problems with installation, [see troubleshooting](troubleshooting).
+[Follow the installation instructions](how-to-get-started) and select 'Blog'. The installation comes with two pages, 'Home' and 'Blog'. This is just an example to get you started. Change everything as you like. You can edit your blog in a web browser or on your computer. If you want to install the blog later, [see blog extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog).
 
 ## Edit blog pages
 

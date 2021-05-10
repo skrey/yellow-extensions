@@ -6,7 +6,7 @@ Befehlszeile der Webseite.
 
 ## Wie man die Befehlszeile benutzt
 
-Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die aktuelle Version und Erweiterungen anzuzeigen.
+Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die aktuelle Version und Erweiterungen anzuzeigen. Falls dein Computer nicht mit PHP geliefert wird, [siehe PHP Installation](https://www.php.net/manual/de/install.php).
 
 ## Wie man den eingebauten Webserver verwendet
 

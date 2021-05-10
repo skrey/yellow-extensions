@@ -7,7 +7,7 @@ Learn how to make your wiki.
 
 ## First steps
 
-[Follow the installation instructions](how-to-get-started) and select 'Wiki'. The installation comes with two pages, 'Home' and 'Wiki'. This is just an example to get you started. Change everything as you like. You can edit your wiki in a web browser or on your computer.  You can delete the home page, if you want to show the wiki on the home page. If there are problems with installation, [see troubleshooting](troubleshooting).
+[Follow the installation instructions](how-to-get-started) and select 'Wiki'. The installation comes with two pages, 'Home' and 'Wiki'. This is just an example to get you started. Change everything as you like. You can edit your wiki in a web browser or on your computer. If you want to install the wiki later, [see wiki extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki).
 
 ## Writing wiki pages
 

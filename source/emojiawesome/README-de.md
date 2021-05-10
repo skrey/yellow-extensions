@@ -6,7 +6,7 @@ Jede Menge Emoji.
 
 ## Wie man ein Emoji hinzufügt
 
-Füge `:shortcode:` zum Text einer Seite hinzu. Hier ist ein [Emoji-Spickzettel](http://www.emoji-cheat-sheet.com). 
+Füge `:shortcode:` zum Text einer Seite hinzu. Hier ist ein [Emoji-Spickzettel](https://github.com/ikatyang/emoji-cheat-sheet). 
 
 Es ist auch möglich eine `[ea]`-Abkürzung zu erstellen oder HTML `<i class="ea ea-name"></i>` zu benutzen. Du kannst weitere Stile an den Namen anhängen, beispielsweise `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` und `ea-5x`.
 

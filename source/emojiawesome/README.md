@@ -6,7 +6,7 @@ Lots and lots of emoji.
 
 ## How to add an emoji
 
-Add `:shortcode:` to the text of a page. Here's an [emoji cheat sheet](http://www.emoji-cheat-sheet.com). 
+Add `:shortcode:` to the text of a page. Here's an [emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet). 
 
 It's also possible to create an `[ea]` shortcut or use HTML `<i class="ea ea-name"></i>`. You can add an additional style to the name, for example `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` and `ea-5x`.
 
