@@ -16,12 +16,12 @@ If there are problems with installation, [see troubleshooting](troubleshooting).
 
 1. Open a terminal window and go to the desired folder.
 2. Type `curl -L -O https://github.com/datenstrom/yellow/archive/master.zip`.
-3. Unzip downloaded file, type `unzip master.zip; cd yellow-master`.
-4. Start the built-in web server, type `php yellow.php serve`.
+3. Unzip downloaded file, type `unzip master.zip` or `tar -xf master.zip`.
+4. Start the built-in web server, type `cd yellow-master; php yellow.php serve`.
 
 If you want to learn more about the command line, [see command extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/command).
 
-## And you're ready to go
+## You're ready to go
 
 Your [website](how-to-make-a-small-website), [blog](how-to-make-a-small-blog) or [wiki](how-to-make-a-small-wiki) is immediately available.
 

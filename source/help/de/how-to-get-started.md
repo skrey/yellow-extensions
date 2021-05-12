@@ -16,12 +16,12 @@ Falls Probleme bei der Installation auftreten, [siehe Fehlerbehebung](troublesho
 
 1. Öffne ein Terminalfenster und gehe ins gewünschte Verzeichnis. 
 2. Gib ein `curl -L -O https://github.com/datenstrom/yellow/archive/master.zip`.
-3. Entpacke die heruntergeladene Datei, gib ein `unzip master.zip; cd yellow-master`.
-4. Starte den eingebauten Webserver, gib ein `php yellow.php serve`.
+3. Entpacke die heruntergeladene Datei, gib ein `unzip master.zip` oder `tar -xf master.zip`.
+4. Starte den eingebauten Webserver, gib ein `cd yellow-master; php yellow.php serve`.
 
 Falls du mehr über die Befehlszeile erfahren möchtest, [siehe Command-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md).
 
-## Und los geht's
+## Los geht's
 
 Deine [Webseite](how-to-make-a-small-website), [Blog](how-to-make-a-small-blog) oder [Wiki](how-to-make-a-small-wiki) ist sofort erreichbar.
 
