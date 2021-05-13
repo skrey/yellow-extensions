@@ -16,6 +16,12 @@ Datenstrom Yellow requires write access!
 Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst auch deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben. Es wird empfohlen allen Dateien und Verzeichnissen im Installations-Verzeichnis Schreibrechte zu geben. Sobald der Webserver ausreichende Schreibrechte im `system`-Verzeichnis hat, sollte das Problem behoben sein.
 
 ```
+Datenstrom Yellow requires complete upload!
+```
+
+Kopiere nochmal alle Dateien auf den Webserver. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung unterbrochen wurde, dann findet man auf dem Webserver Dateien mit null Bytes. Nachdem alle Dateien auf den Webserver kopiert wurden, sollte das Problem behoben sein.
+
+```
 Datenstrom Yellow requires configuration file!
 ```
 

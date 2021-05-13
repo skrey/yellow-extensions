@@ -16,6 +16,12 @@ Datenstrom Yellow requires write access!
 Run the command `chmod -R a+rw *` in the installation folder. You can also use your FTP software to give write permissions to all files. It's recommended to give write permissions to all files and folders in the installation folder. As soon as the web server has sufficient write access in the `system` folder, the problem should be resolved.
 
 ```
+Datenstrom Yellow requires complete upload!
+```
+
+Copy all files again to the web server. Check if your FTP software shows an error message during upload. It sometimes happens that the data transfer was interrupted, then there are files with zero bytes on the web server. After all files have been copied to the web server, the problem should be resolved.
+
+```
 Datenstrom Yellow requires configuration file!
 ```
 
