@@ -1,7 +1,7 @@
 ---
 Title: Anpassa system
 ---
-!!! Denna sida finns bara på engelska. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
+!!! Den här sidan finns inte på ditt språk. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
 
 All settings are located in the `system` folder. You can adjust your website here.
 

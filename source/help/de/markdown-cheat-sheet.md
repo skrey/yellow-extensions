@@ -41,7 +41,7 @@ Zitate erstellen:
 
 Links erstellen:
 
-    [Link zu Seite](/de/help/how-to-make-a-website)
+    [Link zu Seite](/de/help/how-to-make-a-small-website)
     [Link zu Datei](/media/downloads/yellow.pdf)
     [Link zu Webseite](https://datenstrom.se/de/)
 
@@ -133,7 +133,7 @@ HTML benutzen:
 `[blogchanges /blog/]` = [neuste Blogseiten anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md)  
 `[wikichanges /wiki/]` = [neuste Wikiseiten anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md)  
 `[fa fa-envelope-o]` = [Icons und Symbole anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-de.md)  
-`[ea ea-smile]` = [Emoji und bunte Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md)  
+`[ea ea-smile]` = [Emoji und bunte Bilder anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md)  
 `[yellow about]` = [Webseite-Version anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `[edit]` = [Webseite im Webbrowser bearbeiten](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 `[toc]` = [Inhaltsverzeichnis anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md)  

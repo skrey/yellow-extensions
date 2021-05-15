@@ -1,165 +1,165 @@
 ---
 Title: Markdown fusklapp
 ---
-!!! Denna sida finns bara på engelska. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
+Markdown är ett praktiskt sätt att redigera webbsidor.
 
-## Basics
+## Grunderna
 
-Formatting text:
+Formatera text:
 
-    Normal **bold** *italic* ~~strikethrough~~ `code`
+    Normal **fet** *kursiv* ~~struken~~ `code`
 
-Making a list:
+Skapa en lista:
 
-    * item one
-    * item two
-    * item three
+    * objekt ett
+    * objekt två
+    * objekt tre
 
-Making an ordered list:
+Skapa en sorterad lista:
 
-    1. item one
-    2. item two
-    3. item three
+    1. objekt ett
+    2. objekt två
+    3. objekt tre
 
-Making a task list:
+Skapa en uppgiftslista:
 
-    - [x] item one
-    - [ ] item two
-    - [ ] item three
+    - [x] objekt ett
+    - [ ] objekt två
+    - [ ] objekt tre
 
-Making a heading:
+Skapa en rubrik:
 
-    # Heading 1
-    ## Heading 2
-    ### Heading 3
+    # Rubrik 1
+    ## Rubrik 2
+    ### Rubrik 3
 
-Making quotes:
+Skapa citat:
 
-    > Quote
-    >> Quote of a quote
-    >>> Quote of a quote of a quote
+    > Citat
+    >> Citat i citat
+    >>> Citat i citat i citat
 
-Making links:
+Skapa länkar:
 
-    [Link to page](/help/how-to-make-a-website)
-    [Link to file](/media/downloads/yellow.pdf)
-    [Link to website](https://datenstrom.se)
+    [Länk till sidan](/sv/help/how-to-make-a-small-website)
+    [Länk till fil](/media/downloads/yellow.pdf)
+    [Länk till webbplats](https://datenstrom.se/sv/)
 
-Adding an image:
+Lägg till en bild:
 
     [image photo.jpg]
-    [image photo.jpg Example]
-    [image photo.jpg "This is an example image"]
+    [image photo.jpg Exempel]
+    [image photo.jpg "Detta är en exempelbild"]
 
-Adding an image, alternative format:
+Lägg till en bild, alternativt format:
 
     ![image](photo.jpg)
-    ![image](photo.jpg "Example")
-    ![image](photo.jpg "This is an example image")
+    ![image](photo.jpg "Exempel")
+    ![image](photo.jpg "Detta är en exempelbild")
 
 ## Extras
 
-Making tables:
+Skapa tabeller:
 
-    | Coffee     | Milk | Strength |
-    |------------|------|----------|
-    | Espresso   | no   | strong   |
-    | Macchiato  | yes  | medium   |
-    | Cappuccino | yes  | weak     |
+    | Kaffe      | Mjölk | Styrka  |
+    |------------|-------|---------|
+    | Espresso   | nej   | stark   |
+    | Macchiato  | ja    | medium  |
+    | Cappuccino | ja    | svag    |
 
-Making footnotes:
+Skapa fotnoter:
 
-    Text with a footnote[^1] and some more footnotes.[^2] [^3]
+    Text med en fotnot[^1] och några fler fotnoter.[^2] [^3]
     
-    [^1]: Here's the first footnote
-    [^2]: Here's the second footnote
-    [^3]: Here's the third footnote
+    [^1]: Här är den första fotnoten
+    [^2]: Här är den andra fotnoten
+    [^3]: Här är den tredje fotnoten
 
-Showing source code:
+Visa källkod:
 
     ```
-    Source code will be shown unchanged.
+    Källkoden visas oförändrad.
     function onLoad($yellow) {
         $this->yellow = $yellow;
     }
     ```
 
-Making paragraphs:
+Skapa paragraf:
 
-    Here's the first paragraph. Text can span over several lines
-    and can be separated by a blank line from the next paragraph.
+    Här är första paragrafen. Text kan sträcka sig över flera rader
+    och kan separeras med en tom rad från nästa paragrafen.
 
-    Here's the second paragraph.
+    Här är andra paragrafen. 
 
-Making line breaks:
+Skapa radbrytningar:
 
-    Here's the first line⋅⋅
-    Here's the second line⋅⋅
-    Here's the third line⋅⋅
+    Här är första raden⋅⋅
+    Här är andra raden⋅⋅
+    Här är tredje raden⋅⋅
     
-    Spaces at the end of the line are shown with dots (⋅)
+    Mellanslag i slutet av raden representeras av prickar (⋅)
 
-Making notices:
+Skapa indikationer:
 
-    ! Here's a notice with warning
+    ! Här är en indikation med varning 
     
-    !! Here's a notice with error
+    !! Här är en indikation med fel
     
-    !!! Here's a notice with tip
+    !!! Här är en indikation med tip
 
-Using CSS:
+Använd CSS:
 
     ! {.class}
-    ! Here's a notice with custom class.
-    ! Text can span over several lines
-    ! and contain Markdown formatting.
+    ! Här är en indikation med anpassad klass.
+    ! Text kan sträcka sig över flera rader
+    ! och innehåller Markdown-formatering.
 
-Using HTML:
+Använd HTML:
 
-    <strong>Text with HTML</strong> can be used optionally.
-    <a href="https://datenstrom.se" target="_blank">Open link in new tab</a>.
+    <strong>Text med HTML</strong> kan valfritt användas.
+    <a href="https://datenstrom.se" target="_blank">Öppna länken i en ny flik</a>.
 
-## Shortcuts
+## Förkortningar
 
-`[image photo.jpg Example - 50%]` = [add image thumbnail](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
-`[gallery photo.*jpg - 20%]` = [add image gallery](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
-`[slider photo.*jpg]` = [add image gallery with slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
-`[youtube fhs55HEl-Gc]` = [embed Youtube video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
-`[soundcloud 101175715]` = [embed Soundcloud audio](https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud)  
-`[twitter datendeveloper]` = [embed Twitter messages](https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter)  
-`[instagram BISN9ngjV2-]` = [embed Instagram photo](https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram)  
-`[googlecalendar en.swedish#holiday]` = [embed Google calendar](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar)  
-`[googlemap Stockholm]` = [embed Google map](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap)  
-`[blogchanges /blog/]` = [show latest blog pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)  
-`[wikichanges /wiki/]` = [show latest wiki pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki)  
-`[fa fa-envelope-o]` = [show icons and symbols](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome)  
-`[ea ea-smile]` = [show emoji and colorful images](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome)  
-`[yellow about]` = [show website version](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`[edit]` = [edit website in web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
-`[toc]` = [show table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)  
-`[--more--]` = [add page break](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog) 
+`[image photo.jpg Exempel - 50%]` = [lägg till miniatyrbild](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
+`[gallery photo.*jpg - 20%]` = [lägg till bildgalleri](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
+`[slider photo.*jpg]` = [lägg till bildgalleri med reglaget](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
+`[youtube fhs55HEl-Gc]` = [bädda in Youtube-video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
+`[soundcloud 101175715]` = [bädda in Soundcloud-audio](https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud)  
+`[twitter datendeveloper]` = [bädda in Twitter-meddelande](https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter)  
+`[instagram BISN9ngjV2-]` = [bädda in Instagram-foto](https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram)  
+`[googlecalendar en.swedish#holiday]` = [bädda in Google-kalender](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar)  
+`[googlemap Stockholm]` = [bädda in Google-karta](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap)  
+`[blogchanges /blog/]` = [visa senaste bloggsidor](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)  
+`[wikichanges /wiki/]` = [visa senaste wikisidor](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki)  
+`[fa fa-envelope-o]` = [visa ikoner och symboler](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome)  
+`[ea ea-smile]` = [visa emoji och färgglada bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome)  
+`[yellow about]` = [visa webbplatsversion](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`[edit]` = [redigera webbplats i webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+`[toc]` = [visa innehållsförteckning](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)  
+`[--more--]` = [lägg till sidbrytning](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog) 
 
-## Settings
+## Inställningar
 
-`Title` = page title  
-`TitleContent` = page title shown in content  
-`TitleNavigation` = page title shown in navigation  
-`TitleHeader` = page title shown in web browser  
-`TitleSlug` = page title used for saving the page  
-`Description` = page description  
-`Author` = page author(s), comma separated  
-`Email` = email of page author  
-`Language` = page language  
-`Layout` = page layout  
-`LayoutNew` = page layout for creating a new page  
-`Theme` = page theme  
-`Parser` = page parser  
-`Status` = status for workflow  
-`Image` = page image  
-`ImageAlt` = alternative text for page image  
-`Modified` = page modification date, YYYY-MM-DD format  
-`Published` = page publication date, YYYY-MM-DD format  
-`Tag` = page tag(s) for categorisation, comma separated  
-`Redirect` = redirect to a new page or URL  
+`Title` = namn på sidan  
+`TitleContent` = namn på sidan som visas i innehållet  
+`TitleNavigation` = namn på sidan som visas i navigeringen  
+`TitleHeader` = namn på sidan som visas i webbläsaren  
+`TitleSlug` = namn för att spara sidan  
+`Description` = sidans beskrivning  
+`Author` = sidans författare, kommaseparerade  
+`Email` = email av sidans författare  
+`Language` = sidans språk  
+`Layout` = sidans layout  
+`LayoutNew` = sidans layout för att skapa en ny sida  
+`Theme` = sidans tema  
+`Parser` = sidans parser  
+`Status` = status för arbetsflöde  
+`Image` = sidans bild  
+`ImageAlt` = alternativ text för sidans bild  
+`Modified` = sidans ändringsdatum, ÅÅÅÅ-MM-DD format  
+`Published` = sidans publiceringsdatum, ÅÅÅÅ-MM-DD format  
+`Tag` = taggar för kategorisering av sidan, kommaseparerade  
+`Redirect` = omdirigera till en ny sida eller URL  
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

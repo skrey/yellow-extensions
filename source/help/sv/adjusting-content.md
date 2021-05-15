@@ -1,7 +1,7 @@
 ---
 Title: Anpassa innehåll
 ---
-!!! Denna sida finns bara på engelska. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
+!!! Den här sidan finns inte på ditt språk. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
 
 All content is located in the `content` folder. You can edit your website here.
 
