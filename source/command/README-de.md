@@ -74,7 +74,7 @@ Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php user` = Benutzerkonten aktualisieren, [erfordert Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 
-Seite nicht statisch erstellen:
+Verhindern dass eine Seite erstellt wird:
 
     ---
     Title: Beispielseite

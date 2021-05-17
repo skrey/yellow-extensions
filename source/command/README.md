@@ -74,7 +74,7 @@ Using the command line, overview of available commands:
 `php yellow.php update` = Update website, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php user` = Update user accounts, [requires edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 
-Not building a static page:
+Preventing that a page is built:
 
     ---
     Title: Example page
