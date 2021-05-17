@@ -1,5 +1,6 @@
 ---
 Title: Troubleshooting
+ShowLanguageSelection: 1
 ---
 Here's how to find and fix errors.
 

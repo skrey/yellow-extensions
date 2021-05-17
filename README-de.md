@@ -1,5 +1,11 @@
 # Datenstrom Yellow Erweiterungen
 
+<p align="right" role="navigation">
+&nbsp; <a href="README-de.md">Deutsch</a>
+&nbsp; <a href="README.md">English</a>
+&nbsp; <a href="README-sv.md">Svenska</a>
+</p>
+
 Funktionen, Themen und Sprachen für Datenstrom Yellow.
 
 ## Funktionen
@@ -134,9 +140,3 @@ Funktionen, Themen und Sprachen für Datenstrom Yellow.
 * [Turkish](https://github.com/datenstrom/yellow-extensions/tree/master/source/turkish): Türkisch/Türkçe mit der Sprache "tr". Übersetzt von Osman Kars.
 
 Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/) und [mitmachen](https://datenstrom.se/de/yellow/help/contributing-guidelines).
-
-<p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
-<a href="README-sv.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-sv.png" width="15" height="15" alt="Svenska">&nbsp; Svenska</a>&nbsp;
-</p>

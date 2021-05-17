@@ -1,5 +1,6 @@
 ---
 Title: Fehlerbehebung
+ShowLanguageSelection: 1
 ---
 Wie man Fehler findet und behebt.
 

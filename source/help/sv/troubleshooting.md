@@ -1,5 +1,6 @@
 ---
 Title: Felsökning
+ShowLanguageSelection: 1
 ---
 Så här hittar du och åtgärdar fel.
 
