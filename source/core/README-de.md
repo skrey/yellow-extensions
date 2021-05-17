@@ -165,8 +165,11 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
 `system/layouts/default.html` = Layoutdatei für Standard-Seite  
+`system/layouts/error.html` = Layoutdatei für Fehler-Seite  
 `system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
 `system/layouts/footer.html` = Layoutdatei für Standard-HTML-Footer  
+`system/layouts/navigation.html` = Layoutdatei für Standard-HTML-Navigation  
+`system/layouts/pagination.html` = Layoutdatei für Standard-HTML-Pagination  
 
 ## Installation
 
