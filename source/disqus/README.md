@@ -8,7 +8,7 @@ Show Disqus comments on blog.
 
 [Disqus](https://disqus.com) is a comment service for websites. To use this extension open file `system/extensions/yellow-system.ini` and change `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard. Comments are shown on blog pages. To show comments on other pages add a `[disqus]` shortcut to a page.
 
-If you don't want that comments are shown, set `Comment: exclude` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page.
+If you don't want that a page shows comments, set `Comment: exclude` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page.
 
 ## Examples
 

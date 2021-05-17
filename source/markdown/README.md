@@ -10,7 +10,7 @@ Markdown is a practical way to edit web pages. Here's the [Markdown syntax](http
 
 ## How to use shortcuts
 
-In addition to Markdown there are shortcuts. Markdown provides the basic features, shortcuts provide common features. You can add [images](https://github.com/datenstrom/yellow-extensions/tree/master/source/image), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome), [icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome), [maps](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap), [table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc) and more to your website.
+In addition to Markdown there are shortcuts. Markdown provides the basic features, shortcuts provide common features. You can add [images](https://github.com/datenstrom/yellow-extensions/tree/master/source/image), [videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome), [icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome), [table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc) and more to your website.
 
 ## Examples
 

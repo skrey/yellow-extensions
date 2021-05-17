@@ -22,7 +22,7 @@ If you don't want that a page is built, set `Build: exclude` in the [settings](h
 
 You can build a static cache to speed up your website. Usually a page is first generated and then delivered to the browser. With a static cache files are directly delivered to the browser. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. Build a new cache when needed. To clean the cache type following: `php yellow.php clean cache`.
 
-If you don't want that a page is cached, set `Build: exclude` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page.
+If you don't want that a page is built, set `Build: exclude` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page.
 
 ## Examples
 
@@ -78,7 +78,7 @@ Not building a static page:
     Title: Example page
     Build: exclude
     ---
-    This page is not included in a static website.
+    This page is not included in a static website or cache.
 
 ## Settings
 
