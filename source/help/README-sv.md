@@ -12,7 +12,7 @@ Hjälpen finns på din webbplats som `http://website/help/`. Hjälpen ger dig me
 
 ## Hur man förbättrar hjälpen
 
-Om du vill redigera hjälpen i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) kan du göra detta på din webbplats på `http://website/edit/help/`. Om du vill redigera hjälpen på din dator, ta en titt på `content/9-help` mappen. Här är några tips om du vill göra en översättning. Översätt titeln och innehållet på alla sidor. Håll filnamnen oförändrade. Hjälpen finns för närvarande på [engelska](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/en), [tyska](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/de) och [svenska](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/sv).
+Om du vill redigera hjälpen i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) kan du göra detta på din webbplats på `http://website/edit/help/`. Om du vill redigera hjälpen på din dator, ta en titt på `content/9-help` mappen. Om du vill göra en översättning, här är några tips. Översätt titeln och innehållet på alla sidor. Håll filnamnen oförändrade. Hjälpen finns för närvarande på tyska, engelska och svenska.
 
 ## Installation
 
