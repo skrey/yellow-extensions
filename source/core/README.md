@@ -57,14 +57,6 @@ Content file with redirection:
     ---
     This page is redirected to another page.
 
-Content file with excluded page:
-
-    ---
-    Title: Example page
-    Build: exclude
-    ---
-    This page is not included in static website.
-
 <a id="examples-folders"></a>Folder structure for normal website:
 
 ```
@@ -142,6 +134,7 @@ The following settings can be configured at the top of a page:
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
 `Build` = page option(s) for building a static website, comma separated  
+`Comment` = page option(s) for showing comments, comma separated  
 
 <a id="settings-system"></a>The following settings can be configured in file `system/extensions/yellow-system.ini`:
 

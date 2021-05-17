@@ -16,9 +16,13 @@ You can test your website with the built-in web server. This is handy for develo
 
 You can build a static website that works on most web servers. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed. To check for broken links type: `php yellow.php check`. To clean the static website type the following: `php yellow.php clean`.
 
+If you don't want that a page is built, set `Build: exclude` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page.
+
 ## How to build a static cache
 
 You can build a static cache to speed up your website. Usually a page is first generated and then delivered to the browser. With a static cache files are directly delivered to the browser. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. Build a new cache when needed. To clean the cache type following: `php yellow.php clean cache`.
+
+If you don't want that a page is cached, set `Build: exclude` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page.
 
 ## Examples
 
@@ -67,6 +71,14 @@ Using the command line, overview of available commands:
 `php yellow.php uninstall` = Remove extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php update` = Update website, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php user` = Update user accounts, requires [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+
+Not building/caching a page:
+
+    ---
+    Title: Example page
+    Build: exclude
+    ---
+    This page is not included in the static website.
 
 ## Settings
 

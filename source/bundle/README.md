@@ -8,6 +8,8 @@ Bundle website files.
 
 This extension bundles and minifies files for a better loading time. Your website may contain multiple CSS and JavaScript files. Usually these will be cached in the browser, but nevertheless each file has to be checked. This is where a file bundler comes in. It looks in the HTML header for included files and replaces them with one single file for CSS and one for JavaScript.
 
+If you don't want that a file is bundled, specify `exclude` in the HTML header.
+
 ## Examples
 
 Website with unbundled CSS and JavaScript files:

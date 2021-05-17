@@ -2,7 +2,7 @@
 // Disqus extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus
 
 class YellowDisqus {
-    const VERSION = "0.8.4";
+    const VERSION = "0.8.5";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -14,7 +14,7 @@ class YellowDisqus {
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
-        if ($name=="disqus" && ($type=="block" || $type=="inline")) {
+        if ($name=="disqus" && ($type=="block" || $type=="inline") && !preg_match("/exclude/i", $page->get("comment"))) {
             $shortname = $this->yellow->system->get("disqusShortname");
             $url = $page->get("pageRead");
             $language = $page->get("language");

@@ -57,14 +57,6 @@ Inhaltsdatei mit Weiterleitung:
     ---
     Diese Seite wird zu einer anderen Seite weitergeleitet.
 
-Inhaltsdatei mit ausgeschlossener Seite:
-
-    ---
-    Title: Beispielseite
-    Build: exclude
-    ---
-    Diese Seite ist in der statischen Webseite nicht enthalten.
-
 <a id="beispiele-folders"></a>Verzeichnisstruktur für normale Webseite:
 
 ```
@@ -142,6 +134,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
 `Build` = Optionen zum Erstellen einer statischen Webseite, durch Komma getrennt  
+`Comment` = Optionen zum Anzeigen von Kommentaren, durch Komma getrennt  
 
 <a id="einstellungen-system"></a>Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
