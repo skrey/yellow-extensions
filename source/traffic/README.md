@@ -1,3 +1,5 @@
+<p align="right" role="navigation"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+
 Traffic 0.8.11
 ==============
 Create traffic analytics from web server log files.
@@ -33,8 +35,3 @@ The following settings can be configured in file `system/extensions/yellow-syste
 ## Developer
 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
-
-<p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
-</p>

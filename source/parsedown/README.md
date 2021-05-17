@@ -1,3 +1,5 @@
+<p align="right" role="navigation"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+
 Parsedown 0.8.17
 ================
 Text formatting for humans.
@@ -133,8 +135,3 @@ This extension uses [Parsedown Extra 1.8.0-beta-7](https://github.com/erusev/par
 ## Developer
 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
-
-<p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
-</p>

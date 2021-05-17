@@ -1,3 +1,5 @@
+<p align="right" role="navigation"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+
 Fontawesome 0.8.7
 =================
 Icons and symbols.
@@ -45,8 +47,3 @@ This extension uses [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awe
 ## Developer
 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
-
-<p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
-</p>

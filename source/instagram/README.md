@@ -1,3 +1,5 @@
+<p align="right" role="navigation"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+
 Instagram 0.8.5
 ===============
 Embed Instagram photos.
@@ -39,8 +41,3 @@ This extension uses [Instagram](https://www.instagram.com). The service provider
 ## Developer
 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
-
-<p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
-</p>

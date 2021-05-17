@@ -1,3 +1,5 @@
+<p align="right" role="navigation"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+
 Gallery 0.8.11
 ==============
 Bildergalerie mit Popup.
@@ -63,8 +65,3 @@ Diese Erweiterung benutzt [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photo
 ## Entwickler
 
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
-
-<p>
-<a href="README-de.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-de.png" width="15" height="15" alt="Deutsch">&nbsp; Deutsch</a>&nbsp;
-<a href="README.md"><img src="https://raw.githubusercontent.com/datenstrom/yellow-extensions/master/source/help/language-en.png" width="15" height="15" alt="English">&nbsp; English</a>&nbsp;
-</p>

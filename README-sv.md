@@ -48,7 +48,7 @@ Funktioner, teman och språk för Datenstrom Yellow.
   Bädda in Google-kalender. Utvecklad av Datenstrom.
 * [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap): 
   Bädda in Google-karta. Utvecklad av Datenstrom.
-* [Help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help): 
+* [Help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-sv.md): 
   Hjälp för din webbplats. Utvecklad av Datenstrom.
 * [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight): 
   Markera källkod. Utvecklad av Datenstrom.

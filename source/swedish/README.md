@@ -10,4 +10,4 @@ Swedish/Svenska med språket "sv".
 
 ## Översättare
 
-Adam Engel. [Få hjälp](https://datenstrom.se/yellow/help/).
+Adam Engel. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
