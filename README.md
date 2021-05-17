@@ -1,10 +1,6 @@
-# Datenstrom Yellow extensions
+<p align="right" role="navigation"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-<p align="right" role="navigation">
-&nbsp; <a href="README-de.md">Deutsch</a>
-&nbsp; <a href="README.md">English</a>
-&nbsp; <a href="README-sv.md">Svenska</a>
-</p>
+# Datenstrom Yellow extensions
 
 Features, themes and languages for Datenstrom Yellow.
 
