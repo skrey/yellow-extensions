@@ -60,25 +60,25 @@ Cleaning static website and files at the command line:
 
 Using the command line, overview of available commands:
 
-`php yellow.php about` = Show current version and extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php about` = Show current version and extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php build` = Build static website, requires command extension  
 `php yellow.php check` = Check static website, requires command extension  
 `php yellow.php clean` = Clean static website, requires command extension  
-`php yellow.php install` = Add extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php publish` = Publish extensions, requires [publish extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)  
+`php yellow.php install` = Add extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)  
 `php yellow.php serve` = Start built-in web server, requires command extension  
-`php yellow.php traffic` = Create traffic analytics, requires [traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
-`php yellow.php uninstall` = Remove extensions, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php update` = Update website, requires [update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php user` = Update user accounts, requires [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+`php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
+`php yellow.php uninstall` = Remove extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php update` = Update website, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php user` = Update user accounts, [requires edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 
-Not building/caching a page:
+Not building a static page:
 
     ---
     Title: Example page
     Build: exclude
     ---
-    This page is not included in the static website.
+    This page is not included in a static website.
 
 ## Settings
 

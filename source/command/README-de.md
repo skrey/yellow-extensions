@@ -22,7 +22,7 @@ Falls du nicht willst dass eine Seite erstellt wird, kannst du `Build: exclude` 
 
 Du kannst einen statischen Zwischenspeicher erstellen, um deine Webseite zu beschleunigen. In der Regel wird eine Seite zuerst erzeugt und dann an den Browser ausgeliefert. Mit einem statischen Zwischenspeicher werden Dateien direkt an den Browser ausgeliefert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Erstelle bei Bedarf einen neuen Zwischenspeicher. Zum Löschen gibt man ein: `php yellow.php clean cache`.
 
-Falls du nicht willst dass eine Seite zwischengespeichert wird, kannst du `Build: exclude` in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf einer Seite festlegen.
+Falls du nicht willst dass eine Seite gespeichert wird, kannst du `Build: exclude` in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf einer Seite festlegen.
 
 ## Beispiele
 
@@ -60,25 +60,25 @@ Statische Webseite und Dateien in der Befehlszeile löschen:
 
 Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
 
-`php yellow.php about` = Aktuelle Version und Erweiterungen anzeigen, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php about` = Aktuelle Version und Erweiterungen anzeigen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
 `php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung    
 `php yellow.php clean` = Statische Webseite löschen, erfordert Command-Erweiterung    
-`php yellow.php install` = Erweiterungen hinzufügen, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`php yellow.php publish` = Erweiterungen veröffentlichen, erfordert [Publish-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md)  
+`php yellow.php install` = Erweiterungen hinzufügen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php publish` = Erweiterungen veröffentlichen, [erfordert Publish-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md)  
 `php yellow.php serve` = Eingebauten Webserver starten, erfordert Command-Erweiterung    
-`php yellow.php traffic` = Zugriffsanalysen erstellen, erfordert [Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md)  
-`php yellow.php uninstall` = Erweiterungen entfernen, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`php yellow.php update` = Webseite aktualisieren, erfordert [Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`php yellow.php user` = Benutzerkonten aktualisieren, erfordert [Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
+`php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md)  
+`php yellow.php uninstall` = Erweiterungen entfernen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php user` = Benutzerkonten aktualisieren, [erfordert Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 
-Seite nicht erstellen/zwischenspeichern:
+Seite nicht statisch erstellen:
 
     ---
     Title: Beispielseite
     Build: exclude
     ---
-    Diese Seite ist in der statischen Webseite nicht enthalten.
+    Diese Seite ist in einer statischen Webseite nicht enthalten.
 
 ## Einstellungen
 

@@ -43,7 +43,7 @@ Content file without comments:
     Title: Example page
     Comment: exclude
     ---
-    This page show no comments.
+    This page does not show comments.
 
 ## Settings
 
