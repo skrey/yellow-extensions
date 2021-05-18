@@ -84,7 +84,7 @@ Förhindra att en sida byggs:
 
 ## Inställningar
 
-Följande inställningar kan konfigureras i fil `system/extensions/yellow-system.ini`:
+Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
 `CommandStaticBuildDirectory` = map för genererade filer  
 `CommandStaticDefaultFile` = standardfil för statisk webbplats  
