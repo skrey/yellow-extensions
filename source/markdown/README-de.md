@@ -12,7 +12,7 @@ Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist der [Markd
 
 ## Wie man Abkürzungen benutzt
 
-Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, Abkürzungen bieten häufige Funktionen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md), [Videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md), [Icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-de.md), [Inhaltsverzeichnis](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md) und mehr in deine Webseite einbinden.
+Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, Abkürzungen bieten häufige Funktionen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md), [Videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md), [Icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-de.md), [Inhaltsverzeichnis](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md) und mehr in deine Webseite einbinden.
 
 ## Beispiele
 

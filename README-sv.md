@@ -18,7 +18,7 @@ Funktioner, teman och språk för Datenstrom Yellow.
   Brödcrumbnavigering. Utvecklad av Datenstrom.
 * [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/source/bundle): 
   Bundla webbplatsfiler. Utvecklad av Datenstrom.
-* [Command](https://github.com/datenstrom/yellow-extensions/tree/master/source/command): 
+* [Command](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md): 
   Webbplatsens kommandorad. Utvecklad av Datenstrom.
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact): 
   E-post kontaktsida. Utvecklad av Datenstrom.

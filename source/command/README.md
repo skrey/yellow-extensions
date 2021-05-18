@@ -1,4 +1,4 @@
-<p align="right" role="navigation"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right" role="navigation"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Command 0.8.28
 ==============
@@ -22,7 +22,7 @@ If you don't want that a page is built, set `Build: exclude` in the [settings](h
 
 ## How to build a static cache
 
-You can build a static cache to speed up your website. Usually a page is first generated and then delivered to the browser. With a static cache files are directly delivered to the browser. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. Build a new cache when needed. To clean the cache type following: `php yellow.php clean cache`.
+You can build a static cache to speed up your website. Usually a page is first generated and then delivered to the browser. With a static cache files are directly delivered to the browser. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. Build a new cache when needed. To clean the cache type the following: `php yellow.php clean cache`.
 
 If you don't want that a page is built, set `Build: exclude` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page.
 

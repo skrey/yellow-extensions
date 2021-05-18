@@ -19,7 +19,7 @@ Om det finns problem med installationen, [se felsökning](troubleshooting).
 3. Packa upp nedladdade filen, skriv `unzip master.zip` eller `tar -xf master.zip`.
 4. Starta inbyggda webbservern, skriv `cd yellow-master; php yellow.php serve`. 
 
-Om du vill läsa mer om kommandoraden, [se command-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/command).
+Om du vill läsa mer om kommandoraden, [se command-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md).
 
 ## Du är redo att gå
 
