@@ -18,7 +18,7 @@ ContactName: Name:
 ContactEmail: E-Mail:
 ContactMessage: Nachricht:
 ContactConsent: Ich stimme zu, dass diese Webseite meine Nachricht speichert.
-ContactButton: Nachricht absenden
+ContactButton: Meine Nachricht absenden
 ContactMailSpam: [Spam]
 ContactMailFooter: Diese E-Mail wurde über @sitename verschickt - @title
 ContactStatusNone: Sag Hallo! Dein Feedback ist sehr willkommen.

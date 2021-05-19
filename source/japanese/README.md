@@ -1,4 +1,4 @@
-Japanese 0.8.27
+Japanese 0.8.28
 ===============
 言語 'ja' で日本語/Japaneseを使用します。
 

@@ -18,7 +18,7 @@ ContactName: 姓名:
 ContactEmail: 邮箱:
 ContactMessage: 信息:
 ContactConsent: 我同意这个网站存储我的信息。
-ContactButton: 发送
+ContactButton: 发送我的信息
 ContactMailSpam: [Spam]
 ContactMailFooter: 这封邮件发送自 @sitename - @title
 ContactStatusNone: 您好！非常感谢您的反馈

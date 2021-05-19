@@ -18,7 +18,7 @@ ContactName: Nazwa:
 ContactEmail: Email:
 ContactMessage: Wiadomość:
 ContactConsent: Zgadzam się na przechowywanie mojej wiadomości przez tę witrynę.
-ContactButton: Wyślij wiadomość
+ContactButton: Wyślij moją wiadomość
 ContactMailSpam: [Płotka]
 ContactMailFooter: Ten e-mail został wysłany za pośrednictwem @sitename - @title
 ContactStatusNone: Przywitaj się. Twoja opinia jest mile widziana.

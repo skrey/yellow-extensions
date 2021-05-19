@@ -18,7 +18,7 @@ ContactName: Adınız:
 ContactEmail: Email:
 ContactMessage: Mesajınız:
 ContactConsent: Bu web sitesinin mesajımı saklamasına izin veriyorum.
-ContactButton: Mesaj gönder
+ContactButton: Mesajımı gönder
 ContactMailSpam: [Spam]
 ContactMailFooter: Bu e-posta,  @sitename - @title aracılığıyla gönderildi.
 ContactStatusNone: Merhaba. Görüşleriniz bizim için çok değerli.

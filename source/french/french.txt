@@ -18,7 +18,7 @@ ContactName: Nom:
 ContactEmail: Email:
 ContactMessage: Message:
 ContactConsent: Je consens à ce que ce site stocke mon message.
-ContactButton: Envoyer le message
+ContactButton: Envoyer mon message
 ContactMailSpam: [Spam]
 ContactMailFooter: Cet email a été envoyé via @sitename - @title
 ContactStatusNone: Dites bonjour ! Vos commentaires sont les bienvenus.

@@ -18,7 +18,7 @@ ContactName: Namn:
 ContactEmail: Email:
 ContactMessage: Meddelande:
 ContactConsent: Jag godkänner att denna webbplats lagrar mitt meddelande.
-ContactButton: Skicka meddelande
+ContactButton: Skicka mitt meddelande
 ContactMailSpam: [Spam]
 ContactMailFooter: Detta mail skickades via @sitename - @title
 ContactStatusNone: Säg hej. Din feedback är väldigt välkommen.

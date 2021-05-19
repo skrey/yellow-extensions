@@ -18,7 +18,7 @@ ContactName: Имя:
 ContactEmail: Email:
 ContactMessage: Сообщение:
 ContactConsent: Я согласен, что этот сайт сохранит мое сообщение.
-ContactButton: Отправить сообщение
+ContactButton: Отправить мое сообщение
 ContactMailSpam: [Спам]
 ContactMailFooter: Это письмо было отправлено через @sitename - @title
 ContactStatusNone: Скажи привет. Ваши отзывы приветствуются.

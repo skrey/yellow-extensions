@@ -18,7 +18,7 @@ ContactName: Meno:
 ContactEmail: Email:
 ContactMessage: Správa:
 ContactConsent: Soglašam, da ta spletna stran shrani moje sporočilo.
-ContactButton: Poslať správu
+ContactButton: Poslať moju správu
 ContactMailSpam: [Spam]
 ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Napíš pár slov. Ceníme tvoj názor.

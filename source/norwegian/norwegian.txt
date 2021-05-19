@@ -17,7 +17,7 @@ ContactDescription: Email contact page.
 ContactName: Navn:
 ContactEmail: Epost:
 ContactMessage: Melding:
-ContactConsent: Jeg samtykker til at denne nettsiden lagrer min informasjon.
+ContactConsent: Jeg samtykker til at denne nettsiden lagrer min innsendte informasjon.
 ContactButton: Sende melding
 ContactMailSpam: [Spam]
 ContactMailFooter: Denne epost ble sendt av @sitename - @title

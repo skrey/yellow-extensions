@@ -17,8 +17,8 @@ ContactDescription: Email contact page.
 ContactName: Név:
 ContactEmail: E-mail:
 ContactMessage: Üzenet:
-ContactConsent: Hozzájárulok, hogy ez a weboldal tárolja az üzenetet.
-ContactButton: Üzenet küldése
+ContactConsent: Hozzájárulok, hogy ez a weboldal tárolja az üzenetemet.
+ContactButton: Üzenetemet küldése
 ContactMailSpam: [Spam]
 ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Szólj hozzánk. Fontos a véleményed.

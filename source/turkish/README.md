@@ -1,4 +1,4 @@
-Turkish 0.8.27
+Turkish 0.8.28
 ==============
 Turkish/Türkçe 'tr' dili ile.
 

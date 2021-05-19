@@ -1,4 +1,4 @@
-Italian 0.8.27
+Italian 0.8.28
 ==============
 Italian/Italiano con lingua 'it'.
 
