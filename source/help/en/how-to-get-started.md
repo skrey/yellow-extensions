@@ -23,6 +23,4 @@ If you want to learn more about the command line, [see command extension](https:
 
 ## You're ready to go
 
-Good job. [Your website](how-to-make-a-small-website), [blog](how-to-make-a-small-blog) or [wiki](how-to-make-a-small-wiki) is immediately available.
-
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Your website is immediately available. [Get help](.) and [contribute](contributing-guidelines).

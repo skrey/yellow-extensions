@@ -23,6 +23,4 @@ Om du vill läsa mer om kommandoraden, [se command-tillägg](https://github.com/
 
 ## Du är redo att gå
 
-Bra jobbat. [Din webbsida](how-to-make-a-small-website), [blogg](how-to-make-a-small-blog) eller [wiki](how-to-make-a-small-wiki) är omedelbart tillgänglig.
-
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Din webbsida är omedelbart tillgänglig. [Få hjälp](.) och [engagera dig](contributing-guidelines).

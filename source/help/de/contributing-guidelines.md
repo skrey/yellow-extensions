@@ -31,10 +31,10 @@ Wie man mit uns zusammenarbeitet und nützliche Produkte macht.
 * Lade deine Erweiterung zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
 * Erst funktionieren lassen, dann besser machen.
 
-## Tipps für aktiv Mitwirkende
+## Tipps für neue Mitglieder
 
 Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. Die meisten Antworten werden von Community-Mitgliedern, so wie du, bereitgestellt. Denke daran, dass andere möglicherweise nicht die selbe Erfahrung oder den Hintergrund haben wie du. Fühle dich niemals gezwungen, auf jemanden zu reagieren oder zu antworten. Du kannst jederzeit aus Gesprächen aussteigen, wenn die Diskussion nicht konstruktiv verläuft. Konzentriere dich auf diejenigen die dir helfen wollen. Beiträge von geringer Qualität werden entfernt, um unsere Community nicht zu überfordern.
 
-Zusammenarbeit funktioniert am besten wenn man Spaß hat bei dem was man tut. Wenn man von motivierten und hilfreichen Menschen umgeben ist. Lass uns wissen wie wir ein gutes Arbeitsumfeld für dich schaffen können. Ein Bestandteil von Produktentwicklung ist es die Bedürfnisse und Probleme von Menschen zu verstehen. Unser Ziel ist nicht mehr Technologie und mehr Funktionen in das Leben von Menschen zu bringen. Unsere erste Aufgabe besteht darin, Komplexität und Probleme aus dem Leben von Menschen zu entfernen. Unsere zweite Aufgabe besteht darin, Gleichgesinnte zu finden und zusammenzuarbeiten.
+Zusammenarbeit funktioniert am besten wenn man Spaß hat. Wenn man von motivierten und hilfreichen Menschen umgeben ist. Lass uns wissen wie wir ein gutes Arbeitsumfeld für dich schaffen können. Ein Bestandteil von Produktentwicklung ist es die Bedürfnisse und Probleme von Menschen zu verstehen. Unser Ziel ist nicht mehr Technologie und mehr Funktionen in das Leben von Menschen zu bringen. Unsere erste Aufgabe besteht darin, Komplexität und Probleme aus dem Leben von Menschen zu entfernen. Unsere zweite Aufgabe besteht darin, Gleichgesinnte zu finden und zusammenzuarbeiten.
 
-Möchtest du mit uns zusammenarbeiten? [Datenstrom bei GitHub](https://github.com/datenstrom), [Datenstrom bei Twitter](https://twitter.com/datendeveloper) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).
+Lerne die Community kennen. [Datenstrom auf GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).

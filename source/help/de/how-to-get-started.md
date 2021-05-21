@@ -23,6 +23,4 @@ Falls du mehr über die Befehlszeile erfahren möchtest, [siehe Command-Erweiter
 
 ## Los geht's
 
-Gut gemacht. [Deine Webseite](how-to-make-a-small-website), [Blog](how-to-make-a-small-blog) oder [Wiki](how-to-make-a-small-wiki) ist sofort erreichbar.
-
-Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).
+Deine Webseite ist sofort erreichbar. [Hilfe finden](.) und [mitmachen](contributing-guidelines).

@@ -31,10 +31,10 @@ Hur man jobbar med oss och skapar användbara produkter.
 * Ladda upp ditt tillägg till GitHub, låt oss veta om du behöver hjälp.
 * Först få det att fungera, sedan gör det bättre. 
 
-## Tips för aktiva medlemmar
+## Tips för nya medlemmar
 
 Vårt community är en plats att hjälpa varandra. Där du kan ställa och svara på frågor. De flesta av svaren tillhandahålls av community-medlemmar, precis som du. Tänk på att andra kanske inte har samma erfarenhetsnivå eller bakgrund som du. Känn dig aldrig tvungen att reagera eller svara på någon. Du kan avbryta konversationer när som helst, om diskussionen inte är konstruktiv. Fokusera på de som vill hjälpa dig. Inlägg av dålig kvalitet tas bort för att inte överväldiga vårt community. 
 
 Samarbete fungerar bäst när man har kul. När man är omgiven av motiverade och hjälpsamma människor. Låt oss veta hur vi kan skapa en bra arbetsmiljö för dig. Att förstå människors behov och problem är en del av produktutvecklingen. Vårt jobb är inte att föra in mer teknik och fler funktioner i människors liv. Vår första uppgift är att ta bort komplexitet och problem från människors liv. Vår andra uppgift är att hitta likasinnade människor och jobba tillsammans. 
 
-Vill du jobba med oss? [Datenstrom på GitHub](https://github.com/datenstrom), [Datenstrom på Twitter](https://twitter.com/datendeveloper) eller [kontakta en människa](https://datenstrom.se/sv/contact/).
+Lär känna communityt. [Datenstrom på GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) eller [kontakta en människa](https://datenstrom.se/sv/contact/).
