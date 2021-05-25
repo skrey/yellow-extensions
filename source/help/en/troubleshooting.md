@@ -20,7 +20,7 @@ Run the command `chmod -R a+rw *` in the installation folder. You can also use y
 Datenstrom Yellow requires complete upload!
 ```
 
-Copy all files again to the web server. Check if your FTP software shows an error message during upload. It sometimes happens that the data transfer was interrupted, then there are files with zero bytes on the web server. After all files have been copied to the web server, the problem should be resolved.
+Copy all files again to the web server. Check if your FTP software shows an error message during upload. It sometimes happens that the data transfer was interrupted, then there are files with zero bytes on the web server. After all installation files have been copied to the web server, the problem should be resolved.
 
 ```
 Datenstrom Yellow requires configuration file!
@@ -38,7 +38,7 @@ Configure the web server, see [Apache configuration](#problems-with-apache) and 
 Datenstrom Yellow requires PHP extension!
 ```
 
-Install the missing PHP extension on your web server. You need `curl exif gd mbstring zip`.
+Install the missing PHP extension on your web server. You need `curl gd mbstring zip`.
 
 ```
 Datenstrom Yellow requires PHP 5.6 or higher!

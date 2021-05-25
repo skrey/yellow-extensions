@@ -20,7 +20,7 @@ Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst 
 Datenstrom Yellow requires complete upload!
 ```
 
-Kopiere nochmal alle Dateien auf den Webserver. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung unterbrochen wurde, dann findet man auf dem Webserver Dateien mit null Bytes. Nachdem alle Dateien auf den Webserver kopiert wurden, sollte das Problem behoben sein.
+Kopiere nochmal alle Dateien auf den Webserver. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung unterbrochen wurde, dann findet man auf dem Webserver Dateien mit null Bytes. Nachdem alle Installationsdateien auf den Webserver kopiert wurden, sollte das Problem behoben sein.
 
 ```
 Datenstrom Yellow requires configuration file!
@@ -38,7 +38,7 @@ Konfiguriere den Webserver, siehe [Apache-Konfiguration](#probleme-mit-apache) u
 Datenstrom Yellow requires PHP extension!
 ```
 
-Installiere die fehlende PHP-Erweiterung auf deinem Webserver. Du benötigst `curl exif gd mbstring zip`.
+Installiere die fehlende PHP-Erweiterung auf deinem Webserver. Du benötigst `curl gd mbstring zip`.
 
 ```
 Datenstrom Yellow requires PHP 5.6 or higher!

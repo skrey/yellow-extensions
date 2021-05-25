@@ -20,7 +20,7 @@ Kör kommandot `chmod -R a+rw *` i installationsmappen. Du kan också använda d
 Datenstrom Yellow requires complete upload!
 ```
 
-Kopiera alla filer igen till webbservern. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts, då finns det filer med noll byte på webbservern. Efter alla filer har kopierats till webbservern bör problemet lösas.
+Kopiera alla filer igen till webbservern. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts, då finns det filer med noll byte på webbservern. Efter att alla installationsfiler har kopierats till webbservern bör problemet lösas.
 
 ```
 Datenstrom Yellow requires configuration file!
@@ -38,7 +38,7 @@ Konfigurera webbservern, se [Apache-konfiguration](#problem-med-apache) eller [N
 Datenstrom Yellow requires PHP extension!
 ```
 
-Installera saknade PHP-tillägget på din webbserver. Du behöver `curl exif gd mbstring zip`.
+Installera saknade PHP-tillägget på din webbserver. Du behöver `curl gd mbstring zip`.
 
 ```
 Datenstrom Yellow requires PHP 5.6 or higher!
