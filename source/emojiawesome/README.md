@@ -36,14 +36,13 @@ Adding an emoji, double size:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`EmojiawesomeCdn` = URL of CDN with emoji images  
 `EmojiawesomeToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 
 ## Installation
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/emojiawesome.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [Twemoji 2.0.0](https://github.com/twitter/twemoji) by Twitter. Files are served from [cdnjs](https://cdnjs.com).
+This extension uses [Twemoji 13.0.0](https://github.com/twitter/twemoji) by Twitter. 
 
 ## Developer
 
