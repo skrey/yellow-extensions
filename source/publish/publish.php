@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.34";
+    const VERSION = "0.8.35";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -208,21 +208,20 @@ class YellowPublish {
             $fileDataExtension = $this->yellow->toolbox->readFile($fileNameExtension);
             $settingsExtension = $this->yellow->toolbox->getTextSettings($fileDataExtension, "");
             $fileData = $this->yellow->toolbox->readFile($fileNameLatest);
-            $fileDataNew = $this->yellow->toolbox->setTextSettings($fileData, "extension", $extension, $settingsExtension);
-            if ($fileData!=$fileDataNew) {
-                $settings = $this->yellow->toolbox->getTextSettings($fileDataNew, "extension");
-                $settings->uksort("strnatcasecmp");
-                $fileDataNew = "# Datenstrom Yellow update settings\n";
-                foreach ($settings as $extension=>$block) {
-                    $fileDataNew .= "\n";
-                    foreach ($block as $key=>$value) {
-                        $fileDataNew .= (strposu($key, "/") ? $key : ucfirst($key)).": $value\n";
-                    }
+            $settingsLatest = $this->yellow->toolbox->getTextSettings($fileData, "extension");
+            $settingsLatest[$extension] = new YellowArray();
+            foreach ($settingsExtension as $key=>$value) $settingsLatest[$extension][$key] = $value;
+            $settingsLatest->uksort("strnatcasecmp");
+            $fileDataNew = "# Datenstrom Yellow update settings\n";
+            foreach ($settingsLatest as $extension=>$block) {
+                $fileDataNew .= "\n";
+                foreach ($block as $key=>$value) {
+                    $fileDataNew .= (strposu($key, "/") ? $key : ucfirst($key)).": $value\n";
                 }
-                if (!$this->yellow->toolbox->createFile($fileNameLatest, $fileDataNew)) {
-                    $statusCode = 500;
-                    echo "ERROR publishing files: Can't write file '$fileNameLatest'!\n";
-                }
+            }
+            if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($fileNameLatest, $fileDataNew)) {
+                $statusCode = 500;
+                echo "ERROR publishing files: Can't write file '$fileNameLatest'!\n";
             }
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionLatest file:$fileNameLatest<br/>\n";
         }
