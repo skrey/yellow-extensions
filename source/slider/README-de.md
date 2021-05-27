@@ -24,8 +24,8 @@ Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien be
 Bildergalerie hinzufügen:
 
     [slider photo.*jpg]
+    [slider photo.*jpg - 50%]
     [slider photo.*jpg - 20%]
-    [slider photo.*jpg simple 20%]
 
 Bildergalerie hinzufügen, automatisch abspielen:
 

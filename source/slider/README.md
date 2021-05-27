@@ -24,8 +24,8 @@ The image formats GIF, JPG, PNG and SVG are supported. All media files are locat
 Adding an image gallery:
 
     [slider photo.*jpg]
+    [slider photo.*jpg - 50%]
     [slider photo.*jpg - 20%]
-    [slider photo.*jpg simple 20%]
 
 Adding an image gallery, play automatically:
 
