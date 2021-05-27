@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Emojiawesome 0.8.7
+Emojiawesome 0.8.9
 ==================
 Lots and lots of emoji.
 

@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.35";
+    const VERSION = "0.8.36";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -143,10 +143,10 @@ class YellowPublish {
         $regex = "/^.*\\".$this->yellow->system->get("coreContentExtension")."$/";
         foreach ($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false) as $entry) {
             $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
-            if (preg_match("/^(\xEF\xBB\xBF)?([\w ]+[0-9\.]{5,}[\r\n]+)(\=+[\r\n]+)(.*)$/s", $fileData, $parts)) {
-                $parts[2] = ucfirst($extension)." ".$version."\n";
-                $parts[3] = str_repeat("=", strlenu($parts[2])-1)."\n";
-                $fileDataNew = $parts[1].$parts[2].$parts[3].$parts[4];
+            if (preg_match("/^(\xEF\xBB\xBF)?(<.*>[\r\n]+)?([\w ]+[0-9\.]{5,}[\r\n]+)(\=+[\r\n]+)(.*)$/s", $fileData, $parts)) {
+                $parts[3] = ucfirst($extension)." ".$version."\n";
+                $parts[4] = str_repeat("=", strlenu($parts[3])-1)."\n";
+                $fileDataNew = $parts[1].$parts[2].$parts[3].$parts[4].$parts[5];
             }
             if ($fileData!=$fileDataNew) {
                 if (!$this->yellow->toolbox->createFile($entry, $fileDataNew)) {

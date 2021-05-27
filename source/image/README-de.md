@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Image 0.8.12
+Image 0.8.13
 ============
 Bilder in unterschiedlichen Größen.
 

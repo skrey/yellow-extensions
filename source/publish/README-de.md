@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Publish 0.8.34
+Publish 0.8.36
 ==============
 Erweiterungen verpacken und veröffentlichen.
 
