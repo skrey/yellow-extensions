@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Slider 0.8.11
+Slider 0.8.12
 =============
 Bildergalerie mit Schieber.
 
