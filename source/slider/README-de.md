@@ -21,29 +21,29 @@ Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien be
 
 ## Beispiele
 
-Bildergalerie hinzufügen:
-
-    [slider photo.*jpg]
-    [slider photo.*jpg - 75%]
-    [slider photo.*jpg - 50%]
-
-Bildergalerie hinzufügen, automatisch abspielen:
-
-    [slider photo.*jpg - 50% 1000]
-    [slider photo.*jpg - 50% 2000]
-    [slider photo.*jpg - 50% 5000]
-
 Bildergalerie hinzufügen, unterschiedliche Stile:
 
     [slider photo.*jpg loop]
     [slider photo.*jpg fade]
     [slider photo.*jpg slide]
 
-Bildergalerie aus einem Unterverzeichnis hinzufügen:
+Bildergalerie hinzufügen, unterschiedliche Größen:
 
-    [slider photo-album/ loop]
-    [slider photo-album/ fade]
-    [slider photo-album/ slide]
+    [slider photo.*jpg - 100%]
+    [slider photo.*jpg - 50%]
+    [slider photo.*jpg - 25%]
+
+Bildergalerie aus einem Unterverzeichnis hinzufügen, unterschiedliche Größen:
+
+    [slider photo-album/- 100%]
+    [slider photo-album/ - 50%]
+    [slider photo-album/ - 25%]
+
+Bildergalerie hinzufügen, automatisch abspielen:
+
+    [slider photo.*jpg - - 1000]
+    [slider photo.*jpg - - 2000]
+    [slider photo.*jpg - - 5000]
 
 ## Einstellungen
 

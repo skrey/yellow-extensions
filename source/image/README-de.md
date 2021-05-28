@@ -28,13 +28,13 @@ Bilder hinzufügen:
     [image photo.jpg Beispiel]
     [image photo.jpg "Das ist ein Beispielbild"]
 
-Bilder in unterschiedlichen Stilen hinzufügen:
+Bilder hinzufügen, unterschiedliche Stile:
 
     [image photo.jpg Beispiel left]
     [image photo.jpg Beispiel center]
     [image photo.jpg Beispiel right]
 
-Bilder in unterschiedliche Größen hinzufügen:
+Bilder hinzufügen, unterschiedliche Größen:
 
     [image photo.jpg Beispiel - 64 64]
     [image photo.jpg Beispiel - 320 200]

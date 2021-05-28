@@ -26,21 +26,21 @@ Bildunterschriften können in den Spracheinstellungen festgelegt werden. Öffne 
 
 Bildergalerie hinzufügen:
 
-    [gallery photo.*jpg]
-    [gallery photo.*jpg - 20%]
-    [gallery photo.*jpg simple 20%]
+    [gallery photo.*jpg - 25%]
+    [gallery photo.*jpg - 50%]
+    [gallery photo.*jpg - 100%]
 
 Bildergalerie hinzufügen, rechteckige Miniaturbilder:
 
     [gallery photo.*jpg - 64]
     [gallery photo.*jpg - 150]
-    [gallery photo.*jpg simple 150]
+    [gallery photo.*jpg - 300]
 
 Bildergalerie aus einem Unterverzeichnis hinzufügen, rechteckige Miniaturbilder:
 
     [gallery photo-album/ - 64]
     [gallery photo-album/ - 150]
-    [gallery photo-album/ simple 150]
+    [gallery photo-album/ - 300]
 
 Bildunterschriften in den Spracheinstellungen festlegen:
 

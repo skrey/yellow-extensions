@@ -26,21 +26,21 @@ Image captions can be configured in the language settings. Open file `system/ext
 
 Adding an image gallery:
 
-    [gallery photo.*jpg]
-    [gallery photo.*jpg - 20%]
-    [gallery photo.*jpg simple 20%]
+    [gallery photo.*jpg - 25%]
+    [gallery photo.*jpg - 50%]
+    [gallery photo.*jpg - 100%]
 
 Adding an image gallery, square thumbnails:
 
     [gallery photo.*jpg - 64]
     [gallery photo.*jpg - 150]
-    [gallery photo.*jpg simple 150]
+    [gallery photo.*jpg - 300]
 
 Adding an image gallery from a subfolder, square thumbnails:
 
     [gallery photo-album/ - 64]
     [gallery photo-album/ - 150]
-    [gallery photo-album/ simple 150]
+    [gallery photo-album/ - 300]
 
 Configuring image captions in the language settings:
 

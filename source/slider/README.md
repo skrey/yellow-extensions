@@ -21,29 +21,29 @@ The image formats GIF, JPG, PNG and SVG are supported. All media files are locat
 
 ## Examples
 
-Adding an image gallery:
-
-    [slider photo.*jpg]
-    [slider photo.*jpg - 75%]
-    [slider photo.*jpg - 50%]
-
-Adding an image gallery, play automatically:
-
-    [slider photo.*jpg - 50% 1000]
-    [slider photo.*jpg - 50% 2000]
-    [slider photo.*jpg - 50% 5000]
-
 Adding an image gallery, different styles:
 
     [slider photo.*jpg loop]
     [slider photo.*jpg fade]
     [slider photo.*jpg slide]
 
-Adding an image gallery from a subfolder:
+Adding an image gallery, different sizes:
 
-    [slider photo-album/ loop]
-    [slider photo-album/ fade]
-    [slider photo-album/ slide]
+    [slider photo.*jpg - 100%]
+    [slider photo.*jpg - 50%]
+    [slider photo.*jpg - 25%]
+
+Adding an image gallery from a subfolder, different sizes:
+
+    [slider photo-album/- 100%]
+    [slider photo-album/ - 50%]
+    [slider photo-album/ - 25%]
+
+Adding an image gallery, play automatically:
+
+    [slider photo.*jpg - - 1000]
+    [slider photo.*jpg - - 2000]
+    [slider photo.*jpg - - 5000]
 
 ## Settings
 
