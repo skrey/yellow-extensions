@@ -2,13 +2,13 @@
 // Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/slider
 
 class YellowSlider {
-    const VERSION = "0.8.12";
+    const VERSION = "0.8.13";
     public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("sliderStyle", "flickity");
+        $this->yellow->system->setDefault("sliderStyle", "loop");
         $this->yellow->system->setDefault("sliderAutoplay", "0");
     }
     
@@ -30,17 +30,20 @@ class YellowSlider {
             if ($this->yellow->extension->isExisting("image")) {
                 if (count($files)) {
                     $page->setLastModified($files->getModified());
-                    $output = "<div class=\"".htmlspecialchars($style)."\" data-prevnextbuttons=\"false\" data-clickable=\"true\" data-wraparound=\"true\"";
-                    if ($autoplay!=0) $output .= " data-autoplay=\"".htmlspecialchars($autoplay)."\"";
+                    $output = "<div class=\"splide\" data-arrows=\"false\" data-rewind=\"true\" data-clickable=\"true\" data-type=\"".htmlspecialchars($style)."\"";
+                    if ($autoplay!=0) $output .= " data-autoplay=\"true\" data-interval=\"".htmlspecialchars($autoplay)."\"";
                     $output .= ">\n";
+                    $output .= "<div class=\"splide__track\"><div class=\"splide__list\">";
                     foreach ($files as $file) {
                         list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($file->fileName, $size, $size);
-                        $output .= "<img src=\"".htmlspecialchars($src)."\"";
+                        $caption = $this->yellow->language->isText($file->fileName) ? $this->yellow->language->getText($file->fileName) : "";
+                        $alt = empty($caption) ? basename($file->getLocation(true)) : $caption;
+                        $output .= "<div class=\"splide__slide\"><img src=\"".htmlspecialchars($src)."\"";
                         if ($width && $height) $output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
-                        $output .= " alt=\"".basename($file->getLocation(true))."\" title=\"".basename($file->getLocation(true))."\"";
-                        $output .= " />\n";
+                        $output .= " alt=\"".htmlspecialchars($alt)."\" title=\"".htmlspecialchars($alt)."\"";
+                        $output .= " /></div>\n";
                     }
-                    $output .= "</div>";
+                    $output .= "</div></div></div>";
                 } else {
                     $page->error(500, "Slider '$pattern' does not exist!");
                 }
@@ -57,7 +60,7 @@ class YellowSlider {
         if ($name=="header") {
             $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
             $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}slider.css\" />\n";
-            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}slider-flickity.min.js\"></script>\n";
+            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}slider-splide.min.js\"></script>\n";
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}slider.js\"></script>\n";
         }
         return $output;

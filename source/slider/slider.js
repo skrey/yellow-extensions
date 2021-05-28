@@ -1,17 +1,17 @@
 // Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/slider
 
-var initFlickityFromDOM = function() {
+var initSplideFromDOM = function() {
 
-    // Parse slider options from DOM
-    var parseOptions = function(element, keyNames) {
+    // Parse options from DOM
+    var parseOptions = function(element, namesUpperCase) {
         var options = {};
         for (var i=0; i<element.attributes.length; i++) {
             var attribute = element.attributes[i], key, value;
             if (attribute.nodeName.substr(0, 5)=="data-") {
                 key = attribute.nodeName.substr(5);
-                for (var j=0; j<keyNames.length; j++) {
-                    if (key==keyNames[j].toLowerCase()) {
-                        key = keyNames[j];
+                for (var j=0; j<namesUpperCase.length; j++) {
+                    if (key==namesUpperCase[j].toLowerCase()) {
+                        key = namesUpperCase[j];
                         break;
                     }
                 }
@@ -27,25 +27,12 @@ var initFlickityFromDOM = function() {
     };
     
     // Initialise slider and bind events
-    var elements = document.querySelectorAll(".flickity");
+    var elements = document.querySelectorAll(".splide");
     for (var i=0, l=elements.length; i<l; i++) {
-        var options = parseOptions(elements[i],
-            ["prevNextButtons", "pageDots", "arrowShape", "lazyLoad", "autoPlay", "initialIndex",
-             "freeScroll", "wrapAround", "asNavFor", "cellSelector", "cellAlign"]);
-        if (options.autoPlay) options.autoPlay = parseInt(options.autoPlay);
-        var flkty = new Flickity(elements[i], options);
-        if (options.clickable) flkty.on("staticClick", function() { this.next(options.wrapAround); });
-    }
-};
-var initFlickityReady = function() {
-    
-    // Intialise slider height when page is loaded
-    var elements = document.querySelectorAll(".flickity");
-    for (var i=0, l=elements.length; i<l; i++) {
-        var flkty = Flickity.data(elements[i]);
-        flkty.resize();
+        var options = parseOptions(elements[i], ["lazyLoad", "fixedWidth", "fixedHeight"]);
+        var splide = new Splide(elements[i], options).mount();
+        if (options.clickable) splide.on("click", function() { splide.go("+", false); });
     }
 };
 
-window.addEventListener("DOMContentLoaded", initFlickityFromDOM, false);
-window.addEventListener("load", initFlickityReady, false);
+window.addEventListener("DOMContentLoaded", initSplideFromDOM, false);
