@@ -24,7 +24,7 @@ Bildunterschriften können in den Spracheinstellungen festgelegt werden. Öffne 
 
 ## Beispiele
 
-Bildergalerie hinzufügen:
+Bildergalerie hinzufügen, unterschiedliche Größen:
 
     [gallery photo.*jpg - 25%]
     [gallery photo.*jpg - 50%]
