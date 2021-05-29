@@ -14,4 +14,4 @@ var initDisqusFromDOM = function() {
     }
 };
 
-window.addEventListener("load", initDisqusFromDOM, false);
+window.addEventListener("DOMContentLoaded", initDisqusFromDOM, false);

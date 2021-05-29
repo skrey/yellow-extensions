@@ -14,4 +14,4 @@ var initInstagramFromDOM = function() {
     }
 };
 
-window.addEventListener("load", initInstagramFromDOM, false);
+window.addEventListener("DOMContentLoaded", initInstagramFromDOM, false);

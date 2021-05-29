@@ -37,4 +37,4 @@ Our community is a place to help each other. Where you can ask and answer questi
 
 Collaboration works best when you enjoy what your are doing. When you're surrounded by motivated and helpful people. Let us know how we can create a good work environment for you. Understanding people's needs and problems is a part of product development. Our job is not to bring more technology and more features into people's lives. Our first task is to remove complexity and problems from people's lives. Our second task is to find like-minded people and work together.
 
-Meet the community. [Datenstrom on GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) or [contact a human](https://datenstrom.se/contact/).
+Say hello to the community. You can find us on [GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) or [contact a human](https://datenstrom.se/contact/).

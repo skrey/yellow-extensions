@@ -22,7 +22,7 @@ Hervorhebung von JavaScript-Quellcode:
         console.log("Hello world");
         // Add more JavaScript code here
     }
-    window.addEventListener('load', ready, false);
+    window.addEventListener("DOMContentLoaded", ready, false);
     ```
 
 Hervorhebung von HTML-Quellcode, ohne und mit Zeilennummer:

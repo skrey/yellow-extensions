@@ -2,7 +2,7 @@
 // Twitter extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter
 
 class YellowTwitter {
-    const VERSION = "0.8.5";
+    const VERSION = "0.8.6";
     public $yellow;         // access to API
     
     // Handle initialisation

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Gallery 0.8.11
+Gallery 0.8.12
 ==============
 Image gallery with popup.
 

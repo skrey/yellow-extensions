@@ -28,7 +28,7 @@ var ready = function() {
 	console.log("Hello world");
 	// Add more JavaScript code here
 }
-window.addEventListener("load", ready, false);
+window.addEventListener("DOMContentLoaded", ready, false);
 ```
 
 ## Bilder und Dateien anpassen

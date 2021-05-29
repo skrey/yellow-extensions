@@ -8,16 +8,16 @@ function TwitterMessage(element, options) {
 
 TwitterMessage.prototype = {
 
-    // Parse Twitter options
-    parseOptions: function(element, keyNames) {
+    // Parse options from DOM
+    parseOptions: function(element, namesUpperCase) {
         var options = {};
         for (var i=0; i<element.attributes.length; i++) {
             var attribute = element.attributes[i], key, value;
             if (attribute.nodeName.substr(0, 5)=="data-") {
                 key = attribute.nodeName.substr(5);
-                for (var j=0; j<keyNames.length; j++) {
-                    if (key==keyNames[j].toLowerCase()) {
-                        key = keyNames[j];
+                for (var j=0; j<namesUpperCase.length; j++) {
+                    if (key==namesUpperCase[j].toLowerCase()) {
+                        key = namesUpperCase[j];
                         break;
                     }
                 }
@@ -78,4 +78,4 @@ var initTwitterFromDOM = function() {
     }
 };
 
-window.addEventListener("load", initTwitterFromDOM, false);
+window.addEventListener("DOMContentLoaded", initTwitterFromDOM, false);

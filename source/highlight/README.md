@@ -22,7 +22,7 @@ Highlighting of JavaScript code:
         console.log("Hello world");
         // Add more JavaScript code here
     }
-    window.addEventListener('load', ready, false);
+    window.addEventListener("DOMContentLoaded", ready, false);
     ```
 
 Highlighting of HTML code, without and with line number:

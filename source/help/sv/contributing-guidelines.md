@@ -37,4 +37,4 @@ Vårt community är en plats att hjälpa varandra. Där du kan ställa och svara
 
 Samarbete fungerar bäst när man har kul. När man är omgiven av motiverade och hjälpsamma människor. Låt oss veta hur vi kan skapa en bra arbetsmiljö för dig. Att förstå människors behov och problem är en del av produktutvecklingen. Vårt jobb är inte att föra in mer teknik och fler funktioner i människors liv. Vår första uppgift är att ta bort komplexitet och problem från människors liv. Vår andra uppgift är att hitta likasinnade människor och jobba tillsammans. 
 
-Lär känna communityt. [Datenstrom på GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) eller [kontakta en människa](https://datenstrom.se/sv/contact/).
+Säg hej till communityt. Du hittar oss på [GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) eller [kontakta en människa](https://datenstrom.se/sv/contact/).

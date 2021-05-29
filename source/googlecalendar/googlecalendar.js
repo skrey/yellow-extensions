@@ -96,16 +96,16 @@ GoogleCalendar.prototype = {
         request.send();
     },
     
-    // Parse calendar options
-    parseOptions: function(element, keyNames) {
+    // Parse options from DOM
+    parseOptions: function(element, namesUpperCase) {
         var options = {};
         for (var i=0; i<element.attributes.length; i++) {
             var attribute = element.attributes[i], key, value;
             if (attribute.nodeName.substr(0, 5)=="data-") {
                 key = attribute.nodeName.substr(5);
-                for (var j=0; j<keyNames.length; j++) {
-                    if (key==keyNames[j].toLowerCase()) {
-                        key = keyNames[j];
+                for (var j=0; j<namesUpperCase.length; j++) {
+                    if (key==namesUpperCase[j].toLowerCase()) {
+                        key = namesUpperCase[j];
                         break;
                     }
                 }
@@ -187,4 +187,4 @@ var initGoogleCalendarFromDOM = function() {
     }
 };
 
-window.addEventListener("load", initGoogleCalendarFromDOM, false);
+window.addEventListener("DOMContentLoaded", initGoogleCalendarFromDOM, false);

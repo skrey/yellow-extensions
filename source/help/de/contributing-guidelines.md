@@ -37,4 +37,4 @@ Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stelle
 
 Zusammenarbeit funktioniert am besten wenn man Spaß hat. Wenn man von motivierten und hilfreichen Menschen umgeben ist. Lass uns wissen wie wir ein gutes Arbeitsumfeld für dich schaffen können. Ein Bestandteil von Produktentwicklung ist es die Bedürfnisse und Probleme von Menschen zu verstehen. Unser Ziel ist nicht mehr Technologie und mehr Funktionen in das Leben von Menschen zu bringen. Unsere erste Aufgabe besteht darin, Komplexität und Probleme aus dem Leben von Menschen zu entfernen. Unsere zweite Aufgabe besteht darin, Gleichgesinnte zu finden und zusammenzuarbeiten.
 
-Lerne die Community kennen. [Datenstrom auf GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).
+Sag Hallo zur Community. Du findest uns auf [GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).
