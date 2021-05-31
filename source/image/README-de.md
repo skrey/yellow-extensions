@@ -55,6 +55,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/image.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
+Diese Erweiterung enthält ein [Bild](https://unsplash.com/photos/xII7efH1G6o) von Alejandro Escamilla.
+
 ## Entwickler
 
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).

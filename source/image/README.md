@@ -55,6 +55,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/image.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
+This extension includes a [photo](https://unsplash.com/photos/xII7efH1G6o) by Alejandro Escamilla.
+
 ## Developer
 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).

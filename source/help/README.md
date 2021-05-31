@@ -18,6 +18,8 @@ If you want to edit the help in a [web browser](https://github.com/datenstrom/ye
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/help.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
+This extension includes a [photo](https://unsplash.com/photos/azsk_6IMT3I) by Bruno Cervera.
+
 ## Developer
 
 Datenstrom. [Get help](https://datenstrom.se/yellow/help/).

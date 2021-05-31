@@ -18,6 +18,8 @@ Om du vill redigera hjälpen i en [webbläsare](https://github.com/datenstrom/ye
 
 [Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/help.zip) och kopiera zip-fil till din mapp `system/extensions`. Högerklicka om du använder Safari.
 
+Tillägget innehåller en [bild](https://unsplash.com/photos/azsk_6IMT3I) av Bruno Cervera.
+
 ## Utvecklare
 
 Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

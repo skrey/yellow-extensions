@@ -18,6 +18,8 @@ Falls du die Hilfe im [Webbrowser](https://github.com/datenstrom/yellow-extensio
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/help.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
+Diese Erweiterung enthält ein [Bild](https://unsplash.com/photos/azsk_6IMT3I) von Bruno Cervera.
+
 ## Entwickler
 
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
