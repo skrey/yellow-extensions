@@ -12,7 +12,7 @@ Zum Installieren entpackt man eine Datei und los geht's. Der Installer überprü
 
 ## Wie man ein Installationspakets erstellt
 
-Ein Installationspakets besteht aus mehreren Erweiterungen und dem Installer. Der Installer besteht aus der Datei `install.php`, `install-languages.zip` und zusätzlichen Dateien. Du kannst weitere [Erweiterungs-Dateien](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden dann bei der Installation zur Auswahl angeboten.
+Ein Installationspakets besteht aus mehreren Erweiterungen, dem Installer und zusätzlichen Dateien. Der Installer besteht aus der Datei `install.php` und `install-languages.zip`. Du kannst weitere [Erweiterungs-Dateien](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden bei der Installation zur Auswahl angeboten. [Weitere Informationen zum Verpacken](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md).
 
 ## Beispiele
 
@@ -54,7 +54,7 @@ Die Erweiterungseinstellungen findet man in der Datei `system/extensions/update-
 
 ## Installation
 
-Diese Erweiterung ist Teil eines Installationspakets.
+Diese Erweiterung ist Teil eines größeren Installationspakets.
 
 ## Entwickler
 

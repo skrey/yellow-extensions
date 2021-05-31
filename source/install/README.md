@@ -12,7 +12,7 @@ Installing is unzipping one file and you are ready to go. The installer first ch
 
 ## How to make an installation package
 
-An installation package consists of several extensions and the installer. The installer consists of the file `install.php`,` install-languages.zip` and additional files. You can download more [extension files](https://github.com/datenstrom/yellow-extensions/tree/master/zip), rename and copy them into your `system/extensions` folder. They are then offered as an option during installation. 
+An installation package consists of several extensions, the installer and additional files. The installer consists of the file `install.php` and ` install-languages.zip`. You can download more [extension files](https://github.com/datenstrom/yellow-extensions/tree/master/zip), rename and copy them into your `system/extensions` folder. They are offered as an option during installation. [Learn more about packaging](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish).
 
 ## Examples
 
@@ -56,7 +56,7 @@ The extension settings can be found in file `system/extensions/update-current.in
 
 ## Installation
 
-This extension is part of a installation package.
+This extension is part of a bigger installation package.
 
 ## Developer
 
