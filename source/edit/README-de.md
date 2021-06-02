@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Edit 0.8.46
+Edit 0.8.47
 ===========
 Webseite im Webbrowser bearbeiten.
 

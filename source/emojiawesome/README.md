@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Emojiawesome 0.8.9
-==================
+Emojiawesome 0.8.10
+===================
 Lots and lots of emoji.
 
 ![Screenshot](emojiawesome-screenshot.jpg?raw=true)
@@ -10,7 +10,7 @@ Lots and lots of emoji.
 
 Add `:shortcode:` to the text of a page. Here's an [emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet). 
 
-It's also possible to create an `[ea]` shortcut or use HTML `<i class="ea ea-name"></i>`. You can add an additional style to the name, for example `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` and `ea-5x`.
+It's also possible to create an `[ea]` shortcut or use HTML `<i class="ea ea-name" aria-label="name"></i>`. You can add an additional style to the name, for example `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` and `ea-5x`.
 
 ## Examples
 
@@ -31,6 +31,12 @@ Adding an emoji, double size:
     [ea ea-smile ea-2x]
     [ea ea-heart ea-2x]
     [ea ea-coffee ea-2x]
+
+Adding an emoji with HTML:
+
+    <i class="ea ea-smile" aria-label="smile"></i>
+    <i class="ea ea-heart" aria-label="heart"></i>
+    <i class="ea ea-coffee" aria-label="coffee"></i>
 
 ## Settings
 

@@ -2,7 +2,7 @@
 // Fontawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome
 
 class YellowFontawesome {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -19,7 +19,9 @@ class YellowFontawesome {
             if (preg_match("/fa-(.+)/", $shortname, $matches)) {
                 $shortname = $matches[1];
                 $class = trim("fa fa-$shortname $style");
-                $output = "<i class=\"".htmlspecialchars($class)."\"></i>";
+                $output = "<i class=\"".htmlspecialchars($class)."\"";
+                $output .= " aria-label=\"".htmlspecialchars("$shortname")."\"";
+                $output .= "></i>";
             }
         }
         return $output;

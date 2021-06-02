@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Emojiawesome 0.8.9
-==================
+Emojiawesome 0.8.10
+===================
 Jede Menge Emoji.
 
 ![Bildschirmfoto](emojiawesome-screenshot.jpg?raw=true)
@@ -10,7 +10,7 @@ Jede Menge Emoji.
 
 Füge `:shortcode:` zum Text einer Seite hinzu. Hier ist ein [Emoji-Spickzettel](https://github.com/ikatyang/emoji-cheat-sheet). 
 
-Es ist auch möglich eine `[ea]`-Abkürzung zu erstellen oder HTML `<i class="ea ea-name"></i>` zu benutzen. Du kannst weitere Stile an den Namen anhängen, beispielsweise `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` und `ea-5x`.
+Es ist auch möglich eine `[ea]`-Abkürzung zu erstellen oder HTML `<i class="ea ea-name" aria-label="name"></i>` zu benutzen. Du kannst weitere Stile an den Namen anhängen, beispielsweise `ea-lg`, `ea-2x`, `ea-3x`, `ea-4x` und `ea-5x`.
 
 ## Beispiele
 
@@ -31,6 +31,12 @@ Emoji hinzufügen, doppelte Größe:
     [ea ea-smile ea-2x]
     [ea ea-heart ea-2x]
     [ea ea-coffee ea-2x]
+
+Emoji hinzufügen mit HTML:
+
+    <i class="ea ea-smile" aria-label="Lächeln"></i>
+    <i class="ea ea-heart" aria-label="Herz"></i>
+    <i class="ea ea-coffee" aria-label="Kaffee"></i>
 
 ## Einstellungen
 

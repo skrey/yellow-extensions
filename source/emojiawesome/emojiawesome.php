@@ -2,7 +2,7 @@
 // Emojiawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome
 
 class YellowEmojiawesome {
-    const VERSION = "0.8.9";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -20,8 +20,7 @@ class YellowEmojiawesome {
             if ($this->isShortname($shortname)) {
                 $class = $this->normaliseClass(trim("ea ea-$shortname $style"));
                 $output = "<i class=\"".htmlspecialchars($class)."\"";
-                $output .= " alt=\"".htmlspecialchars("$shortname")."\"";
-                $output .= " title=\"".htmlspecialchars("$shortname")."\"";
+                $output .= " aria-label=\"".htmlspecialchars("$shortname")."\"";
                 $output .= "></i>";
             }
         }

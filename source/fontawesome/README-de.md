@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Fontawesome 0.8.7
-=================
+Fontawesome 0.8.10
+==================
 Icons und Symbole.
 
 ![Bildschirmfoto](fontawesome-screenshot.jpg?raw=true)
@@ -10,7 +10,7 @@ Icons und Symbole.
 
 Füge `:shortcode:` zum Text einer Seite hinzu. Hier ist eine [komplette Liste mit Icons](https://fontawesome.com/icons).
 
-Es ist auch möglich eine `[fa]`-Abkürzung zu erstellen oder HTML `<i class="fa fa-name"></i>` zu benutzen. Du kannst weitere Stile an den Namen anhängen, beispielsweise `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` und `fa-5x`.
+Es ist auch möglich eine `[fa]`-Abkürzung zu erstellen oder HTML `<i class="fa fa-name" aria-label="name"></i>` zu benutzen. Du kannst weitere Stile an den Namen anhängen, beispielsweise `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` und `fa-5x`.
 
 ## Beispiele
 
@@ -31,6 +31,12 @@ Icon hinzufügen, doppelte Größe:
     [fa fa-envelope-o fa-2x]
     [fa fa-twitter fa-2x]
     [fa fa-github fa-2x]
+
+Icon hinzufügen mit HTML:
+
+    <i class="fa fa-envelope-o" aria-label="E-Mail"></i>
+    <i class="fa fa-twitter" aria-label="Twitter"></i>
+    <i class="fa fa-github" aria-label="GitHub"></i>
 
 ## Einstellungen
 
