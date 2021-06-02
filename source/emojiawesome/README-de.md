@@ -20,23 +20,29 @@ Emoji hinzufügen:
     :heart: 
     :coffee:
 
-Emoji hinzufügen, normale Größe:
+Emoji mit Abkürzung hinzufügen, normale Größe:
 
     [ea ea-smile]
     [ea ea-heart]
     [ea ea-coffee]
 
-Emoji hinzufügen, doppelte Größe:
+Emoji mit Abkürzung hinzufügen, doppelte Größe:
     
     [ea ea-smile ea-2x]
     [ea ea-heart ea-2x]
     [ea ea-coffee ea-2x]
 
-Emoji hinzufügen mit HTML:
+Emoji mit HTML hinzufügen, normale Größe:
 
     <i class="ea ea-smile" aria-label="Lächeln"></i>
     <i class="ea ea-heart" aria-label="Herz"></i>
     <i class="ea ea-coffee" aria-label="Kaffee"></i>
+
+Emoji mit HTML hinzufügen, doppelte Größe:
+
+    <i class="ea ea-smile ea-2x" aria-label="Lächeln"></i>
+    <i class="ea ea-heart ea-2x" aria-label="Herz"></i>
+    <i class="ea ea-coffee ea-2x" aria-label="Kaffee"></i>
 
 ## Einstellungen
 

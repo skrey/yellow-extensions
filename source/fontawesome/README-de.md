@@ -20,23 +20,29 @@ Icon hinzufügen:
     :fa-twitter:
     :fa-github:
 
-Icon hinzufügen, normale Größe:
+Icon mit Abkürzung hinzufügen, normale Größe:
 
     [fa fa-envelope-o]
     [fa fa-twitter]
     [fa fa-github]
     
-Icon hinzufügen, doppelte Größe:
+Icon mit Abkürzung hinzufügen, doppelte Größe:
 
     [fa fa-envelope-o fa-2x]
     [fa fa-twitter fa-2x]
     [fa fa-github fa-2x]
 
-Icon hinzufügen mit HTML:
+Icon mit HTML hinzufügen, normale Größe:
 
     <i class="fa fa-envelope-o" aria-label="E-Mail"></i>
     <i class="fa fa-twitter" aria-label="Twitter"></i>
     <i class="fa fa-github" aria-label="GitHub"></i>
+
+Icon mit HTML hinzufügen, doppelte Größe:
+
+    <i class="fa fa-envelope-o fa-2x" aria-label="E-Mail"></i>
+    <i class="fa fa-twitter fa-2x" aria-label="Twitter"></i>
+    <i class="fa fa-github fa-2x" aria-label="GitHub"></i>
 
 ## Einstellungen
 

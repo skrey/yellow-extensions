@@ -20,23 +20,29 @@ Adding an icon:
     :fa-twitter:
     :fa-github:
 
-Adding an icon, normal size:
+Adding an icon with shortcut, normal size:
 
     [fa fa-envelope-o]
     [fa fa-twitter]
     [fa fa-github]
     
-Adding an icon, double size:
+Adding an icon with shortcut, double size:
 
     [fa fa-envelope-o fa-2x]
     [fa fa-twitter fa-2x]
     [fa fa-github fa-2x]
 
-Adding an icon with HTML:
+Adding an icon with HTML, normal size:
 
     <i class="fa fa-envelope-o" aria-label="Email"></i>
     <i class="fa fa-twitter" aria-label="Twitter"></i>
     <i class="fa fa-github" aria-label="GitHub"></i>
+
+Adding an icon with HTML, double size:
+
+    <i class="fa fa-envelope-o fa-2x" aria-label="Email"></i>
+    <i class="fa fa-twitter fa-2x" aria-label="Twitter"></i>
+    <i class="fa fa-github fa-2x" aria-label="GitHub"></i>
 
 ## Settings
 

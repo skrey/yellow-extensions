@@ -20,23 +20,29 @@ Adding an emoji:
     :heart: 
     :coffee:
 
-Adding an emoji, normal size:
+Adding an emoji with shortcut, normal size:
 
     [ea ea-smile]
     [ea ea-heart]
     [ea ea-coffee]
 
-Adding an emoji, double size:
+Adding an emoji with shortcut, double size:
     
     [ea ea-smile ea-2x]
     [ea ea-heart ea-2x]
     [ea ea-coffee ea-2x]
 
-Adding an emoji with HTML:
+Adding an emoji with HTML, normal size:
 
     <i class="ea ea-smile" aria-label="smile"></i>
     <i class="ea ea-heart" aria-label="heart"></i>
     <i class="ea ea-coffee" aria-label="coffee"></i>
+
+Adding an emoji with HTML, double size:
+
+    <i class="ea ea-smile ea-2x" aria-label="smile"></i>
+    <i class="ea ea-heart ea-2x" aria-label="heart"></i>
+    <i class="ea ea-coffee ea-2x" aria-label="coffee"></i>
 
 ## Settings
 
