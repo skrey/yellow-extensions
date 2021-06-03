@@ -2,7 +2,7 @@
 
 # Datenstrom Yellow extensions
 
-Features, themes and languages for Datenstrom Yellow.
+Features, themes and languages for Datenstrom Yellow. https://datenstrom.se/yellow/
 
 ## Features
 

@@ -2,7 +2,7 @@
 
 # Datenstrom Yellow Erweiterungen
 
-Funktionen, Themen und Sprachen für Datenstrom Yellow.
+Funktionen, Themen und Sprachen für Datenstrom Yellow. https://datenstrom.se/de/yellow/
 
 ## Funktionen
 
