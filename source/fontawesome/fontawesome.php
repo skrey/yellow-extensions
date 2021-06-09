@@ -2,7 +2,7 @@
 // Fontawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome
 
 class YellowFontawesome {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -14,13 +14,13 @@ class YellowFontawesome {
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
-         if (($name=="fa" && $type=="inline") || $type=="symbol") {
+        if (($name=="fa" && $type=="inline") || $type=="symbol") {
             list($shortname, $style) = $this->yellow->toolbox->getTextArguments($text);
-            if (preg_match("/fa-(.+)/", $shortname, $matches)) {
-                $shortname = $matches[1];
-                $class = trim("fa fa-$shortname $style");
+            if (preg_match("/^fa-(.+)/", $shortname, $matches)) {
+                $class = trim("fa $shortname $style");
+                $label = $matches[1];
                 $output = "<i class=\"".htmlspecialchars($class)."\"";
-                $output .= " aria-label=\"".htmlspecialchars("$shortname")."\"";
+                $output .= " aria-label=\"".htmlspecialchars("$label")."\"";
                 $output .= "></i>";
             }
         }

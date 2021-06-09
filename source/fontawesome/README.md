@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Fontawesome 0.8.10
+Fontawesome 0.8.11
 ==================
 Icons and symbols.
 
