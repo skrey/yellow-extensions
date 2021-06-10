@@ -2,7 +2,7 @@
 // Draft extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/draft
 
 class YellowDraft {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -21,7 +21,7 @@ class YellowDraft {
         if ($this->yellow->page->get("status")=="draft" && $this->yellow->getRequestHandler()=="core") {
             $pageError = "";
             if ($this->yellow->extension->isExisting("edit")) {
-                $pageError .= "<a href=\"".$this->yellow->page->get("pageEdit")."\">";
+                $pageError .= "<a href=\"".$this->yellow->page->get("pageEditUrl")."\">";
                 $pageError .= $this->yellow->language->getText("draftPageError")."</a>";
             }
             $this->yellow->page->error(420, $pageError);

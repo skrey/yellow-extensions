@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Edit 0.8.48
+Edit 0.8.49
 ===========
 Edit your website in a web browser.
 

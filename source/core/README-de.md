@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Core 0.8.44
+Core 0.8.45
 ===========
 Kernfunktionalität der Webseite.
 
