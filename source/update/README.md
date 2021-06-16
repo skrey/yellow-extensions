@@ -62,19 +62,19 @@ Updating website at the command line:
  
 `php yellow.php update`  
 `php yellow.php update gallery`  
-`php yellow.php update english german french`  
+`php yellow.php update english german swedish`  
 
 Adding extensions at the command line:
 
 `php yellow.php install`  
 `php yellow.php install gallery`  
-`php yellow.php install english german french`  
+`php yellow.php install english german swedish`  
 
 Removing extensions at the command line:
 
 `php yellow.php uninstall`  
 `php yellow.php uninstall gallery`  
-`php yellow.php uninstall english german french`  
+`php yellow.php uninstall english german swedish`  
 
 ## Settings
 

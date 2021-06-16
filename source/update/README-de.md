@@ -62,19 +62,19 @@ Webseite in der Befehlszeile aktualisieren:
  
 `php yellow.php update`  
 `php yellow.php update gallery`  
-`php yellow.php update english german french`  
+`php yellow.php update english german swedish`  
 
 Erweiterungen in der Befehlszeile hinzufügen:
 
 `php yellow.php install`  
 `php yellow.php install gallery`  
-`php yellow.php install english german french`  
+`php yellow.php install english german swedish`  
 
 Erweiterungen in der Befehlszeile entfernen:
 
 `php yellow.php uninstall`  
 `php yellow.php uninstall gallery`  
-`php yellow.php uninstall english german french`  
+`php yellow.php uninstall english german swedish`  
 
 ## Einstellungen
 
