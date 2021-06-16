@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.36";
+    const VERSION = "0.8.37";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -71,7 +71,7 @@ class YellowPublish {
             $statusCode = max($statusCode, $this->updateExtensionArchive($path, $pathRepositoryOffical));
             $statusCode = max($statusCode, $this->updateExtensionLatest($path, $pathRepositoryOffical));
             if (defined("DEBUG") && DEBUG>=1) {
-                list($extension, $version) = $this->getExtensionInformationFromSource($path);
+                list($extension, $version) = $this->getExtensionInformationFromSettings($path);
                 echo "YellowPublish::updateExtensionDirectory ".ucfirst($extension)." $version<br/>\n";
             }
             ++$this->extensions;
@@ -84,6 +84,8 @@ class YellowPublish {
     public function updateExtensionInformation($path) {
         $statusCode = 200;
         list($extension, $version, $published, $fileNameSource) = $this->getExtensionInformationFromSource($path);
+        list($dummy, $versionLatest, $publishedLatest) = $this->getExtensionInformationFromSettings($path);
+        if ($version==$versionLatest) $published = $publishedLatest;
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
         if (is_file($fileNameExtension) && !empty($extension) && !empty($version)) {
             $url = $this->yellow->system->get("updateExtensionUrl")."/raw/master/zip/".strtoloweru("$extension.zip");
@@ -162,21 +164,24 @@ class YellowPublish {
     // Update extension ZIP archive
     public function updateExtensionArchive($pathSource, $pathRepositoryOffical) {
         $statusCode = 200;
-        list($extension) = $this->getExtensionInformationFromSettings($pathSource);
+        list($extension, $version, $published) = $this->getExtensionInformationFromSettings($pathSource);
         $fileNameExtension = $pathSource.$this->yellow->system->get("updateExtensionFile");
         if (is_file($fileNameExtension) && !empty($extension)) {
             $zip = new ZipArchive();
             $fileNameZipArchive = $pathRepositoryOffical."zip/".strtoloweru("$extension.zip");
             if (is_file($fileNameZipArchive)) $this->yellow->toolbox->deleteFile($fileNameZipArchive);
             if ($zip->open($fileNameZipArchive, ZIPARCHIVE::CREATE)===true) {
-                $modified = 0;
+                $modified = strtotime($published);
                 $fileNamesRequired = $this->getExtensionFileNamesRequired($pathSource);
                 $fileNamesFound = $this->yellow->toolbox->getDirectoryEntriesRecursive($pathSource, "/.*/", true, false);
                 foreach ($fileNamesFound as $fileName) {
                     if (!isset($fileNamesRequired[$fileName])) continue;
+                    if (!$this->yellow->toolbox->modifyFile($fileName, $modified)) {
+                        $statusCode = 500;
+                        echo "ERROR publishing files: Can't write file '$fileName'!\n";
+                    }
                     $fileNameSource = $fileNamesRequired[$fileName];
                     $zip->addFile($fileName, $fileNameSource);
-                    $modified = max($modified, $this->yellow->toolbox->getFileModified($fileName));
                     unset($fileNamesRequired[$fileName]);
                 }
                 if (!empty($fileNamesRequired)) {
