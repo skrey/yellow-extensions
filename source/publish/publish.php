@@ -171,12 +171,11 @@ class YellowPublish {
             $fileNameZipArchive = $pathRepositoryOffical."zip/".strtoloweru("$extension.zip");
             if (is_file($fileNameZipArchive)) $this->yellow->toolbox->deleteFile($fileNameZipArchive);
             if ($zip->open($fileNameZipArchive, ZIPARCHIVE::CREATE)===true) {
-                $modified = strtotime($published);
                 $fileNamesRequired = $this->getExtensionFileNamesRequired($pathSource);
                 $fileNamesFound = $this->yellow->toolbox->getDirectoryEntriesRecursive($pathSource, "/.*/", true, false);
                 foreach ($fileNamesFound as $fileName) {
                     if (!isset($fileNamesRequired[$fileName])) continue;
-                    if (!$this->yellow->toolbox->modifyFile($fileName, $modified)) {
+                    if (!$this->yellow->toolbox->modifyFile($fileName, $published)) {
                         $statusCode = 500;
                         echo "ERROR publishing files: Can't write file '$fileName'!\n";
                     }
@@ -190,7 +189,7 @@ class YellowPublish {
                         echo "ERROR publishing files: Can't find file '$key'!\n";
                     }
                 }
-                if (!$zip->close() || !$this->yellow->toolbox->modifyFile($fileNameZipArchive, $modified)) {
+                if (!$zip->close() || !$this->yellow->toolbox->modifyFile($fileNameZipArchive, $published)) {
                     $statusCode = 500;
                     echo "ERROR publishing files: Can't write file '$fileNameZipArchive'!\n";
                 }
