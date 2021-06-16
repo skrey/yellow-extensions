@@ -12,7 +12,7 @@ Ganz oben auf einer Seite kannst du `Status: draft` in den [Einstellungen](https
 
 ## Wie man Entwurfsseiten wiederfindet
 
-Alle Entwurfsseiten sind auf deiner Webseite vorhanden als `http://website/edit/drafts/`. Du kannst auch die [Search-Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-de.md) benutzen. Sobald du mit deinem Benutzerkonto angemeldet bist, kannst du nach `status: draft` suchen. Auf diese Weise kannst du alle Entwurfsseiten wiederfinden.
+Alle Entwurfsseiten sind auf deiner Webseite vorhanden als `http://website/edit/drafts/`. Du kannst auch die [Search-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-de.md) benutzen. Sobald du mit deinem Benutzerkonto angemeldet bist, kannst du nach `status: draft` suchen. Auf diese Weise kannst du alle Entwurfsseiten wiederfinden.
 
 ## Beispiele
 

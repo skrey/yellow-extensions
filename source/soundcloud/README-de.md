@@ -12,7 +12,7 @@ Erstelle eine `[soundcloud]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
 
-`Id` = letzte Teil eines [Soundcloud](https://soundcloud.com)-Links, z.B. `http://api.soundcloud.com/tracks/101175715`  
+`Id` = der letzte Teil eines [Soundcloud](https://soundcloud.com)-Links, z.B. `http://api.soundcloud.com/tracks/101175715`  
 `Style` = Audiospurstil, z.B. `left`, `center`, `right`  
 `Width` = Audiospurbreite, Pixel oder Prozent  
 `Height` = Audiospurhöhe, Pixel oder Prozent   

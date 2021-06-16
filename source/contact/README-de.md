@@ -14,14 +14,14 @@ Um ein Kontaktformular auf anderen Seiten anzuzeigen, benutze eine `[contact]`-A
 
 ## Wie man eine Kontaktseite beschränkt
 
-Falls du nicht willst dass Nachrichten an beliebige Person geschickt werden, beschränke E-Mails. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `ContactEmailRestriction: 1`. Alle Kontaktnachrichten gehen dann direkt an den Webmaster.
+Falls du nicht willst dass Nachrichten an beliebige Personen geschickt werden, beschränke E-Mails. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `ContactEmailRestriction: 1`. Alle Kontaktnachrichten gehen dann direkt an den Webmaster.
 
 Falls du nicht willst dass Nachrichten mit Links verschickt werden, beschränke Links. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `ContactLinkRestriction: 1`. Kontaktnachrichten dürfen dann keine anklickbare Links enthalten, das blockiert viele unerwünschte Nachrichten. Du kannst ausserdem Stichwörter im Spamfilter einstellen, netterweise schicken viele Spammer die selbe Nachricht mehrfach.
 
 ## Beispiele
 
 
-Kontaktseite mit Einstelungen:
+Kontaktseite mit Einstellungen:
 
     ---
     Title: Kontaktiere einen Menschen

@@ -12,7 +12,7 @@ Erstelle eine `[twitter]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
  
-`Id` = letzte Teil eines [Twitter](https://www.twitter.com)-Links, z.B. `https://twitter.com/dog_feelings/status/1169078881963261953`  
+`Id` = der letzte Teil eines [Twitter](https://www.twitter.com)-Links, z.B. `https://twitter.com/dog_feelings/status/1169078881963261953`  
 `Theme` = Nachrichtenthema, z.B. `light`, `dark`  
 `Style` = Nachrichtenstil, z.B. `left`, `center`, `right`  
 `Width` = Nachrichtenbreite, Pixel oder Prozent  

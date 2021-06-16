@@ -8,7 +8,7 @@ Textformatierung für Menschen.
 
 ## Wie man Text formatiert
 
-Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist der [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
+Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
 
 ## Wie man Abkürzungen benutzt
 

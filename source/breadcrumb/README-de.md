@@ -10,7 +10,7 @@ Brotkrümel-Navigation.
 
 Erstelle eine `[breadcrumb]`-Abkürzung.
 
-Die folgenden Argumente sind verfügbar, alle Argument sind optional:
+Die folgenden Argumente sind verfügbar, alle Argumente sind optional:
  
 `Separator` = Text der zwischen Elementen angezeigt wird  
 `Style` = Brotkrümel-Stil, z.B. `breadcrumb`  

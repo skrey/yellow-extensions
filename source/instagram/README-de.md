@@ -12,7 +12,7 @@ Erstelle eine `[instagram]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
  
-`Id` = mitlere Teil eines [Instagram](https://www.instagram.com)-Links, z.B. `https://www.instagram.com/p/BISN9ngjV2-/?taken-by=rick_ande`  
+`Id` = der mittlere Teil eines [Instagram](https://www.instagram.com)-Links, z.B. `https://www.instagram.com/p/BISN9ngjV2-/?taken-by=rick_ande`  
 `Theme` = Fotothema, momentan nur `light`  
 `Stil` = Fotostil, z.B. `left`, `center`, `right`  
 `Width` = Fotobreite, Pixel oder Prozent  

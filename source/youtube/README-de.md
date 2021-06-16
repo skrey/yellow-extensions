@@ -12,7 +12,7 @@ Erstelle eine `[youtube]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
  
-`Id` = letzte Teil eines [Youtube](https://www.youtube.com)-Links, z.B. `https://www.youtube.com/watch?v=fhs55HEl-Gc`  
+`Id` = der letzte Teil eines [Youtube](https://www.youtube.com)-Links, z.B. `https://www.youtube.com/watch?v=fhs55HEl-Gc`  
 `Style` = Videostil, z.B. `left`, `center`, `right`  
 `Width` = Videobreite, Pixel oder Prozent  
 `Height` = Videohöhe, Pixel oder Prozent   

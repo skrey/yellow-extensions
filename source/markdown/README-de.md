@@ -8,7 +8,7 @@ Textformatierung für Menschen.
 
 ## Wie man Text formatiert
 
-Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist der [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
+Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
 
 ## Wie man Abkürzungen benutzt
 
@@ -124,7 +124,7 @@ HTML benutzen:
 
 ## Einstellungen
 
-Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Eine anderer Parser lässt sich in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown`. 
+Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Parser lässt sich in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown`. 
 
 ## Installation
 

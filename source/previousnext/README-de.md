@@ -2,7 +2,7 @@
 
 Previousnext 0.8.9
 ==================
-Links zu vorherigen/nächsten Seite anzeigen.
+Links zur vorherigen/nächsten Seite anzeigen.
 
 <p align="center"><img src="previousnext-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 

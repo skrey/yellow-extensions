@@ -2,7 +2,7 @@
 
 Install 0.8.49
 ==============
-Installieren Sie eine brandneue, wunderbare Website. 
+Installiere eine brandneue, wunderbare Website. 
 
 <p align="center"><img src="install-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
@@ -10,9 +10,9 @@ Installieren Sie eine brandneue, wunderbare Website.
 
 Zum Installieren entpackt man eine Datei und los geht's. Der Installer überprüft zuerst ob alle Anforderungen erfüllt sind. Dann kann man ein Benutzerkonto anlegen und auswählen welche Art von Webseite man machen möchte. Der Installer löscht sich nachdem er seine Arbeit erledigt hat und deine Webseite ist sofort erreichbar. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
 
-## Wie man ein Installationspakets erstellt
+## Wie man ein Installationspaket erstellt
 
-Ein Installationspakets besteht aus mehreren Erweiterungen, dem Installer und zusätzlichen Dateien. Der Installer besteht aus den Dateien `install.php` und `install-languages.zip`. Du kannst weitere [Erweiterungs-Dateien](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden bei der Installation zur Auswahl angeboten. [Weitere Informationen zum Verpacken von Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md).
+Ein Installationspaket besteht aus mehreren Erweiterungen, dem Installer und zusätzlichen Dateien. Der Installer besteht aus den Dateien `install.php` und `install-languages.zip`. Du kannst weitere [Erweiterungs-Dateien](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden bei der Installation zur Auswahl angeboten. [Weitere Informationen zum Verpacken von Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md).
 
 ## Beispiele
 
