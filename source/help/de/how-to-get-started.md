@@ -1,7 +1,7 @@
 ---
 Title: Wie man loslegt
 ---
-Hier erfährst du, wie du deine Webseite installiert.
+Hier erfährst du, wie du deine Webseite installierst.
 
 ## Installation auf deinem Webserver
 

@@ -13,7 +13,7 @@ Wie man mit uns zusammenarbeitet und nützliche Produkte macht.
 ## Wie man einen Fehler meldet
 
 * [Beginne eine neue Diskussion für jeden Fehler](https://github.com/datenstrom/yellow/discussions).
-* Erkläre wie man den Fehler reproduziert kann, überprüfe ob es jedesmal passiert.
+* Erkläre wie man den Fehler reproduzieren kann, überprüfe ob es jedesmal passiert.
 * Füge viele Details hinzu, überprüfe die Logdatei `system/extensions/yellow.log`.
 * Teste ob alles funktioniert, wenn dein Problem behoben wurde.
 

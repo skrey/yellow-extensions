@@ -1,7 +1,7 @@
 ---
 Title: Wie man ein kleines Blog erstellt
 ---
-Hier erfährst du, wie du dein Blog erstellt.
+Hier erfährst du, wie du dein Blog erstellst.
 
 [toc]
 

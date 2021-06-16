@@ -1,7 +1,7 @@
 ---
 Title: Wie man ein kleines Wiki erstellt
 ---
-Hier erfährst du, wie du dein Wiki erstellt.
+Hier erfährst du, wie du dein Wiki erstellst.
 
 [toc]
 
