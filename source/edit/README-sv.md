@@ -134,7 +134,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `EditUserPasswordMinLength` = minsta längd på lösenord  
 `EditUserHome` = standardplats för hemsidan för nytt användarkonto  
 `EditUserAccess` = standard användarrättigheter för nytt användarkonto  
-`EditLoginRestriction` = aktivera inloggningsbegränsning , 1 eller 0  
+`EditLoginRestriction` = aktivera inloggningsbegränsning, 1 eller 0  
 `EditLoginSessionTimeout` = giltighet av inloggning i sekunder  
 `EditBruteForceProtection` = antal misslyckade inloggningsförsök  
 
