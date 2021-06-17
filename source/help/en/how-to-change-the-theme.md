@@ -5,7 +5,7 @@ Here's how to change the appearance of your website.
 
 ## Customising CSS
 
-To adjust the [CSS](https://www.w3schools.com/css/) of your website change the theme. Let's see how themes work. The default theme is defined in the [system settings](adjusting-system#system-settings). A different theme can be defined in the [settings](markdown-cheat-sheet#settings) at the top of each page, for example `Theme: custom`.
+To adjust the [CSS](https://www.w3schools.com/css/) of your website change the theme. Let's see how themes work. The default theme is defined in the [system settings](how-to-adjust-system#system-settings). A different theme can be defined in the [settings](how-to-adjust-system#settings) at the top of each page, for example `Theme: custom`.
 
 Here's an example file `system/themes/custom.css`:
 

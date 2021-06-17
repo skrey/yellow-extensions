@@ -1,9 +1,41 @@
 ---
-Title: Markdown fusklapp
+Title: Hur man anpassar innehåll
 ---
-Markdown är ett praktiskt sätt att redigera webbsidor.
+Allt innehåll finns i `content` mappen. Du kan redigera din webbplats här.
 
-## Grunderna
+    ├── content
+    │   ├── 1-home
+    │   └── shared
+    ├── media
+    └── system
+
+Dina `content` mapparna finns tillgängliga på din webbplats. Varje mapp har en fil som heter `page.md`. Du kan också lägga till fler filer och mappar. I grund och botten är det du ser i filhanteraren den webbplats du får.
+
+## Filer och mappar
+
+Navigationen skapas automatiskt från dina `content` mappar: 
+
+1. Mappar kan ha ett numeriskt prefix, t.ex. `1-hem` eller `9-om`
+2. Filer kan ha ett numeriskt prefix, t.ex. `2020-04-07-blog-example.md`
+3. Filer och mappar utan prefix har ingen speciell betydelse 
+
+Prefix och suffix tas bort från platsen så att det ser bättre ut. Till exempel är mappen `content/9-about/` tillgänglig på din webbplats som `http://website/about/`. Filen `content/9-about/privacy.md` blir `http://website/about/privacy`.
+
+Det finns två undantag. Den `home` mappen får inte innehålla undermappar, eftersom den är ansvarig för hemsidan och tillgänglig på din webbplats som `http://website/`. Den `shared` mappen får bara inkluderas på andra sidor, den är inte tillgänglig på din webbplats. 
+
+## Markdown
+
+Markdown är ett praktiskt sätt att redigera webbsidor. Öppna filen `content/1-home/page.md` i din favorittextredigerare. Du kommer att se inställningar och text på sidan. Du kan ändra `Title` och andra [inställningar](how-to-adjust-system#settings) högst upp på en sida. Här är ett exempel: 
+
+    ---
+    Title: Hem
+    TitleContent: Din webbplats fungerar!
+    ---
+    [image photo.jpg Exempel rounded]
+
+    [edit - Du kan redigera den här sidan].
+    Hjälpen ger dig mer information om hur du skapar små webbsidor, bloggar och wikier. 
+    [Läs mer](https://datenstrom.se/sv/yellow/help/).
 
 Formatera text:
 
@@ -56,8 +88,6 @@ Lägg till en bild, alternativt format:
     ![image](photo.jpg)
     ![image](photo.jpg "Exempel")
     ![image](photo.jpg "Detta är en exempelbild")
-
-## Extras
 
 Skapa tabeller:
 
@@ -121,9 +151,11 @@ Använd HTML:
 
 ## Förkortningar
 
+Du kan använda förkortningar för att lägga till vanliga funktioner. 
+
 `[image photo.jpg Exempel - 50%]` = [lägg till miniatyrbild](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
-`[gallery photo.*jpg - 20%]` = [lägg till bildgalleri](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
-`[slider photo.*jpg]` = [lägg till bildgalleri med reglaget](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
+`[gallery photo.*jpg - 25%]` = [lägg till bildgalleri](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
+`[slider photo.*jpg loop]` = [lägg till bildgalleri med reglaget](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
 `[youtube fhs55HEl-Gc]` = [bädda in Youtube-video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
 `[soundcloud 101175715]` = [bädda in Soundcloud-audio](https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud)  
 `[twitter datendeveloper]` = [bädda in Twitter-meddelande](https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter)  
@@ -138,28 +170,5 @@ Använd HTML:
 `[edit]` = [redigera webbplats i webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `[toc]` = [visa innehållsförteckning](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)  
 `[--more--]` = [lägg till sidbrytning](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog) 
-
-## Inställningar
-
-`Title` = namn på sidan  
-`TitleContent` = namn på sidan som visas i innehållet  
-`TitleNavigation` = namn på sidan som visas i navigeringen  
-`TitleHeader` = namn på sidan som visas i webbläsaren  
-`TitleSlug` = namn för att spara sidan  
-`Description` = sidans beskrivning  
-`Author` = sidans författare, kommaseparerade  
-`Email` = email av sidans författare  
-`Language` = sidans språk  
-`Layout` = sidans layout  
-`LayoutNew` = sidans layout för att skapa en ny sida  
-`Theme` = sidans tema  
-`Parser` = sidans parser  
-`Status` = status för arbetsflöde  
-`Image` = sidans bild  
-`ImageAlt` = alternativ text för sidans bild  
-`Modified` = sidans ändringsdatum, ÅÅÅÅ-MM-DD format  
-`Published` = sidans publiceringsdatum, ÅÅÅÅ-MM-DD format  
-`Tag` = taggar för kategorisering av sidan, kommaseparerade  
-`Redirect` = omdirigera till en ny sida eller URL  
 
 Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

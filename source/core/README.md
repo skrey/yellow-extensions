@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Core 0.8.45
+Core 0.8.46
 ===========
 Core functionality of the website.
 
@@ -20,9 +20,7 @@ If you want to adjust CSS, then change the theme. The default theme is defined i
 
 ## How to make a multilingual website
 
-Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions#languages). The default language is defined in file `system/extensions/yellow-system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`.
-
-If you want to translate the entire website into multiple languages, then enable the multi language mode. Open file `system/extensions/yellow-system.ini` and change `CoreMultiLanguageMode: 1`. Then you have to adjust the [folder structure](#examples-folders). Go to your `content` folder and create a new folder for each language.
+Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions#languages). The default language is defined in file `system/extensions/yellow-system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`. If you want to translate the entire website into multiple languages, then enable the multi language mode.
 
 If you want to configure languages, then change the language settings. Open file `system/extensions/yellow-language.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
 
@@ -59,58 +57,6 @@ Content file with redirection:
     ---
     This page is redirected to another page.
 
-<a id="examples-folders"></a>Folder structure for normal website:
-
-```
-├── content               = content files
-│   ├── 1-home            = home page
-│   └── shared            = shared files
-├── media                 = media files
-│   ├── downloads         = files to download
-│   ├── images            = image files for content
-│   └── thumbnails        = image thumbnails for content
-└── system                = system files
-    ├── extensions        = extension files and settings
-    ├── layouts           = configurable layout files
-    ├── themes            = configurable theme files
-    └── trash             = deleted files
-```
-
-Folder structure for multilingual website:
-
-```
-├── content               
-│   ├── 1-en              
-│   │   ├── 1-home        = http://website/
-│   │   └── shared    
-│   ├── 2-de              
-│   │   ├── 1-home        = http://website/de/
-│   │   └── shared    
-│   └── 3-fr              
-│       ├── 1-home        = http://website/fr/
-│       └── shared    
-├── media                 
-└── system                
-```
-
-Folder structure for multilingual website, with automatic language detection:
-
-```
-├── content               
-│   ├── 1-en              
-│   │   ├── 1-home        = http://website/en/
-│   │   └── shared    
-│   ├── 2-de              
-│   │   ├── 1-home        = http://website/de/
-│   │   └── shared    
-│   ├── 3-fr              
-│   │   ├── 1-home        = http://website/fr/
-│   │   └── shared    
-│   └── default           = http://website/       
-├── media                 
-└── system                
-```
-
 ## Settings
 
 The following settings can be configured at the top of a page:
@@ -123,10 +69,10 @@ The following settings can be configured at the top of a page:
 `Description` = page description  
 `Author` = page author(s), comma separated  
 `Email` = email of page author  
+`Theme` = page theme  
 `Language` = page language  
 `Layout` = page layout  
 `LayoutNew` = page layout for creating a new page  
-`Theme` = page theme  
 `Parser` = page parser  
 `Status` = page status, [supported status values](#settings-status)  
 `Redirect` = redirect to another page or URL  
@@ -143,9 +89,9 @@ The following settings can be configured at the top of a page:
 `Sitename` = name of the website  
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
+`Theme` = default theme  
 `Language` = default language  
 `Layout` = default layout  
-`Theme` = default theme  
 `Parser` = default page parser  
 `Status` = default page status, [supported status values](#settings-status)  
 `CoreStaticUrl` = URL of the static website  

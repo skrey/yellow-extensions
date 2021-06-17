@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-Core 0.8.45
+Core 0.8.46
 ===========
 Kernfunktionalität der Webseite.
 
@@ -20,9 +20,7 @@ Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der D
 
 ## Wie man eine mehrsprachige Webseite macht
 
-Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) installieren. Die Standardsprache wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`.
-
-Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `CoreMultiLanguageMode: 1`. Danach musst du die [Verzeichnisstruktur](#beispiele-folders) anpassen. Gehe ins `content`-Verzeichnis und erstelle ein neues Verzeichnis für jede Sprache.
+Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) installieren. Die Standardsprache wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`. Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus.
 
 Falls du Sprachen anpassen willst, ändere die Spracheinstellungen. Öffne die Datei `system/extensions/yellow-language.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Spracheinstellungen hinzufügen, beispielsweise Bildunterschriften.
 
@@ -59,58 +57,6 @@ Inhaltsdatei mit Weiterleitung:
     ---
     Diese Seite wird zu einer anderen Seite weitergeleitet.
 
-<a id="beispiele-folders"></a>Verzeichnisstruktur für normale Webseite:
-
-```
-├── content               = Inhaltsdateien
-│   ├── 1-home            = Startseite
-│   └── shared            = geteilte Dateien
-├── media                 = Mediendateien
-│   ├── downloads         = Dateien zum Herunterladen
-│   ├── images            = Bilder für den Inhalt
-│   └── thumbnails        = Miniaturbilder für den Inhalt
-└── system                = Systemdateien
-    ├── extensions        = Erweiterungsdateien und Einstellungen
-    ├── layouts           = konfigurierbare Layoutdateien
-    ├── themes            = konfigurierbare Themendateien
-    └── trash             = gelöschte Dateien
-```
-
-Verzeichnisstruktur für mehrsprachige Webseite:
-
-```
-├── content               
-│   ├── 1-en              
-│   │   ├── 1-home        = http://website/
-│   │   └── shared    
-│   ├── 2-de              
-│   │   ├── 1-home        = http://website/de/
-│   │   └── shared    
-│   └── 3-fr              
-│       ├── 1-home        = http://website/fr/
-│       └── shared    
-├── media                 
-└── system                
-```
-
-Verzeichnisstruktur für mehrsprachige Webseite, mit automatischer Spracherkennung:
-
-```
-├── content               
-│   ├── 1-en              
-│   │   ├── 1-home        = http://website/en/
-│   │   └── shared    
-│   ├── 2-de              
-│   │   ├── 1-home        = http://website/de/
-│   │   └── shared    
-│   ├── 3-fr              
-│   │   ├── 1-home        = http://website/fr/
-│   │   └── shared    
-│   └── default           = http://website/
-├── media                 
-└── system                
-```
-
 ## Einstellungen
 
 Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden:
@@ -123,10 +69,10 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Description` = Beschreibung der Seite  
 `Author` = Autoren der Seite, durch Komma getrennt  
 `Email` = E-Mail des Seitenautors  
+`Theme` = Thema der Seite  
 `Language` = Sprache der Seite  
 `Layout` = Layout der Seite  
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
-`Theme` = Thema der Seite  
 `Parser` = Parser der Seite  
 `Status` = Status der Seite, [unterstützte Statuswerte](#einstellungen-status)  
 `Redirect` = Weiterleitung zu einer anderen Seite oder URL  
@@ -143,9 +89,9 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Sitename` = Name der Webseite  
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
+`Theme` = Standard-Thema  
 `Language` = Standard-Sprache  
 `Layout` = Standard-Layout  
-`Theme` = Standard-Thema  
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
 `CoreStaticUrl` = URL der statischen Webseite  

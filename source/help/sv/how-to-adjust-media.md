@@ -1,6 +1,8 @@
 ---
-Title: Adjusting media 
+Title: Hur man anpassar medier
 ---
+!!! Den här sidan finns inte på ditt språk. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
+
 All media is located in the `media` folder. You can store your images and other files here.
 
     ├── content

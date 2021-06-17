@@ -1,9 +1,41 @@
 ---
-Title: Markdown cheat sheet
+Title: How to adjust content 
 ---
-Markdown is a practical way to edit web pages.
+All content is located in the `content` folder. You can edit your website here.
 
-## Basics
+    ├── content
+    │   ├── 1-home
+    │   └── shared
+    ├── media
+    └── system
+
+The `content` folders are available on your website. Every folder has a file called `page.md`. You can also add more files and folders. Basically, what you see in the file manager is the website you get.
+
+## Files and folders
+
+The navigation is automatically created from your `content` folders:
+
+1. Folders can have a numerical prefix, e.g. `1-home` or `9-about`
+2. Files can have a numerical prefix, e.g. `2020-04-07-blog-example.md`
+3. Files and folders without a prefix have no special meaning
+
+Prefix and suffix are removed from the location, so that it looks better. For example the folder `content/9-about/` is available on your website as `http://website/about/`. The file `content/9-about/privacy.md` becomes `http://website/about/privacy`. 
+
+There are two exception. The `home` folder must not contain subfolders, because it's responsible for the home page and available on your website as `http://website/`. The `shared` folder may only be included in other pages, it's not available on your website.
+
+## Markdown
+
+Markdown is a practical way to edit web pages. Open the file `content/1-home/page.md` in your favorite text editor. You'll see settings and text of the page. You can change `Title` and other [settings](how-to-adjust-system#settings) at the top of a page. Here's an example:
+
+    ---
+    Title: Home
+    TitleContent: Your website works!
+    ---
+    [image photo.jpg Example rounded]
+    
+    [edit - You can edit this page]. 
+    The help gives you more information about how to create small web pages, blogs and wikis. 
+    [Learn more](https://datenstrom.se/yellow/help/).
 
 Formatting text:
 
@@ -56,8 +88,6 @@ Adding an image, alternative format:
     ![image](photo.jpg)
     ![image](photo.jpg "Example")
     ![image](photo.jpg "This is an example image")
-
-## Extras
 
 Making tables:
 
@@ -121,9 +151,11 @@ Using HTML:
 
 ## Shortcuts
 
+You can use shortcuts to add common features.
+
 `[image photo.jpg Example - 50%]` = [add image thumbnail](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
-`[gallery photo.*jpg - 20%]` = [add image gallery](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
-`[slider photo.*jpg]` = [add image gallery with slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
+`[gallery photo.*jpg - 25%]` = [add image gallery](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
+`[slider photo.*jpg loop]` = [add image gallery with slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
 `[youtube fhs55HEl-Gc]` = [embed Youtube video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
 `[soundcloud 101175715]` = [embed Soundcloud audio](https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud)  
 `[twitter datendeveloper]` = [embed Twitter messages](https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter)  
@@ -138,28 +170,5 @@ Using HTML:
 `[edit]` = [edit website in web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `[toc]` = [show table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)  
 `[--more--]` = [add page break](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog) 
-
-## Settings
-
-`Title` = page title  
-`TitleContent` = page title shown in content  
-`TitleNavigation` = page title shown in navigation  
-`TitleHeader` = page title shown in web browser  
-`TitleSlug` = page title used for saving the page  
-`Description` = page description  
-`Author` = page author(s), comma separated  
-`Email` = email of page author  
-`Language` = page language  
-`Layout` = page layout  
-`LayoutNew` = page layout for creating a new page  
-`Theme` = page theme  
-`Parser` = page parser  
-`Status` = status for workflow  
-`Image` = page image  
-`ImageAlt` = alternative text for page image  
-`Modified` = page modification date, YYYY-MM-DD format  
-`Published` = page publication date, YYYY-MM-DD format  
-`Tag` = page tag(s) for categorisation, comma separated  
-`Redirect` = redirect to a new page or URL  
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

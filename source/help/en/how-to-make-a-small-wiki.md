@@ -11,7 +11,7 @@ Learn how to make your wiki.
 
 ## Writing wiki pages
 
-Let's see how to edit wiki pages on the computer. Have a look inside your `content` folder, here's  the wiki folder with all your wiki pages. Open the file `wiki-page.md`. You'll see settings and text of the page. You can change `Title` and other [settings](markdown-cheat-sheet#settings) at the top of a page. Below that you can use [Markdown](markdown-cheat-sheet). Here's an example:
+Let's see how to edit wiki pages on the computer. Have a look inside your `content` folder, here's  the wiki folder with all your wiki pages. Open the file `wiki-page.md`. You'll see settings and text of the page. You can change `Title` and other [settings](how-to-adjust-system#settings) at the top of a page. Below that you can use [Markdown](how-to-adjust-content#markdown). Here's an example:
 
 ```
 ---

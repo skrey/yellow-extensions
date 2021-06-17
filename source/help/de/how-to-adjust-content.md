@@ -1,9 +1,41 @@
 ---
-Title: Markdown-Spickzettel
+Title: Wie man den Inhalt anpasst
 ---
-Markdown ist eine praktische Art um Webseiten zu bearbeiten.
+Alle Inhalte befinden sich im `content`-Verzeichnis. Hier bearbeitet man seine Webseite. 
 
-## Grundlagen
+    ├── content
+    │   ├── 1-home
+    │   └── shared
+    ├── media
+    └── system
+
+Die `content`-Verzeichnisse stehen auf deiner Webseite zur Verfügung. In jedem Verzeichnis gibt es eine Datei mit Namen `page.md`. Man kann auch weitere Dateien und Verzeichnisse hinzufügen. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst.
+
+## Dateien und Verzeichnisse
+
+Die Navigation wird automatisch aus deinen `content`-Verzeichnissen erstellt:
+
+1. Verzeichnisse können ein numerisches Präfix haben, z.B. `1-home` oder `9-about`
+2. Dateien können ein numerisches Präfix haben, z.B. `2020-04-07-blog-example.md`
+3. Dateien und Verzeichnisse ohne Präfix haben keine besondere Bedeutung
+
+Präfixe und Suffixe werden aus der Adresse entfernt, damit es besser aussieht. Zum Beispiel ist das Verzeichnis `content/9-about/` vorhanden als `http://website/about/`. Die Datei `content/9-about/privacy.md` wird zu `http://website/about/privacy`.
+
+Es gibt zwei Ausnahmen. Das `home`-Verzeichnis darf keine Unterverzeichnisse besitzen, da es für die Startseite verantwortlich ist und vorhanden als `http://website/`. Das `shared`-Verzeichnis darf nur in andere Seiten eingebunden werden, es ist nicht auf der Webseite vorhanden.
+
+## Markdown
+
+Markdown ist eine praktische Art um Webseiten zu bearbeiten. Probier es einfach mal aus. Öffne die Datei `content/1-home/page.md`. Es werden Einstellungen und Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und weitere [Einstellungen](how-to-adjust-system#einstellungen) ändern. Hier ist ein Beispiel:
+
+    ---
+    Title: Startseite
+    TitleContent: Deine Webseite funktioniert!
+    ---
+    [image photo.jpg Beispiel rounded]
+    
+    [edit - Du kannst diese Seite bearbeiten]. 
+    Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. 
+    [Weitere Informationen](https://datenstrom.se/de/yellow/help/).
 
 Text formatieren:
 
@@ -56,8 +88,6 @@ Ein Bild hinzufügen, alternatives Format:
     ![image](photo.jpg)
     ![image](photo.jpg "Beispiel")
     ![image](photo.jpg "Dies ist ein Beispielbild")
-
-## Extras
 
 Tabellen erstellen:
 
@@ -121,9 +151,11 @@ HTML benutzen:
 
 ## Abkürzungen
 
+Du kannst Abkürzungen benutzen um häufige Funktionen hinzuzufügen.
+
 `[image photo.jpg Beispiel - 50%]` = [Miniaturbild hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md)  
-`[gallery photo.*jpg - 20%]` = [Bildergalerie hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md)  
-`[slider photo.*jpg]` = [Bildergalerie mit Schieber hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md)  
+`[gallery photo.*jpg - 25%]` = [Bildergalerie hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md)  
+`[slider photo.*jpg loop]` = [Bildergalerie mit Schieber hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md)  
 `[youtube fhs55HEl-Gc]` = [Youtube-Video einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md)  
 `[soundcloud 101175715]` = [Soundcloud-Audio einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud/README-de.md)  
 `[twitter datendeveloper]` = [Twitter-Nachrichten einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter/README-de.md)  
@@ -138,28 +170,5 @@ HTML benutzen:
 `[edit]` = [Webseite im Webbrowser bearbeiten](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 `[toc]` = [Inhaltsverzeichnis anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md)  
 `[--more--]` = [Seitenumbruch hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md)  
-
-## Einstellungen
-
-`Title` = Seitentitel  
-`TitleContent` = Seitentitel der im Inhalt angezeigt wird  
-`TitleNavigation` = Seitentitel der in der Navigation angezeigt wird  
-`TitleHeader` = Seitentitel der im Webbrowser angezeigt wird  
-`TitleSlug` = Seitentitel zum Speichern der Seite  
-`Description` = Beschreibung der Seite  
-`Author` = Autoren der Seite, durch Komma getrennt  
-`Email` = E-Mail des Seitenautors  
-`Language` = Sprache der Seite  
-`Layout` = Layout der Seite  
-`LayoutNew` = Layout um eine neue Seite zu erzeugen  
-`Theme` = Thema der Seite  
-`Parser` = Parser der Seite  
-`Status` = Status für Arbeitsablauf  
-`Image` = Bild der Seite  
-`ImageAlt` = Alternative Bildbeschreibung der Seite  
-`Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
-`Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
-`Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
-`Redirect` = Umleitung zu einer neuen Seite oder URL  
 
 Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

@@ -16,7 +16,7 @@ Du kan testa din webbplats med inbyggda webbservern. Detta är praktiskt för ut
 
 ## Hur man bygger en statisk webbplats
 
-Du kan bygga en statisk webbplats som fungerar på flesta webbservrar. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php build`, du kan valfritt ange en mapp och en plats. Detta kommer att bygga en statisk webbplats i `public`-mappen. Ladda upp den statiska webbplatsen till din webbserver och bygg en ny när det behövs. För att söka efter trasiga länkar skriv: `php yellow.php check`. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
+Du kan bygga en statisk webbplats som fungerar på flesta webbservrar. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php build`, du kan valfritt ange en mapp och en plats. Detta kommer att bygga en statisk webbplats i `public` mappen. Ladda upp den statiska webbplatsen till din webbserver och bygg en ny när det behövs. För att söka efter trasiga länkar skriv: `php yellow.php check`. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
 
 Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [inställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) högst upp på en sida.
 
@@ -92,7 +92,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 ## Installation
 
-[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) och kopiera zip-fil till din mapp `system/extensions`. Högerklicka om du använder Safari.
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/command.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
 ## Utvecklare
 

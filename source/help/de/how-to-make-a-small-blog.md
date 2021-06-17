@@ -11,7 +11,7 @@ Hier erfährst du, wie du dein Blog erstellst.
  
 ## Blogseiten bearbeiten
 
-Lass uns ausprobieren wie man Blogseiten auf dem Computer bearbeitet. Schau dir das `content`-Verzeichnis an, dort befindet sich das Blogverzeichnis mit allen Blogseiten. Öffne die Datei `2020-04-07-blog-example.md`. Es werden Einstellungen und der Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Einstellungen](markdown-cheat-sheet#einstellungen) ändern. Darunter kannst du [Markdown](markdown-cheat-sheet) benutzen. Hier ist ein Beispiel:
+Lass uns ausprobieren wie man Blogseiten auf dem Computer bearbeitet. Schau dir das `content`-Verzeichnis an, dort befindet sich das Blogverzeichnis mit allen Blogseiten. Öffne die Datei `2020-04-07-blog-example.md`. Es werden Einstellungen und der Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Einstellungen](how-to-adjust-system#einstellungen) ändern. Darunter kannst du [Markdown](how-to-adjust-content#markdown) benutzen. Hier ist ein Beispiel:
 
 ```
 ---

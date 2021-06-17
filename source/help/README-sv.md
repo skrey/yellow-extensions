@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Help 0.8.18
+Help 0.8.19
 ===========
 Hjälp för din webbplats.
 
@@ -16,7 +16,7 @@ Om du vill redigera hjälpen i en [webbläsare](https://github.com/datenstrom/ye
 
 ## Installation
 
-[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/help.zip) och kopiera zip-fil till din mapp `system/extensions`. Högerklicka om du använder Safari.
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/help.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
 Tillägget innehåller en [bild](https://unsplash.com/photos/azsk_6IMT3I) av Bruno Cervera.
 

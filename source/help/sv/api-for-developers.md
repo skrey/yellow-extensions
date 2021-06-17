@@ -46,28 +46,28 @@ With the help of `$this->yellow` you can access the website. The API is divided 
 Yellow page gives access to current page:
 
 **page->get($key)**  
-Return [page setting](markdown-cheat-sheet#settings) 
+Return [page setting](how-to-adjust-system#settings) 
 
 **page->getHtml($key)**  
-Return [page setting](markdown-cheat-sheet#settings), HTML encoded  
+Return [page setting](how-to-adjust-system#settings), HTML encoded  
 
 **page->getDate($key, $format = "")**  
-Return [page setting](markdown-cheat-sheet#settings) as [language specific date](adjusting-system#language-settings)  
+Return [page setting](how-to-adjust-system#settings) as [language specific date](how-to-adjust-system#language-settings)  
 
 **page->getDateHtml($key, $format = "")**  
-Return [page setting](markdown-cheat-sheet#settings) as [language specific date](adjusting-system#language-settings), HTML encoded  
+Return [page setting](how-to-adjust-system#settings) as [language specific date](how-to-adjust-system#language-settings), HTML encoded  
 
 **page->getDateRelative($key, $format = "", $daysLimit = 30)**  
-Return [page setting](markdown-cheat-sheet#settings) as [language specific date](adjusting-system#language-settings), relative to today
+Return [page setting](how-to-adjust-system#settings) as [language specific date](how-to-adjust-system#language-settings), relative to today
 
 **page->getDateRelativeHtml($key, $format = "", $daysLimit = 30)**  
-Return [page setting](markdown-cheat-sheet#settings) as [language specific date](adjusting-system#language-settings), relative to today, HTML encoded
+Return [page setting](how-to-adjust-system#settings) as [language specific date](how-to-adjust-system#language-settings), relative to today, HTML encoded
 
 **page->getDateFormatted($key, $format)**  
-Return [page setting](markdown-cheat-sheet#settingsmarkdown-cheat-sheet#settings) as [date](https://www.php.net/manual/en/function.date.php)  
+Return [page setting](show-to-adjust-system#settings) as [date](https://www.php.net/manual/en/function.date.php)  
 
 **page->getDateFormattedHtml($key, $format)**  
-Return [page setting](markdown-cheat-sheet#settings) as [date](https://www.php.net/manual/en/function.date.php), HTML encoded  
+Return [page setting](how-to-adjust-system#settings) as [date](https://www.php.net/manual/en/function.date.php), HTML encoded  
 
 **page->getContent($rawFormat = false, $sizeMax = 0)**  
 Return page content, HTML encoded or raw format
@@ -145,7 +145,7 @@ Check if page is cacheable
 Check if page with error
 
 **page->isExisting($key)**  
-Check if [page setting](markdown-cheat-sheet#settings) exists  
+Check if [page setting](how-to-adjust-system#settings) exists  
 
 **page->isRequest($key)**  
 Check if request argument exists
@@ -202,13 +202,13 @@ Here's an example layout for showing page content and modification date:
 Yellow page collection gives access to multiple pages:
 
 **pages->filter($key, $value, $exactMatch = true)**  
-Filter page collection by [page setting](markdown-cheat-sheet#settings)
+Filter page collection by [page setting](how-to-adjust-system#settings)
 
 **pages->match($regex = "/.*/")**  
 Filter page collection by file name
 
 **pages->sort($key, $ascendingOrder = true)**  
-Sort page collection by [page setting](markdown-cheat-sheet#settings)
+Sort page collection by [page setting](how-to-adjust-system#settings)
 
 **pages->similar($page, $ascendingOrder = false)**  
 Sort page collection by settings similarity
@@ -481,22 +481,22 @@ Here's an example layout for showing media files of a specific type:
 Yellow system gives access to system settings:
 
 **system->get($key)**  
-Return [system setting](adjusting-system#system-settings)
+Return [system setting](how-to-adjust-system#system-settings)
 
 **system->getHtml($key)**  
-Return [system setting](adjusting-system#system-settings), HTML encoded
+Return [system setting](how-to-adjust-system#system-settings), HTML encoded
 
 **system->getSettings($filterStart = "", $filterEnd = "")**  
-Return [system settings](adjusting-system#system-settings)
+Return [system settings](how-to-adjust-system#system-settings)
 
 **system->getValues($key)**  
-Return supported values for [system setting](adjusting-system#system-settings), empty if not known
+Return supported values for [system setting](how-to-adjust-system#system-settings), empty if not known
 
 **system->getModified($httpFormat = false)**  
-Return [system settings](adjusting-system#system-settings) modification date, Unix time or HTTP format
+Return [system settings](how-to-adjust-system#system-settings) modification date, Unix time or HTTP format
 
 **system->isExisting($key)**  
-Check if [system setting](adjusting-system#system-settings) exists
+Check if [system setting](how-to-adjust-system#system-settings) exists
 
 Here's an example layout for showing webmaster:
 
@@ -552,19 +552,19 @@ Here's an example layout for showing core settings:
 Yellow user gives access to user settings:
 
 **user->getUser($key, $email = "")**  
-Return [user setting](adjusting-system#user-settings)
+Return [user setting](how-to-adjust-system#user-settings)
 
 **user->getUserHtml($key, $email = "")**  
-Return [user setting](adjusting-system#user-settings), HTML encoded
+Return [user setting](how-to-adjust-system#user-settings), HTML encoded
 
 **user->getSettings($email = "")**  
-Return [user settings](adjusting-system#user-settings)
+Return [user settings](how-to-adjust-system#user-settings)
 
 **user->getModified($httpFormat = false)**  
-Return [user settings](adjusting-system#user-settings) modification date, Unix time or HTTP format
+Return [user settings](how-to-adjust-system#user-settings) modification date, Unix time or HTTP format
 
 **user->isUser($key, $email = "")**  
-Check if [user setting](adjusting-system#user-settings) exists
+Check if [user setting](how-to-adjust-system#user-settings) exists
 
 **user->isExisting($email)**  
 Check if user exists
@@ -622,19 +622,19 @@ Here's an example layout for showing users and their status:
 Yellow language gives access to language settings:
 
 **language->getText($key, $language = "")**  
-Return [language setting](adjusting-system#language-settings)
+Return [language setting](how-to-adjust-system#language-settings)
 
 **language->getTextHtml($key, $language = "")**  
-Return [language setting](adjusting-system#language-settings), HTML encoded
+Return [language setting](how-to-adjust-system#language-settings), HTML encoded
 
 **language->getSettings($filterStart = "", $filterEnd = "", $language = "")**  
-Return [language settings](adjusting-system#language-settings)
+Return [language settings](how-to-adjust-system#language-settings)
 
 **language->getModified($httpFormat = false)**  
-Return [language settings](adjusting-system#language-settings) modification date, Unix time or HTTP format
+Return [language settings](how-to-adjust-system#language-settings) modification date, Unix time or HTTP format
 
 **language->isText($key, $language = "")**  
-Check if [language setting](adjusting-system#language-settings) exists
+Check if [language setting](how-to-adjust-system#language-settings) exists
 
 **language->isExisting($language)**  
 Check if language exists
@@ -888,7 +888,7 @@ Handle update
 Handle request
 
 **public function onParseMeta($page)**  
-Handle [page meta data](markdown-cheat-sheet#settings)
+Handle [page meta data](how-to-adjust-system#settings)
 
 **public function onParseContentRaw($page, $text)**  
 Handle page content in raw format

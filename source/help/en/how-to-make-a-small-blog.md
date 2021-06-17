@@ -11,7 +11,7 @@ Learn how to make your blog.
 
 ## Edit blog pages
 
-Let's see how to edit blog pages on the computer. Have a look inside your `content` folder, here's the blog folder with all your blog pages. Open the file `2020-04-07-blog-example.md`. You'll see settings and text of the page. You can change `Title` and other [settings](markdown-cheat-sheet#settings) at the top of a page. Below that you can use [Markdown](markdown-cheat-sheet). Here's an example:
+Let's see how to edit blog pages on the computer. Have a look inside your `content` folder, here's the blog folder with all your blog pages. Open the file `2020-04-07-blog-example.md`. You'll see settings and text of the page. You can change `Title` and other [settings](how-to-adjust-system#settings) at the top of a page. Below that you can use [Markdown](how-to-adjust-content#markdown). Here's an example:
 
 ```
 ---

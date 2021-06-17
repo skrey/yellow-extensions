@@ -5,7 +5,7 @@ Wie man das Aussehen seiner Webseite ändert.
 
 ## CSS anpassen
 
-Um das [CSS](https://www.w3schools.com/css/) deiner Webseite anzupassen, ändere das Thema. Das Standardthema wird in den [Systemeinstellungen](adjusting-system#systemeinstellungen) festgelegt. Ein anderes Thema lässt sich in den [Einstellungen](markdown-cheat-sheet#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: custom`. 
+Um das [CSS](https://www.w3schools.com/css/) deiner Webseite anzupassen, ändere das Thema. Das Standardthema wird in den [Systemeinstellungen](how-to-adjust-system#systemeinstellungen) festgelegt. Ein anderes Thema lässt sich in den [Einstellungen](how-to-adjust-system#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: custom`. 
 
 Hier ist eine Beispiel-Datei `system/themes/custom.css`:
 
