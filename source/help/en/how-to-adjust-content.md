@@ -154,7 +154,7 @@ Using HTML:
 You can use shortcuts to add common features.
 
 `[image photo.jpg Example - 50%]` = [add image thumbnail](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
-`[gallery photo.*jpg - 25%]` = [add image gallery](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
+`[gallery photo.*jpg - 25%]` = [add image gallery with popup](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
 `[slider photo.*jpg loop]` = [add image gallery with slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
 `[youtube fhs55HEl-Gc]` = [embed Youtube video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
 `[soundcloud 101175715]` = [embed Soundcloud audio](https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud)  

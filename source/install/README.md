@@ -8,11 +8,11 @@ Install a brand new, shiny website.
 
 ## How to install a website
 
-Installing is unzipping one file and you are ready to go. The installer first checks whether all requirements have been met. Then you can create a user account and choose what kind of website you want to make. The installer will delete itself after it has done its work and your website is immediately available. [Learn more about installation](https://datenstrom.se/yellow/help/how-to-get-started).
+Installing is unzipping one file and you are ready to go. The installer first checks whether all requirements have been met, for example whether the web server is working properly. Then you can create a user account and choose what kind of website you want to make. The installer will delete itself after it has done its work. [Learn more about installation](https://datenstrom.se/yellow/help/how-to-get-started).
 
 ## How to make an installation package
 
-An installation package consists of several extensions, the installer and additional files. The installer consists of the files `install.php` and ` install-languages.zip`. You can download more [extension files](https://github.com/datenstrom/yellow-extensions/tree/master/zip), rename and copy them into your `system/extensions` folder. They are offered as an option during installation. [Learn more about packaging extensions](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish).
+An installation package consists of the installer, extensions and additional files. The installer consists of the files `install.php` and ` install-languages.zip`. You can download [extensions](https://github.com/datenstrom/yellow-extensions/tree/master/zip), rename and copy them into your `system/extensions` folder. They are offered as an option during installation. [Learn more about packaging extensions](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish).
 
 ## Examples
 
@@ -56,7 +56,7 @@ The extension settings can be found in file `system/extensions/update-current.in
 
 ## Installation
 
-This extension is part of a bigger installation package.
+This extension is part of a installation package.
 
 ## Developer
 

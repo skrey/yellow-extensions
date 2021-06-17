@@ -154,7 +154,7 @@ Använd HTML:
 Du kan använda förkortningar för att lägga till vanliga funktioner. 
 
 `[image photo.jpg Exempel - 50%]` = [lägg till miniatyrbild](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
-`[gallery photo.*jpg - 25%]` = [lägg till bildgalleri](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
+`[gallery photo.*jpg - 25%]` = [lägg till bildgalleri med popup](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
 `[slider photo.*jpg loop]` = [lägg till bildgalleri med reglaget](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
 `[youtube fhs55HEl-Gc]` = [bädda in Youtube-video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
 `[soundcloud 101175715]` = [bädda in Soundcloud-audio](https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud)  

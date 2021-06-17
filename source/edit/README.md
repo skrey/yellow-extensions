@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Edit 0.8.50
 ===========
@@ -8,9 +8,7 @@ Edit your website in a web browser.
 
 ## How to edit a website in a web browser
 
-The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. You can use an `[edit]` shortcut to show an edit link.
-
-Check if your website supports data encryption. It's best if the Internet connection is always encrypted with HTTPS. When there are problems, please contact your web hosting provider.
+The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It's a great way to update your website. You can use an `[edit]` shortcut to show an edit link. It's best if the Internet connection is always encrypted with HTTPS. If this is not possible, please contact your web hosting provider.
 
 ## How to create a user account
 
@@ -46,6 +44,7 @@ Configuring a user account with maximum user access rights:
 ```
 Email: anna@svensson.com
 Name: Anna Svensson
+Description: Designer
 Language: en
 Home: /
 Access: create, edit, delete, restore, upload, configure, update
@@ -62,6 +61,7 @@ Configuring a user account with default user access rights:
 ```
 Email: english@example.com
 Name: Niklas Svensson
+Description: Editor
 Language: en
 Home: /
 Access: create, edit, delete, restore, upload
@@ -78,6 +78,7 @@ Configuring a user account with restricted user access rights:
 ```
 Email: english@example.com
 Name: Demo
+Description: For testing website
 Language: en
 Home: /demo/
 Access: edit, upload
@@ -149,7 +150,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 <a id="settings-user"></a>The following settings can be configured in file `system/extensions/yellow-user.ini`:
 
 `Email` = email of the user  
-`Name` =  name of the user  
+`Name` = name of the user  
+`Description` = description of the user  
 `Language` = language of the user  
 `Home` = home page location  
 `Access` = user access rights, [supported access rights](#settings-access)  
@@ -162,7 +164,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 <a id="settings-access"></a>The following user access rights are supported:
 
-`create` =  user can create page  
+`create` = user can create page  
 `edit` = user can edit page  
 `delete` = user can delete page  
 `restore` = user can restore deleted page  

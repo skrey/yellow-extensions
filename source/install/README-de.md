@@ -8,11 +8,11 @@ Installiere eine brandneue, wunderbare Website.
 
 ## Wie man eine Webseite installiert
 
-Zum Installieren entpackt man eine Datei und los geht's. Der Installer überprüft zuerst ob alle Anforderungen erfüllt sind. Dann kann man ein Benutzerkonto anlegen und auswählen welche Art von Webseite man machen möchte. Der Installer löscht sich nachdem er seine Arbeit erledigt hat und deine Webseite ist sofort erreichbar. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
+Zum Installieren entpackt man eine Datei und los geht's. Der Installer überprüft zuerst ob alle Anforderungen erfüllt sind, zum Beispiel ob der Webserver funktioniert. Dann kann man ein Benutzerkonto anlegen und auswählen welche Art von Webseite man machen möchte. Der Installer löscht sich nachdem er seine Arbeit erledigt hat. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
 
 ## Wie man ein Installationspaket erstellt
 
-Ein Installationspaket besteht aus mehreren Erweiterungen, dem Installer und zusätzlichen Dateien. Der Installer besteht aus den Dateien `install.php` und `install-languages.zip`. Du kannst weitere [Erweiterungs-Dateien](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden bei der Installation zur Auswahl angeboten. [Weitere Informationen zum Verpacken von Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md).
+Ein Installationspaket besteht aus dem Installer, Erweiterungen und zusätzlichen Dateien. Der Installer besteht aus den Dateien `install.php` und `install-languages.zip`. Du kannst [Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden dann bei der Installation zur Auswahl angeboten. [Weitere Informationen zum Verpacken von Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md).
 
 ## Beispiele
 
@@ -54,7 +54,7 @@ Die Erweiterungseinstellungen findet man in der Datei `system/extensions/update-
 
 ## Installation
 
-Diese Erweiterung ist Teil eines größeren Installationspakets.
+Diese Erweiterung ist Teil eines Installationspakets.
 
 ## Entwickler
 

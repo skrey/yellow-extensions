@@ -10,7 +10,7 @@ Command line of the website.
 
 Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the current version and extensions. If you don't have PHP on your computer, [see PHP installation](https://www.php.net/manual/en/install.php).
 
-## How to use the built-in web server
+## How to start the built-in web server
 
 You can test your website with the built-in web server. This is handy for developers, since everything runs on your own computer. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php serve`, you can optionally add a folder and a URL. Open a web browser and go to `http://localhost:8000/`.
 

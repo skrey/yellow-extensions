@@ -10,7 +10,7 @@ Webbplatsens kommandorad.
 
 Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandon. De tillgängliga kommandona beror på installerade tillägg. Skriv `php yellow.php about` för att visa aktuella versionen och tillägg. Om du inte har PHP på din dator, [se PHP-installation](https://www.php.net/manual/en/install.php).
 
-## Hur man använder inbyggda webbservern
+## Hur man startar inbyggda webbservern
 
 Du kan testa din webbplats med inbyggda webbservern. Detta är praktiskt för utvecklare, eftersom allt körs på din egen dator. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php serve`, du kan valfritt ange en mapp och en URL. Öppna en webbläsare och gå till `http://localhost:8000/`.
 
@@ -72,7 +72,7 @@ Använd kommandoraden, översikt över tillgängliga kommandon:
 `php yellow.php traffic` = Skapa trafikanalys, [kräver traffic-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
 `php yellow.php uninstall` = Ta bort tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php user` = Uppdatera användarkonton, [kräver edit-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+`php yellow.php user` = Uppdatera användarkonton, [kräver edit-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  
 
 Förhindra att en sida byggs:
 

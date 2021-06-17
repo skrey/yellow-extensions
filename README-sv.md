@@ -34,7 +34,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Visa Disqus-kommentarer på bloggen. Utvecklad av Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft): 
   Stöd för draftsidor. Utvecklad av Datenstrom.
-* [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit): 
+* [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md): 
   Redigera din webbplats i en webbläsare. Utvecklad av Datenstrom.
 * [Emojiawesome](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome): 
   Massor och massor av emoji. Utvecklad av Datenstrom.

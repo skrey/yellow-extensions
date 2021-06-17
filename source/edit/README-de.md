@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Edit 0.8.50
 ===========
@@ -8,9 +8,7 @@ Webseite im Webbrowser bearbeiten.
 
 ## Wie man eine Webseite im Webbrowser bearbeitet
 
-Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine großartige Art Webseiten zu aktualisieren. Du kannst eine `[edit]`-Abkürzung benutzen, um einen Link zum Bearbeiten anzuzeigen.
-
-Überprüfe ob deine Webseite Datenverschlüsselung unterstützt. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls Probleme auftreten, kontaktiere bitte deinen Webhoster.
+Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine großartige Art Webseiten zu aktualisieren. Du kannst eine `[edit]`-Abkürzung benutzen, um einen Link zum Bearbeiten anzuzeigen. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls das nicht möglich ist, kontaktiere bitte deinen Webhoster.
 
 ## Wie man ein Benutzerkonto erstellt
 
@@ -46,6 +44,7 @@ Ein Benutzerkonto mit maximalen Zugriffsrechten ausstatten:
 ```
 Email: anna@svensson.com
 Name: Anna Svensson
+Description: Designer
 Language: de
 Home: /
 Access: create, edit, delete, restore, upload, configure, update
@@ -62,6 +61,7 @@ Ein Benutzerkonto mit Standard-Zugriffsrechten ausstatten:
 ```
 Email: deutsch@example.com
 Name: Niklas Svensson
+Description: Redakteur
 Language: de
 Home: /
 Access: create, edit, delete, restore, upload
@@ -78,6 +78,7 @@ Ein Benutzerkonto mit beschränkten Zugriffsrechten ausstatten:
 ```
 Email: deutsch@example.com
 Name: Demo
+Description: Zum Testen der Webseite
 Language: de
 Home: /demo/
 Access: edit, upload
@@ -124,7 +125,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
 `EditLocation` = Ort der Anmeldeseite  
-`EditUploadNewLocation` = Ort für hochgeladene Mediendateien, [unterstützte Platzhalter](#einstellungen-placeholders)   
+`EditUploadNewLocation` = Ort für hochgeladene Mediendateien, [unterstützte Platzhalter](#einstellungen-placeholders)  
 `EditUploadExtensions` = Dateiformate zum Hochladen, `none` um zu deaktivieren  
 `EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
 `EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, `none` um zu deaktivieren  
@@ -149,7 +150,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 <a id="einstellungen-user"></a>Die folgenden Einstellungen können in der Datei `system/extensions/yellow-user.ini` vorgenommen werden:
 
 `Email` = E-Mail des Benutzers  
-`Name` =  Name des Benutzers  
+`Name` = Name des Benutzers  
+`Description` = Beschreibung des Benutzers  
 `Language` = Sprache des Benutzers  
 `Home` = Ort der Startseite  
 `Access` = Zugriffsrechte, [unterstützte Zugriffsrechte](#einstellungen-access)  
@@ -162,7 +164,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 <a id="einstellungen-access"></a>Die folgenden Benutzer-Zugriffsrechte werden unterstützt:
 
-`create` =  Benutzer kann Seite erstellen  
+`create` = Benutzer kann Seite erstellen  
 `edit` = Benutzer kann Seite bearbeiten  
 `delete` = Benutzer kann Seite löschen  
 `restore` = Benutzer kann gelöschte Seite wiederherstellen  
