@@ -18,7 +18,7 @@ The second option is to create a user account at the [command line](https://gith
 
 ## How to restrict a user account
 
-If you don't want that pages are modified, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
+If you don't want that pages are modified in a web browser, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
 
 If you don't want that user accounts are created, then restrict the login page. Open file `system/extensions/yellow-system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
 

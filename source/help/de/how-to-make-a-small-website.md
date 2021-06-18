@@ -11,7 +11,7 @@ Hier erfährst du, wie du deine Webseite erstellst.
 
 ## Webseiten bearbeiten
 
-Lass uns ausprobieren wie man Webseiten auf dem Computer bearbeitet. Schau dir das `content`-Verzeichnis an, dort befinden sich alle Webseiten. Öffne die Datei `content/1-home/page.md`. Es werden Einstellungen und der Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und weitere [Einstellungen](how-to-adjust-system#einstellungen) ändern. Darunter kannst du [Markdown](how-to-adjust-content#markdown) benutzen. Hier ist ein Beispiel:
+Lass uns ausprobieren wie man Webseiten auf dem Computer bearbeitet. Schau dir das `content`-Verzeichnis an, dort befinden sich alle Webseiten. Öffne die Datei `content/1-home/page.md`. Es werden Einstellungen und der Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Markdown](how-to-adjust-content#markdown) benutzen. Hier ist ein Beispiel:
 
 ```
 ---

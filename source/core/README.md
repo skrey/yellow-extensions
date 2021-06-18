@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Core 0.8.46
 ===========
@@ -8,29 +8,21 @@ Core functionality of the website.
 
 ## How to edit a website on the computer
 
-You can use your favorite text editor and change everything in the file manager. All content is located in your `content` folder. Basically, what you see in the file manager is the website you get. You can [use the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-use-the-built-in-web-server) or [build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-build-a-static-website).
+You can use your favorite text editor and change everything in the file manager. All content is located in your `content` folder. Basically, what you see in the file manager is the website you get. You can [start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-start-the-built-in-web-server) or [build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-build-a-static-website).
 
 ## How to customise a website on the computer
 
-If you want to adjust the content, then use [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown). All content is located in your `content` folder. Create the file `content/shared/header.md` for a header. Create the file `content/shared/footer.md` for a footer. You can also create a header and footer in any other folder, then it will only be shown on pages in the same folder.
+If you want to adjust HTML, then change the layout. The default layout is defined in file `system/extensions/yellow-system.ini`. A different layout can be defined in the [page settings](#settings-page) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), for example to create your own navigation.
 
-If you want to adjust HTML, then change the layout. The default layout is defined in file `system/extensions/yellow-system.ini`. A different layout can be defined in the [settings](#settings) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. There's an [API for developers](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), for example to create your own navigation.
-
-If you want to adjust CSS, then change the theme. The default theme is defined in file `system/extensions/yellow-system.ini`. A different theme can be defined in the [settings](#settings) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All theme files are stored in your `system/themes` folder. There are [themes](https://github.com/datenstrom/yellow-extensions#themes) to download.
-
-## How to make a multilingual website
-
-Your website comes with three languages and you can install more [languages](https://github.com/datenstrom/yellow-extensions#languages). The default language is defined in file `system/extensions/yellow-system.ini`. A different language can be defined in the [settings](#settings) at the top of each page, for example `Language: en`. If you want to translate the entire website into multiple languages, then enable the multi language mode.
-
-If you want to configure languages, then change the language settings. Open file `system/extensions/yellow-language.ini` and change existing settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
+If you want to adjust CSS, then change the theme. The default theme is defined in file `system/extensions/yellow-system.ini`. A different theme can be defined in the [page settings](#settings-page) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All theme files are stored in your `system/themes` folder. There are [themes](https://github.com/datenstrom/yellow-extensions#themes) to download.
 
 ## How to hide a page
 
-Set `Status: unlisted` in the [settings](#settings) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
+Set `Status: unlisted` in the [page settings](#settings-page) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
 
 ## How to redirect a page
 
-Set `Redirect` in the [settings](#settings) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the file system.
+Set `Redirect` in the [page settings](#settings-page) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the file system.
 
 ## Examples
 
@@ -59,7 +51,23 @@ Content file with redirection:
 
 ## Settings
 
-The following settings can be configured at the top of a page:
+<a id="settings-system"></a>The following settings can be configured in file `system/extensions/yellow-system.ini`:
+
+`Sitename` = name of the website  
+`Author` = name of the webmaster  
+`Email` = email of the webmaster  
+`Theme` = default theme  
+`Language` = default language  
+`Layout` = default layout  
+`Parser` = default page parser  
+`Status` = default page status, [supported status values](#settings-status)  
+`CoreStaticUrl` = URL of the static website  
+`CoreServerUrl` = URL of the website, `auto` for automatic detection  
+`CoreServerTimezone` = timezone of the website  
+`CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
+`CoreTrashTimeout` = storage of deleted files in seconds  
+
+<a id="settings-page"></a>The following settings can be configured at the top of a page:
 
 `Title` = page title  
 `TitleContent` = page title shown in content  
@@ -83,22 +91,6 @@ The following settings can be configured at the top of a page:
 `Tag` = page tag(s) for categorisation, comma separated  
 `Build` = page option(s) for building a static website, comma separated  
 `Comment` = page option(s) for showing comments, comma separated  
-
-<a id="settings-system"></a>The following settings can be configured in file `system/extensions/yellow-system.ini`:
-
-`Sitename` = name of the website  
-`Author` = name of the webmaster  
-`Email` = email of the webmaster  
-`Theme` = default theme  
-`Language` = default language  
-`Layout` = default layout  
-`Parser` = default page parser  
-`Status` = default page status, [supported status values](#settings-status)  
-`CoreStaticUrl` = URL of the static website  
-`CoreServerUrl` = URL of the website, `auto` for automatic detection  
-`CoreServerTimezone` = timezone of the website  
-`CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
-`CoreTrashTimeout` = storage of deleted files in seconds  
 
 <a id="settings-status"></a>The following page status values are supported:
 

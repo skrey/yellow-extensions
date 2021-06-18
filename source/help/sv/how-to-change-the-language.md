@@ -5,7 +5,7 @@ Title: Hur man ändrar språket
 
 ## Single language mode
 
-The default language is defined the [system settings](how-to-adjust-system#system-settings). A different language can be defined in the [settings](how-to-adjust-system#settings) at the top of each page, for example `Language: en`.
+The default language is defined the [system settings](how-to-adjust-system#system-settings). A different language can be defined in the [page settings](how-to-adjust-system#page-settings) at the top of each page, for example `Language: en`.
 
 An English page:
 

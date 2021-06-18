@@ -25,7 +25,7 @@ Det finns två undantag. Den `home` mappen får inte innehålla undermappar, eft
 
 ## Markdown
 
-Markdown är ett praktiskt sätt att redigera webbsidor. Öppna filen `content/1-home/page.md` i din favorittextredigerare. Du kommer att se inställningar och text på sidan. Du kan ändra `Title` och andra [inställningar](how-to-adjust-system#settings) högst upp på en sida. Här är ett exempel: 
+Markdown är ett praktiskt sätt att redigera webbsidor. Öppna filen `content/1-home/page.md` i din favorittextredigerare. Du kommer att se inställningar och text på sidan. Du kan ändra `Title` och andra [sidinställningar](how-to-adjust-system#page-settings) högst upp på en sida. Här är ett exempel: 
 
     ---
     Title: Hem

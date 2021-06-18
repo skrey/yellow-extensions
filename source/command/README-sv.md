@@ -18,13 +18,13 @@ Du kan testa din webbplats med inbyggda webbservern. Detta är praktiskt för ut
 
 Du kan bygga en statisk webbplats som fungerar på flesta webbservrar. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php build`, du kan valfritt ange en mapp och en plats. Detta kommer att bygga en statisk webbplats i `public` mappen. Ladda upp den statiska webbplatsen till din webbserver och bygg en ny när det behövs. För att söka efter trasiga länkar skriv: `php yellow.php check`. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
 
-Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [inställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) högst upp på en sida.
+Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida.
 
 ## Hur man bygger en statisk cache
 
 Du kan skapa en statisk cache för att påskynda din webbplats. Vanligtvis genereras en sida först och levereras sedan till webbläsaren. Med en statisk cache levereras filer direkt till webbläsaren. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php build cache`, du kan valfritt ange en plats. Skapa en ny cache vid behov. För att rensa cache skriv: `php yellow.php clean cache`.
 
-Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [inställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) högst upp på en sida.
+Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida.
 
 ## Exempel
 
@@ -62,16 +62,16 @@ Rengör statisk webbplats och filer på kommandoraden:
 
 Använd kommandoraden, översikt över tillgängliga kommandon:
 
-`php yellow.php about` = Visa aktuell version och tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php about` = Visa aktuell version och tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
 `php yellow.php build` = Bygg statisk webbplats, kräver command-tillägg  
 `php yellow.php check` = Kontrollera statisk webbplats, kräver command-tillägg  
 `php yellow.php clean` = Rengör statisk webbplats, kräver command-tillägg  
-`php yellow.php install` = Lägg till tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php install` = Lägg till tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
 `php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)  
 `php yellow.php serve` = Starta inbyggda webbservern, kräver command-tillägg  
 `php yellow.php traffic` = Skapa trafikanalys, [kräver traffic-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
-`php yellow.php uninstall` = Ta bort tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php uninstall` = Ta bort tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
+`php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
 `php yellow.php user` = Uppdatera användarkonton, [kräver edit-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  
 
 Förhindra att en sida byggs:

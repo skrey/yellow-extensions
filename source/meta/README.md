@@ -10,7 +10,7 @@ Meta data for social media sites.
 
 This extension generates meta data for the [Open Graph protocol](https://ogp.me/). 
 
-You can set `Title`, `Description`, `Image` and `ImageAlt` in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of a page. You can configure additional meta data in the HTML header, for example in file `system/layouts/header.html`.
+You can set `Title`, `Description`, `Image` and `ImageAlt` in the [page settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings-page) at the top of a page. You can configure additional meta data in the HTML header, for example in file `system/layouts/header.html`.
 
 ## Example
 

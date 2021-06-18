@@ -11,7 +11,7 @@ Title: Hur man skapar små webbsidor
 
 ## Edit web pages
 
-Let's see how to edit web pages on the computer. Have a look inside your `content` folder, here are all your web pages. Open the file `content/1-home/page.md`. You'll see settings and text of the page. You can change `Title` and other [settings](how-to-adjust-system#settings) at the top of a page. Below that you can use [Markdown](how-to-adjust-content#markdown). Here's an example:
+Let's see how to edit web pages on the computer. Have a look inside your `content` folder, here are all your web pages. Open the file `content/1-home/page.md`. You'll see settings and text of the page. You can change `Title` and other [page settings](how-to-adjust-system#page-settings) at the top of a page. Below that you can use [Markdown](how-to-adjust-content#markdown). Here's an example:
 
 ```
 ---

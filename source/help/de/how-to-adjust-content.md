@@ -25,7 +25,7 @@ Es gibt zwei Ausnahmen. Das `home`-Verzeichnis darf keine Unterverzeichnisse bes
 
 ## Markdown
 
-Markdown ist eine praktische Art um Webseiten zu bearbeiten. Probier es einfach mal aus. Öffne die Datei `content/1-home/page.md`. Es werden Einstellungen und Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und weitere [Einstellungen](how-to-adjust-system#einstellungen) ändern. Hier ist ein Beispiel:
+Markdown ist eine praktische Art um Webseiten zu bearbeiten. Probier es einfach mal aus. Öffne die Datei `content/1-home/page.md`. Es werden Einstellungen und Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Hier ist ein Beispiel:
 
     ---
     Title: Startseite

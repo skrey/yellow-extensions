@@ -5,7 +5,7 @@ Title: Hur man ändrar layouten
 
 ## Customising HTML
 
-To adjust the [HTML](https://www.w3schools.com/html/) code of your website change the layout. Let's see how layouts are made. The default layout is defined in the [system settings](how-to-adjust-system#system-settings). A different layout can be defined in the [settings](how-to-adjust-system#settings) at the top of each page, for example `Layout: default`.
+To adjust the [HTML](https://www.w3schools.com/html/) code of your website change the layout. Let's see how layouts are made. The default layout is defined in the [system settings](how-to-adjust-system#system-settings). A different layout can be defined in the [page settings](how-to-adjust-system#page-settings) at the top of each page, for example `Layout: default`.
 
 Here's an example file `system/layouts/default.html`:
 

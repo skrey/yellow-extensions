@@ -24,7 +24,7 @@ Die zentrale Konfigurationsdatei ist `system/extensions/yellow-system.ini`. Hier
     Language: de
     Layout: default
 
-Dort kannst du die Systemeinstellungen festlegen, zum Beispiel den Namen der Webseite und die E-Mail des Webmasters. Die individuellen [Einstellungen](#einstellungen) lassen sich ganz oben auf jeder Seite festlegen. Bei einer neuen Installation sollte man `Sitename`, `Author` und `Email` anpassen.
+Dort kannst du die Systemeinstellungen festlegen, zum Beispiel den Namen der Webseite und die E-Mail des Webmasters. Die individuellen [Seiteneinstellungen](#seiteneinstellungen) lassen sich ganz oben auf jeder Seite festlegen. Bei einer neuen Installation sollte man `Sitename`, `Author` und `Email` anpassen.
 
 ## Spracheinstellungen
 
@@ -34,7 +34,7 @@ Eine weitere Konfigurationsdatei ist `system/extensions/yellow-language.ini`. Hi
     CoreDateFormatMedium: d.m.Y
     media/images/photo.jpg: Das ist ein Beispielbild
 
-Dort kannst du die Texteinstellungen festlegen, zum Beispiel Textabschnitte und Bildunterschriften. Texteinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst beliebige Texte festlegen oder die [Voreinstellungen](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) von Sprachen anpassen.
+Dort kannst du die Spracheinstellungen festlegen, zum Beispiel Textabschnitte und Datumformat. Spracheinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Spracheinstellungen hinzufügen, beispielsweise Bildunterschriften.
 
 ## Benutzereinstellungen
 
@@ -53,9 +53,9 @@ Alle Benutzerkonten sind in `system/extensions/yellow-user.ini` gespeichert. Hie
     Modified: 2000-01-01 13:37:00
     Status: active
 
-Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) und der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) kannst du neue Benutzerkonten anlegen und Kennwörter ändern. Ein Benutzerkonto besteht aus `Email` und weiteren Einstellungen. Falls du nicht willst dass alle Webseiten im Webbrowser bearbeitet werden, dann ändere die Startseite des Benutzers.
+Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) und der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) kannst du neue Benutzerkonten anlegen und Kennwörter ändern. Ein Benutzerkonto besteht aus `Email` und weiteren Einstellungen. Falls du nicht willst dass Seiten im Webbrowser bearbeitet werden, dann ändere `Home` und `Access`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
-## Einstellungen
+## Seiteneinstellungen
 
 Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 

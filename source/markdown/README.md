@@ -124,7 +124,7 @@ Using HTML:
 
 ## Settings
 
-The default parser is defined in file `system/extensions/yellow-system.ini`. A different parser can be defined in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of each page, for example `Parser: markdown`.
+The default parser is defined in file `system/extensions/yellow-system.ini`. A different parser can be defined in the [page settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings-page) at the top of each page, for example `Parser: markdown`.
 
 ## Installation
 

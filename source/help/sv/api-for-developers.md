@@ -46,28 +46,28 @@ With the help of `$this->yellow` you can access the website. The API is divided 
 Yellow page gives access to current page:
 
 **page->get($key)**  
-Return [page setting](how-to-adjust-system#settings) 
+Return [page setting](how-to-adjust-system#page-settings) 
 
 **page->getHtml($key)**  
-Return [page setting](how-to-adjust-system#settings), HTML encoded  
+Return [page setting](how-to-adjust-system#page-settings), HTML encoded  
 
 **page->getDate($key, $format = "")**  
-Return [page setting](how-to-adjust-system#settings) as [language specific date](how-to-adjust-system#language-settings)  
+Return [page setting](how-to-adjust-system#page-settings) as [language specific date](how-to-adjust-system#language-settings)  
 
 **page->getDateHtml($key, $format = "")**  
-Return [page setting](how-to-adjust-system#settings) as [language specific date](how-to-adjust-system#language-settings), HTML encoded  
+Return [page setting](how-to-adjust-system#page-settings) as [language specific date](how-to-adjust-system#language-settings), HTML encoded  
 
 **page->getDateRelative($key, $format = "", $daysLimit = 30)**  
-Return [page setting](how-to-adjust-system#settings) as [language specific date](how-to-adjust-system#language-settings), relative to today
+Return [page setting](how-to-adjust-system#page-settings) as [language specific date](how-to-adjust-system#language-settings), relative to today
 
 **page->getDateRelativeHtml($key, $format = "", $daysLimit = 30)**  
-Return [page setting](how-to-adjust-system#settings) as [language specific date](how-to-adjust-system#language-settings), relative to today, HTML encoded
+Return [page setting](how-to-adjust-system#page-settings) as [language specific date](how-to-adjust-system#language-settings), relative to today, HTML encoded
 
 **page->getDateFormatted($key, $format)**  
-Return [page setting](show-to-adjust-system#settings) as [date](https://www.php.net/manual/en/function.date.php)  
+Return [page setting](how-to-adjust-system#page-settings) as [date](https://www.php.net/manual/en/function.date.php)  
 
 **page->getDateFormattedHtml($key, $format)**  
-Return [page setting](how-to-adjust-system#settings) as [date](https://www.php.net/manual/en/function.date.php), HTML encoded  
+Return [page setting](how-to-adjust-system#page-settings) as [date](https://www.php.net/manual/en/function.date.php), HTML encoded  
 
 **page->getContent($rawFormat = false, $sizeMax = 0)**  
 Return page content, HTML encoded or raw format
@@ -145,7 +145,7 @@ Check if page is cacheable
 Check if page with error
 
 **page->isExisting($key)**  
-Check if [page setting](how-to-adjust-system#settings) exists  
+Check if [page setting](how-to-adjust-system#page-settings) exists  
 
 **page->isRequest($key)**  
 Check if request argument exists
@@ -202,13 +202,13 @@ Here's an example layout for showing page content and modification date:
 Yellow page collection gives access to multiple pages:
 
 **pages->filter($key, $value, $exactMatch = true)**  
-Filter page collection by [page setting](how-to-adjust-system#settings)
+Filter page collection by [page setting](how-to-adjust-system#page-settings)
 
 **pages->match($regex = "/.*/")**  
 Filter page collection by file name
 
 **pages->sort($key, $ascendingOrder = true)**  
-Sort page collection by [page setting](how-to-adjust-system#settings)
+Sort page collection by [page setting](how-to-adjust-system#page-settings)
 
 **pages->similar($page, $ascendingOrder = false)**  
 Sort page collection by settings similarity
@@ -888,7 +888,7 @@ Handle update
 Handle request
 
 **public function onParseMeta($page)**  
-Handle [page meta data](how-to-adjust-system#settings)
+Handle [page meta data](how-to-adjust-system#page-settings)
 
 **public function onParseContentRaw($page, $text)**  
 Handle page content in raw format

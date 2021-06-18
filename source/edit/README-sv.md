@@ -18,7 +18,7 @@ Det andra alternativet är att skapa ett användarkonto på [kommandoraden](http
 
 ## Hur man begränsar ett användarkonto
 
-Om du inte vill att sidorna ska ändras begränsar du användarkonton. Öppna filen `system/extensions/yellow-user.ini` och ändra `Home` och `Access`. Användare får redigera sidor på sin hemsida, men inte någon annanstans.
+Om du inte vill att sidorna ska ändras i en webbläsare begränsar du användarkonton. Öppna filen `system/extensions/yellow-user.ini` och ändra `Home` och `Access`. Användare får redigera sidor på sin hemsida, men inte någon annanstans.
 
 Om du inte vill att användarkonton ska skapas begränsar du inloggningssidan. Öppna filen `system/extensions/yellow-system.ini` och ändra `EditLoginRestriction: 1`. Användare får återställa sitt lösenord, men kan inte skapa ett nytt användarkonto.
 
@@ -125,7 +125,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `Author` = webmasterns namn  
 `Email` = webmasterns email  
 `EditLocation` = plats för inloggningssidan  
-`EditUploadNewLocation` = plats för uppladdade mediefiler, [stödjande platshållare](#inställningar-placeholders)  
+`EditUploadNewLocation` = plats för uppladdade mediefiler, [stödda platshållare](#inställningar-placeholders)  
 `EditUploadExtensions` = filformat för uppladdning, `none` för att inaktivera  
 `EditKeyboardShortcuts` = tangentbordsgenvägar och kommandon, `none` för att inaktivera  
 `EditToolbarButtons` = verktygsfältknappar, `auto` för automatisk detektering, `none` för att inaktivera  
@@ -154,13 +154,13 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `Description` = beskrivning av användaren  
 `Language` = språket av användaren  
 `Home` = plats för hemsidan  
-`Access` = användarrättigheter, [stödjande rättigheter](#inställningar-access)  
+`Access` = användarrättigheter, [stödda rättigheter](#inställningar-access)  
 `Hash` = krypterat lösenord  
 `Stamp` = unik token för autentisering  
 `Pending` = väntande ändringar  
 `Failed` = antal misslyckade inloggningsförsök  
 `Modified` = ändringsdatum, ÅÅÅÅ-MM-DD format  
-`Status` = användarstatus, [stödjande statusvärden](#inställningar-status)  
+`Status` = användarstatus, [stödda statusvärden](#inställningar-status)  
 
 <a id="inställningar-access"></a>Följande användarrättigheter stöds:
 

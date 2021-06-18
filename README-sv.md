@@ -22,7 +22,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Webbplatsens kommandorad. Utvecklad av Datenstrom.
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact): 
   E-post kontaktsida. Utvecklad av Datenstrom.
-* [Core](https://github.com/datenstrom/yellow-extensions/tree/master/source/core): 
+* [Core](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md): 
   Webbplatsens kärnfunktion. Utvecklad av Datenstrom.
 * [Codefile](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/codefile): 
   Ladda ner kodblock som textfil. Utvecklad av Steffen Schultz.
@@ -98,7 +98,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Skapa trafikanalys från webbserverns loggfiler. Utvecklad av Datenstrom.
 * [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter): 
   Bädda in Twitter-meddelanden. Utvecklad av Datenstrom, Steffen Schultz.
-* [Update](https://github.com/datenstrom/yellow-extensions/tree/master/source/update): 
+* [Update](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md): 
   Håll din webbplats uppdaterad. Utvecklad av Datenstrom.
 * [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki): 
   Wiki för din webbplats. Utvecklad av Datenstrom.

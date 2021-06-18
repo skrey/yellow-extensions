@@ -25,7 +25,7 @@ There are two exception. The `home` folder must not contain subfolders, because 
 
 ## Markdown
 
-Markdown is a practical way to edit web pages. Open the file `content/1-home/page.md` in your favorite text editor. You'll see settings and text of the page. You can change `Title` and other [settings](how-to-adjust-system#settings) at the top of a page. Here's an example:
+Markdown is a practical way to edit web pages. Open the file `content/1-home/page.md` in your favorite text editor. You'll see settings and text of the page. You can change `Title` and other [page settings](how-to-adjust-system#page-settings) at the top of a page. Here's an example:
 
     ---
     Title: Home

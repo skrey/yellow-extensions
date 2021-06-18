@@ -1,0 +1,99 @@
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+
+Update 0.8.53
+=============
+Håll din webbplats uppdaterad.
+
+<p align="center"><img src="update-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>
+
+## Hur man uppdaterar en webbplats
+
+Det första alternativet är att uppdatera din webbplats i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md). Logga in med ditt användarkonto. Gå till inställningarna och leta efter uppdateringar. Din webbplats kommer att visas när uppdateringar är tillgängliga. Du måste ha uppdateringsrättigheter för att uppdatera en webbplats. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
+
+Det andra alternativet är att uppdatera din webbplats på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php update`. Du kan eventuellt lägga till namnet på ett tillägg. Borttagna filer finns i `system/trash` mappen.
+
+## Hur man utökar en webbplats
+
+Din webbplats levereras bara med det väsentliga. Du kan ladda ner och lägga till tillägg som ZIP-filer. Du kan också lägga till tillägg på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php install` följt av fler argument. Du kan också ta bort tillägg på kommandoraden.
+
+## Hur man visar aktuella versionen
+
+Du kan visa den aktuella versionen av din webbplats i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md). Logga in med ditt användarkonto. Gå till inställningarna. Du kan också visa den aktuella versionen på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php about`.
+
+Du kan använda förkortningar för att visa information om webbplatsen:
+
+`[yellow about]` för aktuell version  
+`[yellow error]` för aktuellt felmeddelande  
+`[yellow log]` för de senaste posterna i loggfilen  
+
+## Exempel
+
+Innehållsfil med aktuell version:
+
+    ---
+    Title: Exempelsida
+    ---
+    Den aktuella versionen av min webbplats är:
+
+    ! [yellow about]
+
+Innehållsfil med loggfil:
+
+    ---
+    Title: Om
+    ---
+    För människor som skapar små webbsidor.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+    in culpa qui officia deserunt mollit anim id est laborum.
+    
+    Webbplatsen är gjord med [Datenstrom Yellow](https://datenstrom.se/sv/yellow/). 
+
+    ! [yellow log]
+
+Visa aktuell version och tillägg på kommandoraden:
+ 
+`php yellow.php about`
+
+Uppdatera webbplats på kommandoraden:
+ 
+`php yellow.php update`  
+`php yellow.php update gallery`  
+`php yellow.php update english german swedish`  
+
+Lägga till tillägg på kommandoraden:
+
+`php yellow.php install`  
+`php yellow.php install gallery`  
+`php yellow.php install english german swedish`  
+
+Ta bort tillägg på kommandoraden:
+
+`php yellow.php uninstall`  
+`php yellow.php uninstall gallery`  
+`php yellow.php uninstall english german swedish`  
+
+## Inställningar
+
+Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
+
+`UpdateExtensionUrl` = repository med tilläg  
+`UpdateExtensionFile` = fil med tilläggsinställningar  
+`UpdateLatestFile` = fil med senaste uppdateringsinställningar  
+`UpdateCurrentFile` = fil med aktuella uppdateringsinställningar  
+`UpdateCurrentRelease` = för närvarande installerad produktversion  
+`UpdateEventPending` = väntande händelser  
+`UpdateEventDaily` = tid för nästa dagliga händelse  
+
+Loggfilen finns i filen `system/extensions/yellow.log`.
+
+## Installation
+
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/update.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
+
+## Utvecklare
+
+Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Core 0.8.46
 ===========
@@ -8,29 +8,21 @@ Kernfunktionalität der Webseite.
 
 ## Wie man eine Webseite auf dem Computer bearbeitet
 
-Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager verändern. Alle Inhalte befinden sich im `content`-Verzeichnis. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst. Du kannst den [eingebauten Webserver verwenden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md#wie-man-den-eingebauten-webserver-verwendet) oder eine [statische Webseite erstellen](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md#wie-man-eine-statische-webseite-erstellt).
+Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager verändern. Alle Inhalte befinden sich im `content`-Verzeichnis. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst. Du kannst den [eingebauten Webserver starten](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md#wie-man-den-eingebauten-webserver-startet) oder eine [statische Webseite erstellen](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md#wie-man-eine-statische-webseite-erstellt).
 
 ## Wie man eine Webseite auf dem Computer anpasst
 
-Falls du den Inhalt anpassen willst, kannst du [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-de.md) benutzen. Alle Inhalte befinden sich im `content`-Verzeichnis. Erstelle die Datei `content/shared/header.md` für eine Kopfzeile. Erstelle die Datei `content/shared/footer.md` für eine Fußzeile. Du kannst eine Kopfzeile und Fußzeile auch in einem anderen Verzeichnis erstellen, dann wird sie nur auf Seiten im gleichen Verzeichnis angezeigt.
+Falls du HTML anpassen willst, ändere das Layout. Das Standardlayout wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderes Layout lässt sich in den [Seiteneinstellungen](#einstellungen-seite) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Natürlich gibt es eine [API für Entwickler](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md), beispielsweise um eine eigene Navigation zu erstellen.
 
-Falls du HTML anpassen willst, ändere das Layout. Das Standardlayout wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderes Layout lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Natürlich gibt es eine [API für Entwickler](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md), beispielsweise um eine eigene Navigation zu erstellen.
-
-Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderes Thema lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern aus mehreren Dateien. Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Es gibt [Themen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#themen) zum Herunterladen.
-
-## Wie man eine mehrsprachige Webseite macht
-
-Deine Webseite kommt mit drei Sprachen und man kann weitere [Sprachen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen) installieren. Die Standardsprache wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`. Falls du die gesamte Webseite in mehrere Sprachen übersetzen willst, aktiviere den Mehrsprachen-Modus.
-
-Falls du Sprachen anpassen willst, ändere die Spracheinstellungen. Öffne die Datei `system/extensions/yellow-language.ini` und ändere die vorhandenen Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Spracheinstellungen hinzufügen, beispielsweise Bildunterschriften.
+Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderes Thema lässt sich in den [Seiteneinstellungen](#einstellungen-seite) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern aus mehreren Dateien. Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Es gibt [Themen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#themen) zum Herunterladen.
 
 ## Wie man eine Seite versteckt
 
-Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Einstellungen](#einstellungen) festlegen. Die Seite ist dann in der Navigation und den Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
+Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite ist dann in der Navigation und den Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
 
 ## Wie man eine Seite weiterleitet
 
-Ganz oben auf einer Seite kannst du `Redirect` in den [Einstellungen](#einstellungen) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) und im Dateisystem bearbeiten.
+Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) und im Dateisystem bearbeiten.
 
 ## Beispiele
 
@@ -59,7 +51,23 @@ Inhaltsdatei mit Weiterleitung:
 
 ## Einstellungen
 
-Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden:
+<a id="einstellungen-system"></a>Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
+
+`Sitename` = Name der Webseite  
+`Author` = Name des Webmasters  
+`Email` = E-Mail des Webmasters  
+`Theme` = Standard-Thema  
+`Language` = Standard-Sprache  
+`Layout` = Standard-Layout  
+`Parser` = Standard-Seitenparser  
+`Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
+`CoreStaticUrl` = URL der statischen Webseite  
+`CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
+`CoreServerTimezone` = Zeitzone der Webseite  
+`CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
+`CoreTrashTimeout` = Speicherung von gelöschten Dateien in Sekunden  
+
+<a id="einstellungen-seite"></a>Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden:
 
 `Title` = Seitentitel  
 `TitleContent` = Seitentitel der im Inhalt angezeigt wird  
@@ -83,22 +91,6 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
 `Build` = Optionen zum Erstellen einer statischen Webseite, durch Komma getrennt  
 `Comment` = Optionen zum Anzeigen von Kommentaren, durch Komma getrennt  
-
-<a id="einstellungen-system"></a>Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
-
-`Sitename` = Name der Webseite  
-`Author` = Name des Webmasters  
-`Email` = E-Mail des Webmasters  
-`Theme` = Standard-Thema  
-`Language` = Standard-Sprache  
-`Layout` = Standard-Layout  
-`Parser` = Standard-Seitenparser  
-`Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
-`CoreStaticUrl` = URL der statischen Webseite  
-`CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
-`CoreServerTimezone` = Zeitzone der Webseite  
-`CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
-`CoreTrashTimeout` = Speicherung von gelöschten Dateien in Sekunden  
 
 <a id="einstellungen-status"></a>Die folgenden Seiten-Statuswerte werden unterstützt:
 

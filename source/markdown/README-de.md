@@ -124,7 +124,7 @@ HTML benutzen:
 
 ## Einstellungen
 
-Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Parser lässt sich in den [Einstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown`. 
+Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Parser lässt sich in den [Seiteneinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen-seite) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown`. 
 
 ## Installation
 

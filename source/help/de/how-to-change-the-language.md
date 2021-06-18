@@ -6,7 +6,7 @@ Wie man die Sprache seiner Webseite ändert.
 
 ## Einsprachen-Modus
 
-Die Standardsprache wird in den [Systemeinstellungen](how-to-adjust-system#systemeinstellungen) festgelegt. Eine andere Sprache lässt sich in den [Einstellungen](how-to-adjust-system#einstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`. 
+Die Standardsprache wird in den [Systemeinstellungen](how-to-adjust-system#systemeinstellungen) festgelegt. Eine andere Sprache lässt sich in den [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`. 
 
 Eine Deutsche Seite:
 

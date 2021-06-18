@@ -26,7 +26,7 @@ The main configuration file is `system/extensions/yellow-system.ini`. Here's an 
     Language: en
     Layout: default
 
-You can define the system settings here, for example the name of the website and the email of the webmaster. Individual [settings](#settings) can be defined at the top of each page. For a new installation you should set `Sitename`, `Author` and `Email`.
+You can define the system settings here, for example the name of the website and the email of the webmaster. Individual [page settings](#page-settings) can be defined at the top of each page. For a new installation you should set `Sitename`, `Author` and `Email`.
 
 ## Language settings
 
@@ -36,7 +36,7 @@ Another configuration file is `system/extensions/yellow-language.ini`. Here's an
     CoreDateFormatMedium: Y-m-d
     media/images/photo.jpg: This is an example image
 
-You can define the text settings here, for example text sections and image captions. Text settings consist of `Language` and other settings. You can define any text or adjust the [default settings](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) of languages.
+You can define the language settings here, for example text sections and date format. Language settings consist of `Language` and other settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
 
 ## User settings
 
@@ -55,9 +55,9 @@ All user accounts are stored in file `system/extensions/yellow-user.ini`. Here's
     Modified: 2000-01-01 13:37:00
     Status: active
 
-You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command) to create new user accounts and change passwords. A user account consists of `Email` and other settings. If you don't want all pages to be edited in the web browser, then change the home page of the user.
+You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command) to create new user accounts and change passwords. A user account consists of `Email` and other settings. If you don't want that pages are modified in a web browser, then change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
 
-## Settings
+## Page settings
 
 The following settings can be configured at the top of a page:
 
