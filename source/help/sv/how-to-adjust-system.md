@@ -1,9 +1,7 @@
 ---
 Title: Hur man anpassar systemet
 ---
-!!! Den här sidan finns inte på ditt språk. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
-
-All settings are located in the `system` folder. You can adjust your website here.
+Alla inställningar finns i `system` mappen. Du kan anpassa din webbplats här. 
 
     ├── content
     ├── media
@@ -13,39 +11,29 @@ All settings are located in the `system` folder. You can adjust your website her
         ├── themes
         └── trash
 
-The `extensions` folder contains installed extensions. You can use the `layouts` folder and the `themes` folder to adjust the appearance of your website. The `trash` folder contains deleted files.
+Mappen `extensions` innehåller installerade tillägg. Du kan använda `layouts` mappen och `themes` mappen för att justera utseendet på din webbplats. Mappen `trash` innehåller raderade filer. 
 
-## System settings
+## Systeminställningar
 
-The main configuration file is `system/extensions/yellow-system.ini`. Here's an example:
+Den centrala konfigurationsfilen är `system/extensions/yellow-system.ini`. Här är ett exempel: 
 
     Sitename: Anna Svensson Design
     Author: Anna Svensson
     Email: anna@svensson.com
     Theme: stockholm
-    Language: en
+    Language: sv
     Layout: default
 
-You can define the system settings here, for example the name of the website and the email of the webmaster. Individual [page settings](#page-settings) can be defined at the top of each page. For a new installation you should set `Sitename`, `Author` and `Email`.
+Du kan definiera systeminställningarna här, till exempel namnet på webbplatsen. Enskilda [sidinställningar](#sidinställningar) kan definieras högst upp på varje sida. För en ny installation bör du ställa in `Sitename`, `Author` och `Email`.
 
-## Language settings
+## Användarinställningar
 
-Another configuration file is `system/extensions/yellow-language.ini`. Here's an example:
-
-    Language: en
-    CoreDateFormatMedium: Y-m-d
-    media/images/photo.jpg: This is an example image
-
-You can define the language settings here, for example text sections and date format. Language settings consist of `Language` and other settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
-
-## User settings
-
-All user accounts are stored in file `system/extensions/yellow-user.ini`. Here's an example:
+Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`. Här är ett exempel:
 
     Email: anna@svensson.com
     Name: Anna Svensson
-    Description: Designer
-    Language: en
+    Description: Formgivare
+    Language: sv
     Home: /
     Access: create, edit, delete, restore, upload, configure, install, uninstall, update
     Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
@@ -55,31 +43,47 @@ All user accounts are stored in file `system/extensions/yellow-user.ini`. Here's
     Modified: 2000-01-01 13:37:00
     Status: active
 
-You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command) to create new user accounts and change passwords. A user account consists of `Email` and other settings. If you don't want that pages are modified in a web browser, then change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
+Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) och [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md) för att skapa nya användarkonton och ändra lösenord. Ett användarkonto består av `Email` och andra inställningar. Om du inte vill att sidorna ska ändras i en webbläsare ändrar du `Home` och `Access`. Användare får redigera sidor på sin hemsida, men inte någon annanstans.
 
-## Page settings
+## Språkinställningar
 
-The following settings can be configured at the top of a page:
+En annan konfigurationsfil är `system/extensions/yellow-language.ini`. Här är ett exempel:
 
-`Title` = page title  
-`TitleContent` = page title shown in content  
-`TitleNavigation` = page title shown in navigation  
-`TitleHeader` = page title shown in web browser  
-`TitleSlug` = page title used for saving the page  
-`Description` = page description  
-`Author` = page author(s), comma separated  
-`Email` = email of page author  
-`Theme` = page theme  
-`Language` = page language  
-`Layout` = page layout  
-`LayoutNew` = page layout for creating a new page  
-`Parser` = page parser  
-`Status` = status for workflow  
-`Image` = page image  
-`ImageAlt` = alternative text for page image  
-`Modified` = page modification date, YYYY-MM-DD format  
-`Published` = page publication date, YYYY-MM-DD format  
-`Tag` = page tag(s) for categorisation, comma separated  
-`Redirect` = redirect to a new page or URL  
+    Language: sv
+    CoreDateFormatShort: F Y
+    CoreDateFormatMedium: Y-m-d
+    CoreDateFormatLong: Y-m-d H:i
+    EditMailFooter: @sitename
+    ImageDefaultAlt: Bild utan beskrivning
+    media/images/photo.jpg: Detta är en exempelbild
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Du kan definiera språkinställningarna här, till exempel datumformat. Språkinställningar består av `Language` och andra inställningar. Du kan kopiera [standardinställningarna från språkfiler](https://github.com/datenstrom/yellow-extensions/blob/master/source/swedish/swedish.txt) och klistra in dem i den här filen. Du kan också lägga till dina egna språkinställningar, till exempel bildtexter.
+
+## Sidinställningar
+
+Följande inställningar kan konfigureras högst upp på en sida:
+
+`Title` = namn på sidan  
+`TitleContent` = namn på sidan som visas i innehållet  
+`TitleNavigation` = namn på sidan som visas i navigeringen  
+`TitleHeader` = namn på sidan som visas i webbläsaren  
+`TitleSlug` = namn för att spara sidan  
+`Description` = sidans beskrivning  
+`Author` = sidans författare, kommaseparerade  
+`Email` = email av sidans författare  
+`Theme` = sidans tema  
+`Language` = sidans språk  
+`Layout` = sidans layout  
+`LayoutNew` = sidans layout för att skapa en ny sida  
+`Parser` = sidans parser  
+`Status` = sidans status  
+`Redirect` = omdirigera till en ny sida eller URL  
+`Image` = sidans bild  
+`ImageAlt` = alternativ text för sidans bild  
+`Modified` = sidans ändringsdatum, ÅÅÅÅ-MM-DD format  
+`Published` = sidans publiceringsdatum, ÅÅÅÅ-MM-DD format  
+`Tag` = taggar för kategorisering av sidan, kommaseparerade  
+`Build` = alternativ för att skapa en statisk webbsida, kommaseparerade  
+`Comment` = alternativ för att visa kommentarer, kommaseparerade  
+
+Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

@@ -1,162 +1,162 @@
 ---
 Title: API för utvecklare
 ---
-!!! Den här sidan finns inte på ditt språk. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
+Vi <3 människor som kodar. 
 
 [toc]
 
-## Folder structure
+## Mappstruktur
 
-The following folders are available:
+Följande mappar är tillgängliga:
 
 ```
-├── content               = content files
-│   ├── 1-home            = home page
-│   └── shared            = shared files
-├── media                 = media files
-│   ├── downloads         = files to download
-│   ├── images            = image files for content
-│   └── thumbnails        = image thumbnails for content
-└── system                = system files
-    ├── extensions        = extension files and settings
-    ├── layouts           = configurable layout files
-    ├── themes            = configurable theme files
-    └── trash             = deleted files
+├── content               = innehållsfiler
+│   ├── 1-home            = hemsida
+│   └── shared            = delade filer
+├── media                 = mediefiler
+│   ├── downloads         = filer att ladda ner
+│   ├── images            = bildfiler för innehåll
+│   └── thumbnails        = miniatyrbilder för innehåll
+└── system                = systemfiler
+    ├── extensions        = tilläggsfiler och inställningar
+    ├── layouts           = konfigurerbara layoutfiler
+    ├── themes            = konfigurerbara temafiler
+    └── trash             = raderade filer
 ```
 
-The `content` folder contains the content files of the website. You can edit the website here. The `media` folder contains the media files of the website. You can store images and other files here. The `system` folder contains the system files of the website. You can customise the website and create your own extensions here.
+Mappen `content` innehåller webbplatsen innehållsfilerna. Du kan redigera webbplatsen här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra bilder och andra filer här. Mappen `system` innehåller webbplatsens  systemfilerna Du kan anpassa webbplatsen och skapa dina egna tillägg här. 
 
-## Objects
+## Objekt
 
-The following objects are available:
+Följande objekt är tillgängliga: 
 
-`$this->yellow->page` = [access to current page](#yellow-page)  
-`$this->yellow->content` = [access to content files](#yellow-content)  
-`$this->yellow->media` = [access to media files](#yellow-media)  
-`$this->yellow->system` = [access to system settings](#yellow-system)  
-`$this->yellow->user` = [access to user settings](#yellow-user)  
-`$this->yellow->language` = [access to language settings](#yellow-language)  
-`$this->yellow->extension` = [access to extensions](#yellow-extension)  
-`$this->yellow->toolbox` = [access to toolbox with helper functions](#yellow-toolbox)  
+`$this->yellow->page` = [tillgång till aktuella sidan](#yellow-page)  
+`$this->yellow->content` = [tillgång till innehållsfiler](#yellow-content)  
+`$this->yellow->media` = [tillgång till mediefiler](#yellow-media)  
+`$this->yellow->system` = [tillgång till systeminställningar](#yellow-system)  
+`$this->yellow->user` = [tillgång till användarinställningar](#yellow-user)  
+`$this->yellow->language` = [tillgång till språkinställningar](#yellow-language)  
+`$this->yellow->extension` = [tillgång till tillägg](#yellow-extension)  
+`$this->yellow->toolbox` = [tillgång till verktygslådan med hjälpfunktioner](#yellow-toolbox)  
 
-With the help of `$this->yellow` you can access the website. The API is divided into several objects and basically reflects the file system. In the toolbox you can find helper functions and file operations for your own extensions. The source code of the entire API can be found in file `system/extensions/core.php`.
+Med hjälp av `$this->yellow` kan man komma åt webbplatsen. API:et är uppdelat i flera objekt och speglar i princip filsystemet. I verktygslådan hittar man hjälpfunktioner och filåtgärder för egna tillägg. Källkoden för hela API finns i filen `system/extensions/core.php`. 
 
 ### Yellow page
 
-Yellow page gives access to current page:
+Yellow page ger tillgång till aktuella sidan:
 
 **page->get($key)**  
-Return [page setting](how-to-adjust-system#page-settings) 
+Returnera [sidinställning](how-to-adjust-system#sidinställningar) 
 
 **page->getHtml($key)**  
-Return [page setting](how-to-adjust-system#page-settings), HTML encoded  
+Returnera [sidinställning](how-to-adjust-system#sidinställningar), HTML-kodad  
 
 **page->getDate($key, $format = "")**  
-Return [page setting](how-to-adjust-system#page-settings) as [language specific date](how-to-adjust-system#language-settings)  
+Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [språkspecifikt datum](how-to-adjust-system#språkinställningar)  
 
 **page->getDateHtml($key, $format = "")**  
-Return [page setting](how-to-adjust-system#page-settings) as [language specific date](how-to-adjust-system#language-settings), HTML encoded  
+Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [språkspecifikt datum](how-to-adjust-system#språkinställningar), HTML-kodad  
 
 **page->getDateRelative($key, $format = "", $daysLimit = 30)**  
-Return [page setting](how-to-adjust-system#page-settings) as [language specific date](how-to-adjust-system#language-settings), relative to today
+Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [språkspecifikt datum](how-to-adjust-system#språkinställningar), i förhållande till idag 
 
 **page->getDateRelativeHtml($key, $format = "", $daysLimit = 30)**  
-Return [page setting](how-to-adjust-system#page-settings) as [language specific date](how-to-adjust-system#language-settings), relative to today, HTML encoded
+Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [språkspecifikt datum](how-to-adjust-system#språkinställningar), i förhållande till idag, HTML-kodad
 
 **page->getDateFormatted($key, $format)**  
-Return [page setting](how-to-adjust-system#page-settings) as [date](https://www.php.net/manual/en/function.date.php)  
+Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [datum](https://www.php.net/manual/en/function.date.php)  
 
 **page->getDateFormattedHtml($key, $format)**  
-Return [page setting](how-to-adjust-system#page-settings) as [date](https://www.php.net/manual/en/function.date.php), HTML encoded  
+Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [datum](https://www.php.net/manual/en/function.date.php), HTML-kodad  
 
 **page->getContent($rawFormat = false, $sizeMax = 0)**  
-Return page content, HTML encoded or raw format
+Returnera sidinnehåll, HTML-kodat eller råformat
 
 **page->getParent()**  
-Return parent page, null if none
+Returnera överordnad sida, null om ingen
 
 **page->getParentTop($homeFallback = false)**  
-Return top-level parent page, null if none
+Returnera överordnad sida på toppnivå, null om ingen 
 
 **page->getSiblings($showInvisible = false)**  
-Return [page collection](#yellow-page-collection) with pages on the same level
+Returnera [page collection](#yellow-page-collection) med sidor på samma nivå 
 
 **page->getChildren($showInvisible = false)**  
-Return [page collection](#yellow-page-collection) with child pages
+Returnera [page collection](#yellow-page-collection) med barnsidor
 
 **page->getChildrenRecursive($showInvisible = false, $levelMax = 0)**  
-Return [page collection](#yellow-page-collection) with child pages recursively
+Returnera [page collection](#yellow-page-collection) med barnsidor rekursivt
 
 **page->getPages($key)**  
-Return [page collection](#yellow-page-collection) with additional pages
+Returnera [page collection](#yellow-page-collection) med ytterligare sidor
 
 **page->getPage($key)**  
-Return shared page
+Returnera delad sida
 
 **page->getUrl()**  
-Return page URL
+Returnera sidans URL
 
 **page->getBase($multiLanguage = false)**  
-Return page base
+Returnera sidans bas
 
 **page->getLocation($absoluteLocation = false)**  
-Return page location
+Returnera sidans plats
 
 **page->getRequest($key)**  
-Return page request argument
+Returnera requestargument av sidan
 
 **page->getRequestHtml($key)**  
-Return page request argument, HTML encoded
+Returnera requestargument av sidan, HTML-kodad
 
 **page->getHeader($key)**  
-Return page response header
+Returnera responseheader av sidan
 
 **page->getExtra($name)**  
-Return page extra data
+Returnera extra data för sidan
 
 **page->getModified($httpFormat = false)**  
-Return page modification date, Unix time or HTTP format
+Returnera sidans ändringsdatum, Unix-tid eller HTTP-format
 
 **page->getLastModified($httpFormat = false)**  
-Return last modification date, Unix time or HTTP format
+Returnera sidans senaste ändringsdatum, Unix-tid eller HTTP-format
 
 **page->getStatusCode($httpFormat = false)**  
-Return page status code, number or HTTP format
+Returnera sidans statuskod, nummer eller HTTP-format
 
 **page->error($statusCode, $pageError = "")**  
-Respond with error page
+Svara med felsidan
 
 **page->clean($statusCode, location = "")**  
-Respond with status code, no page content
+Svara med statuskod, inget sidinnehåll
 
 **page->isAvailable()**  
-Check if page is available
+Kontrollera om sidan är tillgänglig
 
 **page->isVisible()**  
-Check if page is visible
+Kontrollera om sidan är synlig
 
 **page->isActive()**  
-Check if page is within current HTTP request
+Kontrollera om sidan ligger inom aktuella HTTP-begäran
 
 **page->isCacheable()**  
-Check if page is cacheable
+Kontrollera om sidan är cachningsbar 
 
 **page->isError()**  
-Check if page with error
+Kontrollera om sidan med fel
 
 **page->isExisting($key)**  
-Check if [page setting](how-to-adjust-system#page-settings) exists  
+Kontrollera om [sidinställning](how-to-adjust-system#sidinställningar) finns  
 
 **page->isRequest($key)**  
-Check if request argument exists
+Kontrollera om requestargument finns 
 
 **page->isHeader($key)**  
-Check if response header exists
+Kontrollera om responseheader finns
 
 **page->isPage($key)**  
-Check if shared page exists  
+Kontrollera om delad sida finns
 
-Here's an example layout for showing page content:
+Här är en exempellayout för att visa sidinnehåll:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -169,7 +169,7 @@ Here's an example layout for showing page content:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing page content and author:
+Här är en exempellayout för att visa sidinnehåll och författare:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -183,7 +183,7 @@ Here's an example layout for showing page content and author:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing page content and modification date:
+Här är en exempellayout för att visa sidinnehåll och modifieringsdatum:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -199,78 +199,78 @@ Here's an example layout for showing page content and modification date:
 
 ### Yellow page collection
 
-Yellow page collection gives access to multiple pages:
+Yellow page collection ger tillgång till flera sidor:
 
 **pages->filter($key, $value, $exactMatch = true)**  
-Filter page collection by [page setting](how-to-adjust-system#page-settings)
+Filtrera page collection efter [sidinställning](how-to-adjust-system#sidinställningar)
 
 **pages->match($regex = "/.*/")**  
-Filter page collection by file name
+Filtrera page collection efter filnamn
 
 **pages->sort($key, $ascendingOrder = true)**  
-Sort page collection by [page setting](how-to-adjust-system#page-settings)
+Sortera page collection efter [sidinställning](how-to-adjust-system#sidinställningar)
 
 **pages->similar($page, $ascendingOrder = false)**  
-Sort page collection by settings similarity
+Sortera page collection efter inställningslikhet
 
 **pages->merge($input)**  
-Calculate union, merge page collection
+Beräkna union, lägg till en page collection
 
 **pages->intersect($input)**  
-Calculate intersection, remove pages that are not present in another page collection
+Beräkna korsningen, ta bort sidor som inte finns i en annan page collection
 
 **pages->diff($input)**  
-Calculate difference, remove pages that are present in another page collection
+Beräkna skillnaden, ta bort sidor som finns i en annan page collection
 
 **pages->append($page)**  
-Append to end of page collection
+Lägg till slutet av page collection
 
 **pages->prepend($page)**  
-Prepend to start of page collection
+Placera i början av page collection
 
 **pages->limit($pagesMax)**  
-Limit the number of pages in page collection
+Begränsa antalet sidor i page collection
 
 **pages->reverse()**  
-Reverse page collection
+Omvänd page collection
 
 **pages->shuffle()**  
-Randomize page collection
+Gör page collection slumpmässig
 
 **pages->pagination($limit, $reverse = true)**  
-Paginate page collection
+Skapa en paginering för page collection
 
 **pages->getPaginationNumber()**  
-Return current page number in pagination
+Returnera aktuellt sidnummer i paginering
 
 **pages->getPaginationCount()**  
-Return highest page number in pagination
+Returnera högsta sidnummer i paginering
 
 **pages->getPaginationLocation($absoluteLocation = true, $pageNumber = 1)**  
-Return location for a page in pagination
+Returnera plats för en sida i paginering 
 
 **pages->getPaginationPrevious($absoluteLocation = true)**  
-Return location for previous page in pagination
+Returnera plats för föregående sida i paginering
 
 **pages->getPaginationNext($absoluteLocation = true)**  
-Return location for next page in pagination
+Returnera plats för nästa sida i paginering
 
 **pages->getPagePrevious($page)**  
-Return previous page in collection, null if none
+Returnera föregående sida i page collection, null om ingen 
 
 **pages->getPageNext($page)**  
-Return next page in collection, null if none
+Returnera nästa sida i page collection, null om ingen 
 
 **pages->getFilter()**  
-Return current page filter
+Returnera nuvarande sidfilter 
 
 **pages->getModified($httpFormat = false)**  
-Return page collection modification date, Unix time or HTTP format
+Returnera ändringsdatum för page collection, Unix-tid eller HTTP-format  
 
 **pages->isPagination()**  
-Check if there is a pagination
+Kontrollera om det finns en paginering
 
-Here's an example layout for showing three random pages:
+Här är en exempellayout för att visa tre slumpmässiga sidor:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -289,7 +289,7 @@ Here's an example layout for showing three random pages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing latest pages:
+Här är en exempellayout för att visa senaste sidor:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -308,7 +308,7 @@ Here's an example layout for showing latest pages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing draft pages:
+Här är en exempellayout för att visa draftsidor:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -329,27 +329,27 @@ Here's an example layout for showing draft pages:
 
 ### Yellow content
 
-Yellow content gives access to content files:
+Yellow content ger tillgång till innehållsfiler:
 
 **content->find($location, $absoluteLocation = false)**  
-Return [page](#yellow-page), null if not found
+Returnera [page](#yellow-page), null om det inte finns
 
 **content->index($showInvisible = false, $multiLanguage = false, $levelMax = 0)**  
-Return [page collection](#yellow-page-collection) with all pages
+Returnera [page collection](#yellow-page-collection) med alla sidor
 
 **content->top($showInvisible = false, $showOnePager = true)**  
-Return [page collection](#yellow-page-collection) with top-level navigation
+Returnera [page collection](#yellow-page-collection) med navigering på toppnivå
 
 **content->path($location, $absoluteLocation = false)**  
-Return [page collection](#yellow-page-collection) with path ancestry
+Returnera [page collection](#yellow-page-collection) med sökväg i navigering
 
 **content->multi($location, $absoluteLocation = false, $showInvisible = false)**  
-Return [page collection](#yellow-page-collection) with multiple languages in multi language mode
+Returnera [page collection](#yellow-page-collection) med flera språk i flerspråkigt läge
 
 **content->clean()**  
-Return [page collection](#yellow-page-collection) that is empty
+Returnera [page collection](#yellow-page-collection) som är tom
 
-Here's an example layout for showing all pages:
+Här är en exempellayout för att visa alla sidor:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -368,7 +368,7 @@ Here's an example layout for showing all pages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing pages below a specific location:
+Här är en exempellayout för att visa sidor under en viss plats:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -387,7 +387,7 @@ Here's an example layout for showing pages below a specific location:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing top-level navigation pages:
+Här är en exempellayout för att visa navigationssidor på toppnivå:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -408,18 +408,18 @@ Here's an example layout for showing top-level navigation pages:
 
 ### Yellow media
 
-Yellow media gives access to media files:
+Yellow media ger tillgång till mediefiler:
 
 **media->find($location, $absoluteLocation = false)**  
-Return [page](#yellow-page) with media file information, null if not found
+Returnera [page](#yellow-page) med information om mediefilen, null om det inte finns
 
 **media->index($showInvisible = false, $multiPass = false, $levelMax = 0)**  
-Return [page collection](#yellow-page-collection) with all media files
+Returnera [page collection](#yellow-page-collection) med alla mediefiler
 
 **media->clean()**  
-Return [page collection](#yellow-page-collection) that is empty
+Returnera [page collection](#yellow-page-collection) som är tom
 
-Here's an example layout for showing all media files:
+Här är en exempellayout för att visa alla mediefiler:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -438,7 +438,7 @@ Here's an example layout for showing all media files:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing latest media files:
+Här är en exempellayout för att visa senaste mediefiler:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -457,7 +457,7 @@ Here's an example layout for showing latest media files:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing media files of a specific type:
+Här är en exempellayout för att visa mediefiler av en viss typ:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -478,27 +478,27 @@ Here's an example layout for showing media files of a specific type:
 
 ### Yellow system
 
-Yellow system gives access to system settings:
+Yellow system ger tillgång till systeminställningar:
 
 **system->get($key)**  
-Return [system setting](how-to-adjust-system#system-settings)
+Returnera [systeminställning](how-to-adjust-system#systeminställningar)
 
 **system->getHtml($key)**  
-Return [system setting](how-to-adjust-system#system-settings), HTML encoded
+Returnera [systeminställning](how-to-adjust-system#systeminställningar), HTML-kodad
 
 **system->getSettings($filterStart = "", $filterEnd = "")**  
-Return [system settings](how-to-adjust-system#system-settings)
+Returnera [systeminställningar](how-to-adjust-system#systeminställningar)
 
 **system->getValues($key)**  
-Return supported values for [system setting](how-to-adjust-system#system-settings), empty if not known
+Returnera stödda värden för en [systeminställning](how-to-adjust-system#systeminställningar), tom om det inte är känt
 
 **system->getModified($httpFormat = false)**  
-Return [system settings](how-to-adjust-system#system-settings) modification date, Unix time or HTTP format
+Returnera ändringsdatum for [systeminställningar](how-to-adjust-system#systeminställningar), Unix-tid eller HTTP-format
 
 **system->isExisting($key)**  
-Check if [system setting](how-to-adjust-system#system-settings) exists
+Kontrollera om [systeminställning](how-to-adjust-system#systeminställningar) finns
 
-Here's an example layout for showing webmaster:
+Här är en exempellayout för att visa webbansvarig:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -514,7 +514,7 @@ Here's an example layout for showing webmaster:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for checking if a specific setting is activated:
+Här är en exempellayout för att kontrollera om en specifik inställning är aktiverad: 
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -530,7 +530,7 @@ Multi language mode is <?php echo htmlspecialchars($multiLanguageMode ? "on" : "
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing core settings:
+Här är en exempellayout för att visa core-inställningar: 
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -549,27 +549,27 @@ Here's an example layout for showing core settings:
 
 ### Yellow user
 
-Yellow user gives access to user settings:
+Yellow user ger tillgång till användarinställningar:
 
 **user->getUser($key, $email = "")**  
-Return [user setting](how-to-adjust-system#user-settings)
+Returnera [användarinställning](how-to-adjust-system#användarinställningar)
 
 **user->getUserHtml($key, $email = "")**  
-Return [user setting](how-to-adjust-system#user-settings), HTML encoded
+Returnera [användarinställning](how-to-adjust-system#användarinställningar), HTML encoded
 
 **user->getSettings($email = "")**  
-Return [user settings](how-to-adjust-system#user-settings)
+Returnera [användarinställningar](how-to-adjust-system#användarinställningar)
 
 **user->getModified($httpFormat = false)**  
-Return [user settings](how-to-adjust-system#user-settings) modification date, Unix time or HTTP format
+Returnera ändringsdatum för [användarinställningar](how-to-adjust-system#användarinställningar), Unix-tid eller HTTP-format
 
 **user->isUser($key, $email = "")**  
-Check if [user setting](how-to-adjust-system#user-settings) exists
+Kontrollera om [användarinställning](how-to-adjust-system#användarinställningar) finns
 
 **user->isExisting($email)**  
-Check if user exists
+Kontrollera om användaren finns
 
-Here's an example layout for showing current user:
+Här är en exempellayout för att visa den aktuella användaren:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -585,7 +585,7 @@ Here's an example layout for showing current user:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for checking if a user is logged in:
+Här är en exempellayout för att kontrollera om en användare är inloggad:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -599,7 +599,7 @@ Here's an example layout for checking if a user is logged in:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing users and their status:
+Här är en exempellayout för att visa användare och deras status:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -619,27 +619,27 @@ Here's an example layout for showing users and their status:
 
 ### Yellow language
 
-Yellow language gives access to language settings:
+Yellow language ger tillgång till språkinställningar:
 
 **language->getText($key, $language = "")**  
-Return [language setting](how-to-adjust-system#language-settings)
+Returnera [språkinställning](how-to-adjust-system#språkinställningar)
 
 **language->getTextHtml($key, $language = "")**  
-Return [language setting](how-to-adjust-system#language-settings), HTML encoded
+Returnera [språkinställning](how-to-adjust-system#språkinställningar), HTML-kodad
 
 **language->getSettings($filterStart = "", $filterEnd = "", $language = "")**  
-Return [language settings](how-to-adjust-system#language-settings)
+Returnera [språkinställningar](how-to-adjust-system#språkinställningar)
 
 **language->getModified($httpFormat = false)**  
-Return [language settings](how-to-adjust-system#language-settings) modification date, Unix time or HTTP format
+Returnera ändringsdatum för [språkinställningar](how-to-adjust-system#språkinställningar), Unix-tid eller HTTP-format
 
 **language->isText($key, $language = "")**  
-Check if [language setting](how-to-adjust-system#language-settings) exists
+Kontrollera om [språkinställning](how-to-adjust-system#språkinställningar) finns
 
 **language->isExisting($language)**  
-Check if language exists
+Kontrollera om språket finns
 
-Here's an example layout for showing a language setting:
+Här är en exempellayout för att visa en språkinställning:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -654,7 +654,7 @@ Here's an example layout for showing a language setting:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for checking if a specific language exists:
+Här är en exempellayout för att kontrollera om ett specifikt språk finns:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -668,7 +668,7 @@ Here's an example layout for checking if a specific language exists:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for showing languages and translators:
+Här är en exempellayout för att visa språk och översättare:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -688,18 +688,18 @@ Here's an example layout for showing languages and translators:
 
 ### Yellow extension
 
-Yellow extension gives access to extensions:
+Yellow extension ger tillgång till tillägg:
 
 **extension->get($key)**  
-Return extension
+Returnera tillägg
 
 **extension->getModified($httpFormat = false)**  
-Return extensions modification date, Unix time or HTTP format
+Returnera ändringsdatum för tilläg, Unix-tid eller HTTP-format
 
 **extension->isExisting($key)**  
-Check if extension exists
+Kontrollera om tilläget finns
 
-Here's an example layout for showing extensions:
+Här är en exempellayout för att visa tillägg:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -716,7 +716,7 @@ Here's an example layout for showing extensions:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example layout for checking if a specific extension exists:
+Här är en exempellayout för att kontrollera om ett specifikt tillägg finns:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -730,7 +730,7 @@ Here's an example layout for checking if a specific extension exists:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Here's an example code for calling a function from another extension:
+Här är en exempelkod för att anropa en funktion från ett annat tillägg:
 
 ``` php
 if ($this->yellow->extension->isExisting("image")) {
@@ -742,75 +742,75 @@ if ($this->yellow->extension->isExisting("image")) {
 
 ### Yellow toolbox
 
-Yellow toolbox gives access to toolbox with helper functions:
+Yellow toolbox ger tillgång till verktygslådan med hjälpfunktioner:
 
 **toolbox->getCookie($key)**  
-Return browser cookie from from current HTTP request  
+Returnera webbläsarkakan för aktuella HTTP-begäran
 
 **toolbox->getServer($key)**  
-Return server argument from current HTTP request
+Returnera serverargument för aktuella HTTP-begäran
 
 **toolbox->getDirectoryEntries($path, $regex = "/.*/", $sort = true, $directories = true, $includePath = true)**  
-Return files and directories
+Returnera filer och kataloger
 
 **toolbox->getDirectoryEntriesRecursive($path, $regex = "/.*/", $sort = true, $directories = true, $levelMax = 0)**  
-Return files and directories recursively
+Returnera filer och kataloger rekursivt
 
 **toolbox->readFile($fileName, $sizeMax = 0)**  
-Read file, empty string if not found  
+Läs fil, tom sträng om den inte hittas
 
 **toolbox->createFile($fileName, $fileData, $mkdir = false)**  
-Create file  
+Skapa fil  
 
 **toolbox->appendFile($fileName, $fileData, $mkdir = false)**  
-Append file  
+Lägg till fil
 
 **toolbox->copyFile($fileNameSource, $fileNameDestination, $mkdir = false)**  
-Copy file  
+Kopiera fil
 
 **toolbox->renameFile($fileNameSource, $fileNameDestination, $mkdir = false)**  
-Rename file  
+Byt namn på en fil
 
 **toolbox->renameDirectory($pathSource, $pathDestination, $mkdir = false)**  
-Rename directory  
+Byt namn på en mapp
 
 **toolbox->deleteFile($fileName, $pathTrash = "")**  
-Delete file  
+Radera fil  
 
 **toolbox->deleteDirectory($path, $pathTrash = "")**  
-Delete directory  
+Radera mapp  
 
 **toolbox->modifyFile($fileName, $modified)**  
-Set file/directory modification date, Unix time  
+Ställ in ändringsdatum för fil/mapp, Unix-tid 
 
 **toolbox->getFileModified($fileName)**  
-Return file/directory modification date, Unix time  
+Returnera ändringsdatum för fil/mapp, Unix-tid 
 
 **toolbox->getFileType($fileName)**  
-Return file type
+Returnera filtyp
 
 **toolbox->getTextLines($text)**  
-Return lines from text, including newline  
+Returnera rader från text, inklusive radbrytningar
 
 **toolbox->getTextList($text, $separator, $size)**  
-Return array of specific size from text  
+Returnera array med specifik storlek från text 
 
 **toolbox->getTextArguments($text, $optional = "-", $sizeMin = 9)**  
-Return array of variable size from text, space separated  
+Returnera array med variabel storlek från text, separerade av mellanslag
 
 **toolbox->createTextDescription($text, $lengthMax = 0, $removeHtml = true, $endMarker = "", $endMarkerText = "")**  
-Create text description, with or without HTML
+Skapa textbeskrivning, med eller utan HTML
 
 **toolbox->normaliseArguments($text, $appendSlash = true, $filterStrict = true)**  
-Normalise location arguments
+Normalisera platsargument
 
 **toolbox->normaliseTokens($text, $prependSlash = false)**  
-Normalise path or location, take care of relative path tokens
+Normalisera sökväg eller plats, ta hand om  relativa delninga
 
 **toolbox->normaliseData($text, $type = "html", $filterStrict = true)**  
-Normalise elements and attributes in HTML/SVG data
+Normalisera element och attribut i HTML/SVG-data 
 
-Here's an example code for reading text lines from file:
+Här är en exempelkod för att läsa textrader från filen:
 
 ``` php
 $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
@@ -820,7 +820,7 @@ foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
 }
 ```
 
-Here's an example code for showing files in a folder:
+Här är en exempelkod för att visa filer i en mapp:
 
 ``` php
 $path = $this->yellow->system->get("coreExtensionDirectory");
@@ -829,7 +829,7 @@ foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, false)
 }
 ```
 
-Here's an example code for changing text in multiple files:
+Här är en exempelkod för att ändra text i flera filer:
 
 ``` php
 $path = $this->yellow->system->get("coreContentDirectory");
@@ -842,9 +842,9 @@ foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.md$/
 }
 ```
 
-## Events
+## Händelser
 
-The following events are available:
+Följande händelser är tillgängliga:
 
 ```
 onLoad ───────▶ onStartup ───────────────────────────────────────────┐
@@ -865,56 +865,56 @@ onLoad ───────▶ onStartup ────────────�
                 onShutDown ◀─────────────────┴───────────────────────┘
 ```
 
-When a page is displayed, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. The page can be handled with various `onParse` events. Then the page content will be generated. If an error has occurred, an error page will be generated. Finally the page is output and `onShutdown` will be called.
+När en sida visas laddas tilläggen och `onLoad` anropas. Så snart alla tillägg har laddats kallas `onStartup`. Sidan kan hanteras med olika `onParse` händelser. Sedan genereras sidinnehållet. Om ett fel har inträffat genereras en felsida. Slutligen matas sidan ut och `onShutdown` anropas.
 
-When a page is edited, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. Changes at the page can be handled with various `onEdit` events. Then the page will be saved. Finally a status code is output to reload the page and `onShutdown` will be called.
+När en sida redigeras laddas tilläggen och `onLoad` anropas. Så snart alla tillägg har laddats kallas `onStartup`. Ändringar av sidan kan hanteras med olika `onEdit` händelser. Sedan sparas sidan. Slutligen skickas en statuskod för omladdning av sidan och `onShutdown` anropas.
 
-When a command is executed, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. The command can be handled with `onCommand`. If no command has been entered, `onCommandHelp` will be called and extensions can provide a help. Finally a return code is output and `onShutdown` will be called.
+När ett kommando körs laddas tilläggen och `onLoad` anropas. Så snart alla tillägg har laddats kallas `onStartup`. Kommandot kan hanteras med `onCommand`. Om inget kommando har angetts anropas `onCommandHelp` och tillägg kan ge hjälp. Slutligen skickas en returkod och `onShutdown` anropas.
 
-### Yellow core events
+### Yellow core händelser
 
-Yellow core events notify when a page is displayed or a state has changed:
+Yellow core händelser meddelar när en sida visas eller ett tillstånd ändras:
 
 **public function onLoad($yellow)**  
-Handle initialisation
+Hantera initialisering
 
 **public function onStartup()**  
-Handle startup
+Hantera start
 
 **public function onUpdate($action)**  
-Handle update
+Hantera uppdatering
 
 **public function onRequest($scheme, $address, $base, $location, $fileName)**  
-Handle request
+Hantera begäran
 
 **public function onParseMeta($page)**  
-Handle [page meta data](how-to-adjust-system#page-settings)
+Hantera [metadata av en sida](how-to-adjust-system#sidinställningar)
 
 **public function onParseContentRaw($page, $text)**  
-Handle page content in raw format
+Hantera sidinnehåll i råformat
 
 **public function onParseContentShortcut($page, $name, $text, $type)**  
-Handle page content of shortcut
+Hantera sidinnehåll av förkortning
 
 **public function onParseContentHtml($page, $text)**  
-Handle page content in HTML format
+Hantera sidinnehåll i HTML-format
 
 **public function onParsePageLayout($page, $name)**  
-Handle page layout
+Hantera sidlayout
 
 **public function onParsePageExtra($page, $name)**  
-Handle page extra data
+Hantera extra data för sidan
 
 **public function onParsePageOutput($page, $text)**  
-Handle page output data
+Hantera output data för sidan
 
 **public function onLog($action, $message)**  
-Handle logging
+Hantera loggning
 
 **public function onShutdown()**  
-Handle shutdown
+Hantera avstängningen
 
-Here's an example extension for handling an `[example]` shortcut:
+Här är ett exempel tillägg för hantering av en `[example]` förkortning:
 
 ``` php
 <?php
@@ -940,23 +940,23 @@ class YellowExample {
 }
 ```
 
-### Yellow edit events
+### Yellow edit händelser
 
-Yellow edit events notify when a page is edited:
+Yellow edit händelser meddelar när en sida redigeras:
 
 **public function onEditContentFile($page, $action, $email)**  
-Handle content file changes
+Hantera innehållsfiländringar
 
 **public function onEditMediaFile($file, $action, $email)**  
-Handle media file changes
+Hantera mediefiländringar
 
 **public function onEditSystemFile($file, $action, $email)**  
-Handle system file changes
+Hantera systemfiländringar
 
 **public function onEditUserAccount($action, $email, $password)**  
-Handle user account changes
+Hantera ändringar av användarkonton
 
-Here's an example extension for handling a file:
+Här är ett exempel på tillägg för hantering av en fil:
 
 ``` php
 <?php
@@ -980,17 +980,17 @@ class YellowExample {
 }
 ```
 
-### Yellow command events
+### Yellow command händelser
 
-Yellow command events notify when a command is executed:
+Yellow command händelser när ett kommando körs:
 
 **public function onCommand($command, $text)**  
-Handle command
+Hantera kommandon
 
 **public function onCommandHelp()**  
-Handle command help
+Hantera hjälp för kommandon
 
-Here's an example extension for handling a command:
+Här är ett exempel på tillägg för hantering av ett kommando:
 
 ``` php
 <?php
@@ -1020,41 +1020,41 @@ class YellowExample {
 }
 ```
 
-## Miscellaneous
+## Diverse
 
-The following functions extend PHP string functions:
+Följande funktioner utökar PHP-strängfunktioner: 
 
 **strtoloweru($string)**  
-Make string lowercase, UTF-8 compatible
+Konvertera sträng till gemener, UTF-8-kompatibel
 
 **strtoupperu($string)**  
-Make string uppercase, UTF-8 compatible
+Konvertera sträng till versaler, UTF-8-kompatibel
 
 **strlenu($string)** + **strlenb($string)**  
-Return string length, UTF-8 characters or bytes
+Returnera stränglängd, UTF-8 tecken eller byte
 
 **strposu($string, $search)** + **strposb($string, $search)**  
-Return string position of first match, UTF-8 characters or bytes
+Returnera strängposition för första träffen, UTF-8 tecken eller byte
 
 **strrposu($string, $search)** + **strrposb($string, $search)**  
-Return string position of last match, UTF-8 characters or bytes
+Returnera strängposition för senaste träffen, UTF-8 tecken eller byte
 
 **substru($string, $start, $length)** + **substrb($string, $start, $length)**  
-Return part of a string, UTF-8 characters or bytes
+Returnera en del av en sträng, UTF-8-tecken eller byte
 
 **strempty($string)**  
-Check if string is empty
+Kontrollera om strängen är tom
 
-Here's an example code for using various string functions:
+Här är en exempelkod för att använda olika strängfunktioner:
 
 ```php
-$string = "Datenstrom Yellow is for people who make small websites";
-echo strtoloweru($string);    // datenstrom yellow is for people who make small websites
-echo strtoupperu($string);    // DATENSTROM YELLOW IS FOR PEOPLE WHO MAKE SMALL WEBSITES
+$string = "Datenstrom Yellow är för människor som skapar små webbsidor";
+echo strtoloweru($string);    // datenstrom yellow är för människor som skapar små webbsidor
+echo strtoupperu($string);    // DATENSTROM YELLOW ÄR FÖR MÄNNISKOR SOM SKAPAR SMÅ WEBBSIDOR
 
-$string = "Text with UTF-8 characters åäö";
-echo strlenu($string);        // 30
-echo strposu($string, "UTF"); // 10
+$string = "Text med UTF-8 tecken åäö";
+echo strlenu($string);        // 25
+echo strposu($string, "UTF"); // 9
 echo substru($string, -3, 3); // åäö
 
 var_dump(strempty("text"));   // bool(false)
@@ -1062,10 +1062,10 @@ var_dump(strempty("0"));      // bool(false)
 var_dump(strempty(""));       // bool(true)
 ```
 
-## Relevant information
+## Relaterad information
 
-* [How to use the command line](https://github.com/datenstrom/yellow-extensions/blob/master/source/command)
-* [How to publish an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)
-* [How to update a website](https://github.com/datenstrom/yellow-extensions/blob/master/source/update)
+* [Hur man använder kommandoraden](https://github.com/datenstrom/yellow-extensions/blob/master/source/command/README-sv.md)
+* [Hur man publicerar ett tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md)
+* [Hur man uppdaterar en webbplats](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-sv.md)
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

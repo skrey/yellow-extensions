@@ -1,9 +1,7 @@
 ---
 Title: Hur man anpassar medier
 ---
-!!! Den här sidan finns inte på ditt språk. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
-
-All media is located in the `media` folder. You can store your images and other files here.
+Alla medier finns i `media` mappen. Du kan lagra dina bilder och andra filer här. 
 
     ├── content
     ├── media
@@ -12,34 +10,34 @@ All media is located in the `media` folder. You can store your images and other 
     │   └── thumbnails
     └── system
 
-The `downloads` folder contains files to download. The `images` folder is the place to store your images. The `thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like. Essentially, any media file can be downloaded from the website.
+Mappen `downloads` innehåller filer att ladda ner. Mappen `images` är platsen för att lagra dina bilder. Mappen `thumbnails` innehåller miniatyrbilder. Du kan också skapa ytterligare mappar och organisera filer som du vill. I grund och botten kan alla mediefiler laddas ner från webbplatsen. 
 
-## Images
+## Bilder
 
-You can use the [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/image) to embed images. To add a new image, copy a new file into the `images` folder and create an `[image]` shortcut. The image formats GIF, JPG, PNG and SVG are supported. Here's an example:
+Du kan använda [image-tilläget](https://github.com/datenstrom/yellow-extensions/tree/master/source/image) för att bädda in bilder. För att lägga till en ny bild, kopiera en ny fil till `images` mappen och skapa en `[image]` förkortning. Bildformaten GIF, JPG, PNG och SVG stöds. Här är ett exempel:
 
     [image photo.jpg]
-    [image photo.jpg Example]
-    [image photo.jpg "This is an example image"]
+    [image photo.jpg Exempel]
+    [image photo.jpg "Detta är en exempelbild"]
 
-Images in different styles:
+Bilder i olika stilar:
 
-    [image photo.jpg Example left]
-    [image photo.jpg Example center]
-    [image photo.jpg Example right]
+    [image photo.jpg Exempel left]
+    [image photo.jpg Exempel center]
+    [image photo.jpg Exempel right]
 
-Images in different sizes:
+Bilder i olika storlekar:
 
-    [image photo.jpg Example - 64 64]
-    [image photo.jpg Example - 320 200]
-    [image photo.jpg Example - 50%]
+    [image photo.jpg Exempel - 64 64]
+    [image photo.jpg Exempel - 320 200]
+    [image photo.jpg Exempel - 50%]
 
-## Videos
+## Videor
 
-You can use the [Youtube extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube) to embed videos:
+Du kan använda [Youtube-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube) för att bädda in videor: 
 
     [youtube fhs55HEl-Gc]
     [youtube fhs55HEl-Gc left 200 112]
     [youtube fhs55HEl-Gc right 200 112]
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

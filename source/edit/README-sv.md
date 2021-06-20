@@ -44,7 +44,7 @@ Konfigurera ett användarkonto med maximala användarrättigheter:
 ```
 Email: anna@svensson.com
 Name: Anna Svensson
-Description: Designer
+Description: Formgivare
 Language: sv
 Home: /
 Access: create, edit, delete, restore, upload, configure, update

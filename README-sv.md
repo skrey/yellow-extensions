@@ -72,7 +72,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Visa länkar till föregående/nästa sida. Utvecklad av Datenstrom.
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
   Stöd för lösenordsskyddade sidor. Utvecklad av Steffen Schultz.
-* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish): 
+* [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md): 
   Paketera och publicera tillägg. Utvecklad av Datenstrom.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss): 
   Widgets för RadioBoss Cloud. Utvecklad av Steffen Schultz.
@@ -107,11 +107,11 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
 
 ## Teman
 
-* [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin): 
+* [Berlin](https://github.com/datenstrom/yellow-extensions/tree/master/source/berlin/README-sv.md): 
   Berlin är ett tema inspirerat av Dieter Rams. Designad av Datenstrom.
-* [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris): 
+* [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris/README-sv.md): 
   Paris är ett elegant tema. Designad av Datenstrom.
-* [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm): 
+* [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm/README-sv.md): 
   Stockholm är ett rent tema. Designad av Datenstrom.
 
 ## Språk

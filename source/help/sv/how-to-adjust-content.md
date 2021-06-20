@@ -21,11 +21,11 @@ Navigationen skapas automatiskt från dina `content` mappar:
 
 Prefix och suffix tas bort från platsen så att det ser bättre ut. Till exempel är mappen `content/9-about/` tillgänglig på din webbplats som `http://website/about/`. Filen `content/9-about/privacy.md` blir `http://website/about/privacy`.
 
-Det finns två undantag. Den `home` mappen får inte innehålla undermappar, eftersom den är ansvarig för hemsidan och tillgänglig på din webbplats som `http://website/`. Den `shared` mappen får bara inkluderas på andra sidor, den är inte tillgänglig på din webbplats. 
+Det finns två undantag. Mappen `home` får inte innehålla undermappar, eftersom den är ansvarig för hemsidan och tillgänglig på din webbplats som `http://website/`. Mappen `shared` får bara inkluderas på andra sidor, den är inte tillgänglig på din webbplats. 
 
 ## Markdown
 
-Markdown är ett praktiskt sätt att redigera webbsidor. Öppna filen `content/1-home/page.md` i din favorittextredigerare. Du kommer att se inställningar och text på sidan. Du kan ändra `Title` och andra [sidinställningar](how-to-adjust-system#page-settings) högst upp på en sida. Här är ett exempel: 
+Markdown är ett praktiskt sätt att redigera webbsidor. Öppna filen `content/1-home/page.md` i din favorittextredigerare. Du kommer att se inställningar och text på sidan. Du kan ändra `Title` och andra [sidinställningar](how-to-adjust-system#sidinställningar) högst upp på en sida. Här är ett exempel: 
 
     ---
     Title: Hem

@@ -8,13 +8,13 @@ Webbplatsens kärnfunktion.
 
 ## Hur man redigerar en webbplats på datorn
 
-Du kan använda din favorittextredigerare och ändra allt i filhanteraren. Allt innehåll finns i din `content` mapp. I grund och botten är det du ser i filhanteraren den webbplats du får. Du kan [starta inbyggda webbservern](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md#hur-man-startar-inbyggda-webbservern) eller [bygga en statisk webbplats](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md#hur-man-bygger-en-statisk-webbplats).
+Du kan använda din favorittextredigerare och ändra allt i filhanteraren. Allt innehåll finns i din `content` mapp. Varje mapp har en fil som heter `page.md`. I grund och botten är det du ser i filhanteraren den webbplats du får. Du kan [starta inbyggda webbservern](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md#hur-man-startar-inbyggda-webbservern) eller [bygga en statisk webbplats](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md#hur-man-bygger-en-statisk-webbplats).
 
 ## Hur man anpassar en webbplats på datorn
 
-Om du vill justera HTML ändrar du layouten. Standardlayouten definieras i filen `system/extensions/yellow-system.ini`. En annan layout kan definieras i [sidinställningarna](#inställningar-page) högst upp på varje sida, till exempel `Layout: default`. Alla layoutfiler lagras i `system/layouts` mappen. Det finns ett [API för utvecklare](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-sv.md), till exempel för att skapa sin egen navigering.
+Om du vill justera HTML ändrar du layouten. Standardlayouten definieras i filen `system/extensions/yellow-system.ini`. En annan layout kan definieras i [sidinställningarna](#inställningar-page) högst upp på varje sida, till exempel `Layout: default`. Alla layoutfiler lagras i `system/layouts` mappen. Natuligtvis finns det ett [API för utvecklare](https://datenstrom.se/sv/yellow/help/api-for-developers).
 
-Om du vill justera CSS ändrar du temat. Standardtemat definieras i filen `system/extensions/yellow-system.ini`. Ett annat tema kan definieras i [sidinställningarna](#inställningar-page) högst upp på varje sida, till exempel `Theme: stockholm`. Strikt taget består teman inte bara av CSS utan av flera filer. Alla temafiler lagras i `system/themes` mappen. Det finns [teman](https://github.com/datenstrom/yellow-extensions/blob/master/README-sv.md#teman) att ladda ner.
+Om du vill justera CSS ändrar du temat. Standardtemat definieras i filen `system/extensions/yellow-system.ini`. Ett annat tema kan definieras i [sidinställningarna](#inställningar-page) högst upp på varje sida, till exempel `Theme: stockholm`. Strikt taget består teman inte bara av CSS utan av flera filer. Alla temafiler lagras i `system/themes` mappen. Det finns [teman att ladda ner](https://github.com/datenstrom/yellow-extensions/blob/master/README-sv.md#teman) och en [exempel för formgivare](https://github.com/schulle4u/yellow-extension-basic)..
 
 ## Hur man döljer en sida
 

@@ -24,17 +24,7 @@ The main configuration file is `system/extensions/yellow-system.ini`. Here's an 
     Language: en
     Layout: default
 
-You can define the system settings here, for example the name of the website and the email of the webmaster. Individual [page settings](#page-settings) can be defined at the top of each page. For a new installation you should set `Sitename`, `Author` and `Email`.
-
-## Language settings
-
-Another configuration file is `system/extensions/yellow-language.ini`. Here's an example:
-
-    Language: en
-    CoreDateFormatMedium: Y-m-d
-    media/images/photo.jpg: This is an example image
-
-You can define the language settings here, for example text sections and date format. Language settings consist of `Language` and other settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
+You can define the system settings here, for example the name of the website. Individual [page settings](#page-settings) can be defined at the top of each page. For a new installation you should set `Sitename`, `Author` and `Email`.
 
 ## User settings
 
@@ -55,6 +45,20 @@ All user accounts are stored in file `system/extensions/yellow-user.ini`. Here's
 
 You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command) to create new user accounts and change passwords. A user account consists of `Email` and other settings. If you don't want that pages are modified in a web browser, then change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
 
+## Language settings
+
+Another configuration file is `system/extensions/yellow-language.ini`. Here's an example:
+
+    Language: en
+    CoreDateFormatShort: F Y
+    CoreDateFormatMedium: Y-m-d
+    CoreDateFormatLong: Y-m-d H:i
+    EditMailFooter: @sitename
+    ImageDefaultAlt: Image without description
+    media/images/photo.jpg: This is an example image
+
+You can define the language settings here, for example the date format. Language settings consist of `Language` and other settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
+
 ## Page settings
 
 The following settings can be configured at the top of a page:
@@ -73,11 +77,13 @@ The following settings can be configured at the top of a page:
 `LayoutNew` = page layout for creating a new page  
 `Parser` = page parser  
 `Status` = status for workflow  
+`Redirect` = redirect to a new page or URL  
 `Image` = page image  
 `ImageAlt` = alternative text for page image  
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Redirect` = redirect to a new page or URL  
+`Build` = page option(s) for building a static website, comma separated  
+`Comment` = page option(s) for showing comments, comma separated  
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
