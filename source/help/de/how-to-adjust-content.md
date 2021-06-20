@@ -83,12 +83,6 @@ Ein Bild hinzufügen:
     [image photo.jpg Beispiel]
     [image photo.jpg "Dies ist ein Beispielbild"]
 
-Ein Bild hinzufügen, alternatives Format:
-
-    ![image](photo.jpg)
-    ![image](photo.jpg "Beispiel")
-    ![image](photo.jpg "Dies ist ein Beispielbild")
-
 Tabellen erstellen:
 
     | Kaffee     | Milch | Stärke  |

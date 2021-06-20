@@ -83,12 +83,6 @@ Lägg till en bild:
     [image photo.jpg Exempel]
     [image photo.jpg "Detta är en exempelbild"]
 
-Lägg till en bild, alternativt format:
-
-    ![image](photo.jpg)
-    ![image](photo.jpg "Exempel")
-    ![image](photo.jpg "Detta är en exempelbild")
-
 Skapa tabeller:
 
     | Kaffe      | Mjölk | Styrka  |

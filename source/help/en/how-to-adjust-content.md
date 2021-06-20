@@ -83,12 +83,6 @@ Adding an image:
     [image photo.jpg Example]
     [image photo.jpg "This is an example image"]
 
-Adding an image, alternative format:
-
-    ![image](photo.jpg)
-    ![image](photo.jpg "Example")
-    ![image](photo.jpg "This is an example image")
-
 Making tables:
 
     | Coffee     | Milk | Strength |

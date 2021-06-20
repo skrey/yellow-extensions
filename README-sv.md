@@ -52,19 +52,19 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Hjälp för din webbplats. Utvecklad av Datenstrom.
 * [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight): 
   Markera källkod. Utvecklad av Datenstrom.
-* [Image](https://github.com/datenstrom/yellow-extensions/tree/master/source/image): 
+* [Image](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md): 
   Bilder och miniatyrbilder. Utvecklad av Datenstrom.
 * [Include](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/include): 
   Inkludera sidinnehåll från andra sidor. Utvecklad av Steffen Schultz.
 * [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram): 
   Bädda in Instagram-foton. Utvecklad av Datenstrom.
-* [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown): 
+* [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-sv.md): 
   Textformatering för människor. Utvecklad av Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta):
   Metadata för webbplatser med sociala medier. Utvecklad av Datenstrom, Steffen Schultz.
 * [Pagesource](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/pagesource): 
   Visa Markdown-källtext på sidor. Utvecklad av Steffen Schultz.
-* [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown): 
+* [Parsedown](https://github.com/datenstrom/yellow-extensions/tree/master/source/parsedown/README-sv.md): 
   Textformatering för människor. Utvecklad av Datenstrom.
 * [Podcast](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/podcast): 
   Webbflöde optimerat för publicering av podcast. Utvecklad av Steffen Schultz.
