@@ -87,7 +87,7 @@ Features, themes and languages for Datenstrom Yellow. https://datenstrom.se/yell
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider): 
   Image gallery with slider. Developed by Datenstrom.
 * [Soundcloud](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/soundcloud): 
-  Embed Soundcloud audio tracks. Developed by Datenstrom.
+  Embed Soundcloud audio tracks. Developed by Steffen Schultz.
 * [Spoiler](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/spoiler):
   Hide certain page elements. Developed by Steffen Schultz.
 * [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker): 
@@ -97,7 +97,7 @@ Features, themes and languages for Datenstrom Yellow. https://datenstrom.se/yell
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic): 
   Create traffic analytics from web server log files. Developed by Datenstrom.
 * [Twitter](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/twitter): 
-  Embed Twitter messages. Developed by Datenstrom, Steffen Schultz.
+  Embed Twitter messages. Developed by Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/source/update): 
   Keep your website up to date. Developed by Datenstrom.
 * [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki): 

@@ -87,7 +87,7 @@ Funktionen, Themen und Sprachen für Datenstrom Yellow. https://datenstrom.se/de
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md): 
   Bildergalerie mit Schieber. Entwickelt von Datenstrom.
 * [Soundcloud](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/soundcloud/README-de.md): 
-  Soundcloud-Audio einbinden. Entwickelt von Datenstrom.
+  Soundcloud-Audio einbinden. Entwickelt von Steffen Schultz.
 * [Spoiler](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/spoiler/README-de.md):
   Bestimmte Seitenelemente verstecken. Entwickelt von Steffen Schultz.
 * [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker/README-de.md): 
@@ -97,7 +97,7 @@ Funktionen, Themen und Sprachen für Datenstrom Yellow. https://datenstrom.se/de
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md): 
   Zugriffsanalysen aus Webserver-Logdateien erstellen. Entwickelt von Datenstrom.
 * [Twitter](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/twitter/README-de.md): 
-  Twitter-Nachrichten einbinden. Entwickelt von Datenstrom, Steffen Schultz.
+  Twitter-Nachrichten einbinden. Entwickelt von Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md): 
   Webseite auf dem neusten Stand halten. Entwickelt von Datenstrom.
 * [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md): 

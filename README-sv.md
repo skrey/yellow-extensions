@@ -87,7 +87,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider): 
   Bildgalleri med reglaget. Utvecklad av Datenstrom.
 * [Soundcloud](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/soundcloud): 
-  Bädda in Soundcloud-ljudspår. Utvecklad av Datenstrom.
+  Bädda in Soundcloud-ljudspår. Utvecklad av Steffen Schultz.
 * [Spoiler](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/spoiler):
    vissa sidelement. Utvecklad av Steffen Schultz.
 * [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker): 
@@ -97,7 +97,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-sv.md): 
   Skapa trafikanalys från webbserverns loggfiler. Utvecklad av Datenstrom.
 * [Twitter](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/twitter): 
-  Bädda in Twitter-meddelanden. Utvecklad av Datenstrom, Steffen Schultz.
+  Bädda in Twitter-meddelanden. Utvecklad av Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md): 
   Håll din webbplats uppdaterad. Utvecklad av Datenstrom.
 * [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-sv.md): 
