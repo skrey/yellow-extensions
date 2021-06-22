@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Wiki 0.8.13
 ===========
@@ -106,7 +106,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `@tag` = Tag zur Kategorisierung der Seite  
 `@author` = Autor der Seite  
 
-Die folgenden Dateien können angepasst werden:
+<a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
 `content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
 `system/layouts/wikipages.html` = Layoutdatei für Wikihauptseite  

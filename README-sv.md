@@ -12,11 +12,11 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Alternativ e-postadress obfuscator. Utvecklad av Steffen Schultz.
 * [Audio](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/audio):
   HTML5 ljudspelare. Utvecklad av Steffen Schultz.
-* [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog): 
+* [Blog](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-sv.md): 
   Blogg för din webbplats. Utvecklad av Datenstrom.
-* [Breadcrumb](https://github.com/datenstrom/yellow-extensions/tree/master/source/breadcrumb): 
+* [Breadcrumb](https://github.com/datenstrom/yellow-extensions/tree/master/source/breadcrumb/README-sv.md): 
   Brödcrumbnavigering. Utvecklad av Datenstrom.
-* [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/source/bundle): 
+* [Bundle](https://github.com/datenstrom/yellow-extensions/tree/master/source/bundle/README-sv.md): 
   Bundla webbplatsfiler. Utvecklad av Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md): 
   Webbplatsens kommandorad. Utvecklad av Datenstrom.
@@ -94,13 +94,13 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   RSS-feed parser. Utvecklad av Steffen Schultz.
 * [Toc](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc): 
   Innehållsförteckning. Utvecklad av Datenstrom.
-* [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic): 
+* [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-sv.md): 
   Skapa trafikanalys från webbserverns loggfiler. Utvecklad av Datenstrom.
 * [Twitter](https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter): 
   Bädda in Twitter-meddelanden. Utvecklad av Datenstrom, Steffen Schultz.
 * [Update](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md): 
   Håll din webbplats uppdaterad. Utvecklad av Datenstrom.
-* [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki): 
+* [Wiki](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-sv.md): 
   Wiki för din webbplats. Utvecklad av Datenstrom.
 * [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube): 
   Bädda in Youtube-videor. Utvecklad av Datenstrom.

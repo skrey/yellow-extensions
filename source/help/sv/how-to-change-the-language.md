@@ -1,33 +1,13 @@
 ---
 Title: Hur man ändrar språket
 ---
-!!! Den här sidan finns inte på ditt språk. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
+Så här ändrar du språket på din webbplats.
 
-## Single language mode
+## Enkelspråkigt läge 
 
-The default language is defined the [system settings](how-to-adjust-system#system-settings). A different language can be defined in the [page settings](how-to-adjust-system#page-settings) at the top of each page, for example `Language: en`.
+Standardspråket definieras [systeminställningarna](how-to-adjust-system#systeminställningar). Ett annat språk kan definieras i [sidinställningarna](how-to-adjust-system#sidinställningar) högst upp på varje sida, till exempel `Language: sv`. 
 
-An English page:
-
-```
----
-Title: About us
-Language: en
----
-Birds of a feather flock together.
-```
-
-A German page:
-
-```
----
-Title: Über uns
-Language: de
----
-Wo zusammenwächst was zusammen gehört.
-```
-
-A Swedish page:
+En svensk sida:
 
 ```
 ---
@@ -37,9 +17,29 @@ Language: sv
 Lika barn leka bäst.
 ```
 
-## Multi language mode
+En engelsk sida:
 
-For multilingual websites you can use the multi language mode. For example if you translate an entire website. Open file `system/extensions/yellow-system.ini` and change `CoreMultiLanguageMode: 1`. Go to your `content` folder and create a new folder for each language. Here's an example:
+```
+---
+Title: About us
+Language: en
+---
+Birds of a feather flock together.
+```
+
+En tysk sida:
+
+```
+---
+Title: Über uns
+Language: de
+---
+Wo zusammenwächst was zusammen gehört.
+```
+
+## Flerspråkigt läge
+
+För flerspråkiga webbplatser kan du använda flerspråkigt läge. Till exempel om du översätter en hel webbplats. Öppna filen `system/extensions/yellow-system.ini` och ändra `CoreMultiLanguageMode: 1`. Gå till din innehållsmapp och skapa en ny mapp för varje språk. Här är ett exempel: 
 
 ```
 ├── content               
@@ -56,7 +56,7 @@ For multilingual websites you can use the multi language mode. For example if yo
 └── system                
 ```
 
-The first screenshot shows the folders `1-en`, `2-de` and `3-sv`. This gives you the URLs `http://website/` `http://website/de/` `http://website/sv/` for English, German and Swedish. Here's another example:
+Den första skärmdumpen visar mapparna `1-en`,` 2-de` och `3-sv`. Detta ger dig webbadresserna `http://website/` `http://website/de/` `http://website/sv/` för engelska, tyska och svenska. Här är ett annat exempel: 
 
 ```
 ├── content               
@@ -74,8 +74,8 @@ The first screenshot shows the folders `1-en`, `2-de` and `3-sv`. This gives you
 └── system                
 ```
 
-The second screenshot shows the folders `1-en`, `2-de`, `3-sv` and `default`. This gives you the URLs `http://website/en/` `http://website/de/` `http://website/sv/` and a home page `http://website/` that automatically detects the visitor's language. 
+Den andra skärmdumpen visar mapparna `1-en`,` 2-de`, `3-sv` och `default`. Detta ger dig webbadresserna `http://website/en/` `http://website/de/` `http://website/sv/` och en hemsida `http://website/` som automatiskt upptäcker besökarens språk.
 
-To show a language selection], you can create a page that lists available languages. The language selection can be integrated into the navigation of your website. This allows visitors to choose the language.
+För att visa ett språkval] kan du skapa en sida som visar tillgängliga språk. Språkvalet kan integreras i navigeringen på din webbplats. Detta gör det möjligt för besökare att välja språk. 
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

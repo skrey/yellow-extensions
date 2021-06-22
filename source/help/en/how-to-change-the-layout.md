@@ -59,6 +59,6 @@ Here's an example layout for showing page content and additional blog pages:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Themes can have their own layout files, to override the existing layout. Add a theme to the file name. For example the file `system/layouts/default.html` will be used with any theme, the file `system/layouts/stockholm-default.html` will only be used with `Theme: Stockholm`.
+Themes can have their own layout files, to override the existing layout. Add a theme to the file name. For example the file `system/layouts/default.html` will be used with any theme, the file `system/layouts/stockholm-default.html` will only be used with `Theme: stockholm`.
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

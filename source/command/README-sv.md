@@ -69,7 +69,7 @@ Använd kommandoraden, översikt över tillgängliga kommandon:
 `php yellow.php install` = Lägg till tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
 `php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md)  
 `php yellow.php serve` = Starta inbyggda webbservern, kräver command-tillägg  
-`php yellow.php traffic` = Skapa trafikanalys, [kräver traffic-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
+`php yellow.php traffic` = Skapa trafikanalys, [kräver traffic-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-sv.md)  
 `php yellow.php uninstall` = Ta bort tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
 `php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
 `php yellow.php user` = Uppdatera användarkonton, [kräver edit-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  

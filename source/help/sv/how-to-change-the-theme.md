@@ -1,27 +1,27 @@
 ---
 Title: Hur man ändrar temat
 ---
-!!! Den här sidan finns inte på ditt språk. Vill du göra en översättning? [Läs mer](/sv/yellow/help/contributing-guidelines).
+Så här ändrar du utseendet på din webbplats.
 
-## Customising CSS
+## Anpassa CSS
 
-To adjust the [CSS](https://www.w3schools.com/css/) of your website change the theme. Let's see how themes work. The default theme is defined in the [system settings](how-to-adjust-system#system-settings). A different theme can be defined in the [page settings](how-to-adjust-system#page-settings) at the top of each page, for example `Theme: custom`.
+För att anpassa [CSS](https://www.w3schools.com/css/) på din webbplats ändrar man temat. Låt oss se hur teman fungerar. Standardtemat definieras i [systeminställningarna](how-to-adjust-system#systeminställningar). Ett annat tema kan definieras i [sidinställningarna](how-to-adjust-system#sidinställningar) högst upp på varje sida, till exempel `Theme: custom`. 
 
-Here's an example file `system/themes/custom.css`:
+Här är en exempelfil `system/themes/custom.css`:
 
 ``` css
 .page {
     background-color: #fc4;
     color: #fff;
-    text-align:center; 
+    text-align: center; 
 }
 ```
 
-## Customising JavaScript
+## Anpassa JavaScript
 
-To adjust your website even more you can use [JavaScript](https://www.w3schools.com/js/). This allows you to create dynamic features for websites. You can save JavaScript into a file which has a similar name as the CSS file. Then it will be automatically included.
+För att anpassa din webbplats ännu mer kan du använda [JavaScript](https://www.w3schools.com/js/). Detta gör att du kan skapa dynamiska funktioner för webbplatser. Du kan spara JavaScript i en fil som har ett liknande namn som CSS-filen. Då ingår det automatiskt. 
 
-Here's an example file `system/themes/custom.js`:
+Här är en exempelfil `system/themes/custom.js`:
 
 ``` javascript
 var ready = function() {
@@ -31,8 +31,8 @@ var ready = function() {
 window.addEventListener("DOMContentLoaded", ready, false);
 ```
 
-## Customising images and files
+## Anpassa bilder och filer
 
-The `system/themes` folder contains all theme files. You can store your images and font files here, which are used in themes. Each website has a small icon, sometimes called a favicon. The web browser displays this icon for example in the address bar.
+Mappen `system/themes` innehåller alla temafiler. Du kan lagra dina bilder och teckensnittsfiler här, som används i teman. Varje webbplats har en liten ikon, ibland kallad en favicon. Webbläsaren visar denna ikon till exempel i adressfältet. 
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

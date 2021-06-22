@@ -2,31 +2,31 @@
 
 Breadcrumb 0.8.6
 ================
-Brotkrümel-Navigation.
+Brödcrumbnavigering.
 
-<p align="center"><img src="breadcrumb-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
+<p align="center"><img src="breadcrumb-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>
 
-## Wie man eine Navigation hinzufügt
+## Hur man lägger till en navigering 
 
-Erstelle eine `[breadcrumb]`-Abkürzung.
+Skapa en `[breadcrumb]` förkortning. 
 
-Die folgenden Argumente sind verfügbar, alle Argumente sind optional:
+Följande argument är tillgängliga, alla utom det första argumentet är valfria:
  
-`Separator` = Text der zwischen Elementen angezeigt wird  
-`Style` = Brotkrümel-Stil, z.B. `breadcrumb`  
+`Separator` = text som visas mellan elementen  
+`Style` = brödcrumbstil, t.ex. `breadcrumb`  
 
-## Beispiele
+## Exempel
 
-Navigation hinzufügen:
+Lägga till navigering:
 
     [breadcrumb]
     [breadcrumb > breadcrumb]
     [breadcrumb / breadcrumb]
 
-Inhaltsdatei mit Brotkrümel:
+Innehållsfil med brödcrumb: 
 
     ---
-    Title: Beispielseite
+    Title: Exempelsida
     ---
     [breadcrumb]
         
@@ -36,7 +36,7 @@ Inhaltsdatei mit Brotkrümel:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Layoutdatei mit Brotkrümel:
+Layoutfil med brödcrumb:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
@@ -48,18 +48,18 @@ Layoutdatei mit Brotkrümel:
     </div>
     <?php $this->yellow->layout("footer") ?>
 
-## Einstellungen
+## Inställningar
 
-Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
+Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`BreadcrumbSeparator` = Text der zwischen Elementen angezeigt wird  
-`BreadcrumbStyle` = Brotkrümel-Stil, z.B. `breadcrumb`  
-`BreadcrumbPagesMin` = Anzahl der Seiten um Brotkrümel-Navigation anzuzeigen  
+`BreadcrumbSeparator` = text som visas mellan elementen  
+`BreadcrumbStyle` = brödcrumbstil, t.ex. `breadcrumb`  
+`BreadcrumbPagesMin` = antal sidor för att visa brödcrumbnavigering  
 
 ## Installation
 
-[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/breadcrumb.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/breadcrumb.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
-## Entwickler
+## Utvecklare
 
-Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

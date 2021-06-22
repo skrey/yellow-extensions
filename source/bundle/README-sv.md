@@ -2,19 +2,19 @@
 
 Bundle 0.8.21
 =============
-Webseiten-Dateien bündeln.
+Bundla webbplatsfiler.
 
-<p align="center"><img src="bundle-screenshot.png?raw=true" width="795" height="512" alt="Bildschirmfoto"></p>
+<p align="center"><img src="bundle-screenshot.png?raw=true" width="795" height="512" alt="Skärmdump"></p>
 
-## Wie man Webseiten-Dateien bündelt
+## Hur man buntar webbplatsfiler
 
-Diese Erweiterung bündelt und verkleinert Dateien für eine bessere Ladezeit. Deine Webseite enthält möglicherweise mehrere CSS- und JavaScript-Dateien. In der Regel werden die im Browser zwischengespeichert, trotzdem muss jede Datei überprüft werden. Hier kommt der Dateibündler ins Spiel. Er sucht im HTML-Header nach eingebundenen Dateien und ersetzt diese durch eine einzelne Datei für CSS und eine für JavaScript.
+Detta tillägg buntar och minskar filer för bättre laddningstid. Din webbplats kan innehålla flera CSS- och JavaScript-filer. Som regel är de cachade i webbläsaren, men varje fil måste kontrolleras. Det är här File-Bundler kommer in. Den letar i HTML-headern efter inbäddade filer och ersätter de med en enda fil för CSS och en för JavaScript.
 
-Falls du nicht willst dass eine Datei gebündelt wird, kannst du `data-bundle="exclude"` im HTML-Header angeben.
+Om du inte vill att en fil ska buntas kan du ange `data-bundle="exclude"` i HTML-headern.
 
-## Beispiele
+## Exempel
 
-Webseite mit ungebündelten CSS- und JavaScript-Dateien:
+Webbplats med obundna CSS- och JavaScript-filer:
 
 ```
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ Webseite mit ungebündelten CSS- und JavaScript-Dateien:
 </html>
 ```
 
-Webseite mit gebündelten CSS- und JavaScript-Dateien:
+Webbplats med bundna CSS- och JavaScript-filer:
 
 ```
 <!DOCTYPE html>
@@ -50,7 +50,7 @@ Webseite mit gebündelten CSS- und JavaScript-Dateien:
 </html>
 ```
 
-Webseite mit gebündelten und ungebündelten Dateien:
+Webbplats med bundna och obundna filer:
 
 ```
 <!DOCTYPE html>
@@ -69,10 +69,10 @@ Webseite mit gebündelten und ungebündelten Dateien:
 
 ## Installation
 
-[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
-Diese Erweiterung benutzt [Minify 1.3.63](https://github.com/matthiasmullie/minify) von Matthias Mullie.
+Detta tilläg använder [Minify 1.3.63](https://github.com/matthiasmullie/minify) av Matthias Mullie.
 
-## Entwickler
+## Utvecklare
 
-Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

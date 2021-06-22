@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Blog 0.8.13
 ===========
@@ -112,7 +112,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `@tag` = page tag for categorisation  
 `@author` = page author  
 
-The following files can be customised:
+<a id="settings-files"></a>The following files can be customised:
 
 `content/shared/page-new-blog.md` = content file for new blog page  
 `system/layouts/blogpages.html` = layout file for main blog page  

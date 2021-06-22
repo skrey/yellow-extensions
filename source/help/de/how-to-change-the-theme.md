@@ -13,7 +13,7 @@ Hier ist eine Beispiel-Datei `system/themes/custom.css`:
 .page {
     background-color: #fc4;
     color: #fff;
-    text-align:center; 
+    text-align: center; 
 }
 ```
 
