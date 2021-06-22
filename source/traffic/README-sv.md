@@ -26,7 +26,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `TrafficLinesMax` = antal rader att visa per kategori  
 `TrafficLogDirectory` = mapp med logfiler  
 `TrafficLogFile` = filnamn som reguljära uttryck  
-`TrafficSpamFilter` = spam filter som reguljära uttryck, `none` för att inaktivera  
+`TrafficSpamFilter` = skräplänkfilter som reguljära uttryck, `none` för att inaktivera  
 
 ## Installation
 

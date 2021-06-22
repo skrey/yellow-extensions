@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Draft 0.8.12
 ============
@@ -27,7 +27,7 @@ Content file with draft status:
 Content file with draft status for blog:
 
     ---
-    Title: Blog page
+    Title: Blog example
     Published: 2013-04-07
     Author: Datenstrom
     Layout: blog
@@ -39,7 +39,7 @@ Content file with draft status for blog:
 Content file with draft status for wiki:
 
     ---
-    Title: Wiki page
+    Title: Wiki example
     Layout: wiki
     Tag: Example
     Status: draft

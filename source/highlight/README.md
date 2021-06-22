@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Highlight 0.8.12
 ================
@@ -43,7 +43,7 @@ Highlighting of HTML code, without and with line number:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`HighlightLineNumber` = show line number, 1 or 0   
+`HighlightLineNumber` = show line number, 1 or 0  
 `HighlightAutodetectLanguages` = languages for automatic detection, comma separated  
 
 ## Installation

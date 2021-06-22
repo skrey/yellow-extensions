@@ -2,24 +2,24 @@
 
 Toc 0.8.6
 =========
-Inhaltsverzeichnis anzeigen.
+Innehållsförteckning.
 
-<p align="center"><img src="toc-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
+<p align="center"><img src="toc-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>
 
-## Wie zeigt man ein Inhaltsverzeichnis an
+## Hur man gör en innehållsförteckning
 
-Erstelle eine `[toc]`-Abkürzung. Das Inhaltsverzeichnis wird automatisch aus den Überschriften erzeugt.
+Skapa en `[toc]` förkortning. Innehållsförteckningen genereras automatiskt från rubrikerna. 
 
-## Beispiele
+## Exempel
 
-Inhaltsdatei mit Inhaltsverzeichnis:
+Innehållsfil med innehållsförteckning:
 
     ---
-    Title: Beispielseite
+    Title: Exempelsida
     ---
     [toc]
     
-    ## Erste Überschrift
+    ## Första rubriken
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -27,7 +27,7 @@ Inhaltsdatei mit Inhaltsverzeichnis:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Zweite Überschrift
+    ## Andra rubriken
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -35,11 +35,11 @@ Inhaltsdatei mit Inhaltsverzeichnis:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Zusammenfassung
+    ## Sammanfattning
     
-    Das ist eine Beispielseite.
+    Detta är en exempelsida.
 
-Layoutdatei mit Inhaltsverzeichnis:
+Layoutfil med innehållsförteckning:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
@@ -53,8 +53,8 @@ Layoutdatei mit Inhaltsverzeichnis:
 
 ## Installation
 
-[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/toc.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/toc.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
-## Entwickler
+## Utvecklare
 
-Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

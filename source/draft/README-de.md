@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Draft 0.8.12
 ============
@@ -27,24 +27,24 @@ Inhaltsdatei mit Draft-Status:
 Inhaltsdatei mit Draft-Status fürs Blog:
 
     ---
-    Title: Blogseite
+    Title: Blog-Beispiel
     Published: 2013-04-07
     Author: Datenstrom
     Layout: blog
     Tag: Beispiel
     Status: draft
     ---
-    Das ist eine Beispiel-Blogseite.
+    Das ist eine Beispielseite fürs Blog.
  
 Inhaltsdatei mit Draft-Status fürs Wiki:
 
     ---
-    Title: Wikiseite
+    Title: Wiki-Beispiel
     Layout: wiki
     Tag: Beispiel
     Status: draft
     ---
-    Das ist eine Beispiel-Wikiseite.
+    Das ist eine Beispielseite fürs Wiki.
 
 ## Einstellungen
 

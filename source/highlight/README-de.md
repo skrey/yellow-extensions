@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Highlight 0.8.12
 ================
@@ -43,7 +43,7 @@ Hervorhebung von HTML-Quellcode, ohne und mit Zeilennummer:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`HighlightLineNumber` = Zeilennummer anzeigen, 1 oder 0   
+`HighlightLineNumber` = Zeilennummer anzeigen, 1 oder 0  
 `HighlightAutodetectLanguages` = Sprachen zur automatischen Erkennung, durch Komma getrennt  
 
 ## Installation

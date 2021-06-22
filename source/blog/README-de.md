@@ -39,7 +39,7 @@ Inhaltsdatei mit Blogseite:
     Layout: blog
     Tag: Beispiel
     ---
-    Das ist eine Beispiel-Blogseite.
+    Das ist eine Beispielseite fürs Blog.
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 

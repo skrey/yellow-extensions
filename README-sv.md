@@ -20,7 +20,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Bundla webbplatsfiler. Utvecklad av Datenstrom.
 * [Command](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md): 
   Webbplatsens kommandorad. Utvecklad av Datenstrom.
-* [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact): 
+* [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact/README-sv.md): 
   E-post kontaktsida. Utvecklad av Datenstrom.
 * [Core](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md): 
   Webbplatsens kärnfunktion. Utvecklad av Datenstrom.
@@ -30,7 +30,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   CSV-filtolkare. Utvecklad av Steffen Schultz.
 * [Daily](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/daily): 
   Visa dagliga sidor. Utvecklad av Steffen Schultz.
-* [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft): 
+* [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft/README-sv.md): 
   Stöd för draftsidor. Utvecklad av Datenstrom.
 * [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md): 
   Redigera din webbplats i en webbläsare. Utvecklad av Datenstrom.
@@ -48,7 +48,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Bädda in Google-karta. Utvecklad av Datenstrom.
 * [Help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-sv.md): 
   Hjälp för din webbplats. Utvecklad av Datenstrom.
-* [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight): 
+* [Highlight](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight/README-sv.md): 
   Markera källkod. Utvecklad av Datenstrom.
 * [Image](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md): 
   Bilder och miniatyrbilder. Utvecklad av Datenstrom.
@@ -76,7 +76,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Visa slumpmässiga sidor. Utvecklad av Steffen Schultz.
 * [Redirect](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/redirect): 
   Alternativ sida omdirigering. Utvecklad av Steffen Schultz.
-* [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search): 
+* [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-sv.md): 
   Heltekstsökning. Utvecklad av Datenstrom.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap): 
   Sitemap med alla sidor. Utvecklad av Datenstrom.
@@ -88,7 +88,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
    vissa sidelement. Utvecklad av Steffen Schultz.
 * [Ticker](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/ticker): 
   RSS-feed parser. Utvecklad av Steffen Schultz.
-* [Toc](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc): 
+* [Toc](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-sv.md): 
   Innehållsförteckning. Utvecklad av Datenstrom.
 * [Traffic](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-sv.md): 
   Skapa trafikanalys från webbserverns loggfiler. Utvecklad av Datenstrom.

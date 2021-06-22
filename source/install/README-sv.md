@@ -12,7 +12,7 @@ För att installera packa upp en fil och du är redo att gå. Installationsprogr
 
 ## Hur man gör ett installationspaket
 
-Ett installationspaket består av installationsprogrammet `install.php`, filen `install-languages.zip` och ett grundläggande ramverk för en webbplats. Du kan ladda ner [tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/zip), byta namn på dem och kopiera dem till din `system/extensions` mapp. De erbjuds som ett alternativ under installationen.
+Ett installationspaket består av installationsprogrammet `install.php`, filen `install-languages.zip` och ett grundläggande ramverk för en webbplats. Du kan ladda ner [tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/zip), byta namn och kopiera dem till din `system/extensions` mapp. De erbjuds som ett alternativ under installationen.
 
 ## Exempel
 
