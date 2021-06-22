@@ -30,8 +30,6 @@ Funktionen, Themen und Sprachen für Datenstrom Yellow. https://datenstrom.se/de
   CSV-Dateileser. Entwickelt von Steffen Schultz.
 * [Daily](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/daily): 
   Tägliche Seiten anzeigen. Entwickelt von Steffen Schultz.
-* [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus/README-de.md): 
-  Disqus-Kommentare im Blog anzeigen. Entwickelt von Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft/README-de.md): 
   Unterstützung für Entwurfsseiten. Entwickelt von Datenstrom.
 * [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md): 
@@ -56,8 +54,6 @@ Funktionen, Themen und Sprachen für Datenstrom Yellow. https://datenstrom.se/de
   Bilder in unterschiedlichen Größen. Entwickelt von Datenstrom.
 * [Include](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/include/README-de.md): 
   Inhalt von anderen Seiten einbinden. Entwickelt von Steffen Schultz.
-* [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram/README-de.md): 
-  Instagram-Fotos einbinden. Entwickelt von Datenstrom.
 * [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-de.md): 
   Textformatierung für Menschen. Entwickelt von Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta/README-de.md):

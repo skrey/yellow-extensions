@@ -30,8 +30,6 @@ Features, themes and languages for Datenstrom Yellow. https://datenstrom.se/yell
   CSV file parser. Developed by Steffen Schultz.
 * [Daily](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/daily): 
   Show daily pages. Developed by Steffen Schultz.
-* [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus): 
-  Show Disqus comments on blog. Developed by Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft): 
   Support for draft pages. Developed by Datenstrom.
 * [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit): 
@@ -56,8 +54,6 @@ Features, themes and languages for Datenstrom Yellow. https://datenstrom.se/yell
   Images and thumbnails. Developed by Datenstrom.
 * [Include](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/include): 
   Include page content from other pages. Developed by Steffen Schultz.
-* [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram): 
-  Embed Instagram photos. Developed by Datenstrom.
 * [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown): 
   Text formatting for humans. Developed by Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta):

@@ -30,8 +30,6 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   CSV-filtolkare. Utvecklad av Steffen Schultz.
 * [Daily](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/daily): 
   Visa dagliga sidor. Utvecklad av Steffen Schultz.
-* [Disqus](https://github.com/datenstrom/yellow-extensions/tree/master/source/disqus): 
-  Visa Disqus-kommentarer på bloggen. Utvecklad av Datenstrom.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft): 
   Stöd för draftsidor. Utvecklad av Datenstrom.
 * [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md): 
@@ -56,8 +54,6 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Bilder och miniatyrbilder. Utvecklad av Datenstrom.
 * [Include](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/include): 
   Inkludera sidinnehåll från andra sidor. Utvecklad av Steffen Schultz.
-* [Instagram](https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram): 
-  Bädda in Instagram-foton. Utvecklad av Datenstrom.
 * [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-sv.md): 
   Textformatering för människor. Utvecklad av Datenstrom.
 * [Meta](https://github.com/datenstrom/yellow-extensions/tree/master/source/meta):
