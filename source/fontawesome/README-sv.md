@@ -8,7 +8,7 @@ Ikoner och symboler.
 
 ## Hur man lägger till en ikon
 
-Lägg till `:shortcode:` till texten på en sida. Här är en [fullständig lista med ikoner]((https://fontawesome.com/icons).
+Lägg till `:shortcode:` till texten på en sida. Här är en [fullständig lista med ikoner](https://fontawesome.com/icons).
 
 Det är också möjligt att skapa en `[fa]` förkortning eller använda HTML `<i class="fa fa-name" aria-label="name"></i>`. Du kan lägga till en extra stil till namnet, till exempel `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` och `fa-5x`.
 
