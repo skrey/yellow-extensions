@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Youtube 0.8.5
 =============
@@ -15,7 +15,7 @@ The following arguments are available, all but the first argument are optional:
 `Id` = last part of a [Youtube](https://www.youtube.com) link, e.g. `https://www.youtube.com/watch?v=fhs55HEl-Gc`  
 `Style` = video style, e.g. `left`, `center`, `right`  
 `Width` = video width, pixel or percent  
-`Height` = video height, pixel or percent   
+`Height` = video height, pixel or percent  
  
 ## Examples
 

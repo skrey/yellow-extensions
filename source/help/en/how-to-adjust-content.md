@@ -150,12 +150,9 @@ You can use shortcuts to add common features.
 `[image photo.jpg Example - 50%]` = [add image thumbnail](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
 `[gallery photo.*jpg - 25%]` = [add image gallery with popup](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
 `[slider photo.*jpg loop]` = [add image gallery with slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
-`[youtube fhs55HEl-Gc]` = [embed Youtube video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
-`[soundcloud 101175715]` = [embed Soundcloud audio](https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud)  
-`[twitter datendeveloper]` = [embed Twitter messages](https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter)  
-`[instagram BISN9ngjV2-]` = [embed Instagram photo](https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram)  
 `[googlecalendar en.swedish#holiday]` = [embed Google calendar](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar)  
 `[googlemap Stockholm]` = [embed Google map](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap)  
+`[youtube fhs55HEl-Gc]` = [embed Youtube video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
 `[blogchanges /blog/]` = [show latest blog pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)  
 `[wikichanges /wiki/]` = [show latest wiki pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki)  
 `[fa fa-envelope-o]` = [show icons and symbols](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome)  
@@ -163,6 +160,5 @@ You can use shortcuts to add common features.
 `[yellow about]` = [show website version](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `[edit]` = [edit website in web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 `[toc]` = [show table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)  
-`[--more--]` = [add page break](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog) 
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

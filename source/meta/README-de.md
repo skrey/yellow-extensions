@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Meta 0.8.14
 ===========
@@ -8,7 +8,7 @@ Metadaten für soziale Medien.
 
 ## Wie man Metadaten für soziale Medien hinzufügt
 
-Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](https://ogp.me/). 
+Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](https://ogp.me/).
 
 Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Seiteneinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen-seite) festlegen. Zusätzliche Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
 
@@ -19,7 +19,7 @@ Inhaltsdatei mit Metadaten:
     ---
     Title: Beispielseite
     Description: Beispiel für deine Webseite
-    Image: example.png
+    Image: photo.jpg
     ---
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 

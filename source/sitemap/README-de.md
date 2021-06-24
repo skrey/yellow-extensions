@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Sitemap 0.8.10
 ==============
@@ -30,7 +30,7 @@ Inhaltsdatei mit Link zur Sitemap:
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `SitemapLocation` = Ort der Sitemap  
-`SitemapFileXml` = Sitemap-Dateiname mit XML-Informationen  
+`SitemapFileXml` = Dateiname der Sitemap mit XML-Informationen  
 `SitemapPaginationLimit` = Anzahl der Einträge pro Seite  
 
 Die folgenden Dateien können angepasst werden:

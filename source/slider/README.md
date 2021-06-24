@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Slider 0.8.13
 =============
@@ -11,7 +11,7 @@ Image gallery with slider.
 Create a `[slider]` shortcut.
 
 The following arguments are available, all but the first argument are optional:
-  
+
 `Pattern` = file name as regular expression  
 `Style` = gallery style, e.g. `loop`, `fade`, `slide`  
 `Size` = image size, pixel or percent  

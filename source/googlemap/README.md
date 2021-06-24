@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Googlemap 0.8.7
 ===============
@@ -37,7 +37,7 @@ Embedding a map, GPS coordinates:
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `GooglemapZoom` = zoom value  
-`GooglemapStyle` = map style, e.g. `flexible`   
+`GooglemapStyle` = map style, e.g. `flexible`  
 
 ## Installation
 

@@ -150,12 +150,9 @@ Du kannst Abkürzungen benutzen um häufige Funktionen hinzuzufügen.
 `[image photo.jpg Beispiel - 50%]` = [Miniaturbild hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md)  
 `[gallery photo.*jpg - 25%]` = [Bildergalerie mit Popup hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md)  
 `[slider photo.*jpg loop]` = [Bildergalerie mit Schieber hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md)  
-`[youtube fhs55HEl-Gc]` = [Youtube-Video einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md)  
-`[soundcloud 101175715]` = [Soundcloud-Audio einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/soundcloud/README-de.md)  
-`[twitter datendeveloper]` = [Twitter-Nachrichten einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/twitter/README-de.md)  
-`[instagram BISN9ngjV2-]` = [Instagram-Foto einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/instagram/README-de.md)  
 `[googlecalendar de.german#holiday]` = [Google-Kalender einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar/README-de.md)  
 `[googlemap Stockholm]` = [Google-Karte einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap/README-de.md)  
+`[youtube fhs55HEl-Gc]` = [Youtube-Video einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md)  
 `[blogchanges /blog/]` = [neuste Blogseiten anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md)  
 `[wikichanges /wiki/]` = [neuste Wikiseiten anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md)  
 `[fa fa-envelope-o]` = [Icons und Symbole anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-de.md)  
@@ -163,6 +160,5 @@ Du kannst Abkürzungen benutzen um häufige Funktionen hinzuzufügen.
 `[yellow about]` = [Webseite-Version anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `[edit]` = [Webseite im Webbrowser bearbeiten](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 `[toc]` = [Inhaltsverzeichnis anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md)  
-`[--more--]` = [Seitenumbruch hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md)  
 
 Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

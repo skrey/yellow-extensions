@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Gallery 0.8.12
 ==============
@@ -11,7 +11,7 @@ Bildergalerie mit Popup.
 Erstelle eine `[gallery]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
-  
+
 `Pattern` = Dateiname als regulärer Ausdruck  
 `Style` = Galeriestil, z.B. `photoswipe`, `simple`  
 `Size` = Bildgröße, Pixel oder Prozent  

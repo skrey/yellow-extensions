@@ -65,7 +65,7 @@ Innehållsfil med wikisida:
 Visa länkar till wikin:
 
     [Se alla sidor](/wiki/special:pages/)
-    [Se senaste ändringar](/wiki/special:changes/)
+    [Se senaste ändringarna](/wiki/special:changes/)
     [Se exempel](/wiki/tag:exempel/)
 
 Visa senaste wikisidor:

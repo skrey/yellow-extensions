@@ -1,0 +1,64 @@
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+
+Slider 0.8.13
+=============
+Bildgalleri med reglaget.
+
+<p align="center"><img src="slider-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>
+
+## Hur man lägger till ett bildgalleri
+
+Skapa en `[slider]` förkortning.
+
+Följande argument är tillgängliga, alla utom det första argumentet är valfria:
+
+`Pattern` = filnamn som reguljära uttryck  
+`Style` = galleristil, t.ex. `loop`, `fade`, `slide`  
+`Size` = bildstorlek, pixel eller procent  
+`Autoplay` = spela upp bilder automatiskt, fördröjningstid i millisekunder  
+
+Bildformaten GIF, JPG, PNG och SVG stöds. Alla mediefiler finns i `media` mappen.
+Mappen `media/images` är platsen för att lagra dina bilder. Mappen `media/thumbnails` innehåller miniatyrbilder. Du kan också skapa ytterligare mappar och organisera filer som du vill.
+
+## Exempel
+
+Lägga till ett bildgalleri, olika stilar:
+
+    [slider photo.*jpg loop]
+    [slider photo.*jpg fade]
+    [slider photo.*jpg slide]
+
+Lägga till ett bildgalleri, olika storlekar:
+
+    [slider photo.*jpg - 100%]
+    [slider photo.*jpg - 50%]
+    [slider photo.*jpg - 25%]
+
+Lägga till ett bildgalleri från en undermapp, olika storlekar:
+
+    [slider photo-album/- 100%]
+    [slider photo-album/ - 50%]
+    [slider photo-album/ - 25%]
+
+Lägga till ett bildgalleri, spela automatiskt:
+
+    [slider photo.*jpg - - 1000]
+    [slider photo.*jpg - - 2000]
+    [slider photo.*jpg - - 5000]
+
+## Inställningar
+
+Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
+
+`SliderStyle` = galleristil, t.ex. `loop`, `fade`, `slide`  
+`SliderAutoplay` = spela upp bilder automatiskt, fördröjningstid i millisekunder  
+
+## Installation
+
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/slider.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
+
+Detta tilläg använder [Splide 2.4.21](https://github.com/Splidejs/splide) av Naotoshi Fujita.
+
+## Utvecklare
+
+Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

@@ -34,7 +34,7 @@ Bilder i olika storlekar:
 
 ## Videor
 
-Du kan använda [Youtube-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube) för att bädda in videor: 
+Du kan använda [Youtube-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md) för att bädda in videor: 
 
     [youtube fhs55HEl-Gc]
     [youtube fhs55HEl-Gc left 200 112]

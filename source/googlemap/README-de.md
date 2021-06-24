@@ -1,8 +1,8 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Googlemap 0.8.7
 ===============
-Google-Karten einbinden.
+Google-Karte einbinden.
 
 <p align="center"><img src="googlemap-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
@@ -12,7 +12,7 @@ Erstelle eine `[googlemap]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
 
-`Address` = Text den man auf [Google Maps](https://maps.google.com/) eingibt, mehrere Wörter in Anführungszeichen setzen  
+`Address` = Text den man auf [Google-Maps](https://maps.google.com/) eingibt, mehrere Wörter in Anführungszeichen setzen  
 `Zoom` = Zoomwert, der Standardzoom ist 15  
 `Style` = Kartenstil, z.B. `left`, `center`, `right`  
 `Width` = Kartenbreite, Pixel oder Prozent  
@@ -37,13 +37,13 @@ Karte einbinden, GPS-Koordinaten:
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `GooglemapZoom` = Zoomwert  
-`GooglemapStyle` = Kartenstil, z.B. `flexible`   
+`GooglemapStyle` = Kartenstil, z.B. `flexible`  
 
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/googlemap.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung verwendet [Google Maps](https://maps.google.com/). Der Dienstanbieter sammelt personenbezogene Daten und benutzt Cookies.
+Diese Erweiterung verwendet [Google-Maps](https://maps.google.com/). Der Dienstanbieter sammelt personenbezogene Daten und benutzt Cookies.
 
 ## Entwickler
 

@@ -12,7 +12,7 @@ Markdown är ett praktiskt sätt att redigera webbsidor. Här är [Markdown-synt
 
 ## Hur man använder förkortningar
 
-Förutom Markdown finns det förkortningar. Markdown tillhandahåller de grundläggande funktionerna, förkortningar ger vanliga funktioner. Du kan lägga till [bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md), [videor](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome), [ikoner](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome), [innehållsförteckning](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc) och mer på din webbplats.
+Förutom Markdown finns det förkortningar. Markdown tillhandahåller de grundläggande funktionerna, förkortningar ger vanliga funktioner. Du kan lägga till [bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md), [videor](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-sv.md), [ikoner](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-sv.md), [innehållsförteckning](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-sv.md) och mer på din webbplats.
 
 ## Exempel
 

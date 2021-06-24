@@ -1,4 +1,4 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
 Googlecalendar 0.8.9
 ====================
@@ -12,9 +12,9 @@ Erstelle eine `[googlecalendar]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
 
-`Id` = öffentlicher [Google Calendar](https://calendar.google.com/), mehrere Kalender in Anführungszeichen setzen  
+`Id` = öffentlicher [Google-Kalender](https://calendar.google.com/), mehrere Kalender in Anführungszeichen setzen  
 `Mode` = Kalendermodus, z.B. `week`, `month`, `events`, `agenda`  
-`Date` = Startdatum oder Anzahl der Ereignisse, JJJ-MM-TT Format  
+`Date` = Startdatum oder Anzahl der Ereignisse, JJJJ-MM-TT Format  
 `Style` = Kalenderstil, z.B. `left`, `center`, `right`  
 `Width` = Kalenderbreite, Pixel oder Prozent  
 `Height` = Kalenderhöhe, Pixel oder Prozent  
@@ -31,7 +31,7 @@ Kalender einbinden, mehrere Kalender zusammen:
 
     [googlecalendar "sv.swedish#holiday, de.german#holiday, fr.french#holiday"]
     [googlecalendar "sv.swedish#holiday, de.german#holiday, fr.french#holiday" week 2017-01-01]
-    [googlecalendar "sv.swedish#holiday#0044AA, de.german#holiday#AA0000, fr.french#holiday#00AA00" month 2017-01-01]
+    [googlecalendar "sv.swedish#holiday#0044AA, de.german#holiday#AA0000, fr.french#holiday#00AA00" month 2021-01-01]
 
 Kalender einbinden, Events und Agenda:
 
@@ -52,7 +52,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/googlecalendar.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung verwendet [Google Calendar](https://calendar.google.com/). Der Dienstanbieter sammelt personenbezogene Daten und benutzt Cookies.
+Diese Erweiterung verwendet [Google-Kalender](https://calendar.google.com/). Der Dienstanbieter sammelt personenbezogene Daten und benutzt Cookies.
 
 ## Entwickler
 
