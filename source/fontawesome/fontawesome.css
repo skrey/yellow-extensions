@@ -12,8 +12,6 @@
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 /* CSS from Font Awesome */
@@ -176,8 +174,6 @@
 .fa-inverse {
     color: #ffffff;
 }
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
- readers do not read off random characters that represent icons */
 .fa-glass:before {
     content: "\f000";
 }
