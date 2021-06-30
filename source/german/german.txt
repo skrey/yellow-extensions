@@ -245,8 +245,8 @@ SliderDescription: Bildergalerie mit Schieber.
 SlovakDescription: Slovak/Slovenčina with language 'sk'.
 SoundcloudDescription: Soundcloud-Audio einbinden.
 SpanishDescription: Spanish/Español with language 'es'.
-StockholmDescription: Stockholm is a clean theme.
-SwedishDescription: Swedish/Svenska with language 'sv'.
+StockholmDescription: Stockholm ist ein schlichtes Thema.
+SwedishDescription: Schwedisch/Svenska  mit der Sprache 'sv'.
 TocDescription: Inhaltsverzeichnis anzeigen.
 TrafficDescription: Zugriffsanalysen aus Webserver-Logdateien erstellen.
 TwitterDescription: Twitter-Nachrichten einbinden.
