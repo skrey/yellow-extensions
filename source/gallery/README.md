@@ -13,7 +13,7 @@ Create a `[gallery]` shortcut.
 The following arguments are available, all but the first argument are optional:
 
 `Pattern` = file name as regular expression  
-`Style` = gallery style, e.g. `photoswipe`, `simple`  
+`Style` = gallery style, e.g. `zoom`, `simple`  
 `Size` = image size, pixel or percent  
 
 The image formats GIF, JPG, PNG and SVG are supported. All media files are located in the `media` folder. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like.

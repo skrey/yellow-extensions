@@ -13,7 +13,7 @@ Skapa en `[gallery]` förkortning.
 Följande argument är tillgängliga, alla utom det första argumentet är valfria:
 
 `Pattern` = filnamn som reguljära uttryck  
-`Style` = galleristil, t.ex. `photoswipe`, `simple`  
+`Style` = galleristil, t.ex. `zoom`, `simple`  
 `Size` = bildstorlek, pixel eller procent  
 
 Bildformaten GIF, JPG, PNG och SVG stöds. Alla mediefiler finns i `media` mappen.
