@@ -6,7 +6,7 @@ Here's how to work with us and make useful products.
 ## How to ask a question
 
 * [Start a new discussion for each question](https://github.com/datenstrom/yellow/discussions).
-* Write your question in the title, so that everyone can see what it is about. 
+* Write the question in the title, so that everyone can see what it is about. 
 * Describe what you want to do and which problems you have.
 * Select an answer, when your question has been answered.
 
@@ -22,7 +22,7 @@ Here's how to work with us and make useful products.
 * [Start with the help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), [individual extensions](https://github.com/datenstrom/yellow-extensions) or a [translation](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt).
 * Edit the existing documentation or make a translation.
 * Upload your documentation to GitHub, let us know if you need help.
-* Check that it is helpful to the user, give practical examples.
+* Check that it is helpful to the user, give many practical examples.
 
 ## How to develop your own features
 
@@ -35,6 +35,6 @@ Here's how to work with us and make useful products.
 
 Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same experience level or background as you. Never feel compelled to react or respond to anyone. You can step out of conversations at any time if the discussion isn't constructive. Focus on the people who want to help you. Low-quality contributions will be removed to not overwhelm our community.
 
-Let us know how we can create a good work environment for you. Collaboration works best when you enjoy what your are doing. When you're surrounded by motivated and helpful people. Understanding people's needs and problems is a central part of product development. Our job is not to bring more technology and more features into people's lives. Our first task is to remove complexity and problems from people's lives. Our second task is to find like-minded people and work together.
+Let us know how we can create a good work environment for you. Collaboration works best when you enjoy what your are doing. When you're surrounded by motivated and helpful people. Understanding people's needs and problems is a central part of product development. Our job is not to bring more technology, more features and more documentation into people's lives. Our first task is to remove problems from people's lives. Our second task is to find like-minded people and work together.
 
 Say hello to the community. You can find us on [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) or [contact a human](https://datenstrom.se/contact/).

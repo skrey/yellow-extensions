@@ -6,7 +6,7 @@ Hur man jobbar med oss och skapar användbara produkter.
 ## Hur man ställer en fråga
 
 * [Starta en ny diskussion för varje fråga](https://github.com/datenstrom/yellow/discussions).
-* Skriv din fråga i titeln, så att alla kan se vad det handlar om.
+* Skriv frågan i titeln, så att alla kan se vad det handlar om.
 * Beskriv vad du vill göra och vilka problem du har.
 * Välj ett svar när din fråga har besvarats.
 
@@ -22,7 +22,7 @@ Hur man jobbar med oss och skapar användbara produkter.
 * [Börja med hjälpen](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-sv.md), [enskilda tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/README-sv.md) eller en [översättning](https://github.com/datenstrom/yellow-extensions/blob/master/source/swedish/swedish.txt).
 * Redigera befintlig dokumentation eller gör en översättning.
 * Ladda upp din dokumentation till GitHub, låt oss veta om du behöver hjälp.
-* Granska att det är till hjälp för användaren, ge praktiska exempel.
+* Granska att det är till hjälp för användaren, ge många praktiska exempel.
 
 ## Hur man utvecklar egna funktioner
 
@@ -35,6 +35,6 @@ Hur man jobbar med oss och skapar användbara produkter.
 
 Vårt community är en plats att hjälpa varandra. Där du kan ställa och svara på frågor. De flesta av svaren tillhandahålls av community-medlemmar, precis som du. Tänk på att andra kanske inte har samma erfarenhetsnivå eller bakgrund som du. Känn dig aldrig tvungen att reagera eller svara på någon. Du kan avbryta konversationer när som helst, om diskussionen inte är konstruktiv. Fokusera på de som vill hjälpa dig. Inlägg av dålig kvalitet tas bort för att inte överväldiga vårt community. 
 
-Låt oss veta hur vi kan skapa en bra arbetsmiljö för dig. Samarbete fungerar bäst när man har kul. När man är omgiven av motiverade och hjälpsamma människor. Att förstå människors behov och problem är en central del av produktutvecklingen. Vårt jobb är inte att föra in mer teknik och fler funktioner i människors liv. Vårt första job är att ta bort komplexitet och problem från människors liv. Vårt andra job är att hitta likasinnade människor och jobba tillsammans. 
+Låt oss veta hur vi kan skapa en bra arbetsmiljö för dig. Samarbete fungerar bäst när man har kul. När man är omgiven av motiverade och hjälpsamma människor. Att förstå människors behov och problem är en central del av produktutvecklingen. Vårt jobb är inte att föra in mer teknologi, fler funktioner och mer dokumentation i människors liv. Vårt första job är att ta bort problem från människors liv. Vårt andra job är att hitta likasinnade människor och jobba tillsammans. 
 
 Säg hej till communityt. Du hittar oss på [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) eller [kontakta en människa](https://datenstrom.se/sv/contact/).

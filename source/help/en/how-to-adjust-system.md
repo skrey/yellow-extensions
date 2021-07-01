@@ -79,7 +79,7 @@ The following settings can be configured at the top of a page:
 `Status` = status for workflow  
 `Redirect` = redirect to a new page or URL  
 `Image` = page image  
-`ImageAlt` = alternative text for page image  
+`ImageAlt` = description of the page image  
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  

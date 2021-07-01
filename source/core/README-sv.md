@@ -85,7 +85,7 @@ Innehållsfil med omdirigering:
 `Status` = sidans status, [stödda statusvärden](#inställningar-status)  
 `Redirect` = omdirigera till en ny sida eller URL  
 `Image` = sidans bild  
-`ImageAlt` = alternativ text för sidans bild  
+`ImageAlt` = beskrivning av sidans bild  
 `Modified` = sidans ändringsdatum, ÅÅÅÅ-MM-DD format  
 `Published` = sidans publiceringsdatum, ÅÅÅÅ-MM-DD format  
 `Tag` = taggar för kategorisering av sidan, kommaseparerade  

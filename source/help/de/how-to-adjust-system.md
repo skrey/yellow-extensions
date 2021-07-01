@@ -79,7 +79,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Status` = Status für Arbeitsablauf  
 `Redirect` = Umleitung zu einer neuen Seite oder URL  
 `Image` = Bild der Seite  
-`ImageAlt` = Alternative Bildbeschreibung der Seite  
+`ImageAlt` = Beschreibung des Bildes der Seite  
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  

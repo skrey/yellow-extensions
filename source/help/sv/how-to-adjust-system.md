@@ -79,7 +79,7 @@ Följande inställningar kan konfigureras högst upp på en sida:
 `Status` = sidans status  
 `Redirect` = omdirigera till en ny sida eller URL  
 `Image` = sidans bild  
-`ImageAlt` = alternativ text för sidans bild  
+`ImageAlt` = beskrivning av sidans bild  
 `Modified` = sidans ändringsdatum, ÅÅÅÅ-MM-DD format  
 `Published` = sidans publiceringsdatum, ÅÅÅÅ-MM-DD format  
 `Tag` = taggar för kategorisering av sidan, kommaseparerade  

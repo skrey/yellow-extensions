@@ -85,7 +85,7 @@ Inhaltsdatei mit Weiterleitung:
 `Status` = Status der Seite, [unterstützte Statuswerte](#einstellungen-status)  
 `Redirect` = Weiterleitung zu einer anderen Seite oder URL  
 `Image` = Bild der Seite  
-`ImageAlt` = Alternative Bildbeschreibung der Seite  
+`ImageAlt` = Beschreibung des Bildes der Seite  
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
