@@ -14,7 +14,7 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
  
 `Name` = filnamn  
 `Alt` = beskrivning av bilden, placera flera ord i citattecken  
-`Style` = bildstil, t.ex. e.g. `left`, `center`, `right`  
+`Style` = bildstil, t.ex. `left`, `center`, `right`  
 `Width` = bildbredd, pixel eller procent  
 `Height` = bildhöjd, pixel eller procent  
 
