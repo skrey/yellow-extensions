@@ -24,23 +24,29 @@ Bildunterschriften können in den Spracheinstellungen festgelegt werden. Öffne 
 
 ## Beispiele
 
+Bildergalerie hinzufügen, unterschiedliche Stile:
+
+    [gallery photo.*jpg]
+    [gallery photo.*jpg zoom]
+    [gallery photo.*jpg simple]
+
 Bildergalerie hinzufügen, unterschiedliche Größen:
 
-    [gallery photo.*jpg - 25%]
-    [gallery photo.*jpg - 50%]
-    [gallery photo.*jpg - 100%]
+    [gallery photo.*jpg zoom 25%]
+    [gallery photo.*jpg zoom 50%]
+    [gallery photo.*jpg zoom 100%]
 
 Bildergalerie hinzufügen, rechteckige Miniaturbilder:
 
-    [gallery photo.*jpg - 64]
-    [gallery photo.*jpg - 150]
-    [gallery photo.*jpg - 300]
+    [gallery photo.*jpg zoom 64]
+    [gallery photo.*jpg zoom 150]
+    [gallery photo.*jpg zoom 300]
 
 Bildergalerie aus einem Unterverzeichnis hinzufügen, rechteckige Miniaturbilder:
 
-    [gallery photo-album/ - 64]
-    [gallery photo-album/ - 150]
-    [gallery photo-album/ - 300]
+    [gallery photo-album/ zoom 64]
+    [gallery photo-album/ zoom 150]
+    [gallery photo-album/ zoom 300]
 
 Bildunterschriften in den Spracheinstellungen festlegen:
 
@@ -54,7 +60,7 @@ Bildunterschriften in den Spracheinstellungen festlegen:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`GalleryStyle` = Galeriestil, z.B. `photoswipe`, `simple`  
+`GalleryStyle` = Galeriestil, z.B. `zoom`, `simple`  
 
 ## Installation
 

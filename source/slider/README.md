@@ -29,17 +29,17 @@ Adding an image gallery, different styles:
 
 Adding an image gallery, different sizes:
 
-    [slider photo.*jpg - 100%]
-    [slider photo.*jpg - 50%]
-    [slider photo.*jpg - 25%]
+    [slider photo.*jpg loop 100%]
+    [slider photo.*jpg loop 50%]
+    [slider photo.*jpg loop 25%]
 
 Adding an image gallery from a subfolder, different sizes:
 
-    [slider photo-album/- 100%]
-    [slider photo-album/ - 50%]
-    [slider photo-album/ - 25%]
+    [slider photo-album/ loop 100%]
+    [slider photo-album/ loop 50%]
+    [slider photo-album/ loop 25%]
 
-Adding an image gallery, play automatically:
+Adding an image gallery, play automatically with default style/size:
 
     [slider photo.*jpg - - 1000]
     [slider photo.*jpg - - 2000]

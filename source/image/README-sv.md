@@ -37,9 +37,15 @@ Lägga till bilder, olika stilar:
 
 Lägga till bilder, olika storlekar:
 
+    [image photo.jpg Exempel right 50%]
+    [image photo.jpg Exempel right 64 64]
+    [image photo.jpg Exempel right 320 200]
+
+Lägga till bilder, olika storlekar med standardstilen:
+
+    [image photo.jpg Exempel - 50%]
     [image photo.jpg Exempel - 64 64]
     [image photo.jpg Exempel - 320 200]
-    [image photo.jpg Exempel - 50%]
 
 ## Inställningar
 

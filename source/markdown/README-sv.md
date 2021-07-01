@@ -56,7 +56,7 @@ Skapa länkar:
     [Länk till fil](/media/downloads/yellow.pdf)
     [Länk till webbplats](https://datenstrom.se/sv/)
 
-Lägg till en bild:
+Lägga till bilder:
 
     [image photo.jpg]
     [image photo.jpg Exempel]

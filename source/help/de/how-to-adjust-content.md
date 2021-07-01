@@ -77,7 +77,7 @@ Links erstellen:
     [Link zu Datei](/media/downloads/yellow.pdf)
     [Link zu Webseite](https://datenstrom.se/de/)
 
-Ein Bild hinzufügen:
+Bilder hinzufügen:
 
     [image photo.jpg]
     [image photo.jpg Beispiel]
@@ -147,8 +147,8 @@ HTML benutzen:
 
 Du kannst Abkürzungen benutzen um häufige Funktionen hinzuzufügen.
 
-`[image photo.jpg Beispiel - 50%]` = [Miniaturbild hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md)  
-`[gallery photo.*jpg - 25%]` = [Bildergalerie mit Popup hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md)  
+`[image photo.jpg Beispiel right 50%]` = [Miniaturbild hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md)  
+`[gallery photo.*jpg zoom 25%]` = [Bildergalerie mit Popup hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md)  
 `[slider photo.*jpg loop]` = [Bildergalerie mit Schieber hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md)  
 `[googlecalendar de.german#holiday]` = [Google-Kalender einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar/README-de.md)  
 `[googlemap Stockholm]` = [Google-Karte einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap/README-de.md)  

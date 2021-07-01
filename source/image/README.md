@@ -36,9 +36,15 @@ Adding images, different styles:
 
 Adding images, different sizes:
 
+    [image photo.jpg Example right 50%]
+    [image photo.jpg Example right 64 64]
+    [image photo.jpg Example right 320 200]
+
+Adding images, different sizes with the default style:
+
+    [image photo.jpg Example - 50%]
     [image photo.jpg Example - 64 64]
     [image photo.jpg Example - 320 200]
-    [image photo.jpg Example - 50%]
 
 ## Settings
 

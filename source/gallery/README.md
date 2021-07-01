@@ -24,23 +24,29 @@ Image captions can be configured in the language settings. Open file `system/ext
 
 ## Examples
 
+Adding an image gallery, different styles:
+
+    [gallery photo.*jpg]
+    [gallery photo.*jpg zoom]
+    [gallery photo.*jpg simple]
+
 Adding an image gallery, different sizes:
 
-    [gallery photo.*jpg - 25%]
-    [gallery photo.*jpg - 50%]
-    [gallery photo.*jpg - 100%]
+    [gallery photo.*jpg zoom 25%]
+    [gallery photo.*jpg zoom 50%]
+    [gallery photo.*jpg zoom 100%]
 
 Adding an image gallery, square thumbnails:
 
-    [gallery photo.*jpg - 64]
-    [gallery photo.*jpg - 150]
-    [gallery photo.*jpg - 300]
+    [gallery photo.*jpg zoom 64]
+    [gallery photo.*jpg zoom 150]
+    [gallery photo.*jpg zoom 300]
 
 Adding an image gallery from a subfolder, square thumbnails:
 
-    [gallery photo-album/ - 64]
-    [gallery photo-album/ - 150]
-    [gallery photo-album/ - 300]
+    [gallery photo-album/ zoom 64]
+    [gallery photo-album/ zoom 150]
+    [gallery photo-album/ zoom 300]
 
 Configuring image captions in the language settings:
 
@@ -54,7 +60,7 @@ Configuring image captions in the language settings:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`GalleryStyle` = gallery style, e.g. `photoswipe`, `simple`  
+`GalleryStyle` = gallery style, e.g. `zoom`, `simple`  
 
 ## Installation
 

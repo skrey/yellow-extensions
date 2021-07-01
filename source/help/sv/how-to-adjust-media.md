@@ -14,23 +14,31 @@ Mappen `downloads` innehåller filer att ladda ner. Mappen `images` är platsen 
 
 ## Bilder
 
-Du kan använda [image-tilläget](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md) för att bädda in bilder. För att lägga till en ny bild, kopiera en ny fil till `images` mappen och skapa en `[image]` förkortning. Bildformaten GIF, JPG, PNG och SVG stöds. Här är ett exempel:
+Du kan använda [image-tilläget](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md) för att bädda in bilder. För att lägga till en ny bild, kopiera en ny fil till `images` mappen och skapa en `[image]` förkortning. Bildformaten GIF, JPG, PNG och SVG stöds.
+
+Lägga till bilder:
 
     [image photo.jpg]
     [image photo.jpg Exempel]
     [image photo.jpg "Detta är en exempelbild"]
 
-Bilder i olika stilar:
+Lägga till bilder, olika stilar:
 
     [image photo.jpg Exempel left]
     [image photo.jpg Exempel center]
     [image photo.jpg Exempel right]
 
-Bilder i olika storlekar:
+Lägga till bilder, olika storlekar:
 
+    [image photo.jpg Exempel right 50%]
+    [image photo.jpg Exempel right 64 64]
+    [image photo.jpg Exempel right 320 200]
+
+Lägga till bilder, olika storlekar med standardstilen:
+
+    [image photo.jpg Exempel - 50%]
     [image photo.jpg Exempel - 64 64]
     [image photo.jpg Exempel - 320 200]
-    [image photo.jpg Exempel - 50%]
 
 ## Videor
 

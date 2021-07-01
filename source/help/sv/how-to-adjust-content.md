@@ -77,7 +77,7 @@ Skapa länkar:
     [Länk till fil](/media/downloads/yellow.pdf)
     [Länk till webbplats](https://datenstrom.se/sv/)
 
-Lägg till en bild:
+Lägga till bilder:
 
     [image photo.jpg]
     [image photo.jpg Exempel]
@@ -147,9 +147,9 @@ Använd HTML:
 
 Du kan använda förkortningar för att lägga till vanliga funktioner. 
 
-`[image photo.jpg Exempel - 50%]` = [lägg till miniatyrbild](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md)  
-`[gallery photo.*jpg - 25%]` = [lägg till bildgalleri med popup](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md)  
-`[slider photo.*jpg loop]` = [lägg till bildgalleri med reglaget](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-sv.md)  
+`[image photo.jpg Exempel right 50%]` = [lägga till miniatyrbild](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md)  
+`[gallery photo.*jpg zoom 25%]` = [lägga till bildgalleri med popup](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md)  
+`[slider photo.*jpg loop]` = [lägga till bildgalleri med reglaget](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-sv.md)  
 `[googlecalendar sv.swedish#holiday]` = [bädda in Google-kalender](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar/README-sv.md)  
 `[googlemap Stockholm]` = [bädda in Google-karta](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap/README-sv.md)  
 `[youtube fhs55HEl-Gc]` = [bädda in Youtube-video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md)  

@@ -29,17 +29,17 @@ Bildergalerie hinzufügen, unterschiedliche Stile:
 
 Bildergalerie hinzufügen, unterschiedliche Größen:
 
-    [slider photo.*jpg - 100%]
-    [slider photo.*jpg - 50%]
-    [slider photo.*jpg - 25%]
+    [slider photo.*jpg loop 100%]
+    [slider photo.*jpg loop 50%]
+    [slider photo.*jpg loop 25%]
 
 Bildergalerie aus einem Unterverzeichnis hinzufügen, unterschiedliche Größen:
 
-    [slider photo-album/- 100%]
-    [slider photo-album/ - 50%]
-    [slider photo-album/ - 25%]
+    [slider photo-album/ loop 100%]
+    [slider photo-album/ loop 50%]
+    [slider photo-album/ loop 25%]
 
-Bildergalerie hinzufügen, automatisch abspielen:
+Bildergalerie hinzufügen, automatisch abspielen mit Standardstil/-größe:
 
     [slider photo.*jpg - - 1000]
     [slider photo.*jpg - - 2000]

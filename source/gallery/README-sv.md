@@ -25,23 +25,29 @@ Bildtexter kan konfigureras i språkinställningarna. Öppna filen `system/exten
 
 ## Exempel
 
+Lägga till ett bildgalleri, olika stilar:
+
+    [gallery photo.*jpg]
+    [gallery photo.*jpg zoom]
+    [gallery photo.*jpg simple]
+
 Lägga till ett bildgalleri, olika storlekar:
 
-    [gallery photo.*jpg - 25%]
-    [gallery photo.*jpg - 50%]
-    [gallery photo.*jpg - 100%]
+    [gallery photo.*jpg zoom 25%]
+    [gallery photo.*jpg zoom 50%]
+    [gallery photo.*jpg zoom 100%]
 
 Lägga till ett bildgalleri, rektangulära miniatyrbilder:
 
-    [gallery photo.*jpg - 64]
-    [gallery photo.*jpg - 150]
-    [gallery photo.*jpg - 300]
+    [gallery photo.*jpg zoom 64]
+    [gallery photo.*jpg zoom 150]
+    [gallery photo.*jpg zoom 300]
 
 Lägga till ett bildgalleri från en undermapp, rektangulära miniatyrbilder:
 
-    [gallery photo-album/ - 64]
-    [gallery photo-album/ - 150]
-    [gallery photo-album/ - 300]
+    [gallery photo-album/ zoom 64]
+    [gallery photo-album/ zoom 150]
+    [gallery photo-album/ zoom 300]
 
 Konfigurera bildtexter i språkinställningarna:
 
@@ -55,7 +61,7 @@ Konfigurera bildtexter i språkinställningarna:
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`GalleryStyle` = galleristil, t.ex. `photoswipe`, `simple`  
+`GalleryStyle` = galleristil, t.ex. `zoom`, `simple`  
 
 ## Installation
 

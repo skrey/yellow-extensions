@@ -36,9 +36,15 @@ Bilder hinzufügen, unterschiedliche Stile:
 
 Bilder hinzufügen, unterschiedliche Größen:
 
+    [image photo.jpg Beispiel right 50%]
+    [image photo.jpg Beispiel right 64 64]
+    [image photo.jpg Beispiel right 320 200]
+
+Bilder hinzufügen, unterschiedliche Größen mit dem Standardstil:
+
+    [image photo.jpg Beispiel - 50%]
     [image photo.jpg Beispiel - 64 64]
     [image photo.jpg Beispiel - 320 200]
-    [image photo.jpg Beispiel - 50%]
 
 ## Einstellungen
 
