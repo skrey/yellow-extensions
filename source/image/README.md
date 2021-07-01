@@ -13,7 +13,7 @@ Create an `[image]` shortcut.
 The following arguments are available, all but the first argument are optional:
  
 `Name` = file name  
-`Alt` = alternative text for image  
+`Alt` = description of the image, wrap multiple words into quotes  
 `Style` = image style, e.g. `left`, `center`, `right`  
 `Width` = image width, pixel or percent  
 `Height` = image height, pixel or percent   

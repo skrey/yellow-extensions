@@ -13,7 +13,7 @@ Skapa en `[image]` förkortning.
 Följande argument är tillgängliga, alla utom det första argumentet är valfria:
  
 `Name` = filnamn  
-`Alt` = alternativ text för bild  
+`Alt` = beskrivning av bilden, placera flera ord i citattecken  
 `Style` = bildstil, t.ex. e.g. `left`, `center`, `right`  
 `Width` = bildbredd, pixel eller procent  
 `Height` = bildhöjd, pixel eller procent  

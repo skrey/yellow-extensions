@@ -13,7 +13,7 @@ Erstelle eine `[image]`-Abkürzung.
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
  
 `Name` = Dateiname  
-`Alt` = alternative Bildbeschreibung  
+`Alt` = Bildbeschreibung des Bildes, mehrere Wörter in Anführungszeichen setzen  
 `Style` = Bildstil, z.B. `left`, `center`, `right`  
 `Width` = Bildbreite, Pixel oder Prozent  
 `Height` = Bildhöhe, Pixel oder Prozent   
