@@ -22,8 +22,14 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 Video einbinden:
 
     [youtube fhs55HEl-Gc]
-    [youtube fhs55HEl-Gc left 200 112]
+    [youtube wNiyp89pTi0]
+    [youtube OV5J6BfToSw]
+
+Video einbinden, unterschiedliche Größen:
+
+    [youtube fhs55HEl-Gc right 50%]
     [youtube fhs55HEl-Gc right 200 112]
+    [youtube fhs55HEl-Gc right 400 224]
 
 ## Einstellungen
 

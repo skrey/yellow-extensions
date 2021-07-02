@@ -14,27 +14,27 @@ The `downloads` folder contains files to download. The `images` folder is the pl
 
 ## Images
 
-You can use the [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/image) to embed images. To add a new image, copy a new file into the `images` folder and create an `[image]` shortcut. The image formats GIF, JPG, PNG and SVG are supported.
+You can use the [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/image) to embed images. The image formats GIF, JPG, PNG and SVG are supported. To add a new image, copy a new file into the `images` folder and create an `[image]` shortcut. You can also upload images in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit), then this will happen automatically. 
 
-Adding images:
+Adding an image:
 
     [image photo.jpg]
     [image photo.jpg Example]
     [image photo.jpg "This is an example image"]
 
-Adding images, different styles:
+Adding an image, different styles:
 
     [image photo.jpg Example left]
     [image photo.jpg Example center]
     [image photo.jpg Example right]
 
-Adding images, different sizes:
+Adding an image, different sizes:
 
     [image photo.jpg Example right 50%]
     [image photo.jpg Example right 64 64]
     [image photo.jpg Example right 320 200]
 
-Adding images, different sizes with the default style:
+Adding an image, different sizes with the default style:
 
     [image photo.jpg Example - 50%]
     [image photo.jpg Example - 64 64]
@@ -44,8 +44,16 @@ Adding images, different sizes with the default style:
 
 You can use the [Youtube extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube) to embed videos:
 
+Embedding a video:
+
     [youtube fhs55HEl-Gc]
-    [youtube fhs55HEl-Gc left 200 112]
+    [youtube wNiyp89pTi0]
+    [youtube OV5J6BfToSw]
+
+Embedding a video, different sizes:
+
+    [youtube fhs55HEl-Gc right 50%]
     [youtube fhs55HEl-Gc right 200 112]
+    [youtube fhs55HEl-Gc right 400 224]
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

@@ -22,25 +22,25 @@ Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien be
 
 ## Beispiele
 
-Bilder hinzufügen:
+Bild hinzufügen:
 
     [image photo.jpg]
     [image photo.jpg Beispiel]
     [image photo.jpg "Das ist ein Beispielbild"]
 
-Bilder hinzufügen, unterschiedliche Stile:
+Bild hinzufügen, unterschiedliche Stile:
 
     [image photo.jpg Beispiel left]
     [image photo.jpg Beispiel center]
     [image photo.jpg Beispiel right]
 
-Bilder hinzufügen, unterschiedliche Größen:
+Bild hinzufügen, unterschiedliche Größen:
 
     [image photo.jpg Beispiel right 50%]
     [image photo.jpg Beispiel right 64 64]
     [image photo.jpg Beispiel right 320 200]
 
-Bilder hinzufügen, unterschiedliche Größen mit dem Standardstil:
+Bild hinzufügen, unterschiedliche Größen mit dem Standardstil:
 
     [image photo.jpg Beispiel - 50%]
     [image photo.jpg Beispiel - 64 64]

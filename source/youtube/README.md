@@ -22,8 +22,14 @@ The following arguments are available, all but the first argument are optional:
 Embedding a video:
 
     [youtube fhs55HEl-Gc]
-    [youtube fhs55HEl-Gc left 200 112]
+    [youtube wNiyp89pTi0]
+    [youtube OV5J6BfToSw]
+
+Embedding a video, different sizes:
+
+    [youtube fhs55HEl-Gc right 50%]
     [youtube fhs55HEl-Gc right 200 112]
+    [youtube fhs55HEl-Gc right 400 224]
 
 ## Settings
 

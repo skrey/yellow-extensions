@@ -22,7 +22,7 @@ Here's how to work with us and make useful products.
 * [Start with the help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help), [individual extensions](https://github.com/datenstrom/yellow-extensions) or a [translation](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt).
 * Edit the existing documentation or make a translation.
 * Upload your documentation to GitHub, let us know if you need help.
-* Check that it is helpful to the user, give many practical examples.
+* Check that it is helpful to the user and give many practical examples.
 
 ## How to develop your own features
 

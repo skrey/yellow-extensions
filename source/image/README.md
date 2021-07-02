@@ -22,25 +22,25 @@ The image formats GIF, JPG, PNG and SVG are supported. All media files are locat
 
 ## Examples
 
-Adding images:
+Adding an image:
 
     [image photo.jpg]
     [image photo.jpg Example]
     [image photo.jpg "This is an example image"]
 
-Adding images, different styles:
+Adding an image, different styles:
 
     [image photo.jpg Example left]
     [image photo.jpg Example center]
     [image photo.jpg Example right]
 
-Adding images, different sizes:
+Adding an image, different sizes:
 
     [image photo.jpg Example right 50%]
     [image photo.jpg Example right 64 64]
     [image photo.jpg Example right 320 200]
 
-Adding images, different sizes with the default style:
+Adding an image, different sizes with the default style:
 
     [image photo.jpg Example - 50%]
     [image photo.jpg Example - 64 64]

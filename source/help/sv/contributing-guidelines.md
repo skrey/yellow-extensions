@@ -22,7 +22,7 @@ Hur man jobbar med oss och skapar användbara produkter.
 * [Börja med hjälpen](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-sv.md), [enskilda tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/README-sv.md) eller en [översättning](https://github.com/datenstrom/yellow-extensions/blob/master/source/swedish/swedish.txt).
 * Redigera befintlig dokumentation eller gör en översättning.
 * Ladda upp din dokumentation till GitHub, låt oss veta om du behöver hjälp.
-* Granska att det är till hjälp för användaren, ge många praktiska exempel.
+* Granska att det är till hjälp för användaren och ge många praktiska exempel.
 
 ## Hur man utvecklar egna funktioner
 

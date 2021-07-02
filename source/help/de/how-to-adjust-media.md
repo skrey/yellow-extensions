@@ -14,27 +14,27 @@ Das `downloads`-Verzeichnis enthält Dateien zum Herunterladen. Das `images`-Ver
 
 ## Bilder
 
-Du kannst die [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md) benutzen um Bilder einzubinden. Um ein neues Bild hinzuzufügen, kopierst du eine neue Datei ins `images`-Verzeichnis und erstellst eine `[image]`-Abkürzung. Die Bildformate GIF, JPG, PNG und SVG werden unterstützt.
+Du kannst die [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md) benutzen um Bilder einzubinden. Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Um ein neues Bild hinzuzufügen, kopierst du eine neue Datei ins `images`-Verzeichnis und erstellst eine `[image]`-Abkürzung. Du kannst Bilder auch im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) hochladen, dann geschieht das automatisch. 
 
-Bilder hinzufügen:
+Bild hinzufügen:
 
     [image photo.jpg]
     [image photo.jpg Beispiel]
     [image photo.jpg "Das ist ein Beispielbild"]
 
-Bilder hinzufügen, unterschiedliche Stile:
+Bild hinzufügen, unterschiedliche Stile:
 
     [image photo.jpg Beispiel left]
     [image photo.jpg Beispiel center]
     [image photo.jpg Beispiel right]
 
-Bilder hinzufügen, unterschiedliche Größen:
+Bild hinzufügen, unterschiedliche Größen:
 
     [image photo.jpg Beispiel right 50%]
     [image photo.jpg Beispiel right 64 64]
     [image photo.jpg Beispiel right 320 200]
 
-Bilder hinzufügen, unterschiedliche Größen mit dem Standardstil:
+Bild hinzufügen, unterschiedliche Größen mit dem Standardstil:
 
     [image photo.jpg Beispiel - 50%]
     [image photo.jpg Beispiel - 64 64]
@@ -44,8 +44,16 @@ Bilder hinzufügen, unterschiedliche Größen mit dem Standardstil:
 
 Du kannst die [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md) benutzen um Videos einzubinden.
 
+Video einbinden:
+
     [youtube fhs55HEl-Gc]
-    [youtube fhs55HEl-Gc left 200 112]
+    [youtube wNiyp89pTi0]
+    [youtube OV5J6BfToSw]
+
+Video einbinden, unterschiedliche Größen:
+
+    [youtube fhs55HEl-Gc right 50%]
     [youtube fhs55HEl-Gc right 200 112]
+    [youtube fhs55HEl-Gc right 400 224]
 
 Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

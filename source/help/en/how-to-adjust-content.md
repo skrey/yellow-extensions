@@ -77,7 +77,7 @@ Making links:
     [Link to file](/media/downloads/yellow.pdf)
     [Link to website](https://datenstrom.se)
 
-Adding an image:
+Adding images:
 
     [image photo.jpg]
     [image photo.jpg Example]

@@ -22,7 +22,7 @@ Wie man mit uns zusammenarbeitet und nützliche Produkte macht.
 * [Beginne mit der Hilfe](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md), [individuellen Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/README-de.md) oder einer [Übersetzung](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt).
 * Bearbeite die vorhandene Dokumentation oder erstelle eine Übersetzung.
 * Lade deine Dokumentation zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
-* Überprüfe ob es für den Benutzer hilfreich ist, gebe viele praktische Beispiele. 
+* Überprüfe ob es für den Benutzer hilfreich ist und gebe viele praktische Beispiele. 
 
 ## Wie man eigene Funktionen entwickelt
 

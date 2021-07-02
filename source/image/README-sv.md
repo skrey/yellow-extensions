@@ -23,25 +23,25 @@ Mappen `media/images` är platsen för att lagra dina bilder. Mappen `media/thum
 
 ## Exempel
 
-Lägga till bilder:
+Lägga till en bild:
 
     [image photo.jpg]
     [image photo.jpg Exempel]
     [image photo.jpg "Detta är en exempelbild"]
 
-Lägga till bilder, olika stilar:
+Lägga till en bild, olika stilar:
 
     [image photo.jpg Exempel left]
     [image photo.jpg Exempel center]
     [image photo.jpg Exempel right]
 
-Lägga till bilder, olika storlekar:
+Lägga till en bild, olika storlekar:
 
     [image photo.jpg Exempel right 50%]
     [image photo.jpg Exempel right 64 64]
     [image photo.jpg Exempel right 320 200]
 
-Lägga till bilder, olika storlekar med standardstilen:
+Lägga till en bild, olika storlekar med standardstilen:
 
     [image photo.jpg Exempel - 50%]
     [image photo.jpg Exempel - 64 64]
