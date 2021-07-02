@@ -150,7 +150,7 @@ You can use shortcuts to add common features.
 `[image photo.jpg Example right 50%]` = [add image thumbnail](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
 `[gallery photo.*jpg zoom 25%]` = [add image gallery with popup](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
 `[slider photo.*jpg loop]` = [add image gallery with slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
-`[googlecalendar en.swedish#holiday]` = [embed Google calendar](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar)  
+`[googlecalendar en.uk#holiday]` = [embed Google calendar](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar)  
 `[googlemap Stockholm]` = [embed Google map](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap)  
 `[youtube fhs55HEl-Gc]` = [embed Youtube video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
 `[blogchanges /blog/]` = [show latest blog pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)  

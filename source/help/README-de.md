@@ -12,9 +12,7 @@ Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilf
 
 ## Wie man die Hilfe verbessert
 
-Falls du die Hilfe im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/help/`. Falls du die Hilfe auf deinem Computer bearbeiten möchtest, schau dir das `content/9-help`-Verzeichnis an. Falls du eine Übersetzung erstellen möchtest, hier sind ein paar Tipps. Übersetze den Titel und den Inhalt aller Seiten. Lasse die Dateinamen unverändert. Schau dir die Hilfe aus der Perspektive des Benutzers an. Überprüfe ob es für den Benutzer hilfreich ist und gebe viele praktische Beispiele. 
-
-Die Hilfe ist derzeit auf Deutsch, Englisch und Schwedisch verfügbar.
+Falls du die Hilfe im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/help/`. Falls du die Hilfe auf deinem Computer bearbeiten möchtest, schau dir das `content/9-help`-Verzeichnis an. Hier sind ein paar Tipps. Lasse die Dateinamen unverändert, bearbeite nur den Titel und den Inhalt der Seiten. Schau dir die Hilfe aus der Perspektive des Benutzers an. Überprüfe ob es für den Benutzer hilfreich ist und gebe viele praktische Beispiele. 
 
 ## Installation
 

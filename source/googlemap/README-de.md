@@ -23,14 +23,20 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 Karte einbinden:
 
     [googlemap Stockholm]
-    [googlemap "Bredgatan 1, Lund, Sweden"]
-    [googlemap "Bredgatan 1, Lund, Sweden" 9 right 320 200]
+    [googlemap "Malmö, Gamla staden"]
+    [googlemap "Bredgatan 1, Lund, Sweden" 16]
 
 Karte einbinden, GPS-Koordinaten:
 
     [googlemap "59.32820, 18.07007"]
-    [googlemap "59.32820, 18.07007" 16]
-    [googlemap "59.32820, 18.07007" 16 right 320 200]
+    [googlemap "55.60490, 12.99833"]
+    [googlemap "55.70647, 13.19246" 16]
+
+Karte einbinden, unterschiedliche Größen:
+
+    [googlemap Stockholm 15 right 50%]
+    [googlemap Stockholm 15 right 320 200]
+    [googlemap Stockholm 15 right 640 400]
 
 ## Einstellungen
 

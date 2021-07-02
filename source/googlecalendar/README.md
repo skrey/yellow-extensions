@@ -23,21 +23,33 @@ The following arguments are available, all but the first argument are optional:
 
 Embedding a calendar:
 
-    [googlecalendar en.swedish#holiday]
-    [googlecalendar en.swedish#holiday week]
-    [googlecalendar en.swedish#holiday month - right 240 240]
+    [googlecalendar en.uk#holiday]
+    [googlecalendar de.german#holiday]
+    [googlecalendar sv.swedish#holiday]
 
 Embedding a calendar, multiple calendars together:
 
-    [googlecalendar "sv.swedish#holiday, de.german#holiday, fr.french#holiday"]
-    [googlecalendar "sv.swedish#holiday, de.german#holiday, fr.french#holiday" week 2017-01-01]
-    [googlecalendar "sv.swedish#holiday#0044AA, de.german#holiday#AA0000, fr.french#holiday#00AA00" month 2021-01-01]
+    [googlecalendar "en.uk#holiday, de.german#holiday"]
+    [googlecalendar "en.uk#holiday, de.german#holiday, sv.swedish#holiday"]
+    [googlecalendar "en.uk#holiday#0044AA, de.german#holiday#AA0000, sv.swedish#holiday#0000AA"]
 
-Embedding a calendar, events and agenda:
+Embedding a calendar, different modes:
 
-    [googlecalendar de.german#holiday events]
-    [googlecalendar de.german#holiday events 10]
-    [googlecalendar de.german#holiday agenda 10]
+    [googlecalendar en.uk#holiday month]
+    [googlecalendar en.uk#holiday events]
+    [googlecalendar en.uk#holiday agenda]
+
+Embedding a calendar, different dates:
+
+    [googlecalendar en.uk#holiday month 2021-06-01]
+    [googlecalendar en.uk#holiday month 2021-09-01]
+    [googlecalendar en.uk#holiday month 2023-12-24]
+
+Embedding a calendar, different sizes for the current date:
+
+    [googlecalendar en.uk#holiday month - right 50%]
+    [googlecalendar en.uk#holiday month - right 240 240]
+    [googlecalendar en.uk#holiday month - right 480 480]
 
 ## Settings
 

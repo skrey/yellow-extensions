@@ -23,21 +23,33 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 Kalender einbinden:
 
-    [googlecalendar en.swedish#holiday]
-    [googlecalendar en.swedish#holiday week]
-    [googlecalendar en.swedish#holiday month - right 240 240]
+    [googlecalendar en.uk#holiday]
+    [googlecalendar de.german#holiday]
+    [googlecalendar sv.swedish#holiday]
 
 Kalender einbinden, mehrere Kalender zusammen:
 
-    [googlecalendar "sv.swedish#holiday, de.german#holiday, fr.french#holiday"]
-    [googlecalendar "sv.swedish#holiday, de.german#holiday, fr.french#holiday" week 2017-01-01]
-    [googlecalendar "sv.swedish#holiday#0044AA, de.german#holiday#AA0000, fr.french#holiday#00AA00" month 2021-01-01]
+    [googlecalendar "en.uk#holiday, de.german#holiday"]
+    [googlecalendar "en.uk#holiday, de.german#holiday, sv.swedish#holiday"]
+    [googlecalendar "en.uk#holiday#0044AA, de.german#holiday#AA0000, sv.swedish#holiday#0000AA"]
 
-Kalender einbinden, Events und Agenda:
+Kalender einbinden, unterschiedlicher Modus:
 
+    [googlecalendar de.german#holiday month]
     [googlecalendar de.german#holiday events]
-    [googlecalendar de.german#holiday events 10]
-    [googlecalendar de.german#holiday agenda 10]
+    [googlecalendar de.german#holiday agenda]
+
+Kalender einbinden, unterschiedliches Datum:
+
+    [googlecalendar de.german#holiday month 2021-06-01]
+    [googlecalendar de.german#holiday month 2021-09-01]
+    [googlecalendar de.german#holiday month 2023-12-24]
+
+Kalender einbinden, unterschiedliche Größen für das aktuelle Datum:
+
+    [googlecalendar de.german#holiday month - right 50%]
+    [googlecalendar de.german#holiday month - right 240 240]
+    [googlecalendar de.german#holiday month - right 480 480]
 
 ## Einstellungen
 
