@@ -206,7 +206,7 @@ When your website doesn't work, then check `server_name` and `root` in the confi
 ## Related information
 
 * [How to start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
-* [How to show the current version](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)
 * [How to create a user account](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
+* [How to show the current version](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

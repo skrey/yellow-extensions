@@ -67,25 +67,25 @@ Showing links to blog:
 
     [See all pages](/blog/)
     [See all pages by Datenstrom](/blog/author:datenstrom/)
-    [See example](/blog/tag:example/)
+    [See examples](/blog/tag:example/)
 
 Showing latest blog pages:
 
-    [blogchanges /blog/]
+    [blogchanges /blog/ 0]
     [blogchanges /blog/ 3]
     [blogchanges /blog/ 10]
 
 Showing list of tags:
 
-    [blogtags /blog/]
+    [blogtags /blog/ 0]
     [blogtags /blog/ 3]
     [blogtags /blog/ 10]
 
-Showing list of pages:
+Showing list of months:
 
-    [blogpages /blog/]
-    [blogpages /blog/ 10 Datenstrom]
-    [blogpages /blog/ 10 - example]
+    [blogarchive /blog/ 0]
+    [blogarchive /blog/ 3]
+    [blogarchive /blog/ 10]
 
 Configuring different location, URL with subfolder for each year:
 
@@ -98,7 +98,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `BlogLocation` = blog location, empty means current folder  
 `BlogNewLocation` = location for new blog pages, [supported placeholders](#settings-placeholders)  
-`BlogPagesMax` = number of pages to show per shortcut  
+`BlogPagesMax` = number of pages to show per shortcut, 0 for unlimited  
 `BlogPaginationLimit` = number of entries to show per page  
 
 <a id="settings-placeholders"></a>The following placeholders for new blog pages are supported:

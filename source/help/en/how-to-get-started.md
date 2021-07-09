@@ -10,7 +10,7 @@ Learn how to install your website.
 3. Open your website in a web browser.
 4. Create a user account, when asked.
 
-If there are problems with installation, [see troubleshooting](troubleshooting).
+If you want to learn more about Datenstrom Yellow, [see help for your website](.).
 
 ## Installation on your computer
 
@@ -21,6 +21,4 @@ If there are problems with installation, [see troubleshooting](troubleshooting).
 
 If you want to learn more about the command line, [see command extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/command).
 
-## You're ready to go
-
-Your website is immediately available. [Get help](.) and [contribute](contributing-guidelines).
+Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

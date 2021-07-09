@@ -1065,7 +1065,7 @@ var_dump(strempty(""));       // bool(true)
 ## Relaterad information
 
 * [Hur man använder kommandoraden](https://github.com/datenstrom/yellow-extensions/blob/master/source/command/README-sv.md)
+* [Hur man utökar en webbplats](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-sv.md)
 * [Hur man publicerar ett tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md)
-* [Hur man uppdaterar en webbplats](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-sv.md)
 
 Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

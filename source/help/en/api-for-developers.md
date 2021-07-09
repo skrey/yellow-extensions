@@ -1065,7 +1065,7 @@ var_dump(strempty(""));       // bool(true)
 ## Relevant information
 
 * [How to use the command line](https://github.com/datenstrom/yellow-extensions/blob/master/source/command)
+* [How to extend a website](https://github.com/datenstrom/yellow-extensions/blob/master/source/update)
 * [How to publish an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)
-* [How to update a website](https://github.com/datenstrom/yellow-extensions/blob/master/source/update)
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

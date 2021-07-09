@@ -45,6 +45,12 @@ Kalender einbinden, unterschiedliches Datum:
     [googlecalendar de.german#holiday month 2021-09-01]
     [googlecalendar de.german#holiday month 2023-12-24]
 
+Kalender einbinden, unterschiedliche Größen:
+
+    [googlecalendar de.german#holiday month 2021-06-01 right 50%]
+    [googlecalendar de.german#holiday month 2021-06-01 right 240 240]
+    [googlecalendar de.german#holiday month 2021-06-01 right 480 480]
+
 Kalender einbinden, unterschiedliche Größen für das aktuelle Datum:
 
     [googlecalendar de.german#holiday month - right 50%]

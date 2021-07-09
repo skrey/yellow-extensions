@@ -8,11 +8,11 @@ Installiere eine brandneue, wunderbare Website.
 
 ## Wie man eine Webseite installiert
 
-Zum Installieren entpackt man eine Datei und los geht's. Das Installationsprogramm überprüft zuerst ob alle Anforderungen erfüllt sind, zum Beispiel ob der Webserver richtig funktioniert. Dann bietet das Installationsprogramm an ein Benutzerkonto anzulegen und fragt was man machen möchte. Nachdem das Installationsprogramm seine Arbeit erledigt hat löscht er sich von selbst. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
+Zum Installieren entpackt man eine Datei und los geht's. Das Installationsprogramm überprüft zuerst ob alle Anforderungen erfüllt sind, zum Beispiel ob der Webserver richtig funktioniert. Dann bietet das Installationsprogramm an ein Benutzerkonto anzulegen und fragt was man machen möchte. Nachdem das Installationsprogramm seine Arbeit erledigt hat löscht es sich von selbst. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
 
 ## Wie man ein Installationspaket erstellt
 
-Ein Installationspaket besteht aus dem Installationsprogramm `install.php`, der Datei `install-languages.zip` und dem Grundgerüst einer Webseite. Du kannst [Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden dann bei der Installation zur Auswahl angeboten.
+Ein Installationspaket besteht aus dem Installationsprogramm `install.php`, der Datei `install-languages.zip` und dem Grundgerüst einer Webseite. Im Standard-Installationspaket sind ausserdem das Blog und das Wiki enthalten. Du kannst [Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden dann bei der Installation zur Auswahl angeboten.
 
 ## Beispiele
 
@@ -30,8 +30,8 @@ system/extensions/install-languages.zip: install-languages.zip, create, optional
 system/extensions/install-blog.zip: install-blog.zip, create, optional
 system/extensions/install-wiki.zip: install-wiki.zip, create, optional
 content/1-home/page.md: page.md, create, optional
-content/shared/page-error-404.md: page-error-404.md, create, optional
 content/shared/page-new-default.md: page-new-default.md, create, optional
+content/shared/page-error-404.md: page-error-404.md, create, optional
 media/downloads/yellow.pdf: yellow.pdf, create, optional
 ~~~
 
@@ -39,9 +39,20 @@ media/downloads/yellow.pdf: yellow.pdf, create, optional
 
 Die Erweiterungseinstellungen findet man in der Datei `system/extensions/update-current.ini`.
 
+Die folgenden Dateien werden bei der Installation angepasst:
+
+`content/1-home/page.md` = Inhaltsdatei für die Startseite  
+`content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
+`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
+`content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
+`content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
+`system/extensions/yellow-system.ini` = Datei mit Systemeinstellungen  
+`system/extensions/yellow-user.ini` = Datei mit Benutzereinstellungen  
+`system/extensions/yellow-language.ini` = Datei mit Spracheinstellungen  
+
 ## Installation
 
-Diese Erweiterung ist Teil eines Installationspakets.
+Diese Erweiterung ist Teil des [Standard-Installationspaketes](https://github.com/datenstrom/yellow).
 
 ## Entwickler
 

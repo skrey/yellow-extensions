@@ -67,25 +67,25 @@ Links zum Blog anzeigen:
 
     [Siehe alle Seiten](/blog/)
     [Siehe alle Seiten von Datenstrom](/blog/author:datenstrom/)
-    [Siehe Beispiel](/blog/tag:beispiel/)
+    [Siehe Beispiele](/blog/tag:beispiel/)
 
 Neuste Blogseiten anzeigen:
 
-    [blogchanges /blog/]
+    [blogchanges /blog/ 0]
     [blogchanges /blog/ 3]
     [blogchanges /blog/ 10]
 
 Liste mit Tags anzeigen:
 
-    [blogtags /blog/]
+    [blogtags /blog/ 0]
     [blogtags /blog/ 3]
     [blogtags /blog/ 10]
 
-Liste mit Seiten anzeigen:
+Liste mit Monaten anzeigen:
 
-    [blogpages /blog/]
-    [blogpages /blog/ 10 Datenstrom]
-    [blogpages /blog/ 10 - Beispiel]
+    [blogarchive /blog/ 0]
+    [blogarchive /blog/ 3]
+    [blogarchive /blog/ 10]
 
 Anderen Ort festlegen, URL mit Unterverzeichnis für jedes Jahr:
 
@@ -98,7 +98,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 `BlogLocation` = Ort des Blogs, leer bedeutet aktuelles Verzeichnis  
 `BlogNewLocation` = Ort für neue Blogseiten, [unterstützte Platzhalter](#einstellungen-placeholders)  
-`BlogPagesMax` = Anzahl der Seiten pro Abkürzung  
+`BlogPagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
 `BlogPaginationLimit` = Anzahl der Einträge pro Seite 
 
 <a id="einstellungen-placeholders"></a>Die folgenden Platzhalter für neue Blogseiten werden unterstützt:

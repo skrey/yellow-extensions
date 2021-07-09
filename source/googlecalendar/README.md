@@ -45,6 +45,12 @@ Embedding a calendar, different dates:
     [googlecalendar en.uk#holiday month 2021-09-01]
     [googlecalendar en.uk#holiday month 2023-12-24]
 
+Embedding a calendar, different sizes:
+
+    [googlecalendar en.uk#holiday month 2021-06-01 right 50%]
+    [googlecalendar en.uk#holiday month 2021-06-01 right 240 240]
+    [googlecalendar en.uk#holiday month 2021-06-01 right 480 480]
+
 Embedding a calendar, different sizes for the current date:
 
     [googlecalendar en.uk#holiday month - right 50%]

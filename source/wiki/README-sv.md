@@ -70,20 +70,26 @@ Visa länkar till wikin:
 
 Visa senaste wikisidor:
 
-    [wikichanges /wiki/]
+    [wikichanges /wiki/ 0]
     [wikichanges /wiki/ 3]
     [wikichanges /wiki/ 10]
 
 Visa lista med taggar:
 
-    [wikitags /wiki/]
+    [wikitags /wiki/ 0]
     [wikitags /wiki/ 3]
     [wikitags /wiki/ 10]
 
 Visa lista med sidor:
 
-    [wikipages /wiki/]
-    [wikipages /wiki/ 10 Datenstrom]
+    [wikipages /wiki/ 0]
+    [wikipages /wiki/ 3]
+    [wikipages /wiki/ 10]
+
+Visa lista med sidor, av en specifik författare eller tagg:
+
+    [wikipages /wiki/ 10 Datenstrom]]
+    [wikipages /wiki/ 10 - kaffe]
     [wikipages /wiki/ 10 - exempel]
 
 Konfigurera en annan plats, URL med undermapp för kategorisering: 
@@ -97,7 +103,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 `WikiLocation` = plats för wikin, tom betyder aktuell mappr  
 `WikiNewLocation` = plats för nya wikisidor, [stödda platshållare](#inställningar-placeholders)  
-`WikiPagesMax` = antal sidor att visa per förkortning  
+`WikiPagesMax` = antal sidor att visa per förkortning, 0 för obegränsad  
 `WikiPaginationLimit` = antal inlägg att visa per sida  
 
 <a id="inställningar-placeholders"></a>Följande platshållare för nya wikisidor stöds:

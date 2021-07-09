@@ -12,7 +12,7 @@ Here's how to work with us and make useful products.
 
 ## How to report a bug
 
-* [Start a new discussion for each bug](https://github.com/datenstrom/yellow/discussions).
+* [Start a new discussion for each bug](https://github.com/datenstrom/yellow/discussions/categories/report-a-bug).
 * Explain how to reproduce the bug, check if it happens every time.
 * Add many details, check the log file `system/extensions/yellow.log`.
 * Test that everything works, when your problem has been fixed.
@@ -24,17 +24,17 @@ Here's how to work with us and make useful products.
 * Upload your documentation to GitHub, let us know if you need help.
 * Check that it is helpful to the user and give many practical examples.
 
-## How to develop your own features
+## How to develop your own extensions
 
-* [Start with an example feature](https://github.com/schulle4u/yellow-extension-helloworld) or [example theme](https://github.com/schulle4u/yellow-extension-basic).
+* [Start with an example feature](https://github.com/schulle4u/yellow-extension-helloworld), [example theme](https://github.com/schulle4u/yellow-extension-basic) or the [API](api-for-developers).
 * Imagine what the user wants to do, aim for a simple solution.
-* Upload your extension to GitHub, let us know if you need help.
+* Upload your extensions to GitHub, let us know if you need help.
 * First make it work, then make it better.
 
 ## Tips for new contributors
 
-Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same experience level or background as you. Never feel compelled to react or respond to anyone. You can step out of conversations at any time if the discussion isn't constructive. Focus on the people who want to help you. Low-quality contributions will be removed to not overwhelm our community.
+Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same experience level or background as you. Never feel compelled to react or respond to anyone. You can step out of conversations at any time if the discussion isn't constructive. Focus on the people who want to help you. Imagine what we can do if we're working together.
 
-Let us know how we can create a good work environment for you. Collaboration works best when you enjoy what your are doing. When you're surrounded by motivated and helpful people. Understanding people's needs and problems is a central part of product development. Our job is not to bring more technology, more features and more documentation into people's lives. Our first task is to remove problems from people's lives. Our second task is to find like-minded people and work together.
+Let us know how we can create a good work environment for you. Collaboration works best when you enjoy what your are doing. When you're surrounded by helpful people. Understanding people's needs and problems is a central part of product development. Our job is not to bring more technology, more features and more documentation into people's lives. Our first task is to remove problems from people's lives. Our second task is to find like-minded people and work together.
 
 Say hello to the community. You can find us on [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) or [contact a human](https://datenstrom.se/contact/).

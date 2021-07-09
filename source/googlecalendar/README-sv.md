@@ -45,6 +45,12 @@ Bädda in en kalender, olika datum:
     [googlecalendar sv.swedish#holiday month 2021-09-01]
     [googlecalendar sv.swedish#holiday month 2023-12-24]
 
+Bädda in en kalender, olika storlekar:
+
+    [googlecalendar sv.swedish#holiday month 2021-06-01 right 50%]
+    [googlecalendar sv.swedish#holiday month 2021-06-01 right 240 240]
+    [googlecalendar sv.swedish#holiday month 2021-06-01 right 480 480]
+
 Bädda in en kalender, olika storlekar för aktuella datumet:
 
     [googlecalendar sv.swedish#holiday month - right 50%]

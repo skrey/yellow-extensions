@@ -66,24 +66,30 @@ Links zum Wiki anzeigen:
 
     [Siehe alle Seiten](/wiki/special:pages/)
     [Siehe letzte Änderungen](/wiki/special:changes/)
-    [Siehe Beispiel](/wiki/tag:beispiel/)
+    [Siehe Beispiele](/wiki/tag:beispiel/)
 
 Neuste Wikiseiten anzeigen:
 
-    [wikichanges /wiki/]
+    [wikichanges /wiki/ 0]
     [wikichanges /wiki/ 3]
     [wikichanges /wiki/ 10]
 
 Liste mit Tags anzeigen:
 
-    [wikitags /wiki/]
+    [wikitags /wiki/ 0]
     [wikitags /wiki/ 3]
     [wikitags /wiki/ 10]
 
 Liste mit Seiten anzeigen:
 
-    [wikipages /wiki/]
+    [wikipages /wiki/ 0]
+    [wikipages /wiki/ 3]
+    [wikipages /wiki/ 10]
+
+Liste mit Seiten anzeigen, von einem bestimmten Autor oder Tag:
+
     [wikipages /wiki/ 10 Datenstrom]
+    [wikipages /wiki/ 10 - Kaffee]
     [wikipages /wiki/ 10 - Beispiel]
 
 Anderen Ort festlegen, URL mit Unterverzeichnis zur Kategorisierung:
@@ -97,7 +103,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 `WikiLocation` = Ort des Wikis, leer bedeutet aktuelles Verzeichnis  
 `WikiNewLocation` = Ort für neue Wikiseiten, [unterstützte Platzhalter](#einstellungen-placeholders)  
-`WikiPagesMax` = Anzahl der Seiten pro Abkürzung  
+`WikiPagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
 `WikiPaginationLimit` = Anzahl der Einträge pro Seite  
 
 <a id="einstellungen-placeholders"></a>Die folgenden Platzhalter für neue Wikiseiten werden unterstützt:

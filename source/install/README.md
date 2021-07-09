@@ -12,7 +12,7 @@ Installing is unzipping one file and you are ready to go. The installer first ch
 
 ## How to make an installation package
 
-An installation package consists of the installer `install.php`, the file `install-languages.zip` and the basic framework of a website. You can download [extensions](https://github.com/datenstrom/yellow-extensions/tree/master/zip), rename and copy them into your `system/extensions` folder. They are offered as an option during installation.
+An installation package consists of the installer `install.php`, the file `install-languages.zip` and the basic framework of a website. The standard installation package also includes the blog and the wiki. You can download [extensions](https://github.com/datenstrom/yellow-extensions/tree/master/zip), rename and copy them into your `system/extensions` folder. They will be offered as an option during installation.
 
 ## Examples
 
@@ -30,8 +30,8 @@ system/extensions/install-languages.zip: install-languages.zip, create, optional
 system/extensions/install-blog.zip: install-blog.zip, create, optional
 system/extensions/install-wiki.zip: install-wiki.zip, create, optional
 content/1-home/page.md: page.md, create, optional
-content/shared/page-error-404.md: page-error-404.md, create, optional
 content/shared/page-new-default.md: page-new-default.md, create, optional
+content/shared/page-error-404.md: page-error-404.md, create, optional
 media/downloads/yellow.pdf: yellow.pdf, create, optional
 ~~~
 
@@ -39,9 +39,20 @@ media/downloads/yellow.pdf: yellow.pdf, create, optional
 
 The extension settings can be found in file `system/extensions/update-current.ini`.
 
+The following files will be customised during installation:
+
+`content/1-home/page.md` = content file for home page  
+`content/shared/page-new-default.md` = content file for new page  
+`content/shared/page-new-blog.md` = content file for new blog page  
+`content/shared/page-new-wiki.md` = content file for new wiki page  
+`content/shared/page-error-404.md` = content file for error page  
+`system/extensions/yellow-system.ini` = file with system settings  
+`system/extensions/yellow-user.ini` = file with user settings  
+`system/extensions/yellow-language.ini` = file with language settings  
+
 ## Installation
 
-This extension is part of an installation package.
+This extension is part of the [standard installation package](https://github.com/datenstrom/yellow).
 
 ## Developer
 

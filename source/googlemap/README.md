@@ -24,13 +24,19 @@ Embedding a map:
 
     [googlemap Stockholm]
     [googlemap "Malmö, Gamla staden"]
-    [googlemap "Bredgatan 1, Lund, Sweden" 16]
+    [googlemap "Bredgatan 1, Lund, Sweden"]
 
 Embedding a map, GPS coordinates:
 
     [googlemap "59.32820, 18.07007"]
     [googlemap "55.60490, 12.99833"]
-    [googlemap "55.70647, 13.19246" 16]
+    [googlemap "55.70647, 13.19246"]
+
+Embedding a map, different zoom values:
+
+    [googlemap Stockholm 5]
+    [googlemap Stockholm 10]
+    [googlemap Stockholm 15]
 
 Embedding a map, different sizes:
 

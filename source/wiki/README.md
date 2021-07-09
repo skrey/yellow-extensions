@@ -66,24 +66,30 @@ Showing links to wiki:
 
     [See all pages](/wiki/special:pages/)
     [See recent changes](/wiki/special:changes/)
-    [See example](/wiki/tag:example/)
+    [See examples](/wiki/tag:example/)
 
 Showing latest wiki pages:
 
-    [wikichanges /wiki/]
+    [wikichanges /wiki/ 0]
     [wikichanges /wiki/ 3]
     [wikichanges /wiki/ 10]
 
 Showing list of tags:
 
-    [wikitags /wiki/]
+    [wikitags /wiki/ 0]
     [wikitags /wiki/ 3]
     [wikitags /wiki/ 10]
 
 Showing list of pages:
 
-    [wikipages /wiki/]
+    [wikipages /wiki/ 0]
+    [wikipages /wiki/ 3]
+    [wikipages /wiki/ 10]
+
+Showing list of pages, by a specific author or tag:
+
     [wikipages /wiki/ 10 Datenstrom]
+    [wikipages /wiki/ 10 - coffee]
     [wikipages /wiki/ 10 - example]
 
 Configuring different location, URL with subfolder for categorisation:
@@ -97,7 +103,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `WikiLocation` = wiki location, empty means current folder  
 `WikiNewLocation` = location for new wiki pages, [supported placeholders](#settings-placeholders)  
-`WikiPagesMax` = number of pages to show per shortcut  
+`WikiPagesMax` = number of pages to show per shortcut, 0 for unlimited  
 `WikiPaginationLimit` = number of entries to show per page  
 
 <a id="settings-placeholders"></a>The following placeholders for new wiki pages are supported:

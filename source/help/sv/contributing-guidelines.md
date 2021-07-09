@@ -12,7 +12,7 @@ Hur man jobbar med oss och skapar användbara produkter.
 
 ## Hur man rapporterar ett fel
 
-* [Starta en ny diskussion för varje fel](https://github.com/datenstrom/yellow/discussions).
+* [Starta en ny diskussion för varje fel](https://github.com/datenstrom/yellow/discussions/categories/report-a-bug).
 * Förklara hur man reproducerar felet, kolla om det händer varje gång.  
 * Lägg till många detaljer, kontrollera logfilen `system/extensions/yellow.log`.
 * Testa att allt fungerar när ditt problem är löst. 
@@ -24,17 +24,17 @@ Hur man jobbar med oss och skapar användbara produkter.
 * Ladda upp din dokumentation till GitHub, låt oss veta om du behöver hjälp.
 * Granska att det är till hjälp för användaren och ge många praktiska exempel.
 
-## Hur man utvecklar egna funktioner
+## Hur man utvecklar egna tilläg
 
-* [Börja med en exempel-funktion](https://github.com/schulle4u/yellow-extension-helloworld) eller [exempel-tema](https://github.com/schulle4u/yellow-extension-basic).
+* [Börja med en exempel-funktion](https://github.com/schulle4u/yellow-extension-helloworld), [exempel-tema](https://github.com/schulle4u/yellow-extension-basic) eller [API:et](api-for-developers).
 * Föreställ dig vad användaren vill göra, sikta på en enkel lösning.
-* Ladda upp ditt tillägg till GitHub, låt oss veta om du behöver hjälp.
+* Ladda upp dina tillägg till GitHub, låt oss veta om du behöver hjälp.
 * Först få det att fungera, sedan gör det bättre. 
 
 ## Tips för nya medlemmar
 
-Vårt community är en plats att hjälpa varandra. Där du kan ställa och svara på frågor. De flesta av svaren tillhandahålls av community-medlemmar, precis som du. Tänk på att andra kanske inte har samma erfarenhetsnivå eller bakgrund som du. Känn dig aldrig tvungen att reagera eller svara på någon. Du kan avbryta konversationer när som helst, om diskussionen inte är konstruktiv. Fokusera på de som vill hjälpa dig. Inlägg av dålig kvalitet tas bort för att inte överväldiga vårt community. 
+Vårt community är en plats att hjälpa varandra. Där du kan ställa och svara på frågor. De flesta av svaren tillhandahålls av community-medlemmar, precis som du. Tänk på att andra kanske inte har samma erfarenhetsnivå eller bakgrund som du. Känn dig aldrig tvungen att reagera eller svara på någon. Du kan avbryta konversationer när som helst, om diskussionen inte är konstruktiv. Fokusera på de som vill hjälpa dig. Föreställ dig vad vi kan göra om vi jobbar tillsammans.
 
-Låt oss veta hur vi kan skapa en bra arbetsmiljö för dig. Samarbete fungerar bäst när man har kul. När man är omgiven av motiverade och hjälpsamma människor. Att förstå människors behov och problem är en central del av produktutvecklingen. Vårt jobb är inte att föra in mer teknologi, fler funktioner och mer dokumentation i människors liv. Vårt första job är att ta bort problem från människors liv. Vårt andra job är att hitta likasinnade människor och jobba tillsammans. 
+Låt oss veta hur vi kan skapa en bra arbetsmiljö för dig. Samarbete fungerar bäst när man har kul. När man är omgiven av  hjälpsamma människor. Att förstå människors behov och problem är en central del av produktutvecklingen. Vårt jobb är inte att föra in mer teknologi, fler funktioner och mer dokumentation i människors liv. Vårt första job är att ta bort problem från människors liv. Vårt andra job är att hitta likasinnade människor och jobba tillsammans. 
 
 Säg hej till communityt. Du hittar oss på [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) eller [kontakta en människa](https://datenstrom.se/sv/contact/).

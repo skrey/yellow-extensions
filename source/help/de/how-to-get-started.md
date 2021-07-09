@@ -10,7 +10,7 @@ Hier erfährst du, wie du deine Webseite installierst.
 3. Öffne deine Webseite im Webbrowser.
 4. Erstelle ein Benutzerkonto, wenn du dazu aufgefordert wirst.
 
-Falls Probleme bei der Installation auftreten, [siehe Fehlerbehebung](troubleshooting).
+Falls du mehr über Datenstrom Yellow erfahren möchtest, [siehe Hilfe für deine Webseite](.).
 
 ## Installation auf deinem Computer
 
@@ -21,6 +21,4 @@ Falls Probleme bei der Installation auftreten, [siehe Fehlerbehebung](troublesho
 
 Falls du mehr über die Befehlszeile erfahren möchtest, [siehe Command-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md).
 
-## Los geht's
-
-Deine Webseite ist sofort erreichbar. [Hilfe finden](.) und [mitmachen](contributing-guidelines).
+Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

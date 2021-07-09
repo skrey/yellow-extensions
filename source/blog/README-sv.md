@@ -71,21 +71,21 @@ Visa länkar till bloggen:
 
 Visa senaste bloggsidor:
 
-    [blogchanges /blog/]
+    [blogchanges /blog/ 0]
     [blogchanges /blog/ 3]
     [blogchanges /blog/ 10]
 
 Visa lista med taggar:
 
-    [blogtags /blog/]
+    [blogtags /blog/ 0]
     [blogtags /blog/ 3]
     [blogtags /blog/ 10]
 
-Visa lista med sidor:
+Visa lista med månader:
 
-    [blogpages /blog/]
-    [blogpages /blog/ 10 Datenstrom]
-    [blogpages /blog/ 10 - exempel]
+    [blogarchive /blog/ 0]
+    [blogarchive /blog/ 3]
+    [blogarchive /blog/ 10]
 
 Konfigurera en annan plats, URL med undermapp för varje år:
 
@@ -98,7 +98,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 `BlogLocation` = plats för bloggen, tom betyder aktuell mapp  
 `BlogNewLocation` = plats för nya bloggsidor, [stödda platshållare](#inställningar-placeholders)  
-`BlogPagesMax` = antal sidor att visa per förkortning  
+`BlogPagesMax` = antal sidor att visa per förkortning, 0 för obegränsad  
 `BlogPaginationLimit` = antal inlägg att visa per sida  
 
 <a id="inställningar-placeholders"></a>Följande platshållare för nya bloggsidor stöds:

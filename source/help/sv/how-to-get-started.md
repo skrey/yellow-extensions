@@ -1,7 +1,7 @@
 ---
 Title: Hur man kommer igång
 ---
-Läs om hur du installerar din webbsida.
+Läs om hur du installerar din webbplats.
 
 ## Installation på din webbserver 
 
@@ -10,7 +10,7 @@ Läs om hur du installerar din webbsida.
 3. Öppna din webbplats i en webbläsare.
 4. Skapa ett användarkonto, när du blir tillfrågad.
 
-Om det finns problem med installationen, [se felsökning](troubleshooting).
+Om du vill läsa mer om Datenstrom Yellow, [se hjälp för din webbplats](.).
 
 ## Installation på din dator
 
@@ -21,6 +21,4 @@ Om det finns problem med installationen, [se felsökning](troubleshooting).
 
 Om du vill läsa mer om kommandoraden, [se command-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md).
 
-## Du är redo att gå
-
-Din webbsida är omedelbart tillgänglig. [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

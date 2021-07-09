@@ -24,13 +24,19 @@ Bädda in en karta:
 
     [googlemap Stockholm]
     [googlemap "Malmö, Gamla staden"]
-    [googlemap "Bredgatan 1, Lund, Sweden" 16]
+    [googlemap "Bredgatan 1, Lund, Sweden"]
 
 Bädda in en karta, GPS-koordinater:
 
     [googlemap "59.32820, 18.07007"]
     [googlemap "55.60490, 12.99833"]
-    [googlemap "55.70647, 13.19246" 16]
+    [googlemap "55.70647, 13.19246"]
+
+Bädda in en karta, olika zoomvärdar:
+
+    [googlemap Stockholm 5]
+    [googlemap Stockholm 10]
+    [googlemap Stockholm 15]
 
 Bädda in en karta, olika storlekar:
 
