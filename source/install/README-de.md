@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Install 0.8.50
+Install 0.8.52
 ==============
 Installiere eine brandneue, wunderbare Website.
 
@@ -12,7 +12,7 @@ Zum Installieren entpackt man eine Datei und los geht's. Das Installationsprogra
 
 ## Wie man ein Installationspaket erstellt
 
-Ein Installationspaket besteht aus dem Installationsprogramm `install.php`, der Datei `install-languages.zip` und dem Grundgerüst einer Webseite. Im Standard-Installationspaket sind ausserdem das Blog und das Wiki enthalten. Du kannst [Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden dann bei der Installation zur Auswahl angeboten.
+Ein Installationspaket besteht aus dem Installationsprogramm `install.php`, der Datei `install-languages.zip` und dem Grundgerüst einer Webseite. Im Standard-Installationspaket sind ausserdem das Blog und das Wiki enthalten. Du kannst weitere [Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden dann bei der Installation zur Auswahl angeboten.
 
 ## Beispiele
 
@@ -20,9 +20,9 @@ Erweiterungseinstellungen für das Installationsprogramm:
 
 ~~~
 Extension: Install
-Version: 0.8.49
+Version: 0.8.52
 Description: Install a brand new, shiny website.
-Published: 2021-05-31 11:35:00
+Published: 2021-07-10 18:50:00
 HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/install
 Developer: Datenstrom and various translators
 system/extensions/install.php: install.php, create, optional
@@ -30,8 +30,6 @@ system/extensions/install-languages.zip: install-languages.zip, create, optional
 system/extensions/install-blog.zip: install-blog.zip, create, optional
 system/extensions/install-wiki.zip: install-wiki.zip, create, optional
 content/1-home/page.md: page.md, create, optional
-content/shared/page-new-default.md: page-new-default.md, create, optional
-content/shared/page-error-404.md: page-error-404.md, create, optional
 media/downloads/yellow.pdf: yellow.pdf, create, optional
 ~~~
 

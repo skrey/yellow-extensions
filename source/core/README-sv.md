@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Core 0.8.46
+Core 0.8.47
 ===========
 Webbplatsens kärnfunktion.
 
@@ -102,6 +102,8 @@ Innehållsfil med omdirigering:
 
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 
+`content/shared/page-new-default.md` = innehållsfil för ny sida  
+`content/shared/page-error-404.md` = innehållsfil för felsida  
 `system/layouts/default.html` = layoutfil för standardsidan  
 `system/layouts/error.html` = layoutfil för felsidan  
 `system/layouts/header.html` = layoutfil för standard HTML-header  

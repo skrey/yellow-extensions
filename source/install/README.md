@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Install 0.8.50
+Install 0.8.52
 ==============
 Install a brand new, shiny website.
 
@@ -12,7 +12,7 @@ Installing is unzipping one file and you are ready to go. The installer first ch
 
 ## How to make an installation package
 
-An installation package consists of the installer `install.php`, the file `install-languages.zip` and the basic framework of a website. The standard installation package also includes the blog and the wiki. You can download [extensions](https://github.com/datenstrom/yellow-extensions/tree/master/zip), rename and copy them into your `system/extensions` folder. They will be offered as an option during installation.
+An installation package consists of the installer `install.php`, the file `install-languages.zip` and the basic framework of a website. The standard installation package also includes the blog and the wiki. You can download more [extensions](https://github.com/datenstrom/yellow-extensions/tree/master/zip), rename and copy them into your `system/extensions` folder. They will be offered as an option during installation.
 
 ## Examples
 
@@ -20,9 +20,9 @@ Extension settings for the installer:
 
 ~~~
 Extension: Install
-Version: 0.8.49
+Version: 0.8.52
 Description: Install a brand new, shiny website.
-Published: 2021-05-31 11:35:00
+Published: 2021-07-10 18:50:00
 HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/install
 Developer: Datenstrom and various translators
 system/extensions/install.php: install.php, create, optional
@@ -30,8 +30,6 @@ system/extensions/install-languages.zip: install-languages.zip, create, optional
 system/extensions/install-blog.zip: install-blog.zip, create, optional
 system/extensions/install-wiki.zip: install-wiki.zip, create, optional
 content/1-home/page.md: page.md, create, optional
-content/shared/page-new-default.md: page-new-default.md, create, optional
-content/shared/page-error-404.md: page-error-404.md, create, optional
 media/downloads/yellow.pdf: yellow.pdf, create, optional
 ~~~
 

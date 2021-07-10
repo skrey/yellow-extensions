@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Core 0.8.46
+Core 0.8.47
 ===========
 Kernfunktionalität der Webseite.
 
@@ -102,6 +102,8 @@ Inhaltsdatei mit Weiterleitung:
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
+`content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
+`content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
 `system/layouts/default.html` = Layoutdatei für Standard-Seite  
 `system/layouts/error.html` = Layoutdatei für Fehler-Seite  
 `system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
