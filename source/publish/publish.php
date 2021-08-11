@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.37";
+    const VERSION = "0.8.38";
     public $yellow;         // access to API
     public $extensions;     // number of extensions
     public $errors;         // number of errors
@@ -104,7 +104,8 @@ class YellowPublish {
                         $matches[2] = preg_replace("/,(\S)/", ", $1", $matches[2]);
                         $line = "$matches[1]: $matches[2]\n";
                         $fileNameDestination = $matches[1];
-                        if (!$this->yellow->lookup->isValidFile($this->yellow->toolbox->normaliseTokens($fileNameDestination))) {
+                        $fileNameNormalised = $this->yellow->toolbox->normalisePath($matches[1]);
+                        if (!$this->yellow->lookup->isValidFile($fileNameNormalised)) {
                             $statusCode = 500;
                             echo "ERROR publishing files: File '$fileNameDestination' is not possible!\n";
                         }
@@ -171,22 +172,18 @@ class YellowPublish {
             $fileNameZipArchive = $pathRepositoryOffical."zip/".strtoloweru("$extension.zip");
             if (is_file($fileNameZipArchive)) $this->yellow->toolbox->deleteFile($fileNameZipArchive);
             if ($zip->open($fileNameZipArchive, ZIPARCHIVE::CREATE)===true) {
-                $fileNamesRequired = $this->getExtensionFileNamesRequired($pathSource);
-                $fileNamesFound = $this->yellow->toolbox->getDirectoryEntriesRecursive($pathSource, "/.*/", true, false);
-                foreach ($fileNamesFound as $fileName) {
-                    if (!isset($fileNamesRequired[$fileName])) continue;
-                    if (!$this->yellow->toolbox->modifyFile($fileName, $published)) {
+                $pathBase = strtoloweru($extension)."/";
+                $fileNamesRequired = $this->getExtensionFileNamesRequired($pathSource, $pathBase, $pathRepositoryOffical);
+                foreach ($fileNamesRequired as $fileNameRequired=>$fileNameShort) {
+                    if (is_file($fileNameRequired)) {
+                        if (!$this->yellow->toolbox->modifyFile($fileNameRequired, $published)) {
+                            $statusCode = 500;
+                            echo "ERROR publishing files: Can't write file '$fileNameRequired'!\n";
+                        }
+                        $zip->addFile($fileNameRequired, $fileNameShort);
+                    } else {
                         $statusCode = 500;
-                        echo "ERROR publishing files: Can't write file '$fileName'!\n";
-                    }
-                    $fileNameSource = $fileNamesRequired[$fileName];
-                    $zip->addFile($fileName, $fileNameSource);
-                    unset($fileNamesRequired[$fileName]);
-                }
-                if (!empty($fileNamesRequired)) {
-                    $statusCode = 500;
-                    foreach ($fileNamesRequired as $key=>$value) {
-                        echo "ERROR publishing files: Can't find file '$key'!\n";
+                        echo "ERROR publishing files: Can't find file '$fileNameRequired'!\n";
                     }
                 }
                 if (!$zip->close() || !$this->yellow->toolbox->modifyFile($fileNameZipArchive, $published)) {
@@ -289,30 +286,35 @@ class YellowPublish {
     }
     
     // Return extension file names required
-    public function getExtensionFileNamesRequired($path) {
+    public function getExtensionFileNamesRequired($path, $pathBase, $pathRepositoryOffical) {
         $data = array();
-        $extension = "";
         $languages = $this->getExtensionLanguagesAvailable($path);
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
+        $data[$fileNameExtension] = $pathBase.basename($fileNameExtension);
         $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
             if (preg_match("/^\s*(.*?)\s*:\s*(.*?)\s*$/", $line, $matches)) {
-                if (lcfirst($matches[1])=="extension") $extension = lcfirst($matches[2]);
                 if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
                     list($entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 2);
                     if (preg_match("/delete/i", $flags)) continue;
                     if (preg_match("/multi-language/i", $flags) && $this->yellow->lookup->isContentFile($matches[1])) {
                         foreach ($languages as $language) {
                             $pathLanguage = $language."/";
-                            $data["$path$pathLanguage$entry"] = $extension."/".$pathLanguage.$entry;
+                            $data["$path$pathLanguage$entry"] = $pathBase.$pathLanguage.$entry;
                         }
                     } else {
-                        $data["$path$entry"] = $extension."/".$entry;
+                        if (preg_match("/^@base/", $entry)) {
+                            $fileNameRequired = preg_replace("/@base/i", rtrim($pathRepositoryOffical, "/"), $entry);
+                            $fileNameShort = preg_replace("/@base/i", rtrim($pathBase, "/"), $entry);
+                        } else {
+                            $fileNameRequired = $path.$entry;
+                            $fileNameShort = $pathBase.$entry;
+                        }
+                        $data[$fileNameRequired] = $fileNameShort;
                     }
                 }
             }
         }
-        $data[$fileNameExtension] = $extension."/".basename($fileNameExtension);
         return $data;
     }
 }

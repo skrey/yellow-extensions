@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Install 0.8.52
+Install 0.8.53
 ==============
 Installiere eine brandneue, wunderbare Website.
 
@@ -8,49 +8,30 @@ Installiere eine brandneue, wunderbare Website.
 
 ## Wie man eine Webseite installiert
 
-Zum Installieren entpackt man eine Datei und los geht's. Das Installationsprogramm überprüft zuerst ob alle Anforderungen erfüllt sind, zum Beispiel ob der Webserver richtig funktioniert. Dann bietet das Installationsprogramm an ein Benutzerkonto anzulegen und fragt was man machen möchte. Nachdem das Installationsprogramm seine Arbeit erledigt hat löscht es sich von selbst. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
+Zum Installieren entpackt man eine Datei und los geht's. Zuerst überprüft das Installationsprogramm ob alle Anforderungen erfüllt sind, zum Beispiel ob dein Webserver richtig funktioniert. Dann bietet das Installationsprogramm an ein Benutzerkonto für dich anzulegen und hilft dir beim Einrichten deiner Webseite. Nachdem das Installationsprogramm seine Arbeit erledigt hat löscht es sich von selbst. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
 
-## Wie man ein Installationspaket erstellt
+## Wie man die Standardinstallation anpasst
 
-Ein Installationspaket besteht aus dem Installationsprogramm `install.php`, der Datei `install-languages.zip` und dem Grundgerüst einer Webseite. Im Standard-Installationspaket sind ausserdem das Blog und das Wiki enthalten. Du kannst weitere [Erweiterungen](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren. Sie werden dann bei der Installation zur Auswahl angeboten.
-
-## Beispiele
-
-Erweiterungseinstellungen für das Installationsprogramm:
-
-~~~
-Extension: Install
-Version: 0.8.52
-Description: Install a brand new, shiny website.
-Published: 2021-07-10 18:50:00
-HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/install
-Developer: Datenstrom and various translators
-system/extensions/install.php: install.php, create, optional
-system/extensions/install-languages.zip: install-languages.zip, create, optional
-system/extensions/install-blog.zip: install-blog.zip, create, optional
-system/extensions/install-wiki.zip: install-wiki.zip, create, optional
-content/1-home/page.md: page.md, create, optional
-media/downloads/yellow.pdf: yellow.pdf, create, optional
-~~~
+Die [Standardinstallation](https://github.com/datenstrom/yellow) ist eine Sammlung der wichtigsten Erweiterungen. Sie enthält ausserdem die Dateien `install-language.zip`, `install-blog.zip` und `install-wiki.zip`. Die Zip-Dateien werden bei der Installation zur Auswahl angeboten. Du kannst weitere [Zip-Dateien](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren.
 
 ## Einstellungen
-
-Die Erweiterungseinstellungen findet man in der Datei `system/extensions/update-current.ini`.
 
 Die folgenden Dateien werden bei der Installation angepasst:
 
 `content/1-home/page.md` = Inhaltsdatei für die Startseite  
 `content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
-`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
 `content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
+`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
 `content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
 `system/extensions/yellow-system.ini` = Datei mit Systemeinstellungen  
 `system/extensions/yellow-user.ini` = Datei mit Benutzereinstellungen  
 `system/extensions/yellow-language.ini` = Datei mit Spracheinstellungen  
 
+Die Logdatei findet man in der Datei `system/extensions/yellow.log`.
+
 ## Installation
 
-Diese Erweiterung ist Teil des [Standard-Installationspaketes](https://github.com/datenstrom/yellow).
+Diese Erweiterung ist Teil der [Standardinstallation](https://github.com/datenstrom/yellow).
 
 ## Entwickler
 
