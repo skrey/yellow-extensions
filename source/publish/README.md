@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Publish 0.8.38
+Publish 0.8.39
 ==============
 Package and publish extensions.
 
@@ -8,7 +8,7 @@ Package and publish extensions.
 
 ## How to package an extension
 
-Start with an [example feature](https://github.com/schulle4u/yellow-extension-helloworld) or [example theme](https://github.com/schulle4u/yellow-extension-basic). This will show you which files and settings are required. Every extension needs an `extension.ini` file with extension settings. Please make sure that your extension follows our coding and documentation standards. It's not important which standard we use, but that we all use the same one.
+Start with an [example feature](https://github.com/schulle4u/yellow-extension-helloworld) or [example theme](https://github.com/schulle4u/yellow-extension-basic). This will show you which files and settings are required. Every extension needs an `extension.ini` file with extension settings. Please make sure that your extension follows our coding and documentation standards. It's not important which standard we use, but that we all use the same one. Upload your extension to GitHub, let us know if you need help.
 
 ## How to publish an extension
 
@@ -16,7 +16,7 @@ First increase the version number in your PHP code, then publish your extension 
 
 ## How to publish the standard installation
 
-The [standard installation](https://github.com/datenstrom/yellow) is a collection of the most important extensions. You can publish the standard installation at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish yellow-extensions` and `php yellow.php publish yellow`. This will update all necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions` and `datenstrom/yellow`. The extensions are now up to date.
+The [standard installation](https://github.com/datenstrom/yellow) is a collection of the most important extensions. You can publish the standard installation at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command), so that it uses the latest changes. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php publish yellow-extensions` and `php yellow.php publish yellow`. This will update all necessary files. Upload your changes to GitHub and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for `datenstrom/yellow-extensions` and `datenstrom/yellow`.
 
 ## Examples
 
