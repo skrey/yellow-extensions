@@ -209,7 +209,7 @@ ImageDefaultAlt: 説明のない画像
 InstagramDescription: Embed Instagram photos.
 InstallTitle: こんにちは
 InstallLanguage: あなたの言語は何ですか？
-InstallExtension: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
+InstallExtension: どのサイトを作成しますか？
 InstallExtensionWebsite: ウェブ
 InstallExtensionBlog: ブログ
 InstallExtensionWiki: ウィキ
