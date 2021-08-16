@@ -208,13 +208,15 @@ ImageDescription: Immagini e miniature.
 ImageDefaultAlt: Immagine senza descrizione
 InstagramDescription: Inserisci fotografie Instagram.
 InstallTitle: Ciao
+InstallLanguage: Qual è la tua lingua?
 InstallExtension: Che cosa vuoi fare?
 InstallExtensionWebsite: Sito web
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Inizio
-InstallHomeTitleContent: Il tuo sito è attivo!
-InstallHomeText: [image photo.jpg Esempio rounded]\n\n[edit - Puoi modificare questa pagina]. L'aiuto ti dà ulteriori nformazioni su come creare pagine web, blog e wiki. [Per saperne di più](https://datenstrom.se/yellow/help/).
+InstallHomeText: [image photo.jpg Esempio rounded]\n\n[edit - Puoi modificare questa pagina in un browser web] o utilizzare un editor di testo. [Ottenere aiuto](https://datenstrom.se/yellow/help/).
+InstallAboutTitle: Informazioni
+InstallAboutText: [Realizzato con Datenstrom Yellow](https://datenstrom.se/yellow/).
 InstallDefaultTitle: Pagina
 InstallDefaultText: Questa è una nuova pagina.
 InstallBlogTitle: Pagina di blog

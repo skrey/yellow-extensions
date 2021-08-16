@@ -208,13 +208,15 @@ ImageDescription: Bilder och miniatyrbilder.
 ImageDefaultAlt: Bild utan beskrivning
 InstagramDescription: Bädda in Instagram-foton.
 InstallTitle: Hej
+InstallLanguage: Vad är ditt språk?
 InstallExtension: Vad vill du göra?
 InstallExtensionWebsite: Webbsida
 InstallExtensionBlog: Blogg
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Hem
-InstallHomeTitleContent: Din webbplats fungerar!
-InstallHomeText: [image photo.jpg Exempel rounded]\n\n[edit - Du kan redigera den här sidan]. Hjälpen ger dig mer information om hur du skapar små webbsidor, bloggar och wikier. [Läs mer](https://datenstrom.se/sv/yellow/help/).
+InstallHomeText: [image photo.jpg Exempel rounded]\n\n[edit - Du kan redigera den här sidan i en webbläsare] eller använda en textredigerare. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+InstallAboutTitle: Om
+InstallAboutText: [Gjord med hjälp av Datenstrom Yellow](https://datenstrom.se/sv/yellow/).
 InstallDefaultTitle: Sida
 InstallDefaultText: Detta är en ny sida.
 InstallBlogTitle: Bloggsida

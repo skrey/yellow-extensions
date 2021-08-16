@@ -208,13 +208,15 @@ ImageDescription: 处理图片和缩略图的插件.
 ImageDefaultAlt: 图片无描述
 InstagramDescription: 嵌入Instagram图片的插件.
 InstallTitle: 你好
+InstallLanguage: 你说什么语言？
 InstallExtension: 打算用来做什么呢？
 InstallExtensionWebsite: 网站
 InstallExtensionBlog: 博客
 InstallExtensionWiki: 维基
 InstallHomeTitle: 首页
-InstallHomeTitleContent: 你的网站已正常运行！
-InstallHomeText: [image photo.jpg 图片示例 rounded]\n\n[edit - 您可以编辑此页面]. 该帮助为您提供有关如何创建小型网页，博客和Wiki的更多信息. [了解更多](https://datenstrom.se/yellow/help/).
+InstallHomeText: [image photo.jpg 图片示例 rounded]\n\n[edit - 您可以在网络浏览器中编辑此页面] 或使用文本编辑器。 [得到帮助](https://datenstrom.se/yellow/help/)。
+InstallAboutTitle: 信息
+InstallAboutText: [制作 Datenstrom Yellow](https://datenstrom.se/yellow/)。
 InstallDefaultTitle: 页面
 InstallDefaultText: 这是一个新的页面。
 InstallBlogTitle: 博客页面

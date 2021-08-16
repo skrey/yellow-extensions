@@ -20,7 +20,7 @@ ContactMessage: Mesajınız:
 ContactConsent: Bu web sitesinin mesajımı saklamasına izin veriyorum.
 ContactButton: Mesajımı gönder
 ContactMailSpam: [Spam]
-ContactMailFooter: Bu e-posta,  @sitename - @title aracılığıyla gönderildi.
+ContactMailFooter: Bu e-posta, @sitename - @title aracılığıyla gönderildi.
 ContactStatusNone: Merhaba. Görüşleriniz bizim için çok değerli.
 ContactStatusIncomplete: Lütfen tüm alanları doldurun.
 ContactStatusInvalid: Lütten geçerli bir mail adresi yazın.
@@ -100,7 +100,7 @@ EditConfirmMessage: Merhaba @usershort,\n\nlütfen kullanıcı hesabınızı ona
 EditConfirmTitle: Kullanıcı Hesabı
 EditConfirmStatusDone: Kullanıcı hesabı onaylandı ve onay bekleniyor. Teşekkür ederim!
 EditApproveSubject: Kullanıcı hesabını onaylayın
-EditApproveMessage: Merhaba @usershort,\n\nlütfen  @useraccount için yeni kullanıcı hesabını onaylayın. Aşağıdaki bağlantıya tıklayın.
+EditApproveMessage: Merhaba @usershort,\n\nlütfen @useraccount için yeni kullanıcı hesabını onaylayın. Aşağıdaki bağlantıya tıklayın.
 EditApproveTitle: Kullanıcı hesabı
 EditApproveStatusDone: Kullanıcı hesabı onaylandı. Teşekkür ederim!
 EditReactivateSubject: Kullanıcı hesabını yeniden aktif et
@@ -207,14 +207,16 @@ HungarianDescription: Hungarian/Magyar with language 'hu'.
 ImageDescription: Görüntüler ve küçük resimler.
 ImageDefaultAlt: Açıklama olmayan resim
 InstagramDescription: Instagram fotoğraflarını yerleştirin.
-InstallTitle: Merhaba   
+InstallTitle: Merhaba
+InstallLanguage: Dilin nedir?
 InstallExtension: Ne Yapmak İstiyorsunuz?
 InstallExtensionWebsite: Website
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Ana Sayfa
-InstallHomeTitleContent: Web Siteniz Çalışıyor!
-InstallHomeText: [image photo.jpg Misal rounded]\n\n[edit - Bu sayfayı düzenleyebilirsiniz]. Bu yardım, size küçük web sayfalarının, blogların ve wiki'lerin nasıl oluşturulacağı hakkında daha fazla bilgi verir. [Daha fazla bilgi edin](https://datenstrom.se/yellow/help/).
+InstallHomeText: [image photo.jpg Misal rounded]\n\n[edit - Bu sayfayı bir web tarayıcısında düzenleyebilir] veya bir metin düzenleyici kullanabilirsiniz. [Yardım almak](https://datenstrom.se/yellow/help/).
+InstallAboutTitle: Bilgi
+InstallAboutText: [Datenstrom Yellow ile yapılmıştır](https://datenstrom.se/yellow/).
 InstallDefaultTitle: Sayfa
 InstallDefaultText: Bu yeni bir sayfadır.
 InstallBlogTitle: Blog sayfası

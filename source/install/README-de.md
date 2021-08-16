@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Install 0.8.54
+Install 0.8.55
 ==============
 Installiere eine brandneue, wunderbare Website.
 
@@ -8,17 +8,18 @@ Installiere eine brandneue, wunderbare Website.
 
 ## Wie man eine Webseite installiert
 
-Zum Installieren entpackt man eine Datei und los geht's. Zuerst überprüft das Installationsprogramm ob alle Anforderungen erfüllt sind, zum Beispiel ob dein Webserver richtig funktioniert. Dann bietet das Installationsprogramm an ein Benutzerkonto für dich anzulegen und hilft dir beim Einrichten deiner Webseite. Nachdem das Installationsprogramm seine Arbeit erledigt hat löscht es sich von selbst. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
+Zum Installieren entpackt man eine Datei und los geht's. Zuerst überprüft das Installationsprogramm ob alle Anforderungen erfüllt sind, zum Beispiel ob dein Webserver richtig funktioniert. Dann bietet dir das Installationsprogramm an ein Benutzerkonto anzulegen und hilft dir beim Einrichten deiner Webseite. Nachdem das Installationsprogramm seine Arbeit erledigt hat löscht es sich von selbst. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
 
 ## Wie man die Standardinstallation anpasst
 
-Die [Standardinstallation](https://github.com/datenstrom/yellow) ist eine Sammlung der wichtigsten Erweiterungen. Sie enthält ausserdem die Dateien `install-language.zip`, `install-blog.zip` und `install-wiki.zip`. Die Zip-Dateien werden bei der Installation zur Auswahl angeboten. Du kannst weitere [Zip-Dateien](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren.
+Die [Standardinstallation](https://github.com/datenstrom/yellow) ist eine Sammlung der wichtigsten Erweiterungen. Sie enthält ausserdem die Dateien `install-language.zip`, `install-wiki.zip` und `install-blog.zip`. Du kannst weitere [Zip-Dateien](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen und in dein `system/extensions`-Verzeichnis kopieren.
 
 ## Einstellungen
 
 Die folgenden Dateien werden bei der Installation angepasst:
 
 `content/1-home/page.md` = Inhaltsdatei für die Startseite  
+`content/9-about/page.md` = Inhaltsdatei für die Informationsseite  
 `content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
 `content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
 `content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  

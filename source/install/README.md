@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Install 0.8.54
+Install 0.8.55
 ==============
 Install a brand new, shiny website.
 
@@ -8,17 +8,18 @@ Install a brand new, shiny website.
 
 ## How to install a website
 
-Installing is unzipping one file and you are ready to go. First the installer checks whether all requirements have been met, for example whether your web server is working properly. Then the installer offers to create a user account for you and helps you with setting up your website. After the installer has done its work it will delete itself. [Learn more about installation](https://datenstrom.se/yellow/help/how-to-get-started).
+Installing is unzipping one file and you are ready to go. First the installer checks whether all requirements have been met, for example whether your web server is working properly. Then the installer offers you to create a user account and helps you with setting up your website. After the installer has done its work it will delete itself. [Learn more about installation](https://datenstrom.se/yellow/help/how-to-get-started).
 
 ## How to customise the standard installation
 
-The [standard installation](https://github.com/datenstrom/yellow) is a collection of the most important extensions. It also includes the files `install-language.zip`, `install-blog.zip` and `install-wiki.zip`. The zip files will be offered as an option during installation. You can download more [zip files](https://github.com/datenstrom/yellow-extensions/tree/master/zip), rename and copy them into your `system/extensions` folder. 
+The [standard installation](https://github.com/datenstrom/yellow) is a collection of the most important extensions. It also includes the files `install-language.zip`, `install-wiki.zip` and `install-blog.zip`. You can download more [zip files](https://github.com/datenstrom/yellow-extensions/tree/master/zip) and copy them into your `system/extensions` folder. 
 
 ## Settings
 
 The following files will be customised during installation:
 
 `content/1-home/page.md` = content file for home page  
+`content/9-about/page.md` = content file for information page  
 `content/shared/page-new-default.md` = content file for new page  
 `content/shared/page-new-wiki.md` = content file for new wiki page  
 `content/shared/page-new-blog.md` = content file for new blog page  

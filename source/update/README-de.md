@@ -33,24 +33,16 @@ Inhaltsdatei mit aktueller Version:
     ---
     Title: Beispiel-Seite
     ---
-    Die aktuelle Version meiner Webseite ist:
+    Diese Seite zeigt die aktuelle Version der Webseite.
 
     ! [yellow about]
 
 Inhaltsdatei mit Logdatei:
 
     ---
-    Title: Über
+    Title: Beispiel-Seite
     ---
-    Für Menschen die kleine Webseiten machen.
-    
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-    in culpa qui officia deserunt mollit anim id est laborum.
-    
-    Diese Webseite ist erstellt mit [Datenstrom Yellow](https://datenstrom.se/de/yellow/). 
+    Diese Seite zeigt die neuesten Einträge in der Logdatei.
 
     ! [yellow log]
 

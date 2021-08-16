@@ -208,13 +208,15 @@ ImageDescription: Images and thumbnails.
 ImageDefaultAlt: 説明のない画像
 InstagramDescription: Embed Instagram photos.
 InstallTitle: こんにちは
+InstallLanguage: あなたの言語は何ですか？
 InstallExtension: どのサイト（ウェブ・ブログ・ウィキ）を作成しますか？
 InstallExtensionWebsite: ウェブ
 InstallExtensionBlog: ブログ
 InstallExtensionWiki: ウィキ
 InstallHomeTitle: ホーム
-InstallHomeTitleContent: インストール完了！
-InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - このページを編集できます]。 ヘルプは、小規模なウェブページ、小規模なブログ、小規模なウィキの作成についてさらに情報を提供します。 [より詳しく](https://datenstrom.se/yellow/help/).
+InstallHomeText: [image photo.jpg 例 rounded]\n\n[edit - このページはウェブブラウザで編集できます]またはテキストエディタを使用してください。 [助けを得ます](https://datenstrom.se/yellow/help/)。
+InstallAboutTitle: 情報
+InstallAboutText: [Datenstrom Yellow で作られました](https://datenstrom.se/yellow/)。
 InstallDefaultTitle: ページ
 InstallDefaultText: 新しいページです。
 InstallBlogTitle: ブログページ
