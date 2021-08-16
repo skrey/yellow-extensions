@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.39";
+    const VERSION = "0.8.40";
     public $yellow;                 // access to API
     public $extensions;             // number of extensions
     public $errors;                 // number of errors
@@ -282,7 +282,7 @@ class YellowPublish {
             $fileNameNormalised = substru($fileNameDestination, strlenu($path));
             $fileNameNormalised = $this->yellow->toolbox->normalisePath($fileNameNormalised);
             if ($this->yellow->lookup->isValidFile($fileNameNormalised)) {
-                if (!$this->yellow->toolbox->copyFile($fileNameSource, $fileNameDestination)) {
+                if (!$this->yellow->toolbox->copyFile($fileNameSource, $fileNameDestination, true)) {
                     $statusCode = 500;
                     echo "ERROR publishing files: Can't write file '$fileNameDestination'!\n";
                 }
