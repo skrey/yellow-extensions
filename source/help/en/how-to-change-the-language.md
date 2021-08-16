@@ -11,7 +11,7 @@ An English page:
 
 ```
 ---
-Title: About us
+Title: About
 Language: en
 ---
 Birds of a feather flock together.
@@ -21,7 +21,7 @@ A German page:
 
 ```
 ---
-Title: Über uns
+Title: Über
 Language: de
 ---
 Wo zusammenwächst was zusammen gehört.
@@ -31,7 +31,7 @@ A Swedish page:
 
 ```
 ---
-Title: Om oss
+Title: Om
 Language: sv
 ---
 Lika barn leka bäst.
@@ -45,12 +45,15 @@ For multilingual websites you can use the multi language mode. For example if yo
 ├── content               
 │   ├── 1-en              
 │   │   ├── 1-home        = http://website/
+│   │   ├── 9-about
 │   │   └── shared    
 │   ├── 2-de              
 │   │   ├── 1-home        = http://website/de/
+│   │   ├── 9-about
 │   │   └── shared    
 │   └── 3-sv              
 │       ├── 1-home        = http://website/sv/
+│       ├── 9-about
 │       └── shared    
 ├── media                 
 └── system                
@@ -62,12 +65,15 @@ The first screenshot shows the folders `1-en`, `2-de` and `3-sv`. This gives you
 ├── content               
 │   ├── 1-en              
 │   │   ├── 1-home        = http://website/en/
+│   │   ├── 9-about
 │   │   └── shared    
 │   ├── 2-de              
 │   │   ├── 1-home        = http://website/de/
+│   │   ├── 9-about
 │   │   └── shared    
 │   ├── 3-sv              
 │   │   ├── 1-home        = http://website/sv/
+│   │   ├── 9-about
 │   │   └── shared    
 │   └── default           = http://website/       
 ├── media                 
@@ -76,6 +82,6 @@ The first screenshot shows the folders `1-en`, `2-de` and `3-sv`. This gives you
 
 The second screenshot shows the folders `1-en`, `2-de`, `3-sv` and `default`. This gives you the URLs `http://website/en/` `http://website/de/` `http://website/sv/` and a home page `http://website/` that automatically detects the visitor's language. 
 
-To show a language selection], you can create a page that lists available languages. The language selection can be integrated into the navigation of your website. This allows visitors to choose the language.
+To show a language selection, you can create a page that lists available languages. The language selection can be integrated into the navigation of your website. This allows visitors to choose the language.
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

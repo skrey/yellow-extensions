@@ -17,12 +17,6 @@ Datenstrom Yellow requires write access!
 Run the command `chmod -R a+rw *` in the installation folder. You can also use your FTP software to give write permissions to all files. It's recommended to give write permissions to all files and folders in the installation folder. As soon as the web server has sufficient write access in the `system` folder, the problem should be resolved.
 
 ```
-Datenstrom Yellow requires complete upload!
-```
-
-Copy all files again to the web server. Check if your FTP software shows an error message during upload. It sometimes happens that the data transfer was interrupted, then there are files with zero bytes on the web server. After all installation files have been copied to the web server, the problem should be resolved.
-
-```
 Datenstrom Yellow requires configuration file!
 ```
 
@@ -32,7 +26,13 @@ Copy the supplied `.htaccess` file into the installation folder. Check if your F
 Datenstrom Yellow requires rewrite support!
 ```
 
-Configure the web server, see [Apache configuration](#problems-with-apache) and [Nginx configuration](#problems-with-nginx). You either need a configuration for your web server or you use the built-in web server on your computer. The built-in web server is handy for developers. As soon as the web server forwards HTTP requests to the `yellow.php`, the problem should be resolved.
+Configure the web server, see [Apache configuration](#problems-with-apache) and [Nginx configuration](#problems-with-nginx). You either need to change the configuration file or you use the built-in web server on your computer. The built-in web server is handy for developers. As soon as the web server forwards HTTP requests to the `yellow.php`, the problem should be resolved.
+
+```
+Datenstrom Yellow requires complete upload!
+```
+
+Copy all files again to the web server. Check if your FTP software shows an error message during upload. It sometimes happens that the data transfer was interrupted, then there are files with zero bytes on the web server. After all installation files have been copied to the web server, the problem should be resolved.
 
 ```
 Datenstrom Yellow requires PHP extension!
@@ -44,7 +44,7 @@ Install the missing PHP extension on your web server. You need `curl gd mbstring
 Datenstrom Yellow requires PHP 5.6 or higher!
 ```
 
-Install the latest PHP version on your web server. If you are stuck, [see help for your website](.).
+Install the latest PHP version on your web server.
 
 ## Problems after installation
 
@@ -54,7 +54,7 @@ The following error message can happen:
 Check the log file. Please activate the debug mode for more information.
 ```
 
-Check the log file `system/extensions/yellow.log`. If there are write errors, then give write permissions to the affected files. If there are parser errors, then contact the corresponding developer/designer and repair the affected files. The log file gives you a quick overview of what happens on your website. Here's an example:
+Check the log file `system/extensions/yellow.log`. If there are write errors, then give write permissions to the affected files. If there are other errors, then contact the responsible developer/designer and [report a bug](contributing-guidelines). The log file gives you in any case a quick overview of what happens on your website. Here's an example:
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
@@ -66,7 +66,7 @@ Check the log file `system/extensions/yellow.log`. If there are write errors, th
 2020-12-18 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Activate the debug mode, if you're not 100% sure what causes problems. This shows you more information on the current page. You can use the debug mode to give a developer/designer additional information, to investigate the cause of an error or if you are curious about how Datenstrom Yellow works.
+Activate the debug mode to show more information on the current page. You can use the debug mode to investigate the cause of a problem, to show the stack trace of a program or if you are curious about how Datenstrom Yellow works. This is how you activate the debug mode:
 
 Open file `system/extensions/core.php` and change the first line to `<?php define("DEBUG", 1);`
 

@@ -7,22 +7,20 @@ Hier erfährst du, wie du deine Webseite erstellst.
 
 ## Erste Schritte
 
-[Folge der Installations-Anleitung](how-to-get-started) und wähle "Webseite" aus. Die Installation kommt mit einer Seite. Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst deine Webseite im Webbrowser oder auf deinem Computer bearbeiten. Falls Probleme bei der Installation auftreten, [siehe Fehlerbehebung](troubleshooting).
+[Folge der Installations-Anleitung](how-to-get-started) und wähle `Webseite` aus. Falls Probleme bei der Installation auftreten, [siehe Fehlerbehebung](troubleshooting). Die Installation kommt mit zwei Seiten, "Startseite" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst deine Webseite im Webbrowser oder Texteditor bearbeiten. Es gibt kein Administratorpanel, nichts das dir im Weg steht. 
 
 ## Webseiten bearbeiten
 
-Lass uns ausprobieren wie man Webseiten auf dem Computer bearbeitet. Schau dir das `content`-Verzeichnis an, dort befinden sich alle Webseiten. Öffne die Datei `content/1-home/page.md`. Es werden Einstellungen und der Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Markdown](how-to-adjust-content#markdown) benutzen. Hier ist ein Beispiel:
+Falls du Webseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/`. Falls du Webseiten im Texteditor bearbeiten möchtest, schau dir das `content`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/1-home/page.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-adjust-content#text) und [Bilder](how-to-adjust-media#bilder) ändern. Hier ist ein Beispiel:
 
 ```
 ---
 Title: Startseite
-TitleContent: Deine Webseite funktioniert!
 ---
 [image photo.jpg Beispiel rounded]
 
-[edit - Du kannst diese Seite bearbeiten]. 
-Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. 
-[Weitere Informationen](https://datenstrom.se/de/yellow/help/).
+[edit - Du kannst diese Seite im Webbrowser bearbeiten] oder einen Texteditor benutzen.  
+[Hilfe finden](https://datenstrom.se/de/yellow/help/).
 ```
 
 Um eine neue Seite hinzuzufügen, erstelle eine neue Datei im Home-Verzeichnis oder in einem anderen `content`-Verzeichnis:
@@ -82,7 +80,7 @@ Es gibt [Erweiterungen für deine Webseite](https://github.com/datenstrom/yellow
 ## Verwandte Informationen
 
 * [Wie man eine Webseite im Webbrowser bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
-* [Wie man eine Webseite auf dem Computer bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
+* [Wie man eine Webseite im Texteditor bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
 * [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md)
 
 Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

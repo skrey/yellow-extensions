@@ -1,41 +1,41 @@
 ---
 Title: Wie man den Inhalt anpasst
 ---
-Alle Inhalte befinden sich im `content`-Verzeichnis. Hier bearbeitet man seine Webseite. 
+Alle Inhaltsdateien befinden sich im `content`-Verzeichnis. Hier bearbeitet man seine Webseite. 
 
     ├── content
     │   ├── 1-home
+    │   ├── 9-about
     │   └── shared
     ├── media
     └── system
 
-Die `content`-Verzeichnisse stehen auf deiner Webseite zur Verfügung. In jedem Verzeichnis gibt es eine Datei mit Namen `page.md`. Man kann auch weitere Dateien und Verzeichnisse hinzufügen. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst.
+Das `content`-Verzeichnis steht auf deiner Webseite zur Verfügung. In jedem Verzeichnis gibt es eine Datei mit Namen `page.md`. Man kann weitere Dateien und Verzeichnisse hinzufügen. Man kann auch Sonderzeichen in Datei- und Verzeichnisnamen benutzen, zum Beispiel ÄÖÅ. Mit anderen Worten, das was du im Dateimanager siehst ist die Webseite die du bekommt.
 
 ## Dateien und Verzeichnisse
 
-Die Navigation wird automatisch aus deinen `content`-Verzeichnissen erstellt:
+Deine Webseite wird automatisch aus dem `content`-Verzeichnis erstellt:
 
-1. Verzeichnisse können ein numerisches Präfix haben, z.B. `1-home` oder `9-about`
-2. Dateien können ein numerisches Präfix haben, z.B. `2020-04-07-blog-example.md`
-3. Dateien und Verzeichnisse ohne Präfix haben keine besondere Bedeutung
+1. Verzeichnisse können ein numerisches Präfix zum Sortieren haben, z.B. `1-home` oder `9-about`
+2. Dateien können ein numerisches Präfix zum Sortieren haben, z.B. `2020-04-07-blog-example.md`
+3. Dateien und Verzeichnisse ohne Präfix haben keine besondere Bedeutung, z.B. `wiki-example.md`
 
-Präfixe und Suffixe werden aus der Adresse entfernt, damit es besser aussieht. Zum Beispiel ist das Verzeichnis `content/9-about/` vorhanden als `http://website/about/`. Die Datei `content/9-about/privacy.md` wird zu `http://website/about/privacy`.
+Präfixe und Suffixe werden aus der Adresse entfernt, damit es besser aussieht. Zum Beispiel ist das Verzeichnis `content/1-home` vorhanden als `http://website/`. Das Verzeichnis `content/9-about` ist vorhanden als `http://website/about/`. Die Datei `content/2-wiki/wiki-example.md` ist vorhanden als `http://website/wiki/wiki-example`.
 
-Es gibt zwei Ausnahmen. Das `home`-Verzeichnis darf keine Unterverzeichnisse besitzen, da es für die Startseite verantwortlich ist und vorhanden als `http://website/`. Das `shared`-Verzeichnis darf nur in andere Seiten eingebunden werden, es ist nicht auf der Webseite vorhanden.
+Während die meisten Verzeichnisse auf deiner Website verfügbar sind, gibt es zwei Ausnahmen. Das `content/1-home`-Verzeichnis darf keine Unterverzeichnisse besitzen. Das `content/shared`-Verzeichnis darf nur in andere Verzeichnisse eingebunden werden, es steht auf deiner Webseite nicht direkt zur Verfügung.
 
-## Markdown
+## Text
 
-Markdown ist eine praktische Art um Webseiten zu bearbeiten. Probier es einfach mal aus. Öffne die Datei `content/1-home/page.md`. Es werden Einstellungen und Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Hier ist ein Beispiel:
+Du kannst deine Webseite im Webbrowser oder Texteditor bearbeiten. Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du Text und Bilder ändern. Textformatierung mit [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-de.md) wird unterstützt. Du kannst auch HTML und Abkürzungen benutzen. Hier sind einige Beispiele:
 
     ---
-    Title: Startseite
-    TitleContent: Deine Webseite funktioniert!
+    Title: Beispielseite
     ---
-    [image photo.jpg Beispiel rounded]
-    
-    [edit - Du kannst diese Seite bearbeiten]. 
-    Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. 
-    [Weitere Informationen](https://datenstrom.se/de/yellow/help/).
+    Das ist eine Beispielseite.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
 Text formatieren:
 
@@ -73,15 +73,15 @@ Zitate erstellen:
 
 Links erstellen:
 
-    [Link zu Seite](/de/help/how-to-make-a-small-website)
+    [Link zu Seite](/help/how-to-make-a-small-website)
     [Link zu Datei](/media/downloads/yellow.pdf)
     [Link zu Webseite](https://datenstrom.se/de/)
 
 Bilder hinzufügen:
 
-    [image photo.jpg]
     [image photo.jpg Beispiel]
     [image photo.jpg "Dies ist ein Beispielbild"]
+    [image photo.jpg "Dies ist eine besonders lange Beschreibung"]
 
 Tabellen erstellen:
 
@@ -136,29 +136,20 @@ CSS benutzen:
     ! {.class}
     ! Hier ist ein Hinweis mit benutzerdefinierter Klasse.
     ! Der Text kann über mehrere Zeilen gehen
-    ! und Markdown-Formatierung beinhalten.
+    ! und Markdown-Textformatierung beinhalten.
 
 HTML benutzen:
 
     <strong>Text mit HTML</strong> kann wahlweise benutzt werden.
+    <img src="/media/images/photo.jpg" alt="Dies ist ein Beispielbild">
     <a href="https://datenstrom.se/de/" target="_blank">Link in einem neuen Tab öffnen</a>.
 
-## Abkürzungen
+Abkürzungen benutzen:
 
-Du kannst Abkürzungen benutzen um häufige Funktionen hinzuzufügen.
+    [gallery photo.*jpg zoom] = Bildergalerie mit Popup hinzufügen 
+    [slider photo.*jpg loop]  = Bildergalerie mit Schieber hinzufügen
+    [youtube fhs55HEl-Gc]     = Video einbinden 
 
-`[image photo.jpg Beispiel right 50%]` = [Miniaturbild hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md)  
-`[gallery photo.*jpg zoom 25%]` = [Bildergalerie mit Popup hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md)  
-`[slider photo.*jpg loop]` = [Bildergalerie mit Schieber hinzufügen](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md)  
-`[googlecalendar de.german#holiday]` = [Google-Kalender einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar/README-de.md)  
-`[googlemap Stockholm]` = [Google-Karte einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap/README-de.md)  
-`[youtube fhs55HEl-Gc]` = [Youtube-Video einbinden](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md)  
-`[blogchanges /blog/]` = [neuste Blogseiten anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md)  
-`[wikichanges /wiki/]` = [neuste Wikiseiten anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md)  
-`[fa fa-envelope-o]` = [Icons und Symbole anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-de.md)  
-`[ea ea-smile]` = [Emoji und bunte Bilder anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md)  
-`[yellow about]` = [Webseite-Version anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`[edit]` = [Webseite im Webbrowser bearbeiten](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
-`[toc]` = [Inhaltsverzeichnis anzeigen](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md)  
+    Abkürzungen erfordern Erweiterungen um zu funktionieren.
 
 Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

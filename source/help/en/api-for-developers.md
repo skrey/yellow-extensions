@@ -7,24 +7,25 @@ We <3 people who code.
 
 ## Folder structure
 
-The following folders are available:
+The following folders are available in the standard installation:
 
 ```
 ├── content               = content files
 │   ├── 1-home            = home page
+│   ├── 9-about           = information page
 │   └── shared            = shared files
 ├── media                 = media files
-│   ├── downloads         = files to download
+│   ├── downloads         = files for download
 │   ├── images            = image files for content
 │   └── thumbnails        = image thumbnails for content
 └── system                = system files
-    ├── extensions        = extension files and settings
+    ├── extensions        = installed extensions and configuration files
     ├── layouts           = configurable layout files
     ├── themes            = configurable theme files
     └── trash             = deleted files
 ```
 
-The `content` folder contains the content files of the website. You can edit the website here. The `media` folder contains the media files of the website. You can store images and other files here. The `system` folder contains the system files of the website. You can customise the website and create your own extensions here.
+The `content` folder contains the content files of the website. You can edit the website here. The `media` folder contains the media files of the website. You can store images and other files here. The `system` folder contains the system files of the website. You can adjust the website and develop extensions here.
 
 ## Objects
 
@@ -804,11 +805,11 @@ Create text description, with or without HTML
 **toolbox->normaliseArguments($text, $appendSlash = true, $filterStrict = true)**  
 Normalise location arguments
 
-**toolbox->normaliseTokens($text, $prependSlash = false)**  
-Normalise path or location, take care of relative path tokens
-
 **toolbox->normaliseData($text, $type = "html", $filterStrict = true)**  
 Normalise elements and attributes in HTML/SVG data
+
+**toolbox->normalisePath($text)**  
+Normalise relative path tokens
 
 Here's an example code for reading text lines from file:
 

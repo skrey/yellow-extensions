@@ -14,27 +14,74 @@ Hur man jobbar med oss och skapar användbara produkter.
 
 * [Starta en ny diskussion för varje fel](https://github.com/datenstrom/yellow/discussions/categories/report-a-bug).
 * Förklara hur man reproducerar felet, kolla om det händer varje gång.  
-* Lägg till många detaljer, kontrollera logfilen `system/extensions/yellow.log`.
+* Lägg till många detaljer, särskilt loggfilen `system/extensions/yellow.log`.
 * Testa att allt fungerar när ditt problem är löst. 
 
 ## Hur man förbättrar dokumentationen
 
-* [Börja med hjälpen](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-sv.md), [enskilda tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/README-sv.md) eller en [översättning](https://github.com/datenstrom/yellow-extensions/blob/master/source/swedish/swedish.txt).
-* Redigera befintlig dokumentation eller gör en översättning.
-* Ladda upp din dokumentation till GitHub, låt oss veta om du behöver hjälp.
-* Granska att det är till hjälp för användaren och ge många praktiska exempel.
+* [Börja med hjälpen](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-sv.md) eller [titta på ditt eget språk](https://github.com/datenstrom/yellow-extensions/tree/master/README-sv.md#språk).
+* Redigera befintliga filer, gör en översättning om ditt språk saknas.
+* Ladda upp dina filer till GitHub, låt oss veta om du behöver hjälp.
+* Granska att det är till hjälp för användaren och ge praktiska exempel.
 
-## Hur man utvecklar egna tilläg
+## Hur man utvecklar ett tilläg
 
 * [Börja med en exempel-funktion](https://github.com/schulle4u/yellow-extension-helloworld), [exempel-tema](https://github.com/schulle4u/yellow-extension-basic) eller [API:et](api-for-developers).
 * Föreställ dig vad användaren vill göra, sikta på en enkel lösning.
 * Ladda upp dina tillägg till GitHub, låt oss veta om du behöver hjälp.
-* Först få det att fungera, sedan gör det bättre. 
+* Gör ett tillkännagivande, visa vad du har gjort och be om feedback. 
 
-## Tips för nya medlemmar
+## Hur man utbyter erfarenheter
 
-Vårt community är en plats att hjälpa varandra. Där du kan ställa och svara på frågor. De flesta av svaren tillhandahålls av community-medlemmar, precis som du. Tänk på att andra kanske inte har samma erfarenhetsnivå eller bakgrund som du. Känn dig aldrig tvungen att reagera eller svara på någon. Du kan avbryta konversationer när som helst, om diskussionen inte är konstruktiv. Fokusera på de som vill hjälpa dig. Föreställ dig vad vi kan göra om vi jobbar tillsammans.
+Vårt community är en plats att hjälpa varandra. Där du kan ställa och svara på frågor. De flesta av svaren tillhandahålls av community-medlemmar, precis som du. Tänk på att andra människor kanske inte har samma bakgrund som du. Känn dig aldrig tvungen att reagera eller svara på någon. Du kan lämna en konversation när som helst, om det inte är konstruktivt. Fokusera på de som visa intresse och vill jobba tillsammans med dig. Du hittar oss på [GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) eller [kontakta en människa](https://datenstrom.se/sv/contact/).
 
-Låt oss veta hur vi kan skapa en bra arbetsmiljö för dig. Samarbete fungerar bäst när man har kul. När man är omgiven av  hjälpsamma människor. Att förstå människors behov och problem är en central del av produktutvecklingen. Vårt jobb är inte att föra in mer teknologi, fler funktioner och mer dokumentation i människors liv. Vårt första job är att ta bort problem från människors liv. Vårt andra job är att hitta likasinnade människor och jobba tillsammans. 
+## Exempel
 
-Säg hej till communityt. Du hittar oss på [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) eller [kontakta en människa](https://datenstrom.se/sv/contact/).
+Ställa en fråga på engelska:
+
+```
+How to change the language of a website?
+
+Hello, during installation I selected the wrong language. Now I want to 
+change the language of my website to swedish. When I change the settings 
+it doesn't work as expected. The error message says: Language 'swedish' 
+does not exist! I checked that the swedish extension is installed.
+
+Thanks for your help.
+```
+
+Rapportera ett fel på engelska:
+
+```
+Call to undefined function YellowToolbox::detectTimezone()
+
+Hello, I updated my website in the web browser and now get the following 
+error message: Call to undefined function YellowToolbox::detectTimezone() 
+in /var/www/website/system/extensions/fika.php. You can reproduce the bug 
+in a new installation, select website, install the fika extension. 
+Here's my log file system/extensions/yellow.log:
+
+2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
+2020-10-28 14:13:07 info Install extension 'English 0.8.27'
+2020-10-28 14:13:07 info Install extension 'German 0.8.27'
+2020-10-28 14:13:07 info Install extension 'Swedish 0.8.27'
+2020-10-28 14:18:11 info Install extension 'Fika 0.8.15'
+2020-10-28 14:18:11 error Can't parse file 'system/extensions/fika.php'!
+
+Let me know if you need more information. Thanks for investigating.
+```
+
+Göra ett tillkännagivande på engelska:
+
+```
+New video extension
+
+Hello, I made a new video extension. Its aim is to play videos without 
+external services and without tracking cookies. The file formats MP4 and 
+OGG are supported at the moment. I would like to know which file formats 
+people use and what more I can do to make the extension better.
+
+Let me know what you think. Any comments are welcome.
+```
+
+Har du några frågor? [Få hjälp](.). 

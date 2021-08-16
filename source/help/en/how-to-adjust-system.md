@@ -1,7 +1,7 @@
 ---
 Title: How to adjust system
 ---
-All settings are located in the `system` folder. You can adjust your website here.
+All system files are located in the `system` folder. You can adjust your website here.
 
     ├── content
     ├── media
@@ -11,7 +11,7 @@ All settings are located in the `system` folder. You can adjust your website her
         ├── themes
         └── trash
 
-The `extensions` folder contains installed extensions. You can use the `layouts` folder and the `themes` folder to adjust the appearance of your website. The `trash` folder contains deleted files.
+The `system/extensions` folder contains installed extensions and configuration files. You can adjust the appearance of your website in the `system/layouts` folder and `system/themes` folder. You can change layouts and themes as you like, knowledge of HTML, CSS and JavaScript is required. The `system/trash` folder contains deleted files.
 
 ## System settings
 
@@ -23,12 +23,14 @@ The main configuration file is `system/extensions/yellow-system.ini`. Here's an 
     Theme: stockholm
     Language: en
     Layout: default
+    Parser: markdown
+    Status: public
 
-You can define the system settings here, for example the name of the website. Individual [page settings](#page-settings) can be defined at the top of each page. For a new installation you should set `Sitename`, `Author` and `Email`.
+You can use a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) or text editor to change the system settings. The system settings contain the most important settings of your website as well as the settings of all extensions. After a new installation you should check `Sitename`, `Author` and `Email`.
 
 ## User settings
 
-All user accounts are stored in file `system/extensions/yellow-user.ini`. Here's an example:
+The user settings are stored in file `system/extensions/yellow-user.ini`. Here's an example:
 
     Email: anna@svensson.com
     Name: Anna Svensson
@@ -43,11 +45,11 @@ All user accounts are stored in file `system/extensions/yellow-user.ini`. Here's
     Modified: 2000-01-01 13:37:00
     Status: active
 
-You can use the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command) to create new user accounts and change passwords. A user account consists of `Email` and other settings. If you don't want that pages are modified in a web browser, then change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
+You can use a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command) to create new user accounts. A user account consists of `Email` and other settings. If you don't want that pages are modified in a web browser, then restrict user accounts. Open the configuration file, change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
 
 ## Language settings
 
-Another configuration file is `system/extensions/yellow-language.ini`. Here's an example:
+The language settings are stored in file `system/extensions/yellow-language.ini`. Here's an example:
 
     Language: en
     CoreDateFormatShort: F Y
@@ -57,7 +59,7 @@ Another configuration file is `system/extensions/yellow-language.ini`. Here's an
     ImageDefaultAlt: Image without description
     media/images/photo.jpg: This is an example image
 
-You can define the language settings here, for example the date format. Language settings consist of `Language` and other settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into this file. You can also add your own language settings, for example image captions.
+You can define the language settings here. A language consist of `Language` and other settings. You can copy the [default settings from language files](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) and paste them into the configuration file. You can also add your own language settings to the configuration file, for example image captions.
 
 ## Page settings
 

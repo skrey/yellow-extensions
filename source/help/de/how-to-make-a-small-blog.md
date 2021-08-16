@@ -7,11 +7,11 @@ Hier erfährst du, wie du dein Blog erstellst.
 
 ## Erste Schritte
 
-[Folge der Installations-Anleitung](how-to-get-started) und wähle "Blog" aus. Die Installation kommt mit zwei Seiten, "Startseite" und "Blog". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Blog im Webbrowser oder auf deinem Computer bearbeiten. Falls du das Blog später installieren möchtest, [siehe Blog-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md).
+[Folge der Installations-Anleitung](how-to-get-started) und wähle `Blog` aus. Falls du das Blog später hinzufügen möchtest, [installiere die Blog-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md). Die Installation kommt mit drei Seiten, "Startseite", "Blog" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Blog im Webbrowser oder Texteditor bearbeiten. Es gibt kein Administratorpanel, nichts das dir im Weg steht. 
  
 ## Blogseiten bearbeiten
 
-Lass uns ausprobieren wie man Blogseiten auf dem Computer bearbeitet. Schau dir das `content`-Verzeichnis an, dort befindet sich das Blogverzeichnis mit allen Blogseiten. Öffne die Datei `2020-04-07-blog-example.md`. Es werden Einstellungen und der Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Markdown](how-to-adjust-content#markdown) benutzen. Hier ist ein Beispiel:
+Falls du Blogseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/blog/`. Falls du Blogseiten im Texteditor bearbeiten möchtest, schau dir das `content/2-blog`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/2-blog/2020-04-07-blog-example.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-adjust-content#text) und [Bilder](how-to-adjust-media#bilder) ändern. Hier ist ein Beispiel:
 
 ```
 ---
@@ -21,7 +21,7 @@ Author: Datenstrom
 Layout: blog
 Tag: Beispiel
 ---
-Das ist eine Beispiel-Blogseite.
+Das ist eine Beispielseite fürs Blog.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
 tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
@@ -112,7 +112,7 @@ Es gibt [Erweiterungen für deine Webseite](https://github.com/datenstrom/yellow
 ## Verwandte Informationen
 
 * [Wie man eine Webseite im Webbrowser bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
-* [Wie man eine Webseite auf dem Computer bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
+* [Wie man eine Webseite im Texteditor bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
 * [Wie man ein Blog benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md)
 
 Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

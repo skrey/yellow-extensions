@@ -1,7 +1,7 @@
 ---
 Title: Hur man anpassar medier
 ---
-Alla medier finns i `media` mappen. Du kan lagra dina bilder och andra filer här. 
+Alla mediefiler finns i `media` mappen. Du kan lagra dina bilder och andra filer här. 
 
     ├── content
     ├── media
@@ -10,17 +10,28 @@ Alla medier finns i `media` mappen. Du kan lagra dina bilder och andra filer hä
     │   └── thumbnails
     └── system
 
-Mappen `downloads` innehåller filer att ladda ner. Mappen `images` är platsen för att lagra dina bilder. Mappen `thumbnails` innehåller miniatyrbilder. Du kan också skapa ytterligare mappar och organisera filer som du vill. I grund och botten kan alla mediefiler laddas ner från webbplatsen. 
+Mappen `media/downloads` innehåller filer för nedladdning. Mappen `media/images` är platsen för att lagra dina bilder. Mappen `media/thumbnails` innehåller miniatyrbilder. Du kan också lägga till fler mappar och organisera filer som du vill. I grund och botten kan alla mediefiler laddas ner från webbplatsen. 
+
+## Filer för nedladdning 
+
+Du kan tillhandahålla filer för nedladdning. Alla filformat stöds, men uppladdning kan vara begränsad till filformat MP3, OGG, PDF och ZIP. För att lägga till en fil, kopiera filen till `media/downloads` mappen och skapa en länk. Du kan också ladda upp filer i en webbläsare, sedan läggs länken till på önskad plats.
+
+Skapa en länk, olika filformat:
+
+    [Ladda ner PDF-fil](/media/downloads/yellow.pdf)
+    [Ladda ner ZIP-fil](/media/downloads/yellow.zip)
+    [Ladda ner audio-fil](/media/downloads/audio-file.mp3)
+
 
 ## Bilder
 
-Du kan använda [image-tilläget](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md) för att bädda in bilder. Bildformaten GIF, JPG, PNG och SVG stöds. För att lägga till en ny bild, kopiera en ny fil till `images` mappen och skapa en `[image]` förkortning. Du kan också ladda upp bilder i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md), då händer detta automatiskt.
+Du kan använda [image-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md) för att bädda in bilder. Bildformaten GIF, JPG, PNG och SVG stöds. För att lägga till en bild, kopiera bilden till `media/images` mappen och skapa en `[image]` förkortning. Du kan också ladda upp bilder i en webbläsare, sedan läggs bilden till på önskad plats.
 
-Lägga till en bild:
+Lägga till en bild, olika beskrivningar:
 
-    [image photo.jpg]
     [image photo.jpg Exempel]
     [image photo.jpg "Detta är en exempelbild"]
+    [image photo.jpg "Detta är en särskilt lång beskrivning"]
 
 Lägga till en bild, olika stilar:
 
@@ -40,11 +51,39 @@ Lägga till en bild, olika storlekar med standardstilen:
     [image photo.jpg Exempel - 64 64]
     [image photo.jpg Exempel - 320 200]
 
+## Bildgallerier
+
+Du kan använda [gallery-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md) eller [slider-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-sv.md) för att bädda in bildgallerier. Bildformaten GIF, JPG, PNG och SVG stöds. För att lägga till ett bildgalleri, kopiera bilder till `media/images` mappen och skapa en `[gallery]` förkortning. Du kan också ladda upp bilder i en webbläsare.
+
+Lägga till ett bildgalleri med popup, olika stilar:
+
+    [gallery photo.*jpg]
+    [gallery photo.*jpg zoom]
+    [gallery photo.*jpg simple]
+
+Lägga till ett bildgalleri med popup, olika storlekar:
+
+    [gallery photo.*jpg zoom 25%]
+    [gallery photo.*jpg zoom 50%]
+    [gallery photo.*jpg zoom 100%]
+
+Lägga till ett bildgalleri med reglaget, olika stilar:
+
+    [slider photo.*jpg loop]
+    [slider photo.*jpg fade]
+    [slider photo.*jpg slide]
+
+Lägga till ett bildgalleri med reglaget, olika storlekar:
+
+    [slider photo.*jpg loop 25%]
+    [slider photo.*jpg loop 50%]
+    [slider photo.*jpg loop 100%]
+
 ## Videor
 
 Du kan använda [Youtube-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md) för att bädda in videor: 
 
-Bädda in en video:
+Bädda in en video, olika videor:
 
     [youtube fhs55HEl-Gc]
     [youtube wNiyp89pTi0]

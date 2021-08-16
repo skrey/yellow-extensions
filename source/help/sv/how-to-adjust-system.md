@@ -1,7 +1,7 @@
 ---
 Title: Hur man anpassar systemet
 ---
-Alla inställningar finns i `system` mappen. Du kan anpassa din webbplats här. 
+Alla systemfiler finns i `system` mappen. Du kan anpassa din webbplats här. 
 
     ├── content
     ├── media
@@ -11,7 +11,7 @@ Alla inställningar finns i `system` mappen. Du kan anpassa din webbplats här.
         ├── themes
         └── trash
 
-Mappen `extensions` innehåller installerade tillägg. Du kan använda `layouts` mappen och `themes` mappen för att justera utseendet på din webbplats. Mappen `trash` innehåller raderade filer. 
+Mappen `system/extensions` innehåller installerade tillägg och konfigurationsfilar. Du kan justera utseendet på din webbplats i `system/layouts` mappen och `system/themes` mappen. Du kan ändra layouter och teman som du vill, vissa kunskaper i HTML, CSS och JavaScript krävs. Mappen `system/trash` innehåller raderade filer.
 
 ## Systeminställningar
 
@@ -23,12 +23,14 @@ Den centrala konfigurationsfilen är `system/extensions/yellow-system.ini`. Här
     Theme: stockholm
     Language: sv
     Layout: default
+    Parser: markdown
+    Status: public
 
-Du kan definiera systeminställningarna här, till exempel namnet på webbplatsen. Enskilda [sidinställningar](#sidinställningar) kan definieras högst upp på varje sida. För en ny installation bör du ställa in `Sitename`, `Author` och `Email`.
+Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) eller textredigeraren för att ändra systeminställningar. Systeminställningarna innehåller de viktigaste inställningarna för din webbplats samt inställningarna för alla tillägg. Efter en ny installation bör du kontrollera `Sitename`, `Author` och `Email`.
 
 ## Användarinställningar
 
-Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`. Här är ett exempel:
+Användarinställningar lagras i filen `system/extensions/yellow-user.ini`. Här är ett exempel:
 
     Email: anna@svensson.com
     Name: Anna Svensson
@@ -43,11 +45,11 @@ Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`. Här ä
     Modified: 2000-01-01 13:37:00
     Status: active
 
-Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) och [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md) för att skapa nya användarkonton och ändra lösenord. Ett användarkonto består av `Email` och andra inställningar. Om du inte vill att sidorna ska ändras i en webbläsare ändrar du `Home` och `Access`. Användare får redigera sidor på sin hemsida, men inte någon annanstans.
+Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) eller [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md) för att skapa nya användarkonton. Ett användarkonto består av `Email` och andra inställningar. Om du inte vill att sidorna ska ändras i en webbläsare begränsar du användarkonton. Öppna konfigurationsfilen, ändra `Home` och `Access`. Användare får redigera sidor på sin hemsida, men inte någon annanstans.
 
 ## Språkinställningar
 
-En annan konfigurationsfil är `system/extensions/yellow-language.ini`. Här är ett exempel:
+Språkinställningar lagras i filen `system/extensions/yellow-language.ini`. Här är ett exempel:
 
     Language: sv
     CoreDateFormatShort: F Y
@@ -57,7 +59,7 @@ En annan konfigurationsfil är `system/extensions/yellow-language.ini`. Här är
     ImageDefaultAlt: Bild utan beskrivning
     media/images/photo.jpg: Detta är en exempelbild
 
-Du kan definiera språkinställningarna här, till exempel datumformat. Språkinställningar består av `Language` och andra inställningar. Du kan kopiera [standardinställningarna från språkfiler](https://github.com/datenstrom/yellow-extensions/blob/master/source/swedish/swedish.txt) och klistra in dem i den här filen. Du kan också lägga till dina egna språkinställningar, till exempel bildtexter.
+Du kan definiera språkinställningarna här. Ett språk består av `Language` och andra inställningar. Du kan kopiera [standardinställningarna från språkfiler](https://github.com/datenstrom/yellow-extensions/blob/master/source/swedish/swedish.txt) och klistra in dem i konfigurationsfilen. Du kan också lägga till dina egna språkinställningar i konfigurationsfilen, till exempel bildtexter.
 
 ## Sidinställningar
 

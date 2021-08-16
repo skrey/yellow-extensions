@@ -1,41 +1,41 @@
 ---
 Title: Hur man anpassar innehåll
 ---
-Allt innehåll finns i `content` mappen. Du kan redigera din webbplats här.
+Alla innehållsfiler finns i `content` mappen. Du kan redigera din webbplats här.
 
     ├── content
     │   ├── 1-home
+    │   ├── 9-about
     │   └── shared
     ├── media
     └── system
 
-Dina `content` mapparna finns tillgängliga på din webbplats. Varje mapp har en fil som heter `page.md`. Du kan också lägga till fler filer och mappar. I grund och botten är det du ser i filhanteraren den webbplats du får.
+Din `content` mapp finns tillgängliga på din webbplats. Varje mapp har en fil som heter `page.md`. Du kan lägga till fler filer och mappar. Du kan också använda specialtecken i fil- och mappnamn, till exempel ÄÖÅ. Med andra ord det du ser i filhanteraren är webbplatsen du får.
 
 ## Filer och mappar
 
-Navigationen skapas automatiskt från dina `content` mappar: 
+Din webbplats skapas automatiskt från din `content` mapp: 
 
-1. Mappar kan ha ett numeriskt prefix, t.ex. `1-hem` eller `9-om`
-2. Filer kan ha ett numeriskt prefix, t.ex. `2020-04-07-blog-example.md`
-3. Filer och mappar utan prefix har ingen speciell betydelse 
+1. Mappar kan ha ett numeriskt prefix för sortering, t.ex. `1-home` eller `9-about`
+2. Filer kan ha ett numeriskt prefix för sortering, t.ex. `2020-04-07-blog-example.md`
+3. Filer och mappar utan prefix har ingen speciell betydelse, t.ex. `wiki-example.md`
 
-Prefix och suffix tas bort från platsen så att det ser bättre ut. Till exempel är mappen `content/9-about/` tillgänglig på din webbplats som `http://website/about/`. Filen `content/9-about/privacy.md` blir `http://website/about/privacy`.
+Prefix och suffix tas bort från adressen, så att det ser bättre ut. Till exempel mappen `content/1-home` är tillgänglig på din webbplats som `http://website/`. Mappen `content/9-about` är tillgänglig på din webbplats som `http://website/about/`. Filen `content/2-wiki/wiki-example.md` är tillgänglig på din webbplats som `http://website/wiki/wiki-example`.
 
-Det finns två undantag. Mappen `home` får inte innehålla undermappar, eftersom den är ansvarig för hemsidan och tillgänglig på din webbplats som `http://website/`. Mappen `shared` får bara inkluderas på andra sidor, den är inte tillgänglig på din webbplats. 
+Medan flesta mappar är tillgängliga på din webbplats, finns det två undantag. Mappen `content/1-home` får inte innehålla undermappar. Mappen `content/shared` får bara inkluderas på andra mappar, den är inte direkt tillgänglig på din webbplats.
 
-## Markdown
+## Text
 
-Markdown är ett praktiskt sätt att redigera webbsidor. Öppna filen `content/1-home/page.md` i din favorittextredigerare. Du kommer att se inställningar och text på sidan. Du kan ändra `Title` och andra [sidinställningar](how-to-adjust-system#sidinställningar) högst upp på en sida. Här är ett exempel: 
+Du kan redigera din webbplats i en webbläsare eller textredigerare. Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](how-to-adjust-system#sidinställningar). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-sv.md) stöds. Du kan också använda HTML och förkortningar. Här är några exempel:
 
     ---
-    Title: Hem
-    TitleContent: Din webbplats fungerar!
+    Title: Exempelsida
     ---
-    [image photo.jpg Exempel rounded]
+    Detta är ett exempelsida.
 
-    [edit - Du kan redigera den här sidan].
-    Hjälpen ger dig mer information om hur du skapar små webbsidor, bloggar och wikier. 
-    [Läs mer](https://datenstrom.se/sv/yellow/help/).
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
 
 Formatera text:
 
@@ -73,15 +73,15 @@ Skapa citat:
 
 Skapa länkar:
 
-    [Länk till sidan](/sv/help/how-to-make-a-small-website)
+    [Länk till sidan](/help/how-to-make-a-small-website)
     [Länk till fil](/media/downloads/yellow.pdf)
     [Länk till webbplats](https://datenstrom.se/sv/)
 
 Lägga till bilder:
 
-    [image photo.jpg]
     [image photo.jpg Exempel]
     [image photo.jpg "Detta är en exempelbild"]
+    [image photo.jpg "Detta är en särskilt lång beskrivning"]
 
 Skapa tabeller:
 
@@ -136,29 +136,20 @@ Använd CSS:
     ! {.class}
     ! Här är en indikation med anpassad klass.
     ! Text kan sträcka sig över flera rader
-    ! och innehåller Markdown-formatering.
+    ! och innehåller Markdown-textformatering.
 
 Använd HTML:
 
     <strong>Text med HTML</strong> kan valfritt användas.
+    <img src="/media/images/photo.jpg" alt="This is an example image">
     <a href="https://datenstrom.se" target="_blank">Öppna länken i en ny flik</a>.
 
-## Förkortningar
+Använd förkortningar:
 
-Du kan använda förkortningar för att lägga till vanliga funktioner. 
+    [gallery photo.*jpg zoom] = lägga till ett bildgalleri med popup
+    [slider photo.*jpg loop]  = lägga till ett bildgalleri med reglaget
+    [youtube fhs55HEl-Gc]     = bädda in en video
 
-`[image photo.jpg Exempel right 50%]` = [lägga till miniatyrbild](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md)  
-`[gallery photo.*jpg zoom 25%]` = [lägga till bildgalleri med popup](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md)  
-`[slider photo.*jpg loop]` = [lägga till bildgalleri med reglaget](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-sv.md)  
-`[googlecalendar sv.swedish#holiday]` = [bädda in Google-kalender](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar/README-sv.md)  
-`[googlemap Stockholm]` = [bädda in Google-karta](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap/README-sv.md)  
-`[youtube fhs55HEl-Gc]` = [bädda in Youtube-video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md)  
-`[blogchanges /blog/]` = [visa senaste bloggsidor](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-sv.md)  
-`[wikichanges /wiki/]` = [visa senaste wikisidor](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-sv.md)  
-`[fa fa-envelope-o]` = [visa ikoner och symboler](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-sv.md)  
-`[ea ea-smile]` = [visa emoji och färgglada bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-sv.md)  
-`[yellow about]` = [visa webbplatsversion](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
-`[edit]` = [redigera webbplats i webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  
-`[toc]` = [visa innehållsförteckning](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-sv.md)  
+    Förkortningar kräver tillägg för att fungera.
 
 Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

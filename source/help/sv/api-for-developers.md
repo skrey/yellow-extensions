@@ -7,24 +7,25 @@ Vi <3 människor som kodar.
 
 ## Mappstruktur
 
-Följande mappar är tillgängliga:
+Följande mappar är tillgängliga i standardinstallationen:
 
 ```
 ├── content               = innehållsfiler
 │   ├── 1-home            = hemsida
+│   ├── 9-about           = informationssida
 │   └── shared            = delade filer
 ├── media                 = mediefiler
-│   ├── downloads         = filer att ladda ner
+│   ├── downloads         = filer för nedladdning
 │   ├── images            = bildfiler för innehåll
 │   └── thumbnails        = miniatyrbilder för innehåll
 └── system                = systemfiler
-    ├── extensions        = tilläggsfiler och inställningar
+    ├── extensions        = installerade tillägg och konfigurationsfilar
     ├── layouts           = konfigurerbara layoutfiler
     ├── themes            = konfigurerbara temafiler
     └── trash             = raderade filer
 ```
 
-Mappen `content` innehåller webbplatsen innehållsfilerna. Du kan redigera webbplatsen här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra bilder och andra filer här. Mappen `system` innehåller webbplatsens  systemfilerna Du kan anpassa webbplatsen och skapa dina egna tillägg här. 
+Mappen `content` innehåller webbplatsen innehållsfilerna. Du kan redigera webbplatsen här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra bilder och andra filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan anpassa webbplatsen och utveckla tillägg här. 
 
 ## Objekt
 
@@ -804,11 +805,11 @@ Skapa textbeskrivning, med eller utan HTML
 **toolbox->normaliseArguments($text, $appendSlash = true, $filterStrict = true)**  
 Normalisera platsargument
 
-**toolbox->normaliseTokens($text, $prependSlash = false)**  
-Normalisera sökväg eller plats, ta hand om  relativa delninga
-
 **toolbox->normaliseData($text, $type = "html", $filterStrict = true)**  
 Normalisera element och attribut i HTML/SVG-data 
+
+**toolbox->normalisePath($text)**  
+Normalisera relativa sökvägsandelar 
 
 Här är en exempelkod för att läsa textrader från filen:
 

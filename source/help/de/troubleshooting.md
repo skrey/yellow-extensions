@@ -17,12 +17,6 @@ Datenstrom Yellow requires write access!
 Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst auch deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben. Es wird empfohlen allen Dateien und Verzeichnissen im Installations-Verzeichnis Schreibrechte zu geben. Sobald der Webserver ausreichende Schreibrechte im `system`-Verzeichnis hat, sollte das Problem behoben sein.
 
 ```
-Datenstrom Yellow requires complete upload!
-```
-
-Kopiere nochmal alle Dateien auf den Webserver. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung unterbrochen wurde, dann findet man auf dem Webserver Dateien mit null Bytes. Nachdem alle Installationsdateien auf den Webserver kopiert wurden, sollte das Problem behoben sein.
-
-```
 Datenstrom Yellow requires configuration file!
 ```
 
@@ -32,7 +26,13 @@ Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. Über
 Datenstrom Yellow requires rewrite support!
 ```
 
-Konfiguriere den Webserver, siehe [Apache-Konfiguration](#probleme-mit-apache) und [Nginx-Konfiguration](#probleme-mit-nginx). Du benötigst entweder eine Konfiguration für deinen Webserver oder du verwendest den eingebauten Webserver auf deinem Computer. Der eingebaute Webserver ist praktisch für Entwickler. Sobald der Webserver HTTP-Anfragen an die `yellow.php` weiterleitet, sollte das Problem behoben sein.
+Konfiguriere den Webserver, siehe [Apache-Konfiguration](#probleme-mit-apache) und [Nginx-Konfiguration](#probleme-mit-nginx). Du musst entweder die Konfigurationsdatei ändern oder du verwendest den eingebauten Webserver auf deinem Computer. Der eingebaute Webserver ist praktisch für Entwickler. Sobald der Webserver HTTP-Anfragen an die `yellow.php` weiterleitet, sollte das Problem behoben sein.
+
+```
+Datenstrom Yellow requires complete upload!
+```
+
+Kopiere nochmal alle Dateien auf den Webserver. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung unterbrochen wurde, dann findet man auf dem Webserver Dateien mit null Bytes. Nachdem alle Installationsdateien auf den Webserver kopiert wurden, sollte das Problem behoben sein.
 
 ```
 Datenstrom Yellow requires PHP extension!
@@ -44,8 +44,7 @@ Installiere die fehlende PHP-Erweiterung auf deinem Webserver. Du benötigst `cu
 Datenstrom Yellow requires PHP 5.6 or higher!
 ```
 
-Installiere die neuste PHP-Version auf deinem Webserver. Falls du nicht weiterkommst, [siehe Hilfe für deine Webseite](.).
-
+Installiere die neuste PHP-Version auf deinem Webserver.
 
 ## Probleme nach der Installation
 
@@ -55,7 +54,7 @@ Die folgende Fehlermeldung kann auftreten:
 Check the log file. Please activate the debug mode for more information.
 ```
 
-Überprüfe die Logdatei `system/extensions/yellow.log`. Falls Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Falls Parserfehler auftreten, dann wende dich an den entsprechenden Entwickler/Designer und repariere die betroffenen Dateien. Die Logdatei gibt dir einen schnellen Überblick, was auf deiner Website passiert. Hier ist ein Beispiel:
+Überprüfe die Logdatei `system/extensions/yellow.log`. Falls Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Falls andere Fehler auftreten, dann wende dich an den verantwortlichen Entwickler/Designer und [melde einen Fehler](contributing-guidelines). Die Logdatei gibt dir in jedem Fall einen schnellen Überblick, was auf deiner Website passiert. Hier ist ein Beispiel:
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
@@ -67,7 +66,7 @@ Check the log file. Please activate the debug mode for more information.
 2020-12-18 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Aktiviere den Debug-Modus, falls du nicht 100% sicher bist was Probleme verursacht. Das zeigt mehr Informationen auf der aktuellen Seite an. Du kannst den Debug-Modus benutzen, um einem Entwickler/Designer zusätzliche Informationen zu geben, um die Ursache eines Fehlers zu untersuchen oder falls du neugierig bist wie Datenstrom Yellow funktioniert.
+Aktiviere den Debug-Modus um weitere Informationen auf der aktuellen Seite anzuzeigen. Du kannst den Debug-Modus benutzen um die Ursache eines Problems zu untersuchen, den Stack-Trace eines Programms anzuzeigen oder falls du neugierig bist wie Datenstrom Yellow funktioniert. So aktivierst du den Debug-Modus:
 
 Öffne die Datei `system/extensions/core.php` und ändere die erste Zeile zu `<?php define("DEBUG", 1);`
 

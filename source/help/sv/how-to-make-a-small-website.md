@@ -7,22 +7,20 @@ Title: Hur man skapar små webbsidor
 
 ## First steps
 
-[Follow the installation instructions](how-to-get-started) and select 'Website'. The installation comes with one page. This is just an example to get you started. Change everything as you like. You can edit your website in a web browser or on your computer. If there are problems with installation, [see troubleshooting](troubleshooting).
+[Follow the installation instructions](how-to-get-started) and select `Website`. If there are problems with installation, [see troubleshooting](troubleshooting). The installation comes with two pages, 'Home' and 'About'. This is just an example to get you started. Change everything as you like. You can edit your website in a web browser or text editor. There's no admin panel, nothing that gets in your way.
 
 ## Edit web pages
 
-Let's see how to edit web pages on the computer. Have a look inside your `content` folder, here are all your web pages. Open the file `content/1-home/page.md`. You'll see settings and text of the page. You can change `Title` and other [page settings](how-to-adjust-system#page-settings) at the top of a page. Below that you can use [Markdown](how-to-adjust-content#markdown). Here's an example:
+If you want to edit web pages in a web browser, you can do this on your website at `http://website/edit/`. If you want to edit web pages in a text editor, have a look inside your `content` folder. Give it a try. Open the file `content/1-home/page.md`. At the top of the page you can change `Title` and other [page settings](how-to-adjust-system#page-settings). Below you can change [text](how-to-adjust-content#text) and [images](how-to-adjust-media#images). Here's an example:
 
 ```
 ---
 Title: Home
-TitleContent: Your website works!
 ---
 [image photo.jpg Example rounded]
 
-[edit - You can edit this page]. 
-The help gives you more information about how to create small web pages, blogs and wikis. 
-[Learn more](https://datenstrom.se/yellow/help/).
+[edit - You can edit this page in a web browser] or use a text editor. 
+[Get help](https://datenstrom.se/yellow/help/).
 ```
 
 To create a new page, add a new file to the home folder or to another `content` folder:
@@ -82,7 +80,7 @@ There are [extensions for your website](https://github.com/datenstrom/yellow-ext
 ## Related information
 
 * [How to edit a website in a web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
-* [How to edit a website on the computer](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
+* [How to edit a website in a text editor](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
 * [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

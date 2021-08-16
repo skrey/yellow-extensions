@@ -6,33 +6,33 @@ Wie man die Sprache seiner Webseite ändert.
 
 ## Einsprachen-Modus
 
-Die Standardsprache wird in den [Systemeinstellungen](how-to-adjust-system#systemeinstellungen) festgelegt. Eine andere Sprache lässt sich in den [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: de`. 
-
-Eine Deutsche Seite:
-
-```
----
-Title: Über uns
-Language: de
----
-Wo zusammenwächst, was zusammen gehört.
-```
+Die Standardsprache wird in den [Systemeinstellungen](how-to-adjust-system#systemeinstellungen) festgelegt. Eine andere Sprache lässt sich in den [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: en`. 
 
 Eine Englische Seite:
 
 ```
 ---
-Title: About us
+Title: About
 Language: en
 ---
 Birds of a feather flock together.
+```
+
+Eine Deutsche Seite:
+
+```
+---
+Title: Über
+Language: de
+---
+Wo zusammenwächst, was zusammen gehört.
 ```
 
 Eine Schwedische Seite:
 
 ```
 ---
-Title: Om oss
+Title: Om
 Language: sv
 ---
 Lika barn leka bäst.
@@ -46,12 +46,15 @@ Für mehrsprachige Webseiten kann man den Mehrsprachen-Modus benutzen. Öffne di
 ├── content               
 │   ├── 1-en              
 │   │   ├── 1-home        = http://website/
+│   │   ├── 9-about
 │   │   └── shared    
 │   ├── 2-de              
 │   │   ├── 1-home        = http://website/de/
+│   │   ├── 9-about
 │   │   └── shared    
 │   └── 3-sv              
 │       ├── 1-home        = http://website/sv/
+│       ├── 9-about
 │       └── shared    
 ├── media                 
 └── system                
@@ -63,19 +66,22 @@ Der erste Screenshot zeigt die Verzeichnisse `1-en`, `2-de` und `3-sv`. Das erze
 ├── content               
 │   ├── 1-en              
 │   │   ├── 1-home        = http://website/en/
+│   │   ├── 9-about
 │   │   └── shared    
 │   ├── 2-de              
 │   │   ├── 1-home        = http://website/de/
+│   │   ├── 9-about
 │   │   └── shared    
 │   ├── 3-sv              
 │   │   ├── 1-home        = http://website/sv/
+│   │   ├── 9-about
 │   │   └── shared    
 │   └── default           = http://website/       
 ├── media                 
 └── system                
 ```
 
-Der zweite Screenshot zeigt die Verzeichnisse `1-en`, `2-de`, `3-sv` und `default`. Das erzeugt die URLs `http://website/en/` `http://website/de/` `http://website/sv/` und die Startseite `http://website/` welche automatisch die Sprache der Besucher ermittelt. 
+Der zweite Screenshot zeigt die Verzeichnisse `1-en`, `2-de`, `3-sv` und `default`. Das erzeugt die URLs `http://website/en/` `http://website/de/` `http://website/sv/` und die Startseite `http://website/`, welche automatisch die Sprache der Besucher ermittelt. 
 
 Um eine Sprachauswahl anzuzeigen, kannst du eine Seite erstellen welche die vorhandenen Sprachen auflistet. Die Sprachauswahl kann man in die Navigation der Webseite einbauen. Das ermöglicht es Besuchern die Sprache auszuwählen.
 

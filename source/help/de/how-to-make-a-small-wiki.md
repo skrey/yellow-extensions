@@ -7,19 +7,20 @@ Hier erfährst du, wie du dein Wiki erstellst.
 
 ## Erste Schritte
 
-[Folge der Installations-Anleitung](how-to-get-started) und wähle "Wiki" aus. Die Installation kommt mit zwei Seiten, "Startseite" und "Wiki". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Wiki im Webbrowser oder auf deinem Computer bearbeiten. Falls du das Wiki später installieren willst, [siehe Wiki-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md).
+[Folge der Installations-Anleitung](how-to-get-started) und wähle `Wiki` aus. Falls du das Wiki später hinzufügen willst, [installiere die Wiki-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md). Die Installation kommt mit drei Seiten, "Startseite", "Wiki" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Wiki im Webbrowser oder Texteditor bearbeiten. Es gibt kein Administratorpanel, nichts das dir im Weg steht. 
 
-## Wikiseiten schreiben
 
-Lass uns ausprobieren wie man Wikiseiten auf dem Computer bearbeitet. Schau dir das `content`-Verzeichnis an, dort befindet sich das Wikiverzeichnis mit allen Wikiseiten. Öffne die Datei `wiki-page.md`. Es werden Einstellungen und der Text der Seite angezeigt. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Markdown](how-to-adjust-content#markdown) benutzen. Hier ist ein Beispiel:
+## Wikiseiten bearbeiten
+
+Falls du Wikiseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/wiki/`. Falls du Wikiseiten im Texteditor bearbeiten möchtest, schau dir das `content/2-wiki`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/2-wiki/wiki-example.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-adjust-content#text) und [Bilder](how-to-adjust-media#bilder) ändern. Hier ist ein Beispiel:
 
 ```
 ---
-Title: Wikiseite
+Title: Beispielseite
 Layout: wiki
 Tag: Beispiel
 ---
-Das ist eine Beispiel-Wikiseite.
+Das ist eine Beispielseite fürs Wiki.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
 tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
@@ -97,7 +98,7 @@ Es gibt [Erweiterungen für deine Webseite](https://github.com/datenstrom/yellow
 ## Verwandte Informationen
 
 * [Wie man eine Webseite im Webbrowser bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
-* [Wie man eine Webseite auf dem Computer bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
+* [Wie man eine Webseite im Texteditor bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
 * [Wie man ein Wiki benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md)
 
 Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

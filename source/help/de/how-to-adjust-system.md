@@ -1,7 +1,7 @@
 ---
 Title: Wie man das System anpasst
 ---
-Alle Einstellungen befinden sich im `system`-Verzeichnis. Hier passt man seine Webseite an.
+Alle Systemdateien befinden sich im `system`-Verzeichnis. Hier passt man seine Webseite an.
 
     ├── content
     ├── media
@@ -11,7 +11,7 @@ Alle Einstellungen befinden sich im `system`-Verzeichnis. Hier passt man seine W
         ├── themes
         └── trash
 
-Das `extensions`-Verzeichnis enthält installierte Erweiterungen. Im `layouts`-Verzeichnis und im `themes`-Verzeichnis kann man das Aussehen seiner Webseite anpassen. Das `trash`-Verzeichnis enthält gelöschte Dateien.
+Das `system/extensions`-Verzeichnis enthält installierte Erweiterungen und Konfigurationsdateien. Man kann das Aussehen seiner Webseite im `system/layouts`-Verzeichnis und `system/themes`-Verzeichnis anpassen. Man kann Layouts und Themen so ändern wie man will, Kenntnisse in HTML, CSS und JavaScript sind erforderlich. Das `system/trash`-Verzeichnis enthält gelöschte Dateien.
 
 ## Systemeinstellungen
 
@@ -19,16 +19,18 @@ Die zentrale Konfigurationsdatei ist `system/extensions/yellow-system.ini`. Hier
 
     Sitename: Anna Svensson Design
     Author: Anna Svensson
-    Email: anna@svensson.de
+    Email: anna@svensson.com
     Theme: berlin
     Language: de
     Layout: default
+    Parser: markdown
+    Status: public
 
-Dort kannst du die Systemeinstellungen festlegen, zum Beispiel den Namen der Webseite. Die individuellen [Seiteneinstellungen](#seiteneinstellungen) lassen sich ganz oben auf jeder Seite festlegen. Bei einer neuen Installation sollte man `Sitename`, `Author` und `Email` anpassen.
+Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) oder Texteditor kannst du die Systemeinstellungen ändern. Die Systemeinstellungen enthalten sowohl die wichtigsten Einstellungen deiner Webseite als auch die Einstellungen aller Erweiterungen. Nach einer neuen Installation sollte man `Sitename`, `Author` und `Email` überprüfen.
 
 ## Benutzereinstellungen
 
-Alle Benutzerkonten sind in `system/extensions/yellow-user.ini` gespeichert. Hier ist ein Beispiel:
+Die Benutzereinstellungen sind in der Datei `system/extensions/yellow-user.ini` gespeichert. Hier ist ein Beispiel:
 
     Email: anna@svensson.com
     Name: Anna Svensson
@@ -43,11 +45,11 @@ Alle Benutzerkonten sind in `system/extensions/yellow-user.ini` gespeichert. Hie
     Modified: 2000-01-01 13:37:00
     Status: active
 
-Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) und der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) kannst du neue Benutzerkonten anlegen und Kennwörter ändern. Ein Benutzerkonto besteht aus `Email` und weiteren Einstellungen. Falls du nicht willst dass Seiten im Webbrowser bearbeitet werden, dann ändere `Home` und `Access`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
+Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) oder der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) kannst du neue Benutzerkonten anlegen. Ein Benutzerkonto besteht aus `Email` und weiteren Einstellungen. Falls du nicht willst dass Seiten im Webbrowser verändert werden, dann beschränke Benutzerkonten. Öffne die Konfigurationsdatei, ändere `Home` und `Access`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
 ## Spracheinstellungen
 
-Eine weitere Konfigurationsdatei ist `system/extensions/yellow-language.ini`. Hier ist ein Beispiel:
+Die Spracheinstellungen sind in der Datei `system/extensions/yellow-language.ini` gespeichert. Hier ist ein Beispiel:
 
     Language: de
     CoreDateFormatShort: F Y
@@ -57,7 +59,7 @@ Eine weitere Konfigurationsdatei ist `system/extensions/yellow-language.ini`. Hi
     ImageDefaultAlt: Bild ohne Beschreibung
     media/images/photo.jpg: Das ist ein Beispielbild
 
-Dort kannst du die Spracheinstellungen festlegen, zum Beispiel das Datumsformat. Spracheinstellungen bestehen aus `Language` und weiteren Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in diese Datei einfügen. Du kannst auch deine eigenen Spracheinstellungen hinzufügen, beispielsweise Bildunterschriften.
+Dort kannst du die Spracheinstellungen festlegen. Eine Sprache besteht aus `Language` und weiteren Einstellungen. Du kannst die [Standardeinstellungen aus Sprachdateien](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) kopieren und in die Konfigurationsdatei einfügen. Du kannst auch deine eigenen Spracheinstellungen zur Konfigurationsdatei hinzufügen, beispielsweise Bildunterschriften.
 
 ## Seiteneinstellungen
 

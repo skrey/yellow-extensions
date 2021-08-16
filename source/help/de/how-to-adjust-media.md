@@ -1,7 +1,7 @@
 ---
 Title: Wie man die Medien anpasst
 ---
-Alle Medien befinden sich im `media`-Verzeichnis. Hier speichert man Bilder und andere Dateien.
+Alle Mediendateien befinden sich im `media`-Verzeichnis. Hier speichert man seine Bilder und andere Dateien.
 
     ├── content
     ├── media
@@ -10,17 +10,27 @@ Alle Medien befinden sich im `media`-Verzeichnis. Hier speichert man Bilder und 
     │   └── thumbnails
     └── system
 
-Das `downloads`-Verzeichnis enthält Dateien zum Herunterladen. Das `images`-Verzeichnis ist zum Speichern von Bildern gedacht. Das `thumbnails`-Verzeichnis enthält Miniaturbilder. Man kann auch weitere Verzeichnisse hinzufügen und Dateien so organisieren wie man will. Im Grunde genommen kann jede Mediendatei von der Webseite heruntergeladen werden. 
+Das `media/downloads`-Verzeichnis enthält Dateien zum Herunterladen. Das `media/images`-Verzeichnis ist zum Speichern von Bildern gedacht. Das `media/thumbnails`-Verzeichnis enthält Miniaturbilder. Man kann auch weitere Verzeichnisse hinzufügen und Dateien so organisieren wie man will. Im Grunde genommen kann jede Mediendatei von der Webseite heruntergeladen werden.
+
+## Dateien zum Herunterladen
+
+Du kannst Dateien zum Herunterladen anbieten. Alle Dateiformate werden unterstützt, das Hochladen kann beschränkt sein auf die Dateiformate MP3, OGG, PDF und ZIP. Um eine Datei hinzuzufügen, kopierst du die Datei ins `media/download`-Verzeichnis und erstellst einen Link. Du kannst Dateien auch im Webbrowser hochladen, dann wird der Link an der gewünschten Stelle hinzugefügt.
+
+Link erstellen, unterschiedliche Dateiformate:
+
+    [PDF-Datei herunterladen](/media/downloads/yellow.pdf)
+    [ZIP-Datei herunterladen](/media/downloads/yellow.zip)
+    [Audio-Datei herunterladen](/media/downloads/audio-file.mp3)
 
 ## Bilder
 
-Du kannst die [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md) benutzen um Bilder einzubinden. Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Um ein neues Bild hinzuzufügen, kopierst du eine neue Datei ins `images`-Verzeichnis und erstellst eine `[image]`-Abkürzung. Du kannst Bilder auch im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) hochladen, dann geschieht das automatisch. 
+Du kannst die [Image-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md) benutzen um Bilder einzubinden. Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Um ein Bild hinzuzufügen, kopierst du das Bild ins `media/images`-Verzeichnis und erstellst eine `[image]`-Abkürzung. Du kannst Bilder auch im Webbrowser hochladen, dann wird das Bild an der gewünschten Stelle hinzugefügt.
 
-Bild hinzufügen:
+Bild hinzufügen, unterschiedliche Beschreibungen:
 
-    [image photo.jpg]
     [image photo.jpg Beispiel]
-    [image photo.jpg "Das ist ein Beispielbild"]
+    [image photo.jpg "Dies ist ein Beispielbild"]
+    [image photo.jpg "Dies ist eine besonders lange Beschreibung"]
 
 Bild hinzufügen, unterschiedliche Stile:
 
@@ -40,11 +50,38 @@ Bild hinzufügen, unterschiedliche Größen mit dem Standardstil:
     [image photo.jpg Beispiel - 64 64]
     [image photo.jpg Beispiel - 320 200]
 
+## Bildergalerien
+
+Du kannst die [Gallery-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md) oder [Slider-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md) benutzen um Bildergalerien einzubinden. Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Um eine Bildergalerie hinzuzufügen, kopierst du die Bilder ins `media/images`-Verzeichnis und erstellst eine `[gallery]`-Abkürzung. Du kannst Bilder auch im Webbrowser hochladen.
+
+Bildergalerie mit Popup hinzufügen, unterschiedliche Stile:
+
+    [gallery photo.*jpg zoom]
+    [gallery photo.*jpg simple]
+
+Bildergalerie mit Popup hinzufügen, unterschiedliche Größen:
+
+    [gallery photo.*jpg zoom 25%]
+    [gallery photo.*jpg zoom 50%]
+    [gallery photo.*jpg zoom 100%]
+
+Bildergalerie mit Slider hinzufügen, unterschiedliche Stile:
+
+    [slider photo.*jpg loop]
+    [slider photo.*jpg fade]
+    [slider photo.*jpg slide]
+
+Bildergalerie mit Slider hinzufügen, unterschiedliche Größen:
+
+    [slider photo.*jpg loop 25%]
+    [slider photo.*jpg loop 50%]
+    [slider photo.*jpg loop 100%]
+
 ## Videos
 
 Du kannst die [Youtube-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md) benutzen um Videos einzubinden.
 
-Video einbinden:
+Video einbinden, unterschiedliche Videos:
 
     [youtube fhs55HEl-Gc]
     [youtube wNiyp89pTi0]

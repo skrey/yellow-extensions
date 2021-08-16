@@ -17,12 +17,6 @@ Datenstrom Yellow requires write access!
 Kör kommandot `chmod -R a+rw *` i installationsmappen. Du kan också använda din FTP-programvara för att ge skrivbehörighet till alla filer. Det rekommenderas att ge skrivbehörighet till alla filer och mappar i installationsmappen. Så snart webbservern har tillräcklig skrivåtkomst i `system`-mappen bör problemet lösas.
 
 ```
-Datenstrom Yellow requires complete upload!
-```
-
-Kopiera alla filer igen till webbservern. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts, då finns det filer med noll byte på webbservern. Efter att alla installationsfiler har kopierats till webbservern bör problemet lösas.
-
-```
 Datenstrom Yellow requires configuration file!
 ```
 
@@ -32,7 +26,13 @@ Kopiera medföljande `.htaccess`-filen till installationsmappen. Kontrollera om 
 Datenstrom Yellow requires rewrite support!
 ```
 
-Konfigurera webbservern, se [Apache-konfiguration](#problem-med-apache) eller [Nginx-konfiguration](#problem-med-nginx). Du behöver antingen en konfiguration för din webbserver eller så använder du inbyggda webbservern på din dator. Den inbyggda webbservern är praktisk för utvecklare. Så snart webbservern vidarebefordrar HTTP-förfrågningar till `yellow.php`, bör problemet lösas.
+Konfigurera webbservern, se [Apache-konfiguration](#problem-med-apache) eller [Nginx-konfiguration](#problem-med-nginx). Du måste antingen ändra konfigurationsfilen eller så använder du inbyggda webbservern på din dator. Den inbyggda webbservern är praktisk för utvecklare. Så snart webbservern vidarebefordrar HTTP-förfrågningar till `yellow.php`, bör problemet lösas.
+
+```
+Datenstrom Yellow requires complete upload!
+```
+
+Kopiera alla filer igen till webbservern. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts, då finns det filer med noll byte på webbservern. Efter att alla installationsfiler har kopierats till webbservern bör problemet lösas.
 
 ```
 Datenstrom Yellow requires PHP extension!
@@ -44,7 +44,7 @@ Installera saknade PHP-tillägget på din webbserver. Du behöver `curl gd mbstr
 Datenstrom Yellow requires PHP 5.6 or higher!
 ```
 
-Installera senaste PHP-versionen på din webbserver. Om du har fastnat, [se hjälp för din webbplats](.).
+Installera senaste PHP-versionen på din webbserver.
 
 ## Problem efter installationen
 
@@ -54,7 +54,7 @@ Följande felmeddelande kan uppstå:
 Check the log file. Please activate the debug mode for more information.
 ```
 
-Kontrollera logfilen `system/extensions/yellow.log`. Om det finns skrivfel, ge sedan skrivbehörighet till de drabbade filerna. Om det finns parsersfel, kontakta motsvarande utvecklare/designer och reparera de berörda filerna. Loggfilen ger dig en snabb översikt över vad som händer på din webbplats. Här är ett exempel: 
+Kontrollera loggfilen `system/extensions/yellow.log`. Om det finns skrivfel, ge skrivbehörighet till de drabbade filerna. Om det finns andra fel, kontakta ansvariga utvecklaren/designern och [rapportera ett fel](contributing-guidelines). Loggfilen ger dig i alla fall en snabb översikt över vad som händer på din webbplats. Här är ett exempel: 
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
@@ -66,7 +66,7 @@ Kontrollera logfilen `system/extensions/yellow.log`. Om det finns skrivfel, ge s
 2020-12-18 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Aktivera felsökningsläget om du inte är 100% säker på vad som orsakar problem. Detta visar mer information på aktuella sidan. Du kan använda felsökningsläget för att ge en utvecklare/designer ytterligare information, för att undersöka orsaken till ett fel eller om du är nyfiken på hur Datenstrom Yellow fungerar. 
+Aktivera felsökningsläget för att visa mer information på aktuella sidan. Du kan använda felsökningsläget för att undersöka orsaken till ett problem, för att visa stackspåret av ett program eller om du är nyfiken på hur Datenstrom Yellow fungerar. Så här aktiverar du felsökningsläget:
 
 Öppna filen `system/extensions/core.php` och ändra första raden till `<?php define("DEBUG", 1);`
 

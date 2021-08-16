@@ -1,7 +1,7 @@
 ---
 Title: How to adjust media 
 ---
-All media is located in the `media` folder. You can store your images and other files here.
+All media files are located in the `media` folder. You can store your images and other files here.
 
     ├── content
     ├── media
@@ -10,17 +10,27 @@ All media is located in the `media` folder. You can store your images and other 
     │   └── thumbnails
     └── system
 
-The `downloads` folder contains files to download. The `images` folder is the place to store your images. The `thumbnails` folder contains image thumbnails. You can also create additional folders and organise files as you like. Essentially, any media file can be downloaded from the website.
+The `media/downloads` folder contains files for download. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also add more folders and organise files as you like. Essentially, any media file can be downloaded from the website.
+
+## Downloads
+
+You can provide files for download. All file formats are supported, however the upload may be restricted to file formats MP3, OGG, PDF and ZIP. To add a file, copy the file into the `media/downloads` folder and make a link. You can also upload files in a web browser, then the link will be added at the desired spot.
+
+Making a link, different file formats:
+
+    [Download PDF file](/media/downloads/yellow.pdf)
+    [Download ZIP file](/media/downloads/yellow.zip)
+    [Download audio file](/media/downloads/audio-file.mp3)
 
 ## Images
 
-You can use the [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/image) to embed images. The image formats GIF, JPG, PNG and SVG are supported. To add a new image, copy a new file into the `images` folder and create an `[image]` shortcut. You can also upload images in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit), then this will happen automatically. 
+You can use the [image extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/image) to embed images. The image formats GIF, JPG, PNG and SVG are supported. To add an image, copy the image into the `media/images` folder and create an `[image]` shortcut. You can also upload images in a web browser, then the image is added at the desired spot.
 
-Adding an image:
+Adding an image, different descriptions:
 
-    [image photo.jpg]
     [image photo.jpg Example]
     [image photo.jpg "This is an example image"]
+    [image photo.jpg "This is an especially long description"]
 
 Adding an image, different styles:
 
@@ -40,11 +50,39 @@ Adding an image, different sizes with the default style:
     [image photo.jpg Example - 64 64]
     [image photo.jpg Example - 320 200]
 
+## Image galleries
+
+You can use the [gallery extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery) or [slider extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider) to embed image galleries. The image formats GIF, JPG, PNG and SVG are supported. To add a gallery, copy images into the `media/images` folder and create a `[gallery]` shortcut. You can also upload images in a web browser.
+
+Adding an image gallery with popup, different styles:
+
+    [gallery photo.*jpg zoom]
+    [gallery photo.*jpg simple]
+
+Adding an image gallery with popup, different sizes:
+
+    [gallery photo.*jpg zoom 25%]
+    [gallery photo.*jpg zoom 50%]
+    [gallery photo.*jpg zoom 100%]
+
+
+Adding an image gallery with slider, different styles:
+
+    [slider photo.*jpg loop]
+    [slider photo.*jpg fade]
+    [slider photo.*jpg slide]
+
+Adding an image gallery with slider, different sizes:
+
+    [slider photo.*jpg loop 25%]
+    [slider photo.*jpg loop 50%]
+    [slider photo.*jpg loop 100%]
+
 ## Videos
 
 You can use the [Youtube extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube) to embed videos:
 
-Embedding a video:
+Embedding a video, different videos:
 
     [youtube fhs55HEl-Gc]
     [youtube wNiyp89pTi0]

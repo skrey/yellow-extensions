@@ -7,11 +7,11 @@ Title: Hur man skapar en liten blogg
 
 ## First steps
 
-[Follow the installation instructions](how-to-get-started) and select 'Blog'. The installation comes with two pages, 'Home' and 'Blog'. This is just an example to get you started. Change everything as you like. You can edit your blog in a web browser or on your computer. If you want to install the blog later, [see blog extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog).
+[Follow the installation instructions](how-to-get-started) and select `Blog`. If you want to add the blog later, [install the blog extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog). The installation comes with three pages, 'Home', 'Blog' and 'About'. This is just an example to get you started. Change everything as you like. You can edit your blog in a web browser or text editor. There's no admin panel, nothing that gets in your way.
 
 ## Edit blog pages
 
-Let's see how to edit blog pages on the computer. Have a look inside your `content` folder, here's the blog folder with all your blog pages. Open the file `2020-04-07-blog-example.md`. You'll see settings and text of the page. You can change `Title` and other [page settings](how-to-adjust-system#page-settings) at the top of a page. Below that you can use [Markdown](how-to-adjust-content#markdown). Here's an example:
+If you want to edit blog pages in a web browser, you can do this on your website at `http://website/edit/blog/`. If you want to edit blog pages in a text editor, have a look inside your `content/2-blog` folder. Give it a try. Open the file `content/2-blog/2020-04-07-blog-example.md`. At the top of the page you can change `Title` and other [page settings](how-to-adjust-system#page-settings). Below you can change [text](how-to-adjust-content#text) and [images](how-to-adjust-media#images). Here's an example:
 
 ```
 ---
@@ -112,7 +112,7 @@ There are [extensions for your website](https://github.com/datenstrom/yellow-ext
 ## Related information
 
 * [How to edit a website in a web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
-* [How to edit a website on the computer](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
+* [How to edit a website in a text editor](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
 * [How to use a blog](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

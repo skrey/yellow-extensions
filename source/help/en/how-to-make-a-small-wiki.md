@@ -7,15 +7,16 @@ Learn how to make your wiki.
 
 ## First steps
 
-[Follow the installation instructions](how-to-get-started) and select 'Wiki'. The installation comes with two pages, 'Home' and 'Wiki'. This is just an example to get you started. Change everything as you like. You can edit your wiki in a web browser or on your computer. If you want to install the wiki later, [see wiki extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki).
+[Follow the installation instructions](how-to-get-started) and select `Wiki`. If you want to add the wiki later, [install the wiki extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki). The installation comes with three pages, 'Home', 'Wiki' and 'About'. This is just an example to get you started. Change everything as you like. You can edit your wiki in a web browser or text editor. There's no admin panel, nothing that gets in your way.
 
-## Writing wiki pages
 
-Let's see how to edit wiki pages on the computer. Have a look inside your `content` folder, here's  the wiki folder with all your wiki pages. Open the file `wiki-page.md`. You'll see settings and text of the page. You can change `Title` and other [page settings](how-to-adjust-system#page-settings) at the top of a page. Below that you can use [Markdown](how-to-adjust-content#markdown). Here's an example:
+## Edit wiki pages
+
+If you want to edit wiki pages in a web browser, you can do this on your website at `http://website/edit/wiki/`. If you want to edit wiki pages in a text editor, have a look inside your `content/2-wiki` folder. Give it a try. Open the file `content/2-wiki/wiki-example.md`. At the top of the page you can change `Title` and other [page settings](how-to-adjust-system#page-settings). Below you can change [text](how-to-adjust-content#text) and [images](how-to-adjust-media#images). Here's an example:
 
 ```
 ---
-Title: Wiki page
+Title: Wiki example
 Layout: wiki
 Tag: Example
 ---
@@ -97,7 +98,7 @@ There are [extensions for your website](https://github.com/datenstrom/yellow-ext
 ## Related information
 
 * [How to edit a website in a web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
-* [How to edit a website on the computer](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
+* [How to edit a website in a text editor](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
 * [How to use a wiki](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki)
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).

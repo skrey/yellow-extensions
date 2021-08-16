@@ -7,23 +7,24 @@ Wir <3 Menschen die programmieren.
 
 ## Verzeichnisstruktur
 
-Die folgenden Verzeichnisse sind vorhanden:
+Die folgenden Verzeichnisse sind in der Standardinstallation vorhanden:
 
 ```
 ├── content               = Inhaltsdateien
 │   ├── 1-home            = Startseite
+│   ├── 9-about           = Informationsseite
 │   └── shared            = geteilte Dateien
 ├── media                 = Mediendateien
 │   ├── downloads         = Dateien zum Herunterladen
 │   ├── images            = Bilder für den Inhalt
 │   └── thumbnails        = Miniaturbilder für den Inhalt
 └── system                = Systemdateien
-    ├── extensions        = Erweiterungsdateien und Einstellungen
+    ├── extensions        = installierte Erweiterungen und Konfigurationsdateien
     ├── layouts           = konfigurierbare Layoutdateien
     ├── themes            = konfigurierbare Themendateien
     └── trash             = gelöschte Dateien
 ```
-Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man die Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man Bilder und andere Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier passt man die Webseite an und erstellt eigene Erweiterungen.
+Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man die Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man Bilder und andere Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier passt man die Webseite an und entwickelt Erweiterungen.
 
 ## Objekte
 
@@ -803,11 +804,11 @@ Erstelle eine Textbeschreibung, mit oder ohne HTML
 **toolbox->normaliseArguments($text, $appendSlash = true, $filterStrict = true)**  
 Normalisiere Ortargumente
 
-**toolbox->normaliseTokens($text, $prependSlash = false)**  
-Normalisiere Pfad oder Ort, kümmert sich um relative Pfadanteile
-
 **toolbox->normaliseData($text, $type = "html", $filterStrict = true)**  
 Normalisiere Elemente und Attribute in HTML/SVG-Daten
+
+**toolbox->normalisePath($text)**  
+Normalisiere relative Pfadanteile
 
 Hier ist ein Beispiel-Code um Textzeilen von einer Datei zu lesen:
 

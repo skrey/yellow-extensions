@@ -1,41 +1,41 @@
 ---
 Title: How to adjust content 
 ---
-All content is located in the `content` folder. You can edit your website here.
+All content files are located in the `content` folder. You can edit your website here.
 
     ├── content
     │   ├── 1-home
+    │   ├── 9-about
     │   └── shared
     ├── media
     └── system
 
-The `content` folders are available on your website. Every folder has a file called `page.md`. You can also add more files and folders. Basically, what you see in the file manager is the website you get.
+The `content` folder is available on your website. Every folder has a file called `page.md`. You can add more files and folders. You can also use special characters in file and folder names, for example ÄÖÅ. In other words, what you see in the file manager is the website you get.
 
 ## Files and folders
 
-The navigation is automatically created from your `content` folders:
+Your website is automatically created from your `content` folder:
 
-1. Folders can have a numerical prefix, e.g. `1-home` or `9-about`
-2. Files can have a numerical prefix, e.g. `2020-04-07-blog-example.md`
-3. Files and folders without a prefix have no special meaning
+1. Folders can have a numerical prefix for sorting, e.g. `1-home` or `9-about`
+2. Files can have a numerical prefix for sorting, e.g. `2020-04-07-blog-example.md`
+3. Files and folders without a prefix have no special meaning, e.g. `wiki-example.md`
 
-Prefix and suffix are removed from the location, so that it looks better. For example the folder `content/9-about/` is available on your website as `http://website/about/`. The file `content/9-about/privacy.md` becomes `http://website/about/privacy`. 
+Prefix and suffix are removed from the location, so that it looks better. For example the folder `content/1-home` is available on your website as `http://website/`. The folder `content/9-about` is available on your website as `http://website/about/`. The file `content/2-wiki/wiki-example.md` is available on your website as `http://website/wiki/wiki-example`. 
 
-There are two exception. The `home` folder must not contain subfolders, because it's responsible for the home page and available on your website as `http://website/`. The `shared` folder may only be included in other pages, it's not available on your website.
+While most folders are available on your website, there are two exception. The `content/1-home` folder must not contain subfolders. The `content/shared` folder may only be included in other folders, it's not directly available on your website. 
 
-## Markdown
+## Text
 
-Markdown is a practical way to edit web pages. Open the file `content/1-home/page.md` in your favorite text editor. You'll see settings and text of the page. You can change `Title` and other [page settings](how-to-adjust-system#page-settings) at the top of a page. Here's an example:
+You can edit your website in a web browser or text editor. At the top of a page you can change `Title` and other [page settings](how-to-adjust-system#page-settings). Below you can change text and images. Text formatting with [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown) is supported. You can also use HTML and shortcuts. Here are some examples:
 
     ---
-    Title: Home
-    TitleContent: Your website works!
+    Title: Example page
     ---
-    [image photo.jpg Example rounded]
-    
-    [edit - You can edit this page]. 
-    The help gives you more information about how to create small web pages, blogs and wikis. 
-    [Learn more](https://datenstrom.se/yellow/help/).
+    This is an example page.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
 
 Formatting text:
 
@@ -79,9 +79,9 @@ Making links:
 
 Adding images:
 
-    [image photo.jpg]
     [image photo.jpg Example]
     [image photo.jpg "This is an example image"]
+    [image photo.jpg "This is an especially long description"]
 
 Making tables:
 
@@ -136,29 +136,20 @@ Using CSS:
     ! {.class}
     ! Here's a notice with custom class.
     ! Text can span over several lines
-    ! and contain Markdown formatting.
+    ! and contain Markdown text formatting.
 
 Using HTML:
 
     <strong>Text with HTML</strong> can be used optionally.
+    <img src="/media/images/photo.jpg" alt="This is an example image">
     <a href="https://datenstrom.se" target="_blank">Open link in new tab</a>.
 
-## Shortcuts
+Using shortcuts:
 
-You can use shortcuts to add common features.
+    [gallery photo.*jpg zoom] = adding an image gallery with popup
+    [slider photo.*jpg loop]  = adding an image gallery with slider
+    [youtube fhs55HEl-Gc]     = embedding a video
 
-`[image photo.jpg Example right 50%]` = [add image thumbnail](https://github.com/datenstrom/yellow-extensions/tree/master/source/image)  
-`[gallery photo.*jpg zoom 25%]` = [add image gallery with popup](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery)  
-`[slider photo.*jpg loop]` = [add image gallery with slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider)  
-`[googlecalendar en.uk#holiday]` = [embed Google calendar](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar)  
-`[googlemap Stockholm]` = [embed Google map](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap)  
-`[youtube fhs55HEl-Gc]` = [embed Youtube video](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)  
-`[blogchanges /blog/]` = [show latest blog pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)  
-`[wikichanges /wiki/]` = [show latest wiki pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki)  
-`[fa fa-envelope-o]` = [show icons and symbols](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome)  
-`[ea ea-smile]` = [show emoji and colorful images](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome)  
-`[yellow about]` = [show website version](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`[edit]` = [edit website in web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
-`[toc]` = [show table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc)  
+    Shortcuts requires extensions to work. 
 
 Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
