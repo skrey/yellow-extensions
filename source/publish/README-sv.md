@@ -16,7 +16,7 @@ Börja med en [exempel-funktion](https://github.com/schulle4u/yellow-extension-h
 
 ## Hur man publicerar standardinstallationen
 
-[Standardinstallationen] är en samling av viktigaste tillägg. Du kan publicera en ny standardinstallation på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md), så att den använder senaste tillägg. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php publish yellow-extensions` och `php yellow.php publish yellow`. Detta uppdaterar alla nödvändiga filer. Ladda upp dina ändringar till GitHub och skapa en pull-request för `datenstrom/yellow-extensions` och `datenstrom/yellow`.
+[Standardinstallationen] är en samling av viktigaste tillägg. Du kan publicera en ny standardinstallation på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md), till exempel för att använda senaste tillägg och språkfilerna. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php publish yellow-extensions` och `php yellow.php publish yellow`. Detta uppdaterar alla nödvändiga filer. Ladda upp dina ändringar till GitHub och skapa en pull-request för `datenstrom/yellow-extensions` och `datenstrom/yellow`.
 
 ## Exempel
 
