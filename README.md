@@ -78,6 +78,8 @@ Features, themes and languages for Datenstrom Yellow. https://datenstrom.se/yell
   Alternative page redirection. Developed by Steffen Schultz.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search): 
   Full-text search. Developed by Datenstrom.
+* [Serve](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve): 
+  Built-in web server. Developed by Datenstrom.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap): 
   Sitemap with all pages. Developed by Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider): 

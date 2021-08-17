@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Command 0.8.28
+Command 0.8.29
 ==============
 Command line of the website.
 
@@ -9,10 +9,6 @@ Command line of the website.
 ## How to use the command line
 
 Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed. Type `php yellow.php about` to show the current version and extensions. If you don't have PHP on your computer, [see PHP installation](https://www.php.net/manual/en/install.php).
-
-## How to start the built-in web server
-
-You can test your website with the built-in web server. This is handy for developers, since everything runs on your own computer. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php serve`, you can optionally add a folder and a URL. Open a web browser and go to `http://localhost:8000/`.
 
 ## How to build a static website
 
@@ -34,13 +30,7 @@ Showing available commands at the command line:
 
 Showing current version and extensions at the command line:
  
-`php yellow.php about`
-
-Starting built-in web server at the command line:
-
-`php yellow.php serve`  
-`php yellow.php serve public http://localhost:8008/`  
-`php yellow.php serve dynamic http://localhost:8008/`  
+`php yellow.php about` 
 
 Building static website at the command line:
 
@@ -68,7 +58,7 @@ Using the command line, overview of available commands:
 `php yellow.php clean` = Clean static website, requires command extension  
 `php yellow.php install` = Add extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)  
-`php yellow.php serve` = Start built-in web server, requires command extension  
+`php yellow.php serve` = Start built-in web server, [requires serve extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve)  
 `php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
 `php yellow.php uninstall` = Remove extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php update` = Update website, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  

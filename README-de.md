@@ -78,6 +78,8 @@ Funktionen, Themen und Sprachen für Datenstrom Yellow. https://datenstrom.se/de
   Alternative Seitenweiterleitung. Entwickelt von Steffen Schultz.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-de.md): 
   Volltext-Suche. Entwickelt von Datenstrom.
+* [Serve](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve/README-de.md): 
+  Eingebauter Webserver. Entwickelt von Datenstrom.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap/README-de.md): 
   Sitemap mit allen Seiten. Entwickelt von Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md): 

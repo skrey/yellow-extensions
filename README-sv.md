@@ -78,6 +78,8 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Alternativ sida omdirigering. Utvecklad av Steffen Schultz.
 * [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-sv.md): 
   Heltekstsökning. Utvecklad av Datenstrom.
+* [Serve](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve/README-sv.md): 
+  Inbyggd webbserver. Utvecklad av Datenstrom.
 * [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap/README-sv.md): 
   Webbplatskarta med alla sidor. Utvecklad av Datenstrom.
 * [Slider](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-sv.md): 

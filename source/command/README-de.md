@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Command 0.8.28
+Command 0.8.29
 ==============
 Befehlszeile der Webseite.
 
@@ -9,10 +9,6 @@ Befehlszeile der Webseite.
 ## Wie man die Befehlszeile benutzt
 
 Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Gib ein `php yellow.php about`, um die aktuelle Version und Erweiterungen anzuzeigen. Falls du kein PHP auf deinem Computer hast, [siehe PHP Installation](https://www.php.net/manual/de/install.php).
-
-## Wie man den eingebauten Webserver startet
-
-Du kannst deine Webseite mit dem eingebauten Webserver testen. Das ist praktisch für Entwickler, da alles auf dem eigenem Computer läuft. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php serve`, du kannst wahlweise ein Verzeichnis und eine URL angeben. Öffne einen Webbrowser und gehe zu `http://localhost:8000/`.
 
 ## Wie man eine statische Webseite erstellt
 
@@ -34,13 +30,7 @@ Verfügbare Befehle in der Befehlszeile anzeigen:
 
 Aktuelle Version und Erweiterungen in der Befehlszeile anzeigen:
  
-`php yellow.php about`
-
-Eingebauten Webserver in der Befehlszeile starten:
-
-`php yellow.php serve`  
-`php yellow.php serve public http://localhost:8008/`  
-`php yellow.php serve dynamic http://localhost:8008/`  
+`php yellow.php about` 
 
 Statische Webseite in der Befehlszeile erstellen:
 
@@ -64,11 +54,11 @@ Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
 
 `php yellow.php about` = Aktuelle Version und Erweiterungen anzeigen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
-`php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung    
-`php yellow.php clean` = Statische Webseite löschen, erfordert Command-Erweiterung    
+`php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung  
+`php yellow.php clean` = Statische Webseite löschen, erfordert Command-Erweiterung  
 `php yellow.php install` = Erweiterungen hinzufügen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php publish` = Erweiterungen veröffentlichen, [erfordert Publish-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md)  
-`php yellow.php serve` = Eingebauten Webserver starten, erfordert Command-Erweiterung    
+`php yellow.php serve` = Eingebauten Webserver starten, [erfordert Serve-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve/README-de.md)  
 `php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md)  
 `php yellow.php uninstall` = Erweiterungen entfernen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
