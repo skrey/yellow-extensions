@@ -8,7 +8,7 @@ Built-in web server.
 
 ## How to start the built-in web server
 
-You can test your website with the built-in web server. This is handy for developers, since everything runs on your own computer. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php serve`, you can optionally add a folder and a URL. Open a web browser and go to `http://localhost:8000/`.
+You can start the built-in web server at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). The built-in web server is handy for developers, for example to test a website before you upload it to your web server. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php serve`, you can optionally add a folder and a URL. Open a web browser and go to `http://localhost:8000/`.
 
 ## Examples
 

@@ -8,7 +8,7 @@ Inbyggd webbserver.
 
 ## Hur man startar inbyggda webbservern
 
-Du kan testa din webbplats med inbyggda webbservern. Detta är praktiskt för utvecklare, eftersom allt körs på din egen dator. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php serve`, du kan valfritt ange en mapp och en URL. Öppna en webbläsare och gå till `http://localhost:8000/`.
+Du kan starta inbyggda webbservern på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Detta är praktiskt för utvecklare, till exempel för att testa en webbplats innan den laddas upp till webbservern. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php serve`, du kan valfritt ange en mapp och en URL. Öppna en webbläsare och gå till `http://localhost:8000/`.
 
 ## Exempel
 
