@@ -23,11 +23,11 @@ Mappen `media/images` är platsen för att lagra dina bilder. Mappen `media/thum
 
 ## Exempel
 
-Lägga till en bild:
+Lägga till en bild, olika beskrivningar:
 
-    [image photo.jpg]
     [image photo.jpg Exempel]
     [image photo.jpg "Detta är en exempelbild"]
+    [image photo.jpg "Detta är en särskilt lång beskrivning"]
 
 Lägga till en bild, olika stilar:
 

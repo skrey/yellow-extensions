@@ -106,11 +106,11 @@ EditUploadNewLocation: /media/@group/@folder/@filename
 EditUploadNewLocation: /media/uploads/@filename
 ```
 
-Visar tillgängliga användarkonton på kommandoraden:
+Visa tillgängliga användarkonton på kommandoraden:
 
 `php yellow.php user`  
 
-Uppdatera användarkonton på kommandoraden:
+Skapa användarkonton på kommandoraden:
  
 `php yellow.php user add email@example.com password`  
 `php yellow.php user change email@example.com password`  
@@ -183,8 +183,8 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 
 `content/shared/page-new-default.md` = innehållsfil för ny sida  
-`content/shared/page-new-blog.md` = innehållsfil för ny bloggsida  
 `content/shared/page-new-wiki.md` = innehållsfil för ny wikisida  
+`content/shared/page-new-blog.md` = innehållsfil för ny bloggsida  
 `content/shared/page-error-404.md` = innehållsfil för felsida  
 
 ## Installation

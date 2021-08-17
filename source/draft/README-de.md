@@ -24,6 +24,16 @@ Inhaltsdatei mit Draft-Status:
     ---
     Das ist eine Beispielseite.
 
+Inhaltsdatei mit Draft-Status fürs Wiki:
+
+    ---
+    Title: Wiki-Beispiel
+    Layout: wiki
+    Tag: Beispiel
+    Status: draft
+    ---
+    Das ist eine Beispielseite fürs Wiki.
+
 Inhaltsdatei mit Draft-Status fürs Blog:
 
     ---
@@ -35,16 +45,6 @@ Inhaltsdatei mit Draft-Status fürs Blog:
     Status: draft
     ---
     Das ist eine Beispielseite fürs Blog.
- 
-Inhaltsdatei mit Draft-Status fürs Wiki:
-
-    ---
-    Title: Wiki-Beispiel
-    Layout: wiki
-    Tag: Beispiel
-    Status: draft
-    ---
-    Das ist eine Beispielseite fürs Wiki.
 
 ## Einstellungen
 

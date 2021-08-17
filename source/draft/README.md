@@ -24,6 +24,16 @@ Content file with draft status:
     ---
     This is an example page.
 
+Content file with draft status for wiki:
+
+    ---
+    Title: Wiki example
+    Layout: wiki
+    Tag: Example
+    Status: draft
+    ---
+    This is an example wiki page.
+
 Content file with draft status for blog:
 
     ---
@@ -35,16 +45,6 @@ Content file with draft status for blog:
     Status: draft
     ---
     This is an example blog page.
- 
-Content file with draft status for wiki:
-
-    ---
-    Title: Wiki example
-    Layout: wiki
-    Tag: Example
-    Status: draft
-    ---
-    This is an example wiki page.
 
 ## Settings
 

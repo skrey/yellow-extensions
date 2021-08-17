@@ -26,7 +26,6 @@ Bildunterschriften können in den Spracheinstellungen festgelegt werden. Öffne 
 
 Bildergalerie hinzufügen, unterschiedliche Stile:
 
-    [gallery photo.*jpg]
     [gallery photo.*jpg zoom]
     [gallery photo.*jpg simple]
 

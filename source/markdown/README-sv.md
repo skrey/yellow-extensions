@@ -8,11 +8,7 @@ Textformatering för människor.
 
 ## Hur man formaterar text
 
-Markdown är ett praktiskt sätt att redigera webbsidor. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
-
-## Hur man använder förkortningar
-
-Förutom Markdown finns det förkortningar. Markdown tillhandahåller de grundläggande funktionerna, förkortningar ger vanliga funktioner. Du kan lägga till [bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md), [videor](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-sv.md), [ikoner](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-sv.md), [innehållsförteckning](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-sv.md) och mer på din webbplats.
+Markdown är ett praktiskt sätt att redigera webbsidor. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Förutom Markdown finns det förkortningar. Du kan lägga till [bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md), [bildgallerier](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md), [videor](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-sv.md) och mer på din webbplats.
 
 ## Exempel
 
@@ -52,15 +48,15 @@ Skapa citat:
 
 Skapa länkar:
 
-    [Länk till sidan](/sv/help/how-to-make-a-small-website)
+    [Länk till sidan](/help/how-to-make-a-small-website)
     [Länk till fil](/media/downloads/yellow.pdf)
     [Länk till webbplats](https://datenstrom.se/sv/)
 
 Lägga till bilder:
 
-    [image photo.jpg]
     [image photo.jpg Exempel]
     [image photo.jpg "Detta är en exempelbild"]
+    [image photo.jpg "Detta är en särskilt lång beskrivning"]
 
 Skapa tabeller:
 
@@ -115,12 +111,21 @@ Använd CSS:
     ! {.class}
     ! Här är en indikation med anpassad klass.
     ! Text kan sträcka sig över flera rader
-    ! och innehåller Markdown-formatering.
+    ! och innehåller Markdown-textformatering.
 
 Använd HTML:
 
     <strong>Text med HTML</strong> kan valfritt användas.
+    <img src="/media/images/photo.jpg" alt="This is an example image">
     <a href="https://datenstrom.se" target="_blank">Öppna länken i en ny flik</a>.
+
+Använd förkortningar:
+
+    [gallery photo.*jpg zoom] = lägga till ett bildgalleri med popup
+    [slider photo.*jpg loop]  = lägga till ett bildgalleri med reglaget
+    [youtube fhs55HEl-Gc]     = bädda in en video
+
+    Förkortningar kräver tillägg för att fungera.
 
 ## Inställningar
 

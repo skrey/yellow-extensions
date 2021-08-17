@@ -22,11 +22,11 @@ The image formats GIF, JPG, PNG and SVG are supported. All media files are locat
 
 ## Examples
 
-Adding an image:
+Adding an image, different descriptions:
 
-    [image photo.jpg]
     [image photo.jpg Example]
     [image photo.jpg "This is an example image"]
+    [image photo.jpg "This is an especially long description"]
 
 Adding an image, different styles:
 

@@ -8,11 +8,7 @@ Textformatierung für Menschen.
 
 ## Wie man Text formatiert
 
-Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
-
-## Wie man Abkürzungen benutzt
-
-Zusätzlich zu Markdown gibt es Abkürzungen. Markdown bietet die grundlegenden Funktionen, Abkürzungen bieten häufige Funktionen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md), [Videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md), [Icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-de.md), [Inhaltsverzeichnis](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md) und mehr in deine Webseite einbinden.
+Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Zusätzlich zu Markdown gibt es Abkürzungen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md), [Bildergalerien](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md), [Videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md) und mehr in deine Webseite einbinden.
 
 ## Beispiele
 
@@ -58,9 +54,9 @@ Links erstellen:
 
 Bilder hinzufügen:
 
-    [image photo.jpg]
     [image photo.jpg Beispiel]
     [image photo.jpg "Dies ist ein Beispielbild"]
+    [image photo.jpg "Dies ist eine besonders lange Beschreibung"]
 
 Tabellen erstellen:
 
@@ -115,12 +111,21 @@ CSS benutzen:
     ! {.class}
     ! Hier ist ein Hinweis mit benutzerdefinierter Klasse.
     ! Der Text kann über mehrere Zeilen gehen
-    ! und Markdown-Formatierung beinhalten.
+    ! und Markdown-Textformatierung beinhalten.
 
 HTML benutzen:
 
     <strong>Text mit HTML</strong> kann wahlweise benutzt werden.
+    <img src="/media/images/photo.jpg" alt="Dies ist ein Beispielbild">
     <a href="https://datenstrom.se/de/" target="_blank">Link in einem neuen Tab öffnen</a>.
+
+Abkürzungen benutzen:
+
+    [gallery photo.*jpg zoom] = Bildergalerie mit Popup hinzufügen 
+    [slider photo.*jpg loop]  = Bildergalerie mit Schieber hinzufügen
+    [youtube fhs55HEl-Gc]     = Video einbinden 
+
+    Abkürzungen erfordern Erweiterungen um zu funktionieren.
 
 ## Einstellungen
 

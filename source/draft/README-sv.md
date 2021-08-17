@@ -24,6 +24,16 @@ Innehållsfil med draft-status:
     ---
     Detta är ett exempelsida.
 
+Innehållsfil med draft-status för wikin:
+
+    ---
+    Title: Wiki exempel
+    Layout: wiki
+    Tag: Exempel
+    Status: draft
+    ---
+    Detta är ett exempel på en wikisida.
+
 Innehållsfil med draft-status för bloggen:
 
     ---
@@ -35,16 +45,6 @@ Innehållsfil med draft-status för bloggen:
     Status: draft
     ---
     Detta är ett exempel på en bloggsida.
-
-Innehållsfil med draft-status för wikin:
-
-    ---
-    Title: Wiki exempel
-    Layout: wiki
-    Tag: Exempel
-    Status: draft
-    ---
-    Detta är ett exempel på en wikisida.
 
 ## Inställningar
 

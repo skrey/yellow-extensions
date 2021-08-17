@@ -30,15 +30,15 @@ Lägga till ett bildgalleri, olika stilar:
 
 Lägga till ett bildgalleri, olika storlekar:
 
-    [slider photo.*jpg loop 100%]
-    [slider photo.*jpg loop 50%]
     [slider photo.*jpg loop 25%]
+    [slider photo.*jpg loop 50%]
+    [slider photo.*jpg loop 100%]
 
 Lägga till ett bildgalleri från en undermapp, olika storlekar:
 
-    [slider photo-album/ loop 100%]
-    [slider photo-album/ loop 50%]
     [slider photo-album/ loop 25%]
+    [slider photo-album/ loop 50%]
+    [slider photo-album/ loop 100%]
 
 Lägga till ett bildgalleri, spela automatiskt med standard stil/storlek:
 

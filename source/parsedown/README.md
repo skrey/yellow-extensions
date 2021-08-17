@@ -8,11 +8,7 @@ Text formatting for humans.
 
 ## How to format text
 
-Markdown is a practical way to edit web pages. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
-
-## How to use shortcuts
-
-In addition to Markdown there are shortcuts. Markdown provides the basic features, shortcuts provide common features. You can add [images](https://github.com/datenstrom/yellow-extensions/tree/master/source/image), [videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome), [icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome), [table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc) and more to your website.
+Markdown is a practical way to edit web pages. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). In addition to Markdown there are shortcuts. You can add [images](https://github.com/datenstrom/yellow-extensions/tree/master/source/image), [image galleries](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery), [videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome) and more to your website.
 
 ## Examples
 
@@ -52,15 +48,15 @@ Making quotes:
 
 Making links:
 
-    [Link to page](/help/how-to-make-a-website)
+    [Link to page](/help/how-to-make-a-small-website)
     [Link to file](/media/downloads/yellow.pdf)
     [Link to website](https://datenstrom.se)
 
 Adding images:
 
-    [image photo.jpg]
     [image photo.jpg Example]
     [image photo.jpg "This is an example image"]
+    [image photo.jpg "This is an especially long description"]
 
 Making tables:
 
@@ -115,12 +111,21 @@ Using CSS:
     ! {.class}
     ! Here's a notice with custom class.
     ! Text can span over several lines
-    ! and contain Markdown formatting.
+    ! and contain Markdown text formatting.
 
 Using HTML:
 
     <strong>Text with HTML</strong> can be used optionally.
+    <img src="/media/images/photo.jpg" alt="This is an example image">
     <a href="https://datenstrom.se" target="_blank">Open link in new tab</a>.
+
+Using shortcuts:
+
+    [gallery photo.*jpg zoom] = adding an image gallery with popup
+    [slider photo.*jpg loop]  = adding an image gallery with slider
+    [youtube fhs55HEl-Gc]     = embedding a video
+
+    Shortcuts requires extensions to work. 
 
 ## Settings
 

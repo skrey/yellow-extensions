@@ -6,15 +6,9 @@ Kernfunktionalität der Webseite.
 
 <p align="center"><img src="core-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man eine Webseite auf dem Computer bearbeitet
+## Wie man eine Webseite im Texteditor bearbeitet
 
-Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager verändern. Alle Inhalte befinden sich im `content`-Verzeichnis. In jedem Verzeichnis gibt es eine Datei mit Namen `page.md`. Im Prinzip ist das, was du im Dateimanager siehst, die Webseite die du bekommst. Du kannst den [eingebauten Webserver starten](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md#wie-man-den-eingebauten-webserver-startet) oder eine [statische Webseite erstellen](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md#wie-man-eine-statische-webseite-erstellt).
-
-## Wie man eine Webseite auf dem Computer anpasst
-
-Falls du HTML anpassen willst, ändere das Layout. Das Standardlayout wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderes Layout lässt sich in den [Seiteneinstellungen](#einstellungen-seite) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Natürlich gibt es eine [API für Entwickler](https://datenstrom.se/de/yellow/help/api-for-developers).
-
-Falls du CSS anpassen willst, ändere das Thema. Das Standardthema wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderes Thema lässt sich in den [Seiteneinstellungen](#einstellungen-seite) ganz oben auf jeder Seite festlegen, zum Beispiel `Theme: berlin`. Streng genommen bestehen Themen nicht nur aus CSS, sondern aus mehreren Dateien. Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Es gibt [Themen zum Herunterladen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#themen) und ein [Beispiel für Designer](https://github.com/schulle4u/yellow-extension-basic).
+Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager verändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man die Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man Bilder und andere Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier passt man die Webseite an und entwickelt Erweiterungen. Mit anderen Worten, das was du im Dateimanager siehst ist die Webseite die du bekommt.
 
 ## Wie man eine Seite versteckt
 

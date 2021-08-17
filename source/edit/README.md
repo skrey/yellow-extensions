@@ -110,7 +110,7 @@ Showing available user accounts at the command line:
 
 `php yellow.php user`  
 
-Updating user accounts at the command line:
+Creating user accounts at the command line:
  
 `php yellow.php user add email@example.com password`  
 `php yellow.php user change email@example.com password`  
@@ -183,8 +183,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 <a id="settings-files"></a>The following files can be customised:
 
 `content/shared/page-new-default.md` = content file for new page  
-`content/shared/page-new-blog.md` = content file for new blog page  
 `content/shared/page-new-wiki.md` = content file for new wiki page  
+`content/shared/page-new-blog.md` = content file for new blog page  
 `content/shared/page-error-404.md` = content file for error page  
 
 ## Installation

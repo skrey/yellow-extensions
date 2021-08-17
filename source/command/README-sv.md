@@ -45,20 +45,20 @@ Starta inbyggda webbservern på kommandoraden:
 Bygg statisk webbplats på kommandoraden: 
 
 `php yellow.php build`  
-`php yellow.php build public /blog/`  
 `php yellow.php build public /wiki/`  
+`php yellow.php build public /blog/`  
 
 Kontrollera statisk webbplats för trasiga länkar på kommandoraden:
 
 `php yellow.php check`  
-`php yellow.php check public /blog/`  
 `php yellow.php check public /wiki/`  
+`php yellow.php check public /blog/`  
 
 Rengör statisk webbplats och filer på kommandoraden:
 
 `php yellow.php clean`  
-`php yellow.php clean public /blog/`  
 `php yellow.php clean public /wiki/`  
+`php yellow.php clean public /blog/`  
 
 Använd kommandoraden, översikt över tillgängliga kommandon:
 
@@ -72,7 +72,7 @@ Använd kommandoraden, översikt över tillgängliga kommandon:
 `php yellow.php traffic` = Skapa trafikanalys, [kräver traffic-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-sv.md)  
 `php yellow.php uninstall` = Ta bort tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
 `php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
-`php yellow.php user` = Uppdatera användarkonton, [kräver edit-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  
+`php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  
 
 Förhindra att en sida byggs:
 

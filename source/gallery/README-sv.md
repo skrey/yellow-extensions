@@ -27,7 +27,6 @@ Bildtexter kan konfigureras i språkinställningarna. Öppna filen `system/exten
 
 Lägga till ett bildgalleri, olika stilar:
 
-    [gallery photo.*jpg]
     [gallery photo.*jpg zoom]
     [gallery photo.*jpg simple]
 

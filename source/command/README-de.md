@@ -45,20 +45,20 @@ Eingebauten Webserver in der Befehlszeile starten:
 Statische Webseite in der Befehlszeile erstellen:
 
 `php yellow.php build`  
-`php yellow.php build public /blog/`  
 `php yellow.php build public /wiki/`  
+`php yellow.php build public /blog/`  
 
 Statische Webseite in der Befehlszeile nach fehlerhaften Links überprüfen:
 
 `php yellow.php check`  
-`php yellow.php check public /blog/`  
 `php yellow.php check public /wiki/`  
+`php yellow.php check public /blog/`  
 
 Statische Webseite und Dateien in der Befehlszeile löschen:
 
 `php yellow.php clean`  
-`php yellow.php clean public /blog/`  
 `php yellow.php clean public /wiki/`  
+`php yellow.php clean public /blog/`  
 
 Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
 
@@ -72,7 +72,7 @@ Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
 `php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md)  
 `php yellow.php uninstall` = Erweiterungen entfernen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`php yellow.php user` = Benutzerkonten aktualisieren, [erfordert Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
+`php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 
 Verhindern dass eine Seite erstellt wird:
 

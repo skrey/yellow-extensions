@@ -26,7 +26,6 @@ Image captions can be configured in the language settings. Open file `system/ext
 
 Adding an image gallery, different styles:
 
-    [gallery photo.*jpg]
     [gallery photo.*jpg zoom]
     [gallery photo.*jpg simple]
 

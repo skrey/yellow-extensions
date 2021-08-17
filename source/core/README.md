@@ -6,15 +6,9 @@ Core functionality of the website.
 
 <p align="center"><img src="core-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to edit a website on the computer
+## How to edit a website in a text editor
 
-You can use your favorite text editor and change everything in the file manager. All content is located in your `content` folder. Every folder has a file called `page.md`. Basically, what you see in the file manager is the website you get. You can [start the built-in web server](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-start-the-built-in-web-server) or [build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command#how-to-build-a-static-website).
-
-## How to customise a website on the computer
-
-If you want to adjust HTML, then change the layout. The default layout is defined in file `system/extensions/yellow-system.ini`. A different layout can be defined in the [page settings](#settings-page) at the top of each page, for example `Layout: default`. All layout files are stored in your `system/layouts` folder. Of course there's an [API for developers](https://datenstrom.se/yellow/help/api-for-developers).
-
-If you want to adjust CSS, then change the theme. The default theme is defined in file `system/extensions/yellow-system.ini`. A different theme can be defined in the [page settings](#settings-page) at the top of each page, for example `Theme: stockholm`. Strictly speaking, themes consist not only of CSS but of multiple files. All theme files are stored in your `system/themes` folder. There are [themes to download](https://github.com/datenstrom/yellow-extensions#themes) and an [example for designers](https://github.com/schulle4u/yellow-extension-basic).
+You can use your favorite text editor and change everything in the file manager. The `content` folder contains the content files of the website. You can edit the website here. The `media` folder contains the media files of the website. You can store images and other files here. The `system` folder contains the system files of the website. You can adjust the website and develop extensions here. In other words, what you see in the file manager is the website you get.
 
 ## How to hide a page
 

@@ -45,20 +45,20 @@ Starting built-in web server at the command line:
 Building static website at the command line:
 
 `php yellow.php build`  
-`php yellow.php build public /blog/`  
 `php yellow.php build public /wiki/`  
+`php yellow.php build public /blog/`  
 
 Checking static website for broken links at the command line:
 
 `php yellow.php check`  
-`php yellow.php check public /blog/`  
 `php yellow.php check public /wiki/`  
+`php yellow.php check public /blog/`  
 
 Cleaning static website and files at the command line:
 
 `php yellow.php clean`  
-`php yellow.php clean public /blog/`  
 `php yellow.php clean public /wiki/`  
+`php yellow.php clean public /blog/`  
 
 Using the command line, overview of available commands:
 
@@ -72,7 +72,7 @@ Using the command line, overview of available commands:
 `php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
 `php yellow.php uninstall` = Remove extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php update` = Update website, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php user` = Update user accounts, [requires edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+`php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 
 Preventing that a page is built:
 

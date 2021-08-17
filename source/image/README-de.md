@@ -22,11 +22,11 @@ Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien be
 
 ## Beispiele
 
-Bild hinzufügen:
+Bild hinzufügen, unterschiedliche Beschreibungen:
 
-    [image photo.jpg]
     [image photo.jpg Beispiel]
-    [image photo.jpg "Das ist ein Beispielbild"]
+    [image photo.jpg "Dies ist ein Beispielbild"]
+    [image photo.jpg "Dies ist eine besonders lange Beschreibung"]
 
 Bild hinzufügen, unterschiedliche Stile:
 

@@ -110,7 +110,7 @@ Vorhandene Benutzerkonten in der Befehlszeile anzeigen:
 
 `php yellow.php user`  
 
-Benutzerkonten in der Befehlszeile aktualisieren:
+Benutzerkonten in der Befehlszeile erstellen:
  
 `php yellow.php user add email@example.com password`  
 `php yellow.php user change email@example.com password`  
@@ -183,8 +183,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
 `content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
-`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
 `content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
+`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
 `content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
 
 ## Installation
