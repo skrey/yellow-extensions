@@ -24,6 +24,14 @@ Falls du nicht willst dass eine Seite erstellt wird, kannst du `Build: exclude` 
 
 ## Beispiele
 
+Inhaltsdatei mit Option zum Erstellen einer statischen Webseite:
+
+    ---
+    Title: Beispielseite
+    Build: exclude
+    ---
+    Diese Seite ist in einer statischen Webseite oder Zwischenspeicher nicht enthalten.
+
 Verfügbare Befehle in der Befehlszeile anzeigen:
 
 `php yellow.php`
@@ -63,14 +71,6 @@ Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
 `php yellow.php uninstall` = Erweiterungen entfernen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
 `php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
-
-Verhindern dass eine Seite erstellt wird:
-
-    ---
-    Title: Beispielseite
-    Build: exclude
-    ---
-    Diese Seite ist in einer statischen Webseite oder Zwischenspeicher nicht enthalten.
 
 ## Einstellungen
 

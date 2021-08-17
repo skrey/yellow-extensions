@@ -26,7 +26,16 @@ The main configuration file is `system/extensions/yellow-system.ini`. Here's an 
     Parser: markdown
     Status: public
 
-You can use a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) or text editor to change the system settings. The system settings contain the most important settings of your website as well as the settings of all extensions. After a new installation you should check `Sitename`, `Author` and `Email`.
+You can use a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) or text editor to change the system settings. The system settings contain the settings of your website and of all extensions. After a new installation be sure to check `Sitename`, `Author` and `Email`. The following settings can be configured:
+
+`Sitename` = name of the website  
+`Author` = name of the webmaster  
+`Email` = email of the webmaster  
+`Theme` = default theme  
+`Language` = default language  
+`Layout` = default layout  
+`Parser` = default page parser  
+`Status` = default page status  
 
 ## User settings
 
@@ -78,7 +87,7 @@ The following settings can be configured at the top of a page:
 `Layout` = page layout  
 `LayoutNew` = page layout for creating a new page  
 `Parser` = page parser  
-`Status` = status for workflow  
+`Status` = page status  
 `Redirect` = redirect to a new page or URL  
 `Image` = page image  
 `ImageAlt` = description of the page image  

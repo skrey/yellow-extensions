@@ -83,7 +83,7 @@ Innehållsfil med omdirigering:
 `Modified` = sidans ändringsdatum, ÅÅÅÅ-MM-DD format  
 `Published` = sidans publiceringsdatum, ÅÅÅÅ-MM-DD format  
 `Tag` = taggar för kategorisering av sidan, kommaseparerade  
-`Build` = alternativ för att skapa en statisk webbsida, kommaseparerade  
+`Build` = alternativ för att bygga en statisk webbplats, kommaseparerade  
 `Comment` = alternativ för att visa kommentarer, kommaseparerade  
 
 <a id="inställningar-status"></a>Följande sidstatusvärden stöds:

@@ -8,7 +8,7 @@ Hier erfährst du, wie du deine Webseite installierst.
 1. [Datenstrom Yellow herunterladen](https://github.com/datenstrom/yellow/archive/master.zip).
 2. Entpacke und kopiere alle Dateien auf deinen Webserver.
 3. Öffne deine Webseite im Webbrowser.
-4. Erstelle ein Benutzerkonto.
+4. Erstelle ein Benutzerkonto für den Webmaster, gebe E-Mail und Kennwort ein.
 5. Bearbeite deine Webseite im Webbrowser.
 
 Falls du mehr über deine Webseite erfahren möchtest, [siehe Hilfe für deine Webseite](.).

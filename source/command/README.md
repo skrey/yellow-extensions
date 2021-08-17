@@ -24,6 +24,14 @@ If you don't want that a page is built, set `Build: exclude` in the [page settin
 
 ## Examples
 
+Content file with option for building a static website:
+
+    ---
+    Title: Example page
+    Build: exclude
+    ---
+    This page is not included in a static website or cache.
+
 Showing available commands at the command line:
 
 `php yellow.php`
@@ -63,14 +71,6 @@ Using the command line, overview of available commands:
 `php yellow.php uninstall` = Remove extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php update` = Update website, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
 `php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
-
-Preventing that a page is built:
-
-    ---
-    Title: Example page
-    Build: exclude
-    ---
-    This page is not included in a static website or cache.
 
 ## Settings
 

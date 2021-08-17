@@ -26,7 +26,16 @@ Die zentrale Konfigurationsdatei ist `system/extensions/yellow-system.ini`. Hier
     Parser: markdown
     Status: public
 
-Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) oder Texteditor kannst du die Systemeinstellungen ändern. Die Systemeinstellungen enthalten sowohl die wichtigsten Einstellungen deiner Webseite als auch die Einstellungen aller Erweiterungen. Nach einer neuen Installation sollte man `Sitename`, `Author` und `Email` überprüfen.
+Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) oder Texteditor kannst du die Systemeinstellungen ändern. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller Erweiterungen. Nach einer neuen Installation sollte man unbedingt `Sitename`, `Author` und `Email` überprüfen. Die folgenden Einstellungen können vorgenommen werden:
+
+`Sitename` = Name der Webseite  
+`Author` = Name des Webmasters  
+`Email` = E-Mail des Webmasters  
+`Theme` = Standard-Thema  
+`Language` = Standard-Sprache  
+`Layout` = Standard-Layout  
+`Parser` = Standard-Seitenparser  
+`Status` = Standard-Seitenstatus  
 
 ## Benutzereinstellungen
 
@@ -78,7 +87,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Layout` = Layout der Seite  
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
 `Parser` = Parser der Seite  
-`Status` = Status für Arbeitsablauf  
+`Status` = Status der Seite  
 `Redirect` = Umleitung zu einer neuen Seite oder URL  
 `Image` = Bild der Seite  
 `ImageAlt` = Beschreibung des Bildes der Seite  

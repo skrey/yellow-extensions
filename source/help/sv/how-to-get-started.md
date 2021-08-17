@@ -8,7 +8,7 @@ Läs om hur du installerar din webbplats.
 1. [Ladda ner Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
 2. Packa upp och kopiera alla filer till din webbserver.
 3. Öppna din webbplats i en webbläsare.
-4. Skapa ett användarkonto.
+4. Skapa ett användarkonto för webmastern, ange email och lösenord.
 5. Redigera din webbplats i en webbläsare.
 
 Om du vill läsa mer om din webbplats, [se hjälp för din webbplats](.).

@@ -26,7 +26,16 @@ Den centrala konfigurationsfilen är `system/extensions/yellow-system.ini`. Här
     Parser: markdown
     Status: public
 
-Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) eller textredigeraren för att ändra systeminställningar. Systeminställningarna innehåller de viktigaste inställningarna för din webbplats samt inställningarna för alla tillägg. Efter en ny installation bör du kontrollera `Sitename`, `Author` och `Email`.
+Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) eller textredigeraren för att ändra systeminställningar. Systeminställningarna innehåller inställningarna för din webbplats och för alla tillägg. Efter en ny installation var noga med att kontrollera `Sitename`, `Author` och `Email`. Följande inställningar kan konfigureras:
+
+`Sitename` = webbplatsens namn  
+`Author` = webmasterns namn  
+`Email` = webmasterns email  
+`Theme` = standardtema  
+`Language` = standardspråk  
+`Layout` = standardlayout  
+`Parser` = standard sidparser  
+`Status` = standard sidstatus  
 
 ## Användarinställningar
 
@@ -85,7 +94,7 @@ Följande inställningar kan konfigureras högst upp på en sida:
 `Modified` = sidans ändringsdatum, ÅÅÅÅ-MM-DD format  
 `Published` = sidans publiceringsdatum, ÅÅÅÅ-MM-DD format  
 `Tag` = taggar för kategorisering av sidan, kommaseparerade  
-`Build` = alternativ för att skapa en statisk webbsida, kommaseparerade  
+`Build` = alternativ för att bygga en statisk webbplats, kommaseparerade  
 `Comment` = alternativ för att visa kommentarer, kommaseparerade  
 
 Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).

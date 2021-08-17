@@ -8,7 +8,7 @@ E-post kontaktsida.
 
 ## Hur man använder en kontaktsida
 
-Kontaktsidan finns tillgänglig på din webbplats som `http://website/contact/`. Webmastern tar emot alla kontaktmeddelanden. Webmastarens email definieras i filen `system/extensions/yellow-system.ini`. Du kan ställa in en annan `Author` and `Email` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida. Se till att email matchar domännamnet på din webbplats. 
+Kontaktsidan finns tillgänglig på din webbplats som `http://website/contact/`. Webmastern tar emot alla kontaktmeddelanden. Webmasterns email definieras i filen `system/extensions/yellow-system.ini`. Du kan ställa in en annan `Author` and `Email` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida. Se till att email matchar domännamnet på din webbplats. 
 
 För att visa ett kontaktformulär på andra sidor, använd en `[contact]` förkortning. Du kan också lägga till en länk till kontaktsidan någonstans på din webbplats.
 

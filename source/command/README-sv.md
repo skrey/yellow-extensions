@@ -24,6 +24,14 @@ Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinstäl
 
 ## Exempel
 
+Innehållsfil med alternativ för att bygga en statisk webbplats:
+
+    ---
+    Title: Exempelsida
+    Build: exclude
+    ---
+    Den här sidan ingår inte i en statisk webbplats eller cache.
+
 Visa tillgängliga kommandon på kommandoraden:
 
 `php yellow.php`
@@ -63,14 +71,6 @@ Använd kommandoraden, översikt över tillgängliga kommandon:
 `php yellow.php uninstall` = Ta bort tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
 `php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
 `php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  
-
-Förhindra att en sida byggs:
-
-    ---
-    Title: Exempelsida
-    Build: exclude
-    ---
-    Den här sidan ingår inte i en statisk webbplats eller cache.
 
 ## Inställningar
 
