@@ -7,7 +7,7 @@ Hier erfährst du, wie du dein Wiki erstellst.
 
 ## Erste Schritte
 
-[Folge der Installations-Anleitung](how-to-get-started) und wähle `Wiki` aus. Falls du das Wiki später hinzufügen willst, [installiere die Wiki-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md). Die Installation kommt mit drei Seiten, "Startseite", "Wiki" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Wiki im Webbrowser oder Texteditor bearbeiten. Es gibt kein Administratorpanel, nichts das dir im Weg steht. 
+[Folge der Installations-Anleitung](how-to-get-started) und wähle `Wiki` aus. Falls du das Wiki später hinzufügen willst, [installiere die Wiki-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md). Die Installation kommt mit drei Seiten, "Startseite", "Wiki" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Wiki im Webbrowser oder Texteditor bearbeiten. Es gibt kein Administratorpanel, keine Datenbank, nichts das dir im Weg steht. 
 
 
 ## Wikiseiten bearbeiten

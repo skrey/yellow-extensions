@@ -15,9 +15,9 @@ If you want to learn more about your website, [see help for your website](.).
 
 ## Installation on your computer
 
-1. Download Datenstrom Yellow with `curl -LO https://github.com/datenstrom/yellow/archive/master.zip`.
+1. [Download Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
 2. Unzip and copy all files to the desired folder.
-3. Open a terminal window and go to your installation folder. 
+3. Open a terminal window and go to the folder with the `yellow.php`. 
 4. Start the built-in web server with the command `php yellow.php serve`.
 5. Edit your website in a text editor.
 

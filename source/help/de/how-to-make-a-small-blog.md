@@ -7,7 +7,7 @@ Hier erfährst du, wie du dein Blog erstellst.
 
 ## Erste Schritte
 
-[Folge der Installations-Anleitung](how-to-get-started) und wähle `Blog` aus. Falls du das Blog später hinzufügen möchtest, [installiere die Blog-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md). Die Installation kommt mit drei Seiten, "Startseite", "Blog" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Blog im Webbrowser oder Texteditor bearbeiten. Es gibt kein Administratorpanel, nichts das dir im Weg steht. 
+[Folge der Installations-Anleitung](how-to-get-started) und wähle `Blog` aus. Falls du das Blog später hinzufügen möchtest, [installiere die Blog-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md). Die Installation kommt mit drei Seiten, "Startseite", "Blog" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Blog im Webbrowser oder Texteditor bearbeiten. Es gibt kein Administratorpanel, keine Datenbank, nichts das dir im Weg steht. 
  
 ## Blogseiten bearbeiten
 

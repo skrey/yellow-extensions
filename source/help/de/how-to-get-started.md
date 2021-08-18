@@ -15,9 +15,9 @@ Falls du mehr über deine Webseite erfahren möchtest, [siehe Hilfe für deine W
 
 ## Installation auf deinem Computer
 
-1. Datenstrom Yellow herunterladen mit `curl -LO https://github.com/datenstrom/yellow/archive/master.zip`.
+1. [Datenstrom Yellow herunterladen](https://github.com/datenstrom/yellow/archive/master.zip).
 2. Entpacke und kopiere alle Dateien ins gewünschte Verzeichnis.
-3. Öffne ein Terminalfenster und gehe ins Installations-Verzeichnis. 
+3. Öffne ein Terminalfenster und gehe ins Verzeichnis mit der `yellow.php`.
 4. Starte den eingebauten Webserver mit dem Befehl `php yellow.php serve`.
 5. Bearbeite deine Webseite im Texteditor.
 

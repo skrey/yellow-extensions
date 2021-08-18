@@ -7,7 +7,7 @@ Title: Hur man skapar små webbsidor
 
 ## First steps
 
-[Follow the installation instructions](how-to-get-started) and select `Website`. If there are problems with installation, [see troubleshooting](troubleshooting). The installation comes with two pages, 'Home' and 'About'. This is just an example to get you started. Change everything as you like. You can edit your website in a web browser or text editor. There's no admin panel, nothing that gets in your way.
+[Follow the installation instructions](how-to-get-started) and select `Website`. If there are problems with installation, [see troubleshooting](troubleshooting). The installation comes with two pages, 'Home' and 'About'. This is just an example to get you started. Change everything as you like. You can edit your website in a web browser or text editor. There's no admin panel, no database, nothing that gets in your way.
 
 ## Edit web pages
 

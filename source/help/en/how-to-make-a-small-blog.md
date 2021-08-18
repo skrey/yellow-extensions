@@ -7,7 +7,7 @@ Learn how to make your blog.
 
 ## First steps
 
-[Follow the installation instructions](how-to-get-started) and select `Blog`. If you want to add the blog later, [install the blog extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog). The installation comes with three pages, 'Home', 'Blog' and 'About'. This is just an example to get you started. Change everything as you like. You can edit your blog in a web browser or text editor. There's no admin panel, nothing that gets in your way.
+[Follow the installation instructions](how-to-get-started) and select `Blog`. If you want to add the blog later, [install the blog extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog). The installation comes with three pages, 'Home', 'Blog' and 'About'. This is just an example to get you started. Change everything as you like. You can edit your blog in a web browser or text editor. There's no admin panel, no database, nothing that gets in your way.
 
 ## Edit blog pages
 
