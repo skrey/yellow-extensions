@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.40";
+    const VERSION = "0.8.41";
     public $yellow;                 // access to API
     public $extensions;             // number of extensions
     public $errors;                 // number of errors
@@ -33,39 +33,54 @@ class YellowPublish {
     public function processCommandPublish($command, $text) {
         $statusCode = 0;
         list($path) = $this->yellow->toolbox->getTextArguments($text);
-        $pathRepository = rtrim($this->yellow->system->get("publishSourceCodeDirectory"), "/")."/";
-        $pathRepositoryOffical = $pathRepository."yellow-extensions/";
-        $path = rtrim(empty($path) ? $pathRepositoryOffical : $pathRepository.$path, "/")."/";
-        if (is_dir($pathRepository) && is_dir($pathRepositoryOffical) && is_dir($path)) {
-            $this->extensions = $this->errors = 0;
-            $this->firstStepPaths = $this->getExtensionPaths($path);
-            $this->secondStepPaths = array();
-            $pathsEstimated = count($this->firstStepPaths);
-            foreach ($this->firstStepPaths as $path) {
-                echo "\rPublishing extension files ".$this->getProgressPercent($this->extensions, $pathsEstimated, 5, 95)."%... ";
-                $statusCode = max($statusCode, $this->updateExtensionDirectory($path, $pathRepositoryOffical, true));
+        if (!empty($path)) {
+            $pathRepository = rtrim($this->yellow->system->get("publishSourceCodeDirectory"), "/")."/";
+            $pathRepositoryOffical = $pathRepository."yellow-extensions/";
+            $pathRepositoryRequested = rtrim($pathRepository.$path, "/")."/";
+            if (is_dir($pathRepositoryOffical) && is_dir($pathRepositoryRequested)) {
+                $this->extensions = $this->errors = 0;
+                $this->firstStepPaths = $this->getExtensionPaths($pathRepositoryRequested);
+                $this->secondStepPaths = array();
+                $pathsEstimated = count($this->firstStepPaths);
+                foreach ($this->firstStepPaths as $path) {
+                    echo "\rPublishing extension files ".$this->getProgressPercent($this->extensions, $pathsEstimated, 5, 95)."%... ";
+                    $statusCode = max($statusCode, $this->updateExtensionDirectory($path, $pathRepositoryOffical, true));
+                }
+                foreach ($this->secondStepPaths as $path) {
+                    echo "\rPublishing extension files ".$this->getProgressPercent($this->extensions, $pathsEstimated, 5, 95)."%... ";
+                    $statusCode = max($statusCode, $this->updateExtensionDirectory($path, $pathRepositoryOffical));
+                }
+                echo "\rPublishing extension files 100%... done\n";
+            } elseif ($this->yellow->system->get("publishSourceCodeDirectory")!="/My/Documents/GitHub/") {
+                $statusCode = 500;
+                $this->extensions = 0;
+                $this->errors = 1;
+                $path = !is_dir($pathRepositoryOffical) ? $pathRepositoryOffical : $pathRepositoryRequested;
+                echo "ERROR publishing files: Can't find directory '$path'!\n";
+            } else {
+                $statusCode = 500;
+                $this->extensions = 0;
+                $this->errors = 1;
+                $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
+                echo "ERROR publishing files: Please configure PublishSourceCodeDirectory in file '$fileName'!\n";
             }
-            foreach ($this->secondStepPaths as $path) {
-                echo "\rPublishing extension files ".$this->getProgressPercent($this->extensions, $pathsEstimated, 5, 95)."%... ";
-                $statusCode = max($statusCode, $this->updateExtensionDirectory($path, $pathRepositoryOffical));
-            }
-            echo "\rPublishing extension files 100%... done\n";
-        } elseif ($this->yellow->system->get("publishSourceCodeDirectory")!="/My/Documents/GitHub/") {
-            $statusCode = 500;
-            $this->extensions = 0;
-            $this->errors = 1;
-            $path = !is_dir($pathRepositoryOffical) ? $pathRepositoryOffical : $path;
-            echo "ERROR publishing files: Can't find directory '$path'!\n";
+            echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
+            echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
         } else {
-            $statusCode = 500;
-            $this->extensions = 0;
-            $this->errors = 1;
-            $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
-            echo "ERROR publishing files: Please configure PublishSourceCodeDirectory in file '$fileName'!\n";
+            $statusCode = $this->showAvailableFolders($command);
         }
-        echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
-        echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
         return $statusCode;
+    }
+    
+    // Show available folders
+    public function showAvailableFolders($command) {
+        $path = $this->yellow->system->get("publishSourceCodeDirectory");
+        $entries = $this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, true, false);
+        foreach ($entries as $entry) {
+            echo "$entry\n";
+        }
+        if (count($entries)==0) echo "Yellow $command: No folders\n";
+        return 200;
     }
     
     // Update extension directory
