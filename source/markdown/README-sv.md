@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Markdown 0.8.17
-===============
+# Markdown 0.8.17
+
 Textformatering för människor.
 
 <p align="center"><img src="markdown-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>

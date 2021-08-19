@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Update 0.8.54
-=============
+# Update 0.8.54
+
 Keep your website up to date.
 
 <p align="center"><img src="update-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

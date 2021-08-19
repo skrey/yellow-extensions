@@ -1,5 +1,5 @@
-Danish 0.8.28
-=============
+# Danish 0.8.28
+
 Danish/Dansk med sproget 'da'.
 
 <p align="center"><img src="danish-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

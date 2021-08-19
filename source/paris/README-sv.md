@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Paris 0.8.11
-============
+# Paris 0.8.11
+
 Paris är ett elegant tema.
 
 <p align="center"><img src="paris-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>

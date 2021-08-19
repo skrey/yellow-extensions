@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Highlight 0.8.12
-================
+# Highlight 0.8.12
+
 Markera källkod.
 
 <p align="center"><img src="highlight-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>

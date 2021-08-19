@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Youtube 0.8.5
-=============
+# Youtube 0.8.5
+
 Embed Youtube videos.
 
 <p align="center"><img src="youtube-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

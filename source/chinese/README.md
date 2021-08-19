@@ -1,5 +1,5 @@
-Chinese 0.8.28
-==============
+# Chinese 0.8.28
+
 Chinese/简体中文 语言为 'zh'。
 
 <p align="center"><img src="chinese-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

@@ -1,5 +1,5 @@
-German 0.8.28
-=============
+# German 0.8.28
+
 German/Deutsch mit der Sprache "de".
 
 <p align="center"><img src="german-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

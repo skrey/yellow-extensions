@@ -1,5 +1,5 @@
-French 0.8.28
-=============
+# French 0.8.28
+
 French/Français avec la langue 'fr'.
 
 <p align="center"><img src="french-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

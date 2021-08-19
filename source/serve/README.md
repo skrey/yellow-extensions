@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Serve 0.8.15
-============
+# Serve 0.8.15
+
 Built-in web server.
 
 <p align="center"><img src="serve-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>

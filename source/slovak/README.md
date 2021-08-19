@@ -1,5 +1,5 @@
-Slovak 0.8.28
-=============
+# Slovak 0.8.28
+
 Slovak/Slovenčina s jazykom 'sk'.
 
 <p align="center"><img src="slovak-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

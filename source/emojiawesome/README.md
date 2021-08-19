@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Emojiawesome 0.8.11
-===================
+# Emojiawesome 0.8.11
+
 Lots and lots of emoji.
 
 ![Screenshot](emojiawesome-screenshot.jpg?raw=true)

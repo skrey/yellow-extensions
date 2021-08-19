@@ -1,5 +1,5 @@
-Russian 0.8.28
-==============
+# Russian 0.8.28
+
 Russian/Русский с языком 'ru'.
 
 <p align="center"><img src="russian-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

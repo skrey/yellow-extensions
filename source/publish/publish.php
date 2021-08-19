@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.42";
+    const VERSION = "0.8.43";
     public $yellow;                 // access to API
     public $extensions;             // number of extensions
     public $errors;                 // number of errors
@@ -32,55 +32,55 @@ class YellowPublish {
     // Process command to publish extensions
     public function processCommandPublish($command, $text) {
         $statusCode = 0;
-        list($path) = $this->yellow->toolbox->getTextArguments($text);
-        if (!empty($path)) {
-            $pathRepository = rtrim($this->yellow->system->get("publishSourceCodeDirectory"), "/")."/";
-            $pathRepositoryOffical = $pathRepository."yellow-extensions/";
-            $pathRepositoryRequested = rtrim($pathRepository.$path, "/")."/";
-            if (is_dir($pathRepositoryOffical) && is_dir($pathRepositoryRequested)) {
-                $this->extensions = $this->errors = 0;
-                $this->firstStepPaths = $this->getExtensionPaths($pathRepositoryRequested);
-                $this->secondStepPaths = array();
-                $pathsEstimated = count($this->firstStepPaths);
-                foreach ($this->firstStepPaths as $path) {
-                    echo "\rPublishing extension files ".$this->getProgressPercent($this->extensions, $pathsEstimated, 5, 95)."%... ";
-                    $statusCode = max($statusCode, $this->updateExtensionDirectory($path, $pathRepositoryOffical, true));
-                }
-                foreach ($this->secondStepPaths as $path) {
-                    echo "\rPublishing extension files ".$this->getProgressPercent($this->extensions, $pathsEstimated, 5, 95)."%... ";
-                    $statusCode = max($statusCode, $this->updateExtensionDirectory($path, $pathRepositoryOffical));
-                }
-                echo "\rPublishing extension files 100%... done\n";
-            } elseif ($this->yellow->system->get("publishSourceCodeDirectory")!="/My/Documents/GitHub/") {
-                $statusCode = 500;
-                $this->extensions = 0;
-                $this->errors = 1;
-                $path = !is_dir($pathRepositoryOffical) ? $pathRepositoryOffical : $pathRepositoryRequested;
-                echo "ERROR publishing files: Can't find directory '$path'!\n";
-            } else {
-                $statusCode = 500;
-                $this->extensions = 0;
-                $this->errors = 1;
-                $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
-                echo "ERROR publishing files: Please configure PublishSourceCodeDirectory in file '$fileName'!\n";
-            }
-            echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
-            echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
+        if ($this->checkExtensionSettings()) {
+            $statusCode = $this->publishExtensionDirectory($command, $text);
         } else {
-            $statusCode = $this->showAvailableFolders($command);
+            $statusCode = 500;
+            $this->extensions = 0;
+            $this->errors = 1;
+            $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
+            echo "ERROR publishing files: Please configure PublishSourceCodeDirectory in file '$fileName'!\n";
         }
+        echo "Yellow $command: $this->extensions extension".($this->extensions!=1 ? "s" : "");
+        echo ", $this->errors error".($this->errors!=1 ? "s" : "")."\n";
         return $statusCode;
     }
     
-    // Show available folders
-    public function showAvailableFolders($command) {
-        $path = $this->yellow->system->get("publishSourceCodeDirectory");
-        $entries = $this->yellow->toolbox->getDirectoryEntries($path, "/.*/", true, true, false);
-        foreach ($entries as $entry) {
-            echo "$entry\n";
+    // Publish extension directory
+    public function publishExtensionDirectory($command, $text) {
+        $statusCode = 0;
+        list($path) = $this->yellow->toolbox->getTextArguments($text);
+        $pathRepository = rtrim($this->yellow->system->get("publishSourceCodeDirectory"), "/")."/";
+        $pathRepositoryOffical = $pathRepository."yellow-extensions/";
+        $pathRepositoryRequested = rtrim($pathRepository.$path, "/")."/";
+        if (!empty($path) && is_dir($pathRepositoryOffical) && is_dir($pathRepositoryRequested)) {
+            $this->extensions = $this->errors = 0;
+            $this->firstStepPaths = $this->getExtensionPaths($pathRepositoryRequested);
+            $this->secondStepPaths = array();
+            $pathsEstimated = count($this->firstStepPaths);
+            foreach ($this->firstStepPaths as $path) {
+                echo "\rPublishing extension files ".$this->getProgressPercent($this->extensions, $pathsEstimated, 5, 95)."%... ";
+                $statusCode = max($statusCode, $this->updateExtensionDirectory($path, $pathRepositoryOffical, true));
+            }
+            foreach ($this->secondStepPaths as $path) {
+                echo "\rPublishing extension files ".$this->getProgressPercent($this->extensions, $pathsEstimated, 5, 95)."%... ";
+                $statusCode = max($statusCode, $this->updateExtensionDirectory($path, $pathRepositoryOffical));
+            }
+            echo "\rPublishing extension files 100%... done\n";
+        } elseif (!empty($path)) {
+            $statusCode = 500;
+            $this->extensions = 0;
+            $this->errors = 1;
+            $path = !is_dir($pathRepositoryOffical) ? $pathRepositoryOffical : $pathRepositoryRequested;
+            echo "ERROR publishing files: Can't find directory '$path'!\n";
+        } else {
+            $statusCode = 200;
+            $this->extensions = $this->errors = 0;
+            $entries = $this->yellow->toolbox->getDirectoryEntries($pathRepository, "/.*/", true, true, false);
+            foreach ($entries as $entry) echo "$entry\n";
+            if (count($entries)==0) echo "Yellow $command: No folders\n";
         }
-        if (count($entries)==0) echo "Yellow $command: No folders\n";
-        return 200;
+        return $statusCode;
     }
     
     // Update extension directory
@@ -139,12 +139,6 @@ class YellowPublish {
                 }
                 $fileDataNew .= $line;
             }
-            if ($settings->get("status")!="unlisted") {
-                if (!$settings->isExisting("helpUrl") || !$settings->isExisting("downloadUrl")) {
-                    $statusCode = 500;
-                    echo "ERROR publishing files: Please configure HelpUrl and DownloadUrl in file '$fileNameExtension'!\n";
-                }
-            }
             if (!empty($fileNameSource)) {
                 $fileNameClass = basename($fileNameSource);
                 if ($extension!=$this->yellow->lookup->normaliseName($fileNameClass, true, true)) {
@@ -153,11 +147,13 @@ class YellowPublish {
                     echo "ERROR publishing files: Class '$class' and file '$fileNameClass' is not possible!\n";
                 }
             }
-            if ($fileData!=$fileDataNew) {
-                if (!$this->yellow->toolbox->createFile($fileNameExtension, $fileDataNew)) {
-                    $statusCode = 500;
-                    echo "ERROR publishing files: Can't write file '$fileNameExtension'!\n";
-                }
+            if (!$settings->isExisting("helpUrl") || !$settings->isExisting("downloadUrl")) {
+                $statusCode = 500;
+                echo "ERROR publishing files: Please configure HelpUrl and DownloadUrl in file '$fileNameExtension'!\n";
+            }
+            if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($fileNameExtension, $fileDataNew)) {
+                $statusCode = 500;
+                echo "ERROR publishing files: Can't write file '$fileNameExtension'!\n";
             }
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionSettings file:$fileNameExtension<br/>\n";
         }
@@ -170,17 +166,11 @@ class YellowPublish {
         list($extension, $version) = $this->getExtensionInformationFromSettings($path);
         $regex = "/^.*\\".$this->yellow->system->get("coreContentExtension")."$/";
         foreach ($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false) as $entry) {
-            $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
-            if (preg_match("/^(\xEF\xBB\xBF)?(<.*>[\r\n]+)?([\w ]+[0-9\.]{5,}[\r\n]+)(\=+[\r\n]+)(.*)$/s", $fileData, $parts)) {
-                $parts[3] = ucfirst($extension)." ".$version."\n";
-                $parts[4] = str_repeat("=", strlenu($parts[3])-1)."\n";
-                $fileDataNew = $parts[1].$parts[2].$parts[3].$parts[4].$parts[5];
-            }
-            if ($fileData!=$fileDataNew) {
-                if (!$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
-                    $statusCode = 500;
-                    echo "ERROR publishing files: Can't write file '$entry'!\n";
-                }
+            $fileData = $this->yellow->toolbox->readFile($entry);
+            $fileDataNew = $this->setDocumentationHeading($fileData, ucfirst($extension)." ".$version);
+            if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
+                $statusCode = 500;
+                echo "ERROR publishing files: Can't write file '$entry'!\n";
             }
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionDocumentation file:$entry<br/>\n";
         }
@@ -313,22 +303,32 @@ class YellowPublish {
         list($product, $release) = $this->getProductInformationFromSource($path);
         $regex = "/^.*\\".$this->yellow->system->get("coreContentExtension")."$/";
         foreach ($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false) as $entry) {
-            $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
-            if (preg_match("/^(\xEF\xBB\xBF)?(<.*>[\r\n]+)?(\#[\w ]+[0-9\.]{5,}[\r\n]+)(.*)$/s", $fileData, $parts)) {
-                $parts[3] = "# ".$product." ".$release."\n\n";
-                $fileDataNew = $parts[1].$parts[2].$parts[3].$parts[4];
-            }
-            if ($fileData!=$fileDataNew) {
-                if (!$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
-                    $statusCode = 500;
-                    echo "ERROR publishing files: Can't write file '$entry'!\n";
-                }
+            $fileData = $this->yellow->toolbox->readFile($entry);
+            $fileDataNew = $this->setDocumentationHeading($fileData, $product." ".$release);
+            if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
+                $statusCode = 500;
+                echo "ERROR publishing files: Can't write file '$entry'!\n";
             }
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateStandardDocumentation file:$entry<br/>\n";
         }
         return $statusCode;
     }
-
+    
+    // Set documentation heading in Markdown data
+    public function setDocumentationHeading($rawData, $text) {
+        if (preg_match("/^(\xEF\xBB\xBF)?(<.*>[\r\n]+)?(\#[\w ]+[0-9\.]{5,}[\r\n]+)(.*)$/s", $rawData, $parts)) {
+            $parts[3] = "# ".$text."\n\n";
+            $rawDataNew = $parts[1].$parts[2].$parts[3].$parts[4];
+        } elseif (preg_match("/^(\xEF\xBB\xBF)?(<.*>[\r\n]+)?([\w ]+[0-9\.]{5,}[\r\n]+)(\=+[\r\n]+)(.*)$/s", $rawData, $parts)) {
+            $parts[3] = "# ".$text."\n\n";
+            $parts[4] = "";
+            $rawDataNew = $parts[1].$parts[2].$parts[3].$parts[4].$parts[5];
+        } else {
+            $rawDataNew = $rawData;
+        }
+        return $rawDataNew;
+    }
+    
     // Analyse extension settings with dependencies
     public function analyseExtensionSettings($path) {
         $fileNameExtension = $path.$this->yellow->system->get("updateExtensionFile");
@@ -337,6 +337,11 @@ class YellowPublish {
             array_push($this->secondStepPaths, $path);
             if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::analyseExtensionSettings detected path:$path<br/>\n";
         }
+    }
+    
+    // Check extension settings
+    public function checkExtensionSettings() {
+        return $this->yellow->system->get("publishSourceCodeDirectory")!="/My/Documents/GitHub/";
     }
 
     // Return extension paths

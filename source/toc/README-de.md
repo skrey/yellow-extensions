@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Toc 0.8.6
-=========
+# Toc 0.8.6
+
 Inhaltsverzeichnis anzeigen.
 
 <p align="center"><img src="toc-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>

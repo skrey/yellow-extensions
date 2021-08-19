@@ -1,5 +1,5 @@
-Czech 0.8.28
-============
+# Czech 0.8.28
+
 Czech/Čeština s jazykem 'cs'.
 
 <p align="center"><img src="czech-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

@@ -1,5 +1,5 @@
-Norwegian 0.8.28
-================
+# Norwegian 0.8.28
+
 Norwegian/Norsk med språket 'nb'.
 
 <p align="center"><img src="norwegian-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

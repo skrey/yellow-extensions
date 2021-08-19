@@ -1,5 +1,5 @@
-Spanish 0.8.28
-==============
+# Spanish 0.8.28
+
 Spanish/Español con el idioma 'es'.
 
 <p align="center"><img src="spanish-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Stockholm 0.8.11
-================
+# Stockholm 0.8.11
+
 Stockholm is a clean theme.
 
 <p align="center"><img src="stockholm-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

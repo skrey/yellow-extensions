@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Feed 0.8.10
-===========
+# Feed 0.8.10
+
 Feed med senaste ändringarna
 
 <p align="center"><img src="feed-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>

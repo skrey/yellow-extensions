@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Publish 0.8.42
-==============
+# Publish 0.8.43
+
 Erweiterungen verpacken und veröffentlichen.
 
 <p align="center"><img src="publish-screenshot.png?raw=true" width="794" height="478" alt="Bildschirmfoto"></p>

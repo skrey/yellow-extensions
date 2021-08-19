@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Googlemap 0.8.7
-===============
+# Googlemap 0.8.7
+
 Embed Google map.
 
 <p align="center"><img src="googlemap-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Edit 0.8.52
-===========
+# Edit 0.8.52
+
 Webseite im Webbrowser bearbeiten.
 
 <p align="center"><img src="edit-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>

@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Meta 0.8.14
-===========
+# Meta 0.8.14
+
 Meta data for social media sites.
 
 <p align="center"><img src="meta-screenshot.png?raw=true" width="795" height="512" alt="Screenshot"></p>

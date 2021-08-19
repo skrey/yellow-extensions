@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Berlin 0.8.11
-=============
+# Berlin 0.8.11
+
 Berlin är ett tema inspirerat av Dieter Rams.
 
 <p align="center"><img src="berlin-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>

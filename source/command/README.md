@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Command 0.8.29
-==============
+# Command 0.8.29
+
 Command line of the website.
 
 <p align="center"><img src="command-screenshot.png?raw=true" width="794" height="478" alt="Screenshot"></p>

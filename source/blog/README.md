@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Blog 0.8.13
-===========
+# Blog 0.8.13
+
 Blog for your website.
 
 <p align="center"><img src="blog-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

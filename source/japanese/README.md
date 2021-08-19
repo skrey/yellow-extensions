@@ -1,5 +1,5 @@
-Japanese 0.8.28
-===============
+# Japanese 0.8.28
+
 言語 'ja' で日本語/Japaneseを使用します。
 
 <p align="center"><img src="japanese-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

@@ -1,5 +1,5 @@
-English 0.8.28
-==============
+# English 0.8.28
+
 English/English with language 'en'.
 
 <p align="center"><img src="english-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

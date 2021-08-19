@@ -1,5 +1,5 @@
-Hungarian 0.8.28
-================
+# Hungarian 0.8.28
+
 Hungarian/Magyar az nyelvvel 'hu'.
 
 <p align="center"><img src="hungarian-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>

@@ -1,7 +1,7 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-Fontawesome 0.8.12
-==================
+# Fontawesome 0.8.12
+
 Icons und Symbole.
 
 ![Bildschirmfoto](fontawesome-screenshot.jpg?raw=true)
