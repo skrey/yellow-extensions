@@ -12,17 +12,19 @@ Du kannst den eingebauten Webserver in der [Befehlszeile](https://github.com/dat
 
 ## Beispiele
 
-Eingebauten Webserver in der Befehlszeile starten, unterschiedliche URL:
+Verfügbare Befehle in der Befehlszeile anzeigen:
+
+`php yellow.php`
+
+Eingebauten Webserver in der Befehlszeile starten:
 
 `php yellow.php serve`  
-`php yellow.php serve dynamic http://localhost:8008/`  
+
+Eingebauten Webserver in der Befehlszeile starten, unterschiedliche URL:
+
+`php yellow.php serve dynamic http://localhost:8000/`  
 `php yellow.php serve dynamic http://localhost:8080/`  
-
-Eingebauten Webserver in der Befehlszeile starten, statische Webseite mit unterschiedliche URL:
-
-`php yellow.php serve public`  
-`php yellow.php serve public http://localhost:8008/`  
-`php yellow.php serve public http://localhost:8080/`  
+`php yellow.php serve dynamic http://localhost:8888/`  
 
 ## Installation
 

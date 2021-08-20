@@ -12,11 +12,25 @@ Trafikanalysen finns tillgänglig på [kommandoraden](https://github.com/datenst
 
 ## Exempel
 
+Visa tillgängliga kommandon på kommandoraden:
+
+`php yellow.php`
+
 Skapa trafikanalys på kommandoraden:
 
 `php yellow.php traffic`  
+
+Skapa trafikanalys på kommandoraden, olika antal dagar:
+
 `php yellow.php traffic 1`  
-`php yellow.php traffic 30 /yellow/` 
+`php yellow.php traffic 7`  
+`php yellow.php traffic 30`  
+
+Skapa trafikanalys på kommandoraden, olika platser:
+
+`php yellow.php traffic 30 /wiki/`  
+`php yellow.php traffic 30 /blog/`  
+`php yellow.php traffic 30 /search/`  
 
 ## Inställningar
 

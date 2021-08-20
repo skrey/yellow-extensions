@@ -12,17 +12,19 @@ Du kan starta inbyggda webbservern på [kommandoraden](https://github.com/datens
 
 ## Exempel
 
-Starta inbyggda webbservern på kommandoraden, olika URL:
+Visa tillgängliga kommandon på kommandoraden:
+
+`php yellow.php`
+
+Starta inbyggda webbservern på kommandoraden:
 
 `php yellow.php serve`  
-`php yellow.php serve dynamic http://localhost:8008/`  
+
+Starta inbyggda webbservern på kommandoraden, olika URL:
+
+`php yellow.php serve dynamic http://localhost:8000/`  
 `php yellow.php serve dynamic http://localhost:8080/`  
-
-Starta inbyggda webbservern på kommandoraden, statisk webbplats med olika URL:
-
-`php yellow.php serve public`  
-`php yellow.php serve public http://localhost:8008/`  
-`php yellow.php serve public http://localhost:8080/`  
+`php yellow.php serve dynamic http://localhost:8888/`  
 
 ## Installation
 

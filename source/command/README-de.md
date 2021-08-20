@@ -43,20 +43,14 @@ Aktuelle Version und Erweiterungen in der Befehlszeile anzeigen:
 Statische Webseite in der Befehlszeile erstellen:
 
 `php yellow.php build`  
-`php yellow.php build public /wiki/`  
-`php yellow.php build public /blog/`  
 
 Statische Webseite in der Befehlszeile nach fehlerhaften Links überprüfen:
 
 `php yellow.php check`  
-`php yellow.php check public /wiki/`  
-`php yellow.php check public /blog/`  
 
-Statische Webseite und Dateien in der Befehlszeile löschen:
+Statische Webseite und andere Dateien in der Befehlszeile löschen:
 
 `php yellow.php clean`  
-`php yellow.php clean public /wiki/`  
-`php yellow.php clean public /blog/`  
 
 Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
 
@@ -76,6 +70,7 @@ Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
+`CoreStaticUrl` = URL der statischen Webseite  
 `CommandStaticBuildDirectory` = Verzeichnis für erzeugte Dateien  
 `CommandStaticDefaultFile` = Standard-Datei der statischen Webseite  
 `CommandStaticErrorFile` = Fehler-Datei der statischen Webseite  

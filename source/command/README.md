@@ -43,20 +43,14 @@ Showing current version and extensions at the command line:
 Building static website at the command line:
 
 `php yellow.php build`  
-`php yellow.php build public /wiki/`  
-`php yellow.php build public /blog/`  
 
 Checking static website for broken links at the command line:
 
 `php yellow.php check`  
-`php yellow.php check public /wiki/`  
-`php yellow.php check public /blog/`  
 
-Cleaning static website and files at the command line:
+Cleaning static website and other files at the command line:
 
 `php yellow.php clean`  
-`php yellow.php clean public /wiki/`  
-`php yellow.php clean public /blog/`  
 
 Using the command line, overview of available commands:
 
@@ -76,6 +70,7 @@ Using the command line, overview of available commands:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
+`CoreStaticUrl` = URL of the static website  
 `CommandStaticBuildDirectory` = directory for generated files  
 `CommandStaticDefaultFile` = default file for static website  
 `CommandStaticErrorFile` = error file for static website  

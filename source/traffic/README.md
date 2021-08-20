@@ -12,11 +12,25 @@ The traffic analytics are available at the [command line](https://github.com/dat
 
 ## Examples
 
+Showing available commands at the command line:
+
+`php yellow.php`
+
 Creating traffic analytics at the command line:
 
 `php yellow.php traffic`  
+
+Creating traffic analytics at the command line, different number of days:
+
 `php yellow.php traffic 1`  
-`php yellow.php traffic 30 /yellow/` 
+`php yellow.php traffic 7`  
+`php yellow.php traffic 30`  
+
+Creating traffic analytics at the command line, different locations:
+
+`php yellow.php traffic 30 /wiki/`  
+`php yellow.php traffic 30 /blog/`  
+`php yellow.php traffic 30 /search/`  
 
 ## Settings
 

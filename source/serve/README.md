@@ -12,17 +12,19 @@ You can start the built-in web server at the [command line](https://github.com/d
 
 ## Examples
 
-Starting built-in web server at the command line, different URLs:
+Showing available commands at the command line:
+
+`php yellow.php`
+
+Starting built-in web server at the command line:
 
 `php yellow.php serve`  
-`php yellow.php serve dynamic http://localhost:8008/`  
+
+Starting built-in web server at the command line, different URLs:
+
+`php yellow.php serve dynamic http://localhost:8000/`  
 `php yellow.php serve dynamic http://localhost:8080/`  
-
-Starting built-in web server at the command line, static website with different URLs:
-
-`php yellow.php serve public`  
-`php yellow.php serve public http://localhost:8008/`  
-`php yellow.php serve public http://localhost:8080/`  
+`php yellow.php serve dynamic http://localhost:8888/`  
 
 ## Installation
 

@@ -43,20 +43,14 @@ Visa aktuell version och tillägg på kommandoraden:
 Bygg statisk webbplats på kommandoraden: 
 
 `php yellow.php build`  
-`php yellow.php build public /wiki/`  
-`php yellow.php build public /blog/`  
 
 Kontrollera statisk webbplats för trasiga länkar på kommandoraden:
 
 `php yellow.php check`  
-`php yellow.php check public /wiki/`  
-`php yellow.php check public /blog/`  
 
-Rengör statisk webbplats och filer på kommandoraden:
+Rengör statisk webbplats och andra filer på kommandoraden:
 
 `php yellow.php clean`  
-`php yellow.php clean public /wiki/`  
-`php yellow.php clean public /blog/`  
 
 Använd kommandoraden, översikt över tillgängliga kommandon:
 
@@ -76,6 +70,7 @@ Använd kommandoraden, översikt över tillgängliga kommandon:
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
+`CoreStaticUrl` = URL för den statiska webbplatsen  
 `CommandStaticBuildDirectory` = map för genererade filer  
 `CommandStaticDefaultFile` = standardfil för statisk webbplats  
 `CommandStaticErrorFile` = felfil för statisk webbplats  
