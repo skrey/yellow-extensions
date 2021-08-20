@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.29
+# Command 0.8.30
 
 Befehlszeile der Webseite.
 
@@ -32,6 +32,20 @@ Inhaltsdatei mit Option zum Erstellen einer statischen Webseite:
     ---
     Diese Seite ist in einer statischen Webseite oder Zwischenspeicher nicht enthalten.
 
+Übersicht der verfügbaren Befehle:
+
+`php yellow.php about` = Aktuelle Version und Erweiterungen anzeigen, erfordert Command-Erweiterung    
+`php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
+`php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung  
+`php yellow.php clean` = Statische Webseite löschen, erfordert Command-Erweiterung  
+`php yellow.php install` = Erweiterungen hinzufügen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php publish` = Erweiterungen veröffentlichen, [erfordert Publish-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md)  
+`php yellow.php serve` = Eingebauten Webserver starten, [erfordert Serve-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve/README-de.md)  
+`php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md)  
+`php yellow.php uninstall` = Erweiterungen entfernen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
+`php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
+
 Verfügbare Befehle in der Befehlszeile anzeigen:
 
 `php yellow.php`
@@ -51,20 +65,6 @@ Statische Webseite in der Befehlszeile nach fehlerhaften Links überprüfen:
 Statische Webseite und andere Dateien in der Befehlszeile löschen:
 
 `php yellow.php clean`  
-
-Befehlszeile benutzen, Übersicht der verfügbaren Befehle:
-
-`php yellow.php about` = Aktuelle Version und Erweiterungen anzeigen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`php yellow.php build` = Statische Webseite erstellen, erfordert Command-Erweiterung  
-`php yellow.php check` = Statische Webseite überprüfen, erfordert Command-Erweiterung  
-`php yellow.php clean` = Statische Webseite löschen, erfordert Command-Erweiterung  
-`php yellow.php install` = Erweiterungen hinzufügen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`php yellow.php publish` = Erweiterungen veröffentlichen, [erfordert Publish-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md)  
-`php yellow.php serve` = Eingebauten Webserver starten, [erfordert Serve-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve/README-de.md)  
-`php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-de.md)  
-`php yellow.php uninstall` = Erweiterungen entfernen, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)  
-`php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)  
 
 ## Einstellungen
 

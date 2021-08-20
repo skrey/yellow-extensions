@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.29
+# Command 0.8.30
 
 Command line of the website.
 
@@ -32,6 +32,20 @@ Content file with option for building a static website:
     ---
     This page is not included in a static website or cache.
 
+Overview of available commands:
+
+`php yellow.php about` = Show current version and extensions, requires command extension  
+`php yellow.php build` = Build static website, requires command extension  
+`php yellow.php check` = Check static website, requires command extension  
+`php yellow.php clean` = Clean static website, requires command extension  
+`php yellow.php install` = Add extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)  
+`php yellow.php serve` = Start built-in web server, [requires serve extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve)  
+`php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
+`php yellow.php uninstall` = Remove extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php update` = Update website, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
+`php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+
 Showing available commands at the command line:
 
 `php yellow.php`
@@ -51,20 +65,6 @@ Checking static website for broken links at the command line:
 Cleaning static website and other files at the command line:
 
 `php yellow.php clean`  
-
-Using the command line, overview of available commands:
-
-`php yellow.php about` = Show current version and extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php build` = Build static website, requires command extension  
-`php yellow.php check` = Check static website, requires command extension  
-`php yellow.php clean` = Clean static website, requires command extension  
-`php yellow.php install` = Add extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)  
-`php yellow.php serve` = Start built-in web server, [requires serve extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve)  
-`php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic)  
-`php yellow.php uninstall` = Remove extensions, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php update` = Update website, [requires update extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/update)  
-`php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
 
 ## Settings
 

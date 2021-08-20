@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.29
+# Command 0.8.30
 
 Webbplatsens kommandorad.
 
@@ -32,6 +32,20 @@ Innehållsfil med alternativ för att bygga en statisk webbplats:
     ---
     Den här sidan ingår inte i en statisk webbplats eller cache.
 
+Översikt över tillgängliga kommandon:
+
+`php yellow.php about` = Visa aktuell version och tillägg, kräver command-tillägg  
+`php yellow.php build` = Bygg statisk webbplats, kräver command-tillägg  
+`php yellow.php check` = Kontrollera statisk webbplats, kräver command-tillägg  
+`php yellow.php clean` = Rengör statisk webbplats, kräver command-tillägg  
+`php yellow.php install` = Lägg till tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
+`php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md)  
+`php yellow.php serve` = Starta inbyggda webbservern, [kräver serve-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve/README-sv.md)  
+`php yellow.php traffic` = Skapa trafikanalys, [kräver traffic-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-sv.md)  
+`php yellow.php uninstall` = Ta bort tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
+`php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
+`php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  
+
 Visa tillgängliga kommandon på kommandoraden:
 
 `php yellow.php`
@@ -51,20 +65,6 @@ Kontrollera statisk webbplats för trasiga länkar på kommandoraden:
 Rengör statisk webbplats och andra filer på kommandoraden:
 
 `php yellow.php clean`  
-
-Använd kommandoraden, översikt över tillgängliga kommandon:
-
-`php yellow.php about` = Visa aktuell version och tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
-`php yellow.php build` = Bygg statisk webbplats, kräver command-tillägg  
-`php yellow.php check` = Kontrollera statisk webbplats, kräver command-tillägg  
-`php yellow.php clean` = Rengör statisk webbplats, kräver command-tillägg  
-`php yellow.php install` = Lägg till tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
-`php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md)  
-`php yellow.php serve` = Starta inbyggda webbservern, [kräver serve-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve/README-sv.md)  
-`php yellow.php traffic` = Skapa trafikanalys, [kräver traffic-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic/README-sv.md)  
-`php yellow.php uninstall` = Ta bort tillägg, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
-`php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)  
-`php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  
 
 ## Inställningar
 
