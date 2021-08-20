@@ -19,7 +19,7 @@ The following arguments are available, all but the first argument are optional:
  
 ## Examples
 
-Embedding a video:
+Embedding a video, different videos:
 
     [youtube fhs55HEl-Gc]
     [youtube wNiyp89pTi0]

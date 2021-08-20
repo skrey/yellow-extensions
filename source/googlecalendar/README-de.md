@@ -21,7 +21,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 ## Beispiele
 
-Kalender einbinden:
+Kalender einbinden, unterschiedliche Kalender:
 
     [googlecalendar en.uk#holiday]
     [googlecalendar de.german#holiday]

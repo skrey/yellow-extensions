@@ -20,13 +20,13 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
 
 ## Exempel
 
-Bädda in en karta:
+Bädda in en karta, olika adresser:
 
     [googlemap Stockholm]
     [googlemap "Malmö, Gamla staden"]
     [googlemap "Bredgatan 1, Lund, Sweden"]
 
-Bädda in en karta, GPS-koordinater:
+Bädda in en karta, olika GPS-koordinater:
 
     [googlemap "59.32820, 18.07007"]
     [googlemap "55.60490, 12.99833"]

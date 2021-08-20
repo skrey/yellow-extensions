@@ -20,13 +20,13 @@ The following arguments are available, all but the first argument are optional:
 
 ## Examples
 
-Embedding a map:
+Embedding a map, different addresses:
 
     [googlemap Stockholm]
     [googlemap "Malmö, Gamla staden"]
     [googlemap "Bredgatan 1, Lund, Sweden"]
 
-Embedding a map, GPS coordinates:
+Embedding a map, different GPS coordinates:
 
     [googlemap "59.32820, 18.07007"]
     [googlemap "55.60490, 12.99833"]

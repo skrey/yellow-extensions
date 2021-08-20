@@ -19,7 +19,7 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
  
 ## Exempel
 
-Bädda in en video:
+Bädda in en video, olika videor:
 
     [youtube fhs55HEl-Gc]
     [youtube wNiyp89pTi0]

@@ -21,7 +21,7 @@ The following arguments are available, all but the first argument are optional:
 
 ## Examples
 
-Embedding a calendar:
+Embedding a calendar, different calendars:
 
     [googlecalendar en.uk#holiday]
     [googlecalendar de.german#holiday]

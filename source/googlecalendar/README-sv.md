@@ -21,7 +21,7 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
 
 ## Exempel
 
-Bädda in en kalender:
+Bädda in en kalender, olika kalendrar:
 
     [googlecalendar en.uk#holiday]
     [googlecalendar de.german#holiday]

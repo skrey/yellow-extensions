@@ -19,7 +19,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
  
 ## Beispiele
 
-Video einbinden:
+Video einbinden, unterschiedliche Videos:
 
     [youtube fhs55HEl-Gc]
     [youtube wNiyp89pTi0]

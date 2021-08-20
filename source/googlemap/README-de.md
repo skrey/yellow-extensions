@@ -20,13 +20,13 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 ## Beispiele
 
-Karte einbinden:
+Karte einbinden, unterschiedliche Adressen:
 
     [googlemap Stockholm]
     [googlemap "Malmö, Gamla staden"]
     [googlemap "Bredgatan 1, Lund, Sweden"]
 
-Karte einbinden, GPS-Koordinaten:
+Karte einbinden, unterschiedliche GPS-Koordinaten:
 
     [googlemap "59.32820, 18.07007"]
     [googlemap "55.60490, 12.99833"]

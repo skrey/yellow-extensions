@@ -12,7 +12,9 @@ Die Zugriffsanalysen sind in der [Befehlszeile](https://github.com/datenstrom/ye
 
 ## Beispiele
 
-`php yellow.php traffic 30 /yellow/` 
+Verfügbare Befehle in der Befehlszeile anzeigen:
+
+`php yellow.php`
 
 Zugriffsanalysen in der Befehlszeile erstellen:
 
