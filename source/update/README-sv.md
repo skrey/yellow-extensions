@@ -8,9 +8,9 @@ Håll din webbplats uppdaterad.
 
 ## Hur man uppdaterar en webbplats
 
-Det första alternativet är att uppdatera din webbplats i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md). Logga in med ditt användarkonto. Gå till inställningarna och leta efter uppdateringar. Din webbplats kommer att visas när uppdateringar är tillgängliga. Du måste ha uppdateringsrättigheter för att uppdatera en webbplats. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
+Det första alternativet är att uppdatera din webbplats i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md). Logga in med ditt användarkonto. Gå till inställningarna och leta efter uppdateringar. Din webbplats kommer att visas om uppdateringar är tillgängliga. Du måste ha uppdateringsrättigheter för att uppdatera en webbplats. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
 
-Det andra alternativet är att uppdatera din webbplats på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php update`. Du kan eventuellt lägga till namnet på ett tillägg. Borttagna filer finns i `system/trash` mappen.
+Det andra alternativet är att uppdatera din webbplats på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php update`. Detta kommer att visa om det finns uppdateringar tillgängliga. För att uppdatera din webbplats skriv `php yellow.php update all`. Du kan eventuellt lägga till namnet på ett tillägg. Borttagna filer finns i `system/trash` mappen.
 
 ## Hur man utökar en webbplats
 

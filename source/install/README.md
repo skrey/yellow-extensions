@@ -10,10 +10,6 @@ Install a brand new, shiny website.
 
 Installing is unzipping one file and you are ready to go. First the installer checks whether all requirements have been met, for example whether your web server is working properly. Then the installer offers you to create a user account and helps you with setting up your website. After the installer has done its work it will delete itself. [Learn more about installation](https://datenstrom.se/yellow/help/how-to-get-started).
 
-## How to customise the standard installation
-
-The [standard installation](https://github.com/datenstrom/yellow) is a collection of the most important extensions. It also includes the files `install-language.zip`, `install-wiki.zip` and `install-blog.zip`. You can download more [zip files](https://github.com/datenstrom/yellow-extensions/tree/master/zip) and copy them into your `system/extensions` folder. 
-
 ## Settings
 
 The following files will be customised during installation:

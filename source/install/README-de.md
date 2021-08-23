@@ -10,10 +10,6 @@ Installiere eine brandneue, wunderbare Website.
 
 Zum Installieren entpackt man eine Datei und los geht's. Zuerst überprüft das Installationsprogramm ob alle Anforderungen erfüllt sind, zum Beispiel ob dein Webserver richtig funktioniert. Dann bietet dir das Installationsprogramm an ein Benutzerkonto anzulegen und hilft dir beim Einrichten deiner Webseite. Nachdem das Installationsprogramm seine Arbeit erledigt hat löscht es sich von selbst. [Weitere Informationen zur Installation](https://datenstrom.se/de/yellow/help/how-to-get-started).
 
-## Wie man die Standardinstallation anpasst
-
-Die [Standardinstallation](https://github.com/datenstrom/yellow) ist eine Sammlung der wichtigsten Erweiterungen. Sie enthält ausserdem die Dateien `install-language.zip`, `install-wiki.zip` und `install-blog.zip`. Du kannst weitere [Zip-Dateien](https://github.com/datenstrom/yellow-extensions/tree/master/zip) herunterladen und in dein `system/extensions`-Verzeichnis kopieren.
-
 ## Einstellungen
 
 Die folgenden Dateien werden bei der Installation angepasst:
