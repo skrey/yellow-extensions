@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Update 0.8.55
+# Update 0.8.56
 
 Håll din webbplats uppdaterad.
 
@@ -50,11 +50,13 @@ Visa aktuell version och tillägg på kommandoraden:
  
 `php yellow.php about`
 
-Uppdatera webbplats på kommandoraden:
+Visar uppdateringar på kommandoraden:
  
 `php yellow.php update`  
-`php yellow.php update gallery`  
-`php yellow.php update english german swedish`  
+
+Uppdatera webbplats på kommandoraden:
+ 
+`php yellow.php update all`  
 
 Lägga till tillägg på kommandoraden:
 

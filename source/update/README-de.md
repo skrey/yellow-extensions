@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Update 0.8.55
+# Update 0.8.56
 
 Webseite auf dem neusten Stand halten.
 
@@ -50,11 +50,13 @@ Aktuelle Version und Erweiterungen in der Befehlszeile anzeigen:
  
 `php yellow.php about`
 
-Webseite in der Befehlszeile aktualisieren:
+Aktualisierungen in der Befehlszeile anzeigen:
  
 `php yellow.php update`  
-`php yellow.php update gallery`  
-`php yellow.php update english german swedish`  
+
+Webseite in der Befehlszeile aktualisieren:
+ 
+`php yellow.php update all`  
 
 Erweiterungen in der Befehlszeile hinzufügen:
 

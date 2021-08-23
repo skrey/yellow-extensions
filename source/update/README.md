@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Update 0.8.55
+# Update 0.8.56
 
 Keep your website up to date.
 
@@ -50,11 +50,13 @@ Showing current version and extensions at the command line:
  
 `php yellow.php about`
 
+Showing updates at the command line:
+
+`php yellow.php update`
+
 Updating website at the command line:
  
-`php yellow.php update`  
-`php yellow.php update gallery`  
-`php yellow.php update english german swedish`  
+`php yellow.php update all`  
 
 Adding extensions at the command line:
 
