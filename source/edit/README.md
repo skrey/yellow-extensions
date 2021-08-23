@@ -185,7 +185,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `content/shared/page-new-default.md` = content file for new page  
 `content/shared/page-new-wiki.md` = content file for new wiki page  
 `content/shared/page-new-blog.md` = content file for new blog page  
-`content/shared/page-error-404.md` = content file for error page  
 
 ## Installation
 

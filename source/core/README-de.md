@@ -96,7 +96,6 @@ Inhaltsdatei mit Weiterleitung:
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
-`content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
 `content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
 `system/layouts/default.html` = Layoutdatei für Standard-Seite  
 `system/layouts/error.html` = Layoutdatei für Fehler-Seite  

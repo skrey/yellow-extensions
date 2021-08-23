@@ -185,7 +185,6 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
 `content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
 `content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
-`content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
 
 ## Installation
 

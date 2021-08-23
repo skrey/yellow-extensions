@@ -96,7 +96,6 @@ Content file with redirection:
 
 <a id="settings-files"></a>The following files can be customised:
 
-`content/shared/page-new-default.md` = content file for new page  
 `content/shared/page-error-404.md` = content file for error page  
 `system/layouts/default.html` = layout file for default page  
 `system/layouts/error.html` = layout file for error page  
