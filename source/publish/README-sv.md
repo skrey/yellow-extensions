@@ -27,7 +27,7 @@ Tilläggsinställningar för en funktion:
 
 Extension: Helloworld
 Version: 0.8.15
-Description: Example feature for developers.
+Description: Example feature for Datenstrom Yellow.
 HelpUrl: https://github.com/annasvensson/yellow-extension-helloworld
 DownloadUrl: https://github.com/annasvensson/yellow-extension-helloworld/archive/master.zip
 Published: 2019-01-24 19:42:13
@@ -46,7 +46,7 @@ Tilläggsinställningar för ett tema:
 
 Extension: Basic
 Version: 0.8.15
-Description: Example theme for designers.
+Description: Example theme for Datenstrom Yellow.
 HelpUrl: https://github.com/annasvensson/yellow-extension-basic
 DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/master.zip
 Published: 2019-01-24 19:42:13
