@@ -8,7 +8,7 @@ Core functionality of the website.
 
 ## How to edit a website in a text editor
 
-You can use your favorite text editor and change everything in the file manager. The `content` folder contains the content files of the website. You can edit the website here. The `media` folder contains the media files of the website. You can store images and other files here. The `system` folder contains the system files of the website. You can adjust the website and develop extensions here. In other words, what you see in the file manager is the website you get.
+You can use your favorite text editor and change everything in the file manager. The `content` folder contains the content files of the website. You can edit the website here. The `media` folder contains the media files of the website. You can store images and other files here. The `system` folder contains the system files of the website. You can adjust the website and develop extensions here.
 
 ## How to hide a page
 

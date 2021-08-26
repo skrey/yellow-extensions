@@ -8,7 +8,7 @@ Webbplatsens kärnfunktion.
 
 ## Hur man redigerar en webbplats i textredigeraren
 
-Du kan använda din favorittextredigerare och ändra allt i filhanteraren. Mappen `content` innehåller webbplatsen innehållsfilerna. Du kan redigera webbplatsen här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra bilder och andra filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan anpassa webbplatsen och utveckla tillägg här. Med andra ord det du ser i filhanteraren är webbplatsen du får.
+Du kan använda din favorittextredigerare och ändra allt i filhanteraren. Mappen `content` innehåller webbplatsen innehållsfilerna. Du kan redigera webbplatsen här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra bilder och andra filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan anpassa webbplatsen och utveckla tillägg här.
 
 ## Hur man döljer en sida
 

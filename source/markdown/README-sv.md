@@ -8,9 +8,20 @@ Textformatering för människor.
 
 ## Hur man formaterar text
 
-Markdown är ett praktiskt sätt att redigera webbsidor. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Förutom Markdown finns det förkortningar. Du kan lägga till [bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md), [bildgallerier](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md), [videor](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-sv.md) och mer på din webbplats.
+Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Förutom Markdown finns det förkortningar. Du kan lägga till [bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md), [bildgallerier](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md), [videor](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-sv.md) och mer på din webbplats.
 
 ## Exempel
+
+Innehållsfil med namn på sidas och text:
+
+    ---
+    Title: Exempelsida
+    ---
+    Detta är ett exempelsida.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
 
 Formatera text:
 

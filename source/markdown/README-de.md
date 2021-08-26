@@ -8,9 +8,20 @@ Textformatierung für Menschen.
 
 ## Wie man Text formatiert
 
-Markdown ist eine praktische Art um Webseiten zu bearbeiten. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Zusätzlich zu Markdown gibt es Abkürzungen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md), [Bildergalerien](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md), [Videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md) und mehr in deine Webseite einbinden.
+Markdown ist eine praktische Art um Webseiten zu bearbeiten. Schreibe Text wie in einer E-Mail und daraus wird eine Webseite. Nach einer kurzen Zeit passiert das ganz natürlich, ohne dass man darüber nachdenkt. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Zusätzlich zu Markdown gibt es Abkürzungen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md), [Bildergalerien](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md), [Videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md) und mehr in deine Webseite einbinden.
 
 ## Beispiele
+
+Inhaltsdatei mit Seitentitel und Text:
+
+    ---
+    Title: Beispielseite
+    ---
+    Das ist eine Beispielseite.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
 Text formatieren:
 

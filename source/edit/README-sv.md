@@ -18,7 +18,7 @@ Det andra alternativet är att skapa ett användarkonto på [kommandoraden](http
 
 ## Hur man begränsar ett användarkonto
 
-Om du inte vill att sidorna ska ändras i en webbläsare begränsar du användarkonton. Öppna filen `system/extensions/yellow-user.ini` och ändra `Home` och `Access`. Användare får redigera sidor på sin hemsida, men inte någon annanstans.
+Om du inte vill att sidorna ska ändras i en webbläsare begränsar du användarkonton. Öppna filen `system/extensions/yellow-user.ini` och ändra `Access` och `Home`. Användare får redigera sidor på sin hemsida, men inte någon annanstans.
 
 Om du inte vill att användarkonton ska skapas begränsar du inloggningssidan. Öppna filen `system/extensions/yellow-system.ini` och ändra `EditLoginRestriction: 1`. Användare får återställa sitt lösenord, men kan inte skapa ett nytt användarkonto.
 
@@ -44,8 +44,8 @@ Email: anna@svensson.com
 Name: Anna Svensson
 Description: Formgivare
 Language: sv
-Home: /
 Access: create, edit, delete, restore, upload, configure, update
+Home: /
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
 Pending: none
@@ -61,8 +61,8 @@ Email: english@example.com
 Name: Niklas Svensson
 Description: Redaktör
 Language: sv
-Home: /
 Access: create, edit, delete, restore, upload
+Home: /
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: e4138bbd338881147a5d
 Pending: none
@@ -78,8 +78,8 @@ Email: english@example.com
 Name: Demo
 Description: För att testa webbplatsen
 Language: sv
-Home: /demo/
 Access: edit, upload
+Home: /demo/
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: f3e71699df534913a823
 Pending: none
@@ -130,8 +130,8 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `EditNewFile` = innehållsfil för ny sida  
 `EditEndOfLine` = linjeändar, t.ex. `auto`, `lf`, `crlf`  
 `EditUserPasswordMinLength` = minsta längd på lösenord  
-`EditUserHome` = standardplats för hemsidan för nytt användarkonto  
 `EditUserAccess` = standard användarrättigheter för nytt användarkonto  
+`EditUserHome` = standardplats för hemsidan för nytt användarkonto  
 `EditLoginRestriction` = aktivera inloggningsbegränsning, 1 eller 0  
 `EditLoginSessionTimeout` = giltighet av inloggning i sekunder  
 `EditBruteForceProtection` = antal misslyckade inloggningsförsök  
@@ -151,8 +151,8 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `Name` = användarens namn  
 `Description` = beskrivning av användaren  
 `Language` = språket av användaren  
-`Home` = plats för hemsidan  
 `Access` = användarrättigheter, [stödda rättigheter](#inställningar-access)  
+`Home` = plats för hemsidan  
 `Hash` = krypterat lösenord  
 `Stamp` = unik token för autentisering  
 `Pending` = väntande ändringar  

@@ -18,7 +18,7 @@ The second option is to create a user account at the [command line](https://gith
 
 ## How to restrict a user account
 
-If you don't want that pages are modified in a web browser, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
+If you don't want that pages are modified in a web browser, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Access` and `Home`. Users are allowed to edit pages within their home page, but nowhere else.
 
 If you don't want that user accounts are created, then restrict the login page. Open file `system/extensions/yellow-system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
 
@@ -44,8 +44,8 @@ Email: anna@svensson.com
 Name: Anna Svensson
 Description: Designer
 Language: en
-Home: /
 Access: create, edit, delete, restore, upload, configure, update
+Home: /
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
 Pending: none
@@ -61,8 +61,8 @@ Email: english@example.com
 Name: Niklas Svensson
 Description: Editor
 Language: en
-Home: /
 Access: create, edit, delete, restore, upload
+Home: /
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: e4138bbd338881147a5d
 Pending: none
@@ -78,8 +78,8 @@ Email: english@example.com
 Name: Demo
 Description: For testing website
 Language: en
-Home: /demo/
 Access: edit, upload
+Home: /demo/
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: f3e71699df534913a823
 Pending: none
@@ -130,8 +130,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `EditNewFile` = content file for new page  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
 `EditUserPasswordMinLength` = minimum length of passwords  
-`EditUserHome` = default home page location for new user account  
 `EditUserAccess` = default user access rights for new user account  
+`EditUserHome` = default home page location for new user account  
 `EditLoginRestriction` = enable login restriction, 1 or 0  
 `EditLoginSessionTimeout` = validity of login in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
@@ -151,8 +151,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `Name` = name of the user  
 `Description` = description of the user  
 `Language` = language of the user  
-`Home` = home page location  
 `Access` = user access rights, [supported access rights](#settings-access)  
+`Home` = home page location  
 `Hash` = encrypted password  
 `Stamp` = unique token for authentication  
 `Pending` = pending changes  

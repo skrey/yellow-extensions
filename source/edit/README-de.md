@@ -18,7 +18,7 @@ Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](h
 
 ## Wie man ein Benutzerkonto beschränkt
 
-Falls du nicht willst dass Seiten im Webbrowser verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/extensions/yellow-user.ini` und ändere `Home` und `Access`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
+Falls du nicht willst dass Seiten im Webbrowser verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/extensions/yellow-user.ini` und ändere `Access` und `Home`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
 
@@ -44,8 +44,8 @@ Email: anna@svensson.com
 Name: Anna Svensson
 Description: Designer
 Language: de
-Home: /
 Access: create, edit, delete, restore, upload, configure, update
+Home: /
 Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
 Stamp: 21196d7e857d541849e4
 Pending: none
@@ -61,8 +61,8 @@ Email: deutsch@example.com
 Name: Niklas Svensson
 Description: Redakteur
 Language: de
-Home: /
 Access: create, edit, delete, restore, upload
+Home: /
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: a81eb147a5dd3384138b
 Pending: none
@@ -78,8 +78,8 @@ Email: deutsch@example.com
 Name: Demo
 Description: Zum Testen der Webseite
 Language: de
-Home: /demo/
 Access: edit, upload
+Home: /demo/
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: 2a2ddef05dbea5071ba0
 Pending: none
@@ -130,8 +130,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `EditNewFile` = Inhaltsdatei für neue Seite  
 `EditEndOfLine` = Zeilenenden, z.B. `auto`, `lf`, `crlf`  
 `EditUserPasswordMinLength` = Mindestlänge von Kennwörtern  
-`EditUserHome` = Standard-Startseite für neues Benutzerkonto  
 `EditUserAccess` = Standard-Zugriffsrechte für neues Benutzerkonto  
+`EditUserHome` = Standard-Startseite für neues Benutzerkonto  
 `EditLoginRestriction` = Anmeldebeschränkung aktivieren, 1 oder 0  
 `EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
 `EditBruteForceProtection` = Anzahl fehlgeschlagener Anmeldeversuche  
@@ -151,8 +151,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `Name` = Name des Benutzers  
 `Description` = Beschreibung des Benutzers  
 `Language` = Sprache des Benutzers  
-`Home` = Ort der Startseite  
 `Access` = Zugriffsrechte, [unterstützte Zugriffsrechte](#einstellungen-access)  
+`Home` = Ort der Startseite  
 `Hash` = verschlüsseltes Kennwort  
 `Stamp` = eindeutiges Token zur Authentifizierung  
 `Pending` = ausstehende Änderungen  
