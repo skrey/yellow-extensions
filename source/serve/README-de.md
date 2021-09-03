@@ -8,7 +8,7 @@ Eingebauter Webserver.
 
 ## Wie man den eingebauten Webserver startet
 
-Du kannst den eingebauten Webserver in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) starten. Der eingebauten Webserver ist praktisch für Entwickler. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die `yellow.php` befindet. Gib ein `php yellow.php serve`, du kannst wahlweise ein Verzeichnis und eine URL angeben. Öffne einen Webbrowser und gehe zu `http://localhost:8000/`.
+Du kannst den eingebauten Webserver in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) starten. Der eingebauten Webserver ist praktisch für Entwickler. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php serve`, du kannst wahlweise ein Verzeichnis und eine URL angeben. Öffne einen Webbrowser und gehe zu `http://localhost:8000/`.
 
 ## Beispiele
 

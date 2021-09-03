@@ -14,7 +14,7 @@ Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. 
 
 Det första alternativet är att skapa ett användarkonto i en webbläsare. Gå till inloggningssidan. Du kan skapa ett användarkonto och ändra ditt lösenord. Webmastern måste godkänna nya användarkonton. Webmastarens email definieras i filen `system/extensions/yellow-system.ini`.
 
-Det andra alternativet är att skapa ett användarkonto på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php user add` följt av email och lösenord. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
+Det andra alternativet är att skapa ett användarkonto på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php user add` följt av email och lösenord. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
 
 ## Hur man begränsar ett användarkonto
 

@@ -8,7 +8,7 @@ Create traffic analytics from web server log files.
 
 ## How to create traffic analytics
 
-The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). It shows referring sites, popular content, files and search queries. Open a terminal window. Go to your installation folder, where the `yellow.php` is. Type `php yellow.php traffic`, you can add optional days and location.
+The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). It shows referring sites, popular content, files and search queries. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php traffic`, you can add optional days and location.
 
 ## Examples
 

@@ -8,7 +8,7 @@ Skapa trafikanalys från webbserverns loggfiler.
 
 ## Hur man skapar trafikanalys
 
-Trafikanalysen finns tillgänglig på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Den visar hänvisande webbplatser, populärt innehåll, filer och sökfrågor. Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php traffic`, du kan lägga till valfria dagar och plats. 
+Trafikanalysen finns tillgänglig på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Den visar hänvisande webbplatser, populärt innehåll, filer och sökfrågor. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php traffic`, du kan lägga till valfria dagar och plats. 
 
 ## Exempel
 

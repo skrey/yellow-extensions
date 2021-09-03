@@ -10,15 +10,15 @@ Håll din webbplats uppdaterad.
 
 Det första alternativet är att uppdatera din webbplats i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md). Logga in med ditt användarkonto. Gå till inställningarna och leta efter uppdateringar. Din webbplats kommer att visas om uppdateringar är tillgängliga. Du måste ha uppdateringsrättigheter för att uppdatera en webbplats. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
 
-Det andra alternativet är att uppdatera din webbplats på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php update`. Detta kommer att visa om det finns uppdateringar tillgängliga. För att uppdatera din webbplats skriv `php yellow.php update all`. Du kan eventuellt lägga till namnet på ett tillägg. Borttagna filer finns i `system/trash` mappen.
+Det andra alternativet är att uppdatera din webbplats på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php update`. Detta kommer att visa om det finns uppdateringar tillgängliga. För att uppdatera din webbplats skriv `php yellow.php update all`. Du kan eventuellt lägga till namnet på ett tillägg. Borttagna filer finns i `system/trash` mappen.
 
 ## Hur man utökar en webbplats
 
-Din webbplats levereras bara med det väsentliga. Du kan ladda ner och lägga till tillägg som ZIP-filer. Du kan också lägga till tillägg på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php install` följt av fler argument. Du kan också ta bort tillägg på kommandoraden.
+Din webbplats levereras bara med det väsentliga. Du kan ladda ner och lägga till tillägg som ZIP-filer. Du kan också lägga till tillägg på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php install` följt av fler argument. Du kan också ta bort tillägg på kommandoraden.
 
 ## Hur man visar aktuella versionen
 
-Du kan visa den aktuella versionen av din webbplats i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md). Logga in med ditt användarkonto. Gå till inställningarna. Du kan också visa den aktuella versionen på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där `yellow.php` finns. Skriv `php yellow.php about`.
+Du kan visa den aktuella versionen av din webbplats i en [webbläsare](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md). Logga in med ditt användarkonto. Gå till inställningarna. Du kan också visa den aktuella versionen på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php about`.
 
 Du kan använda förkortningar för att visa information om webbplatsen:
 
