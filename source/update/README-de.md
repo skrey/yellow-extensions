@@ -22,7 +22,8 @@ Du kannst die aktuelle Version deiner Webseite im [Webbrowser](https://github.co
 
 Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen:
 
-`[yellow about]` für aktuelle Version  
+`[yellow about]` für aktuelle Version und Erweiterungen  
+`[yellow release]` für aktuelle Produktausgabe  
 `[yellow error]` für aktuelle Fehlermeldung  
 `[yellow log]` für neueste Einträge in der Logdatei  
 

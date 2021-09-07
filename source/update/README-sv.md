@@ -22,7 +22,8 @@ Du kan visa den aktuella versionen av din webbplats i en [webbläsare](https://g
 
 Du kan använda förkortningar för att visa information om webbplatsen:
 
-`[yellow about]` för aktuell version  
+`[yellow about]` för aktuell version och tillägg  
+`[yellow release]` för aktuell produktutgåva  
 `[yellow error]` för aktuellt felmeddelande  
 `[yellow log]` för de senaste posterna i loggfilen  
 

@@ -22,7 +22,8 @@ You can show the current version of your website in a [web browser](https://gith
 
 You can use shortcuts to show information about the website:
 
-`[yellow about]` for current version  
+`[yellow about]` for current version and extensions  
+`[yellow release]` for current product release  
 `[yellow error]` for current error message  
 `[yellow log]` for latest entries in log file  
 
