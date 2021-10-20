@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.43";
+    const VERSION = "0.8.44";
     public $yellow;                 // access to API
     public $extensions;             // number of extensions
     public $errors;                 // number of errors
@@ -191,17 +191,13 @@ class YellowPublish {
                 $fileNamesRequired = $this->getExtensionFileNamesRequired($path, $pathBase, $pathRepositoryOffical);
                 foreach ($fileNamesRequired as $fileNameRequired=>$fileNameShort) {
                     if (is_file($fileNameRequired)) {
-                        if (!$this->yellow->toolbox->modifyFile($fileNameRequired, $published)) {
-                            $statusCode = 500;
-                            echo "ERROR publishing files: Can't write file '$fileNameRequired'!\n";
-                        }
                         $zip->addFile($fileNameRequired, $fileNameShort);
                     } else {
                         $statusCode = 500;
                         echo "ERROR publishing files: Can't find file '$fileNameRequired'!\n";
                     }
                 }
-                if (!$zip->close() || !$this->yellow->toolbox->modifyFile($fileNameZipArchive, $published)) {
+                if (!$zip->close() || !$this->normaliseZipArchive($fileNameZipArchive, $published, 0100666)) {
                     $statusCode = 500;
                     echo "ERROR publishing files: Can't write file '$fileNameZipArchive'!\n";
                 }
@@ -342,6 +338,58 @@ class YellowPublish {
     // Check extension settings
     public function checkExtensionSettings() {
         return $this->yellow->system->get("publishSourceCodeDirectory")!="/My/Documents/GitHub/";
+    }
+    
+    // Normalise ZIP archive, make binary compatible
+    public function normaliseZipArchive($fileName, $published, $attributes) {
+        $ok = false;
+        $date = getdate($published);
+        $publishedFat = (($date["year"]-1980)<<25) + ($date["mon"]<<21) + ($date["mday"]<<16) +
+            ($date["hours"]<<11) + ($date["minutes"]<<5) + ($date["seconds"]>>1);
+        $dataBuffer = $this->yellow->toolbox->readFile($fileName);
+        $dataBufferSize = strlenb($dataBuffer);
+        $dataSignature = substrb($dataBuffer, 0, 2);
+        if ($dataSignature=="\x50\x4b") {
+            for ($pos=0; $pos<$dataBufferSize; $pos+=$length) {
+                $dataSignature = substrb($dataBuffer, $pos, 4);
+                if ($dataSignature=="\x50\x4b\x03\x04" && $pos+30<$dataBufferSize) {
+                    $this->setShortInBuffer($dataBuffer, $pos+4, 0x0014);
+                    if ($dataBuffer[$pos+8]=="\x08") $this->setShortInBuffer($dataBuffer, $pos+6, 0);
+                    $this->setLongInBuffer($dataBuffer, $pos+10, $publishedFat);
+                    $length = (ord($dataBuffer[$pos+21])<<21) + (ord($dataBuffer[$pos+20])<<16) +
+                        (ord($dataBuffer[$pos+19])<<8) + ord($dataBuffer[$pos+18]) +
+                        (ord($dataBuffer[$pos+27])<<8) + ord($dataBuffer[$pos+26]) +
+                        (ord($dataBuffer[$pos+29])<<8) + ord($dataBuffer[$pos+28]) + 30;
+                } elseif ($dataSignature=="\x50\x4b\x01\x02" && $pos+46<$dataBufferSize) {
+                    $this->setLongInBuffer($dataBuffer, $pos+4, 0x00140314);
+                    if ($dataBuffer[$pos+10]=="\x08") $this->setShortInBuffer($dataBuffer, $pos+8, 0);
+                    $this->setLongInBuffer($dataBuffer, $pos+12, $publishedFat);
+                    $this->setLongInBuffer($dataBuffer, $pos+38, $attributes<<16);
+                    $length = (ord($dataBuffer[$pos+29])<<8) + ord($dataBuffer[$pos+28]) +
+                        (ord($dataBuffer[$pos+31])<<8) + ord($dataBuffer[$pos+30]) +
+                        (ord($dataBuffer[$pos+33])<<8) + ord($dataBuffer[$pos+32]) + 46;
+                } else {
+                    break;
+                }
+            }
+            $ok = $this->yellow->toolbox->createFile($fileName, $dataBuffer) &&
+                $this->yellow->toolbox->modifyFile($fileName, $published);
+        }
+        return $ok;
+    }
+
+    // Set unsigned short value in buffer, little endian
+    public function setShortInBuffer(&$dataBuffer, $pos, $value) {
+        $dataBuffer[$pos] = chr($value & 0xff);
+        $dataBuffer[$pos+1] = chr(($value>>8) & 0xff);
+    }
+    
+    // Set unsigned long value in buffer, little endian
+    public function setLongInBuffer(&$dataBuffer, $pos, $value) {
+        $dataBuffer[$pos] = chr($value & 0xff);
+        $dataBuffer[$pos+1] = chr(($value>>8) & 0xff);
+        $dataBuffer[$pos+2] = chr(($value>>16) & 0xff);
+        $dataBuffer[$pos+3] = chr(($value>>24) & 0xff);
     }
 
     // Return extension paths
