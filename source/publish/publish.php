@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.44";
+    const VERSION = "0.8.45";
     public $yellow;                 // access to API
     public $extensions;             // number of extensions
     public $errors;                 // number of errors
@@ -340,7 +340,7 @@ class YellowPublish {
         return $this->yellow->system->get("publishSourceCodeDirectory")!="/My/Documents/GitHub/";
     }
     
-    // Normalise ZIP archive, make binary compatible
+    // Normalise ZIP archive created with libzip, make platform independent
     public function normaliseZipArchive($fileName, $published, $attributes) {
         $ok = false;
         $date = getdate($published);
@@ -354,7 +354,7 @@ class YellowPublish {
                 $dataSignature = substrb($dataBuffer, $pos, 4);
                 if ($dataSignature=="\x50\x4b\x03\x04" && $pos+30<$dataBufferSize) {
                     $this->setShortInBuffer($dataBuffer, $pos+4, 0x0014);
-                    if ($dataBuffer[$pos+8]=="\x08") $this->setShortInBuffer($dataBuffer, $pos+6, 0);
+                    $this->setShortInBuffer($dataBuffer, $pos+6, 0);
                     $this->setLongInBuffer($dataBuffer, $pos+10, $publishedFat);
                     $length = (ord($dataBuffer[$pos+21])<<21) + (ord($dataBuffer[$pos+20])<<16) +
                         (ord($dataBuffer[$pos+19])<<8) + ord($dataBuffer[$pos+18]) +
@@ -362,7 +362,7 @@ class YellowPublish {
                         (ord($dataBuffer[$pos+29])<<8) + ord($dataBuffer[$pos+28]) + 30;
                 } elseif ($dataSignature=="\x50\x4b\x01\x02" && $pos+46<$dataBufferSize) {
                     $this->setLongInBuffer($dataBuffer, $pos+4, 0x00140314);
-                    if ($dataBuffer[$pos+10]=="\x08") $this->setShortInBuffer($dataBuffer, $pos+8, 0);
+                    $this->setShortInBuffer($dataBuffer, $pos+8, 0);
                     $this->setLongInBuffer($dataBuffer, $pos+12, $publishedFat);
                     $this->setLongInBuffer($dataBuffer, $pos+38, $attributes<<16);
                     $length = (ord($dataBuffer[$pos+29])<<8) + ord($dataBuffer[$pos+28]) +
