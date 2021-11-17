@@ -96,7 +96,6 @@ Innehållsfil med omdirigering:
 
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 
-`content/shared/page-error-404.md` = innehållsfil för felsida  
 `system/layouts/default.html` = layoutfil för standardsidan  
 `system/layouts/error.html` = layoutfil för felsidan  
 `system/layouts/header.html` = layoutfil för standard HTML-header  
