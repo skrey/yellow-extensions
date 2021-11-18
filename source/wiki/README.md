@@ -22,8 +22,8 @@ You can use shortcuts to show information about the wiki:
 
 The following arguments are available, all but the first argument are optional:
 
-`Location` = wiki location  
-`PagesMax` = number of pages to show per shortcut, 0 for unlimited  
+`StartLocation` = location of wiki start page  
+`EntriesMax` = number of entries to show per shortcut, 0 for unlimited  
 `Author` = show pages by a specific author, `[wikipages]` or `[wikichanges]` only  
 `Tag` = show pages with a specific tag, `[wikipages]` or `[wikichanges`] only  
 
@@ -94,16 +94,16 @@ Showing list of pages, by a specific author or tag:
 
 Configuring different location, URL with subfolder for categorisation:
 
-    WikiLocation: /wiki/
+    WikiStartLocation: /wiki/
     WikiNewLocation: /wiki/@tag/@title
 
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`WikiLocation` = wiki location, empty means current folder  
+`WikiStartLocation` = location of wiki start page, `auto` for automatic detection  
 `WikiNewLocation` = location for new wiki pages, [supported placeholders](#settings-placeholders)  
-`WikiPagesMax` = number of pages to show per shortcut, 0 for unlimited  
+`WikiEntriesMax` = number of entries to show per shortcut, 0 for unlimited  
 `WikiPaginationLimit` = number of entries to show per page  
 
 <a id="settings-placeholders"></a>The following placeholders for new wiki pages are supported:
@@ -115,8 +115,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 <a id="settings-files"></a>The following files can be customised:
 
 `content/shared/page-new-wiki.md` = content file for new wiki page  
-`system/layouts/wikipages.html` = layout file for main wiki page  
 `system/layouts/wiki.html` = layout file for individual wiki page  
+`system/layouts/wiki-start.html` = layout file for wiki start page  
 
 ## Installation
 

@@ -22,8 +22,8 @@ Du kannst Abkürzungen verwenden, um Informationen über das Wiki anzuzeigen:
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
 
-`Location` = Ort des Wikis  
-`PagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
+`StartLocation` = Ort der Wikistartseite  
+`EntriesMax` = Anzahl der Einträge pro Abkürzung, 0 für unbegrenzt  
 `Author` = Seiten eines bestimmten Autors anzeigen, nur bei, `[wikipages]` oder `[wikichanges]`  
 `Tag` = Seiten mit bestimmten Tag anzeigen, nur bei `[wikipages]` oder `[wikichanges`]  
 
@@ -94,16 +94,16 @@ Liste mit Seiten anzeigen, von einem bestimmten Autor oder Tag:
 
 Anderen Ort festlegen, URL mit Unterverzeichnis zur Kategorisierung:
 
-    WikiLocation: /wiki/
+    WikiStartLocation: /wiki/
     WikiNewLocation: /wiki/@tag/@title
 
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`WikiLocation` = Ort des Wikis, leer bedeutet aktuelles Verzeichnis  
+`WikiStartLocation` = Ort der Wikistartseite, `auto` für automatische Erkennung  
 `WikiNewLocation` = Ort für neue Wikiseiten, [unterstützte Platzhalter](#einstellungen-placeholders)  
-`WikiPagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
+`WikiEntriesMax ` = Anzahl der Einträge pro Abkürzung, 0 für unbegrenzt  
 `WikiPaginationLimit` = Anzahl der Einträge pro Seite  
 
 <a id="einstellungen-placeholders"></a>Die folgenden Platzhalter für neue Wikiseiten werden unterstützt:
@@ -115,8 +115,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
 `content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
-`system/layouts/wikipages.html` = Layoutdatei für Wikihauptseite  
 `system/layouts/wiki.html` = Layoutdatei für individuelle Wikiseite  
+`system/layouts/wiki-start.html` = Layoutdatei für die Wikistartseite  
 
 ## Installation
 

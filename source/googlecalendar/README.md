@@ -14,7 +14,7 @@ The following arguments are available, all but the first argument are optional:
 
 `Id` = public [Google calendar](https://calendar.google.com/), wrap multiple calendars into quotes  
 `Mode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
-`Date` = start date or number of events, YYYY-MM-DD format  
+`Date` = start date or number of entries, YYYY-MM-DD format  
 `Style` = calendar style, e.g. `left`, `center`, `right`  
 `Width` = calendar width, pixel or percent  
 `Height` = calendar height, pixel or percent  
@@ -62,7 +62,7 @@ Embedding a calendar, different sizes for the current date:
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `GooglecalendarMode` = calendar mode, e.g. `week`, `month`, `events`, `agenda`  
-`GooglecalendarEntriesMax` = number of entries  
+`GooglecalendarEntriesMax` = number of entries to show per shortcut, for `events` or `agenda`  
 `GooglecalendarStyle` = calendar style, e.g. `flexible`  
 `GooglecalendarApiKey` = your Google API key  
 

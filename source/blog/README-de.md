@@ -16,15 +16,16 @@ Du kannst Abkürzungen verwenden, um Informationen über das Blog anzuzeigen:
 
 `[blogauthors]` für eine Liste der Autoren  
 `[blogtags]` für eine Liste der Tags  
-`[blogarchive]` für eine Liste der Monate  
+`[blogyears]` für eine Liste der Jahre  
+`[blogmonths]` für eine Liste der Monate  
 `[blogrelated]` für eine Liste von Seiten, ähnlich zur aktuellen Seite  
 `[blogpages]` für eine Liste von Seiten, alphabetische Reihenfolge  
 `[blogchanges]` für eine Liste von Seiten, veröffentlichte Reihenfolge  
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
 
-`Location` = Ort des Blogs  
-`PagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
+`StartLocation` = Ort der Blogstartseite  
+`EntriesMax` = Anzahl der Einträge pro Abkürzung, 0 für unbegrenzt  
 `Author` = Seiten eines bestimmten Autors anzeigen, nur bei `[blogpages]` oder `[blogchanges]`  
 `Tag` = Seiten mit bestimmten Tag anzeigen, nur bei `[blogpages]` oder `[blogchanges]`  
 
@@ -81,24 +82,24 @@ Liste mit Tags anzeigen:
     [blogtags /blog/ 3]
     [blogtags /blog/ 10]
 
-Liste mit Monaten anzeigen:
+Liste mit Jahren anzeigen:
 
-    [blogarchive /blog/ 0]
-    [blogarchive /blog/ 3]
-    [blogarchive /blog/ 10]
+    [blogyears /blog/ 0]
+    [blogyears /blog/ 3]
+    [blogyears /blog/ 10]
 
 Anderen Ort festlegen, URL mit Unterverzeichnis für jedes Jahr:
 
-    BlogLocation: /blog/
+    BlogStartLocation: /blog/
     BlogNewLocation: /blog/@year/@title
 
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`BlogLocation` = Ort des Blogs, leer bedeutet aktuelles Verzeichnis  
+`BlogStartLocation` = Ort der Blogstartseite, `auto` für automatische Erkennung  
 `BlogNewLocation` = Ort für neue Blogseiten, [unterstützte Platzhalter](#einstellungen-placeholders)  
-`BlogPagesMax` = Anzahl der Seiten pro Abkürzung, 0 für unbegrenzt  
+`BlogEntriesMax` = Anzahl der Einträge pro Abkürzung, 0 für unbegrenzt  
 `BlogPaginationLimit` = Anzahl der Einträge pro Seite 
 
 <a id="einstellungen-placeholders"></a>Die folgenden Platzhalter für neue Blogseiten werden unterstützt:
@@ -115,8 +116,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
 `content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite   
-`system/layouts/blogpages.html` = Layoutdatei für Bloghauptseite  
 `system/layouts/blog.html` = Layoutdatei für individuelle Blogseite 
+`system/layouts/blog-start.html` = Layoutdatei für die Blogstartseite  
 
 ## Installation
 

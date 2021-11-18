@@ -22,8 +22,8 @@ Du kan använda förkortningar för att visa information om wikin:
 
 Följande argument är tillgängliga, alla utom det första argumentet är valfria:
 
-`Location` = plats för wikin  
-`PagesMax` = antal sidor att visa per förkortning, 0 för obegränsad  
+`StartLocation` = plats för wikistartsida  
+`EntriesMax` = antal inlägg att visa per förkortning, 0 för obegränsad  
 `Author` = visa sidor av en specifik författare, endast `[wikipages]` eller `[wikichanges]`  
 `Tag` = visa sidor med en specifik tagg, endast `[wikipages]` eller `[wikichanges`]  
 
@@ -94,16 +94,16 @@ Visa lista med sidor, av en specifik författare eller tagg:
 
 Konfigurera en annan plats, URL med undermapp för kategorisering: 
 
-    WikiLocation: /wiki/
+    WikiStartLocation: /wiki/
     WikiNewLocation: /wiki/@tag/@title
 
 ## Inställningar
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`WikiLocation` = plats för wikin, tom betyder aktuell mappr  
+`WikiStartLocation` = plats för wikistartsida, `auto` för automatisk detektering  
 `WikiNewLocation` = plats för nya wikisidor, [stödda platshållare](#inställningar-placeholders)  
-`WikiPagesMax` = antal sidor att visa per förkortning, 0 för obegränsad  
+`WikiEntriesMax` = antal inlägg att visa per förkortning, 0 för obegränsad  
 `WikiPaginationLimit` = antal inlägg att visa per sida  
 
 <a id="inställningar-placeholders"></a>Följande platshållare för nya wikisidor stöds:
@@ -115,8 +115,8 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 
 `content/shared/page-new-wiki.md` = innehållsfil för ny wikisida  
-`system/layouts/wikipages.html` = layoutfil för huvudwikisida  
 `system/layouts/wiki.html` = layoutfil för enskild wikisida  
+`system/layouts/wiki-start.html` = layoutfil för wikistartsida  
 
 ## Installation
 

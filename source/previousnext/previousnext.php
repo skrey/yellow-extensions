@@ -2,7 +2,7 @@
 // Previousnext extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/previousnext
 
 class YellowPreviousnext {
-    const VERSION = "0.8.9";
+    const VERSION = "0.8.14";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -25,12 +25,12 @@ class YellowPreviousnext {
                 $output = "<div class=\"previousnext\">\n";
                 $output .= "<p>";
                 if ($pagePrevious!=null) {
-                    $text = preg_replace("/@title/i", $pagePrevious->get("title"), $this->yellow->language->getText("PreviousnextPagePrevious"));
+                    $text = preg_replace("/@title/i", $pagePrevious->get("title"), $this->yellow->language->getText("previousnextPagePrevious"));
                     $output .= "<a class=\"previous\" href=\"".$pagePrevious->getLocation(true)."\">".htmlspecialchars($text)."</a>";
                 }
                 if ($pageNext!=null) {
                     if ($pagePrevious) $output .= " ";
-                    $text = preg_replace("/@title/i", $pageNext->get("title"), $this->yellow->language->getText("PreviousnextPageNext"));
+                    $text = preg_replace("/@title/i", $pageNext->get("title"), $this->yellow->language->getText("previousnextPageNext"));
                     $output .= "<a class=\"next\" href=\"".$pageNext->getLocation(true)."\">".htmlspecialchars($text)."</a>";
                 }
                 $output .= "</p>\n";
@@ -52,17 +52,17 @@ class YellowPreviousnext {
     // Return related pages
     public function getRelatedPages($page) {
         switch ($page->get("layout")) {
-            case "blog":        $blogLocation = $this->yellow->system->get("blogLocation");
-                                if (!empty($blogLocation)) {
-                                    $blog = $this->yellow->content->find($blogLocation);
-                                    $pages = $this->yellow->content->index(!$blog->isVisible());
+            case "blog":        $blogStartLocation = $this->yellow->system->get("blogStartLocation");
+                                if ($blogStartLocation!="auto") {
+                                    $blogStart = $this->yellow->content->find($blogStartLocation);
+                                    $pages = $this->yellow->content->index(!$blogStart->isVisible());
                                 } else {
-                                    $blog = $page->getParent();
-                                    $pages = $blog->getChildren(!$blog->isVisible());
+                                    $blogStart = $page->getParent();
+                                    $pages = $blogStart->getChildren(!$blogStart->isVisible());
                                 }
                                 $pages->filter("layout", "blog")->sort("published", true);
                                 break;
-            case "blogpages":   $pages = $this->yellow->content->clean(); break;
+            case "blog-start":  $pages = $this->yellow->content->clean(); break;
             default:            $pages = $page->getSiblings(!$page->isVisible());
         }
         return $pages;

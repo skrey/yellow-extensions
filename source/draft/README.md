@@ -12,7 +12,7 @@ Set `Status: draft` in the [page settings](https://github.com/datenstrom/yellow-
 
 ## How to find draft pages
 
-All draft pages are available on your website as `http://website/edit/drafts/`. You can also use the [search extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/search). Once you're logged in with your user account, you can search for `status:draft`. This allows you to find all draft pages.
+You can use the [search extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/search). Once you're logged in with your user account, you can search for `status:draft`. This allows you to find all draft pages.
 
 ## Examples
 
@@ -45,16 +45,6 @@ Content file with draft status for blog:
     Status: draft
     ---
     This is an example blog page.
-
-## Settings
-
-The following settings can be configured in file `system/extensions/yellow-system.ini`:
-
-`DraftPaginationLimit` = number of entries to show per page  
-
-The following files can be customised:
-
-`system/layouts/draftpages.html` = layout file with overview of draft pages  
 
 ## Installation
 

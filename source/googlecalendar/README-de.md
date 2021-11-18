@@ -14,7 +14,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 `Id` = öffentlicher [Google-Kalender](https://calendar.google.com/), mehrere Kalender in Anführungszeichen setzen  
 `Mode` = Kalendermodus, z.B. `week`, `month`, `events`, `agenda`  
-`Date` = Startdatum oder Anzahl der Ereignisse, JJJJ-MM-TT Format  
+`Date` = Startdatum oder Anzahl der Einträge, JJJJ-MM-TT Format  
 `Style` = Kalenderstil, z.B. `left`, `center`, `right`  
 `Width` = Kalenderbreite, Pixel oder Prozent  
 `Height` = Kalenderhöhe, Pixel oder Prozent  
@@ -62,7 +62,7 @@ Kalender einbinden, unterschiedliche Größen für das aktuelle Datum:
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `GooglecalendarMode` = Kalendermodus, z.B. `week`, `month`, `events`, `agenda`  
-`GooglecalendarEntriesMax` = Anzahl der Einträge  
+`GooglecalendarEntriesMax` = Anzahl der Einträge pro Abkürzung, für `events` oder `agenda`  
 `GooglecalendarStyle` = Kalenderstil, z.B. `flexible`  
 `GooglecalendarApiKey` = dein Google-API-Schlüssel  
 

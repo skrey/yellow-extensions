@@ -14,7 +14,7 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
 
 `Id` = offentlig [Google-kalender](https://calendar.google.com/), placera flera kalendrar i citattecken  
 `Mode` = kalenderläge, t.ex. `week`, `month`, `events`, `agenda`  
-`Date` = startdatum eller antal händelser, ÅÅÅÅ-MM-DD format  
+`Date` = startdatum eller antal inlägg, ÅÅÅÅ-MM-DD format  
 `Style` = kalenderstil, t.ex. `left`, `center`, `right`  
 `Width` = kalendebredd, pixel eller procent  
 `Height` = kalendehöjd, pixel eller procent  
@@ -62,7 +62,7 @@ Bädda in en kalender, olika storlekar för aktuella datumet:
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
 `GooglecalendarMode` = kalenderläge, t.ex. `week`, `month`, `events`, `agenda`  
-`GooglecalendarEntriesMax` = antal inlägg  
+`GooglecalendarEntriesMax` = antal inlägg att visa per förkortning, för `events` eller `agenda`  
 `GooglecalendarStyle` = kalenderstil, t.ex. `flexible`  
 `GooglecalendarApiKey` = din Google API-nyckel  
 

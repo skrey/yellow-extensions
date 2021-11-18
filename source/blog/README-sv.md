@@ -16,15 +16,16 @@ Du kan använda förkortningar för att visa information om bloggen:
 
 `[blogauthors]` för en lista över författare  
 `[blogtags]` för en lista med taggar  
-`[blogarchive]` för en lista med månader  
+`[blogyears]` för en lista med år  
+`[blogmonths]` för en lista med månader  
 `[blogrelated]` för en lista med sidor, som är relaterade till den aktuella sidan  
 `[blogpages]` för en lista med sidor, alfabetisk ordning  
 `[blogchanges]` för en lista över sidor, publicerad ordning  
 
 Följande argument är tillgängliga, alla utom det första argumentet är valfria:
 
-`Location` = plats för bloggen  
-`PagesMax` = antal sidor att visa per förkortning, 0 för obegränsad  
+`StartLocation` = plats för bloggstartsida  
+`EntriesMax` = antal inlägg att visa per förkortning, 0 för obegränsad  
 `Author` = visa sidor av en specifik författare, endast `[blogpages]` eller `[blogchanges]`  
 `Tag` = visa sidor med en specifik tagg, endast `[blogpages]` eller `[blogchanges]`  
 
@@ -81,24 +82,24 @@ Visa lista med taggar:
     [blogtags /blog/ 3]
     [blogtags /blog/ 10]
 
-Visa lista med månader:
+Visa lista med år:
 
-    [blogarchive /blog/ 0]
-    [blogarchive /blog/ 3]
-    [blogarchive /blog/ 10]
+    [blogyears /blog/ 0]
+    [blogyears /blog/ 3]
+    [blogyears /blog/ 10]
 
 Konfigurera en annan plats, URL med undermapp för varje år:
 
-    BlogLocation: /blog/
+    BlogStartLocation: /blog/
     BlogNewLocation: /blog/@year/@title
 
 ## Inställningar
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`BlogLocation` = plats för bloggen, tom betyder aktuell mapp  
+`BlogStartLocation` = plats för bloggstartsida, `auto` för automatisk detektering  
 `BlogNewLocation` = plats för nya bloggsidor, [stödda platshållare](#inställningar-placeholders)  
-`BlogPagesMax` = antal sidor att visa per förkortning, 0 för obegränsad  
+`BlogEntriesMax ` = antal inlägg att visa per förkortning, 0 för obegränsad  
 `BlogPaginationLimit` = antal inlägg att visa per sida  
 
 <a id="inställningar-placeholders"></a>Följande platshållare för nya bloggsidor stöds:
@@ -115,8 +116,8 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 
 `content/shared/page-new-blog.md` = innehållsfil för ny bloggsida  
-`system/layouts/blogpages.html` = layoutfil för huvudbloggsida  
 `system/layouts/blog.html` = layoutfil för enskild bloggsida  
+`system/layouts/blog-start.html` = layoutfil för bloggstartsida  
 
 ## Installation
 

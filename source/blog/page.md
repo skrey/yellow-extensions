@@ -1,5 +1,5 @@
 ---
 Title: Blog
-Layout: blogpages
+Layout: blog-start
 LayoutNew: blog
 ---

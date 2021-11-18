@@ -16,15 +16,16 @@ You can use shortcuts to show information about the blog:
 
 `[blogauthors]` for a list of authors  
 `[blogtags]` for a list of tags  
-`[blogarchive]` for a list of months  
+`[blogyears]` for a list of years  
+`[blogmonths]` for a list of months  
 `[blogrelated]` for a list of pages, related to the current page  
 `[blogpages]` for a list of pages, alphabetic order  
 `[blogchanges]` for a list of pages, published order  
 
 The following arguments are available, all but the first argument are optional:
 
-`Location` = blog location  
-`PagesMax` = number of pages to show per shortcut, 0 for unlimited  
+`StartLocation` = location of blog start page  
+`EntriesMax` = number of entries to show per shortcut, 0 for unlimited  
 `Author` = show pages by a specific author, `[blogpages]` or `[blogchanges]` only  
 `Tag` = show pages with a specific tag, `[blogpages]` or `[blogchanges]` only  
 
@@ -81,24 +82,24 @@ Showing list of tags:
     [blogtags /blog/ 3]
     [blogtags /blog/ 10]
 
-Showing list of months:
+Showing list of years:
 
-    [blogarchive /blog/ 0]
-    [blogarchive /blog/ 3]
-    [blogarchive /blog/ 10]
+    [blogyears /blog/ 0]
+    [blogyears /blog/ 3]
+    [blogyears /blog/ 10]
 
 Configuring different location, URL with subfolder for each year:
 
-    BlogLocation: /blog/
+    BlogStartLocation: /blog/
     BlogNewLocation: /blog/@year/@title
 
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`BlogLocation` = blog location, empty means current folder  
+`BlogStartLocation` = location of blog start page, `auto` for automatic detection  
 `BlogNewLocation` = location for new blog pages, [supported placeholders](#settings-placeholders)  
-`BlogPagesMax` = number of pages to show per shortcut, 0 for unlimited  
+`BlogEntriesMax` = number of entries to show per shortcut, 0 for unlimited  
 `BlogPaginationLimit` = number of entries to show per page  
 
 <a id="settings-placeholders"></a>The following placeholders for new blog pages are supported:
@@ -115,8 +116,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 <a id="settings-files"></a>The following files can be customised:
 
 `content/shared/page-new-blog.md` = content file for new blog page  
-`system/layouts/blogpages.html` = layout file for main blog page  
 `system/layouts/blog.html` = layout file for individual blog page  
+`system/layouts/blog-start.html` = layout file for blog start page  
 
 ## Installation
 
