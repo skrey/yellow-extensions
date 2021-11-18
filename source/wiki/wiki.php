@@ -2,7 +2,7 @@
 // Wiki extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki
 
 class YellowWiki {
-    const VERSION = "0.8.14";
+    const VERSION = "0.8.15";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -18,7 +18,7 @@ class YellowWiki {
     public function onParseMeta($page) {
         if ($page===$this->yellow->page) {
             if ($page->get("layout")=="wiki-start" && !$this->yellow->toolbox->isLocationArguments()) {
-                $page->set("layout", $page->isExisting("layoutShow") ? $page->get("layoutShow") : "wiki");
+                $page->set("layout", "wiki");
             }
         }
     }
@@ -75,7 +75,7 @@ class YellowWiki {
         list($startLocation, $entriesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($startLocation)) $startLocation = $this->yellow->system->get("wikiStartLocation");
         if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("wikiEntriesMax");
-        $pages = $this->getWikiPages($startLocation);
+        $pages = $this->getWikiPages($startLocation, false);
         if (!empty($author)) $pages->filter("author", $author);
         if (!empty($tag)) $pages->filter("tag", $tag);
         $pages->sort("title");
@@ -235,7 +235,7 @@ class YellowWiki {
     }
     
     // Return wiki pages
-    public function getWikiPages($location) {
+    public function getWikiPages($location, $includeWikiStart = true) {
         $pages = $this->yellow->content->clean();
         $wikiStart = $this->yellow->content->find($location);
         if ($wikiStart && $wikiStart->get("layout")=="wiki-start") {
@@ -244,8 +244,8 @@ class YellowWiki {
             } else {
                 $pages = $wikiStart->getChildren(!$wikiStart->isVisible());
             }
-            $wikiStart->set("layout", $wikiStart->isExisting("layoutShow") ? $wikiStart->get("layoutShow") : "wiki");
-            $pages->append($wikiStart)->filter("layout", "wiki");
+            $pages->filter("layout", "wiki");
+            if ($includeWikiStart) $pages->append($wikiStart);
         }
         return $pages;
     }
