@@ -5,7 +5,7 @@
 <ul>
 <?php $section = $sectionNew = "" ?>
 <?php foreach ($this->yellow->page->getPages("wiki") as $page): ?>
-<?php if ($this->yellow->page->get("wikipagesChronologicalOrder")): ?>
+<?php if ($this->yellow->page->get("wikiChronologicalOrder")): ?>
 <?php $sectionNew = htmlspecialchars($page->getDate("modified")) ?>
 <?php else: ?>
 <?php $sectionNew = htmlspecialchars(strtoupperu(substru($page->get("title"), 0, 1))) ?>

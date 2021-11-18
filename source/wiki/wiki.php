@@ -2,22 +2,22 @@
 // Wiki extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki
 
 class YellowWiki {
-    const VERSION = "0.8.13";
+    const VERSION = "0.8.14";
     public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("wikiLocation", "");
+        $this->yellow->system->setDefault("wikiStartLocation", "auto");
         $this->yellow->system->setDefault("wikiNewLocation", "@title");
-        $this->yellow->system->setDefault("wikiPagesMax", "5");
+        $this->yellow->system->setDefault("wikiEntriesMax", "5");
         $this->yellow->system->setDefault("wikiPaginationLimit", "30");
     }
 
     // Handle page meta data
     public function onParseMeta($page) {
         if ($page===$this->yellow->page) {
-            if ($page->get("layout")=="wikipages" && !$this->yellow->toolbox->isLocationArguments()) {
+            if ($page->get("layout")=="wiki-start" && !$this->yellow->toolbox->isLocationArguments()) {
                 $page->set("layout", $page->isExisting("layoutShow") ? $page->get("layoutShow") : "wiki");
             }
         }
@@ -41,31 +41,30 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikiauthors($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
-        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
-        if (empty($location)) $location = "unknown";
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
-        $wiki = $this->yellow->content->find($location);
-        $pages = $this->getWikiPages($location);
+        list($startLocation, $entriesMax) = $this->yellow->toolbox->getTextArguments($text);
+        if (empty($startLocation)) $startLocation = $this->yellow->system->get("wikiStartLocation");
+        if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("wikiEntriesMax");
+        $wikiStart = $this->yellow->content->find($startLocation);
+        $pages = $this->getWikiPages($startLocation);
         $page->setLastModified($pages->getModified());
         $authors = $this->getMeta($pages, "author");
         if (count($authors)) {
             $authors = $this->yellow->lookup->normaliseUpperLower($authors);
-            if ($pagesMax!=0 && count($authors)>$pagesMax) {
+            if ($entriesMax!=0 && count($authors)>$entriesMax) {
                 uasort($authors, "strnatcasecmp");
-                $authors = array_slice($authors, -$pagesMax);
+                $authors = array_slice($authors, -$entriesMax, $entriesMax, true);
             }
             uksort($authors, "strnatcasecmp");
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
             foreach ($authors as $key=>$value) {
-                $output .= "<li><a href=\"".$wiki->getLocation(true).$this->yellow->toolbox->normaliseArguments("author:$key")."\">";
+                $output .= "<li><a href=\"".$wikiStart->getLocation(true).$this->yellow->toolbox->normaliseArguments("author:$key")."\">";
                 $output .= htmlspecialchars($key)."</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
         } else {
-            $page->error(500, "Wikiauthors '$location' does not exist!");
+            $page->error(500, "Wikiauthors '$startLocation' does not exist!");
         }
         return $output;
     }
@@ -73,18 +72,16 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikipages($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
-        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
-        if (empty($location)) $location = "unknown";
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
-        $wiki = $this->yellow->content->find($location);
-        $pages = $this->getWikiPages($location);
+        list($startLocation, $entriesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
+        if (empty($startLocation)) $startLocation = $this->yellow->system->get("wikiStartLocation");
+        if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("wikiEntriesMax");
+        $pages = $this->getWikiPages($startLocation);
         if (!empty($author)) $pages->filter("author", $author);
         if (!empty($tag)) $pages->filter("tag", $tag);
         $pages->sort("title");
         $page->setLastModified($pages->getModified());
         if (count($pages)) {
-            if ($pagesMax!=0) $pages->limit($pagesMax);
+            if ($entriesMax!=0) $pages->limit($entriesMax);
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
             foreach ($pages as $pageWiki) {
@@ -94,7 +91,7 @@ class YellowWiki {
             $output .= "</ul>\n";
             $output .= "</div>\n";
         } else {
-            $page->error(500, "Wikipages '$location' does not exist!");
+            $page->error(500, "Wikipages '$startLocation' does not exist!");
         }
         return $output;
     }
@@ -102,18 +99,16 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikichanges($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
-        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
-        if (empty($location)) $location = "unknown";
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
-        $wiki = $this->yellow->content->find($location);
-        $pages = $this->getWikiPages($location);
+        list($startLocation, $entriesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
+        if (empty($startLocation)) $startLocation = $this->yellow->system->get("wikiStartLocation");
+        if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("wikiEntriesMax");
+        $pages = $this->getWikiPages($startLocation);
         if (!empty($author)) $pages->filter("author", $author);
         if (!empty($tag)) $pages->filter("tag", $tag);
         $pages->sort("modified", false);
         $page->setLastModified($pages->getModified());
         if (count($pages)) {
-            if ($pagesMax!=0) $pages->limit($pagesMax);
+            if ($entriesMax!=0) $pages->limit($entriesMax);
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
             foreach ($pages as $pageWiki) {
@@ -123,7 +118,7 @@ class YellowWiki {
             $output .= "</ul>\n";
             $output .= "</div>\n";
         } else {
-            $page->error(500, "Wikichanges '$location' does not exist!");
+            $page->error(500, "Wikichanges '$startLocation' does not exist!");
         }
         return $output;
     }
@@ -131,16 +126,14 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikirelated($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
-        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
-        if (empty($location)) $location = "unknown";
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
-        $wiki = $this->yellow->content->find($location);
-        $pages = $this->getWikiPages($location);
+        list($startLocation, $entriesMax) = $this->yellow->toolbox->getTextArguments($text);
+        if (empty($startLocation)) $startLocation = $this->yellow->system->get("wikiStartLocation");
+        if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("wikiEntriesMax");
+        $pages = $this->getWikiPages($startLocation);
         $pages->similar($page->getPage("main"));
         $page->setLastModified($pages->getModified());
         if (count($pages)) {
-            if ($pagesMax!=0) $pages->limit($pagesMax);
+            if ($entriesMax!=0) $pages->limit($entriesMax);
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
             foreach ($pages as $pageWiki) {
@@ -150,7 +143,7 @@ class YellowWiki {
             $output .= "</ul>\n";
             $output .= "</div>\n";
         } else {
-            $page->error(500, "Wikirelated '$location' does not exist!");
+            $page->error(500, "Wikirelated '$startLocation' does not exist!");
         }
         return $output;
     }
@@ -158,38 +151,37 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikitags($page, $name, $text) {
         $output = null;
-        list($location, $pagesMax) = $this->yellow->toolbox->getTextArguments($text);
-        if (empty($location)) $location = $this->yellow->system->get("wikiLocation");
-        if (empty($location)) $location = "unknown";
-        if (strempty($pagesMax)) $pagesMax = $this->yellow->system->get("wikiPagesMax");
-        $wiki = $this->yellow->content->find($location);
-        $pages = $this->getWikiPages($location);
+        list($startLocation, $entriesMax) = $this->yellow->toolbox->getTextArguments($text);
+        if (empty($startLocation)) $startLocation = $this->yellow->system->get("wikiStartLocation");
+        if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("wikiEntriesMax");
+        $wikiStart = $this->yellow->content->find($startLocation);
+        $pages = $this->getWikiPages($startLocation);
         $page->setLastModified($pages->getModified());
         $tags = $this->getMeta($pages, "tag");
         if (count($tags)) {
             $tags = $this->yellow->lookup->normaliseUpperLower($tags);
-            if ($pagesMax!=0 && count($tags)>$pagesMax) {
+            if ($entriesMax!=0 && count($tags)>$entriesMax) {
                 uasort($tags, "strnatcasecmp");
-                $tags = array_slice($tags, -$pagesMax);
+                $tags = array_slice($tags, -$entriesMax, $entriesMax, true);
             }
             uksort($tags, "strnatcasecmp");
             $output = "<div class=\"".htmlspecialchars($name)."\">\n";
             $output .= "<ul>\n";
             foreach ($tags as $key=>$value) {
-                $output .= "<li><a href=\"".$wiki->getLocation(true).$this->yellow->toolbox->normaliseArguments("tag:$key")."\">";
+                $output .= "<li><a href=\"".$wikiStart->getLocation(true).$this->yellow->toolbox->normaliseArguments("tag:$key")."\">";
                 $output .= htmlspecialchars($key)."</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
         } else {
-            $page->error(500, "Wikitags '$location' does not exist!");
+            $page->error(500, "Wikitags '$startLocation' does not exist!");
         }
         return $output;
     }
     
     // Handle page layout
     public function onParsePageLayout($page, $name) {
-        if ($name=="wikipages") {
+        if ($name=="wiki-start") {
             $chronologicalOrder = false;
             $pages = $this->getWikiPages($this->yellow->page->location);
             $pagesFilter = array();
@@ -220,17 +212,20 @@ class YellowWiki {
                 $this->yellow->page->set("titleHeader", $text." - ".$this->yellow->page->get("sitename"));
                 $this->yellow->page->set("titleContent", $this->yellow->page->get("title").": ".$text);
                 $this->yellow->page->set("title", $this->yellow->page->get("title").": ".$text);
-                $this->yellow->page->set("wikipagesChronologicalOrder", $chronologicalOrder);
+                $this->yellow->page->set("wikiChronologicalOrder", $chronologicalOrder);
             }
             $this->yellow->page->setPages("wiki", $pages);
             $this->yellow->page->setLastModified($pages->getModified());
             $this->yellow->page->setHeader("Cache-Control", "max-age=60");
         }
         if ($name=="wiki") {
-            $location = $this->yellow->system->get("wikiLocation");
-            if (empty($location)) $location = $this->yellow->lookup->getDirectoryLocation($this->yellow->page->location);
-            $wiki = $this->yellow->content->find($location);
-            $this->yellow->page->setPage("wiki", $wiki);
+            $wikiStartLocation = $this->yellow->system->get("wikiStartLocation");
+            if ($wikiStartLocation!="auto") {
+                $wikiStart = $this->yellow->content->find($wikiStartLocation);
+            } else {
+                $wikiStart = $this->yellow->lookup->isFileLocation($page->location) ?  $page->getParent() : $page;                
+            }
+            $this->yellow->page->setPage("wikiStart", $wikiStart);
         }
     }
     
@@ -242,15 +237,15 @@ class YellowWiki {
     // Return wiki pages
     public function getWikiPages($location) {
         $pages = $this->yellow->content->clean();
-        $wiki = $this->yellow->content->find($location);
-        if ($wiki) {
-            if ($location==$this->yellow->system->get("wikiLocation")) {
-                $pages = $this->yellow->content->index(!$wiki->isVisible());
+        $wikiStart = $this->yellow->content->find($location);
+        if ($wikiStart && $wikiStart->get("layout")=="wiki-start") {
+            if ($this->yellow->system->get("wikiStartLocation")!="auto") {
+                $pages = $this->yellow->content->index(!$wikiStart->isVisible());
             } else {
-                $pages = $wiki->getChildren(!$wiki->isVisible());
+                $pages = $wikiStart->getChildren(!$wikiStart->isVisible());
             }
-            $wiki->set("layout", $wiki->isExisting("layoutShow") ? $wiki->get("layoutShow") : "wiki");
-            $pages->append($wiki)->filter("layout", "wiki");
+            $wikiStart->set("layout", $wikiStart->isExisting("layoutShow") ? $wikiStart->get("layoutShow") : "wiki");
+            $pages->append($wikiStart)->filter("layout", "wiki");
         }
         return $pages;
     }

@@ -1,7 +1,7 @@
 <?php $this->yellow->layout("header") ?>
 <div class="content">
 <div class="main" role="main">
-<?php if (!empty($this->yellow->page->get("titleContent"))): ?>
+<?php if ($this->yellow->page->get("blogWithFilter")): ?>
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <?php endif ?>
 <?php foreach ($this->yellow->page->getPages("blog") as $page): ?>
