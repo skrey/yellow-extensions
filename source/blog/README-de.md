@@ -120,13 +120,13 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 <a id="einstellungen-placeholders"></a>Die folgenden Platzhalter für neue Blogseiten werden unterstützt:
 
 `@title` = Seitentitel  
+`@author` = Autor der Seite  
+`@tag` = Tag zur Kategorisierung der Seite  
 `@timestamp` = Veröffentlichungsdatum der Seite als Zeitstempel  
 `@date` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `@year` = Veröffentlichungsjahr der Seite  
 `@month` = Veröffentlichungsmonat der Seite  
 `@day` = Veröffentlichungstag der Seite  
-`@tag` = Tag zur Kategorisierung der Seite  
-`@author` = Autor der Seite  
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 

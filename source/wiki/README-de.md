@@ -117,8 +117,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 <a id="einstellungen-placeholders"></a>Die folgenden Platzhalter für neue Wikiseiten werden unterstützt:
 
 `@title` = Seitentitel  
-`@tag` = Tag zur Kategorisierung der Seite  
 `@author` = Autor der Seite  
+`@tag` = Tag zur Kategorisierung der Seite  
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 

@@ -117,8 +117,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 <a id="settings-placeholders"></a>The following placeholders for new wiki pages are supported:
 
 `@title` = page title  
-`@tag` = page tag for categorisation  
 `@author` = page author  
+`@tag` = page tag for categorisation  
 
 <a id="settings-files"></a>The following files can be customised:
 

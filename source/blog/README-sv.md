@@ -120,13 +120,13 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 <a id="inställningar-placeholders"></a>Följande platshållare för nya bloggsidor stöds:
 
 `@title` = namn på sidan  
+`@author` = sedans författare  
+`@tag` = taggar för kategorisering av sidan  
 `@timestamp` = sidans publiceringsdatum som tidsstämpel  
 `@date` = sidans publiceringsdatum, ÅÅÅÅ-MM-DD format  
 `@year` = sidans publiceringsår  
 `@month` = sidans publiceringsmånad  
 `@day` = sidans publiceringsdag  
-`@tag` = taggar för kategorisering av sidan  
-`@author` = sedans författare  
 
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 

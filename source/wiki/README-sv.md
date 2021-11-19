@@ -117,8 +117,8 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 <a id="inställningar-placeholders"></a>Följande platshållare för nya wikisidor stöds:
 
 `@title` = namn på sidan  
-`@tag` = taggar för kategorisering av sidan  
 `@author` = sedans författare  
+`@tag` = taggar för kategorisering av sidan  
 
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 

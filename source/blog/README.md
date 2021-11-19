@@ -120,13 +120,13 @@ The following settings can be configured in file `system/extensions/yellow-syste
 <a id="settings-placeholders"></a>The following placeholders for new blog pages are supported:
 
 `@title` = page title  
+`@author` = page author  
+`@tag` = page tag for categorisation  
 `@timestamp` = page publication date as timestamp  
 `@date` = page publication date, YYYY-MM-DD format  
 `@year` = page publication year  
 `@month` = page publication month  
 `@day` = page publication day  
-`@tag` = page tag for categorisation  
-`@author` = page author  
 
 <a id="settings-files"></a>The following files can be customised:
 
