@@ -62,23 +62,24 @@ Innehållsfil med wikisida:
         fler. Hitta din favoritsmak,
      3. Njut. 
 
-Visa länkar till wikin:
+Innehållsfil med wikiinformation:
 
-    [Se alla sidor](/wiki/special:pages/)
-    [Se senaste ändringarna](/wiki/special:changes/)
-    [Se exempel](/wiki/tag:exempel/)
+    ---
+    Title: Översikt
+    ---
+    ## Sidor
 
-Visa senaste wikisidor:
+    [wikipages /wiki/ 0]
+
+    ## Taggar
+
+    [wikitags /wiki/ 0]
+
+Visa lista över senaste ändringarna: 
 
     [wikichanges /wiki/ 0]
     [wikichanges /wiki/ 3]
     [wikichanges /wiki/ 10]
-
-Visa lista med taggar:
-
-    [wikitags /wiki/ 0]
-    [wikitags /wiki/ 3]
-    [wikitags /wiki/ 10]
 
 Visa lista med sidor:
 
@@ -91,6 +92,13 @@ Visa lista med sidor, av en specifik författare eller tagg:
     [wikipages /wiki/ 10 Datenstrom]]
     [wikipages /wiki/ 10 - kaffe]
     [wikipages /wiki/ 10 - exempel]
+
+Visa länkar till wikin:
+
+    [Se alla sidor](/wiki/special:pages/)
+    [Se senaste ändringarna](/wiki/special:changes/)
+    [Se sidor av Datenstrom](/wiki/author:datenstrom/)
+    [Se sidor med exempel](/wiki/tag:exempel/)
 
 Konfigurera en annan plats, URL med undermapp för kategorisering: 
 

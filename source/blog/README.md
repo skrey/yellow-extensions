@@ -58,35 +58,50 @@ Content file with blog page and page break:
     Tag: Example, Coffee
     ---
     Fika is a Swedish custom. It's a social coffee break where people 
-    gather to have a cup of coffee or tea together. [--more--]
-    
-    You can have fika with colleagues at work. You can invite your friends 
-    to fika. Fika is such an important part of life in Sweden that it is 
-    both a verb and a noun. How often do you fika?
+    gather to have a cup of coffee or tea together. You can have fika with 
+    colleagues at work. You can invite your friends to fika. Fika is such 
+    an important part of life in Sweden that it is both a verb and a noun. 
+    How often do you fika? [--more--]
 
-Showing links to blog:
+    [youtube SUpY1BT9Xf4]
 
-    [See all pages](/blog/)
-    [See all pages by Datenstrom](/blog/author:datenstrom/)
-    [See examples](/blog/tag:example/)
+Content file with blog information:
 
-Showing latest blog pages:
+    ---
+    Title: Archive
+    ---
+    ## Years
+
+    [blogyears /blog/ 0]
+
+    ## Tags
+
+    [blogtags /blog/ 0]
+
+Showing list of latest pages:
 
     [blogchanges /blog/ 0]
     [blogchanges /blog/ 3]
     [blogchanges /blog/ 10]
 
-Showing list of tags:
+Showing list of pages:
 
-    [blogtags /blog/ 0]
-    [blogtags /blog/ 3]
-    [blogtags /blog/ 10]
+    [blogpages /blog/ 0]
+    [blogpages /blog/ 3]
+    [blogpages /blog/ 10]
 
-Showing list of years:
+Showing list of pages, by a specific author or tag:
 
-    [blogyears /blog/ 0]
-    [blogyears /blog/ 3]
-    [blogyears /blog/ 10]
+    [blogpages /blog/ 10 Datenstrom]
+    [blogpages /blog/ 10 - coffee]
+    [blogpages /blog/ 10 - example]
+
+Showing links to blog:
+
+    [See all pages](/blog/)
+    [See pages by Datenstrom](/blog/author:datenstrom/)
+    [See pages about coffee](/blog/tag:coffee/)
+    [See pages with examples](/blog/tag:example/)
 
 Configuring different location, URL with subfolder for each year:
 

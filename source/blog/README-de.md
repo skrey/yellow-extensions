@@ -57,36 +57,51 @@ Inhaltsdatei mit Blogseite und Seitenumbruch:
     Layout: blog
     Tag: Beispiel, Kaffee
     ---
-    Fika ist ein schwedischer Brauch. Es ist eine Kaffeepause, bei der 
-    Menschen bei einer Tasse Kaffee oder Tee zusammenkommen. [--more--]
-    
-    Das kann mit Arbeitskollegen sein oder du lädst Freunde dazu ein. Fika 
-    ist ein so bedeutender Teil vom schwedischen Alltag, dass es sowohl als 
-    Verb als auch als Nomen verwendet wird. Wie oft machst du Fika?
+    Fika ist ein schwedischer Brauch. Es ist eine Kaffeepause, bei der Menschen  
+    bei einer Tasse Kaffee oder Tee zusammenkommen. Das kann mit Arbeitskollegen  
+    sein oder du lädst Freunde dazu ein. Fika ist ein so bedeutender Teil vom 
+    schwedischen Alltag, dass es sowohl als Verb als auch als Nomen verwendet  
+    wird. Wie oft machst du Fika? [--more--]
 
-Links zum Blog anzeigen:
+    [youtube SUpY1BT9Xf4]
 
-    [Siehe alle Seiten](/blog/)
-    [Siehe alle Seiten von Datenstrom](/blog/author:datenstrom/)
-    [Siehe Beispiele](/blog/tag:beispiel/)
+Inhaltsdatei mit Bloginformationen:
 
-Neuste Blogseiten anzeigen:
+    ---
+    Title: Archiv
+    ---
+    ## Jahre
+
+    [blogyears /blog/ 0]
+
+    ## Tags
+
+    [blogtags /blog/ 0]
+
+Liste mit neusten Seiten anzeigen:
 
     [blogchanges /blog/ 0]
     [blogchanges /blog/ 3]
     [blogchanges /blog/ 10]
 
-Liste mit Tags anzeigen:
+Liste mit Seiten anzeigen:
 
-    [blogtags /blog/ 0]
-    [blogtags /blog/ 3]
-    [blogtags /blog/ 10]
+    [blogpages /blog/ 0]
+    [blogpages /blog/ 3]
+    [blogpages /blog/ 10]
 
-Liste mit Jahren anzeigen:
+Liste mit Seiten anzeigen, von einem bestimmten Autor oder Tag:
 
-    [blogyears /blog/ 0]
-    [blogyears /blog/ 3]
-    [blogyears /blog/ 10]
+    [blogpages /blog/ 10 Datenstrom]
+    [blogpages /blog/ 10 - Kaffee]
+    [blogpages /blog/ 10 - Beispiel]
+
+Links zum Blog anzeigen:
+
+    [Siehe alle Seiten](/blog/)
+    [Siehe Seiten von Datenstrom](/blog/author:datenstrom/)
+    [Siehe Seiten über Kaffee](/blog/tag:kaffee/)
+    [Siehe Seiten mit Beispielen](/blog/tag:beispiel/)
 
 Anderen Ort festlegen, URL mit Unterverzeichnis für jedes Jahr:
 

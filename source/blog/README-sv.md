@@ -58,35 +58,50 @@ Innehållsfil med bloggsida och sidbrytning:
     Tag: Exempel, Kaffe
     ---
     Fika är en svensk sed. Det är en social kaffepaus där människor
-    samlas för att ta en kopp kaffe eller te tillsammans. [--more--]
-    
-    Du kan ha fika med kollegor på jobbet. Du kan bjuda in dina vänner
-    till fika. Fika är en så viktig del av vardagen i Sverige att det är
-    både ett verb och ett substantiv. Hur ofta fikar du? 
+    samlas för att ta en kopp kaffe eller te tillsammans. Du kan ha fika 
+    med kollegor på jobbet. Du kan bjuda in dina vänner till fika. Fika 
+    är en så viktig del av vardagen i Sverige att det är både ett verb 
+    och ett substantiv. Hur ofta fikar du? [--more--]
 
-Visa länkar till bloggen:
+    [youtube SUpY1BT9Xf4]
 
-    [Se alla sidor](/blog/)
-    [Se alla sidor av Datenstrom](/blog/author:datenstrom/)
-    [Se exempel](/blog/tag:exempel/)
+Innehållsfil med blogginformation:
 
-Visa senaste bloggsidor:
+    ---
+    Title: Arkiv
+    ---
+    ## År
+
+    [blogyears /blog/ 0]
+
+    ## Taggar
+
+    [blogtags /blog/ 0]
+
+Visa lista med sensate sidor:
 
     [blogchanges /blog/ 0]
     [blogchanges /blog/ 3]
     [blogchanges /blog/ 10]
 
-Visa lista med taggar:
+Visa lista med sidor:
 
-    [blogtags /blog/ 0]
-    [blogtags /blog/ 3]
-    [blogtags /blog/ 10]
+    [blogpages /blog/ 0]
+    [blogpages /blog/ 3]
+    [blogpages /blog/ 10]
 
-Visa lista med år:
+Visa lista med sidor, av en specifik författare eller tagg:
 
-    [blogyears /blog/ 0]
-    [blogyears /blog/ 3]
-    [blogyears /blog/ 10]
+    [blogpages /blog/ 10 Datenstrom]]
+    [blogpages /blog/ 10 - kaffe]
+    [blogpages /blog/ 10 - exempel]
+
+Visa länkar till bloggen:
+
+    [Se alla sidor](/blog/)
+    [Se sidor av Datenstrom](/blog/author:datenstrom/)
+    [Se sidor om kaffe](/blog/tag:kaffe/)
+    [Se sidor med exempel](/blog/tag:exempel/)
 
 Konfigurera en annan plats, URL med undermapp för varje år:
 

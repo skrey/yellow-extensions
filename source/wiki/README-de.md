@@ -62,23 +62,24 @@ Inhaltsdatei mit Wikiseite:
        Mokka, Türkischen Kaffee und vieles mehr. Finde deinen Lieblingsgeschmack.
     3. Genieße.
 
-Links zum Wiki anzeigen:
+Inhaltsdatei mit Wikiinformationen:
 
-    [Siehe alle Seiten](/wiki/special:pages/)
-    [Siehe letzte Änderungen](/wiki/special:changes/)
-    [Siehe Beispiele](/wiki/tag:beispiel/)
+    ---
+    Title: Übersicht
+    ---
+    ## Seiten
 
-Neuste Wikiseiten anzeigen:
+    [wikipages /wiki/ 0]
+
+    ## Tags
+
+    [wikitags /wiki/ 0]
+
+Liste der letzten Änderungen anzeigen:
 
     [wikichanges /wiki/ 0]
     [wikichanges /wiki/ 3]
     [wikichanges /wiki/ 10]
-
-Liste mit Tags anzeigen:
-
-    [wikitags /wiki/ 0]
-    [wikitags /wiki/ 3]
-    [wikitags /wiki/ 10]
 
 Liste mit Seiten anzeigen:
 
@@ -91,6 +92,13 @@ Liste mit Seiten anzeigen, von einem bestimmten Autor oder Tag:
     [wikipages /wiki/ 10 Datenstrom]
     [wikipages /wiki/ 10 - Kaffee]
     [wikipages /wiki/ 10 - Beispiel]
+
+Links zum Wiki anzeigen:
+
+    [Siehe alle Seiten](/wiki/special:pages/)
+    [Siehe letzte Änderungen](/wiki/special:changes/)
+    [Siehe Seiten von Datenstrom](/wiki/author:datenstrom/)
+    [Siehe Seiten mit Beispielen](/wiki/tag:beispiel/)
 
 Anderen Ort festlegen, URL mit Unterverzeichnis zur Kategorisierung:
 

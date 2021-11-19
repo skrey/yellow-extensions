@@ -62,23 +62,24 @@ Content file with wiki page:
        out what's your favorite.
     3. Enjoy.
 
-Showing links to wiki:
+Content file with wiki information:
 
-    [See all pages](/wiki/special:pages/)
-    [See recent changes](/wiki/special:changes/)
-    [See examples](/wiki/tag:example/)
+    ---
+    Title: Overview
+    ---
+    ## Pages
 
-Showing latest wiki pages:
+    [wikipages /wiki/ 0]
+
+    ## Tags
+
+    [wikitags /wiki/ 0]
+
+Showing list of recent changes:
 
     [wikichanges /wiki/ 0]
     [wikichanges /wiki/ 3]
     [wikichanges /wiki/ 10]
-
-Showing list of tags:
-
-    [wikitags /wiki/ 0]
-    [wikitags /wiki/ 3]
-    [wikitags /wiki/ 10]
 
 Showing list of pages:
 
@@ -91,6 +92,13 @@ Showing list of pages, by a specific author or tag:
     [wikipages /wiki/ 10 Datenstrom]
     [wikipages /wiki/ 10 - coffee]
     [wikipages /wiki/ 10 - example]
+
+Showing links to wiki:
+
+    [See all pages](/wiki/special:pages/)
+    [See recent changes](/wiki/special:changes/)
+    [See pages by Datenstrom](/wiki/author:datenstrom/)
+    [See pages with examples](/wiki/tag:example/)
 
 Configuring different location, URL with subfolder for categorisation:
 
