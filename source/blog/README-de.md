@@ -130,8 +130,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
-`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite   
-`system/layouts/blog.html` = Layoutdatei für individuelle Blogseite 
+`content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
+`system/layouts/blog.html` = Layoutdatei für individuelle Blogseite  
 `system/layouts/blog-start.html` = Layoutdatei für die Blogstartseite  
 
 ## Installation
