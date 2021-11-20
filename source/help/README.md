@@ -12,7 +12,7 @@ The help is available on your website as `http://website/help/`. The help gives 
 
 ## How to improve the help
 
-If you want to edit the help in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit), you can do this on your website at `http://website/edit/help/`. If you want to edit the help on your computer, have a look inside your `content/9-help` folder. Here are some tips. Keep the file names unchanged, edit only the title and content of pages. Look at the help from the user's perspective. Check that it is helpful to the user and give many practical examples.
+If you want to edit the help in a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit), you can do this on your website at `http://website/edit/help/`. If you want to edit the help on your computer, have a look inside your `content/9-help` folder. Here are some tips. Keep the file names unchanged, edit only the title and content of pages. Look at the help from the user's perspective. Check that it is helpful to the user and give practical examples.
 
 ## Installation
 
