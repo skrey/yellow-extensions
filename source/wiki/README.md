@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Wiki 0.8.15
+# Wiki 0.8.16
 
 Wiki for your website.
 
@@ -24,8 +24,7 @@ The following arguments are available, all but the first argument are optional:
 
 `StartLocation` = location of wiki start page  
 `EntriesMax` = number of entries to show per shortcut, 0 for unlimited  
-`Author` = show pages by a specific author, `[wikipages]` or `[wikichanges]` only  
-`Tag` = show pages with a specific tag, `[wikipages]` or `[wikichanges`] only  
+`FilterTag` = show pages with a specific tag, `[wikipages]` or `[wikichanges`] only  
 
 ## Examples
 
@@ -87,11 +86,11 @@ Showing list of pages:
     [wikipages /wiki/ 3]
     [wikipages /wiki/ 10]
 
-Showing list of pages, by a specific author or tag:
+Showing list of pages, with a specific tag:
 
-    [wikipages /wiki/ 10 Datenstrom]
-    [wikipages /wiki/ 10 - coffee]
-    [wikipages /wiki/ 10 - example]
+    [wikipages /wiki/ 10 coffee]
+    [wikipages /wiki/ 10 milk]
+    [wikipages /wiki/ 10 example]
 
 Showing links to wiki:
 

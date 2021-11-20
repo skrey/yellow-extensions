@@ -2,7 +2,7 @@
 // Blog extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/blog
 
 class YellowBlog {
-    const VERSION = "0.8.14";
+    const VERSION = "0.8.15";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -65,13 +65,11 @@ class YellowBlog {
     // Return blogpages shortcut
     public function getShorcutBlogpages($page, $name, $text) {
         $output = null;
-        list($startLocation, $entriesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
+        list($startLocation, $entriesMax, $filterTag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($startLocation)) $startLocation = $this->yellow->system->get("blogStartLocation");
         if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("blogEntriesMax");
-        $blog = $this->yellow->content->find($startLocation);
         $pages = $this->getBlogPages($startLocation);
-        if (!empty($author)) $pages->filter("author", $author);
-        if (!empty($tag)) $pages->filter("tag", $tag);
+        if (!empty($filterTag)) $pages->filter("tag", $filterTag);
         $pages->sort("title");
         $page->setLastModified($pages->getModified());
         if (count($pages)) {
@@ -93,12 +91,11 @@ class YellowBlog {
     // Return blogchanges shortcut
     public function getShorcutBlogchanges($page, $name, $text) {
         $output = null;
-        list($startLocation, $entriesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
+        list($startLocation, $entriesMax, $filterTag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($startLocation)) $startLocation = $this->yellow->system->get("blogStartLocation");
         if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("blogEntriesMax");
         $pages = $this->getBlogPages($startLocation);
-        if (!empty($author)) $pages->filter("author", $author);
-        if (!empty($tag)) $pages->filter("tag", $tag);
+        if (!empty($filterTag)) $pages->filter("tag", $filterTag);
         $pages->sort("published", false);
         $page->setLastModified($pages->getModified());
         if (count($pages)) {

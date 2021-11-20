@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Blog 0.8.14
+# Blog 0.8.15
 
 Blog for your website.
 
@@ -26,8 +26,7 @@ The following arguments are available, all but the first argument are optional:
 
 `StartLocation` = location of blog start page  
 `EntriesMax` = number of entries to show per shortcut, 0 for unlimited  
-`Author` = show pages by a specific author, `[blogpages]` or `[blogchanges]` only  
-`Tag` = show pages with a specific tag, `[blogpages]` or `[blogchanges]` only  
+`FilterTag` = show pages with a specific tag, `[blogpages]` or `[blogchanges]` only  
 
 ## Examples
 
@@ -90,11 +89,11 @@ Showing list of pages:
     [blogpages /blog/ 3]
     [blogpages /blog/ 10]
 
-Showing list of pages, by a specific author or tag:
+Showing list of pages, with a specific tag:
 
-    [blogpages /blog/ 10 Datenstrom]
-    [blogpages /blog/ 10 - coffee]
-    [blogpages /blog/ 10 - example]
+    [blogpages /blog/ 10 coffee]
+    [blogpages /blog/ 10 milk]
+    [blogpages /blog/ 10 example]
 
 Showing links to blog:
 

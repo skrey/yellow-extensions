@@ -2,7 +2,7 @@
 // Wiki extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki
 
 class YellowWiki {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -72,12 +72,11 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikipages($page, $name, $text) {
         $output = null;
-        list($startLocation, $entriesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
+        list($startLocation, $entriesMax, $filterTag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($startLocation)) $startLocation = $this->yellow->system->get("wikiStartLocation");
         if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("wikiEntriesMax");
         $pages = $this->getWikiPages($startLocation, false);
-        if (!empty($author)) $pages->filter("author", $author);
-        if (!empty($tag)) $pages->filter("tag", $tag);
+        if (!empty($filterTag)) $pages->filter("tag", $filterTag);
         $pages->sort("title");
         $page->setLastModified($pages->getModified());
         if (count($pages)) {
@@ -99,12 +98,11 @@ class YellowWiki {
     // Return wikiauthors shortcut
     public function getShorcutWikichanges($page, $name, $text) {
         $output = null;
-        list($startLocation, $entriesMax, $author, $tag) = $this->yellow->toolbox->getTextArguments($text);
+        list($startLocation, $entriesMax, $filterTag) = $this->yellow->toolbox->getTextArguments($text);
         if (empty($startLocation)) $startLocation = $this->yellow->system->get("wikiStartLocation");
         if (strempty($entriesMax)) $entriesMax = $this->yellow->system->get("wikiEntriesMax");
         $pages = $this->getWikiPages($startLocation);
-        if (!empty($author)) $pages->filter("author", $author);
-        if (!empty($tag)) $pages->filter("tag", $tag);
+        if (!empty($filterTag)) $pages->filter("tag", $filterTag);
         $pages->sort("modified", false);
         $page->setLastModified($pages->getModified());
         if (count($pages)) {

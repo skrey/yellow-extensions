@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Wiki 0.8.15
+# Wiki 0.8.16
 
 Wiki für deine Webseite.
 
@@ -24,8 +24,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 `StartLocation` = Ort der Wikistartseite  
 `EntriesMax` = Anzahl der Einträge pro Abkürzung, 0 für unbegrenzt  
-`Author` = Seiten eines bestimmten Autors anzeigen, nur bei, `[wikipages]` oder `[wikichanges]`  
-`Tag` = Seiten mit bestimmten Tag anzeigen, nur bei `[wikipages]` oder `[wikichanges`]  
+`FilterTag` = Seiten mit bestimmten Tag anzeigen, nur bei `[wikipages]` oder `[wikichanges`]  
 
 ## Beispiele
 
@@ -87,11 +86,11 @@ Liste mit Seiten anzeigen:
     [wikipages /wiki/ 3]
     [wikipages /wiki/ 10]
 
-Liste mit Seiten anzeigen, von einem bestimmten Autor oder Tag:
+Liste mit Seiten anzeigen, mit einem bestimmten Tag:
 
-    [wikipages /wiki/ 10 Datenstrom]
-    [wikipages /wiki/ 10 - Kaffee]
-    [wikipages /wiki/ 10 - Beispiel]
+    [wikipages /wiki/ 10 Kaffee]
+    [wikipages /wiki/ 10 Milch]
+    [wikipages /wiki/ 10 Beispiel]
 
 Links zum Wiki anzeigen:
 

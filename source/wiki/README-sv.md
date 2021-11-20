@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Wiki 0.8.15
+# Wiki 0.8.16
 
 Wiki för din webbplats.
 
@@ -24,8 +24,7 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
 
 `StartLocation` = plats för wikistartsida  
 `EntriesMax` = antal inlägg att visa per förkortning, 0 för obegränsad  
-`Author` = visa sidor av en specifik författare, endast `[wikipages]` eller `[wikichanges]`  
-`Tag` = visa sidor med en specifik tagg, endast `[wikipages]` eller `[wikichanges`]  
+`FilterTag` = visa sidor med en specifik tagg, endast `[wikipages]` eller `[wikichanges`]  
 
 ## Exempel
 
@@ -87,11 +86,11 @@ Visa lista med sidor:
     [wikipages /wiki/ 3]
     [wikipages /wiki/ 10]
 
-Visa lista med sidor, av en specifik författare eller tagg:
+Visa lista med sidor, med en specifik tagg:
 
-    [wikipages /wiki/ 10 Datenstrom]]
-    [wikipages /wiki/ 10 - kaffe]
-    [wikipages /wiki/ 10 - exempel]
+    [wikipages /wiki/ 10 kaffe]
+    [wikipages /wiki/ 10 mjölk]
+    [wikipages /wiki/ 10 exempel]
 
 Visa länkar till wikin:
 

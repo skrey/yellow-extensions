@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Blog 0.8.14
+# Blog 0.8.15
 
 Blogg för din webbplats
 
@@ -26,8 +26,7 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
 
 `StartLocation` = plats för bloggstartsida  
 `EntriesMax` = antal inlägg att visa per förkortning, 0 för obegränsad  
-`Author` = visa sidor av en specifik författare, endast `[blogpages]` eller `[blogchanges]`  
-`Tag` = visa sidor med en specifik tagg, endast `[blogpages]` eller `[blogchanges]`  
+`FilterTag` = visa sidor med en specifik tagg, endast `[blogpages]` eller `[blogchanges]`  
 
 ## Exempel
 
@@ -90,11 +89,11 @@ Visa lista med sidor:
     [blogpages /blog/ 3]
     [blogpages /blog/ 10]
 
-Visa lista med sidor, av en specifik författare eller tagg:
+Visa lista med sidor, med en specifik tagg:
 
-    [blogpages /blog/ 10 Datenstrom]]
-    [blogpages /blog/ 10 - kaffe]
-    [blogpages /blog/ 10 - exempel]
+    [blogpages /blog/ 10 kaffe]
+    [blogpages /blog/ 10 mjölk]
+    [blogpages /blog/ 10 exempel]
 
 Visa länkar till bloggen:
 

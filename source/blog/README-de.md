@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Blog 0.8.14
+# Blog 0.8.15
 
 Blog für deine Webseite.
 
@@ -26,8 +26,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 `StartLocation` = Ort der Blogstartseite  
 `EntriesMax` = Anzahl der Einträge pro Abkürzung, 0 für unbegrenzt  
-`Author` = Seiten eines bestimmten Autors anzeigen, nur bei `[blogpages]` oder `[blogchanges]`  
-`Tag` = Seiten mit bestimmten Tag anzeigen, nur bei `[blogpages]` oder `[blogchanges]`  
+`FilterTag` = Seiten mit bestimmten Tag anzeigen, nur bei `[blogpages]` oder `[blogchanges]`  
 
 ## Beispiele
 
@@ -90,11 +89,11 @@ Liste mit Seiten anzeigen:
     [blogpages /blog/ 3]
     [blogpages /blog/ 10]
 
-Liste mit Seiten anzeigen, von einem bestimmten Autor oder Tag:
+Liste mit Seiten anzeigen, mit einem bestimmten Tag:
 
-    [blogpages /blog/ 10 Datenstrom]
-    [blogpages /blog/ 10 - Kaffee]
-    [blogpages /blog/ 10 - Beispiel]
+    [blogpages /blog/ 10 Kaffee]
+    [blogpages /blog/ 10 Milch]
+    [blogpages /blog/ 10 Beispiel]
 
 Links zum Blog anzeigen:
 
