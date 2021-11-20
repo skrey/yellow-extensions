@@ -24,7 +24,7 @@ The following arguments are available, all but the first argument are optional:
 
 `StartLocation` = location of wiki start page  
 `EntriesMax` = number of entries to show per shortcut, 0 for unlimited  
-`FilterTag` = show pages with a specific tag, `[wikipages]` or `[wikichanges`] only  
+`FilterTag` = show pages with a specific tag, `[wikipages]` or `[wikichanges]` only  
 
 ## Examples
 

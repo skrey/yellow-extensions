@@ -24,7 +24,7 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
 
 `StartLocation` = plats för wikistartsida  
 `EntriesMax` = antal inlägg att visa per förkortning, 0 för obegränsad  
-`FilterTag` = visa sidor med en specifik tagg, endast `[wikipages]` eller `[wikichanges`]  
+`FilterTag` = visa sidor med en specifik tagg, endast `[wikipages]` eller `[wikichanges]`  
 
 ## Exempel
 

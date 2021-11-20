@@ -24,7 +24,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 
 `StartLocation` = Ort der Wikistartseite  
 `EntriesMax` = Anzahl der Einträge pro Abkürzung, 0 für unbegrenzt  
-`FilterTag` = Seiten mit bestimmten Tag anzeigen, nur bei `[wikipages]` oder `[wikichanges`]  
+`FilterTag` = Seiten mit bestimmten Tag anzeigen, nur bei `[wikipages]` oder `[wikichanges]`  
 
 ## Beispiele
 
