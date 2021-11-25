@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.53
+# Core 0.8.54
 
 Kernfunktionalität der Webseite.
 
@@ -50,9 +50,9 @@ Inhaltsdatei mit Weiterleitung:
 `Sitename` = Name der Webseite  
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
+`Layout` = Standard-Layout  
 `Theme` = Standard-Thema  
 `Language` = Standard-Sprache  
-`Layout` = Standard-Layout  
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
 `CoreStaticUrl` = URL der statischen Webseite  
@@ -71,10 +71,10 @@ Inhaltsdatei mit Weiterleitung:
 `Description` = Beschreibung der Seite  
 `Author` = Autoren der Seite, durch Komma getrennt  
 `Email` = E-Mail des Seitenautors  
-`Theme` = Thema der Seite  
-`Language` = Sprache der Seite  
 `Layout` = Layout der Seite  
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
+`Theme` = Thema der Seite  
+`Language` = Sprache der Seite  
 `Parser` = Parser der Seite  
 `Status` = Status der Seite, [unterstützte Statuswerte](#einstellungen-status)  
 `Redirect` = Weiterleitung zu einer anderen Seite oder URL  

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.53
+# Core 0.8.54
 
 Core functionality of the website.
 
@@ -50,9 +50,9 @@ Content file with redirection:
 `Sitename` = name of the website  
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
+`Layout` = default layout  
 `Theme` = default theme  
 `Language` = default language  
-`Layout` = default layout  
 `Parser` = default page parser  
 `Status` = default page status, [supported status values](#settings-status)  
 `CoreStaticUrl` = URL of the static website  
@@ -71,10 +71,10 @@ Content file with redirection:
 `Description` = page description  
 `Author` = page author(s), comma separated  
 `Email` = email of page author  
-`Theme` = page theme  
-`Language` = page language  
 `Layout` = page layout  
 `LayoutNew` = page layout for creating a new page  
+`Theme` = page theme  
+`Language` = page language  
 `Parser` = page parser  
 `Status` = page status, [supported status values](#settings-status)  
 `Redirect` = redirect to another page or URL  

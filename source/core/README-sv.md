@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.53
+# Core 0.8.54
 
 Webbplatsens kärnfunktion.
 
@@ -50,9 +50,9 @@ Innehållsfil med omdirigering:
 `Sitename` = webbplatsens namn  
 `Author` = webmasterns namn  
 `Email` = webmasterns email  
+`Layout` = standardlayout  
 `Theme` = standardtema  
 `Language` = standardspråk  
-`Layout` = standardlayout  
 `Parser` = standard sidparser  
 `Status` = standard sidstatus, [stödda statusvärden](#inställningar-status)  
 `CoreStaticUrl` = URL för den statiska webbplatsen  
@@ -71,10 +71,10 @@ Innehållsfil med omdirigering:
 `Description` = sidans beskrivning  
 `Author` = sidans författare, kommaseparerade  
 `Email` = email av sidans författare  
-`Theme` = sidans tema  
-`Language` = sidans språk  
 `Layout` = sidans layout  
 `LayoutNew` = sidans layout för att skapa en ny sida  
+`Theme` = sidans tema  
+`Language` = sidans språk  
 `Parser` = sidans parser  
 `Status` = sidans status, [stödda statusvärden](#inställningar-status)  
 `Redirect` = omdirigera till en ny sida eller URL  
