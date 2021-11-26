@@ -98,6 +98,7 @@ Showing list of pages, with a specific tag:
 Showing links to blog:
 
     [See all pages](/blog/)
+    [See pages of 2020](/blog/published:2020/)
     [See pages by Datenstrom](/blog/author:datenstrom/)
     [See pages about coffee](/blog/tag:coffee/)
     [See pages with examples](/blog/tag:example/)

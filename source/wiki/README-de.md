@@ -97,6 +97,7 @@ Links zum Wiki anzeigen:
     [Siehe alle Seiten](/wiki/special:pages/)
     [Siehe letzte Änderungen](/wiki/special:changes/)
     [Siehe Seiten von Datenstrom](/wiki/author:datenstrom/)
+    [Siehe Seiten über Kaffee](/wiki/tag:kaffee/)
     [Siehe Seiten mit Beispielen](/wiki/tag:beispiel/)
 
 Anderen Ort festlegen, URL mit Unterverzeichnis zur Kategorisierung:

@@ -98,6 +98,7 @@ Liste mit Seiten anzeigen, mit einem bestimmten Tag:
 Links zum Blog anzeigen:
 
     [Siehe alle Seiten](/blog/)
+    [Siehe Seiten von 2020](/blog/published:2020/)
     [Siehe Seiten von Datenstrom](/blog/author:datenstrom/)
     [Siehe Seiten über Kaffee](/blog/tag:kaffee/)
     [Siehe Seiten mit Beispielen](/blog/tag:beispiel/)

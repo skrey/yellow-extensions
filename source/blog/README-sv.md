@@ -98,6 +98,7 @@ Visa lista med sidor, med en specifik tagg:
 Visa länkar till bloggen:
 
     [Se alla sidor](/blog/)
+    [Se sidor för 2020](/blog/published:2020/)
     [Se sidor av Datenstrom](/blog/author:datenstrom/)
     [Se sidor om kaffe](/blog/tag:kaffe/)
     [Se sidor med exempel](/blog/tag:exempel/)

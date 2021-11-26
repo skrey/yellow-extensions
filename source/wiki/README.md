@@ -97,6 +97,7 @@ Showing links to wiki:
     [See all pages](/wiki/special:pages/)
     [See recent changes](/wiki/special:changes/)
     [See pages by Datenstrom](/wiki/author:datenstrom/)
+    [See pages about coffee](/wiki/tag:coffee/)
     [See pages with examples](/wiki/tag:example/)
 
 Configuring different location, URL with subfolder for categorisation:

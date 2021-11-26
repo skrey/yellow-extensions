@@ -97,6 +97,7 @@ Visa länkar till wikin:
     [Se alla sidor](/wiki/special:pages/)
     [Se senaste ändringarna](/wiki/special:changes/)
     [Se sidor av Datenstrom](/wiki/author:datenstrom/)
+    [Se sidor om kaffe](/wiki/tag:kaffe/)
     [Se sidor med exempel](/wiki/tag:exempel/)
 
 Konfigurera en annan plats, URL med undermapp för kategorisering: 
