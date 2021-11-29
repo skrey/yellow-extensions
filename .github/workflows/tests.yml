@@ -24,7 +24,7 @@ jobs:
           cd yellow; php yellow.php update; php yellow.php about
           echo "Build:exclude" > content/contact/page.md 
           echo "Build:exclude" > content/search/page.md
-        env:
-          URL: http://website/
       - name: Run tests
         run: cd yellow; php yellow.php build test
+        env:
+          URL: http://website/
