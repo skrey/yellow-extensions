@@ -210,9 +210,10 @@ InstagramDescription: Osadzanie zdjęć z Instagrama.
 InstallTitle: Witaj
 InstallLanguage: Jaki jest twój język?
 InstallExtension: Co chcesz stworzyć?
-InstallExtensionWebsite: Zwykłą stronę internetową
-InstallExtensionBlog: Blog
-InstallExtensionWiki: Wiki
+InstallExtensionWebsite: Mała strona internetowa
+InstallExtensionBlog: Mały blog
+InstallExtensionWiki: Mała wiki
+InstallButton: Zainstaluj
 InstallHomeTitle: Strona główna
 InstallHomeText: [image photo.jpg Przykład rounded]\n\n[edit - Możesz edytować tę stronę w przeglądarce internetowej] lub skorzystać z edytora tekstu. [Uzyskać pomoc](https://datenstrom.se/yellow/help/).
 InstallAboutTitle: O
@@ -229,6 +230,7 @@ JapaneseDescription: Japoński/日本語 z językiem 'ja'.
 MarkdownDescription: Formatowanie tekstu dla ludzi.
 MetaDescription: Metadane dla serwisów społecznościowych.
 NorwegianDescription: Norweski/Norsk z językiem 'nb'.
+ParsedownDescription: Formatowanie tekstu dla ludzi.
 ParisDescription: Paris to elegancki motyw.
 PolishDescription: Polski/Polski z językiem 'pl'.
 PortugueseDescription: Portugalski/Português z językiem 'pt'.
@@ -242,6 +244,7 @@ SearchResultsNone: Wpisz szukaną frazę.
 SearchResultsEmpty: Nie znaleziono wyników.
 SearchSpecialChanges: Ostatnie zmiany
 SearchButton: Szukaj
+ServeDescription: Built-in web server.
 SitemapDescription: Mapa witryny ze wszystkimi stronami.
 SliderDescription: Galeria zdjęć z suwakiem.
 SlovakDescription: Słowacki/Slovenčina z językiem 'sk'.

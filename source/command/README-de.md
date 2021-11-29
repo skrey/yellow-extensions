@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.30
+# Command 0.8.31
 
 Befehlszeile der Webseite.
 
@@ -70,8 +70,8 @@ Statische Webseite und andere Dateien in der Befehlszeile löschen:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`CoreStaticUrl` = URL der statischen Webseite  
-`CommandStaticBuildDirectory` = Verzeichnis für erzeugte Dateien  
+`CoreStaticUrl` = URL der Webseite, bei Verwendung als Static-Site-Generator  
+`CommandStaticBuildDirectory` = Verzeichnis für statisch erzeugte Dateien  
 `CommandStaticDefaultFile` = Standard-Datei der statischen Webseite  
 `CommandStaticErrorFile` = Fehler-Datei der statischen Webseite  
 

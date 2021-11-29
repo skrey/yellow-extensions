@@ -2,7 +2,7 @@
 // Googlecalendar extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar
 
 class YellowGooglecalendar {
-    const VERSION = "0.8.9";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -24,7 +24,7 @@ class YellowGooglecalendar {
             if (empty($entriesMax)) $entriesMax = $this->yellow->system->get("googlecalendarEntriesMax");
             if (empty($style)) $style = $this->yellow->system->get("googlecalendarStyle");
             $language = $page->get("language");
-            $timeZone = $this->yellow->system->get("coreServerTimezone");
+            $timeZone = $this->yellow->system->get("coreTimezone");
             $timeZoneHelper = new DateTime(null, new DateTimeZone($timeZone));
             $timeZoneOffset = $timeZoneHelper->getOffset();
             $dateMonthsNominative = $this->yellow->language->getText("coreDateMonthsNominative", $language);

@@ -2,7 +2,7 @@
 // Traffic extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic
 
 class YellowTraffic {
-    const VERSION = "0.8.12";
+    const VERSION = "0.8.13";
     public $yellow;         // access to API
     public $days;           // number of days
     public $views;          // number of views
@@ -177,7 +177,7 @@ class YellowTraffic {
     
     // Check static settings
     public function checkStaticSettings() {
-        return !empty($this->yellow->system->get("coreStaticUrl"));
+        return preg_match("/^(http|https):/", $this->yellow->system->get("coreStaticUrl"));
     }
     
     // Check request arguments

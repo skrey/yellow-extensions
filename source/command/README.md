@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.30
+# Command 0.8.31
 
 Command line of the website.
 
@@ -70,8 +70,8 @@ Cleaning static website and other files at the command line:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`CoreStaticUrl` = URL of the static website  
-`CommandStaticBuildDirectory` = directory for generated files  
+`CoreStaticUrl` = URL of the website, when used as a static site generator  
+`CommandStaticBuildDirectory` = directory for statically generated files  
 `CommandStaticDefaultFile` = default file for static website  
 `CommandStaticErrorFile` = error file for static website  
 

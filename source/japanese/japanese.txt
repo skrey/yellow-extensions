@@ -210,9 +210,10 @@ InstagramDescription: Embed Instagram photos.
 InstallTitle: こんにちは
 InstallLanguage: あなたの言語は何ですか？
 InstallExtension: どのサイトを作成しますか？
-InstallExtensionWebsite: ウェブ
-InstallExtensionBlog: ブログ
-InstallExtensionWiki: ウィキ
+InstallExtensionWebsite: 小さなウェブサイト
+InstallExtensionBlog: 小さなブログ
+InstallExtensionWiki: 小さなウィキ
+InstallButton: インスト
 InstallHomeTitle: ホーム
 InstallHomeText: [image photo.jpg 例 rounded]\n\n[edit - このページはウェブブラウザで編集できます]またはテキストエディタを使用してください。 [助けを得ます](https://datenstrom.se/yellow/help/)。
 InstallAboutTitle: 情報
@@ -229,6 +230,7 @@ JapaneseDescription: Japanese/日本語 with language 'ja'.
 MarkdownDescription: Text formatting for humans.
 MetaDescription: Meta data for social media sites.
 NorwegianDescription: Norwegian/Norsk with language 'nb'.
+ParsedownDescription: Text formatting for humans.
 ParisDescription: Paris is an elegant theme.
 PolishDescription: Polish/Polski with language 'pl'.
 PortugueseDescription: Portuguese/Português with language 'pt'.
@@ -242,6 +244,7 @@ SearchResultsNone: 検索キーワードをご入力下さい。
 SearchResultsEmpty: 検索結果が見つかりません。
 SearchSpecialChanges: 最近の更新
 SearchButton: 検索
+ServeDescription: Built-in web server.
 SitemapDescription: Sitemap with all pages.
 SliderDescription: Image gallery with slider.
 SlovakDescription: Slovak/Slovenčina with language 'sk'.

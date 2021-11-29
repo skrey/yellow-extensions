@@ -210,9 +210,10 @@ InstagramDescription: 嵌入Instagram图片的插件.
 InstallTitle: 你好
 InstallLanguage: 你说什么语言？
 InstallExtension: 打算用来做什么呢？
-InstallExtensionWebsite: 网站
-InstallExtensionBlog: 博客
-InstallExtensionWiki: 维基
+InstallExtensionWebsite: 小网站
+InstallExtensionBlog: 小博客
+InstallExtensionWiki: 小维基
+InstallButton: 安装
 InstallHomeTitle: 首页
 InstallHomeText: [image photo.jpg 图片示例 rounded]\n\n[edit - 您可以在网络浏览器中编辑此页面] 或使用文本编辑器。 [得到帮助](https://datenstrom.se/yellow/help/)。
 InstallAboutTitle: 信息
@@ -229,6 +230,7 @@ JapaneseDescription: 日语/日本語 with language 'ja'.
 MarkdownDescription: 方便人们阅读的文本格式化插件.
 MetaDescription: Meta插件为社交分享网站优化信息头.
 NorwegianDescription: 挪威语/Norsk with language 'nb'.
+ParsedownDescription: 方便人们阅读的文本格式化插件.
 ParisDescription: Paris是一个优雅的主题.
 PolishDescription: 波兰语/Polski with language 'pl'.
 PortugueseDescription: 葡萄牙语/Português with language 'pt'.
@@ -242,6 +244,7 @@ SearchResultsNone: 请输入搜索关键字
 SearchResultsEmpty: 搜索查无结果
 SearchSpecialChanges: 最近更改
 SearchButton: 搜索
+ServeDescription: Built-in web server.
 SitemapDescription: 生成网站地图.
 SliderDescription: 带滑动条的图片相册.
 SlovakDescription: 斯洛伐克语/Slovenčina with language 'sk'.

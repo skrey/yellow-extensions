@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.54
+# Core 0.8.55
 
 Core functionality of the website.
 
@@ -55,11 +55,10 @@ Content file with redirection:
 `Language` = default language  
 `Parser` = default page parser  
 `Status` = default page status, [supported status values](#settings-status)  
-`CoreStaticUrl` = URL of the static website  
-`CoreServerUrl` = URL of the website, `auto` for automatic detection  
-`CoreServerTimezone` = timezone of the website  
+`CoreServerUrl` = URL of the website, when used as a content management system  
+`CoreStaticUrl` = URL of the website, when used as a static site generator  
+`CoreTimezone` = timezone of the website  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
-`CoreTrashTimeout` = storage of deleted files in seconds  
 
 <a id="settings-page"></a>The following settings can be configured at the top of a page:
 

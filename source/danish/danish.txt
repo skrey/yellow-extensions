@@ -210,9 +210,10 @@ InstagramDescription: Embed Instagram photos.
 InstallTitle: Hej
 InstallLanguage: Hvad er dit sprog?
 InstallExtension: Hvad vil du lave?
-InstallExtensionWebsite: Internet side
-InstallExtensionBlog: Blog
-InstallExtensionWiki: Wiki
+InstallExtensionWebsite: Lille internet side
+InstallExtensionBlog: Lille blog
+InstallExtensionWiki: Lille wiki
+InstallButton: Installer
 InstallHomeTitle: Home
 InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - You can edit this page in a web browser] or use a text editor. [Get help](https://datenstrom.se/yellow/help/).
 InstallAboutTitle: About
@@ -229,6 +230,7 @@ JapaneseDescription: Japanese/日本語 with language 'ja'.
 MarkdownDescription: Text formatting for humans.
 MetaDescription: Meta data for social media sites.
 NorwegianDescription: Norwegian/Norsk with language 'nb'.
+ParsedownDescription: Text formatting for humans.
 ParisDescription: Paris is an elegant theme.
 PolishDescription: Polish/Polski with language 'pl'.
 PortugueseDescription: Portuguese/Português with language 'pt'.
@@ -242,6 +244,7 @@ SearchResultsNone: Indtast ny søgning.
 SearchResultsEmpty: Ingen resultater fundet.
 SearchSpecialChanges: Ny ændringer
 SearchButton: Søg
+ServeDescription: Built-in web server.
 SitemapDescription: Sitemap with all pages.
 SliderDescription: Image gallery with slider.
 SlovakDescription: Slovak/Slovenčina with language 'sk'.

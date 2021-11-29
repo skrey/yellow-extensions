@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Update 0.8.59
+# Update 0.8.60
 
 Keep your website up to date.
 
@@ -82,6 +82,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `UpdateCurrentRelease` = currently installed product release  
 `UpdateEventPending` = pending events  
 `UpdateEventDaily` = time of next daily event  
+`UpdateTrashTimeout` = storage of deleted files in seconds  
 
 The log file can be found in file `system/extensions/yellow.log`.
 

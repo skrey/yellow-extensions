@@ -210,9 +210,10 @@ InstagramDescription: Вставить фото из Instagram.
 InstallTitle: Здравствуйте
 InstallLanguage: Какой твой язык?
 InstallExtension: Что вы хотите сделать?
-InstallExtensionWebsite: Веб-сайт
-InstallExtensionBlog: Блог
-InstallExtensionWiki: Wiki
+InstallExtensionWebsite: Небольшой веб-сайт
+InstallExtensionBlog: Небольшой блог
+InstallExtensionWiki: Маленькая вики
+InstallButton: Установить
 InstallHomeTitle: Главная
 InstallHomeText: [image photo.jpg Пример rounded]\n\n[редактировать - Вы можете редактировать эту страницу в веб-браузере] или использовать текстовый редактор. [Получить помощь](https://datenstrom.se/yellow/help/).
 InstallAboutTitle: Информация
@@ -229,6 +230,7 @@ JapaneseDescription: Japanese/日本語 with language 'ja'.
 MarkdownDescription: Форматирование текста для людей.
 MetaDescription: Мета-данные для сайтов социальных сетей.
 NorwegianDescription: Norwegian/Norsk with language 'nb'.
+ParsedownDescription: Форматирование текста для людей.
 ParisDescription: Париж - элегантная тема.
 PolishDescription: Polish/Polski with language 'pl'.
 PortugueseDescription: Portuguese/Português with language 'pt'.
@@ -242,6 +244,7 @@ SearchResultsNone: Введите слово для поиска.
 SearchResultsEmpty: Ничего не найдено.
 SearchSpecialChanges: Последние изменения
 SearchButton: Искать
+ServeDescription: Built-in web server.
 SitemapDescription: Карта сайта со всеми страницами.
 SliderDescription: Галерея изображений со слайдером.
 SlovakDescription: Slovak/Slovenčina with language 'sk'.

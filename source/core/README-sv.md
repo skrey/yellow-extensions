@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.54
+# Core 0.8.55
 
 Webbplatsens kärnfunktion.
 
@@ -55,11 +55,10 @@ Innehållsfil med omdirigering:
 `Language` = standardspråk  
 `Parser` = standard sidparser  
 `Status` = standard sidstatus, [stödda statusvärden](#inställningar-status)  
-`CoreStaticUrl` = URL för den statiska webbplatsen  
-`CoreServerUrl` = URL av webbplatsen, `auto` för automatisk detektering  
-`CoreServerTimezone` = webbplatsens tidszon  
+`CoreServerUrl` = URL av webbplatsen, när den används som webbpubliceringssystem  
+`CoreStaticUrl` = URL av webbplatsen, när den används som static-site-generator  
+`CoreTimezone` = webbplatsens tidszon  
 `CoreMultiLanguageMode` = aktivera flerspråkigt läge, 1 eller 0  
-`CoreTrashTimeout` = lagring av raderade filer i sekunder  
 
 <a id="inställningar-page"></a>Följande inställningar kan konfigureras högst upp på en sida:
 

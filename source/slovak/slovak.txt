@@ -210,9 +210,10 @@ InstagramDescription: Embed Instagram photos.
 InstallTitle: Zdravo
 InstallLanguage: Aký je váš jazyk?
 InstallExtension: Čo chcete urobiť?
-InstallExtensionWebsite: Webové stránky
-InstallExtensionBlog: Blog
-InstallExtensionWiki: Wiki
+InstallExtensionWebsite: Malá webová stránka
+InstallExtensionBlog: Malý blog
+InstallExtensionWiki: Malá wiki
+InstallButton: Inštalovať
 InstallHomeTitle: Home
 InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - You can edit this page in a web browser] or use a text editor. [Get help](https://datenstrom.se/yellow/help/).
 InstallAboutTitle: About
@@ -229,6 +230,7 @@ JapaneseDescription: Japanese/日本語 with language 'ja'.
 MarkdownDescription: Text formatting for humans.
 MetaDescription: Meta data for social media sites.
 NorwegianDescription: Norwegian/Norsk with language 'nb'.
+ParsedownDescription: Text formatting for humans.
 ParisDescription: Paris is an elegant theme.
 PolishDescription: Polish/Polski with language 'pl'.
 PortugueseDescription: Portuguese/Português with language 'pt'.
@@ -242,6 +244,7 @@ SearchResultsNone: Hľadaný výraz.
 SearchResultsEmpty: Židne výsledky.
 SearchSpecialChanges: Posledné zmeny
 SearchButton: Hľadať
+ServeDescription: Built-in web server.
 SitemapDescription: Sitemap with all pages.
 SliderDescription: Image gallery with slider.
 SlovakDescription: Slovak/Slovenčina with language 'sk'.
