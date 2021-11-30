@@ -22,9 +22,9 @@ jobs:
           git clone https://github.com/datenstrom/yellow.git yellow
           cp -R yellow/* .
           cp zip/* system/extensions/
+          php yellow.php update; php yellow.php about
           echo "Build:exclude" > content/contact/page.md 
           echo "Build:exclude" > content/search/page.md
-          php yellow.php update; php yellow.php about
       - name: Run tests
         run: php yellow.php build test
         env:
