@@ -16,7 +16,9 @@ jobs:
           php-version: ${{ matrix.php }}
           extensions: curl, gd, mbstring, zip
           coverage: none
-      - name: Setup tests
+      - name: Setup problem matcher
         run: echo "::add-matcher::${{ runner.tool_cache }}/php.json"
+      - name: Setup test environment
+        run: make-test.php
       - name: Run tests
-        run: php run-tests.php
+        run: cd test; php yellow.php build tests
