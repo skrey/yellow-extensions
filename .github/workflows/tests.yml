@@ -17,15 +17,8 @@ jobs:
           extensions: curl, gd, mbstring, zip
           coverage: none
       - name: Setup tests
-        run: |
-          echo "::add-matcher::${{ runner.tool_cache }}/php.json"
-          git clone https://github.com/datenstrom/yellow.git yellow
-          cp -R yellow/* .
-          cp zip/* system/extensions/
-          php yellow.php update; php yellow.php about
-          echo "Build:exclude" > content/contact/page.md 
-          echo "Build:exclude" > content/search/page.md
+        run: echo "::add-matcher::${{ runner.tool_cache }}/php.json"
       - name: Run tests
-        run: php yellow.php build test
+        run: php run-tests.php
         env:
           URL: http://website/
