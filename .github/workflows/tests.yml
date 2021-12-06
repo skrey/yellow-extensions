@@ -20,5 +20,3 @@ jobs:
         run: echo "::add-matcher::${{ runner.tool_cache }}/php.json"
       - name: Run tests
         run: php run-tests.php
-        env:
-          URL: http://website/
