@@ -10,15 +10,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Setup PHP
+      - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
           extensions: curl, gd, mbstring, zip
           coverage: none
-      - name: Setup problem matcher
+      - name: Set up problem matcher
         run: echo "::add-matcher::${{ runner.tool_cache }}/php.json"
-      - name: Setup test environment
+      - name: Set up test environment
         run: php make-test.php
       - name: Run tests
         run: cd test; php yellow.php build tests

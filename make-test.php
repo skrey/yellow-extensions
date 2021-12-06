@@ -6,7 +6,7 @@ if (PHP_SAPI!="cli") {
 } else {
     $path = "test";
     if (!is_dir($path)) {
-        echo "\rMaking test environment... 0% ";
+        echo "\rMaking test environment 0%... ";
         @mkdir("$path/system/extensions", 0777, true);
         @copy("source/install/yellow.php", "$path/yellow.php");
         @copy("source/install/robots.txt", "$path/robots.txt");
