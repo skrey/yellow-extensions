@@ -18,7 +18,7 @@ jobs:
           coverage: none
       - name: Set up problem matcher
         run: echo "::add-matcher::${{ runner.tool_cache }}/php.json"
-      - name: Set up test environment
+      - name: Make test environment
         run: php make-test.php
       - name: Run tests
         run: cd test; php yellow.php build tests
