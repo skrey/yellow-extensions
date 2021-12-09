@@ -7,9 +7,7 @@ if (PHP_SAPI!="cli") {
     if (!is_dir("test")) {
         echo "\rMaking test environment 0%... ";
         @mkdir("test/system/extensions", 0777, true);
-        @copy("source/install/robots.txt", "test/robots.txt");
         @copy("source/install/yellow.php", "test/yellow.php");
-        @copy("source/install/yellow-system.ini", "test/system/extensions/yellow-system.ini");
         @copy("source/core/core.php", "test/system/extensions/core.php");
         @copy("source/update/update.php", "test/system/extensions/update.php");
         $directoryHandle = @opendir("zip");
@@ -22,14 +20,14 @@ if (PHP_SAPI!="cli") {
         }
         echo "\rMaking test environment 20%... ";
         $line = date("Y-m-d H:i:s")." info Make test environment for Datenstrom Yellow extensions\n";
-        file_put_contents("test/system/extensions/yellow.log", $line, FILE_APPEND);
+        file_put_contents("test/system/extensions/yellow.log", $line);
+        $settings = "# Datenstrom Yellow system settings\n\nSitename: Test\nCoreStaticUrl: http://website\n";
+        file_put_contents("test/system/extensions/yellow-system.ini", $settings);
         exec("cd test; php yellow.php update", $outputLines, $returnStatus);
         if ($returnStatus!=0) {
             foreach ($outputLines as $line) echo "$line\n";
             exit($returnStatus);
         }
-        $settings = "Sitename: Test\nTheme: stockholm\nLanguage: en\nCoreStaticUrl: http://website\n";
-        file_put_contents("test/system/extensions/yellow-system.ini", $settings, FILE_APPEND);
         file_put_contents("test/content/contact/page.md", "exclude\n");   //TODO: remove later, exclude contact page for now
         file_put_contents("test/content/search/page.md", "exclude\n");    //TODO: remove later, exclude search page for now
         echo "\rMaking test environment 100%... done\n";
