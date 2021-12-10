@@ -19,10 +19,10 @@ if (PHP_SAPI!="cli") {
             closedir($directoryHandle);
         }
         echo "\rMaking test environment 20%... ";
-        $line = date("Y-m-d H:i:s")." info Make test environment for Datenstrom Yellow extensions\n";
-        file_put_contents("test/system/extensions/yellow.log", $line);
-        $settings = "# Datenstrom Yellow system settings\n\nSitename: Test\nCoreStaticUrl: http://website\n";
-        file_put_contents("test/system/extensions/yellow-system.ini", $settings);
+        $fileData = date("Y-m-d H:i:s")." info Make test environment for Datenstrom Yellow extensions\n";
+        file_put_contents("test/system/extensions/yellow.log", $fileData);
+        $fileData = "# Datenstrom Yellow system settings\n\nSitename: Test\nCoreStaticUrl: http://website\n";
+        file_put_contents("test/system/extensions/yellow-system.ini", $fileData);
         exec("cd test; php yellow.php update", $outputLines, $returnStatus);
         if ($returnStatus!=0) {
             foreach ($outputLines as $line) echo "$line\n";
