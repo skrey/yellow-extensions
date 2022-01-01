@@ -133,4 +133,4 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
 * [Swedish](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish): Svenska/Svenska med språket "sv". Översatt av Adam Engel.
 * [Turkish](https://github.com/datenstrom/yellow-extensions/tree/master/source/turkish): Turkiska/Türkçe med språket "tr". Översatt av Osman Kars.
 
-Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/) och [engagera dig](https://datenstrom.se/sv/yellow/help/contributing-guidelines).
+Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).
