@@ -10,7 +10,7 @@ Hilfe für deine Webseite.
 
 Die Hilfe ist auf deiner Webseite vorhanden als `http://website/help/`. Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. Es wird empfohlen, auch die [Toc-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md) und [Highlight-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight/README-de.md) zu installieren.
 
-## Wie man die Hilfe verbessert
+## Wie man die Hilfe bearbeitet
 
 Falls du die Hilfe im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/help/`. Falls du die Hilfe auf deinem Computer bearbeiten möchtest, schau dir das `content/9-help`-Verzeichnis an. Hier sind ein paar Tipps. Lasse die Dateinamen unverändert, bearbeite nur den Titel und den Inhalt der Seiten. Schau dir die Hilfe aus der Perspektive des Benutzers an. Überprüfe ob es für den Benutzer hilfreich ist und gebe praktische Beispiele. 
 

@@ -1,12 +1,12 @@
 ---
 Title: Richtlinien zum Mitmachen
 ---
-Wie man mit uns zusammenarbeitet und nützliche Produkte macht.
+Erfahre wie du mit uns zusammenarbeitest und nützliche Produkte machst.
 
 ## Wie man eine Frage stellt
 
-* [Beginne eine neue Diskussion für jede Frage](https://github.com/datenstrom/yellow/discussions).
-* Schreibe die Frage in den Titel, damit alle sehen können worum es geht.
+* [Beginne eine neue Diskussion für jede Frage](https://github.com/datenstrom/yellow/discussions/categories/ask-a-question).
+* Schreibe deine Frage in den Titel, es ist das Erste was alle sehen.
 * Beschreibe was du machen möchtest und welche Probleme du hast.
 * Wähle eine Antwort aus, wenn deine Frage beantwortet wurde.
 
@@ -17,30 +17,23 @@ Wie man mit uns zusammenarbeitet und nützliche Produkte macht.
 * Füge viele Details hinzu, vor allem die Logdatei `system/extensions/yellow.log`.
 * Teste ob alles funktioniert, wenn dein Problem behoben wurde.
 
-## Wie man die Dokumentation verbessert
+## Wie man mit uns zusammenarbeitet
 
-* [Beginne mit der Hilfe](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md) oder [schaue dir deine eigene Sprache an](https://github.com/datenstrom/yellow-extensions/tree/master/README-de.md#sprachen).
-* Bearbeite die vorhandene Dateien, erstelle eine Übersetzung falls deine Sprache fehlt.
-* Lade deine Dateien zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
-* Überprüfe ob es für den Benutzer hilfreich ist und gebe praktische Beispiele. 
+* Verbessere die vorhandene Funktionen, [erstelle eine Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md) falls etwas Nützliches fehlt. 
+* Überprüfe die vorhandenen Sprachen, [erstelle eine Übersetzung](https://github.com/datenstrom/yellow-extensions/tree/master/README-de.md#sprachen) falls deine Sprache fehlt.
+* Lies die Dokumentation durch, [bearbeite die Hilfe](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md) falls etwas nicht gut erklärt wird.
+* Mache eine Ankündigung und zeige was du gemacht hast. [Schau dir an was neu ist](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).
 
-## Wie man eine Erweiterung entwickelt
+## Wie man Erfahrungen austauscht
 
-* [Beginne mit einer Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld), [einem Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) oder der [API](api-for-developers).
-* Stelle dir vor was der Benutzer machen will, strebe eine einfache Lösung an.
-* Lade deine Erweiterungen zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
-* Mache eine Ankündigung, zeige was du gemacht hast und frage nach Feedback
-
-## Wie man Erfahrungen austauscht 
-
-Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. Die meisten Antworten werden von Community-Mitgliedern, so wie du, bereitgestellt. Denke daran, dass andere Menschen möglicherweise nicht den selben Hintergrund haben wie du. Fühle dich niemals gezwungen, auf jemanden zu reagieren oder zu antworten. Du kannst jederzeit aus einem Gespräch aussteigen, wenn es nicht konstruktiv verläuft. Konzentriere dich auf diejenigen die Interesse zeigen und mit dir zusammenarbeiten wollen. Du findest uns auf [GitHub](https://github.com/datenstrom), [Discord](https://discord.gg/NYvTETsHS9), [Twitter](https://twitter.com/datendeveloper) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).
+Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. Die meisten Antworten werden von Community-Mitgliedern, so wie du, bereitgestellt. Denke daran, dass andere Menschen möglicherweise nicht das gleiche Wissen haben wie du. Du kannst jederzeit aus Diskussionen aussteigen. Konzentriere dich auf die Menschen die Interesse zeigen und mit dir zusammenarbeiten wollen. Du findest uns auf [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).
 
 ## Beispiele
 
 Eine Frage auf Englisch stellen:
 
 ```
-How to change the language of a website?
+How do I change the language of my website?
 
 Hello, during installation I selected the wrong language. Now I want to 
 change the language of my website to german. When I change the settings 
@@ -53,12 +46,11 @@ Thanks for your help.
 Einen Fehler auf Englisch melden:
 
 ```
-Call to undefined function YellowToolbox::detectTimezone()
+Call to undefined function detectTimezone()
 
-Hello, I updated my website in the web browser and now get the following 
-error message: Call to undefined function YellowToolbox::detectTimezone() 
+Hello, I get the error message: Call to undefined function detectTimezone() 
 in /var/www/website/system/extensions/fika.php. You can reproduce the bug 
-in a new installation, select website, install the fika extension. 
+in a new installation, select website, then install the fika extension. 
 Here's my log file system/extensions/yellow.log:
 
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
@@ -76,10 +68,10 @@ Eine Ankündigung auf Englisch machen:
 ```
 New video extension
 
-Hello, I made a new video extension. Its aim is to play videos without 
-external services and without tracking cookies. The file formats MP4 and 
-OGG are supported at the moment. I would like to know which file formats 
-people use and what more I can do to make the extension better.
+Hello, I made a new video extension. My goal is to play videos without 
+external services. You can copy videos to your web server and play them 
+from there. The file formats MP4 and OGG are supported at the moment. 
+I would like to know which file formats people use.
 
 Let me know what you think. Any comments are welcome.
 ```
