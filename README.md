@@ -69,7 +69,7 @@ Features, themes and languages for Datenstrom Yellow. https://datenstrom.se/yell
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
   Support for password-protected pages. Developed by Steffen Schultz.
 * [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish): 
-  Package and publish extensions. Developed by Datenstrom.
+  Make and publish extensions. Developed by Datenstrom.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss): 
   Widgets for RadioBoss Cloud. Developed by Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 

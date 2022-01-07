@@ -69,7 +69,7 @@ Funktionen, Themen und Sprachen für Datenstrom Yellow. https://datenstrom.se/de
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private/README-de.md): 
   Unterstützung für passwortgeschützte Seiten. Entwickelt von Steffen Schultz.
 * [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md): 
-  Erweiterungen verpacken und veröffentlichen. Entwickelt von Datenstrom.
+  Erweiterungen erstellen und veröffentlichen. Entwickelt von Datenstrom.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss/README-de.md): 
   Widgets für RadioBoss Cloud. Entwickelt von Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random/README-de.md): 

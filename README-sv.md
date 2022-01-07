@@ -69,7 +69,7 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
 * [Private](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private): 
   Stöd för lösenordsskyddade sidor. Utvecklad av Steffen Schultz.
 * [Publish](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md): 
-  Paketera och publicera tillägg. Utvecklad av Datenstrom.
+  Göra och publicera tillägg. Utvecklad av Datenstrom.
 * [Radioboss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/radioboss): 
   Widgets för RadioBoss Cloud. Utvecklad av Steffen Schultz.
 * [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random): 

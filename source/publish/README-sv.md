@@ -2,11 +2,11 @@
 
 # Publish 0.8.45
 
-Paketera och publicera tillägg.
+Göra och publicera tillägg.
 
 <p align="center"><img src="publish-screenshot.png?raw=true" width="794" height="478" alt="Skärmdump"></p>
 
-## Hur man paketerar ett tillägg
+## Hur man gör ett tillägg
 
 Börja med en [exempel-funktion](https://github.com/schulle4u/yellow-extension-helloworld) eller ett [exempel-tema](https://github.com/schulle4u/yellow-extension-basic). Detta visar vilka filer och inställningar som krävs. Varje tillägg behöver en `extension.ini` fil med tilläggsinställningar. Se till att ditt tillägg följer våra kodnings- och dokumentationsstandarder. Det är inte viktigt vilken standard vi använder, men att vi alla använder samma. Ladda upp ditt tillägg till GitHub, låt oss veta om du behöver hjälp.
 
@@ -14,9 +14,9 @@ Börja med en [exempel-funktion](https://github.com/schulle4u/yellow-extension-h
 
 Öka först versionsnumret i din PHP-kod och publicera sedan ditt tillägg på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php publish` följt av en mapp. Detta uppdaterar alla nödvändiga filer. Ladda upp dina ändringar till GitHub och skapa en pull-request för `datenstrom/yellow-extensions`. Ditt tillägg ingår nu i [uppdateringsprocessen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md).
 
-## Hur man publicerar standardinstallationen
+## Hur man uppdaterar standardinstallationen
 
-[Standardinstallationen](https://github.com/datenstrom/yellow) är en samling av viktigaste tillägg. Du kan publicera en ny standardinstallation på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md), till exempel efter att språkfiler har ändrats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php publish yellow-extensions` och `php yellow.php publish yellow`. Detta uppdaterar alla nödvändiga filer. Ladda upp dina ändringar till GitHub och skapa en pull-request för `datenstrom/yellow-extensions` och `datenstrom/yellow`.
+[Standardinstallationen](https://github.com/datenstrom/yellow) är en samling av viktigaste tillägg. Du kan uppdatera standardinstallationen på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md), till exempel efter att språkfiler har ändrats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php publish yellow-extensions` och `php yellow.php publish yellow`. Detta uppdaterar alla nödvändiga filer. Ladda upp dina ändringar till GitHub och skapa en pull-request för `datenstrom/yellow-extensions` och `datenstrom/yellow`.
 
 ## Exempel
 
