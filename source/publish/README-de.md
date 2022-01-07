@@ -85,7 +85,7 @@ Erweiterungen in der Befehlszeile veröffentlichen:
 `php yellow.php publish yellow-extension-basic`  
 `php yellow.php publish yellow-extensions/source/german`  
 
-Standardinstallation in der Befehlszeile veröffentlichen:
+Standardinstallation in der Befehlszeile aktualisieren:
 
 `php yellow.php publish yellow-extensions`  
 `php yellow.php publish yellow`  

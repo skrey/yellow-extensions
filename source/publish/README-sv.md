@@ -85,7 +85,7 @@ Publicera tillägg på kommandoraden:
 `php yellow.php publish yellow-extension-basic`  
 `php yellow.php publish yellow-extensions/source/swedish`  
 
-Publicera standardinstallationen på kommandoraden:
+Uppdatera standardinstallationen på kommandoraden:
 
 `php yellow.php publish yellow-extensions`  
 `php yellow.php publish yellow`  

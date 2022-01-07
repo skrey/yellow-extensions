@@ -85,7 +85,7 @@ Publishing extensions at the command line:
 `php yellow.php publish yellow-extension-basic`  
 `php yellow.php publish yellow-extensions/source/english`  
 
-Publishing the standard installation at the command line:
+Updating the standard installation at the command line:
 
 `php yellow.php publish yellow-extensions`  
 `php yellow.php publish yellow`  
