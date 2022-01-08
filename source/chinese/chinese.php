@@ -2,7 +2,7 @@
 // Chinese extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/chinese
 
 class YellowChinese {
-    const VERSION = "0.8.28";
+    const VERSION = "0.8.29";
     public $yellow;         // access to API
     
     // Handle initialisation
