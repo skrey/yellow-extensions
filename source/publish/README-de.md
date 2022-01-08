@@ -18,6 +18,8 @@ Erhöhe zuerst die Versionsnummer in deinem PHP-Code und veröffentliche dann de
 
 Die [Standardinstallation](https://github.com/datenstrom/yellow) ist eine Sammlung der wichtigsten Erweiterungen. Du kannst die Standardinstallation in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) aktualisieren, zum Beispiel nachdem Kernfunktionalität oder Sprachdateien verändert wurden. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php publish yellow-extensions` und `php yellow.php publish yellow`. Das aktualisiert alle notwendigen Dateien. Lade deine Änderungen zu GitHub hoch und erzeuge einen Pull-Request für `datenstrom/yellow-extensions` und `datenstrom/yellow`.
 
+Falls du Entwickler/Designer/Übersetzer erwähnen möchtest, kannst du [Co-Autoren](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) zur Commit-Nachricht hinzufügen.
+
 ## Beispiele
 
 Erweiterungseinstellungen für eine Funktion:

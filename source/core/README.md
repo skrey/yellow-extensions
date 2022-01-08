@@ -57,7 +57,7 @@ Content file with redirection:
 `Status` = default page status, [supported status values](#settings-status)  
 `CoreServerUrl` = URL of the website, when used as a content management system  
 `CoreStaticUrl` = URL of the website, when used as a static site generator  
-`CoreTimezone` = timezone of the website  
+`CoreTimezone` = timezone of the website, [supported timezones](https://www.php.net/manual/en/timezones.php)  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
 
 <a id="settings-page"></a>The following settings can be configured at the top of a page:

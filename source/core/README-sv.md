@@ -57,7 +57,7 @@ Innehållsfil med omdirigering:
 `Status` = standard sidstatus, [stödda statusvärden](#inställningar-status)  
 `CoreServerUrl` = URL av webbplatsen, när den används som webbpubliceringssystem  
 `CoreStaticUrl` = URL av webbplatsen, när den används som static-site-generator  
-`CoreTimezone` = webbplatsens tidszon  
+`CoreTimezone` = webbplatsens tidszon, [stödda tidszoner](https://www.php.net/manual/en/timezones.php)  
 `CoreMultiLanguageMode` = aktivera flerspråkigt läge, 1 eller 0  
 
 <a id="inställningar-page"></a>Följande inställningar kan konfigureras högst upp på en sida:

@@ -57,7 +57,7 @@ Inhaltsdatei mit Weiterleitung:
 `Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
 `CoreServerUrl` = URL der Webseite, bei Verwendung als Content-Management-System  
 `CoreStaticUrl` = URL der Webseite, bei Verwendung als Static-Site-Generator  
-`CoreTimezone` = Zeitzone der Webseite  
+`CoreTimezone` = Zeitzone der Webseite, [unterstützte Zeitzonen](https://www.php.net/manual/de/timezones.php)  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
 
 <a id="einstellungen-seite"></a>Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden:

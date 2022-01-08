@@ -18,6 +18,8 @@ First increase the version number in your PHP code, then publish your extension 
 
 The [standard installation](https://github.com/datenstrom/yellow) is a collection of the most important extensions. You can update the standard installation at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command), for example after core functionality or language files have been changed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php publish yellow-extensions` and `php yellow.php publish yellow`. This will update all necessary files. Upload your changes to GitHub and create a pull request for `datenstrom/yellow-extensions` and `datenstrom/yellow`.
 
+If you want to mention developers/designers/translators, add [co-authors](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) to the commit message.
+
 ## Examples
 
 Extension settings for a feature:
