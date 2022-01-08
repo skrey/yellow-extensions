@@ -2,7 +2,7 @@
 // Googlecalendar extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/googlecalendar
 
 class YellowGooglecalendar {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -41,11 +41,9 @@ class YellowGooglecalendar {
             if ($mode=="week" || $mode=="month") {
                 $output = "<div class=\"".htmlspecialchars($style)."\">";
                 $output .= "<iframe src=\"https://calendar.google.com/calendar/embed?mode=".rawurlencode($mode)."&amp;dates=".rawurlencode($this->getCalendarDate($timestamp, false))."&amp;ctz=".rawurlencode($timeZone)."&amp;wkst=".rawurlencode($this->getCalendarStart($dateWeekdays, $dateWeekstart))."&amp;hl=".rawurlencode($language)."&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showDate=1";
-                foreach (preg_split("/\s*,\s*/", $id) as $src) {
-                    list($src, $color) = $this->getCalendarInformation($src);
-                    if (!empty($src)) $output .= "&amp;src=".rawurlencode($src);
-                    if (!empty($color)) $output .= "&amp;color=".rawurlencode($color);
-                }
+                list($src, $color) = $this->getCalendarInformation($id);
+                if (!empty($src)) $output .= "&amp;src=".rawurlencode($src);
+                if (!empty($color)) $output .= "&amp;color=".rawurlencode($color);
                 $output .= "\" frameborder=\"0\"";
                 if ($width && $height) $output .= " width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\"";
                 $output .= "></iframe></div>";

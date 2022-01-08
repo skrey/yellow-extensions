@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Googlecalendar 0.8.10
+# Googlecalendar 0.8.11
 
 Google-Kalender einbinden.
 
@@ -12,7 +12,7 @@ Erstelle eine `[googlecalendar]`-Abkürzung.
 
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
 
-`Id` = öffentlicher [Google-Kalender](https://calendar.google.com/), mehrere Kalender in Anführungszeichen setzen  
+`Id` = öffentlicher [Google-Kalender](https://calendar.google.com/)  
 `Mode` = Kalendermodus, z.B. `week`, `month`, `events`, `agenda`  
 `Date` = Startdatum oder Anzahl der Einträge, JJJJ-MM-TT Format  
 `Style` = Kalenderstil, z.B. `left`, `center`, `right`  
@@ -27,11 +27,11 @@ Kalender einbinden, unterschiedliche Kalender:
     [googlecalendar de.german#holiday]
     [googlecalendar sv.swedish#holiday]
 
-Kalender einbinden, mehrere Kalender zusammen:
+Kalender einbinden, unterschiedliche Farben:
 
-    [googlecalendar "en.uk#holiday, de.german#holiday"]
-    [googlecalendar "en.uk#holiday, de.german#holiday, sv.swedish#holiday"]
-    [googlecalendar "en.uk#holiday#0044AA, de.german#holiday#AA0000, sv.swedish#holiday#0000AA"]
+    [googlecalendar de.german#holiday#AA0000]
+    [googlecalendar de.german#holiday#00AA00]
+    [googlecalendar de.german#holiday#0000AA]
 
 Kalender einbinden, unterschiedlicher Modus:
 

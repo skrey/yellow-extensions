@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Googlecalendar 0.8.10
+# Googlecalendar 0.8.11
 
 Bädda in Google-kalender.
 
@@ -12,7 +12,7 @@ Skapa en `[googlecalendar]` förkortning.
 
 Följande argument är tillgängliga, alla utom det första argumentet är valfria:
 
-`Id` = offentlig [Google-kalender](https://calendar.google.com/), placera flera kalendrar i citattecken  
+`Id` = offentlig [Google-kalender](https://calendar.google.com/)  
 `Mode` = kalenderläge, t.ex. `week`, `month`, `events`, `agenda`  
 `Date` = startdatum eller antal inlägg, ÅÅÅÅ-MM-DD format  
 `Style` = kalenderstil, t.ex. `left`, `center`, `right`  
@@ -27,11 +27,11 @@ Bädda in en kalender, olika kalendrar:
     [googlecalendar de.german#holiday]
     [googlecalendar sv.swedish#holiday]
 
-Bädda in en kalender, flera kalendrar tillsammans:
+Bädda in en kalender, olika färger:
 
-    [googlecalendar "en.uk#holiday, de.german#holiday"]
-    [googlecalendar "en.uk#holiday, de.german#holiday, sv.swedish#holiday"]
-    [googlecalendar "en.uk#holiday#0044AA, de.german#holiday#AA0000, sv.swedish#holiday#0000AA"]
+    [googlecalendar sv.swedish#holiday#AA0000]
+    [googlecalendar sv.swedish#holiday#00AA00]
+    [googlecalendar sv.swedish#holiday#0000AA]
 
 Bädda in en kalender, olika lägen:
 
