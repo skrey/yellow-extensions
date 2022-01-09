@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Googlecalendar 0.8.11
+# Googlecalendar 0.8.12
 
 Bädda in Google-kalender.
 
@@ -26,12 +26,6 @@ Bädda in en kalender, olika kalendrar:
     [googlecalendar en.uk#holiday]
     [googlecalendar de.german#holiday]
     [googlecalendar sv.swedish#holiday]
-
-Bädda in en kalender, olika färger:
-
-    [googlecalendar sv.swedish#holiday#AA0000]
-    [googlecalendar sv.swedish#holiday#00AA00]
-    [googlecalendar sv.swedish#holiday#0000AA]
 
 Bädda in en kalender, olika lägen:
 

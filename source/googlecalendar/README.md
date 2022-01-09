@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Googlecalendar 0.8.11
+# Googlecalendar 0.8.12
 
 Embed Google calendar.
 
@@ -26,12 +26,6 @@ Embedding a calendar, different calendars:
     [googlecalendar en.uk#holiday]
     [googlecalendar de.german#holiday]
     [googlecalendar sv.swedish#holiday]
-
-Embedding a calendar, different colors:
-
-    [googlecalendar en.uk#holiday#AA0000]
-    [googlecalendar en.uk#holiday#00AA00]
-    [googlecalendar en.uk#holiday#0000AA]
 
 Embedding a calendar, different modes:
 

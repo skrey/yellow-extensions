@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Googlecalendar 0.8.11
+# Googlecalendar 0.8.12
 
 Google-Kalender einbinden.
 
@@ -26,12 +26,6 @@ Kalender einbinden, unterschiedliche Kalender:
     [googlecalendar en.uk#holiday]
     [googlecalendar de.german#holiday]
     [googlecalendar sv.swedish#holiday]
-
-Kalender einbinden, unterschiedliche Farben:
-
-    [googlecalendar de.german#holiday#AA0000]
-    [googlecalendar de.german#holiday#00AA00]
-    [googlecalendar de.german#holiday#0000AA]
 
 Kalender einbinden, unterschiedlicher Modus:
 
