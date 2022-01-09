@@ -40,6 +40,7 @@ CoreDateFormatLong: d/m/Y H:i
 CoreTimeFormatShort: H:i
 CoreTimeFormatMedium: H:i:s
 CoreTimeFormatLong: H:i:s T
+CoreDecimalSeparator: ,
 CorePaginationPrevious: ← Précédent
 CorePaginationNext: Suivant →
 CoreError404Title: Fichier non trouvé

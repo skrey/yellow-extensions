@@ -40,6 +40,7 @@ CoreDateFormatLong: Y-m-d H:i
 CoreTimeFormatShort: H:i
 CoreTimeFormatMedium: H:i:s
 CoreTimeFormatLong: H:i:s T
+CoreDecimalSeparator: ,
 CorePaginationPrevious: ← Önceki
 CorePaginationNext: Sonraki →
 CoreError404Title: Dosya Bulunamadı

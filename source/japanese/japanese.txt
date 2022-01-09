@@ -40,6 +40,7 @@ CoreDateFormatLong: Y-m-d H:i
 CoreTimeFormatShort: H:i
 CoreTimeFormatMedium: H:i:s
 CoreTimeFormatLong: H:i:s T
+CoreDecimalSeparator: .
 CorePaginationPrevious: ← 前へ
 CorePaginationNext: 次へ →
 CoreError404Title: ファイルが見つかりません

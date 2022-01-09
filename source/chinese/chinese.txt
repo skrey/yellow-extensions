@@ -40,6 +40,7 @@ CoreDateFormatLong: Y-m-d H:i
 CoreTimeFormatShort: H:i
 CoreTimeFormatMedium: H:i:s
 CoreTimeFormatLong: H:i:s T
+CoreDecimalSeparator: .
 CorePaginationPrevious: ← 上一页
 CorePaginationNext: 下一页 →
 CoreError404Title: 文件未找到
