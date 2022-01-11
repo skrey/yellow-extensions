@@ -238,7 +238,7 @@ Reverse page collection
 **pages->shuffle()**  
 Randomize page collection
 
-**pages->pagination($limit, $reverse = true)**  
+**pages->paginate($limit)**  
 Paginate page collection
 
 **pages->getPaginationNumber()**  

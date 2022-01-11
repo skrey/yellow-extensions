@@ -237,7 +237,7 @@ Drehe die Page-Collection um
 **pages->shuffle()**  
 Mach die Page-Collection zufällig
 
-**pages->pagination($limit, $reverse = true)**  
+**pages->paginate($limit)**  
 Erstelle eine Pagination für die Page-Collection
 
 **pages->getPaginationNumber()**  

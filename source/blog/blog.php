@@ -2,7 +2,7 @@
 // Blog extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/blog
 
 class YellowBlog {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -243,9 +243,8 @@ class YellowBlog {
                 $pages->filter("published", $page->getRequest("published"), false);
                 array_push($pagesFilter, $this->yellow->language->normaliseDate($pages->getFilter()));
             }
-            $pages->sort("published");
-            $pages->pagination($this->yellow->system->get("blogPaginationLimit"));
-            if (!$pages->getPaginationNumber()) $page->error(404);
+            $pages->sort("published", false);
+            $pages->paginate($this->yellow->system->get("blogPaginationLimit"));
             if (!empty($pagesFilter)) {
                 $text = implode(" ", $pagesFilter);
                 $page->set("titleHeader", $text." - ".$page->get("sitename"));

@@ -238,7 +238,7 @@ Omvänd page collection
 **pages->shuffle()**  
 Gör page collection slumpmässig
 
-**pages->pagination($limit, $reverse = true)**  
+**pages->paginate($limit)**  
 Skapa en paginering för page collection
 
 **pages->getPaginationNumber()**  
