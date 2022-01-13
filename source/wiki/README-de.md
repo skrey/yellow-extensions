@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Wiki 0.8.17
+# Wiki 0.8.18
 
 Wiki für deine Webseite.
 
@@ -112,7 +112,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `WikiStartLocation` = Ort der Wikistartseite, `auto` für automatische Erkennung  
 `WikiNewLocation` = Ort für neue Wikiseiten, [unterstützte Platzhalter](#einstellungen-placeholders)  
 `WikiEntriesMax ` = Anzahl der Einträge pro Abkürzung, 0 für unbegrenzt  
-`WikiPaginationLimit` = Anzahl der Einträge pro Seite  
+`WikiPaginationLimit` = Anzahl der Einträge pro Seite, 0 für unbegrenzt  
 
 <a id="einstellungen-placeholders"></a>Die folgenden Platzhalter für neue Wikiseiten werden unterstützt:
 

@@ -2,7 +2,7 @@
 // Previousnext extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/previousnext
 
 class YellowPreviousnext {
-    const VERSION = "0.8.14";
+    const VERSION = "0.8.15";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -55,15 +55,15 @@ class YellowPreviousnext {
             case "blog":        $blogStartLocation = $this->yellow->system->get("blogStartLocation");
                                 if ($blogStartLocation!="auto") {
                                     $blogStart = $this->yellow->content->find($blogStartLocation);
-                                    $pages = $this->yellow->content->index(!$blogStart->isVisible());
+                                    $pages = $this->yellow->content->index();
                                 } else {
                                     $blogStart = $page->getParent();
-                                    $pages = $blogStart->getChildren(!$blogStart->isVisible());
+                                    $pages = $blogStart->getChildren();
                                 }
                                 $pages->filter("layout", "blog")->sort("published", true);
                                 break;
             case "blog-start":  $pages = $this->yellow->content->clean(); break;
-            default:            $pages = $page->getSiblings(!$page->isVisible());
+            default:            $pages = $page->getSiblings();
         }
         return $pages;
     }

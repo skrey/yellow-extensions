@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Sitemap 0.8.11
+# Sitemap 0.8.12
 
 Webbplatskarta med alla sidor.
 
@@ -31,7 +31,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 `SitemapLocation` = plats för webbplatskartan  
 `SitemapFileXml` = filnamn för webbplatskartan med XML-information  
-`SitemapPaginationLimit` = antal inlägg att visa per sida  
+`SitemapPaginationLimit` = antal inlägg att visa per sida, 0 för obegränsad  
 
 Följande filer kan anpassas:
 

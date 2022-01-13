@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Search 0.8.13
+# Search 0.8.14
 
 Full-text search.
 
@@ -61,7 +61,7 @@ Content file with link to search:
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `SearchLocation` = search location  
-`SearchPaginationLimit` = number of entries to show per page  
+`SearchPaginationLimit` = number of entries to show per page, 0 for unlimited  
 `SearchPageLength` = maximum page length to show  
 
 The following files can be customised:

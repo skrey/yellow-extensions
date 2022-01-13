@@ -4,7 +4,7 @@
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <ul>
 <?php $section = $sectionNew = "" ?>
-<?php foreach ($this->yellow->page->getPages("wiki") as $page): ?>
+<?php foreach ($this->yellow->page->getPages("wiki")->paginate($this->yellow->system->get("wikiPaginationLimit")) as $page): ?>
 <?php if ($this->yellow->page->get("wikiChronologicalOrder")): ?>
 <?php $sectionNew = htmlspecialchars($page->getDate("modified")) ?>
 <?php else: ?>

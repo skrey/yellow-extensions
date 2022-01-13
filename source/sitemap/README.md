@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Sitemap 0.8.11
+# Sitemap 0.8.12
 
 Sitemap with all pages.
 
@@ -31,7 +31,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `SitemapLocation` = sitemap location  
 `SitemapFileXml` = sitemap file name with XML information  
-`SitemapPaginationLimit` = number of entries to show per page  
+`SitemapPaginationLimit` = number of entries to show per page, 0 for unlimited  
 
 The following files can be customised:
 

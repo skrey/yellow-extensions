@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Search 0.8.13
+# Search 0.8.14
 
 Heltekstsökning.
 
@@ -61,7 +61,7 @@ Innehållsfil med länk till sökningen:
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
 `SearchLocation` = plats för sökningen  
-`SearchPaginationLimit` = antal inlägg att visa per sida  
+`SearchPaginationLimit` = antal inlägg att visa per sida, 0 för obegränsad  
 `SearchPageLength` = maximal sidlängd att visa  
 
 Följande filer kan anpassas:

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Feed 0.8.11
+# Feed 0.8.12
 
 Feed with recent changes.
 
@@ -61,7 +61,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `FeedLocation` = feed location  
 `FeedFileXml` = file name for RSS feed  
 `FeedFilterLayout` = filter for a specific layout  
-`FeedPaginationLimit` = number of entries to show per page  
+`FeedPaginationLimit` = number of entries to show per page, 0 for unlimited  
 
 The following files can be customised:
 

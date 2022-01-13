@@ -2,7 +2,7 @@
 // Feed extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/feed
 
 class YellowFeed {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -32,7 +32,8 @@ class YellowFeed {
             $chronologicalOrder = ($this->yellow->system->get("feedFilterLayout")!="blog");
             if ($this->isRequestXml($page)) {
                 $pages->sort($chronologicalOrder ? "modified" : "published", false);
-                $pages->limit($this->yellow->system->get("feedPaginationLimit"));
+                $entriesMax = max($this->yellow->system->get("feedPaginationLimit"), 999);
+                $pages->limit($entriesMax);
                 $title = !empty($pagesFilter) ? implode(" ", $pagesFilter)." - ".$this->yellow->page->get("sitename") : $this->yellow->page->get("sitename");
                 $this->yellow->page->setLastModified($pages->getModified());
                 $this->yellow->page->setHeader("Content-Type", "application/rss+xml; charset=utf-8");
@@ -61,7 +62,6 @@ class YellowFeed {
                 $this->yellow->page->setOutput($output);
             } else {
                 $pages->sort($chronologicalOrder ? "modified" : "published", false);
-                $pages->paginate($this->yellow->system->get("feedPaginationLimit"));
                 if (!empty($pagesFilter)) {
                     $text = implode(" ", $pagesFilter);
                     $this->yellow->page->set("titleHeader", $text." - ".$this->yellow->page->get("sitename"));

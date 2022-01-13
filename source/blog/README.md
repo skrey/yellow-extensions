@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Blog 0.8.16
+# Blog 0.8.18
 
 Blog for your website.
 
@@ -115,7 +115,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `BlogStartLocation` = location of blog start page, `auto` for automatic detection  
 `BlogNewLocation` = location for new blog pages, [supported placeholders](#settings-placeholders)  
 `BlogEntriesMax` = number of entries to show per shortcut, 0 for unlimited  
-`BlogPaginationLimit` = number of entries to show per page  
+`BlogPaginationLimit` = number of entries to show per page, 0 for unlimited  
 
 <a id="settings-placeholders"></a>The following placeholders for new blog pages are supported:
 

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Wiki 0.8.17
+# Wiki 0.8.18
 
 Wiki för din webbplats.
 
@@ -112,7 +112,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `WikiStartLocation` = plats för wikistartsida, `auto` för automatisk detektering  
 `WikiNewLocation` = plats för nya wikisidor, [stödda platshållare](#inställningar-placeholders)  
 `WikiEntriesMax` = antal inlägg att visa per förkortning, 0 för obegränsad  
-`WikiPaginationLimit` = antal inlägg att visa per sida  
+`WikiPaginationLimit` = antal inlägg att visa per sida, 0 för obegränsad  
 
 <a id="inställningar-placeholders"></a>Följande platshållare för nya wikisidor stöds:
 

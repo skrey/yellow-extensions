@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Feed 0.8.11
+# Feed 0.8.12
 
 Feed med senaste ändringarna
 
@@ -61,7 +61,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `FeedLocation` = plats för feed  
 `FeedFileXml` = filnamn för RSS feed  
 `FeedFilterLayout` = filter för en specifik layout  
-`FeedPaginationLimit` = antal inlägg att visa per sida  
+`FeedPaginationLimit` = antal inlägg att visa per sida, 0 för obegränsad  
 
 Följande filer kan anpassas:
 

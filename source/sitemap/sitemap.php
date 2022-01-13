@@ -2,7 +2,7 @@
 // Sitemap extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap
 
 class YellowSitemap {
-    const VERSION = "0.8.11";
+    const VERSION = "0.8.12";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -29,7 +29,6 @@ class YellowSitemap {
                 $this->yellow->page->setOutput($output);
             } else {
                 $pages->sort("title");
-                $pages->paginate($this->yellow->system->get("sitemapPaginationLimit"));
                 $this->yellow->page->setPages("sitemap", $pages);
                 $this->yellow->page->setLastModified($pages->getModified());
             }

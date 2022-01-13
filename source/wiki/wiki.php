@@ -2,7 +2,7 @@
 // Wiki extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki
 
 class YellowWiki {
-    const VERSION = "0.8.17";
+    const VERSION = "0.8.18";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -203,7 +203,6 @@ class YellowWiki {
                 array_push($pagesFilter, $this->yellow->language->normaliseDate($pages->getFilter()));
             }
             $pages->sort($chronologicalOrder ? "modified" : "title", !$chronologicalOrder);
-            $pages->paginate($this->yellow->system->get("wikiPaginationLimit"));
             if (!empty($pagesFilter)) {
                 $text = implode(" ", $pagesFilter);
                 $this->yellow->page->set("titleHeader", $text." - ".$this->yellow->page->get("sitename"));
@@ -237,9 +236,9 @@ class YellowWiki {
         $wikiStart = $this->yellow->content->find($location);
         if ($wikiStart && $wikiStart->get("layout")=="wiki-start") {
             if ($this->yellow->system->get("wikiStartLocation")!="auto") {
-                $pages = $this->yellow->content->index(!$wikiStart->isVisible());
+                $pages = $this->yellow->content->index();
             } else {
-                $pages = $wikiStart->getChildren(!$wikiStart->isVisible());
+                $pages = $wikiStart->getChildren();
             }
             $pages->filter("layout", "wiki");
             if ($includeWikiStart) $pages->append($wikiStart);

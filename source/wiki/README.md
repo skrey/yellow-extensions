@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Wiki 0.8.17
+# Wiki 0.8.18
 
 Wiki for your website.
 
@@ -112,7 +112,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `WikiStartLocation` = location of wiki start page, `auto` for automatic detection  
 `WikiNewLocation` = location for new wiki pages, [supported placeholders](#settings-placeholders)  
 `WikiEntriesMax` = number of entries to show per shortcut, 0 for unlimited  
-`WikiPaginationLimit` = number of entries to show per page  
+`WikiPaginationLimit` = number of entries to show per page, 0 for unlimited  
 
 <a id="settings-placeholders"></a>The following placeholders for new wiki pages are supported:
 

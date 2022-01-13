@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Blog 0.8.16
+# Blog 0.8.18
 
 Blogg för din webbplats
 
@@ -115,7 +115,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `BlogStartLocation` = plats för bloggstartsida, `auto` för automatisk detektering  
 `BlogNewLocation` = plats för nya bloggsidor, [stödda platshållare](#inställningar-placeholders)  
 `BlogEntriesMax ` = antal inlägg att visa per förkortning, 0 för obegränsad  
-`BlogPaginationLimit` = antal inlägg att visa per sida  
+`BlogPaginationLimit` = antal inlägg att visa per sida, 0 för obegränsad  
 
 <a id="inställningar-placeholders"></a>Följande platshållare för nya bloggsidor stöds:
 

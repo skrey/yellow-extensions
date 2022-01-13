@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Search 0.8.13
+# Search 0.8.14
 
 Volltext-Suche.
 
@@ -61,7 +61,7 @@ Inhaltsdatei mit Link zur Suche:
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `SearchLocation` = Ort der Suche  
-`SearchPaginationLimit` = Anzahl der Einträge pro Seite  
+`SearchPaginationLimit` = Anzahl der Einträge pro Seite, 0 für unbegrenzt  
 `SearchPageLength` = maximale Seitenlänge die angezeigt wird  
 
 Die folgenden Dateien können angepasst werden:
