@@ -3,24 +3,22 @@ Title: Hur man kommer igång
 ---
 Läs om hur du installerar din webbplats.
 
-## Installation på din webbserver 
+## Installation på din webbserver
 
 1. [Ladda ner Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
-2. Packa upp och kopiera alla filer till din webbserver.
+2. Packa upp filen och kopiera allt till din webbserver. 
 3. Öppna din webbplats i en webbläsare.
-4. Skapa ett användarkonto för webmastern, ange email och lösenord.
-5. Redigera din webbplats i en webbläsare.
+4. Välj vad du vill göra och klicka på `Installera`.
 
 Om du vill läsa mer om din webbplats, [se hjälp för din webbplats](.).
 
 ## Installation på din dator
 
 1. [Ladda ner Datenstrom Yellow](https://github.com/datenstrom/yellow/archive/master.zip).
-2. Packa upp och kopiera alla filer till önskad mappen.
-3. Öppna ett terminalfönster och gå till mappen med `yellow.php`. 
+2. Packa upp filen och kopiera allt till önskad mappen.
+3. Öppna ett terminalfönster och gå till mappen med filen `yellow.php`.
 4. Starta inbyggda webbservern med kommandot `php yellow.php serve`.
-5. Redigera din webbplats i en textredigerare.
 
-Om du vill läsa mer om kommandoraden, [se command-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md).
+Om du vill läsa mer om mappstrukturen, [se API för utvecklare](api-for-developers).
 
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Har du några frågor? [Få hjälp](.).
