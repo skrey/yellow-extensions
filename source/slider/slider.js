@@ -31,7 +31,7 @@ var initSplideFromDOM = function() {
     for (var i=0, l=elements.length; i<l; i++) {
         var options = parseOptions(elements[i], ["lazyLoad", "fixedWidth", "fixedHeight"]);
         var splide = new Splide(elements[i], options).mount();
-        if (options.clickable) splide.on("click", function() { splide.go("+", false); });
+        if (options.clickable) splide.on("click", (function(splide) { splide.go("+", false); }).bind(this, splide));
     }
 };
 
