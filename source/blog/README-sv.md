@@ -67,7 +67,7 @@ Innehållsfil med bloggsida och sidbrytning:
 Innehållsfil med blogginformation:
 
     ---
-    Title: Arkiv
+    Title: Översikt
     ---
     ## År
 

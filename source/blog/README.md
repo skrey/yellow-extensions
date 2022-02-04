@@ -67,7 +67,7 @@ Content file with blog page and page break:
 Content file with blog information:
 
     ---
-    Title: Archive
+    Title: Overview
     ---
     ## Years
 

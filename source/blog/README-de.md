@@ -67,7 +67,7 @@ Inhaltsdatei mit Blogseite und Seitenumbruch:
 Inhaltsdatei mit Bloginformationen:
 
     ---
-    Title: Archiv
+    Title: Übersicht
     ---
     ## Jahre
 
