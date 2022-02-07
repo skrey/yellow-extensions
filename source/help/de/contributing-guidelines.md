@@ -13,7 +13,7 @@ Erfahre wie du mit uns zusammenarbeitest und nützliche Produkte machst.
 ## Wie man einen Fehler meldet
 
 * [Beginne eine neue Diskussion für jeden Fehler](https://github.com/datenstrom/yellow/discussions/categories/report-a-bug).
-* Erkläre wie man den Fehler reproduzieren kann, überprüfe ob es jedesmal passiert.
+* Erkläre wie man den Fehler reproduziert, überprüfe ob es jedesmal passiert.
 * Füge viele Details hinzu, vor allem die Logdatei `system/extensions/yellow.log`.
 * Teste ob alles funktioniert, wenn dein Problem behoben wurde.
 
@@ -26,7 +26,7 @@ Erfahre wie du mit uns zusammenarbeitest und nützliche Produkte machst.
 
 ## Wie man Erfahrungen austauscht
 
-Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. Die meisten Antworten werden von Community-Mitgliedern, so wie du, bereitgestellt. Denke daran, dass andere Menschen möglicherweise nicht das gleiche Wissen haben wie du. Du kannst jederzeit aus Diskussionen aussteigen. Konzentriere dich auf die Menschen die Interesse zeigen und mit dir zusammenarbeiten wollen. Du findest uns auf [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).
+Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. Die meisten Antworten werden von Community-Mitgliedern, so wie du, bereitgestellt. Denke daran, dass andere Menschen möglicherweise nicht das gleiche Wissen haben. Du kannst jederzeit aus Diskussionen aussteigen. Erzwinge nichts. Konzentriere dich auf die Menschen die Interesse zeigen und mit dir zusammenarbeiten wollen. Du findest uns auf [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).
 
 ## Beispiele
 
@@ -37,8 +37,15 @@ How do I change the language of my website?
 
 Hello, during installation I selected the wrong language. Now I want to 
 change the language of my website to german. When I change the settings 
-it doesn't work as expected. The error message says: Language 'german' 
-does not exist! I checked that the german extension is installed.
+it doesn't work. I checked that the german extension is installed. 
+Here's my system/extensions/yellow-system.ini:
+
+Sitename: Datenstrom Yellow
+Author: Datenstrom
+Email: webmaster
+Layout: default
+Theme: stockholm
+Language: german
 
 Thanks for your help.
 ```
