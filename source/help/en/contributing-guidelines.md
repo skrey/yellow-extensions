@@ -38,7 +38,7 @@ How do I change the language of my website?
 Hello, during installation I selected the wrong language. Now I want to 
 change the language of my website to english. When I change the settings 
 it doesn't work. I checked that the english extension is installed. 
-Here's my system/extensions/yellow-system.ini:
+Here's my `system/extensions/yellow-system.ini`:
 
 Sitename: Datenstrom Yellow
 Author: Datenstrom
@@ -58,7 +58,7 @@ Call to undefined function detectTimezone()
 Hello, I get the error message: Call to undefined function detectTimezone() 
 in /var/www/website/system/extensions/fika.php. You can reproduce the bug 
 in a new installation, select small website, install the fika extension. 
-Here's my log file system/extensions/yellow.log:
+Here's my log file `system/extensions/yellow.log`:
 
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
 2020-10-28 14:13:07 info Install extension 'English 0.8.27'
