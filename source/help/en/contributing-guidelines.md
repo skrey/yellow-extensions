@@ -26,7 +26,7 @@ Learn how to work with us and make useful products.
 
 ## How to share your experiences
 
-Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same knowledge as you. Never feel compelled to react or respond to anyone. You can step out of discussions at any time if they aren't constructive. Focus on the people who show interest and want to work with you. You can find us on [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) or [contact a human](https://datenstrom.se/contact/).
+Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same knowledge as you. Never feel compelled to react or respond to anyone. You can step out of discussions at any time if they aren't constructive. Don't force anything. Focus on the people who show interest and want to work with you. You can find us on [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) or [contact a human](https://datenstrom.se/contact/).
 
 ## Examples
 
@@ -37,8 +37,15 @@ How do I change the language of my website?
 
 Hello, during installation I selected the wrong language. Now I want to 
 change the language of my website to english. When I change the settings 
-it doesn't work as expected. The error message says: Language 'english' 
-does not exist! I checked that the english extension is installed.
+it doesn't work. I checked that the english extension is installed. 
+Here's my system/extensions/yellow-system.ini:
+
+Sitename: Datenstrom Yellow
+Author: Datenstrom
+Email: webmaster
+Layout: default
+Theme: stockholm
+Language: english
 
 Thanks for your help.
 ```
