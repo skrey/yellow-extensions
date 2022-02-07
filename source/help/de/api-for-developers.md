@@ -73,22 +73,22 @@ Hole eine [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen) als [Dat
 Hole den Seiteninhalt, HTML-kodiert oder Rohformat
 
 **page->getParent()**  
-Hole die Elternseite, null falls nicht vorhanden
+Hole die übergeordnete Seite, null falls nicht vorhanden
 
 **page->getParentTop($homeFallback = false)**  
-Hole die oberste Elternseite, null falls nicht vorhanden
+Hole die oberste übergeordnete Seite, null falls nicht vorhanden
 
 **page->getSiblings($showInvisible = false)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit Seiten auf dem selben Level
+Hole eine [Seitenkollektion](#yellow-page-collection) mit Seiten auf dem selben Level
 
 **page->getChildren($showInvisible = false)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit Kinderseiten
+Hole eine [Seitenkollektion](#yellow-page-collection) mit untergeordneten Seiten
 
 **page->getChildrenRecursive($showInvisible = false, $levelMax = 0)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit Kinderseiten rekursiv
+Hole eine [Seitenkollektion](#yellow-page-collection) mit untergeordneten Seiten rekursiv
 
 **page->getPages($key)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit zusätzlichen Seiten
+Hole eine [Seitenkollektion](#yellow-page-collection) mit zusätzlichen Seiten
 
 **page->getPage($key)**  
 Hole eine geteilte Seite
@@ -103,13 +103,13 @@ Hole die Basis der Seite
 Hole den Ort der Seite
 
 **page->getRequest($key)**  
-Hole das Requestargument der Seite
+Hole das angefragte Argument der Seite
 
 **page->getRequestHtml($key)**  
-Hole das Requestargument der Seite, HTML-kodiert
+Hole das angefragte Argument der Seite, HTML-kodiert
 
 **page->getHeader($key)**  
-Hole den Responseheader der Seite
+Hole den Antwort-Header der Seite
 
 **page->getExtra($name)**  
 Hole Extradaten der Seite
@@ -148,10 +148,10 @@ Antworte mit Statuscode, ohne Seiteninhalt
 Überprüfe ob die [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen) existiert  
 
 **page->isRequest($key)**  
-Überprüfe ob das Requestargument existiert
+Überprüfe ob das Anfrage-Argument existiert
 
 **page->isHeader($key)**  
-Überprüfe ob der Responseheader existiert
+Überprüfe ob der Antwort-Header existiert
 
 **page->isPage($key)**  
 Überprüfe ob die geteilte Seite existiert
@@ -202,73 +202,73 @@ Hier ist ein Beispiel-Layout um den Seiteninhalt und das Änderungsdatum anzuzei
 Yellow-Page-Collection gibt Zugang zu mehreren Seiten:
 
 **pages->filter($key, $value, $exactMatch = true)**  
-Filtere eine Page-Collection nach [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen)
+Filtere eine Seitenkollektion nach [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen)
 
 **pages->match($regex = "/.*/")**  
-Filtere eine Page-Collection nach Dateinamen
+Filtere eine Seitenkollektion nach Dateinamen
 
 **pages->sort($key, $ascendingOrder = true)**  
-Sortiere eine Page-Collection nach [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen)
+Sortiere eine Seitenkollektion nach [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen)
 
 **pages->similar($page, $ascendingOrder = false)**  
-Sortiere eine Page-Collection nach Einstellungsähnlichkeit
+Sortiere eine Seitenkollektion nach Einstellungsähnlichkeit
 
 **pages->merge($input)**  
-Berechne Vereinigungsmenge, füge eine Page-Collection hinzu
+Berechne Vereinigungsmenge, füge eine Seitenkollektion hinzu
 
 **pages->intersect($input)**  
-Berechne Schnittmenge, entferne Seiten die nicht in einer anderen Page-Collection sind
+Berechne Schnittmenge, entferne Seiten die nicht in einer anderen Seitenkollektion sind
 
 **pages->diff($input)**  
-Berechne Restmenge, entferne Seiten die in einer anderen Page-Collection sind
+Berechne Restmenge, entferne Seiten die in einer anderen Seitenkollektion sind
 
 **pages->append($page)**  
-Hänge an das Ende der Page-Collection
+Hänge an das Ende der Seitenkollektion
 
 **pages->prepend($page)**  
-Stelle an den Anfang der Page-Collection
+Stelle an den Anfang der Seitenkollektion
 
 **pages->limit($pagesMax)**  
-Begrenze die Anzahl der Seiten in der Page-Collection
+Begrenze die Anzahl der Seiten in der Seitenkollektion
 
 **pages->reverse()**  
-Drehe die Page-Collection um
+Drehe die Seitenkollektion um
 
 **pages->shuffle()**  
-Mach die Page-Collection zufällig
+Mach die Seitenkollektion zufällig
 
 **pages->paginate($limit)**  
-Erstelle eine Pagination für die Page-Collection
+Erstelle eine Nummerierung für die Seitenkollektion
 
 **pages->getPaginationNumber()**  
-Hole die aktuelle Seitennummer in der Pagination
+Hole die aktuelle Seitennummer
 
 **pages->getPaginationCount()**  
-Hole die höchste Seitennummer in der Pagination
+Hole die höchste Seitennummer
 
 **pages->getPaginationLocation($absoluteLocation = true, $pageNumber = 1)**  
-Hole den Ort einer Seite in der Pagination
+Hole den Ort einer Seite in der Nummerierung
 
 **pages->getPaginationPrevious($absoluteLocation = true)**  
-Hole den Ort der vorherigen Seite in der Pagination
+Hole den Ort der vorherigen Seite in der Nummerierung
 
 **pages->getPaginationNext($absoluteLocation = true)**  
-Hole den Ort der nächsten Seite in der Pagination
+Hole den Ort der nächsten Seite in der Nummerierung
 
 **pages->getPagePrevious($page)**  
-Hole die vorherige Seite in der Page-Collection, null falls nicht vorhanden
+Hole die vorherige Seite in der Seitenkollektion, null falls nicht vorhanden
 
 **pages->getPageNext($page)**  
-Hole die nächste Seite in der Page-Collection, null falls nicht vorhanden
+Hole die nächste Seite in der Seitenkollektion, null falls nicht vorhanden
 
 **pages->getFilter()**  
 Hole den aktuellen Seitenfilter
 
 **pages->getModified($httpFormat = false)**  
-Hole das Änderungsdatum der Page-Collection, Unix-Zeit oder HTTP-Format
+Hole das Änderungsdatum der Seitenkollektion, Unix-Zeit oder HTTP-Format
 
 **pages->isPagination()**  
-Überprüfe ob eine Pagination vorhanden ist
+Überprüfe ob eine Nummerierung vorhanden ist
 
 Hier ist ein Beispiel-Layout um drei zufällige Seiten anzuzeigen:
 
@@ -332,22 +332,22 @@ Hier ist ein Beispiel-Layout um Entwurfseiten anzuzeigen:
 Yellow-Content gibt Zugang zu Inhaltsdateien:
 
 **content->find($location, $absoluteLocation = false)**  
-Hole eine [Page](#yellow-page), null falls nicht vorhanden
+Hole eine [Seite](#yellow-page), null falls nicht vorhanden
 
 **content->index($showInvisible = false, $multiLanguage = false, $levelMax = 0)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit allen Seiten
+Hole eine [Seitenkollektion](#yellow-page-collection) mit allen Seiten
 
 **content->top($showInvisible = false, $showOnePager = true)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit Hauptseiten der Navigation
+Hole eine [Seitenkollektion](#yellow-page-collection) mit Hauptseiten der Navigation
 
 **content->path($location, $absoluteLocation = false)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit Pfad in der Navigation
+Hole eine [Seitenkollektion](#yellow-page-collection) mit Pfad in der Navigation
 
 **content->multi($location, $absoluteLocation = false, $showInvisible = false)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit mehreren Sprachen im Mehrsprachen-Modus
+Hole eine [Seitenkollektion](#yellow-page-collection) mit mehreren Sprachen im Mehrsprachen-Modus
 
 **content->clean()**  
-Hole eine [Page-Collection](#yellow-page-collection) die leer ist
+Hole eine [Seitenkollektion](#yellow-page-collection) die leer ist
 
 Hier ist ein Beispiel-Layout um alle Seiten anzuzeigen:
 
@@ -411,13 +411,13 @@ Hier ist ein Beispiel-Layout um die Hauptseiten der Navigation anzuzeigen:
 Yellow-Media gibt Zugang zu Mediendateien:
 
 **media->find($location, $absoluteLocation = false)**  
-Hole eine [Page](#yellow-page) mit Informationen über Mediendatei, null falls nicht vorhanden
+Hole eine [Seite](#yellow-page) mit Informationen über Mediendatei, null falls nicht vorhanden
 
 **media->index($showInvisible = false, $multiPass = false, $levelMax = 0)**  
-Hole eine [Page-Collection](#yellow-page-collection) mit allen Mediendateien
+Hole eine [Seitenkollektion](#yellow-page-collection) mit allen Mediendateien
 
 **media->clean()**  
-Hole eine [Page-Collection](#yellow-page-collection) die leer ist
+Hole eine [Seitenkollektion](#yellow-page-collection) die leer ist
 
 Hier ist ein Beispiel-Layout um alle Mediendateien anzuzeigen:
 
@@ -865,56 +865,56 @@ onLoad ───────▶ onStartup ────────────�
                 onShutDown ◀─────────────────┴───────────────────────┘
 ```
 
-Wird eine Seite angezeigt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Die Seite kann mit verschiedenen `onParse`-Ereignissen behandelt werden. Dann wird der Inhalt der Seite erzeugt. Sollte ein Fehler aufgetreten sein, wird eine Fehlerseite erzeugt. Zum Schluss wird die Seite ausgegeben und es wird `onShutdown` aufgerufen.
+Wird eine Seite angezeigt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Die Seite kann mit verschiedenen `onParse`-Ereignissen verarbeitet werden. Dann wird der Inhalt der Seite erzeugt. Sollte ein Fehler aufgetreten sein, wird eine Fehlerseite erzeugt. Zum Schluss wird die Seite ausgegeben und es wird `onShutdown` aufgerufen.
 
-Wird eine Seite bearbeitet, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Änderungen an der Seite können mit verschiedenen `onEdit`-Ereignissen behandelt werden. Dann wird die Seite gespeichert. Zum Schluss wird ein Statuscode zum Neuladen der Seite ausgegeben und es wird `onShutdown` aufgerufen.
+Wird eine Seite bearbeitet, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Änderungen an der Seite können mit verschiedenen `onEdit`-Ereignissen verarbeitet werden. Dann wird die Seite gespeichert. Zum Schluss wird ein Statuscode zum Neuladen der Seite ausgegeben und es wird `onShutdown` aufgerufen.
 
-Wird ein Befehl ausgeführt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Der Befehl kann mit `onCommand`  behandelt werden. Sollte kein Befehl eingegeben worden sein, wird `onCommandHelp` aufgerufen und Erweiterungen können eine Hilfe zur Verfügung stellen. Zum Schluss wird ein Rückgabecode ausgegeben und es wird `onShutdown` aufgerufen.
+Wird ein Befehl ausgeführt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Der Befehl kann mit `onCommand`  verarbeitet werden. Sollte kein Befehl eingegeben worden sein, wird `onCommandHelp` aufgerufen und Erweiterungen können eine Hilfe zur Verfügung stellen. Zum Schluss wird ein Rückgabecode ausgegeben und es wird `onShutdown` aufgerufen.
 
 ### Yellow-Core-Ereignisse
 
 Yellow-Core-Ereignisse unterrichten wenn eine Seite angezeigt wird oder sich ein Zustand ändert:
 
 **public function onLoad($yellow)**  
-Behandle die Initialisierung
+Verarbeite die Initialisierung
 
 **public function onStartup()**  
-Behandle das Hochfahren
+Verarbeite das Hochfahren
 
 **public function onUpdate($action)**  
-Behandle die Aktualisierung
+Verarbeite die Aktualisierung
 
 **public function onRequest($scheme, $address, $base, $location, $fileName)**  
-Behandle die Anfrage
+Verarbeite die Anfrage
 
 **public function onParseMeta($page)**  
-Behandle die [Metadaten einer Seite](how-to-adjust-system#seiteneinstellungen)
+Verarbeite die [Metadaten einer Seite](how-to-adjust-system#seiteneinstellungen)
 
 **public function onParseContentRaw($page, $text)**  
-Behandle den Seiteninhalt im Rohformat
+Verarbeite den Seiteninhalt im Rohformat
 
 **public function onParseContentShortcut($page, $name, $text, $type)**  
-Behandle den Seiteninhalt einer Abkürzung
+Verarbeite den Seiteninhalt einer Abkürzung
 
 **public function onParseContentHtml($page, $text)**  
-Behandle den Seiteninhalt im HTML-Format
+Verarbeite den Seiteninhalt im HTML-Format
 
 **public function onParsePageLayout($page, $name)**  
-Behandle das Layout einer Seite
+Verarbeite das Layout einer Seite
 
 **public function onParsePageExtra($page, $name)**  
-Behandle die Extradaten einer Seite
+Verarbeite die Extradaten einer Seite
 
 **public function onParsePageOutput($page, $text)**  
-Behandle die Ausgabedaten einer Seite
+Verarbeite die Ausgabedaten einer Seite
 
 **public function onLog($action, $message)**  
-Behandle das Logging
+Verarbeite das Logging
 
 **public function onShutdown()**  
-Behandle das Runterfahren
+Verarbeite das Runterfahren
 
-Hier ist eine Beispiel-Erweiterung um eine `[example]`-Abkürzung zu behandeln:
+Hier ist eine Beispiel-Erweiterung um eine `[example]`-Abkürzung zu verarbeiten:
 
 ``` php
 <?php
@@ -945,18 +945,18 @@ class YellowExample {
 Yellow-Edit-Ereignisse unterrichten wenn eine Seite bearbeitet wird:
 
 **public function onEditContentFile($page, $action, $email)**  
-Behandle Änderungen an Inhaltsdatei
+Verarbeite Änderungen an Inhaltsdatei
 
 **public function onEditMediaFile($file, $action, $email)**  
-Behandle Änderungen an Mediendatei
+Verarbeite Änderungen an Mediendatei
 
 **public function onEditSystemFile($file, $action, $email)**  
-Behandle Änderungen an Systemdatei
+Verarbeite Änderungen an Systemdatei
 
 **public function onEditUserAccount($action, $email, $password)**  
-Behandle Änderungen am Benutzerkonto
+Verarbeite Änderungen am Benutzerkonto
 
-Hier ist eine Beispiel-Erweiterung um eine Datei zu behandeln:
+Hier ist eine Beispiel-Erweiterung um eine Datei zu verarbeiten:
 
 ``` php
 <?php
@@ -985,13 +985,13 @@ class YellowExample {
 Yellow-Command-Ereignisse unterrichten wenn ein Befehl ausgeführt wird:
 
 **public function onCommand($command, $text)**  
-Behandle Befehle
+Verarbeite Befehle
 
 **public function onCommandHelp()**  
-Behandle Hilfe für Befehle
+Verarbeite Hilfe für Befehle
 
 
-Hier ist eine Beispiel-Erweiterung um einen Befehl zu behandeln:
+Hier ist eine Beispiel-Erweiterung um einen Befehl zu verarbeiten:
 
 ``` php
 <?php
