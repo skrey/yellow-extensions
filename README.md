@@ -109,6 +109,8 @@ Features, themes and languages for Datenstrom Yellow. https://datenstrom.se/yell
   Berlin is a theme inspired by Dieter Rams. Designed by Datenstrom.
 * [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris): 
   Paris is an elegant theme. Designed by Datenstrom.
+* [Simplecss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/simplecss): 
+  Simplecss is a classless theme. Designed by Steffen Schultz.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm): 
   Stockholm is a clean theme. Designed by Datenstrom.
 
