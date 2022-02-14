@@ -109,10 +109,10 @@ Funktioner, teman och språk för Datenstrom Yellow. https://datenstrom.se/sv/ye
   Berlin är ett tema inspirerat av Dieter Rams. Designad av Datenstrom.
 * [Paris](https://github.com/datenstrom/yellow-extensions/tree/master/source/paris/README-sv.md): 
   Paris är ett elegant tema. Designad av Datenstrom.
-* [Simplecss](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/simplecss): 
-  Simplecss är ett klasslöst tema. Designad av Steffen Schultz.
 * [Stockholm](https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm/README-sv.md): 
   Stockholm är ett rent tema. Designad av Datenstrom.
+* [Wittstock](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/wittstock): 
+  Wittstock är ett klasslöst tema. Designad av Steffen Schultz.
 
 ## Språk
 
