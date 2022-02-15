@@ -19,9 +19,9 @@ Learn how to work with us and make useful products.
 
 ## How to work with us
 
-* Improve available features, [make an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish) if something useful is missing.
-* Check available languages, [make a translation](https://github.com/datenstrom/yellow-extensions#languages) if your language is missing.
+* Remove complexity and problems from people's lives.
 * Read the documentation, [edit the help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help) if something isn't explained well.
+* Improve available extensions, [make an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish) or [make a translation](https://github.com/datenstrom/yellow/discussions/522).
 * Make an announcement and show what you have made. [See what's new](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).
 
 ## How to share your experiences
@@ -38,7 +38,7 @@ How do I change the language of my website?
 Hello, during installation I selected the wrong language. Now I want to 
 change the language of my website to english. When I change the settings 
 it doesn't work. I checked that the english extension is installed. 
-Here's my `system/extensions/yellow-system.ini`:
+Here are my setting in file `system/extensions/yellow-system.ini`:
 
 Sitename: Datenstrom Yellow
 Author: Datenstrom
@@ -83,4 +83,4 @@ I would like to know which file formats people use.
 Let me know what you think. Any comments are welcome.
 ```
 
-Do you have questions? [Get help](.). 
+Do you have questions? [Get help](.).

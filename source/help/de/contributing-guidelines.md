@@ -19,9 +19,9 @@ Erfahre wie du mit uns zusammenarbeitest und nützliche Produkte machst.
 
 ## Wie man mit uns zusammenarbeitet
 
-* Verbessere die vorhandenen Funktionen, [erstelle eine Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md) falls etwas Nützliches fehlt. 
-* Überprüfe die vorhandenen Sprachen, [erstelle eine Übersetzung](https://github.com/datenstrom/yellow-extensions/tree/master/README-de.md#sprachen) falls deine Sprache fehlt.
-* Lies die Dokumentation durch, [bearbeite die Hilfe](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md) falls etwas nicht gut erklärt wird.
+* Beseitige Komplexität und Probleme aus dem Leben von Menschen.
+* Lies die Dokumentation, [bearbeite die Hilfe](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md) falls etwas nicht gut erklärt wird.
+* Verbessere Erweiterungen, [erstelle eine Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md) oder [erstelle eine Übersetzung](https://github.com/datenstrom/yellow/discussions/522).
 * Mache eine Ankündigung und zeige was du gemacht hast. [Schau dir an was neu ist](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).
 
 ## Wie man Erfahrungen austauscht
@@ -38,7 +38,7 @@ How do I change the language of my website?
 Hello, during installation I selected the wrong language. Now I want to 
 change the language of my website to german. When I change the settings 
 it doesn't work. I checked that the german extension is installed. 
-Here's my `system/extensions/yellow-system.ini`:
+Here are my setting in file `system/extensions/yellow-system.ini`:
 
 Sitename: Datenstrom Yellow
 Author: Datenstrom
@@ -83,4 +83,4 @@ I would like to know which file formats people use.
 Let me know what you think. Any comments are welcome.
 ```
 
-Hast du Fragen? [Hilfe finden](.). 
+Hast du Fragen? [Hilfe finden](.).
