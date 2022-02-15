@@ -19,9 +19,9 @@ Läs hur du jobbar med oss och skapar användbara produkter.
 
 ## Hur man jobbar med oss
 
-* Förbättra befintliga funktionerna, [gör ett tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md) om något användbart saknas.
-* Kontrollera befintliga språken, [gör en översättning](https://github.com/datenstrom/yellow-extensions/tree/master/README-sv.md#språk) om ditt språk saknas.
+* Ta bort komplexitet och problem från människors liv.
 * Läs dokumentationen, [redigera hjälpen](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-sv.md) om något inte förklaras väl.
+* Förbättra tillgängliga tillägg, [gör ett tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md) eller [gör en översättning](https://github.com/datenstrom/yellow/discussions/522).
 * Gör ett tillkännagivande och visa vad du har gjort. [Se vad som är nytt](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).
 
 ## Hur man utbyter erfarenheter
@@ -38,7 +38,7 @@ How do I change the language of my website?
 Hello, during installation I selected the wrong language. Now I want to 
 change the language of my website to swedish. When I change the settings 
 it doesn't work. I checked that the swedish extension is installed. 
-Here's my `system/extensions/yellow-system.ini`:
+Here are my setting in file `system/extensions/yellow-system.ini`:
 
 Sitename: Datenstrom Yellow
 Author: Datenstrom
@@ -83,4 +83,4 @@ I would like to know which file formats people use.
 Let me know what you think. Any comments are welcome.
 ```
 
-Har du några frågor? [Få hjälp](.). 
+Har du några frågor? [Få hjälp](.).
