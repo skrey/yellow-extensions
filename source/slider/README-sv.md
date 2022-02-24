@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Slider 0.8.14
+# Slider 0.8.15
 
 Bildgalleri med reglaget.
 
