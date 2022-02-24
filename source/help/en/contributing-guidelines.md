@@ -21,12 +21,12 @@ Learn how to work with us and make useful products.
 
 * Remove complexity and problems from people's lives.
 * Read the documentation, [edit the help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help) if something isn't explained well.
-* Improve available extensions, [make an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish) or [make a translation](https://github.com/datenstrom/yellow/discussions/522).
+* Improve the available extensions, [make an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish) or [make a translation](https://github.com/datenstrom/yellow/discussions/522).
 * Make an announcement and show what you have made. [See what's new](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).
 
 ## How to share your experiences
 
-Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same knowledge as you. Never feel compelled to react or respond to anyone. You can step out of discussions at any time if they aren't constructive. Don't force anything. Focus on the people who show interest and want to work with you. You can find us on [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) or [contact a human](https://datenstrom.se/contact/).
+Our community is a place to help each other. Where you can ask and answer questions. Most answers are provided by community members, just like you. Consider that other people may not have the same knowledge as you. Never feel compelled to react or respond to anyone. You can step out of discussions at any time if they aren't constructive. Don't force anything. Focus on the people who show interest and want to work with you. You can find us on [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datenstromnews) or [contact a human](https://datenstrom.se/contact/).
 
 ## Examples
 

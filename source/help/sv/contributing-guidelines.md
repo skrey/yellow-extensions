@@ -26,7 +26,7 @@ Läs hur du jobbar med oss och skapar användbara produkter.
 
 ## Hur man utbyter erfarenheter
 
-Vårt community är en plats att hjälpa varandra. Där du kan ställa och svara på frågor. De flesta av svaren tillhandahålls av community-medlemmar, precis som du. Tänk på att andra människor kanske inte har samma kunskap som du. Känn dig aldrig tvungen att reagera eller svara på någon. Du kan lämna diskussioner när som helst, om de inte är konstruktiva. Tvinga ingenting. Fokusera på människor som visa intresse och vill jobba med dig. Du hittar oss på [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) eller [kontakta en människa](https://datenstrom.se/sv/contact/).
+Vårt community är en plats att hjälpa varandra. Där du kan ställa och svara på frågor. De flesta av svaren tillhandahålls av community-medlemmar, precis som du. Tänk på att andra människor kanske inte har samma kunskap som du. Känn dig aldrig tvungen att reagera eller svara på någon. Du kan lämna diskussioner när som helst, om de inte är konstruktiva. Tvinga ingenting. Fokusera på människor som visa intresse och vill jobba med dig. Du hittar oss på [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datenstromnews) eller [kontakta en människa](https://datenstrom.se/sv/contact/).
 
 ## Exempel
 

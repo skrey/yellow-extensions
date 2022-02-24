@@ -21,12 +21,12 @@ Erfahre wie du mit uns zusammenarbeitest und nützliche Produkte machst.
 
 * Beseitige Komplexität und Probleme aus dem Leben von Menschen.
 * Lies die Dokumentation, [bearbeite die Hilfe](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md) falls etwas nicht gut erklärt wird.
-* Verbessere Erweiterungen, [erstelle eine Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md) oder [erstelle eine Übersetzung](https://github.com/datenstrom/yellow/discussions/522).
+* Verbessere die vorhandenen Erweiterungen, [erstelle eine Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md) oder [Übersetzung](https://github.com/datenstrom/yellow/discussions/522).
 * Mache eine Ankündigung und zeige was du gemacht hast. [Schau dir an was neu ist](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).
 
 ## Wie man Erfahrungen austauscht
 
-Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. Die meisten Antworten werden von Community-Mitgliedern, so wie du, bereitgestellt. Denke daran, dass andere Menschen möglicherweise nicht das gleiche Wissen haben. Du kannst jederzeit aus Diskussionen aussteigen. Erzwinge nichts. Konzentriere dich auf die Menschen die Interesse zeigen und mit dir zusammenarbeiten wollen. Du findest uns auf [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datendeveloper) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).
+Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. Die meisten Antworten werden von Community-Mitgliedern, so wie du, bereitgestellt. Denke daran, dass andere Menschen möglicherweise nicht das gleiche Wissen haben. Du kannst jederzeit aus Diskussionen aussteigen. Erzwinge nichts. Konzentriere dich auf die Menschen die Interesse zeigen und mit dir zusammenarbeiten wollen. Du findest uns auf [Discord](https://discord.gg/NYvTETsHS9), [GitHub](https://github.com/datenstrom), [Twitter](https://twitter.com/datenstromnews) oder [kontaktiere einen Menschen](https://datenstrom.se/de/contact/).
 
 ## Beispiele
 
