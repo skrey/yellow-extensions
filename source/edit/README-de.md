@@ -8,7 +8,7 @@ Webseite im Webbrowser bearbeiten.
 
 ## Wie man eine Webseite im Webbrowser bearbeitet
 
-Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine großartige Art Webseiten zu aktualisieren. Du kannst eine `[edit]`-Abkürzung benutzen, um einen Link zum Bearbeiten anzuzeigen. Am Besten ist es wenn die Internetverbindung immer mit HTTPS verschlüsselt wird. Falls das nicht möglich ist, kontaktiere bitte deinen Webhoster.
+Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine großartige Art Webseiten zu aktualisieren. Du kannst eine `[edit]`-Abkürzung benutzen, um einen Link zum Bearbeiten anzuzeigen.
 
 ## Wie man ein Benutzerkonto erstellt
 
