@@ -2,7 +2,7 @@
 // Traffic extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic
 
 class YellowTraffic {
-    const VERSION = "0.8.13";
+    const VERSION = "0.8.14";
     public $yellow;         // access to API
     public $days;           // number of days
     public $views;          // number of views
@@ -87,7 +87,7 @@ class YellowTraffic {
             $locationDownload = $this->yellow->system->get("coreDownloadLocation");
             $locationIgnore = "(".$this->yellow->system->get("coreMediaLocation")."|".$this->yellow->system->get("editLocation").")";
             foreach ($fileNames as $fileName) {
-                if (defined("DEBUG") && DEBUG>=2) echo "YellowTraffic::analyseRequests file:$fileName\n";
+                if ($this->yellow->system->get("coreDebugMode")>=2) echo "YellowTraffic::analyseRequests file:$fileName\n";
                 $fileHandle = @fopen($fileName, "r");
                 if ($fileHandle) {
                     $filePos = filesize($fileName)-1;

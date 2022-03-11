@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.45";
+    const VERSION = "0.8.46";
     public $yellow;                 // access to API
     public $extensions;             // number of extensions
     public $errors;                 // number of errors
@@ -155,7 +155,9 @@ class YellowPublish {
                 $statusCode = 500;
                 echo "ERROR publishing files: Can't write file '$fileNameExtension'!\n";
             }
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionSettings file:$fileNameExtension<br/>\n";
+            if ($this->yellow->system->get("coreDebugMode")>=2) {
+                echo "YellowPublish::updateExtensionSettings file:$fileNameExtension<br/>\n";
+            }
         }
         return $statusCode;
     }
@@ -172,7 +174,9 @@ class YellowPublish {
                 $statusCode = 500;
                 echo "ERROR publishing files: Can't write file '$entry'!\n";
             }
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionDocumentation file:$entry<br/>\n";
+            if ($this->yellow->system->get("coreDebugMode")>=2) {
+                echo "YellowPublish::updateExtensionDocumentation file:$entry<br/>\n";
+            }
         }
         return $statusCode;
     }
@@ -205,7 +209,9 @@ class YellowPublish {
                 $statusCode = 500;
                 echo "ERROR publishing files: Can't write file '$fileNameZipArchive'!\n";
             }
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionArchive file:$fileNameZipArchive<br/>\n";
+            if ($this->yellow->system->get("coreDebugMode")>=2) {
+                echo "YellowPublish::updateExtensionArchive file:$fileNameZipArchive<br/>\n";
+            }
         }
         return $statusCode;
     }
@@ -235,7 +241,9 @@ class YellowPublish {
                 $statusCode = 500;
                 echo "ERROR publishing files: Can't write file '$fileNameLatest'!\n";
             }
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateExtensionLatest file:$fileNameLatest<br/>\n";
+            if ($this->yellow->system->get("coreDebugMode")>=2) {
+                echo "YellowPublish::updateExtensionLatest file:$fileNameLatest<br/>\n";
+            }
         }
         return $statusCode;
     }
@@ -270,7 +278,9 @@ class YellowPublish {
                 $statusCode = 500;
                 echo "ERROR publishing files: Can't write file '$fileNameCurrent'!\n";
             }
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateStandardSettings file:$fileNameCurrent<br/>\n";
+            if ($this->yellow->system->get("coreDebugMode")>=2) {
+                echo "YellowPublish::updateStandardSettings file:$fileNameCurrent<br/>\n";
+            }
         }
         return $statusCode;
     }
@@ -287,7 +297,9 @@ class YellowPublish {
                     $statusCode = 500;
                     echo "ERROR publishing files: Can't write file '$fileNameDestination'!\n";
                 }
-                if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateStandardFiles file:$fileNameDestination<br/>\n";
+                if ($this->yellow->system->get("coreDebugMode")>=2) {
+                    echo "YellowPublish::updateStandardFiles file:$fileNameDestination<br/>\n";
+                }
             }
         }
         return $statusCode;
@@ -305,7 +317,9 @@ class YellowPublish {
                 $statusCode = 500;
                 echo "ERROR publishing files: Can't write file '$entry'!\n";
             }
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::updateStandardDocumentation file:$entry<br/>\n";
+            if ($this->yellow->system->get("coreDebugMode")>=2) {
+                echo "YellowPublish::updateStandardDocumentation file:$entry<br/>\n";
+            }
         }
         return $statusCode;
     }
@@ -331,7 +345,9 @@ class YellowPublish {
         $fileData = $this->yellow->toolbox->readFile($fileNameExtension);
         if (preg_match("/@base\/zip\//i", $fileData)) {
             array_push($this->secondStepPaths, $path);
-            if (defined("DEBUG") && DEBUG>=2) echo "YellowPublish::analyseExtensionSettings detected path:$path<br/>\n";
+            if ($this->yellow->system->get("coreDebugMode")>=2) {
+                echo "YellowPublish::analyseExtensionSettings detected path:$path<br/>\n";
+            }
         }
     }
     

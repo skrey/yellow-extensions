@@ -2,11 +2,11 @@
 Title: Felsökning
 ShowLanguageSelection: 1
 ---
-Så här hittar du och åtgärdar fel.
+Läs hur du hittar och åtgärdar problem.
 
 [toc]
 
-## Problem med installationen
+## Problem under installationen
 
 Följande felmeddelanden kan uppstå:
 
@@ -20,19 +20,19 @@ Kör kommandot `chmod -R a+rw *` i installationsmappen. Du kan också använda d
 Datenstrom Yellow requires configuration file!
 ```
 
-Kopiera medföljande `.htaccess`-filen till installationsmappen. Kontrollera om din FTP-programvara har en inställning för att visa alla filer. Ibland händer det att filen `.htaccess` förbises under installationen. Efter att saknade konfigurationsfilen har kopierats till webbservern bör problemet lösas.
-
-```
-Datenstrom Yellow requires rewrite support!
-```
-
-Konfigurera webbservern, se [Apache-konfiguration](#problem-med-apache) eller [Nginx-konfiguration](#problem-med-nginx). Du måste antingen ändra konfigurationsfilen eller så använder du inbyggda webbservern på din dator. Den inbyggda webbservern är praktisk för utvecklare. Så snart webbservern vidarebefordrar HTTP-förfrågningar till `yellow.php`, bör problemet lösas.
+Kopiera medföljande `.htaccess`-filen till webbservern. Kontrollera om din FTP-programvara har en inställning för att visa alla filer. Ibland händer det att filen `.htaccess` förbises under installationen. Efter att saknade konfigurationsfilen har kopierats till webbservern bör problemet lösas.
 
 ```
 Datenstrom Yellow requires complete upload!
 ```
 
-Kopiera alla filer igen till webbservern. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts, då finns det filer med noll byte på webbservern. Efter att alla installationsfiler har kopierats till webbservern bör problemet lösas.
+Kopiera alla medföljande filer till webbservern. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts, då saknas filer på webbservern. Efter att saknade installationsfiler har kopierats till webbservern bör problemet lösas.
+
+```
+Datenstrom Yellow requires rewrite support!
+```
+
+Kontrollera webbserverns konfigurationsfil, se [problem med Apache](#problem-med-apache) och [problem med Nginx](#problem-med-nginx). Du måste antingen ändra konfigurationsfilen för din webbserver eller så använder du en annan webbserver. Så snart webbservern vidarebefordrar HTTP-förfrågningar till `yellow.php`, bör problemet lösas.
 
 ```
 Datenstrom Yellow requires PHP extension!
@@ -54,7 +54,7 @@ Följande felmeddelande kan uppstå:
 Check the log file. Please activate the debug mode for more information.
 ```
 
-Kontrollera loggfilen `system/extensions/yellow.log`. Om det finns skrivfel, ge skrivbehörighet till de drabbade filerna. Om det finns andra fel, kontakta ansvariga utvecklaren/designern och [rapportera ett fel](contributing-guidelines). Loggfilen ger dig i alla fall en snabb översikt över vad som händer på din webbplats. Här är ett exempel: 
+Kontrollera loggfilen `system/extensions/yellow.log`. Om det finns skrivfel, ge skrivbehörighet till de drabbade filerna. Om det finns andra fel, kontakta ansvariga utvecklaren/formgivaren och [rapportera ett fel](contributing-guidelines). Loggfilen ger dig i alla fall en snabb översikt över vad som händer på din webbplats. Här är ett exempel: 
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
@@ -66,21 +66,21 @@ Kontrollera loggfilen `system/extensions/yellow.log`. Om det finns skrivfel, ge 
 2020-12-18 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Aktivera felsökningsläget för att visa mer information på aktuella sidan. Du kan använda felsökningsläget för att undersöka orsaken till ett problem, för att visa stackspåret av ett program eller om du är nyfiken på hur Datenstrom Yellow fungerar. Så här aktiverar du felsökningsläget:
+Du kan använda felsökningsläget för att undersöka orsaken till ett problem mer i detalj, för att visa stackspåret av ett program eller om du är nyfiken på hur Datenstrom Yellow fungerar. Beroende på debug-level visas mer eller mindre information på skärmen. Så här aktiverar du felsökningsläget på din webbplats:
 
-Öppna filen `system/extensions/core.php` och ändra första raden till `<?php define("DEBUG", 1);`
+Öppna filen `system/extensions/yellow-system.ini` och ändra `CoreDebugMode: 1`.
 
 ```
 YellowCore::sendPage Cache-Control: max-age=60
 YellowCore::sendPage Content-Type: text/html; charset=utf-8
 YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
 YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
-YellowCore::sendPage theme:stockholm language:sv layout:blogpages parser:markdown
-YellowCore::processRequest file:content/3-sv/2-blog/page.md
+YellowCore::sendPage layout:wiki-start theme:stockholm language:sv parser:markdown
+YellowCore::processRequest file:content/3-sv/2-wiki/page.md
 YellowCore::request status:200 time:19 ms
 ```
 
-Få filsystem information genom att öka debug-level till `<?php define("DEBUG", 2);`
+Få filsystem information genom att öka debug-level till `CoreDebugMode: 2`.
 
 ```
 YellowSystem::load file:system/extensions/yellow-system.ini
@@ -89,19 +89,19 @@ YellowLanguage::load file:system/extensions/english.txt
 YellowLanguage::load file:system/extensions/german.txt
 YellowLanguage::load file:system/extensions/swedish.txt
 YellowLanguage::load file:system/extensions/yellow-language.ini
-YellowLookup::findFileFromLocation /sv/blog/ -> content/3-sv/2-blog/page.md
+YellowLookup::findFileFromLocation /sv/wiki/ -> content/3-sv/2-wiki/page.md
 ```
 
-Få maximal information genom att öka debug-level till `<?php define("DEBUG", 3);`
+Få maximal information genom att öka debug-level till `CoreDebugMode: 3`.
 
 ```
 YellowSystem::load file:system/extensions/yellow-system.ini
 YellowSystem::load Sitename:Datenstrom Yellow
 YellowSystem::load Author:Datenstrom
 YellowSystem::load Email:webmaster
+YellowSystem::load Layout:default
 YellowSystem::load Theme:stockholm
 YellowSystem::load Language:sv
-YellowSystem::load Layout:default
 ```
 
 ## Problem med Apache
@@ -205,8 +205,8 @@ När din webbplats inte fungerar, kontrollera `server_name` och `root` i konfigu
 
 ## Relaterad information
 
-* [Hur man skapar ett användarkonto](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)
 * [Hur man startar inbyggda webbservern](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve/README-sv.md)
-* [Hur man visar aktuella versionen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)
+* [Hur man skapar ett användarkonto](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)
+* [Hur man uppdaterar en webbplats](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md)
 
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Har du några frågor? [Få hjälp](.).

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.58
+# Core 0.8.59
 
 Core functionality of the website.
 
@@ -59,6 +59,7 @@ Content file with redirection:
 `CoreStaticUrl` = URL of the website, when used as a static site generator  
 `CoreTimezone` = timezone of the website, [supported timezones](https://www.php.net/manual/en/timezones.php)  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
+`CoreDebugMode` = enable debug mode, 0 to 3  
 
 <a id="settings-page"></a>The following settings can be configured at the top of a page:
 

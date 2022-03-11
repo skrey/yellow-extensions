@@ -2,11 +2,11 @@
 Title: Fehlerbehebung
 ShowLanguageSelection: 1
 ---
-Wie man Fehler findet und behebt.
+Erfahre wie du Probleme findest und behebst.
 
 [toc]
 
-## Probleme bei der Installation
+## Probleme während der Installation
 
 Die folgenden Fehlermeldungen können auftreten:
 
@@ -20,19 +20,19 @@ Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst 
 Datenstrom Yellow requires configuration file!
 ```
 
-Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen. Es passiert manchmal dass die `.htaccess` Datei bei der Installation übersehen wurde. Nachdem die fehlende Konfigurationsdatei auf den Webserver kopiert wurde, sollte das Problem behoben sein.
-
-```
-Datenstrom Yellow requires rewrite support!
-```
-
-Konfiguriere den Webserver, siehe [Apache-Konfiguration](#probleme-mit-apache) und [Nginx-Konfiguration](#probleme-mit-nginx). Du musst entweder die Konfigurationsdatei ändern oder du verwendest den eingebauten Webserver auf deinem Computer. Der eingebaute Webserver ist praktisch für Entwickler. Sobald der Webserver HTTP-Anfragen an die `yellow.php` weiterleitet, sollte das Problem behoben sein.
+Kopiere die mitgelieferte `.htaccess` Datei auf den Webserver. Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen. Es passiert manchmal dass die `.htaccess` Datei bei der Installation übersehen wurde. Nachdem die fehlende Konfigurationsdatei auf den Webserver kopiert wurde, sollte das Problem behoben sein.
 
 ```
 Datenstrom Yellow requires complete upload!
 ```
 
-Kopiere nochmal alle Dateien auf den Webserver. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung unterbrochen wurde, dann findet man auf dem Webserver Dateien mit null Bytes. Nachdem alle Installationsdateien auf den Webserver kopiert wurden, sollte das Problem behoben sein.
+Kopiere alle mitgelieferten Dateien auf den Webserver. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung unterbrochen wurde, dann fehlen Dateien auf dem Webserver. Nachdem die fehlenden Installationsdateien auf den Webserver kopiert wurden, sollte das Problem behoben sein.
+
+```
+Datenstrom Yellow requires rewrite support!
+```
+
+Überprüfe die Konfigurationsdatei des Webservers, siehe [Probleme mit Apache](#probleme-mit-apache) und [Probleme mit Nginx](#probleme-mit-nginx). Du musst entweder die Konfigurationsdatei deines Webservers ändern oder du verwendest einen anderen Webserver. Sobald der Webserver HTTP-Anfragen an die `yellow.php` weiterleitet, sollte das Problem behoben sein.
 
 ```
 Datenstrom Yellow requires PHP extension!
@@ -66,21 +66,21 @@ Check the log file. Please activate the debug mode for more information.
 2020-12-18 21:02:42 error Can't write file 'system/extensions/yellow-system.ini'!
 ```
 
-Aktiviere den Debug-Modus um weitere Informationen auf der aktuellen Seite anzuzeigen. Du kannst den Debug-Modus benutzen um die Ursache eines Problems zu untersuchen, den Stack-Trace eines Programms anzuzeigen oder falls du neugierig bist wie Datenstrom Yellow funktioniert. So aktivierst du den Debug-Modus:
+Du kannst den Debug-Modus benutzen um die Ursache eines Problems genauer zu untersuchen, den Stack-Trace eines Programms anzuzeigen oder falls du neugierig bist wie Datenstrom Yellow funktioniert. Abhängig vom Debug-Level werden mehr oder weniger Informationen auf dem Bildschirm angezeigt. So aktivierst du den Debug-Modus auf deiner Website:
 
-Öffne die Datei `system/extensions/core.php` und ändere die erste Zeile zu `<?php define("DEBUG", 1);`
+Öffne die Datei `system/extensions/yellow-system.ini` und ändere `CoreDebugMode: 1`.
 
 ```
 YellowCore::sendPage Cache-Control: max-age=60
 YellowCore::sendPage Content-Type: text/html; charset=utf-8
 YellowCore::sendPage Content-Modified: Wed, 06 Feb 2019 13:54:17 GMT
 YellowCore::sendPage Last-Modified: Thu, 07 Feb 2019 09:37:48 GMT
-YellowCore::sendPage theme:stockholm language:de layout:blogpages parser:markdown
-YellowCore::processRequest file:content/2-de/2-blog/page.md
+YellowCore::sendPage layout:wiki-start theme:stockholm language:de parser:markdown
+YellowCore::processRequest file:content/2-de/2-wiki/page.md
 YellowCore::request status:200 time:19 ms
 ```
 
-Dateisysteminformationen durch Erhöhen des Debug-Levels zu `<?php define("DEBUG", 2);`
+Dateisysteminformationen durch Erhöhen des Debug-Levels zu `CoreDebugMode: 2`.
 
 ```
 YellowSystem::load file:system/extensions/yellow-system.ini
@@ -89,19 +89,19 @@ YellowLanguage::load file:system/extensions/english.txt
 YellowLanguage::load file:system/extensions/german.txt
 YellowLanguage::load file:system/extensions/swedish.txt
 YellowLanguage::load file:system/extensions/yellow-language.ini
-YellowLookup::findFileFromLocation /de/blog/ -> content/2-de/2-blog/page.md
+YellowLookup::findFileFromLocation /de/wiki/ -> content/2-de/2-wiki/page.md
 ```
 
-Maximum Informationen durch Erhöhen des Debug-Levels zu `<?php define("DEBUG", 3);`
+Maximum Informationen durch Erhöhen des Debug-Levels zu `CoreDebugMode: 3`.
 
 ```
 YellowSystem::load file:system/extensions/yellow-system.ini
 YellowSystem::load Sitename:Datenstrom Yellow
 YellowSystem::load Author:Datenstrom
 YellowSystem::load Email:webmaster
+YellowSystem::load Layout:default
 YellowSystem::load Theme:stockholm
 YellowSystem::load Language:de
-YellowSystem::load Layout:default
 ```
 
 ## Probleme mit Apache
@@ -205,8 +205,8 @@ Wenn deine Webseite nicht funktioniert, dann überprüfe `server_name` und `root
 
 ## Verwandte Informationen
 
-* [Wie man ein Benutzerkonto erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
 * [Wie man den eingebauten Webserver startet](https://github.com/datenstrom/yellow-extensions/tree/master/source/serve/README-de.md)
-* [Wie man die aktuelle Version anzeigt](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)
+* [Wie man ein Benutzerkonto erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
+* [Wie man eine Webseite aktualisiert](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md)
 
-Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).
+Hast du Fragen? [Hilfe finden](.).

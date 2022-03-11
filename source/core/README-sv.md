@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.58
+# Core 0.8.59
 
 Webbplatsens kärnfunktion.
 
@@ -59,6 +59,7 @@ Innehållsfil med omdirigering:
 `CoreStaticUrl` = URL av webbplatsen, när den används som static-site-generator  
 `CoreTimezone` = webbplatsens tidszon, [stödda tidszoner](https://www.php.net/manual/en/timezones.php)  
 `CoreMultiLanguageMode` = aktivera flerspråkigt läge, 1 eller 0  
+`CoreDebugMode` = aktivera felsökningsläget, 0 till 3  
 
 <a id="inställningar-page"></a>Följande inställningar kan konfigureras högst upp på en sida:
 
