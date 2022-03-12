@@ -6,15 +6,15 @@ if (PHP_SAPI!="cli") {
 } else {
     if (!is_dir("test")) {
         echo "\rMaking test environment 0%... ";
-        @mkdir("test/system/extensions", 0777, true);
-        @copy("source/install/yellow.php", "test/yellow.php");
-        @copy("source/core/core.php", "test/system/extensions/core.php");
-        @copy("source/update/update.php", "test/system/extensions/update.php");
-        $directoryHandle = @opendir("zip");
+        mkdir("test/system/extensions", 0777, true);
+        copy("source/install/yellow.php", "test/yellow.php");
+        copy("source/core/core.php", "test/system/extensions/core.php");
+        copy("source/update/update.php", "test/system/extensions/update.php");
+        $directoryHandle = opendir("zip");
         if ($directoryHandle) {
             while (($entry = readdir($directoryHandle))!==false) {
                 if (substr($entry, 0, 1)==".") continue;
-                @copy("zip/$entry", "test/system/extensions/$entry");
+                copy("zip/$entry", "test/system/extensions/$entry");
             }
             closedir($directoryHandle);
         }
