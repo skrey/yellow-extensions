@@ -14,19 +14,19 @@ Die folgenden Fehlermeldungen können auftreten:
 Datenstrom Yellow requires write access!
 ```
 
-Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst auch deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben. Es wird empfohlen allen Dateien und Verzeichnissen im Installations-Verzeichnis Schreibrechte zu geben. Sobald der Webserver ausreichende Schreibrechte im `system`-Verzeichnis hat, sollte das Problem behoben sein.
-
-```
-Datenstrom Yellow requires configuration file!
-```
-
-Kopiere die mitgelieferte `.htaccess` Datei auf den Webserver. Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen. Es passiert manchmal dass die `.htaccess` Datei bei der Installation übersehen wurde. Nachdem die fehlende Konfigurationsdatei auf den Webserver kopiert wurde, sollte das Problem behoben sein.
+Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst auch deine FTP-Software verwenden, um allen Dateien Schreibrechte zu geben. Es wird empfohlen allen Dateien und Verzeichnissen im Installations-Verzeichnis Schreibrechte zu geben. Sobald die Webseite ausreichende Schreibrechte im `system`-Verzeichnis hat, sollte das Problem behoben sein.
 
 ```
 Datenstrom Yellow requires complete upload!
 ```
 
-Kopiere alle mitgelieferten Dateien auf den Webserver. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung unterbrochen wurde, dann fehlen Dateien auf dem Webserver. Nachdem die fehlenden Installationsdateien auf den Webserver kopiert wurden, sollte das Problem behoben sein.
+Kopiere alle mitgelieferten Dateien ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung beim Hochladen unterbrochen wurde. Nachdem die fehlenden Dateien ins Installations-Verzeichnis kopiert wurden, sollte das Problem behoben sein.
+
+```
+Datenstrom Yellow requires configuration file!
+```
+
+Kopiere die mitgelieferte `.htaccess` Datei ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software eine Einstellung hat, um alle Dateien anzuzeigen. Es passiert manchmal dass die `.htaccess` Datei bei der Installation übersehen wurde. Nachdem die fehlende Konfigurationsdatei ins Installations-Verzeichnis kopiert wurde, sollte das Problem behoben sein.
 
 ```
 Datenstrom Yellow requires rewrite support!
@@ -51,10 +51,10 @@ Installiere die neuste PHP-Version auf deinem Webserver.
 Die folgende Fehlermeldung kann auftreten: 
 
 ```
-Check the log file. Please activate the debug mode for more information.
+Check the log file. Activate the debug mode for more information.
 ```
 
-Überprüfe die Logdatei `system/extensions/yellow.log`. Falls Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Falls andere Fehler auftreten, dann wende dich an den verantwortlichen Entwickler/Designer und [melde einen Fehler](contributing-guidelines). Die Logdatei gibt dir in jedem Fall einen schnellen Überblick, was auf deiner Website passiert. Hier ist ein Beispiel:
+Überprüfe die Logdatei `system/extensions/yellow-website.log`. Falls Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Falls andere Fehler auftreten, dann wende dich an den verantwortlichen Entwickler/Designer und [melde einen Fehler](contributing-guidelines). Die Logdatei gibt dir in jedem Fall einen schnellen Überblick, was auf deiner Website passiert. Hier ist ein Beispiel:
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac

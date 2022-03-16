@@ -14,7 +14,7 @@ Learn how to work with us and make useful products.
 
 * [Start a new discussion for each bug](https://github.com/datenstrom/yellow/discussions/categories/report-a-bug).
 * Explain how to reproduce the bug, check if it happens every time.
-* Add many details, especially the log file `system/extensions/yellow.log`.
+* Add many details, especially the log file `system/extensions/yellow-website.log`.
 * Test that everything works, when your problem has been fixed.
 
 ## How to work with us
@@ -58,7 +58,7 @@ Call to undefined function detectTimezone()
 Hello, I get the error message: Call to undefined function detectTimezone() 
 in /var/www/website/system/extensions/fika.php. You can reproduce the bug 
 in a new installation, select small website, install the fika extension. 
-Here's my log file `system/extensions/yellow.log`:
+Here's my log file `system/extensions/yellow-website.log`:
 
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
 2020-10-28 14:13:07 info Install extension 'English 0.8.27'

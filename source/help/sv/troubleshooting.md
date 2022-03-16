@@ -14,19 +14,19 @@ Följande felmeddelanden kan uppstå:
 Datenstrom Yellow requires write access!
 ```
 
-Kör kommandot `chmod -R a+rw *` i installationsmappen. Du kan också använda din FTP-programvara för att ge skrivbehörighet till alla filer. Det rekommenderas att ge skrivbehörighet till alla filer och mappar i installationsmappen. Så snart webbservern har tillräcklig skrivåtkomst i `system`-mappen bör problemet lösas.
-
-```
-Datenstrom Yellow requires configuration file!
-```
-
-Kopiera medföljande `.htaccess`-filen till webbservern. Kontrollera om din FTP-programvara har en inställning för att visa alla filer. Ibland händer det att filen `.htaccess` förbises under installationen. Efter att saknade konfigurationsfilen har kopierats till webbservern bör problemet lösas.
+Kör kommandot `chmod -R a+rw *` i installationsmappen. Du kan också använda din FTP-programvara för att ge skrivbehörighet till alla filer. Det rekommenderas att ge skrivbehörighet till alla filer och mappar i installationsmappen. Så snart webbplatsen har tillräcklig skrivåtkomst i `system`-mappen bör problemet lösas.
 
 ```
 Datenstrom Yellow requires complete upload!
 ```
 
-Kopiera alla medföljande filer till webbservern. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts, då saknas filer på webbservern. Efter att saknade installationsfiler har kopierats till webbservern bör problemet lösas.
+Kopiera alla medföljande filer till installationsmappen. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts under uppladdningen. Efter att saknade filer har kopierats till installationsmappen bör problemet lösas.
+
+```
+Datenstrom Yellow requires configuration file!
+```
+
+Kopiera medföljande `.htaccess`-filen till installationsmappen. Kontrollera om din FTP-programvara har en inställning för att visa alla filer. Ibland händer det att filen `.htaccess` förbises under installationen. Efter att saknade konfigurationsfilen har kopierats till installationsmappen bör problemet lösas.
 
 ```
 Datenstrom Yellow requires rewrite support!
@@ -51,10 +51,10 @@ Installera senaste PHP-versionen på din webbserver.
 Följande felmeddelande kan uppstå:
 
 ```
-Check the log file. Please activate the debug mode for more information.
+Check the log file. Activate the debug mode for more information.
 ```
 
-Kontrollera loggfilen `system/extensions/yellow.log`. Om det finns skrivfel, ge skrivbehörighet till de drabbade filerna. Om det finns andra fel, kontakta ansvariga utvecklaren/formgivaren och [rapportera ett fel](contributing-guidelines). Loggfilen ger dig i alla fall en snabb översikt över vad som händer på din webbplats. Här är ett exempel: 
+Kontrollera loggfilen `system/extensions/yellow-website.log`. Om det finns skrivfel, ge skrivbehörighet till de drabbade filerna. Om det finns andra fel, kontakta ansvariga utvecklaren/formgivaren och [rapportera ett fel](contributing-guidelines). Loggfilen ger dig i alla fall en snabb översikt över vad som händer på din webbplats. Här är ett exempel: 
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac
