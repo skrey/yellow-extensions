@@ -38,7 +38,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 `TrafficDays` = antal dagar  
 `TrafficLinesMax` = antal rader att visa per kategori  
-`TrafficLogDirectory` = mapp med logfiler  
+`TrafficLogDirectory` = mapp med webbserverns logfiler  
 `TrafficAccessFile` = filnamn som reguljära uttryck  
 `TrafficSpamFilter` = skräplänkfilter som reguljära uttryck, `none` för att inaktivera  
 

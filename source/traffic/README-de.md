@@ -38,7 +38,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 `TrafficDays` = Anzahl Tage  
 `TrafficLinesMax` = Anzahl der Zeilen pro Kategorie  
-`TrafficLogDirectory` = Verzeichnis mit Logdateien  
+`TrafficLogDirectory` = Verzeichnis mit Webserver-Logdateien  
 `TrafficAccessFile` = Dateiname als regulärer Ausduck  
 `TrafficSpamFilter` = Spamfilter als regulärer Ausdruck, `none` um zu deaktivieren  
 
