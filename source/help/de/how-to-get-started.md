@@ -18,6 +18,7 @@ Falls du mehr über deine Webseite erfahren möchtest, [siehe Hilfe für deine W
 2. Entpacke die Datei und kopiere alles ins gewünschte Verzeichnis.
 3. Öffne ein Terminalfenster und gehe ins Verzeichnis mit der Datei `yellow.php`.
 4. Starte den eingebauten Webserver mit dem Befehl `php yellow.php serve`.
+5. Wähle aus was du machen willst und klicke auf `Installieren`.
 
 Falls du mehr über die Verzeichnisstruktur erfahren möchtest, [siehe API für Entwickler](api-for-developers).
 

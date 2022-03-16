@@ -18,6 +18,7 @@ Om du vill läsa mer om din webbplats, [se hjälp för din webbplats](.).
 2. Packa upp filen och kopiera allt till önskad mappen.
 3. Öppna ett terminalfönster och gå till mappen med filen `yellow.php`.
 4. Starta inbyggda webbservern med kommandot `php yellow.php serve`.
+5. Välj vad du vill göra och klicka på `Installera`.
 
 Om du vill läsa mer om mappstrukturen, [se API för utvecklare](api-for-developers).
 
