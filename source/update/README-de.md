@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Update 0.8.65
+# Update 0.8.66
 
 Webseite auf dem neusten Stand halten.
 
@@ -24,19 +24,27 @@ Du kannst die aktuelle Version deiner Webseite im [Webbrowser](https://github.co
 
 Du kannst Abkürzungen verwenden, um Informationen über die Webseite anzuzeigen:
 
+`[yellow release]` für aktuelle Produktversion  
 `[yellow about]` für aktuelle Version und Erweiterungen  
-`[yellow release]` für aktuelle Produktausgabe  
-`[yellow error]` für aktuelle Fehlermeldung  
 `[yellow log]` für neueste Einträge in der Logdatei  
 
 ## Beispiele
 
-Inhaltsdatei mit aktueller Version:
+Inhaltsdatei mit aktueller Produktversion:
 
     ---
     Title: Beispiel-Seite
     ---
-    Diese Seite zeigt die aktuelle Version der Webseite.
+    Diese Seite zeigt die aktuelle Produktversion.
+
+    ! [yellow release]
+
+Inhaltsdatei mit aktueller Version und Erweiterungen:
+
+    ---
+    Title: Beispiel-Seite
+    ---
+    Diese Seite zeigt die aktuelle Version und Erweiterungen:
 
     ! [yellow about]
 
@@ -86,7 +94,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `UpdateEventDaily ` = Zeitpunkt des nächsten täglichen Ereignisses  
 `UpdateTrashTimeout` = Speicherung von gelöschten Dateien in Sekunden  
 
-Die Logdatei findet man in der Datei `system/extensions/yellow.log`.
+Die Logdatei findet man in der Datei `system/extensions/yellow-website.log`.
 
 ## Installation
 

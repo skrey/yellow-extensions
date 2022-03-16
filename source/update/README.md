@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Update 0.8.65
+# Update 0.8.66
 
 Keep your website up to date.
 
@@ -24,19 +24,27 @@ You can show the current version of your website in a [web browser](https://gith
 
 You can use shortcuts to show information about the website:
 
-`[yellow about]` for current version and extensions  
 `[yellow release]` for current product release  
-`[yellow error]` for current error message  
+`[yellow about]` for current version and extensions  
 `[yellow log]` for latest entries in log file  
 
 ## Examples
 
-Content file with current version:
+Content file with current product release:
 
     ---
     Title: Example page
     ---
-    This page shows the current version of the website.
+    This page shows the current product release.
+
+    ! [yellow release]
+
+Content file with current version and extensions:
+
+    ---
+    Title: Example page
+    ---
+    This page shows the current version and extensions.
 
     ! [yellow about]
 
@@ -86,7 +94,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `UpdateEventDaily` = time of next daily event  
 `UpdateTrashTimeout` = storage of deleted files in seconds  
 
-The log file can be found in file `system/extensions/yellow.log`.
+The log file can be found in file `system/extensions/yellow-website.log`.
 
 ## Installation
 

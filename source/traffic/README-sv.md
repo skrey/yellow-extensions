@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Traffic 0.8.14
+# Traffic 0.8.15
 
 Skapa trafikanalys från webbserverns loggfiler.
 
@@ -39,7 +39,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `TrafficDays` = antal dagar  
 `TrafficLinesMax` = antal rader att visa per kategori  
 `TrafficLogDirectory` = mapp med logfiler  
-`TrafficLogFile` = filnamn som reguljära uttryck  
+`TrafficAccessFile` = filnamn som reguljära uttryck  
 `TrafficSpamFilter` = skräplänkfilter som reguljära uttryck, `none` för att inaktivera  
 
 ## Installation

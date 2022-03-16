@@ -24,7 +24,7 @@ Följande filer kommer att anpassas under installationen:
 `system/extensions/yellow-user.ini` = fil med användarinställningar  
 `system/extensions/yellow-language.ini` = fil med språkinställningar  
 
-Loggfilen finns i filen `system/extensions/yellow.log`.
+Loggfilen finns i filen `system/extensions/yellow-website.log`.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Traffic 0.8.14
+# Traffic 0.8.15
 
 Zugriffsanalysen aus Webserver-Logdateien erstellen.
 
@@ -39,7 +39,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `TrafficDays` = Anzahl Tage  
 `TrafficLinesMax` = Anzahl der Zeilen pro Kategorie  
 `TrafficLogDirectory` = Verzeichnis mit Logdateien  
-`TrafficLogFile` = Dateiname als regulärer Ausduck  
+`TrafficAccessFile` = Dateiname als regulärer Ausduck  
 `TrafficSpamFilter` = Spamfilter als regulärer Ausdruck, `none` um zu deaktivieren  
 
 ## Installation

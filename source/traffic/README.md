@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Traffic 0.8.14
+# Traffic 0.8.15
 
 Create traffic analytics from web server log files.
 
@@ -39,7 +39,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `TrafficDays` = number of days  
 `TrafficLinesMax` = number of lines to show per category  
 `TrafficLogDirectory` = directory with log files  
-`TrafficLogFile` = file name as regular expression  
+`TrafficAccessFile` = file name as regular expression  
 `TrafficSpamFilter` = spam filter as regular expression, `none` to disable  
 
 ## Installation

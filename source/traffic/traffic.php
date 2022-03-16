@@ -2,7 +2,7 @@
 // Traffic extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic
 
 class YellowTraffic {
-    const VERSION = "0.8.14";
+    const VERSION = "0.8.15";
     public $yellow;         // access to API
     public $days;           // number of days
     public $views;          // number of views
@@ -13,7 +13,7 @@ class YellowTraffic {
         $this->yellow->system->setDefault("trafficDays", 30);
         $this->yellow->system->setDefault("trafficLinesMax", 8);
         $this->yellow->system->setDefault("trafficLogDirectory", "/var/log/apache2/");
-        $this->yellow->system->setDefault("trafficLogFile", "(.*)access.log");
+        $this->yellow->system->setDefault("trafficAccessFile", "(.*)access.log");
         $this->yellow->system->setDefault("trafficSpamFilter", "bot|crawler|spider|checker|localhost");
     }
 
@@ -58,7 +58,7 @@ class YellowTraffic {
         if (empty($location)) $location = "/";
         if (empty($days)) $days = $this->yellow->system->get("trafficDays");
         $path = $this->yellow->system->get("trafficLogDirectory");
-        $regex = "/^".basename($this->yellow->system->get("trafficLogFile"))."$/";
+        $regex = "/^".basename($this->yellow->system->get("trafficAccessFile"))."$/";
         $fileNames = array_reverse($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false));
         list($statusCode, $sites, $content, $files, $search, $errors) = $this->analyseRequests($days, $location, $fileNames);
         if ($statusCode==200) {
@@ -71,7 +71,7 @@ class YellowTraffic {
         return $statusCode;
     }
     
-    // Analyse logfile requests
+    // Analyse log file requests
     public function analyseRequests($days, $locationFilter, $fileNames) {
         $this->days = $this->views = 0;
         $sites = $content = $files = $search = $errors = $clients = array();
@@ -143,7 +143,7 @@ class YellowTraffic {
                     fclose($fileHandle);
                 } else {
                     $statusCode = 500;
-                    echo "ERROR reading logfiles: Can't read file '$fileName'!\n";
+                    echo "ERROR reading log files: Can't read file '$fileName'!\n";
                 }
             }
             unset($sites["-"]);
@@ -154,7 +154,7 @@ class YellowTraffic {
         } else {
             $statusCode = 500;
             $path = $this->yellow->system->get("trafficLogDirectory");
-            echo "ERROR reading logfiles: Can't find files in directory '$path'!\n";
+            echo "ERROR reading log files: Can't find files in directory '$path'!\n";
         }
         return array($statusCode, $sites, $content, $files, $search, $errors);
     }
@@ -185,7 +185,7 @@ class YellowTraffic {
         return (($method=="GET" || $method=="POST") && substru($location, 0, 1)=="/" && ($referer=="-" || substru($referer, 0, 4)=="http"));
     }
     
-    // Return location, decode logfile-encoding and URL-encoding
+    // Return location, decode file-encoding and URL-encoding
     public function getLocation($uri) {
         $uri = preg_replace_callback("#(\\\x[0-9a-f]{2})#", function ($matches) {
             return chr(hexdec($matches[1]));
@@ -193,7 +193,7 @@ class YellowTraffic {
         return rawurldecode(($pos = strposu($uri, "?")) ? substru($uri, 0, $pos) : $uri);
     }
     
-    // Return referer, decode logfile-encoding and URL-encoding
+    // Return referer, decode file-encoding and URL-encoding
     public function getReferer($referer, $refererSelf) {
         $referer = preg_replace_callback("#(\\\x[0-9a-f]{2})#", function ($matches) {
             return chr(hexdec($matches[1]));

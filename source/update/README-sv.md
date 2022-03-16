@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Update 0.8.65
+# Update 0.8.66
 
 Håll din webbplats uppdaterad.
 
@@ -24,19 +24,27 @@ Du kan visa den aktuella versionen av din webbplats i en [webbläsare](https://g
 
 Du kan använda förkortningar för att visa information om webbplatsen:
 
-`[yellow about]` för aktuell version och tillägg  
 `[yellow release]` för aktuell produktutgåva  
-`[yellow error]` för aktuellt felmeddelande  
-`[yellow log]` för de senaste posterna i loggfilen  
+`[yellow about]` för aktuell version och tillägg  
+`[yellow log]` för senaste poster i loggfilen  
 
 ## Exempel
 
-Innehållsfil med aktuell version:
+Innehållsfil med aktuell produktutgåva:
 
     ---
     Title: Exempelsida
     ---
-    Den här sidan visa den aktuella versionen av webbplatsen.
+    Den här sidan visar aktuella produktutgåvan.
+
+    ! [yellow release]
+
+Innehållsfil med aktuell version och tillägg:
+
+    ---
+    Title: Exempelsida
+    ---
+    Den här sidan visar aktuella versionen och tillägg.
 
     ! [yellow about]
 
@@ -45,7 +53,7 @@ Innehållsfil med loggfil:
     ---
     Title: Exempelsida
     ---
-    Den här sidan visa de senaste posterna i loggfilen.
+    Den här sidan visar de senaste posterna i loggfilen.
 
     ! [yellow log]
 
@@ -86,7 +94,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `UpdateEventDaily` = tid för nästa dagliga händelse  
 `UpdateTrashTimeout` = lagring av raderade filer i sekunder  
 
-Loggfilen finns i filen `system/extensions/yellow.log`.
+Loggfilen finns i filen `system/extensions/yellow-website.log`.
 
 ## Installation
 

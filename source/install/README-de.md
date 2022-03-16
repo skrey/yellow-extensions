@@ -24,7 +24,7 @@ Die folgenden Dateien werden bei der Installation angepasst:
 `system/extensions/yellow-user.ini` = Datei mit Benutzereinstellungen  
 `system/extensions/yellow-language.ini` = Datei mit Spracheinstellungen  
 
-Die Logdatei findet man in der Datei `system/extensions/yellow.log`.
+Die Logdatei findet man in der Datei `system/extensions/yellow-website.log`.
 
 ## Installation
 
