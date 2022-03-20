@@ -14,9 +14,13 @@ Det andra alternativet är att uppdatera din webbplats på [kommandoraden](https
 
 Om filer raderas kan du hitta dem i `system/trash` mappen. 
 
-## Hur man utökar en webbplats
+## Hur man lägga till tillägg
 
-Din webbplats levereras bara med det väsentliga. Du kan ladda ner och lägga till tillägg som ZIP-filer. Du kan också lägga till tillägg på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php install` följt av fler argument. Du kan också ta bort tillägg på kommandoraden.
+Du kan ladda ner och lägga till tillägg som ZIP-filer. Du kan också lägga till tillägg på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php install` följt av fler argument.
+
+## Hur man ta bort tillägg
+
+Du kan manuellt ta bort tillägg som PHP-filer. Du kan också lägga till tillägg på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php uninstall` följt av fler argument.
 
 ## Hur man visar aktuella versionen
 

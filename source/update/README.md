@@ -14,9 +14,13 @@ The second option is to update your website at the [command line](https://github
 
 If files are deleted you can find them in the `system/trash` folder.
 
-## How to extend a website
+## How to add extensions
 
-Your website only comes with the bare essentials. You can download and add extensions as ZIP-files. You can also add extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php install` followed by more arguments. You can also remove extensions at the command line.
+You can download and add extensions as ZIP-files. You can also add extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php install` followed by more arguments.
+
+## How to remove extensions
+
+You can manually remove extensions as PHP-files. You can also remove extensions at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php uninstall` followed by more arguments.
 
 ## How to show the current version
 
