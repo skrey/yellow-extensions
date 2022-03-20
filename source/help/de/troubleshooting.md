@@ -54,7 +54,7 @@ Die folgende Fehlermeldung kann auftreten:
 Check the log file. Activate the debug mode for more information.
 ```
 
-Überprüfe die Logdatei `system/extensions/yellow-website.log`. Falls Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Falls andere Fehler auftreten, dann wende dich an den verantwortlichen Entwickler/Designer und [melde einen Fehler](contributing-guidelines). Die Logdatei gibt dir in jedem Fall einen schnellen Überblick, was auf deiner Website passiert. Hier ist ein Beispiel:
+Überprüfe die Logdatei `system/extensions/yellow-website.log`. Falls Schreibfehler auftreten, dann gebe den betroffenen Dateien Schreibrechte. Falls andere Fehler auftreten, dann ersetze die betreffenden Dateien oder [melde einen Fehler](contributing-guidelines). Die Logdatei gibt dir in jedem Fall einen schnellen Überblick, was auf deiner Website passiert. Hier ist ein Beispiel:
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac

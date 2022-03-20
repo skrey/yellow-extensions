@@ -18,7 +18,7 @@ If you want to learn more about your website, [see help for your website](.).
 2. Unzip the file and copy everything into the desired folder.
 3. Open a terminal window and go to the folder with the file `yellow.php`. 
 4. Start the built-in web server with the command `php yellow.php serve`.
-5. Select what you want to do and click `Install`.
+5. Follow the instructions on screen and click `Install`.
 
 If you want to learn more about the folder structure, [see API for developers](api-for-developers).
 

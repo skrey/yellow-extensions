@@ -55,7 +55,7 @@ The following error message can happen:
 Check the log file. Activate the debug mode for more information.
 ```
 
-Check the log file `system/extensions/yellow-website.log`. If there are write errors, then give write permissions to the affected files. If there are other errors, then contact the responsible developer/designer and [report a bug](contributing-guidelines). The log file gives you in any case a quick overview of what happens on your website. Here's an example:
+Check the log file `system/extensions/yellow-website.log`. If there are write errors, then give write permissions to the affected files. If there are other errors, then replace the affected files or [report a bug](contributing-guidelines). The log file gives you in any case a quick overview of what happens on your website. Here's an example:
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac

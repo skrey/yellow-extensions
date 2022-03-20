@@ -54,7 +54,7 @@ Följande felmeddelande kan uppstå:
 Check the log file. Activate the debug mode for more information.
 ```
 
-Kontrollera loggfilen `system/extensions/yellow-website.log`. Om det finns skrivfel, ge skrivbehörighet till de drabbade filerna. Om det finns andra fel, kontakta ansvariga utvecklaren/formgivaren och [rapportera ett fel](contributing-guidelines). Loggfilen ger dig i alla fall en snabb översikt över vad som händer på din webbplats. Här är ett exempel: 
+Kontrollera loggfilen `system/extensions/yellow-website.log`. Om det finns skrivfel, ge skrivbehörighet till de drabbade filerna. Om det finns andra fel, ersätt de drabbade filerna eller [rapportera ett fel](contributing-guidelines). Loggfilen ger dig i alla fall en snabb översikt över vad som händer på din webbplats. Här är ett exempel: 
 
 ```
 2020-10-28 14:13:07 info Install Datenstrom Yellow 0.8.17, PHP 7.1.33, Apache 2.4.33, Mac

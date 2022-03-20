@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Serve 0.8.17
+# Serve 0.8.18
 
 Eingebauter Webserver.
 
@@ -8,7 +8,7 @@ Eingebauter Webserver.
 
 ## Wie man den eingebauten Webserver startet
 
-Du kannst den eingebauten Webserver in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) starten. Der eingebauten Webserver ist praktisch für Entwickler/Designer. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php serve`, du kannst wahlweise ein Verzeichnis und eine URL angeben. Öffne einen Webbrowser und gehe zu angezeigten URL.
+Du kannst den eingebauten Webserver in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) starten. Der eingebauten Webserver ist praktisch für Entwickler und Designer. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php serve`, du kannst wahlweise eine URL angeben. Öffne einen Webbrowser und gehe zur angezeigten URL.
 
 ## Beispiele
 
@@ -22,9 +22,9 @@ Eingebauten Webserver in der Befehlszeile starten:
 
 Eingebauten Webserver in der Befehlszeile starten, unterschiedliche URL:
 
-`php yellow.php serve dynamic http://localhost:8000/`  
-`php yellow.php serve dynamic http://localhost:8080/`  
-`php yellow.php serve dynamic http://localhost:8888/`  
+`php yellow.php serve http://localhost:8000/`  
+`php yellow.php serve http://localhost:8080/`  
+`php yellow.php serve http://localhost:8888/`  
 
 ## Installation
 

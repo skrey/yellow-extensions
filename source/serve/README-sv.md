@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Serve 0.8.17
+# Serve 0.8.18
 
 Inbyggd webbserver.
 
@@ -8,7 +8,7 @@ Inbyggd webbserver.
 
 ## Hur man startar inbyggda webbservern
 
-Du kan starta inbyggda webbservern på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Den inbyggda webbservern är praktisk för utvecklare/formgivare. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php serve`, du kan valfritt ange en mapp och en URL. Öppna en webbläsare och gå till URL:en som visas.
+Du kan starta inbyggda webbservern på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Den inbyggda webbservern är praktisk för utvecklare och formgivare. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php serve`, du kan valfritt ange en URL. Öppna en webbläsare och gå till URL:en som visas.
 
 ## Exempel
 
@@ -22,9 +22,9 @@ Starta inbyggda webbservern på kommandoraden:
 
 Starta inbyggda webbservern på kommandoraden, olika URL:
 
-`php yellow.php serve dynamic http://localhost:8000/`  
-`php yellow.php serve dynamic http://localhost:8080/`  
-`php yellow.php serve dynamic http://localhost:8888/`  
+`php yellow.php serve http://localhost:8000/`  
+`php yellow.php serve http://localhost:8080/`  
+`php yellow.php serve http://localhost:8888/`  
 
 ## Installation
 

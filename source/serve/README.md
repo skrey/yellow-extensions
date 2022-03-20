@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Serve 0.8.17
+# Serve 0.8.18
 
 Built-in web server.
 
@@ -8,7 +8,7 @@ Built-in web server.
 
 ## How to start the built-in web server
 
-You can start the built-in web server at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). The built-in web server is handy for developers/designers. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php serve`, you can optionally add a folder and a URL. Open a web browser and go to the displayed URL.
+You can start the built-in web server at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). The built-in web server is convenient for developers and designers. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php serve`, you can optionally add a URL. Open a web browser and go to the URL shown.
 
 ## Examples
 
@@ -22,9 +22,9 @@ Starting built-in web server at the command line:
 
 Starting built-in web server at the command line, different URLs:
 
-`php yellow.php serve dynamic http://localhost:8000/`  
-`php yellow.php serve dynamic http://localhost:8080/`  
-`php yellow.php serve dynamic http://localhost:8888/`  
+`php yellow.php serve http://localhost:8000/`  
+`php yellow.php serve http://localhost:8080/`  
+`php yellow.php serve http://localhost:8888/`  
 
 ## Installation
 
