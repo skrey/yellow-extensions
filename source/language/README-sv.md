@@ -8,7 +8,7 @@ Tillägg med språk för en ny webbplats.
 
 ## Hur man gör en översättning
 
-Börja med [svenska språkfilen](https://github.com/datenstrom/yellow-extensions/blob/master/source/swedish/swedish.txt) eller ett av [tillgängliga språken](https://github.com/datenstrom/yellow-extensions/blob/master/README-sv.md#språk). Om du vill redigera språk på din dator, ta en titt på `system/extensions` mappen. Vissa språk har inte uppdaterats på ett tag. Ibland innehåller de textrader på engelska, som inte har översatts ännu. Därför är det bra att då och då kolla om allt är okej. Ladda upp dina ändringar till GitHub, låt oss veta om du behöver hjälp.
+Börja med [svenska språkfilen](https://github.com/datenstrom/yellow-extensions/blob/master/source/swedish/swedish.txt) eller ett av [tillgängliga språken](https://github.com/datenstrom/yellow-extensions/blob/master/README-sv.md#språk). De installerade språken finns i `system/extensions` mappen. Vissa språk har inte uppdaterats på ett tag. Ibland innehåller de textrader på engelska, som inte har översatts ännu. Därför är det bra att då och då kolla om allt är okej. Ladda upp dina ändringar till GitHub, låt oss veta om du behöver hjälp.
 
 ## Installation
 
