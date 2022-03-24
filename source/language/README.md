@@ -6,6 +6,10 @@ Extension with languages for a new website.
 
 <p align="center"><img src="language-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
+## How to make a translation
+
+Start with the [English language file](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) or one of the [available languages](https://github.com/datenstrom/yellow-extensions#languages). If you want to edit languages on your computer, have a look inside your `system/extensions` folder. Some languages have not been updated for a while. Sometimes they contain text lines in English, which have not been translated yet. That's why it's good to check from time to time that everything looks okay. Upload your changes to GitHub, let us know if you need help.
+
 ## Installation
 
 This extension is part of the [standard installation](https://github.com/datenstrom/yellow).
