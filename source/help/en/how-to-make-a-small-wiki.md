@@ -7,8 +7,7 @@ Learn how to make your wiki.
 
 ## First steps
 
-[Follow the installation instructions](how-to-get-started) and select `Wiki`. If you want to add the wiki later, [install the wiki extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki). The installation comes with three pages, 'Home', 'Wiki' and 'About'. This is just an example to get you started. Change everything as you like. You can edit your wiki in a web browser or text editor. There's no admin panel, no database, nothing that gets in your way.
-
+[Follow the installation instructions](how-to-get-started), select `Small wiki` and click `Install`. Your wiki is immediately available. The installation comes with three pages, 'Home', 'Wiki' and 'About'. This is just an example to get you started. Change everything as you like. You can edit wiki pages in a web browser or text editor. Do what fits best into your workflow.
 
 ## Edit wiki pages
 

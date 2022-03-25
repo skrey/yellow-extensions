@@ -23,8 +23,8 @@ TitleSlug: help
 
 ## Möchtest du Fragen stellen?
 
-Kannst du etwas nicht finden? Funktioniert etwas nicht? Es besteht eine gute Chance, dass deine Frage bereits beantwortet wurde. Falls nicht, beginne eine neue Diskussion. Beschreibe was du machen möchtest und welche Probleme du hast. Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. [Weitere Informationen zum Mitmachen](contributing-guidelines).  
+Kannst du etwas nicht in der Dokumentation finden? Funktioniert etwas nicht wie erwartet? Es besteht eine gute Chance, dass deine Frage bereits beantwortet wurde. Falls nicht, beschreibe was du machen möchtest und welche Probleme du hast. Unsere Community ist ein Ort um sich gegenseitig zu helfen. Wo man Fragen stellen und beantworten kann. [Weitere Informationen zum Mitmachen](contributing-guidelines).
 
 ## Möchtest du Support haben?
 
-Hast du ein dringendes Problem? Suchst du jemanden der dir mit deiner Webseite hilft? Wende dich zuerst an denjenigen der deine Webseite erstellt hat. Normalerweise kann dir dort geholfen werden. Falls nicht, wende dich an den kommerziellen Support. Rede mit einem erfahrenen Berater per E-Mail oder Telefon. [Weitere Informationen zum kommerziellen Support](https://mayberg.se/support/).
+Suchst du jemanden der dir hilft? Steckst du fest? Wende dich zuerst an denjenigen der deine Webseite erstellt hat. Normalerweise kann dir dort geholfen werden. Falls nicht, wende dich an den kommerziellen Support für Datenstrom Yellow. Rede mit einem Berater via Email, Chat oder Telefon. Wir finden die beste Lösung für dich. [Weitere Informationen zum kommerziellen Support](https://mayberg.se/support/).

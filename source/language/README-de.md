@@ -8,7 +8,7 @@ Erweiterung mit Sprachen für eine neue Webseite.
 
 ## Wie man eine Übersetzung erstellt 
 
-Beginne mit der [deutschen Sprachdatei](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) oder einer der [vorhandenen Sprachen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen). Die installierten Sprachen findest du in deinem `system/extensions`-Verzeichnis. Einige Sprachen wurden schon seit einiger Zeit nicht mehr aktualisiert. Manchmal enthalten sie Textzeilen in englischer Sprache, die noch nicht übersetzt wurden. Deshalb ist es gut, von Zeit zu Zeit nachzusehen, ob alles in Ordnung ist. Lade deine Änderungen zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
+Beginne mit der [deutschen Sprachdatei](https://github.com/datenstrom/yellow-extensions/blob/master/source/german/german.txt) oder einer der [vorhandenen Sprachen](https://github.com/datenstrom/yellow-extensions/blob/master/README-de.md#sprachen). Die Sprachdateien befinden sich im `system/extensions`-Verzeichnis. Manchmal enthalten sie Textzeilen in englischer Sprache, die noch nicht übersetzt wurden. Deshalb ist es gut, von Zeit zu Zeit nachzusehen, ob alles in Ordnung ist. Lade deine Änderungen zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
 
 ## Installation
 

@@ -23,8 +23,8 @@ TitleSlug: help
 
 ## Want to ask questions?
 
-Can't find what you're looking for? Something doesn't work? There's a good chance that your question has already been answered. If not, start a new discussion. Describe what you want to do and which problems you have. Our community is a place to help each other. Where you can ask and answer questions. [Learn more about contributing](contributing-guidelines). 
+Can't find what you're looking for in the documentation? Something doesn't work as expected? There's a good chance that your question has already been answered. If not, describe what you want to do and which problems you have. Our community is a place to help each other. Where you can ask and answer questions. [Learn more about contributing](contributing-guidelines). 
 
 ## Want to have support?
 
-Have an urgent problem? Are you looking for someone that helps you with your website? First contact the person who made your website. Usually you can get help there. If not, contact the commercial support. Talk to an experienced consultant via email or phone. We're happy to listen and take care of problems. [Learn more about commercial support](https://mayberg.se/support/).
+Looking for someone that helps you? Are you stuck? First contact the person who made your website. Usually you can get help there. If not, contact the commercial support for Datenstrom Yellow. Talk to a consultant via email, chat or phone. We'll find you the best solution. [Learn more about commercial support](https://mayberg.se/support/).

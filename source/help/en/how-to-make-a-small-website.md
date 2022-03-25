@@ -7,7 +7,7 @@ Learn how to make your website.
 
 ## First steps
 
-[Follow the installation instructions](how-to-get-started) and select `Website`. If there are problems with installation, [see troubleshooting](troubleshooting). The installation comes with two pages, 'Home' and 'About'. This is just an example to get you started. Change everything as you like. You can edit your website in a web browser or text editor. There's no admin panel, no database, nothing that gets in your way.
+[Follow the installation instructions](how-to-get-started), select `Small website` and click `Install`. Your website is immediately available. The installation comes with two pages, 'Home' and 'About'. This is just an example to get you started. Change everything as you like. You can edit web pages in a web browser or text editor. Do what fits best into your workflow.
 
 ## Edit web pages
 

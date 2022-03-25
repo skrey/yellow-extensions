@@ -7,7 +7,7 @@ Hier erfährst du, wie du deine Webseite erstellst.
 
 ## Erste Schritte
 
-[Folge der Installations-Anleitung](how-to-get-started) und wähle `Webseite` aus. Falls Probleme bei der Installation auftreten, [siehe Fehlerbehebung](troubleshooting). Die Installation kommt mit zwei Seiten, "Startseite" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst deine Webseite im Webbrowser oder Texteditor bearbeiten. Es gibt kein Administratorpanel, keine Datenbank, nichts das dir im Weg steht. 
+[Folge der Installationsanleitung](how-to-get-started), wähle `Kleine Webseite` aus und klicke auf `Installieren`. Deine Webseite ist sofort erreichbar. Die Installation kommt mit zwei Seiten, "Startseite" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst Webseiten im Webbrowser oder Texteditor bearbeiten. Mache was am besten in deinen Arbeitsablauf passt.
 
 ## Webseiten bearbeiten
 

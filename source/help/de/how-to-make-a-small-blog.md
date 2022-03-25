@@ -7,8 +7,8 @@ Hier erfährst du, wie du dein Blog erstellst.
 
 ## Erste Schritte
 
-[Folge der Installations-Anleitung](how-to-get-started) und wähle `Blog` aus. Falls du das Blog später hinzufügen möchtest, [installiere die Blog-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog/README-de.md). Die Installation kommt mit drei Seiten, "Startseite", "Blog" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst dein Blog im Webbrowser oder Texteditor bearbeiten. Es gibt kein Administratorpanel, keine Datenbank, nichts das dir im Weg steht. 
- 
+[Folge der Installationsanleitung](how-to-get-started), wähle `Kleines Blog` aus und klicke auf `Installieren`. Dein Blog ist sofort erreichbar. Die Installation kommt mit drei Seiten, "Startseite", "Blog" und "Über". Das ist nur ein Beispiel um loszulegen. Verändere alles so wie du willst. Du kannst Blogseiten im Webbrowser oder Texteditor bearbeiten. Mache was am besten in deinen Arbeitsablauf passt.
+
 ## Blogseiten bearbeiten
 
 Falls du Blogseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/blog/`. Falls du Blogseiten im Texteditor bearbeiten möchtest, schau dir das `content/2-blog`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/2-blog/2020-04-07-blog-example.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-adjust-content#text) und [Bilder](how-to-adjust-media#bilder) ändern. Hier ist ein Beispiel:
