@@ -248,19 +248,6 @@ a:hover {
     margin-top: 2em;
     background: #fff;
 }
-.footer .siteinfo {
-    color: #888;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-.footer .siteinfo a {
-    color: #555;
-    text-decoration: none;
-}
-.footer .siteinfo a:hover {
-    color: #555;
-    text-decoration: underline;
-}
 
 /* Sidebar */
 
