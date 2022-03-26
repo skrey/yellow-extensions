@@ -11,7 +11,7 @@ Learn how to make your website.
 
 ## Edit web pages
 
-If you want to edit web pages in a web browser, you can do this on your website at `http://website/edit/`. If you want to edit web pages in a text editor, have a look inside your `content` folder. Give it a try. Open the file `content/1-home/page.md`. At the top of the page you can change `Title` and other [page settings](how-to-adjust-system#page-settings). Below you can change [text](how-to-adjust-content#text) and [images](how-to-adjust-media#images). Here's an example:
+If you want to edit web pages in a web browser, you can do this on your website at `http://website/edit/`. If you want to edit web pages in a text editor, have a look inside your `content` folder. Give it a try. Open the file `content/1-home/page.md`. At the top of the page you can change `Title` and other [page settings](how-to-change-the-system#page-settings). Below you can change [text](how-to-change-the-content#text) and [images](how-to-change-the-media#images). Here's an example:
 
 ```
 ---

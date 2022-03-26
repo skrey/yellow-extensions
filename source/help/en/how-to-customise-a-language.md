@@ -1,11 +1,11 @@
 ---
-Title: How to change the language
+Title: How to customise a language
 ---
-Here's how to change the language of your website.
+Here's how to customise a language of your website.
 
 ## Single language mode
 
-The default language is defined the [system settings](how-to-adjust-system#system-settings). A different language can be defined in the [page settings](how-to-adjust-system#page-settings) at the top of each page, for example `Language: en`.
+The default language is defined the [system settings](how-to-change-the-system#system-settings). A different language can be defined in the [page settings](how-to-change-the-system#page-settings) at the top of each page, for example `Language: en`.
 
 An English page:
 

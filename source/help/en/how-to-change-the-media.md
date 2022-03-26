@@ -1,5 +1,5 @@
 ---
-Title: How to adjust media 
+Title: How to change the media 
 ---
 All media files are located in the `media` folder. You can store your images and other files here.
 

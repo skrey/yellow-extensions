@@ -47,28 +47,28 @@ Med hjälp av `$this->yellow` kan man komma åt webbplatsen. API:et är uppdelat
 Yellow page ger tillgång till aktuella sidan:
 
 **page->get($key)**  
-Returnera [sidinställning](how-to-adjust-system#sidinställningar) 
+Returnera [sidinställning](how-to-change-the-system#sidinställningar) 
 
 **page->getHtml($key)**  
-Returnera [sidinställning](how-to-adjust-system#sidinställningar), HTML-kodad  
+Returnera [sidinställning](how-to-change-the-system#sidinställningar), HTML-kodad  
 
 **page->getDate($key, $format = "")**  
-Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [språkspecifikt datum](how-to-adjust-system#språkinställningar)  
+Returnera [sidinställning](how-to-change-the-system#sidinställningar) som [språkspecifikt datum](how-to-change-the-system#språkinställningar)  
 
 **page->getDateHtml($key, $format = "")**  
-Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [språkspecifikt datum](how-to-adjust-system#språkinställningar), HTML-kodad  
+Returnera [sidinställning](how-to-change-the-system#sidinställningar) som [språkspecifikt datum](how-to-change-the-system#språkinställningar), HTML-kodad  
 
 **page->getDateRelative($key, $format = "", $daysLimit = 30)**  
-Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [språkspecifikt datum](how-to-adjust-system#språkinställningar), i förhållande till idag 
+Returnera [sidinställning](how-to-change-the-system#sidinställningar) som [språkspecifikt datum](how-to-change-the-system#språkinställningar), i förhållande till idag 
 
 **page->getDateRelativeHtml($key, $format = "", $daysLimit = 30)**  
-Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [språkspecifikt datum](how-to-adjust-system#språkinställningar), i förhållande till idag, HTML-kodad
+Returnera [sidinställning](how-to-change-the-system#sidinställningar) som [språkspecifikt datum](how-to-change-the-system#språkinställningar), i förhållande till idag, HTML-kodad
 
 **page->getDateFormatted($key, $format)**  
-Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [datum](https://www.php.net/manual/en/function.date.php)  
+Returnera [sidinställning](how-to-change-the-system#sidinställningar) som [datum](https://www.php.net/manual/en/function.date.php)  
 
 **page->getDateFormattedHtml($key, $format)**  
-Returnera [sidinställning](how-to-adjust-system#sidinställningar) som [datum](https://www.php.net/manual/en/function.date.php), HTML-kodad  
+Returnera [sidinställning](how-to-change-the-system#sidinställningar) som [datum](https://www.php.net/manual/en/function.date.php), HTML-kodad  
 
 **page->getContent($rawFormat = false, $sizeMax = 0)**  
 Returnera sidinnehåll, HTML-kodat eller råformat
@@ -146,7 +146,7 @@ Kontrollera om sidan är cachningsbar
 Kontrollera om sidan med fel
 
 **page->isExisting($key)**  
-Kontrollera om [sidinställning](how-to-adjust-system#sidinställningar) finns  
+Kontrollera om [sidinställning](how-to-change-the-system#sidinställningar) finns  
 
 **page->isRequest($key)**  
 Kontrollera om requestargument finns 
@@ -203,13 +203,13 @@ Här är en exempellayout för att visa sidinnehåll och modifieringsdatum:
 Yellow page collection ger tillgång till flera sidor:
 
 **pages->filter($key, $value, $exactMatch = true)**  
-Filtrera page collection efter [sidinställning](how-to-adjust-system#sidinställningar)
+Filtrera page collection efter [sidinställning](how-to-change-the-system#sidinställningar)
 
 **pages->match($regex = "/.*/")**  
 Filtrera page collection efter filnamn
 
 **pages->sort($key, $ascendingOrder = true)**  
-Sortera page collection efter [sidinställning](how-to-adjust-system#sidinställningar)
+Sortera page collection efter [sidinställning](how-to-change-the-system#sidinställningar)
 
 **pages->similar($page, $ascendingOrder = false)**  
 Sortera page collection efter inställningslikhet
@@ -482,22 +482,22 @@ Här är en exempellayout för att visa mediefiler av en viss typ:
 Yellow system ger tillgång till systeminställningar:
 
 **system->get($key)**  
-Returnera [systeminställning](how-to-adjust-system#systeminställningar)
+Returnera [systeminställning](how-to-change-the-system#systeminställningar)
 
 **system->getHtml($key)**  
-Returnera [systeminställning](how-to-adjust-system#systeminställningar), HTML-kodad
+Returnera [systeminställning](how-to-change-the-system#systeminställningar), HTML-kodad
 
 **system->getSettings($filterStart = "", $filterEnd = "")**  
-Returnera [systeminställningar](how-to-adjust-system#systeminställningar)
+Returnera [systeminställningar](how-to-change-the-system#systeminställningar)
 
 **system->getValues($key)**  
-Returnera stödda värden för en [systeminställning](how-to-adjust-system#systeminställningar), tom om det inte är känt
+Returnera stödda värden för en [systeminställning](how-to-change-the-system#systeminställningar), tom om det inte är känt
 
 **system->getModified($httpFormat = false)**  
-Returnera ändringsdatum for [systeminställningar](how-to-adjust-system#systeminställningar), Unix-tid eller HTTP-format
+Returnera ändringsdatum for [systeminställningar](how-to-change-the-system#systeminställningar), Unix-tid eller HTTP-format
 
 **system->isExisting($key)**  
-Kontrollera om [systeminställning](how-to-adjust-system#systeminställningar) finns
+Kontrollera om [systeminställning](how-to-change-the-system#systeminställningar) finns
 
 Här är en exempellayout för att visa webbansvarig:
 
@@ -553,19 +553,19 @@ Här är en exempellayout för att visa core-inställningar:
 Yellow user ger tillgång till användarinställningar:
 
 **user->getUser($key, $email = "")**  
-Returnera [användarinställning](how-to-adjust-system#användarinställningar)
+Returnera [användarinställning](how-to-change-the-system#användarinställningar)
 
 **user->getUserHtml($key, $email = "")**  
-Returnera [användarinställning](how-to-adjust-system#användarinställningar), HTML encoded
+Returnera [användarinställning](how-to-change-the-system#användarinställningar), HTML encoded
 
 **user->getSettings($email = "")**  
-Returnera [användarinställningar](how-to-adjust-system#användarinställningar)
+Returnera [användarinställningar](how-to-change-the-system#användarinställningar)
 
 **user->getModified($httpFormat = false)**  
-Returnera ändringsdatum för [användarinställningar](how-to-adjust-system#användarinställningar), Unix-tid eller HTTP-format
+Returnera ändringsdatum för [användarinställningar](how-to-change-the-system#användarinställningar), Unix-tid eller HTTP-format
 
 **user->isUser($key, $email = "")**  
-Kontrollera om [användarinställning](how-to-adjust-system#användarinställningar) finns
+Kontrollera om [användarinställning](how-to-change-the-system#användarinställningar) finns
 
 **user->isExisting($email)**  
 Kontrollera om användaren finns
@@ -623,19 +623,19 @@ Här är en exempellayout för att visa användare och deras status:
 Yellow language ger tillgång till språkinställningar:
 
 **language->getText($key, $language = "")**  
-Returnera [språkinställning](how-to-adjust-system#språkinställningar)
+Returnera [språkinställning](how-to-change-the-system#språkinställningar)
 
 **language->getTextHtml($key, $language = "")**  
-Returnera [språkinställning](how-to-adjust-system#språkinställningar), HTML-kodad
+Returnera [språkinställning](how-to-change-the-system#språkinställningar), HTML-kodad
 
 **language->getSettings($filterStart = "", $filterEnd = "", $language = "")**  
-Returnera [språkinställningar](how-to-adjust-system#språkinställningar)
+Returnera [språkinställningar](how-to-change-the-system#språkinställningar)
 
 **language->getModified($httpFormat = false)**  
-Returnera ändringsdatum för [språkinställningar](how-to-adjust-system#språkinställningar), Unix-tid eller HTTP-format
+Returnera ändringsdatum för [språkinställningar](how-to-change-the-system#språkinställningar), Unix-tid eller HTTP-format
 
 **language->isText($key, $language = "")**  
-Kontrollera om [språkinställning](how-to-adjust-system#språkinställningar) finns
+Kontrollera om [språkinställning](how-to-change-the-system#språkinställningar) finns
 
 **language->isExisting($language)**  
 Kontrollera om språket finns
@@ -889,7 +889,7 @@ Hantera uppdatering
 Hantera begäran
 
 **public function onParseMeta($page)**  
-Hantera [metadata av en sida](how-to-adjust-system#sidinställningar)
+Hantera [metadata av en sida](how-to-change-the-system#sidinställningar)
 
 **public function onParseContentRaw($page, $text)**  
 Hantera sidinnehåll i råformat

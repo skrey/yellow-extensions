@@ -11,7 +11,7 @@ Hier erfährst du, wie du dein Blog erstellst.
 
 ## Blogseiten bearbeiten
 
-Falls du Blogseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/blog/`. Falls du Blogseiten im Texteditor bearbeiten möchtest, schau dir das `content/2-blog`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/2-blog/2020-04-07-blog-example.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-adjust-content#text) und [Bilder](how-to-adjust-media#bilder) ändern. Hier ist ein Beispiel:
+Falls du Blogseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/blog/`. Falls du Blogseiten im Texteditor bearbeiten möchtest, schau dir das `content/2-blog`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/2-blog/2020-04-07-blog-example.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-change-the-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-change-the-content#text) und [Bilder](how-to-change-the-media#bilder) ändern. Hier ist ein Beispiel:
 
 ```
 ---

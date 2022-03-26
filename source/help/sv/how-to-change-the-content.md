@@ -1,5 +1,5 @@
 ---
-Title: Hur man anpassar innehåll
+Title: Hur man ändrar innehållet
 ---
 Alla innehållsfiler finns i `content` mappen. Du kan redigera din webbplats här.
 
@@ -26,7 +26,7 @@ Medan flesta mappar är tillgängliga på din webbplats, finns det två undantag
 
 ## Text
 
-Du kan redigera din webbplats i en webbläsare eller textredigerare. Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](how-to-adjust-system#sidinställningar). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-sv.md) stöds. Du kan också använda HTML och förkortningar. Här är några exempel:
+Du kan redigera din webbplats i en webbläsare eller textredigerare. Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](how-to-change-the-system#sidinställningar). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-sv.md) stöds. Du kan också använda HTML och förkortningar. Här är några exempel:
 
     ---
     Title: Exempelsida

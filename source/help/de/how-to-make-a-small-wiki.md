@@ -11,7 +11,7 @@ Hier erfährst du, wie du dein Wiki erstellst.
 
 ## Wikiseiten bearbeiten
 
-Falls du Wikiseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/wiki/`. Falls du Wikiseiten im Texteditor bearbeiten möchtest, schau dir das `content/2-wiki`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/2-wiki/wiki-example.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-adjust-content#text) und [Bilder](how-to-adjust-media#bilder) ändern. Hier ist ein Beispiel:
+Falls du Wikiseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/wiki/`. Falls du Wikiseiten im Texteditor bearbeiten möchtest, schau dir das `content/2-wiki`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/2-wiki/wiki-example.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-change-the-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-change-the-content#text) und [Bilder](how-to-change-the-media#bilder) ändern. Hier ist ein Beispiel:
 
 ```
 ---

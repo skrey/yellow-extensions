@@ -1,11 +1,11 @@
 ---
-Title: How to change the theme
+Title: How to customise a theme
 ---
-Here's how to change the appearance of your website.
+Here's how to customise the appearance of your website.
 
 ## Customising CSS
 
-To adjust the [CSS](https://www.w3schools.com/css/) of your website change the theme. Let's see how themes work. The default theme is defined in the [system settings](how-to-adjust-system#system-settings). A different theme can be defined in the [page settings](how-to-adjust-system#page-settings) at the top of each page, for example `Theme: custom`.
+To adjust the [CSS](https://www.w3schools.com/css/) of your website change the theme. Let's see how themes work. The default theme is defined in the [system settings](how-to-change-the-system#system-settings). A different theme can be defined in the [page settings](how-to-change-the-system#page-settings) at the top of each page, for example `Theme: custom`.
 
 Here's an example file `system/themes/custom.css`:
 

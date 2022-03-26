@@ -1,5 +1,5 @@
 ---
-Title: Hur man anpassar systemet
+Title: Hur man ändrar systemet
 ---
 Alla systemfiler finns i `system` mappen. Du kan anpassa din webbplats här. 
 

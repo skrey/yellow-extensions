@@ -1,5 +1,5 @@
 ---
-Title: Wie man den Inhalt anpasst
+Title: Wie man den Inhalt ändert
 ---
 Alle Inhaltsdateien befinden sich im `content`-Verzeichnis. Hier bearbeitet man seine Webseite. 
 
@@ -26,7 +26,7 @@ Während die meisten Verzeichnisse auf deiner Website verfügbar sind, gibt es z
 
 ## Text
 
-Du kannst deine Webseite im Webbrowser oder Texteditor bearbeiten. Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du Text und Bilder ändern. Textformatierung mit [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-de.md) wird unterstützt. Du kannst auch HTML und Abkürzungen benutzen. Hier sind einige Beispiele:
+Du kannst deine Webseite im Webbrowser oder Texteditor bearbeiten. Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-change-the-system#seiteneinstellungen) ändern. Darunter kannst du Text und Bilder ändern. Textformatierung mit [Markdown](https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown/README-de.md) wird unterstützt. Du kannst auch HTML und Abkürzungen benutzen. Hier sind einige Beispiele:
 
     ---
     Title: Beispielseite

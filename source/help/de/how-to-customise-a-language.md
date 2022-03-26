@@ -1,12 +1,12 @@
 ---
-Title: Wie man die Sprache ändert
+Title: Wie man eine Sprache anpasst
 ---
-Wie man die Sprache seiner Webseite ändert.
+Wie man eine Sprache seiner Webseite anpasst.
 
 
 ## Einsprachen-Modus
 
-Die Standardsprache wird in den [Systemeinstellungen](how-to-adjust-system#systemeinstellungen) festgelegt. Eine andere Sprache lässt sich in den [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: en`. 
+Die Standardsprache wird in den [Systemeinstellungen](how-to-change-the-system#systemeinstellungen) festgelegt. Eine andere Sprache lässt sich in den [Seiteneinstellungen](how-to-change-the-system#seiteneinstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Language: en`. 
 
 Eine Englische Seite:
 

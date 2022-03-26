@@ -1,11 +1,11 @@
 ---
-Title: Hur man ändrar temat
+Title: Hur man anpassar ett tema
 ---
-Så här ändrar du utseendet på din webbplats.
+Så här anpassar du utseendet på din webbplats.
 
 ## Anpassa CSS
 
-För att anpassa [CSS](https://www.w3schools.com/css/) på din webbplats ändrar man temat. Låt oss se hur teman fungerar. Standardtemat definieras i [systeminställningarna](how-to-adjust-system#systeminställningar). Ett annat tema kan definieras i [sidinställningarna](how-to-adjust-system#sidinställningar) högst upp på varje sida, till exempel `Theme: custom`. 
+För att anpassa [CSS](https://www.w3schools.com/css/) på din webbplats ändrar man temat. Låt oss se hur teman fungerar. Standardtemat definieras i [systeminställningarna](how-to-change-the-system#systeminställningar). Ett annat tema kan definieras i [sidinställningarna](how-to-change-the-system#sidinställningar) högst upp på varje sida, till exempel `Theme: custom`. 
 
 Här är en exempelfil `system/themes/custom.css`:
 

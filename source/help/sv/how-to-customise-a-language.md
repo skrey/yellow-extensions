@@ -1,11 +1,11 @@
 ---
-Title: Hur man ändrar språket
+Title: Hur man anpassar ett språk
 ---
-Så här ändrar du språket på din webbplats.
+Så här anpassar du ett språk på din webbplats.
 
 ## Enkelspråkigt läge 
 
-Standardspråket definieras [systeminställningarna](how-to-adjust-system#systeminställningar). Ett annat språk kan definieras i [sidinställningarna](how-to-adjust-system#sidinställningar) högst upp på varje sida, till exempel `Language: en`. 
+Standardspråket definieras [systeminställningarna](how-to-change-the-system#systeminställningar). Ett annat språk kan definieras i [sidinställningarna](how-to-change-the-system#sidinställningar) högst upp på varje sida, till exempel `Language: en`. 
 
 En engelsk sida:
 

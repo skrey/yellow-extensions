@@ -1,13 +1,13 @@
 ---
-Title: Hur man ändrar layouten
+Title: Wie man ein Layout anpasst
 ---
-Så här ändrar du layouten på din webbplats. 
+Wie man ein Layout seiner Webseite anpasst.
 
-## Anpassa HTML
+## HTML anpassen
 
-För att anpassa [HTML](https://www.w3schools.com/html/)-koden på din webbplats ändrar man layouten. Låt oss se hur layouter görs. Standardlayouten definieras i [systeminställningarna](how-to-adjust-system#systeminställningar). En annan layout kan definieras i [sidinställningarna](how-to-adjust-system#sidinställningar) högst upp på varje sida, till exempel `Layout: default`. 
+Um den [HTML](https://www.w3schools.com/html/)-Code deiner Webseite anzupassen, ändere das Layout. Das Standardlayout wird in den [Systemeinstellungen](how-to-change-the-system#systemeinstellungen) festgelegt. Ein anderes Layout lässt sich in den [Seiteneinstellungen](how-to-change-the-system#seiteneinstellungen) ganz oben auf jeder Seite festlegen, zum Beispiel `Layout: default`.
 
-Här är en exempelfil `system/layouts/default.html`:
+Hier ist eine Beispiel-Datei `system/layouts/default.html`:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -20,7 +20,7 @@ Här är en exempelfil `system/layouts/default.html`:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Här är en exempellayout för att visa sidinnehåll och ytterligare HTML-kod:
+Hier ist ein Beispiel-Layout um Seiteninhalt und zusätzlichen HTML-Code anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -34,7 +34,7 @@ Här är en exempellayout för att visa sidinnehåll och ytterligare HTML-kod:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Här är en exempellayout för att visa sidinnehåll och ytterligare bloggsidor: 
+Hier ist ein Beispiel-Layout um Seiteninhalt und zusätzliche Blogseiten anzuzeigen:
 
 ``` html
 <?php $this->yellow->layout("header") ?>
@@ -59,6 +59,6 @@ Här är en exempellayout för att visa sidinnehåll och ytterligare bloggsidor:
 <?php $this->yellow->layout("footer") ?>
 ```
 
-Teman kan ha sina egna layoutfiler för att skriva över den befintliga layouten. Lägg till ett tema i filnamnet. Till exempel kommer filen `system/layouts/default.html` att användas med vilket tema som helst, filen `system/layouts/stockholm-default.html` kommer bara att användas med `Theme: stockholm`. 
+Themen können ihre eigenen Layoutdateien haben, um das vorhandene Layout zu überschreiben. Zum Beispiel wird die Datei `system/layouts/default.html` bei allen Themen verwendet, die Datei `system/layouts/stockholm-default.html` jedoch nur beim `Theme: stockholm`.
 
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).

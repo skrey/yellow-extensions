@@ -1,5 +1,5 @@
 ---
-Title: Wie man die Medien anpasst
+Title: Wie man die Medien ändert
 ---
 Alle Mediendateien befinden sich im `media`-Verzeichnis. Hier speichert man seine Bilder und andere Dateien.
 

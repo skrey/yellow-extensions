@@ -1,5 +1,5 @@
 ---
-Title: Wie man das System anpasst
+Title: Wie man das System ändert
 ---
 Alle Systemdateien befinden sich im `system`-Verzeichnis. Hier passt man seine Webseite an.
 

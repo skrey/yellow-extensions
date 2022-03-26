@@ -46,28 +46,28 @@ Mit Hilfe von `$this->yellow` kann man auf die Webseite zugreifen. Die API ist i
 Yellow-Page gibt Zugang zur aktuellen Seite:
 
 **page->get($key)**  
-Hole eine [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen)
+Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen)
 
 **page->getHtml($key)**  
-Hole eine [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen), HTML-kodiert  
+Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen), HTML-kodiert  
 
 **page->getDate($key, $format = "")**  
-Hole eine [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen) als [sprachspezifisches Datum](how-to-adjust-system#spracheinstellungen)
+Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen) als [sprachspezifisches Datum](how-to-change-the-system#spracheinstellungen)
 
 **page->getDateHtml($key, $format = "")**  
-Hole eine [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen) als [sprachspezifisches Datum](how-to-adjust-system#spracheinstellungen), HTML-kodiert
+Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen) als [sprachspezifisches Datum](how-to-change-the-system#spracheinstellungen), HTML-kodiert
 
 **page->getDateRelative($key, $format = "", $daysLimit = 30)**  
-Hole eine [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen) als [sprachspezifisches Datum](how-to-adjust-system#spracheinstellungen), relativ zu heute
+Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen) als [sprachspezifisches Datum](how-to-change-the-system#spracheinstellungen), relativ zu heute
 
 **page->getDateRelativeHtml($key, $format = "", $daysLimit = 30)**  
-Hole eine [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen) als [sprachspezifisches Datum](how-to-adjust-system#spracheinstellungen), relativ zu heute, HTML-kodiert
+Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen) als [sprachspezifisches Datum](how-to-change-the-system#spracheinstellungen), relativ zu heute, HTML-kodiert
 
 **page->getDateFormatted($key, $format)**  
-Hole eine [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen) als [Datum](https://www.php.net/manual/de/function.date.php)
+Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen) als [Datum](https://www.php.net/manual/de/function.date.php)
 
 **page->getDateFormattedHtml($key, $format)**  
-Hole eine [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen) als [Datum](https://www.php.net/manual/de/function.date.php), HTML-kodiert
+Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen) als [Datum](https://www.php.net/manual/de/function.date.php), HTML-kodiert
 
 **page->getContent($rawFormat = false, $sizeMax = 0)**  
 Hole den Seiteninhalt, HTML-kodiert oder Rohformat
@@ -145,7 +145,7 @@ Antworte mit Statuscode, ohne Seiteninhalt
 Überprüfe ob die Seite einen Fehler hat
 
 **page->isExisting($key)**  
-Überprüfe ob die [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen) existiert  
+Überprüfe ob die [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen) existiert  
 
 **page->isRequest($key)**  
 Überprüfe ob das Anfrage-Argument existiert
@@ -202,13 +202,13 @@ Hier ist ein Beispiel-Layout um den Seiteninhalt und das Änderungsdatum anzuzei
 Yellow-Page-Collection gibt Zugang zu mehreren Seiten:
 
 **pages->filter($key, $value, $exactMatch = true)**  
-Filtere eine Seitenkollektion nach [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen)
+Filtere eine Seitenkollektion nach [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen)
 
 **pages->match($regex = "/.*/")**  
 Filtere eine Seitenkollektion nach Dateinamen
 
 **pages->sort($key, $ascendingOrder = true)**  
-Sortiere eine Seitenkollektion nach [Seiteneinstellung](how-to-adjust-system#seiteneinstellungen)
+Sortiere eine Seitenkollektion nach [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen)
 
 **pages->similar($page, $ascendingOrder = false)**  
 Sortiere eine Seitenkollektion nach Einstellungsähnlichkeit
@@ -481,22 +481,22 @@ Hier ist ein Beispiel-Layout um Mediendateien eines bestimmten Typen anzuzeigen:
 Yellow-System gibt Zugang zu Systemeinstellungen:
 
 **system->get($key)**  
-Hole eine [Systemeinstellung](how-to-adjust-system#systemeinstellungen)
+Hole eine [Systemeinstellung](how-to-change-the-system#systemeinstellungen)
 
 **system->getHtml($key)**  
-Hole eine [Systemeinstellung](how-to-adjust-system#systemeinstellungen), HTML-kodiert
+Hole eine [Systemeinstellung](how-to-change-the-system#systemeinstellungen), HTML-kodiert
 
 **system->getSettings($filterStart = "", $filterEnd = "")**  
-Hole [Systemeinstellungen](how-to-adjust-system#systemeinstellungen)
+Hole [Systemeinstellungen](how-to-change-the-system#systemeinstellungen)
 
 **system->getValues($key)**  
-Hole die unterstützten Werte einer [Systemeinstellung](how-to-adjust-system#systemeinstellungen), leer falls nicht bekannt
+Hole die unterstützten Werte einer [Systemeinstellung](how-to-change-the-system#systemeinstellungen), leer falls nicht bekannt
 
 **system->getModified($httpFormat = false)**  
-Hole das Änderungsdatum von [Systemeinstellungen](how-to-adjust-system#systemeinstellungen), Unix-Zeit oder HTTP-Format
+Hole das Änderungsdatum von [Systemeinstellungen](how-to-change-the-system#systemeinstellungen), Unix-Zeit oder HTTP-Format
 
 **system->isExisting($key)**  
-Überprüfe ob die [Systemeinstellung](how-to-adjust-system#systemeinstellungen) existiert
+Überprüfe ob die [Systemeinstellung](how-to-change-the-system#systemeinstellungen) existiert
 
 Hier ist ein Beispiel-Layout um den Webmaster anzuzeigen:
 
@@ -552,19 +552,19 @@ Hier ist ein Beispiel-Layout um die Core-Einstellungen anzuzeigen:
 Yellow-User gibt Zugang zu Benutzereinstellungen:
 
 **user->getUser($key, $email = "")**  
-Hole eine [Benutzereinstellung](how-to-adjust-system#benutzereinstellungen)
+Hole eine [Benutzereinstellung](how-to-change-the-system#benutzereinstellungen)
 
 **user->getUserHtml($key, $email = "")**  
-Hole eine [Benutzereinstellung](how-to-adjust-system#benutzereinstellungen), HTML-kodiert
+Hole eine [Benutzereinstellung](how-to-change-the-system#benutzereinstellungen), HTML-kodiert
 
 **user->getSettings($email = "")**  
-Hole [Benutzereinstellungen](how-to-adjust-system#benutzereinstellungen)
+Hole [Benutzereinstellungen](how-to-change-the-system#benutzereinstellungen)
 
 **user->getModified($httpFormat = false)**  
-Hole das Änderungsdatum von [Benutzereinstellungen](how-to-adjust-system#benutzereinstellungen), Unix-Zeit oder HTTP-Format
+Hole das Änderungsdatum von [Benutzereinstellungen](how-to-change-the-system#benutzereinstellungen), Unix-Zeit oder HTTP-Format
 
 **user->isUser($key, $email = "")**  
-Überprüfe ob die [Benutzereinstellung](how-to-adjust-system#benutzereinstellungen) existiert
+Überprüfe ob die [Benutzereinstellung](how-to-change-the-system#benutzereinstellungen) existiert
 
 **user->isExisting($email)**  
 Überprüfe ob der Benutzer existiert
@@ -622,19 +622,19 @@ Hier ist ein Beispiel-Layout um Benutzer und ihren Status anzuzeigen:
 Yellow-Language gibt Zugang zu Spracheinstellungen:
 
 **language->getText($key, $language = "")**  
-Hole eine [Spracheinstellung](how-to-adjust-system#spracheinstellungen)
+Hole eine [Spracheinstellung](how-to-change-the-system#spracheinstellungen)
 
 **language->getTextHtml($key, $language = "")**  
-Hole eine [Spracheinstellung](how-to-adjust-system#spracheinstellungen), HTML encoded
+Hole eine [Spracheinstellung](how-to-change-the-system#spracheinstellungen), HTML encoded
 
 **language->getSettings($filterStart = "", $filterEnd = "", $language = "")**  
-Hole [Spracheinstellungen](how-to-adjust-system#spracheinstellungen)
+Hole [Spracheinstellungen](how-to-change-the-system#spracheinstellungen)
 
 **language->getModified($httpFormat = false)**  
-Hole das Änderungsdatum von [Spracheinstellungen](how-to-adjust-system#spracheinstellungen), Unix-Zeit oder HTTP-Format
+Hole das Änderungsdatum von [Spracheinstellungen](how-to-change-the-system#spracheinstellungen), Unix-Zeit oder HTTP-Format
 
 **language->isText($key, $language = "")**  
-Überprüfe ob die [Spracheinstellung](how-to-adjust-system#spracheinstellungen) existiert
+Überprüfe ob die [Spracheinstellung](how-to-change-the-system#spracheinstellungen) existiert
 
 **language->isExisting($language)**  
 Überprüfe ob die Sprache existiert
@@ -888,7 +888,7 @@ Verarbeite die Aktualisierung
 Verarbeite die Anfrage
 
 **public function onParseMeta($page)**  
-Verarbeite die [Metadaten einer Seite](how-to-adjust-system#seiteneinstellungen)
+Verarbeite die [Metadaten einer Seite](how-to-change-the-system#seiteneinstellungen)
 
 **public function onParseContentRaw($page, $text)**  
 Verarbeite den Seiteninhalt im Rohformat

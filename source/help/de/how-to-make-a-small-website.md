@@ -11,7 +11,7 @@ Hier erfährst du, wie du deine Webseite erstellst.
 
 ## Webseiten bearbeiten
 
-Falls du Webseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/`. Falls du Webseiten im Texteditor bearbeiten möchtest, schau dir das `content`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/1-home/page.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-adjust-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-adjust-content#text) und [Bilder](how-to-adjust-media#bilder) ändern. Hier ist ein Beispiel:
+Falls du Webseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/`. Falls du Webseiten im Texteditor bearbeiten möchtest, schau dir das `content`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/1-home/page.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-change-the-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-change-the-content#text) und [Bilder](how-to-change-the-media#bilder) ändern. Hier ist ein Beispiel:
 
 ```
 ---
