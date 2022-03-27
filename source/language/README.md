@@ -8,7 +8,7 @@ Extension with languages for a new website.
 
 ## How to make a translation
 
-Start with the [English language file](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) or one of the [available languages](https://github.com/datenstrom/yellow-extensions#languages). The language files are stored in your `system/extensions` folder. Sometimes they contain text lines in English, which have not been translated yet. That's why it's good to check from time to time that everything looks okay. Upload your changes to GitHub, let us know if you need help.
+Start with the [English language file](https://github.com/datenstrom/yellow-extensions/blob/master/source/english/english.txt) or one of the [available languages](https://github.com/datenstrom/yellow-extensions#languages). The language files are stored in your `system/extensions` folder. Sometimes they contain text lines in English, which have not been translated. That's why it's good to check from time to time that everything looks okay. Upload your changes to GitHub, let us know if you need help.
 
 ## Installation
 
