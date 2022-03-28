@@ -8,7 +8,7 @@ Help for your website.
 
 ## How to use the help
 
-The help is available on your website as `http://website/help/`. The help gives you more information about how to create small web pages, blogs and wikis. It's recommended to also install the [toc extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc) and [highlight extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight).
+The help is available on your website as `http://website/help/`. The help gives you more information about how to create small web pages, wikis and blogs. It's recommended to also install the [toc extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc) and [highlight extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight).
 
 ## How to edit the help
 
