@@ -20,7 +20,7 @@ Kör kommandot `chmod -R a+rw *` i installationsmappen. Du kan också använda d
 Datenstrom Yellow requires complete upload!
 ```
 
-Kopiera alla medföljande filer till installationsmappen. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts under uppladdningen. Efter att saknade filer har kopierats till installationsmappen bör problemet lösas.
+Kopiera igen alla medföljande filer till installationsmappen. Kontrollera om din FTP-programvara visar ett felmeddelande under uppladdningen. Ibland händer det att dataöverföringen avbröts under uppladdningen. Efter att saknade filer har kopierats till installationsmappen bör problemet lösas.
 
 ```
 Datenstrom Yellow requires configuration file!

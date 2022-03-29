@@ -7,7 +7,7 @@ Learn how to work with us and make useful products.
 
 * [Start a new discussion for each question](https://github.com/datenstrom/yellow/discussions/categories/ask-a-question).
 * Write your question in the title, it's the first thing everyone will see.
-* Describe what you want to do and which problems you have.
+* Describe in detail what you want to do and which problems you have.
 * Select an answer, when your question has been answered.
 
 ## How to report a bug

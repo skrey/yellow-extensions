@@ -7,7 +7,7 @@ Erfahre wie du mit uns zusammenarbeitest und nützliche Produkte machst.
 
 * [Beginne eine neue Diskussion für jede Frage](https://github.com/datenstrom/yellow/discussions/categories/ask-a-question).
 * Schreibe deine Frage in den Titel, es ist das Erste was alle sehen.
-* Beschreibe was du machen möchtest und welche Probleme du hast.
+* Beschreibe ausführlich was du machen möchtest und welche Probleme du hast.
 * Wähle eine Antwort aus, wenn deine Frage beantwortet wurde.
 
 ## Wie man einen Fehler meldet

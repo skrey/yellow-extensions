@@ -7,7 +7,7 @@ Läs hur du jobbar med oss och skapar användbara produkter.
 
 * [Starta en ny diskussion för varje fråga](https://github.com/datenstrom/yellow/discussions/categories/ask-a-question).
 * Skriv din fråga i rubriken, det är det första alla kommer att se.
-* Beskriv vad du vill göra och vilka problem du har.
+* Beskriv i detalj vad du vill göra och vilka problem du har.
 * Välj ett svar när din fråga har besvarats.
 
 ## Hur man rapporterar ett fel

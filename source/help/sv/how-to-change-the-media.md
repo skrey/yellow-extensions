@@ -1,5 +1,5 @@
 ---
-Title: Hur man ändrar medier
+Title: Hur man ändrar medierna
 ---
 Alla mediefiler finns i `media` mappen. Du kan lagra dina bilder och andra filer här. 
 

@@ -20,7 +20,7 @@ Run the command `chmod -R a+rw *` in the installation folder. You can also use y
 Datenstrom Yellow requires complete upload!
 ```
 
-Copy all of the supplied files into the installation folder. Check if your FTP software shows an error message during upload. It sometimes happens that the data transfer was interrupted during upload. After the missing files have been copied into the installation folder, the problem should be resolved.
+Copy again all of the supplied files into the installation folder. Check if your FTP software shows an error message during upload. It sometimes happens that the data transfer was interrupted during upload. After the missing files have been copied into the installation folder, the problem should be resolved.
 
 ```
 Datenstrom Yellow requires configuration file!

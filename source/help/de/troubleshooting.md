@@ -20,7 +20,7 @@ Führe den Befehl `chmod -R a+rw *` im Installations-Verzeichnis aus. Du kannst 
 Datenstrom Yellow requires complete upload!
 ```
 
-Kopiere alle mitgelieferten Dateien ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung beim Hochladen unterbrochen wurde. Nachdem die fehlenden Dateien ins Installations-Verzeichnis kopiert wurden, sollte das Problem behoben sein.
+Kopiere nochmal alle mitgelieferten Dateien ins Installations-Verzeichnis. Überprüfe ob deine FTP-Software beim Hochladen eine Fehlermeldung anzeigt. Es passiert manchmal dass die Datenübertragung beim Hochladen unterbrochen wurde. Nachdem die fehlenden Dateien ins Installations-Verzeichnis kopiert wurden, sollte das Problem behoben sein.
 
 ```
 Datenstrom Yellow requires configuration file!
