@@ -18,7 +18,7 @@ If you don't want that a page is built, set `Build: exclude` in the [page settin
 
 ## How to build a static cache
 
-You can build a static cache at the command line. Usually a page is first generated and then delivered to the browser. With a static cache files are directly delivered to the browser, which speeds up your website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. Build a new cache when needed. To clean the cache type: `php yellow.php clean cache`.
+You can build a static cache at the command line. Usually a page is first generated and then delivered to the web browser. With a static cache files are directly delivered to the web browser, which speeds up your website. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. Build a new cache when needed. To clean the cache type: `php yellow.php clean cache`.
 
 If you don't want that a page is built, set `Build: exclude` in the [page settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings-page) at the top of a page.
 
