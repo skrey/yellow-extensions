@@ -8,17 +8,17 @@ Webbplatsens kommandorad.
 
 ## Hur man använder kommandoraden
 
-Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandon. De tillgängliga kommandona beror på installerade tillägg. Skriv `php yellow.php about` för att visa aktuella versionen och tillägg. Om du inte har PHP på din dator, [se PHP-installation](https://www.php.net/manual/en/install.php).
+Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg. Skriv `php yellow.php about` för att visa aktuella versionen och tillägg. Om du inte har PHP på din dator, [se PHP-installation](https://www.php.net/manual/en/install.php).
 
 ## Hur man bygger en statisk webbplats
 
-Du kan bygga en statisk webbplats som fungerar på flesta webbservrar. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build`, du kan valfritt ange en mapp och en plats. Detta kommer att bygga en statisk webbplats i `public` mappen. Ladda upp den statiska webbplatsen till din webbserver och bygg en ny när det behövs. För att söka efter trasiga länkar skriv: `php yellow.php check`. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
+Du kan bygga en statisk webbplats på kommandoraden. Den största skillnaden mellan en statisk webbplats och en vanlig webbplats är att en static-site-generator bygger allt i förväg, istället för att vänta på att en fil ska begäras. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build`, du kan valfritt ange en mapp och en plats. Detta kommer att bygga en statisk webbplats i `public` mappen. Ladda upp den statiska webbplatsen till din webbserver och bygg en ny när det behövs. För att söka efter trasiga länkar skriv: `php yellow.php check`. För att rengöra statiska webbplatsen skriv: `php yellow.php clean`.
 
 Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida.
 
 ## Hur man bygger en statisk cache
 
-Du kan skapa en statisk cache för att påskynda din webbplats. Vanligtvis genereras en sida först och levereras sedan till webbläsaren. Med en statisk cache levereras filer direkt till webbläsaren. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build cache`, du kan valfritt ange en plats. Skapa en ny cache vid behov. För att rensa cache skriv: `php yellow.php clean cache`.
+Du kan skapa en statisk cache på kommandoraden. Vanligtvis genereras en sida först och levereras sedan till webbläsaren. Med en statisk cache levereras filer direkt till webbläsaren, vilket påskynda din webbplats. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build cache`, du kan valfritt ange en plats. Skapa en ny cache vid behov. För att rensa cache skriv: `php yellow.php clean cache`.
 
 Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida.
 

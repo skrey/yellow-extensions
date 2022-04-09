@@ -7,7 +7,7 @@ We <3 people who code.
 
 ## Folder structure
 
-The following folders are available in the standard installation:
+The following folders are available:
 
 ```
 ├── content               = content files
@@ -25,7 +25,25 @@ The following folders are available in the standard installation:
     └── trash             = deleted files
 ```
 
-The `content` folder contains the content files of the website. You can edit the website here. The `media` folder contains the media files of the website. You can store images and other files here. The `system` folder contains the system files of the website. You can adjust the website and develop extensions here.
+You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can change your settings here.
+
+`system/extensions/yellow-system.ini` = [file with system settings](how-to-change-the-system#system-settings)  
+`system/extensions/yellow-user.ini` = [file with user settings](how-to-change-the-system#user-settings)  
+`system/extensions/yellow-language.ini` = [file with language settings](how-to-change-the-system#language-settings)  
+
+## Tools
+
+### Built-in web server
+
+You can start the built-in web server at the command line. The built-in web server is convenient for developers and designers. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php serve`, you can optionally add a URL. Open a web browser and go to the URL shown.
+
+### Built-in web editor
+
+You can edit your website in a web browser. The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It is a great way to update your website. The built-in web editor allows you to edit content files, upload media files and change system settings.
+
+### Static site generator
+
+The biggest difference between a static website and a normal website is that a static site generator builds everything in advance, instead of waiting for a file to be requested. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php build`, you can optionally add a folder and a location. This will build a static website in the `public` folder. Upload the static website to your web server and build a new one when needed.
 
 ## Objects
 
@@ -751,6 +769,9 @@ Return browser cookie from from current HTTP request
 **toolbox->getServer($key)**  
 Return server argument from current HTTP request
 
+**toolbox->getLocationArguments()**  
+Return location arguments from current HTTP request
+
 **toolbox->getDirectoryEntries($path, $regex = "/.*/", $sort = true, $directories = true, $includePath = true)**  
 Return files and directories
 
@@ -843,185 +864,7 @@ foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.md$/
 }
 ```
 
-## Events
-
-The following events are available:
-
-```
-onLoad ───────▶ onStartup ───────────────────────────────────────────┐
-                    │                                                │
-                    ▼                                                │
-                onRequest ───────────────────┐                       │
-                    │                        │                       │
-                    ▼                        ▼                       ▼
-                onParseMeta              onEditContentFile       onCommand  
-                onParseContentRaw        onEditMediaFile         onCommandHelp
-                onParseContentShortcut   onEditSystemFile            │
-                onParseContentHtml       onEditUserAccount           │
-                onParsePageLayout            │                       ▼
-                onParsePageExtra             │                   onUpdate
-                onParsePageOutput            │                   onLog
-                    │                        │                       │
-                    ▼                        │                       │
-                onShutDown ◀─────────────────┴───────────────────────┘
-```
-
-When a page is displayed, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. The page can be handled with various `onParse` events. Then the page content will be generated. If an error has occurred, an error page will be generated. Finally the page is output and `onShutdown` will be called.
-
-When a page is edited, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. Changes at the page can be handled with various `onEdit` events. Then the page will be saved. Finally a status code is output to reload the page and `onShutdown` will be called.
-
-When a command is executed, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. The command can be handled with `onCommand`. If no command has been entered, `onCommandHelp` will be called and extensions can provide a help. Finally a return code is output and `onShutdown` will be called.
-
-### Yellow core events
-
-Yellow core events notify when a page is displayed or a state has changed:
-
-**public function onLoad($yellow)**  
-Handle initialisation
-
-**public function onStartup()**  
-Handle startup
-
-**public function onUpdate($action)**  
-Handle update
-
-**public function onRequest($scheme, $address, $base, $location, $fileName)**  
-Handle request
-
-**public function onParseMeta($page)**  
-Handle [page meta data](how-to-change-the-system#page-settings)
-
-**public function onParseContentRaw($page, $text)**  
-Handle page content in raw format
-
-**public function onParseContentShortcut($page, $name, $text, $type)**  
-Handle page content of shortcut
-
-**public function onParseContentHtml($page, $text)**  
-Handle page content in HTML format
-
-**public function onParsePageLayout($page, $name)**  
-Handle page layout
-
-**public function onParsePageExtra($page, $name)**  
-Handle page extra data
-
-**public function onParsePageOutput($page, $text)**  
-Handle page output data
-
-**public function onLog($action, $message)**  
-Handle logging
-
-**public function onShutdown()**  
-Handle shutdown
-
-Here's an example extension for handling an `[example]` shortcut:
-
-``` php
-<?php
-class YellowExample {
-    const VERSION = "0.1.1";
-    public $yellow;         // access to API
-    
-    // Handle initialisation
-    public function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    
-    // Handle page content of shortcut
-    public function onParseContentShortcut($page, $name, $text, $type) {
-        $output = null;
-        if ($name=="example" && ($type=="block" || $type=="inline")) {
-            $output = "<div class=\"".htmlspecialchars($name)."\">";
-            $output .= "Add more HTML code here";
-            $output .= "</div>";
-        }
-        return $output;
-    }
-}
-```
-
-### Yellow edit events
-
-Yellow edit events notify when a page is edited:
-
-**public function onEditContentFile($page, $action, $email)**  
-Handle content file changes
-
-**public function onEditMediaFile($file, $action, $email)**  
-Handle media file changes
-
-**public function onEditSystemFile($file, $action, $email)**  
-Handle system file changes
-
-**public function onEditUserAccount($action, $email, $password)**  
-Handle user account changes
-
-Here's an example extension for handling a file:
-
-``` php
-<?php
-class YellowExample {
-    const VERSION = "0.1.2";
-    public $yellow;         // access to API
-    
-    // Handle initialisation
-    public function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    
-    // Handle media file changes
-    public function onEditMediaFile($file, $action, $email) {
-        if ($action=="upload") {
-            $fileName = $file->fileName;
-            $fileType = $this->yellow->toolbox->getFileType($file->get("fileNameShort"));
-            // Add more code here
-        }
-    }
-}
-```
-
-### Yellow command events
-
-Yellow command events notify when a command is executed:
-
-**public function onCommand($command, $text)**  
-Handle command
-
-**public function onCommandHelp()**  
-Handle command help
-
-Here's an example extension for handling a command:
-
-``` php
-<?php
-class YellowExample {
-    const VERSION = "0.1.3";
-    public $yellow;         // access to API
-    
-    // Handle initialisation
-    public function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    
-    // Handle command
-    public function onCommand($command, $text) {
-        $statusCode = 0;
-        if ($command=="example") {
-            echo "Yellow $command: Add more text here\n";
-            $statusCode = 200;
-        }
-        return $statusCode;
-    }
-
-    // Handle command help
-    public function onCommandHelp() {
-        return "example\n";
-    }
-}
-```
-
-## Miscellaneous
+### Yellow string
 
 The following functions extend PHP string functions:
 
@@ -1063,10 +906,207 @@ var_dump(strempty("0"));      // bool(false)
 var_dump(strempty(""));       // bool(true)
 ```
 
+## Events
+
+The following events are available:
+
+```
+onLoad ───────▶ onStartup ───────────────────────────────────────────┐
+                    │                                                │
+                    ▼                                                │
+                onRequest ───────────────────┐                       │
+                    │                        │                       │
+                    ▼                        ▼                       ▼
+                onParseMeta              onEditContentFile       onCommand  
+                onParseContentRaw        onEditMediaFile         onCommandHelp
+                onParseContentShortcut   onEditSystemFile            │
+                onParseContentHtml       onEditUserAccount           │
+                onParsePageLayout            │                       ▼
+                onParsePageExtra             │                   onUpdate
+                onParsePageOutput            │                   onLog
+                    │                        │                       │
+                    ▼                        │                       │
+                onShutDown ◀─────────────────┴───────────────────────┘
+```
+
+When a page is displayed, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. The page can be handled with various [parse events](#yellow-parse-events). Then the page content will be generated. If an error has occurred, an error page will be generated. Finally the page is output and `onShutdown` will be called.
+
+When a page is edited, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. Changes at the page can be handled with various [edit events](#yellow-edit-events). Then the page will be saved. Finally a status code is output to reload the page and `onShutdown` will be called.
+
+When a command is executed, the extensions are loaded and `onLoad` will be called. As soon as all extensions are loaded `onStartup` will be called. The command can be handled with various [command events](#yellow-command-events). If no command has been entered, the available commands will be shown. Finally a return code is output and `onShutdown` will be called.
+
+### Yellow core events
+
+Yellow core events notify when a state has changed:
+
+**public function onLoad($yellow)**  
+Handle initialisation
+
+**public function onStartup()**  
+Handle startup
+
+**public function onRequest($scheme, $address, $base, $location, $fileName)**  
+Handle request
+
+**public function onUpdate($action)**  
+Handle update
+
+**public function onLog($action, $message)**  
+Handle logging
+
+**public function onShutdown()**  
+Handle shutdown
+
+Here's an example extension for handling an event:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.1";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+}
+```
+
+### Yellow parse events
+
+Yellow parse events notify when a page is displayed:
+
+**public function onParseMeta($page)**  
+Handle page meta data
+
+**public function onParseContentRaw($page, $text)**  
+Handle page content in raw format
+
+**public function onParseContentShortcut($page, $name, $text, $type)**  
+Handle page content of shortcut
+
+**public function onParseContentHtml($page, $text)**  
+Handle page content in HTML format
+
+**public function onParsePageLayout($page, $name)**  
+Handle page layout
+
+**public function onParsePageExtra($page, $name)**  
+Handle page extra data
+
+**public function onParsePageOutput($page, $text)**  
+Handle page output data
+
+Here's an example extension for handling a shortcut:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.2";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle page content of shortcut
+    public function onParseContentShortcut($page, $name, $text, $type) {
+        $output = null;
+        if ($name=="example" && ($type=="block" || $type=="inline")) {
+            $output = "<div class=\"".htmlspecialchars($name)."\">";
+            $output .= "Add more HTML code here";
+            $output .= "</div>";
+        }
+        return $output;
+    }
+}
+```
+
+### Yellow edit events
+
+Yellow edit events notify when a page is edited:
+
+**public function onEditContentFile($page, $action, $email)**  
+Handle content file changes
+
+**public function onEditMediaFile($file, $action, $email)**  
+Handle media file changes
+
+**public function onEditSystemFile($file, $action, $email)**  
+Handle system file changes
+
+**public function onEditUserAccount($action, $email, $password)**  
+Handle user account changes
+
+Here's an example extension for handling a file:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.3";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle media file changes
+    public function onEditMediaFile($file, $action, $email) {
+        if ($action=="upload") {
+            $fileName = $file->fileName;
+            $fileType = $this->yellow->toolbox->getFileType($file->get("fileNameShort"));
+            // Add more code here
+        }
+    }
+}
+```
+
+### Yellow command events
+
+Yellow command events notify when a command is executed:
+
+**public function onCommand($command, $text)**  
+Handle command
+
+**public function onCommandHelp()**  
+Handle command help
+
+Here's an example extension for handling a command:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.4";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle command
+    public function onCommand($command, $text) {
+        $statusCode = 0;
+        if ($command=="example") {
+            echo "Yellow $command: Add more text here\n";
+            $statusCode = 200;
+        }
+        return $statusCode;
+    }
+
+    // Handle command help
+    public function onCommandHelp() {
+        return "example\n";
+    }
+}
+```
+
 ## Relevant information
 
 * [How to use the command line](https://github.com/datenstrom/yellow-extensions/blob/master/source/command)
-* [How to extend a website](https://github.com/datenstrom/yellow-extensions/blob/master/source/update)
-* [How to publish an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish)
+* [How to make an extension](https://github.com/datenstrom/yellow-extensions/blob/master/source/publish)
+* [How to make a translation](https://github.com/datenstrom/yellow-extensions/blob/master/source/language)
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Do you have questions? [Get help](.).

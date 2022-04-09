@@ -19,8 +19,8 @@ Learn how to work with us and make useful products.
 
 ## How to work with us
 
-* Improve the available extensions, [make an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish).
-* Review the available documentation, [edit the help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help) or [make a translation](https://github.com/datenstrom/yellow-extensions/tree/master/source/language).
+* Improve the available extensions, [make and publish an extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish).
+* Review the available documentation, [edit the help](https://github.com/datenstrom/yellow-extensions/tree/master/source/help) and [make a translation](https://github.com/datenstrom/yellow-extensions/tree/master/source/language).
 * Become active in our community, [help new users and answer questions](https://github.com/datenstrom/yellow/discussions/685).
 * Make an announcement and show what you have made. [See what's new](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).
 

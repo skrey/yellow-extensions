@@ -7,7 +7,7 @@ Wir <3 Menschen die programmieren.
 
 ## Verzeichnisstruktur
 
-Die folgenden Verzeichnisse sind in der Standardinstallation vorhanden:
+Die folgenden Verzeichnisse sind vorhanden:
 
 ```
 ├── content               = Inhaltsdateien
@@ -24,7 +24,25 @@ Die folgenden Verzeichnisse sind in der Standardinstallation vorhanden:
     ├── themes            = konfigurierbare Themendateien
     └── trash             = gelöschte Dateien
 ```
-Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man die Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man Bilder und andere Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier passt man die Webseite an und entwickelt Erweiterungen.
+Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier ändert man seine Einstellungen.
+
+`system/extensions/yellow-system.ini` = [Datei mit Systemeinstellungen](how-to-change-the-system#systemeinstellungen)  
+`system/extensions/yellow-user.ini` = [Datei mit Benutzereinstellungen](how-to-change-the-system#benutzereinstellungen)  
+`system/extensions/yellow-language.ini` = [Datei mit Spracheinstellungen](how-to-change-the-system#spracheinstellungen)  
+
+## Werkzeuge
+
+### Eingebauter Webserver
+
+Du kannst den eingebauten Webserver in der Befehlszeile starten. Der eingebaute Webserver ist praktisch für Entwickler und Designer. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php serve`, du kannst wahlweise eine URL angeben. Öffne einen Webbrowser und gehe zur angezeigten URL.
+
+### Eingebauter Webeditor
+
+Du kannst deine Webseite im Webbrowser bearbeiten. Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst deine Webseite anschauen, Änderungen machen und das Ergebnis sofort sehen. Es ist eine großartige Art Webseiten zu aktualisieren. Mit dem eingebauten Webeditor kannst du Inhaltsdateien bearbeiten, Mediendateien hochladen und Systemeinstellungen ändern.
+
+### Static-Site-Generator
+
+Der größte Unterschied zwischen einer statischen Webseite und einer normalen Webseite besteht darin, dass ein Static-Site-Generator alles im Voraus erstellt, anstatt darauf zu warten dass eine Datei angefordert wird. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php build`, du kannst wahlweise ein Verzeichnis und einen Ort angeben. Das erstellt eine statische Webseite im `public`-Verzeichnis. Lade die statische Webseite auf deinen Webserver hoch und erstelle bei Bedarf eine neue.
 
 ## Objekte
 
@@ -750,6 +768,9 @@ Hole das Browsercookie der aktuellen HTTP-Anfrage
 **toolbox->getServer($key)**   
 Hole das Serverargument der aktuellen HTTP-Anfrage
 
+**toolbox->getLocationArguments()**  
+Hole die Ortargumente der aktuellen HTTP-Anfrage
+
 **toolbox->getDirectoryEntries($path, $regex = "/.*/", $sort = true, $directories = true, $includePath = true)**  
 Hole Dateien und Verzeichnisse
 
@@ -842,186 +863,7 @@ foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.md$/
 }
 ```
 
-## Ereignisse
-
-Die folgenden Ereignisse sind vorhanden:
-
-```
-onLoad ───────▶ onStartup ───────────────────────────────────────────┐
-                    │                                                │
-                    ▼                                                │
-                onRequest ───────────────────┐                       │
-                    │                        │                       │
-                    ▼                        ▼                       ▼
-                onParseMeta              onEditContentFile       onCommand  
-                onParseContentRaw        onEditMediaFile         onCommandHelp
-                onParseContentShortcut   onEditSystemFile            │
-                onParseContentHtml       onEditUserAccount           │
-                onParsePageLayout            │                       ▼
-                onParsePageExtra             │                   onUpdate
-                onParsePageOutput            │                   onLog
-                    │                        │                       │
-                    ▼                        │                       │
-                onShutDown ◀─────────────────┴───────────────────────┘
-```
-
-Wird eine Seite angezeigt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Die Seite kann mit verschiedenen `onParse`-Ereignissen verarbeitet werden. Dann wird der Inhalt der Seite erzeugt. Sollte ein Fehler aufgetreten sein, wird eine Fehlerseite erzeugt. Zum Schluss wird die Seite ausgegeben und es wird `onShutdown` aufgerufen.
-
-Wird eine Seite bearbeitet, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Änderungen an der Seite können mit verschiedenen `onEdit`-Ereignissen verarbeitet werden. Dann wird die Seite gespeichert. Zum Schluss wird ein Statuscode zum Neuladen der Seite ausgegeben und es wird `onShutdown` aufgerufen.
-
-Wird ein Befehl ausgeführt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Der Befehl kann mit `onCommand`  verarbeitet werden. Sollte kein Befehl eingegeben worden sein, wird `onCommandHelp` aufgerufen und Erweiterungen können eine Hilfe zur Verfügung stellen. Zum Schluss wird ein Rückgabecode ausgegeben und es wird `onShutdown` aufgerufen.
-
-### Yellow-Core-Ereignisse
-
-Yellow-Core-Ereignisse unterrichten wenn eine Seite angezeigt wird oder sich ein Zustand ändert:
-
-**public function onLoad($yellow)**  
-Verarbeite die Initialisierung
-
-**public function onStartup()**  
-Verarbeite das Hochfahren
-
-**public function onUpdate($action)**  
-Verarbeite die Aktualisierung
-
-**public function onRequest($scheme, $address, $base, $location, $fileName)**  
-Verarbeite die Anfrage
-
-**public function onParseMeta($page)**  
-Verarbeite die [Metadaten einer Seite](how-to-change-the-system#seiteneinstellungen)
-
-**public function onParseContentRaw($page, $text)**  
-Verarbeite den Seiteninhalt im Rohformat
-
-**public function onParseContentShortcut($page, $name, $text, $type)**  
-Verarbeite den Seiteninhalt einer Abkürzung
-
-**public function onParseContentHtml($page, $text)**  
-Verarbeite den Seiteninhalt im HTML-Format
-
-**public function onParsePageLayout($page, $name)**  
-Verarbeite das Layout einer Seite
-
-**public function onParsePageExtra($page, $name)**  
-Verarbeite die Extradaten einer Seite
-
-**public function onParsePageOutput($page, $text)**  
-Verarbeite die Ausgabedaten einer Seite
-
-**public function onLog($action, $message)**  
-Verarbeite das Logging
-
-**public function onShutdown()**  
-Verarbeite das Runterfahren
-
-Hier ist eine Beispiel-Erweiterung um eine `[example]`-Abkürzung zu verarbeiten:
-
-``` php
-<?php
-class YellowExample {
-    const VERSION = "0.1.1";
-    public $yellow;         // access to API
-    
-    // Handle initialisation
-    public function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-
-    // Handle page content of shortcut
-    public function onParseContentShortcut($page, $name, $text, $type) {
-        $output = null;
-        if ($name=="example" && ($type=="block" || $type=="inline")) {
-            $output = "<div class=\"".htmlspecialchars($name)."\">";
-            $output .= "Add more HTML code here";
-            $output .= "</div>";
-        }
-        return $output;
-    }
-}
-```
-
-### Yellow-Edit-Ereignisse
-
-Yellow-Edit-Ereignisse unterrichten wenn eine Seite bearbeitet wird:
-
-**public function onEditContentFile($page, $action, $email)**  
-Verarbeite Änderungen an Inhaltsdatei
-
-**public function onEditMediaFile($file, $action, $email)**  
-Verarbeite Änderungen an Mediendatei
-
-**public function onEditSystemFile($file, $action, $email)**  
-Verarbeite Änderungen an Systemdatei
-
-**public function onEditUserAccount($action, $email, $password)**  
-Verarbeite Änderungen am Benutzerkonto
-
-Hier ist eine Beispiel-Erweiterung um eine Datei zu verarbeiten:
-
-``` php
-<?php
-class YellowExample {
-    const VERSION = "0.1.2";
-    public $yellow;         // access to API
-    
-    // Handle initialisation
-    public function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    
-    // Handle media file changes
-    public function onEditMediaFile($file, $action, $email) {
-        if ($action=="upload") {
-            $fileName = $file->fileName;
-            $fileType = $this->yellow->toolbox->getFileType($file->get("fileNameShort"));
-            // Add more code here
-        }
-    }
-}
-```
-
-### Yellow-Command-Ereignisse
-
-Yellow-Command-Ereignisse unterrichten wenn ein Befehl ausgeführt wird:
-
-**public function onCommand($command, $text)**  
-Verarbeite Befehle
-
-**public function onCommandHelp()**  
-Verarbeite Hilfe für Befehle
-
-
-Hier ist eine Beispiel-Erweiterung um einen Befehl zu verarbeiten:
-
-``` php
-<?php
-class YellowExample {
-    const VERSION = "0.1.3";
-    public $yellow;         // access to API
-    
-    // Handle initialisation
-    public function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-
-    // Handle command
-    public function onCommand($command, $text) {
-        $statusCode = 0;
-        if ($command=="example") {
-            echo "Yellow $command: Add more text here\n";
-            $statusCode = 200;
-        }
-        return $statusCode;
-    }
-
-    // Handle command help
-    public function onCommandHelp() {
-        return "example\n";
-    }    
-}
-```
-
-## Verschiedenes
+### Yellow-String
 
 Die folgenden Funktionen erweitern PHP-Stringfunktionen:
 
@@ -1063,10 +905,208 @@ var_dump(strempty("0"));      // bool(false)
 var_dump(strempty(""));       // bool(true)
 ```
 
+## Ereignisse
+
+Die folgenden Ereignisse sind vorhanden:
+
+```
+onLoad ───────▶ onStartup ───────────────────────────────────────────┐
+                    │                                                │
+                    ▼                                                │
+                onRequest ───────────────────┐                       │
+                    │                        │                       │
+                    ▼                        ▼                       ▼
+                onParseMeta              onEditContentFile       onCommand  
+                onParseContentRaw        onEditMediaFile         onCommandHelp
+                onParseContentShortcut   onEditSystemFile            │
+                onParseContentHtml       onEditUserAccount           │
+                onParsePageLayout            │                       ▼
+                onParsePageExtra             │                   onUpdate
+                onParsePageOutput            │                   onLog
+                    │                        │                       │
+                    ▼                        │                       │
+                onShutDown ◀─────────────────┴───────────────────────┘
+```
+
+Wird eine Seite angezeigt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Die Seite kann mit verschiedenen [Parse-Ereignissen](#yellow-parse-ereignisse) verarbeitet werden. Dann wird der Inhalt der Seite erzeugt. Sollte ein Fehler aufgetreten sein, wird eine Fehlerseite erzeugt. Zum Schluss wird die Seite ausgegeben und es wird `onShutdown` aufgerufen.
+
+Wird eine Seite bearbeitet, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Änderungen an der Seite können mit verschiedenen [Edit-Ereignissen](#yellow-edit-ereignisse) verarbeitet werden. Dann wird die Seite gespeichert. Zum Schluss wird ein Statuscode zum Neuladen der Seite ausgegeben und es wird `onShutdown` aufgerufen.
+
+Wird ein Befehl ausgeführt, dann werden die Erweiterungen geladen und es wird `onLoad` aufgerufen. Sobald alle Erweiterungen geladen sind wird `onStartup` aufgerufen. Der Befehl kann mit verschiedenen [Command-Ereignissen](#yellow-command-ereignisse) verarbeitet werden. Sollte kein Befehl eingegeben worden sein, werden die verfügbaren Befehle angezeigt. Zum Schluss wird ein Rückgabecode ausgegeben und es wird `onShutdown` aufgerufen.
+
+### Yellow-Core-Ereignisse
+
+Yellow-Core-Ereignisse unterrichten wenn sich ein Zustand ändert:
+
+**public function onLoad($yellow)**  
+Verarbeite die Initialisierung
+
+**public function onStartup()**  
+Verarbeite das Hochfahren
+
+**public function onRequest($scheme, $address, $base, $location, $fileName)**  
+Verarbeite die Anfrage
+
+**public function onUpdate($action)**  
+Verarbeite die Aktualisierung
+
+**public function onLog($action, $message)**  
+Verarbeite das Logging
+
+**public function onShutdown()**  
+Verarbeite das Runterfahren
+
+Hier ist eine Beispiel-Erweiterung um ein Ereignis zu verarbeiten:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.1";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+}
+```
+
+### Yellow-Parse-Ereignisse
+
+Yellow-Parse-Ereignisse unterrichten wenn eine Seite angezeigt wird:
+
+**public function onParseMeta($page)**  
+Verarbeite die Metadaten einer Seite
+
+**public function onParseContentRaw($page, $text)**  
+Verarbeite den Seiteninhalt im Rohformat
+
+**public function onParseContentShortcut($page, $name, $text, $type)**  
+Verarbeite den Seiteninhalt einer Abkürzung
+
+**public function onParseContentHtml($page, $text)**  
+Verarbeite den Seiteninhalt im HTML-Format
+
+**public function onParsePageLayout($page, $name)**  
+Verarbeite das Layout einer Seite
+
+**public function onParsePageExtra($page, $name)**  
+Verarbeite die Extradaten einer Seite
+
+**public function onParsePageOutput($page, $text)**  
+Verarbeite die Ausgabedaten einer Seite
+
+Hier ist eine Beispiel-Erweiterung um eine Abkürzung zu verarbeiten:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.2";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+
+    // Handle page content of shortcut
+    public function onParseContentShortcut($page, $name, $text, $type) {
+        $output = null;
+        if ($name=="example" && ($type=="block" || $type=="inline")) {
+            $output = "<div class=\"".htmlspecialchars($name)."\">";
+            $output .= "Add more HTML code here";
+            $output .= "</div>";
+        }
+        return $output;
+    }
+}
+```
+
+### Yellow-Edit-Ereignisse
+
+Yellow-Edit-Ereignisse unterrichten wenn eine Seite bearbeitet wird:
+
+**public function onEditContentFile($page, $action, $email)**  
+Verarbeite Änderungen an Inhaltsdatei
+
+**public function onEditMediaFile($file, $action, $email)**  
+Verarbeite Änderungen an Mediendatei
+
+**public function onEditSystemFile($file, $action, $email)**  
+Verarbeite Änderungen an Systemdatei
+
+**public function onEditUserAccount($action, $email, $password)**  
+Verarbeite Änderungen am Benutzerkonto
+
+Hier ist eine Beispiel-Erweiterung um eine Datei zu verarbeiten:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.3";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle media file changes
+    public function onEditMediaFile($file, $action, $email) {
+        if ($action=="upload") {
+            $fileName = $file->fileName;
+            $fileType = $this->yellow->toolbox->getFileType($file->get("fileNameShort"));
+            // Add more code here
+        }
+    }
+}
+```
+
+### Yellow-Command-Ereignisse
+
+Yellow-Command-Ereignisse unterrichten wenn ein Befehl ausgeführt wird:
+
+**public function onCommand($command, $text)**  
+Verarbeite Befehle
+
+**public function onCommandHelp()**  
+Verarbeite Hilfe für Befehle
+
+
+Hier ist eine Beispiel-Erweiterung um einen Befehl zu verarbeiten:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.4";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+
+    // Handle command
+    public function onCommand($command, $text) {
+        $statusCode = 0;
+        if ($command=="example") {
+            echo "Yellow $command: Add more text here\n";
+            $statusCode = 200;
+        }
+        return $statusCode;
+    }
+
+    // Handle command help
+    public function onCommandHelp() {
+        return "example\n";
+    }    
+}
+```
+
 ## Verwandte Informationen
 
 * [Wie man die Befehlszeile benutzt](https://github.com/datenstrom/yellow-extensions/blob/master/source/command/README-de.md)
-* [Wie man eine Webseite erweitert](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-de.md)
-* [Wie man eine Erweiterung veröffentlicht](https://github.com/datenstrom/yellow-extensions/blob/master/source/publish/README-de.md)
+* [Wie man eine Erweiterung erstellt](https://github.com/datenstrom/yellow-extensions/blob/master/source/publish/README-de.md)
+* [Wie man eine Übersetzung erstellt](https://github.com/datenstrom/yellow-extensions/blob/master/source/language/README-de.md)
 
-Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).
+Hast du Fragen? [Hilfe finden](.).

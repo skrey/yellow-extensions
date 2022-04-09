@@ -19,8 +19,8 @@ Erfahre wie du mit uns zusammenarbeitest und nützliche Produkte machst.
 
 ## Wie man mit uns zusammenarbeitet
 
-* Verbessere die vorhandenen Erweiterungen, [erstelle eine Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md).
-* Überprüfe die vorhandene Dokumentation, [bearbeite die Hilfe](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md) oder [erstelle eine Übersetzung](https://github.com/datenstrom/yellow-extensions/tree/master/source/language/README-de.md).
+* Verbessere die vorhandenen Erweiterungen, [erstelle und veröffentliche eine Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-de.md).
+* Überprüfe die vorhandene Dokumentation, [bearbeite die Hilfe](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-de.md) und [erstelle eine Übersetzung](https://github.com/datenstrom/yellow-extensions/tree/master/source/language/README-de.md).
 * Werde aktiv in unserer Community, [helfe neuen Benutzern und beantworte Fragen](https://github.com/datenstrom/yellow/discussions/685).
 * Mache eine Ankündigung und zeige was du gemacht hast. [Schau dir an was neu ist](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).
 

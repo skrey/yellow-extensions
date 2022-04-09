@@ -7,7 +7,7 @@ Vi <3 människor som kodar.
 
 ## Mappstruktur
 
-Följande mappar är tillgängliga i standardinstallationen:
+Följande mappar är tillgängliga:
 
 ```
 ├── content               = innehållsfiler
@@ -25,7 +25,25 @@ Följande mappar är tillgängliga i standardinstallationen:
     └── trash             = raderade filer
 ```
 
-Mappen `content` innehåller webbplatsen innehållsfilerna. Du kan redigera webbplatsen här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra bilder och andra filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan anpassa webbplatsen och utveckla tillägg här. 
+Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan ändra dina inställningar här. 
+
+`system/extensions/yellow-system.ini` = [fil med systeminställningar](how-to-change-the-system#systeminställningar)  
+`system/extensions/yellow-user.ini` = [fil med användarinställningar](how-to-change-the-system#användarinställningar)  
+`system/extensions/yellow-language.ini` = [fil med språkinställningar](how-to-change-the-system#språkinställningar)  
+
+## Verktyg
+
+### Inbyggd webbserver
+
+Du kan starta inbyggda webbservern på kommandoraden. Den inbyggda webbservern är praktisk för utvecklare och formgivare. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php serve`, du kan valfritt ange en URL. Öppna en webbläsare och gå till URL:en som visas.
+
+### Inbyggd webbredigerare
+
+Du kan redigera din webbplats i en webbläsare. Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan titta på din webbplats, göra ändringar och se resultatet omedelbart. Det är ett utmärkt sätt att uppdatera webbsidor. Inbyggda webbredigeraren låter dig redigera innehållsfiler, ladda upp mediefiler och ändra systeminställningar.
+
+### Static-site-generator
+
+Den största skillnaden mellan en statisk webbplats och en vanlig webbplats är att en static-site-generator bygger allt i förväg, istället för att vänta på att en fil ska begäras. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build`, du kan valfritt ange en mapp och en plats. Detta kommer att bygga en statisk webbplats i `public` mappen. Ladda upp den statiska webbplatsen till din webbserver och bygg en ny när det behövs
 
 ## Objekt
 
@@ -751,6 +769,9 @@ Returnera webbläsarkakan för aktuella HTTP-begäran
 **toolbox->getServer($key)**  
 Returnera serverargument för aktuella HTTP-begäran
 
+**toolbox->getLocationArguments()**  
+Returnera platsargument för aktuella HTTP-begäran
+
 **toolbox->getDirectoryEntries($path, $regex = "/.*/", $sort = true, $directories = true, $includePath = true)**  
 Returnera filer och kataloger
 
@@ -843,185 +864,7 @@ foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.md$/
 }
 ```
 
-## Händelser
-
-Följande händelser är tillgängliga:
-
-```
-onLoad ───────▶ onStartup ───────────────────────────────────────────┐
-                    │                                                │
-                    ▼                                                │
-                onRequest ───────────────────┐                       │
-                    │                        │                       │
-                    ▼                        ▼                       ▼
-                onParseMeta              onEditContentFile       onCommand  
-                onParseContentRaw        onEditMediaFile         onCommandHelp
-                onParseContentShortcut   onEditSystemFile            │
-                onParseContentHtml       onEditUserAccount           │
-                onParsePageLayout            │                       ▼
-                onParsePageExtra             │                   onUpdate
-                onParsePageOutput            │                   onLog
-                    │                        │                       │
-                    ▼                        │                       │
-                onShutDown ◀─────────────────┴───────────────────────┘
-```
-
-När en sida visas laddas tilläggen och `onLoad` anropas. Så snart alla tillägg har laddats kallas `onStartup`. Sidan kan hanteras med olika `onParse` händelser. Sedan genereras sidinnehållet. Om ett fel har inträffat genereras en felsida. Slutligen matas sidan ut och `onShutdown` anropas.
-
-När en sida redigeras laddas tilläggen och `onLoad` anropas. Så snart alla tillägg har laddats kallas `onStartup`. Ändringar av sidan kan hanteras med olika `onEdit` händelser. Sedan sparas sidan. Slutligen skickas en statuskod för omladdning av sidan och `onShutdown` anropas.
-
-När ett kommando körs laddas tilläggen och `onLoad` anropas. Så snart alla tillägg har laddats kallas `onStartup`. Kommandot kan hanteras med `onCommand`. Om inget kommando har angetts anropas `onCommandHelp` och tillägg kan ge hjälp. Slutligen skickas en returkod och `onShutdown` anropas.
-
-### Yellow core händelser
-
-Yellow core händelser meddelar när en sida visas eller ett tillstånd ändras:
-
-**public function onLoad($yellow)**  
-Hantera initialisering
-
-**public function onStartup()**  
-Hantera start
-
-**public function onUpdate($action)**  
-Hantera uppdatering
-
-**public function onRequest($scheme, $address, $base, $location, $fileName)**  
-Hantera begäran
-
-**public function onParseMeta($page)**  
-Hantera [metadata av en sida](how-to-change-the-system#sidinställningar)
-
-**public function onParseContentRaw($page, $text)**  
-Hantera sidinnehåll i råformat
-
-**public function onParseContentShortcut($page, $name, $text, $type)**  
-Hantera sidinnehåll av förkortning
-
-**public function onParseContentHtml($page, $text)**  
-Hantera sidinnehåll i HTML-format
-
-**public function onParsePageLayout($page, $name)**  
-Hantera sidlayout
-
-**public function onParsePageExtra($page, $name)**  
-Hantera extra data för sidan
-
-**public function onParsePageOutput($page, $text)**  
-Hantera output data för sidan
-
-**public function onLog($action, $message)**  
-Hantera loggning
-
-**public function onShutdown()**  
-Hantera avstängningen
-
-Här är ett exempel tillägg för hantering av en `[example]` förkortning:
-
-``` php
-<?php
-class YellowExample {
-    const VERSION = "0.1.1";
-    public $yellow;         // access to API
-    
-    // Handle initialisation
-    public function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    
-    // Handle page content of shortcut
-    public function onParseContentShortcut($page, $name, $text, $type) {
-        $output = null;
-        if ($name=="example" && ($type=="block" || $type=="inline")) {
-            $output = "<div class=\"".htmlspecialchars($name)."\">";
-            $output .= "Add more HTML code here";
-            $output .= "</div>";
-        }
-        return $output;
-    }
-}
-```
-
-### Yellow edit händelser
-
-Yellow edit händelser meddelar när en sida redigeras:
-
-**public function onEditContentFile($page, $action, $email)**  
-Hantera innehållsfiländringar
-
-**public function onEditMediaFile($file, $action, $email)**  
-Hantera mediefiländringar
-
-**public function onEditSystemFile($file, $action, $email)**  
-Hantera systemfiländringar
-
-**public function onEditUserAccount($action, $email, $password)**  
-Hantera ändringar av användarkonton
-
-Här är ett exempel på tillägg för hantering av en fil:
-
-``` php
-<?php
-class YellowExample {
-    const VERSION = "0.1.2";
-    public $yellow;         // access to API
-    
-    // Handle initialisation
-    public function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    
-    // Handle media file changes
-    public function onEditMediaFile($file, $action, $email) {
-        if ($action=="upload") {
-            $fileName = $file->fileName;
-            $fileType = $this->yellow->toolbox->getFileType($file->get("fileNameShort"));
-            // Add more code here
-        }
-    }
-}
-```
-
-### Yellow command händelser
-
-Yellow command händelser när ett kommando körs:
-
-**public function onCommand($command, $text)**  
-Hantera kommandon
-
-**public function onCommandHelp()**  
-Hantera hjälp för kommandon
-
-Här är ett exempel på tillägg för hantering av ett kommando:
-
-``` php
-<?php
-class YellowExample {
-    const VERSION = "0.1.3";
-    public $yellow;         // access to API
-    
-    // Handle initialisation
-    public function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    
-    // Handle command
-    public function onCommand($command, $text) {
-        $statusCode = 0;
-        if ($command=="example") {
-            echo "Yellow $command: Add more text here\n";
-            $statusCode = 200;
-        }
-        return $statusCode;
-    }
-
-    // Handle command help
-    public function onCommandHelp() {
-        return "example\n";
-    }
-}
-```
-
-## Diverse
+### Yellow string
 
 Följande funktioner utökar PHP-strängfunktioner: 
 
@@ -1063,10 +906,207 @@ var_dump(strempty("0"));      // bool(false)
 var_dump(strempty(""));       // bool(true)
 ```
 
+## Händelser
+
+Följande händelser är tillgängliga:
+
+```
+onLoad ───────▶ onStartup ───────────────────────────────────────────┐
+                    │                                                │
+                    ▼                                                │
+                onRequest ───────────────────┐                       │
+                    │                        │                       │
+                    ▼                        ▼                       ▼
+                onParseMeta              onEditContentFile       onCommand  
+                onParseContentRaw        onEditMediaFile         onCommandHelp
+                onParseContentShortcut   onEditSystemFile            │
+                onParseContentHtml       onEditUserAccount           │
+                onParsePageLayout            │                       ▼
+                onParsePageExtra             │                   onUpdate
+                onParsePageOutput            │                   onLog
+                    │                        │                       │
+                    ▼                        │                       │
+                onShutDown ◀─────────────────┴───────────────────────┘
+```
+
+När en sida visas laddas tilläggen och `onLoad` anropas. Så snart alla tillägg har laddats kallas `onStartup`. Sidan kan hanteras med olika [parse händelser](#yellow-parse-händelser). Sedan genereras sidinnehållet. Om ett fel har inträffat genereras en felsida. Slutligen matas sidan ut och `onShutdown` anropas.
+
+När en sida redigeras laddas tilläggen och `onLoad` anropas. Så snart alla tillägg har laddats kallas `onStartup`. Ändringar av sidan kan hanteras med olika [edit händelser](#yellow-edit-händelser). Sedan sparas sidan. Slutligen skickas en statuskod för omladdning av sidan och `onShutdown` anropas.
+
+När ett kommando körs laddas tilläggen och `onLoad` anropas. Så snart alla tillägg har laddats kallas `onStartup`. Kommandot kan hanteras med olika [command händelser](#yellow-command-händelser). Om inget kommando har angetts visas tillgängliga kommandona. Slutligen skickas en returkod och `onShutdown` anropas.
+
+### Yellow core händelser
+
+Yellow core händelser meddelar när ett tillstånd ändras:
+
+**public function onLoad($yellow)**  
+Hantera initialisering
+
+**public function onStartup()**  
+Hantera start
+
+**public function onRequest($scheme, $address, $base, $location, $fileName)**  
+Hantera begäran
+
+**public function onUpdate($action)**  
+Hantera uppdatering
+
+**public function onLog($action, $message)**  
+Hantera loggning
+
+**public function onShutdown()**  
+Hantera avstängningen
+
+Här är ett exempel tillägg för hantering av en händelse:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.1";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+}
+```
+
+### Yellow parse händelser
+
+Yellow core händelser meddelar när en sida visas:
+
+**public function onParseMeta($page)**  
+Hantera metadata av en sida
+
+**public function onParseContentRaw($page, $text)**  
+Hantera sidinnehåll i råformat
+
+**public function onParseContentShortcut($page, $name, $text, $type)**  
+Hantera sidinnehåll av förkortning
+
+**public function onParseContentHtml($page, $text)**  
+Hantera sidinnehåll i HTML-format
+
+**public function onParsePageLayout($page, $name)**  
+Hantera sidlayout
+
+**public function onParsePageExtra($page, $name)**  
+Hantera extra data för sidan
+
+**public function onParsePageOutput($page, $text)**  
+Hantera output data för sidan
+
+Här är ett exempel tillägg för hantering av en förkortning:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.2";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle page content of shortcut
+    public function onParseContentShortcut($page, $name, $text, $type) {
+        $output = null;
+        if ($name=="example" && ($type=="block" || $type=="inline")) {
+            $output = "<div class=\"".htmlspecialchars($name)."\">";
+            $output .= "Add more HTML code here";
+            $output .= "</div>";
+        }
+        return $output;
+    }
+}
+```
+
+### Yellow edit händelser
+
+Yellow edit händelser meddelar när en sida redigeras:
+
+**public function onEditContentFile($page, $action, $email)**  
+Hantera innehållsfiländringar
+
+**public function onEditMediaFile($file, $action, $email)**  
+Hantera mediefiländringar
+
+**public function onEditSystemFile($file, $action, $email)**  
+Hantera systemfiländringar
+
+**public function onEditUserAccount($action, $email, $password)**  
+Hantera ändringar av användarkonton
+
+Här är ett exempel på tillägg för hantering av en fil:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.3";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle media file changes
+    public function onEditMediaFile($file, $action, $email) {
+        if ($action=="upload") {
+            $fileName = $file->fileName;
+            $fileType = $this->yellow->toolbox->getFileType($file->get("fileNameShort"));
+            // Add more code here
+        }
+    }
+}
+```
+
+### Yellow command händelser
+
+Yellow command händelser när ett kommando körs:
+
+**public function onCommand($command, $text)**  
+Hantera kommandon
+
+**public function onCommandHelp()**  
+Hantera hjälp för kommandon
+
+Här är ett exempel på tillägg för hantering av ett kommando:
+
+``` php
+<?php
+class YellowExample {
+    const VERSION = "0.1.4";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle command
+    public function onCommand($command, $text) {
+        $statusCode = 0;
+        if ($command=="example") {
+            echo "Yellow $command: Add more text here\n";
+            $statusCode = 200;
+        }
+        return $statusCode;
+    }
+
+    // Handle command help
+    public function onCommandHelp() {
+        return "example\n";
+    }
+}
+```
+
 ## Relaterad information
 
 * [Hur man använder kommandoraden](https://github.com/datenstrom/yellow-extensions/blob/master/source/command/README-sv.md)
-* [Hur man utökar en webbplats](https://github.com/datenstrom/yellow-extensions/blob/master/source/update/README-sv.md)
-* [Hur man publicerar ett tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md)
+* [Hur man gör ett tillägg](https://github.com/datenstrom/yellow-extensions/blob/master/source/publish/README-sv.md)
+* [Hur man gör en översättning](https://github.com/datenstrom/yellow-extensions/blob/master/source/language/README-sv.md)
 
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Har du några frågor? [Få hjälp](.).
