@@ -12,7 +12,7 @@ Börja med en [exempel-funktion](https://github.com/schulle4u/yellow-extension-h
 
 ## Hur man publicerar ett tillägg
 
-De [publicerade tilläggen](https://github.com/datenstrom/yellow-extensions/tree/master/README-sv.md) ingår i [uppdateringsprocessen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md). Detta säkerställer att alla användare får senaste versionen av ditt tillägg. Öka först versionsnumret i din PHP-kod och publicera sedan ditt tillägg på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php publish` följt av en mapp. Detta uppdaterar alla nödvändiga filer. Ladda upp dina ändringar till GitHub och skapa en pull-request för `datenstrom/yellow-extensions`.
+De [publicerade tilläggen](https://github.com/datenstrom/yellow-extensions/tree/master/README-sv.md) ingår i [uppdateringsprocessen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md). Detta säkerställer att alla användare får senaste tilläggen. Öka först versionsnumret i din PHP-kod och publicera sedan ditt tillägg på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php publish` följt av en mapp. Detta uppdaterar alla nödvändiga filer. Ladda upp dina ändringar till GitHub och skapa en pull-request för `datenstrom/yellow-extensions`.
 
 ## Hur man uppdaterar standardinstallationen
 
