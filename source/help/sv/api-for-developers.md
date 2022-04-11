@@ -39,7 +39,7 @@ Du kan starta inbyggda webbservern på kommandoraden. Den inbyggda webbservern �
 
 ### Inbyggd webbredigerare
 
-Du kan redigera din webbplats i en webbläsare. Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan titta på din webbplats, göra ändringar och se resultatet omedelbart. Det är ett utmärkt sätt att uppdatera webbsidor. Inbyggda webbredigeraren låter dig redigera innehållsfiler, ladda upp mediefiler och ändra systeminställningar.
+Du kan redigera din webbplats i en webbläsare. Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren låter dig redigera innehållsfiler, ladda upp mediefiler och ändra systeminställningar. Det är ett utmärkt sätt att uppdatera webbsidor.
 
 ### Static-site-generator
 

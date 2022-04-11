@@ -8,7 +8,7 @@ Edit your website in a web browser.
 
 ## How to edit a website in a web browser
 
-The login page is available on your website as `http://website/edit/`. Log in with your user account. You can browse your website, make some changes and see the result immediately. It is a great way to update your website. The built-in web editor allows you to edit content files, upload media files and change system settings.
+The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The built-in web editor allows you to edit content files, upload media files and change system settings. It is a great way to update your website.
 
 ## How to create a user account
 
