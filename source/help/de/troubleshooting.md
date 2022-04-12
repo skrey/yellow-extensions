@@ -41,7 +41,7 @@ Datenstrom Yellow requires PHP extension!
 Installiere die fehlende PHP-Erweiterung auf deinem Webserver. Du benötigst `curl gd mbstring zip`.
 
 ```
-Datenstrom Yellow requires PHP 5.6 or higher!
+Datenstrom Yellow requires PHP 7.0 or higher!
 ```
 
 Installiere die neuste PHP-Version auf deinem Webserver.
