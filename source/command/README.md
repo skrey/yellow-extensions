@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.33
+# Command 0.8.34
 
 Command line of the website.
 
@@ -18,7 +18,7 @@ If you don't want that a page is built, set `Build: exclude` in the [page settin
 
 ## How to build a static cache
 
-You can build a static cache at the command line. Usually a page is first generated and then delivered to the web browser. With a static cache pages are generated in advance and delivered directly to the web browser. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php build cache`, you can optionally add a location. This will build a static cache in the `cache` folder. Build a new cache when needed. To clean the cache type: `php yellow.php clean cache`.
+You can build a static cache at the command line. The cache supports a normal website by building some files in advance and storing them in the file system. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php build system/cache`, you can optionally add a location. This will build a cache for a normal website. Build a new cache when needed. To clean the cache type: `php yellow.php clean system/cache`.
 
 If you don't want that a page is built, set `Build: exclude` in the [page settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings-page) at the top of a page.
 
@@ -30,7 +30,7 @@ Content file with option for building a static website:
     Title: Example page
     Build: exclude
     ---
-    This page is not included in a static website or static cache.
+    This page is not included in a static website or cache.
 
 Overview of available commands:
 

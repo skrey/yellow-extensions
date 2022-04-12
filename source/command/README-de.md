@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.33
+# Command 0.8.34
 
 Befehlszeile der Webseite.
 
@@ -18,7 +18,7 @@ Falls du nicht willst dass eine Seite erstellt wird, kannst du `Build: exclude` 
 
 ## Wie man einen statischen Zwischenspeicher erstellt
 
-Du kannst einen statischen Zwischenspeicher in der Befehlszeile erstellen. In der Regel wird eine Seite zuerst erzeugt und dann an den Webbrowser ausgeliefert. Mit einem statischen Zwischenspeicher werden Seiten im Voraus erzeugt und direkt an den Webbrowser ausgeliefert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php build cache`, du kannst wahlweise einen Ort angeben. Das erstellt einen statische Zwischenspeicher im `cache`-Verzeichnis. Erstelle bei Bedarf einen neuen Zwischenspeicher. Zum Löschen gibt man ein: `php yellow.php clean cache`.
+Du kannst einen statischen Zwischenspeicher in der Befehlszeile erstellen. Der Zwischenspeicher unterstützt eine normale Webseite, indem er einige Dateien im Voraus erstellt und im Dateisystem abspeichert. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php build system/cache`, du kannst wahlweise einen Ort angeben. Das erstellt einen Zwischenspeicher für eine normale Webseite. Erstelle bei Bedarf einen neuen Zwischenspeicher. Zum Löschen gibt man ein: `php yellow.php clean system/cache`.
 
 Falls du nicht willst dass eine Seite erstellt wird, kannst du `Build: exclude` in den [Seiteneinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen-seite) ganz oben auf einer Seite festlegen.
 

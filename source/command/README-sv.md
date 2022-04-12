@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Command 0.8.33
+# Command 0.8.34
 
 Webbplatsens kommandorad.
 
@@ -18,7 +18,7 @@ Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinstäl
 
 ## Hur man bygger en statisk cache
 
-Du kan skapa en statisk cache på kommandoraden. Vanligtvis genereras en sida först och levereras sedan till webbläsaren. Med en statisk cache genereras sidor i förväg och levereras direkt till webbläsaren. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build cache`, du kan valfritt ange en plats. Detta kommer att bygga en statisk cache i `cache` mappen. Skapa en ny cache vid behov. För att rensa cache skriv: `php yellow.php clean cache`.
+Du kan skapa en statisk cache på kommandoraden. Cachen stöder en vanlig webbplats genom att bygga några filer i förväg och lagra dem i filsystemet. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build system/cache`, du kan valfritt ange en plats. Detta kommer att bygga en cache för en vanlig webbplats. Skapa en ny cache vid behov. För att rensa cache skriv: `php yellow.php clean system/cache`.
 
 Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida.
 
@@ -30,7 +30,7 @@ Innehållsfil med alternativ för att bygga en statisk webbplats:
     Title: Exempelsida
     Build: exclude
     ---
-    Den här sidan ingår inte i en statisk webbplats eller statisk cache.
+    Den här sidan ingår inte i en statisk webbplats eller cache.
 
 Översikt över tillgängliga kommandon:
 
