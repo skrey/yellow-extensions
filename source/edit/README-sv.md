@@ -127,9 +127,11 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `EditUploadExtensions` = filformat för uppladdning, `none` för att inaktivera  
 `EditKeyboardShortcuts` = tangentbordsgenvägar och kommandon, `none` för att inaktivera  
 `EditToolbarButtons` = verktygsfältknappar, `auto` för automatisk detektering, `none` för att inaktivera  
-`EditNewFile` = innehållsfil för ny sida  
 `EditEndOfLine` = linjeändar, t.ex. `auto`, `lf`, `crlf`  
+`EditNewFile` = innehållsfil för ny sida  
 `EditUserPasswordMinLength` = minsta längd på lösenord  
+`EditUserHashAlgorithm` = hash-algoritm som används för krypterat lösenord  
+`EditUserHashCost` = hash-kostnad som används för krypterat lösenord  
 `EditUserAccess` = standard användarrättigheter för nytt användarkonto  
 `EditUserHome` = standardplats för hemsidan för nytt användarkonto  
 `EditLoginRestriction` = aktivera inloggningsbegränsning, 1 eller 0  
