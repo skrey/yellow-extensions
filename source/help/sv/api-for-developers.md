@@ -158,7 +158,7 @@ Kontrollera om sidan är synlig
 Kontrollera om sidan ligger inom aktuella HTTP-begäran
 
 **page->isCacheable()**  
-Kontrollera om sidan är cachningsbar 
+Kontrollera om sidan kan cachelagras
 
 **page->isError()**  
 Kontrollera om sidan med fel

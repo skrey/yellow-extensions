@@ -8,7 +8,7 @@ Göra och publicera tillägg.
 
 ## Hur man gör ett tillägg
 
-Börja med en [exempel-funktion](https://github.com/schulle4u/yellow-extension-helloworld), ett [exempel-tema](https://github.com/schulle4u/yellow-extension-basic) eller ett [exempel-språk](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish). Detta visar vilka filer och inställningar som krävs. Varje tillägg behöver en `extension.ini` fil med tilläggsinställningar. Se till att ditt tillägg följer våra kodnings- och dokumentationsstandarder. Det är inte viktigt vilken standard vi använder, men att vi alla använder samma. Helst kan vi snabbt dyka in i vilken kod som helst och jobba på den tillsammans. Ladda upp ditt tillägg till GitHub, låt oss veta om du behöver hjälp.
+Börja med en [exempel-funktion](https://github.com/schulle4u/yellow-extension-helloworld), ett [exempel-tema](https://github.com/schulle4u/yellow-extension-basic) eller ett [exempel-språk](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish). Detta visar vilka filer och inställningar som krävs. Varje tillägg behöver en `extension.ini` fil med tilläggsinställningar. Se till att ditt tillägg följer våra kodnings- och dokumentationsstandarder. Det är inte viktigt vilken standard vi använder, men att vi alla använder en gemensam. Helst kan du snabbt dyka in i vilken kod som helst och jobba med oss. Ladda upp ditt tillägg till GitHub, låt oss veta om du behöver hjälp.
 
 ## Hur man publicerar ett tillägg
 

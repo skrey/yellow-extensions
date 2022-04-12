@@ -112,7 +112,7 @@ Hier ist eine `.htaccess` Konfigurationsdatei für den Apache-Webserver:
 <IfModule mod_rewrite.c>
 RewriteEngine on
 DirectoryIndex index.html yellow.php
-RewriteRule ^(cache|content|system)/ error [L]
+RewriteRule ^(content|system)/ error [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ yellow.php [L]
@@ -126,7 +126,7 @@ Hier ist eine `.htaccess` Konfigurationsdatei für ein Unterverzeichnis, beispie
 RewriteEngine on
 RewriteBase /yellow/
 DirectoryIndex index.html yellow.php
-RewriteRule ^(cache|content|system)/ error [L]
+RewriteRule ^(content|system)/ error [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ yellow.php [L]
@@ -140,7 +140,7 @@ Hier ist eine `.htaccess` Konfigurationsdatei für eine Subdomain, beispielsweis
 RewriteEngine on
 RewriteBase /
 DirectoryIndex index.html yellow.php
-RewriteRule ^(cache|content|system)/ error [L]
+RewriteRule ^(content|system)/ error [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ yellow.php [L]
@@ -160,10 +160,6 @@ server {
     root /var/www/website/;
     default_type text/html;
     index index.html yellow.php;
-
-    location /cache {
-        rewrite ^(.*)$ /error break;
-    }
 
     location /content {
         rewrite ^(.*)$ /error break;

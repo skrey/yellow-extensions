@@ -18,7 +18,7 @@ Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinstäl
 
 ## Hur man bygger en statisk cache
 
-Du kan skapa en statisk cache på kommandoraden. Cachen stöder en vanlig webbplats genom att bygga några filer i förväg och lagra dem i filsystemet. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build system/cache`, du kan valfritt ange en plats. Detta kommer att bygga en cache för en vanlig webbplats. Skapa en ny cache vid behov. För att rensa cache skriv: `php yellow.php clean system/cache`.
+Du kan skapa en statisk cache på kommandoraden. Cachen stöder en vanlig webbplats genom att bygga några filer i förväg och lagra dem i filsystemet. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php build system/cache`. Detta kommer att bygga en cache för en vanlig webbplats i `system/cache` mappen. Skapa en ny cache vid behov. För att rensa cache skriv: `php yellow.php clean system/cache`.
 
 Om du inte vill att en sida ska byggas, ställ in `Build: exclude` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida.
 

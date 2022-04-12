@@ -157,7 +157,7 @@ Antworte mit Statuscode, ohne Seiteninhalt
 Überprüfe ob die Seite innerhalb der aktuellen HTTP-Anfrage ist
 
 **page->isCacheable()**  
-Überprüfe ob die Seite cachebar ist
+Überprüfe ob die Seite zwischengespeichert werden kann
 
 **page->isError()**  
 Überprüfe ob die Seite einen Fehler hat

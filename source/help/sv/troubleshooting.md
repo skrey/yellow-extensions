@@ -112,7 +112,7 @@ Här är en `.htaccess`-konfigurationsfil för Apache-webbservern:
 <IfModule mod_rewrite.c>
 RewriteEngine on
 DirectoryIndex index.html yellow.php
-RewriteRule ^(cache|content|system)/ error [L]
+RewriteRule ^(content|system)/ error [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ yellow.php [L]
@@ -126,7 +126,7 @@ Här är en `.htaccess`-konfigurationsfil för en undermapp, till exempel `http:
 RewriteEngine on
 RewriteBase /yellow/
 DirectoryIndex index.html yellow.php
-RewriteRule ^(cache|content|system)/ error [L]
+RewriteRule ^(content|system)/ error [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ yellow.php [L]
@@ -140,7 +140,7 @@ Här är en `.htaccess`-konfigurationsfil för en underdomän, till exempel `htt
 RewriteEngine on
 RewriteBase /
 DirectoryIndex index.html yellow.php
-RewriteRule ^(cache|content|system)/ error [L]
+RewriteRule ^(content|system)/ error [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ yellow.php [L]
@@ -160,10 +160,6 @@ server {
     root /var/www/website/;
     default_type text/html;
     index index.html yellow.php;
-
-    location /cache {
-        rewrite ^(.*)$ /error break;
-    }
 
     location /content {
         rewrite ^(.*)$ /error break;
