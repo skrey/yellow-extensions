@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.65
+# Core 0.8.66
 
 Core functionality of the website.
 
@@ -58,6 +58,17 @@ Content file with redirection:
 `CoreServerUrl` = URL of the website, when used as a content management system  
 `CoreStaticUrl` = URL of the website, when used as a static site generator  
 `CoreTimezone` = timezone of the website, [supported timezones](https://www.php.net/manual/en/timezones.php)  
+`CoreContentExtension` = file extension for content  
+`CoreContentDefaultFile` = content file for folders  
+`CoreContentErrorFile` = content file for error page  
+`CoreUserFile` = file with user settings  
+`CoreLanguageFile` = file with language settings  
+`CoreWebsiteFile` = log file of the website  
+`CoreMediaLocation` = location for media files  
+`CoreDownloadLocation` = location for downloads  
+`CoreImageLocation` = location for images  
+`CoreExtensionLocation` = location for mapped extension files  
+`CoreThemeLocation` = location for mapped theme files  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
 `CoreDebugMode` = enable debug mode, 0 to 3  
 
