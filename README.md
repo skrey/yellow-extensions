@@ -16,7 +16,7 @@ Features, themes and languages for Datenstrom Yellow. https://datenstrom.se/yell
 * [Contact](https://github.com/datenstrom/yellow-extensions/tree/master/source/contact) - Email contact page. Developed by Datenstrom.
 * [Core](https://github.com/datenstrom/yellow-extensions/tree/master/source/core) - Core functionality of the website. Developed by Datenstrom.
 * [Codefile](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/codefile) - Download code blocks as text file. Developed by Steffen Schultz.
-* [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv) -CSV file parser. Developed by Steffen Schultz.
+* [Csv](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/csv) - CSV file parser. Developed by Steffen Schultz.
 * [Daily](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/daily) - Show daily pages. Developed by Steffen Schultz.
 * [Draft](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft) - Support for draft pages. Developed by Datenstrom.
 * [Edit](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) - Edit your website in a web browser. Developed by Datenstrom.
