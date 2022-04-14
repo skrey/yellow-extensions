@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Traffic 0.8.15
+# Traffic 0.8.16
 
 Create traffic analytics from web server log files.
 
@@ -8,7 +8,7 @@ Create traffic analytics from web server log files.
 
 ## How to create traffic analytics
 
-The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). It shows referring sites, popular content, files and search queries. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php traffic`, you can add optional days and location.
+The traffic analytics are available at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). It shows popular content, files, search queries and error pages. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php traffic`, you can add optional days and location.
 
 ## Examples
 

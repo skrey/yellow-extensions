@@ -2,7 +2,7 @@
 // Traffic extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/traffic
 
 class YellowTraffic {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     public $yellow;         // access to API
     public $days;           // number of days
     public $views;          // number of views
@@ -60,12 +60,12 @@ class YellowTraffic {
         $path = $this->yellow->system->get("trafficLogDirectory");
         $regex = "/^".basename($this->yellow->system->get("trafficAccessFile"))."$/";
         $fileNames = array_reverse($this->yellow->toolbox->getDirectoryEntries($path, $regex, true, false));
-        list($statusCode, $sites, $content, $files, $search, $errors) = $this->analyseRequests($days, $location, $fileNames);
+        list($statusCode, $content, $files, $search, $sites, $errors) = $this->analyseRequests($days, $location, $fileNames);
         if ($statusCode==200) {
-            $this->showRequests($sites, "Referring sites");
             $this->showRequests($content, "Popular content");
             $this->showRequests($files, "Popular files");
             $this->showRequests($search, "Search queries");
+            $this->showRequests($sites, "Referring sites");
             $this->showRequests($errors, "Error pages");
         }
         return $statusCode;
@@ -74,7 +74,7 @@ class YellowTraffic {
     // Analyse log file requests
     public function analyseRequests($days, $locationFilter, $fileNames) {
         $this->days = $this->views = 0;
-        $sites = $content = $files = $search = $errors = $clients = array();
+        $content = $files = $search = $sites = $errors = $clients = array();
         if (!empty($fileNames)) {
             $statusCode = 200;
             $timeStart = $timeFound = time();
@@ -106,11 +106,12 @@ class YellowTraffic {
                             $referer = $this->getReferer($referer, "$address$base/");
                             $url = $this->getUrl($scheme, $address, $base, $location);
                             $urlSearch = $this->getUrlSearch($scheme, $address, $base, $location, $locationSearch);
+                            $urlSite = $this->getUrlSite($referer);
                             if ($status<400) {
                                 $clientsRequestThrottle = substru($timestamp, 0, 17).$method.$location;
                                 if (isset($clients[$ip]) && $clients[$ip]==$clientsRequestThrottle) {
-                                    if (!isset($sites[$referer])) $sites[$referer] = 0;
-                                    --$sites[$referer];
+                                    if (!isset($sites[$urlSite])) $sites[$urlSite] = 0;
+                                    --$sites[$urlSite];
                                     continue;
                                 }
                                 $clients[$ip] = $clientsRequestThrottle;
@@ -126,8 +127,8 @@ class YellowTraffic {
                                 if (preg_match("#^$base/robots\.txt#", $location) && $locationFilter=="/") continue;
                                 if (!isset($content[$url])) $content[$url] = 0;
                                 ++$content[$url];
-                                if (!isset($sites[$referer])) $sites[$referer] = 0;
-                                ++$sites[$referer];
+                                if (!isset($sites[$urlSite])) $sites[$urlSite] = 0;
+                                ++$sites[$urlSite];
                                 if (!isset($search[$urlSearch])) $search[$urlSearch] = 0;
                                 ++$search[$urlSearch];
                                 ++$this->views;
@@ -156,7 +157,7 @@ class YellowTraffic {
             $path = $this->yellow->system->get("trafficLogDirectory");
             echo "ERROR reading log files: Can't find files in directory '$path'!\n";
         }
-        return array($statusCode, $sites, $content, $files, $search, $errors);
+        return array($statusCode, $content, $files, $search, $sites, $errors);
     }
     
     // Show top requests
@@ -169,7 +170,7 @@ class YellowTraffic {
         if (!empty($data)) {
             echo "$text\n\n";
             foreach ($data as $key=>$value) {
-                echo "- $value $key\n";
+                echo "$value - $key\n";
             }
             echo "\n";
         }
@@ -213,6 +214,12 @@ class YellowTraffic {
         $locationSearch = $base."(.*)".$locationSearch."query".$this->yellow->toolbox->getLocationArgumentsSeparator();
         $urlSearch = preg_match("#^$locationSearch([^/]+)/$#", $location) ? ("$scheme://$address".strtoloweru($location)) : "-";
         return str_replace(array("%", "\x1c", "\x1d", "\x1e", "\x20"), array("%25", "%1C", "%1D", "%1E", "%20"), $urlSearch);
+    }
+    
+    // Return referring site URL, if available
+    public function getUrlSite($referer) {
+        list($scheme, $address, $base) = $this->yellow->lookup->getUrlInformation($referer);
+        return ($scheme=="http" || $scheme=="https") ? "$scheme://$address" : "-";
     }
     
     // Return human readable status
