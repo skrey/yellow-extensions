@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Highlight 0.8.12
+# Highlight 0.8.13
 
 Markera källkod.
 
@@ -10,7 +10,7 @@ Markera källkod.
 
 Slå in dina kodblock i \`\`\` och lägg till en språkidentifierare. 
 
-Följande programmeringsspråk ingår: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. Du kan ladda ner fler [språkfiler](https://github.com/scrivo/highlight.php/tree/master/src/Highlight/languages), byta namn på och kopiera dem till din `system/extensions` mapp.
+Följande programmeringsspråk ingår: C, CPP, CSS, HTML, JavaScript, JSON, Lua, PHP, Python, YAML. Du kan ladda ner fler [språkfiler](https://github.com/scrivo/highlight.php/tree/master/src/Highlight/languages), byta namn på och kopiera dem till din `system/extensions` mapp.
 
 ## Exempel
 
@@ -25,15 +25,15 @@ Markering av JavaScript-kod:
     window.addEventListener("DOMContentLoaded", ready, false);
     ```
 
-Markering av HTML-kod, utan och med radnummer:
+Markering av HTML-kod, med och utan radnummer:
     
-    ``` html
+    ``` html {.with-line-number}
     <body>
     <p>Hello world!</p>
     </body>
     ```
 
-    ``` html {.with-line-number}
+    ``` html {.without-line-number}
     <body>
     <p>Hello world!</p>
     </body>

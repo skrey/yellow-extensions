@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Highlight 0.8.12
+# Highlight 0.8.13
 
 Quellcode hervorheben.
 
@@ -10,7 +10,7 @@ Quellcode hervorheben.
 
 Wickle Codeblöcke in \`\`\` ein und fügen eine Sprachidentifizierung hinzu.
 
-Die folgenden Programmiersprachen sind enthalten: C, CPP, CSS, HTML, JavaScript, JSON, PHP, Python, YAML. Du kannst weitere [Sprachdateien](https://github.com/scrivo/highlight.php/tree/master/src/Highlight/languages) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren.
+Die folgenden Programmiersprachen sind enthalten: C, CPP, CSS, HTML, JavaScript, JSON, Lua, PHP, Python, YAML. Du kannst weitere [Sprachdateien](https://github.com/scrivo/highlight.php/tree/master/src/Highlight/languages) herunterladen, umbenennen und in dein `system/extensions`-Verzeichnis kopieren.
 
 ## Beispiele
 
@@ -25,15 +25,15 @@ Hervorhebung von JavaScript-Quellcode:
     window.addEventListener("DOMContentLoaded", ready, false);
     ```
 
-Hervorhebung von HTML-Quellcode, ohne und mit Zeilennummer:
+Hervorhebung von HTML-Quellcode, mit und ohne Zeilennummer:
     
-    ``` html
+    ``` html {.with-line-number}
     <body>
     <p>Hello world!</p>
     </body>
     ```
 
-    ``` html {.with-line-number}
+    ``` html {.without-line-number}
     <body>
     <p>Hello world!</p>
     </body>
