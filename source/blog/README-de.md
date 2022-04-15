@@ -103,7 +103,7 @@ Links zum Blog anzeigen:
     [Siehe Seiten über Kaffee](/blog/tag:kaffee/)
     [Siehe Seiten mit Beispielen](/blog/tag:beispiel/)
 
-Anderen Ort festlegen, URL mit Unterverzeichnis für jedes Jahr:
+Blogstartseite in den Einstellungen festlegen, URL mit Unterverzeichnis für jedes Jahr:
 
     BlogStartLocation: /blog/
     BlogNewLocation: /blog/@year/@title

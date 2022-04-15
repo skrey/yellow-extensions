@@ -61,10 +61,6 @@ Innehållsfil med loggfil:
 
     ! [yellow log]
 
-Visa aktuell version och tillägg på kommandoraden:
- 
-`php yellow.php about`
-
 Visar uppdateringar på kommandoraden:
  
 `php yellow.php update`  
@@ -84,6 +80,10 @@ Ta bort tillägg på kommandoraden:
 `php yellow.php uninstall`  
 `php yellow.php uninstall gallery`  
 `php yellow.php uninstall english german swedish`  
+
+Visa aktuell version och tillägg på kommandoraden:
+ 
+`php yellow.php about`
 
 ## Inställningar
 

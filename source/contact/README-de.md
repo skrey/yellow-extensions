@@ -56,6 +56,12 @@ Inhaltsdatei mit Kontaktlink:
     
     [Kontaktiere einen Menschen](/contact/).
 
+Verschiedene Spamfilter in den Einstellungen festlegen:
+
+    ContactSpamFilter: advert|promot|market|traffic|click here
+    ContactSpamFilter: advert|promot|market|traffic|click here|youtube|instagram|twitter
+    ContactSpamFilter: werbung|kaufe|rabatt|singles in ihrer nähe|suchmaschinenoptimierung
+
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:

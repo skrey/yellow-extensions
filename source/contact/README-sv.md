@@ -55,6 +55,12 @@ Innehållsfil med kontaktlänk:
     
     [Kontakta en människa](/contact/).
 
+Konfigurera olika skräppostfilter i inställningar:
+
+    ContactSpamFilter: advert|promot|market|traffic|click here
+    ContactSpamFilter: advert|promot|market|traffic|click here|youtube|instagram|twitter
+    ContactSpamFilter: annons|köp|rabatt|singlar nära dig|sökmotoroptimering
+
 ## Inställningar
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:

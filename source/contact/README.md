@@ -55,6 +55,12 @@ Content file with contact link:
 
     [Contact a human](/contact/).
 
+Configuring different spam filters in the settings:
+
+    ContactSpamFilter: advert|promot|market|traffic|click here
+    ContactSpamFilter: advert|promot|market|traffic|click here|youtube|instagram|twitter
+    ContactSpamFilter: advert|buy|discount|singles near you|search engine optimisation
+
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:

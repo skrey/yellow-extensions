@@ -61,10 +61,6 @@ Content file with log file:
 
     ! [yellow log]
 
-Showing current version and extensions at the command line:
- 
-`php yellow.php about`
-
 Showing updates at the command line:
 
 `php yellow.php update`
@@ -84,6 +80,10 @@ Removing extensions at the command line:
 `php yellow.php uninstall`  
 `php yellow.php uninstall gallery`  
 `php yellow.php uninstall english german swedish`  
+
+Showing current version and extensions at the command line:
+ 
+`php yellow.php about`
 
 ## Settings
 

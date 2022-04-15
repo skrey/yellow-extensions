@@ -88,7 +88,7 @@ Modified: 2000-01-01 13:37:00
 Status: active
 ```
 
-Verschiedene Symbolleistenschaltflächen festlegen:
+Verschiedene Symbolleistenschaltflächen in den Einstellungen festlegen:
 
 ```
 EditToolbarButtons: auto 
@@ -97,7 +97,7 @@ EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, fil
 EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
-Verschiedene Orte zum Hochladen festlegen:
+Verschiedene Orte zum Hochladen in den Einstellungen festlegen:
 
 ```
 EditUploadNewLocation: /media/@group/@filename

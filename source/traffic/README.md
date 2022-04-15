@@ -32,6 +32,14 @@ Creating traffic analytics at the command line, different locations:
 `php yellow.php traffic 30 /blog/`  
 `php yellow.php traffic 30 /search/`  
 
+Configuring different spam filters in the settings:
+
+```
+TrafficSpamFilter: bot|crawler|spider|checker
+TrafficSpamFilter: bot|crawler|spider|checker|youtube.com|instagram.com|twitter.com
+TrafficSpamFilter: bot|crawler|spider|checker|www.google|duckduckgo.com|bing.com|baidu.com|yandex.ru
+```
+
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:

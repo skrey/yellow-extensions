@@ -32,6 +32,14 @@ Skapa trafikanalys på kommandoraden, olika platser:
 `php yellow.php traffic 30 /blog/`  
 `php yellow.php traffic 30 /search/`  
 
+Konfigurera olika skräplänkfilter i inställningar:
+
+```
+TrafficSpamFilter: bot|crawler|spider|checker
+TrafficSpamFilter: bot|crawler|spider|checker|youtube.com|instagram.com|twitter.com
+TrafficSpamFilter: bot|crawler|spider|checker|www.google|duckduckgo.com|bing.com|baidu.com|yandex.ru
+```
+
 ## Inställningar
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:

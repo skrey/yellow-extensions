@@ -32,6 +32,14 @@ Zugriffsanalysen in der Befehlszeile erstellen, unterschiedliche Orte:
 `php yellow.php traffic 30 /blog/`  
 `php yellow.php traffic 30 /search/`  
 
+Verschiedene Spamfilter in den Einstellungen festlegen:
+
+```
+TrafficSpamFilter: bot|crawler|spider|checker
+TrafficSpamFilter: bot|crawler|spider|checker|youtube.com|instagram.com|twitter.com
+TrafficSpamFilter: bot|crawler|spider|checker|www.google|duckduckgo.com|bing.com|baidu.com|yandex.ru
+```
+
 ## Einstellungen
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:

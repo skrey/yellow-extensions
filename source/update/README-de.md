@@ -61,10 +61,6 @@ Inhaltsdatei mit Logdatei:
 
     ! [yellow log]
 
-Aktuelle Version und Erweiterungen in der Befehlszeile anzeigen:
- 
-`php yellow.php about`
-
 Aktualisierungen in der Befehlszeile anzeigen:
  
 `php yellow.php update`  
@@ -84,6 +80,10 @@ Erweiterungen in der Befehlszeile entfernen:
 `php yellow.php uninstall`  
 `php yellow.php uninstall gallery`  
 `php yellow.php uninstall english german swedish`  
+
+Aktuelle Version und Erweiterungen in der Befehlszeile anzeigen:
+ 
+`php yellow.php about`
 
 ## Einstellungen
 

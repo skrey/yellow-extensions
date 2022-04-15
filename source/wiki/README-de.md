@@ -100,7 +100,7 @@ Links zum Wiki anzeigen:
     [Siehe Seiten über Kaffee](/wiki/tag:kaffee/)
     [Siehe Seiten mit Beispielen](/wiki/tag:beispiel/)
 
-Anderen Ort festlegen, URL mit Unterverzeichnis zur Kategorisierung:
+Wikistartseite in den Einstellungen festlegen, URL mit Unterverzeichnis zur Kategorisierung:
 
     WikiStartLocation: /wiki/
     WikiNewLocation: /wiki/@tag/@title

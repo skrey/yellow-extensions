@@ -100,7 +100,7 @@ Showing links to wiki:
     [See pages about coffee](/wiki/tag:coffee/)
     [See pages with examples](/wiki/tag:example/)
 
-Configuring different location, URL with subfolder for categorisation:
+Configuring wiki start page in the settings, URL with subfolder for categorisation:
 
     WikiStartLocation: /wiki/
     WikiNewLocation: /wiki/@tag/@title

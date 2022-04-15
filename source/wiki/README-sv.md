@@ -100,7 +100,7 @@ Visa länkar till wikin:
     [Se sidor om kaffe](/wiki/tag:kaffe/)
     [Se sidor med exempel](/wiki/tag:exempel/)
 
-Konfigurera en annan plats, URL med undermapp för kategorisering: 
+Konfigurera wikistartsida i inställningar, URL med undermapp för kategorisering: 
 
     WikiStartLocation: /wiki/
     WikiNewLocation: /wiki/@tag/@title

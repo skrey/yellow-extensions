@@ -88,7 +88,7 @@ Modified: 2000-01-01 13:37:00
 Status: active
 ```
 
-Configuring different toolbar buttons:
+Configuring different toolbar buttons in the settings:
 
 ```
 EditToolbarButtons: auto 
@@ -97,7 +97,7 @@ EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, fil
 EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
 ```
 
-Configuring different upload locations:
+Configuring different upload locations in the settings:
 
 ```
 EditUploadNewLocation: /media/@group/@filename

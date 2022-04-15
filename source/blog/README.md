@@ -103,7 +103,7 @@ Showing links to blog:
     [See pages about coffee](/blog/tag:coffee/)
     [See pages with examples](/blog/tag:example/)
 
-Configuring different location, URL with subfolder for each year:
+Configuring blog start page in the settings, URL with subfolder for each year:
 
     BlogStartLocation: /blog/
     BlogNewLocation: /blog/@year/@title

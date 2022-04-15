@@ -103,7 +103,7 @@ Visa länkar till bloggen:
     [Se sidor om kaffe](/blog/tag:kaffe/)
     [Se sidor med exempel](/blog/tag:exempel/)
 
-Konfigurera en annan plats, URL med undermapp för varje år:
+Konfigurera bloggstartsida i inställningar, URL med undermapp för varje år:
 
     BlogStartLocation: /blog/
     BlogNewLocation: /blog/@year/@title
