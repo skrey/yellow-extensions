@@ -18,7 +18,7 @@ Det andra alternativet är att skapa ett användarkonto på [kommandoraden](http
 
 ## Hur man tar bort ett användarkonto
 
-Det första alternativet är att skapa ett användarkonto i en webbläsare. Logga in med ditt användarkonto. Gå till inställningarna. Du kan ta bort ditt eget användarkonto när som helst. Efter att du har bekräftat att du vill ta bort ditt användarkonto, får du ett sista meddelande och användarkontot kommer att raderas.
+Det första alternativet är att ta bort ett användarkonto i en webbläsare. Logga in med ditt användarkonto. Gå till inställningarna. Du kan ta bort ditt eget användarkonto när som helst. Efter att du har bekräftat att du vill ta bort ditt användarkonto, får du ett sista meddelande och användarkontot kommer att raderas.
 
 Det andra alternativet är att ta bort ett användarkonto på [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php user remove` följt av email. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
 
