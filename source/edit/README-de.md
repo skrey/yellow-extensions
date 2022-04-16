@@ -16,6 +16,12 @@ Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu erstell
 
 Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
+## Wie man ein Benutzerkonto löscht
+
+Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu löschen. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen. Du kannst dein eigenes Benutzerkonto jederzeit löschen. Nachdem du bestätigt hast dass du dein Benutzerkonto löschen möchtest, erhältst du eine abschließende E-Mail und das Benutzerkonto wird gelöscht.
+
+Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu löschen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user remove` gefolgt von E-Mail. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
+
 ## Wie man ein Benutzerkonto beschränkt
 
 Falls du nicht willst dass Seiten im Webbrowser verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/extensions/yellow-user.ini` und ändere `Access` und `Home`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
@@ -110,10 +116,16 @@ Vorhandene Benutzerkonten in der Befehlszeile anzeigen:
 
 `php yellow.php user`  
 
-Benutzerkonten in der Befehlszeile erstellen:
+Ein Benutzerkonto in der Befehlszeile erstellen:
  
 `php yellow.php user add email@example.com password`  
+
+Ein Benutzerkonto in der Befehlszeile ändern:
+
 `php yellow.php user change email@example.com password`  
+
+Ein Benutzerkonto in der Befehlszeile löschen:
+
 `php yellow.php user remove email@example.com`  
 
 ## Einstellungen

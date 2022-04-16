@@ -16,6 +16,12 @@ The first option is to create a user account in a web browser. Go to the login p
 
 The second option is to create a user account at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php user add` followed by email and password. All user accounts are stored in file `system/extensions/yellow-user.ini`.
 
+## How to remove a user account
+
+The first option is to remove a user account in a web browser. Log in with your user account. Go to the settings. You can remove your own user account at any time. After you have confirmed that you want to delete your user account, you will receive a final email and the user account will be deleted.
+
+The second option is to remove a user account at the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command). Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php user remove` followed by email. All user accounts are stored in file `system/extensions/yellow-user.ini`.
+
 ## How to restrict a user account
 
 If you don't want that pages are modified in a web browser, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Access` and `Home`. Users are allowed to edit pages within their home page, but nowhere else.
@@ -110,10 +116,16 @@ Showing available user accounts at the command line:
 
 `php yellow.php user`  
 
-Creating user accounts at the command line:
+Creating a user account at the command line:
  
 `php yellow.php user add email@example.com password`  
+
+Changing a user account at the command line:
+
 `php yellow.php user change email@example.com password`  
+
+Removing a user account at the command line:
+
 `php yellow.php user remove email@example.com`  
 
 ## Settings
