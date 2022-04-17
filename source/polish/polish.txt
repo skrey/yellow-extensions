@@ -53,6 +53,8 @@ CoreError434Title: Nie znaleziono strony
 CoreError434Text: Żądana strona nie została znaleziona. [Możesz utworzyć tę stronę](#data-action-edit).
 CoreError435Title: Nie znaleziono strony
 CoreError435Text: Żądana strona została usunięta. [Możesz przywrócić tę stronę](#data-action-restore).
+CoreError450Title: Update error
+CoreError450Text: Can't connect to the update server. An Internet connection is required.
 CoreError500Title: Błąd serwera
 CoreError500Text: Coś poszło nie tak. [yellow error]
 CzechDescription: Czeski/Čeština z językiem 'cs'.

@@ -53,6 +53,8 @@ CoreError434Title: ページが見つかりません
 CoreError434Text: 要求されたページは見つかりません。 [このページを作成できます](#data-action-edit).
 CoreError435Title: ページが見つかりません
 CoreError435Text: 要求されたページは削除されました。 [このページを復元できます](#data-action-restore).
+CoreError450Title: Update error
+CoreError450Text: Can't connect to the update server. An Internet connection is required.
 CoreError500Title: サーバーエラー
 CoreError500Text: 問題が発生しました。[yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.

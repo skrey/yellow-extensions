@@ -1,4 +1,4 @@
-# Norwegian 0.8.29
+# Norwegian 0.8.30
 
 Norwegian/Norsk med språket 'nb'.
 

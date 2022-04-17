@@ -53,6 +53,8 @@ CoreError434Title: Страница не найдена
 CoreError434Text: Запрошенная страница не найдена. [Вы можете создать эту страницу](#data-action-edit).
 CoreError435Title: Страница не найдена
 CoreError435Text: Запрошенная страница удалена. [Вы можете восстановить эту страницу](#data-action-restore).
+CoreError450Title: Update error
+CoreError450Text: Can't connect to the update server. An Internet connection is required.
 CoreError500Title: Ошибка сервера
 CoreError500Text: Что-то пошло не так. [yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.

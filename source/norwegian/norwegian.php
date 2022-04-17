@@ -2,7 +2,7 @@
 // Norwegian extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/norwegian
 
 class YellowNorwegian {
-    const VERSION = "0.8.29";
+    const VERSION = "0.8.30";
     public $yellow;         // access to API
     
     // Handle initialisation
