@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Publish 0.8.46
+# Publish 0.8.47
 
 Erweiterungen erstellen und veröffentlichen.
 
@@ -30,7 +30,7 @@ Erweiterungseinstellungen für eine Funktion:
 Extension: Helloworld
 Version: 0.8.15
 Description: Example feature for Datenstrom Yellow.
-HelpUrl: https://github.com/annasvensson/yellow-extension-helloworld
+DocumentationUrl: https://github.com/annasvensson/yellow-extension-helloworld
 DownloadUrl: https://github.com/annasvensson/yellow-extension-helloworld/archive/master.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
@@ -49,7 +49,7 @@ Erweiterungseinstellungen für ein Thema:
 Extension: Basic
 Version: 0.8.15
 Description: Example theme for Datenstrom Yellow.
-HelpUrl: https://github.com/annasvensson/yellow-extension-basic
+DocumentationUrl: https://github.com/annasvensson/yellow-extension-basic
 DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/master.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
@@ -68,7 +68,7 @@ Erweiterungseinstellungen für eine Sprache:
 Extension: German
 Version: 0.8.24
 Description: German/Deutsch with language 'de'.
-HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/german
+DocumentationUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/german
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/german.zip
 Published: 2019-01-24 19:42:13
 Translator: David Fehrmann
@@ -103,7 +103,7 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `Extension` = Name der Erweiterung  
 `Version` = Versionsnummer der Erweiterung  
 `Description` = Beschreibung der Erweiterung, maximal eine Zeile  
-`HelpUrl` = Hilfeseite der Erweiterung  
+`DocumentationUrl` = Dokumentation der Erweiterung  
 `DownloadUrl` = Adresse zum Herunterladen der Erweiterung  
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
 `Status` = Status der Erweiterung, [unterstützte Statuswerte](#einstellungen-status)  

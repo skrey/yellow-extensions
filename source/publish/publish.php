@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.46";
+    const VERSION = "0.8.47";
     public $yellow;                 // access to API
     public $extensions;             // number of extensions
     public $errors;                 // number of errors
@@ -147,9 +147,9 @@ class YellowPublish {
                     echo "ERROR publishing files: Class '$class' and file '$fileNameClass' is not possible!\n";
                 }
             }
-            if (!$settings->isExisting("helpUrl") || !$settings->isExisting("downloadUrl")) {
+            if (!$settings->isExisting("documentationUrl") || !$settings->isExisting("downloadUrl")) {
                 $statusCode = 500;
-                echo "ERROR publishing files: Please configure HelpUrl and DownloadUrl in file '$fileNameExtension'!\n";
+                echo "ERROR publishing files: Please configure DocumentationUrl and DownloadUrl in file '$fileNameExtension'!\n";
             }
             if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($fileNameExtension, $fileDataNew)) {
                 $statusCode = 500;

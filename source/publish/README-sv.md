@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Publish 0.8.46
+# Publish 0.8.47
 
 Göra och publicera tillägg.
 
@@ -30,7 +30,7 @@ Tilläggsinställningar för en funktion:
 Extension: Helloworld
 Version: 0.8.15
 Description: Example feature for Datenstrom Yellow.
-HelpUrl: https://github.com/annasvensson/yellow-extension-helloworld
+DocumentationUrl: https://github.com/annasvensson/yellow-extension-helloworld
 DownloadUrl: https://github.com/annasvensson/yellow-extension-helloworld/archive/master.zip
 Published: 2019-01-24 19:42:13
 Developer: Anna Svensson
@@ -49,7 +49,7 @@ Tilläggsinställningar för ett tema:
 Extension: Basic
 Version: 0.8.15
 Description: Example theme for Datenstrom Yellow.
-HelpUrl: https://github.com/annasvensson/yellow-extension-basic
+DocumentationUrl: https://github.com/annasvensson/yellow-extension-basic
 DownloadUrl: https://github.com/annasvensson/yellow-extension-basic/archive/master.zip
 Published: 2019-01-24 19:42:13
 Designer: Anna Svensson
@@ -68,7 +68,7 @@ Tilläggsinställningar för ett språk::
 Extension: Swedish
 Version: 0.8.24
 Description: Swedish/Svenska with language 'sv'.
-HelpUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish
+DocumentationUrl: https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish
 DownloadUrl: https://github.com/datenstrom/yellow-extensions/raw/master/zip/swedish.zip
 Published: 2019-01-24 19:42:13
 Translator: Adam Engel
@@ -103,7 +103,7 @@ Följande inställningar kan konfigureras i filen `extension.ini`:
 `Extension` = tilläggets namn  
 `Version` = tilläggets versionnummer  
 `Description` = tilläggets beskrivning, max en rad  
-`HelpUrl` = tilläggets hjälpsida  
+`DocumentationUrl` = tilläggets dokumentation  
 `DownloadUrl` = tilläggets nedladdningsadress  
 `Published` = tilläggets publiceringsdatum, ÅÅÅÅ-MM-DD format  
 `Status` = tilläggets status, [stödda statusvärden](#inställningar-status)  
