@@ -2,7 +2,7 @@
 // Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/slider
 
 class YellowSlider {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -24,7 +24,7 @@ class YellowSlider {
                 $pattern = "unknown";
                 $files = $this->yellow->media->clean();
             } else {
-                $images = $this->yellow->system->get("coreImageDirectory");
+                $images = $this->yellow->system->get("coreImageLocation");
                 $files = $this->yellow->media->index()->match("#$images$pattern#");
             }
             if ($this->yellow->extension->isExisting("image")) {

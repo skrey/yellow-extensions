@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.68
+# Core 0.8.69
 
 Kernfunktionalität der Webseite.
 
@@ -65,6 +65,7 @@ Inhaltsdatei mit Weiterleitung:
 `CoreLanguageFile` = Datei mit Spracheinstellungen  
 `CoreWebsiteFile` = Logdatei der Webseite  
 `CoreMediaLocation` = Ort für Mediendateien  
+`ImageThumbnailLocation` = Ort für Miniaturbilder  
 `CoreDownloadLocation` = Ort für Dateien zum Herunterladen  
 `CoreImageLocation` = Ort für Bilder  
 `CoreExtensionLocation` = Ort für zugeordnete Erweiterungsdateien  

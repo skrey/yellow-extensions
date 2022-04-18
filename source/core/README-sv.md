@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.68
+# Core 0.8.69
 
 Webbplatsens kärnfunktion.
 
@@ -65,6 +65,7 @@ Innehållsfil med omdirigering:
 `CoreLanguageFile` = fil med språkinställningar  
 `CoreWebsiteFile` = loggfilen för webbplatsen  
 `CoreMediaLocation` = plats för mediafiler  
+`CoreThumbnailLocation` = plats för miniatyrbilder  
 `CoreDownloadLocation` = plats för nedladdningar  
 `CoreImageLocation` = plats för bilder  
 `CoreExtensionLocation` = plats för mappade tilläggsfiler  

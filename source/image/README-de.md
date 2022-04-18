@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Image 0.8.14
+# Image 0.8.15
 
 Bilder in unterschiedlichen Größen.
 
@@ -53,8 +53,6 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `ImageUploadWidthMax` = maximale Breite zum Hochladen, größere Bilder werden verkleinert  
 `ImageUploadHeightMax` = maximale Höhe zum Hochladen, größere Bilder werden verkleinert  
 `ImageUploadJpgQuality` = JPG-Qualität für hochgeladene Bilder  
-`ImageThumbnailLocation` = Ort für Miniaturbilder  
-`ImageThumbnailDirectory` = Verzeichnis für Miniaturbilder  
 `ImageThumbnailJpgQuality` = JPG-Qualität für Miniaturbilder  
 
 ## Installation

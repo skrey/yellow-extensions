@@ -89,7 +89,7 @@ YellowLanguage::load file:system/extensions/english.txt
 YellowLanguage::load file:system/extensions/german.txt
 YellowLanguage::load file:system/extensions/swedish.txt
 YellowLanguage::load file:system/extensions/yellow-language.ini
-YellowLookup::findFileFromLocation /sv/wiki/ -> content/3-sv/2-wiki/page.md
+YellowLookup::findFileFromContentLocation /sv/wiki/ -> content/3-sv/2-wiki/page.md
 ```
 
 Få maximal information genom att öka debug-level till `CoreDebugMode: 3`.

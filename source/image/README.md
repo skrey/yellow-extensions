@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Image 0.8.14
+# Image 0.8.15
 
 Images and thumbnails.
 
@@ -53,8 +53,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `ImageUploadWidthMax` = maximum width for upload, larger images are resized  
 `ImageUploadHeightMax` = maximum height for upload, larger images are resized  
 `ImageUploadJpgQuality` = JPG quality for uploaded images  
-`ImageThumbnailLocation` = location for thumbnails  
-`ImageThumbnailDirectory` = directory for thumbnails  
 `ImageThumbnailJpgQuality` = JPG quality for thumbnails  
 
 ## Installation

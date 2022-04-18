@@ -224,7 +224,7 @@ Yellow page collection gives access to multiple pages:
 Filter page collection by [page setting](how-to-change-the-system#page-settings)
 
 **pages->match($regex = "/.*/")**  
-Filter page collection by file name
+Filter page collection by location
 
 **pages->sort($key, $ascendingOrder = true)**  
 Sort page collection by [page setting](how-to-change-the-system#page-settings)
@@ -753,7 +753,7 @@ Here's an example code for calling a function from another extension:
 
 ``` php
 if ($this->yellow->extension->isExisting("image")) {
-    $fileName = $this->yellow->system->get("coreImageDirectory")."photo.jpg";
+    $fileName = "media/images/photo.jpg";
     list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($fileName, "100%", "100%");
     echo "<img src=\"".htmlspecialchars($src)."\" width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\" />";
 }

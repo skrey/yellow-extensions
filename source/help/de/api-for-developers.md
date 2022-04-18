@@ -223,7 +223,7 @@ Yellow-Page-Collection gibt Zugang zu mehreren Seiten:
 Filtere eine Seitenkollektion nach [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen)
 
 **pages->match($regex = "/.*/")**  
-Filtere eine Seitenkollektion nach Dateinamen
+Filtere eine Seitenkollektion nach Ort
 
 **pages->sort($key, $ascendingOrder = true)**  
 Sortiere eine Seitenkollektion nach [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen)
@@ -752,7 +752,7 @@ Hier ist ein Beispiel-Code um eine Funktion aus einer anderen Erweiterung aufzur
 
 ``` php
 if ($this->yellow->extension->isExisting("image")) {
-    $fileName = $this->yellow->system->get("coreImageDirectory")."photo.jpg";
+    $fileName = "media/images/photo.jpg";
     list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($fileName, "100%", "100%");
     echo "<img src=\"".htmlspecialchars($src)."\" width=\"".htmlspecialchars($width)."\" height=\"".htmlspecialchars($height)."\" />";
 }
