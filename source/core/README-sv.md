@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.69
+# Core 0.8.70
 
 Webbplatsens kärnfunktion.
 
@@ -68,8 +68,8 @@ Innehållsfil med omdirigering:
 `CoreDownloadLocation` = plats för nedladdningar  
 `CoreImageLocation` = plats för bilder  
 `CoreThumbnailLocation` = plats för miniatyrbilder  
-`CoreExtensionLocation` = plats för mappade tilläggsfiler  
-`CoreThemeLocation` = plats för mappade temafiler  
+`CoreExtensionLocation` = plats för virtuellt mappade tilläggsfiler  
+`CoreThemeLocation` = plats för virtuellt mappade temafiler  
 `CoreMultiLanguageMode` = aktivera flerspråkigt läge, 1 eller 0  
 `CoreDebugMode` = aktivera felsökningsläget, 0 till 3  
 

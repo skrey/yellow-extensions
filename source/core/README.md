@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.69
+# Core 0.8.70
 
 Core functionality of the website.
 
@@ -68,8 +68,8 @@ Content file with redirection:
 `CoreDownloadLocation` = location for downloads  
 `CoreImageLocation` = location for images  
 `CoreThumbnailLocation` = location for thumbnails  
-`CoreExtensionLocation` = location for mapped extension files  
-`CoreThemeLocation` = location for mapped theme files  
+`CoreExtensionLocation` = location for virtually mapped extension files  
+`CoreThemeLocation` = location for virtually mapped theme files  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
 `CoreDebugMode` = enable debug mode, 0 to 3  
 
