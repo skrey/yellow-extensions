@@ -45,8 +45,8 @@ The user settings are stored in file `system/extensions/yellow-user.ini`. Here's
     Name: Anna Svensson
     Description: Designer
     Language: en
-    Home: /
     Access: create, edit, delete, restore, upload, configure, install, uninstall, update
+    Home: /
     Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
     Stamp: 21196d7e857d541849e4
     Pending: none
@@ -54,7 +54,7 @@ The user settings are stored in file `system/extensions/yellow-user.ini`. Here's
     Modified: 2000-01-01 13:37:00
     Status: active
 
-You can use a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command) to create new user accounts. A user account consists of `Email` and other settings. If you don't want that pages are modified in a web browser, then restrict user accounts. Open the configuration file, change `Home` and `Access`. Users are allowed to edit pages within their home page, but nowhere else.
+You can use a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) or the [command line](https://github.com/datenstrom/yellow-extensions/tree/master/source/command) to create new user accounts. A user account consists of `Email` and other settings. If you don't want that pages are modified in a web browser, then restrict user accounts. Open the configuration file, change `Access` and `Home`. Users are allowed to edit pages within their home page, but nowhere else.
 
 ## Language settings
 

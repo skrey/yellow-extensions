@@ -190,6 +190,7 @@ EditToolbarHelp: Help
 EditMailFooter: @sitename
 EditDataGenerated: This page is generated automatically.
 EditUploadProgress: Uploading file…
+EditUserDescription: Editor
 EditMenuSettings: Settings
 EditMenuHelp: Help
 EditMenuLogout: Logout

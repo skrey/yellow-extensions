@@ -190,6 +190,7 @@ EditToolbarHelp: Nápověda
 EditMailFooter: @sitename
 EditDataGenerated: This page is generated automatically.
 EditUploadProgress: Uploading file…
+EditUserDescription: Editor
 EditMenuSettings: Nastavení
 EditMenuHelp: Nápověda
 EditMenuLogout: Odhlásit

@@ -1,4 +1,4 @@
-# Slovak 0.8.30
+# Slovak 0.8.31
 
 Slovak/Slovenčina s jazykom 'sk'.
 

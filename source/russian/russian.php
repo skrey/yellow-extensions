@@ -2,7 +2,7 @@
 // Russian extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/russian
 
 class YellowRussian {
-    const VERSION = "0.8.30";
+    const VERSION = "0.8.31";
     public $yellow;         // access to API
     
     // Handle initialisation

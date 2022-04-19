@@ -190,6 +190,7 @@ EditToolbarHelp: Yardım
 EditMailFooter: @sitename
 EditDataGenerated: Bu sayfa otomatik olarak oluşturulur.
 EditUploadProgress: Dosya yükleniyor…
+EditUserDescription: Editor
 EditMenuSettings: Ayarlar
 EditMenuHelp: Yardım
 EditMenuLogout: Çıkış

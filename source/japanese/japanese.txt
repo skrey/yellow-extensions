@@ -190,6 +190,7 @@ EditToolbarHelp: ヘルプ
 EditMailFooter: @sitename
 EditDataGenerated: このページは自動的に生成されます。
 EditUploadProgress: ファイルをアップロード中…
+EditUserDescription: Editor
 EditMenuSettings: 設定
 EditMenuHelp: ヘルプ
 EditMenuLogout: ログアウト

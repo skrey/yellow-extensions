@@ -1,4 +1,4 @@
-# French 0.8.30
+# French 0.8.31
 
 French/Français avec la langue 'fr'.
 

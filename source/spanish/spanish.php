@@ -2,7 +2,7 @@
 // Spanish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/spanish
 
 class YellowSpanish {
-    const VERSION = "0.8.30";
+    const VERSION = "0.8.31";
     public $yellow;         // access to API
     
     // Handle initialisation

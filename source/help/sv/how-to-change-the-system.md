@@ -45,8 +45,8 @@ Användarinställningar lagras i filen `system/extensions/yellow-user.ini`. Här
     Name: Anna Svensson
     Description: Formgivare
     Language: sv
-    Home: /
     Access: create, edit, delete, restore, upload, configure, install, uninstall, update
+    Home: /
     Hash: $2y$10$j26zDnt/xaWxC/eqGKb9p.d6e3pbVENDfRzauTawNCUHHl3CCOIzG
     Stamp: 21196d7e857d541849e4
     Pending: none
@@ -54,7 +54,7 @@ Användarinställningar lagras i filen `system/extensions/yellow-user.ini`. Här
     Modified: 2000-01-01 13:37:00
     Status: active
 
-Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) eller [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md) för att skapa nya användarkonton. Ett användarkonto består av `Email` och andra inställningar. Om du inte vill att sidorna ska ändras i en webbläsare begränsar du användarkonton. Öppna konfigurationsfilen, ändra `Home` och `Access`. Användare får redigera sidor på sin hemsida, men inte någon annanstans.
+Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) eller [kommandoraden](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-sv.md) för att skapa nya användarkonton. Ett användarkonto består av `Email` och andra inställningar. Om du inte vill att sidorna ska ändras i en webbläsare begränsar du användarkonton. Öppna konfigurationsfilen, ändra `Access` och `Home`. Användare får redigera sidor på sin hemsida, men inte någon annanstans.
 
 ## Språkinställningar
 

@@ -190,6 +190,7 @@ EditToolbarHelp: 帮助
 EditMailFooter: @sitename
 EditDataGenerated: 此页面自动生成。
 EditUploadProgress: 文件上传中…
+EditUserDescription: Editor
 EditMenuSettings: 设置
 EditMenuHelp: 帮助
 EditMenuLogout: 登出
