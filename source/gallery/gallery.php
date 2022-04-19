@@ -2,7 +2,7 @@
 // Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery
 
 class YellowGallery {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -28,7 +28,7 @@ class YellowGallery {
             if ($this->yellow->extension->isExisting("image")) {
                 if (count($files)) {
                     $page->setLastModified($files->getModified());
-                    $output = "<div class=\"".($style!="simple" ? "photoswipe" : "gallery")."\" data-fullscreenel=\"false\" data-shareel=\"false\"";
+                    $output = "<div class=\"".($style!="simple" ? "photoswipe" : "gallery")."\" data-fullscreenel=\"false\" data-shareel=\"false\" data-history=\"false\"";
                     if (substru($size, -1, 1)!="%") $output .= " data-thumbsquare=\"true\"";
                     $output .= ">\n";
                     foreach ($files as $file) {

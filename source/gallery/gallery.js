@@ -50,21 +50,6 @@ var initPhotoSwipeFromDOM = function() {
         return options;
     };
     
-    // Parse gallery and picture index from URL
-    var parseHash = function() {
-        var hash = window.location.hash.substring(1),
-        params = {};
-        if (hash.length<5) return params;
-        var vars = hash.split("&");
-        for (var i=0; i<vars.length; i++) {
-            if (!vars[i]) continue;
-            var pair = vars[i].split("=");
-            if (pair.length<2) continue;
-            params[pair[0]] = pair[1];
-        }
-        return params;
-    };
-    
     // Create gallery template if necessary
     var createTemplate = function(selector) {
         var template = document.querySelectorAll(selector)[0];
@@ -83,7 +68,7 @@ var initPhotoSwipeFromDOM = function() {
             "<div class=\"pswp__ui pswp__ui--hidden\">"+
             "<div class=\"pswp__top-bar\">"+
             "<div class=\"pswp__counter\"></div>"+
-            "<button class=\"pswp__button pswp__button--close\" title=\"Close (Esc)\"></button>"+
+            "<button class=\"pswp__button pswp__button--close\" title=\"Close\"></button>"+
             "<button class=\"pswp__button pswp__button--share\" title=\"Share\"></button>"+
             "<button class=\"pswp__button pswp__button--fs\" title=\"Toggle fullscreen\"></button>"+
             "<button class=\"pswp__button pswp__button--zoom\" title=\"Zoom in/out\"></button>"+
@@ -98,8 +83,8 @@ var initPhotoSwipeFromDOM = function() {
             "<div class=\"pswp__share-modal pswp__share-modal--hidden pswp__single-tap\">"+
             "<div class=\"pswp__share-tooltip\"></div>"+
             "</div>"+
-            "<button class=\"pswp__button pswp__button--arrow--left\" title=\"Previous (arrow left)\"></button>"+
-            "<button class=\"pswp__button pswp__button--arrow--right\" title=\"Next (arrow right)\"></button>"+
+            "<button class=\"pswp__button pswp__button--arrow--left\" title=\"Previous\"></button>"+
+            "<button class=\"pswp__button pswp__button--arrow--right\" title=\"Next\"></button>"+
             "<div class=\"pswp__caption\">"+
             "<div class=\"pswp__caption__center\"></div>"+
             "</div>"+
@@ -137,7 +122,7 @@ var initPhotoSwipeFromDOM = function() {
     };
     
     // Open gallery
-    var openPhotoSwipe = function(index, element, disableAnimation, fromURL) {
+    var openPhotoSwipe = function(index, element) {
         var gallery,
         template = createTemplate(".pswp"),
         items = parseElements(element),
@@ -147,12 +132,12 @@ var initPhotoSwipeFromDOM = function() {
             "bgOpacity", "allowPanToNext", "pinchToClose", "closeOnScroll", "escKey", "arrowKeys",
             "closeEl", "captionEl", "fullscreenEl", "zoomEl", "shareEl", "counterEl",
             "arrowEl", "preloaderEl", "tapToClose", "tapToToggleControls", "clickToCloseNonZoomable"]);
-        options["getThumbBoundsFn"] = function(index) {
+        options.getThumbBoundsFn = function(index) {
             var thumbnail = items[index].el.children[0],
             rect = thumbnail.getBoundingClientRect();
             return { x:rect.left, y:rect.top + window.pageYOffset, w:rect.width };
         };
-        options["addCaptionHTMLFn"] = function(item, captionEl, isFake) {
+        options.addCaptionHTMLFn = function(item, captionEl, isFake) {
             if (item.caption) {
                 captionEl.children[0].innerText = item.caption;
                 item.title = true;
@@ -169,22 +154,7 @@ var initPhotoSwipeFromDOM = function() {
                 items[i].msrc = false;
             }
         }
-        if (disableAnimation) options.showAnimationDuration = 0;
-        if (fromURL) {
-            if (options.galleryPIDs) {
-                for (var j=0; j<items.length; j++) {
-                    if (items[j].pid==index) {
-                        options.index = j;
-                        break;
-                    }
-                }
-            } else {
-                options.index = parseInt(index, 10)-1;
-            }
-        } else {
-            options.index = parseInt(index, 10);
-        }
-        if (isNaN(options.index)) return;
+        options.index = parseInt(index, 10);
         gallery = new PhotoSwipe(template, PhotoSwipeUI_Default, items, options);
         gallery.init();
     };
@@ -192,16 +162,7 @@ var initPhotoSwipeFromDOM = function() {
     // Initialise gallery and bind events
     var elements = document.querySelectorAll(".photoswipe");
     for (var i=0, l=elements.length; i<l; i++) {
-        elements[i].setAttribute("data-galleryuid", i+1);
         elements[i].onclick = onClickGallery;
-    }
-    
-    // Check if URL contains gallery and picture index
-    if (elements.length) {
-        var params = parseHash();
-        if (params.gid>0 && params.gid<=elements.length && params.pid>0) {
-            openPhotoSwipe(params.pid, elements[params.gid-1], true, true);
-        }
     }
 };
 
