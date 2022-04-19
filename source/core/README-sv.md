@@ -65,9 +65,9 @@ Innehållsfil med omdirigering:
 `CoreLanguageFile` = fil med språkinställningar  
 `CoreWebsiteFile` = loggfilen för webbplatsen  
 `CoreMediaLocation` = plats för mediafiler  
-`CoreThumbnailLocation` = plats för miniatyrbilder  
 `CoreDownloadLocation` = plats för nedladdningar  
 `CoreImageLocation` = plats för bilder  
+`CoreThumbnailLocation` = plats för miniatyrbilder  
 `CoreExtensionLocation` = plats för mappade tilläggsfiler  
 `CoreThemeLocation` = plats för mappade temafiler  
 `CoreMultiLanguageMode` = aktivera flerspråkigt läge, 1 eller 0  

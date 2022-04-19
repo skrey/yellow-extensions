@@ -65,9 +65,9 @@ Inhaltsdatei mit Weiterleitung:
 `CoreLanguageFile` = Datei mit Spracheinstellungen  
 `CoreWebsiteFile` = Logdatei der Webseite  
 `CoreMediaLocation` = Ort für Mediendateien  
-`ImageThumbnailLocation` = Ort für Miniaturbilder  
 `CoreDownloadLocation` = Ort für Dateien zum Herunterladen  
 `CoreImageLocation` = Ort für Bilder  
+`ImageThumbnailLocation` = Ort für Miniaturbilder  
 `CoreExtensionLocation` = Ort für zugeordnete Erweiterungsdateien  
 `CoreThemeLocation` = Ort für zugeordnete Themendateien  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  

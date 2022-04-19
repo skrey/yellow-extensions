@@ -65,9 +65,9 @@ Content file with redirection:
 `CoreLanguageFile` = file with language settings  
 `CoreWebsiteFile` = log file of the website  
 `CoreMediaLocation` = location for media files  
-`CoreThumbnailLocation` = location for thumbnails  
 `CoreDownloadLocation` = location for downloads  
 `CoreImageLocation` = location for images  
+`CoreThumbnailLocation` = location for thumbnails  
 `CoreExtensionLocation` = location for mapped extension files  
 `CoreThemeLocation` = location for mapped theme files  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
