@@ -12,7 +12,7 @@ Die Suche ist auf deiner Webseite vorhanden als `http://website/search/`. Sie du
 
 ## Wie man eine Suche feinjustiert
 
-Falls du nicht den Inhalt der gesamte Webseite durchsuchen willst, feinjustiere die Suche. Du kannst unterschiedliche Filter benutzen um Suchergebnisse einzugrenzen. Der Filter `author` findet Seiten von einem bestimmten Autor. Der Filter `language` findet Seiten in einer bestimmten Sprache. Der Filter `tag` findet Seiten mit einem bestimmten Tag.
+Falls du nicht die gesamte Webseite durchsuchen willst, feinjustiere die Suche. Du kannst unterschiedliche Filter benutzen um Suchergebnisse einzugrenzen. Der Filter `author` findet Seiten von einem bestimmten Autor. Der Filter `language` findet Seiten in einer bestimmten Sprache. Der Filter `tag` findet Seiten mit einem bestimmten Tag.
 
 ## Beispiele
 

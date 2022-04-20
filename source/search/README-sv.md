@@ -12,7 +12,7 @@ Sökningen är tillgänglig på din webbplats som `http://website/search/`. Den 
 
 ## Hur man finjusterar en sökning
 
-Om du inte vill söka igenom innehållet på hela webbplatsen, finjustera sökningen. Du kan använda olika filter för att begränsa sökresultaten. Filtret `author` hittar sidor av en specifik författare. Filtret `language` hittar sidor på ett specifikt språk. Filtret `tag` hittar sidor med en specifik tagg.
+Om du inte vill söka igenom hela webbplatsen, finjustera sökningen. Du kan använda olika filter för att begränsa sökresultaten. Filtret `author` hittar sidor av en specifik författare. Filtret `language` hittar sidor på ett specifikt språk. Filtret `tag` hittar sidor med en specifik tagg.
 
 ## Exempel
 

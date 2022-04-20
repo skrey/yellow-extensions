@@ -59,7 +59,7 @@ Verschiedene Spamfilter in den Einstellungen festlegen:
 
     ContactSpamFilter: advert|promot|market|traffic|click here
     ContactSpamFilter: advert|promot|market|traffic|click here|youtube|instagram|twitter
-    ContactSpamFilter: werbung|kaufe|rabatt|singles in ihrer nähe|suchmaschinenoptimierung
+    ContactSpamFilter: werbung|kaufe|rabatt|singles in deiner nähe|suchmaschinenoptimierung
 
 ## Einstellungen
 

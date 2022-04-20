@@ -47,7 +47,7 @@ Content file for blog:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Content file for blog, with a page break:
+Content file for blog, with page break:
 
     ---
     Title: Fika is good for you

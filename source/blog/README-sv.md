@@ -47,7 +47,7 @@ Innehållsfil för bloggen:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Innehållsfil för bloggen, med en sidbrytning:
+Innehållsfil för bloggen, med sidbrytning:
 
     ---
     Title: Fika är bra för dig

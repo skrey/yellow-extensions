@@ -47,7 +47,7 @@ Inhaltsdatei fürs Blog:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Inhaltsdatei fürs Blog, mit einem Seitenumbruch:
+Inhaltsdatei fürs Blog, mit Seitenumbruch:
 
     ---
     Title: Fika ist gut für dich

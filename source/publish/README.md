@@ -10,7 +10,7 @@ Make and publish extensions.
 
 Start with an [example feature](https://github.com/schulle4u/yellow-extension-helloworld), [example theme](https://github.com/schulle4u/yellow-extension-basic) or [example language](https://github.com/datenstrom/yellow-extensions/tree/master/source/english). This will show you which files and settings are required. Every extension needs an `extension.ini` file with extension settings. Please make sure that your extension follows our coding and documentation standards. It's not important which standard we use, but that we all use a common one. Then you can dive into any extension and find a well-known structure in which you can quickly find your way around. Upload your extension to GitHub, let us know if you need help.
 
-If you want others to discover your extension, add the topic [datenstrom-yellow](https://github.com/topics/datenstrom-yellow) to your repository.
+If you want others to discover your extension, add [datenstrom-yellow](https://github.com/topics/datenstrom-yellow) to your repository.
 
 ## How to publish an extension
 
