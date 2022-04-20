@@ -12,7 +12,7 @@ The search is available on your website as `http://website/search/`. It searches
 
 ## How to fine-tune a search
 
-If you don't want to search trough the entire website, fine-tune the search. You can use different filters to limit search results. The `author:` filter finds pages by a specific author. The `language:` filter finds pages in a specific language. The `tag:` filter finds pages with a specific tag. With the `folder:` filter you search only in a specific folder. 
+If you don't want to search trough the entire website, you can use different filters to limit search results. The `author:` filter finds pages by a specific author. The `language:` filter finds pages in a specific language. The `tag:` filter finds pages with a specific tag. With the `folder:` filter you search only in a specific folder. 
 
 ## Examples
 
