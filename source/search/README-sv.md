@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Search 0.8.14
+# Search 0.8.15
 
 Heltekstsökning.
 
@@ -12,7 +12,7 @@ Sökningen är tillgänglig på din webbplats som `http://website/search/`. Den 
 
 ## Hur man finjusterar en sökning
 
-Om du inte vill söka igenom hela webbplatsen, finjustera sökningen. Du kan använda olika filter för att begränsa sökresultaten. Filtret `author` hittar sidor av en specifik författare. Filtret `language` hittar sidor på ett specifikt språk. Filtret `tag` hittar sidor med en specifik tagg.
+Om du inte vill söka igenom hela webbplatsen, finjustera sökningen. Du kan använda olika filter för att begränsa sökresultaten. Filtret `author:` hittar sidor av en specifik författare. Filtret `language:` hittar sidor på ett specifikt språk. Filtret `tag:` hittar sidor med en specifik tagg. Med filtret `folder:` söker man endast i en specifik mapp.
 
 ## Exempel
 
@@ -27,6 +27,7 @@ Söka på en webbplats, olika filter:
     kaffe author:datenstrom
     kaffe language:sv
     kaffe tag:exempel
+    kaffe folder:help
 
 Lägga till ett sökfält:
 

@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.14";
+    const VERSION = "0.8.15";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -74,6 +74,7 @@ class YellowSearch {
                     if (isset($filters["author"])) $pages->filter("author", $filters["author"]);
                     if (isset($filters["language"])) $pages->filter("language", $filters["language"]);
                     if (isset($filters["status"])) $pages->filter("status", $filters["status"]);
+                    if (isset($filters["folder"])) $pages->match("#$filters[folder]#i");
                 }
                 $pages->sort("modified")->sort("searchscore", false);
                 $text = empty($query) ? $this->yellow->language->getText("searchSpecialChanges") : $query;
@@ -95,7 +96,7 @@ class YellowSearch {
     public function getSearchInformation($query, $tokensMax) {
         $tokens = array_unique(array_filter($this->yellow->toolbox->getTextArguments($query), "strlen"));
         $filters = array();
-        $filtersSupported = array("tag", "author", "language", "status", "special");
+        $filtersSupported = array("tag", "author", "language", "status", "folder", "special");
         foreach ($_REQUEST as $key=>$value) {
             if (in_array($key, $filtersSupported)) $filters[$key] = $value;
         }

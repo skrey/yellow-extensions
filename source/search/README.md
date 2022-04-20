@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Search 0.8.14
+# Search 0.8.15
 
 Full-text search.
 
@@ -12,7 +12,7 @@ The search is available on your website as `http://website/search/`. It searches
 
 ## How to fine-tune a search
 
-If you don't want to search trough the entire website, fine-tune the search. You can use different filters to limit search results. The `author` filter finds pages by a specific author. The `language` filter finds pages in a specific language. The `tag` filter finds pages with a specific tag.
+If you don't want to search trough the entire website, fine-tune the search. You can use different filters to limit search results. The `author:` filter finds pages by a specific author. The `language:` filter finds pages in a specific language. The `tag:` filter finds pages with a specific tag. With the `folder:` filter you search only in a specific folder. 
 
 ## Examples
 
@@ -27,6 +27,7 @@ Searching a website, different filters:
     coffee author:datenstrom
     coffee language:en
     coffee tag:example
+    coffee folder:help
 
 Adding a search field:
 
