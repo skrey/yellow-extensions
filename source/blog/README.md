@@ -30,7 +30,7 @@ The following arguments are available, all but the first argument are optional:
 
 ## Examples
 
-Content file with blog page:
+Content file for blog:
 
     ---
     Title: Blog example
@@ -47,7 +47,7 @@ Content file with blog page:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Content file with blog page and page break:
+Content file for blog, with a page break:
 
     ---
     Title: Fika is good for you

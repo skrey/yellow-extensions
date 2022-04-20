@@ -14,7 +14,7 @@ To show a contact form on other pages use a `[contact]` shortcut. You can also a
 
 ## How to restrict a contact page
 
-If you don't want that messages are sent to anyone, then restrict emails. Open file `system/extensions/yellow-system.ini` and change `ContactEmailRestriction: 1`. All contact messages go directly to the webmaster.
+If you don't want that messages are sent to anyone, then restrict emails. Open file `system/extensions/yellow-system.ini` and change `ContactEmailRestriction: 1`. All contact messages go directly to the webmaster and it's no longer possible to set a different person.
 
 If you don't want that messages with links are sent, then restrict links. Open file `system/extensions/yellow-system.ini` and change `ContactLinkRestriction: 1`. Contact messages must not contain clickable links, this blocks many unwanted messages. You can also configure keywords in the spam filter, fortunately, many spammers send the same message multiple times.
 

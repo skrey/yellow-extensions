@@ -10,6 +10,10 @@ Heltekstsökning.
 
 Sökningen är tillgänglig på din webbplats som `http://website/search/`. Den söker igenom innehållet på hela webbplatsen, endast synliga sidor ingår. För att visa ett sökfält, lägg till en `[search]` förkortning. Du kan också lägga till en länk till sökningen någonstans på din webbplats.
 
+## Hur man finjusterar en sökning
+
+Om du inte vill söka igenom innehållet på hela webbplatsen, finjustera sökningen. Du kan använda olika filter för att begränsa sökresultaten. Filtret `author` hittar sidor av en specifik författare. Filtret `language` hittar sidor på ett specifikt språk. Filtret `tag` hittar sidor med en specifik tagg.
+
 ## Exempel
 
 Söka på en webbplats:

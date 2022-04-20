@@ -28,7 +28,7 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
 
 ## Exempel
 
-Innehållsfil med wikisida:
+Innehållsfil för wikin:
 
     ---
     Title: Wikisida
@@ -43,7 +43,7 @@ Innehållsfil med wikisida:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Innehållsfil med wikisida:
+Innehållsfil för wikin:
 
     ---
     Title: Kaffe är bra för dig

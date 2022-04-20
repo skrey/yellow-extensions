@@ -30,7 +30,7 @@ Följande argument är tillgängliga, alla utom det första argumentet är valfr
 
 ## Exempel
 
-Innehållsfil med bloggsida:
+Innehållsfil för bloggen:
 
     ---
     Title: Blogg exempel 
@@ -47,7 +47,7 @@ Innehållsfil med bloggsida:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Innehållsfil med bloggsida och sidbrytning:
+Innehållsfil för bloggen, med en sidbrytning:
 
     ---
     Title: Fika är bra för dig

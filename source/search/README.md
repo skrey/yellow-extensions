@@ -10,6 +10,10 @@ Full-text search.
 
 The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. To show a search field add a `[search]` shortcut. You can also add a link to the search somewhere on your website.
 
+## How to fine-tune a search
+
+If you don't want to search trough the content of the entire website, fine-tune the search. You can use different filters to limit search results. The `author` filter finds pages by a specific author. The `language` filter finds pages in a specific language. The `tag` filter finds pages with a specific tag.
+
 ## Examples
 
 Searching a website:

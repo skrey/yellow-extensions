@@ -28,7 +28,7 @@ The following arguments are available, all but the first argument are optional:
 
 ## Examples
 
-Content file with wiki page:
+Content file for wiki:
 
     ---
     Title: Wiki page
@@ -43,7 +43,7 @@ Content file with wiki page:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Content file with wiki page:
+Content file for wiki:
 
     ---
     Title: Coffee is good for you

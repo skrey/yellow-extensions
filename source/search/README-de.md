@@ -10,6 +10,10 @@ Volltext-Suche.
 
 Die Suche ist auf deiner Webseite vorhanden als `http://website/search/`. Sie durchsucht den Inhalt der gesamten Webseite, nur sichtbare Seiten sind enthalten. Um ein Suchfeld anzuzeigen, benutze eine `[search]`-Abkürzung. Du kannst auch einen Link zur Suche irgendwo auf deiner Webseite einbauen.
 
+## Wie man eine Suche feinjustiert
+
+Falls du nicht den Inhalt der gesamte Webseite durchsuchen willst, feinjustiere die Suche. Du kannst unterschiedliche Filter benutzen um Suchergebnisse einzugrenzen. Der Filter `author` findet Seiten von einem bestimmten Autor. Der Filter `language` findet Seiten in einer bestimmten Sprache. Der Filter `tag` findet Seiten mit einem bestimmten Tag.
+
 ## Beispiele
 
 Webseite durchsuchen:
