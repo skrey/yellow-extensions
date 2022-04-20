@@ -224,7 +224,7 @@ Yellow page collection ger tillgång till flera sidor:
 Filtrera page collection efter [sidinställning](how-to-change-the-system#sidinställningar)
 
 **pages->match($regex = "/.*/" $filterByLocation = true)**  
-Filtrera page collection efter plats elder fil
+Filtrera page collection efter plats eller fil
 
 **pages->sort($key, $ascendingOrder = true)**  
 Sortera page collection efter [sidinställning](how-to-change-the-system#sidinställningar)
