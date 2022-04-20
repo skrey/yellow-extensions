@@ -223,8 +223,8 @@ Yellow page collection gives access to multiple pages:
 **pages->filter($key, $value, $exactMatch = true)**  
 Filter page collection by [page setting](how-to-change-the-system#page-settings)
 
-**pages->match($regex = "/.*/")**  
-Filter page collection by location
+**pages->match($regex = "/.*/" $filterByLocation = true)**  
+Filter page collection by location or file
 
 **pages->sort($key, $ascendingOrder = true)**  
 Sort page collection by [page setting](how-to-change-the-system#page-settings)

@@ -46,6 +46,23 @@ Innehållsfil med draft-status för bloggen:
     ---
     Detta är ett exempel på en bloggsida.
 
+Layoutfil för att visa draftsidor:
+
+    <?php $this->yellow->layout("header") ?>
+    <div class="content">
+    <div class="main" role="main">
+    <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
+    <?php $pages = $this->yellow->content->index(true, true)->filter("status", "draft") ?>
+    <?php $this->yellow->page->setLastModified($pages->getModified()) ?>
+    <ul>
+    <?php foreach ($pages as $page): ?>
+    <li><?php echo $page->getHtml("title") ?></li>
+    <?php endforeach ?>
+    </ul>
+    </div>
+    </div>
+    <?php $this->yellow->layout("footer") ?>
+
 ## Installation
 
 [Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/draft.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.

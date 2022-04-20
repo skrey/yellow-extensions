@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Search 0.8.15
+# Search 0.8.17
 
 Volltext-Suche.
 
@@ -12,7 +12,7 @@ Die Suche ist auf deiner Webseite vorhanden als `http://website/search/`. Sie du
 
 ## Wie man eine Suche feinjustiert
 
-Falls du nicht die gesamte Webseite durchsuchen willst, kannst du unterschiedliche Filter benutzen um Suchergebnisse einzugrenzen. Der Filter `author:` findet Seiten von einem bestimmten Autor. Der Filter `language:` findet Seiten in einer bestimmten Sprache. Der Filter `tag:` findet Seiten mit einem bestimmten Tag. Mit dem Filter `folder:` durchsucht man nur ein bestimmtes Verzeichnis.
+Falls du nicht die gesamte Webseite durchsuchen willst, kannst du unterschiedliche Filter benutzen um Suchergebnisse zu justieren. Der Filter `author:` findet Seiten von einem bestimmten Autor. Der Filter `language:` findet Seiten in einer bestimmten Sprache. Der Filter `tag:` findet Seiten mit einem bestimmten Tag. Mit dem Filter `folder:` durchsucht man nur ein bestimmtes Verzeichnis.
 
 ## Beispiele
 
