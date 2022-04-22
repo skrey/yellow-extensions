@@ -222,7 +222,7 @@ Yellow-Page-Collection gibt Zugang zu mehreren Seiten:
 **pages->filter($key, $value, $exactMatch = true)**  
 Filtere eine Seitenkollektion nach [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen)
 
-**pages->match($regex = "/.*/" $filterByLocation = true)**  
+**pages->match($regex = "/.*/", $filterByLocation = true)**  
 Filtere eine Seitenkollektion nach Ort oder Datei
 
 **pages->sort($key, $ascendingOrder = true)**  

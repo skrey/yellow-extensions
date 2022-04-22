@@ -223,7 +223,7 @@ Yellow page collection ger tillgång till flera sidor:
 **pages->filter($key, $value, $exactMatch = true)**  
 Filtrera page collection efter [sidinställning](how-to-change-the-system#sidinställningar)
 
-**pages->match($regex = "/.*/" $filterByLocation = true)**  
+**pages->match($regex = "/.*/", $filterByLocation = true)**  
 Filtrera page collection efter plats eller fil
 
 **pages->sort($key, $ascendingOrder = true)**  
