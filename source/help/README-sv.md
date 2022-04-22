@@ -8,7 +8,7 @@ Hjälp för din webbplats.
 
 ## Hur man använder hjälpen
 
-Hjälpen finns på din webbplats som `http://website/help/`. Hjälpen ger dig mer information om hur man skapar små webbsidor, wikier och bloggar. Där hittar du instruktioner om hur man anpassa allt. Utvecklare och designers hittar beskrivningar av övergripande koncept och vad som kan göras med API:et. Det rekommenderas att du också installerar [toc-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-sv.md), [highlight-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight/README-sv.md) och [search-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-sv.md). Då kommer du att ha samma paketet som på officiella webbplatsen. 
+Hjälpen finns på din webbplats som `http://website/help/`. Hjälpen ger dig mer information om hur man skapar små webbsidor, wikier och bloggar. Där hittar du instruktioner om hur man anpassa allt. Utvecklare och designers hittar beskrivningar av övergripande koncept och vad som kan göras med API:et. Det rekommenderas att du också installerar [toc-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-sv.md), [highlight-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight/README-sv.md) och [search-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-sv.md). Då kommer du att ha samma paketet som hjälpen på officiella webbplatsen. 
 
 ## Hur man redigerar hjälpen
 
