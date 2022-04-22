@@ -97,4 +97,4 @@ Följande inställningar kan konfigureras högst upp på en sida:
 `Build` = alternativ för att bygga en statisk webbplats, kommaseparerade  
 `Comment` = alternativ för att visa kommentarer, kommaseparerade  
 
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Har du några frågor? [Få hjälp](.).

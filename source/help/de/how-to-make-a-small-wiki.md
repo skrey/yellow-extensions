@@ -100,4 +100,4 @@ Es gibt [Erweiterungen für deine Webseite](https://github.com/datenstrom/yellow
 * [Wie man eine Webseite im Texteditor bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
 * [Wie man ein Wiki benutzt](https://github.com/datenstrom/yellow-extensions/tree/master/source/wiki/README-de.md)
 
-Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).
+Hast du Fragen? [Hilfe finden](.).

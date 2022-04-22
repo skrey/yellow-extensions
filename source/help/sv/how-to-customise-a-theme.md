@@ -35,4 +35,4 @@ window.addEventListener("DOMContentLoaded", ready, false);
 
 Mappen `system/themes` innehåller alla temafiler. Du kan lagra dina bilder och teckensnittsfiler här, som används i teman. Varje webbplats har en liten ikon, ibland kallad en favicon. Webbläsaren visar denna ikon till exempel i adressfältet. 
 
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Har du några frågor? [Få hjälp](.).

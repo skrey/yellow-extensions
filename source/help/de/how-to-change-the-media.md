@@ -93,4 +93,4 @@ Video einbinden, unterschiedliche Größen:
     [youtube fhs55HEl-Gc right 200 112]
     [youtube fhs55HEl-Gc right 400 224]
 
-Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).
+Hast du Fragen? [Hilfe finden](.).

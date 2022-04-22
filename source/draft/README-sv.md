@@ -46,7 +46,7 @@ Innehållsfil med draft-status för bloggen:
     ---
     Detta är ett exempel på en bloggsida.
 
-Layoutfil för att visa draftsidor:
+Layoutfil för att visa alla draftsidor:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">

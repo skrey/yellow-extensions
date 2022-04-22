@@ -85,4 +85,4 @@ Der zweite Screenshot zeigt die Verzeichnisse `1-en`, `2-de`, `3-sv` und `defaul
 
 Um eine Sprachauswahl anzuzeigen, kannst du eine Seite erstellen welche die vorhandenen Sprachen auflistet. Die Sprachauswahl kann man in die Navigation der Webseite einbauen. Das ermöglicht es Besuchern die Sprache auszuwählen.
 
-Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).
+Hast du Fragen? [Hilfe finden](.).

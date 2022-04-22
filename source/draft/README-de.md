@@ -46,7 +46,7 @@ Inhaltsdatei mit Draft-Status fürs Blog:
     ---
     Das ist eine Beispielseite fürs Blog.
 
-Layoutdatei um Entwurfseiten anzuzeigen:
+Layoutdatei um alle Entwurfseiten anzuzeigen:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">

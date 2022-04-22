@@ -84,4 +84,4 @@ Den andra skärmdumpen visar mapparna `1-en`,` 2-de`, `3-sv` och `default`. Dett
 
 För att visa ett språkval kan du skapa en sida som visar tillgängliga språk. Språkvalet kan integreras i navigeringen på din webbplats. Detta gör det möjligt för besökare att välja språk. 
 
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Har du några frågor? [Få hjälp](.).

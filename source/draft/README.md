@@ -46,7 +46,7 @@ Content file with draft status for blog:
     ---
     This is an example blog page.
 
-Layout file for showing draft pages:
+Layout file for showing all draft pages:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">

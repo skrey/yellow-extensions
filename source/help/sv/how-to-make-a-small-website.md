@@ -83,4 +83,4 @@ There are [extensions for your website](https://github.com/datenstrom/yellow-ext
 * [How to edit a website in a text editor](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
 * [How to build a static website](https://github.com/datenstrom/yellow-extensions/tree/master/source/command)
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Do you have questions? [Get help](.).

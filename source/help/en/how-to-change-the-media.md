@@ -94,4 +94,4 @@ Embedding a video, different sizes:
     [youtube fhs55HEl-Gc right 200 112]
     [youtube fhs55HEl-Gc right 400 224]
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Do you have questions? [Get help](.).

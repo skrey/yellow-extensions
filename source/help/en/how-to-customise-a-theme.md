@@ -35,4 +35,4 @@ window.addEventListener("DOMContentLoaded", ready, false);
 
 The `system/themes` folder contains all theme files. You can store your images and font files here, which are used in themes. Each website has a small icon, sometimes called a favicon. The web browser displays this icon for example in the address bar.
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Do you have questions? [Get help](.).

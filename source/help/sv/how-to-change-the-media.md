@@ -95,4 +95,4 @@ Bädda in en video, olika storlekar:
     [youtube fhs55HEl-Gc right 200 112]
     [youtube fhs55HEl-Gc right 400 224]
 
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Har du några frågor? [Få hjälp](.).

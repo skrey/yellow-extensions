@@ -8,7 +8,7 @@ Text formatting for humans.
 
 ## How to format text
 
-Markdown is a practical way to edit web pages. Write text like you would in an email and it becomes a web page. After a short while, it happens naturally without you even thinking about it. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). In addition to Markdown there are shortcuts. You can add [images](https://github.com/datenstrom/yellow-extensions/tree/master/source/image), [image galleries](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery), [videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome) and more to your website.
+Markdown is a practical way to edit web pages. Write text like you would in an email and it becomes a web page. After a short while, it happens naturally without you even thinking about it. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). In addition to Markdown there are shortcuts. You can add [images](https://github.com/datenstrom/yellow-extensions/tree/master/source/image), [image galleries](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery), [videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube), [table of contents](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc), [icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome) and additional features to your website.
 
 ## Examples
 
@@ -132,11 +132,13 @@ Using HTML:
 
 Using shortcuts:
 
+    [image photo.jpg Example] = adding an image
     [gallery photo.*jpg zoom] = adding an image gallery with popup
     [slider photo.*jpg loop]  = adding an image gallery with slider
     [youtube fhs55HEl-Gc]     = embedding a video
+    [toc]                     = making a table of contents
 
-    Shortcuts require extensions to work. 
+    Shortcuts require additional extensions to work. 
 
 ## Settings
 

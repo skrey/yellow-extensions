@@ -146,10 +146,12 @@ HTML benutzen:
 
 Abkürzungen benutzen:
 
-    [gallery photo.*jpg zoom] = Bildergalerie mit Popup hinzufügen 
+    [image photo.jpg Beispiel] = Bild hinzufügen
+    [gallery photo.*jpg zoom]  = Bildergalerie mit Popup hinzufügen
     [slider photo.*jpg loop]  = Bildergalerie mit Schieber hinzufügen
-    [youtube fhs55HEl-Gc]     = Video einbinden 
+    [youtube fhs55HEl-Gc]      = Video einbinden
+    [toc]                      = Inhaltsverzeichnis anzeigen
 
-    Abkürzungen erfordern Erweiterungen um zu funktionieren.
+    Abkürzungen erfordern zusätzliche Erweiterungen um zu funktionieren.
 
-Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).
+Hast du Fragen? [Hilfe finden](.).

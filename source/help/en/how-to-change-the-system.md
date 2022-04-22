@@ -97,4 +97,4 @@ The following settings can be configured at the top of a page:
 `Build` = page option(s) for building a static website, comma separated  
 `Comment` = page option(s) for showing comments, comma separated  
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Do you have questions? [Get help](.).

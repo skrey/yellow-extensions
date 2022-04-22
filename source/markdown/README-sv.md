@@ -8,7 +8,7 @@ Textformatering för människor.
 
 ## Hur man formaterar text
 
-Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Förutom Markdown finns det förkortningar. Du kan lägga till [bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md), [bildgallerier](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md), [videor](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md), [emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-sv.md) och mer på din webbplats.
+Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Förutom Markdown finns det förkortningar. Du kan lägga till [bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md), [bildgallerier](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md), [videor](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-sv.md), [innehållsförteckningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-sv.md), [ikoner](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-sv.md) och ytterligare funktioner på din webbplats.
 
 ## Exempel
 
@@ -132,11 +132,13 @@ Använd HTML:
 
 Använd förkortningar:
 
+    [image photo.jpg Exempel] = lägga till en bild
     [gallery photo.*jpg zoom] = lägga till ett bildgalleri med popup
     [slider photo.*jpg loop]  = lägga till ett bildgalleri med reglaget
     [youtube fhs55HEl-Gc]     = bädda in en video
+    [toc]                     = göra ett innehållsförteckning
 
-    Förkortningar kräver tillägg för att fungera.
+    Förkortningar kräver ytterligare tillägg för att fungera.
 
 ## Inställningar
 

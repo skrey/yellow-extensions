@@ -84,4 +84,4 @@ The second screenshot shows the folders `1-en`, `2-de`, `3-sv` and `default`. Th
 
 To show a language selection, you can create a page that lists available languages. The language selection can be integrated into the navigation of your website. This allows visitors to choose the language.
 
-Do you have questions? [Get help](.) and [contribute](contributing-guidelines).
+Do you have questions? [Get help](.).

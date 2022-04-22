@@ -8,7 +8,7 @@ Textformatierung für Menschen.
 
 ## Wie man Text formatiert
 
-Markdown ist eine praktische Art um Webseiten zu bearbeiten. Schreibe Text wie in einer E-Mail und daraus wird eine Webseite. Nach einer kurzen Zeit passiert das ganz natürlich, ohne dass man darüber nachdenkt. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Zusätzlich zu Markdown gibt es Abkürzungen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md), [Bildergalerien](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md), [Videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md), [Emoji](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome/README-de.md) und mehr in deine Webseite einbinden.
+Markdown ist eine praktische Art um Webseiten zu bearbeiten. Schreibe Text wie in einer E-Mail und daraus wird eine Webseite. Nach einer kurzen Zeit passiert das ganz natürlich, ohne dass man darüber nachdenkt. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Zusätzlich zu Markdown gibt es Abkürzungen. Du kannst damit [Bilder](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-de.md), [Bildergalerien](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md), [Videos](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube/README-de.md), [Inhaltsverzeichnisse](https://github.com/datenstrom/yellow-extensions/tree/master/source/toc/README-de.md), [Icons](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome/README-de.md) und zusätzliche Funktionen in deine Webseite einbinden.
 
 ## Beispiele
 
@@ -132,11 +132,13 @@ HTML benutzen:
 
 Abkürzungen benutzen:
 
-    [gallery photo.*jpg zoom] = Bildergalerie mit Popup hinzufügen 
+    [image photo.jpg Beispiel] = Bild hinzufügen
+    [gallery photo.*jpg zoom]  = Bildergalerie mit Popup hinzufügen
     [slider photo.*jpg loop]  = Bildergalerie mit Schieber hinzufügen
-    [youtube fhs55HEl-Gc]     = Video einbinden 
+    [youtube fhs55HEl-Gc]      = Video einbinden
+    [toc]                      = Inhaltsverzeichnis anzeigen
 
-    Abkürzungen erfordern Erweiterungen um zu funktionieren.
+    Abkürzungen erfordern zusätzliche Erweiterungen um zu funktionieren.
 
 ## Einstellungen
 

@@ -97,4 +97,4 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Build` = Optionen zum Erstellen einer statischen Webseite, durch Komma getrennt  
 `Comment` = Optionen zum Anzeigen von Kommentaren, durch Komma getrennt  
 
-Hast du Fragen? [Hilfe finden](.) und [mitmachen](contributing-guidelines).
+Hast du Fragen? [Hilfe finden](.).

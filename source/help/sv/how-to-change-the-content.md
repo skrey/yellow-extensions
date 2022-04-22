@@ -146,10 +146,12 @@ Använd HTML:
 
 Använd förkortningar:
 
+    [image photo.jpg Exempel] = lägga till en bild
     [gallery photo.*jpg zoom] = lägga till ett bildgalleri med popup
     [slider photo.*jpg loop]  = lägga till ett bildgalleri med reglaget
     [youtube fhs55HEl-Gc]     = bädda in en video
+    [toc]                     = göra ett innehållsförteckning
 
-    Förkortningar kräver tillägg för att fungera.
+    Förkortningar kräver ytterligare tillägg för att fungera.
 
-Har du några frågor? [Få hjälp](.) och [engagera dig](contributing-guidelines).
+Har du några frågor? [Få hjälp](.).
