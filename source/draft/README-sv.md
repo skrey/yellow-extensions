@@ -12,7 +12,7 @@ Ställ in `Status: draft` i [sidinställningar](https://github.com/datenstrom/ye
 
 ## Hur man hittar draftsidor
 
-Du kan använda [search-tilläget](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-sv.md). När du är inloggad med ditt användarkonto kan du söka efter `status:draft`. På så sätt kan du hitta alla draftsidor igen.
+Du kan använda [search-tilläget](https://github.com/datenstrom/yellow-extensions/tree/master/source/search/README-sv.md). När du är inloggad med ditt användarkonto kan du söka med filtret `status:draft` efter draftsidor. På så sätt kan du hitta alla draftsidor igen.
 
 ## Exempel
 

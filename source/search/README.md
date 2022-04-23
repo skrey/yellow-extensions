@@ -12,7 +12,7 @@ The search is available on your website as `http://website/search/`. It searches
 
 ## How to fine-tune a search
 
-If you don't want to search trough the entire website, you can use different filters to fine-tune search results. The `author:` filter finds pages by a specific author. The `language:` filter finds pages in a specific language. The `tag:` filter finds pages with a specific tag. With the `folder:` filter you search only in a specific folder. 
+If you don't want to search trough the entire website, you can use different filters to fine-tune search results. The `author:` filter finds pages by a specific author. The `language:` filter finds pages in a specific language. The `tag:` filter finds pages with a specific tag. The `folder:` filter finds pages in a specific folder. Once you're logged in with your user account, you can search with the `status:` filter for [hidden pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/core).
 
 ## Examples
 
@@ -28,6 +28,12 @@ Searching a website, different filters:
     coffee language:en
     coffee tag:example
     coffee folder:help
+
+Searching a website, additional filters for logged in users:
+
+    status:unlisted
+    status:draft
+    status:private
 
 Adding a search field:
 

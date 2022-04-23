@@ -12,7 +12,7 @@ Die Suche ist auf deiner Webseite vorhanden als `http://website/search/`. Sie du
 
 ## Wie man eine Suche feinjustiert
 
-Falls du nicht die gesamte Webseite durchsuchen willst, kannst du unterschiedliche Filter benutzen um Suchergebnisse zu justieren. Der Filter `author:` findet Seiten von einem bestimmten Autor. Der Filter `language:` findet Seiten in einer bestimmten Sprache. Der Filter `tag:` findet Seiten mit einem bestimmten Tag. Mit dem Filter `folder:` durchsucht man nur ein bestimmtes Verzeichnis.
+Falls du nicht die gesamte Webseite durchsuchen willst, kannst du unterschiedliche Filter benutzen um Suchergebnisse zu justieren. Der Filter `author:` findet Seiten von einem bestimmten Autor. Der Filter `language:` findet Seiten in einer bestimmten Sprache. Der Filter `tag:` findet Seiten mit einem bestimmten Tag. Der Filter `folder:` findet Seiten in einem bestimmten Verzeichnis. Sobald du mit deinem Benutzerkonto angemeldet bist, kannst du mit dem Filter `status:` nach [versteckten Seiten](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md) suchen.
 
 ## Beispiele
 
@@ -28,6 +28,12 @@ Webseite durchsuchen, unterschiedliche Filter:
     kaffee language:de
     kaffee tag:beispiel
     kaffee folder:help
+
+Webseite durchsuchen, zusätzliche Filter für angemeldete Benutzer:
+
+    status:unlisted
+    status:draft
+    status:private
 
 Suchfeld hinzufügen:
 

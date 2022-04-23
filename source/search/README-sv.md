@@ -12,7 +12,7 @@ Sökningen är tillgänglig på din webbplats som `http://website/search/`. Den 
 
 ## Hur man finjusterar en sökning
 
-Om du inte vill söka igenom hela webbplatsen, kan du använda olika filter för att justera sökresultaten. Filtret `author:` hittar sidor av en specifik författare. Filtret `language:` hittar sidor på ett specifikt språk. Filtret `tag:` hittar sidor med en specifik tagg. Med filtret `folder:` söker man endast i en specifik mapp.
+Om du inte vill söka igenom hela webbplatsen, kan du använda olika filter för att justera sökresultaten. Filtret `author:` hittar sidor av en specifik författare. Filtret `language:` hittar sidor på ett specifikt språk. Filtret `tag:` hittar sidor med en specifik tagg. Filtret `folder:` hittar sidor i en specifik mapp. När du är inloggad med ditt användarkonto kan du söka med filtret `status:` efter [dolda sidor](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md).
 
 ## Exempel
 
@@ -28,6 +28,12 @@ Söka på en webbplats, olika filter:
     kaffe language:sv
     kaffe tag:exempel
     kaffe folder:help
+
+Söka på en webbplats, ytterligare filter för inloggade användare:
+
+    status:unlisted
+    status:draft
+    status:private
 
 Lägga till ett sökfält:
 
