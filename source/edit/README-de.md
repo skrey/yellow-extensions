@@ -30,6 +30,12 @@ Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmel
 
 ## Beispiele
 
+Link zum Bearbeiten anzeigen:
+
+    [edit]
+    [edit - Anmelden]
+    [edit - Du kannst diese Seite bearbeiten]
+
 Inhaltsdatei mit Link zum Bearbeiten:
 
     ---

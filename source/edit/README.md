@@ -30,6 +30,12 @@ If you don't want that user accounts are created, then restrict the login page. 
 
 ## Examples
 
+Showing an edit link:
+
+    [edit]
+    [edit - Log in]
+    [edit - You can edit this page]
+
 Content file with edit link:
 
     ---

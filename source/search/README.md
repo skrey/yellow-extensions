@@ -36,11 +36,11 @@ Searching a website, additional filters for logged in users:
     status:shared
     status:draft
 
-Adding a search field:
+Showing a search field:
 
     [search]
     [search /search/]
-    [search /de/search/]
+    [search /en/search/]
 
 Content file with search field:
 

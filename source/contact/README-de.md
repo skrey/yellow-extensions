@@ -18,15 +18,11 @@ Falls du nicht willst dass Nachrichten mit Links verschickt werden, beschränke 
 
 ## Beispiele
 
-Inhaltsdatei für Kontaktseite:
+Kontaktformular anzeigen:
 
-    ---
-    Title: Kontaktiere einen Menschen
-    TitleSlug: Contact
-    Layout: contact
-    Author: Anna Svensson
-    Email: hallo@example.com
-    ---
+    [contact]
+    [contact /contact/]
+    [contact /de/contact/]
 
 Inhaltsdatei mit Kontaktformular:
 
@@ -53,6 +49,16 @@ Inhaltsdatei mit Link zur Kontaktseite:
     in culpa qui officia deserunt mollit anim id est laborum.
     
     [Kontaktiere einen Menschen](/contact/).
+
+Inhaltsdatei für Kontaktseite:
+
+    ---
+    Title: Kontaktiere einen Menschen
+    TitleSlug: Contact
+    Layout: contact
+    Author: Anna Svensson
+    Email: hallo@example.com
+    ---
 
 Verschiedene Spamfilter in den Einstellungen festlegen:
 

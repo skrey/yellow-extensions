@@ -36,7 +36,7 @@ Söka på en webbplats, ytterligare filter för inloggade användare:
     status:shared
     status:draft
 
-Lägga till ett sökfält:
+Visa ett sökfält:
 
     [search]
     [search /search/]

@@ -36,7 +36,7 @@ Webseite durchsuchen, zusätzliche Filter für angemeldete Benutzer:
     status:shared
     status:draft
 
-Suchfeld hinzufügen:
+Suchfeld anzeigen:
 
     [search]
     [search /search/]

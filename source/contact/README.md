@@ -18,15 +18,11 @@ If you don't want that messages with links are sent, then restrict links. Open f
 
 ## Examples
 
-Content file for contact page:
+Showing a contact form:
 
-    ---
-    Title: Contact a human
-    TitleSlug: Contact
-    Layout: contact
-    Author: Anna Svensson
-    Email: hello@example.com
-    ---
+    [contact]
+    [contact /contact/]
+    [contact /en/contact/]
 
 Content file with contact form:
 
@@ -53,6 +49,16 @@ Content file with link to contact page:
     in culpa qui officia deserunt mollit anim id est laborum.
 
     [Contact a human](/contact/).
+
+Content file for contact page:
+
+    ---
+    Title: Contact a human
+    TitleSlug: Contact
+    Layout: contact
+    Author: Anna Svensson
+    Email: hello@example.com
+    ---
 
 Configuring different spam filters in the settings:
 

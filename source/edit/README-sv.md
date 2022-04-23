@@ -30,6 +30,12 @@ Om du inte vill att anv채ndarkonton ska skapas begr채nsar du inloggningssidan. �
 
 ## Exempel
 
+Visa l채nk att redigera:
+
+    [edit]
+    [edit - Logga in]
+    [edit - Du kan redigera den h채r sidan]
+
 Inneh책llsfil med l채nk att redigera:
 
     ---

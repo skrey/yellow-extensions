@@ -18,15 +18,11 @@ Om du inte vill att meddelanden med länkar ska skickas begränsar du länkar. �
 
 ## Exempel
 
-Innehållsfil för kontaktsida:
+Visa ett kontaktformulär:
 
-    ---
-    Title: Kontakta en människa
-    TitleSlug: Contact
-    Layout: contact
-    Author: Anna Svensson
-    Email: hej@example.com
-    ---
+    [contact]
+    [contact /contact/]
+    [contact /sv/contact/]
 
 Innehållsfil med kontaktformulär:
 
@@ -53,6 +49,16 @@ Innehållsfil med länk till kontaktsidan:
     in culpa qui officia deserunt mollit anim id est laborum.
     
     [Kontakta en människa](/contact/).
+
+Innehållsfil för kontaktsida:
+
+    ---
+    Title: Kontakta en människa
+    TitleSlug: Contact
+    Layout: contact
+    Author: Anna Svensson
+    Email: hej@example.com
+    ---
 
 Konfigurera olika skräppostfilter i inställningar:
 
