@@ -8,7 +8,7 @@ Full-text search.
 
 ## How to use a search
 
-The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. To show a search field add a `[search]` shortcut. You can also add a link to the search somewhere on your website.
+The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. To show a search field on your website use a `[search]` shortcut.
 
 ## How to fine-tune a search
 
@@ -65,7 +65,7 @@ Content file with link to search:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-    [Search all pages](/search/). [See recent changes](/search/special:changes/).
+    [Search all pages](/search/).
 
 ## Settings
 

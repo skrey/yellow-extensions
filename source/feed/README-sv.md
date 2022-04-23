@@ -8,7 +8,7 @@ Feed med senaste ändringarna
 
 ## Hur man använder en feed
 
-Feeden finns tillgängligt på din webbplats som `http://website/feed/` och `http://website/feed/page:feed.xml`. Det är en feed för hela webbplatsen, endast synliga sidor ingår. Att skapa en blogg-feed öppet filen  `system/extensions/yellow-system.ini` och ändra `FeedFilterLayout: blog`. Du kan lägga till en länk till feeden någonstans på din webbplats.
+Feeden finns tillgängligt på din webbplats som `http://website/feed/` och `http://website/feed/page:feed.xml`. Det är en feed för hela webbplatsen, endast synliga sidor ingår. Att skapa en blogg-feed öppet filen  `system/extensions/yellow-system.ini` och ändra `FeedFilterLayout: blog`.
 
 ## Exempel
 

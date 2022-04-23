@@ -8,7 +8,7 @@ Webbplatskarta med alla sidor.
 
 ## Hur man använder en webbplatskarta 
 
-Webbplatskartan är tillgänglig som `http://website/sitemap/` och `http://website/sitemap/page:sitemap.xml`. Det är en översikt över hela webbplatsen, endast synliga sidor ingår. Du kan lägga till en länk till webbplatskartan någonstans på din webbplats.
+Webbplatskartan är tillgänglig som `http://website/sitemap/` och `http://website/sitemap/page:sitemap.xml`. Det är en översikt över hela webbplatsen, endast synliga sidor ingår.
 
 ## Exempel
 

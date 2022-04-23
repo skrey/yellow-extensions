@@ -8,7 +8,7 @@ Heltekstsökning.
 
 ## Hur man använder en sökning
 
-Sökningen är tillgänglig på din webbplats som `http://website/search/`. Den söker igenom innehållet på hela webbplatsen, endast synliga sidor ingår. För att visa ett sökfält, lägg till en `[search]` förkortning. Du kan också lägga till en länk till sökningen någonstans på din webbplats.
+Sökningen är tillgänglig på din webbplats som `http://website/search/`. Den söker igenom innehållet på hela webbplatsen, endast synliga sidor ingår. För att visa ett sökfält på din webbplats, lägg till en `[search]` förkortning.
 
 ## Hur man finjusterar en sökning
 
@@ -65,7 +65,7 @@ Innehållsfil med länk till sökningen:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-    [Sök på alla sidor](/search/). [Se senaste ändringarna](/search/special:changes/).
+    [Sök på alla sidor](/search/).
 
 ## Inställningar
 

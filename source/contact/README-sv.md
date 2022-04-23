@@ -8,11 +8,11 @@ E-post kontaktsida.
 
 ## Hur man använder en kontaktsida
 
-Kontaktsidan finns tillgänglig på din webbplats som `http://website/contact/`. Webmastern tar emot alla kontaktmeddelanden. Webmasterns email definieras i filen `system/extensions/yellow-system.ini`. Du kan ställa in en annan `Author` and `Email` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida. För att visa ett kontaktformulär på andra sidor, använd en `[contact]` förkortning. Du kan också lägga till en länk till kontaktsidan någonstans på din webbplats.
+Kontaktsidan finns tillgänglig på din webbplats som `http://website/contact/`. Webmasterns email definieras i filen `system/extensions/yellow-system.ini`. Du kan ställa in en annan `Author` and `Email` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida. För att visa ett kontaktformulär å din webbplats, använd en `[contact]` förkortning.
 
 ## Hur man begränsar en kontaktsida
 
-Om du inte vill att meddelanden ska skickas till vem som helst begränsar du email. Öppna filen `system/extensions/yellow-system.ini` och ändra `ContactEmailRestriction: 1`. Alla kontaktmeddelanden går direkt till webmastern och det är inte längre möjligt att ställa in en annan kontaktperson i inställningarna.
+Om du inte vill att meddelanden ska skickas till vem som helst begränsar du email. Öppna filen `system/extensions/yellow-system.ini` och ändra `ContactEmailRestriction: 1`. Alla kontaktmeddelanden går direkt till webmastern och det är inte längre möjligt att ställa in en annan kontaktperson i sidinställningarna.
 
 Om du inte vill att meddelanden med länkar ska skickas begränsar du länkar. Öppna filen `system/extensions/yellow-system.ini` och ändra `ContactLinkRestriction: 1`. Kontaktmeddelanden får då inte innehålla klickbara länkar, detta blockerar många oönskade meddelanden. Du kan också ställa in nyckelord i skräppostfiltret, lyckligtvis skickar många spammare samma meddelande flera gånger. 
 
@@ -24,7 +24,8 @@ Kontakt sida med inställningar:
     Title: Kontakta en människa
     TitleSlug: Contact
     Layout: contact
-    Email: webmaster@example.com
+    Author: Anna Svensson
+    Email: hej@example.com
     ---
 
 Innehållsfil med kontaktformulär:
@@ -40,7 +41,7 @@ Innehållsfil med kontaktformulär:
 
     [contact]
 
-Innehållsfil med kontaktlänk:
+Innehållsfil med länk till kontaktsidan:
 
     ---
     Title: Exempelsida

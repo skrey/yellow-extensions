@@ -8,7 +8,7 @@ Sitemap with all pages.
 
 ## How to use a sitemap
 
-The sitemap is available as `http://website/sitemap/` and `http://website/sitemap/page:sitemap.xml`. It's an overview of the entire website, only visible pages are included. You can add a link to the sitemap somewhere on your website.
+The sitemap is available as `http://website/sitemap/` and `http://website/sitemap/page:sitemap.xml`. It's an overview of the entire website, only visible pages are included.
 
 ## Examples
 

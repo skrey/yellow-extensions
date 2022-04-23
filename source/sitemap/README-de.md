@@ -8,7 +8,7 @@ Sitemap mit allen Seiten.
 
 ## Wie man eine Sitemap benutzt
 
-Die Sitemap ist auf deiner Webseite vorhanden als `http://website/sitemap/` und `http://website/sitemap/page:sitemap.xml`. Es ist eine Übersicht über die gesamte Webseite, nur sichtbare Seiten sind enthalten. Du kannst einen Link zur Sitemap irgendwo auf deiner Webseite einbauen.
+Die Sitemap ist auf deiner Webseite vorhanden als `http://website/sitemap/` und `http://website/sitemap/page:sitemap.xml`. Es ist eine Übersicht über die gesamte Webseite, nur sichtbare Seiten sind enthalten.
 
 ## Beispiele
 

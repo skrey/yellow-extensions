@@ -8,7 +8,7 @@ Volltext-Suche.
 
 ## Wie man eine Suche benutzt
 
-Die Suche ist auf deiner Webseite vorhanden als `http://website/search/`. Sie durchsucht den Inhalt der gesamten Webseite, nur sichtbare Seiten sind enthalten. Um ein Suchfeld anzuzeigen, benutze eine `[search]`-Abkürzung. Du kannst auch einen Link zur Suche irgendwo auf deiner Webseite einbauen.
+Die Suche ist auf deiner Webseite vorhanden als `http://website/search/`. Sie durchsucht den Inhalt der gesamten Webseite, nur sichtbare Seiten sind enthalten. Um ein Suchfeld auf deiner Webseite anzuzeigen, benutze eine `[search]`-Abkürzung.
 
 ## Wie man eine Suche feinjustiert
 
@@ -65,7 +65,7 @@ Inhaltsdatei mit Link zur Suche:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    [Alle Seiten durchsuchen](/search/). [Letzte Änderungen anzeigen](/search/special:changes/).
+    [Alle Seiten durchsuchen](/search/).
 
 ## Einstellungen
 
