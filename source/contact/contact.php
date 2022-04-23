@@ -2,7 +2,7 @@
 // Contact extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/contact
 
 class YellowContact {
-    const VERSION = "0.8.13";
+    const VERSION = "0.8.14";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -83,7 +83,8 @@ class YellowContact {
         if ($status=="send") {
             $mailTo = mb_encode_mimeheader("$author")." <$email>";
             $mailSubject = mb_encode_mimeheader($this->yellow->page->get("title"));
-            $mailHeaders = mb_encode_mimeheader("From: $name")." <$from>\r\n";
+            $mailHeaders = mb_encode_mimeheader("From: $name")." <noreply>\r\n";
+            $mailHeaders = mb_encode_mimeheader("Reply-To: $name")." <$from>\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Referer-Url: ".$referer)."\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Request-Url: ".$this->yellow->page->getUrl())."\r\n";
             if ($spamFilter!="none" && preg_match("/$spamFilter/i", $message)) {
