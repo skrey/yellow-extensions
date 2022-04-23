@@ -12,7 +12,7 @@ Du kan använda din favorittextredigerare och ändra allt i filhanteraren. Mappe
 
 ## Hur man döljer en sida
 
-Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigations- och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att kontrollera vem som kan se och komma åt en sida. 
+Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigations- och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
 
 ## Hur man omdirigerar en sida
 

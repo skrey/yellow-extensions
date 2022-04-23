@@ -31,9 +31,10 @@ Searching a website, different filters:
 
 Searching a website, additional filters for logged in users:
 
-    status:unlisted
-    status:draft
     status:private
+    status:unlisted
+    status:shared
+    status:draft
 
 Adding a search field:
 

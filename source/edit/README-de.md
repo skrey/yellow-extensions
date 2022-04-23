@@ -18,13 +18,13 @@ Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](h
 
 ## Wie man ein Benutzerkonto löscht
 
-Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu löschen. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen. Du kannst dein eigenes Benutzerkonto jederzeit löschen. Nachdem du bestätigt hast dass du dein Benutzerkonto löschen möchtest, erhältst du eine abschließende E-Mail und das Benutzerkonto wird gelöscht.
+Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu löschen. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen. Du kannst dein eigenes Benutzerkonto jederzeit löschen. Nachdem du bestätigt hast dass du dein Benutzerkonto löschen möchtest, erhältst du eine abschließende E-Mail und das Benutzerkonto wird entfernt.
 
 Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md) zu löschen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user remove` gefolgt von E-Mail. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
 ## Wie man ein Benutzerkonto beschränkt
 
-Falls du nicht willst dass Seiten im Webbrowser verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/extensions/yellow-user.ini` und ändere `Access` und `Home`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst.
+Falls du nicht willst dass Seiten im Webbrowser verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/extensions/yellow-user.ini` und ändere `Access` und `Home`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst. Es gibt verschiedene [Zugriffsrechte](#einstellungen-access), um zu bestimmen was ein Benutzer machen kann.
 
 Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
 

@@ -31,9 +31,10 @@ Söka på en webbplats, olika filter:
 
 Söka på en webbplats, ytterligare filter för inloggade användare:
 
-    status:unlisted
-    status:draft
     status:private
+    status:unlisted
+    status:shared
+    status:draft
 
 Lägga till ett sökfält:
 

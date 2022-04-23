@@ -67,7 +67,7 @@ Inhaltsdatei mit Weiterleitung:
 `CoreMediaLocation` = Ort für Mediendateien  
 `CoreDownloadLocation` = Ort für Dateien zum Herunterladen  
 `CoreImageLocation` = Ort für Bilder  
-`ImageThumbnailLocation` = Ort für Miniaturbilder  
+`CoreThumbnailLocation` = Ort für Miniaturbilder  
 `CoreExtensionLocation` = Ort für virtuell zugeordnete Erweiterungsdateien  
 `CoreThemeLocation` = Ort für virtuell zugeordnete Themendateien  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  

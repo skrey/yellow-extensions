@@ -31,9 +31,10 @@ Webseite durchsuchen, unterschiedliche Filter:
 
 Webseite durchsuchen, zusätzliche Filter für angemeldete Benutzer:
 
-    status:unlisted
-    status:draft
     status:private
+    status:unlisted
+    status:shared
+    status:draft
 
 Suchfeld hinzufügen:
 
