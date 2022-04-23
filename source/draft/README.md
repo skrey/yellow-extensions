@@ -24,7 +24,7 @@ Content file with draft status:
     ---
     This is an example page.
 
-Content file with draft status for wiki:
+Content file with draft status for the wiki:
 
     ---
     Title: Wiki example
@@ -34,7 +34,7 @@ Content file with draft status for wiki:
     ---
     This is an example wiki page.
 
-Content file with draft status for blog:
+Content file with draft status for the blog:
 
     ---
     Title: Blog example

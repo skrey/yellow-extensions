@@ -12,7 +12,7 @@ The feed is available on your website as `http://website/feed/` and `http://webs
 
 ## How to customise a feed
 
-If you don't want to list the entire website in a feed, you can use different filters to customise a feed. To make a feed for a wiki open file `system/extensions/yellow-system.ini` and change `FeedFilterLayout: wiki`. To make a feed for a blog open the system settings and change `FeedFilterLayout: blog`.
+If you don't want to list the entire website in a feed, you can use different filters to customise a feed. To make a feed for the wiki open file `system/extensions/yellow-system.ini` and change `FeedFilterLayout: wiki`. To make a feed for the blog open the system settings and change `FeedFilterLayout: blog`.
 
 ## Examples
 

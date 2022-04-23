@@ -12,7 +12,7 @@ Der Feed ist auf deiner Webseite vorhanden als `http://website/feed/` und `http:
 
 ## Wie man einen Feed anpasst
 
-Falls du nicht die gesamte Webseite im Feed auflisten willst, kannst du unterschiedliche Filter benutzen um den Feed anzupassen. Um einen Feed fürs Wiki zu machen, öffne die Datei `system/extensions/yellow-system.ini` und ändere `FeedFilterLayout: wiki`. Um einen Feed fürs Blog zu machen, öffne die Systemeinstellungen und ändre `FeedFilterLayout: blog`.
+Falls du nicht die gesamte Webseite im Feed auflisten willst, kannst du unterschiedliche Filter benutzen um den Feed anzupassen. Um einen Feed fürs Wiki zu machen, öffne die Datei `system/extensions/yellow-system.ini` und ändere `FeedFilterLayout: wiki`. Um einen Feed fürs Blog zu machen, öffne die Systemeinstellungen und ändere `FeedFilterLayout: blog`.
 
 ## Beispiele
 
