@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.17";
+    const VERSION = "0.8.18";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -36,45 +36,48 @@ class YellowSearch {
             list($tokens, $filters) = $this->getSearchInformation($query, 10);
             if (!empty($tokens) || !empty($filters)) {
                 $pages = $this->yellow->content->clean();
-                $showInvisible = $this->yellow->getRequestHandler()=="edit" && isset($filters["status"]) &&
-                    ($filters["status"]=="private" || $filters["status"]=="draft" || $filters["status"]=="unlisted");
-                foreach ($this->yellow->content->index($showInvisible, false) as $pageSearch) {
+                $showInvisible = $this->yellow->getRequestHandler()=="edit" && isset($filters["status"]);
+                $pagesContent = $this->yellow->content->index($showInvisible, false);
+                if ($showInvisible && $filters["status"]=="shared") {
+                    $pagesContent->merge($this->yellow->content->getShared($page->location));
+                }
+                foreach ($pagesContent as $pageContent) {
                     $searchScore = 0;
                     $searchTokens = array();
                     foreach ($tokens as $token) {
-                        $score = substr_count(strtoloweru($pageSearch->getContent(true)), strtoloweru($token));
+                        $score = substr_count(strtoloweru($pageContent->getContent(true)), strtoloweru($token));
                         if ($score) {
                             $searchScore += $score;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageSearch->get("title"), $token)) {
+                        if (stristr($pageContent->get("title"), $token)) {
                             $searchScore += 50;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageSearch->getLocation(true), $token)) {
+                        if (stristr($pageContent->getLocation(true), $token)) {
                             $searchScore += 20;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageSearch->get("tag"), $token)) {
+                        if (stristr($pageContent->get("tag"), $token)) {
                             $searchScore += 5;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageSearch->get("author"), $token)) {
+                        if (stristr($pageContent->get("author"), $token)) {
                             $searchScore += 2;
                             $searchTokens[$token] = true;
                         }
                     }
                     if (count($tokens)==count($searchTokens)) {
-                        $pageSearch->set("searchscore", $searchScore);
-                        $pages->append($pageSearch);
+                        $pageContent->set("searchscore", $searchScore);
+                        $pages->append($pageContent);
                     }
                 }
                 if (!empty($filters)) {
                     if (isset($filters["tag"])) $pages->filter("tag", $filters["tag"]);
                     if (isset($filters["author"])) $pages->filter("author", $filters["author"]);
                     if (isset($filters["language"])) $pages->filter("language", $filters["language"]);
-                    if (isset($filters["status"])) $pages->filter("status", $filters["status"]);
                     if (isset($filters["folder"])) $pages->match("#$filters[folder]#i", false);
+                    if (isset($filters["status"])) $pages->filter("status", $filters["status"]);
                 }
                 $pages->sort("modified", false)->sort("searchscore", false);
                 $text = empty($query) ? $this->yellow->language->getText("searchSpecialChanges") : $query;
@@ -96,7 +99,7 @@ class YellowSearch {
     public function getSearchInformation($query, $tokensMax) {
         $tokens = array_unique(array_filter($this->yellow->toolbox->getTextArguments($query), "strlen"));
         $filters = array();
-        $filtersSupported = array("tag", "author", "language", "status", "folder", "special");
+        $filtersSupported = array("tag", "author", "language", "folder", "status", "special");
         foreach ($_REQUEST as $key=>$value) {
             if (in_array($key, $filtersSupported)) $filters[$key] = $value;
         }
