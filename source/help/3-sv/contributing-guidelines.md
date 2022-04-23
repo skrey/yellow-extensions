@@ -19,7 +19,7 @@ Läs hur du jobbar med oss och skapar användbara produkter.
 
 ## Hur man jobbar med oss
 
-* Förbättra tillgängliga tillägg, [gör och publicerar ett tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md).
+* Förbättra tillgängliga tillägg, [gör och publicera ett tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/publish/README-sv.md).
 * Granska tillgängliga dokumentationen, [redigera hjälpen](https://github.com/datenstrom/yellow-extensions/tree/master/source/help/README-sv.md) och [gör en översättning](https://github.com/datenstrom/yellow-extensions/tree/master/source/language/README-sv.md).
 * Engagera dig aktivt i vårt community, [hjälp nya användare och svara på frågor](https://github.com/datenstrom/yellow/discussions/685). 
 * Gör ett tillkännagivande och visa vad du har gjort. [Se vad som är nytt](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).

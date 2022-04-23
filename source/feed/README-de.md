@@ -6,9 +6,13 @@ Feed mit letzten Änderungen.
 
 <p align="center"><img src="feed-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
-## Wie man eine Feed benutzt
+## Wie man einen Feed benutzt
 
-Der Feed ist auf deiner Webseite vorhanden als `http://website/feed/` und `http://website/feed/page:feed.xml`. Es ist ein Feed für die gesamte Webseite, nur sichtbare Seiten sind enthalten. Um einen Blog-Feed zu machen, öffne die Datei `system/extensions/yellow-system.ini` und ändere `FeedFilterLayout: blog`.
+Der Feed ist auf deiner Webseite vorhanden als `http://website/feed/` und `http://website/feed/page:feed.xml`. Es ist ein Feed für die gesamte Webseite, nur sichtbare Seiten sind enthalten.
+
+## Wie man einen Feed anpasst
+
+Falls du nicht die gesamte Webseite im Feed auflisten willst, kannst du unterschiedliche Filter benutzen um den Feed anzupassen. Um einen Feed fürs Wiki zu machen, öffne die Datei `system/extensions/yellow-system.ini` und ändere `FeedFilterLayout: wiki`. Um einen Feed fürs Blog zu machen, öffne die Systemeinstellungen und ändre `FeedFilterLayout: blog`.
 
 ## Beispiele
 

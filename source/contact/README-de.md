@@ -12,13 +12,13 @@ Die Kontaktseite ist auf deiner Webseite vorhanden als `http://website/contact/`
 
 ## Wie man eine Kontaktseite beschränkt
 
-Falls du nicht willst dass Nachrichten an beliebige Personen geschickt werden, beschränke E-Mails. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `ContactEmailRestriction: 1`. Alle Kontaktnachrichten gehen dann direkt an den Webmaster und es nicht mehr möglich eine andere Kontaktperson in den Seiteneinstellungen festzulegen.
+Falls du nicht willst dass Nachrichten an beliebige Kontaktpersonen geschickt werden, beschränke E-Mails. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `ContactEmailRestriction: 1`. Alle Kontaktnachrichten gehen dann direkt an den Webmaster und es nicht mehr möglich eine andere Kontaktperson in den Seiteneinstellungen festzulegen.
 
 Falls du nicht willst dass Nachrichten mit Links verschickt werden, beschränke Links. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `ContactLinkRestriction: 1`. Kontaktnachrichten dürfen dann keine anklickbare Links enthalten, das blockiert viele unerwünschte Nachrichten. Du kannst ausserdem Stichwörter im Spamfilter einstellen, netterweise schicken viele Spammer die selbe Nachricht mehrfach.
 
 ## Beispiele
 
-Kontaktseite mit Einstellungen:
+Inhaltsdatei für Kontaktseite:
 
     ---
     Title: Kontaktiere einen Menschen

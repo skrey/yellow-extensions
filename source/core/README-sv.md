@@ -102,9 +102,9 @@ Innehållsfil med omdirigering:
 
 `public` = sidan är en vanlig sida  
 `private` = sidan är inte synlig, användaren måste ange lösenord, [kräver private-tillägg](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
-`draft` = sidan är inte synlig, användaren måste logga in, [kräver draft-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)  
 `unlisted` = sidan är inte synlig, men kan nås med rätt länk  
 `shared` = sidan är inte synlig, men kan ingå i andra sidor  
+`draft` = sidan är inte synlig, användaren måste logga in, [kräver draft-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)  
 
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 

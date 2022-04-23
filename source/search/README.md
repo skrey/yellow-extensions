@@ -10,9 +10,9 @@ Full-text search.
 
 The search is available on your website as `http://website/search/`. It searches trough content of the entire website, only visible pages are included. To show a search field on your website use a `[search]` shortcut.
 
-## How to fine-tune a search
+## How to customise a search
 
-If you don't want to search trough the entire website, you can use different filters to fine-tune search results. The `author:` filter finds pages by a specific author. The `language:` filter finds pages in a specific language. The `tag:` filter finds pages with a specific tag. The `folder:` filter finds pages in a specific folder. Once you're logged in with your user account, you can search with the `status:` filter for [hidden pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/core) and [draft pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft).
+If you don't want to search trough the entire website, you can use different filters to customise search results. The `author:` filter finds pages by a specific author. The `language:` filter finds pages in a specific language. The `tag:` filter finds pages with a specific tag. The `folder:` filter finds pages in a specific folder. Once you're logged in with your user account, you can search with the `status:` filter for [hidden pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/core) and [draft pages](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft).
 
 ## Examples
 

@@ -10,9 +10,9 @@ Heltekstsökning.
 
 Sökningen är tillgänglig på din webbplats som `http://website/search/`. Den söker igenom innehållet på hela webbplatsen, endast synliga sidor ingår. För att visa ett sökfält på din webbplats, lägg till en `[search]` förkortning.
 
-## Hur man finjusterar en sökning
+## Hur man anpassar en sökning
 
-Om du inte vill söka igenom hela webbplatsen, kan du använda olika filter för att justera sökresultaten. Filtret `author:` hittar sidor av en specifik författare. Filtret `language:` hittar sidor på ett specifikt språk. Filtret `tag:` hittar sidor med en specifik tagg. Filtret `folder:` hittar sidor i en specifik mapp. När du är inloggad med ditt användarkonto kan du söka med filtret `status:` efter [dolda sidor](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md) och [draftsidor](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft/README-sv.md).
+Om du inte vill söka igenom hela webbplatsen, kan du använda olika filter för att anpassa sökresultaten. Filtret `author:` hittar sidor av en specifik författare. Filtret `language:` hittar sidor på ett specifikt språk. Filtret `tag:` hittar sidor med en specifik tagg. Filtret `folder:` hittar sidor i en specifik mapp. När du är inloggad med ditt användarkonto kan du söka med filtret `status:` efter [dolda sidor](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md) och [draftsidor](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft/README-sv.md).
 
 ## Exempel
 

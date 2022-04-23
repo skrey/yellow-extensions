@@ -10,9 +10,9 @@ Volltext-Suche.
 
 Die Suche ist auf deiner Webseite vorhanden als `http://website/search/`. Sie durchsucht den Inhalt der gesamten Webseite, nur sichtbare Seiten sind enthalten. Um ein Suchfeld auf deiner Webseite anzuzeigen, benutze eine `[search]`-Abkürzung.
 
-## Wie man eine Suche feinjustiert
+## Wie man eine Suche anpasst
 
-Falls du nicht die gesamte Webseite durchsuchen willst, kannst du unterschiedliche Filter benutzen um Suchergebnisse zu justieren. Der Filter `author:` findet Seiten von einem bestimmten Autor. Der Filter `language:` findet Seiten in einer bestimmten Sprache. Der Filter `tag:` findet Seiten mit einem bestimmten Tag. Der Filter `folder:` findet Seiten in einem bestimmten Verzeichnis. Sobald du mit deinem Benutzerkonto angemeldet bist, kannst du mit dem Filter `status:` nach [versteckten Seiten](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md) und [Entwurfsseiten](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft/README-de.md) suchen.
+Falls du nicht die gesamte Webseite durchsuchen willst, kannst du unterschiedliche Filter benutzen um Suchergebnisse anzupassen. Der Filter `author:` findet Seiten von einem bestimmten Autor. Der Filter `language:` findet Seiten in einer bestimmten Sprache. Der Filter `tag:` findet Seiten mit einem bestimmten Tag. Der Filter `folder:` findet Seiten in einem bestimmten Verzeichnis. Sobald du mit deinem Benutzerkonto angemeldet bist, kannst du mit dem Filter `status:` nach [versteckten Seiten](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md) und [Entwurfsseiten](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft/README-de.md) suchen.
 
 ## Beispiele
 
