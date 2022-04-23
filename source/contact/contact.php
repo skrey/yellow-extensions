@@ -2,7 +2,7 @@
 // Contact extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/contact
 
 class YellowContact {
-    const VERSION = "0.8.14";
+    const VERSION = "0.8.15";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -66,6 +66,7 @@ class YellowContact {
         $message = trim($this->yellow->page->getRequest("message"));
         $consent = trim($this->yellow->page->getRequest("consent"));
         $referer = trim($this->yellow->page->getRequest("referer"));
+        $sitename = $this->yellow->system->get("sitename");
         $footer = $this->getMailFooter($referer);
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
         $author = $this->yellow->system->get("author");
@@ -83,8 +84,8 @@ class YellowContact {
         if ($status=="send") {
             $mailTo = mb_encode_mimeheader("$author")." <$email>";
             $mailSubject = mb_encode_mimeheader($this->yellow->page->get("title"));
-            $mailHeaders = mb_encode_mimeheader("From: $name")." <noreply>\r\n";
-            $mailHeaders = mb_encode_mimeheader("Reply-To: $name")." <$from>\r\n";
+            $mailHeaders = mb_encode_mimeheader("From: $sitename")." <noreply>\r\n";
+            $mailHeaders .= mb_encode_mimeheader("Reply-To: $name")." <$from>\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Referer-Url: ".$referer)."\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Request-Url: ".$this->yellow->page->getUrl())."\r\n";
             if ($spamFilter!="none" && preg_match("/$spamFilter/i", $message)) {
