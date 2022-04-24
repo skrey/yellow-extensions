@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Contact 0.8.15
+# Contact 0.8.16
 
 E-post kontaktsida.
 
@@ -49,16 +49,6 @@ Innehållsfil med länk till kontaktsidan:
     in culpa qui officia deserunt mollit anim id est laborum.
     
     [Kontakta en människa](/contact/).
-
-Innehållsfil för kontaktsida:
-
-    ---
-    Title: Kontakta en människa
-    TitleSlug: Contact
-    Layout: contact
-    Author: Anna Svensson
-    Email: hej@example.com
-    ---
 
 Konfigurera olika skräppostfilter i inställningar:
 

@@ -20,6 +20,7 @@ ContactMessage: Сообщение:
 ContactConsent: Я согласен, что этот сайт сохранит мое сообщение.
 ContactButton: Отправить мое сообщение
 ContactMailSpam: [Спам]
+ContactMailHeader: You have received a message from @sender:
 ContactMailFooter: Это письмо было отправлено через @sitename - @title
 ContactStatusNone: Скажи привет. Ваши отзывы приветствуются.
 ContactStatusIncomplete: Пожалуйста, заполните все поля.

@@ -20,6 +20,7 @@ ContactMessage: Wiadomość:
 ContactConsent: Zgadzam się na przechowywanie mojej wiadomości przez tę witrynę.
 ContactButton: Wyślij moją wiadomość
 ContactMailSpam: [Płotka]
+ContactMailHeader: You have received a message from @sender:
 ContactMailFooter: Ten e-mail został wysłany za pośrednictwem @sitename - @title
 ContactStatusNone: Przywitaj się. Twoja opinia jest mile widziana.
 ContactStatusIncomplete: Wypełnij wszystkie pola.

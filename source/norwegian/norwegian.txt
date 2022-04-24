@@ -20,6 +20,7 @@ ContactMessage: Melding:
 ContactConsent: Jeg samtykker til at denne nettsiden lagrer min innsendte informasjon.
 ContactButton: Sende melding
 ContactMailSpam: [Spam]
+ContactMailHeader: Du har mottatt en melding fra @sender:
 ContactMailFooter: Denne epost ble sendt av @sitename - @title
 ContactStatusNone: Si gjerne hei. Din tilbakemelding er velkommen.
 ContactStatusIncomplete: Vennligst fyll ut alla felt.

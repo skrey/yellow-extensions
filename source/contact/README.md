@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Contact 0.8.15
+# Contact 0.8.16
 
 Email contact page.
 
@@ -49,16 +49,6 @@ Content file with link to contact page:
     in culpa qui officia deserunt mollit anim id est laborum.
 
     [Contact a human](/contact/).
-
-Content file for contact page:
-
-    ---
-    Title: Contact a human
-    TitleSlug: Contact
-    Layout: contact
-    Author: Anna Svensson
-    Email: hello@example.com
-    ---
 
 Configuring different spam filters in the settings:
 

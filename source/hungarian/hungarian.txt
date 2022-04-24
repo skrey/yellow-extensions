@@ -20,6 +20,7 @@ ContactMessage: Üzenet:
 ContactConsent: Hozzájárulok, hogy ez a weboldal tárolja az üzenetemet.
 ContactButton: Üzenetemet küldése
 ContactMailSpam: [Spam]
+ContactMailHeader: You have received a message from @sender:
 ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Szólj hozzánk. Fontos a véleményed.
 ContactStatusIncomplete: Kérlek töltsd ki a mezőket.

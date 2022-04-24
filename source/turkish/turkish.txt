@@ -20,6 +20,7 @@ ContactMessage: Mesajınız:
 ContactConsent: Bu web sitesinin mesajımı saklamasına izin veriyorum.
 ContactButton: Mesajımı gönder
 ContactMailSpam: [Spam]
+ContactMailHeader: You have received a message from @sender:
 ContactMailFooter: Bu e-posta, @sitename - @title aracılığıyla gönderildi.
 ContactStatusNone: Merhaba. Görüşleriniz bizim için çok değerli.
 ContactStatusIncomplete: Lütfen tüm alanları doldurun.

@@ -20,6 +20,7 @@ ContactMessage: Messaggio:
 ContactConsent: Acconsento alla registrazione del mio messaggio in questo sito.
 ContactButton: Invia mio messaggio
 ContactMailSpam: [Spam]
+ContactMailHeader: You have received a message from @sender:
 ContactMailFooter: Questo messaggio è stata inviato tramite @sitename - @title
 ContactStatusNone: I tuoi commenti sono benvenuti!
 ContactStatusIncomplete: Compila per favore tutti i campi.

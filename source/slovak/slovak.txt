@@ -20,6 +20,7 @@ ContactMessage: Správa:
 ContactConsent: Soglašam, da ta spletna stran shrani moje sporočilo.
 ContactButton: Poslať moju správu
 ContactMailSpam: [Spam]
+ContactMailHeader: You have received a message from @sender:
 ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Napíš pár slov. Ceníme tvoj názor.
 ContactStatusIncomplete: Prosím vyplň všetky pole.

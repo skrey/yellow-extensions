@@ -20,6 +20,7 @@ ContactMessage: Besked:
 ContactConsent: Jeg accepterer, at denne hjemmeside gemmer min besked.
 ContactButton: Send min besked
 ContactMailSpam: [Spam]
+ContactMailHeader: You have received a message from @sender:
 ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Sig hej. Vi er glad for dine kommentarer.
 ContactStatusIncomplete: Udfyld venligst alle felter.

@@ -20,6 +20,7 @@ ContactMessage: Meddelande:
 ContactConsent: Jag godkänner att denna webbplats lagrar mitt meddelande.
 ContactButton: Skicka mitt meddelande
 ContactMailSpam: [Spam]
+ContactMailHeader: Du har fått ett meddelande av @sender:
 ContactMailFooter: Detta mail skickades via @sitename - @title
 ContactStatusNone: Säg hej. Din feedback är väldigt välkommen.
 ContactStatusIncomplete: Vänligen fyll i alla fält.

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Contact 0.8.15
+# Contact 0.8.16
 
 E-Mail-Kontaktseite.
 
@@ -49,16 +49,6 @@ Inhaltsdatei mit Link zur Kontaktseite:
     in culpa qui officia deserunt mollit anim id est laborum.
     
     [Kontaktiere einen Menschen](/contact/).
-
-Inhaltsdatei für Kontaktseite:
-
-    ---
-    Title: Kontaktiere einen Menschen
-    TitleSlug: Contact
-    Layout: contact
-    Author: Anna Svensson
-    Email: hallo@example.com
-    ---
 
 Verschiedene Spamfilter in den Einstellungen festlegen:
 

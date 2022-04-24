@@ -20,6 +20,7 @@ ContactMessage: Nachricht:
 ContactConsent: Ich stimme zu, dass diese Webseite meine Nachricht speichert.
 ContactButton: Meine Nachricht absenden
 ContactMailSpam: [Spam]
+ContactMailHeader: Du hast eine Nachricht von @sender erhalten:
 ContactMailFooter: Diese E-Mail wurde über @sitename verschickt - @title
 ContactStatusNone: Sag Hallo! Dein Feedback ist sehr willkommen.
 ContactStatusIncomplete: Bitte alle Felder ausfüllen.

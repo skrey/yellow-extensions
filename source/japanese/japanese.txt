@@ -20,6 +20,7 @@ ContactMessage: 送信内容:
 ContactConsent: このウェブサイトに私のメッセージが保存されていることに同意します。
 ContactButton: 送信
 ContactMailSpam: [スパム]
+ContactMailHeader: You have received a message from @sender:
 ContactMailFooter: このメールは @sitename - @title から送信されました。
 ContactStatusNone: ご意見・ご指摘・ご提案・ご要望・ご質問・お問合せ・等お寄せ下さい。
 ContactStatusIncomplete: 全ての項目にご入力下さい。

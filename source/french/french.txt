@@ -20,6 +20,7 @@ ContactMessage: Message:
 ContactConsent: Je consens à ce que ce site stocke mon message.
 ContactButton: Envoyer mon message
 ContactMailSpam: [Spam]
+ContactMailHeader : Vous avez reçu un message de @sender:
 ContactMailFooter: Cet email a été envoyé via @sitename - @title
 ContactStatusNone: Dites bonjour ! Vos commentaires sont les bienvenus.
 ContactStatusIncomplete: S'il vous plaît, veuillez remplir tous les champs.

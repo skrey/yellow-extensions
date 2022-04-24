@@ -2,7 +2,7 @@
 // Contact extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/contact
 
 class YellowContact {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -12,6 +12,7 @@ class YellowContact {
         $this->yellow->system->setDefault("contactEmailRestriction", "0");
         $this->yellow->system->setDefault("contactLinkRestriction", "0");
         $this->yellow->system->setDefault("contactSpamFilter", "advert|promot|market|traffic|click here");
+        $this->yellow->language->setDefault("contactMailHeader");
         $this->yellow->language->setDefault("contactMailFooter");
     }
     
@@ -67,6 +68,7 @@ class YellowContact {
         $consent = trim($this->yellow->page->getRequest("consent"));
         $referer = trim($this->yellow->page->getRequest("referer"));
         $sitename = $this->yellow->system->get("sitename");
+        $header = $this->getMailHeader($name, $from);
         $footer = $this->getMailFooter($referer);
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
         $author = $this->yellow->system->get("author");
@@ -95,10 +97,19 @@ class YellowContact {
             }
             $mailHeaders .= "Mime-Version: 1.0\r\n";
             $mailHeaders .= "Content-Type: text/plain; charset=utf-8\r\n";
-            $mailMessage = "$message\r\n-- \r\n$footer";
+            $mailMessage = "$header\r\n\r\n$message\r\n-- \r\n$footer";
             $status = mail($mailTo, $mailSubject, $mailMessage, $mailHeaders) ? "done" : "error";
         }
         return $status;
+    }
+
+    // Return email header
+    public function getMailHeader($name, $from) {
+        $header = $this->yellow->language->getText("contactMailHeader");
+        $header = str_replace("\\n", "\r\n", $header);
+        $header = preg_replace("/@sender/i", "$name <$from>", $header);
+        $header = preg_replace("/@sendershort/i", strtok($name, " "), $header);
+        return $header;
     }
     
     // Return email footer

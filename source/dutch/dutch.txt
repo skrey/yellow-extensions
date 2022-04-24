@@ -20,6 +20,7 @@ ContactMessage: Bericht:
 ContactConsent: Ik ga ermee akkoord dat deze website mijn bericht opslaat.
 ContactButton: Verstuur mijn bericht
 ContactMailSpam: [Spam]
+ContactMailHeader: You have received a message from @sender:
 ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Zeg hallo. Uw feedback is zeer welkom.
 ContactStatusIncomplete: Vul alle velden in.
