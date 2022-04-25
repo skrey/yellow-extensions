@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Feed 0.8.13
+# Feed 0.8.14
 
 Feed with recent changes.
 
@@ -58,13 +58,27 @@ Content file with link to feed, for a specific tag:
     [See recent changes for example](/feed/tag:example/). 
     [RSS feed](/feed/tag:example/page:feed.xml).
 
+Content file with link to feed, in a specific folder:
+
+    ---
+    Title: Example page
+    ---
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+    in culpa qui officia deserunt mollit anim id est laborum.
+
+    [See recent changes in help](/feed/folder:help/). 
+    [RSS feed](/feed/folder:help/page:feed.xml).
+
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `FeedLocation` = feed location  
 `FeedFileXml` = file name for RSS feed  
-`FeedFilterLayout` = filter for a specific layout  
+`FeedFilterLayout` = filter for a specific layout, `none` to disable  
 `FeedPaginationLimit` = number of entries to show per page, 0 for unlimited  
 
 The following files can be customised:

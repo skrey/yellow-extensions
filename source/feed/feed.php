@@ -2,7 +2,7 @@
 // Feed extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/feed
 
 class YellowFeed {
-    const VERSION = "0.8.13";
+    const VERSION = "0.8.14";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -10,7 +10,7 @@ class YellowFeed {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("feedLocation", "/feed/");
         $this->yellow->system->setDefault("feedFileXml", "feed.xml");
-        $this->yellow->system->setDefault("feedFilterLayout", "");
+        $this->yellow->system->setDefault("feedFilterLayout", "none");
         $this->yellow->system->setDefault("feedPaginationLimit", "30");
     }
 
@@ -27,8 +27,16 @@ class YellowFeed {
                 $pages->filter("author", $page->getRequest("author"));
                 array_push($pagesFilter, $pages->getFilter());
             }
+            if ($page->isRequest("language")) {
+                $pages->filter("language", $page->getRequest("language"));
+                array_push($pagesFilter, $pages->getFilter());
+            }
+            if ($page->isRequest("folder")) {
+                $pages->match("#".$page->getRequest("folder")."#i", false);
+                array_push($pagesFilter, ucfirst($page->getRequest("folder")));
+            }
             $feedFilterLayout = $this->yellow->system->get("feedFilterLayout");
-            if (!empty($feedFilterLayout)) $pages->filter("layout", $feedFilterLayout);
+            if ($feedFilterLayout!="none") $pages->filter("layout", $feedFilterLayout);
             $chronologicalOrder = ($this->yellow->system->get("feedFilterLayout")!="blog");
             if ($this->isRequestXml($page)) {
                 $pages->sort($chronologicalOrder ? "modified" : "published", false);

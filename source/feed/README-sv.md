@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Feed 0.8.13
+# Feed 0.8.14
 
 Feed med senaste ändringarna
 
@@ -58,13 +58,27 @@ Innehållsfil med länk till feed, för en specifik tagg:
     [Se senaste ändringarna för exempel](/feed/tag:exempel/). 
     [RSS feed](/feed/tag:example/page:feed.xml).
 
+Innehållsfil med länk till feed, i en specifik mapp:
+
+    ---
+    Title: Exempelsida
+    ---
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+    in culpa qui officia deserunt mollit anim id est laborum.
+
+    [Se senaste ändringarna i hjälp](/feed/folder:help/). 
+    [RSS feed](/feed/folder:help/page:feed.xml).
+
 ## Inställningar
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
 `FeedLocation` = plats för feed  
 `FeedFileXml` = filnamn för RSS feed  
-`FeedFilterLayout` = filter för en specifik layout  
+`FeedFilterLayout` = filter för en specifik layout, `none` för att inaktivera  
 `FeedPaginationLimit` = antal inlägg att visa per sida, 0 för obegränsad  
 
 Följande filer kan anpassas:
