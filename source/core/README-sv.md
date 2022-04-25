@@ -4,7 +4,7 @@
 
 Webbplatsens kärnfunktion.
 
-<p align="center"><img src="core-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>
+<p align="center"><img src="core-screenshot.png?raw=true" width="795" height="520" alt="Skärmdump"></p>
 
 ## Hur man redigerar en webbplats i textredigeraren
 
