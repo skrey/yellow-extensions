@@ -8,7 +8,7 @@ Stöd för draftsidor.
 
 ## Hur man skapar en draftsida 
 
-Ställ in `Status: draft` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida. Sidan kommer inte längre att visas. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) och filsystemet.
+Ställ in `Status: draft` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida. Sidan kommer inte längre att visas. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) och på din [dator](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md).
 
 ## Hur man hittar draftsidor
 
