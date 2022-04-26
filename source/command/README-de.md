@@ -30,7 +30,7 @@ Inhaltsdatei mit Option zum Erstellen einer statischen Webseite:
     Title: Beispielseite
     Build: exclude
     ---
-    Diese Seite ist in einer statischen Webseite oder einem Zwischenspeicher nicht enthalten.
+    Diese Seite ist in einer statischen Webseite und einem Zwischenspeicher nicht enthalten.
 
 Übersicht der verfügbaren Befehle:
 

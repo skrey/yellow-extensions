@@ -22,7 +22,7 @@ Inhaltsdatei mit Draft-Status:
     Title: Beispielseite
     Status: draft
     ---
-    Das ist eine Beispielseite.
+    Diese Seite ist auf deiner Webseite nicht sichtbar.
 
 Inhaltsdatei mit Draft-Status fürs Wiki:
 
@@ -32,7 +32,7 @@ Inhaltsdatei mit Draft-Status fürs Wiki:
     Tag: Beispiel
     Status: draft
     ---
-    Das ist eine Beispielseite fürs Wiki.
+    Diese Seite ist in deinem Wiki nicht sichtbar.
 
 Inhaltsdatei mit Draft-Status fürs Blog:
 
@@ -44,7 +44,7 @@ Inhaltsdatei mit Draft-Status fürs Blog:
     Tag: Beispiel
     Status: draft
     ---
-    Das ist eine Beispielseite fürs Blog.
+    Diese Seite ist in deinem Blog nicht sichtbar.
 
 Layoutdatei um alle Entwurfseiten anzuzeigen:
 

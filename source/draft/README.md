@@ -22,7 +22,7 @@ Content file with draft status:
     Title: Example page
     Status: draft
     ---
-    This is an example page.
+    This page is not visible on your website.
 
 Content file with draft status for the wiki:
 
@@ -32,7 +32,7 @@ Content file with draft status for the wiki:
     Tag: Example
     Status: draft
     ---
-    This is an example wiki page.
+    This page is not visible in your wiki.
 
 Content file with draft status for the blog:
 
@@ -44,7 +44,7 @@ Content file with draft status for the blog:
     Tag: Example
     Status: draft
     ---
-    This is an example blog page.
+    This page is not visible in your blog.
 
 Layout file for showing all draft pages:
 

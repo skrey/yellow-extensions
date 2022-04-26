@@ -30,7 +30,7 @@ Innehållsfil med alternativ för att bygga en statisk webbplats:
     Title: Exempelsida
     Build: exclude
     ---
-    Den här sidan ingår inte i en statisk webbplats eller cache.
+    Den här sidan ingår inte i en statisk webbplats och cache.
 
 Översikt över tillgängliga kommandon:
 

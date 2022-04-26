@@ -8,7 +8,7 @@ Redigera din webbplats i en webbläsare.
 
 ## Hur man redigerar en webbplats i en webbläsare
 
-Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren låter dig redigera innehållsfiler, ladda upp mediefiler och ändra systeminställningar. Det är ett utmärkt sätt att uppdatera webbsidor.
+Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren låter dig redigera innehållsfiler, ladda upp mediefiler och ändra systeminställningar. Det är ett utmärkt sätt att uppdatera webbsidor. För att visa en redigeringslänk på din webbplats, använd en `[edit]` förkortning.
 
 ## Hur man skapar ett användarkonto
 
@@ -30,13 +30,13 @@ Om du inte vill att användarkonton ska skapas begränsar du inloggningssidan. �
 
 ## Exempel
 
-Visa länk att redigera:
+Visa redigeringslänk:
 
     [edit]
     [edit - Logga in]
     [edit - Du kan redigera den här sidan]
 
-Innehållsfil med länk att redigera:
+Innehållsfil med redigeringslänk:
 
     ---
     Title: Exempelsida

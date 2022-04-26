@@ -30,7 +30,7 @@ Content file with option for building a static website:
     Title: Example page
     Build: exclude
     ---
-    This page is not included in a static website or cache.
+    This page is not included in a static website and cache.
 
 Overview of available commands:
 

@@ -22,7 +22,7 @@ Innehållsfil med draft-status:
     Title: Exempelsida
     Status: draft
     ---
-    Detta är ett exempelsida.
+    Den här sidan visas inte på din webbplats.
 
 Innehållsfil med draft-status för wikin:
 
@@ -32,7 +32,7 @@ Innehållsfil med draft-status för wikin:
     Tag: Exempel
     Status: draft
     ---
-    Detta är ett exempel på en wikisida.
+    Den här sidan visas inte i din wiki.
 
 Innehållsfil med draft-status för bloggen:
 
@@ -44,7 +44,7 @@ Innehållsfil med draft-status för bloggen:
     Tag: Exempel
     Status: draft
     ---
-    Detta är ett exempel på en bloggsida.
+    Den här sidan visas inte i din blogg.
 
 Layoutfil för att visa alla draftsidor:
 
