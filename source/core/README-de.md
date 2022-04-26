@@ -6,9 +6,9 @@ Kernfunktionalität der Webseite.
 
 <p align="center"><img src="core-screenshot.png?raw=true" width="795" height="520" alt="Bildschirmfoto"></p>
 
-## Wie man eine Webseite im Texteditor bearbeitet
+## Wie man eine Webseite auf dem Computer bearbeitet
 
-Du kannst deinen Lieblings-Texteditor benutzen und alles im Dateimanager verändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man die Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man Bilder und andere Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier passt man die Webseite an und entwickelt Erweiterungen.
+Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier ändert man installierte Erweiterungen und Konfigurationsdateien.
 
 ## Wie man eine Seite versteckt
 

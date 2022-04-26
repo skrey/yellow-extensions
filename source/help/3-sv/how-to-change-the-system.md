@@ -20,20 +20,20 @@ Den centrala konfigurationsfilen är `system/extensions/yellow-system.ini`. Här
     Sitename: Anna Svensson Design
     Author: Anna Svensson
     Email: anna@svensson.com
+    Layout: default
     Theme: stockholm
     Language: sv
-    Layout: default
     Parser: markdown
     Status: public
 
-Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) eller textredigeraren för att ändra systeminställningar. Systeminställningarna innehåller inställningarna för din webbplats och för alla tillägg. Efter en ny installation var noga med att kontrollera `Sitename`, `Author` och `Email`. Följande inställningar kan konfigureras:
+Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) eller din [dator](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md) för att ändra systeminställningar. Systeminställningarna innehåller inställningarna för din webbplats och för alla tillägg. Efter en ny installation var noga med att kontrollera `Sitename`, `Author` och `Email`. Följande inställningar kan konfigureras:
 
 `Sitename` = webbplatsens namn  
 `Author` = webmasterns namn  
 `Email` = webmasterns email  
+`Layout` = standardlayout  
 `Theme` = standardtema  
 `Language` = standardspråk  
-`Layout` = standardlayout  
 `Parser` = standard sidparser  
 `Status` = standard sidstatus  
 
@@ -82,10 +82,10 @@ Följande inställningar kan konfigureras högst upp på en sida:
 `Description` = sidans beskrivning  
 `Author` = sidans författare, kommaseparerade  
 `Email` = email av sidans författare  
-`Theme` = sidans tema  
-`Language` = sidans språk  
 `Layout` = sidans layout  
 `LayoutNew` = sidans layout för att skapa en ny sida  
+`Theme` = sidans tema  
+`Language` = sidans språk  
 `Parser` = sidans parser  
 `Status` = sidans status  
 `Redirect` = omdirigera till en ny sida eller URL  

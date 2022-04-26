@@ -11,7 +11,7 @@ Title: Hur man skapar en liten blogg
 
 ## Edit blog pages
 
-If you want to edit blog pages in a web browser, you can do this on your website at `http://website/edit/blog/`. If you want to edit blog pages in a text editor, have a look inside your `content/2-blog` folder. Give it a try. Open the file `content/2-blog/2020-04-07-blog-example.md`. At the top of the page you can change `Title` and other [page settings](how-to-change-the-system#page-settings). Below you can change [text](how-to-change-the-content#text) and [images](how-to-change-the-media#images). Here's an example:
+If you want to edit blog pages in a web browser, you can do this on your website at `http://website/edit/blog/`. If you want to edit blog pages on your computer, have a look inside your `content/2-blog` folder. Give it a try. Open the file `content/2-blog/2020-04-07-blog-example.md`. At the top of the page you can change `Title` and other [page settings](how-to-change-the-system#page-settings). Below you can change [text](how-to-change-the-content#text) and [images](how-to-change-the-media#images). Here's an example:
 
 ```
 ---
@@ -112,7 +112,7 @@ There are [extensions for your website](https://github.com/datenstrom/yellow-ext
 ## Related information
 
 * [How to edit a website in a web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)
-* [How to edit a website in a text editor](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
+* [How to edit a website on your computer](https://github.com/datenstrom/yellow-extensions/tree/master/source/core)
 * [How to use a blog](https://github.com/datenstrom/yellow-extensions/tree/master/source/blog)
 
 Do you have questions? [Get help](.).

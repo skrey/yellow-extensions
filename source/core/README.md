@@ -6,9 +6,9 @@ Core functionality of the website.
 
 <p align="center"><img src="core-screenshot.png?raw=true" width="795" height="520" alt="Screenshot"></p>
 
-## How to edit a website in a text editor
+## How to edit a website on your computer
 
-You can use your favorite text editor and change everything in the file manager. The `content` folder contains the content files of the website. You can edit the website here. The `media` folder contains the media files of the website. You can store images and other files here. The `system` folder contains the system files of the website. You can adjust the website and develop extensions here.
+You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can change installed extensions and configuration files here.
 
 ## How to hide a page
 

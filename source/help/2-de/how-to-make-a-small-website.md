@@ -11,7 +11,7 @@ Hier erfährst du, wie du deine Webseite erstellst.
 
 ## Webseiten bearbeiten
 
-Falls du Webseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/`. Falls du Webseiten im Texteditor bearbeiten möchtest, schau dir das `content`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/1-home/page.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-change-the-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-change-the-content#text) und [Bilder](how-to-change-the-media#bilder) ändern. Hier ist ein Beispiel:
+Falls du Webseiten im Webbrowser bearbeiten möchtest, kannst du das auf deiner Webseite machen unter `http://website/edit/`. Falls du Webseiten auf deinem Computer bearbeiten möchtest, schau dir das `content`-Verzeichnis an. Probier es einfach mal aus. Öffne die Datei `content/1-home/page.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](how-to-change-the-system#seiteneinstellungen) ändern. Darunter kannst du [Text](how-to-change-the-content#text) und [Bilder](how-to-change-the-media#bilder) ändern. Hier ist ein Beispiel:
 
 ```
 ---
@@ -80,7 +80,7 @@ Es gibt [Erweiterungen für deine Webseite](https://github.com/datenstrom/yellow
 ## Verwandte Informationen
 
 * [Wie man eine Webseite im Webbrowser bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md)
-* [Wie man eine Webseite im Texteditor bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
+* [Wie man eine Webseite auf dem Computer bearbeitet](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md)
 * [Wie man eine statische Webseite erstellt](https://github.com/datenstrom/yellow-extensions/tree/master/source/command/README-de.md)
 
 Hast du Fragen? [Hilfe finden](.).

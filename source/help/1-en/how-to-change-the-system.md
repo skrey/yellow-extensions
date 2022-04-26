@@ -20,20 +20,20 @@ The main configuration file is `system/extensions/yellow-system.ini`. Here's an 
     Sitename: Anna Svensson Design
     Author: Anna Svensson
     Email: anna@svensson.com
+    Layout: default
     Theme: stockholm
     Language: en
-    Layout: default
     Parser: markdown
     Status: public
 
-You can use a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) or text editor to change the system settings. The system settings contain the settings of your website and of all extensions. After a new installation be sure to check `Sitename`, `Author` and `Email`. The following settings can be configured:
+You can use a [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) or your [computer](https://github.com/datenstrom/yellow-extensions/tree/master/source/core) to change the system settings. The system settings contain the settings of your website and of all extensions. After a new installation be sure to check `Sitename`, `Author` and `Email`. The following settings can be configured:
 
 `Sitename` = name of the website  
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
+`Layout` = default layout  
 `Theme` = default theme  
 `Language` = default language  
-`Layout` = default layout  
 `Parser` = default page parser  
 `Status` = default page status  
 
@@ -82,10 +82,10 @@ The following settings can be configured at the top of a page:
 `Description` = page description  
 `Author` = page author(s), comma separated  
 `Email` = email of page author  
-`Theme` = page theme  
-`Language` = page language  
 `Layout` = page layout  
 `LayoutNew` = page layout for creating a new page  
+`Theme` = page theme  
+`Language` = page language  
 `Parser` = page parser  
 `Status` = page status  
 `Redirect` = redirect to a new page or URL  

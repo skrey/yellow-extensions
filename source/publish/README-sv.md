@@ -111,9 +111,9 @@ Följande inställningar kan konfigureras i filen `extension.ini`:
 `DownloadUrl` = tilläggets nedladdningsadress  
 `Published` = tilläggets publiceringsdatum, ÅÅÅÅ-MM-DD format  
 `Status` = tilläggets status, [stödda statusvärden](#inställningar-status)  
-`Developer` = utvecklare av en funktion  
-`Designer` = formgivare av ett tema  
-`Translator` = översättare av ett språk  
+`Developer` = utvecklare av en funktion, kommaseparerade  
+`Designer` = formgivare av ett tema, kommaseparerade  
+`Translator` = översättare av ett språk, kommaseparerade  
 `Tag` = taggar för kategorisering av tilläget, kommaseparerade  
 
 <a id="inställningar-status"></a>Följande statusvärden stöds:

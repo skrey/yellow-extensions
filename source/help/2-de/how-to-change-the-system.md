@@ -20,20 +20,20 @@ Die zentrale Konfigurationsdatei ist `system/extensions/yellow-system.ini`. Hier
     Sitename: Anna Svensson Design
     Author: Anna Svensson
     Email: anna@svensson.com
+    Layout: default
     Theme: berlin
     Language: de
-    Layout: default
     Parser: markdown
     Status: public
 
-Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) oder Texteditor kannst du die Systemeinstellungen ändern. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller Erweiterungen. Nach einer neuen Installation sollte man unbedingt `Sitename`, `Author` und `Email` überprüfen. Die folgenden Einstellungen können vorgenommen werden:
+Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) oder auf deinem [Computer](https://github.com/datenstrom/yellow-extensions/tree/master/core/edit/README-de.md) kannst du die Systemeinstellungen ändern. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller Erweiterungen. Nach einer neuen Installation sollte man unbedingt `Sitename`, `Author` und `Email` überprüfen. Die folgenden Einstellungen können vorgenommen werden:
 
 `Sitename` = Name der Webseite  
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
+`Layout` = Standard-Layout  
 `Theme` = Standard-Thema  
 `Language` = Standard-Sprache  
-`Layout` = Standard-Layout  
 `Parser` = Standard-Seitenparser  
 `Status` = Standard-Seitenstatus  
 
@@ -82,10 +82,10 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Description` = Beschreibung der Seite  
 `Author` = Autoren der Seite, durch Komma getrennt  
 `Email` = E-Mail des Seitenautors  
-`Theme` = Thema der Seite  
-`Language` = Sprache der Seite  
 `Layout` = Layout der Seite  
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
+`Theme` = Thema der Seite  
+`Language` = Sprache der Seite  
 `Parser` = Parser der Seite  
 `Status` = Status der Seite  
 `Redirect` = Umleitung zu einer neuen Seite oder URL  

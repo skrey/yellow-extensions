@@ -25,7 +25,7 @@ The following folders are available:
     └── trash             = deleted files
 ```
 
-You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can change your settings here.
+You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can change installed extensions and configuration files here.
 
 `system/extensions/yellow-system.ini` = [file with system settings](how-to-change-the-system#system-settings)  
 `system/extensions/yellow-user.ini` = [file with user settings](how-to-change-the-system#user-settings)  

@@ -111,9 +111,9 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `DownloadUrl` = Adresse zum Herunterladen der Erweiterung  
 `Published` = Veröffentlichungsdatum der Erweiterung, JJJJ-MM-TT Format  
 `Status` = Status der Erweiterung, [unterstützte Statuswerte](#einstellungen-status)  
-`Developer` = Entwickler einer Funktion  
-`Designer` = Designer eines Themas  
-`Translator` = Übersetzer einer Sprache  
+`Developer` = Entwickler einer Funktion, durch Komma getrennt  
+`Designer` = Designer eines Themas, durch Komma getrennt  
+`Translator` = Übersetzer einer Sprache, durch Komma getrennt  
 `Tag` = Tags zur Kategorisierung der Erweiterung, durch Komma getrennt  
 
 <a id="einstellungen-status"></a>Die folgenden Erweiterungs-Statuswerte werden unterstützt:
