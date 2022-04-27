@@ -86,14 +86,14 @@ Status: active
 Konfigurera ett användarkonto med begränsade användarrättigheter:
 
 ```
-Email: english@example.com
+Email: svenska@example.com
 Name: Demo
 Description: För att testa webbplatsen
 Language: sv
 Access: edit, upload
 Home: /demo/
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
-Stamp: f3e71699df534913a823
+Stamp: 3a3d21197d54186d7e85
 Pending: none
 Failed: 0
 Modified: 2000-01-01 13:37:00

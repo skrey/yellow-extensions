@@ -127,6 +127,7 @@ Layoutdatei für Standard-Seite:
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
+`content/1-home/page.md` = Inhaltsdatei für die Startseite  
 `content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
 `system/layouts/default.html` = Layoutdatei für Standard-Seite  
 `system/layouts/error.html` = Layoutdatei für Fehler-Seite  

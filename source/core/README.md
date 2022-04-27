@@ -127,6 +127,7 @@ Layout file for default page:
 
 <a id="settings-files"></a>The following files can be customised:
 
+`content/1-home/page.md` = content file for home page  
 `content/shared/page-error-404.md` = content file for error page  
 `system/layouts/default.html` = layout file for default page  
 `system/layouts/error.html` = layout file for error page  

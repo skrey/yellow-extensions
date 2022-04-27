@@ -127,6 +127,7 @@ Layoutfil för standardsidan:
 
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 
+`content/1-home/page.md` = innehållsfil för hemsidan  
 `content/shared/page-error-404.md` = innehållsfil för felsidan  
 `system/layouts/default.html` = layoutfil för standardsidan  
 `system/layouts/error.html` = layoutfil för felsidan  
