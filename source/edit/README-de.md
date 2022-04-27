@@ -69,7 +69,7 @@ Status: active
 Ein Benutzerkonto mit Standard-Zugriffsrechten ausstatten:
 
 ```
-Email: deutsch@example.com
+Email: niklas@svensson.com
 Name: Niklas Svensson
 Description: Redakteur
 Language: de

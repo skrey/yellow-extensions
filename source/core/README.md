@@ -43,6 +43,25 @@ Content file with redirection:
     ---
     This page is redirected to another page.
 
+Content file for error page:
+
+    ---
+    Title: File not found
+    Layout: error
+    ---
+    The requested file was not found. Oh no...
+
+Layout file for default page:
+
+    <?php $this->yellow->layout("header") ?>
+    <div class="content">
+    <div class="main" role="main">
+    <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
+    <?php echo $this->yellow->page->getContent() ?>
+    </div>
+    </div>
+    <?php $this->yellow->layout("footer") ?>
+
 ## Settings
 
 <a id="settings-system"></a>The following settings can be configured in file `system/extensions/yellow-system.ini`:
@@ -108,6 +127,7 @@ Content file with redirection:
 
 <a id="settings-files"></a>The following files can be customised:
 
+`content/shared/page-error-404.md` = content file for error page  
 `system/layouts/default.html` = layout file for default page  
 `system/layouts/error.html` = layout file for error page  
 `system/layouts/header.html` = layout file for default HTML header  

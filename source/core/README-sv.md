@@ -43,6 +43,25 @@ Innehållsfil med omdirigering:
     ---
     Den här sidan omdirigeras till en annan sida.
 
+Innehållsfil för felsidan:
+
+    ---
+    Title: Filen hittades inte
+    Layout: error
+    ---
+    Den begärda filen kunde inte hittas. Å nej...
+
+Layoutfil för standardsidan:
+
+    <?php $this->yellow->layout("header") ?>
+    <div class="content">
+    <div class="main" role="main">
+    <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
+    <?php echo $this->yellow->page->getContent() ?>
+    </div>
+    </div>
+    <?php $this->yellow->layout("footer") ?>
+
 ## Inställningar
 
 <a id="inställningar-system"></a>Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
@@ -108,6 +127,7 @@ Innehållsfil med omdirigering:
 
 <a id="inställningar-files"></a>Följande filer kan anpassas:
 
+`content/shared/page-error-404.md` = innehållsfil för felsidan  
 `system/layouts/default.html` = layoutfil för standardsidan  
 `system/layouts/error.html` = layoutfil för felsidan  
 `system/layouts/header.html` = layoutfil för standard HTML-header  

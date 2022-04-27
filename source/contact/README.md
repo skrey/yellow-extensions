@@ -50,6 +50,17 @@ Content file with link to contact page:
 
     [Contact a human](/contact/).
 
+Content file with a different contact person on the contact page:
+
+     ---
+     Title: Contact a human
+     TitleSlug: Contact
+     Layout: contact
+     Status: unlisted
+     Author: Anna Svensson
+     Email: anna@svensson.com
+     ---
+
 Configuring different spam filters in the settings:
 
     ContactSpamFilter: advert|promot|market|traffic|click here

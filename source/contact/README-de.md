@@ -12,7 +12,7 @@ Die Kontaktseite ist auf deiner Webseite vorhanden als `http://website/contact/`
 
 ## Wie man eine Kontaktseite beschränkt
 
-Falls du nicht willst dass Nachrichten an beliebige Kontaktpersonen geschickt werden, beschränke E-Mails. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `ContactEmailRestriction: 1`. Alle Kontaktnachrichten gehen dann direkt an den Webmaster und es nicht mehr möglich ganz oben auf einer Seite eine andere Kontaktperson in den [Seiteneinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen-seite) festzulegen.
+Falls du nicht willst dass Nachrichten an beliebige Kontaktpersonen geschickt werden, beschränke E-Mails. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `ContactEmailRestriction: 1`. Alle Kontaktnachrichten gehen dann direkt an den Webmaster und es nicht mehr möglich eine andere Kontaktperson in den [Seiteneinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen-seite) ganz oben auf einer Seite festzulegen.
 
 Falls du nicht willst dass Nachrichten mit Links verschickt werden, beschränke Links. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `ContactLinkRestriction: 1`. Kontaktnachrichten dürfen dann keine anklickbare Links enthalten, das blockiert viele unerwünschte Nachrichten. Du kannst ausserdem Stichwörter im Spamfilter einstellen, netterweise schicken viele Spammer die selbe Nachricht mehrfach.
 
@@ -49,6 +49,17 @@ Inhaltsdatei mit Link zur Kontaktseite:
     in culpa qui officia deserunt mollit anim id est laborum.
     
     [Kontaktiere einen Menschen](/contact/).
+
+Inhaltsdatei mit einer anderen Kontaktperson auf der Kontaktseite:
+
+     ---
+     Title: Kontaktiere einen Menschen
+     TitleSlug: Contact
+     Layout: contact
+     Status: unlisted
+     Author: Anna Svensson
+     Email: anna@svensson.com
+     ---
 
 Verschiedene Spamfilter in den Einstellungen festlegen:
 

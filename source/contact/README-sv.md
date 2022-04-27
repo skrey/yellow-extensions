@@ -37,7 +37,7 @@ Innehållsfil med kontaktformulär:
 
     [contact]
 
-Innehållsfil med länk till kontaktsidan:
+Innehållsfil med en annan kontaktperson på kontaktsidan:
 
     ---
     Title: Exempelsida
@@ -49,6 +49,17 @@ Innehållsfil med länk till kontaktsidan:
     in culpa qui officia deserunt mollit anim id est laborum.
     
     [Kontakta en människa](/contact/).
+
+Innehållsfil med en annan kontaktperson på kontaktsidan:
+
+     ---
+     Title: Kontakta en människa
+     TitleSlug: Contact
+     Layout: contact
+     Status: unlisted
+     Author: Anna Svensson
+     Email: anna@svensson.com
+     ---
 
 Konfigurera olika skräppostfilter i inställningar:
 

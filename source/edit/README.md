@@ -69,7 +69,7 @@ Status: active
 Configuring a user account with default user access rights:
 
 ```
-Email: english@example.com
+Email: niklas@svensson.com
 Name: Niklas Svensson
 Description: Editor
 Language: en

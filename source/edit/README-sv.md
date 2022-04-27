@@ -69,7 +69,7 @@ Status: active
 Konfigurera ett användarkonto med standard användarrättigheter:
 
 ```
-Email: english@example.com
+Email: niklas@svensson.com
 Name: Niklas Svensson
 Description: Redaktör
 Language: sv

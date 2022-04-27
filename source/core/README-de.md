@@ -43,6 +43,25 @@ Inhaltsdatei mit Weiterleitung:
     ---
     Diese Seite wird zu einer anderen Seite weitergeleitet.
 
+Inhaltsdatei für Fehlerseite:
+
+    ---
+    Title: Datei nicht gefunden
+    Layout: error
+    ---
+    Die angeforderte Datei wurde nicht gefunden. Oh nein...
+
+Layoutdatei für Standard-Seite:
+
+    <?php $this->yellow->layout("header") ?>
+    <div class="content">
+    <div class="main" role="main">
+    <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
+    <?php echo $this->yellow->page->getContent() ?>
+    </div>
+    </div>
+    <?php $this->yellow->layout("footer") ?>
+
 ## Einstellungen
 
 <a id="einstellungen-system"></a>Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
@@ -108,6 +127,7 @@ Inhaltsdatei mit Weiterleitung:
 
 <a id="einstellungen-files"></a>Die folgenden Dateien können angepasst werden:
 
+`content/shared/page-error-404.md` = Inhaltsdatei für Fehlerseite  
 `system/layouts/default.html` = Layoutdatei für Standard-Seite  
 `system/layouts/error.html` = Layoutdatei für Fehler-Seite  
 `system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
