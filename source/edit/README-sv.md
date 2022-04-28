@@ -24,7 +24,7 @@ Det andra alternativet är att ta bort ett användarkonto på [kommandoraden](ht
 
 ## Hur man begränsar ett användarkonto
 
-Om du inte vill att sidorna ska ändras i en webbläsare begränsar du användarkonton. Öppna filen `system/extensions/yellow-user.ini` och ändra `Access` och `Home`. Användare får redigera sidor på sin hemsida, men inte någon annanstans. Det finns olika [rättigheter](#inställningar-access) för att bestämma vad en användare kan göra.
+Om du inte vill att sidorna ska ändras i en webbläsare begränsar du användarkonton. Öppna filen `system/extensions/yellow-user.ini` och ändra `Access` och `Home`. Användare får redigera sidor på sin hemsida, men inte någon annanstans. Det finns olika [rättigheter](#inställningar-access) för att bestämma vad användare får göra.
 
 Om du inte vill att användarkonton ska skapas begränsar du inloggningssidan. Öppna filen `system/extensions/yellow-system.ini` och ändra `EditLoginRestriction: 1`. Användare får återställa sitt lösenord, men kan inte skapa ett nytt användarkonto.
 

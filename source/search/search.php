@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.18";
+    const VERSION = "0.8.19";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -38,7 +38,14 @@ class YellowSearch {
                 $pages = $this->yellow->content->clean();
                 $showInvisible = $this->yellow->getRequestHandler()=="edit" && isset($filters["status"]);
                 $pagesContent = $this->yellow->content->index($showInvisible, false);
-                if ($showInvisible && $filters["status"]=="shared") {
+                if (!empty($filters)) {
+                    if (isset($filters["tag"])) $pagesContent->filter("tag", $filters["tag"]);
+                    if (isset($filters["author"])) $pagesContent->filter("author", $filters["author"]);
+                    if (isset($filters["language"])) $pagesContent->filter("language", $filters["language"]);
+                    if (isset($filters["folder"])) $pagesContent->match("#$filters[folder]#i", false);
+                    if (isset($filters["status"])) $pagesContent->filter("status", $filters["status"]);
+                }
+                if (isset($filters["status"]) && $filters["status"]=="shared" && $showInvisible) {
                     $pagesContent->merge($this->yellow->content->getShared($page->location));
                 }
                 foreach ($pagesContent as $pageContent) {
@@ -71,13 +78,6 @@ class YellowSearch {
                         $pageContent->set("searchscore", $searchScore);
                         $pages->append($pageContent);
                     }
-                }
-                if (!empty($filters)) {
-                    if (isset($filters["tag"])) $pages->filter("tag", $filters["tag"]);
-                    if (isset($filters["author"])) $pages->filter("author", $filters["author"]);
-                    if (isset($filters["language"])) $pages->filter("language", $filters["language"]);
-                    if (isset($filters["folder"])) $pages->match("#$filters[folder]#i", false);
-                    if (isset($filters["status"])) $pages->filter("status", $filters["status"]);
                 }
                 $pages->sort("modified", false)->sort("searchscore", false);
                 $text = empty($query) ? $this->yellow->language->getText("searchSpecialChanges") : $query;

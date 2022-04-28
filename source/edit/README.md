@@ -24,7 +24,7 @@ The second option is to remove a user account at the [command line](https://gith
 
 ## How to restrict a user account
 
-If you don't want that pages are modified in a web browser, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Access` and `Home`. Users are allowed to edit pages within their home page, but nowhere else. There are different [access rights](#settings-access), to control what a user can do.
+If you don't want that pages are modified in a web browser, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Access` and `Home`. Users are allowed to edit pages within their home page, but nowhere else. There are different [access rights](#settings-access), to control what users are allowed do.
 
 If you don't want that user accounts are created, then restrict the login page. Open file `system/extensions/yellow-system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
 
