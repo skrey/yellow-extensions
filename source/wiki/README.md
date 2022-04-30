@@ -74,23 +74,29 @@ Content file with wiki information:
 
     [wikitags /wiki/ 0]
 
-Showing list of recent changes:
-
-    [wikichanges /wiki/ 0]
-    [wikichanges /wiki/ 3]
-    [wikichanges /wiki/ 10]
-
-Showing list of pages:
+Showing list of pages, alphabetic order:
 
     [wikipages /wiki/ 0]
     [wikipages /wiki/ 3]
     [wikipages /wiki/ 10]
 
-Showing list of pages, with a specific tag:
+Showing list of pages, alphabetic order with a specific tag:
 
-    [wikipages /wiki/ 10 coffee]
-    [wikipages /wiki/ 10 milk]
-    [wikipages /wiki/ 10 example]
+    [wikipages /wiki/ 0 coffee]
+    [wikipages /wiki/ 0 milk]
+    [wikipages /wiki/ 0 example]
+
+Showing list of pages, modified order:
+
+    [wikichanges /wiki/ 0]
+    [wikichanges /wiki/ 3]
+    [wikichanges /wiki/ 10]
+
+Showing list of pages, modified order with a specific tag:
+
+    [wikichanges /wiki/ 0 coffee]
+    [wikichanges /wiki/ 0 milk]
+    [wikichanges /wiki/ 0 example]
 
 Showing links to wiki:
 

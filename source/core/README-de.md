@@ -18,6 +18,10 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellung
 
 Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-de.md) und auf deinem Computer bearbeiten.
 
+## Wie man eine Seite anpasst
+
+Du kannst den HTML-Code einer Seite in ihrer Layoutdatei anpassen. Schau dir die Layoutdatei für die Standard-Seite an und erstelle deine eigenen Layoutdateien. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Du kannst diese Dateien bearbeiten. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben.
+
 ## Beispiele
 
 Inhaltsdatei mit normaler Seite:

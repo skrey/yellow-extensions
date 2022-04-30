@@ -77,23 +77,29 @@ Inhaltsdatei mit Bloginformationen:
 
     [blogtags /blog/ 0]
 
-Liste mit neusten Seiten anzeigen:
-
-    [blogchanges /blog/ 0]
-    [blogchanges /blog/ 3]
-    [blogchanges /blog/ 10]
-
-Liste mit Seiten anzeigen:
+Liste mit Seiten anzeigen, alphabetische Reihenfolge:
 
     [blogpages /blog/ 0]
     [blogpages /blog/ 3]
     [blogpages /blog/ 10]
 
-Liste mit Seiten anzeigen, mit einem bestimmten Tag:
+Liste mit Seiten anzeigen, alphabetische Reihenfolge mit einem bestimmten Tag:
 
-    [blogpages /blog/ 10 Kaffee]
-    [blogpages /blog/ 10 Milch]
-    [blogpages /blog/ 10 Beispiel]
+    [blogpages /blog/ 0 Kaffee]
+    [blogpages /blog/ 0 Milch]
+    [blogpages /blog/ 0 Beispiel]
+
+Liste mit Seiten anzeigen, veröffentlichte Reihenfolge:
+
+    [blogchanges /blog/ 0]
+    [blogchanges /blog/ 3]
+    [blogchanges /blog/ 10]
+
+Liste mit Seiten anzeigen, veröffentlichte Reihenfolge mit einem bestimmten Tag:
+
+    [blogchanges /blog/ 0 Kaffee]
+    [blogchanges /blog/ 0 Milch]
+    [blogchanges /blog/ 0 Beispiel]
 
 Links zum Blog anzeigen:
 

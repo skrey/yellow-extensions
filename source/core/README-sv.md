@@ -18,6 +18,10 @@ Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst u
 
 Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md) och på din dator. 
 
+## Hur man anpassar en sida tema
+
+Du kan anpassa HTML-koden för en sida i dess layout. Ta en titt på layoutfilen för standardsidan och gör dina egna layoutfiler. Alla layoutfiler finns i `system/layouts` mappen. Du kan redigera dessa filer. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras.
+
 ## Exempel
 
 Innehållsfil med normal sida:

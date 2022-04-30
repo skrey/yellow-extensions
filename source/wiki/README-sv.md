@@ -74,23 +74,29 @@ Innehållsfil med wikiinformation:
 
     [wikitags /wiki/ 0]
 
-Visa lista över senaste ändringarna: 
-
-    [wikichanges /wiki/ 0]
-    [wikichanges /wiki/ 3]
-    [wikichanges /wiki/ 10]
-
-Visa lista med sidor:
+Visa lista med sidor, alfabetisk ordning:
 
     [wikipages /wiki/ 0]
     [wikipages /wiki/ 3]
     [wikipages /wiki/ 10]
 
-Visa lista med sidor, med en specifik tagg:
+Visa lista med sidor, alfabetisk ordning med en specifik tagg:
 
-    [wikipages /wiki/ 10 kaffe]
-    [wikipages /wiki/ 10 mjölk]
-    [wikipages /wiki/ 10 exempel]
+    [wikipages /wiki/ 0 kaffe]
+    [wikipages /wiki/ 0 mjölk]
+    [wikipages /wiki/ 0 exempel]
+
+Visa lista med sidor, senast ändrad ordning:
+
+    [wikichanges /wiki/ 0]
+    [wikichanges /wiki/ 3]
+    [wikichanges /wiki/ 10]
+
+Visa lista med sidor, senast ändrad ordning med en specifik tagg:
+
+    [wikichanges /wiki/ 0 kaffe]
+    [wikichanges /wiki/ 0 mjölk]
+    [wikichanges /wiki/ 0 exempel]
 
 Visa länkar till wikin:
 

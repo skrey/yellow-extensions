@@ -77,23 +77,29 @@ Content file with blog information:
 
     [blogtags /blog/ 0]
 
-Showing list of latest pages:
-
-    [blogchanges /blog/ 0]
-    [blogchanges /blog/ 3]
-    [blogchanges /blog/ 10]
-
-Showing list of pages:
+Showing list of pages, alphabetic order:
 
     [blogpages /blog/ 0]
     [blogpages /blog/ 3]
     [blogpages /blog/ 10]
 
-Showing list of pages, with a specific tag:
+Showing list of pages, alphabetic order with a specific tag:
 
-    [blogpages /blog/ 10 coffee]
-    [blogpages /blog/ 10 milk]
-    [blogpages /blog/ 10 example]
+    [blogpages /blog/ 0 coffee]
+    [blogpages /blog/ 0 milk]
+    [blogpages /blog/ 0 example]
+
+Showing list of pages, published order:
+
+    [blogchanges /blog/ 0]
+    [blogchanges /blog/ 3]
+    [blogchanges /blog/ 10]
+
+Showing list of pages, published order with a specific tag:
+
+    [blogchanges /blog/ 0 coffee]
+    [blogchanges /blog/ 0 milk]
+    [blogchanges /blog/ 0 example]
 
 Showing links to blog:
 

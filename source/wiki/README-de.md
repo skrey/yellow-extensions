@@ -74,23 +74,29 @@ Inhaltsdatei mit Wikiinformationen:
 
     [wikitags /wiki/ 0]
 
-Liste der letzten Änderungen anzeigen:
-
-    [wikichanges /wiki/ 0]
-    [wikichanges /wiki/ 3]
-    [wikichanges /wiki/ 10]
-
-Liste mit Seiten anzeigen:
+Liste mit Seiten anzeigen, alphabetische Reihenfolge:
 
     [wikipages /wiki/ 0]
     [wikipages /wiki/ 3]
     [wikipages /wiki/ 10]
 
-Liste mit Seiten anzeigen, mit einem bestimmten Tag:
+Liste mit Seiten anzeigen, alphabetische Reihenfolge mit einem bestimmten Tag:
 
-    [wikipages /wiki/ 10 Kaffee]
-    [wikipages /wiki/ 10 Milch]
-    [wikipages /wiki/ 10 Beispiel]
+    [wikipages /wiki/ 0 Kaffee]
+    [wikipages /wiki/ 0 Milch]
+    [wikipages /wiki/ 0 Beispiel]
+
+Liste mit Seiten anzeigen, zuletzt veränderte Reihenfolge:
+
+    [wikichanges /wiki/ 0]
+    [wikichanges /wiki/ 3]
+    [wikichanges /wiki/ 10]
+
+Liste mit Seiten anzeigen, zuletzt veränderte Reihenfolge mit einem bestimmten Tag:
+
+    [wikichanges /wiki/ 0 Kaffee]
+    [wikichanges /wiki/ 0 Milch]
+    [wikichanges /wiki/ 0 Beispiel]
 
 Links zum Wiki anzeigen:
 

@@ -77,23 +77,29 @@ Innehållsfil med blogginformation:
 
     [blogtags /blog/ 0]
 
-Visa lista med sensate sidor:
-
-    [blogchanges /blog/ 0]
-    [blogchanges /blog/ 3]
-    [blogchanges /blog/ 10]
-
-Visa lista med sidor:
+Visa lista med sidor, alfabetisk ordning:
 
     [blogpages /blog/ 0]
     [blogpages /blog/ 3]
     [blogpages /blog/ 10]
 
-Visa lista med sidor, med en specifik tagg:
+Visa lista med sidor, alfabetisk ordning med en specifik tagg:
 
-    [blogpages /blog/ 10 kaffe]
-    [blogpages /blog/ 10 mjölk]
-    [blogpages /blog/ 10 exempel]
+    [blogpages /blog/ 0 kaffe]
+    [blogpages /blog/ 0 mjölk]
+    [blogpages /blog/ 0 exempel]
+
+Visa lista med sidor, publicerad ordning:
+
+    [blogchanges /blog/ 0]
+    [blogchanges /blog/ 3]
+    [blogchanges /blog/ 10]
+
+Visa lista med sidor, publicerad ordning med en specifik tagg:
+
+    [blogchanges /blog/ 0 kaffe]
+    [blogchanges /blog/ 0 mjölk]
+    [blogchanges /blog/ 0 exempel]
 
 Visa länkar till bloggen:
 
