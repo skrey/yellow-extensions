@@ -20,7 +20,7 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 
 ## How to customise a page 
 
-You can customise the HTML code of a page in its layout file. Have a look at the default layout file and make your own layout files. All layout files are stored in your `system/layouts` folder. You can edit these files. Your changes will not be overwritten when the website is updated.
+Set `Layout` in the [page settings](#settings-page) at the top of a page. The HTML code of the page can be customised in a layout file. Have a look at the default layout file and make your own layout files when needed. All layout files are stored in your `system/layouts` folder. You can edit these files. Your changes will not be overwritten when the website is updated.
 
 ## Examples
 
