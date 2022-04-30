@@ -20,7 +20,7 @@ Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#ein
 
 ## Wie man eine Seite anpasst
 
-Ganz oben auf einer Seite kannst du `Layout` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Den HTML-Code der Seite kannst du in einer Layoutdatei anpassen. Schau dir die Layoutdatei für die Standard-Seite an und erstelle bei Bedarf deine eigenen Layoutdateien. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Du kannst diese Dateien bearbeiten. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben.
+Ganz oben auf einer Seite kannst du `Layout` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Den HTML-Code einer Seite kannst du in der Layoutdatei anpassen. Schau dir die Layoutdatei für die Standard-Seite an und erstelle bei Bedarf deine eigenen Layoutdateien. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben.
 
 ## Beispiele
 

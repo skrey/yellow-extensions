@@ -20,7 +20,7 @@ Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på e
 
 ## Hur man anpassar en sida
 
-Ställ `layout` i [sidinställningarna](#inställningar-page) högst upp på en sida. HTML-koden för sidan kan du anpassa i en layoutfil. Ta en titt på layoutfilen för standardsidan och gör dina egna layoutfiler om det behövs. Alla layoutfiler finns i `system/layouts` mappen. Du kan redigera dessa filer. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras.
+Ställ `layout` i [sidinställningarna](#inställningar-page) högst upp på en sida. Alla layoutfiler finns i `system/layouts` mappen. HTML-koden för en sida kan du anpassa i layoutfilen. Ta en titt på layoutfilen för standardsidan och gör dina egna layoutfiler om det behövs. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras.
 
 ## Exempel
 
