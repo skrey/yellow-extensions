@@ -20,7 +20,7 @@ ContactMessage: Wiadomość:
 ContactConsent: Zgadzam się na przechowywanie mojej wiadomości przez tę witrynę.
 ContactButton: Wyślij moją wiadomość
 ContactMailSpam: [Płotka]
-ContactMailHeader: You have received a message from @sender:
+ContactMailHeader: Otrzymałeś wiadomość od @sender:
 ContactMailFooter: Ten e-mail został wysłany za pośrednictwem @sitename - @title
 ContactStatusNone: Przywitaj się. Twoja opinia jest mile widziana.
 ContactStatusIncomplete: Wypełnij wszystkie pola.
@@ -55,7 +55,7 @@ CoreError434Text: Żądana strona nie została znaleziona. [Możesz utworzyć t�
 CoreError435Title: Nie znaleziono strony
 CoreError435Text: Żądana strona została usunięta. [Możesz przywrócić tę stronę](#data-action-restore).
 CoreError450Title: Update error
-CoreError450Text: Can't connect to the update server. An Internet connection is required.
+CoreError450Text: Nie można połączyć się z serwerem aktualizacji. Wymagane jest połączenie z Internetem.
 CoreError500Title: Błąd serwera
 CoreError500Text: Coś poszło nie tak. [yellow error]
 CzechDescription: Czeski/Čeština z językiem 'cs'.
@@ -249,7 +249,7 @@ SearchResultsNone: Wpisz szukaną frazę.
 SearchResultsEmpty: Nie znaleziono wyników.
 SearchSpecialChanges: Ostatnie zmiany
 SearchButton: Szukaj
-ServeDescription: Built-in web server.
+ServeDescription: Wbudowany serwer WWW.
 SitemapDescription: Mapa witryny ze wszystkimi stronami.
 SliderDescription: Galeria zdjęć z suwakiem.
 SlovakDescription: Słowacki/Slovenčina z językiem 'sk'.
