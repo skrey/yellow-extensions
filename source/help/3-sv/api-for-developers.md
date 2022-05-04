@@ -25,7 +25,7 @@ Följande mappar är tillgängliga:
     └── trash             = raderade filer
 ```
 
-Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan ändra installerade tillägg och konfigurationsfilar här.
+Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan anpassa installerade tillägg och konfigurationsfilar här.
 
 `system/extensions/yellow-system.ini` = [fil med systeminställningar](how-to-change-the-system#systeminställningar)  
 `system/extensions/yellow-user.ini` = [fil med användarinställningar](how-to-change-the-system#användarinställningar)  
@@ -142,11 +142,11 @@ Returnera sidans senaste ändringsdatum, Unix-tid eller HTTP-format
 **page->getStatusCode($httpFormat = false)**  
 Returnera sidans statuskod, nummer eller HTTP-format
 
-**page->error($statusCode, $pageError = "")**  
-Svara med felsidan
-
-**page->clean($statusCode, location = "")**  
+**page->clean($statusCode, $location = "")**  
 Svara med statuskod, inget sidinnehåll
+
+**page->error($statusCode, $errorMessage = "")**  
+Svara med felsidan
 
 **page->isAvailable()**  
 Kontrollera om sidan är tillgänglig

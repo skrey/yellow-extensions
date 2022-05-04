@@ -24,7 +24,7 @@ Die folgenden Verzeichnisse sind vorhanden:
     ├── themes            = konfigurierbare Themendateien
     └── trash             = gelöschte Dateien
 ```
-Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier ändert man installierte Erweiterungen und Konfigurationsdateien.
+Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier passt man installierte Erweiterungen und Konfigurationsdateien an.
 
 `system/extensions/yellow-system.ini` = [Datei mit Systemeinstellungen](how-to-change-the-system#systemeinstellungen)  
 `system/extensions/yellow-user.ini` = [Datei mit Benutzereinstellungen](how-to-change-the-system#benutzereinstellungen)  
@@ -141,11 +141,11 @@ Hole das letzte Änderungsdatum der Seite, Unix-Zeit oder HTTP-Format
 **page->getStatusCode($httpFormat = false)**  
 Hole den Statuscode der Seite, Zahl oder HTTP-Format
 
-**page->error($statusCode, $pageError = "")**  
-Antworte mit Fehlerseite
-
-**page->clean($statusCode, location = "")**  
+**page->clean($statusCode, $location = "")**  
 Antworte mit Statuscode, ohne Seiteninhalt
+
+**page->error($statusCode, $errorMessage = "")**  
+Antworte mit Fehlerseite
 
 **page->isAvailable()**  
 Überprüfe ob die Seite vorhanden ist
