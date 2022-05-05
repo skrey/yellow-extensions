@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Publish 0.8.47
+# Publish 0.8.48
 
 Make and publish extensions.
 
@@ -127,7 +127,8 @@ The following settings can be configured in file `extension.ini`:
 `create` = create file if not exists  
 `update` = overwrite file if exists  
 `delete` = delete file if exists  
-`optional` = only if new installation  
+`optional` = only for first installation  
+`additional` = only after first installation  
 `careful` = only if not modified  
 `multi-language` = use content from corresponding subfolder  
 

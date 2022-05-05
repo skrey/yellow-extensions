@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Publish 0.8.47
+# Publish 0.8.48
 
 Erweiterungen erstellen und veröffentlichen.
 
@@ -127,7 +127,8 @@ Die folgenden Einstellungen können in der Datei `extension.ini` vorgenommen wer
 `create` = Datei erstellen falls nicht vorhanden  
 `update` = Datei überschreiben falls vorhanden  
 `delete` = Datei löschen falls vorhanden  
-`optional` = nur falls neue Installation  
+`optional` = nur bei Neuinstallation  
+`additional` = nur nach Neuinstallation  
 `careful` = nur falls nicht verändert  
 `multi-language` = Inhalt aus dem entsprechenden Unterverzeichnis verwenden  
 

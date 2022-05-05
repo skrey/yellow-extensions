@@ -2,7 +2,7 @@
 // Publish extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/publish
 
 class YellowPublish {
-    const VERSION = "0.8.47";
+    const VERSION = "0.8.48";
     public $yellow;                 // access to API
     public $extensions;             // number of extensions
     public $errors;                 // number of errors
@@ -534,6 +534,7 @@ class YellowPublish {
                 if (!empty($matches[1]) && !empty($matches[2]) && strposu($matches[1], "/")) {
                     list($entry, $flags) = $this->yellow->toolbox->getTextList($matches[2], ",", 2);
                     if (preg_match("/delete/i", $flags)) continue;
+                    if (preg_match("/additional/i", $flags)) continue;
                     if (preg_match("/^@base/i", $entry)) {
                         $fileNameSource = preg_replace("/@base/i", rtrim($pathRepositoryOffical, "/"), $entry);
                     } else {

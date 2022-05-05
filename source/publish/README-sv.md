@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Publish 0.8.47
+# Publish 0.8.48
 
 Göra och publicera tillägg.
 
@@ -127,7 +127,8 @@ Följande inställningar kan konfigureras i filen `extension.ini`:
 `create` = skapa fil om den inte finns  
 `update` = skriv över fil om den inte finns  
 `delete` = ta bort fil om den inte finns  
-`optional` = endast om ny installation  
+`optional` = endast för första installationen  
+`additional` = endast efter första installationen  
 `careful` = endast om den inte ändras  
 `multi-language` = använda innehåll från motsvarande undermapp  
 
