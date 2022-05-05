@@ -8,11 +8,11 @@ Erweiterung mit Patches für eine Webseite.
 
 ## Wie man einen Patch erstellt
 
-Bearbeite den Code. Patches sind beim [Aktualisierungsprozess](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) mit dabei und kümmern sich um die Konvertierung von Dateien. Datenstrom Yellow verwendet ein rollendes Produkt-Release, was bedeutet dass man entweder die aktuelle Version behalten oder auf die neueste Version aktualisieren kann. Lade deine Änderungen zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
+Bearbeite den [Code mit Patches](https://github.com/datenstrom/yellow-extensions/blob/master/source/patch/patch.php). Patches sind beim [Aktualisierungsprozess](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) mit dabei und kümmern sich um die Konvertierung von alten Dateien. Nachdem die Webseite auf dem neusten Stand ist, werden die Patches gelöscht. Lade deine Änderungen zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
 
 ## Installation
 
-Diese Erweiterung ist Teil der [Standardinstallation](https://github.com/datenstrom/yellow).
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/patch.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
 ## Entwickler
 

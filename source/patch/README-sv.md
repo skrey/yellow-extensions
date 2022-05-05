@@ -8,11 +8,11 @@ Tillägg med patchar för en webbplats.
 
 ## Hur man gör en patch
 
-Redigera koden. Patchar ingår i [uppdateringsprocessen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md) och tar hand om att konvertera filer. Datenstrom Yellow använder en rullande produktrelease, vilket innebär att du antingen kan behålla den nuvarande versionen eller uppdatera till den senaste versionen. Ladda upp dina ändringar till GitHub, låt oss veta om du behöver hjälp.
+Redigera [koden med patchar](https://github.com/datenstrom/yellow-extensions/blob/master/source/patch/patch.php). Patchar ingår i [uppdateringsprocessen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md) och tar hand om att konvertera gamla filer. Efter att webbplatsen är uppdaterad kommer patcharna att raderas. Ladda upp dina ändringar till GitHub, låt oss veta om du behöver hjälp.
 
 ## Installation
 
-Den här tillägget är del av [standardinstallationen](https://github.com/datenstrom/yellow).
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/patch.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
 ## Developer
 
