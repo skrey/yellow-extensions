@@ -2,13 +2,13 @@
 
 # Patch 0.8.19
 
-Erweiterung mit Patches für eine Webseite.
+Erweiterung mit Patches für Abwärtskompatibilität.
 
 <p align="center"><img src="patch-screenshot.png?raw=true" width="795" height="836" alt="Bildschirmfoto"></p>
 
 ## Wie man einen Patch erstellt
 
-Bearbeite den [Code mit Patches](https://github.com/datenstrom/yellow-extensions/blob/master/source/patch/patch.php). Patches sind beim [Aktualisierungsprozess](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) mit dabei und kümmern sich um die Konvertierung von alten Dateien. Nachdem die Webseite auf dem neusten Stand ist, werden die Patches gelöscht. Lade deine Änderungen zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
+Bearbeite den [Code mit Patches](https://github.com/datenstrom/yellow-extensions/blob/master/source/patch/patch.php). Dies zeigt dir was man tun kann um alte Dateien und Einstellungen zu konvertieren. Patches sind beim [Aktualisierungsprozess](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) mit dabei. Zuerst lädt das Aktualisierungsprogramm die neuesten Erweiterungen und Patches herunter. Dann wendet das Aktualisierungsprogramm die Patches an und nachdem die Webseite auf dem neuesten Stand ist werden die Patches gelöscht. Lade deine Änderungen zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
 
 ## Installation
 

@@ -2,13 +2,13 @@
 
 # Patch 0.8.19
 
-Tillägg med patchar för en webbplats.
+Tillägg med patchar för bakåtkompatibilitet.
 
 <p align="center"><img src="patch-screenshot.png?raw=true" width="795" height="836" alt="Skärmdump"></p>
 
 ## Hur man gör en patch
 
-Redigera [koden med patchar](https://github.com/datenstrom/yellow-extensions/blob/master/source/patch/patch.php). Patchar ingår i [uppdateringsprocessen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md) och tar hand om att konvertera gamla filer. Efter att webbplatsen är uppdaterad kommer patcharna att raderas. Ladda upp dina ändringar till GitHub, låt oss veta om du behöver hjälp.
+Redigera [koden med patchar](https://github.com/datenstrom/yellow-extensions/blob/master/source/patch/patch.php). Det visar dig vad som kan göras för att konvertera gamla filer och inställningar. Patchar ingår i [uppdateringsprocessen](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-sv.md). Först laddar uppdateringsprogrammet ner senaste tilläggen och patchar. Sedan applicerar uppdateringsprogrammet patcharna och efter att webbplatsen är uppdaterad kommer patcharna att raderas. Ladda upp dina ändringar till GitHub, låt oss veta om du behöver hjälp.
 
 ## Installation
 
