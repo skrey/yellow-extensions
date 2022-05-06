@@ -8,7 +8,7 @@ Erweiterung mit Patches für Abwärtskompatibilität.
 
 ## Wie man einen Patch erstellt
 
-Bearbeite den [Code mit Patches](https://github.com/datenstrom/yellow-extensions/blob/master/source/patch/patch.php). Dies zeigt dir was man tun kann um alte Dateien und Einstellungen zu konvertieren. Patches sind beim [Aktualisierungsprozess](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) mit dabei. Zuerst lädt das Aktualisierungsprogramm die neuesten Erweiterungen und Patches herunter. Dann wendet das Aktualisierungsprogramm die Patches an und nachdem die Webseite auf dem neuesten Stand ist werden die Patches gelöscht. Lade deine Änderungen zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
+Bearbeite den [Code mit Patches](https://github.com/datenstrom/yellow-extensions/blob/master/source/patch/patch.php). Das zeigt dir Beispiele um alte Dateien und Einstellungen zu konvertieren. Patches sind beim [Aktualisierungsprozess](https://github.com/datenstrom/yellow-extensions/tree/master/source/update/README-de.md) mit dabei. Zuerst lädt das Aktualisierungsprogramm die neuesten Erweiterungen und Patches herunter. Dann wendet das Aktualisierungsprogramm die Patches an und nachdem die Webseite auf dem neuesten Stand ist werden die Patches gelöscht. Lade deine Änderungen zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
 
 ## Installation
 
