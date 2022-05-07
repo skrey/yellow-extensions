@@ -52,7 +52,7 @@ class YellowPatch {
                 }
                 if ($fileData!=$fileDataNew) $patches = true; //converted layout file to new API
             }
-            if ($patches) $this->yellow->log("info", "Convert website with patches for Datenstrom Yellow 0.8.15");
+            if ($patches) $this->yellow->log("info", "Apply patches for Datenstrom Yellow 0.8.15");
         }
         if ($action=="update") { // patches for Datenstrom Yellow 0.8.16
             $patches = false;
@@ -93,7 +93,7 @@ class YellowPatch {
                 }
                 $patches = true; // converted system setting to new API
             }
-            if ($patches) $this->yellow->log("info", "Convert website with patches for Datenstrom Yellow 0.8.16");
+            if ($patches) $this->yellow->log("info", "Apply patches for Datenstrom Yellow 0.8.16");
         }
         if ($action=="update") { // patches for Datenstrom Yellow 0.8.17
             $patches = false;
@@ -131,19 +131,7 @@ class YellowPatch {
                 }
                 $patches = true;
             }
-            $fileNameOld = $this->yellow->system->get("coreExtensionDirectory")."yellow.log";
-            $fileNameNew = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreWebsiteFile");
-            if (is_file($fileNameOld)) {
-                $fileDataOld = $this->yellow->toolbox->readFile($fileNameOld);
-                $fileDataNew = $this->yellow->toolbox->readFile($fileNameNew);
-                if (!$this->yellow->toolbox->deleteFile($fileNameOld, $this->yellow->system->get("coreTrashDirectory"))) {
-                    $this->yellow->log("error", "Can't delete file '$fileNameOld'!");
-                } elseif (!$this->yellow->toolbox->createFile($fileNameNew, $fileDataOld.$fileDataNew)) {
-                    $this->yellow->log("error", "Can't write file '$fileNameNew'!");
-                }
-                $patches = true; // converted log file name
-            }
-            if ($patches) $this->yellow->log("info", "Convert website with patches for Datenstrom Yellow 0.8.17");
+            if ($patches) $this->yellow->log("info", "Apply patches for Datenstrom Yellow 0.8.17");
         }
         if ($action=="update") { // patches for Datenstrom Yellow 0.8.18
             $patches = false;
@@ -171,7 +159,23 @@ class YellowPatch {
                     if ($fileData!=$fileDataNew) $patches = true; // converted layout file for blog/wiki extension
                 }
             }
-            if ($patches) $this->yellow->log("info", "Convert website with patches for Datenstrom Yellow 0.8.18");
+            if ($patches) $this->yellow->log("info", "Apply patches for Datenstrom Yellow 0.8.18");
+        }
+        if ($action=="update") { // patches for Datenstrom Yellow 0.8.19
+            $patches = false;
+            $fileNameOld = $this->yellow->system->get("coreExtensionDirectory")."yellow.log";
+            $fileNameNew = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreWebsiteFile");
+            if (is_file($fileNameOld)) {
+                $fileDataOld = $this->yellow->toolbox->readFile($fileNameOld);
+                $fileDataNew = $this->yellow->toolbox->readFile($fileNameNew);
+                if (!$this->yellow->toolbox->deleteFile($fileNameOld, $this->yellow->system->get("coreTrashDirectory"))) {
+                    $this->yellow->log("error", "Can't delete file '$fileNameOld'!");
+                } elseif (!$this->yellow->toolbox->createFile($fileNameNew, $fileDataOld.$fileDataNew)) {
+                    $this->yellow->log("error", "Can't write file '$fileNameNew'!");
+                }
+                $patches = true; // converted log file name
+            }
+            if ($patches) $this->yellow->log("info", "Apply patches for Datenstrom Yellow 0.8.19");
         }
     }
 }
