@@ -1,7 +1,7 @@
 <?php
-// Patch extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/patch
+// Update extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/update
 
-class YellowPatch {
+class YellowUpdatePatch {
     const VERSION = "0.8.19";
     public $yellow;                 // access to API
     
