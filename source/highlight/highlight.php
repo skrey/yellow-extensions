@@ -2,7 +2,7 @@
 // Highlight extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/highlight
 
 class YellowHighlight {
-    const VERSION = "0.8.13";
+    const VERSION = "0.8.14";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -133,6 +133,9 @@ class Highlighter
      */
     const SPAN_END_TAG = "</span>";
 
+    /** @var bool Disable warnings thrown on PHP installations without multibyte functions available. */
+    public static $DISABLE_MULTIBYTE_WARNING = false;
+
     /** @var bool */
     private $safeMode = true;
 
@@ -166,6 +169,15 @@ class Highlighter
 
     /** @var string The current code we are highlighting */
     private $codeToHighlight;
+
+    /** @var bool */
+    private $needsMultibyteSupport = false;
+
+    /** @var bool|null */
+    private static $hasMultiByteSupport = null;
+
+    /** @var bool */
+    private static $hasThrownMultiByteWarning = false;
 
     /** @var string[] A list of all the bundled languages */
     private static $bundledLanguages = array();
@@ -288,7 +300,7 @@ class Highlighter
     public static function registerAllLanguages()
     {
         // Languages that take precedence in the classMap array.
-        $languagePath = __DIR__ . "/languages/";
+        $languagePath = __DIR__ . DIRECTORY_SEPARATOR . "languages" . DIRECTORY_SEPARATOR;
         foreach (array("xml", "django", "javascript", "matlab", "cpp") as $languageId) {
             $filePath = $languagePath . $languageId . ".json";
             if (is_readable($filePath)) {
@@ -416,7 +428,7 @@ class Highlighter
      */
     private function keywordMatch($mode, $match)
     {
-        $kwd = $this->language->case_insensitive ? mb_strtolower($match[0], "UTF-8") : $match[0];
+        $kwd = $this->language->case_insensitive ? $this->strToLower($match[0]) : $match[0];
 
         return isset($mode->keywords[$kwd]) ? $mode->keywords[$kwd] : null;
     }
@@ -727,6 +739,45 @@ class Highlighter
         return $code;
     }
 
+    private function checkMultibyteNecessity()
+    {
+        $this->needsMultibyteSupport = preg_match('/[^\x00-\x7F]/', $this->codeToHighlight) === 1;
+
+        // If we aren't working with Unicode strings, then we default to `strtolower` since it's significantly faster
+        //   https://github.com/scrivo/highlight.php/pull/92#pullrequestreview-782213861
+        if (!$this->needsMultibyteSupport) {
+            return;
+        }
+
+        if (self::$hasMultiByteSupport === null) {
+            self::$hasMultiByteSupport = function_exists('mb_strtolower');
+        }
+
+        if (!self::$hasMultiByteSupport && !self::$hasThrownMultiByteWarning) {
+            if (!self::$DISABLE_MULTIBYTE_WARNING) {
+                trigger_error('Your code snippet has unicode characters but your PHP version does not have multibyte string support. You should install the `mbstring` PHP package or `symfony/polyfill-mbstring` composer package if you use unicode characters.', E_USER_WARNING);
+            }
+
+            self::$hasThrownMultiByteWarning = true;
+        }
+    }
+
+    /**
+     * Allow for graceful failure if the mb_strtolower function doesn't exist.
+     *
+     * @param string $str
+     *
+     * @return string
+     */
+    private function strToLower($str)
+    {
+        if ($this->needsMultibyteSupport && self::$hasMultiByteSupport) {
+            return mb_strtolower($str);
+        }
+
+        return strtolower($str);
+    }
+
     /**
      * Set the languages that will used for auto-detection. When using auto-
      * detection the code to highlight will be probed for every language in this
@@ -867,6 +918,8 @@ class Highlighter
         if ($this->language === null) {
             throw new \DomainException("Unknown language: \"$languageName\"");
         }
+
+        $this->checkMultibyteNecessity();
 
         $this->language->compile($this->safeMode);
         $this->top = $continuation ? $continuation : $this->language;
@@ -1237,6 +1290,28 @@ abstract class Mode extends \stdClass
             }
         }
     }
+
+    /**
+     * Set any deprecated properties values to their replacement values.
+     *
+     * @internal
+     *
+     * @param \stdClass $obj
+     *
+     * @return void
+     */
+    public static function _handleDeprecations(&$obj)
+    {
+        $deprecations = array(
+            // @TODO Deprecated since 9.16.0.0; remove at 10.x
+            'caseInsensitive' => 'case_insensitive',
+            'terminatorEnd' => 'terminator_end',
+        );
+
+        foreach ($deprecations as $deprecated => $new) {
+            $obj->{$deprecated} = &$obj->{$new};
+        }
+    }
 }
 
 class Language extends Mode
@@ -1279,6 +1354,22 @@ class Language extends Mode
      */
     public function __get($name)
     {
+        if ($name === 'mode') {
+            @trigger_error('The "mode" property will be removed in highlight.php 10.x', E_USER_DEPRECATED);
+
+            return $this->mode;
+        }
+
+        if ($name === 'caseInsensitive') {
+            @trigger_error('Due to compatibility requirements with highlight.js, use "case_insensitive" instead.', E_USER_DEPRECATED);
+
+            if (isset($this->mode->case_insensitive)) {
+                return $this->mode->case_insensitive;
+            }
+
+            return false;
+        }
+
         if (isset($this->mode->{$name})) {
             return $this->mode->{$name};
         }
@@ -1470,6 +1561,8 @@ class Language extends Mode
 
         $terminators = new Terminators($this->case_insensitive);
         $mode->terminators = $terminators->_buildModeRegex($mode);
+
+        Mode::_handleDeprecations($mode);
     }
 
     /**
@@ -1633,7 +1726,7 @@ final class RegEx
 
         unset($result);
 
-        $this->lastIndex += mb_strlen($results[0]) + ($index - $this->lastIndex);
+        $this->lastIndex += strlen($results[0]) + ($index - $this->lastIndex);
 
         $matches = new RegExMatch($results);
         $matches->index = isset($index) ? $index : 0;
@@ -1663,50 +1756,56 @@ class RegExMatch implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
+    #[\ReturnTypeWillChange]
     public function getIterator()
     {
         return new \ArrayIterator($this->data);
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
+    #[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->data[$offset]);
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return $this->data[$offset];
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
+    #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         throw new \LogicException(__CLASS__ . ' instances are read-only.');
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
+    #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         throw new \LogicException(__CLASS__ . ' instances are read-only.');
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      *
      * @return int
      */
+    #[\ReturnTypeWillChange]
     public function count()
     {
         return count($this->data);

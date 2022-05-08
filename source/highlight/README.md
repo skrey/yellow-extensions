@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Highlight 0.8.13
+# Highlight 0.8.14
 
 Highlight source code.
 
@@ -50,7 +50,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/highlight.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [highlight.php 9.18.1.6](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman.
+This extension uses [highlight.php 9.18.1.9](https://github.com/scrivo/highlight.php) by Ivan Sagalaev and Geert Bergman.
 
 ## Developer
 
