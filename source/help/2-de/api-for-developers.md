@@ -141,7 +141,7 @@ Hole das letzte Änderungsdatum der Seite, Unix-Zeit oder HTTP-Format
 **page->getStatusCode($httpFormat = false)**  
 Hole den Statuscode der Seite, Zahl oder HTTP-Format
 
-**page->clean($statusCode, $location = "")**  
+**page->status($statusCode, $location = "")**  
 Antworte mit Statuscode, ohne Seiteninhalt
 
 **page->error($statusCode, $errorMessage = "")**  

@@ -142,7 +142,7 @@ Return last modification date, Unix time or HTTP format
 **page->getStatusCode($httpFormat = false)**  
 Return page status code, number or HTTP format
 
-**page->clean($statusCode, $location = "")**  
+**page->status($statusCode, $location = "")**  
 Respond with status code, no page content
 
 **page->error($statusCode, $errorMessage = "")**  

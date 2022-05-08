@@ -142,7 +142,7 @@ Returnera sidans senaste ändringsdatum, Unix-tid eller HTTP-format
 **page->getStatusCode($httpFormat = false)**  
 Returnera sidans statuskod, nummer eller HTTP-format
 
-**page->clean($statusCode, $location = "")**  
+**page->status($statusCode, $location = "")**  
 Svara med statuskod, inget sidinnehåll
 
 **page->error($statusCode, $errorMessage = "")**  
