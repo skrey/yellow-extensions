@@ -917,7 +917,7 @@ onLoad ───────▶ onStartup ────────────�
                 onRequest ───────────────────┐                       │
                     │                        │                       │
                     ▼                        ▼                       ▼
-                onParseMeta              onEditContentFile       onCommand  
+                onParseMetaData          onEditContentFile       onCommand  
                 onParseContentRaw        onEditMediaFile         onCommandHelp
                 onParseContentShortcut   onEditSystemFile            │
                 onParseContentHtml       onEditUserAccount           │
@@ -976,7 +976,7 @@ class YellowExample {
 
 Yellow core händelser meddelar när en sida visas:
 
-**public function onParseMeta($page)**  
+**public function onParseMetaData($page)**  
 Hantera metadata av en sida
 
 **public function onParseContentRaw($page, $text)**  

@@ -2,7 +2,7 @@
 // Draft extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/draft
 
 class YellowDraft {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -11,7 +11,7 @@ class YellowDraft {
     }
     
     // Handle page meta data
-    public function onParseMeta($page) {
+    public function onParseMetaData($page) {
         if ($page->get("status")=="draft") $page->visible = false;
     }
     

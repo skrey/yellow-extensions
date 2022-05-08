@@ -917,7 +917,7 @@ onLoad ───────▶ onStartup ────────────�
                 onRequest ───────────────────┐                       │
                     │                        │                       │
                     ▼                        ▼                       ▼
-                onParseMeta              onEditContentFile       onCommand  
+                onParseMetaData          onEditContentFile       onCommand  
                 onParseContentRaw        onEditMediaFile         onCommandHelp
                 onParseContentShortcut   onEditSystemFile            │
                 onParseContentHtml       onEditUserAccount           │
@@ -976,7 +976,7 @@ class YellowExample {
 
 Yellow parse events notify when a page is displayed:
 
-**public function onParseMeta($page)**  
+**public function onParseMetaData($page)**  
 Handle page meta data
 
 **public function onParseContentRaw($page, $text)**  
