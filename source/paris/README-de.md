@@ -14,6 +14,8 @@ Alle Themendateien befinden sich im `system/themes`-Verzeichnis. Alle Layoutdate
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/paris.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
+Diese Erweiterung benutzt [OpenSans](https://fonts.google.com/specimen/Open+Sans) von Steve Matteson.
+
 ## Designer
 
 Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
