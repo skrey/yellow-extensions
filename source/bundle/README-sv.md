@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Bundle 0.8.26
+# Bundle 0.8.27
 
 Bundla webbplatsfiler.
 
@@ -71,7 +71,7 @@ Webbplats med bundna och obundna filer:
 
 [Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
-Detta tilläg använder [Minify 1.3.63](https://github.com/matthiasmullie/minify) av Matthias Mullie.
+Detta tilläg använder [Minify 1.3.68](https://github.com/matthiasmullie/minify) av Matthias Mullie.
 
 ## Utvecklare
 

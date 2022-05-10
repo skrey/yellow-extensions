@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Bundle 0.8.26
+# Bundle 0.8.27
 
 Bundle website files.
 
@@ -71,7 +71,7 @@ Website with bundled and unbundled files:
 
 [Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [Minify 1.3.63](https://github.com/matthiasmullie/minify) by Matthias Mullie.
+This extension uses [Minify 1.3.68](https://github.com/matthiasmullie/minify) by Matthias Mullie.
 
 ## Developer
 

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Bundle 0.8.26
+# Bundle 0.8.27
 
 Webseiten-Dateien bündeln.
 
@@ -71,7 +71,7 @@ Webseite mit gebündelten und ungebündelten Dateien:
 
 [Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/zip/bundle.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-Diese Erweiterung benutzt [Minify 1.3.63](https://github.com/matthiasmullie/minify) von Matthias Mullie.
+Diese Erweiterung benutzt [Minify 1.3.68](https://github.com/matthiasmullie/minify) von Matthias Mullie.
 
 ## Entwickler
 
