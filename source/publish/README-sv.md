@@ -10,7 +10,7 @@ Göra och publicera tillägg.
 
 Börja med en [exempel-funktion](https://github.com/schulle4u/yellow-extension-helloworld), ett [exempel-tema](https://github.com/schulle4u/yellow-extension-basic) eller ett [exempel-språk](https://github.com/datenstrom/yellow-extensions/tree/master/source/swedish). Detta visar dig vilka filer och inställningar som krävs. Varje tillägg behöver en `extension.ini` fil med tilläggsinställningar. Se till att ditt tillägg följer våra kodnings- och dokumentationsstandarder. Det är inte viktigt vilken standard vi använder, men att vi alla använder en gemensam. Sen kan man dyka in i vilken tillägg som helst och hitta en välbekant struktur som man snabbt kan hitta runt i. Ladda upp ditt tillägg till GitHub, låt oss veta om du behöver hjälp.
 
-Om du vill att andra upptäcka ditt tillägg, lägg till [datenstrom-yellow](https://github.com/topics/datenstrom-yellow) till ditt repository.
+Om du vill att andra upptäcka ditt tillägg, lägg till [datenstrom-yellow](https://github.com/topics/datenstrom-yellow) till ditt repository och gör ett [tillkännagivande](https://github.com/datenstrom/yellow/discussions/760).
 
 ## Hur man publicerar ett tillägg
 
