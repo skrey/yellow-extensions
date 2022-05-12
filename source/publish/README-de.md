@@ -10,7 +10,7 @@ Erweiterungen erstellen und veröffentlichen.
 
 Beginne mit einer [Beispiel-Funktion](https://github.com/schulle4u/yellow-extension-helloworld), einem [Beispiel-Thema](https://github.com/schulle4u/yellow-extension-basic) oder einer [Beispiel-Sprache](https://github.com/datenstrom/yellow-extensions/tree/master/source/german). Das zeigt dir welche Dateien und Einstellungen erforderlich sind. Jede Erweiterung benötigt eine `extension.ini`-Datei mit Erweiterungseinstellungen. Bitte stelle sicher, dass deine Erweiterung unseren Programmierungs- und Dokumentationsstandards entspricht. Es ist nicht wichtig welchen Standard wir verwenden, aber dass wir alle einen gemeinsamen verwenden. Dann kann man in jede Erweiterung eintauchen und findet eine vertraute Struktur vor, in der man sich schnell zurecht findet. Lade deine Erweiterung zu GitHub hoch, lass uns wissen falls du Hilfe brauchst.
 
-Falls du möchtest dass andere deine Erweiterung entdecken, kannst du [datenstrom-yellow](https://github.com/topics/datenstrom-yellow) hinzufügen und eine [Ankündigung](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new) machen.
+Falls du möchtest dass andere deine Erweiterung entdecken, füge [datenstrom-yellow](https://github.com/topics/datenstrom-yellow) hinzu und mache ein [Ankündigung](https://github.com/datenstrom/yellow/discussions/categories/see-what-s-new).
 
 ## Wie man eine Erweiterung veröffentlicht
 

@@ -64,7 +64,7 @@ system/themes/basic.css: basic.css, create, update, careful
 system/themes/basic.png: basic.png, create
 ~~~
 
-Tilläggsinställningar för ett språk::
+Tilläggsinställningar för ett språk:
 
 ~~~
 # Datenstrom Yellow extension settings
