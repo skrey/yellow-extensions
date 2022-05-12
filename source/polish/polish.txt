@@ -95,10 +95,6 @@ EditRecoverStatusPassword: Prosze podać nowe hasło.
 EditRecoverStatusWeak: Proszę podać inne hasło.
 EditRecoverStatusShort: Proszę podać dłuższe hasło.
 EditRecoverStatusDone: Konto użytkownika zostało przywrócone. Dziękujemy!
-EditQuitTitle: Usuń konto użytkownika
-EditQuitStatusNone: Wpisz nazwę konta, aby potwierdzić.
-EditQuitStatusMismatch: Wpisz inną nazwę.
-EditQuitStatusNext: Konto użytkownika zostanie usunięte, proszę sprawdzić pocztę.
 EditConfirmSubject: Potwierdzenie założenia konta użytkownika
 EditConfirmMessage: Hej @usershort!\n\nPotwierdź założenie konta klikając w poniższy link.
 EditConfirmTitle: Konto użytkownika
@@ -111,10 +107,10 @@ EditReactivateSubject: Ponownie aktywuj konto użytkownika
 EditReactivateMessage: Hej @usershort,\n\nproszę ponownie aktywować swoje konto użytkownika. Zarejestrowaliśmy zbyt wiele nieudanych prób logowania. Kliknij w poniższy link.
 EditReactivateTitle: Ponowna aktywacja konta użytkownika
 EditReactivateStatusDone: Konto użytkownika zostało ponownie aktywowane. Dziękujemy!
-EditVerifySubject: Potwierdzenie konta użytkownika
+EditVerifySubject: Zmiana konta użytkownika
 EditVerifyMessage: Hej @usershort!\n\nProsimy o potwierdzenie nowego maila dla Twojego konta. Kliknij w poniższy link.
 EditVerifyTitle: Konto użytkownika
-EditVerifyStatusDone: Konto użytkownika zostało zatwierdzone. Dziękujemy!
+EditVerifyStatusDone: Konto użytkownika zostało zmienione. Dziękujemy!
 EditChangeSubject: Zmiana konta użytkownika
 EditChangeMessage: Hej @usershort!\n\nProsimy o potwierdzenie, że chcesz dokonać zmian w Twoim koncie. Kliknij w poniższy link.
 EditChangeTitle: Konto użytkownika
@@ -138,6 +134,10 @@ EditAccountStatusTaken: Podaj inny email.
 EditAccountStatusWeak: Podaj inne hasło.
 EditAccountStatusShort: Podaj dłuższe hasło.
 EditAccountStatusNext: Konto użytkownika zostanie zmienione, proszę sprawdzić pocztę.
+EditQuitTitle: Usuń konto użytkownika
+EditQuitStatusNone: Wpisz nazwę konta, aby potwierdzić.
+EditQuitStatusMismatch: Wpisz inną nazwę.
+EditQuitStatusNext: Konto użytkownika zostanie usunięte, proszę sprawdzić pocztę.
 EditConfigureTitle: Strona
 EditConfigureSitename: Nazwa strony internetowej:
 EditConfigureAuthor: Nazwa webmastera:
@@ -186,7 +186,6 @@ EditToolbarStatus: Status
 EditToolbarUndo: Cofnij
 EditToolbarRedo: Ponów
 EditToolbarPreview: Podgląd
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: Pomoc
 EditMailFooter: @sitename
 EditDataGenerated: Ta strona jest generowana automatycznie.

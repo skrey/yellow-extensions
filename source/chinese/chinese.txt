@@ -95,10 +95,6 @@ EditRecoverStatusPassword: 请输入新密码
 EditRecoverStatusWeak: 请输入不同的密码
 EditRecoverStatusShort: 请输入更长的密码
 EditRecoverStatusDone: 用户帐号已重置，谢谢！
-EditQuitTitle: 删除帐号
-EditQuitStatusNone: 请输入用户名以确认。
-EditQuitStatusMismatch: 请输入一个不同的用户名。
-EditQuitStatusNext: 用户帐号将被删除，请查收您的邮件。
 EditConfirmSubject: 确认用户帐号
 EditConfirmMessage: 您好 @usershort,\n\n请验证你的帐号，点击以下链接。
 EditConfirmTitle: 用户帐号
@@ -111,10 +107,10 @@ EditReactivateSubject: 激活用户帐号
 EditReactivateMessage: 您好 @usershort,\n\n登录尝试失败太多。请点击以下的链接激活您的帐号。
 EditReactivateTitle: 用户帐号
 EditReactivateStatusDone: 用户帐号重新激活，谢谢！
-EditVerifySubject: 确认用户帐号
+EditVerifySubject: 更改用户帐号
 EditVerifyMessage: 您好 @usershort,\n\n确定要更改您的用户帐号，请点击以下的链接。
 EditVerifyTitle: 用户帐号
-EditVerifyStatusDone: 用户帐号已确认，谢谢！
+EditVerifyStatusDone: 用户帐号已更改，谢谢！
 EditChangeSubject: 更改用户帐号
 EditChangeMessage: 您好 @usershort,\n\n确定要更改您的用户帐号，请点击以下的链接。
 EditChangeTitle: 用户帐号
@@ -138,6 +134,10 @@ EditAccountStatusTaken: 请输入不同的电子邮件
 EditAccountStatusWeak: 请输入不同的密码
 EditAccountStatusShort: 请输入更长的密码
 EditAccountStatusNext: 用户帐号将被更改，请查看您的电子邮件
+EditQuitTitle: 删除帐号
+EditQuitStatusNone: 请输入用户名以确认。
+EditQuitStatusMismatch: 请输入一个不同的用户名。
+EditQuitStatusNext: 用户帐号将被删除，请查收您的邮件。
 EditConfigureTitle: 网站
 EditConfigureSitename: 网站名:
 EditConfigureAuthor: 管理员:
@@ -186,7 +186,6 @@ EditToolbarStatus: 状态
 EditToolbarUndo: 恢复
 EditToolbarRedo: 重做
 EditToolbarPreview: 预览
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: 帮助
 EditMailFooter: @sitename
 EditDataGenerated: 此页面自动生成。

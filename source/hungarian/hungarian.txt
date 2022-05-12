@@ -95,10 +95,6 @@ EditRecoverStatusPassword: Please enter a new password.
 EditRecoverStatusWeak: Please enter a different password.
 EditRecoverStatusShort: Please enter a longer password.
 EditRecoverStatusDone: User account recovered. Thank you!
-EditQuitTitle: Delete user account
-EditQuitStatusNone: Please enter your name to confirm.
-EditQuitStatusMismatch: Please enter a different name.
-EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Confirm user account
 EditConfirmMessage: Hi @usershort,\n\nplease confirm your user account. Click the following link.
 EditConfirmTitle: User account
@@ -111,10 +107,10 @@ EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateTitle: User account
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditVerifySubject: Confirm user account
+EditVerifySubject: Change user account
 EditVerifyMessage: Hi @usershort,\n\nplease confirm a new email for your user account. Click the following link.
 EditVerifyTitle: User account
-EditVerifyStatusDone: User account confirmed. Thank you!
+EditVerifyStatusDone: User account changed. Thank you!
 EditChangeSubject: Change user account
 EditChangeMessage: Hi @usershort,\n\nplease confirm that you want to change your user account. Click the following link.
 EditChangeTitle: User account
@@ -138,6 +134,10 @@ EditAccountStatusTaken: Please enter a different email.
 EditAccountStatusWeak: Please enter a different password.
 EditAccountStatusShort: Please enter a longer password.
 EditAccountStatusNext: User account will be changed, please check your emails.
+EditQuitTitle: Delete user account
+EditQuitStatusNone: Please enter your name to confirm.
+EditQuitStatusMismatch: Please enter a different name.
+EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfigureTitle: Website
 EditConfigureSitename: Name of the website:
 EditConfigureAuthor: Name of the webmaster:
@@ -186,7 +186,6 @@ EditToolbarStatus: Status
 EditToolbarUndo: Undo
 EditToolbarRedo: Redo
 EditToolbarPreview: Preview
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: Súgó
 EditMailFooter: @sitename
 EditDataGenerated: This page is generated automatically.

@@ -95,10 +95,6 @@ EditRecoverStatusPassword: Vennligst fyll inn et nytt passord.
 EditRecoverStatusWeak: Vennligst fyll inn et annet passord.
 EditRecoverStatusShort: Vennligst fyll inn et lengre passord.
 EditRecoverStatusDone: Din brukerkonto er gjenopprettet.
-EditQuitTitle: Slette brukerkonto
-EditQuitStatusNone: Vennligst fyll inn ditt navn for å bekrefte.
-EditQuitStatusMismatch: Vennligst fyll inn et annet navn.
-EditQuitStatusNext: Din brukerkonto vil bli slettet, vennligst sjekk din innboks.
 EditConfirmSubject: Bekreft brukerkonto
 EditConfirmMessage: Hei @usershort,\n\nvennligst bekreft din brukerkonto. Klikk følgende lenke.
 EditConfirmTitle: Brukerkonto
@@ -111,10 +107,10 @@ EditReactivateSubject: Reaktiver brukerkonto
 EditReactivateMessage: Hei @usershort,\n\nvennligst reaktiver din brukerkonto. Det har vært for mange mislykkede innloggingsforsøk. Klikk følgende lenke.
 EditReactivateTitle: Brukerkonto
 EditReactivateStatusDone: Brukerkonto reaktivert.
-EditVerifySubject: Bekreft brukerkonto
+EditVerifySubject: Endre brukerkonto
 EditVerifyMessage: Hei @usershort,\n\nvennligst bekreft ny epost adresse for din brukerkonto. Klikk følgende lenke.
 EditVerifyTitle: Brukerkonto
-EditVerifyStatusDone: Brukerkonto bekreftet.
+EditVerifyStatusDone: Brukerkonto endret.
 EditChangeSubject: Endre brukerkonto
 EditChangeMessage: Hei @usershort,\n\nvennligst bekreft at du ønsker å endre din brukerkonto. Klikk følgende lenke.
 EditChangeTitle: Brukerkonto
@@ -138,6 +134,10 @@ EditAccountStatusTaken: Vennligst fyll inn en annen epost adresse.
 EditAccountStatusWeak: Vennligst fyll inn et annet passord.
 EditAccountStatusShort: Vennligst fyll inn et lengre passord.
 EditAccountStatusNext: Din brukerkonto er endret, vennligst sjekk din innboks.
+EditQuitTitle: Slette brukerkonto
+EditQuitStatusNone: Vennligst fyll inn ditt navn for å bekrefte.
+EditQuitStatusMismatch: Vennligst fyll inn et annet navn.
+EditQuitStatusNext: Din brukerkonto vil bli slettet, vennligst sjekk din innboks.
 EditConfigureTitle: Nettsted
 EditConfigureSitename: Nettstedets navn:
 EditConfigureAuthor: Nettstedets administrator:
@@ -186,7 +186,6 @@ EditToolbarStatus: Status
 EditToolbarUndo: Angre
 EditToolbarRedo: Gjenopprette
 EditToolbarPreview: Forhåndsvisning
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hjelp
 EditMailFooter: @sitename
 EditDataGenerated: Denne siden genereres automatik.

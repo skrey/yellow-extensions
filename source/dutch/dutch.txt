@@ -95,10 +95,6 @@ EditRecoverStatusPassword: Gelieve een nieuw wachtwoord in te vullen.
 EditRecoverStatusWeak: Gelieve een ander wachtwoord in te vullen.
 EditRecoverStatusShort: Gelieve een langer wachtwoord in te vullen.
 EditRecoverStatusDone: Gebruikersaccount herstelt. Bedankt!
-EditQuitTitle: Gebruikersaccount verwijderen
-EditQuitStatusNone: Gelieve je naam op te geven ter verificatie.
-EditQuitStatusMismatch: Gelieve een andere naam op te geven.
-EditQuitStatusNext: Gebruikersaccount zal worden verwijderd, hou je mailbox in de gaten.
 EditConfirmSubject: Gebruikersaccount bevestigen
 EditConfirmMessage: Hallo @usershort,\n\ngelieve je gebruikersaccount te bevestigen. Klik op volgende link.
 EditConfirmTitle: Gebruikersaccount
@@ -111,10 +107,10 @@ EditReactivateSubject: Gebruikersaccount heractiveren
 EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateTitle: Gebruikersaccount
 EditReactivateStatusDone: Gebruikersaccount is opnieuw actief. Bedankt!
-EditVerifySubject: Valideer gebruikersaccount
+EditVerifySubject: Gebruikersaccount wijzigen
 EditVerifyMessage: Hallo @usershort,\n\ngelieve een nieuw e-mailadres te bevestigen voor je gebruikersaccount. Klik op volgende link.
 EditVerifyTitle: Gebruikersaccount
-EditVerifyStatusDone: Gebruikersaccount bevestigd. Bedankt!
+EditVerifyStatusDone: Gebruikersaccount gewijzigd. Bedankt!
 EditChangeSubject: Gebruikersaccount wijzigen
 EditChangeMessage: Hallo @usershort,\n\ngelieve te bevestigen dat je jouw gebruikersaccount wil wijzigen. Klik op volgende link.
 EditChangeTitle: Gebruikersaccount
@@ -138,6 +134,10 @@ EditAccountStatusTaken: Gelieve een ander e-mailadres in te voeren.
 EditAccountStatusWeak: Gelieve een ander wachtwoord in te voeren.
 EditAccountStatusShort: Gelieve een langer wachtwoord in te vullen.
 EditAccountStatusNext: Gebruikersaccount zal worden gewijzigd, hou je mailbox in de gaten.
+EditQuitTitle: Gebruikersaccount verwijderen
+EditQuitStatusNone: Gelieve je naam op te geven ter verificatie.
+EditQuitStatusMismatch: Gelieve een andere naam op te geven.
+EditQuitStatusNext: Gebruikersaccount zal worden verwijderd, hou je mailbox in de gaten.
 EditConfigureTitle: Website
 EditConfigureSitename: Name of the website:
 EditConfigureAuthor: Name of the webmaster:
@@ -186,7 +186,6 @@ EditToolbarStatus: Status
 EditToolbarUndo: Ongedaan maken
 EditToolbarRedo: Opnieuw
 EditToolbarPreview: Voorbeeld
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: Help
 EditMailFooter: @sitename
 EditDataGenerated: This page is generated automatically.

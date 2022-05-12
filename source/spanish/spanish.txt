@@ -95,10 +95,6 @@ EditRecoverStatusPassword: Por favor introduce una nueva contraseña.
 EditRecoverStatusWeak: Por favor introduce una contraseña distinta.
 EditRecoverStatusShort: Por favor introduce una contraseña más larga.
 EditRecoverStatusDone: Cuenta de usuario recuperada. ¡Gracias!
-EditQuitTitle: Delete user account
-EditQuitStatusNone: Please enter your name to confirm.
-EditQuitStatusMismatch: Please enter a different name.
-EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Confirmar cuenta de usuario
 EditConfirmMessage: Hola @usershort,\n\npor favor confirma tu cuenta. Haz click en el siguiente enlace.
 EditConfirmTitle: Cuenta de usuario
@@ -111,10 +107,10 @@ EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateTitle: Cuenta de usuario
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditVerifySubject: Confirm user account
+EditVerifySubject: Change user account
 EditVerifyMessage: Hi @usershort,\n\nplease confirm a new email for your user account. Click the following link.
 EditVerifyTitle: Cuenta de usuario
-EditVerifyStatusDone: User account confirmed. Thank you!
+EditVerifyStatusDone: User account changed. Thank you!
 EditChangeSubject: Change user account
 EditChangeMessage: Hi @usershort,\n\nplease confirm that you want to change your user account. Click the following link.
 EditChangeTitle: Cuenta de usuario
@@ -138,6 +134,10 @@ EditAccountStatusTaken: Please enter a different email.
 EditAccountStatusWeak: Please enter a different password.
 EditAccountStatusShort: Please enter a longer password.
 EditAccountStatusNext: User account will be changed, please check your emails.
+EditQuitTitle: Delete user account
+EditQuitStatusNone: Please enter your name to confirm.
+EditQuitStatusMismatch: Please enter a different name.
+EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfigureTitle: Website
 EditConfigureSitename: Name of the website:
 EditConfigureAuthor: Name of the webmaster:
@@ -186,7 +186,6 @@ EditToolbarStatus: Status
 EditToolbarUndo: Undo
 EditToolbarRedo: Redo
 EditToolbarPreview: Preview
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: Ayuda
 EditMailFooter: @sitename
 EditDataGenerated: Esta página se genera automáticamente.

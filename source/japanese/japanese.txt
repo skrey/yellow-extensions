@@ -95,10 +95,6 @@ EditRecoverStatusPassword: 新しいパスワードをご入力下さい。
 EditRecoverStatusWeak: 別のパスワードをご入力下さい。
 EditRecoverStatusShort: もっと長いパスワードをご入力下さい。
 EditRecoverStatusDone: ユーザーアカウントが回復しました。有難うございました！
-EditQuitTitle: ユーザーアカウントの削除
-EditQuitStatusNone: 確認のためにユーザー名を入力してください。
-EditQuitStatusMismatch: 入力したユーザー名が違います
-EditQuitStatusNext: ユーザーアカウントが削除されました。メールを確認してください。
 EditConfirmSubject: ユーザーアカウントの確認
 EditConfirmMessage: こんにちは @usershort さん。\n\nユーザーアカウントについてのご確認です。宜しければ次のリンクをクリックして下さい。
 EditConfirmTitle: ユーザーアカウント
@@ -111,10 +107,10 @@ EditReactivateSubject: ユーザーアカウントの再アクティブ化
 EditReactivateMessage: こんにちは @usershort さん。\n\nユーザーアカウントを再度有効にしてください。ログイン操作に何度も失敗しました。以下のリンクをクリックしてください。
 EditReactivateTitle: ユーザーアカウント
 EditReactivateStatusDone: ユーザーアカウントは再アクティブ化されました。有り難うございました！
-EditVerifySubject: ユーザーアカウントの確認
+EditVerifySubject: ユーザーアカウントの変更
 EditVerifyMessage: こんにちは @usershort さん。\n\nユーザーアカウント情報の変更のご確認です。宜しければ次のリンクをクリックして下さい。
 EditVerifyTitle: ユーザーアカウント
-EditVerifyStatusDone: ユーザーアカウントが確認されました。有難うございました！
+EditVerifyStatusDone: ユーザーアカウントが変更されました。有難うございました！
 EditChangeSubject: ユーザーアカウントの変更
 EditChangeMessage: こんにちは @usershort さん。\n\nユーザーアカウントを変更する為に、次のリンクをクリックして下さい。
 EditChangeTitle: ユーザーアカウント
@@ -138,6 +134,10 @@ EditAccountStatusTaken: 別のメールアドレスをご入力下さい。
 EditAccountStatusWeak: 別のパスワードをご入力下さい。
 EditAccountStatusShort: もっと長いパスワードをご入力下さい。
 EditAccountStatusNext: ユーザーアカウントを変更する為にメールをご確認下さい。
+EditQuitTitle: ユーザーアカウントの削除
+EditQuitStatusNone: 確認のためにユーザー名を入力してください。
+EditQuitStatusMismatch: 入力したユーザー名が違います
+EditQuitStatusNext: ユーザーアカウントが削除されました。メールを確認してください。
 EditConfigureTitle: システム設定
 EditConfigureSitename: ウェブサイト名:
 EditConfigureAuthor: 管理者名:
@@ -186,7 +186,6 @@ EditToolbarStatus: ステータス
 EditToolbarUndo: 元に戻す
 EditToolbarRedo: やり直す
 EditToolbarPreview: プレビュー
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: ヘルプ
 EditMailFooter: @sitename
 EditDataGenerated: このページは自動的に生成されます。

@@ -95,10 +95,6 @@ EditRecoverStatusPassword: S'il vous plaît, choisissez un nouveau mot de passe.
 EditRecoverStatusWeak: S'il vous plaît, choisissez un mot de passe différent.
 EditRecoverStatusShort: S'il vous plaît, choisissez un mot de passe plus long.
 EditRecoverStatusDone: Compte utilisateur restauré. Merci !
-EditQuitTitle: Supprimer le compte d'utilisateur
-EditQuitStatusNone: S'il vous plaît entrez votre nom pour confirmer.
-EditQuitStatusMismatch: S'il vous plaît entrer un nom différent.
-EditQuitStatusNext: Votre compte sera supprimé, vérifier vos emails.
 EditConfirmSubject: Confirmation d'un compte utilisateur
 EditConfirmMessage: Bonjour @usershort,\n\nveuillez confirmer votre compte utilisateur. Cliquez sur le lien suivant.
 EditConfirmTitle: Compte d'utilisateur
@@ -111,10 +107,10 @@ EditReactivateSubject: Réactivation d'un compte utilisateur
 EditReactivateMessage: Bonjour @usershort,\n\nveuillez réactivér votre compte utilisateur. Il y a eu trop de tentatives de connexion échouées. Cliquez sur le lien suivant.
 EditReactivateTitle: Compte d'utilisateur
 EditReactivateStatusDone: Compte d'utilisateur réactivé. Merci !
-EditVerifySubject: Confirmation d'un compte utilisateur
+EditVerifySubject: Changement d'un compte utilisateur
 EditVerifyMessage: Bonjour @usershort,\n\nveuillez confirmer une nouvelle adresse email pour votre compte utilisateur. Cliquez sur le lien suivant.
 EditVerifyTitle: Compte d'utilisateur
-EditVerifyStatusDone: Votre compte utilisateur est confirmé. Merci !
+EditVerifyStatusDone: Compte utilisateur changé. Merci !
 EditChangeSubject: Changement d'un compte utilisateur
 EditChangeMessage: Bonjour @usershort,\n\nveuillez confirmer que vous souhaitez modifier votre compte utilisateur. Cliquez sur le lien suivant.
 EditChangeTitle: Compte d'utilisateur
@@ -138,6 +134,10 @@ EditAccountStatusTaken: S'il vous plaît, veuillez entrer une adresse email diff
 EditAccountStatusWeak: S'il vous plaît, choisissez un mot de passe différent.
 EditAccountStatusShort: S'il vous plaît, choisissez un mot de passe plus long.
 EditAccountStatusNext: Votre compte a été changé, vérifiez vos emails.
+EditQuitTitle: Supprimer le compte d'utilisateur
+EditQuitStatusNone: S'il vous plaît entrez votre nom pour confirmer.
+EditQuitStatusMismatch: S'il vous plaît entrer un nom différent.
+EditQuitStatusNext: Votre compte sera supprimé, vérifier vos emails.
 EditConfigureTitle: Site web
 EditConfigureSitename: Nom du site:
 EditConfigureAuthor: Nom du webmaster:
@@ -186,7 +186,6 @@ EditToolbarStatus: Statut
 EditToolbarUndo: Annuler
 EditToolbarRedo: Refaire
 EditToolbarPreview: Aperçu
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: Aide
 EditMailFooter: @sitename
 EditDataGenerated: Cette page est créée automatiquement.

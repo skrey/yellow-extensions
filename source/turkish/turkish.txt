@@ -95,10 +95,6 @@ EditRecoverStatusPassword: Lütfen yeni bir şifre girin.
 EditRecoverStatusWeak: Lütfen farklı bir şifre girin.
 EditRecoverStatusShort: Lütfen daha uzun bir şifre girin.
 EditRecoverStatusDone: Kullanıcı hesabı kurtarıldı. Teşekkür ederim!
-EditQuitTitle: Kullanıcı hesabını silin
-EditQuitStatusNone: Lütfen onaylamak için adınızı girin.
-EditQuitStatusMismatch: Lütfen farklı bir isim girin.
-EditQuitStatusNext: Kullanıcı hesabı silinecek, lütfen e-postalarınızı kontrol edin.
 EditConfirmSubject: Kullanıcı hesabını onaylayın
 EditConfirmMessage: Merhaba @usershort,\n\nlütfen kullanıcı hesabınızı onaylayın. Aşağıdaki bağlantıya tıklayın.
 EditConfirmTitle: Kullanıcı Hesabı
@@ -111,10 +107,10 @@ EditReactivateSubject: Kullanıcı hesabını yeniden aktif et
 EditReactivateMessage: Merhaba @usershort,\n\nlütfen kullanıcı hesabınızı yeniden etkinleştirin. Çok fazla başarısız oturum açma denemesi vardı. Aşağıdaki bağlantıya tıklayın.
 EditReactivateTitle: Kullanıcı hesabı
 EditReactivateStatusDone: Kullanıcı hesabı yeniden etkinleştirildi. Teşekkür ederim!
-EditVerifySubject: Kullanıcı hesabını onayla
+EditVerifySubject: Kullanıcı hesabını değiştir
 EditVerifyMessage: Merhaba @usershort,\n\nlütfen kullanıcı hesabınız için yeni bir e-postayı onaylayın. Aşağıdaki bağlantıya tıklayın.
 EditVerifyTitle: Kullanıcı hesabı
-EditVerifyStatusDone: Kullanıcı hesabı onaylandı. Teşekkür ederim!
+EditVerifyStatusDone: Kullanıcı hesabı değişti. Teşekkür ederim!
 EditChangeSubject: Kullanıcı hesabını değiştir
 EditChangeMessage: Merhaba @usershort,\n\nlütfen kullanıcı hesabınızı değiştirmek istediğinizi onaylayın. Aşağıdaki bağlantıya tıklayın.
 EditChangeTitle: Kullanıcı hesabı
@@ -138,6 +134,10 @@ EditAccountStatusTaken: Lütfen farklı bir e-posta girin.
 EditAccountStatusWeak: Lütfen farklı bir şifre girin.
 EditAccountStatusShort: Lütfen daha uzun bir şifre girin.
 EditAccountStatusNext: Kullanıcı hesabı değiştirilecek, lütfen e-postalarınızı kontrol edin.
+EditQuitTitle: Kullanıcı hesabını silin
+EditQuitStatusNone: Lütfen onaylamak için adınızı girin.
+EditQuitStatusMismatch: Lütfen farklı bir isim girin.
+EditQuitStatusNext: Kullanıcı hesabı silinecek, lütfen e-postalarınızı kontrol edin.
 EditConfigureTitle: Website
 EditConfigureSitename: Website Adı:
 EditConfigureAuthor: Webmaster Adı:
@@ -186,7 +186,6 @@ EditToolbarStatus: Durum
 EditToolbarUndo: Geri alma
 EditToolbarRedo: Yeniden yap
 EditToolbarPreview: Ön izleme
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: Yardım
 EditMailFooter: @sitename
 EditDataGenerated: Bu sayfa otomatik olarak oluşturulur.

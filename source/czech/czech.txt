@@ -95,10 +95,6 @@ EditRecoverStatusPassword: Vložte nové heslo.
 EditRecoverStatusWeak: Vložte jiné heslo.
 EditRecoverStatusShort: Zadejte delší heslo.
 EditRecoverStatusDone: Heslo obnoveno. Díky!
-EditQuitTitle: Delete user account
-EditQuitStatusNone: Please enter your name to confirm.
-EditQuitStatusMismatch: Please enter a different name.
-EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfirmSubject: Potvrzení uživatelského účtu
 EditConfirmMessage: Ahoj @usershort,\n\nnyní nastal čas potvrdit nový účet. Klikněte na následující odkaz.
 EditConfirmTitle: Uživatelský účet
@@ -111,7 +107,7 @@ EditReactivateSubject: Reactivate user account
 EditReactivateMessage: Hi @usershort,\n\nplease reactivate your user account. There were too many failed login attempts. Click the following link.
 EditReactivateTitle: Uživatelský účet
 EditReactivateStatusDone: User account reactivated. Thank you!
-EditVerifySubject: Změna uživatelského e-mailu
+EditVerifySubject: Změna uživatelského účtu
 EditVerifyMessage: Ahoj @usershort,\n\nje potřeba potvrdit změnu e-mailové adresy. Klikněte na následující odkaz.
 EditVerifyTitle: Uživatelský účet
 EditVerifyStatusDone: Elektronická adresa změněna. Díky!
@@ -138,6 +134,10 @@ EditAccountStatusTaken: Vložte jiný email.
 EditAccountStatusWeak: Vložte jiné heslo.
 EditAccountStatusShort: Zadejte delší heslo.
 EditAccountStatusNext: Nastavení uživatelského účtu změněno, podívejte se do emailové schránky.
+EditQuitTitle: Delete user account
+EditQuitStatusNone: Please enter your name to confirm.
+EditQuitStatusMismatch: Please enter a different name.
+EditQuitStatusNext: User account will be deleted, please check your emails.
 EditConfigureTitle: Website
 EditConfigureSitename: Name of the website:
 EditConfigureAuthor: Name of the webmaster:
@@ -186,7 +186,6 @@ EditToolbarStatus: Status
 EditToolbarUndo: Undo
 EditToolbarRedo: Redo
 EditToolbarPreview: Preview
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: Nápověda
 EditMailFooter: @sitename
 EditDataGenerated: This page is generated automatically.
