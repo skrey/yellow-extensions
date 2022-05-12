@@ -54,8 +54,8 @@ CoreError434Title: ページが見つかりません
 CoreError434Text: 要求されたページは見つかりません。 [このページを作成できます](#data-action-edit).
 CoreError435Title: ページが見つかりません
 CoreError435Text: 要求されたページは削除されました。 [このページを復元できます](#data-action-restore).
-CoreError450Title: Update error
-CoreError450Text: Can't connect to the update server. An Internet connection is required.
+CoreError450Title: アップデートエラー
+CoreError450Text: アップデートサーバーに接続できません。インターネット接続が要求されています。
 CoreError500Title: サーバーエラー
 CoreError500Text: 問題が発生しました。[yellow error]
 CzechDescription: Czech/Čeština with language 'cs'.
@@ -218,7 +218,7 @@ InstallExtension: どのサイトを作成しますか？
 InstallExtensionWebsite: 小さなウェブサイト
 InstallExtensionBlog: 小さなブログ
 InstallExtensionWiki: 小さなウィキ
-InstallButton: インスト
+InstallButton: インストール
 InstallHomeTitle: ホーム
 InstallHomeText: [image photo.jpg 例 rounded]\n\n[edit - このページはウェブブラウザで編集できます]またはテキストエディタを使用してください。 [助けを得ます](https://datenstrom.se/yellow/help/)。
 InstallAboutTitle: 情報
