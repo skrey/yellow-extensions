@@ -3,12 +3,14 @@ Title: How to change the content
 ---
 All content files are located in the `content` folder. You can edit your website here.
 
-    ├── content
-    │   ├── 1-home
-    │   ├── 9-about
-    │   └── shared
-    ├── media
-    └── system
+``` box-drawing {aria-hidden=true}
+├── content
+│   ├── 1-home
+│   ├── 9-about
+│   └── shared
+├── media
+└── system
+```
 
 The `content` folder is available on your website. Every folder has a file called `page.md`. You can add more files and folders. You can also use special characters in file and folder names, for example ÄÖÅ. In other words, what you see in the file manager is the website you get.
 

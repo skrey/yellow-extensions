@@ -3,13 +3,15 @@ Title: Wie man das System ändert
 ---
 Alle Systemdateien befinden sich im `system`-Verzeichnis. Hier passt man seine Webseite an.
 
-    ├── content
-    ├── media
-    └── system
-        ├── extensions
-        ├── layouts
-        ├── themes
-        └── trash
+``` box-drawing {aria-hidden=true}
+├── content
+├── media
+└── system
+    ├── extensions
+    ├── layouts
+    ├── themes
+    └── trash
+```
 
 Das `system/extensions`-Verzeichnis enthält installierte Erweiterungen und Konfigurationsdateien. Man kann das Aussehen seiner Webseite im `system/layouts`-Verzeichnis und `system/themes`-Verzeichnis anpassen. Man kann Layouts und Themen so ändern wie man will, Kenntnisse in HTML, CSS und JavaScript sind erforderlich. Das `system/trash`-Verzeichnis enthält gelöschte Dateien.
 

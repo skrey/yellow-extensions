@@ -7,9 +7,7 @@ Wir <3 Menschen die programmieren.
 
 ## Verzeichnisstruktur
 
-Die folgenden Verzeichnisse sind vorhanden:
-
-```
+``` box-drawing {aria-hidden=true}
 ├── content               = Inhaltsdateien
 │   ├── 1-home            = Startseite
 │   ├── 9-about           = Informationsseite
@@ -24,6 +22,7 @@ Die folgenden Verzeichnisse sind vorhanden:
     ├── themes            = konfigurierbare Themendateien
     └── trash             = gelöschte Dateien
 ```
+
 Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier passt man installierte Erweiterungen und Konfigurationsdateien an.
 
 `system/extensions/yellow-system.ini` = [Datei mit Systemeinstellungen](how-to-change-the-system#systemeinstellungen)  
@@ -87,7 +86,7 @@ Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen) als 
 **page->getDateFormattedHtml($key, $format)**  
 Hole eine [Seiteneinstellung](how-to-change-the-system#seiteneinstellungen) als [Datum](https://www.php.net/manual/de/function.date.php), HTML-kodiert
 
-**page->getContent($rawFormat = false, $sizeMax = 0)**  
+**page->getContent($rawFormat = false)**  
 Hole den Seiteninhalt, HTML-kodiert oder Rohformat
 
 **page->getParent()**  
@@ -907,9 +906,8 @@ var_dump(strempty(""));       // bool(true)
 
 ## Ereignisse
 
-Die folgenden Ereignisse sind vorhanden:
 
-```
+``` box-drawing {aria-hidden=true}
 onLoad ───────▶ onStartup ───────────────────────────────────────────┐
                     │                                                │
                     ▼                                                │

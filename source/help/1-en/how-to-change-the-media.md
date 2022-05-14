@@ -3,12 +3,14 @@ Title: How to change the media
 ---
 All media files are located in the `media` folder. You can store your images and other files here.
 
-    ├── content
-    ├── media
-    │   ├── downloads
-    │   ├── images
-    │   └── thumbnails
-    └── system
+``` box-drawing {aria-hidden=true}
+├── content
+├── media
+│   ├── downloads
+│   ├── images
+│   └── thumbnails
+└── system
+```
 
 The `media/downloads` folder contains files for download. The `media/images` folder is the place to store your images. The `media/thumbnails` folder contains image thumbnails. You can also add more folders and organise files as you like. Essentially, any media file can be downloaded from the website.
 

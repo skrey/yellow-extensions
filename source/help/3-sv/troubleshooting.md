@@ -108,7 +108,7 @@ YellowSystem::load Language:sv
 
 Här är en `.htaccess`-konfigurationsfil för Apache-webbservern:
 
-```apache
+``` apache
 <IfModule mod_rewrite.c>
 RewriteEngine on
 DirectoryIndex index.html yellow.php
@@ -121,7 +121,7 @@ RewriteRule ^ yellow.php [L]
 
 Här är en `.htaccess`-konfigurationsfil för en undermapp, till exempel `http://website/yellow/`:
 
-```apache
+``` apache
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteBase /yellow/
@@ -135,7 +135,7 @@ RewriteRule ^ yellow.php [L]
 
 Här är en `.htaccess`-konfigurationsfil för en underdomän, till exempel `http://sub.domain.website/`:
 
-```apache
+``` apache
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteBase /
@@ -153,7 +153,7 @@ När din webbplats inte fungerar måste du [aktivera rewrite-modulen](https://st
 
 Här är en `nginx.conf `-konfigurationsfil för Nginx-webbservern:
 
-```nginx
+``` nginx
 server {
     listen 80;
     server_name website.com;
@@ -187,7 +187,7 @@ server {
 
 Här är en `nginx.conf`-konfigurationsfil för en statisk webbsida:
 
-```nginx
+``` nginx
 server {
     listen 80;
     server_name website.com;

@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.19";
+    const VERSION = "0.8.20";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -10,7 +10,7 @@ class YellowSearch {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("searchLocation", "/search/");
         $this->yellow->system->setDefault("searchPaginationLimit", "5");
-        $this->yellow->system->setDefault("searchPageLength", "240");
+        $this->yellow->system->setDefault("searchPageLength", "360");
     }
     
     // Handle page content of shortcut
@@ -57,12 +57,12 @@ class YellowSearch {
                             $searchScore += $score;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageContent->get("title"), $token)) {
-                            $searchScore += 50;
+                        if (stristr($pageContent->getLocation(), $token)) {
+                            $searchScore += $this->yellow->lookup->isFileLocation($pageContent->location) ? 10 : 100;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageContent->getLocation(true), $token)) {
-                            $searchScore += 20;
+                        if (stristr($pageContent->get("title"), $token)) {
+                            $searchScore += 50;
                             $searchTokens[$token] = true;
                         }
                         if (stristr($pageContent->get("tag"), $token)) {
@@ -75,11 +75,12 @@ class YellowSearch {
                         }
                     }
                     if (count($tokens)==count($searchTokens)) {
-                        $pageContent->set("searchscore", $searchScore);
+                        $pageContent->rawData = $this->getRawDataSearch($pageContent, $tokens);
+                        $pageContent->set("searchScore", $searchScore);
                         $pages->append($pageContent);
                     }
                 }
-                $pages->sort("modified", false)->sort("searchscore", false);
+                $pages->sort("modified", false)->sort("searchScore", false);
                 $text = empty($query) ? $this->yellow->language->getText("searchSpecialChanges") : $query;
                 $this->yellow->page->set("titleHeader", $text." - ".$this->yellow->page->get("sitename"));
                 $this->yellow->page->set("titleContent", $this->yellow->page->get("title").": ".$text);
@@ -113,5 +114,33 @@ class YellowSearch {
         }
         if ($tokensMax) $tokens = array_slice($tokens, 0, $tokensMax);
         return array($tokens, $filters);
+    }
+    
+    // Return raw data for search results, extract the relevant page content
+    public function getRawDataSearch($page, $tokens) {
+        $output = $outputStart = "";
+        $foundStart = false;
+        $insideCode = false;
+        foreach ($this->yellow->toolbox->getTextLines($page->getContent(true)) as $line) {
+            if (!$foundStart) {
+                if (preg_match("/^`{3,}/", $line)) $insideCode ^= true;
+                if ($line=="\n" && !$insideCode) {
+                    $outputStart = "";
+                } else {
+                    $outputStart .= $line;
+                }
+                foreach ($tokens as $token) {
+                    if (stristr($line, $token)) {
+                        $output = $outputStart;
+                        $foundStart = true;
+                        break;
+                    }
+                }
+            } else {
+                $output .= $line;
+            }
+        }
+        if (empty($output)) $output = $page->getContent(true);
+        return substrb($page->rawData, 0, $page->metaDataOffsetBytes).substrb($output, 0, 4096);
     }
 }

@@ -108,7 +108,7 @@ YellowSystem::load Language:de
 
 Hier ist eine `.htaccess` Konfigurationsdatei für den Apache-Webserver:
 
-```apache
+``` apache
 <IfModule mod_rewrite.c>
 RewriteEngine on
 DirectoryIndex index.html yellow.php
@@ -121,7 +121,7 @@ RewriteRule ^ yellow.php [L]
 
 Hier ist eine `.htaccess` Konfigurationsdatei für ein Unterverzeichnis, beispielsweise `http://website/yellow/`:
 
-```apache
+``` apache
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteBase /yellow/
@@ -135,7 +135,7 @@ RewriteRule ^ yellow.php [L]
 
 Hier ist eine `.htaccess` Konfigurationsdatei für eine Subdomain, beispielsweise `http://sub.domain.website/`:
 
-```apache
+``` apache
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteBase /
@@ -153,7 +153,7 @@ Wenn deine Webseite nicht funktioniert, dann musst du das [Rewrite-Modul aktivie
 
 Hier ist eine `nginx.conf` Konfigurationsdatei für den Nginx-Webserver:
 
-```nginx
+``` nginx
 server {
     listen 80;
     server_name website.com;
@@ -187,7 +187,7 @@ server {
 
 Hier ist eine `nginx.conf` Konfigurationsdatei für eine statische Webseite:
 
-```nginx
+``` nginx
 server {
     listen 80;
     server_name website.com;

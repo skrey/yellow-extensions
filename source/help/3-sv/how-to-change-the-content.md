@@ -3,12 +3,14 @@ Title: Hur man ändrar innehållet
 ---
 Alla innehållsfiler finns i `content` mappen. Du kan redigera din webbplats här.
 
-    ├── content
-    │   ├── 1-home
-    │   ├── 9-about
-    │   └── shared
-    ├── media
-    └── system
+``` box-drawing {aria-hidden=true}
+├── content
+│   ├── 1-home
+│   ├── 9-about
+│   └── shared
+├── media
+└── system
+```
 
 Din `content` mapp finns tillgängliga på din webbplats. Varje mapp har en fil som heter `page.md`. Du kan lägga till fler filer och mappar. Du kan också använda specialtecken i fil- och mappnamn, till exempel ÄÖÅ. Med andra ord det du ser i filhanteraren är webbplatsen du får.
 

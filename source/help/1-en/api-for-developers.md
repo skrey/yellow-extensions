@@ -7,9 +7,7 @@ We <3 people who code.
 
 ## Folder structure
 
-The following folders are available:
-
-```
+``` box-drawing {aria-hidden=true}
 ├── content               = content files
 │   ├── 1-home            = home page
 │   ├── 9-about           = information page
@@ -88,7 +86,7 @@ Return [page setting](how-to-change-the-system#page-settings) as [date](https://
 **page->getDateFormattedHtml($key, $format)**  
 Return [page setting](how-to-change-the-system#page-settings) as [date](https://www.php.net/manual/en/function.date.php), HTML encoded  
 
-**page->getContent($rawFormat = false, $sizeMax = 0)**  
+**page->getContent($rawFormat = false)**  
 Return page content, HTML encoded or raw format
 
 **page->getParent()**  
@@ -908,9 +906,7 @@ var_dump(strempty(""));       // bool(true)
 
 ## Events
 
-The following events are available:
-
-```
+``` box-drawing {aria-hidden=true}
 onLoad ───────▶ onStartup ───────────────────────────────────────────┐
                     │                                                │
                     ▼                                                │

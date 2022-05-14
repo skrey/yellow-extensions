@@ -3,12 +3,14 @@ Title: Hur man ändrar medierna
 ---
 Alla mediefiler finns i `media` mappen. Du kan lagra dina bilder och andra filer här. 
 
-    ├── content
-    ├── media
-    │   ├── downloads
-    │   ├── images
-    │   └── thumbnails
-    └── system
+``` box-drawing {aria-hidden=true}
+├── content
+├── media
+│   ├── downloads
+│   ├── images
+│   └── thumbnails
+└── system
+```
 
 Mappen `media/downloads` innehåller filer för nedladdning. Mappen `media/images` är platsen för att lagra dina bilder. Mappen `media/thumbnails` innehåller miniatyrbilder. Du kan också lägga till fler mappar och organisera filer som du vill. I grund och botten kan alla mediefiler laddas ner från webbplatsen. 
 

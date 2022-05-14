@@ -7,9 +7,7 @@ Vi <3 människor som kodar.
 
 ## Mappstruktur
 
-Följande mappar är tillgängliga:
-
-```
+``` box-drawing {aria-hidden=true}
 ├── content               = innehållsfiler
 │   ├── 1-home            = hemsida
 │   ├── 9-about           = informationssida
@@ -88,7 +86,7 @@ Returnera [sidinställning](how-to-change-the-system#sidinställningar) som [dat
 **page->getDateFormattedHtml($key, $format)**  
 Returnera [sidinställning](how-to-change-the-system#sidinställningar) som [datum](https://www.php.net/manual/en/function.date.php), HTML-kodad  
 
-**page->getContent($rawFormat = false, $sizeMax = 0)**  
+**page->getContent($rawFormat = false)**  
 Returnera sidinnehåll, HTML-kodat eller råformat
 
 **page->getParent()**  
@@ -908,9 +906,7 @@ var_dump(strempty(""));       // bool(true)
 
 ## Händelser
 
-Följande händelser är tillgängliga:
-
-```
+``` box-drawing {aria-hidden=true}
 onLoad ───────▶ onStartup ───────────────────────────────────────────┐
                     │                                                │
                     ▼                                                │

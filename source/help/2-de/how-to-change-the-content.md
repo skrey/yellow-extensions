@@ -3,12 +3,14 @@ Title: Wie man den Inhalt ändert
 ---
 Alle Inhaltsdateien befinden sich im `content`-Verzeichnis. Hier bearbeitet man seine Webseite. 
 
-    ├── content
-    │   ├── 1-home
-    │   ├── 9-about
-    │   └── shared
-    ├── media
-    └── system
+``` box-drawing {aria-hidden=true}
+├── content
+│   ├── 1-home
+│   ├── 9-about
+│   └── shared
+├── media
+└── system
+```
 
 Das `content`-Verzeichnis steht auf deiner Webseite zur Verfügung. In jedem Verzeichnis gibt es eine Datei mit Namen `page.md`. Man kann weitere Dateien und Verzeichnisse hinzufügen. Man kann auch Sonderzeichen in Datei- und Verzeichnisnamen benutzen, zum Beispiel ÄÖÅ. Mit anderen Worten, das was du im Dateimanager siehst ist die Webseite die du bekommt.
 

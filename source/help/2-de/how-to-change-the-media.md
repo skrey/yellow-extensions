@@ -3,12 +3,14 @@ Title: Wie man die Medien ändert
 ---
 Alle Mediendateien befinden sich im `media`-Verzeichnis. Hier speichert man seine Bilder und andere Dateien.
 
-    ├── content
-    ├── media
-    │   ├── downloads
-    │   ├── images
-    │   └── thumbnails
-    └── system
+``` box-drawing {aria-hidden=true}
+├── content
+├── media
+│   ├── downloads
+│   ├── images
+│   └── thumbnails
+└── system
+```
 
 Das `media/downloads`-Verzeichnis enthält Dateien zum Herunterladen. Das `media/images`-Verzeichnis ist zum Speichern von Bildern gedacht. Das `media/thumbnails`-Verzeichnis enthält Miniaturbilder. Man kann auch weitere Verzeichnisse hinzufügen und Dateien so organisieren wie man will. Im Grunde genommen kann jede Mediendatei von der Webseite heruntergeladen werden.
 

@@ -3,13 +3,15 @@ Title: How to change the system
 ---
 All system files are located in the `system` folder. You can change your website here.
 
-    ├── content
-    ├── media
-    └── system
-        ├── extensions
-        ├── layouts
-        ├── themes
-        └── trash
+``` box-drawing {aria-hidden=true}
+├── content
+├── media
+└── system
+    ├── extensions
+    ├── layouts
+    ├── themes
+    └── trash
+```
 
 The `system/extensions` folder contains installed extensions and configuration files. You can change the appearance of your website in the `system/layouts` folder and `system/themes` folder. You can change layouts and themes as you like, knowledge of HTML, CSS and JavaScript is required. The `system/trash` folder contains deleted files.
 

@@ -3,13 +3,15 @@ Title: Hur man ändrar systemet
 ---
 Alla systemfiler finns i `system` mappen. Du kan anpassa din webbplats här. 
 
-    ├── content
-    ├── media
-    └── system
-        ├── extensions
-        ├── layouts
-        ├── themes
-        └── trash
+``` box-drawing {aria-hidden=true}
+├── content
+├── media
+└── system
+    ├── extensions
+    ├── layouts
+    ├── themes
+    └── trash
+```
 
 Mappen `system/extensions` innehåller installerade tillägg och konfigurationsfilar. Du kan justera utseendet på din webbplats i `system/layouts` mappen och `system/themes` mappen. Du kan ändra layouter och teman som du vill, vissa kunskaper i HTML, CSS och JavaScript krävs. Mappen `system/trash` innehåller raderade filer.
 
