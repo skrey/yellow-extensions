@@ -56,28 +56,29 @@ Bild hinzufügen, unterschiedliche Größen mit dem Standardstil:
 
 Du kannst die [Gallery-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-de.md) oder [Slider-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-de.md) benutzen um Bildergalerien einzubinden. Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Um eine Bildergalerie hinzuzufügen, kopierst du die Bilder ins `media/images`-Verzeichnis und erstellst eine `[gallery]`-Abkürzung. Du kannst Bilder auch im Webbrowser hochladen.
 
-Bildergalerie mit Popup hinzufügen, unterschiedliche Stile:
+Bildergalerie mit Popup hinzufügen, unterschiedliche Sortierungen:
 
-    [gallery photo.*jpg zoom]
-    [gallery photo.*jpg simple]
+    [gallery photo.*jpg name]
+    [gallery photo.*jpg modified]
+    [gallery photo.*jpg size]
 
 Bildergalerie mit Popup hinzufügen, unterschiedliche Größen:
 
-    [gallery photo.*jpg zoom 25%]
-    [gallery photo.*jpg zoom 50%]
-    [gallery photo.*jpg zoom 100%]
+    [gallery photo.*jpg name zoom 25%]
+    [gallery photo.*jpg name zoom 50%]
+    [gallery photo.*jpg name zoom 100%]
 
-Bildergalerie mit Slider hinzufügen, unterschiedliche Stile:
+Bildergalerie mit Slider hinzufügen, unterschiedliche Sortierungen:
 
-    [slider photo.*jpg loop]
-    [slider photo.*jpg fade]
-    [slider photo.*jpg slide]
+    [slider photo.*jpg name]
+    [slider photo.*jpg modified]
+    [slider photo.*jpg size]
 
 Bildergalerie mit Slider hinzufügen, unterschiedliche Größen:
 
-    [slider photo.*jpg loop 25%]
-    [slider photo.*jpg loop 50%]
-    [slider photo.*jpg loop 100%]
+    [slider photo.*jpg name loop 25%]
+    [slider photo.*jpg name loop 50%]
+    [slider photo.*jpg name loop 100%]
 
 ## Videos
 

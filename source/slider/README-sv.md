@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Slider 0.8.16
+# Slider 0.8.17
 
 Bildgalleri med reglaget.
 
@@ -13,6 +13,7 @@ Skapa en `[slider]` förkortning.
 Följande argument är tillgängliga, alla utom det första argumentet är valfria:
 
 `Pattern` = filnamn som reguljära uttryck  
+`Sorting` = gallerisortering, t.ex. `name`, `modified`, `size`  
 `Style` = galleristil, t.ex. `loop`, `fade`, `slide`  
 `Size` = bildstorlek, pixel eller procent  
 `Autoplay` = spela upp bilder automatiskt, fördröjningstid i millisekunder  
@@ -22,34 +23,41 @@ Mappen `media/images` är platsen för att lagra dina bilder. Mappen `media/thum
 
 ## Exempel
 
+Lägga till ett bildgalleri, olika sorteringar:
+
+    [slider photo.*jpg name]
+    [slider photo.*jpg modified]
+    [slider photo.*jpg size]
+
 Lägga till ett bildgalleri, olika stilar:
 
-    [slider photo.*jpg loop]
-    [slider photo.*jpg fade]
-    [slider photo.*jpg slide]
+    [slider photo.*jpg name loop]
+    [slider photo.*jpg name fade]
+    [slider photo.*jpg name slide]
 
 Lägga till ett bildgalleri, olika storlekar:
 
-    [slider photo.*jpg loop 25%]
-    [slider photo.*jpg loop 50%]
-    [slider photo.*jpg loop 100%]
+    [slider photo.*jpg name loop 25%]
+    [slider photo.*jpg name loop 50%]
+    [slider photo.*jpg name loop 100%]
 
 Lägga till ett bildgalleri från en undermapp, olika storlekar:
 
-    [slider photo-album/ loop 25%]
-    [slider photo-album/ loop 50%]
-    [slider photo-album/ loop 100%]
+    [slider photo-album/ name loop 25%]
+    [slider photo-album/ name loop 50%]
+    [slider photo-album/ name loop 100%]
 
 Lägga till ett bildgalleri, spela automatiskt med standard stil/storlek:
 
-    [slider photo.*jpg - - 1000]
-    [slider photo.*jpg - - 2000]
-    [slider photo.*jpg - - 5000]
+    [slider photo.*jpg - - - 1000]
+    [slider photo.*jpg - - - 2000]
+    [slider photo.*jpg - - - 5000]
 
 ## Inställningar
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
+`SliderSorting` = gallerisortering, t.ex. `name`, `modified`, `size`  
 `SliderStyle` = galleristil, t.ex. `loop`, `fade`, `slide`  
 `SliderAutoplay` = spela upp bilder automatiskt, fördröjningstid i millisekunder  
 

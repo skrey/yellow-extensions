@@ -149,8 +149,8 @@ Använd HTML:
 Använd förkortningar:
 
     [image photo.jpg Exempel] = lägga till en bild
-    [gallery photo.*jpg zoom] = lägga till ett bildgalleri med popup
-    [slider photo.*jpg loop]  = lägga till ett bildgalleri med reglaget
+    [gallery photo.*jpg]      = lägga till ett bildgalleri med popup
+    [slider photo.*jpg]       = lägga till ett bildgalleri med reglaget
     [youtube fhs55HEl-Gc]     = bädda in en video
     [toc]                     = göra ett innehållsförteckning
 

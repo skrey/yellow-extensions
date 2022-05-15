@@ -2,12 +2,13 @@
 // Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery
 
 class YellowGallery {
-    const VERSION = "0.8.16";
+    const VERSION = "0.8.17";
     public $yellow;         // access to API
 
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
+        $this->yellow->system->setDefault("gallerySorting", "name");
         $this->yellow->system->setDefault("galleryStyle", "zoom");
     }
     
@@ -15,7 +16,8 @@ class YellowGallery {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="gallery" && ($type=="block" || $type=="inline")) {
-            list($pattern, $style, $size) = $this->yellow->toolbox->getTextArguments($text);
+            list($pattern, $sorting, $style, $size) = $this->yellow->toolbox->getTextArguments($text);
+            if (empty($sorting)) $sorting = $this->yellow->system->get("gallerySorting");
             if (empty($style)) $style = $this->yellow->system->get("galleryStyle");
             if (empty($size)) $size = "100%";
             if (empty($pattern)) {
@@ -24,6 +26,8 @@ class YellowGallery {
             } else {
                 $images = $this->yellow->system->get("coreImageLocation");
                 $files = $this->yellow->media->index()->match("#$images$pattern#");
+                if ($sorting=="modified") $files->sort("modified", false);
+                elseif ($sorting=="size") $files->sort("size", false);
             }
             if ($this->yellow->extension->isExisting("image")) {
                 if (count($files)) {

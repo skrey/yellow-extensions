@@ -2,12 +2,13 @@
 // Slider extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/slider
 
 class YellowSlider {
-    const VERSION = "0.8.16";
+    const VERSION = "0.8.17";
     public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
+        $this->yellow->system->setDefault("sliderSorting", "name");
         $this->yellow->system->setDefault("sliderStyle", "loop");
         $this->yellow->system->setDefault("sliderAutoplay", "0");
     }
@@ -16,7 +17,8 @@ class YellowSlider {
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
         if ($name=="slider" && ($type=="block" || $type=="inline")) {
-            list($pattern, $style, $size, $autoplay) = $this->yellow->toolbox->getTextArguments($text);
+            list($pattern, $sorting, $style, $size, $autoplay) = $this->yellow->toolbox->getTextArguments($text);
+            if (empty($sorting)) $sorting = $this->yellow->system->get("sliderSorting");
             if (empty($style)) $style = $this->yellow->system->get("sliderStyle");
             if (empty($size)) $size = "100%";
             if (empty($autoplay)) $autoplay = $this->yellow->system->get("sliderAutoplay");
@@ -26,6 +28,8 @@ class YellowSlider {
             } else {
                 $images = $this->yellow->system->get("coreImageLocation");
                 $files = $this->yellow->media->index()->match("#$images$pattern#");
+                if ($sorting=="modified") $files->sort("modified", false);
+                elseif ($sorting=="size") $files->sort("size", false);
             }
             if ($this->yellow->extension->isExisting("image")) {
                 if (count($files)) {

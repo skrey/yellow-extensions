@@ -24,7 +24,6 @@ Skapa en länk, olika filformat:
     [Ladda ner ZIP-fil](/media/downloads/yellow.zip)
     [Ladda ner audio-fil](/media/downloads/audio-file.mp3)
 
-
 ## Bilder
 
 Du kan använda [image-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/image/README-sv.md) för att bädda in bilder. Bildformaten GIF, JPG, PNG och SVG stöds. För att lägga till en bild, kopiera bilden till `media/images` mappen och skapa en `[image]` förkortning. Du kan också ladda upp bilder i en webbläsare, sedan läggs bilden till på önskad plats.
@@ -57,29 +56,29 @@ Lägga till en bild, olika storlekar med standardstilen:
 
 Du kan använda [gallery-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery/README-sv.md) eller [slider-tillägget](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider/README-sv.md) för att bädda in bildgallerier. Bildformaten GIF, JPG, PNG och SVG stöds. För att lägga till ett bildgalleri, kopiera bilder till `media/images` mappen och skapa en `[gallery]` förkortning. Du kan också ladda upp bilder i en webbläsare.
 
-Lägga till ett bildgalleri med popup, olika stilar:
+Lägga till ett bildgalleri med popup, olika sorteringar:
 
-    [gallery photo.*jpg]
-    [gallery photo.*jpg zoom]
-    [gallery photo.*jpg simple]
+    [gallery photo.*jpg name]
+    [gallery photo.*jpg modified]
+    [gallery photo.*jpg size]
 
 Lägga till ett bildgalleri med popup, olika storlekar:
 
-    [gallery photo.*jpg zoom 25%]
-    [gallery photo.*jpg zoom 50%]
-    [gallery photo.*jpg zoom 100%]
+    [gallery photo.*jpg name zoom 25%]
+    [gallery photo.*jpg name zoom 50%]
+    [gallery photo.*jpg name zoom 100%]
 
-Lägga till ett bildgalleri med reglaget, olika stilar:
+Lägga till ett bildgalleri med reglaget, olika sorteringar:
 
-    [slider photo.*jpg loop]
-    [slider photo.*jpg fade]
-    [slider photo.*jpg slide]
+    [slider photo.*jpg name]
+    [slider photo.*jpg modified]
+    [slider photo.*jpg size]
 
 Lägga till ett bildgalleri med reglaget, olika storlekar:
 
-    [slider photo.*jpg loop 25%]
-    [slider photo.*jpg loop 50%]
-    [slider photo.*jpg loop 100%]
+    [slider photo.*jpg name loop 25%]
+    [slider photo.*jpg name loop 50%]
+    [slider photo.*jpg name loop 100%]
 
 ## Videor
 

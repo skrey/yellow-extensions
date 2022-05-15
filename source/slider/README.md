@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Slider 0.8.16
+# Slider 0.8.17
 
 Image gallery with slider.
 
@@ -13,6 +13,7 @@ Create a `[slider]` shortcut.
 The following arguments are available, all but the first argument are optional:
 
 `Pattern` = file name as regular expression  
+`Sorting` = gallery sorting, e.g. `name`, `modified`, `size`  
 `Style` = gallery style, e.g. `loop`, `fade`, `slide`  
 `Size` = image size, pixel or percent  
 `Autoplay` = play images automatically, delay time in milliseconds  
@@ -21,34 +22,41 @@ The image formats GIF, JPG, PNG and SVG are supported. All media files are locat
 
 ## Examples
 
+Adding an image gallery, different sortings:
+
+    [slider photo.*jpg name]
+    [slider photo.*jpg modified]
+    [slider photo.*jpg size]
+
 Adding an image gallery, different styles:
 
-    [slider photo.*jpg loop]
-    [slider photo.*jpg fade]
-    [slider photo.*jpg slide]
+    [slider photo.*jpg name loop]
+    [slider photo.*jpg name fade]
+    [slider photo.*jpg name slide]
 
 Adding an image gallery, different sizes:
 
-    [slider photo.*jpg loop 25%]
-    [slider photo.*jpg loop 50%]
-    [slider photo.*jpg loop 100%]
+    [slider photo.*jpg name loop 25%]
+    [slider photo.*jpg name loop 50%]
+    [slider photo.*jpg name loop 100%]
 
 Adding an image gallery from a subfolder, different sizes:
 
-    [slider photo-album/ loop 25%]
-    [slider photo-album/ loop 50%]
-    [slider photo-album/ loop 100%]
+    [slider photo-album/ name loop 25%]
+    [slider photo-album/ name loop 50%]
+    [slider photo-album/ name loop 100%]
 
-Adding an image gallery, play automatically with default style/size:
+Adding an image gallery, play automatically with default sorting/style/size:
 
-    [slider photo.*jpg - - 1000]
-    [slider photo.*jpg - - 2000]
-    [slider photo.*jpg - - 5000]
+    [slider photo.*jpg - - - 1000]
+    [slider photo.*jpg - - - 2000]
+    [slider photo.*jpg - - - 5000]
 
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
+`SliderSorting` = gallery sorting, e.g. `name`, `modified`, `size`  
 `SliderStyle` = gallery style, e.g. `loop`, `fade`, `slide`  
 `SliderAutoplay` = play images automatically, delay time in milliseconds  
 

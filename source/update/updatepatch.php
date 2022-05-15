@@ -2,7 +2,7 @@
 // Update extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/update
 
 class YellowUpdatePatch {
-    const VERSION = "0.8.19";
+    const VERSION = "0.8.20";
     public $yellow;                 // access to API
     
     // Handle initialisation
@@ -18,6 +18,7 @@ class YellowUpdatePatch {
             $this->checkDatenstromYellow0817();
             $this->checkDatenstromYellow0818();
             $this->checkDatenstromYellow0819();
+            $this->checkDatenstromYellow0820();
         }
     }
     
@@ -189,7 +190,6 @@ class YellowUpdatePatch {
             }
         }
         if ($patch) $this->yellow->log("info", "Apply patches for Datenstrom Yellow 0.8.18");
-        
     }
 
     // Check patches for Datenstrom Yellow 0.8.19
@@ -208,5 +208,23 @@ class YellowUpdatePatch {
             $patch = true;
         }
         if ($patch) $this->yellow->log("info", "Apply patches for Datenstrom Yellow 0.8.19");
+    }
+    
+    // Check patches for Datenstrom Yellow 0.8.20
+    public function checkDatenstromYellow0820() {
+        $patch = false;
+        if ($this->yellow->system->isExisting("galleryStyle") || $this->yellow->system->isExisting("sliderStyle")) {
+            $path = $this->yellow->system->get("coreContentDirectory");
+            foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.(md|txt)$/", true, false) as $entry) {
+                $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
+                $fileDataNew = preg_replace("/\[gallery\s+(\S+)\s+(zoom|simple)/i", "[gallery $1 name $2", $fileDataNew);
+                $fileDataNew = preg_replace("/\[slider\s+(\S+)\s+(loop|fade|slide)/i", "[slider $1 name $2", $fileDataNew);
+                if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
+                    $this->yellow->log("error", "Can't write file '$entry'!");
+                }
+                if ($fileData!=$fileDataNew) $patch = true;
+            }
+        }
+        if ($patch) $this->yellow->log("info", "Apply patches for Datenstrom Yellow 0.8.20");
     }
 }

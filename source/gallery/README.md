@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Gallery 0.8.16
+# Gallery 0.8.17
 
 Image gallery with popup.
 
@@ -13,6 +13,7 @@ Create a `[gallery]` shortcut.
 The following arguments are available, all but the first argument are optional:
 
 `Pattern` = file name as regular expression  
+`Sorting` = gallery sorting, e.g. `name`, `modified`, `size`  
 `Style` = gallery style, e.g. `zoom`, `simple`  
 `Size` = image size, pixel or percent  
 
@@ -24,28 +25,34 @@ Image captions can be configured in the language settings. Open file `system/ext
 
 ## Examples
 
+Adding an image gallery, different sortings:
+
+    [gallery photo.*jpg name]
+    [gallery photo.*jpg modified]
+    [gallery photo.*jpg size]
+
 Adding an image gallery, different styles:
 
-    [gallery photo.*jpg zoom]
-    [gallery photo.*jpg simple]
+    [gallery photo.*jpg name zoom]
+    [gallery photo.*jpg name simple]
 
 Adding an image gallery, different sizes:
 
-    [gallery photo.*jpg zoom 25%]
-    [gallery photo.*jpg zoom 50%]
-    [gallery photo.*jpg zoom 100%]
+    [gallery photo.*jpg name zoom 25%]
+    [gallery photo.*jpg name zoom 50%]
+    [gallery photo.*jpg name zoom 100%]
 
 Adding an image gallery, square thumbnails:
 
-    [gallery photo.*jpg zoom 64]
-    [gallery photo.*jpg zoom 150]
-    [gallery photo.*jpg zoom 300]
+    [gallery photo.*jpg name zoom 64]
+    [gallery photo.*jpg name zoom 150]
+    [gallery photo.*jpg name zoom 300]
 
 Adding an image gallery from a subfolder, square thumbnails:
 
-    [gallery photo-album/ zoom 64]
-    [gallery photo-album/ zoom 150]
-    [gallery photo-album/ zoom 300]
+    [gallery photo-album/ name zoom 64]
+    [gallery photo-album/ name zoom 150]
+    [gallery photo-album/ name zoom 300]
 
 Configuring image captions in the language settings:
 
@@ -59,6 +66,7 @@ Configuring image captions in the language settings:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
+`GallerySorting` = gallery sorting, e.g. `name`, `modified`, `size`  
 `GalleryStyle` = gallery style, e.g. `zoom`, `simple`  
 
 ## Installation

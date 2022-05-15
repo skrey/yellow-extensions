@@ -56,29 +56,29 @@ Adding an image, different sizes with the default style:
 
 You can use the [gallery extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery) or [slider extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/slider) to embed image galleries. The image formats GIF, JPG, PNG and SVG are supported. To add a gallery, copy images into the `media/images` folder and create a `[gallery]` shortcut. You can also upload images in a web browser.
 
-Adding an image gallery with popup, different styles:
+Adding an image gallery with popup, different sortings:
 
-    [gallery photo.*jpg zoom]
-    [gallery photo.*jpg simple]
+    [gallery photo.*jpg name]
+    [gallery photo.*jpg modified]
+    [gallery photo.*jpg size]
 
 Adding an image gallery with popup, different sizes:
 
-    [gallery photo.*jpg zoom 25%]
-    [gallery photo.*jpg zoom 50%]
-    [gallery photo.*jpg zoom 100%]
+    [gallery photo.*jpg name zoom 25%]
+    [gallery photo.*jpg name zoom 50%]
+    [gallery photo.*jpg name zoom 100%]
 
+Adding an image gallery with slider, different sortings:
 
-Adding an image gallery with slider, different styles:
-
-    [slider photo.*jpg loop]
-    [slider photo.*jpg fade]
-    [slider photo.*jpg slide]
+    [slider photo.*jpg name]
+    [slider photo.*jpg modified]
+    [slider photo.*jpg size]
 
 Adding an image gallery with slider, different sizes:
 
-    [slider photo.*jpg loop 25%]
-    [slider photo.*jpg loop 50%]
-    [slider photo.*jpg loop 100%]
+    [slider photo.*jpg name loop 25%]
+    [slider photo.*jpg name loop 50%]
+    [slider photo.*jpg name loop 100%]
 
 ## Videos
 

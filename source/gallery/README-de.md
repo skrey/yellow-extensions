@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Gallery 0.8.16
+# Gallery 0.8.17
 
 Bildergalerie mit Popup.
 
@@ -13,6 +13,7 @@ Erstelle eine `[gallery]`-Abkürzung.
 Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind optional:
 
 `Pattern` = Dateiname als regulärer Ausdruck  
+`Sorting` = Galeriesortierung, z.B. `name`, `modified`, `size`  
 `Style` = Galeriestil, z.B. `zoom`, `simple`  
 `Size` = Bildgröße, Pixel oder Prozent  
 
@@ -24,28 +25,34 @@ Bildunterschriften können in den Spracheinstellungen festgelegt werden. Öffne 
 
 ## Beispiele
 
+Bildergalerie hinzufügen, unterschiedliche Sortierungen:
+
+    [gallery photo.*jpg name]
+    [gallery photo.*jpg modified]
+    [gallery photo.*jpg size]
+
 Bildergalerie hinzufügen, unterschiedliche Stile:
 
-    [gallery photo.*jpg zoom]
-    [gallery photo.*jpg simple]
+    [gallery photo.*jpg name zoom]
+    [gallery photo.*jpg name simple]
 
 Bildergalerie hinzufügen, unterschiedliche Größen:
 
-    [gallery photo.*jpg zoom 25%]
-    [gallery photo.*jpg zoom 50%]
-    [gallery photo.*jpg zoom 100%]
+    [gallery photo.*jpg name zoom 25%]
+    [gallery photo.*jpg name zoom 50%]
+    [gallery photo.*jpg name zoom 100%]
 
 Bildergalerie hinzufügen, rechteckige Miniaturbilder:
 
-    [gallery photo.*jpg zoom 64]
-    [gallery photo.*jpg zoom 150]
-    [gallery photo.*jpg zoom 300]
+    [gallery photo.*jpg name zoom 64]
+    [gallery photo.*jpg name zoom 150]
+    [gallery photo.*jpg name zoom 300]
 
 Bildergalerie aus einem Unterverzeichnis hinzufügen, rechteckige Miniaturbilder:
 
-    [gallery photo-album/ zoom 64]
-    [gallery photo-album/ zoom 150]
-    [gallery photo-album/ zoom 300]
+    [gallery photo-album/ name zoom 64]
+    [gallery photo-album/ name zoom 150]
+    [gallery photo-album/ name zoom 300]
 
 Bildunterschriften in den Spracheinstellungen festlegen:
 
@@ -59,6 +66,7 @@ Bildunterschriften in den Spracheinstellungen festlegen:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
+`GallerySorting` = Galeriesortierung, z.B. `name`, `modified`, `size`  
 `GalleryStyle` = Galeriestil, z.B. `zoom`, `simple`  
 
 ## Installation
