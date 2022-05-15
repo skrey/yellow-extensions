@@ -37,7 +37,7 @@ You can use a [web browser](https://github.com/datenstrom/yellow-extensions/tree
 `Theme` = default theme  
 `Language` = default language  
 `Parser` = default page parser  
-`Status` = default page status  
+`Status` = default page status, [supported status values](#settings-status)  
 
 ## User settings
 
@@ -89,7 +89,7 @@ The following settings can be configured at the top of a page:
 `Theme` = page theme  
 `Language` = page language  
 `Parser` = page parser  
-`Status` = page status  
+`Status` = page status, [supported status values](#settings-status)  
 `Redirect` = redirect to a new page or URL  
 `Image` = page image  
 `ImageAlt` = description of the page image  
@@ -98,5 +98,13 @@ The following settings can be configured at the top of a page:
 `Tag` = page tag(s) for categorisation, comma separated  
 `Build` = page option(s) for building a static website, comma separated  
 `Comment` = page option(s) for showing comments, comma separated  
+
+<a id="settings-status"></a>The following page status values are supported:
+
+`public` = page is a normal page  
+`private` = page is not visible, user needs to enter password, [requires private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
+`draft` = page is not visible, user needs to log in, [requires draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)  
+`unlisted` = page is not visible, but can be accessed with the correct link  
+`shared` = page is not visible, but can be included in other pages  
 
 Do you have questions? [Get help](.).

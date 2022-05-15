@@ -31,11 +31,6 @@ Bildergalerie hinzufügen, unterschiedliche Sortierungen:
     [gallery photo.*jpg modified]
     [gallery photo.*jpg size]
 
-Bildergalerie hinzufügen, unterschiedliche Stile:
-
-    [gallery photo.*jpg name zoom]
-    [gallery photo.*jpg name simple]
-
 Bildergalerie hinzufügen, unterschiedliche Größen:
 
     [gallery photo.*jpg name zoom 25%]

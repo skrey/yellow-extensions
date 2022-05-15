@@ -28,12 +28,6 @@ Adding an image gallery, different sortings:
     [slider photo.*jpg modified]
     [slider photo.*jpg size]
 
-Adding an image gallery, different styles:
-
-    [slider photo.*jpg name loop]
-    [slider photo.*jpg name fade]
-    [slider photo.*jpg name slide]
-
 Adding an image gallery, different sizes:
 
     [slider photo.*jpg name loop 25%]

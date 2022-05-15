@@ -31,11 +31,6 @@ Adding an image gallery, different sortings:
     [gallery photo.*jpg modified]
     [gallery photo.*jpg size]
 
-Adding an image gallery, different styles:
-
-    [gallery photo.*jpg name zoom]
-    [gallery photo.*jpg name simple]
-
 Adding an image gallery, different sizes:
 
     [gallery photo.*jpg name zoom 25%]

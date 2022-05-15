@@ -148,11 +148,11 @@ Använd HTML:
 
 Använd förkortningar:
 
-    [image photo.jpg Exempel] = lägga till en bild
-    [gallery photo.*jpg]      = lägga till ett bildgalleri med popup
-    [slider photo.*jpg]       = lägga till ett bildgalleri med reglaget
-    [youtube fhs55HEl-Gc]     = bädda in en video
-    [toc]                     = göra ett innehållsförteckning
+    [image photo.jpg]     = lägga till en bild
+    [gallery photo.*jpg]  = lägga till ett bildgalleri med popup
+    [slider photo.*jpg]   = lägga till ett bildgalleri med reglaget
+    [youtube fhs55HEl-Gc] = bädda in en video
+    [toc]                 = göra ett innehållsförteckning
 
     Förkortningar kräver ytterligare tillägg för att fungera.
 

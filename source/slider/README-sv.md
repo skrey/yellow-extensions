@@ -29,12 +29,6 @@ Lägga till ett bildgalleri, olika sorteringar:
     [slider photo.*jpg modified]
     [slider photo.*jpg size]
 
-Lägga till ett bildgalleri, olika stilar:
-
-    [slider photo.*jpg name loop]
-    [slider photo.*jpg name fade]
-    [slider photo.*jpg name slide]
-
 Lägga till ett bildgalleri, olika storlekar:
 
     [slider photo.*jpg name loop 25%]

@@ -37,7 +37,7 @@ Im [Webbrowser](https://github.com/datenstrom/yellow-extensions/tree/master/sour
 `Theme` = Standard-Thema  
 `Language` = Standard-Sprache  
 `Parser` = Standard-Seitenparser  
-`Status` = Standard-Seitenstatus  
+`Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
 
 ## Benutzereinstellungen
 
@@ -89,7 +89,7 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Theme` = Thema der Seite  
 `Language` = Sprache der Seite  
 `Parser` = Parser der Seite  
-`Status` = Status der Seite  
+`Status` = Status der Seite, [unterstützte Statuswerte](#einstellungen-status)  
 `Redirect` = Umleitung zu einer neuen Seite oder URL  
 `Image` = Bild der Seite  
 `ImageAlt` = Beschreibung des Bildes der Seite  
@@ -98,5 +98,13 @@ Die folgenden Einstellungen können ganz oben auf einer Seite vorgenommen werden
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
 `Build` = Optionen zum Erstellen einer statischen Webseite, durch Komma getrennt  
 `Comment` = Optionen zum Anzeigen von Kommentaren, durch Komma getrennt  
+
+<a id="einstellungen-status"></a>Die folgenden Seiten-Statuswerte werden unterstützt:
+
+`public` = Seite ist eine normale Seite  
+`private` = Seite ist nicht sichtbar, Benutzer muss das Kennwort eingeben, [erfordert Private-Erweiterung](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private/README-de.md)  
+`draft` = Seite ist nicht sichtbar, Benutzer muss sich einloggen, [erfordert Draft-Erweiterung](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft/README-de.md)  
+`unlisted` = Seite ist nicht sichtbar, aber kann mit dem richtigen Link abgerufen werden  
+`shared` = Seite ist nicht sichtbar, aber kann in andere Seiten eingebunden werden  
 
 Hast du Fragen? [Hilfe finden](.).

@@ -37,7 +37,7 @@ Du kan använda [webbläsaren](https://github.com/datenstrom/yellow-extensions/t
 `Theme` = standardtema  
 `Language` = standardspråk  
 `Parser` = standard sidparser  
-`Status` = standard sidstatus  
+`Status` = standard sidstatus, [stödda statusvärden](#inställningar-status)  
 
 ## Användarinställningar
 
@@ -89,7 +89,7 @@ Följande inställningar kan konfigureras högst upp på en sida:
 `Theme` = sidans tema  
 `Language` = sidans språk  
 `Parser` = sidans parser  
-`Status` = sidans status  
+`Status` = sidans status, [stödda statusvärden](#inställningar-status)  
 `Redirect` = omdirigera till en ny sida eller URL  
 `Image` = sidans bild  
 `ImageAlt` = beskrivning av sidans bild  
@@ -98,5 +98,13 @@ Följande inställningar kan konfigureras högst upp på en sida:
 `Tag` = taggar för kategorisering av sidan, kommaseparerade  
 `Build` = alternativ för att bygga en statisk webbplats, kommaseparerade  
 `Comment` = alternativ för att visa kommentarer, kommaseparerade  
+
+<a id="inställningar-status"></a>Följande sidstatusvärden stöds:
+
+`public` = sidan är en vanlig sida  
+`private` = sidan är inte synlig, användaren måste ange lösenord, [kräver private-tillägg](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
+`draft` = sidan är inte synlig, användaren måste logga in, [kräver draft-tillägg](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)  
+`unlisted` = sidan är inte synlig, men kan nås med rätt länk  
+`shared` = sidan är inte synlig, men kan ingå i andra sidor  
 
 Har du några frågor? [Få hjälp](.).

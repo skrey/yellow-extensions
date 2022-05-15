@@ -28,12 +28,6 @@ Bildergalerie hinzufügen, unterschiedliche Sortierungen:
     [slider photo.*jpg modified]
     [slider photo.*jpg size]
 
-Bildergalerie hinzufügen, unterschiedliche Stile:
-
-    [slider photo.*jpg name loop]
-    [slider photo.*jpg name fade]
-    [slider photo.*jpg name slide]
-
 Bildergalerie hinzufügen, unterschiedliche Größen:
 
     [slider photo.*jpg name loop 25%]

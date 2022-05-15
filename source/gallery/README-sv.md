@@ -32,11 +32,6 @@ Lägga till ett bildgalleri, olika sorteringar:
     [gallery photo.*jpg modified]
     [gallery photo.*jpg size]
 
-Lägga till ett bildgalleri, olika stilar:
-
-    [gallery photo.*jpg name zoom]
-    [gallery photo.*jpg name simple]
-
 Lägga till ett bildgalleri, olika storlekar:
 
     [gallery photo.*jpg name zoom 25%]
