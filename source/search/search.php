@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.20";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -119,13 +119,12 @@ class YellowSearch {
     // Return raw data for search results, extract the relevant page content
     public function getRawDataSearch($page, $tokens) {
         $output = $outputStart = "";
-        $foundStart = false;
-        $insideCode = false;
+        $foundStart = $insideCode = false;
         foreach ($this->yellow->toolbox->getTextLines($page->getContent(true)) as $line) {
             if (!$foundStart) {
                 if (preg_match("/^`{3,}/", $line)) $insideCode ^= true;
-                if ($line=="\n" && !$insideCode) {
-                    $outputStart = "";
+                if (!$insideCode && ($line=="\n" || preg_match("/^\s*(\d*\.|\*|\-|\|)\s+/", $line))) {
+                    $outputStart = $line;
                 } else {
                     $outputStart .= $line;
                 }
