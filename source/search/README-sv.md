@@ -32,9 +32,9 @@ Söka på en webbplats, olika filter:
 Söka på en webbplats, ytterligare filter för inloggade användare:
 
     status:private
+    status:draft
     status:unlisted
     status:shared
-    status:draft
 
 Visa ett sökfält:
 

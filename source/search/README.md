@@ -32,9 +32,9 @@ Searching a website, different filters:
 Searching a website, additional filters for logged in users:
 
     status:private
+    status:draft
     status:unlisted
     status:shared
-    status:draft
 
 Showing a search field:
 

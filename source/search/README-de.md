@@ -32,9 +32,9 @@ Webseite durchsuchen, unterschiedliche Filter:
 Webseite durchsuchen, zusätzliche Filter für angemeldete Benutzer:
 
     status:private
+    status:draft
     status:unlisted
     status:shared
-    status:draft
 
 Suchfeld anzeigen:
 
