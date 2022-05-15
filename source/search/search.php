@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.22";
+    const VERSION = "0.8.23";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -119,30 +119,32 @@ class YellowSearch {
     // Return raw data for search results, extract the relevant page content
     public function getRawDataSearch($page, $tokens) {
         $output = $outputStart = "";
-        $foundStart = $insideCode = false;
-        foreach ($tokens as $token) {
-            if (stristr($page->get("title"), $token)) {
-                $foundStart = true;
-                break;
+        if (!empty($tokens)) {
+            $foundStart = $insideCode = false;
+            foreach ($tokens as $token) {
+                if (stristr($page->get("title"), $token)) {
+                    $foundStart = true;
+                    break;
+                }
             }
-        }
-        foreach ($this->yellow->toolbox->getTextLines($page->getContent(true)) as $line) {
-            if (!$foundStart) {
-                if (preg_match("/^`{3,}/", $line)) $insideCode ^= true;
-                if (!$insideCode && ($line=="\n" || preg_match("/^(\!)?\s*(\d*\.|\*|\-|\|)\s+/", $line))) {
-                    $outputStart = $line;
-                } else {
-                    $outputStart .= $line;
-                }
-                foreach ($tokens as $token) {
-                    if (stristr($line, $token)) {
-                        $output = $outputStart;
-                        $foundStart = true;
-                        break;
+            foreach ($this->yellow->toolbox->getTextLines($page->getContent(true)) as $line) {
+                if (!$foundStart) {
+                    if (preg_match("/^`{3,}/", $line)) $insideCode ^= true;
+                    if (!$insideCode && ($line=="\n" || preg_match("/^(\!)?\s*(\d*\.|\*|\-|\|)\s+/", $line))) {
+                        $outputStart = $line;
+                    } else {
+                        $outputStart .= $line;
                     }
+                    foreach ($tokens as $token) {
+                        if (stristr($line, $token)) {
+                            $output = $outputStart;
+                            $foundStart = true;
+                            break;
+                        }
+                    }
+                } else {
+                    $output .= $line;
                 }
-            } else {
-                $output .= $line;
             }
         }
         if (empty($output)) $output = $page->getContent(true);
