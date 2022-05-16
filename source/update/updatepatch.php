@@ -63,6 +63,7 @@ class YellowUpdatePatch {
             $this->yellow->system->set("coreServerInstallDirectory", $pathInstall);
             $this->yellow->system->set("coreServerRootDirectory", $pathRoot);
             $this->yellow->system->set("coreServerHomeDirectory", $pathHome);
+            date_default_timezone_set($this->yellow->system->get("coreServerTimezone"));
             $this->yellow->user->load("system/extensions/yellow-user.ini");
             $this->yellow->language->load("system/extensions/yellow-language.ini");
             $patch = true;
