@@ -40,11 +40,11 @@ Bildergalerie aus einem Unterverzeichnis hinzufügen, unterschiedliche Größen:
     [slider photo-album/ name loop 50%]
     [slider photo-album/ name loop 100%]
 
-Bildergalerie hinzufügen, automatisch abspielen mit Standardsortierung/-stil/-größe:
+Bildergalerie hinzufügen, mit unterschiedlichen Verzögerungszeiten abspielen:
 
-    [slider photo.*jpg - - - 1000]
-    [slider photo.*jpg - - - 2000]
-    [slider photo.*jpg - - - 5000]
+    [slider photo.*jpg name loop 100% 1000]
+    [slider photo.*jpg name loop 100% 2000]
+    [slider photo.*jpg name loop 100% 5000]
 
 ## Einstellungen
 

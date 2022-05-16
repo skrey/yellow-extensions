@@ -82,7 +82,7 @@ class YellowUpdatePatch {
             if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
                 $this->yellow->log("error", "Can't write file '$entry'!");
             }
-            if ($fileData!=$fileDataNew) $patch = true; //converted layout file to new API
+            if ($fileData!=$fileDataNew) $patch = true;
         }
         if ($patch) $this->yellow->log("info", "Apply patches for Datenstrom Yellow 0.8.15");
     }
@@ -141,6 +141,7 @@ class YellowUpdatePatch {
             $patch = true;
         }
         if ($this->yellow->system->isExisting("coreServerTimezone")) {
+            date_default_timezone_set($this->yellow->system->get("coreServerTimezone"));
             $coreTimezone = $this->yellow->system->get("coreServerTimezone");
             if (!$this->yellow->system->save($fileName, array("coreTimezone" => $coreTimezone))) {
                 $this->yellow->log("error", "Can't write file '$fileName'!");
@@ -219,7 +220,9 @@ class YellowUpdatePatch {
             foreach ($this->yellow->toolbox->getDirectoryEntriesRecursive($path, "/^.*\.(md|txt)$/", true, false) as $entry) {
                 $fileData = $fileDataNew = $this->yellow->toolbox->readFile($entry);
                 $fileDataNew = preg_replace("/\[gallery\s+(\S+)\s+(zoom|simple)/i", "[gallery $1 name $2", $fileDataNew);
+                $fileDataNew = preg_replace("/\[gallery\s+(\S+)\s+(\-)\s+([\d\.\%]+)/i", "[gallery $1 name zoom $3", $fileDataNew);
                 $fileDataNew = preg_replace("/\[slider\s+(\S+)\s+(loop|fade|slide)/i", "[slider $1 name $2", $fileDataNew);
+                $fileDataNew = preg_replace("/\[slider\s+(\S+)\s+(\-)\s+([\d\.\%]+)/i", "[slider $1 name loop $3", $fileDataNew);
                 if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($entry, $fileDataNew)) {
                     $this->yellow->log("error", "Can't write file '$entry'!");
                 }

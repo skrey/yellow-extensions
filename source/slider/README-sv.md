@@ -41,11 +41,11 @@ Lägga till ett bildgalleri från en undermapp, olika storlekar:
     [slider photo-album/ name loop 50%]
     [slider photo-album/ name loop 100%]
 
-Lägga till ett bildgalleri, spela automatiskt med standard stil/storlek:
+Lägga till ett bildgalleri, spela upp med olika fördröjningstider:
 
-    [slider photo.*jpg - - - 1000]
-    [slider photo.*jpg - - - 2000]
-    [slider photo.*jpg - - - 5000]
+    [slider photo.*jpg name loop 100% 1000]
+    [slider photo.*jpg name loop 100% 2000]
+    [slider photo.*jpg name loop 100% 5000]
 
 ## Inställningar
 

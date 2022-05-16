@@ -40,11 +40,11 @@ Adding an image gallery from a subfolder, different sizes:
     [slider photo-album/ name loop 50%]
     [slider photo-album/ name loop 100%]
 
-Adding an image gallery, play automatically with default sorting/style/size:
+Adding an image gallery, play with different delays:
 
-    [slider photo.*jpg - - - 1000]
-    [slider photo.*jpg - - - 2000]
-    [slider photo.*jpg - - - 5000]
+    [slider photo.*jpg name loop 100% 1000]
+    [slider photo.*jpg name loop 100% 2000]
+    [slider photo.*jpg name loop 100% 5000]
 
 ## Settings
 
