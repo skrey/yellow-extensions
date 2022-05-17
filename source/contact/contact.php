@@ -10,6 +10,7 @@ class YellowContact {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("contactLocation", "/contact/");
         $this->yellow->system->setDefault("contactEmailRestriction", "0");
+        $this->yellow->system->setDefault("contactEmailFrom", "noreply");
         $this->yellow->system->setDefault("contactLinkRestriction", "0");
         $this->yellow->system->setDefault("contactSpamFilter", "advert|promot|market|traffic|click here");
         $this->yellow->language->setDefault("contactMailHeader");
@@ -73,6 +74,7 @@ class YellowContact {
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
         $author = $this->yellow->system->get("author");
         $email = $this->yellow->system->get("email");
+        $emailfrom = $this->yellow->system->get("ContactEmailFrom");
         if ($this->yellow->page->isExisting("author") && !$this->yellow->system->get("contactEmailRestriction")) {
             $author = $this->yellow->page->get("author");
         }
@@ -86,7 +88,7 @@ class YellowContact {
         if ($status=="send") {
             $mailTo = mb_encode_mimeheader("$author")." <$email>";
             $mailSubject = mb_encode_mimeheader($this->yellow->page->get("title"));
-            $mailHeaders = mb_encode_mimeheader("From: $sitename")." <noreply>\r\n";
+            $mailHeaders = mb_encode_mimeheader("From: $sitename")." <$emailfrom>\r\n";
             $mailHeaders .= mb_encode_mimeheader("Reply-To: $name")." <$from>\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Referer-Url: ".$referer)."\r\n";
             $mailHeaders .= mb_encode_mimeheader("X-Request-Url: ".$this->yellow->page->getUrl())."\r\n";
