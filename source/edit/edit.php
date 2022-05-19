@@ -1562,7 +1562,7 @@ class YellowEditResponse {
     
     // Send mail to user
     public function sendMail($scheme, $address, $base, $email, $action) {
-        $emailfrom = $this->yellow->system->editSiteEmail");
+        $emailfrom = $this->yellow->system->get("editSiteEmail");
         if ($action=="approve") {
             $userName = $this->yellow->system->get("author");
             $userEmail = $this->yellow->system->get("email");
