@@ -10,7 +10,7 @@ class YellowContact {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("contactLocation", "/contact/");
         $this->yellow->system->setDefault("contactEmailRestriction", "0");
-        $this->yellow->system->setDefault("contactEmailFrom", "noreply");
+        $this->yellow->system->setDefault("contactSiteEmail", "noreply");
         $this->yellow->system->setDefault("contactLinkRestriction", "0");
         $this->yellow->system->setDefault("contactSpamFilter", "advert|promot|market|traffic|click here");
         $this->yellow->language->setDefault("contactMailHeader");
@@ -74,7 +74,7 @@ class YellowContact {
         $spamFilter = $this->yellow->system->get("contactSpamFilter");
         $author = $this->yellow->system->get("author");
         $email = $this->yellow->system->get("email");
-        $emailfrom = $this->yellow->system->get("ContactEmailFrom");
+        $emailfrom = $this->yellow->system->get("contactSiteEmail");
         if ($this->yellow->page->isExisting("author") && !$this->yellow->system->get("contactEmailRestriction")) {
             $author = $this->yellow->page->get("author");
         }

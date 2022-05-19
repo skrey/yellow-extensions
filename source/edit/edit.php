@@ -29,6 +29,7 @@ class YellowEdit {
         $this->yellow->system->setDefault("editLoginSessionTimeout", "2592000");
         $this->yellow->system->setDefault("editBruteForceProtection", "25");
         $this->yellow->language->setDefault("editMailFooter");
+        $this->yellow->system->setDefault("editSiteEmail", "noreply");
     }
     
     // Handle update
@@ -1561,6 +1562,7 @@ class YellowEditResponse {
     
     // Send mail to user
     public function sendMail($scheme, $address, $base, $email, $action) {
+        $emailfrom = $this->yellow->system->editSiteEmail");
         if ($action=="approve") {
             $userName = $this->yellow->system->get("author");
             $userEmail = $this->yellow->system->get("email");
@@ -1591,7 +1593,7 @@ class YellowEditResponse {
         $footer = preg_replace("/@sitename/i", $sitename, $footer);
         $mailTo = mb_encode_mimeheader("$userName")." <$userEmail>";
         $mailSubject = mb_encode_mimeheader($this->yellow->language->getText("{$prefix}Subject", $userLanguage));
-        $mailHeaders = mb_encode_mimeheader("From: $sitename")." <noreply>\r\n";
+        $mailHeaders = mb_encode_mimeheader("From: $sitename")." <$emailfrom>\r\n";
         $mailHeaders .= mb_encode_mimeheader("X-Request-Url: $scheme://$address$base")."\r\n";
         $mailHeaders .= "Mime-Version: 1.0\r\n";
         $mailHeaders .= "Content-Type: text/plain; charset=utf-8\r\n";
